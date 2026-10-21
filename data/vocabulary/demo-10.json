@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "title": "10 từ mẫu · học sâu",
+  "status": "pilot",
+  "hskAssignment": null,
+  "description": "Bản biên soạn thử theo mẫu đã duyệt; chưa phải danh sách đủ 503/746 từ. Chữ giản thể, tiếng Trung phổ thông.",
+  "sources": [
+    {
+      "title": "Đối chiếu mong muốn và ý định",
+      "url": "https://www.chineseboost.com/grammar/xiang3-yao4-xiang3yao4-difference/"
+    },
+    {
+      "title": "Đối chiếu kỹ năng và khả năng",
+      "url": "https://www.thatsmandarin.com/chinese-grammar/3-chinese-verbs-can-hui-neng-keyi/"
+    },
+    {
+      "title": "Hoạt động đang diễn ra · Đại học Ngoại ngữ Tokyo",
+      "url": "https://www.coelang.tufs.ac.jp/modules/zh/gmod/contents/explanation/045.html"
+    }
+  ],
+  "editorial": "Nội dung và bài tập biên soạn mới; nguồn dùng để đối chiếu một số điểm ngữ pháp. Không coi toàn bộ mục từ đã được nguồn kiểm chứng. Mẹo nhận mặt chữ không phải từ nguyên.",
+  "words": [
+    {
+      "id": "dadianhua",
+      "hanzi": "打电话",
+      "intro": [
+        {
+          "pinyin": "dǎ diànhuà",
+          "meaning": "gọi điện thoại"
+        }
+      ],
+      "meaning": "gọi điện thoại",
+      "scene": "Bạn muốn gọi về hỏi thăm mẹ sau giờ làm. Hai người sẽ trao đổi bằng giọng nói qua điện thoại.",
+      "when": "Dùng cho hoạt động gọi điện. Nếu chỉ gửi tin nhắn, chọn 发消息 — gửi tin nhắn.",
+      "pattern": "Người gọi + thời gian + 给 + người nhận + 打电话",
+      "phrases": [
+        "给妈妈打电话 — gọi điện cho mẹ",
+        "打电话给朋友 — gọi điện cho bạn"
+      ],
+      "examples": [
+        {
+          "zh": "我晚上给妈妈打电话。",
+          "vi": "Buổi tối tôi gọi điện cho mẹ.",
+          "analysis": "晚上 là thời điểm; 给妈妈 chỉ người nhận; 打电话 là hoạt động."
+        },
+        {
+          "zh": "他在打电话。",
+          "vi": "Anh ấy đang gọi điện.",
+          "analysis": "在 đặt trước hoạt động để diễn tả việc đang diễn ra."
+        }
+      ],
+      "forms": [
+        {
+          "zh": "我今天不给他打电话。",
+          "vi": "Hôm nay tôi không gọi cho anh ấy."
+        },
+        {
+          "zh": "你昨天给他打电话了吗？",
+          "vi": "Hôm qua bạn đã gọi cho anh ấy chưa?"
+        }
+      ],
+      "trap": "Để nói gọi cho anh ấy, dùng 给他打电话 hoặc 打电话给他; tránh ghép 打电话他.",
+      "shape": {
+        "pair": "打 / 订",
+        "difference": "打 có 扌 bên trái, liên quan đến tay trong nhiều chữ; 订 có 讠 bên trái. Nhận diện hình chữ, không suy ra nghĩa chỉ từ một thành phần.",
+        "examples": [
+          "打电话 — gọi điện",
+          "订票 — đặt vé"
+        ]
+      },
+      "near": {
+        "pair": "打电话 / 发消息",
+        "difference": "Một bên là gọi trao đổi bằng giọng nói; một bên là gửi tin nhắn.",
+        "examples": [
+          "我给你打电话。— Tôi gọi cho bạn.",
+          "我给你发消息。— Tôi gửi tin nhắn cho bạn."
+        ]
+      },
+      "more": [
+        {
+          "title": "Cuộc gọi đã thực hiện",
+          "text": "我给妈妈打了一个电话。— Tôi đã gọi cho mẹ một cuộc điện thoại. Cụm này có thể tách ra để thêm thông tin về lần gọi; không cần học hết cách tách ngay."
+        }
+      ],
+      "quiz": {
+        "question": "Bạn muốn nói “Ngày mai tôi gọi điện cho bạn”. Câu nào phù hợp?",
+        "choices": [
+          "我明天给你打电话。",
+          "我明天打电话你。"
+        ],
+        "answer": 0,
+        "explain": "给你 chỉ người nhận, đặt trước 打电话 trong mẫu đang học."
+      },
+      "task": "Nói bạn sẽ gọi điện cho ai sau giờ làm.",
+      "model": "我下班后给妈妈打电话。",
+      "recognize": "Nhớ cả cụm 打电话; trong cụm này không dịch 打 riêng thành “đánh”."
+    },
+    {
+      "id": "gei",
+      "hanzi": "给",
+      "intro": [
+        {
+          "pinyin": "gěi",
+          "meaning": "đưa, cho"
+        },
+        {
+          "pinyin": "jǐ",
+          "meaning": "cung cấp; gặp trong từ ghép như 供给, không dùng thay cách đọc cho nghĩa đưa/cho của bài chính"
+        }
+      ],
+      "meaning": "đưa, cho",
+      "scene": "Bạn nhờ người phục vụ đưa cho mình một cốc nước.",
+      "when": "Nghĩa chính trong bài là đưa vật cho người nhận. Khi muốn cho phép ai làm gì, không tự thay mọi chữ “cho” bằng 给.",
+      "pattern": "Người đưa + 给 + người nhận + vật",
+      "phrases": [
+        "给我 — cho tôi",
+        "给你一本书 — cho bạn một quyển sách"
+      ],
+      "examples": [
+        {
+          "zh": "请给我一杯水。",
+          "vi": "Làm ơn cho tôi một cốc nước.",
+          "analysis": "给 là hành động; 我 là người nhận; 一杯水 là vật được đưa."
+        },
+        {
+          "zh": "他给我一本书。",
+          "vi": "Anh ấy cho tôi một quyển sách.",
+          "analysis": "Người nhận 我 đứng trước vật 一本书."
+        }
+      ],
+      "forms": [
+        {
+          "zh": "我没给他钱。",
+          "vi": "Tôi không đưa tiền cho anh ấy."
+        },
+        {
+          "zh": "你给谁这本书？",
+          "vi": "Bạn đưa quyển sách này cho ai?"
+        }
+      ],
+      "trap": "Không nói 给这本书我 theo mẫu cơ bản này. Hãy dùng 给我这本书. Với “cho tôi xem”, dùng 让我看看.",
+      "shape": {
+        "pair": "给 / 结",
+        "difference": "Hai chữ đều có 纟 bên trái. Bên phải 给 là 合, bên phải 结 là 吉.",
+        "examples": [
+          "给你 — cho bạn",
+          "结束 — kết thúc"
+        ]
+      },
+      "near": {
+        "pair": "给 / 让",
+        "difference": "给 có thể diễn tả đưa vật; 让 có thể diễn tả để hoặc cho phép ai làm gì. Không thay nhau máy móc.",
+        "examples": [
+          "给我一本书。— Cho tôi một quyển sách.",
+          "让我看看。— Cho tôi xem với."
+        ]
+      },
+      "more": [
+        {
+          "title": "Chỉ người nhận hành động",
+          "text": "我给妈妈买水果。— Tôi mua trái cây cho mẹ. 买 là hành động chính; 给妈妈 cho biết mua cho ai."
+        }
+      ],
+      "quiz": {
+        "question": "Chọn cách nói “Cho tôi một quyển sách”.",
+        "choices": [
+          "给一本书我。",
+          "给我一本书。"
+        ],
+        "answer": 1,
+        "explain": "Theo mẫu đang học, người nhận 我 đứng ngay sau 给, trước vật được đưa."
+      },
+      "task": "Nhờ người khác đưa cho bạn một cốc trà.",
+      "model": "请给我一杯茶。",
+      "recognize": "Nhìn phần 合 bên phải để phân biệt 给 với 结."
+    },
+    {
+      "id": "shuo",
+      "hanzi": "说",
+      "intro": [
+        {
+          "pinyin": "shuō",
+          "meaning": "nói, nói ra"
+        },
+        {
+          "pinyin": "shuì",
+          "meaning": "thuyết phục; gặp trong 游说, không phải cách đọc nói chuyện của bài chính"
+        }
+      ],
+      "meaning": "nói, nói ra",
+      "scene": "Bạn nghe chưa rõ và muốn người đối diện nói chậm hơn.",
+      "when": "Dùng khi nói lời, nội dung hoặc một ngôn ngữ. Nếu nhấn mạnh cuộc trò chuyện qua lại, có thể dùng 聊天 — trò chuyện.",
+      "pattern": "Người nói + 说 + nội dung; người nói + 跟 + người nghe + 说 + nội dung",
+      "phrases": [
+        "说汉语 — nói tiếng Trung",
+        "说实话 — nói thật",
+        "说慢一点 — nói chậm hơn một chút"
+      ],
+      "examples": [
+        {
+          "zh": "他说今天不来。",
+          "vi": "Anh ấy nói hôm nay không đến.",
+          "analysis": "今天不来 là nội dung được nói; không cần thêm từ tương ứng với “rằng”."
+        },
+        {
+          "zh": "请说慢一点。",
+          "vi": "Làm ơn nói chậm hơn một chút.",
+          "analysis": "慢一点 đặt sau 说 để yêu cầu điều chỉnh tốc độ nói."
+        }
+      ],
+      "forms": [
+        {
+          "zh": "我没说这句话。",
+          "vi": "Tôi không nói câu này."
+        },
+        {
+          "zh": "你想说什么？",
+          "vi": "Bạn muốn nói gì?"
+        }
+      ],
+      "trap": "说汉语 là nói tiếng Trung; 学汉语 là học tiếng Trung. Không ghép 说话汉语 để nói “nói tiếng Trung”.",
+      "shape": {
+        "pair": "说 / 悦",
+        "difference": "说 có 讠 bên trái; 悦 có 忄 bên trái. Phần bên phải giống nhau nên cần nhìn cả chữ.",
+        "examples": [
+          "说话 — nói chuyện",
+          "喜悦 — vui mừng"
+        ]
+      },
+      "near": {
+        "pair": "说 / 聊天",
+        "difference": "说 thường tập trung vào lời nói hoặc nội dung; 聊天 nhấn mạnh trò chuyện qua lại.",
+        "examples": [
+          "他说今天不来。— Anh ấy nói hôm nay không đến.",
+          "我们聊天吧。— Chúng ta trò chuyện nhé."
+        ]
+      },
+      "more": [
+        {
+          "title": "Nghĩa mở rộng",
+          "text": "说 còn xuất hiện trong lời nhận xét hoặc trách, như 别说他了 — Đừng trách/nói anh ấy nữa, tùy ngữ cảnh. Chưa cần dùng nghĩa này trong bài cơ bản."
+        }
+      ],
+      "quiz": {
+        "question": "Bạn muốn người đối diện nói chậm hơn. Chọn câu phù hợp.",
+        "choices": [
+          "请说慢一点。",
+          "请学慢一点。"
+        ],
+        "answer": 0,
+        "explain": "Bạn đang yêu cầu điều chỉnh lời nói, nên chọn 说."
+      },
+      "task": "Nói bạn biết nói một chút tiếng Trung.",
+      "model": "我会说一点汉语。",
+      "recognize": "讠 bên trái là dấu hiệu hình chữ hữu ích; không phải bằng chứng đầy đủ cho mọi nghĩa."
+    },
+    {
+      "id": "shengbing",
+      "hanzi": "生病",
+      "intro": [
+        {
+          "pinyin": "shēngbìng",
+          "meaning": "bị bệnh, bị ốm"
+        }
+      ],
+      "meaning": "bị bệnh, bị ốm",
+      "scene": "Bạn cần báo mình bị ốm nên hôm nay không đi làm được.",
+      "when": "Dùng khi nói bị bệnh. Nếu mới cảm thấy khó chịu và chưa biết có bệnh hay không, 不舒服 — không khỏe — có thể sát hơn.",
+      "pattern": "Người + 生病; người + 生病了",
+      "phrases": [
+        "生病了 — bị ốm rồi/đang ốm",
+        "很少生病 — ít khi bị ốm"
+      ],
+      "examples": [
+        {
+          "zh": "我生病了，今天不能上班。",
+          "vi": "Tôi bị ốm, hôm nay không thể đi làm.",
+          "analysis": "Vế đầu nêu tình trạng; vế sau nêu việc bị ảnh hưởng."
+        },
+        {
+          "zh": "他很少生病。",
+          "vi": "Anh ấy ít khi bị ốm.",
+          "analysis": "很少 chỉ tần suất, đứng trước 生病."
+        }
+      ],
+      "forms": [
+        {
+          "zh": "我没生病，只是有点累。",
+          "vi": "Tôi không bị bệnh, chỉ hơi mệt."
+        },
+        {
+          "zh": "你生病了吗？",
+          "vi": "Bạn bị ốm à?"
+        }
+      ],
+      "trap": "Tránh 我很生病 để nói “tôi ốm nặng”. Có thể nói 我病得很重。— Tôi bị bệnh nặng.",
+      "shape": {
+        "pair": "病 / 痛",
+        "difference": "Hai chữ đều có 疒. Bên trong 病 là 丙; bên trong 痛 là 甬.",
+        "examples": [
+          "生病 — bị bệnh",
+          "头痛 — đau đầu"
+        ]
+      },
+      "near": {
+        "pair": "生病 / 不舒服",
+        "difference": "生病 nói bị bệnh; 不舒服 nói cảm giác không khỏe hoặc khó chịu, chưa nhất thiết xác định bệnh.",
+        "examples": [
+          "我生病了。— Tôi bị ốm.",
+          "我有点不舒服。— Tôi hơi không khỏe."
+        ]
+      },
+      "more": [
+        {
+          "title": "Nói mức độ",
+          "text": "我病得很重。— Tôi bị bệnh nặng. Mức độ được diễn đạt qua phần 病得很重, không chỉ thêm 很 trước 生病."
+        }
+      ],
+      "quiz": {
+        "question": "Bạn chỉ thấy hơi khó chịu, chưa rõ có bị bệnh không. Câu nào diễn đạt thận trọng hơn?",
+        "choices": [
+          "我病得很重。",
+          "我有点不舒服。"
+        ],
+        "answer": 1,
+        "explain": "不舒服 mô tả cảm giác hiện tại; câu còn lại khẳng định bệnh nặng."
+      },
+      "task": "Báo hôm nay bạn bị ốm và không thể đi làm.",
+      "model": "我今天生病了，不能上班。",
+      "recognize": "Chú ý 疒 trong 病; đừng nhầm phần bên trong với 痛."
+    },
+    {
+      "id": "xiang",
+      "hanzi": "想",
+      "intro": [
+        {
+          "pinyin": "xiǎng",
+          "meaning": "muốn làm một việc"
+        }
+      ],
+      "meaning": "muốn làm một việc",
+      "scene": "Bạn nói với bạn bè mình muốn về nhà nghỉ ngơi.",
+      "when": "Bài chính dùng 想 trước hành động để nói mong muốn, chưa khẳng định chắc chắn sẽ thực hiện. Nghĩa nhớ và nghĩ nằm trong Học thêm.",
+      "pattern": "Người + 想 + hành động",
+      "phrases": [
+        "想回家 — muốn về nhà",
+        "想吃饭 — muốn ăn cơm",
+        "不想出去 — không muốn ra ngoài"
+      ],
+      "examples": [
+        {
+          "zh": "我想回家。",
+          "vi": "Tôi muốn về nhà.",
+          "analysis": "回家 là điều muốn làm; chưa xác nhận kế hoạch đã quyết định."
+        },
+        {
+          "zh": "你想吃什么？",
+          "vi": "Bạn muốn ăn gì?",
+          "analysis": "吃什么 hỏi món/đồ ăn người nghe muốn ăn."
+        }
+      ],
+      "forms": [
+        {
+          "zh": "我今天不想出去。",
+          "vi": "Hôm nay tôi không muốn ra ngoài."
+        },
+        {
+          "zh": "你想喝茶吗？",
+          "vi": "Bạn muốn uống trà không?"
+        }
+      ],
+      "trap": "Không áp dụng 想 + mọi danh từ để nói muốn có. Muốn nước, dùng 我想喝水 hoặc 我想要一杯水.",
+      "shape": {
+        "pair": "想 / 相",
+        "difference": "想 có 心 ở dưới; 相 không có phần 心 này.",
+        "examples": [
+          "想回家 — muốn về nhà",
+          "相信 — tin tưởng"
+        ]
+      },
+      "near": {
+        "pair": "想 / 要",
+        "difference": "想 + hành động thường nêu mong muốn. 要 có thể nêu lựa chọn, ý định hoặc việc cần làm. Cả hai không khác nhau chỉ ở lịch sự.",
+        "examples": [
+          "我想回家。— Tôi muốn về nhà.",
+          "我明天要上班。— Ngày mai tôi phải đi làm."
+        ]
+      },
+      "more": [
+        {
+          "title": "Nhớ ai",
+          "text": "我想妈妈了。— Tôi nhớ mẹ rồi. Khi 想 đi với người trong tình huống này, hiểu là nhớ; không hiểu thành muốn sở hữu người đó."
+        },
+        {
+          "title": "Nghĩ hoặc cho rằng",
+          "text": "我想他今天不来。— Tôi nghĩ hôm nay anh ấy không đến. Nội dung đi sau là nhận định của người nói."
+        }
+      ],
+      "quiz": {
+        "question": "Chọn câu nói “Tôi muốn uống nước”.",
+        "choices": [
+          "我想喝水。",
+          "我想水。"
+        ],
+        "answer": 0,
+        "explain": "喝水 là hành động muốn làm. Câu còn lại không phải cách diễn đạt cơ bản tự nhiên cho ý này."
+      },
+      "task": "Nói một việc bạn muốn làm sau giờ làm.",
+      "model": "我下班后想休息。",
+      "recognize": "想 có 心 phía dưới. Đây là mẹo nhận dạng, không phải giải thích toàn bộ nguồn gốc chữ."
+    },
+    {
+      "id": "yao",
+      "hanzi": "要",
+      "intro": [
+        {
+          "pinyin": "yào",
+          "meaning": "muốn lấy, chọn một thứ"
+        },
+        {
+          "pinyin": "yāo",
+          "meaning": "yêu cầu; thường gặp trong 要求, không phải nghĩa chọn đồ của bài chính"
+        }
+      ],
+      "meaning": "muốn lấy, chọn một thứ",
+      "scene": "Bạn gọi đồ uống tại quán và chọn một cốc trà nóng.",
+      "when": "Bài chính dùng 要 khi lựa chọn thứ muốn lấy. Nghĩa cần/phải và sắp làm nằm trong Học thêm.",
+      "pattern": "Người + 要 + đồ vật",
+      "phrases": [
+        "要一杯茶 — lấy/muốn một cốc trà",
+        "不要咖啡 — không lấy cà phê"
+      ],
+      "examples": [
+        {
+          "zh": "我要一杯热茶，谢谢。",
+          "vi": "Cho tôi một cốc trà nóng, cảm ơn.",
+          "analysis": "一杯热茶 là thứ được chọn. Cách nói, hoàn cảnh và lời cảm ơn góp phần tạo sự lịch sự."
+        },
+        {
+          "zh": "你要茶还是咖啡？",
+          "vi": "Bạn lấy trà hay cà phê?",
+          "analysis": "还是 nối hai lựa chọn trong câu hỏi này."
+        }
+      ],
+      "forms": [
+        {
+          "zh": "我不要咖啡。",
+          "vi": "Tôi không lấy cà phê."
+        },
+        {
+          "zh": "你要什么？",
+          "vi": "Bạn muốn lấy gì?"
+        }
+      ],
+      "trap": "不要 + hành động có thể là lời ngăn “đừng”. Để nói không muốn đi, dùng 我不想去, không thay bằng 不要去 trong mọi tình huống.",
+      "shape": {
+        "pair": "要 / 耍",
+        "difference": "Phần dưới đều là 女. Nhìn phần trên: 要 có 覀; 耍 có 而.",
+        "examples": [
+          "要茶 — lấy trà",
+          "玩耍 — vui chơi"
+        ]
+      },
+      "near": {
+        "pair": "要 / 想",
+        "difference": "要 + đồ vật dùng để lựa chọn; 想 + hành động nêu mong muốn làm. Có nhiều cách dùng khác nên luôn đọc cả câu.",
+        "examples": [
+          "我要茶。— Tôi lấy trà.",
+          "我想喝茶。— Tôi muốn uống trà."
+        ]
+      },
+      "more": [
+        {
+          "title": "Cần/phải làm",
+          "text": "我明天要上班。— Ngày mai tôi phải đi làm. 要 đi với hành động và ngữ cảnh nghĩa vụ."
+        },
+        {
+          "title": "Ý định hoặc việc sắp xảy ra",
+          "text": "我要走了。— Tôi sắp đi đây. Không nên dịch 要 cố định thành “muốn” trong mọi câu."
+        }
+      ],
+      "quiz": {
+        "question": "Bạn không muốn đi. Chọn câu diễn đạt rõ mong muốn của bản thân.",
+        "choices": [
+          "不要去。",
+          "我不想去。"
+        ],
+        "answer": 1,
+        "explain": "我不想去 nói ý muốn của tôi; 不要去 thường là lời bảo người khác đừng đi."
+      },
+      "task": "Từ chối cà phê và chọn trà.",
+      "model": "我不要咖啡，我要茶。",
+      "recognize": "Chú ý phần trên của 要 để tránh đọc nhầm thành 耍."
+    },
+    {
+      "id": "hui",
+      "hanzi": "会",
+      "intro": [
+        {
+          "pinyin": "huì",
+          "meaning": "biết làm do đã học hoặc luyện"
+        },
+        {
+          "pinyin": "kuài",
+          "meaning": "cách đọc trong 会计 — kế toán; không phải nghĩa kỹ năng"
+        }
+      ],
+      "meaning": "biết làm do đã học hoặc luyện",
+      "scene": "Bạn giới thiệu rằng mình biết nấu ăn vì đã học hoặc luyện trước đó.",
+      "when": "Bài chính nói về kỹ năng. Việc có thực hiện được hôm nay hay không còn phụ thuộc điều kiện.",
+      "pattern": "Người + 会 + hành động",
+      "phrases": [
+        "会做饭 — biết nấu ăn",
+        "会开车 — biết lái xe",
+        "不会游泳 — không biết bơi"
+      ],
+      "examples": [
+        {
+          "zh": "我会做饭。",
+          "vi": "Tôi biết nấu ăn.",
+          "analysis": "会 nêu kỹ năng; không có nghĩa đang nấu ở thời điểm nói."
+        },
+        {
+          "zh": "我会开车，但是今天不能开车。",
+          "vi": "Tôi biết lái xe, nhưng hôm nay không thể lái.",
+          "analysis": "会 nói kỹ năng; 不能 nói điều kiện hiện tại không cho phép."
+        }
+      ],
+      "forms": [
+        {
+          "zh": "我不会游泳。",
+          "vi": "Tôi không biết bơi."
+        },
+        {
+          "zh": "你会做饭吗？",
+          "vi": "Bạn biết nấu ăn không?"
+        }
+      ],
+      "trap": "Không dịch 会 luôn thành “sẽ”, cũng không dịch luôn thành “biết”. Cần xem hành động và tình huống.",
+      "shape": {
+        "pair": "会 / 云",
+        "difference": "会 có phần 人 ở trên và 云 ở dưới. 云 đứng riêng không có mái 人.",
+        "examples": [
+          "会做饭 — biết nấu ăn",
+          "白云 — mây trắng"
+        ]
+      },
+      "near": {
+        "pair": "会 / 能",
+        "difference": "会 thường nêu kỹ năng đã học; 能 thường nêu khả năng hoặc điều kiện thực hiện. Đây là phân biệt ban đầu, không bao trùm mọi cách dùng.",
+        "examples": [
+          "我会游泳。— Tôi biết bơi.",
+          "我今天不能游泳。— Hôm nay tôi không thể bơi."
+        ]
+      },
+      "more": [
+        {
+          "title": "Dự đoán",
+          "text": "明天会下雨吗？— Ngày mai trời có mưa không? 会 ở đây nói về khả năng xảy ra, không phải kỹ năng."
+        }
+      ],
+      "quiz": {
+        "question": "Bạn chưa từng học lái xe. Câu nào nêu rõ thiếu kỹ năng?",
+        "choices": [
+          "我不会开车。",
+          "我今天不能开车。"
+        ],
+        "answer": 0,
+        "explain": "不会开车 nói không biết lái; câu còn lại chỉ nói hôm nay không thể lái."
+      },
+      "task": "Nói một việc bạn biết làm và một việc chưa biết làm.",
+      "model": "我会做饭，但是不会开车。",
+      "recognize": "Bài dùng 会 giản thể. 會 trong tài liệu khác là dạng phồn thể, không âm thầm thay khi xử lý nguồn."
+    },
+    {
+      "id": "neng",
+      "hanzi": "能",
+      "intro": [
+        {
+          "pinyin": "néng",
+          "meaning": "có thể làm được nhờ khả năng hoặc điều kiện"
+        }
+      ],
+      "meaning": "có thể làm được nhờ khả năng hoặc điều kiện",
+      "scene": "Bạn biết bơi, nhưng hôm nay bị ốm nên không thể xuống bể bơi.",
+      "when": "Dùng khi bàn về sức khỏe, thời gian hoặc điều kiện thực hiện. 能 cũng có các cách dùng liên quan đến cho phép; không học thành quy tắc tuyệt đối chỉ có một nghĩa.",
+      "pattern": "Người + 能 + hành động",
+      "phrases": [
+        "能来 — đến được",
+        "不能上班 — không thể đi làm",
+        "能帮忙 — giúp được"
+      ],
+      "examples": [
+        {
+          "zh": "我今天能去，明天不能去。",
+          "vi": "Hôm nay tôi đi được, ngày mai không đi được.",
+          "analysis": "Điều kiện của hai ngày khác nhau; không nói việc đã học một kỹ năng."
+        },
+        {
+          "zh": "我生病了，不能上班。",
+          "vi": "Tôi bị ốm nên không thể đi làm.",
+          "analysis": "Sức khỏe là điều kiện cản trở hoạt động."
+        }
+      ],
+      "forms": [
+        {
+          "zh": "我现在不能说话。",
+          "vi": "Bây giờ tôi không thể nói chuyện."
+        },
+        {
+          "zh": "你能帮我吗？",
+          "vi": "Bạn có thể giúp tôi không?"
+        }
+      ],
+      "trap": "不能 có thể là không thể hoặc không được tùy tình huống. Không hiểu mọi câu có 不能 là người nói chưa biết cách làm.",
+      "shape": {
+        "pair": "能 / 熊",
+        "difference": "熊 có phần trên giống 能 và thêm 灬 phía dưới.",
+        "examples": [
+          "能来 — đến được",
+          "熊 — con gấu"
+        ]
+      },
+      "near": {
+        "pair": "能 / 可以",
+        "difference": "可以 thường hữu ích khi xin phép; 能 cũng có thể dùng trong lời hỏi xin phép hoặc nhờ giúp, tùy ngữ cảnh.",
+        "examples": [
+          "我今天能去。— Hôm nay tôi đi được.",
+          "我可以坐这里吗？— Tôi ngồi đây được không?"
+        ]
+      },
+      "more": [
+        {
+          "title": "Khả năng của cơ thể",
+          "text": "我能吃辣。— Tôi ăn cay được. Ở đây là khả năng chịu/ăn cay, không phải một kỹ năng có chứng chỉ hay khóa học."
+        }
+      ],
+      "quiz": {
+        "question": "Bạn biết bơi nhưng hôm nay bị ốm. Chọn câu phù hợp.",
+        "choices": [
+          "我不会游泳，但是今天生病了。",
+          "我会游泳，但是今天不能游泳。"
+        ],
+        "answer": 1,
+        "explain": "Câu đầu tách rõ kỹ năng đã có và điều kiện hôm nay."
+      },
+      "task": "Nói hôm nay bạn không thể đi làm vì bị ốm.",
+      "model": "我今天生病了，不能上班。",
+      "recognize": "So sánh 能 với 熊 bằng phần 灬; đây là nhận diện hình chữ, không phải từ nguyên."
+    },
+    {
+      "id": "zai-place",
+      "hanzi": "在",
+      "intro": [
+        {
+          "pinyin": "zài",
+          "meaning": "ở, tại một nơi"
+        }
+      ],
+      "meaning": "ở, tại một nơi",
+      "scene": "Bạn bè hỏi bạn đang ở đâu. Bạn trả lời mình ở nhà.",
+      "when": "Bài chính dùng 在 với nơi chốn. Nghĩa đánh dấu hoạt động đang diễn ra nằm trong Học thêm.",
+      "pattern": "Người/vật + 在 + nơi chốn; người + 在 + nơi chốn + hành động",
+      "phrases": [
+        "在家 — ở nhà",
+        "在学校 — ở trường",
+        "在家学习 — học ở nhà"
+      ],
+      "examples": [
+        {
+          "zh": "我在家。",
+          "vi": "Tôi ở nhà.",
+          "analysis": "家 là địa điểm; câu chưa nói bạn làm gì."
+        },
+        {
+          "zh": "我在家学习。",
+          "vi": "Tôi học ở nhà.",
+          "analysis": "在家 đặt trước 学习 để chỉ nơi diễn ra hoạt động."
+        }
+      ],
+      "forms": [
+        {
+          "zh": "我不在家。",
+          "vi": "Tôi không ở nhà."
+        },
+        {
+          "zh": "你在哪里？",
+          "vi": "Bạn ở đâu?"
+        }
+      ],
+      "trap": "Theo mẫu cơ bản đang học, dùng 我在家学习. Không chuyển máy móc trật tự tiếng Việt thành 我学习在家.",
+      "shape": {
+        "pair": "在 / 再",
+        "difference": "在 có 土 ở phần dưới; 再 có phần khung và các nét ngang bên trong. Hai chữ không thay nhau dù cách đọc trùng.",
+        "examples": [
+          "在家 — ở nhà",
+          "再来 — đến lại"
+        ]
+      },
+      "near": {
+        "pair": "在 / 有",
+        "difference": "在 có thể xác định vị trí của người/vật đã biết; 有 có thể giới thiệu nơi nào có thứ gì.",
+        "examples": [
+          "书在桌子上。— Sách ở trên bàn.",
+          "桌子上有一本书。— Trên bàn có một quyển sách."
+        ]
+      },
+      "more": [
+        {
+          "title": "Đang thực hiện hành động",
+          "text": "我在打电话。— Tôi đang gọi điện. 在 đứng trước hoạt động. Không thêm 在 trước mọi trạng thái: 我很喜欢这本书 là tôi rất thích quyển sách này."
+        },
+        {
+          "title": "Phủ định hoạt động đang diễn ra",
+          "text": "我没在打电话。— Tôi không đang gọi điện. Phân biệt với 我不在家 — Tôi không ở nhà."
+        }
+      ],
+      "quiz": {
+        "question": "Chọn chữ điền vào 我___家。",
+        "choices": [
+          "在",
+          "再"
+        ],
+        "answer": 0,
+        "explain": "Câu nói nơi chốn nên chọn 在, không phải 再."
+      },
+      "task": "Nói bạn học ở nhà.",
+      "model": "我在家学习。",
+      "recognize": "Nhìn 土 ở phần dưới của 在 và so sánh trực tiếp với 再."
+    },
+    {
+      "id": "zai-again",
+      "hanzi": "再",
+      "intro": [
+        {
+          "pinyin": "zài",
+          "meaning": "lại, thêm lần nữa"
+        }
+      ],
+      "meaning": "lại, thêm lần nữa",
+      "scene": "Bạn chưa nghe rõ và muốn người đối diện nhắc lại một lần.",
+      "when": "Bài chính nói lần lặp tiếp theo đang được yêu cầu hoặc dự định. Không dùng phân biệt 再/又 thành quy tắc cứng cho mọi cấu trúc.",
+      "pattern": "再 + hành động",
+      "phrases": [
+        "再说一遍 — nói lại một lần",
+        "再看一次 — xem thêm một lần"
+      ],
+      "examples": [
+        {
+          "zh": "请再说一遍。",
+          "vi": "Làm ơn nói lại một lần.",
+          "analysis": "Lần nói được yêu cầu chưa diễn ra tại lúc yêu cầu."
+        },
+        {
+          "zh": "我想再看一次。",
+          "vi": "Tôi muốn xem thêm một lần.",
+          "analysis": "再 đứng trước 看; 一次 nói số lần."
+        }
+      ],
+      "forms": [
+        {
+          "zh": "我不想再等了。",
+          "vi": "Tôi không muốn đợi thêm nữa."
+        },
+        {
+          "zh": "你能再说一遍吗？",
+          "vi": "Bạn nói lại một lần được không?"
+        }
+      ],
+      "trap": "Kể một lần lặp đã xảy ra trong mẫu cơ bản thường dùng 又: 他又来了 — Anh ấy lại đến rồi. Không chỉ nhìn từ “lại” của tiếng Việt để chọn chữ.",
+      "shape": {
+        "pair": "再 / 在",
+        "difference": "再 khác 在 về khung và phần nét bên trong; 在 có 土 phía dưới.",
+        "examples": [
+          "再说 — nói lại",
+          "在家 — ở nhà"
+        ]
+      },
+      "near": {
+        "pair": "再 / 又",
+        "difference": "Trong đối chiếu cơ bản này: 再 hướng tới lần tiếp theo; 又 kể lần lặp đã xảy ra. Cả hai còn cách dùng khác.",
+        "examples": [
+          "请明天再来。— Ngày mai hãy đến lại.",
+          "他又来了。— Anh ấy lại đến rồi."
+        ]
+      },
+      "more": [
+        {
+          "title": "Trình tự: rồi mới",
+          "text": "我先吃饭，再给你打电话。— Tôi ăn cơm trước, rồi gọi cho bạn. 先 nêu việc trước; 再 nêu việc sau, không bắt buộc là làm lại cùng một việc."
+        }
+      ],
+      "quiz": {
+        "question": "Bạn muốn nhờ người khác nói lại một lần. Chọn câu.",
+        "choices": [
+          "请在说一遍。",
+          "请再说一遍。"
+        ],
+        "answer": 1,
+        "explain": "再 biểu thị lần lặp tiếp theo; 在 không mang nghĩa đó."
+      },
+      "task": "Nói bạn ăn cơm trước rồi học.",
+      "model": "我先吃饭，再学习。",
+      "recognize": "Ôn cùng 在: 在家 là ở nhà; 再来 là đến lại."
+    }
+  ]
+}
