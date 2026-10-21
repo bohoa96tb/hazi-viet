@@ -1,37 +1,32 @@
+import {auditLesson,lessonAudio} from './lesson-standard.js?v=8.0.0';
 // Deterministic scripts and a cancellable, segment-by-segment bilingual player.
 export const audioModes=[
  {id:'quick',icon:'⚡',title:'Ôn nhanh',description:'Từ tiếng Trung → nghĩa tiếng Việt.'},
  {id:'context',icon:'🧩',title:'Ngấm ngữ cảnh',description:'Từ → nghĩa → giải thích ngắn → ví dụ Trung + Việt.'},
- {id:'podcast',icon:'🎙️',title:'Bài giảng Podcast',description:'Nghĩa, tình huống, cấu trúc, ví dụ, bẫy và học thêm; bỏ bài tập.'},
+ {id:'podcast',icon:'🎙️',title:'Bài giảng Podcast',description:'Đọc lời giảng của mục đủ mẫu; tách câu hỏi và lời giải.'},
  {id:'immersion',icon:'🌊',title:'Tắm ngôn ngữ',description:'Chỉ tiếng Trung: từ mục tiêu và các câu ví dụ.'}
 ];
 export function lessonsOf(words,size=24){const result=[];for(let i=0;i<words.length;i+=size)result.push(words.slice(i,i+size));return result}
 export function columnsOf(words){const middle=Math.ceil(words.length/2);return [words.slice(0,middle),words.slice(middle)]}
-export function selectAudioWords(words,{scope='lesson',lesson=0,from=1,to=words.length}={},card=()=>({})){const lessons=lessonsOf(words);switch(scope){case'lesson':return lessons[lesson]||[];case'all':return words;case'favorite':return words.filter(w=>card(w.id).favorite);case'new':return words.filter(w=>!card(w.id).learned);case'learned':return words.filter(w=>card(w.id).learned);case'range':return words.slice(Math.max(0,from-1),Math.min(words.length,to));default:return []}}
+export function selectAudioWords(words,{scope='lesson',lesson=0,from=1,to=words.length}={},card=()=>({})){const lessons=lessonsOf(words);switch(scope){case'lesson':return lessons[lesson]||[];case'all':return words;case'ready':return words.filter(w=>auditLesson(w).ready);case'favorite':return words.filter(w=>card(w.id).favorite);case'new':return words.filter(w=>!card(w.id).learned);case'learned':return words.filter(w=>card(w.id).learned);case'range':return words.slice(Math.max(0,from-1),Math.min(words.length,to));default:return []}}
 export function mixedSegments(text){
  // Keep Chinese runs with their punctuation, while Vietnamese is read by a vi-VN voice.
  return String(text??'').split(/([\p{Script=Han}]+(?:[，。？！、；：…“”「」《》\s]*[\p{Script=Han}]+)*[，。？！、；：…]*)/u).filter(t=>/[\p{L}\p{N}]/u.test(t)).map(t=>({text:t.trim().replace(/[→/]/g,', '),lang:/\p{Script=Han}/u.test(t)?'zh-CN':'vi-VN'}));
 }
 export function buildPlaylist(words,mode){
  if(!audioModes.some(m=>m.id===mode))throw Error('Chế độ nghe không hợp lệ.');
- const queue=[];words.forEach((w,wordIndex)=>{
+ const queue=[];let readyWordIndex=0;words.forEach((w,wordIndex)=>{
+  const ready=auditLesson(w).ready;
+  if(mode==='podcast'){if(ready){const index=readyWordIndex++;for(const segment of lessonAudio(w,'full'))queue.push({...segment,wordId:w.id,word:w.hanzi,wordIndex:index});}return}
+
   const push=(text,lang,label)=>{if(text)queue.push({wordId:w.id,word:w.hanzi,wordIndex,text,lang,label})};
   const mixed=(text,label)=>mixedSegments(text).forEach(s=>push(s.text,s.lang,label));
   push(w.audioText||w.hanzi,'zh-CN',w.audioText?'Từ trong cụm gợi cách đọc':'Từ mục tiêu');
   if(mode==='immersion'){w.examples.forEach((s,i)=>push(s.zh,'zh-CN','Câu ví dụ '+(i+1)));return}
   mixed(w.meaning,'Nghĩa trọng tâm');if(mode==='quick')return;
-  if(mode==='context')mixed(w.when,'Giải thích ngắn');
-  if(mode==='podcast'){
-   mixed(w.scene,'Tình huống');mixed(w.when,'Khi nào dùng');mixed(w.pattern,'Vị trí và cấu trúc');
-   (w.phrases||[]).forEach(s=>mixed(s,'Cụm thường gặp'));
-  }
-  w.examples.forEach((s,i)=>{push(s.zh,'zh-CN','Ví dụ '+(i+1));mixed(s.vi,'Nghĩa câu');if(mode==='podcast')mixed(s.analysis,'Phân tích ví dụ')});
-  if(mode==='podcast'&&(!w.status||w.status==='deep')){
-   (w.forms||[]).forEach(s=>{push(s.zh,'zh-CN','Phủ định và câu hỏi');mixed(s.vi,'Nghĩa câu')});
-   mixed(w.trap,'Bẫy cần tránh');mixed(w.shape.pair,'Giống mặt chữ');mixed(w.shape.difference,'Phân biệt mặt chữ');w.shape.examples.forEach(s=>mixed(s,'Đối chiếu mặt chữ'));
-   mixed(w.near.pair,'Gần nghĩa');mixed(w.near.difference,'Phân biệt cách dùng');w.near.examples.forEach(s=>mixed(s,'Đối chiếu cách dùng'));
-   w.more.forEach(s=>{mixed(s.title,'Học thêm');mixed(s.text,'Học thêm')});mixed(w.recognize,'Nhận mặt chữ');
-  }
+  if(mode==='context')mixed(ready?w.lesson.meaning.takeaway:w.when,'Giải thích ngắn');
+  w.examples.forEach((s,i)=>{push(s.zh,'zh-CN','Ví dụ '+(i+1));mixed(s.vi,'Nghĩa câu')});
+
  });return queue;
 }
 export function languageCode(value){return String(value||'').replace(/_/g,'-').toLowerCase()}
