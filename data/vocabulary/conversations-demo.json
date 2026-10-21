@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "Thực hành sau bài · 3 tình huống",
+  "title": "Thực hành sau bài · 5 tình huống",
   "description": "Hội thoại biên soạn mới, chữ giản thể. Mỗi đoạn dùng một nhóm từ phù hợp, không ép đủ mọi từ. Chưa gán cấp HSK chính thức.",
   "audioNotice": "Giọng thiết bị là âm thanh tổng hợp, không phải bản thu người bản xứ. Cần chọn và nghe thử giọng nữ cho A, giọng nam cho B trên thiết bị. Không giả hai giới tính bằng thay cao độ.",
   "sources": [
@@ -1108,6 +1108,567 @@
         "Lượt 2: 怎么了 là câu hỏi đáp ngắn trong quan hệ bạn bè, không cần đọc như một câu hỏi trang trọng.",
         "Lượt 7: ngắt nhẹ sau 可是; giữ 一紧张就… thành một nhóm ý.",
         "Lượt 13: nhấn rõ 六点半 và 七点半 để người nghe nhận ra lý do đổi giờ."
+      ],
+      "kind": "original-dialogue",
+      "video": null
+    },
+    {
+      "id": "first-class",
+      "title": "Làm quen trước buổi học tiếng Trung",
+      "goal": "Chào hỏi, giới thiệu tên và công việc, tìm phòng học và hẹn học cùng nhau.",
+      "roles": {
+        "A": {
+          "name": "Lan",
+          "gender": "female",
+          "description": "người mới đến lớp"
+        },
+        "B": {
+          "name": "Minh",
+          "gender": "male",
+          "description": "người học cùng lớp"
+        }
+      },
+      "targetIds": [
+        "hz-h1-64d354d405bb",
+        "hz-h1-0a3f1c936624",
+        "hz-h1-4247545ee5f9",
+        "hz-h1-277c140499d4",
+        "hz-h1-fdbb78c8e725",
+        "hz-h1-22357796d4e3",
+        "hz-h1-58837eebf47f",
+        "hz-h1-8de2a5b77843",
+        "hz-h1-d869fcbf074b"
+      ],
+      "turns": [
+        {
+          "id": "first-class-01",
+          "role": "A",
+          "zh": "你好，请问这里是汉语教室吗？",
+          "vi": "Xin chào, xin hỏi đây có phải là phòng học tiếng Trung không?"
+        },
+        {
+          "id": "first-class-02",
+          "role": "B",
+          "zh": "对，是这里。你也是新来的学生吗？",
+          "vi": "Đúng, ở đây. Bạn cũng là học viên mới đến à?"
+        },
+        {
+          "id": "first-class-03",
+          "role": "A",
+          "zh": "是的，我今天第一次来。我叫小兰。",
+          "vi": "Đúng vậy, hôm nay tôi đến lần đầu. Tôi tên là Lan."
+        },
+        {
+          "id": "first-class-04",
+          "role": "B",
+          "zh": "你好，我叫小明。你是哪国人？",
+          "vi": "Chào bạn, tôi tên là Minh. Bạn là người nước nào?"
+        },
+        {
+          "id": "first-class-05",
+          "role": "A",
+          "zh": "我是越南人。你呢？",
+          "vi": "Tôi là người Việt Nam. Còn bạn thì sao?"
+        },
+        {
+          "id": "first-class-06",
+          "role": "B",
+          "zh": "我也是越南人。很高兴认识你。",
+          "vi": "Tôi cũng là người Việt Nam. Rất vui được làm quen với bạn."
+        },
+        {
+          "id": "first-class-07",
+          "role": "A",
+          "zh": "我也很高兴。你在这里工作吗？",
+          "vi": "Tôi cũng rất vui. Bạn làm việc ở đây à?"
+        },
+        {
+          "id": "first-class-08",
+          "role": "B",
+          "zh": "对，我白天工作，晚上来学习。",
+          "vi": "Đúng, tôi làm việc ban ngày, buổi tối đến học."
+        },
+        {
+          "id": "first-class-09",
+          "role": "A",
+          "zh": "我也是。这里的老师怎么样？",
+          "vi": "Tôi cũng vậy. Giáo viên ở đây thế nào?"
+        },
+        {
+          "id": "first-class-10",
+          "role": "B",
+          "zh": "王老师很好。他说话不太快。",
+          "vi": "Thầy Vương rất tốt. Thầy nói không nhanh lắm."
+        },
+        {
+          "id": "first-class-11",
+          "role": "A",
+          "zh": "那太好了。我会说的汉语还很少。",
+          "vi": "Vậy thì tốt quá. Tiếng Trung tôi nói được vẫn còn rất ít."
+        },
+        {
+          "id": "first-class-12",
+          "role": "B",
+          "zh": "没关系，我们可以一起练习。",
+          "vi": "Không sao, chúng ta có thể cùng luyện tập."
+        },
+        {
+          "id": "first-class-13",
+          "role": "A",
+          "zh": "谢谢你。我们坐这里吧。",
+          "vi": "Cảm ơn bạn. Chúng ta ngồi đây nhé."
+        },
+        {
+          "id": "first-class-14",
+          "role": "B",
+          "zh": "好。你的书带了吗？",
+          "vi": "Được. Bạn đã mang sách chưa?"
+        },
+        {
+          "id": "first-class-15",
+          "role": "A",
+          "zh": "带了。下课后，我们一起去吃饭，好吗？",
+          "vi": "Tôi mang rồi. Sau giờ học, chúng ta cùng đi ăn nhé?"
+        },
+        {
+          "id": "first-class-16",
+          "role": "B",
+          "zh": "好啊。我们现在是同学，也是朋友了。",
+          "vi": "Được chứ. Bây giờ chúng ta là bạn học, cũng là bạn bè rồi."
+        }
+      ],
+      "glossary": [
+        {
+          "zh": "教室",
+          "vi": "phòng học",
+          "turns": [
+            1
+          ]
+        },
+        {
+          "zh": "新来的",
+          "vi": "mới đến",
+          "turns": [
+            2
+          ]
+        },
+        {
+          "zh": "第一次",
+          "vi": "lần đầu tiên",
+          "turns": [
+            3
+          ]
+        },
+        {
+          "zh": "越南人",
+          "vi": "người Việt Nam",
+          "turns": [
+            5,
+            6
+          ]
+        },
+        {
+          "zh": "不太快",
+          "vi": "không nhanh lắm",
+          "turns": [
+            10
+          ]
+        },
+        {
+          "zh": "练习",
+          "vi": "luyện tập",
+          "turns": [
+            12
+          ]
+        },
+        {
+          "zh": "带",
+          "vi": "mang theo",
+          "turns": [
+            14,
+            15
+          ]
+        },
+        {
+          "zh": "认识",
+          "vi": "làm quen; biết một người",
+          "turns": [
+            6
+          ]
+        },
+        {
+          "zh": "下课后",
+          "vi": "sau giờ học",
+          "turns": [
+            15
+          ]
+        },
+        {
+          "zh": "带了",
+          "vi": "đã mang rồi",
+          "turns": [
+            15
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "A，也是B",
+          "explanation": "Cũng là: 也 đứng trước 是. Lượt 16 vừa nói quan hệ bạn học vừa nói tình bạn.",
+          "example": "我们是同学，也是朋友。",
+          "vi": "Chúng ta là bạn học, cũng là bạn bè.",
+          "turns": [
+            16
+          ],
+          "status": "Mở rộng theo tình huống; không yêu cầu thành thạo trước khi nghe."
+        },
+        {
+          "pattern": "活动 + 后",
+          "explanation": "Đặt 后 sau hoạt động để nói sau khi hoạt động đó kết thúc.",
+          "example": "下课后，我们去吃饭。",
+          "vi": "Sau giờ học, chúng ta đi ăn.",
+          "turns": [
+            15
+          ],
+          "status": "Mở rộng theo tình huống; không yêu cầu thành thạo trước khi nghe."
+        },
+        {
+          "pattern": "会 + hoạt động",
+          "explanation": "会 đặt trước hoạt động để nói kỹ năng đã học. Lượt 11 nói lượng tiếng Trung người nói biết nói vẫn còn ít.",
+          "example": "我会说一点儿汉语。",
+          "vi": "Tôi biết nói một chút tiếng Trung.",
+          "turns": [
+            11
+          ],
+          "status": "Giải thích bổ sung theo tình huống."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Minh học vào thời gian nào?",
+          "choices": [
+            "Buổi tối, sau khi làm việc ban ngày.",
+            "Chỉ học vào buổi sáng.",
+            "Không học, Minh là giáo viên."
+          ],
+          "answer": 0,
+          "explanation": "Lượt 8 nói ban ngày đi làm, buổi tối đến học."
+        },
+        {
+          "question": "Lan và Minh đến đây để làm gì?",
+          "choices": [
+            "Học tiếng Trung.",
+            "Mua điện thoại.",
+            "Khám bệnh."
+          ],
+          "answer": 0,
+          "explanation": "Lượt 1–3 xác nhận phòng học và học viên mới."
+        },
+        {
+          "question": "Sau giờ học hai người định làm gì?",
+          "choices": [
+            "Đi ngủ.",
+            "Đi ăn cùng nhau.",
+            "Về công ty họp."
+          ],
+          "answer": 1,
+          "explanation": "Lượt 15 rủ đi ăn sau giờ học và lượt 16 đồng ý."
+        }
+      ],
+      "tasks": [
+        {
+          "prompt": "Giới thiệu tên, quốc tịch và rủ bạn học cùng luyện tập.",
+          "hints": [
+            "Giới thiệu mình trước, sau đó nói điều muốn cùng làm.",
+            "我叫…。我是…。我们一起…吧。"
+          ],
+          "model": "我叫小兰。我是越南人。我们一起学习汉语吧。",
+          "feedback": "Kiểm tra câu có đủ thông tin của tình huống. Có thể dùng cách nói khác câu mẫu."
+        }
+      ],
+      "rhythm": [
+        "Nói trọn một ý rồi dừng ngắn ở dấu câu; không cố đọc đều từng chữ.",
+        "Nghe lời đáp trước để hiểu cách người sau nối tiếp chủ đề; sau đó thử đóng vai."
+      ],
+      "kind": "original-dialogue",
+      "video": null
+    },
+    {
+      "id": "meet-friend",
+      "title": "Gặp bạn sau giờ làm và hẹn lần gặp sau",
+      "goal": "Xin lỗi khi đến muộn, hỏi thăm công việc, chọn chỗ ngồi và hẹn gặp lại.",
+      "roles": {
+        "A": {
+          "name": "Lan",
+          "gender": "female",
+          "description": "người vừa tan làm"
+        },
+        "B": {
+          "name": "Minh",
+          "gender": "male",
+          "description": "bạn đang đợi"
+        }
+      },
+      "targetIds": [
+        "hz-h1-8de2a5b77843",
+        "hz-h1-15b6a3af5e33",
+        "hz-h1-b71f4cfff8c9",
+        "hz-h1-0a3f1c936624",
+        "hz-h1-14cd68fb49a8",
+        "hz-h1-4247545ee5f9",
+        "hz-h1-722d36ebd9c0",
+        "hz-h1-dadf7ffde866",
+        "hz-h1-d869fcbf074b"
+      ],
+      "turns": [
+        {
+          "id": "meet-friend-01",
+          "role": "A",
+          "zh": "小明，对不起，我来晚了。",
+          "vi": "Minh, xin lỗi, tôi đến muộn."
+        },
+        {
+          "id": "meet-friend-02",
+          "role": "B",
+          "zh": "没关系，我也刚到。你今天很忙吗？",
+          "vi": "Không sao, tôi cũng vừa đến. Hôm nay bạn bận lắm à?"
+        },
+        {
+          "id": "meet-friend-03",
+          "role": "A",
+          "zh": "是啊，公司有很多事。我现在有点儿累。",
+          "vi": "Ừ, công ty có nhiều việc. Bây giờ tôi hơi mệt."
+        },
+        {
+          "id": "meet-friend-04",
+          "role": "B",
+          "zh": "那我们先坐一会儿吧。你想喝什么？",
+          "vi": "Vậy chúng ta ngồi nghỉ một lát trước nhé. Bạn muốn uống gì?"
+        },
+        {
+          "id": "meet-friend-05",
+          "role": "A",
+          "zh": "我想喝热茶。你呢？",
+          "vi": "Tôi muốn uống trà nóng. Còn bạn?"
+        },
+        {
+          "id": "meet-friend-06",
+          "role": "B",
+          "zh": "我喝水就好。你的新工作怎么样？",
+          "vi": "Tôi uống nước là được. Công việc mới của bạn thế nào?"
+        },
+        {
+          "id": "meet-friend-07",
+          "role": "A",
+          "zh": "还不错。同事们都很好，但是我还有很多东西要学。",
+          "vi": "Cũng khá ổn. Đồng nghiệp đều rất tốt, nhưng tôi còn nhiều điều phải học."
+        },
+        {
+          "id": "meet-friend-08",
+          "role": "B",
+          "zh": "慢慢来。你每天都学习汉语吗？",
+          "vi": "Cứ từ từ. Bạn có học tiếng Trung mỗi ngày không?"
+        },
+        {
+          "id": "meet-friend-09",
+          "role": "A",
+          "zh": "对。我晚上学习半个小时，也练习写名字。",
+          "vi": "Có. Buổi tối tôi học nửa giờ, cũng tập viết tên."
+        },
+        {
+          "id": "meet-friend-10",
+          "role": "B",
+          "zh": "你可以给我看看吗？",
+          "vi": "Bạn có thể cho tôi xem được không?"
+        },
+        {
+          "id": "meet-friend-11",
+          "role": "A",
+          "zh": "可以。这个字我还不会写。",
+          "vi": "Được. Chữ này tôi vẫn chưa biết viết."
+        },
+        {
+          "id": "meet-friend-12",
+          "role": "B",
+          "zh": "没关系，我们一起查一下。",
+          "vi": "Không sao, chúng ta cùng tra một chút."
+        },
+        {
+          "id": "meet-friend-13",
+          "role": "A",
+          "zh": "谢谢。和朋友一起学，我觉得很开心。",
+          "vi": "Cảm ơn. Học cùng bạn, tôi thấy rất vui."
+        },
+        {
+          "id": "meet-friend-14",
+          "role": "B",
+          "zh": "我也是。我们星期天还在这里见，好吗？",
+          "vi": "Tôi cũng vậy. Chủ nhật chúng ta lại gặp ở đây nhé?"
+        },
+        {
+          "id": "meet-friend-15",
+          "role": "A",
+          "zh": "好，下午三点。我先回家了，再见。",
+          "vi": "Được, ba giờ chiều. Tôi về nhà trước nhé, tạm biệt."
+        },
+        {
+          "id": "meet-friend-16",
+          "role": "B",
+          "zh": "再见，回家的路上小心。",
+          "vi": "Tạm biệt, đi đường về nhà cẩn thận nhé."
+        }
+      ],
+      "glossary": [
+        {
+          "zh": "刚到",
+          "vi": "vừa đến",
+          "turns": [
+            2
+          ]
+        },
+        {
+          "zh": "累",
+          "vi": "mệt",
+          "turns": [
+            3
+          ]
+        },
+        {
+          "zh": "热茶",
+          "vi": "trà nóng",
+          "turns": [
+            5
+          ]
+        },
+        {
+          "zh": "同事",
+          "vi": "đồng nghiệp",
+          "turns": [
+            7
+          ]
+        },
+        {
+          "zh": "但是",
+          "vi": "nhưng",
+          "turns": [
+            7
+          ]
+        },
+        {
+          "zh": "半个小时",
+          "vi": "nửa giờ",
+          "turns": [
+            9
+          ]
+        },
+        {
+          "zh": "查",
+          "vi": "tra cứu",
+          "turns": [
+            12
+          ]
+        },
+        {
+          "zh": "开心",
+          "vi": "vui",
+          "turns": [
+            13
+          ]
+        },
+        {
+          "zh": "小心",
+          "vi": "cẩn thận",
+          "turns": [
+            16
+          ]
+        },
+        {
+          "zh": "路上",
+          "vi": "trên đường",
+          "turns": [
+            16
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "但是 + điều đối lập",
+          "explanation": "Dùng 但是 để chuyển sang ý đối lập hoặc hạn chế của ý trước. Không phải công việc tốt thì không còn gì phải học.",
+          "example": "工作不错，但是我还有很多东西要学。",
+          "vi": "Công việc khá ổn, nhưng tôi còn nhiều điều phải học.",
+          "turns": [
+            7
+          ],
+          "status": "Mở rộng theo tình huống; không yêu cầu thành thạo trước khi nghe."
+        },
+        {
+          "pattern": "先 + hoạt động",
+          "explanation": "先 đứng trước hoạt động làm trước; giúp sắp xếp thứ tự.",
+          "example": "我们先坐一会儿。",
+          "vi": "Chúng ta ngồi một lát trước.",
+          "turns": [
+            4,
+            15
+          ],
+          "status": "Mở rộng theo tình huống; không yêu cầu thành thạo trước khi nghe."
+        },
+        {
+          "pattern": "还 + phần thông tin còn tiếp tục",
+          "explanation": "还 đứng trước phần nói mức độ vẫn còn ít hoặc vẫn còn thiếu. Trong cuộc trò chuyện, 还 cũng xuất hiện khi nói còn nhiều điều phải học. Không học 还 chỉ với một nghĩa duy nhất cho mọi câu.",
+          "example": "我还有很多东西要学。",
+          "vi": "Tôi còn nhiều điều phải học.",
+          "turns": [
+            7
+          ],
+          "status": "Cách ghép mở rộng theo tình huống."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Hai người hẹn gặp lại khi nào?",
+          "choices": [
+            "Sáng thứ Hai.",
+            "Ba giờ chiều Chủ nhật.",
+            "Tối hôm nay."
+          ],
+          "answer": 1,
+          "explanation": "Lượt 14 nhắc Chủ nhật, lượt 15 chốt ba giờ chiều."
+        },
+        {
+          "question": "Vì sao Lan đến muộn?",
+          "choices": [
+            "Vì công ty có nhiều việc.",
+            "Vì không muốn gặp bạn.",
+            "Vì bị mất sách."
+          ],
+          "answer": 0,
+          "explanation": "Lượt 3 giải thích công ty có nhiều việc."
+        },
+        {
+          "question": "Lan học tiếng Trung bao lâu mỗi tối?",
+          "choices": [
+            "Ba giờ.",
+            "Nửa giờ.",
+            "Cả đêm."
+          ],
+          "answer": 1,
+          "explanation": "Lượt 9 nói 半个小时, tức nửa giờ."
+        }
+      ],
+      "tasks": [
+        {
+          "prompt": "Bạn đến muộn. Xin lỗi, nói mình hơi mệt rồi hẹn bạn Chủ nhật gặp lại.",
+          "hints": [
+            "Nói lời xin lỗi, trạng thái hiện tại, cuối cùng là lời hẹn.",
+            "对不起…。我有点儿…。我们星期天…吧。"
+          ],
+          "model": "对不起，我来晚了。我有点儿累。我们星期天再见吧。",
+          "feedback": "Kiểm tra câu có đủ thông tin của tình huống. Có thể dùng cách nói khác câu mẫu."
+        }
+      ],
+      "rhythm": [
+        "Nói trọn một ý rồi dừng ngắn ở dấu câu; không cố đọc đều từng chữ.",
+        "Nghe lời đáp trước để hiểu cách người sau nối tiếp chủ đề; sau đó thử đóng vai."
       ],
       "kind": "original-dialogue",
       "video": null
