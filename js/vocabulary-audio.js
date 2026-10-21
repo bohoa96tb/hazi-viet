@@ -17,17 +17,17 @@ export function buildPlaylist(words,mode){
  const queue=[];words.forEach((w,wordIndex)=>{
   const push=(text,lang,label)=>{if(text)queue.push({wordId:w.id,word:w.hanzi,wordIndex,text,lang,label})};
   const mixed=(text,label)=>mixedSegments(text).forEach(s=>push(s.text,s.lang,label));
-  push(w.hanzi,'zh-CN','Từ mục tiêu');
+  push(w.audioText||w.hanzi,'zh-CN',w.audioText?'Từ trong cụm gợi cách đọc':'Từ mục tiêu');
   if(mode==='immersion'){w.examples.forEach((s,i)=>push(s.zh,'zh-CN','Câu ví dụ '+(i+1)));return}
   mixed(w.meaning,'Nghĩa trọng tâm');if(mode==='quick')return;
   if(mode==='context')mixed(w.when,'Giải thích ngắn');
   if(mode==='podcast'){
    mixed(w.scene,'Tình huống');mixed(w.when,'Khi nào dùng');mixed(w.pattern,'Vị trí và cấu trúc');
-   w.phrases.forEach(s=>mixed(s,'Cụm thường gặp'));
+   (w.phrases||[]).forEach(s=>mixed(s,'Cụm thường gặp'));
   }
   w.examples.forEach((s,i)=>{push(s.zh,'zh-CN','Ví dụ '+(i+1));mixed(s.vi,'Nghĩa câu');if(mode==='podcast')mixed(s.analysis,'Phân tích ví dụ')});
-  if(mode==='podcast'){
-   w.forms.forEach(s=>{push(s.zh,'zh-CN','Phủ định và câu hỏi');mixed(s.vi,'Nghĩa câu')});
+  if(mode==='podcast'&&(!w.status||w.status==='deep')){
+   (w.forms||[]).forEach(s=>{push(s.zh,'zh-CN','Phủ định và câu hỏi');mixed(s.vi,'Nghĩa câu')});
    mixed(w.trap,'Bẫy cần tránh');mixed(w.shape.pair,'Giống mặt chữ');mixed(w.shape.difference,'Phân biệt mặt chữ');w.shape.examples.forEach(s=>mixed(s,'Đối chiếu mặt chữ'));
    mixed(w.near.pair,'Gần nghĩa');mixed(w.near.difference,'Phân biệt cách dùng');w.near.examples.forEach(s=>mixed(s,'Đối chiếu cách dùng'));
    w.more.forEach(s=>{mixed(s.title,'Học thêm');mixed(s.text,'Học thêm')});mixed(w.recognize,'Nhận mặt chữ');

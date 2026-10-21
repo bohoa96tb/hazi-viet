@@ -1,11 +1,11 @@
-import {createAudioPlayer,voiceMatches,chooseVoice,speechErrorMessage} from './vocabulary-audio.js?v=6.0.0';
+import {createAudioPlayer,voiceMatches,chooseVoice,speechErrorMessage} from './vocabulary-audio.js?v=7.0.0';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function relatedDialogues(dialogues,ids){return ids.length?dialogues.filter(d=>d.targetIds.some(id=>ids.includes(id))):dialogues}
 export function turnPolicy(mode,role,turn){return mode==='roleplay'&&turn.role===role?'speak-yourself':'play'}
 export function afterTurn(mode,index,total){return mode==='shadow'?'your-repeat':mode==='read'?'idle':index>=total-1?'complete':'next'}
 export function turnQueue(dialogue,index){const t=dialogue.turns[index];return t?[{text:t.zh,lang:'zh-CN',role:t.role,word:t.zh,wordId:t.id,wordIndex:index,label:'Lượt '+(index+1)}]:[]}
 let cached;
-async function load(){if(!cached)cached=fetch('./data/vocabulary/conversations-demo.json').then(async r=>{if(!r.ok)throw Error('Thiếu data/vocabulary/conversations-demo.json');const x=await r.json();if(!Array.isArray(x.dialogues)||x.dialogues.some(d=>!d.id||!d.roles?.A||!d.roles?.B||!Array.isArray(d.turns)||!d.turns.length||d.turns.some(t=>!['A','B'].includes(t.role)||!t.zh||!t.vi)))throw Error('Dữ liệu hội thoại không đúng định dạng.');return x}).catch(e=>{cached=null;throw e});return cached}
+async function load(){if(!cached)cached=fetch('./data/vocabulary/conversations-demo.json?v=7.0.0').then(async r=>{if(!r.ok)throw Error('Thiếu data/vocabulary/conversations-demo.json');const x=await r.json();if(!Array.isArray(x.dialogues)||x.dialogues.some(d=>!d.id||!d.roles?.A||!d.roles?.B||!Array.isArray(d.turns)||!d.turns.length||d.turns.some(t=>!['A','B'].includes(t.role)||!t.zh||!t.vi)))throw Error('Dữ liệu hội thoại không đúng định dạng.');return x}).catch(e=>{cached=null;throw e});return cached}
 export async function mountConversations(root,{words=[],lessonIds=[],notify=()=>{},stopOthers=()=>{},isActive=()=>true,initialId=null,initialTurn=0}={}){
  const data=await load();if(!isActive())return {stop(){},destroy(){}};
  let list=relatedDialogues(data.dialogues,lessonIds);let unmatched=lessonIds.length>0&&!list.length;let current=list.find(d=>d.id===initialId)||list[0]||data.dialogues.find(d=>d.id===initialId)||data.dialogues[0];
