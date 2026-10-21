@@ -1,0 +1,1116 @@
+{
+  "version": 1,
+  "title": "Thực hành sau bài · 3 tình huống",
+  "description": "Hội thoại biên soạn mới, chữ giản thể. Mỗi đoạn dùng một nhóm từ phù hợp, không ép đủ mọi từ. Chưa gán cấp HSK chính thức.",
+  "audioNotice": "Giọng thiết bị là âm thanh tổng hợp, không phải bản thu người bản xứ. Cần chọn và nghe thử giọng nữ cho A, giọng nam cho B trên thiết bị. Không giả hai giới tính bằng thay cao độ.",
+  "sources": [
+    {
+      "title": "Đối chiếu cách dùng một chút · Đại học Ngoại ngữ Tokyo",
+      "url": "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/061.html"
+    },
+    {
+      "title": "Đối chiếu mong muốn và ý định",
+      "url": "https://www.chineseboost.com/grammar/xiang3-yao4-xiang3yao4-difference/"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "sick-call",
+      "title": "Gọi điện xin nghỉ và bàn giao công việc",
+      "goal": "Báo mình không đi làm được, nhờ đồng nghiệp và hẹn liên lạc lại.",
+      "targetIds": [
+        "dadianhua",
+        "shengbing",
+        "neng",
+        "zai-place",
+        "shuo",
+        "zai-again",
+        "xiang"
+      ],
+      "roles": {
+        "A": {
+          "name": "Lan",
+          "gender": "female",
+          "description": "nhân viên gọi xin nghỉ"
+        },
+        "B": {
+          "name": "Minh",
+          "gender": "male",
+          "description": "đồng nghiệp nhận cuộc gọi"
+        }
+      },
+      "turns": [
+        {
+          "id": "sick-call-01",
+          "role": "A",
+          "zh": "喂，你好，是小明吗？",
+          "vi": "A lô, chào bạn, có phải Minh không?"
+        },
+        {
+          "id": "sick-call-02",
+          "role": "B",
+          "zh": "是我。小兰，你现在方便说话吗？",
+          "vi": "Mình đây. Lan, bây giờ bạn nói chuyện có tiện không?"
+        },
+        {
+          "id": "sick-call-03",
+          "role": "A",
+          "zh": "方便。我在家，今天有点不舒服。",
+          "vi": "Có. Mình ở nhà, hôm nay hơi không khỏe."
+        },
+        {
+          "id": "sick-call-04",
+          "role": "B",
+          "zh": "你生病了吗？还能来上班吗？",
+          "vi": "Bạn bị ốm à? Còn đi làm được không?"
+        },
+        {
+          "id": "sick-call-05",
+          "role": "A",
+          "zh": "我生病了，今天不能去上班。",
+          "vi": "Mình bị ốm, hôm nay không đi làm được."
+        },
+        {
+          "id": "sick-call-06",
+          "role": "B",
+          "zh": "好的。我帮你跟王经理说一声。",
+          "vi": "Được. Mình báo giúp bạn với quản lý Vương một tiếng."
+        },
+        {
+          "id": "sick-call-07",
+          "role": "A",
+          "zh": "谢谢。我想先给王经理打个电话。",
+          "vi": "Cảm ơn. Mình muốn gọi cho quản lý Vương trước."
+        },
+        {
+          "id": "sick-call-08",
+          "role": "B",
+          "zh": "可以。他现在在开会，你十点以后再打吧。",
+          "vi": "Được. Bây giờ anh ấy đang họp, bạn gọi lại sau mười giờ nhé."
+        },
+        {
+          "id": "sick-call-09",
+          "role": "A",
+          "zh": "好。今天下午的会议，你能帮我记一下重要的内容吗？",
+          "vi": "Ừ. Buổi họp chiều nay, bạn ghi giúp mình những nội dung quan trọng được không?"
+        },
+        {
+          "id": "sick-call-10",
+          "role": "B",
+          "zh": "没问题。开完会我给你发消息。",
+          "vi": "Không vấn đề gì. Họp xong mình gửi tin nhắn cho bạn."
+        },
+        {
+          "id": "sick-call-11",
+          "role": "A",
+          "zh": "如果有什么急事，可以给我打电话。",
+          "vi": "Nếu có việc gì gấp, bạn có thể gọi cho mình."
+        },
+        {
+          "id": "sick-call-12",
+          "role": "B",
+          "zh": "好。你现在一个人在家吗？",
+          "vi": "Ừ. Bây giờ bạn ở nhà một mình à?"
+        },
+        {
+          "id": "sick-call-13",
+          "role": "A",
+          "zh": "不是，我妹妹也在家。",
+          "vi": "Không, em gái mình cũng ở nhà."
+        },
+        {
+          "id": "sick-call-14",
+          "role": "B",
+          "zh": "那就好。你先休息，工作的事我们下午再说。",
+          "vi": "Vậy thì tốt. Bạn nghỉ trước đi, chuyện công việc chiều chúng ta nói tiếp."
+        },
+        {
+          "id": "sick-call-15",
+          "role": "A",
+          "zh": "好的，有消息再联系。",
+          "vi": "Được, có tin gì thì liên lạc tiếp nhé."
+        },
+        {
+          "id": "sick-call-16",
+          "role": "B",
+          "zh": "好，再见。",
+          "vi": "Ừ, chào bạn."
+        }
+      ],
+      "glossary": [
+        {
+          "zh": "喂",
+          "vi": "a lô, tiếng mở đầu cuộc gọi",
+          "turns": [
+            1
+          ]
+        },
+        {
+          "zh": "方便",
+          "vi": "tiện, thuận tiện",
+          "turns": [
+            2,
+            3
+          ]
+        },
+        {
+          "zh": "有点不舒服",
+          "vi": "hơi không khỏe",
+          "turns": [
+            3
+          ]
+        },
+        {
+          "zh": "还能",
+          "vi": "vẫn/còn có thể",
+          "turns": [
+            4
+          ]
+        },
+        {
+          "zh": "帮",
+          "vi": "giúp",
+          "turns": [
+            6,
+            9
+          ]
+        },
+        {
+          "zh": "经理",
+          "vi": "quản lý",
+          "turns": [
+            6,
+            7
+          ]
+        },
+        {
+          "zh": "说一声",
+          "vi": "báo/nói một tiếng",
+          "turns": [
+            6
+          ]
+        },
+        {
+          "zh": "打个电话",
+          "vi": "gọi một cuộc điện thoại",
+          "turns": [
+            7
+          ]
+        },
+        {
+          "zh": "开会",
+          "vi": "họp",
+          "turns": [
+            8,
+            10
+          ]
+        },
+        {
+          "zh": "以后",
+          "vi": "sau, sau khi",
+          "turns": [
+            8
+          ]
+        },
+        {
+          "zh": "会议",
+          "vi": "cuộc họp",
+          "turns": [
+            9
+          ]
+        },
+        {
+          "zh": "记一下",
+          "vi": "ghi lại một chút",
+          "turns": [
+            9
+          ]
+        },
+        {
+          "zh": "重要",
+          "vi": "quan trọng",
+          "turns": [
+            9
+          ]
+        },
+        {
+          "zh": "内容",
+          "vi": "nội dung",
+          "turns": [
+            9
+          ]
+        },
+        {
+          "zh": "没问题",
+          "vi": "không vấn đề gì",
+          "turns": [
+            10
+          ]
+        },
+        {
+          "zh": "发消息",
+          "vi": "gửi tin nhắn",
+          "turns": [
+            10
+          ]
+        },
+        {
+          "zh": "如果",
+          "vi": "nếu",
+          "turns": [
+            11
+          ]
+        },
+        {
+          "zh": "急事",
+          "vi": "việc gấp",
+          "turns": [
+            11
+          ]
+        },
+        {
+          "zh": "一个人",
+          "vi": "một mình trong ngữ cảnh này",
+          "turns": [
+            12
+          ]
+        },
+        {
+          "zh": "休息",
+          "vi": "nghỉ ngơi",
+          "turns": [
+            14
+          ]
+        },
+        {
+          "zh": "联系",
+          "vi": "liên lạc",
+          "turns": [
+            15
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "有点 + trạng thái",
+          "explanation": "Đặt 有点 trước trạng thái để nói hơi khó chịu hoặc chưa vừa ý trong tình huống này. Không đảo thành 不舒服有点。",
+          "example": "今天有点不舒服。",
+          "vi": "Hôm nay hơi không khỏe.",
+          "turns": [
+            3
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "给 + người nhận + 打个电话",
+          "explanation": "个 trong 打个电话 làm lời nói gọn, tự nhiên hơn so với lúc nào cũng đọc đầy đủ 一个. Không cần thêm một người nhận sau 电话 nếu đã có 给王经理。",
+          "example": "我想先给王经理打个电话。",
+          "vi": "Mình muốn gọi cho quản lý Vương trước.",
+          "turns": [
+            7
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "先…再…",
+          "explanation": "先 nêu việc trước, 再 nêu việc tiếp theo. Ở đây 再 không có nghĩa lặp lại cùng một hoạt động.",
+          "example": "你先休息，工作的事我们下午再说。",
+          "vi": "Bạn nghỉ trước đi, chuyện công việc chiều chúng ta nói tiếp.",
+          "turns": [
+            14
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "Hành động + 完",
+          "explanation": "完 đặt sau hoạt động để nói làm xong. Trong 开完会, 完 nằm giữa 开 và 会 của cụm 开会。",
+          "example": "开完会我给你发消息。",
+          "vi": "Họp xong mình gửi tin cho bạn.",
+          "turns": [
+            10
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "如果…，可以…",
+          "explanation": "Nêu một điều kiện rồi nói việc có thể làm nếu điều kiện đó xảy ra. Không bắt buộc phải thêm 就 vào câu mẫu này.",
+          "example": "如果有什么急事，可以给我打电话。",
+          "vi": "Nếu có việc gì gấp, bạn có thể gọi cho mình.",
+          "turns": [
+            11
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Vì sao Lan không đi làm hôm nay?",
+          "choices": [
+            "Lan bị ốm.",
+            "Lan đang đi du lịch.",
+            "Lan quên giờ làm."
+          ],
+          "answer": 0,
+          "explanation": "Ở lượt 5, Lan nói mình bị ốm và không thể đi làm."
+        },
+        {
+          "question": "Vì sao Minh đề nghị gọi quản lý sau mười giờ?",
+          "choices": [
+            "Quản lý chưa có điện thoại.",
+            "Quản lý đang họp.",
+            "Quản lý đã về nhà."
+          ],
+          "answer": 1,
+          "explanation": "Lượt 8 nói quản lý đang họp."
+        },
+        {
+          "question": "Minh nhận giúp việc gì?",
+          "choices": [
+            "Đi làm thay mọi ngày.",
+            "Mua thuốc.",
+            "Ghi nội dung quan trọng và gửi tin sau buổi họp."
+          ],
+          "answer": 2,
+          "explanation": "Lượt 9–10 là yêu cầu ghi nội dung và lời nhận gửi tin sau khi họp."
+        }
+      ],
+      "tasks": [
+        {
+          "prompt": "Bạn bị ốm, không đi làm được hôm nay. Báo cho đồng nghiệp và nhờ gửi nội dung cuộc họp.",
+          "hints": [
+            "Nói tình trạng → việc không làm được → nhờ một việc cụ thể.",
+            "我…了，今天不能…。你能…吗？"
+          ],
+          "model": "我生病了，今天不能上班。你能给我发一下会议的内容吗？",
+          "feedback": "Có thể đổi người nhận và công việc nhờ giúp. Câu cần nêu rõ hôm nay không thể đi làm; không dùng 不会上班 để nói tình trạng sức khỏe."
+        }
+      ],
+      "rhythm": [
+        "Lượt 1–2: câu hỏi xác nhận người nghe và hỏi có tiện nói chuyện không; chừa khoảng ngắn sau lời chào.",
+        "Lượt 5: nói trọn cụm 今天不能去上班, tránh đọc tách từng chữ.",
+        "Lượt 14: ngắt nhẹ sau 你先休息, rồi mới nói việc công việc sẽ bàn sau."
+      ],
+      "kind": "original-dialogue",
+      "video": null
+    },
+    {
+      "id": "takeaway",
+      "title": "Mua đồ uống mang đi",
+      "goal": "Chọn đồ, hỏi thanh toán và nhờ lấy túi.",
+      "targetIds": [
+        "yao",
+        "xiang",
+        "gei",
+        "neng",
+        "zai-place"
+      ],
+      "roles": {
+        "A": {
+          "name": "Linh",
+          "gender": "female",
+          "description": "khách mua đồ"
+        },
+        "B": {
+          "name": "Quân",
+          "gender": "male",
+          "description": "nhân viên quán"
+        }
+      },
+      "turns": [
+        {
+          "id": "takeaway-01",
+          "role": "A",
+          "zh": "你好，我想买两杯喝的。",
+          "vi": "Chào anh, tôi muốn mua hai cốc đồ uống."
+        },
+        {
+          "id": "takeaway-02",
+          "role": "B",
+          "zh": "好的，您要咖啡还是茶？",
+          "vi": "Vâng, chị lấy cà phê hay trà?"
+        },
+        {
+          "id": "takeaway-03",
+          "role": "A",
+          "zh": "一杯热咖啡，一杯热茶。",
+          "vi": "Một cốc cà phê nóng, một cốc trà nóng."
+        },
+        {
+          "id": "takeaway-04",
+          "role": "B",
+          "zh": "咖啡要加糖吗？",
+          "vi": "Cà phê có thêm đường không ạ?"
+        },
+        {
+          "id": "takeaway-05",
+          "role": "A",
+          "zh": "不要糖。茶也不要糖，谢谢。",
+          "vi": "Không đường. Trà cũng không đường, cảm ơn."
+        },
+        {
+          "id": "takeaway-06",
+          "role": "B",
+          "zh": "好的。您在这里喝，还是带走？",
+          "vi": "Vâng. Chị uống ở đây hay mang đi?"
+        },
+        {
+          "id": "takeaway-07",
+          "role": "A",
+          "zh": "带走。我还想买点吃的。",
+          "vi": "Mang đi. Tôi còn muốn mua chút đồ ăn."
+        },
+        {
+          "id": "takeaway-08",
+          "role": "B",
+          "zh": "我们有面包，您要看看吗？",
+          "vi": "Quán có bánh mì, chị muốn xem không?"
+        },
+        {
+          "id": "takeaway-09",
+          "role": "A",
+          "zh": "这两种有什么不一样？",
+          "vi": "Hai loại này khác nhau chỗ nào?"
+        },
+        {
+          "id": "takeaway-10",
+          "role": "B",
+          "zh": "这个比较甜，那个不太甜。",
+          "vi": "Cái này tương đối ngọt, cái kia không ngọt lắm."
+        },
+        {
+          "id": "takeaway-11",
+          "role": "A",
+          "zh": "那我要一个不太甜的。",
+          "vi": "Vậy tôi lấy một cái không ngọt lắm."
+        },
+        {
+          "id": "takeaway-12",
+          "role": "B",
+          "zh": "好。两杯饮料和一个面包，一共三十八块。",
+          "vi": "Vâng. Hai cốc đồ uống và một cái bánh mì, tổng cộng ba mươi tám tệ."
+        },
+        {
+          "id": "takeaway-13",
+          "role": "A",
+          "zh": "能用手机付款吗？",
+          "vi": "Có thể thanh toán bằng điện thoại không?"
+        },
+        {
+          "id": "takeaway-14",
+          "role": "B",
+          "zh": "可以。请扫这里。",
+          "vi": "Được ạ. Mời chị quét ở đây."
+        },
+        {
+          "id": "takeaway-15",
+          "role": "A",
+          "zh": "好了。能给我一个袋子吗？",
+          "vi": "Xong rồi. Cho tôi một cái túi được không?"
+        },
+        {
+          "id": "takeaway-16",
+          "role": "B",
+          "zh": "当然可以。请稍等，马上就好。",
+          "vi": "Dĩ nhiên được ạ. Chị chờ một chút, sắp xong ngay."
+        }
+      ],
+      "glossary": [
+        {
+          "zh": "喝的",
+          "vi": "đồ để uống",
+          "turns": [
+            1
+          ]
+        },
+        {
+          "zh": "加糖",
+          "vi": "thêm đường",
+          "turns": [
+            4
+          ]
+        },
+        {
+          "zh": "带走",
+          "vi": "mang đi",
+          "turns": [
+            6,
+            7
+          ]
+        },
+        {
+          "zh": "买点",
+          "vi": "mua một ít",
+          "turns": [
+            7
+          ]
+        },
+        {
+          "zh": "吃的",
+          "vi": "đồ ăn",
+          "turns": [
+            7
+          ]
+        },
+        {
+          "zh": "面包",
+          "vi": "bánh mì",
+          "turns": [
+            8,
+            12
+          ]
+        },
+        {
+          "zh": "种",
+          "vi": "loại; từ đếm loại",
+          "turns": [
+            9
+          ]
+        },
+        {
+          "zh": "不一样",
+          "vi": "không giống nhau",
+          "turns": [
+            9
+          ]
+        },
+        {
+          "zh": "比较",
+          "vi": "tương đối, khá trong câu này",
+          "turns": [
+            10
+          ]
+        },
+        {
+          "zh": "不太甜",
+          "vi": "không ngọt lắm",
+          "turns": [
+            10,
+            11
+          ]
+        },
+        {
+          "zh": "饮料",
+          "vi": "đồ uống",
+          "turns": [
+            12
+          ]
+        },
+        {
+          "zh": "一共",
+          "vi": "tổng cộng",
+          "turns": [
+            12
+          ]
+        },
+        {
+          "zh": "块",
+          "vi": "cách nói thường ngày của đơn vị tiền tệ trong hội thoại này",
+          "turns": [
+            12
+          ]
+        },
+        {
+          "zh": "付款",
+          "vi": "thanh toán",
+          "turns": [
+            13
+          ]
+        },
+        {
+          "zh": "扫",
+          "vi": "quét mã trong ngữ cảnh thanh toán",
+          "turns": [
+            14
+          ]
+        },
+        {
+          "zh": "袋子",
+          "vi": "cái túi",
+          "turns": [
+            15
+          ]
+        },
+        {
+          "zh": "当然",
+          "vi": "dĩ nhiên",
+          "turns": [
+            16
+          ]
+        },
+        {
+          "zh": "稍等",
+          "vi": "đợi một chút",
+          "turns": [
+            16
+          ]
+        },
+        {
+          "zh": "马上",
+          "vi": "ngay, sắp ngay",
+          "turns": [
+            16
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "Hành động + 的",
+          "explanation": "喝的 chỉ thứ để uống; 吃的 chỉ thứ để ăn. Danh từ cụ thể được lược đi vì người nghe hiểu qua tình huống. Không cần biến những cụm này thành mục từ mới.",
+          "example": "我还想买点吃的。",
+          "vi": "Tôi còn muốn mua chút đồ ăn.",
+          "turns": [
+            1,
+            7
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "A 还是 B？",
+          "explanation": "Dùng để hỏi lựa chọn giữa hai phương án. Khi trả lời, nói thẳng phương án mình chọn; không chỉ đáp 是。",
+          "example": "您在这里喝，还是带走？",
+          "vi": "Chị uống ở đây hay mang đi?",
+          "turns": [
+            6
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "不太 + tính chất",
+          "explanation": "Nói không…lắm, nhẹ hơn phủ định hoàn toàn trong tình huống này. 不太甜 vẫn có thể có vị ngọt.",
+          "example": "那个不太甜。",
+          "vi": "Cái kia không ngọt lắm.",
+          "turns": [
+            10
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "Một cái + phần mô tả + 的",
+          "explanation": "一个不太甜的 là một cái không ngọt lắm; người nghe hiểu đang nói bánh mì. Không phải mọi chữ 的 trong câu này đều dịch thành của.",
+          "example": "那我要一个不太甜的。",
+          "vi": "Vậy tôi lấy một cái không ngọt lắm.",
+          "turns": [
+            11
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "马上就…",
+          "explanation": "Báo việc sắp xảy ra ngay. Đây là lời hẹn trong hội thoại mẫu, không phải cam kết thời gian của một cửa hàng thật.",
+          "example": "马上就好。",
+          "vi": "Sắp xong ngay.",
+          "turns": [
+            16
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Khách chọn đồ uống như thế nào?",
+          "choices": [
+            "Cà phê lạnh và trà có đường.",
+            "Cà phê nóng và trà nóng, đều không đường.",
+            "Chỉ một cốc cà phê."
+          ],
+          "answer": 1,
+          "explanation": "Lượt 3 và 5 nêu hai đồ uống nóng và không thêm đường."
+        },
+        {
+          "question": "Khách uống tại quán hay mang đi?",
+          "choices": [
+            "Mang đi.",
+            "Uống ở quán.",
+            "Chưa quyết định."
+          ],
+          "answer": 0,
+          "explanation": "Lượt 7 trả lời trực tiếp 带走。"
+        },
+        {
+          "question": "Ở lần nhờ cuối cùng, khách xin thêm gì?",
+          "choices": [
+            "Thêm cà phê.",
+            "Đổi bánh.",
+            "Một cái túi."
+          ],
+          "answer": 2,
+          "explanation": "Lượt 15 xin một cái túi."
+        }
+      ],
+      "tasks": [
+        {
+          "prompt": "Bạn mua một cốc trà nóng không đường mang đi. Sau đó hỏi có thể thanh toán bằng điện thoại không.",
+          "hints": [
+            "Nêu món → nói không đường → nói mang đi → hỏi thanh toán.",
+            "我要…。不要…。…。能用…吗？"
+          ],
+          "model": "我要一杯热茶，不要糖。带走。能用手机付款吗？",
+          "feedback": "Có thể đổi trà thành cà phê hoặc thay cách hỏi lịch sự. Muốn mang đi thì cần nói rõ 带走, không chỉ nêu 在这里。"
+        }
+      ],
+      "rhythm": [
+        "Lượt 3: đọc mỗi món thành một cụm, ngắt giữa hai món.",
+        "Lượt 5: 不要糖 là câu trả lời gọn trong lúc gọi món; phần cảm ơn giúp lời nói mềm hơn.",
+        "Lượt 16: 请稍等 và 马上就好 là hai cụm ngắn; không kéo dài từng chữ."
+      ],
+      "kind": "original-dialogue",
+      "video": null
+    },
+    {
+      "id": "speaking-meetup",
+      "title": "Hẹn bạn luyện nói sau giờ làm",
+      "goal": "Hẹn thời gian, địa điểm và nhờ sửa câu khi luyện nói.",
+      "targetIds": [
+        "hui",
+        "neng",
+        "xiang",
+        "shuo",
+        "zai-place",
+        "zai-again",
+        "gei"
+      ],
+      "roles": {
+        "A": {
+          "name": "Lan",
+          "gender": "female",
+          "description": "người muốn luyện nói"
+        },
+        "B": {
+          "name": "Minh",
+          "gender": "male",
+          "description": "bạn cùng luyện"
+        }
+      },
+      "turns": [
+        {
+          "id": "speaking-meetup-01",
+          "role": "A",
+          "zh": "你明天晚上有时间吗？",
+          "vi": "Tối mai bạn có thời gian không?"
+        },
+        {
+          "id": "speaking-meetup-02",
+          "role": "B",
+          "zh": "有。怎么了？",
+          "vi": "Có. Có chuyện gì vậy?"
+        },
+        {
+          "id": "speaking-meetup-03",
+          "role": "A",
+          "zh": "我想练习说汉语，你能和我一起练吗？",
+          "vi": "Mình muốn luyện nói tiếng Trung, bạn luyện cùng mình được không?"
+        },
+        {
+          "id": "speaking-meetup-04",
+          "role": "B",
+          "zh": "可以。你想在哪儿练？",
+          "vi": "Được. Bạn muốn luyện ở đâu?"
+        },
+        {
+          "id": "speaking-meetup-05",
+          "role": "A",
+          "zh": "在学校旁边的咖啡店，怎么样？",
+          "vi": "Ở quán cà phê cạnh trường, được không?"
+        },
+        {
+          "id": "speaking-meetup-06",
+          "role": "B",
+          "zh": "好啊。你现在学到哪儿了？",
+          "vi": "Được đấy. Bây giờ bạn học đến đâu rồi?"
+        },
+        {
+          "id": "speaking-meetup-07",
+          "role": "A",
+          "zh": "我会说一些简单的句子，可是一紧张就说得很慢。",
+          "vi": "Mình nói được vài câu đơn giản, nhưng cứ căng thẳng là nói rất chậm."
+        },
+        {
+          "id": "speaking-meetup-08",
+          "role": "B",
+          "zh": "没关系。我们先聊吃饭和上班的事。",
+          "vi": "Không sao. Chúng ta nói chuyện ăn uống và đi làm trước."
+        },
+        {
+          "id": "speaking-meetup-09",
+          "role": "A",
+          "zh": "如果我说错了，你能告诉我吗？",
+          "vi": "Nếu mình nói sai, bạn chỉ cho mình được không?"
+        },
+        {
+          "id": "speaking-meetup-10",
+          "role": "B",
+          "zh": "当然。我先听你说完，再帮你改。",
+          "vi": "Tất nhiên. Mình nghe bạn nói xong trước, rồi giúp bạn sửa."
+        },
+        {
+          "id": "speaking-meetup-11",
+          "role": "A",
+          "zh": "那我们几点见？",
+          "vi": "Vậy chúng ta gặp lúc mấy giờ?"
+        },
+        {
+          "id": "speaking-meetup-12",
+          "role": "B",
+          "zh": "七点可以吗？",
+          "vi": "Bảy giờ được không?"
+        },
+        {
+          "id": "speaking-meetup-13",
+          "role": "A",
+          "zh": "我六点半才下班，七点半可以吗？",
+          "vi": "Mình sáu giờ rưỡi mới tan làm, bảy giờ rưỡi được không?"
+        },
+        {
+          "id": "speaking-meetup-14",
+          "role": "B",
+          "zh": "可以。到了以后给我发个消息。",
+          "vi": "Được. Đến nơi rồi nhắn cho mình một tin nhé."
+        },
+        {
+          "id": "speaking-meetup-15",
+          "role": "A",
+          "zh": "好。明天见！",
+          "vi": "Ừ. Hẹn gặp ngày mai!"
+        },
+        {
+          "id": "speaking-meetup-16",
+          "role": "B",
+          "zh": "明天见，别太紧张。",
+          "vi": "Hẹn mai gặp, đừng căng thẳng quá."
+        }
+      ],
+      "glossary": [
+        {
+          "zh": "练习",
+          "vi": "luyện tập",
+          "turns": [
+            3
+          ]
+        },
+        {
+          "zh": "一起",
+          "vi": "cùng nhau",
+          "turns": [
+            3
+          ]
+        },
+        {
+          "zh": "旁边",
+          "vi": "bên cạnh",
+          "turns": [
+            5
+          ]
+        },
+        {
+          "zh": "学到哪儿了",
+          "vi": "học đến đâu rồi",
+          "turns": [
+            6
+          ]
+        },
+        {
+          "zh": "一些",
+          "vi": "một vài, một số",
+          "turns": [
+            7
+          ]
+        },
+        {
+          "zh": "简单",
+          "vi": "đơn giản",
+          "turns": [
+            7
+          ]
+        },
+        {
+          "zh": "句子",
+          "vi": "câu",
+          "turns": [
+            7
+          ]
+        },
+        {
+          "zh": "紧张",
+          "vi": "căng thẳng",
+          "turns": [
+            7,
+            16
+          ]
+        },
+        {
+          "zh": "没关系",
+          "vi": "không sao",
+          "turns": [
+            8
+          ]
+        },
+        {
+          "zh": "聊",
+          "vi": "trò chuyện",
+          "turns": [
+            8
+          ]
+        },
+        {
+          "zh": "说错",
+          "vi": "nói sai",
+          "turns": [
+            9
+          ]
+        },
+        {
+          "zh": "告诉",
+          "vi": "nói cho biết",
+          "turns": [
+            9
+          ]
+        },
+        {
+          "zh": "说完",
+          "vi": "nói xong",
+          "turns": [
+            10
+          ]
+        },
+        {
+          "zh": "改",
+          "vi": "sửa",
+          "turns": [
+            10
+          ]
+        },
+        {
+          "zh": "才",
+          "vi": "mới; nhấn mạnh muộn hơn điều người nói đang đối chiếu",
+          "turns": [
+            13
+          ]
+        },
+        {
+          "zh": "下班",
+          "vi": "tan làm",
+          "turns": [
+            13
+          ]
+        },
+        {
+          "zh": "发个消息",
+          "vi": "gửi một tin nhắn",
+          "turns": [
+            14
+          ]
+        },
+        {
+          "zh": "别",
+          "vi": "đừng",
+          "turns": [
+            16
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "pattern": "一…就…",
+          "explanation": "Trong tình huống này, cứ xuất hiện trạng thái căng thẳng là phản ứng nói chậm xảy ra. Không dịch 一 ở đây thành số một.",
+          "example": "一紧张就说得很慢。",
+          "vi": "Cứ căng thẳng là nói rất chậm.",
+          "turns": [
+            7
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "Hành động + 得 + cách thực hiện",
+          "explanation": "得 nối hành động 说 với phần mô tả nói như thế nào: 很慢. Không thay bằng 的 trong mẫu này.",
+          "example": "说得很慢。",
+          "vi": "Nói rất chậm.",
+          "turns": [
+            7
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "Hành động + 错 / 完",
+          "explanation": "错 chỉ kết quả sai; 完 chỉ làm xong. 说错 là nói sai; 说完 là nói xong. Đây là hai phần mở rộng giúp hiểu cuộc hội thoại, chưa yêu cầu tự dùng thành thạo.",
+          "example": "我先听你说完，再帮你改。",
+          "vi": "Mình nghe bạn nói xong trước rồi giúp bạn sửa.",
+          "turns": [
+            9,
+            10
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "Thời điểm + 才 + hành động",
+          "explanation": "才 ở đây nhấn mạnh đến sáu giờ rưỡi mới tan làm, vì vậy hẹn bảy giờ có thể hơi gấp. Không phải mọi câu có thời điểm đều cần 才。",
+          "example": "我六点半才下班。",
+          "vi": "Mình sáu giờ rưỡi mới tan làm.",
+          "turns": [
+            13
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        },
+        {
+          "pattern": "Hành động + 了 + 以后",
+          "explanation": "到了以后 nghĩa là sau khi đến nơi. Ở đây là điều kiện cho một việc sắp làm, không phải chỉ kể quá khứ.",
+          "example": "到了以后给我发个消息。",
+          "vi": "Đến nơi rồi nhắn cho mình một tin nhé.",
+          "turns": [
+            14
+          ],
+          "status": "Mở rộng so với mẫu cơ bản; chưa gán cấp HSK chính thức"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Hai người thống nhất gặp lúc nào?",
+          "choices": [
+            "Sáu giờ rưỡi.",
+            "Bảy giờ.",
+            "Bảy giờ rưỡi."
+          ],
+          "answer": 2,
+          "explanation": "Lượt 13 đề nghị bảy giờ rưỡi và lượt 14 đồng ý."
+        },
+        {
+          "question": "Vì sao Lan thường nói chậm?",
+          "choices": [
+            "Vì căng thẳng.",
+            "Vì không muốn nói chuyện.",
+            "Vì đang nghe điện thoại."
+          ],
+          "answer": 0,
+          "explanation": "Lượt 7 nói cứ căng thẳng là nói rất chậm."
+        },
+        {
+          "question": "Minh định sửa câu vào lúc nào?",
+          "choices": [
+            "Ngắt ngay sau từng chữ.",
+            "Sau khi nghe Lan nói xong.",
+            "Không sửa câu."
+          ],
+          "answer": 1,
+          "explanation": "Lượt 10 nói nghe hết lời trước, rồi giúp sửa."
+        }
+      ],
+      "tasks": [
+        {
+          "prompt": "Hẹn một người bạn luyện nói lúc bảy giờ rưỡi tối mai và nhờ bạn ấy sửa nếu bạn nói sai.",
+          "hints": [
+            "Nêu mong muốn luyện → hẹn giờ → nhờ sửa khi nói sai.",
+            "我想…。明天晚上…可以吗？如果我…，你能…吗？"
+          ],
+          "model": "我想练习说汉语。明天晚上七点半可以吗？如果我说错了，你能帮我改吗？",
+          "feedback": "Không cần giống toàn bộ câu mẫu. Câu phải có giờ hẹn rõ ràng; nhờ sửa nên dùng câu hỏi thay vì biến thành mệnh lệnh."
+        }
+      ],
+      "rhythm": [
+        "Lượt 2: 怎么了 là câu hỏi đáp ngắn trong quan hệ bạn bè, không cần đọc như một câu hỏi trang trọng.",
+        "Lượt 7: ngắt nhẹ sau 可是; giữ 一紧张就… thành một nhóm ý.",
+        "Lượt 13: nhấn rõ 六点半 và 七点半 để người nghe nhận ra lý do đổi giờ."
+      ],
+      "kind": "original-dialogue",
+      "video": null
+    }
+  ]
+}
