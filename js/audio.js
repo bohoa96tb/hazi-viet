@@ -1,1 +1,2 @@
-
+export function speak(text,notify,slow=false){if(!('speechSynthesis'in window)){notify('Trình duyệt này không hỗ trợ giọng đọc.');return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';u.rate=slow?.65:.85;const voices=speechSynthesis.getVoices();const voice=voices.find(v=>/^zh[-_]CN/i.test(v.lang))||voices.find(v=>/^zh/i.test(v.lang));if(voice)u.voice=voice;else notify('Dùng giọng tiếng Trung mặc định. Nếu không có tiếng, hãy cài giọng zh-CN trên thiết bị.');u.onerror=e=>{if(!['interrupted','canceled'].includes(e.error))notify('Không phát được giọng Trung. Kiểm tra gói giọng và kết nối mạng.')};speechSynthesis.speak(u)}
+export function stopAudio(){if('speechSynthesis'in window)speechSynthesis.cancel()}
