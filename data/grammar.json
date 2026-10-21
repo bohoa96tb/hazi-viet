@@ -1,1 +1,320 @@
-[{"title": "Giới thiệu với 是", "pattern": "Chủ ngữ + 是 + danh từ", "ex": "我是学生。", "meaning": "Tôi là học sinh.", "trap": "Không thêm 是 trước tính từ trong câu miêu tả cơ bản. Dùng 她很好。", "chars": "是我你他她"}, {"title": "Hỏi có / không với 吗", "pattern": "Câu trần thuật + 吗？", "ex": "你是老师吗？", "meaning": "Bạn là giáo viên à?", "trap": "Không thêm 吗 vào câu đã có từ hỏi như 什么, 谁 trong cách hỏi thông thường.", "chars": "吗你是"}, {"title": "Sở hữu với 的", "pattern": "Người sở hữu + 的 + vật/người", "ex": "这是我的书。", "meaning": "Đây là sách của tôi.", "trap": "Không đặt 的 sau vật sở hữu. Một số quan hệ thân thuộc có thể lược 的: 我妈妈。", "chars": "的我书这"}, {"title": "Phủ định với 不", "pattern": "不 + động từ / tính từ", "ex": "我不喝茶。", "meaning": "Tôi không uống trà.", "trap": "Phủ định 有 dùng 没有, không dùng 不有.", "chars": "不喝有"}, {"title": "Nói vị trí với 在", "pattern": "Người / vật + 在 + nơi chốn", "ex": "他在学校。", "meaning": "Anh ấy ở trường.", "trap": "Phân biệt 在 chỉ vị trí với 在 đứng trước động từ để chỉ hành động đang diễn ra.", "chars": "在他学"}, {"title": "Có với 有", "pattern": "Chủ ngữ + 有 + đối tượng", "ex": "我有一本书。", "meaning": "Tôi có một quyển sách.", "trap": "Giữa số và danh từ thường cần lượng từ: 一本书, không dùng 一书.", "chars": "有一书我"}]
+[
+  {
+    "title": "Giới thiệu với 是",
+    "pattern": "Chủ ngữ + 是 + danh từ",
+    "ex": "我是学生。",
+    "meaning": "Tôi là học sinh.",
+    "trap": "Không thêm 是 trước tính từ trong câu miêu tả cơ bản. Dùng 她很好。",
+    "chars": "是我你他她"
+  },
+  {
+    "title": "Hỏi có / không với 吗",
+    "pattern": "Câu trần thuật + 吗？",
+    "ex": "你是老师吗？",
+    "meaning": "Bạn là giáo viên à?",
+    "trap": "Không thêm 吗 vào câu đã có từ hỏi như 什么, 谁 trong cách hỏi thông thường.",
+    "chars": "吗你是"
+  },
+  {
+    "title": "Sở hữu với 的",
+    "pattern": "Người sở hữu + 的 + vật/người",
+    "ex": "这是我的书。",
+    "meaning": "Đây là sách của tôi.",
+    "trap": "Không đặt 的 sau vật sở hữu. Một số quan hệ thân thuộc có thể lược 的: 我妈妈。",
+    "chars": "的我书这"
+  },
+  {
+    "title": "Phủ định với 不",
+    "pattern": "不 + động từ / tính từ",
+    "ex": "我不喝茶。",
+    "meaning": "Tôi không uống trà.",
+    "trap": "Phủ định 有 dùng 没有, không dùng 不有.",
+    "chars": "不喝有"
+  },
+  {
+    "title": "Nói vị trí với 在",
+    "pattern": "Người / vật + 在 + nơi chốn",
+    "ex": "他在学校。",
+    "meaning": "Anh ấy ở trường.",
+    "trap": "Phân biệt 在 chỉ vị trí với 在 đứng trước động từ để chỉ hành động đang diễn ra.",
+    "chars": "在他学"
+  },
+  {
+    "title": "Có với 有",
+    "pattern": "Chủ ngữ + 有 + đối tượng",
+    "ex": "我有一本书。",
+    "meaning": "Tôi có một quyển sách.",
+    "trap": "Giữa số và danh từ thường cần lượng từ: 一本书, không dùng 一书.",
+    "chars": "有一书我"
+  },
+  {
+    "title": "学习 và 学：học gì, học ở đâu?",
+    "pattern": "学习 + nội dung; 学 + kỹ năng / môn học",
+    "ex": "我在家学习汉语。",
+    "meaning": "Tôi học tiếng Hán ở nhà.",
+    "trap": "Không ghép máy móc nghĩa từng chữ. 学生 là học sinh; 学校 là trường học. 学习 thường nói việc học kiến thức, 学 còn dùng với kỹ năng như 学做饭.",
+    "chars": "学习",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "想：muốn, nghĩ hoặc nhớ",
+    "pattern": "想 + động từ; 想 + người",
+    "ex": "我想学汉语。",
+    "meaning": "Tôi muốn học tiếng Hán.",
+    "trap": "想你 thường là nhớ bạn; 想买 là muốn mua. Cần nhìn phần đứng sau để chọn nghĩa.",
+    "chars": "想",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "会：biết một kỹ năng",
+    "pattern": "Chủ ngữ + 会 + động từ",
+    "ex": "我会写汉字。",
+    "meaning": "Tôi biết viết chữ Hán.",
+    "trap": "会 ở đây là biết nhờ học hoặc luyện; 能 nói khả năng/điều kiện. 会 còn có nghĩa dự đoán khi đặt trong ngữ cảnh khác.",
+    "chars": "会",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "能 và 可以",
+    "pattern": "能 / 可以 + động từ",
+    "ex": "我今天不能去。",
+    "meaning": "Hôm nay tôi không thể đi.",
+    "trap": "能 chú trọng khả năng hoặc điều kiện; 可以 thường dùng để xin/cho phép. Không thay hai từ cho nhau trong mọi câu.",
+    "chars": "能可以",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "很 với tính từ",
+    "pattern": "Chủ ngữ + 很 + tính từ",
+    "ex": "今天天气很好。",
+    "meaning": "Hôm nay thời tiết đẹp.",
+    "trap": "很 trong câu tường thuật trung tính không phải lúc nào cũng nhấn mạnh 'rất'. Không cần thêm 是 trước 好 trong câu này.",
+    "chars": "很",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "都：đều",
+    "pattern": "Nhóm đối tượng + 都 + nhận xét",
+    "ex": "我们都是学生。",
+    "meaning": "Chúng tôi đều là học sinh.",
+    "trap": "都 thường đứng trước động từ/tính từ. 都不 là tất cả đều không; 不都 là không phải tất cả đều.",
+    "chars": "都",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "也：cũng",
+    "pattern": "Chủ ngữ + 也 + động từ / tính từ",
+    "ex": "我也喜欢看书。",
+    "meaning": "Tôi cũng thích đọc sách.",
+    "trap": "也 thường đứng sau chủ ngữ, trước phần nhận xét; không đặt cuối câu như từ 'cũng' trong một số câu tiếng Việt.",
+    "chars": "也",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "和：nối danh từ",
+    "pattern": "Danh từ A + 和 + danh từ B",
+    "ex": "我和朋友去学校。",
+    "meaning": "Tôi và bạn đi đến trường.",
+    "trap": "Không dùng 和 để nối tùy ý hai câu hoàn chỉnh như 'và' trong tiếng Việt.",
+    "chars": "和",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "几 và 多少",
+    "pattern": "几 + lượng từ + danh từ; 多少 + danh từ",
+    "ex": "你家有几个人？",
+    "meaning": "Nhà bạn có mấy người?",
+    "trap": "几 thường hỏi số lượng nhỏ dự kiến; 多少 hỏi số lượng nói chung. Với 几 thường cần lượng từ.",
+    "chars": "几多少",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "什么：hỏi vật hoặc nội dung",
+    "pattern": "Động từ + 什么; 什么 + danh từ",
+    "ex": "你想喝什么？",
+    "meaning": "Bạn muốn uống gì?",
+    "trap": "Từ hỏi ở vị trí của phần chưa biết; không phải đưa 什么 lên đầu mọi câu. Thường không thêm 吗.",
+    "chars": "什么",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "谁：hỏi người",
+    "pattern": "谁 thay phần chỉ người trong câu",
+    "ex": "谁是你的老师？",
+    "meaning": "Ai là giáo viên của bạn?",
+    "trap": "Giữ trật tự câu tương ứng; không thêm 吗 khi đã dùng 谁 để hỏi thông tin.",
+    "chars": "谁",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "这 và 那 với danh từ",
+    "pattern": "这 / 那 + lượng từ + danh từ",
+    "ex": "这本书是我的。",
+    "meaning": "Quyển sách này là của tôi.",
+    "trap": "Thường cần lượng từ khi chỉ một vật cụ thể: 这本书. 本 là lượng từ thường dùng với sách.",
+    "chars": "这那本",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "的：cụm miêu tả danh từ",
+    "pattern": "Phần miêu tả + 的 + danh từ",
+    "ex": "我喜欢红色的衣服。",
+    "meaning": "Tôi thích quần áo màu đỏ.",
+    "trap": "Không thêm 的 một cách máy móc sau mọi tính từ. Cụm tính từ đơn âm tiết quen thuộc có thể dùng trực tiếp như 红花.",
+    "chars": "的",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "了：hành động đã xảy ra",
+    "pattern": "Động từ + 了 + tân ngữ phù hợp",
+    "ex": "我买了一本书。",
+    "meaning": "Tôi đã mua một quyển sách.",
+    "trap": "了 không đơn giản là dấu thì quá khứ. Khi phủ định việc đã xảy ra, thường dùng 没(有) và bỏ 了 của hoàn thành.",
+    "chars": "了",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "过：từng có trải nghiệm",
+    "pattern": "Động từ + 过",
+    "ex": "我去过中国。",
+    "meaning": "Tôi từng đến Trung Quốc.",
+    "trap": "过 nhấn vào trải nghiệm, không dùng thay mọi trường hợp của 了. Phủ định trải nghiệm thường là 没去过.",
+    "chars": "过",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "正在 / 在：đang làm",
+    "pattern": "Chủ ngữ + 在 / 正在 + động từ",
+    "ex": "他正在看书。",
+    "meaning": "Anh ấy đang đọc sách.",
+    "trap": "Không nhầm với 在 + địa điểm. 他在学校 nói vị trí; 他在学习 nói hoạt động đang diễn ra.",
+    "chars": "正在",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "着：trạng thái đang duy trì",
+    "pattern": "Động từ + 着",
+    "ex": "门开着。",
+    "meaning": "Cửa đang mở.",
+    "trap": "着 ở đây đọc nhẹ zhe và nhấn trạng thái; không phải mọi chữ 着 đều đọc như vậy.",
+    "chars": "着",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "比：so sánh hơn",
+    "pattern": "A + 比 + B + tính từ",
+    "ex": "他比我高。",
+    "meaning": "Anh ấy cao hơn tôi.",
+    "trap": "Trong mẫu so sánh cơ bản không đặt 很 ngay trước 高. Có thể nói 高一点儿 hoặc 高得多 tùy mức độ.",
+    "chars": "比",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "因为…所以…：nguyên nhân và kết quả",
+    "pattern": "因为 + nguyên nhân，所以 + kết quả",
+    "ex": "因为下雨，所以我没去。",
+    "meaning": "Vì trời mưa nên tôi đã không đi.",
+    "trap": "Hai vế phải thể hiện quan hệ nguyên nhân–kết quả. Trong giao tiếp có thể lược một từ nối khi ngữ cảnh rõ.",
+    "chars": "因为所以",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "虽然…但是…：nhượng bộ",
+    "pattern": "虽然 + điều kiện trái dự kiến，但是 + kết quả",
+    "ex": "虽然很累，但是我很高兴。",
+    "meaning": "Tuy rất mệt nhưng tôi rất vui.",
+    "trap": "但是 nối với ý trái dự kiến, không phải từ nối cho bất kỳ hai câu nào.",
+    "chars": "虽然但是",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "一边…一边…：hai việc cùng lúc",
+    "pattern": "Chủ ngữ + 一边 + việc A + 一边 + việc B",
+    "ex": "她一边听音乐一边做饭。",
+    "meaning": "Cô ấy vừa nghe nhạc vừa nấu ăn.",
+    "trap": "Dùng cho hai hoạt động có thể diễn ra đồng thời, không dùng để kể hai việc nối tiếp.",
+    "chars": "边",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "先…再…：thứ tự làm việc",
+    "pattern": "先 + việc trước，再 + việc sau",
+    "ex": "我先吃饭，再去学校。",
+    "meaning": "Tôi ăn cơm trước, rồi đi đến trường.",
+    "trap": "再 thường chỉ làm tiếp/làm lại trong tương lai so với mốc đang nói; 又 thường nói sự lặp đã xảy ra.",
+    "chars": "先再又",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "把：xử lý một đối tượng",
+    "pattern": "Chủ ngữ + 把 + đối tượng xác định + động từ + kết quả",
+    "ex": "请把门关上。",
+    "meaning": "Xin hãy đóng cửa lại.",
+    "trap": "Không lấy 把 ghép với mọi động từ. Mẫu thường cần nói đối tượng bị xử lý ra sao, không dừng ở động từ trống.",
+    "chars": "把",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "被：chịu tác động",
+    "pattern": "Đối tượng chịu tác động + 被 + tác nhân + hành động / kết quả",
+    "ex": "我的手机被他拿走了。",
+    "meaning": "Điện thoại của tôi bị anh ấy lấy đi rồi.",
+    "trap": "Không phải mọi câu tiếng Việt có 'được' đều dịch bằng 被; 被 thường nêu việc chủ thể chịu tác động.",
+    "chars": "被",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "得：miêu tả cách làm",
+    "pattern": "Động từ + 得 + mức độ / đánh giá",
+    "ex": "他说得很好。",
+    "meaning": "Anh ấy nói rất tốt.",
+    "trap": "Phân biệt 的 nối với danh từ, 地 đứng trước động từ khi làm trạng ngữ, 得 đứng sau động từ trong mẫu này.",
+    "chars": "得地",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "越…越…：càng…càng…",
+    "pattern": "越 + thay đổi A，越 + thay đổi B",
+    "ex": "汉语越学越有意思。",
+    "meaning": "Tiếng Hán càng học càng thú vị.",
+    "trap": "Hai phần diễn tả sự thay đổi liên quan nhau. Không hiểu 越 trong mẫu này là nghĩa từ vựng 'vượt qua'.",
+    "chars": "越",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "除了…以外，还…：ngoài ra còn",
+    "pattern": "除了 + A + 以外，还 + B",
+    "ex": "除了汉语以外，我还学英语。",
+    "meaning": "Ngoài tiếng Hán, tôi còn học tiếng Anh.",
+    "trap": "Phân biệt với 除了…都…: mẫu đó có thể loại một đối tượng khỏi phạm vi nhận xét.",
+    "chars": "除以外还",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "不仅…而且…：không những…mà còn…",
+    "pattern": "不仅 + A，而且 + B",
+    "ex": "他不仅会说汉语，而且会写汉字。",
+    "meaning": "Anh ấy không những biết nói tiếng Hán mà còn biết viết chữ Hán.",
+    "trap": "Hai vế phải có quan hệ bổ sung. Khi cùng chủ ngữ, 不仅 thường đứng sau chủ ngữ; khi khác chủ ngữ, vị trí có thể đổi.",
+    "chars": "仅而且",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "只要…就…：chỉ cần…thì…",
+    "pattern": "只要 + điều kiện đủ，就 + kết quả",
+    "ex": "只要你来，我就高兴。",
+    "meaning": "Chỉ cần bạn đến thì tôi vui.",
+    "trap": "Phân biệt với 只有…才… diễn tả điều kiện cần; không hoán đổi tùy ý hai mẫu.",
+    "chars": "只要就才",
+    "source": "Hanzi Việt · biên soạn mới"
+  },
+  {
+    "title": "无论…都…：bất kể…đều…",
+    "pattern": "无论 + khả năng lựa chọn，都 + kết quả không đổi",
+    "ex": "无论多忙，我都要学习。",
+    "meaning": "Dù bận thế nào, tôi cũng phải học.",
+    "trap": "Vế sau nêu kết quả vẫn giữ nguyên qua các khả năng, không phải một điều kiện thông thường với 如果.",
+    "chars": "无论",
+    "source": "Hanzi Việt · biên soạn mới"
+  }
+]
