@@ -61,7 +61,7 @@ export function speechErrorMessage(error){
  'exception':'Không khởi tạo được lệnh đọc. Hãy tải lại trang và thử trong Chrome.'
  };return (messages[error.code]||'Bộ đọc báo lỗi chưa xác định. Thử lại câu mẫu trong Chrome.')+' [Mã: '+error.code+'; '+(error.lang||'không rõ ngôn ngữ')+']';
 }
-export function createAudioPlayer({synth,makeUtterance,changed=()=>{},preferredVoice=()=>'',setTimer=setTimeout,clearTimer=clearTimeout}){
+export function createAudioPlayer({synth,makeUtterance,changed=()=>{},preferredVoice=()=>'',segmentGap=400,setTimer=setTimeout,clearTimer=clearTimeout}){
  let queue=[],index=0,status='idle',rate=.9,repeat=false,generation=0,timer=null,watchdog=null,current=null,error=null;
  const state=()=>({status,index,total:queue.length,item:queue[index]||null,rate,repeat,queue,error});
  const emit=()=>changed(state());
@@ -74,12 +74,12 @@ export function createAudioPlayer({synth,makeUtterance,changed=()=>{},preferredV
   const token=generation,item=queue[index];
   if(!synth){fail('api-unavailable',item);return}
   try{
-   const voice=systemDefault?undefined:chooseVoice(synth.getVoices(),item.lang,preferredVoice(item.lang));
+   const voice=systemDefault?undefined:chooseVoice(synth.getVoices(),item.lang,preferredVoice(item.lang,item));
    // A partial or empty browser voice list does not prove the OS lacks a language.
    // If no compatible voice is exposed, request the language from the OS directly.
    const u=makeUtterance(item.text);current=u;u.lang=voice?.lang||item.lang;u.rate=rate;if(voice)u.voice=voice;
    u.onstart=()=>{if(token===generation)clearWatch()};
-   u.onend=()=>{if(token!==generation||status!=='playing')return;clearWatch();current=null;index++;timer=setTimer(()=>{timer=null;playCurrent()},400)};
+   u.onend=()=>{if(token!==generation||status!=='playing')return;clearWatch();current=null;index++;timer=setTimer(()=>{timer=null;playCurrent()},segmentGap)};
    u.onerror=e=>{if(token!==generation||status!=='playing')return;clearWatch();current=null;
     if(!systemDefault&&['voice-unavailable','synthesis-failed'].includes(e.error)){
      generation++;try{synth.cancel()}catch{};timer=setTimer(()=>{timer=null;playCurrent(true)},600);return;
