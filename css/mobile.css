@@ -16,3 +16,6 @@
 @media (max-height:680px) and (max-width:760px){.study-scroll .writer-box{transform:none;margin:6px auto}.study-scroll:has(.writing-stage)>.stage-title{display:none}}
 .word-flash,.sentence-flash,.usage-flash{touch-action:pan-y}
 @media (max-width:760px){.card-pager{position:relative;margin-bottom:23px}.card-pager:after{content:'Vuốt hoặc bấm mũi tên để lật thẻ';position:absolute;top:calc(100% + 5px);font-size:8px;color:#9aa48e;white-space:nowrap;letter-spacing:.1px}}
+
+/* Vocabulary learning branch */
+.vocab-entry{display:flex;align-items:center;gap:14px;margin:18px 0;text-decoration:none;padding:17px 20px;border:1px solid #d9dfcf;background:#edf0e3;border-radius:16px;color:#153c32}.vocab-entry>span{font-size:36px;font-family:serif}.vocab-entry div{flex:1}.vocab-entry b{font-size:16px}.vocab-entry small{display:block;font-size:12px;color:#6a796c;margin-top:4px}.vocab-return{display:block;padding:12px 20px;background:#e9efdc;font-size:13px}.vocab-dialog-return{font-size:11px;margin-right:10px;color:#153c32;text-decoration:none}.dialog-top:has(.vocab-dialog-return) #dialogLabel{flex:1}.dialog-top:has(.vocab-dialog-return){gap:5px}@media(max-width:600px){.vocab-entry{padding:13px 16px}.vocab-entry b{font-size:14px}.vocab-entry small{font-size:11px}.dialog-top:has(.vocab-dialog-return) .study-heading{display:none}.vocab-dialog-return{font-size:10px}}
