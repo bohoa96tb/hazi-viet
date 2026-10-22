@@ -12,4 +12,5 @@
 
 Biên soạn trên `content/vocabulary-2224`; sau kiểm tra được phép cập nhật `main` và triển khai GitHub Pages theo quyền người dùng đã cấp. Phải xác minh website thật, không xem commit lên nhánh là đã xuất bản.
 
-Lần cập nhật prompt V2 không tự chuyển nội dung các bài cũ hoặc giao diện sang V2; yêu cầu tương thích kỹ thuật trước đợt V2 tiếp theo được ghi trong handoff.
+Từ batch-005 có hỗ trợ V2 trong dữ liệu, giao diện, audio và kiểm thử; bài V1 giữ nguyên nội dung. Xem [hợp đồng V2](docs/CONTENT_SCHEMA_V2.md) và [trạng thái phát hành](docs/RELEASE.md).
+

@@ -6,6 +6,7 @@ import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 import {auditLesson,lessonAudio,checkAudio} from '../../js/lesson-standard.js';
+import {verifyV2} from './verify-v2.mjs';
 import {validateCourse} from '../../js/vocabulary-course.js';
 import {buildPlaylist} from '../../js/vocabulary-audio.js';
 import {renderStandardLesson} from '../../js/lesson-standard-view.js';
@@ -43,10 +44,10 @@ function refresh(b,p){
  const ready=records.filter(r=>r.ready).length;
  const summary={total:records.length,ready,pending:records.length-ready,byLevel:[1,2,3].map(level=>({level,total:records.filter(r=>r.level===level).length,ready:records.filter(r=>r.level===level&&r.ready).length})),note:'Kiểm tra độ đầy đủ và liên kết; chưa thay thế phản biện ngôn ngữ của giáo viên.'};
  data.contentAuditSummary=summary;
- data.editorial=`Đã rà soát ${summary.total} mục. ${summary.ready} mục đủ cấu trúc 5.1–5.6; còn ${summary.pending}. Trong đợt bổ sung ban đầu ${b.scopeTotal} mục, đã lưu nội dung cho ${p.completedCount} mục trên nhánh ${branch}. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.`;
- write(coursePath,data);write(auditPath,{version:1,standard:'5.1–5.6',summary,records});write('progress.json',p);
+ data.editorial=`Đã rà soát ${summary.total} mục. ${summary.ready} mục đủ cấu trúc V1/V2; còn ${summary.pending}. Trong đợt bổ sung ban đầu ${b.scopeTotal} mục, đã lưu nội dung cho ${p.completedCount} mục trên nhánh ${branch}. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.`;
+ write(coursePath,data);write(auditPath,{version:1,standard:'V1/V2',summary,records});write('progress.json',p);
  const next=p.nextIds.map(id=>byId.get(id));
- fs.writeFileSync(path.join(root,'docs/PROGRESS.md'),`# Tiến độ nội dung trên nhánh biên soạn\n\nPhạm vi: ${b.scopeTotal} mục chưa đủ cấu trúc tại commit gốc ${b.sourceCommit}. Không gồm ${b.initialCompleteIds.length} mục đã có trước đó.\n\nĐã bổ sung: ${p.completedCount}/${b.scopeTotal}. Còn: ${p.remaining}. Toàn khóa đủ cấu trúc: ${ready}/${data.words.length}.\n\n## Các đợt đã đưa vào dữ liệu\n\n${p.batches.map(x=>'- '+x.id+' · mục '+x.ordinalFrom+'–'+x.ordinalTo+' · '+x.wordIds.map(id=>byId.get(id).hanzi).join('、')).join('\n')}\n\n## 12 mục tiếp theo\n\n${next.map(w=>'- '+w.hanzi+' · '+w.id).join('\n')}\n\nTrạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Nhánh này không tự triển khai lên website/main.\n`);
+ fs.writeFileSync(path.join(root,'docs/PROGRESS.md'),`# Tiến độ nội dung trên nhánh biên soạn\n\nPhạm vi: ${b.scopeTotal} mục chưa đủ cấu trúc tại commit gốc ${b.sourceCommit}. Không gồm ${b.initialCompleteIds.length} mục đã có trước đó.\n\nĐã bổ sung: ${p.completedCount}/${b.scopeTotal}. Còn: ${p.remaining}. Toàn khóa đủ cấu trúc: ${ready}/${data.words.length}.\n\n## Các đợt đã đưa vào dữ liệu\n\n${p.batches.map(x=>'- '+x.id+' · mục '+x.ordinalFrom+'–'+x.ordinalTo+' · '+x.wordIds.map(id=>byId.get(id).hanzi).join('、')).join('\n')}\n\n## 12 mục tiếp theo\n\n${next.map(w=>'- '+w.hanzi+' · '+w.id).join('\n')}\n\nTrạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.\n`);
  const cache=p.batches.at(-1)?.id;
  if(cache){
   const js=path.join(root,'js/vocabulary.js'),html=path.join(root,'vocabulary.html');
@@ -97,6 +98,7 @@ if(command==='init'){
   const ready=data.words.filter(w=>auditLesson(w).ready);let wrong=0;
   for(const w of ready){
    const l=w.lesson;
+   if(l.version===2){verifyV2(w);continue;}
    // Exercise the actual renderer as well as the structural audit: stage 0
    // requires provenance fields that auditLesson alone does not currently check.
    const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -124,3 +126,4 @@ if(command==='init'){
   console.log(`PASS: ${data.words.length} IDs and lesson links; fixed cohort and protected content hashes; ${p.completedCount}/${b.scopeTotal} completed; ${p.remaining} remaining; ${actual} structured lessons and renderer views; ${wrong} wrong contrast sentences warned/corrected; example audio and isolated answers; pending podcasts blocked. Browser/device playback and teacher review not verified.`);
  }else throw Error('Unknown command: '+command);
 }
+

@@ -1,5 +1,7 @@
-import {judgments,exampleById} from './lesson-standard.js?v=8.0.0';
+import {renderV2} from './lesson-v2-view.js?v=v2-batch-005';
+import {judgments,exampleById} from './lesson-standard.js?v=v2-batch-005';
 export function renderStandardLesson(w,{stage,view='usages',usageIndex=0,exampleIndex=0,trapIndex=0,checkState,esc,hanzi,rich}){
+ if(w.lesson?.version===2)return renderV2(w,{stage,trapIndex,checkState,esc,hanzi,rich});
  const l=w.lesson;
  const audio=(part,label,index=0)=>`<div class="audio-row"><button class="soft" data-lesson-audio="${part}" data-lesson-index="${index}">◖ ${label}</button><button class="soft" data-lesson-stop="1">Dừng</button></div>`;
  const pager=(kind,i,total)=>`<div class="card-pager"><button class="soft" data-lesson-page="${kind}" data-delta="-1" ${i===0?'disabled':''} aria-label="Mục trước">←</button><span>${i+1}/${total}</span><button class="soft" data-lesson-page="${kind}" data-delta="1" ${i>=total-1?'disabled':''} aria-label="Mục tiếp">→</button></div>`;
@@ -17,3 +19,4 @@ export function renderStandardLesson(w,{stage,view='usages',usageIndex=0,example
  }
  return null;
 }
+

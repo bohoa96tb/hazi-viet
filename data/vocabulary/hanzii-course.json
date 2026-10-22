@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 58 mục đủ cấu trúc 5.1–5.6; còn 2176. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 48 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 70 mục đủ cấu trúc V1/V2; còn 2164. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 60 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -19788,19 +19788,225 @@
           "meaning": "về"
         }
       ],
-      "meaning": "về",
-      "status": "example",
+      "meaning": "về; trở lại",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-005",
       "examples": [
         {
           "zh": "我六点回家。",
-          "vi": "Tôi về nhà lúc sáu giờ."
+          "vi": "Tôi về nhà lúc sáu giờ.",
+          "analysis": "六点 đứng trước 回; 家 là nơi trở về, đặt ngay sau 回.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ liù diǎn huí jiā.",
+          "id": "e1"
+        },
+        {
+          "zh": "我明天回公司。",
+          "vi": "Ngày mai tôi quay lại công ty.",
+          "analysis": "明天 là thời gian; 回公司 nhấn trở lại chỗ làm, không chỉ đi đến lần đầu.",
+          "practiceAllowed": true,
+          "id": "e2"
         }
       ],
       "sourceIndex": 26,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Báo với người nhà giờ bạn về.",
+      "model": "我七点回家。",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 49,
+        "introduction": {
+          "scope": "Học 回 chỉ về nơi quen thuộc; phân biệt hướng đi và việc đáp lại."
+        },
+        "meaning": {
+          "scene": "Tan ca, bạn báo mình về nhà lúc sáu giờ.",
+          "explanation": "回 chỉ việc trở lại nơi đã gắn với mình: nhà, quê, công ty. Sau 回 thường là nơi trở về.",
+          "boundary": "“Về” trong “nói về công việc” không dùng 回. 回 nói quay lại, chưa tự xác định hướng tới hay ra xa người đang nói.",
+          "conditions": [
+            "回家 là về nhà; 回公司 là quay lại công ty. Thời gian thường ở trước 回."
+          ],
+          "takeaway": "回 chỉ việc trở lại nơi đã gắn với mình: nhà, quê, công ty. Sau 回 thường là nơi trở về."
+        },
+        "examples": [
+          {
+            "zh": "我六点回家。",
+            "vi": "Tôi về nhà lúc sáu giờ.",
+            "analysis": "六点 đứng trước 回; 家 là nơi trở về, đặt ngay sau 回.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ liù diǎn huí jiā.",
+            "id": "e1"
+          },
+          {
+            "zh": "我明天回公司。",
+            "vi": "Ngày mai tôi quay lại công ty.",
+            "analysis": "明天 là thời gian; 回公司 nhấn trở lại chỗ làm, không chỉ đi đến lần đầu.",
+            "practiceAllowed": true,
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Người + thời gian + 回 + nơi trở về",
+            "position": "回 đứng sau thời gian, trước nơi.",
+            "required": "Không cần thêm 到 trong 回家 hoặc 回公司.",
+            "omission": "Đã rõ nơi thì có thể đáp 明天回。 — Mai về.",
+            "id": "u1",
+            "exampleId": "e1"
+          }
+        ],
+        "traps": [
+          {
+            "title": "回、去、来: quay lại và hướng đi",
+            "scene": "Bạn ở nhà nói về việc đi làm; đồng nghiệp ở công ty mời bạn đến.",
+            "possibleConfusion": "Cùng một chuyến đi có thể được nhìn theo việc trở lại hoặc hướng tới một nơi.",
+            "difference": "回 nhấn quay lại; 去 nêu đi tới nơi khác với mốc đang xét; 来 hướng tới nơi người nói hoặc nơi được lấy làm mốc.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我回公司。",
+                "vi": "Tôi quay lại công ty.",
+                "comment": "Nhấn trở lại nơi làm việc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我去公司。",
+                "vi": "Tôi đi đến công ty.",
+                "comment": "Nêu đích đi, không tự nhấn trở lại.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "你来公司吧。",
+                "vi": "Bạn đến công ty nhé.",
+                "comment": "Đồng nghiệp đang ở công ty lấy nơi đó làm mốc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 回 bằng 去 trong 我回公司 vẫn đúng nhưng không còn nhấn quay lại. 来 cần mốc hướng đến phù hợp."
+            },
+            "boundary": "回公司 và 去公司 có thể cùng nói về một chuyến đi. 回来、回去 còn nêu hướng; không coi 回 và 去 luôn loại trừ nhau.",
+            "tip": "Quay lại: 回; xem hướng đến hay đi: 来/去.",
+            "id": "t1"
+          },
+          {
+            "title": "回消息 và 回答问题: đáp lại",
+            "scene": "Bạn nhận tin nhắn hoặc một câu hỏi.",
+            "possibleConfusion": "回 không phải lúc nào cũng di chuyển.",
+            "difference": "回消息 là trả lời tin; 回答问题 là trả lời câu hỏi. 回答 là cả từ chỉ việc đáp lại.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我回家了。",
+                "vi": "Tôi về nhà rồi.",
+                "comment": "家 là nơi chốn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我回你的消息。",
+                "vi": "Tôi trả lời tin nhắn của bạn.",
+                "comment": "消息 là tin, nên 回 mang nghĩa đáp lại.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "我回答你的问题。",
+                "vi": "Tôi trả lời câu hỏi của bạn.",
+                "comment": "回答 đứng trước 问题.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 家 thành 消息 làm đổi nghĩa của 回 theo đối tượng; không dịch 回消息 là “về tin nhắn”."
+            },
+            "boundary": "Trong khẩu ngữ cũng có 回你一句 — đáp bạn một câu. Chưa cần mở rộng mọi kết hợp của 回.",
+            "tip": "Nhìn sau 回: nơi hay tin/lời?",
+            "id": "t2"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Rà nghĩa quay lại/đáp lại; nghĩa lượng từ không cần cho bài này.",
+          "literalTranslation": "Không dịch mọi “về” thành 回; không bịa bẫy Hán Việt.",
+          "confusables": "Rà 回/去/来 và 回消息/回答."
+        },
+        "pronunciation": {
+          "text": "回 mang thanh hai; đọc liền 回家 mà vẫn rõ từng tiếng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Xếp câu “Tôi về nhà lúc sáu giờ”: 回 / 我 / 家 / 六点。",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Điền 回 hoặc 去: muốn nhấn “quay lại công ty”, 我明天___公司。",
+            "id": "q2"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我六点回家。"
+            ],
+            "explanation": "六点 trước hành động; 回家 là cụm về nhà."
+          },
+          "q2": {
+            "accepted": [
+              "我明天回公司。"
+            ],
+            "explanation": "去公司 vẫn đúng nhưng chỉ nêu việc đi đến; 回 mới nhấn trở lại."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Báo với người nhà giờ bạn về.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Nói ngày mai bạn quay lại công ty.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu mình, giờ về, nơi về.",
+            "frame": "我 + giờ + 回家。",
+            "model": "我七点回家。",
+            "vi": "Tôi về nhà lúc bảy giờ.",
+            "criteria": [
+              "Giờ đứng trước 回.",
+              "Giờ khác vẫn hợp lý."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu thời gian và nơi quay lại.",
+            "frame": "我 + 明天 + 回 + nơi。",
+            "model": "我明天回公司。",
+            "vi": "Ngày mai tôi quay lại công ty.",
+            "criteria": [
+              "Có ý trở lại.",
+              "Lược 我 được khi ngữ cảnh rõ."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ]
+      }
     },
     {
       "id": "hz-h1-d86eabd20c2e",
@@ -19813,13 +20019,194 @@
         }
       ],
       "meaning": "giúp",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-005",
+      "examples": [
+        {
+          "zh": "你能帮我吗？",
+          "vi": "Bạn có thể giúp tôi không?",
+          "analysis": "帮 đi trực tiếp với 我; việc cần giúp được lược khi hai người đã biết.",
+          "practiceAllowed": true,
+          "id": "e1"
+        },
+        {
+          "zh": "请帮我看这个字。",
+          "vi": "Làm ơn xem giúp tôi chữ này.",
+          "analysis": "我 nằm giữa 帮 và 看; 这个字 sau 看 là thứ cần xem.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng bāng wǒ kàn zhège zì.",
+          "id": "e2"
+        }
+      ],
       "sourceIndex": 27,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Nhờ đồng nghiệp xem giúp chữ này.",
+      "model": "请帮我看这个字。",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 50,
+        "introduction": {
+          "scope": "Học giúp ai làm một việc cụ thể."
+        },
+        "meaning": {
+          "scene": "Bạn nhờ đồng nghiệp xem giúp một chữ trên giấy.",
+          "explanation": "帮 là giúp người khác bằng công sức hoặc việc làm. Có thể nêu người được giúp, rồi đến việc cần làm.",
+          "boundary": "帮 không nhất thiết là làm thay hoàn toàn; có thể cùng làm. 帮忙 là cụm giúp một tay, cần học cách đặt người riêng.",
+          "conditions": [
+            "Trong 帮我看, 我 là người được giúp; 看 mới là hành động giúp làm."
+          ],
+          "takeaway": "帮 là giúp người khác bằng công sức hoặc việc làm. Có thể nêu người được giúp, rồi đến việc cần làm."
+        },
+        "examples": [
+          {
+            "zh": "你能帮我吗？",
+            "vi": "Bạn có thể giúp tôi không?",
+            "analysis": "帮 đi trực tiếp với 我; việc cần giúp được lược khi hai người đã biết.",
+            "practiceAllowed": true,
+            "id": "e1"
+          },
+          {
+            "zh": "请帮我看这个字。",
+            "vi": "Làm ơn xem giúp tôi chữ này.",
+            "analysis": "我 nằm giữa 帮 và 看; 这个字 sau 看 là thứ cần xem.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng bāng wǒ kàn zhège zì.",
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Người giúp + 帮 + người được giúp",
+            "position": "Người nhận giúp đỡ đứng ngay sau 帮.",
+            "required": "Nếu việc chưa rõ thì nêu thêm cần giúp làm gì.",
+            "omission": "Trong câu hỏi mẫu có thể lược việc cần giúp vì đã rõ.",
+            "id": "u1",
+            "exampleId": "e1"
+          },
+          {
+            "frame": "请 + 帮 + người + hành động + vật",
+            "position": "Người sau 帮, rồi mới đến hành động và vật.",
+            "required": "这个字 đi với 看; không chuyển lên trước người được giúp trong khung này.",
+            "omission": "请 có thể lược nếu giọng nói và quan hệ đã đủ lịch sự.",
+            "id": "u2",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "title": "帮、帮助、帮忙: cùng giúp, khác khung",
+            "scene": "Bạn nhờ bạn học hỗ trợ mình.",
+            "possibleConfusion": "Đổi từ không có nghĩa giữ được mọi vị trí thành phần.",
+            "difference": "帮我、帮助我 đều là giúp tôi. 帮我看 thông dụng trong khẩu ngữ. Với 帮忙, có thể nói 帮我一个忙 hoặc 帮忙看一下; người không đặt trần sau cả cụm 帮忙 theo khung cơ bản.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请帮我。",
+                "vi": "Làm ơn giúp tôi.",
+                "comment": "我 là người được giúp.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "请帮助我。",
+                "vi": "Làm ơn giúp tôi.",
+                "comment": "Nghĩa gần; 帮助 thường đầy đủ và trang trọng hơn ở nhiều tình huống.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "请帮我一个忙。",
+                "vi": "Làm ơn giúp tôi một việc.",
+                "comment": "我 nằm giữa 帮 và 一个忙.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Thay 帮 bằng 帮助 trong 请帮我 vẫn đúng và gần nghĩa. Dùng 帮忙 thì đổi khung thành 请帮忙。 hoặc 请帮我一个忙。"
+            },
+            "boundary": "帮 và 帮助 giao nhau rộng ở nghĩa hỗ trợ; không chia giả thành giúp việc nhỏ/giúp vật chất.",
+            "tip": "帮 + người; 帮忙 là cả cụm giúp một tay.",
+            "id": "t1"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Không có cách đọc khác thông dụng cần dạy.",
+          "literalTranslation": "Không thấy bẫy Hán Việt thực dụng cần thêm.",
+          "confusables": "Rà 帮/帮助/帮忙 và vị trí người."
+        },
+        "pronunciation": {
+          "text": "帮 mang thanh một, giữ tương đối cao và đều. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Xếp câu nhờ xem chữ: 我 / 请 / 这个字 / 帮 / 看。",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Viết “Làm ơn giúp tôi một việc” với 请、帮、我、一个忙。",
+            "id": "q2"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请帮我看这个字。"
+            ],
+            "explanation": "帮 + 我 + 看 + 这个字: người được giúp đứng trước việc làm."
+          },
+          "q2": {
+            "accepted": [
+              "请帮我一个忙。"
+            ],
+            "explanation": "Người được giúp nằm giữa 帮 và 一个忙 trong mẫu này."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Nhờ đồng nghiệp xem giúp chữ này.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Việc khó đang ở trước mặt; hỏi bạn giúp được không.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nhờ lịch sự, nêu người và việc.",
+            "frame": "请 + 帮我 + 看这个字。",
+            "model": "请帮我看这个字。",
+            "vi": "Làm ơn xem giúp tôi chữ này.",
+            "criteria": [
+              "我 sau 帮.",
+              "看 trước 这个字."
+            ]
+          },
+          "s2": {
+            "idea": "Hỏi khả năng giúp; việc đã rõ nên lược được.",
+            "frame": "你能 + 帮我 + 吗？",
+            "model": "你能帮我吗？",
+            "vi": "Bạn có thể giúp tôi không?",
+            "criteria": [
+              "Không bắt buộc lặp việc đã rõ.",
+              "Đúng ý nhờ giúp."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=17229&la=1&powerMode=0",
+          "https://coct.naer.edu.tw/corevoc.jsp?page=27"
+        ]
+      }
     },
     {
       "id": "hz-h1-2add50cf6301",
@@ -19831,14 +20218,217 @@
           "meaning": "đánh"
         }
       ],
-      "meaning": "đánh",
-      "status": "catalog",
+      "meaning": "đánh; thực hiện việc trong cụm quen thuộc",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-005",
+      "examples": [
+        {
+          "zh": "我喜欢打篮球。",
+          "vi": "Tôi thích chơi bóng rổ.",
+          "analysis": "喜欢 đứng trước cả hoạt động 打篮球; 篮球 đi với 打.",
+          "practiceAllowed": true,
+          "id": "e1"
+        },
+        {
+          "zh": "我给妈妈打电话。",
+          "vi": "Tôi gọi điện cho mẹ.",
+          "analysis": "给妈妈 nêu người nhận cuộc gọi, trước 打电话.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ gěi māma dǎ diànhuà.",
+          "id": "e2"
+        }
+      ],
       "sourceIndex": 29,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Nói bạn thích chơi bóng rổ.",
+      "model": "我喜欢打篮球。",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 51,
+        "introduction": {
+          "scope": "Học 打篮球 và 打电话; hiểu theo cả cụm."
+        },
+        "meaning": {
+          "scene": "Bạn nói mình chơi bóng rổ hoặc gọi điện cho mẹ.",
+          "explanation": "打 thường là đánh, tác động bằng tay hoặc dụng cụ. Trong cụm quen thuộc phải hiểu cả cụm: 打篮球 là chơi bóng rổ; 打电话 là gọi điện.",
+          "boundary": "Không lấy 打 cho mọi môn thể thao hoặc mọi hành động “đánh” trong tiếng Việt. Học cụm trước khi tự thay từ sau nó.",
+          "conditions": [
+            "Tên môn trong các cụm đã học đứng sau 打. Người nhận cuộc gọi có thể nằm trong 给 + người trước 打电话."
+          ],
+          "takeaway": "打 thường là đánh, tác động bằng tay hoặc dụng cụ. Trong cụm quen thuộc phải hiểu cả cụm: 打篮球 là chơi bóng rổ; 打电话 là gọi điện."
+        },
+        "examples": [
+          {
+            "zh": "我喜欢打篮球。",
+            "vi": "Tôi thích chơi bóng rổ.",
+            "analysis": "喜欢 đứng trước cả hoạt động 打篮球; 篮球 đi với 打.",
+            "practiceAllowed": true,
+            "id": "e1"
+          },
+          {
+            "zh": "我给妈妈打电话。",
+            "vi": "Tôi gọi điện cho mẹ.",
+            "analysis": "给妈妈 nêu người nhận cuộc gọi, trước 打电话.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ gěi māma dǎ diànhuà.",
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Người + 打 + 篮球 / 乒乓球",
+            "position": "打 trước tên môn trong cụm dùng tay hoặc vợt này.",
+            "required": "Môn mới cần học động từ đi kèm, không tự dùng 打 cho tất cả.",
+            "omission": "Đã rõ môn, có thể đáp 我也打。 — Tôi cũng chơi.",
+            "id": "u1",
+            "exampleId": "e1"
+          },
+          {
+            "frame": "Người + 给 + người nhận + 打电话",
+            "position": "给妈妈 trước hành động gọi.",
+            "required": "Nêu người nhận bằng 给 + người trong khung này, không đặt người trần sau 打电话.",
+            "omission": "Đã biết gọi cho ai, 我打电话。 chỉ nêu hành động cũng được.",
+            "id": "u2",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "title": "打篮球 và 踢足球: động từ theo môn",
+            "scene": "Bạn kể hoạt động thể thao.",
+            "possibleConfusion": "“Chơi bóng” tiếng Việt không quyết định dùng 打 hay 踢.",
+            "difference": "Bóng rổ dùng 打篮球; bóng đá dùng 踢足球. 踢 là đá bằng chân.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我打篮球。",
+                "vi": "Tôi chơi bóng rổ.",
+                "comment": "Cụm với 打.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我踢足球。",
+                "vi": "Tôi chơi bóng đá.",
+                "comment": "Cụm với 踢.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "unnatural",
+              "explanation": "Trong ý chơi bóng đá thông thường, ghép 打 với 足球 kém tự nhiên; nói 我踢足球。 — Tôi chơi bóng đá. Nếu là đánh một quả bóng bằng tay thì cần xét hành động thật."
+            },
+            "boundary": "玩 cũng có thể nói chơi nói chung; 打篮球、踢足球 nêu hoạt động rõ hơn.",
+            "tip": "Nhớ theo môn: 打篮球、踢足球.",
+            "id": "t1"
+          },
+          {
+            "title": "打电话: không dịch “đánh điện thoại”",
+            "scene": "Bạn liên lạc với mẹ bằng điện thoại.",
+            "possibleConfusion": "Nghĩa đánh không áp nguyên cho mọi từ sau 打.",
+            "difference": "打电话 là gọi điện; 打人 là đánh người. Đối tượng và cả cụm quyết định nghĩa.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我给妈妈打电话。",
+                "vi": "Tôi gọi điện cho mẹ.",
+                "comment": "给妈妈 là người được gọi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "不要打人。",
+                "vi": "Đừng đánh người.",
+                "comment": "打人 là hành động đánh người; 不要 yêu cầu dừng việc đó.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 电话 bằng 人 làm đổi hoạt động; 打人 không có nghĩa gọi điện cho người ấy. Muốn gọi cho mẹ giữ 给妈妈打电话."
+            },
+            "boundary": "Các cụm khác như 打开 mang nghĩa mở; không suy từ một nghĩa cho mọi cụm có 打.",
+            "tip": "Gặp 打, nhìn cả cụm.",
+            "id": "t2"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Rà nghĩa theo cụm; cách đọc đơn vị đo không thuộc trọng tâm mức này.",
+          "literalTranslation": "Có bẫy dịch từng chữ 打电话.",
+          "confusables": "Rà 打/踢/玩, không áp một động từ cho mọi môn."
+        },
+        "pronunciation": {
+          "text": "打 có thanh ba; trước âm không phải thanh ba thường đọc thấp, không bắt buộc hạ rồi nâng đầy đủ. 妈妈 có tiếng thứ hai nhẹ nhưng vẫn phát âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Điền 打 hoặc 踢 (đá): 我喜欢___篮球；他喜欢___足球。",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Xếp câu gọi cho mẹ: 给 / 我 / 打电话 / 妈妈。",
+            "id": "q2"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我喜欢打篮球；他喜欢踢足球。"
+            ],
+            "explanation": "Chọn theo môn: 打篮球、踢足球."
+          },
+          "q2": {
+            "accepted": [
+              "我给妈妈打电话。"
+            ],
+            "explanation": "给妈妈 trước 打电话 trong khung đã học."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Nói bạn thích chơi bóng rổ.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Báo bạn gọi điện cho mẹ.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu thích hoạt động gì.",
+            "frame": "我喜欢 + 打篮球。",
+            "model": "我喜欢打篮球。",
+            "vi": "Tôi thích chơi bóng rổ.",
+            "criteria": [
+              "Dùng 打 với 篮球.",
+              "Có thể thêm thời gian phù hợp."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu người nhận cuộc gọi.",
+            "frame": "我 + 给妈妈 + 打电话。",
+            "model": "我给妈妈打电话。",
+            "vi": "Tôi gọi điện cho mẹ.",
+            "criteria": [
+              "给妈妈 xác định người nhận.",
+              "Không bắt buộc thêm trợ từ thời gian nếu ngữ cảnh đã rõ."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1905&la=1&powerMode=0"
+        ]
+      }
     },
     {
       "id": "hz-h1-4c504e514484",
@@ -19851,18 +20441,216 @@
         }
       ],
       "meaning": "tìm",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-005",
       "examples": [
         {
           "zh": "我在找手机。",
-          "vi": "Tôi đang tìm điện thoại."
+          "vi": "Tôi đang tìm điện thoại.",
+          "analysis": "在 trước 找; 手机 sau 找 là vật cần tìm.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ zài zhǎo shǒujī.",
+          "id": "e1"
+        },
+        {
+          "zh": "你找谁？",
+          "vi": "Bạn tìm ai?",
+          "analysis": "谁 giữ vị trí người cần tìm sau 找, không chuyển lên đầu câu.",
+          "practiceAllowed": true,
+          "id": "e2"
         }
       ],
       "sourceIndex": 30,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Báo bạn đang tìm điện thoại.",
+      "model": "我在找手机。",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 52,
+        "introduction": {
+          "scope": "Phân biệt việc tìm và kết quả tìm thấy."
+        },
+        "meaning": {
+          "scene": "Bạn không thấy điện thoại nên đang tìm nó.",
+          "explanation": "找 là tìm người hoặc vật; từ này nêu hoạt động, chưa khẳng định đã tìm thấy.",
+          "boundary": "Tìm được thường nói 找到. Trong mua bán, 找 còn là trả tiền thừa.",
+          "conditions": [
+            "Người/vật cần tìm đứng sau 找; 在 trước 找 báo việc đang diễn ra."
+          ],
+          "takeaway": "找 là tìm người hoặc vật; từ này nêu hoạt động, chưa khẳng định đã tìm thấy."
+        },
+        "examples": [
+          {
+            "zh": "我在找手机。",
+            "vi": "Tôi đang tìm điện thoại.",
+            "analysis": "在 trước 找; 手机 sau 找 là vật cần tìm.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zài zhǎo shǒujī.",
+            "id": "e1"
+          },
+          {
+            "zh": "你找谁？",
+            "vi": "Bạn tìm ai?",
+            "analysis": "谁 giữ vị trí người cần tìm sau 找, không chuyển lên đầu câu.",
+            "practiceAllowed": true,
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Người + 在 + 找 + vật",
+            "position": "在 trước 找, vật sau 找.",
+            "required": "Không đặt 在 giữa 找 và vật trong mẫu đang tìm.",
+            "omission": "Đã rõ vật, có thể nói 我在找。",
+            "id": "u1",
+            "exampleId": "e1"
+          },
+          {
+            "frame": "Người + 找 + 谁？",
+            "position": "谁 thay chỗ người sau 找.",
+            "required": "找老师 → 找谁: từ hỏi giữ nguyên vị trí người.",
+            "omission": "Có thể chỉ hỏi 找谁？ khi rõ đang hỏi ai.",
+            "id": "u2",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "title": "找 / 找到: hoạt động và kết quả",
+            "scene": "Bạn báo tình trạng điện thoại thất lạc.",
+            "possibleConfusion": "Đã tìm chưa chắc đã thấy.",
+            "difference": "找 nêu việc tìm; 找到 nêu kết quả. 没找到 phủ định tìm được, không phủ định đã đi tìm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我找了手机，但是没找到。",
+                "vi": "Tôi đã tìm điện thoại nhưng chưa tìm thấy.",
+                "comment": "Có hoạt động, chưa có kết quả.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我找到手机了。",
+                "vi": "Tôi tìm thấy điện thoại rồi.",
+                "comment": "找到 khẳng định đã thấy.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Bỏ 到 trong câu tìm thấy làm mất ý kết quả rõ ràng. 我找手机了 có thể nói việc tìm, chưa bảo đảm tìm thấy."
+            },
+            "boundary": "找一下 và 找到 đều liên quan tìm, nhưng yêu cầu kết quả khác nhau.",
+            "tip": "Tìm: 找; tìm thấy: 找到.",
+            "id": "t1"
+          },
+          {
+            "title": "找钱: tiền thừa hay tìm tiền",
+            "scene": "Bạn đưa tiền nhiều hơn giá mua.",
+            "possibleConfusion": "Không phải mọi 找 với tiền đều là tìm tiền thất lạc.",
+            "difference": "找我五块钱 là trả tôi năm tệ tiền thừa; 找我的钱 có thể là tìm tiền của tôi.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请找我五块钱。",
+                "vi": "Làm ơn trả tôi năm tệ tiền thừa.",
+                "comment": "我 là người nhận lại tiền.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我在找我的钱。",
+                "vi": "Tôi đang tìm tiền của mình.",
+                "comment": "我的钱 là vật cần tìm.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "context-needed",
+              "explanation": "Hai câu khác khung; chỉ thấy 找钱 riêng thì cần tình huống để biết nghĩa."
+            },
+            "boundary": "Cùng liên quan tiền nhưng vai người và số tiền khác nhau; không dịch một nghĩa cho tất cả.",
+            "tip": "Mua bán có tiền trả lại: nghĩ tiền thừa.",
+            "id": "t2"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Rà tìm/trả tiền thừa; không thêm đa âm không liên quan.",
+          "literalTranslation": "Không có bẫy Hán Việt cần nêu.",
+          "confusables": "Rà 找/找到 và 找钱."
+        },
+        "pronunciation": {
+          "text": "找 có thanh ba. Trong 找手机, hai thanh ba đầu liền nhau nên 找 thường chuyển sang thanh hai khi nói liền; giới thiệu giữ thanh gốc. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Xếp câu: 谁 / 你 / 找？",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Điền 找 hoặc 找到 để khẳng định tìm thấy: 我___手机了。",
+            "id": "q2"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你找谁？"
+            ],
+            "explanation": "谁 sau 找 ở vị trí người."
+          },
+          "q2": {
+            "accepted": [
+              "我找到手机了。"
+            ],
+            "explanation": "找到 nêu kết quả; 找 chỉ nêu hoạt động."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Báo bạn đang tìm điện thoại.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Hỏi khách muốn tìm ai.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu việc đang diễn ra và vật.",
+            "frame": "我在 + 找 + 手机。",
+            "model": "我在找手机。",
+            "vi": "Tôi đang tìm điện thoại.",
+            "criteria": [
+              "在 trước 找.",
+              "手机 sau 找."
+            ]
+          },
+          "s2": {
+            "idea": "Hỏi người cần gặp.",
+            "frame": "你 + 找 + 谁？",
+            "model": "你找谁？",
+            "vi": "Bạn tìm ai?",
+            "criteria": [
+              "谁 sau 找.",
+              "您找谁？ cũng đúng và lịch sự."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ]
+      }
     },
     {
       "id": "hz-h1-23838810e00e",
@@ -19875,13 +20663,216 @@
         }
       ],
       "meaning": "điện",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-005",
+      "examples": [
+        {
+          "zh": "家里没电了。",
+          "vi": "Ở nhà mất điện rồi.",
+          "analysis": "家里 nêu nơi; 没电 chỉ không có điện, 了 báo tình trạng đổi.",
+          "practiceAllowed": true,
+          "id": "e1"
+        },
+        {
+          "zh": "这个手机没电了。",
+          "vi": "Điện thoại này hết pin rồi.",
+          "analysis": "手机 là máy; 没电 chỉ năng lượng hết, không phải máy biến mất.",
+          "practiceAllowed": true,
+          "pinyin": "Zhège shǒujī méi diàn le.",
+          "id": "e2"
+        }
+      ],
       "sourceIndex": 31,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Báo điện thoại của mình hết pin.",
+      "model": "我的手机没电了。",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 53,
+        "introduction": {
+          "scope": "Học điện năng và giữ đủ tên thiết bị trong từ ghép."
+        },
+        "meaning": {
+          "scene": "Nhà mất điện hoặc điện thoại hết pin.",
+          "explanation": "电 có thể tự chỉ điện năng: 没电了 — không còn điện rồi. Trong 电话、电脑、电视, nó là một phần của từ ghép.",
+          "boundary": "Không dùng riêng 电 gọi điện thoại, máy tính hay tivi. 停电 nêu rõ ngừng cấp điện; thiết bị 没电了 thường là hết pin.",
+          "conditions": [
+            "Điện năng không đếm từng cái; muốn đếm máy phải dùng tên máy với lượng từ phù hợp."
+          ],
+          "takeaway": "电 có thể tự chỉ điện năng: 没电了 — không còn điện rồi. Trong 电话、电脑、电视, nó là một phần của từ ghép."
+        },
+        "examples": [
+          {
+            "zh": "家里没电了。",
+            "vi": "Ở nhà mất điện rồi.",
+            "analysis": "家里 nêu nơi; 没电 chỉ không có điện, 了 báo tình trạng đổi.",
+            "practiceAllowed": true,
+            "id": "e1"
+          },
+          {
+            "zh": "这个手机没电了。",
+            "vi": "Điện thoại này hết pin rồi.",
+            "analysis": "手机 là máy; 没电 chỉ năng lượng hết, không phải máy biến mất.",
+            "practiceAllowed": true,
+            "pinyin": "Zhège shǒujī méi diàn le.",
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Nơi / thiết bị + 没电了",
+            "position": "没 trước 电; 了 cuối câu báo thay đổi.",
+            "required": "Nêu nơi hay thiết bị nếu người nghe chưa rõ.",
+            "omission": "Đang cầm máy, chỉ nói 没电了。 cũng được.",
+            "id": "u1",
+            "exampleId": "e1"
+          }
+        ],
+        "traps": [
+          {
+            "title": "没电 / 没有手机: hết pin hay không có máy",
+            "scene": "Bạn cầm điện thoại hết pin.",
+            "possibleConfusion": "Không có điện khác không có điện thoại.",
+            "difference": "手机没电了 vẫn có máy; 我没有手机 là không có thiết bị. 电 không thay cả từ 手机.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我的手机没电了。",
+                "vi": "Điện thoại của tôi hết pin rồi.",
+                "comment": "Máy vẫn có.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我没有手机。",
+                "vi": "Tôi không có điện thoại.",
+                "comment": "Không có máy để dùng trong ngữ cảnh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 没电 bằng 没有手机 đổi đối tượng phủ định từ năng lượng sang thiết bị."
+            },
+            "boundary": "没电 còn dùng với nhà và máy khác; muốn rõ mất điện lưới nói 停电.",
+            "tip": "电: năng lượng; 手机: thiết bị.",
+            "id": "t1"
+          },
+          {
+            "title": "电 trong 电脑、电视、电话",
+            "scene": "Bạn gọi tên đồ dùng.",
+            "possibleConfusion": "Biết nghĩa chữ điện chưa đủ đoán mỗi thiết bị.",
+            "difference": "电脑 là máy tính; 电视 là tivi/truyền hình; 电话 là điện thoại/cuộc gọi. Giữ đủ cả từ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我用电脑。",
+                "vi": "Tôi dùng máy tính.",
+                "comment": "电脑 là thiết bị.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我用电。",
+                "vi": "Tôi dùng điện.",
+                "comment": "电 là năng lượng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "我看电视。",
+                "vi": "Tôi xem tivi.",
+                "comment": "电视 là từ trọn vẹn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Bỏ 脑 trong 我用电脑 vẫn tạo câu đúng nhưng đổi từ dùng máy tính sang dùng điện."
+            },
+            "boundary": "Các từ cùng có 电 không phải đồng nghĩa; hành động đi kèm cũng khác.",
+            "tip": "Tên đồ dùng: giữ đủ từ ghép.",
+            "id": "t2"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Rà điện năng và từ ghép; không gọi từ ghép là đa âm.",
+          "literalTranslation": "Hán Việt gần nghĩa nhưng không thay được tên máy.",
+          "confusables": "Rà năng lượng/thiết bị."
+        },
+        "pronunciation": {
+          "text": "电 mang thanh bốn, hạ giọng nhanh. 了 ở 没电了 đọc ngắn và nhẹ nhưng vẫn có âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Điền 电 hoặc 手机: 这个手机没___了。 để nói hết pin.",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Viết “Tôi dùng máy tính” với 电脑 (máy tính).",
+            "id": "q2"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这个手机没电了。"
+            ],
+            "explanation": "电 là năng lượng; 手机 đã là thiết bị."
+          },
+          "q2": {
+            "accepted": [
+              "我用电脑。"
+            ],
+            "explanation": "我用电 đúng nhưng nghĩa là dùng điện."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Báo điện thoại của mình hết pin.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Báo ở nhà mất điện.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu thiết bị rồi tình trạng.",
+            "frame": "我的手机 + 没电了。",
+            "model": "我的手机没电了。",
+            "vi": "Điện thoại của tôi hết pin rồi.",
+            "criteria": [
+              "Giữ đủ 手机.",
+              "没电 chỉ hết năng lượng."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu nơi xảy ra.",
+            "frame": "家里 + 没电了。",
+            "model": "家里没电了。",
+            "vi": "Ở nhà mất điện rồi.",
+            "criteria": [
+              "家里 chỉ nơi.",
+              "家里停电了。 cũng đúng cho điện lưới."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ]
+      }
     },
     {
       "id": "hz-h1-8ea0feeb4c9a",
@@ -19894,13 +20885,228 @@
         }
       ],
       "meaning": "đợi",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-005",
+      "examples": [
+        {
+          "zh": "我在等你。",
+          "vi": "Tôi đang đợi bạn.",
+          "analysis": "在 trước 等; 你 sau 等 là người được chờ.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ zài děng nǐ.",
+          "id": "e1"
+        },
+        {
+          "zh": "请等一下。",
+          "vi": "Làm ơn đợi một chút.",
+          "analysis": "一下 sau 等 làm lời nhờ nhẹ hơn; khoảng ngắn không ấn định một giây.",
+          "practiceAllowed": true,
+          "id": "e2"
+        }
+      ],
       "sourceIndex": 32,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Nhắn bạn rằng mình đang đợi bạn ấy.",
+      "model": "我在等你。",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 54,
+        "introduction": {
+          "scope": "Học chờ người, nhờ đợi và 等等 cuối danh sách."
+        },
+        "meaning": {
+          "scene": "Bạn đến ga trước và đợi bạn tới.",
+          "explanation": "等 là ở lại hoặc chưa làm tiếp để chờ người, phương tiện hay thời điểm. Sau 等 có thể nêu thứ cần đợi.",
+          "boundary": "Không phải mọi việc chậm đều là 等. 等等 trong lời gọi có thể là đợi đã, cuối danh sách là vân vân.",
+          "conditions": [
+            "等人、等车 là chờ người, chờ xe. Nếu nêu người rồi thời lượng: 等你十分钟 — đợi bạn mười phút."
+          ],
+          "takeaway": "等 là ở lại hoặc chưa làm tiếp để chờ người, phương tiện hay thời điểm. Sau 等 có thể nêu thứ cần đợi."
+        },
+        "examples": [
+          {
+            "zh": "我在等你。",
+            "vi": "Tôi đang đợi bạn.",
+            "analysis": "在 trước 等; 你 sau 等 là người được chờ.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zài děng nǐ.",
+            "id": "e1"
+          },
+          {
+            "zh": "请等一下。",
+            "vi": "Làm ơn đợi một chút.",
+            "analysis": "一下 sau 等 làm lời nhờ nhẹ hơn; khoảng ngắn không ấn định một giây.",
+            "practiceAllowed": true,
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Người + 在 + 等 + người / xe",
+            "position": "在 trước 等; đối tượng sau 等.",
+            "required": "Nêu nơi trước 等: 我在车站等你。 — Tôi đợi bạn ở ga.",
+            "omission": "Đã rõ người, có thể nói 我在等。",
+            "id": "u1",
+            "exampleId": "e1"
+          },
+          {
+            "frame": "请 + 等 + 一下",
+            "position": "一下 đứng sau 等.",
+            "required": "请 giúp lịch sự; ngữ điệu vẫn quan trọng.",
+            "omission": "Có thể lược 请; không bắt buộc nêu đang đợi ai.",
+            "id": "u2",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "title": "等你 / 找你: chờ hay tìm",
+            "scene": "Bạn của bạn chưa xuất hiện.",
+            "possibleConfusion": "Chưa gặp người không có nghĩa cùng một hành động.",
+            "difference": "等你 là chờ bạn tới hoặc xong việc; 找你 là tìm để biết ở đâu hoặc để gặp.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我在等你。",
+                "vi": "Tôi đang đợi bạn.",
+                "comment": "Chờ người đến hoặc sẵn sàng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我在找你。",
+                "vi": "Tôi đang tìm bạn.",
+                "comment": "Muốn tìm gặp người.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 等 bằng 找 vẫn đúng nhưng đổi từ chờ sang tìm."
+            },
+            "boundary": "Có thể vừa tìm vừa chờ ở các thời điểm khác. 在 không tự mang nghĩa chờ.",
+            "tip": "Chờ tới: 等; tìm gặp: 找.",
+            "id": "t1"
+          },
+          {
+            "title": "等等: đợi đã hay vân vân",
+            "scene": "Bạn gọi người đi trước hoặc kể danh sách đồ mua.",
+            "possibleConfusion": "Chữ lặp giống nhau nhưng nghĩa tùy vị trí.",
+            "difference": "等等我 là đợi tôi với; 等等 cuối danh sách báo còn những thứ tương tự.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "等等我！",
+                "vi": "Đợi tôi với!",
+                "comment": "我 là người cần chờ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我买了苹果、香蕉等等。",
+                "vi": "Tôi đã mua táo, chuối, vân vân.",
+                "comment": "等等 khép danh sách.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "context-needed",
+              "explanation": "Không lấy nghĩa chờ áp vào cuối danh sách. Chỉ thấy 等等 riêng thì cần tình huống."
+            },
+            "boundary": "Đây là khác nghĩa theo cách dùng, không phải biến điệu tạo từ mới.",
+            "tip": "Cuối danh sách: vân vân; lời gọi dừng: đợi đã.",
+            "id": "t2"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Rà 等等 hai nghĩa; không thêm nghĩa cấp bậc ít liên quan.",
+          "literalTranslation": "Không có bẫy Hán Việt cần thêm.",
+          "confusables": "Rà 等/找 và 等等."
+        },
+        "pronunciation": {
+          "text": "等你 có hai thanh ba liền nhau: 等 thường chuyển sang thanh hai khi nói liền. Trong 等一下, 一 trước thanh bốn đọc thanh hai; giới thiệu vẫn ghi thanh gốc. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Xếp câu: 等 / 我 / 你 / 在。",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Cho 等、找. Ngồi ở ga chờ bạn theo hẹn, muốn nhấn chờ: 我在___你。",
+            "id": "q2"
+          },
+          {
+            "type": "open",
+            "question": "等等 trong 我买了苹果、香蕉等等。 nghĩa là gì?",
+            "id": "q3"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我在等你。"
+            ],
+            "explanation": "在 trước 等; 你 sau 等."
+          },
+          "q2": {
+            "accepted": [
+              "我在等你。"
+            ],
+            "explanation": "找 ghép được nhưng đổi ý thành tìm."
+          },
+          "q3": {
+            "accepted": [
+              "Vân vân.",
+              "Còn những loại tương tự."
+            ],
+            "explanation": "Sau danh sách, 等等 báo còn mục tương tự; không phải bảo trái cây chờ."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Nhắn bạn rằng mình đang đợi bạn ấy.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Nhờ khách đợi một chút.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu hành động đang diễn ra.",
+            "frame": "我在 + 等 + 你。",
+            "model": "我在等你。",
+            "vi": "Tôi đang đợi bạn.",
+            "criteria": [
+              "在 trước 等.",
+              "你 sau 等."
+            ]
+          },
+          "s2": {
+            "idea": "Lịch sự nhờ chờ ngắn.",
+            "frame": "请 + 等一下。",
+            "model": "请等一下。",
+            "vi": "Làm ơn đợi một chút.",
+            "criteria": [
+              "一下 sau 等.",
+              "请稍等。 cũng hợp lý, không phải nhớ chữ mới."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ]
+      }
     },
     {
       "meaning": "lời nói",
@@ -19910,16 +21116,200 @@
           "meaning": "lời nói"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "zh": "我有话想说。",
+          "vi": "Tôi có điều muốn nói.",
+          "analysis": "有话 nêu có điều trong lòng; 想说 là muốn nói nó ra.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ yǒu huà xiǎng shuō.",
+          "id": "e1"
+        },
+        {
+          "zh": "这句话是什么意思？",
+          "vi": "Câu này có nghĩa là gì?",
+          "analysis": "这 + 句 + 话 là câu nói này; 什么意思 hỏi ý nghĩa của cả câu.",
+          "practiceAllowed": true,
+          "id": "e2"
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-2ceaeb57578b",
       "hanzi": "话",
       "level": 1,
       "sourceIndex": 33,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "biên soạn bổ sung",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-005",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Báo với đồng nghiệp bạn có điều muốn nói.",
+      "model": "我有话想说。",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 55,
+        "introduction": {
+          "scope": "Học 话 là nội dung lời nói, khác hành động 说."
+        },
+        "meaning": {
+          "scene": "Bạn có điều muốn nói với đồng nghiệp.",
+          "explanation": "话 là lời, điều được nói ra; có thể là thứ mình nói, nghe hoặc muốn nói. Nó không tự là động từ nói.",
+          "boundary": "说 là hành động; 说话 là nói chuyện/cất lời. Một câu nói thường đếm bằng 句; không lấy riêng 话 thay 说.",
+          "conditions": [
+            "有话 là có điều muốn nói. 一句话 là một câu nói; 这句话 là câu nói này."
+          ],
+          "takeaway": "话 là lời, điều được nói ra; có thể là thứ mình nói, nghe hoặc muốn nói. Nó không tự là động từ nói."
+        },
+        "examples": [
+          {
+            "zh": "我有话想说。",
+            "vi": "Tôi có điều muốn nói.",
+            "analysis": "有话 nêu có điều trong lòng; 想说 là muốn nói nó ra.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ yǒu huà xiǎng shuō.",
+            "id": "e1"
+          },
+          {
+            "zh": "这句话是什么意思？",
+            "vi": "Câu này có nghĩa là gì?",
+            "analysis": "这 + 句 + 话 là câu nói này; 什么意思 hỏi ý nghĩa của cả câu.",
+            "practiceAllowed": true,
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Người + 有话 + 想说",
+            "position": "话 sau 有, trước phần muốn nói ra.",
+            "required": "Muốn nêu người trò chuyện: 我想跟你说话。 — Tôi muốn nói chuyện với bạn.",
+            "omission": "Khi đã biết đang hỏi còn điều muốn nói không, chỉ đáp 有。 được.",
+            "id": "u1",
+            "exampleId": "e1"
+          },
+          {
+            "frame": "这 / 一 + 句 + 话",
+            "position": "句 trước 话 khi đếm lời/câu nói.",
+            "required": "Học 一句话、这句话; dùng 句 thay vì 个 trong mẫu đếm câu cơ bản.",
+            "omission": "Đã rõ danh từ có thể hỏi 这句是什么意思？ Không bắt lặp 话.",
+            "id": "u2",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "title": "话、说、说话: lời và hành động",
+            "scene": "Bạn muốn nói chuyện hoặc hỏi ý nghĩa một câu.",
+            "possibleConfusion": "Dịch “nói” và “lời nói” giống nhau dễ sai vai trò từ.",
+            "difference": "话 là nội dung; 说 là nói; 说话 là hoạt động nói chuyện. Sau 说 có thể nêu điều nói; người trò chuyện có thể đặt trong 跟 + người trước 说话.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我想说一句话。",
+                "vi": "Tôi muốn nói một câu.",
+                "comment": "说 là hành động; 一句话 là điều muốn nói.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我想跟你说话。",
+                "vi": "Tôi muốn nói chuyện với bạn.",
+                "comment": "跟你 trước 说话 nêu người cùng nói.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Trong khung 我想说一句话, không lấy danh từ 话 thay động từ 说. Giữ câu đúng 我想说一句话。 — Tôi muốn nói một câu. Muốn nêu người nghe, dùng 跟你说话."
+            },
+            "boundary": "说中文 là nói tiếng Trung; 说话 không thay mọi cụm có 说. 说几句话 dùng khi muốn đếm số câu.",
+            "tip": "说 là làm; 话 là lời. Với người trò chuyện: 跟你说话.",
+            "id": "t1"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Không có đa âm thông dụng cần thêm.",
+          "literalTranslation": "Không ép bẫy âm Hán Việt “thoại”; học nghĩa cả từ.",
+          "confusables": "Rà 话/说/说话, 句 và 跟 + người."
+        },
+        "pronunciation": {
+          "text": "话 mang thanh bốn. Trong 这句话, các tiếng đều ghi thanh bốn; nói liền tự nhiên, không cần tách thành ba nhịp rời. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Xếp câu: 想说 / 有 / 我 / 话。",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Điền 句 hoặc 个 theo mẫu đếm câu: 这___话是什么意思？",
+            "id": "q2"
+          },
+          {
+            "type": "open",
+            "question": "Cho 跟你 (với bạn), 说话 (nói chuyện). Viết “Tôi muốn nói chuyện với bạn”.",
+            "id": "q3"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我有话想说。"
+            ],
+            "explanation": "有话 là có điều; 想说 là muốn nói."
+          },
+          "q2": {
+            "accepted": [
+              "这句话是什么意思？"
+            ],
+            "explanation": "句 đếm lời/câu nói trong khung này."
+          },
+          "q3": {
+            "accepted": [
+              "我想跟你说话。"
+            ],
+            "explanation": "跟你 trước 说话; không đặt người trần sau cả cụm."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Báo với đồng nghiệp bạn có điều muốn nói.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Chỉ một câu trong sách và hỏi nghĩa.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Có điều rồi muốn nói nó ra.",
+            "frame": "我 + 有话 + 想说。",
+            "model": "我有话想说。",
+            "vi": "Tôi có điều muốn nói.",
+            "criteria": [
+              "话 là điều muốn nói.",
+              "Có thể thêm đối tượng trong khung đúng."
+            ]
+          },
+          "s2": {
+            "idea": "Hỏi nghĩa câu này.",
+            "frame": "这句话 + 是什么意思？",
+            "model": "这句话是什么意思？",
+            "vi": "Câu này có nghĩa gì?",
+            "criteria": [
+              "句 trước 话.",
+              "Đúng ý hỏi nghĩa."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=5039&la=0&powerMode=0",
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=133924&la=0&powerMode=0"
+        ]
+      }
     },
     {
       "id": "hz-h1-88b1b53abf1e",
@@ -19931,19 +21321,229 @@
           "meaning": "mời"
         }
       ],
-      "meaning": "mời",
-      "status": "example",
+      "meaning": "mời; làm ơn",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-005",
       "examples": [
         {
-          "zh": "请喝茶。",
-          "vi": "Mời uống trà."
+          "zh": "请坐。",
+          "vi": "Mời ngồi.",
+          "analysis": "Người được mời đã rõ nên lược; 请 ngay trước 坐.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng zuò.",
+          "id": "e1"
+        },
+        {
+          "zh": "请你帮我看这个字。",
+          "vi": "Nhờ bạn xem giúp tôi chữ này.",
+          "analysis": "你 sau 请 là người được nhờ; 我 sau 帮 là người được giúp.",
+          "practiceAllowed": true,
+          "id": "e2"
         }
       ],
       "sourceIndex": 34,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Mời khách ngồi.",
+      "model": "请坐。",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 56,
+        "introduction": {
+          "scope": "Học 请 để mời, nhờ lịch sự; phân biệt 请客 và 让."
+        },
+        "meaning": {
+          "scene": "Bạn mời khách ngồi hoặc nhờ đồng nghiệp xem chữ.",
+          "explanation": "请 trước hành động để mời hoặc nhờ lịch sự. Có thể nêu người giữa 请 và hành động: 请你坐 — mời bạn ngồi.",
+          "boundary": "请 không biến mọi yêu cầu thành lịch sự; giọng và việc nhờ vẫn cần phù hợp. “Mời ăn” có thể là đãi, cần nhìn cả câu.",
+          "conditions": [
+            "请坐 lược người đang ở trước mặt. 请你帮我 phân biệt người được nhờ và người được giúp."
+          ],
+          "takeaway": "请 trước hành động để mời hoặc nhờ lịch sự. Có thể nêu người giữa 请 và hành động: 请你坐 — mời bạn ngồi."
+        },
+        "examples": [
+          {
+            "zh": "请坐。",
+            "vi": "Mời ngồi.",
+            "analysis": "Người được mời đã rõ nên lược; 请 ngay trước 坐.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng zuò.",
+            "id": "e1"
+          },
+          {
+            "zh": "请你帮我看这个字。",
+            "vi": "Nhờ bạn xem giúp tôi chữ này.",
+            "analysis": "你 sau 请 là người được nhờ; 我 sau 帮 là người được giúp.",
+            "practiceAllowed": true,
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "请 + hành động",
+            "position": "请 trước việc người nghe được mời làm.",
+            "required": "请喝茶 là mời uống trà; 请等一下 là nhờ đợi.",
+            "omission": "Có thể lược người được mời khi nói trực tiếp.",
+            "id": "u1",
+            "exampleId": "e1"
+          },
+          {
+            "frame": "请 + người được nhờ + hành động",
+            "position": "Người sau 请; trong 帮我, 我 nhận giúp đỡ.",
+            "required": "Không đảo 你/我 nếu muốn giữ đúng người giúp và người nhận.",
+            "omission": "Nói trực tiếp có thể lược 你: 请帮我看这个字。 — Làm ơn xem giúp tôi chữ này.",
+            "id": "u2",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "title": "请 ăn uống và 请客: mời hay đãi",
+            "scene": "Bạn mời mọi người ăn.",
+            "possibleConfusion": "“Mời” có thể chỉ chào mời hoặc nhận trả tiền.",
+            "difference": "请吃饭 có thể là mời bắt đầu ăn. 我请你吃饭 thường hàm ý mình đãi khi rủ đi ăn; 我请客 nêu rõ mình trả tiền mời.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请吃饭。",
+                "vi": "Mời ăn cơm.",
+                "comment": "Lời mời ăn, chưa xác định ai trả tiền.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "今天我请客。",
+                "vi": "Hôm nay tôi đãi.",
+                "comment": "Nêu người thanh toán là tôi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 请吃饭 bằng 我请客 đổi điều muốn nói từ mời ăn sang nhận đãi."
+            },
+            "boundary": "Không ép mọi 请 với ăn uống đều là bao tiền; muốn rõ ai trả tiền, nói 我请客.",
+            "tip": "Chốt người trả tiền: 我请客.",
+            "id": "t1"
+          },
+          {
+            "title": "请 và 让: mời, bảo hoặc cho phép",
+            "scene": "Bạn muốn người kia ngồi xuống.",
+            "possibleConfusion": "Cùng kết quả ngồi nhưng cách nhìn khác.",
+            "difference": "请他坐 là mời anh ấy ngồi; 让他坐 tùy ngữ cảnh là bảo/để anh ấy ngồi.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我请他坐。",
+                "vi": "Tôi mời anh ấy ngồi.",
+                "comment": "Nhấn lời mời.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我让他坐。",
+                "vi": "Tôi bảo/để anh ấy ngồi.",
+                "comment": "Sắp xếp hoặc cho phép; cần ngữ cảnh chọn bản dịch.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 请 bằng 让 vẫn đúng nhưng không giữ nguyên sắc thái lời mời."
+            },
+            "boundary": "Cùng sắp xếp chỗ ngồi có thể cho cùng kết quả. Không coi 让 luôn thô lỗ hay ép buộc.",
+            "tip": "Lời mời: 请; cho phép/bảo: xét 让.",
+            "id": "t2"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Rà mời/nhờ và đãi trong 请客; không có đa âm cần thêm.",
+          "literalTranslation": "Không gán nghĩa chỉ qua Hán Việt; xét hành động và thanh toán.",
+          "confusables": "Rà 请/让, lược người và vai trong 请你帮我."
+        },
+        "pronunciation": {
+          "text": "请 có thanh ba; trước 坐 thường đọc thấp, không bắt buộc hạ rồi nâng đầy đủ. Trong 请你, hai thanh ba liền nhau nên 请 thường chuyển sang thanh hai khi nói liền. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Xếp lời mời ngồi: 坐 / 请。",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Cho 请客 (đãi), 请坐 (mời ngồi). Bạn muốn nói mình trả tiền: 今天我___。",
+            "id": "q2"
+          },
+          {
+            "type": "open",
+            "question": "Trong 请你帮我看这个字。, ai giúp ai?",
+            "id": "q3"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请坐。"
+            ],
+            "explanation": "请 trước hành động; có thể lược người nghe."
+          },
+          "q2": {
+            "accepted": [
+              "今天我请客。"
+            ],
+            "explanation": "请客 nêu mình đãi, không phải mời ngồi."
+          },
+          "q3": {
+            "accepted": [
+              "Bạn giúp tôi.",
+              "你 giúp 我."
+            ],
+            "explanation": "你 là người được nhờ sau 请; 我 nhận giúp sau 帮."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Mời khách ngồi.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Nhờ bạn xem giúp chữ này.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Mời người nghe làm việc ngồi.",
+            "frame": "请 + 坐。",
+            "model": "请坐。",
+            "vi": "Mời ngồi.",
+            "criteria": [
+              "Có thể lược người.",
+              "Giọng lịch sự cũng quan trọng."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu người được nhờ, người nhận giúp và việc.",
+            "frame": "请你 + 帮我 + 看这个字。",
+            "model": "请你帮我看这个字。",
+            "vi": "Nhờ bạn xem giúp tôi chữ này.",
+            "criteria": [
+              "你 sau 请; 我 sau 帮.",
+              "Lược 你 khi nói trực tiếp cũng đúng."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ]
+      }
     },
     {
       "id": "hz-h1-6027e1370729",
@@ -19956,18 +21556,240 @@
         }
       ],
       "meaning": "hỏi",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-005",
       "examples": [
         {
           "zh": "我想问你一个问题。",
-          "vi": "Tôi muốn hỏi bạn một câu."
+          "vi": "Tôi muốn hỏi bạn một câu.",
+          "analysis": "问 + 你 + 一个问题: người được hỏi trước, điều hỏi sau.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xiǎng wèn nǐ yī ge wèntí.",
+          "id": "e1"
+        },
+        {
+          "zh": "请问，车站在哪儿？",
+          "vi": "Xin hỏi, ga ở đâu?",
+          "analysis": "请问 mở đầu lịch sự; 哪儿 giữ vị trí nơi cần biết, sau 在.",
+          "practiceAllowed": true,
+          "id": "e2"
         }
       ],
       "sourceIndex": 35,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Xin hỏi đồng nghiệp một câu.",
+      "model": "我想问你一个问题。",
+      "shape": {
+        "pair": "问 / 闻",
+        "difference": "问 có 口 trong 门; 闻 có 耳. Mẹo nhận mặt chữ, không phải quy tắc đoán mọi nghĩa.",
+        "examples": []
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 57,
+        "introduction": {
+          "scope": "Học hỏi ai một điều gì và phân biệt với trả lời."
+        },
+        "meaning": {
+          "scene": "Bạn chưa hiểu và muốn hỏi thầy một câu.",
+          "explanation": "问 là đưa câu hỏi cho người khác để biết thông tin. Có thể nêu người được hỏi rồi vấn đề muốn hỏi.",
+          "boundary": "问 không phải trả lời; 回答 mới là đáp. 问题 là câu hỏi/vấn đề, không tự làm động từ hỏi.",
+          "conditions": [
+            "问你一个问题: 你 là người được hỏi, 一个问题 là một câu hỏi; 个 đi với 问题."
+          ],
+          "takeaway": "问 là đưa câu hỏi cho người khác để biết thông tin. Có thể nêu người được hỏi rồi vấn đề muốn hỏi."
+        },
+        "examples": [
+          {
+            "zh": "我想问你一个问题。",
+            "vi": "Tôi muốn hỏi bạn một câu.",
+            "analysis": "问 + 你 + 一个问题: người được hỏi trước, điều hỏi sau.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xiǎng wèn nǐ yī ge wèntí.",
+            "id": "e1"
+          },
+          {
+            "zh": "请问，车站在哪儿？",
+            "vi": "Xin hỏi, ga ở đâu?",
+            "analysis": "请问 mở đầu lịch sự; 哪儿 giữ vị trí nơi cần biết, sau 在.",
+            "practiceAllowed": true,
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Người + 问 + người được hỏi + câu hỏi",
+            "position": "Người ngay sau 问, rồi đến điều hỏi.",
+            "required": "问老师 là hỏi thầy/cô, không cần 给 trong khung này.",
+            "omission": "Đã rõ hỏi ai, có thể nói 我想问一个问题。",
+            "id": "u1",
+            "exampleId": "e1"
+          },
+          {
+            "frame": "请问，+ câu hỏi",
+            "position": "请问 đầu lời hỏi.",
+            "required": "Phía sau là cả câu hỏi muốn đưa ra.",
+            "omission": "Trong trao đổi thân mật có thể hỏi trực tiếp, không bắt buộc 请问.",
+            "id": "u2",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "title": "问、回答、问题: hỏi, đáp, câu hỏi",
+            "scene": "Có người hỏi, có người đáp trong lớp.",
+            "possibleConfusion": "Các từ cùng trong một cuộc trao đổi nhưng vai khác.",
+            "difference": "问 tạo câu hỏi; 回答 đưa lời đáp; 问题 là điều được hỏi hoặc vấn đề được nói tới.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我问老师。",
+                "vi": "Tôi hỏi thầy/cô.",
+                "comment": "Tôi đưa câu hỏi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我回答老师的问题。",
+                "vi": "Tôi trả lời câu hỏi của thầy/cô.",
+                "comment": "Tôi đưa lời đáp; 的 nối người với câu hỏi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "我有一个问题。",
+                "vi": "Tôi có một câu hỏi/vấn đề.",
+                "comment": "问题 là danh từ sau 有.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 问 bằng 回答 trong 我问老师 vẫn đúng nhưng đổi từ hỏi thầy sang đáp thầy."
+            },
+            "boundary": "问问题 và 回答问题 đều đúng; nhìn hành động, không chỉ danh từ 问题.",
+            "tip": "Đưa câu hỏi: 问; đưa đáp án: 回答.",
+            "id": "t1"
+          },
+          {
+            "title": "问 và 闻: gần mặt chữ, khác việc",
+            "scene": "Bạn hỏi về món ăn hoặc ngửi thử món ăn.",
+            "possibleConfusion": "Hai chữ cùng 门 bao ngoài dễ nhìn nhầm.",
+            "difference": "问 có 口 bên trong, là hỏi; 闻 có 耳, trong 闻味道 là ngửi mùi. Đây là khác chữ, không phải đa âm một chữ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我问你。",
+                "vi": "Tôi hỏi bạn.",
+                "comment": "问 chỉ hỏi người.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我闻一下。",
+                "vi": "Tôi ngửi thử một chút.",
+                "comment": "闻 là ngửi trong tình huống món ăn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 问 bằng 闻 trong 我问你 có thể thành nghĩa tôi ngửi bạn, khác hẳn ý hỏi."
+            },
+            "boundary": "闻 còn có nghĩa trong từ ghép khác; chỉ học ngửi ở đây. Mẹo mặt chữ không phải quy tắc đoán mọi nghĩa.",
+            "tip": "Nhìn trong cửa: 问 có 口; 闻 có 耳.",
+            "id": "t2"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Rà 问/闻, khác chữ chứ không đa âm.",
+          "literalTranslation": "问题 là danh từ; không thêm bẫy Hán Việt giả.",
+          "confusables": "Rà 问/回答/问题 và 问/闻."
+        },
+        "pronunciation": {
+          "text": "问 thanh bốn, 闻 ở đối chiếu thanh hai. Trong 一个问题, 一 trước 个 thường đọc thành thanh hai; Pinyin câu mẫu giữ thanh gốc của 一. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Xếp câu: 一个问题 / 你 / 问 / 我想。",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Cho 问 (hỏi), 回答 (đáp). Bạn chưa biết nên muốn hỏi thầy: 我想___老师。",
+            "id": "q2"
+          },
+          {
+            "type": "open",
+            "question": "Điền 问 hoặc 闻 để hỏi bạn, không nói ngửi: 我___你。",
+            "id": "q3"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我想问你一个问题。"
+            ],
+            "explanation": "你 sau 问 rồi đến câu hỏi."
+          },
+          "q2": {
+            "accepted": [
+              "我想问老师。"
+            ],
+            "explanation": "问 đúng chiều xin thông tin; 回答 là đưa lời đáp."
+          },
+          "q3": {
+            "accepted": [
+              "我问你。"
+            ],
+            "explanation": "问 có 口 bên trong, là hỏi."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Xin hỏi đồng nghiệp một câu.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Ngoài đường, hỏi lịch sự ga ở đâu.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu muốn hỏi và người nghe.",
+            "frame": "我想 + 问你 + 一个问题。",
+            "model": "我想问你一个问题。",
+            "vi": "Tôi muốn hỏi bạn một câu.",
+            "criteria": [
+              "你 sau 问.",
+              "一个问题 sau người được hỏi."
+            ]
+          },
+          "s2": {
+            "idea": "Xin hỏi rồi hỏi nơi.",
+            "frame": "请问，车站 + 在哪儿？",
+            "model": "请问，车站在哪儿？",
+            "vi": "Xin hỏi, ga ở đâu?",
+            "criteria": [
+              "请问 mở đầu.",
+              "哪里 thay 哪儿 cũng được."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ]
+      }
     },
     {
       "id": "hz-h1-b51cd2090a80",
@@ -19975,19 +21797,242 @@
       "hanzi": "不用",
       "intro": [
         {
-          "pinyin": "búyòng",
-          "meaning": "không cần",
-          "sourcePinyin": "bùyòng"
+          "pinyin": "bù yòng",
+          "meaning": "không cần"
         }
       ],
       "meaning": "không cần",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-005",
+      "examples": [
+        {
+          "zh": "你明天不用来。",
+          "vi": "Ngày mai bạn không cần đến.",
+          "analysis": "不用 trước 来; 明天 trước 不用. Đây là miễn đến, không tự cấm đến.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ míngtiān bù yòng lái.",
+          "id": "e1"
+        },
+        {
+          "zh": "不用谢。",
+          "vi": "Không có gì đâu.",
+          "analysis": "Đáp lời cảm ơn; lược người và tình huống đã rõ, không phải ra lệnh cấm cảm ơn.",
+          "practiceAllowed": true,
+          "id": "e2"
+        }
+      ],
       "sourceIndex": 36,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Nói bạn ngày mai không cần đến.",
+      "model": "你明天不用来。",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 58,
+        "introduction": {
+          "scope": "Học không cần làm, khác đừng làm và chưa dùng."
+        },
+        "meaning": {
+          "scene": "Ngày mai công ty nghỉ; bạn báo đồng nghiệp không cần đến.",
+          "explanation": "不用 trước hành động là không cần làm: bỏ yêu cầu hoặc không có nhu cầu, chưa khẳng định việc ấy bị cấm.",
+          "boundary": "不用 cũng có thể là không dùng khi 用 làm động từ dùng một thứ. Xem sau nó là hành động cần làm hay đồ vật không dùng.",
+          "conditions": [
+            "不用来 là không cần đến. Khi đáp cảm ơn dùng 不用谢."
+          ],
+          "takeaway": "不用 trước hành động là không cần làm: bỏ yêu cầu hoặc không có nhu cầu, chưa khẳng định việc ấy bị cấm."
+        },
+        "examples": [
+          {
+            "zh": "你明天不用来。",
+            "vi": "Ngày mai bạn không cần đến.",
+            "analysis": "不用 trước 来; 明天 trước 不用. Đây là miễn đến, không tự cấm đến.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ míngtiān bù yòng lái.",
+            "id": "e1"
+          },
+          {
+            "zh": "不用谢。",
+            "vi": "Không có gì đâu.",
+            "analysis": "Đáp lời cảm ơn; lược người và tình huống đã rõ, không phải ra lệnh cấm cảm ơn.",
+            "practiceAllowed": true,
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Người + thời gian + 不用 + hành động",
+            "position": "不用 trước việc không cần làm.",
+            "required": "Phân biệt bỏ sự cần thiết với ngăn người kia làm.",
+            "omission": "Đã rõ việc có thể đáp 不用。 — Không cần đâu.",
+            "id": "u1",
+            "exampleId": "e1"
+          },
+          {
+            "frame": "不用 + 谢",
+            "position": "Cụm đáp cảm ơn là 不用谢.",
+            "required": "Không dùng để xin lỗi hoặc đáp mọi lời chào.",
+            "omission": "Chỉ đáp 不用。 cũng có thể được trong khẩu ngữ khi ngữ cảnh rõ.",
+            "id": "u2",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "title": "不用 / 不要: không cần hay đừng",
+            "scene": "Công ty nghỉ nhưng không cấm ghé qua.",
+            "possibleConfusion": "Miễn phải đến khác ngăn không cho đến.",
+            "difference": "你不用来 là bạn không cần đến; 你不要来 trong ý ngăn hành động là bạn đừng đến. 不要 còn có nghĩa không muốn/không lấy ở câu khác.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你明天不用来。",
+                "vi": "Ngày mai bạn không cần đến.",
+                "comment": "Bỏ yêu cầu đến.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你明天不要来。",
+                "vi": "Ngày mai bạn đừng đến.",
+                "comment": "Yêu cầu không đến trong tình huống này.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 不用 bằng 不要 vẫn đúng nhưng chuyển lời miễn làm thành ngăn làm."
+            },
+            "boundary": "不用担心、不要担心 đều có thể trấn an đừng lo; không vạch ranh giới cứng mọi trường hợp.",
+            "tip": "Miễn làm: 不用; ngăn làm: 不要.",
+            "id": "t1"
+          },
+          {
+            "title": "不用 / 没用: lựa chọn, việc đã xảy ra và tác dụng",
+            "scene": "Bạn nói về việc dùng điện thoại.",
+            "possibleConfusion": "Không dùng, chưa dùng và vô ích không phải một nghĩa.",
+            "difference": "我不用这个手机 nêu không dùng máy này. 我没用这个手机 nêu chưa/đã không dùng trong mốc xét. 这样做没用 là làm vậy không có ích.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我不用这个手机。",
+                "vi": "Tôi không dùng điện thoại này.",
+                "comment": "Lựa chọn hay thói quen.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我没用这个手机。",
+                "vi": "Tôi chưa dùng/đã không dùng điện thoại này.",
+                "comment": "Việc dùng chưa xảy ra trong mốc xét.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "这样做没用。",
+                "vi": "Làm vậy không có ích.",
+                "comment": "Đánh giá không có tác dụng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 不 bằng 没 trong cặp đầu đổi loại phủ định và thời điểm. Muốn rõ không cần dùng, nói 我不需要用这个手机。 — Tôi không cần dùng máy này."
+            },
+            "boundary": "我没用这个手机 cần ngữ cảnh để chọn chưa dùng hay đã không dùng; không ép một bản dịch.",
+            "tip": "Xét: cần không, đã dùng chưa, có ích không?",
+            "id": "t2"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Rà không cần/không dùng; biến điệu 不 không phải đa âm từ vựng.",
+          "literalTranslation": "Không suy ra vô dụng từ âm Hán Việt.",
+          "confusables": "Rà 不用/不要/没用, có vùng cùng đúng khi trấn an."
+        },
+        "pronunciation": {
+          "text": "Giới thiệu và câu mẫu ghi thanh gốc của 不. Trước 用 thanh bốn, 不 đọc thành thanh hai khi nói liền; đây là biến điệu, không phải nghĩa mới. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Điền 不用 hoặc 不要: công ty nghỉ, miễn việc phải đến nhưng không cấm ghé: 你明天___来。",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Đáp 谢谢 bằng cụm chứa 不用 đã học.",
+            "id": "q2"
+          },
+          {
+            "type": "open",
+            "question": "我没用这个手机。 có tự khẳng định máy vô ích không? Nêu một nghĩa hợp lý.",
+            "id": "q3"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你明天不用来。"
+            ],
+            "explanation": "不用 bỏ sự cần thiết; 不要 trong tình huống này là ngăn đến."
+          },
+          "q2": {
+            "accepted": [
+              "不用谢。"
+            ],
+            "explanation": "Đây là đáp lời cảm ơn."
+          },
+          "q3": {
+            "accepted": [
+              "Không. Tôi chưa dùng điện thoại này.",
+              "Không. Tôi đã không dùng điện thoại này."
+            ],
+            "explanation": "Có người làm và đối tượng nên thường nói việc dùng chưa/không xảy ra; khác 这样做没用 — làm vậy vô ích."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Nói bạn ngày mai không cần đến.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Bạn vừa được cảm ơn; đáp ngắn.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Miễn phải đến, không cấm đến.",
+            "frame": "你明天 + 不用 + 来。",
+            "model": "你明天不用来。",
+            "vi": "Ngày mai bạn không cần đến.",
+            "criteria": [
+              "不用 trước 来.",
+              "Không thay 不要 nếu giữ ý miễn làm."
+            ]
+          },
+          "s2": {
+            "idea": "Đáp cảm ơn.",
+            "frame": "不用 + 谢。",
+            "model": "不用谢。",
+            "vi": "Không có gì đâu.",
+            "criteria": [
+              "Đúng tình huống.",
+              "不客气。 cũng hợp lý, không sai chỉ vì khác mẫu."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=2340&la=0&powerMode=0",
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3874&la=0&powerMode=0"
+        ]
+      }
     },
     {
       "id": "hz-h1-050d90f2468a",
@@ -20000,13 +22045,227 @@
         }
       ],
       "meaning": "trả lời",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-005",
+      "examples": [
+        {
+          "zh": "请回答这个问题。",
+          "vi": "Hãy trả lời câu hỏi này.",
+          "analysis": "回答 trực tiếp với 这个问题, không cần 给.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng huídá zhège wèntí.",
+          "id": "e1"
+        },
+        {
+          "zh": "我不知道怎么回答你。",
+          "vi": "Tôi không biết trả lời bạn thế nào.",
+          "analysis": "你 là người nhận lời đáp; 怎么 trước 回答 hỏi cách trả lời.",
+          "practiceAllowed": true,
+          "id": "e2"
+        }
+      ],
       "sourceIndex": 37,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Nhờ người kia trả lời câu hỏi này.",
+      "model": "请回答这个问题。",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 59,
+        "introduction": {
+          "scope": "Học đáp câu hỏi và phân biệt phản hồi tin nhắn."
+        },
+        "meaning": {
+          "scene": "Thầy hỏi một câu, bạn biết và muốn đáp.",
+          "explanation": "回答 là đưa lời đáp cho câu hỏi hoặc vấn đề đã nêu. Sau 回答 có thể là 问题 hay người mình đáp.",
+          "boundary": "Không phải mọi “trả” đều là 回答: trả đồ dùng 还; phản hồi tin thường dùng 回复 hoặc 回消息.",
+          "conditions": [
+            "回答问题 là đáp câu hỏi; 回答老师 và 回答老师的问题 đều dùng được, câu sau nêu rõ thứ trả lời."
+          ],
+          "takeaway": "回答 là đưa lời đáp cho câu hỏi hoặc vấn đề đã nêu. Sau 回答 có thể là 问题 hay người mình đáp."
+        },
+        "examples": [
+          {
+            "zh": "请回答这个问题。",
+            "vi": "Hãy trả lời câu hỏi này.",
+            "analysis": "回答 trực tiếp với 这个问题, không cần 给.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng huídá zhège wèntí.",
+            "id": "e1"
+          },
+          {
+            "zh": "我不知道怎么回答你。",
+            "vi": "Tôi không biết trả lời bạn thế nào.",
+            "analysis": "你 là người nhận lời đáp; 怎么 trước 回答 hỏi cách trả lời.",
+            "practiceAllowed": true,
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Người + 回答 + câu hỏi / người",
+            "position": "回答 trước thứ trả lời hoặc người mình đáp.",
+            "required": "Nêu cả người và câu hỏi: 回答你的问题 — trả lời câu hỏi của bạn.",
+            "omission": "Đã rõ điều hỏi có thể nói 请回答。",
+            "id": "u1",
+            "exampleId": "e1"
+          },
+          {
+            "frame": "不知道 + 怎么 + 回答 + người",
+            "position": "怎么 trước 回答, người nhận lời đáp sau.",
+            "required": "Không biết cách đáp, không khẳng định người kia chưa hỏi.",
+            "omission": "Đã rõ người, 我不知道怎么回答。 cũng được.",
+            "id": "u2",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "title": "回答 / 问: chiều hỏi — đáp",
+            "scene": "Cùng một câu hỏi giữa bạn và thầy.",
+            "possibleConfusion": "Nhầm từ đổi người xin thông tin thành người đưa lời đáp.",
+            "difference": "问老师 là hỏi thầy; 回答老师 là đáp thầy. 问题 là thứ được hỏi hoặc trả lời.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我问老师一个问题。",
+                "vi": "Tôi hỏi thầy một câu.",
+                "comment": "Tôi đưa câu hỏi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我回答老师的问题。",
+                "vi": "Tôi trả lời câu hỏi của thầy.",
+                "comment": "Tôi đưa lời đáp.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 问 bằng 回答 trong 我问老师 vẫn đúng nhưng đổi chiều trao đổi."
+            },
+            "boundary": "问问题 và 回答问题 đều đúng; không chọn chỉ vì nhìn thấy 问题.",
+            "tip": "Ai đưa câu hỏi, ai đưa lời đáp?",
+            "id": "t1"
+          },
+          {
+            "title": "回答 / 回复 / 回消息",
+            "scene": "Bạn nhận tin có thể có hoặc không có câu hỏi.",
+            "possibleConfusion": "Tiếng Việt cùng gọi trả lời nhưng đối tượng khác.",
+            "difference": "回答问题 tập trung đáp câu hỏi; 回复消息 hoặc 回消息 là phản hồi tin nhắn. Tin có câu hỏi thì có thể vừa 回复 tin vừa 回答 điều hỏi.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我回答你的问题。",
+                "vi": "Tôi trả lời câu hỏi của bạn.",
+                "comment": "Tập trung nội dung được hỏi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我回复你的消息。",
+                "vi": "Tôi phản hồi tin nhắn của bạn.",
+                "comment": "Tập trung việc phản hồi tin.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "unnatural",
+              "explanation": "Trong ý phản hồi tin nói chung, kết hợp 回答 với 消息 kém tự nhiên hơn 回复消息. Nếu nhấn câu hỏi trong tin, nói 回答你的问题."
+            },
+            "boundary": "Không chia cứng 回答 chỉ nói miệng, 回复 chỉ viết. 回答 có thể bằng văn bản; 回复 cũng có thể bằng lời.",
+            "tip": "Câu hỏi: ưu tiên 回答; tin: ưu tiên 回复/回消息.",
+            "id": "t2"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Rà 回答 và chữ 答 riêng ở từ khác; không đổi cách đọc cả từ.",
+          "literalTranslation": "Không dịch mọi “trả” thành 回答.",
+          "confusables": "Rà 回答/问 và 回答/回复; không chia miệng/viết cứng."
+        },
+        "pronunciation": {
+          "text": "回答 có hai thanh hai, đọc đi lên vừa phải, không tách thành hai từ. Chữ 答 ở vài từ khác có cách đọc khác; không chuyển cách đọc ấy vào 回答. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Điền 问 (hỏi) hoặc 回答: thầy đã hỏi, bạn muốn đáp: 我想___老师的问题。",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Xếp câu: 这个问题 / 请 / 回答。",
+            "id": "q2"
+          },
+          {
+            "type": "open",
+            "question": "Điền 回答 hoặc 回复 (phản hồi), không nhấn câu hỏi trong tin: 我___你的消息。",
+            "id": "q3"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我想回答老师的问题。"
+            ],
+            "explanation": "Đưa lời đáp nên dùng 回答."
+          },
+          "q2": {
+            "accepted": [
+              "请回答这个问题。"
+            ],
+            "explanation": "回答 trực tiếp với 这个问题."
+          },
+          "q3": {
+            "accepted": [
+              "我回复你的消息。"
+            ],
+            "explanation": "回复消息 tự nhiên cho phản hồi tin nói chung; đáp câu hỏi dùng 回答你的问题."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Nhờ người kia trả lời câu hỏi này.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Nói bạn chưa biết đáp bạn mình thế nào.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 请 để đề nghị.",
+            "frame": "请 + 回答 + 这个问题。",
+            "model": "请回答这个问题。",
+            "vi": "Hãy trả lời câu hỏi này.",
+            "criteria": [
+              "回答 trước đối tượng.",
+              "Không cần 给."
+            ]
+          },
+          "s2": {
+            "idea": "Không biết cách đáp người kia.",
+            "frame": "我不知道 + 怎么回答 + 你。",
+            "model": "我不知道怎么回答你。",
+            "vi": "Tôi không biết trả lời bạn thế nào.",
+            "criteria": [
+              "怎么 trước 回答.",
+              "Lược 你 được nếu ngữ cảnh rõ."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ]
+      }
     },
     {
       "id": "hz-h1-8345c9c1e294",
@@ -20019,18 +22278,227 @@
         }
       ],
       "meaning": "bao nhiêu",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-005",
       "examples": [
         {
           "zh": "这个杯子多少钱？",
-          "vi": "Cốc này bao nhiêu tiền?"
+          "vi": "Cốc này bao nhiêu tiền?",
+          "analysis": "多少钱 ở vị trí giá; không cần thêm 吗 vào mẫu hỏi dùng 多少.",
+          "practiceAllowed": true,
+          "pinyin": "Zhège bēizi duōshao qián?",
+          "id": "e1"
+        },
+        {
+          "zh": "你们班有多少人？",
+          "vi": "Lớp bạn có bao nhiêu người?",
+          "analysis": "多少 trước 人 sau 有; 人 ở mẫu này không bắt buộc thêm 个.",
+          "practiceAllowed": true,
+          "id": "e2"
         }
       ],
       "sourceIndex": 38,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "task": "Hỏi giá cốc đang xem.",
+      "model": "这个杯子多少钱？",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 60,
+        "introduction": {
+          "scope": "Học hỏi số lượng, giá và phân biệt với 几."
+        },
+        "meaning": {
+          "scene": "Bạn hỏi giá cốc hoặc số người trong lớp.",
+          "explanation": "多少 hỏi lượng chưa biết: bao nhiêu tiền, người, sách. Nó giữ chỗ của lượng cần biết, không chuyển lên đầu câu.",
+          "boundary": "Không phải chỉ dùng cho số lớn; có thể chưa biết ít hay nhiều. Nghĩa ít nhiều ở câu khác chưa là trọng tâm.",
+          "conditions": [
+            "多少钱 hỏi giá. 多少人、多少书 có thể không kèm lượng từ; 多少个学生 cũng đúng."
+          ],
+          "takeaway": "多少 hỏi lượng chưa biết: bao nhiêu tiền, người, sách. Nó giữ chỗ của lượng cần biết, không chuyển lên đầu câu."
+        },
+        "examples": [
+          {
+            "zh": "这个杯子多少钱？",
+            "vi": "Cốc này bao nhiêu tiền?",
+            "analysis": "多少钱 ở vị trí giá; không cần thêm 吗 vào mẫu hỏi dùng 多少.",
+            "practiceAllowed": true,
+            "pinyin": "Zhège bēizi duōshao qián?",
+            "id": "e1"
+          },
+          {
+            "zh": "你们班有多少人？",
+            "vi": "Lớp bạn có bao nhiêu người?",
+            "analysis": "多少 trước 人 sau 有; 人 ở mẫu này không bắt buộc thêm 个.",
+            "practiceAllowed": true,
+            "id": "e2"
+          }
+        ],
+        "usages": [
+          {
+            "frame": "Đồ vật + 多少钱？",
+            "position": "多少钱 sau món đồ hỏi giá.",
+            "required": "钱 là tiền; trả lời bằng số với đơn vị tiền phù hợp.",
+            "omission": "Đang chỉ đồ, chỉ hỏi 多少钱？ cũng được.",
+            "id": "u1",
+            "exampleId": "e1"
+          },
+          {
+            "frame": "Nơi / nhóm + 有 + 多少 + người / vật？",
+            "position": "多少 trước danh từ hoặc lượng từ + danh từ.",
+            "required": "多少人 đúng; 多少个学生 cũng đúng. Không bắt luôn bỏ lượng từ.",
+            "omission": "Đã rõ đếm gì, có thể hỏi 有多少？",
+            "id": "u2",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "title": "多少 / 几: không lấy mười làm ranh giới tuyệt đối",
+            "scene": "Bạn hỏi số người trong gia đình.",
+            "possibleConfusion": "“Dưới mười chỉ 几, trên mười chỉ 多少” là quy tắc quá cứng.",
+            "difference": "几 thường dự kiến số tương đối nhỏ, mẫu đếm cơ bản thường có lượng từ. 多少 hỏi rộng hơn, nhiều danh từ không bắt buộc lượng từ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你家有几口人？",
+                "vi": "Nhà bạn có mấy người?",
+                "comment": "Dự kiến gia đình ít người; 口 là lượng từ thường dùng khi hỏi gia đình.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你家有多少人？",
+                "vi": "Nhà bạn có bao nhiêu người?",
+                "comment": "Vẫn đúng với gia đình ít người.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Thay 几口人 bằng 多少人 vẫn đúng và gần nghĩa; không thay từng chữ mà quên lượng từ. Khẩu ngữ cơ bản học 几个人/几口人; 几人 có thể gặp trong văn phong ngắn."
+            },
+            "boundary": "几 còn ở 十几、几十 nên không có nghĩa chỉ dùng với số dưới mười trong mọi cấu trúc. Không yêu cầu học hết cấu trúc ấy ở đây.",
+            "tip": "Dự kiến ít: hay 几 + lượng từ; hỏi rộng: 多少.",
+            "id": "t1"
+          },
+          {
+            "title": "多少钱 / 几块钱: dự kiến mức giá",
+            "scene": "Bạn hỏi món chưa biết giá.",
+            "possibleConfusion": "Không phải hễ hỏi tiền là cấm 几.",
+            "difference": "多少钱 hỏi giá chưa rõ; 几块钱 gợi vài tệ hoặc ngữ cảnh giá nhỏ phù hợp. 多少 đã là từ hỏi nên mẫu này không cộng 吗.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个杯子多少钱？",
+                "vi": "Cốc này bao nhiêu tiền?",
+                "comment": "Không giới hạn ở vài tệ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这个杯子几块钱？",
+                "vi": "Cốc này mấy tệ?",
+                "comment": "Gợi mức vài tệ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "context-needed",
+              "explanation": "Đổi 多少钱 thành 几块钱 có thể vẫn đúng nhưng đổi dự kiến mức giá; không gọi sai ngữ pháp chỉ vì thực tế giá cao."
+            },
+            "boundary": "Với món rẻ, cả hai có thể gần nghĩa. Chưa biết mức giá thì 多少钱 rộng hơn.",
+            "tip": "Chưa rõ mức giá: 多少钱.",
+            "id": "t2"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Rà thanh nhẹ phổ thông; không lấy cách đọc vùng khác làm nghĩa mới.",
+          "literalTranslation": "Không dịch rời 多/少 thành nhiều ít trong câu hỏi.",
+          "confusables": "Rà 多少/几, lượng từ và tiền; không đặt mốc mười cứng."
+        },
+        "pronunciation": {
+          "text": "Trong câu hỏi thông dụng theo cách đọc phổ thông của bài, tiếng thứ hai của 多少 nhẹ: ngắn và nhẹ hơn, vẫn phát âm, không tự đọc thanh một. 杯子 cũng có tiếng thứ hai nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "type": "open",
+            "question": "Xếp câu hỏi giá: 多少钱 / 这个杯子？",
+            "id": "q1"
+          },
+          {
+            "type": "open",
+            "question": "Hỏi lớp chưa biết ít hay nhiều người: 你们班有___人？ Điền 多少 hoặc 几, thêm lượng từ nếu cần.",
+            "id": "q2"
+          },
+          {
+            "type": "open",
+            "question": "Nhận định “多少 chỉ dùng khi đáp số trên mười” đúng không? Dùng cặp 几口人 / 多少人 đã học để giải thích.",
+            "id": "q3"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这个杯子多少钱？"
+            ],
+            "explanation": "多少钱 sau món đồ, không cần 吗."
+          },
+          "q2": {
+            "accepted": [
+              "你们班有多少人？"
+            ],
+            "explanation": "多少人 phù hợp hỏi rộng. 几个人 có thể đúng nếu dự kiến ít; không chấm sai theo mốc mười tuyệt đối."
+          },
+          "q3": {
+            "accepted": [
+              "Không. 你家有多少人？ vẫn hỏi gia đình ít người được."
+            ],
+            "explanation": "Hai cách hỏi có thể cùng hỏi một gia đình ít người; 几 dự kiến ít, 多少 hỏi rộng."
+          }
+        },
+        "selfUse": [
+          {
+            "prompt": "Hỏi giá cốc đang xem.",
+            "id": "s1"
+          },
+          {
+            "prompt": "Hỏi số người trong lớp bạn mình, chưa biết quy mô.",
+            "id": "s2"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu đồ vật và hỏi lượng tiền.",
+            "frame": "这个杯子 + 多少钱？",
+            "model": "这个杯子多少钱？",
+            "vi": "Cốc này bao nhiêu tiền?",
+            "criteria": [
+              "Không cần 吗.",
+              "Chỉ hỏi 多少钱？ cũng được khi đang chỉ cốc."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 有 rồi hỏi lượng người.",
+            "frame": "你们班有 + 多少人？",
+            "model": "你们班有多少人？",
+            "vi": "Lớp bạn có bao nhiêu người?",
+            "criteria": [
+              "多少 trước 人.",
+              "多少个学生 cũng hợp lý nếu hỏi số học viên."
+            ]
+          }
+        },
+        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.coelang.tufs.ac.jp/mt/zh/vmod/v_search_detail.php?id=65&ls=d&rf=3"
+        ]
+      }
     },
     {
       "id": "hz-h1-8df32f671cf0",
@@ -66582,13 +69050,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 58,
-    "pending": 2176,
+    "ready": 70,
+    "pending": 2164,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 58
+        "ready": 70
       },
       {
         "level": 2,

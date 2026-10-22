@@ -1,4 +1,4 @@
-import {auditLesson,lessonAudio} from './lesson-standard.js?v=8.0.0';
+import {auditLesson,lessonAudio} from './lesson-standard.js?v=v2-batch-005';
 // Deterministic scripts and a cancellable, segment-by-segment bilingual player.
 export const audioModes=[
  {id:'quick',icon:'⚡',title:'Ôn nhanh',description:'Từ tiếng Trung → nghĩa tiếng Việt.'},
@@ -89,3 +89,4 @@ export function createAudioPlayer({synth,makeUtterance,changed=()=>{},preferredV
    if(!queue.length)return;const wasPlaying=status==='playing',currentWord=queue[Math.min(index,queue.length-1)].wordIndex,target=Math.max(0,currentWord+delta);const next=queue.findIndex(s=>s.wordIndex===target);if(next<0)return;invalidate();index=next;error=null;status=wasPlaying?'playing':'paused';if(wasPlaying)playCurrent();else emit();
   },setRate(value){const n=Number(value);if(!Number.isFinite(n))return;rate=Math.max(.5,Math.min(1.5,n));if(status==='playing'){invalidate();playCurrent()}else emit()},setRepeat(value){repeat=!!value;emit()}};
 }
+

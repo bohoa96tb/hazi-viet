@@ -26,8 +26,8 @@ Trong chat, sau luyện vị trí/bẫy dừng chờ trả lời, chưa đưa đ
 
 ## Tương thích và trạng thái áp dụng
 
-Tại thời điểm lưu chuẩn, 48 mục trong baseline (và 10 mục ngoài baseline) đã có nội dung theo V1; dữ liệu và hash của chúng được giữ nguyên. Đây là cập nhật prompt/tài liệu, chưa phải chuyển toàn bộ 48 bài hoặc thay giao diện ứng dụng.
+Từ batch-005, bài mới dùng `lesson.version:2`; hợp đồng dữ liệu và kiểm thử ở [CONTENT_SCHEMA_V2.md](CONTENT_SCHEMA_V2.md). Bộ nạp, audit, renderer và audio đã dispatch V1/V2. Hai ví dụ gắn cách dùng không có tab ví dụ lặp; bài mở tách đáp án, tự dùng có gợi ý ba mức. Chỉ trường Pinyin được phép được hiển thị; TTS không lấy các trường đó.
 
-Bộ mã V1 hiện kiểm tra ít nhất ba ví dụ, giới hạn Pinyin trong lesson và dựng giao diện 5.1–5.6. Trước batch V2 đầu tiên, phải bổ sung hỗ trợ có kiểm thử cho hai câu chính, vị trí Pinyin cho phép, câu hỏi mở/đáp án riêng, tự dùng/gợi ý và cách hiển thị không lặp. Giữ bài V1 đọc được; không nhét câu thừa hoặc nới kiểm tra tùy tiện để gọi V2 hoàn thành. Chỉ ghi đã hỗ trợ V2 sau khi code, dữ liệu và giao diện thực sự được kiểm tra.
+58 record đủ mẫu ở mốc trước batch-005 (48 trong baseline và 10 ngoài baseline) giữ nguyên nội dung và hash. Không gọi việc giữ tương thích là biên tập lại bài cũ. Mục sửa lại trong tương lai phải có danh sách ID, trước/sau, hash hợp lệ và không tăng completedCount.
 
-Nếu sửa lại bài cũ theo yêu cầu, dùng đợt chỉnh sửa có danh sách ID và cập nhật hash hợp lệ; không đổi baseline, không cộng thêm completedCount cho mục đã hoàn thành.
+Kiểm thử DOM và kế hoạch audio không chứng nhận bố cục trực quan hoặc phát âm trên Android thật; chưa phản biện giáo viên độc lập. Trạng thái xuất bản phải đọc docs/RELEASE.md và GitHub/live thực tế.
