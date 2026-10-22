@@ -6,4 +6,4 @@ Hỗ trợ V2: hai câu gắn khung, bài mở tách lời giải, hai tình hu�
 
 Đã chạy verify toàn khóa, DOM integration, kiểm cú pháp JS/MJS và diff --check. Chưa kiểm bố cục trực quan và TTS trên Android thật; chưa phản biện giáo viên độc lập.
 
-Đây là bản chuẩn bị phát hành; xác minh commit nội dung và trạng thái Pages sẽ được ghi sau khi GitHub đã nhận commit. Manifest release.json có hash SHA256 khóa học để đối chiếu server.
+Đã đọc lại progress và toàn bộ blob khóa học trên GitHub ở commit 89ce086f352807e43a7c68abf105452b5bc4a17e: khớp dữ liệu đã kiểm tra, 60/2.224 mục. Commit này được ghi trong commit kế tiếp để tránh tự tham chiếu SHA. Manifest release.json chứa SHA256 khóa học. Trạng thái main/Pages/live cần đối chiếu lượt Actions đúng HEAD; xác minh live sẽ được ghi riêng sau phát hành.
