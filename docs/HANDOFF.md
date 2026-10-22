@@ -2,13 +2,15 @@
 
 Nguồn chính: bohoa96tb/hazi-viet; biên soạn content/vocabulary-2224, phát hành main. Đọc AGENTS.md, PROMPT_TIEP_QUAN_DU_AN_2224.md, CONTENT_STANDARD.md, CONTENT_SCHEMA_V2.md, progress.json và baseline tại HEAD mới nhất. Quyền người dùng cho phép cập nhật main và triển khai sau kiểm tra; không hỏi lại thường lệ, không force-push.
 
-## Trạng thái đợt 005
+## Trạng thái đợt 006
 
-12 mục baseline 49–60: 回、帮、打、找、电、等、话、请、问、不用、回答、多少. Đã đọc lại xác minh GitHub: 60/2.224, còn 2.164; toàn khóa 70/2.234 bài đầy đủ, gồm 10 bài ngoài baseline. Lấy số chính thức từ progress tại HEAD, không dựa số trong tài liệu này.
+12 mục baseline 61–72: 帮忙、怎么、手机、电话、说话、请进、请问、奶、树、歌、毛、水. Đã chuẩn bị đủ dữ liệu cho 72/2.224, còn 2.152; toàn khóa 82/2.234 bài đầy đủ. Chỉ ghi nhận chính thức sau khi đọc lại GitHub; số tại progress/HEAD là nguồn chính.
 
-Đợt kế tiếp bắt đầu 帮忙 (ordinal 61), rồi 怎么、手机、电话、说话、请进、请问、奶、树、歌、毛、水; đối chiếu lại baseline trước khi làm.
+Đợt kế tiếp bắt đầu 洗 (ordinal 73), rồi 热、爱、球、白、笑、肉、花、茶、菜、雨、风. Đối chiếu lại baseline trước khi làm; sourceIndex của 洗 không phải ordinal 73.
 
-V2 đã có audit, renderer, audio riêng, hai câu mẫu gắn khung; 2–4 bài mở tách lời giải và hai tình huống tự dùng có ba mức gợi ý. Bộ nạp dispatch theo lesson.version. Bài V1 giữ nguyên nội dung/hash; không chuyển cả 48 bài. Bản giới thiệu 不用 mới ghi thanh gốc bù yòng; lời giảng phân biệt biến điệu. Đây là mục mới hoàn thiện, không phải tính lại bài cũ.
+Batch-006 theo V2: 24 ví dụ chính, 20 nhóm bẫy, 34 câu luyện, 24 tình huống tự dùng. 帮忙 có ví dụ tách 帮我一个忙 với targetParts; sửa nghĩa giới thiệu 请进 để bỏ dấu ngoặc kép thừa của thẻ tra cứu. Không biên tập lại record đã hoàn thiện. 70 record đầy đủ trước batch-006 giữ nguyên nội dung/hash.
+
+Hỗ trợ V2 từ batch-005 giữ nguyên. Đợt này chỉ làm kiểm thử DOM lấy bài mới nhất và dữ liệu mẫu động thay vì cố định bài 回 số 49; vẫn kiểm hồi quy 不用 và một bài V1. Verify đối chiếu cohortOrdinal với baseline và đồng nhất examples ở cấp word/lesson.
 
 ## Kiểm thử và phát hành
 
@@ -22,3 +24,4 @@ V2 đã có audit, renderer, audio riêng, hai câu mẫu gắn khung; 2–4 bà
 Chưa phản biện giáo viên độc lập. Đã kiểm bố cục đại diện desktop và tương tác V2 trên website thật. Chưa kiểm bố cục mobile, TTS hay phát nền Android trên thiết bị thật. Môi trường ban đầu mất kết nối trình duyệt/Chromium; sau đó đã khôi phục trình duyệt và kiểm đại diện live. Bộ test-dom vẫn là mô phỏng; không đồng nhất với kiểm thử thiết bị. Nếu HTTP Pages bị hạn chế truy cập, ghi nhận đúng trạng thái; không quy lỗi cache điện thoại.
 
 Lần tiếp quản này khôi phục dữ liệu lớn qua fetch_blob của kết nối GitHub khi clone/HTTP gián đoạn. Local snapshot chỉ phục vụ kiểm thử; commit gửi GitHub phải dùng tree/parent SHA thật từ GitHub, không dùng lịch sử snapshot local để cập nhật nhánh.
+

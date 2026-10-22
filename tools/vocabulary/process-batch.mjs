@@ -33,7 +33,7 @@ function assertProgress(b,p){
  assert.equal(p.lastCompletedOrdinal,p.completedCount);
  assert.deepEqual(p.nextIds,b.orderedIds.slice(p.completedCount,p.completedCount+12));
  for(const id of b.initialCompleteIds){assert(auditLesson(byId.get(id)).ready);assert.equal(digest(byId.get(id)),b.protectedDigests[id],'Previously complete word changed: '+id);}
- for(const id of p.completedIds){assert(auditLesson(byId.get(id)).ready);assert.equal(digest(byId.get(id)),p.completedDigests[id],'Completed word changed: '+id);}
+ for(const id of p.completedIds){const w=byId.get(id);assert(auditLesson(w).ready);assert.equal(digest(w),p.completedDigests[id],'Completed word changed: '+id);if(w.lesson.version===2)assert.equal(w.lesson.cohortOrdinal,b.orderedIds.indexOf(id)+1,'V2 baseline ordinal mismatch: '+id);assert.deepEqual(w.examples,w.lesson.examples,'Word/lesson examples differ: '+id);}
  for(const id of b.orderedIds.slice(p.completedCount))assert.equal(auditLesson(byId.get(id)).ready,false,'Untracked complete record: '+id);
  const actual=data.words.filter(w=>auditLesson(w).ready).length;
  assert.equal(actual,b.initialCompleteIds.length+p.completedCount);

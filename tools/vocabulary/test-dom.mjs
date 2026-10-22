@@ -1,9 +1,11 @@
 // Optional DOM integration: npm install --prefix /tmp/hazi-test-env happy-dom
 // HAPPY_DOM_MODULE may point to an existing installation. No production dependency.
-import fs from 'node:fs';import assert from 'node:assert/strict';import {pathToFileURL} from 'node:url';
+import fs from 'node:fs';import assert from 'node:assert/strict';
 const {Window}=await import(process.env.HAPPY_DOM_MODULE||'/tmp/hazi-test-env/node_modules/happy-dom/lib/index.js');
 const root=new URL('../..',import.meta.url),read=p=>fs.readFileSync(new URL(p,root),'utf8');
 const d=JSON.parse(read('data/vocabulary/hanzii-course.json')),p=JSON.parse(read('progress.json'));
+const sample=d.words.find(w=>w.id===p.batches.at(-1).wordIds[0]);
+const sampleAnswer=sample.lesson.answers.q1.accepted[0], selfTranslation=sample.lesson.selfAnswers.s1.vi;
 const window=new Window({url:'https://bohoa96tb.github.io/hazi-viet/vocabulary.html?word='+p.batches.at(-1).wordIds[0]});
 window.document.write(read('vocabulary.html').replace(/<script[^>]*>[\s\S]*?<\/script>/g,''));
 for(const name of ['window','document','location','navigator','URL','Blob'])Object.defineProperty(globalThis,name,{value:name==='window'?window:window[name],configurable:true});
@@ -11,12 +13,12 @@ const speech=[];window.speechSynthesis={getVoices:()=>[],addEventListener(){},ca
 globalThis.fetch=async url=>({ok:true,json:async()=>structuredClone(d)});
 await import(new URL('../../js/vocabulary.js?dom-test',import.meta.url));await new Promise(r=>setTimeout(r,20));
 const $=s=>document.querySelector(s),click=s=>{assert($(s),'Missing '+s);$(s).click()},body=()=>$('#lessonBody').textContent;
-assert($('#wordDialog').open);assert(body().includes('Chuẩn V2'));assert(body().includes('[Từ số 49]'));
+assert($('#wordDialog').open);assert(body().includes('Chuẩn V2'));assert(body().includes('[Từ số '+sample.lesson.cohortOrdinal+']'));
 click('[data-step="1"]');assert.equal(document.querySelectorAll('.standard-example').length,2);assert(!document.querySelector('[data-lesson-view]'));
-click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,d.words.find(w=>w.id===p.batches.at(-1).wordIds[0]).examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
+click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,sample.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
 click('[data-step="3"]');assert(!document.querySelector('.feedback'));assert(!document.querySelector('[data-v2-hint]'));
-const input=$('[data-v2-draft="q1"]');input.value='我六点回家。';input.dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-reveal-check="q1"]');assert(body().includes('Đáp án tham khảo'));assert.equal($('[data-v2-draft="q1"]').value,'我六点回家。');
-click('[data-v2-unlock]');assert(!body().includes('Tôi về nhà lúc bảy giờ.'));click('[data-v2-hint="s1"]');assert(!body().includes('Tôi về nhà lúc bảy giờ.'));click('[data-v2-hint="s1"]');assert(!body().includes('Tôi về nhà lúc bảy giờ.'));click('[data-v2-hint="s1"]');assert(body().includes('Tôi về nhà lúc bảy giờ.'));
+const input=$('[data-v2-draft="q1"]');input.value=sampleAnswer;input.dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-reveal-check="q1"]');assert(body().includes('Đáp án tham khảo'));assert.equal($('[data-v2-draft="q1"]').value,sampleAnswer);
+click('[data-v2-unlock]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(body().includes(selfTranslation));
 click('[data-step="4"]');click('[data-action="revealReview"]');assert(document.querySelector('[data-grade="good"]'));
 // Favorite and progress storage still operate; no grade is automatically assigned.
 click('[data-action="favorite"]');assert.equal($('[data-action="favorite"]').getAttribute('aria-pressed'),'true');

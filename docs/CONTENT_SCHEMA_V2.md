@@ -27,6 +27,8 @@ node tools/vocabulary/test-dom.mjs
 
 Lệnh DOM cần Happy DOM: `npm install --prefix /tmp/hazi-test-env happy-dom --no-audit --no-fund`; hoặc đặt `HAPPY_DOM_MODULE` tới file module có sẵn. Đây là phụ thuộc kiểm thử tùy chọn, không thêm vào website. Verify chính không cần npm.
 
+Từ batch-006, verify còn đối chiếu cohortOrdinal với baseline và examples ở word/lesson; DOM test tự lấy bài mới nhất, giữ hồi quy V1/不用.
+
 Verify V1 giữ nguyên tiêu chí cũ. Verify V2 kiểm tra hai ví dụ, hash, liên kết, ẩn lời giải/gợi ý khỏi HTML, tách câu hỏi/audio lời giải, loại Pinyin/Markdown khỏi TTS, câu sai giả lập phải cảnh báo và sửa, mẫu sai cấu trúc dữ liệu phải bị từ chối. DOM chạy entry point thật với API giọng giả lập để kiểm tra sự kiện và trạng thái; không chứng nhận bố cục trực quan hay TTS thiết bị.
 
 ## Phát hành
