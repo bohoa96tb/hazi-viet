@@ -41,7 +41,13 @@ Bài V2 dùng đúng hai câu chính mỗi mục. Đã sửa fixture trong `tool
 
 ## Trạng thái đợt batch-016
 
-Đang chuẩn bị đúng 12 mục baseline 181–192: 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用. Source course và nội dung V2 qua auditV2 12/12, validateCourse cho 2.234 từ, 36 render stage và audio/immersion checks. Nội dung đã lên main tại a1e41dca6d9061ab466bd33e840ffd7e3bba90a4; Pages run 39859720367 thành công. Live course JSON đã có dữ liệu đúng; app UI còn cache tag cũ nên đang bump sang batch-016-fix1 trước khi xác minh 12 route.
+Đã hoàn tất baseline 181–192: 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用. Tiến độ: 192/2.224, còn 2.032; tổng khóa đủ cấu trúc 202/2.234.
+
+- Commit nội dung: [a1e41dca6d9061ab466bd33e840ffd7e3bba90a4](https://github.com/bohoa96tb/hazi-viet/commit/a1e41dca6d9061ab466bd33e840ffd7e3bba90a4); nhánh biên soạn và main đã fast-forward.
+- Pages build [39860241131](https://github.com/bohoa96tb/hazi-viet/actions/runs/39860241131) thành công trên commit cache 099856dac0399631d26c24d209332914a5eb7d40; app tải `batch-016-fix1`.
+- Live UI đã mở đủ 12/12 route đúng ordinal và sourceIndex: 181/161, 182/162, 183/164, 184/166, 185/168, 186/169, 187/170, 188/173, 189/174, 190/175, 191/176, 192/177. Tất cả bài có chuẩn V2, hai câu mẫu/audio; bài luyện giữ đáp án đóng đến thao tác mở. Khung thứ hai của 还 khớp câu ví dụ.
+- `auditV2` 12/12, `validateCourse` 2.234 từ, 36 lượt render, 12 bài audio và playlist immersion đã đạt. Hash 180 mục cũ cùng 10 mục bảo vệ không đổi; course source SHA256 `4bca2857e543a9d74bfe8f29613a27520c7b9a42ccc242ae16cf2c2dc8d5b58e`.
+- Chưa xác nhận TTS/phát nền Android hoặc phản biện giáo viên độc lập; `test-dom.mjs` không chạy vì thiếu `happy-dom`.
 
 ## Đợt tiếp theo sau batch-016
 

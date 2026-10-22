@@ -38,4 +38,4 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 喝 · hz-h1-ea87e2f5091f · sourceIndex 189
 - 渴 · hz-h1-b11a9f950493 · sourceIndex 190
 
-Batch-015 đã phát hành sang main tại 85a590fc47ddce64f41616875d3db33cac0c27c6; GitHub Pages run 39796683993 thành công. Đợt 016 đang chờ commit và kiểm chứng Pages.
+Batch-015 đã phát hành sang main tại 85a590fc47ddce64f41616875d3db33cac0c27c6; GitHub Pages run 39796683993 thành công. Batch-016 đã phát hành và xác minh: commit nội dung a1e41dca6d9061ab466bd33e840ffd7e3bba90a4; Pages run 39860241131 thành công trên commit cache 099856dac0399631d26c24d209332914a5eb7d40; đã kiểm đủ 12/12 route live với ordinal, sourceIndex và chuẩn V2.

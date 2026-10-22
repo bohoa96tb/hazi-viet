@@ -1,10 +1,13 @@
 # Phát hành batch-016
 
-Đợt 181–192: 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用. Tiến độ dự kiến sau batch: 192/2.224; còn 2.032; toàn khóa đủ cấu trúc 202/2.234.
+Đợt baseline 181–192: 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用. Tiến độ: 192/2.224; còn 2.032; toàn khóa đủ cấu trúc 202/2.234.
 
-- Nội dung đã qua auditV2 (12/12), validateCourse (2.234 từ), 36 lượt render ba màn cho từng bài, 12 bài kiểm tra audio và playlist immersion.
-- Course source SHA256: `4bca2857e543a9d74bfe8f29613a27520c7b9a42ccc242ae16cf2c2dc8d5b58e`. Commit, Pages và live routes chưa xác minh.
-- Chưa kiểm TTS/phát nền Android hoặc phản biện giáo viên độc lập.
+- Commit nội dung [a1e41dca6d9061ab466bd33e840ffd7e3bba90a4](https://github.com/bohoa96tb/hazi-viet/commit/a1e41dca6d9061ab466bd33e840ffd7e3bba90a4); main đã fast-forward.
+- [GitHub Pages run 39860241131](https://github.com/bohoa96tb/hazi-viet/actions/runs/39860241131) thành công trên commit cache 099856dac0399631d26c24d209332914a5eb7d40. Cache HTML/JS dùng tag `batch-016-fix1`.
+- Đã kiểm đủ 12/12 route live đúng ordinal/sourceIndex. Mỗi bài hiện BÀI HỌC ĐẦY ĐỦ, chuẩn V2, hai câu mẫu/audio và hai đề luyện không lộ đáp án trước thao tác; đã xác nhận khung thứ hai của 还 khớp ví dụ.
+- `auditV2` 12/12, `validateCourse` trên 2.234 từ, 36 màn renderer và 12 bài audio đạt. Hash 180 bài cũ và 10 bài bảo vệ khớp. Course source SHA256: `4bca2857e543a9d74bfe8f29613a27520c7b9a42ccc242ae16cf2c2dc8d5b58e`.
+- Chưa xác nhận TTS/phát nền Android hoặc phản biện giáo viên độc lập; `test-dom.mjs` không chạy vì thiếu `happy-dom`.
+
 
 ---
 
