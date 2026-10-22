@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 156/2224. Còn: 2068. Toàn khóa đủ cấu trúc: 166/2234.
+Đã bổ sung: 168/2224. Còn: 2056. Toàn khóa đủ cấu trúc: 178/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -19,20 +19,21 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-011 · mục 121–132 · 考、试、上学、上班、上网、上课、准备、动作、学习、工作、干什么、开会
 - batch-012 · mục 133–144 · 打球、爱好、考试、请假、包、吧、杯、门、东西、书店、医院、商场
 - batch-013 · mục 145–156 · 商店、图书馆、杯子、洗手间、电影、电影院、电脑、电视、电视机、看病、衣服、身体
+- batch-014 · mục 157–168 · 钱包、门口、饭店、五、哥、妈、妹、姐、子、常、弟、手
 
 ## 12 mục tiếp theo
 
-- 钱包 · hz-h1-34aafee369e2
-- 门口 · hz-h1-0805a6c09153
-- 饭店 · hz-h1-ef31f355e932
-- 五 · hz-h1-c58043df4129
-- 哥 · hz-h1-43b962b28aa2
-- 妈 · hz-h1-25ecc5e45335
-- 妹 · hz-h1-561f52bdae37
-- 姐 · hz-h1-c0d309a81ef0
-- 子 · hz-h1-493e53d9f377
-- 常 · hz-h1-dde09af2dcad
-- 弟 · hz-h1-8f7ea4b9e98c
-- 手 · hz-h1-06194eab2ffe
+- 爸 · hz-h1-f11409a4c688
+- 儿子 · hz-h1-d9629d68254a
+- 哥哥 · hz-h1-079686d86ab4
+- 女儿 · hz-h1-c88d3bcef8b6
+- 女朋友 · hz-h1-7567d7604868
+- 妈妈 · hz-h1-048cf67d79cd
+- 妹妹 · hz-h1-b78f99866010
+- 姐姐 · hz-h1-2b1dac7c586f
+- 家人 · hz-h1-0cab89fe1634
+- 小姐 · hz-h1-e07066fa7728
+- 弟弟 · hz-h1-289012dc14bb
+- 爷爷 · hz-h1-d11fb38916bc
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.

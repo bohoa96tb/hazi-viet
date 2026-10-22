@@ -34,20 +34,24 @@ Bài V2 dùng đúng hai câu chính mỗi mục. Đã sửa fixture trong `tool
 - Pages run [39754129731](https://github.com/bohoa96tb/hazi-viet/actions/runs/39754129731) thành công trên đúng commit nội dung. Dữ liệu live tải 2.863.798 byte, SHA256 `b302ae8d657ec03fb4eba70ddc373463c57d175af034c4dbe0f0364c55d4c296`, có đủ 2.234 từ, 118 bài đủ cấu trúc và 12 bài mới phiên bản 2.
 - Trình duyệt desktop live mở 少 ordinal 97/sourceIndex 76: thấy hai câu chính; hai bẫy phân biệt lượng với kích thước và cách đọc trong 少年; đáp án E ẩn trước thao tác. Chưa kiểm Android TTS/phát nền hoặc phản biện giáo viên độc lập.
 
+
+## Trạng thái đợt batch-014
+
+Đã biên soạn baseline ordinal 157–168: 钱包、门口、饭店、五、哥、妈、妹、姐、子、常、弟、手. Tiến độ sau batch: 168/2224; còn 2056; toàn khóa 178/2234 mục đủ cấu trúc. Nội dung V2 gồm hai ví dụ chính, bẫy theo ngữ cảnh, hai câu luyện có đáp án riêng và hai tình huống tự dùng. Đã tự rà và đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa có phản biện giáo viên độc lập.
+
+Phát hành Pages và kiểm tra live cần xác nhận sau khi commit. Chưa kiểm audio trên thiết bị Android.
+
 ## Đợt tiếp theo
 
-Bắt đầu đúng baseline ordinal 109:
-1. 难 (hz-h1-9751baafc5b0, sourceIndex 88)
-2. 高 (hz-h1-bee90b36dafe, sourceIndex 89)
-3. 不大 (hz-h1-777cecc20605, sourceIndex 90)
-4. 不对 (hz-h1-55ece8459abc, sourceIndex 91)
-5. 重要 (hz-h1-a2d895dabe7b, sourceIndex 92)
-6. 做 (hz-h1-c698571f3769, sourceIndex 93)
-7. 动 (hz-h1-109ce02573bf, sourceIndex 94)
-8. 学 (hz-h1-972fee5ddec8, sourceIndex 95)
-9. 干 (hz-h1-692026ac0c4d, sourceIndex 96)
-10. 忙 (hz-h1-0bc0aea3e47a, sourceIndex 97)
-11. 用 (hz-h1-fa344d8ea348, sourceIndex 98)
-12. 看 (hz-h1-a0227b47e71a, sourceIndex 99)
-
-Trạng thái phát hành: docs/RELEASE.md và data/vocabulary/release.json. Luôn đọc lại HEAD/baseline/progress/hash GitHub trước đợt tiếp theo.
+1. 爸 (hz-h1-f11409a4c688, sourceIndex 148)
+2. 儿子 (hz-h1-d9629d68254a, sourceIndex 149)
+3. 哥哥 (hz-h1-079686d86ab4, sourceIndex 151)
+4. 女儿 (hz-h1-c88d3bcef8b6, sourceIndex 152)
+5. 女朋友 (hz-h1-7567d7604868, sourceIndex 153)
+6. 妈妈 (hz-h1-048cf67d79cd, sourceIndex 154)
+7. 妹妹 (hz-h1-b78f99866010, sourceIndex 155)
+8. 姐姐 (hz-h1-2b1dac7c586f, sourceIndex 156)
+9. 家人 (hz-h1-0cab89fe1634, sourceIndex 157)
+10. 小姐 (hz-h1-e07066fa7728, sourceIndex 158)
+11. 弟弟 (hz-h1-289012dc14bb, sourceIndex 159)
+12. 爷爷 (hz-h1-d11fb38916bc, sourceIndex 160)

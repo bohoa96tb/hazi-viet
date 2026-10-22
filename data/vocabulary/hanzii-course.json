@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 166 mục đủ cấu trúc V1/V2; còn 2068. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 156 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 178 mục đủ cấu trúc V1/V2; còn 2056. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 168 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -41136,16 +41136,186 @@
           "meaning": "ví"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我的钱包在桌子上。",
+          "vi": "Ví của tôi ở trên bàn.",
+          "analysis": "在桌子上 nêu vị trí của 钱包.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "出门前，我会检查钱包和手机。",
+          "vi": "Trước khi ra ngoài, tôi kiểm tra ví và điện thoại.",
+          "analysis": "钱包 đứng cùng 手机 trong danh sách đồ cần mang.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-34aafee369e2",
       "hanzi": "钱包",
       "level": 1,
       "sourceIndex": 136,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-014",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=101083&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 157,
+        "introduction": {
+          "scope": "钱包 là vật nhỏ dùng đựng tiền, thẻ hoặc giấy tờ; nghĩa của cả từ là “ví”, không dịch riêng từng chữ."
+        },
+        "meaning": {
+          "scene": "Bạn chuẩn bị ra ngoài và kiểm tra đã mang ví theo chưa.",
+          "explanation": "钱包 là cái ví. Thường đếm bằng 一个钱包; nói thứ ở bên trong dùng 钱包里有……",
+          "boundary": "钱包 là cái ví; 钱 là tiền. 包 hoặc 袋子 có thể là loại túi khác.",
+          "conditions": [
+            "Một chiếc ví: 一个钱包",
+            "Tiền trong ví: 钱包里有钱"
+          ],
+          "takeaway": "钱包 là ví; 钱 là tiền; 包 là túi nói chung."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我的钱包在桌子上。",
+            "vi": "Ví của tôi ở trên bàn.",
+            "analysis": "在桌子上 nêu vị trí của 钱包.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "出门前，我会检查钱包和手机。",
+            "vi": "Trước khi ra ngoài, tôi kiểm tra ví và điện thoại.",
+            "analysis": "钱包 đứng cùng 手机 trong danh sách đồ cần mang.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一个 + 钱包",
+            "position": "个 đứng giữa số và danh từ.",
+            "required": "Dùng 个 khi đếm một chiếc ví.",
+            "omission": "Bỏ số lượng khi ví đã được xác định.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "钱包 + 里 + 有 + đồ vật",
+            "position": "里 đứng sau 钱包 để chỉ bên trong.",
+            "required": "Dùng 里 khi nhấn mạnh vị trí bên trong.",
+            "omission": "Có thể lược 里 khi chỉ liệt kê nội dung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "钱包 là ví; 钱 là tiền",
+            "scene": "Bạn nói về vật mang theo hay số tiền mình có.",
+            "possibleConfusion": "Hai từ cùng có 钱 nên dễ bị dùng lẫn.",
+            "difference": "钱包 gọi chiếc ví; 钱 gọi tiền.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我的钱包不见了。",
+                "vi": "Ví của tôi bị mất rồi.",
+                "comment": "Câu nói vật đựng tiền bị mất.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我的钱不多。",
+                "vi": "Tiền của tôi không nhiều.",
+                "comment": "Câu nói về số tiền.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 钱包 bằng 钱 sẽ đổi ý từ chiếc ví sang tiền."
+            },
+            "boundary": "包 chỉ túi nói chung; 钱包 chỉ ví đựng tiền/thẻ.",
+            "tip": "Vật đựng tiền: 钱包. Số tiền: 钱."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói ví của bạn ở trên bàn."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "钱和钱包 khác nhau thế nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我的钱包在桌子上。",
+              "钱包在桌子上。"
+            ],
+            "explanation": "Có thể bỏ 我的 nếu ngữ cảnh đã rõ."
+          },
+          "q2": {
+            "accepted": [
+              "钱 là tiền; 钱包 là cái ví."
+            ],
+            "explanation": "Ví có thể chứa tiền nhưng không phải là tiền."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn để ví vào túi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn kiểm tra ví và điện thoại trước khi ra ngoài."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đồ được cất vào túi.",
+            "frame": "我把……放进……里。",
+            "model": "我把钱包放进包里。",
+            "vi": "Tôi bỏ ví vào trong túi.",
+            "criteria": [
+              "钱包 là đồ được cất.",
+              "包 là túi đựng."
+            ]
+          },
+          "s2": {
+            "idea": "Thói quen kiểm tra hai món.",
+            "frame": "出门前，我会检查……和……。",
+            "model": "出门前，我会检查钱包和手机。",
+            "vi": "Trước khi ra ngoài, tôi kiểm tra ví và điện thoại.",
+            "criteria": [
+              "Dùng 钱包 chỉ cái ví.",
+              "Nêu hai món được kiểm tra."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-0805a6c09153",
@@ -41154,17 +41324,187 @@
       "intro": [
         {
           "pinyin": "ménkǒu",
-          "meaning": "cửa ra vào"
+          "meaning": "cửa ra vào; lối vào"
         }
       ],
-      "meaning": "cửa ra vào",
-      "status": "catalog",
+      "meaning": "cửa ra vào; lối vào",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-014",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我在学校门口等你。",
+          "vi": "Tôi đợi bạn ở cổng trường.",
+          "analysis": "学校门口 là vị trí chờ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请把鞋放在门口。",
+          "vi": "Hãy để giày ở cửa ra vào.",
+          "analysis": "门口 là nơi đặt giày, không phải trên cánh cửa.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 137,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=30168&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 158,
+        "introduction": {
+          "scope": "门口 là vị trí ngay chỗ cửa ra vào, thường làm cụm chỉ nơi người hoặc vật đang ở."
+        },
+        "meaning": {
+          "scene": "Bạn hẹn người thân đợi ở lối vào nhà.",
+          "explanation": "门口 chỉ chỗ ngay cửa ra vào. Nói đợi ở đó dùng 在门口等。",
+          "boundary": "门 là cánh cửa; 门口 là khu vực lối ra vào. 门前 nhấn mạnh phía trước cửa và có thể rộng hơn.",
+          "conditions": [
+            "Đợi ở cửa: 在门口等",
+            "Cửa nhà: 家门口"
+          ],
+          "takeaway": "Nói vị trí ngay lối vào dùng 门口; nói cánh cửa dùng 门."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我在学校门口等你。",
+            "vi": "Tôi đợi bạn ở cổng trường.",
+            "analysis": "学校门口 là vị trí chờ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请把鞋放在门口。",
+            "vi": "Hãy để giày ở cửa ra vào.",
+            "analysis": "门口 là nơi đặt giày, không phải trên cánh cửa.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + địa điểm + 门口 + hành động",
+            "position": "Địa điểm đứng trước 门口; hành động đứng sau.",
+            "required": "Thêm địa điểm khi cần nói cửa nào.",
+            "omission": "Bỏ địa điểm nếu đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "把 + đồ物 + 放在 + 门口",
+            "position": "门口 đứng sau 在 để nêu nơi đặt.",
+            "required": "Dùng 放在 để nói vị trí vật được đặt.",
+            "omission": "Bỏ 门口 nếu nơi đó đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "门口 là lối vào; 门 là cánh cửa",
+            "scene": "Bạn nói đang đợi ở lối vào hay nói đến cánh cửa.",
+            "possibleConfusion": "Tiếng Việt có thể dùng “cửa” cho cả hai.",
+            "difference": "门 gọi cánh cửa; 门口 gọi nơi ra vào.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我在门口等你。",
+                "vi": "Tôi đợi bạn ở cửa ra vào.",
+                "comment": "门口 chỉ nơi chờ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这扇门很重。",
+                "vi": "Cánh cửa này rất nặng.",
+                "comment": "门 là vật có thể đóng/mở.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Trong câu đợi, thay 门口 bằng 门 làm mất nghĩa địa điểm; 在门等你 không tự nhiên ở đây."
+            },
+            "boundary": "门口 ở lối ra vào; 门前 chỉ phía trước cửa.",
+            "tip": "Đợi ở lối vào: 门口. Cánh cửa: 门."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "门口 có hai thanh ba liền nhau; thanh ba đầu thường biến điệu gần thanh hai trước thanh ba kế tiếp. Đọc gọn, không nhấn cả hai thanh ba đầy đủ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói bạn đợi ở cửa nhà."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "门 và 门口 khác nhau thế nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我在家门口等人。",
+              "我在家门口等你。"
+            ],
+            "explanation": "家门口 là lối vào nhà."
+          },
+          "q2": {
+            "accepted": [
+              "门 là cánh cửa; 门口 là khu vực ngay lối ra vào."
+            ],
+            "explanation": "门口 thường làm cụm chỉ địa điểm."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn đợi bạn ở cửa nhà."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhờ người nhà để giày ở cửa."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Địa điểm chờ ngay lối vào nhà.",
+            "frame": "我在……门口等你。",
+            "model": "我在家门口等你。",
+            "vi": "Tôi đợi bạn ở cửa nhà.",
+            "criteria": [
+              "Dùng 在 để nêu nơi chờ.",
+              "Dùng 门口 cho lối vào."
+            ]
+          },
+          "s2": {
+            "idea": "Đặt giày tại lối vào.",
+            "frame": "请把……放在门口。",
+            "model": "请把鞋放在门口。",
+            "vi": "Hãy để giày ở cửa ra vào.",
+            "criteria": [
+              "Dùng 把 để nêu vật được di chuyển.",
+              "门口 đứng sau 在."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-ef31f355e932",
@@ -41173,22 +41513,188 @@
       "intro": [
         {
           "pinyin": "fàndiàn",
-          "meaning": "nhà hàng"
+          "meaning": "nhà hàng; quán ăn"
         }
       ],
-      "meaning": "nhà hàng",
-      "status": "example",
+      "meaning": "nhà hàng; quán ăn",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-014",
       "examples": [
         {
-          "zh": "我们去那家饭店吃饭。",
-          "vi": "Chúng ta đến nhà hàng kia ăn cơm."
+          "id": "e1",
+          "zh": "我们晚上去饭店吃饭。",
+          "vi": "Tối nay chúng tôi đến nhà hàng ăn cơm.",
+          "analysis": "去饭店 nêu nơi đến; 吃饭 nêu mục đích.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这家饭店的菜很好吃。",
+          "vi": "Món ăn ở nhà hàng này rất ngon.",
+          "analysis": "家 là lượng từ dùng cho cơ sở kinh doanh.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 138,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=35274&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 159,
+        "introduction": {
+          "scope": "Trong nhiều ngữ cảnh HSK/đại lục, 饭店 là nơi bán thức ăn; một số vùng/từ điển cũng dùng cho nơi có chỗ ở."
+        },
+        "meaning": {
+          "scene": "Bạn rủ người nhà đến một nơi ăn uống.",
+          "explanation": "饭店 thường chỉ nhà hàng khi câu nói về ăn uống: 去饭店吃饭. Một số vùng dùng từ này rộng hơn cho nơi lưu trú.",
+          "boundary": "饭店 và 饭馆 có thể cùng chỉ nơi ăn; 酒店/宾馆 thường rõ hơn khi muốn nói khách sạn trong cách dùng đại lục.",
+          "conditions": [
+            "Đi ăn: 去饭店吃饭",
+            "Một nhà hàng: 一家饭店",
+            "Khách sạn ở đại lục: 酒店/宾馆"
+          ],
+          "takeaway": "Ngữ cảnh ăn uống thường cho biết 饭店 là nhà hàng; nghĩa lưu trú tùy vùng."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们晚上去饭店吃饭。",
+            "vi": "Tối nay chúng tôi đến nhà hàng ăn cơm.",
+            "analysis": "去饭店 nêu nơi đến; 吃饭 nêu mục đích.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这家饭店的菜很好吃。",
+            "vi": "Món ăn ở nhà hàng này rất ngon.",
+            "analysis": "家 là lượng từ dùng cho cơ sở kinh doanh.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去 + 饭店 + 吃饭",
+            "position": "饭店 đứng sau 去 để nêu nơi đến.",
+            "required": "Dùng khi kể đi ăn ở nhà hàng.",
+            "omission": "Bỏ địa điểm nếu chỉ cần nói đi ăn.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "这/那 + 家 + 饭店",
+            "position": "家 đứng giữa từ chỉ định và 饭店.",
+            "required": "Dùng 家 để đếm cơ sở kinh doanh.",
+            "omission": "Bỏ 这家/那家 nếu không xác định nơi nào.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "饭店 đổi nghĩa theo vùng; 饭馆 gần nghĩa nơi ăn",
+            "scene": "Bạn nói chỗ ăn ở đại lục hay đọc tài liệu vùng khác.",
+            "possibleConfusion": "Người học có thể nghĩ 饭店 luôn là nhà hàng hoặc khách sạn.",
+            "difference": "Có 吃饭/菜 thì 饭店 thường là nhà hàng; một số vùng dùng rộng cho nơi lưu trú.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们去饭店吃饭。",
+                "vi": "Chúng tôi đến nhà hàng ăn cơm.",
+                "comment": "吃饭 làm rõ nghĩa nơi ăn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这家饭馆离我家很近。",
+                "vi": "Nhà hàng này gần nhà tôi.",
+                "comment": "饭馆 là cách gọi gần nghĩa nơi ăn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Trong ngữ cảnh ăn uống, 饭馆 thường thay được 饭店; khi nói chỗ ngủ cần xét vùng và cách dùng 酒店/宾馆."
+            },
+            "boundary": "Từ điển Bộ Giáo dục ghi 饭店 có thể bán thức ăn hoặc cung cấp chỗ ở; xem tình huống đi cùng.",
+            "tip": "Có 吃饭/菜: nơi ăn; nói chỗ ở: xem vùng và ngữ cảnh."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói tối nay bạn đến nhà hàng ăn cơm."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong 这家饭店的菜很好吃, điều gì cho biết đây là nhà hàng?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我晚上去饭店吃饭。",
+              "我们晚上去饭店吃饭。"
+            ],
+            "explanation": "去饭店吃饭 làm rõ là nơi ăn uống."
+          },
+          "q2": {
+            "accepted": [
+              "菜很好吃 nói về món ăn nên chỉ nơi ăn uống."
+            ],
+            "explanation": "Ngữ cảnh 菜 và 好吃 giúp chọn nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Rủ người nhà tối nay đi ăn ở nhà hàng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói nhà hàng bạn thích có món ngon."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu thời gian và nơi ăn.",
+            "frame": "我们……去饭店吃饭。",
+            "model": "我们晚上去饭店吃饭。",
+            "vi": "Tối nay chúng ta đến nhà hàng ăn.",
+            "criteria": [
+              "饭店 là nơi ăn.",
+              "Thêm 吃饭 để rõ ngữ cảnh."
+            ]
+          },
+          "s2": {
+            "idea": "Mô tả món ăn ở nhà hàng cụ thể.",
+            "frame": "我喜欢的饭店，菜……。",
+            "model": "我喜欢的饭店，菜很好吃。",
+            "vi": "Nhà hàng tôi thích có món ăn ngon.",
+            "criteria": [
+              "Dùng 饭店 chỉ nhà hàng.",
+              "菜很好吃 nói về món ăn."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-c58043df4129",
@@ -41201,37 +41707,373 @@
         }
       ],
       "meaning": "năm",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-014",
       "examples": [
         {
-          "zh": "这个苹果五元。",
-          "vi": "Quả táo này giá năm nhân dân tệ."
+          "id": "e1",
+          "zh": "我有五本中文书。",
+          "vi": "Tôi có năm quyển sách tiếng Trung.",
+          "analysis": "五 đứng trước lượng từ 本.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "今天是五月五号。",
+          "vi": "Hôm nay là ngày 5 tháng 5.",
+          "analysis": "五 đứng trước 月 và 号.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 139,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/search.jsp?la=0&word=%E4%BA%94"
+        ],
+        "cohortOrdinal": 160,
+        "introduction": {
+          "scope": "五 là số đếm 5, trả lời “bao nhiêu”; 第五 nói thứ tự “thứ năm”."
+        },
+        "meaning": {
+          "scene": "Bạn đếm đồ vật hoặc nói ngày tháng.",
+          "explanation": "五 là số 5. Đặt trước lượng từ khi đếm như 五本书; thêm 第 trước số để nói vị trí thứ năm.",
+          "boundary": "五 chỉ số lượng; 第五 chỉ thứ tự. Đơn vị như giờ, ngày hoặc đồ vật thay đổi theo câu.",
+          "conditions": [
+            "Năm quyển sách: 五本书",
+            "Năm người: 五个人",
+            "Người thứ năm: 第五个人"
+          ],
+          "takeaway": "Đếm số lượng dùng 五; thứ tự thứ năm dùng 第五."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我有五本中文书。",
+            "vi": "Tôi có năm quyển sách tiếng Trung.",
+            "analysis": "五 đứng trước lượng từ 本.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "今天是五月五号。",
+            "vi": "Hôm nay là ngày 5 tháng 5.",
+            "analysis": "五 đứng trước 月 và 号.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "五 + lượng từ + danh từ",
+            "position": "五 đứng trước lượng từ; danh từ theo sau.",
+            "required": "Chọn lượng từ theo danh từ, như 本 cho sách.",
+            "omission": "Không dùng 个 cho tất cả danh từ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "五 + đơn vị",
+            "position": "五 đứng trước đơn vị thời gian/số đếm.",
+            "required": "Thêm 月 hoặc 号 khi nói tháng/ngày.",
+            "omission": "Có thể nói riêng 五 khi đơn vị đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "五 chỉ số lượng; 第五 chỉ thứ tự",
+            "scene": "Bạn đếm có bao nhiêu hay nói đứng thứ mấy.",
+            "possibleConfusion": "Cả hai dịch gần với “năm” nhưng khác chức năng.",
+            "difference": "五 trả lời bao nhiêu; 第五 trả lời thứ mấy.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我买了五个苹果。",
+                "vi": "Tôi mua năm quả táo.",
+                "comment": "五 đếm số lượng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他住在第五层。",
+                "vi": "Anh ấy sống ở tầng thứ năm.",
+                "comment": "第五 chỉ thứ tự tầng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 五 bằng 第五 sẽ đổi thành quả táo thứ năm, không còn là năm quả."
+            },
+            "boundary": "Giá, giờ và ngày tháng có đơn vị riêng; ví dụ này chỉ phân biệt lượng với thứ tự.",
+            "tip": "Bao nhiêu: 五; thứ mấy: 第五."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "五 có thanh ba; độ dài khi nói thay đổi theo nhịp câu. Không cần kéo thanh ba thành đường xuống-rồi-lên thật rõ trong mọi câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói bạn có năm quyển sách."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "五个学生 và 第五个学生 khác nhau thế nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我有五本书。",
+              "我有五本中文书。"
+            ],
+            "explanation": "五 đếm số sách; 本 là lượng từ."
+          },
+          "q2": {
+            "accepted": [
+              "Một cụm là năm học sinh; cụm kia là học sinh thứ năm."
+            ],
+            "explanation": "第 biến số đếm thành thứ tự."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trong túi có năm món đồ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói anh ấy là người thứ năm trong hàng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đếm số món đồ trong túi.",
+            "frame": "包里有五……。",
+            "model": "包里有五个东西。",
+            "vi": "Trong túi có năm món đồ.",
+            "criteria": [
+              "Dùng 五 cho số lượng.",
+              "Đặt lượng từ trước danh từ."
+            ]
+          },
+          "s2": {
+            "idea": "Xác định thứ tự thứ năm.",
+            "frame": "他是排队的第五个人。",
+            "model": "他是排队的第五个人。",
+            "vi": "Anh ấy là người thứ năm trong hàng.",
+            "criteria": [
+              "Dùng 第五 nói thứ tự.",
+              "个 đứng trước 人."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "anh trai",
+      "meaning": "anh trai; anh",
       "intro": [
         {
           "pinyin": "gē",
-          "meaning": "anh trai"
+          "meaning": "anh trai; anh"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我哥哥在日本工作。",
+          "vi": "Anh trai tôi làm việc ở Nhật Bản.",
+          "analysis": "我哥哥 là chủ thể.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "哥，你的手机在桌子上。",
+          "vi": "Anh ơi, điện thoại của anh ở trên bàn.",
+          "analysis": "哥 đứng đầu câu như tiếng gọi.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-43b962b28aa2",
       "hanzi": "哥",
       "level": 1,
       "sourceIndex": 140,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-014",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/search.jsp?la=0&word=%E5%93%A5"
+        ],
+        "cohortOrdinal": 161,
+        "introduction": {
+          "scope": "哥 chỉ anh trai hoặc là cách gọi thân mật; khi nói về anh, 哥哥 thường đầy đủ và thông dụng."
+        },
+        "meaning": {
+          "scene": "Bạn giới thiệu anh trai hoặc gọi anh mình.",
+          "explanation": "哥 là anh trai. Khi kể về người thân thường nói 我哥哥; gọi trực tiếp có thể nói 哥.",
+          "boundary": "哥/哥哥 là anh trai; 姐/姐姐 là chị gái. 兄弟姐妹 gọi chung anh chị em.",
+          "conditions": [
+            "Anh trai tôi: 我哥哥",
+            "Gọi anh thân mật: 哥",
+            "Anh và chị: 哥哥和姐姐"
+          ],
+          "takeaway": "Kể về anh trai: 我哥哥; gọi trực tiếp thân mật: 哥."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我哥哥在日本工作。",
+            "vi": "Anh trai tôi làm việc ở Nhật Bản.",
+            "analysis": "我哥哥 là chủ thể.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "哥，你的手机在桌子上。",
+            "vi": "Anh ơi, điện thoại của anh ở trên bàn.",
+            "analysis": "哥 đứng đầu câu như tiếng gọi.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người sở hữu + 哥哥",
+            "position": "哥哥 đứng sau người sở hữu.",
+            "required": "Dùng 我哥哥 khi nói anh của mình.",
+            "omission": "Bỏ 我 nếu quan hệ đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "哥 + lời gọi",
+            "position": "哥 đứng đầu câu khi gọi trực tiếp.",
+            "required": "Dùng trong cách nói thân mật.",
+            "omission": "Có thể gọi đầy đủ là 哥哥.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "哥 là anh trai; 姐 là chị gái",
+            "scene": "Bạn giới thiệu anh chị em trong nhà.",
+            "possibleConfusion": "哥 và 姐 cùng chỉ người lớn hơn nhưng khác giới.",
+            "difference": "哥 chỉ anh trai; 姐 chỉ chị gái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我哥哥在家。",
+                "vi": "Anh trai tôi ở nhà.",
+                "comment": "哥哥 là anh trai.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我姐姐在家。",
+                "vi": "Chị gái tôi ở nhà.",
+                "comment": "姐姐 là chị gái.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 哥哥 thành 姐姐 sẽ đổi người được nói đến; câu đúng tùy quan hệ thật."
+            },
+            "boundary": "哥 cũng có thể là cách gọi thân mật với nam giới lớn tuổi hơn.",
+            "tip": "Anh trai: 哥哥; chị gái: 姐姐."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói anh trai bạn làm việc ở Nhật."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong 哥，你的手机在桌子上, 哥 gọi ai?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我哥哥在日本工作。"
+            ],
+            "explanation": "我哥哥 nói anh trai của mình."
+          },
+          "q2": {
+            "accepted": [
+              "Người nói gọi trực tiếp người anh một cách thân mật."
+            ],
+            "explanation": "哥 đứng đầu câu như tiếng gọi."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói anh trai bạn đang ở nhà."
+          },
+          {
+            "id": "s2",
+            "prompt": "Gọi anh và nhắc điện thoại ở trên bàn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu anh trai và nơi ở.",
+            "frame": "我哥哥在……。",
+            "model": "我哥哥在家。",
+            "vi": "Anh trai tôi ở nhà.",
+            "criteria": [
+              "Dùng 哥哥 cho anh trai.",
+              "Nơi ở đứng sau 在."
+            ]
+          },
+          "s2": {
+            "idea": "Gọi trực tiếp rồi báo vị trí.",
+            "frame": "哥，你的手机在……。",
+            "model": "哥，你的手机在桌子上。",
+            "vi": "Anh ơi, điện thoại ở trên bàn.",
+            "criteria": [
+              "哥 là tiếng gọi.",
+              "Nêu nơi sau 在."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "mẹ",
@@ -41241,16 +42083,186 @@
           "meaning": "mẹ"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我妈妈今天不上班。",
+          "vi": "Hôm nay mẹ tôi không đi làm.",
+          "analysis": "我妈妈 là chủ thể; 今天不上班 nói lịch hôm nay.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "妈，你什么时候回家？",
+          "vi": "Mẹ ơi, khi nào mẹ về nhà?",
+          "analysis": "妈 đứng đầu câu như tiếng gọi trực tiếp.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-25ecc5e45335",
       "hanzi": "妈",
       "level": 1,
       "sourceIndex": 141,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-014",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/search.jsp?la=0&word=%E5%A6%88"
+        ],
+        "cohortOrdinal": 162,
+        "introduction": {
+          "scope": "妈 là cách gọi mẹ thân mật; 妈妈 là dạng đầy đủ thường dùng khi kể về mẹ."
+        },
+        "meaning": {
+          "scene": "Bạn kể mẹ đang làm gì hoặc gọi mẹ trong nhà.",
+          "explanation": "妈 chỉ mẹ. Thường nói 我妈妈 khi kể về mẹ; gọi trực tiếp có thể nói 妈，你在家吗？",
+          "boundary": "妈/妈妈 dùng hằng ngày; 母亲 trang trọng hơn và thường không dùng để gọi mẹ trong hội thoại gia đình.",
+          "conditions": [
+            "Mẹ tôi: 我妈妈",
+            "Gọi mẹ: 妈",
+            "Trang trọng hơn: 母亲"
+          ],
+          "takeaway": "Kể về mẹ thường dùng 妈妈; gọi mẹ thân mật có thể nói 妈."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我妈妈今天不上班。",
+            "vi": "Hôm nay mẹ tôi không đi làm.",
+            "analysis": "我妈妈 là chủ thể; 今天不上班 nói lịch hôm nay.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "妈，你什么时候回家？",
+            "vi": "Mẹ ơi, khi nào mẹ về nhà?",
+            "analysis": "妈 đứng đầu câu như tiếng gọi trực tiếp.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người sở hữu + 妈妈",
+            "position": "妈妈 đứng sau người sở hữu.",
+            "required": "Dùng 我妈妈 khi nói về mẹ.",
+            "omission": "Bỏ 我 nếu đã rõ đang nói mẹ ai.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "妈 + câu hỏi/lời nhắn",
+            "position": "妈 đứng đầu câu như tiếng gọi.",
+            "required": "Dùng trực tiếp, thân mật.",
+            "omission": "Có thể gọi đầy đủ 妈妈.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "妈/妈妈 thân mật; 母亲 trang trọng hơn",
+            "scene": "Bạn nói trong gia đình hay giới thiệu trang trọng.",
+            "possibleConfusion": "Cùng dịch là mẹ nhưng sắc thái khác.",
+            "difference": "妈/妈妈 gần gũi; 母亲 trang trọng hơn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我妈妈今天很忙。",
+                "vi": "Hôm nay mẹ tôi rất bận.",
+                "comment": "Cách nói đời thường.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我的母亲是一名医生。",
+                "vi": "Mẹ tôi là bác sĩ.",
+                "comment": "母亲 có sắc thái trang trọng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Quan hệ mẹ-con không đổi, nhưng thay từ làm câu trang trọng hơn."
+            },
+            "boundary": "Gọi trực tiếp mẹ thường dùng 妈 hoặc 妈妈.",
+            "tip": "Trong nhà: 妈/妈妈; trang trọng: 母亲."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói hôm nay mẹ bạn không đi làm."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn gọi mẹ trong nhà, dùng 妈 hay 母亲?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我妈妈今天不上班。"
+            ],
+            "explanation": "我妈妈 làm chủ thể."
+          },
+          "q2": {
+            "accepted": [
+              "妈 hoặc 妈妈; đây là cách gọi thân mật."
+            ],
+            "explanation": "母亲 trang trọng hơn."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói mẹ bạn đang ở nhà."
+          },
+          {
+            "id": "s2",
+            "prompt": "Gọi mẹ và hỏi khi nào mẹ về nhà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu người mẹ và nơi ở.",
+            "frame": "我妈妈在……。",
+            "model": "我妈妈在家。",
+            "vi": "Mẹ tôi ở nhà.",
+            "criteria": [
+              "Dùng 妈妈 khi nói về mẹ.",
+              "Nơi đứng sau 在."
+            ]
+          },
+          "s2": {
+            "idea": "Gọi trực tiếp và hỏi thời gian.",
+            "frame": "妈，你什么时候……？",
+            "model": "妈，你什么时候回家？",
+            "vi": "Mẹ ơi, khi nào mẹ về nhà？",
+            "criteria": [
+              "Dùng 妈 như tiếng gọi.",
+              "Dùng 什么时候 hỏi thời gian."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "em gái",
@@ -41260,16 +42272,185 @@
           "meaning": "em gái"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我妹妹在学校学习。",
+          "vi": "Em gái tôi học ở trường.",
+          "analysis": "我妹妹 là người thực hiện 学习.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "妹妹常和我一起回家。",
+          "vi": "Em gái thường về nhà cùng tôi.",
+          "analysis": "妹妹 làm chủ thể; 和我一起 nói cùng tôi.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-561f52bdae37",
       "hanzi": "妹",
       "level": 1,
       "sourceIndex": 142,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-014",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/search.jsp?la=0&word=%E5%A6%B9"
+        ],
+        "cohortOrdinal": 163,
+        "introduction": {
+          "scope": "妹 nói về hoặc gọi em gái; 妹妹 là dạng đầy đủ thông dụng trong câu gia đình."
+        },
+        "meaning": {
+          "scene": "Bạn kể về em gái hoặc nói với người khác về em.",
+          "explanation": "妹 chỉ em gái. Thường nói 我妹妹; tuổi được tính theo quan hệ giữa em và người nói.",
+          "boundary": "妹 là em gái; 姐 là chị gái. Cùng người có thể là 妹 với chị mình và là 姐 với em nhỏ hơn.",
+          "conditions": [
+            "Em gái tôi: 我妹妹",
+            "Chị gái tôi: 我姐姐"
+          ],
+          "takeaway": "妹/妹妹 là em gái; 姐/姐姐 là chị gái."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我妹妹在学校学习。",
+            "vi": "Em gái tôi học ở trường.",
+            "analysis": "我妹妹 là người thực hiện 学习.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "妹妹常和我一起回家。",
+            "vi": "Em gái thường về nhà cùng tôi.",
+            "analysis": "妹妹 làm chủ thể; 和我一起 nói cùng tôi.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người sở hữu + 妹妹 + hành động",
+            "position": "妹妹 đứng sau người sở hữu.",
+            "required": "Dùng 我妹妹 khi nói em gái mình.",
+            "omission": "Bỏ 我 khi đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "妹妹 + 常/在/想 + …",
+            "position": "妹妹 là chủ thể đứng trước hành động.",
+            "required": "Đặt 常 trước hành động thường làm.",
+            "omission": "Có thể gọi trực tiếp 妹妹.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "妹 là em gái; 姐 là chị gái",
+            "scene": "Bạn nói người nữ nhỏ hơn hay lớn hơn mình.",
+            "possibleConfusion": "Hai từ chỉ vai vế nữ nhưng dễ đảo.",
+            "difference": "妹 chỉ em gái; 姐 chỉ chị gái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我妹妹比我小。",
+                "vi": "Em gái tôi nhỏ tuổi hơn tôi.",
+                "comment": "妹妹 là người em.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我姐姐比我大。",
+                "vi": "Chị gái tôi lớn tuổi hơn tôi.",
+                "comment": "姐姐 là người chị.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 妹妹 thành 姐姐 sẽ đổi quan hệ tuổi; câu vẫn đúng nếu quan hệ thực khác."
+            },
+            "boundary": "Vai vế phụ thuộc người nói.",
+            "tip": "Nhỏ hơn mình: 妹; lớn hơn mình: 姐."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói em gái bạn học ở trường."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong 我妹妹比我小, ai nhỏ tuổi hơn?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我妹妹在学校学习。"
+            ],
+            "explanation": "Dùng 我妹妹 cho em gái mình."
+          },
+          "q2": {
+            "accepted": [
+              "Em gái nhỏ tuổi hơn người nói."
+            ],
+            "explanation": "小 xác nhận nhỏ tuổi; 妹 xác định quan hệ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói em gái bạn đang ở nhà."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói em gái bạn thường về nhà cùng bạn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu em gái và nơi ở.",
+            "frame": "我妹妹在……。",
+            "model": "我妹妹在家。",
+            "vi": "Em gái tôi ở nhà.",
+            "criteria": [
+              "Dùng 妹妹 cho em gái.",
+              "Nơi đứng sau 在."
+            ]
+          },
+          "s2": {
+            "idea": "Thói quen về nhà cùng nhau.",
+            "frame": "我妹妹常和我一起……。",
+            "model": "我妹妹常和我一起回家。",
+            "vi": "Em gái tôi thường về nhà cùng tôi.",
+            "criteria": [
+              "常 đứng trước hành động.",
+              "和我一起 nói cùng tôi."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "chị gái",
@@ -41279,16 +42460,186 @@
           "meaning": "chị gái"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我姐姐在医院工作。",
+          "vi": "Chị gái tôi làm ở bệnh viện.",
+          "analysis": "我姐姐 là chủ thể.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "姐，你的包在门口。",
+          "vi": "Chị ơi, túi của chị ở cửa ra vào.",
+          "analysis": "姐 đứng đầu câu như tiếng gọi trực tiếp.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-c0d309a81ef0",
       "hanzi": "姐",
       "level": 1,
       "sourceIndex": 143,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-014",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/search.jsp?la=0&word=%E5%A7%90"
+        ],
+        "cohortOrdinal": 164,
+        "introduction": {
+          "scope": "姐 nói về hoặc gọi chị gái; 姐姐 là dạng lặp thông dụng trong câu gia đình."
+        },
+        "meaning": {
+          "scene": "Bạn giới thiệu chị gái hoặc gọi chị mình.",
+          "explanation": "姐 chỉ chị gái. Khi kể về chị thường nói 我姐姐; gọi trực tiếp có thể nói 姐.",
+          "boundary": "姐 chỉ chị gái; 妹 chỉ em gái. 大姐 có thể là chị cả hoặc cách xưng hô tùy ngữ cảnh.",
+          "conditions": [
+            "Chị tôi: 我姐姐",
+            "Gọi chị thân mật: 姐",
+            "Chị cả: 大姐 (tùy ngữ cảnh)"
+          ],
+          "takeaway": "Chị gái: 姐/姐姐; em gái: 妹/妹妹."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我姐姐在医院工作。",
+            "vi": "Chị gái tôi làm ở bệnh viện.",
+            "analysis": "我姐姐 là chủ thể.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "姐，你的包在门口。",
+            "vi": "Chị ơi, túi của chị ở cửa ra vào.",
+            "analysis": "姐 đứng đầu câu như tiếng gọi trực tiếp.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người sở hữu + 姐姐",
+            "position": "姐姐 đứng sau người sở hữu.",
+            "required": "Dùng 我姐姐 khi nói về chị.",
+            "omission": "Bỏ 我 nếu đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "姐 + lời gọi",
+            "position": "姐 đứng đầu câu khi gọi trực tiếp.",
+            "required": "Dùng thân mật với chị.",
+            "omission": "Có thể dùng 姐姐 đầy đủ hơn.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "姐 là chị gái; 妹 là em gái",
+            "scene": "Bạn xác định người nữ lớn hơn hay nhỏ hơn.",
+            "possibleConfusion": "Hai từ chỉ vai vế ngược nhau.",
+            "difference": "姐姐 lớn hơn người nói; 妹妹 nhỏ hơn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我姐姐比我大。",
+                "vi": "Chị gái tôi lớn tuổi hơn tôi.",
+                "comment": "大 xác nhận vai chị.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我妹妹比我小。",
+                "vi": "Em gái tôi nhỏ tuổi hơn tôi.",
+                "comment": "小 xác nhận vai em.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 姐姐 thành 妹妹 sẽ đổi quan hệ tuổi; không phải lỗi nếu thông tin thực tế khác."
+            },
+            "boundary": "姐 cũng có thể gọi thân mật phụ nữ lớn tuổi hơn, không nhất thiết chị ruột.",
+            "tip": "Lớn hơn mình: 姐; nhỏ hơn: 妹."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói chị gái bạn làm ở bệnh viện."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong 我姐姐比我大, ai lớn tuổi hơn?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我姐姐在医院工作。"
+            ],
+            "explanation": "我姐姐 nói chị gái của mình."
+          },
+          "q2": {
+            "accepted": [
+              "Chị gái lớn tuổi hơn người nói."
+            ],
+            "explanation": "大 xác nhận tuổi lớn hơn."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói chị gái bạn đang ở nhà."
+          },
+          {
+            "id": "s2",
+            "prompt": "Gọi chị và nói túi ở cửa ra vào."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu chị gái và nơi ở.",
+            "frame": "我姐姐在……。",
+            "model": "我姐姐在家。",
+            "vi": "Chị gái tôi ở nhà.",
+            "criteria": [
+              "Dùng 姐姐 cho chị gái.",
+              "Nơi đứng sau 在."
+            ]
+          },
+          "s2": {
+            "idea": "Gọi trực tiếp rồi báo vị trí.",
+            "frame": "姐，你的包在……。",
+            "model": "姐，你的包在门口。",
+            "vi": "Chị ơi, túi ở cửa ra vào.",
+            "criteria": [
+              "姐 là tiếng gọi.",
+              "门口 nêu vị trí."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-493e53d9f377",
@@ -41301,13 +42652,184 @@
         }
       ],
       "meaning": "hậu tố trong một số danh từ",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-014",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "桌子上有一本书。",
+          "vi": "Trên bàn có một quyển sách.",
+          "analysis": "桌子 là từ chỉ bàn; 子 không dịch thành con.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "孩子在门口等妈妈。",
+          "vi": "Đứa trẻ đợi mẹ ở cửa ra vào.",
+          "analysis": "孩子 là từ chỉ đứa trẻ; 子 thuộc từ ghép.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 144,
       "meaningOrigin": "biên soạn bổ sung",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=9398&la=0&powerMode=0",
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137386&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 165,
+        "introduction": {
+          "scope": "Trong từ như 桌子、孩子, 子 thường là hậu tố đọc nhẹ giúp tạo danh từ; không tự dịch thành “con” trong mọi từ."
+        },
+        "meaning": {
+          "scene": "Bạn gặp 子 ở cuối một từ chỉ đồ vật hoặc người.",
+          "explanation": "子 đứng cuối một số từ như 桌子 (cái bàn), 孩子 (đứa trẻ). Trong các từ này 子 thường đọc nhẹ; học nghĩa cả từ.",
+          "boundary": "子 cũng có cách đọc thanh ba trong từ như 子女. Đọc và hiểu theo cả từ, không áp một cách cho mọi trường hợp.",
+          "conditions": [
+            "Cái bàn: 桌子",
+            "Đứa trẻ: 孩子",
+            "Con cái: 子女 (từ khác)"
+          ],
+          "takeaway": "Trong 桌子、孩子, 子 là hậu tố nhẹ; không dịch riêng là “con”."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "桌子上有一本书。",
+            "vi": "Trên bàn có một quyển sách.",
+            "analysis": "桌子 là từ chỉ bàn; 子 không dịch thành con.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "孩子在门口等妈妈。",
+            "vi": "Đứa trẻ đợi mẹ ở cửa ra vào.",
+            "analysis": "孩子 là từ chỉ đứa trẻ; 子 thuộc từ ghép.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "danh từ chỉ vật + 子",
+            "position": "子 đứng cuối một số từ chỉ vật.",
+            "required": "Học nguyên từ như 桌子.",
+            "omission": "Không thêm 子 tùy ý vào mọi danh từ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "孩 + 子",
+            "position": "子 đứng sau 孩 để tạo 孩子.",
+            "required": "Dùng cả từ để nói đứa trẻ.",
+            "omission": "Có thể lược chủ thể khi rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "子 trong 桌子 là hậu tố nhẹ; không phải lúc nào cũng nghĩa “con”",
+            "scene": "Bạn muốn dịch một từ trọn vẹn hay từng chữ riêng.",
+            "possibleConfusion": "Có thể đọc mọi 子 cùng một thanh hoặc dịch riêng là con.",
+            "difference": "Trong 桌子、孩子, 子 thường nhẹ; trong 子女、子女 cần xét cách đọc/nghĩa cả từ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "桌子在房间里。",
+                "vi": "Cái bàn ở trong phòng.",
+                "comment": "子 thuộc từ 桌子; cả từ nghĩa là cái bàn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这是我的子女。",
+                "vi": "Đây là con cái tôi.",
+                "comment": "子女 là từ riêng chỉ con cái.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Dịch riêng 子 trong 桌子 thành “con” làm sai; giữ nghĩa trọn từ."
+            },
+            "boundary": "Từ mục tiêu cách đọc nhắc hậu tố nhẹ; từ khác có thể đọc thanh đầy đủ.",
+            "tip": "Trong 桌子/孩子, 子 thường nhẹ; học cả từ."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "Trong 桌子、孩子, 子 đọc nhẹ và ngắn nhưng vẫn phát ra; một số từ khác có 子 đọc thanh đầy đủ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 桌子上有一本书, 子 có nghĩa riêng là con không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu từ có 子 nhẹ và từ có 子 thanh đầy đủ."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; 桌子 là từ chỉ cái bàn, 子 là hậu tố nhẹ."
+            ],
+            "explanation": "Không dịch từng chữ riêng."
+          },
+          "q2": {
+            "accepted": [
+              "桌子/孩子 có 子 nhẹ; 子女/子女 có 子 thanh đầy đủ."
+            ],
+            "explanation": "Cách đọc tùy từ cụ thể."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói sách ở trên bàn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói đứa trẻ đang ở cửa ra vào."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu vị trí quyển sách.",
+            "frame": "书在……上。",
+            "model": "书在桌子上。",
+            "vi": "Sách ở trên bàn.",
+            "criteria": [
+              "Dùng 桌子 là từ trọn vẹn.",
+              "Không dịch 子 riêng."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu đứa trẻ và vị trí.",
+            "frame": "孩子在……。",
+            "model": "孩子在门口。",
+            "vi": "Đứa trẻ ở cửa ra vào.",
+            "criteria": [
+              "Dùng 孩子 chỉ đứa trẻ.",
+              "Dùng 门口 chỉ vị trí."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-dde09af2dcad",
@@ -41316,17 +42838,188 @@
       "intro": [
         {
           "pinyin": "cháng",
-          "meaning": "thường"
+          "meaning": "thường; thường xuyên"
         }
       ],
-      "meaning": "thường",
-      "status": "catalog",
+      "meaning": "thường; thường xuyên",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-014",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我常坐电车上班。",
+          "vi": "Tôi thường đi tàu điện đến chỗ làm.",
+          "analysis": "常 đứng trước 坐.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他常在这家饭店吃饭。",
+          "vi": "Anh ấy thường ăn ở nhà hàng này.",
+          "analysis": "常 đứng trước cụm hành động.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 145,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8475&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 166,
+        "introduction": {
+          "scope": "常 chỉ tần suất, thường đứng trước động từ hoặc cụm hành động để nói việc xảy ra nhiều lần."
+        },
+        "meaning": {
+          "scene": "Bạn kể thói quen đi làm bằng tàu điện hoặc hay ăn ở đâu.",
+          "explanation": "常 nói việc xảy ra thường xuyên và thường đứng trước hành động. 常常、经常 gần nghĩa; 平常 thường nêu ngày thường/bối cảnh.",
+          "boundary": "常 thiên về tần suất; 平常 có thể nêu bối cảnh ở đầu câu. Hai từ có vùng gần nhưng không luôn thay thế cùng vị trí.",
+          "conditions": [
+            "Thường đi tàu điện: 常坐电车",
+            "Hay gặp: 常见",
+            "Ngày thường: 平常"
+          ],
+          "takeaway": "Muốn nói thường làm gì, đặt 常 trước hành động."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我常坐电车上班。",
+            "vi": "Tôi thường đi tàu điện đến chỗ làm.",
+            "analysis": "常 đứng trước 坐.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他常在这家饭店吃饭。",
+            "vi": "Anh ấy thường ăn ở nhà hàng này.",
+            "analysis": "常 đứng trước cụm hành động.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + 常 + động từ",
+            "position": "常 đứng trước động từ chính.",
+            "required": "Đặt 常 trước hành động lặp lại.",
+            "omission": "Bỏ chủ thể nếu ngữ cảnh rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ thể + 常 + nơi + hành động",
+            "position": "常 đứng trước cụm hành động.",
+            "required": "Dùng 在 khi nêu nơi chốn.",
+            "omission": "Bỏ nơi nếu không cần xác định.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "常 là tần suất; 平常 thường nêu ngày thường",
+            "scene": "Bạn nói việc lặp lại hay một ngày bình thường.",
+            "possibleConfusion": "Hai từ đều có thể dịch gần với “thường”.",
+            "difference": "常 đứng trước hành động; 平常 có thể làm bối cảnh đầu câu.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我常坐电车上班。",
+                "vi": "Tôi thường đi tàu điện đi làm.",
+                "comment": "常 chỉ tần suất.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "平常我坐电车上班。",
+                "vi": "Ngày thường tôi đi tàu điện đi làm.",
+                "comment": "平常 nêu bối cảnh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "常 gần nghĩa với 常常/经常 trước động từ; 平常 đôi khi gần nghĩa nhưng thường nêu bối cảnh."
+            },
+            "boundary": "常 không nhất thiết là “luôn luôn” 100%.",
+            "tip": "Trước hành động: 常; mở đầu ngày thường: 平常."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói bạn thường đi tàu điện đến chỗ làm."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "常常 và 平常 khác nhau thế nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我常坐电车上班。",
+              "我常常坐电车上班。"
+            ],
+            "explanation": "常/常常 đứng trước hành động."
+          },
+          "q2": {
+            "accepted": [
+              "常常 nói tần suất; 平常 thường nêu ngày thường/bối cảnh."
+            ],
+            "explanation": "Xem vị trí và ý định."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn thường ăn ở nhà hàng này."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói ngày thường bạn đi làm bằng xe buýt."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Thói quen ăn tại một nơi.",
+            "frame": "我常在……吃饭。",
+            "model": "我常在这家饭店吃饭。",
+            "vi": "Tôi thường ăn ở nhà hàng này.",
+            "criteria": [
+              "常 đứng trước hành động.",
+              "在 nêu nơi."
+            ]
+          },
+          "s2": {
+            "idea": "Bối cảnh ngày thường và cách di chuyển.",
+            "frame": "平常我坐……上班。",
+            "model": "平常我坐公共汽车上班。",
+            "vi": "Ngày thường tôi đi xe buýt đến chỗ làm.",
+            "criteria": [
+              "平常 nêu bối cảnh.",
+              "Cách di chuyển trước 上班."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "em trai",
@@ -41336,16 +43029,185 @@
           "meaning": "em trai"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我弟弟今年十岁。",
+          "vi": "Em trai tôi năm nay mười tuổi.",
+          "analysis": "我弟弟 là người được nói đến.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "弟弟常和我一起回家。",
+          "vi": "Em trai thường về nhà cùng tôi.",
+          "analysis": "和我一起 nói cùng với tôi.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-8f7ea4b9e98c",
       "hanzi": "弟",
       "level": 1,
       "sourceIndex": 146,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-014",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/search.jsp?la=0&word=%E5%BC%9F"
+        ],
+        "cohortOrdinal": 167,
+        "introduction": {
+          "scope": "弟 nói về hoặc gọi em trai; 弟弟 là dạng đầy đủ thông dụng trong gia đình."
+        },
+        "meaning": {
+          "scene": "Bạn kể em trai đang đi học hoặc giới thiệu người trong nhà.",
+          "explanation": "弟 chỉ em trai. Thường dùng 我弟弟 khi kể về em; âm tiết thứ hai trong 弟弟 thường đọc nhẹ trong khẩu ngữ.",
+          "boundary": "弟/弟弟 là em trai; 哥/哥哥 là anh trai. Vai vế phụ thuộc quan hệ người nói với người được nhắc.",
+          "conditions": [
+            "Em trai tôi: 我弟弟",
+            "Anh trai: 我哥哥"
+          ],
+          "takeaway": "弟/弟弟 là em trai; 哥/哥哥 là anh trai."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我弟弟今年十岁。",
+            "vi": "Em trai tôi năm nay mười tuổi.",
+            "analysis": "我弟弟 là người được nói đến.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "弟弟常和我一起回家。",
+            "vi": "Em trai thường về nhà cùng tôi.",
+            "analysis": "和我一起 nói cùng với tôi.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người sở hữu + 弟弟 + tuổi/việc",
+            "position": "弟弟 đứng sau người sở hữu.",
+            "required": "Dùng 我弟弟 khi nói rõ em trai.",
+            "omission": "Bỏ 我 nếu đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "弟弟 + 常/在/想 + …",
+            "position": "弟弟 là chủ thể đứng trước hành động.",
+            "required": "Đặt 常 trước hành động lặp lại.",
+            "omission": "Có thể gọi trực tiếp 弟弟.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "弟 chỉ em trai; 第 chỉ thứ tự",
+            "scene": "Bạn nghe âm cách đọc và chọn chữ theo nghĩa gia đình hay thứ tự.",
+            "possibleConfusion": "弟 và 第 đồng âm nhưng khác chữ/nghĩa.",
+            "difference": "弟 chỉ em trai; 第 đứng trước số để tạo thứ tự.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我弟弟在学校。",
+                "vi": "Em trai tôi ở trường.",
+                "comment": "弟弟 là người em.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他是第一名。",
+                "vi": "Anh ấy đứng hạng nhất.",
+                "comment": "第 trong 第一 chỉ thứ tự.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 弟 thành 第 sẽ đổi ý sang thứ tự; cần cấu trúc như 第三名."
+            },
+            "boundary": "Trong 弟弟, âm sau thường nhẹ; mục từ đơn ghi thanh gốc cách đọc.",
+            "tip": "Em trai: 弟; số thứ tự: 第."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "Từ đơn 弟 có thanh bốn cách đọc; khi nói 弟弟, âm tiết thứ hai thường nhẹ nhưng vẫn phát ra. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói em trai bạn năm nay mười tuổi."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "弟弟 và 第一 có cùng chữ và nghĩa không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我弟弟今年十岁。"
+            ],
+            "explanation": "我弟弟 là em trai mình."
+          },
+          "q2": {
+            "accepted": [
+              "Không; 弟弟 chỉ em trai, 第一 chỉ thứ nhất."
+            ],
+            "explanation": "Âm giống nhưng chữ và nghĩa khác."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói em trai bạn đang ở trường."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói em trai thường về nhà cùng bạn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu em trai và nơi có mặt.",
+            "frame": "我弟弟在……。",
+            "model": "我弟弟在学校。",
+            "vi": "Em trai tôi ở trường.",
+            "criteria": [
+              "Dùng 弟弟 chỉ em trai.",
+              "Nơi sau 在."
+            ]
+          },
+          "s2": {
+            "idea": "Thói quen về nhà cùng nhau.",
+            "frame": "我弟弟常和我一起……。",
+            "model": "我弟弟常和我一起回家。",
+            "vi": "Em trai tôi thường về nhà cùng tôi.",
+            "criteria": [
+              "常 nói thói quen.",
+              "和我一起 nói cùng tôi."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-06194eab2ffe",
@@ -41354,17 +43216,188 @@
       "intro": [
         {
           "pinyin": "shǒu",
-          "meaning": "tay"
+          "meaning": "tay; bàn tay"
         }
       ],
-      "meaning": "tay",
-      "status": "catalog",
+      "meaning": "tay; bàn tay",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-014",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请用手拿这个杯子。",
+          "vi": "Hãy dùng tay cầm chiếc cốc này.",
+          "analysis": "用手 đứng trước 拿.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我的手很冷。",
+          "vi": "Tay tôi rất lạnh.",
+          "analysis": "我的手 là bộ phận được miêu tả.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 147,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng, đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/search.jsp?la=0&word=%E6%89%8B"
+        ],
+        "cohortOrdinal": 168,
+        "introduction": {
+          "scope": "手 là bộ phận từ cổ tay đến các ngón; thường dùng trong 用手 + động từ hoặc làm chủ thể khi miêu tả."
+        },
+        "meaning": {
+          "scene": "Bạn nói đang cầm cốc bằng tay hoặc tay bị lạnh.",
+          "explanation": "手 là tay/bàn tay. Dùng 用手 + động từ để nêu bộ phận làm việc; 我的手 gọi tay của mình.",
+          "boundary": "手 thường chỉ bàn tay/tay nói chung; 手臂 nói rõ cánh tay từ vai đến cổ tay. 手机 là từ riêng chỉ điện thoại.",
+          "conditions": [
+            "Dùng tay: 用手",
+            "Tay tôi: 我的手",
+            "Điện thoại: 手机"
+          ],
+          "takeaway": "手 là tay; 手机 là từ riêng chỉ điện thoại, không dịch từng chữ."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请用手拿这个杯子。",
+            "vi": "Hãy dùng tay cầm chiếc cốc này.",
+            "analysis": "用手 đứng trước 拿.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我的手很冷。",
+            "vi": "Tay tôi rất lạnh.",
+            "analysis": "我的手 là bộ phận được miêu tả.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "用手 + động từ",
+            "position": "用手 đứng trước hành động.",
+            "required": "Dùng khi muốn nêu bộ phận thực hiện.",
+            "omission": "Bỏ 用手 nếu không cần nhấn mạnh.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "(我的)手 + đặc điểm",
+            "position": "手 làm chủ thể; đặc điểm đứng sau.",
+            "required": "Dùng 我的手 khi cần xác định tay ai.",
+            "omission": "Bỏ 我的 nếu ngữ cảnh rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "手 là tay/bàn tay; 手臂 là cánh tay",
+            "scene": "Bạn chỉ bàn tay hay phần từ vai đến cổ tay.",
+            "possibleConfusion": "Tiếng Việt có thể gọi cả hai là tay.",
+            "difference": "手 thường là bàn tay/tay nói chung; 手臂 nói rõ phần cánh tay.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请用手拿杯子。",
+                "vi": "Hãy dùng tay cầm cốc.",
+                "comment": "手 là bộ phận dùng để cầm.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他的手臂很长。",
+                "vi": "Cánh tay của anh ấy rất dài.",
+                "comment": "手臂 chỉ phần cánh tay cụ thể.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 手 thành 手臂 sẽ nhấn vào cánh tay thay vì bàn tay; câu có thể đúng nhưng điểm nhấn khác."
+            },
+            "boundary": "手 có thể dùng rộng trong lời nói; dùng 手臂 khi cần chính xác.",
+            "tip": "Cầm nắm: 手; đoạn cánh tay: 手臂."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "literalTranslation": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này.",
+          "confusables": "Đã rà nghĩa, cách dùng và các điểm dễ nhầm trong phạm vi học này."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói bạn dùng tay cầm chiếc cốc."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "手 và 手臂 khác nhau thế nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我用手拿杯子。",
+              "请用手拿这个杯子。"
+            ],
+            "explanation": "用手 nêu bộ phận được dùng."
+          },
+          "q2": {
+            "accepted": [
+              "手 là bàn tay/tay nói chung; 手臂 là cánh tay."
+            ],
+            "explanation": "手臂 nói rõ đoạn từ vai đến cổ tay."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn dùng tay mở cửa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tay bạn đang lạnh."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng tay thực hiện hành động mở.",
+            "frame": "我用手……。",
+            "model": "我用手开门。",
+            "vi": "Tôi dùng tay mở cửa.",
+            "criteria": [
+              "用手 đứng trước động từ.",
+              "开门 là mở cửa."
+            ]
+          },
+          "s2": {
+            "idea": "Miêu tả tay của mình.",
+            "frame": "我的手很……。",
+            "model": "我的手很冷。",
+            "vi": "Tay tôi rất lạnh.",
+            "criteria": [
+              "我的手 làm chủ thể.",
+              "Đặc điểm sau 很."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "cha",
@@ -85233,13 +87266,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 166,
-    "pending": 2068,
+    "ready": 178,
+    "pending": 2056,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 166
+        "ready": 178
       },
       {
         "level": 2,
