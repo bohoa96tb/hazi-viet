@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 96/2224. Còn: 2128. Toàn khóa đủ cấu trúc: 106/2234.
+Đã bổ sung: 108/2224. Còn: 2116. Toàn khóa đủ cấu trúc: 118/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -14,20 +14,21 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-006 · mục 61–72 · 帮忙、怎么、手机、电话、说话、请进、请问、奶、树、歌、毛、水
 - batch-007 · mục 73–84 · 洗、热、爱、球、白、笑、肉、花、茶、菜、雨、风
 - batch-008 · mục 85–96 · 下雨、天气、奶奶、水果、牛奶、鸡蛋、坏、多、大、太、好、小
+- batch-009 · mục 97–108 · 少、差、很、快、慢、真、老、贵、过、远、重、错
 
 ## 12 mục tiếp theo
 
-- 少 · hz-h1-733609098341
-- 差 · hz-h1-efc194540750
-- 很 · hz-h1-754e4b61ec92
-- 快 · hz-h1-22182cf36a90
-- 慢 · hz-h1-eca0ce94b683
-- 真 · hz-h1-878a1cbed839
-- 老 · hz-h1-9a887a256484
-- 贵 · hz-h1-b5fd29f3a43f
-- 过 · hz-h1-9dac1ef58f36
-- 远 · hz-h1-10ee35f935b7
-- 重 · hz-h1-42d1804d6de2
-- 错 · hz-h1-d59b70a3b4f4
+- 难 · hz-h1-9751baafc5b0
+- 高 · hz-h1-bee90b36dafe
+- 不大 · hz-h1-777cecc20605
+- 不对 · hz-h1-55ece8459abc
+- 重要 · hz-h1-a2d895dabe7b
+- 做 · hz-h1-c698571f3769
+- 动 · hz-h1-109ce02573bf
+- 学 · hz-h1-972fee5ddec8
+- 干 · hz-h1-692026ac0c4d
+- 忙 · hz-h1-0bc0aea3e47a
+- 用 · hz-h1-fa344d8ea348
+- 看 · hz-h1-a0227b47e71a
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
