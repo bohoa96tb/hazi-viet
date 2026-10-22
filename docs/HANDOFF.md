@@ -21,7 +21,7 @@ Bài V2 dùng đúng hai câu chính mỗi mục. Đã sửa fixture trong `tool
 
 - `process-batch.mjs apply` và `verify` đạt: đúng cohort liên tục, 2.234 ID/thứ tự/liên kết bài, 106 bài đủ cấu trúc, hash 84 bài cũ và 10 bài được bảo vệ khớp.
 - `verifyV2` 12/12 qua các audit, màn renderer, câu mẫu, audio, bài tập, đáp án khóa và gợi ý tự dùng; 15 trường hợp câu sai cũ được cảnh báo/sửa đúng trong hồi quy.
-- Đã kiểm JSON, cú pháp JS liên quan và `git diff --check`. Live course SHA256 `bfef9291996769c5b9e0863bb80cc104780df2dff9deee69435da92b1758fc35`, 2.773.075 byte, 2.234 từ; đủ 12 ID batch-008, version 2, status deep. Pages run 39749818404 thành công trên SHA nội dung.
+- Đã kiểm JSON, cú pháp JS liên quan và `git diff --check`. Live course SHA256 `bfef9291996769c5b9e0863bb80cc104780df2dff9deee69435da92b1758fc35`, 2.773.075 byte, 2.234 từ; đủ 12 ID batch-008, version 2, status deep. Pages run 39749818404 thành công trên SHA nội dung. Commit ghi tracker 49c58c1df00543624269a29c74b0c646d31f0048 và Pages run 39750423025 cũng thành công; tracker không đổi dữ liệu khóa học.
 - Desktop live mở 好 ordinal 95/sourceIndex 74: thấy chuẩn V2, đúng hai câu chính, bẫy, và bài luyện không lộ đáp án trước thao tác. Các mục đọc 奶奶/牛奶/好 được đối chiếu thêm với từ điển Bộ Giáo dục.
 - `test-dom.mjs` không chạy vì thiếu `happy-dom`; chưa kiểm bố cục mobile, TTS/phát nền Android thật hoặc phản biện giáo viên độc lập.
 
