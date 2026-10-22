@@ -41,7 +41,7 @@ Bài V2 dùng đúng hai câu chính mỗi mục. Đã sửa fixture trong `tool
 
 ## Trạng thái đợt batch-016
 
-Đang chuẩn bị đúng 12 mục baseline 181–192: 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用. Source course và nội dung V2 qua auditV2 12/12, validateCourse cho 2.234 từ, 36 render stage và audio/immersion checks. Commit/Pages/live verification chưa ghi nhận cho đến khi hoàn tất.
+Đang chuẩn bị đúng 12 mục baseline 181–192: 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用. Source course và nội dung V2 qua auditV2 12/12, validateCourse cho 2.234 từ, 36 render stage và audio/immersion checks. Nội dung đã lên main tại a1e41dca6d9061ab466bd33e840ffd7e3bba90a4; Pages run 39859720367 thành công. Live course JSON đã có dữ liệu đúng; app UI còn cache tag cũ nên đang bump sang batch-016-fix1 trước khi xác minh 12 route.
 
 ## Đợt tiếp theo sau batch-016
 
