@@ -38,3 +38,10 @@ Hỗ trợ V2: hai câu gắn khung, bài mở tách lời giải, hai tình hu�
 - Trình duyệt live: bài 回 số 49; hai ví dụ gắn khung, không tab ví dụ lặp; lời giải không hiện ban đầu, mở riêng; mẫu tự dùng chỉ hiện ở mức gợi ý thứ ba. Đã xem ảnh bố cục đại diện desktop. Chưa kiểm mobile/Android, giọng TTS thiết bị và phản biện giáo viên độc lập.
 - Commit ghi kết quả xác minh này chỉ đổi tài liệu/manifest, không đổi khóa học, số tiến độ, code hay hash bài cũ. Các đợt tiếp theo vẫn phải kiểm HEAD main/content và tiến độ thật.
 
+
+
+## Đợt 007 — đang kiểm tra và phát hành
+
+Mục baseline 73–84: 洗、热、爱、球、白、笑、肉、花、茶、菜、雨、风. Nội dung V2 có hai câu chính mỗi bài; đã chạy `verifyV2` cho 12 bài và `validateCourse` trên toàn khóa 2.234 từ (94 bài đầy đủ). Fixture của `verify-v2.mjs` được sửa để giữ các correction hiện có khi thêm câu sai tổng hợp; kiểm thử lại đạt.
+
+Tiến độ cập nhật 84/2.224, còn 2.140; toàn khóa 94/2.234. Phát hành GitHub Pages và kiểm dữ liệu live đang chờ sau commit.

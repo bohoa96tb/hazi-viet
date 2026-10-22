@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 72/2224. Còn: 2152. Toàn khóa đủ cấu trúc: 82/2234.
+Đã bổ sung: 84/2224. Còn: 2140. Toàn khóa đủ cấu trúc: 94/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -12,20 +12,21 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-004 · mục 37–48 · 点、百、票、记、读、课、钱、页、本子、课本、号、呢
 - batch-005 · mục 49–60 · 回、帮、打、找、电、等、话、请、问、不用、回答、多少
 - batch-006 · mục 61–72 · 帮忙、怎么、手机、电话、说话、请进、请问、奶、树、歌、毛、水
+- batch-007 · mục 73–84 · 洗、热、爱、球、白、笑、肉、花、茶、菜、雨、风
 
 ## 12 mục tiếp theo
 
-- 洗 · hz-h1-0896d5d77abe
-- 热 · hz-h1-b27dafc3d340
-- 爱 · hz-h1-f19e5ba46c86
-- 球 · hz-h1-bf68a9a65a3c
-- 白 · hz-h1-05425e414113
-- 笑 · hz-h1-08d9ad458e0a
-- 肉 · hz-h1-a9e42039a465
-- 花 · hz-h1-26973a46f060
-- 茶 · hz-h1-4f06d6f3c19f
-- 菜 · hz-h1-678ba85d28e7
-- 雨 · hz-h1-8a6b33eeca73
-- 风 · hz-h1-4b9b99367126
+- 下雨 · hz-h1-efc5a07d3d4f
+- 天气 · hz-h1-c4bc9119c0ea
+- 奶奶 · hz-h1-4b01c12e2fb5
+- 水果 · hz-h1-91011160c68e
+- 牛奶 · hz-h1-3f18a484d148
+- 鸡蛋 · hz-h1-4823c87cc791
+- 坏 · hz-h1-30c9c5791947
+- 多 · hz-h1-36e11bd81443
+- 大 · hz-h1-b83b12121e5b
+- 太 · hz-h1-f164a812765d
+- 好 · hz-h1-72f8c3542984
+- 小 · hz-h1-2bafadee60b3
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.

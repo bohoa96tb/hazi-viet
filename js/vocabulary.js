@@ -1,7 +1,7 @@
-import {auditLesson,sections as standardSections,lessonAudio,checkAudio} from './lesson-standard.js?v=v2-batch-005';
-import {renderStandardLesson} from './lesson-standard-view.js?v=v2-batch-005';
-import {statusLabels,studySteps,moveStep,coursePages,validateCourse,meaningQuiz} from './vocabulary-course.js?v=v2-batch-005';
-import {audioModes,lessonsOf,columnsOf,selectAudioWords,buildPlaylist,createAudioPlayer,chooseVoice,voiceMatches,speechErrorMessage} from './vocabulary-audio.js?v=v2-batch-005';
+import {auditLesson,sections as standardSections,lessonAudio,checkAudio} from './lesson-standard.js?v=v2-batch-007';
+import {renderStandardLesson} from './lesson-standard-view.js?v=v2-batch-007';
+import {statusLabels,studySteps,moveStep,coursePages,validateCourse,meaningQuiz} from './vocabulary-course.js?v=v2-batch-007';
+import {audioModes,lessonsOf,columnsOf,selectAudioWords,buildPlaylist,createAudioPlayer,chooseVoice,voiceMatches,speechErrorMessage} from './vocabulary-audio.js?v=v2-batch-007';
 import {createProgress,intervals} from './vocabulary-progress.js?v=4.0.0';
 const $=s=>document.querySelector(s),main=$('#vocabMain'),dialog=$('#wordDialog'),content=$('#wordContent');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
