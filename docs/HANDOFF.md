@@ -37,28 +37,23 @@ Bài V2 dùng đúng hai câu chính mỗi mục. Đã sửa fixture trong `tool
 
 ## Trạng thái đợt batch-015
 
-Đã biên soạn baseline ordinal 169–180: 爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷. Tiến độ: 180/2224; còn 2044; toàn khóa 190/2234 mục đủ cấu trúc. Mỗi bài có hai ví dụ chính, khung dùng cụ thể, nhóm phân biệt ngữ cảnh, hai câu luyện có đáp án riêng và hai tình huống tự dùng.
+Đã phát hành baseline 169–180: 爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷. Commit nội dung 85a590fc47ddce64f41616875d3db33cac0c27c6; Pages run 39796683993 thành công và đã kiểm 12/12 route live.
 
-- Commit nội dung: 85a590fc47ddce64f41616875d3db33cac0c27c6; đã fast-forward cả content/vocabulary-2224 và main, không force-push.
-- GitHub Pages run [39796683993](https://github.com/bohoa96tb/hazi-viet/actions/runs/39796683993) thành công trên đúng SHA.
-- Đã mở đủ 12 route live; tất cả hiện BÀI HỌC ĐẦY ĐỦ, chuẩn V2, đúng thứ tự và sourceIndex.
-- Giữ nguyên 2.234 ID/thứ tự bài; hash 168 bài hoàn tất trước đó và 10 mục được bảo vệ khớp.
-- SHA256 source course: `7e2c17edb01fef7dc61adc69f76c759089a74f065008ef7ad4f8472d863562ff`. Chưa tải file course từ Pages để so hash byte; chưa kiểm TTS Android hoặc phản biện giáo viên độc lập.
-- Batch source: tools/vocabulary/batches/batch-015.json; cache tag: batch-015.
+## Trạng thái đợt batch-016
 
-## Đợt tiếp theo
+Đang chuẩn bị đúng 12 mục baseline 181–192: 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用. Source course và nội dung V2 qua auditV2 12/12, validateCourse cho 2.234 từ, 36 render stage và audio/immersion checks. Commit/Pages/live verification chưa ghi nhận cho đến khi hoàn tất.
 
-1. 爸爸 · hz-h1-36d44c8ffe9e · sourceIndex 161
-2. 不 · hz-h1-091e097d8c14 · sourceIndex 162
-3. 吗 · hz-h1-4a96054b003b · sourceIndex 164
-4. 对 · hz-h1-5aa8ddf5f024 · sourceIndex 166
-5. 有 · hz-h1-740051dfbab9 · sourceIndex 168
-6. 没 · hz-h1-c6959958649f · sourceIndex 169
-7. 的 · hz-h1-706b146215d7 · sourceIndex 170
-8. 还 · hz-h1-afee2e64ef77 · sourceIndex 173
-9. 是不是 · hz-h1-d0a667a84b92 · sourceIndex 174
-10. 有些 · hz-h1-782802f94389 · sourceIndex 175
-11. 有时 · hz-h1-1d8bb690208c · sourceIndex 176
-12. 有用 · hz-h1-03e9688452d0 · sourceIndex 177
+## Đợt tiếp theo sau batch-016
 
-Luôn theo thứ tự trong progress.json; không suy ra thứ tự baseline từ sourceIndex.
+193. 有的 · hz-h1-0c556aa9ef83 · sourceIndex 178
+194. 正在 · hz-h1-05141092cb92 · sourceIndex 179
+195. 没有 · hz-h1-95d6379fdfc6 · sourceIndex 180
+196. 真的 · hz-h1-4969b83d9cec · sourceIndex 181
+197. 还是 · hz-h1-08f5745eb362 · sourceIndex 183
+198. 还有 · hz-h1-c99d6c682449 · sourceIndex 184
+199. 八 · hz-h1-68f9a548685c · sourceIndex 185
+200. 冷 · hz-h1-473bd0dd1a59 · sourceIndex 186
+201. 口 · hz-h1-332fab54b4f4 · sourceIndex 187
+202. 吃 · hz-h1-26aea8f4d583 · sourceIndex 188
+203. 喝 · hz-h1-ea87e2f5091f · sourceIndex 189
+204. 渴 · hz-h1-b11a9f950493 · sourceIndex 190

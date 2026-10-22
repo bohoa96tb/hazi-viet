@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 190 mục đủ cấu trúc V1/V2; còn 2044. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 180 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 202 mục đủ cấu trúc V1/V2; còn 2032. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 192 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -45669,19 +45669,215 @@
           "meaning": "bố"
         }
       ],
-      "meaning": "bố",
-      "status": "example",
+      "meaning": "bố; cha",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-016",
       "examples": [
         {
+          "id": "e1",
           "zh": "我爸爸在家。",
-          "vi": "Bố tôi ở nhà."
+          "vi": "Bố tôi ở nhà。",
+          "analysis": "我爸爸 là chủ ngữ; 爸爸 chỉ người cha.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "爸爸，今天我早点回家。",
+          "vi": "Bố ơi, hôm nay con về nhà sớm。",
+          "analysis": "爸爸 đứng đầu câu làm lời gọi trực tiếp。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 161,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=82&la=0&powerMode=0",
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=81&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 181,
+        "introduction": {
+          "scope": "爸爸 là cách gọi phổ biến khi nói với người khác về cha hoặc gọi cha."
+        },
+        "meaning": {
+          "scene": "Bạn kể với bạn bè về cha mình hoặc gọi cha ở nhà.",
+          "explanation": "爸爸 chỉ người cha, dùng tự nhiên trong lời nói hằng ngày.",
+          "boundary": "Dùng 我爸爸 khi kể về cha mình; gọi trực tiếp có thể nói 爸爸.",
+          "conditions": [
+            "爸爸 dùng được trong lời kể và lời gọi thân mật.",
+            "父亲 thường trang trọng hơn, như trong giấy tờ hoặc lời giới thiệu chính thức."
+          ],
+          "takeaway": "Nói chuyện thường ngày dùng 爸爸; 父亲 trang trọng hơn."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我爸爸在家。",
+            "vi": "Bố tôi ở nhà。",
+            "analysis": "我爸爸 là chủ ngữ; 爸爸 chỉ người cha.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "爸爸，今天我早点回家。",
+            "vi": "Bố ơi, hôm nay con về nhà sớm。",
+            "analysis": "爸爸 đứng đầu câu làm lời gọi trực tiếp。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "我爸爸 + vị ngữ",
+            "position": "我 đứng trước 爸爸 để chỉ cha của người nói。",
+            "required": "Dùng 我爸爸 khi cần nói rõ cha mình。",
+            "omission": "Nếu người nghe đã biết, có thể chỉ nói 爸爸在家。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "爸爸，+ lời nói",
+            "position": "Đặt 爸爸 ở đầu câu khi gọi cha。",
+            "required": "Ngắt bằng dấu phẩy rồi nói điều muốn nhắn。",
+            "omission": "Có thể bỏ lời gọi nếu không cần hướng lời nói đến cha。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "爸爸 và 父亲",
+            "scene": "Bạn trò chuyện thân mật về cha mình。",
+            "possibleConfusion": "Cả hai chỉ cha, nhưng mức độ trang trọng khác。",
+            "difference": "爸爸 gần gũi, thông dụng; 父亲 trang trọng hơn。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我爸爸在家。",
+                "vi": "Bố tôi ở nhà。",
+                "comment": "Cách nói đời thường。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我的父亲在家。",
+                "vi": "Cha tôi ở nhà。",
+                "comment": "Đúng nghĩa nhưng trang trọng hơn。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Trong trò chuyện thân mật dùng 爸爸; lời giới thiệu trang trọng có thể dùng 父亲。"
+            },
+            "boundary": "Hai từ cùng chỉ cha; chọn theo giọng điệu。",
+            "tip": "Nói chuyện thường ngày: 爸爸。"
+          },
+          {
+            "id": "t2",
+            "title": "Khi gọi trực tiếp",
+            "scene": "Bạn muốn gọi cha trước khi nói。",
+            "possibleConfusion": "Đại từ sở hữu không cần thiết trong lời gọi。",
+            "difference": "爸爸 là lời gọi; 我爸爸 thường là cụm danh từ trong lời kể。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "爸爸，你先坐。",
+                "vi": "Bố ơi, bố ngồi trước đi。",
+                "comment": "Lời gọi trực tiếp, không cần 我。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我爸爸，你先坐。",
+                "vi": "Bố tôi, bố ngồi trước đi。",
+                "comment": "Không tự nhiên như lời gọi; bỏ 我。",
+                "judgment": "unnatural",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "wrong-intent",
+              "explanation": "Nếu gọi cha, nói 爸爸，你先坐。; nếu kể với người khác, nói 我爸爸……"
+            },
+            "boundary": "我爸爸 dùng trong lời kể; 爸爸 ở đầu câu có thể là lời gọi。",
+            "tip": "Khi gọi ai, dùng cách xưng hô trực tiếp。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "爸爸 và 父亲: Nói chuyện thường ngày: 爸爸。 Khi gọi trực tiếp: Khi gọi ai, dùng cách xưng hô trực tiếp。"
+        },
+        "pronunciation": {
+          "text": "Âm tiết thứ hai của 爸爸 thường đọc nhẹ, ngắn trong lời nói tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Chọn cách nói thân mật: Bố tôi ở nhà。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Gọi cha và nhờ cha ngồi trước。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我爸爸在家。"
+            ],
+            "explanation": "我爸爸 là cách nói đời thường về cha mình。"
+          },
+          "q2": {
+            "accepted": [
+              "爸爸，你先坐。"
+            ],
+            "explanation": "爸爸 có thể đứng đầu câu làm lời gọi。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hãy kể với bạn rằng bố bạn đang ở nhà。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Gọi bố và nói bạn sẽ về muộn hôm nay。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu người được nói đến rồi báo vị trí。",
+            "frame": "我爸爸 + nơi chốn/ vị ngữ",
+            "model": "我爸爸在家。",
+            "vi": "Bố tôi ở nhà。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Bắt đầu bằng lời gọi, sau đó nói kế hoạch。",
+            "frame": "爸爸，+ câu thông báo",
+            "model": "爸爸，我今天晚点回家。",
+            "vi": "Bố ơi, hôm nay con về muộn。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-091e097d8c14",
@@ -45694,18 +45890,183 @@
         }
       ],
       "meaning": "không",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-016",
       "examples": [
         {
-          "zh": "我不喝茶。",
-          "vi": "Tôi không uống trà."
+          "id": "e1",
+          "zh": "我不喝咖啡。",
+          "vi": "Tôi không uống cà phê。",
+          "analysis": "不 đứng trước 喝 để nói lựa chọn hoặc thói quen。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "今天我不去公司。",
+          "vi": "Hôm nay tôi không đến công ty。",
+          "analysis": "不 phủ định kế hoạch hoặc ý định đi hôm nay。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 162,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=1911&la=0&powerMode=0",
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3846&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 182,
+        "introduction": {
+          "scope": "不 đặt trước động từ hoặc tính từ để phủ định, thường nói về thói quen, ý định, lựa chọn hoặc trạng thái。"
+        },
+        "meaning": {
+          "scene": "Bạn nói mình không uống cà phê hoặc không muốn đi。",
+          "explanation": "不 phủ định việc làm, mong muốn hay trạng thái; thời điểm và ý người nói giúp chọn 不 hay 没。",
+          "boundary": "不 + động từ/tính từ; việc đã không xảy ra thường dùng 没(有) + động từ。",
+          "conditions": [
+            "Dùng 不 cho thói quen, ý định, lời từ chối hoặc trạng thái: 不喝、不要、不忙。",
+            "Dùng 没(有) khi phủ định việc đã xảy ra hoặc sự có mặt/sở hữu。"
+          ],
+          "takeaway": "Ý định hoặc thói quen: 不; việc đã không xảy ra: thường là 没。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我不喝咖啡。",
+            "vi": "Tôi không uống cà phê。",
+            "analysis": "不 đứng trước 喝 để nói lựa chọn hoặc thói quen。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "今天我不去公司。",
+            "vi": "Hôm nay tôi không đến công ty。",
+            "analysis": "不 phủ định kế hoạch hoặc ý định đi hôm nay。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ ngữ + 不 + động từ/tính từ",
+            "position": "不 đặt ngay trước điều muốn phủ định。",
+            "required": "Giữ động từ hoặc tính từ sau 不。",
+            "omission": "Có thể lược chủ ngữ khi ngữ cảnh đã rõ。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "不 + 要/想/是/忙",
+            "position": "不 đứng trước từ chỉ ý muốn hoặc trạng thái。",
+            "required": "Chọn 不 theo ý định/trạng thái, không chỉ theo chữ “không”。",
+            "omission": "Nếu chủ ngữ đã rõ, có thể lược。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "不 và 没: thói quen hay việc đã xảy ra",
+            "scene": "Bạn trả lời về cà phê hôm nay。",
+            "possibleConfusion": "Tiếng Việt dùng “không” cho cả thói quen lẫn sự việc đã qua。",
+            "difference": "不喝 thường là lựa chọn/thói quen; 没喝 nói lần cụ thể đã không uống。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我不喝咖啡。",
+                "vi": "Tôi không uống cà phê。",
+                "comment": "Nói lựa chọn hoặc thói quen chung。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我昨天没喝咖啡。",
+                "vi": "Hôm qua tôi đã không uống cà phê。",
+                "comment": "Phủ định việc đã xảy ra hôm qua。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Chọn 不 cho lựa chọn/thói quen, 没 cho việc cụ thể đã không xảy ra。"
+            },
+            "boundary": "Có câu dùng 不 để nói ý định tương lai; hãy xét ý người nói。",
+            "tip": "Hỏi: thường/định không, hay đã không làm?"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "不 và 没: thói quen hay việc đã xảy ra: Hỏi: thường/định không, hay đã không làm?"
+        },
+        "pronunciation": {
+          "text": "不 có thể đổi thanh khi đứng trước âm tiết thanh 4; chữ và nghĩa phủ định vẫn giữ nguyên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền 不 hoặc 没: 我___喝咖啡，我不喜欢。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Điền 不 hoặc 没: 我昨天___去公司。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "不"
+            ],
+            "explanation": "Câu nêu lựa chọn hiện tại。"
+          },
+          "q2": {
+            "accepted": [
+              "没"
+            ],
+            "explanation": "Đang nói việc hôm qua đã không xảy ra。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Từ chối đồ uống vì bạn không uống loại đó。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn không muốn đi mua sắm hôm nay。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu lựa chọn bằng phủ định trước động từ。",
+            "frame": "我 + 不 + động từ",
+            "model": "我不喝茶。",
+            "vi": "Tôi không uống trà。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 不 trước 想 để nói ý định。",
+            "frame": "我今天 + 不想 + hành động",
+            "model": "我今天不想去买东西。",
+            "vi": "Hôm nay tôi không muốn đi mua đồ。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hui",
@@ -46103,22 +46464,217 @@
       "intro": [
         {
           "pinyin": "ma",
-          "meaning": "không"
+          "meaning": "trợ từ hỏi có/không"
         }
       ],
-      "meaning": "không",
-      "status": "example",
+      "meaning": "trợ từ đặt cuối câu hỏi có/không",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-016",
       "examples": [
         {
-          "zh": "你是老师吗？",
-          "vi": "Bạn có phải là giáo viên không?"
+          "id": "e1",
+          "zh": "你是学生吗？",
+          "vi": "Bạn là học sinh à？",
+          "analysis": "Câu kể 你是学生 được hỏi bằng 吗 ở cuối。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你今天上班吗？",
+          "vi": "Hôm nay bạn đi làm không？",
+          "analysis": "Thời gian đứng trước động từ; 吗 kết thúc câu hỏi。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 164,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3600&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 183,
+        "introduction": {
+          "scope": "吗 đặt cuối câu kể để biến câu ấy thành câu hỏi có/không; nó không có nghĩa riêng như danh từ。"
+        },
+        "meaning": {
+          "scene": "Bạn hỏi đồng nghiệp hôm nay có đi làm hay không。",
+          "explanation": "Giữ trật tự câu kể, thêm 吗 ở cuối để hỏi người nghe xác nhận。",
+          "boundary": "Câu kể + 吗?; với dạng A-not-A như 是不是, thường không thêm 吗。",
+          "conditions": [
+            "吗 đứng ở cuối câu hỏi。",
+            "Câu có lựa chọn A-not-A đã tự tạo câu hỏi; thêm 吗 thường thừa。"
+          ],
+          "takeaway": "Muốn hỏi có/không, giữ câu kể rồi thêm 吗 ở cuối。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你是学生吗？",
+            "vi": "Bạn là học sinh à？",
+            "analysis": "Câu kể 你是学生 được hỏi bằng 吗 ở cuối。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你今天上班吗？",
+            "vi": "Hôm nay bạn đi làm không？",
+            "analysis": "Thời gian đứng trước động từ; 吗 kết thúc câu hỏi。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "câu kể + 吗？",
+            "position": "吗 luôn đứng cuối phần câu được hỏi。",
+            "required": "Giữ trật tự chủ ngữ và vị ngữ như câu kể。",
+            "omission": "Chủ ngữ có thể lược khi đã rõ。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "thời gian + hành động + 吗",
+            "position": "Đặt mốc thời gian trước hành động nếu cần。",
+            "required": "Thêm 吗 sau toàn bộ câu。",
+            "omission": "Có thể bỏ mốc thời gian nếu không cần。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "吗 và câu hỏi 是不是",
+            "scene": "Bạn hỏi đồng nghiệp có đi làm hôm nay không。",
+            "possibleConfusion": "Hai mẫu đều hỏi có/không, nên dễ ghép cả hai。",
+            "difference": "Câu kể + 吗 là một cách hỏi; 是不是 là khung A-not-A; mẫu cơ bản chỉ cần một cách。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你今天上班吗？",
+                "vi": "Hôm nay bạn đi làm không？",
+                "comment": "Câu kể + 吗; đúng và tự nhiên。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你今天是不是上班？",
+                "vi": "Hôm nay có phải bạn đi làm không？",
+                "comment": "Dùng 是不是 làm dấu hiệu hỏi; không cần 吗 ở cuối mẫu này。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Dùng 你今天上班吗？ hoặc 你今天是不是上班？; không cần gắn cả hai trong mẫu cơ bản。"
+            },
+            "boundary": "Một số câu khẩu ngữ có cả hai vì ngữ khí, nhưng không phải mẫu cần học trước。",
+            "tip": "Chọn 吗 hoặc 是不是。"
+          },
+          {
+            "id": "t2",
+            "title": "吗 không thay từ để hỏi",
+            "scene": "Bạn muốn hỏi người kia tên gì。",
+            "possibleConfusion": "吗 hỏi xác nhận cả câu, không hỏi thông tin cụ thể。",
+            "difference": "什么/谁/哪儿 hỏi phần thông tin; 吗 thường cần câu trả lời có/không。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你叫什么名字？",
+                "vi": "Bạn tên gì？",
+                "comment": "什么 hỏi thông tin cụ thể。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你是学生吗？",
+                "vi": "Bạn là học sinh à？",
+                "comment": "吗 hỏi xác nhận mệnh đề。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Dùng từ hỏi khi cần thông tin; dùng 吗 khi cần xác nhận có/không。"
+            },
+            "boundary": "Sắc thái đổi theo ngữ cảnh, nhưng chức năng cơ bản khác nhau。",
+            "tip": "Cần tên/nơi? Dùng từ hỏi; yes/no? Dùng 吗。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "吗 và câu hỏi 是不是: Chọn 吗 hoặc 是不是。 吗 không thay từ để hỏi: Cần tên/nơi? Dùng từ hỏi; yes/no? Dùng 吗。"
+        },
+        "pronunciation": {
+          "text": "吗 ở cuối câu hỏi thường đọc nhẹ, ngắn; vẫn phát âm, không bỏ âm tiết. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Thêm 吗 để hỏi: 你是老师。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Hỏi “Bạn có bận không?” bằng câu kể + 吗。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你是老师吗？"
+            ],
+            "explanation": "Giữ câu kể rồi đặt 吗 ở cuối。"
+          },
+          "q2": {
+            "accepted": [
+              "你忙吗？"
+            ],
+            "explanation": "吗 đứng cuối câu hỏi。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi bạn mình hôm nay có đi học không。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi người bán món này có cay không。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Giữ câu kể ngắn rồi thêm 吗 ở cuối。",
+            "frame": "你今天 + hành động + 吗？",
+            "model": "你今天上课吗？",
+            "vi": "Hôm nay bạn có học không？",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Nêu món/đối tượng rồi hỏi bằng 吗。",
+            "frame": "这个 + tính từ + 吗？",
+            "model": "这个菜辣吗？",
+            "vi": "Món này cay không？",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "zai-place",
@@ -46546,19 +47102,214 @@
           "meaning": "đúng"
         }
       ],
-      "meaning": "đúng",
-      "status": "example",
+      "meaning": "đúng; chính xác",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-016",
       "examples": [
         {
-          "zh": "你说得对。",
-          "vi": "Bạn nói đúng."
+          "id": "e1",
+          "zh": "你的答案对。",
+          "vi": "Đáp án của bạn đúng。",
+          "analysis": "答案 là điều được đánh giá; 对 đứng sau。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这个办法是对的。",
+          "vi": "Cách này là đúng。",
+          "analysis": "是对的 nhấn vào nhận định “đúng”。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 166,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=9499&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 184,
+        "introduction": {
+          "scope": "Trong bài này, 对 đánh giá câu trả lời hoặc thông tin là đúng。"
+        },
+        "meaning": {
+          "scene": "Bạn kiểm tra đáp án trong lớp。",
+          "explanation": "Đặt 对 sau điều được đánh giá; có thể dùng 是对的 để nói thành câu đầy đủ。",
+          "boundary": "答案对 là đáp án đúng; 对 + người/vật lại có nghĩa “đối với”, là khung khác。",
+          "conditions": [
+            "A 对 / A 是对的 để nói A đúng。",
+            "对 + đối tượng như 对我很好 có nghĩa “đối với tôi”, không phải “đúng”。"
+          ],
+          "takeaway": "Khi đánh giá đáp án, 对 đứng sau điều đúng。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你的答案对。",
+            "vi": "Đáp án của bạn đúng。",
+            "analysis": "答案 là điều được đánh giá; 对 đứng sau。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这个办法是对的。",
+            "vi": "Cách này là đúng。",
+            "analysis": "是对的 nhấn vào nhận định “đúng”。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "đáp án/thông tin + 对",
+            "position": "对 đứng sau điều được đánh giá。",
+            "required": "Nêu điều cần đánh giá trước 对。",
+            "omission": "Có thể trả lời ngắn 对。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "是 + điều được nhận xét + 对的",
+            "position": "对的 nằm sau 是 và phần nhận xét。",
+            "required": "Dùng 对的 trong câu nhận xét đầy đủ。",
+            "omission": "Có thể bỏ 是 trong xác nhận ngắn。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "对 nghĩa “đúng” và 对 + người nghĩa “đối với”",
+            "scene": "Bạn xác nhận đáp án rồi nói về cách đối xử với đồng nghiệp。",
+            "possibleConfusion": "Cùng chữ 对 nhưng vai trò và nghĩa đổi theo vị trí。",
+            "difference": "Sau đáp án, 对 có nghĩa “đúng”; trước người/vật, 对 có nghĩa “đối với”。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个答案对。",
+                "vi": "Đáp án này đúng。",
+                "comment": "对 đứng sau để đánh giá。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他对同事很好。",
+                "vi": "Anh ấy rất tốt với đồng nghiệp。",
+                "comment": "对 đứng trước 同事, chỉ đối tượng được đối xử。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Sau đáp án là “đúng”; trước đối tượng là khung “đối với”。"
+            },
+            "boundary": "Đối với người có thể nói về thái độ; không dịch thành “đúng với người”。",
+            "tip": "Nhìn từ ngay sau 对 để nhận ra khung。"
+          },
+          {
+            "id": "t2",
+            "title": "对 và 对的",
+            "scene": "Bạn trả lời “đúng” hoặc nhận xét đầy đủ về đáp án。",
+            "possibleConfusion": "Người học có thể nghĩ bắt buộc phải có 是对的。",
+            "difference": "对 đứng độc lập làm câu trả lời ngắn; 是对的 là câu nhận xét có chủ thể。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "对，我记得。",
+                "vi": "Đúng, tôi nhớ。",
+                "comment": "对 xác nhận ngắn。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你的答案是对的。",
+                "vi": "Đáp án của bạn là đúng。",
+                "comment": "是对的 nằm trong câu nhận xét đầy đủ。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Dùng 对 để xác nhận ngắn; dùng 是对的 trong câu có chủ thể được đánh giá。"
+            },
+            "boundary": "Cùng xác nhận đúng nhưng đứng ở vị trí khác nhau。",
+            "tip": "Câu trả lời ngắn có thể chỉ nói 对。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "对 nghĩa “đúng” và 对 + người nghĩa “đối với”: Nhìn từ ngay sau 对 để nhận ra khung。 对 và 对的: Câu trả lời ngắn có thể chỉ nói 对。"
+        },
+        "pronunciation": {
+          "text": "对 đọc thanh 4; giữ âm gọn, rõ khi trả lời ngắn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Sắp xếp thành câu: 对 / 你的答案。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trả lời ngắn “Đúng, tôi biết.”"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你的答案对。"
+            ],
+            "explanation": "Điều được đánh giá đứng trước 对。"
+          },
+          "q2": {
+            "accepted": [
+              "对，我知道。"
+            ],
+            "explanation": "对 có thể làm lời xác nhận độc lập。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Xác nhận đáp án của bạn cùng lớp là đúng。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Trả lời ngắn rằng bạn cũng đồng ý。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu đáp án trước, rồi đánh giá bằng 对。",
+            "frame": "答案 + 对",
+            "model": "这个答案对。",
+            "vi": "Đáp án này đúng。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 对 ở đầu câu xác nhận。",
+            "frame": "对，+ lời xác nhận",
+            "model": "对，我也这么想。",
+            "vi": "Đúng, tôi cũng nghĩ vậy。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-740051dfbab9",
@@ -46570,38 +47321,443 @@
           "meaning": "có"
         }
       ],
-      "meaning": "có",
-      "status": "example",
+      "meaning": "có; sở hữu hoặc có mặt",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-016",
       "examples": [
         {
-          "zh": "我有一个问题。",
-          "vi": "Tôi có một câu hỏi."
+          "id": "e1",
+          "zh": "我有一本词典。",
+          "vi": "Tôi có một cuốn từ điển。",
+          "analysis": "一本 là lượng từ + danh từ đứng sau 有。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "桌上有一本书。",
+          "vi": "Trên bàn có một quyển sách。",
+          "analysis": "桌上 là nơi chốn; vật hiện diện theo sau 有。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 168,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=10946&q=1&word=%E6%9C%89"
+        ],
+        "cohortOrdinal": 185,
+        "introduction": {
+          "scope": "有 nói một người sở hữu thứ gì, hoặc một vật/người hiện diện ở một nơi。"
+        },
+        "meaning": {
+          "scene": "Bạn nói mình có cuốn từ điển hoặc trên bàn có sách。",
+          "explanation": "Với sở hữu, người sở hữu đứng trước 有; với sự hiện diện, nơi chốn đứng trước 有 và vật/người đứng sau。",
+          "boundary": "我有一本书 là tôi có sách; 桌上有一本书 là trên bàn có sách. Cấu trúc này không dùng 是 thay 有。",
+          "conditions": [
+            "Sở hữu: người + 有 + vật; lượng từ thường đứng giữa 有 và danh từ đếm được。",
+            "Tồn tại: nơi chốn + 有 + vật/người。"
+          ],
+          "takeaway": "Đầu câu là người thì thường nói sở hữu; là nơi chốn thì thường nói vật hiện diện。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我有一本词典。",
+            "vi": "Tôi có một cuốn từ điển。",
+            "analysis": "一本 là lượng từ + danh từ đứng sau 有。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "桌上有一本书。",
+            "vi": "Trên bàn có một quyển sách。",
+            "analysis": "桌上 là nơi chốn; vật hiện diện theo sau 有。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 有 + lượng từ + danh từ",
+            "position": "有 đứng sau người sở hữu。",
+            "required": "Với danh từ đếm được, đặt lượng từ trước danh từ。",
+            "omission": "Có thể lược người sở hữu nếu ngữ cảnh rõ。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "nơi chốn + 有 + vật/người",
+            "position": "Nơi chốn đứng trước 有, vật/người xuất hiện đứng sau。",
+            "required": "Dùng để nói có gì ở đâu。",
+            "omission": "Có thể lược nơi chốn nếu đã nêu。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Sở hữu và sự hiện diện",
+            "scene": "Bạn nói về từ điển mình có và sách trên bàn。",
+            "possibleConfusion": "Cùng 有 nhưng chủ thể đầu câu thể hiện góc nhìn khác nhau。",
+            "difference": "Người + 有 + vật nói sở hữu; nơi chốn + 有 + vật nói sự hiện diện。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我有一本词典。",
+                "vi": "Tôi có một cuốn từ điển。",
+                "comment": "我 là người sở hữu。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "桌上有一本词典。",
+                "vi": "Trên bàn có một cuốn từ điển。",
+                "comment": "桌上 là nơi chốn có vật hiện diện。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Chọn đầu câu theo ý: nêu người sở hữu hoặc nơi có vật。"
+            },
+            "boundary": "Cùng một vật có thể vào cả hai khung; góc nhìn khác nhau。",
+            "tip": "Đầu câu là người hay nơi chốn?"
+          },
+          {
+            "id": "t2",
+            "title": "有 và 是",
+            "scene": "Bạn nói mình có bạn rồi giới thiệu một người là bạn mình。",
+            "possibleConfusion": "Tiếng Việt có thể dịch quan hệ ấy bằng cả “có” và “là”。",
+            "difference": "有 nói sở hữu/hiện diện; 是 nối chủ thể với danh tính hoặc loại。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我有一个朋友。",
+                "vi": "Tôi có một người bạn。",
+                "comment": "有 nói mình có bạn。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他是我的朋友。",
+                "vi": "Anh ấy là bạn tôi。",
+                "comment": "是 nêu quan hệ/danh tính của 他。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói “có một người bạn” dùng 有; giới thiệu “anh ấy là bạn tôi” dùng 是。"
+            },
+            "boundary": "Tiếng Việt diễn đạt gần nhau nhưng cấu trúc tiếng Hoa khác nhau。",
+            "tip": "Nêu có/sở hữu dùng 有; nêu danh tính dùng 是。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "Sở hữu và sự hiện diện: Đầu câu là người hay nơi chốn? 有 và 是: Nêu có/sở hữu dùng 有; nêu danh tính dùng 是。"
+        },
+        "pronunciation": {
+          "text": "有 đọc thanh 3; đọc thanh điệu theo nhịp nối trong câu, không đổi chữ hay nghĩa. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền 有 hoặc 是: 我___一个妹妹。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Sắp xếp: 桌上 / 有 / 两本书。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "有"
+            ],
+            "explanation": "Câu nói người nói có một em gái。"
+          },
+          "q2": {
+            "accepted": [
+              "桌上有两本书。"
+            ],
+            "explanation": "Nơi chốn đứng trước 有, vật đứng sau。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn có một chiếc điện thoại。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói trên bàn có hai cốc nước。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Người sở hữu + 有 + lượng từ + đồ vật。",
+            "frame": "我有 + 一部 + 手机",
+            "model": "我有一部手机。",
+            "vi": "Tôi có một chiếc điện thoại。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Đưa nơi chốn lên đầu rồi dùng 有。",
+            "frame": "桌上 + 有 + số lượng + danh từ",
+            "model": "桌上有两杯水。",
+            "vi": "Trên bàn có hai cốc nước。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "chưa",
+      "meaning": "không; chưa",
       "intro": [
         {
           "pinyin": "méi",
-          "meaning": "chưa"
+          "meaning": "không; chưa"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我没有车。",
+          "vi": "Tôi không có xe。",
+          "analysis": "没有 đứng trước 車 để phủ định sở hữu。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他昨天没来上课。",
+          "vi": "Hôm qua anh ấy đã không đến lớp。",
+          "analysis": "没 đứng trước 来, phủ định sự việc hôm qua。",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-c6959958649f",
       "hanzi": "没",
       "level": 1,
       "sourceIndex": 169,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-016",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3846&la=0&powerMode=0",
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3872&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 186,
+        "introduction": {
+          "scope": "没 đứng trước 有 hoặc động từ để nói không có/chưa có, hoặc một việc đã không xảy ra。"
+        },
+        "meaning": {
+          "scene": "Bạn nói hôm qua mình không đi làm hoặc hiện không có vé。",
+          "explanation": "没 phủ định sự có mặt/sở hữu và thường phủ định việc đã xảy ra. Phủ định 有 dùng 没有, không dùng 不有。",
+          "boundary": "没(有) + động từ nói việc đã không xảy ra; 没有 + danh từ nói không có; thói quen/ý định thường dùng 不。",
+          "conditions": [
+            "Dùng 没有 trước danh từ để phủ định có/sở hữu。",
+            "Dùng 没(有) trước động từ để nói việc đã không xảy ra。",
+            "Không dùng 不有 trong cách nói cơ bản; phủ định 有 là 没有。"
+          ],
+          "takeaway": "Phủ định 有 hoặc việc đã không xảy ra: 没(有); phủ định thói quen/ý định: 不。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我没有车。",
+            "vi": "Tôi không có xe。",
+            "analysis": "没有 đứng trước 車 để phủ định sở hữu。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他昨天没来上课。",
+            "vi": "Hôm qua anh ấy đã không đến lớp。",
+            "analysis": "没 đứng trước 来, phủ định sự việc hôm qua。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ ngữ + 没有 + danh từ",
+            "position": "没有 đứng giữa người sở hữu và vật。",
+            "required": "Dùng 没有 để nói không có vật/người。",
+            "omission": "Có thể lược chủ ngữ khi ngữ cảnh rõ。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ ngữ + 没(有) + động từ",
+            "position": "没 đứng trước hành động được phủ định。",
+            "required": "Đặt thời gian nếu muốn chỉ rõ lần nào。",
+            "omission": "Trong ngữ cảnh rõ, 有 đôi khi lược trước động từ。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "没 và 不 khi kể một việc đã qua",
+            "scene": "Bạn giải thích vì sao hôm qua không đến lớp。",
+            "possibleConfusion": "Cả hai thường dịch là “không”, nhưng nói về ý khác nhau。",
+            "difference": "没来 nói việc đã không xảy ra; 不来 thường là lựa chọn hoặc kế hoạch không đến。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我昨天没来上课。",
+                "vi": "Hôm qua tôi đã không đến lớp。",
+                "comment": "Phủ định việc đã xảy ra。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我今天不来上课。",
+                "vi": "Hôm nay tôi không đến lớp。",
+                "comment": "Phủ định lựa chọn/kế hoạch hôm nay; nghĩa khác。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Kể việc đã không xảy ra dùng 没; nói quyết định/kế hoạch dùng 不。"
+            },
+            "boundary": "Không chỉ nhìn mốc thời gian; xem đang kể sự việc hay ý định。",
+            "tip": "Đã không làm hay định không làm?"
+          },
+          {
+            "id": "t2",
+            "title": "Phủ định 有 là 没有",
+            "scene": "Bạn nói mình không có vé。",
+            "possibleConfusion": "Người học có thể dịch từng chữ rồi đặt 不 trước 有。",
+            "difference": "Phủ định sở hữu/hiện diện của 有 trong mẫu cơ bản dùng 没有。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我没有票。",
+                "vi": "Tôi không có vé。",
+                "comment": "没有 phủ định sở hữu。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我不有票。",
+                "vi": "Câu sai: tôi không có vé。",
+                "comment": "不有 không phải cách phủ định cơ bản; sửa thành 没有票。",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Viết 我没有票。"
+            },
+            "boundary": "不有 không phải cấu trúc phủ định cơ bản của 有。",
+            "tip": "Nhớ cặp 有 — 没有。",
+            "corrections": [
+              {
+                "caseId": "c2",
+                "zh": "我没有票。",
+                "vi": "Tôi không có vé。",
+                "reason": "Phủ định sở hữu của 有 dùng 没有。"
+              }
+            ]
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "没 và 不 khi kể một việc đã qua: Đã không làm hay định không làm? Phủ định 有 là 没有: Nhớ cặp 有 — 没有。"
+        },
+        "pronunciation": {
+          "text": "没 đọc thanh 2; trong 没有, giữ đủ hai âm tiết và nối tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền 不 hoặc 没: 他昨天___来。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Sửa câu 我不有手机。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "没"
+            ],
+            "explanation": "Đang kể việc hôm qua không xảy ra。"
+          },
+          "q2": {
+            "accepted": [
+              "我没有手机。"
+            ],
+            "explanation": "Phủ định sở hữu của 有 dùng 没有。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói rằng hôm nay bạn không có tiền mặt。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hôm nay bạn chưa ăn sáng。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 没有 trước danh từ。",
+            "frame": "我 + 没有 + danh từ",
+            "model": "我没有现金。",
+            "vi": "Hôm nay tôi không có tiền mặt。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 没(有) trước động từ và nêu thời gian。",
+            "frame": "我今天 + 没(有) + động từ",
+            "model": "我今天没吃早饭。",
+            "vi": "Hôm nay tôi chưa ăn sáng。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-706b146215d7",
@@ -46610,22 +47766,218 @@
       "intro": [
         {
           "pinyin": "de",
-          "meaning": "của"
+          "meaning": "trợ từ nối phần bổ nghĩa với danh từ"
         }
       ],
-      "meaning": "của",
-      "status": "example",
+      "meaning": "trợ từ nối phần bổ nghĩa với danh từ; thường chỉ sở hữu",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-016",
       "examples": [
         {
+          "id": "e1",
           "zh": "这是我的手机。",
-          "vi": "Đây là điện thoại của tôi."
+          "vi": "Đây là điện thoại của tôi。",
+          "analysis": "我 đứng trước 的 để chỉ sở hữu; 手机 là danh từ chính。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我想买一部新的手机。",
+          "vi": "Tôi muốn mua một chiếc điện thoại mới。",
+          "analysis": "一部 là lượng từ cho điện thoại; 新的 miêu tả 手机。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 170,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=7457&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 187,
+        "introduction": {
+          "scope": "的 thường đứng giữa phần sở hữu/miêu tả và danh từ được nói đến。"
+        },
+        "meaning": {
+          "scene": "Bạn nói đây là điện thoại của mình hoặc một cuốn sách mới。",
+          "explanation": "Phần bổ nghĩa đứng trước 的, danh từ chính đứng sau. Với quan hệ gần gũi như 我爸爸, 的 thường có thể bỏ。",
+          "boundary": "我的书 = sách của tôi; 新的书 = sách mới. Phần trước 的 cho biết sở hữu hay đặc điểm。",
+          "conditions": [
+            "Người sở hữu + 的 + danh từ: 我的书。",
+            "Tính từ/cụm miêu tả + 的 + danh từ: 新的手机。",
+            "Một số quan hệ thân thuộc cho phép lược 的: 我爸爸。"
+          ],
+          "takeaway": "Tìm danh từ sau 的; phần trước cho biết của ai hoặc đặc điểm gì。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这是我的手机。",
+            "vi": "Đây là điện thoại của tôi。",
+            "analysis": "我 đứng trước 的 để chỉ sở hữu; 手机 là danh từ chính。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我想买一部新的手机。",
+            "vi": "Tôi muốn mua một chiếc điện thoại mới。",
+            "analysis": "一部 là lượng từ cho điện thoại; 新的 miêu tả 手机。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người/vật + 的 + danh từ",
+            "position": "的 đứng giữa phần sở hữu và danh từ được sở hữu。",
+            "required": "Đặt danh từ chính sau 的。",
+            "omission": "Có thể bỏ 的 trong một số quan hệ gần như 我爸爸。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "tính từ/cụm miêu tả + 的 + danh từ",
+            "position": "的 nối phần miêu tả với danh từ。",
+            "required": "Để danh từ được miêu tả ngay sau 的。",
+            "omission": "Trong một số cụm ngắn quen thuộc, 的 có thể lược; người mới học nên giữ lại。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "的 trong sở hữu và quan hệ thân thuộc",
+            "scene": "Bạn nói “điện thoại của tôi” và “bố tôi”。",
+            "possibleConfusion": "Người học có thể thêm 的 sau mọi đại từ sở hữu。",
+            "difference": "我的手机 dùng 的; với người thân gần gũi, 我爸爸 thường bỏ 的。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我的手机在这儿。",
+                "vi": "Điện thoại của tôi ở đây。",
+                "comment": "的 nối sở hữu với 手机。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我爸爸在家。",
+                "vi": "Bố tôi ở nhà。",
+                "comment": "Quan hệ thân thuộc thường bỏ 的。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "context-needed",
+              "explanation": "Dùng 我的手机; với quan hệ thân thuộc gần gũi thường nói 我爸爸。"
+            },
+            "boundary": "我爸爸的书 vẫn đúng nghĩa “sách của bố tôi”; không bỏ 的 nếu nó nối với danh từ khác。",
+            "tip": "Đồ vật: giữ 的; quan hệ thân thuộc: thường có thể lược。"
+          },
+          {
+            "id": "t2",
+            "title": "的 và 地 trong hai khung",
+            "scene": "Bạn nói “điện thoại mới” và “học chăm chỉ”。",
+            "possibleConfusion": "的 và 地 thường đọc nhẹ nhưng đứng ở khung khác nhau trong văn viết chuẩn。",
+            "difference": "的 thường nối phần bổ nghĩa với danh từ; 地 đứng trước động từ để chỉ cách thực hiện。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "新的手机",
+                "vi": "điện thoại mới",
+                "comment": "新的 bổ nghĩa cho danh từ 手机。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "认真地学习",
+                "vi": "học chăm chỉ",
+                "comment": "地 đứng trước động từ 学习, chỉ cách làm。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Trước danh từ dùng khung 的 + danh từ; trước động từ chỉ cách thức có thể gặp 地 + động từ。"
+            },
+            "boundary": "Trong văn không trang trọng có thể thấy chữ dùng lẫn; ở đây học theo khung chuẩn。",
+            "tip": "Nhìn sau trợ từ: danh từ hay động từ?"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "的 trong sở hữu và quan hệ thân thuộc: Đồ vật: giữ 的; quan hệ thân thuộc: thường có thể lược。 的 và 地 trong hai khung: Nhìn sau trợ từ: danh từ hay động từ?"
+        },
+        "pronunciation": {
+          "text": "的 trong cụm sở hữu thường đọc nhẹ và ngắn; vẫn phát âm, không bỏ hẳn âm tiết. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền 的: 这是我___书。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Hoàn thành cách nói thân thuộc “bố tôi”: 我___爸爸。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "的"
+            ],
+            "explanation": "的 nối người sở hữu với 书。"
+          },
+          "q2": {
+            "accepted": [
+              "Không cần 的; nói 我爸爸。"
+            ],
+            "explanation": "Quan hệ gia đình gần gũi thường cho phép lược 的。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói đây là cuốn từ điển của bạn。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Miêu tả điện thoại mới bạn muốn mua。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng đại từ sở hữu + 的 + danh từ。",
+            "frame": "这是 + 我的 + danh từ",
+            "model": "这是我的词典。",
+            "vi": "Đây là từ điển của tôi。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Đặt 新的 trước danh từ 手机。",
+            "frame": "我想买 + 新的 + danh từ",
+            "model": "我想买一部新的手机。",
+            "vi": "Tôi muốn mua điện thoại mới。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "neng",
@@ -47409,45 +48761,443 @@
       "intro": [
         {
           "pinyin": "hái",
-          "meaning": "vẫn"
+          "meaning": "vẫn; còn"
         },
         {
           "pinyin": "huán",
           "meaning": "trả lại"
         }
       ],
-      "meaning": "vẫn",
-      "status": "example",
+      "meaning": "vẫn; còn",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-016",
       "examples": [
         {
-          "zh": "妈妈还在公司。",
-          "vi": "Mẹ vẫn ở công ty."
+          "id": "e1",
+          "zh": "我还在公司。",
+          "vi": "Tôi vẫn đang ở công ty。",
+          "analysis": "还 đứng trước 在公司 để nói trạng thái tiếp tục。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我还想喝茶。",
+          "vi": "Tôi vẫn muốn uống trà。",
+          "analysis": "还 đứng trước 想喝, cho biết mong muốn vẫn còn。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 173,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19234&la=0&powerMode=0",
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20761&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 188,
+        "introduction": {
+          "scope": "Trong nghĩa chính, 还 cho biết trạng thái/việc làm tiếp tục đến hiện tại; chữ còn có cách đọc khác trong nghĩa trả lại。"
+        },
+        "meaning": {
+          "scene": "Bạn nói mình vẫn ở công ty hoặc vẫn muốn uống trà。",
+          "explanation": "还 đứng trước trạng thái/hành động còn tiếp tục. Căn cứ cụm từ để phân biệt nghĩa “vẫn” với nghĩa “trả lại”。",
+          "boundary": "还在上班 = vẫn đang làm; 还书 = trả sách. Nghĩa và cách đọc gắn với cụm từ。",
+          "conditions": [
+            "hái thường mang nghĩa vẫn/còn; bài này tập trung nghĩa ấy。",
+            "huán dùng trong nghĩa trả lại, như 还书。",
+            "还 thường đứng trước trạng thái hoặc động từ nó bổ nghĩa。"
+          ],
+          "takeaway": "还在… là “vẫn đang”; 还书 là “trả sách” và đọc khác。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我还在公司。",
+            "vi": "Tôi vẫn đang ở công ty。",
+            "analysis": "还 đứng trước 在公司 để nói trạng thái tiếp tục。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我还想喝茶。",
+            "vi": "Tôi vẫn muốn uống trà。",
+            "analysis": "还 đứng trước 想喝, cho biết mong muốn vẫn còn。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ ngữ + 还 + trạng thái/hành động",
+            "position": "还 đặt trước phần việc tiếp tục。",
+            "required": "Đặt trạng thái hoặc động từ sau 还。",
+            "omission": "Có thể lược chủ ngữ khi đã rõ。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "还书",
+            "position": "Trong cụm này, 还 là động từ “trả lại”。",
+            "required": "Đặt vật được trả sau 还 khi nói đầy đủ。",
+            "omission": "Có thể nêu người nhận bằng 给 + người。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "还 nghĩa “vẫn” và 还 nghĩa “trả lại”",
+            "scene": "Bạn nói mình vẫn học rồi nói ngày mai sẽ trả sách。",
+            "possibleConfusion": "Cùng chữ 还 nhưng có hai cách đọc và nghĩa thông dụng。",
+            "difference": "还在学习 nói trạng thái tiếp diễn; 还书 là hành động hoàn trả。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我还在学习。",
+                "vi": "Tôi vẫn đang học。",
+                "comment": "还 bổ nghĩa trạng thái tiếp tục。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我明天还书。",
+                "vi": "Ngày mai tôi trả sách。",
+                "comment": "还 là động từ “trả lại”, không phải “vẫn”。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "还在… thường là “vẫn”; 还书 là “trả sách”。"
+            },
+            "boundary": "Cách đọc chọn theo cụm và nghĩa, không áp một âm cho mọi trường hợp。",
+            "tip": "还在…: vẫn; 还 + vật cần trả: hoàn trả。"
+          },
+          {
+            "id": "t2",
+            "title": "还 và 已经",
+            "scene": "Bạn cập nhật tiến độ công việc。",
+            "possibleConfusion": "Hai từ đều liên quan đến thời gian nhưng nhìn trạng thái khác。",
+            "difference": "还 nhấn việc vẫn tiếp diễn; 已经 nhấn việc đã đạt trạng thái/kết quả。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我还在公司。",
+                "vi": "Tôi vẫn ở công ty。",
+                "comment": "Trạng thái tiếp tục đến lúc nói。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我已经到家了。",
+                "vi": "Tôi đã về đến nhà rồi。",
+                "comment": "到家 là kết quả đã đạt。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đang tiếp diễn: 还; đã đạt kết quả: 已经。"
+            },
+            "boundary": "Hai từ có thể cùng xuất hiện trong câu dài, không phải lúc nào loại trừ nhau。",
+            "tip": "Còn tiếp tục hay đã đạt kết quả?"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "还 nghĩa “vẫn” và 还 nghĩa “trả lại”: 还在…: vẫn; 还 + vật cần trả: hoàn trả。 还 và 已经: Còn tiếp tục hay đã đạt kết quả?"
+        },
+        "pronunciation": {
+          "text": "还 có hai cách đọc thông dụng; đọc theo cụm và nghĩa, không áp một âm cho cả chữ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền 还 hoặc 已经: 我___在办公室，没下班。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Cụm “trả sách” dùng 还 với nghĩa nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "还"
+            ],
+            "explanation": "Câu nói trạng thái vẫn tiếp diễn。"
+          },
+          "q2": {
+            "accepted": [
+              "还书, nghĩa là trả lại sách。"
+            ],
+            "explanation": "Trong 还书, chữ 还 mang nghĩa hoàn trả。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn vẫn đang học tiếng Hoa。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói ngày mai bạn sẽ trả sách。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt 还 trước trạng thái/hoạt động đang tiếp tục。",
+            "frame": "我 + 还 + 在/学习",
+            "model": "我还在学中文。",
+            "vi": "Tôi vẫn đang học tiếng Hoa。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng nghĩa hoàn trả và đặt đồ vật sau 还。",
+            "frame": "我明天 + 还 + 书",
+            "model": "我明天还书。",
+            "vi": "Ngày mai tôi trả sách。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "có phải hay không",
+      "meaning": "có phải… không; … hay không",
       "intro": [
         {
           "pinyin": "shì bùshì",
-          "meaning": "có phải hay không"
+          "meaning": "có phải… không"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "你是不是学生？",
+          "vi": "Bạn có phải là học sinh không？",
+          "analysis": "是不是 đứng trước 学生 để hỏi xác nhận danh tính。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你今天是不是上班？",
+          "vi": "Hôm nay có phải bạn đi làm không？",
+          "analysis": "Thời gian có thể đứng trước 是不是; phần cần xác nhận theo sau。",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-d0a667a84b92",
       "hanzi": "是不是",
       "level": 1,
       "sourceIndex": 174,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-016",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=128768&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 189,
+        "introduction": {
+          "scope": "是不是 tạo câu hỏi có/không bằng cách đặt cụm này trước phần nhận định cần xác nhận。"
+        },
+        "meaning": {
+          "scene": "Bạn hỏi bạn mình có phải hôm nay đi làm không。",
+          "explanation": "Dùng 是不是 trước phần muốn hỏi; người nghe có thể trả lời 是 hoặc 不是。",
+          "boundary": "是不是 + phần nhận định?; có thể dùng câu kể + 吗 thay thế, thường không cần ghép cả hai trong mẫu cơ bản。",
+          "conditions": [
+            "是不是 đứng trước nội dung cần xác nhận: 你是不是老师？",
+            "Câu trả lời thường bắt đầu bằng 是 hoặc 不是。",
+            "Không thêm 吗 sau mẫu cơ bản 是不是。"
+          ],
+          "takeaway": "Dùng 是不是 để hỏi xác nhận; đừng thêm 吗 trong mẫu cơ bản。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你是不是学生？",
+            "vi": "Bạn có phải là học sinh không？",
+            "analysis": "是不是 đứng trước 学生 để hỏi xác nhận danh tính。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你今天是不是上班？",
+            "vi": "Hôm nay có phải bạn đi làm không？",
+            "analysis": "Thời gian có thể đứng trước 是不是; phần cần xác nhận theo sau。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ ngữ + 是不是 + danh từ/tính từ",
+            "position": "是不是 đứng trước phần nhận định。",
+            "required": "Giữ nội dung cần xác nhận phía sau。",
+            "omission": "Có thể lược chủ ngữ khi ngữ cảnh rõ。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ ngữ + thời gian + 是不是 + hành động",
+            "position": "Đặt thời gian trước 是不是 nếu muốn nêu rõ mốc。",
+            "required": "Hành động cần xác nhận đứng sau 是不是。",
+            "omission": "Có thể bỏ mốc thời gian nếu không cần。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "是不是 và câu kể + 吗",
+            "scene": "Bạn hỏi đồng nghiệp có đi làm hôm nay không。",
+            "possibleConfusion": "Hai mẫu đều hỏi có/không; người học có thể ghép cả hai。",
+            "difference": "Chọn câu kể + 吗 hoặc đặt 是不是 trước phần nhận định; mẫu cơ bản chỉ cần một cách。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你今天上班吗？",
+                "vi": "Hôm nay bạn đi làm không？",
+                "comment": "Câu kể + 吗 là một cách hỏi。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你今天是不是上班？",
+                "vi": "Hôm nay có phải bạn đi làm không？",
+                "comment": "是不是 tạo cấu trúc hỏi có/không。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Dùng một mẫu; không cần gắn 吗 vào cuối câu 是不是 trong mẫu cơ bản。"
+            },
+            "boundary": "Ngữ điệu hội thoại linh hoạt, nhưng người mới học nên dùng một dấu hiệu hỏi。",
+            "tip": "Chọn 吗 hoặc 是不是。"
+          },
+          {
+            "id": "t2",
+            "title": "Vị trí của 是不是",
+            "scene": "Bạn hỏi người mới có phải đồng nghiệp không。",
+            "possibleConfusion": "Có thể dịch từng chữ rồi đặt 是不是 ở cuối theo tiếng Việt。",
+            "difference": "Mẫu cơ bản đặt 是不是 trước phần nhận định; câu đuôi khẩu ngữ cần ngữ cảnh/ngữ điệu。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你是不是新同事？",
+                "vi": "Bạn có phải là đồng nghiệp mới không？",
+                "comment": "Mẫu chuẩn đặt 是不是 trước phần cần xác nhận。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你是新同事是不是？",
+                "vi": "Bạn là đồng nghiệp mới, đúng không？",
+                "comment": "Có thể gặp như câu xác nhận khẩu ngữ, nhưng không phải mẫu cơ bản。",
+                "judgment": "context-needed",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "context-needed",
+              "explanation": "Dùng mẫu chuẩn 你是不是新同事？"
+            },
+            "boundary": "Một số câu đuôi khẩu ngữ cần ngữ cảnh; không suy ra quy tắc đặt 是不是 ở cuối。",
+            "tip": "Mẫu cơ bản: chủ ngữ + 是不是 + phần cần xác nhận。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "是不是 và câu kể + 吗: Chọn 吗 hoặc 是不是。 Vị trí của 是不是: Mẫu cơ bản: chủ ngữ + 是不是 + phần cần xác nhận。"
+        },
+        "pronunciation": {
+          "text": "不 trong 是不是 có thể biến điệu khi nói liền; cấu trúc và nghĩa hỏi xác nhận không đổi. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Sắp xếp: 是不是 / 你 / 老师？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Hỏi “Hôm nay bạn có phải đi làm không?” dùng 是不是。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你是不是老师？"
+            ],
+            "explanation": "是不是 đứng trước phần nhận định 老师。"
+          },
+          "q2": {
+            "accepted": [
+              "你今天是不是上班？"
+            ],
+            "explanation": "Mốc thời gian có thể đứng trước 是不是。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi bạn mới có phải giáo viên không。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi bạn mình ngày mai có phải đi học không。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chủ ngữ + 是不是 + nghề nghiệp。",
+            "frame": "你是不是 + nghề？",
+            "model": "你是不是老师？",
+            "vi": "Bạn có phải là giáo viên không？",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Đặt thời gian trước 是不是 rồi đến hành động。",
+            "frame": "你明天是不是 + hành động？",
+            "model": "你明天是不是上课？",
+            "vi": "Ngày mai bạn có phải đi học không？",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-782802f94389",
@@ -47456,22 +49206,219 @@
       "intro": [
         {
           "pinyin": "yǒuxiē",
-          "meaning": "một số"
+          "meaning": "một số; vài"
         }
       ],
-      "meaning": "một số",
-      "status": "example",
+      "meaning": "một số; vài",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-016",
       "examples": [
         {
-          "zh": "有些人喜欢喝茶。",
-          "vi": "Một số người thích uống trà."
+          "id": "e1",
+          "zh": "有些菜很辣。",
+          "vi": "Một số món ăn cay。",
+          "analysis": "有些 giới hạn một phần trong nhóm 菜, không phải toàn bộ món。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我有些朋友住在这里。",
+          "vi": "Một vài người bạn của tôi sống ở đây。",
+          "analysis": "有些 đứng trước 朋友 để chỉ một phần nhóm bạn。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 175,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=154422&la=0&powerMode=0",
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=26688&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 190,
+        "introduction": {
+          "scope": "有些 đứng trước danh từ hoặc nhóm được nói đến để chỉ một phần, không phải toàn bộ。"
+        },
+        "meaning": {
+          "scene": "Bạn nói một số món trong thực đơn cay, còn món khác thì không。",
+          "explanation": "有些 làm rõ rằng chỉ một phần người/vật có đặc điểm ấy. Khi danh từ đã rõ, 有些 có thể tự đứng。",
+          "boundary": "有些菜 = một số món; 有些人很忙 = một số người bận. 一些 thường nói một lượng nào đó。",
+          "conditions": [
+            "有些 + danh từ chỉ một phần trong nhóm。",
+            "Có thể lược danh từ nếu nhóm đã rõ: 有些很辣。",
+            "一些 thường nêu lượng không xác định, nhất là sau động từ như 买了一些苹果。"
+          ],
+          "takeaway": "有些 thường trả lời “một số nào trong nhóm?”, không nói tất cả。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "有些菜很辣。",
+            "vi": "Một số món ăn cay。",
+            "analysis": "有些 giới hạn một phần trong nhóm 菜, không phải toàn bộ món。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我有些朋友住在这里。",
+            "vi": "Một vài người bạn của tôi sống ở đây。",
+            "analysis": "有些 đứng trước 朋友 để chỉ một phần nhóm bạn。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "有些 + danh từ + vị ngữ",
+            "position": "有些 đứng ngay trước nhóm được nói đến。",
+            "required": "Danh từ sau 有些 nêu loại người/vật。",
+            "omission": "Nếu nhóm đã rõ, có thể lược danh từ。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "有些 + phần nhận xét",
+            "position": "有些 có thể chỉ một phần nhóm đã nêu。",
+            "required": "Dùng khi người nghe biết nhóm nào đang nói đến。",
+            "omission": "Không lược danh từ nếu nhóm chưa rõ。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "有些 và 一些",
+            "scene": "Bạn nhận xét một số quả táo rồi nói đã mua một ít táo。",
+            "possibleConfusion": "Cả hai đôi khi dịch là “một số/một ít”, nhưng trọng tâm khác nhau。",
+            "difference": "有些 thường tách một phần trong nhóm để nhận xét; 一些 thường nêu một lượng không xác định。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "有些苹果很甜。",
+                "vi": "Một số quả táo rất ngọt。",
+                "comment": "Chọn một phần trong nhóm táo để nhận xét。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我买了一些苹果。",
+                "vi": "Tôi đã mua một ít táo。",
+                "comment": "一些 nêu lượng táo đã mua。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nhận xét một phần trong nhóm: 有些苹果; nói lượng đã mua: 一些苹果。"
+            },
+            "boundary": "Hai từ có thể gần nhau trong ngữ cảnh số lượng; chọn theo điểm muốn nhấn。",
+            "tip": "Đang tách nhóm để nhận xét hay nói lượng đã có?"
+          },
+          {
+            "id": "t2",
+            "title": "有些 không có nghĩa “tất cả”",
+            "scene": "Bạn mô tả thực đơn có món cay。",
+            "possibleConfusion": "Người học có thể hiểu 有些菜 là toàn bộ món ăn。",
+            "difference": "有些 giới hạn phạm vi ở một phần; 这些…都 nói toàn bộ nhóm đã chỉ。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "有些菜不辣。",
+                "vi": "Một số món không cay。",
+                "comment": "Chỉ một phần món; không kết luận về cả thực đơn。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这些菜都不辣。",
+                "vi": "Những món này đều không cay。",
+                "comment": "这些…都 bao quát toàn bộ nhóm được chỉ。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "有些 = một phần; 这些…都 = toàn bộ nhóm đã nêu。"
+            },
+            "boundary": "Trên thực tế cả nhóm có thể cùng tính chất, nhưng 有些 tự nó không khẳng định toàn bộ。",
+            "tip": "Có 有些 thì đừng dịch thành “tất cả”。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "有些 và 一些: Đang tách nhóm để nhận xét hay nói lượng đã có? 有些 không có nghĩa “tất cả”: Có 有些 thì đừng dịch thành “tất cả”。"
+        },
+        "pronunciation": {
+          "text": "有些 đọc liền hai âm tiết; giữ rõ thanh điệu theo cụm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Chọn 有些 hoặc 一些: ___苹果很甜，别的有点酸。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Dịch “Tôi đã mua một ít sách” bằng 一些。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "有些"
+            ],
+            "explanation": "Đang nhận xét một phần quả táo trong nhóm。"
+          },
+          "q2": {
+            "accepted": [
+              "我买了一些书。"
+            ],
+            "explanation": "一些 nêu lượng sách đã mua。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói một số món trong quán ngon。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói một số đồng nghiệp của bạn ở Bắc Kinh。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu 有些 + nhóm món rồi nhận xét。",
+            "frame": "有些 + danh từ + vị ngữ",
+            "model": "有些菜很好吃。",
+            "vi": "Một số món ăn rất ngon。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 有些 trước nhóm người。",
+            "frame": "我有些同事 + nơi chốn",
+            "model": "我有些同事在北京。",
+            "vi": "Một số đồng nghiệp của tôi ở Bắc Kinh。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-1d8bb690208c",
@@ -47480,17 +49427,218 @@
       "intro": [
         {
           "pinyin": "yǒushí",
-          "meaning": "đôi khi"
+          "meaning": "đôi khi; có lúc"
         }
       ],
-      "meaning": "đôi khi",
-      "status": "catalog",
+      "meaning": "đôi khi; có lúc",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-016",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我有时坐地铁上班。",
+          "vi": "Thỉnh thoảng tôi đi tàu điện ngầm đến chỗ làm。",
+          "analysis": "有时 đứng sau 我 và trước hành động。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "有时他在家做饭。",
+          "vi": "Có lúc anh ấy nấu ăn ở nhà。",
+          "analysis": "有时 đứng đầu câu làm khung thời gian。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 176,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=41484&la=0&powerMode=0",
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=32177&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 191,
+        "introduction": {
+          "scope": "有时 nói một việc thỉnh thoảng xảy ra, không phải lúc nào cũng xảy ra。"
+        },
+        "meaning": {
+          "scene": "Bạn kể rằng thỉnh thoảng mình làm thêm vào cuối tuần。",
+          "explanation": "有时 cho biết tần suất không đều; có thể đứng trước chủ ngữ hoặc sau chủ ngữ trước động từ。",
+          "boundary": "有时 gần nghĩa với 有时候; 常常 thường nói việc xảy ra thường xuyên hơn。",
+          "conditions": [
+            "Có thể nói 有时 + chủ ngữ + vị ngữ hoặc chủ ngữ + 有时 + vị ngữ。",
+            "有时 nhấn “thỉnh thoảng”; 常常 nhấn “thường xuyên hơn”。"
+          ],
+          "takeaway": "有时 = thỉnh thoảng; 常常 = thường xuyên hơn。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我有时坐地铁上班。",
+            "vi": "Thỉnh thoảng tôi đi tàu điện ngầm đến chỗ làm。",
+            "analysis": "有时 đứng sau 我 và trước hành động。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "有时他在家做饭。",
+            "vi": "Có lúc anh ấy nấu ăn ở nhà。",
+            "analysis": "有时 đứng đầu câu làm khung thời gian。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ ngữ + 有时 + động từ",
+            "position": "有时 đứng trước hành động。",
+            "required": "Dùng khi việc chỉ xảy ra một vài lúc。",
+            "omission": "Có thể bỏ 有时 nếu không cần nói tần suất。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "有时 + chủ ngữ + vị ngữ",
+            "position": "Có thể đưa 有时 lên đầu câu làm khung thời gian。",
+            "required": "Sau 有时 đặt chủ ngữ rồi phần còn lại。",
+            "omission": "Có thể dùng 有时候 với nghĩa gần tương tự。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "有时 và 常常",
+            "scene": "Bạn nói về tần suất làm thêm cuối tuần。",
+            "possibleConfusion": "Cả hai diễn tả tần suất nhưng mức độ khác nhau。",
+            "difference": "有时 là thỉnh thoảng; 常常 thường xuyên hơn, không có ranh giới bằng số lần cố định。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我有时在周末加班。",
+                "vi": "Thỉnh thoảng tôi làm thêm cuối tuần。",
+                "comment": "Việc xảy ra một vài lần, không thường xuyên。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我常常在周末加班。",
+                "vi": "Tôi thường xuyên làm thêm cuối tuần。",
+                "comment": "Tần suất cao hơn câu với 有时。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Dùng 有时 nếu chỉ thỉnh thoảng; dùng 常常 nếu việc xảy ra thường xuyên。"
+            },
+            "boundary": "Tần suất cụ thể còn tùy người nói và ngữ cảnh。",
+            "tip": "Có lặp lại thường xuyên hay chỉ một vài lúc?"
+          },
+          {
+            "id": "t2",
+            "title": "有时 và 有时候",
+            "scene": "Bạn muốn nói đôi khi ăn ở công ty。",
+            "possibleConfusion": "Người học có thể nghĩ chỉ một dạng là đúng。",
+            "difference": "Cả hai đều nói đôi lúc/thỉnh thoảng; 有时候 là dạng dài hơn trong mẫu này。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我有时在公司吃饭。",
+                "vi": "Đôi khi tôi ăn ở công ty。",
+                "comment": "Cách nói gọn, tự nhiên。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我有时候在公司吃饭。",
+                "vi": "Đôi khi tôi ăn ở công ty。",
+                "comment": "Dạng dài hơn, nghĩa gần như tương đương。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Cả 有时 và 有时候 đều dùng được trong câu này。"
+            },
+            "boundary": "Trong cấu trúc 有时候……有时候……, hai vế còn có thể nêu hai khả năng。",
+            "tip": "有时候 không phải lỗi; đó là dạng dài hơn。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "有时 và 常常: Có lặp lại thường xuyên hay chỉ một vài lúc? 有时 và 有时候: 有时候 không phải lỗi; đó là dạng dài hơn。"
+        },
+        "pronunciation": {
+          "text": "有时 đọc thanh 3 rồi thanh 2; đọc liền tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền 有时 hoặc 常常: ___我坐公交，其他时候骑车。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Viết dạng dài hơn, gần nghĩa với 有时。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "有时"
+            ],
+            "explanation": "Câu nhấn chỉ một vài lúc đi xe buýt。"
+          },
+          "q2": {
+            "accepted": [
+              "有时候"
+            ],
+            "explanation": "有时候 là dạng dài hơn, nghĩa gần tương tự。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói thỉnh thoảng bạn uống cà phê buổi sáng。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói có lúc em bạn ở nhà nấu ăn。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt 有时 trước hành động hoặc sau chủ ngữ。",
+            "frame": "我 + 有时 + hành động",
+            "model": "我有时早上喝咖啡。",
+            "vi": "Thỉnh thoảng tôi uống cà phê buổi sáng。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Có thể đặt 有时 đầu câu rồi nêu người。",
+            "frame": "有时 + chủ ngữ + hành động",
+            "model": "有时我妹妹在家做饭。",
+            "vi": "Có lúc em gái tôi nấu ăn ở nhà。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-03e9688452d0",
@@ -47499,17 +49647,218 @@
       "intro": [
         {
           "pinyin": "yǒuyòng",
-          "meaning": "có ích"
+          "meaning": "có ích; hữu ích"
         }
       ],
-      "meaning": "có ích",
-      "status": "catalog",
+      "meaning": "có ích; hữu ích",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-016",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "这个地图很有用。",
+          "vi": "Bản đồ này rất hữu ích。",
+          "analysis": "很 đứng trước 有用 để thể hiện mức độ。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这本书对我有用。",
+          "vi": "Cuốn sách này có ích cho tôi。",
+          "analysis": "对我 nêu người nhận lợi ích, đứng trước 有用。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 177,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=154621&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 192,
+        "introduction": {
+          "scope": "有用 đánh giá người/vật/thông tin có ích cho một mục đích nào đó。"
+        },
+        "meaning": {
+          "scene": "Bạn nói bản đồ này giúp tìm đường。",
+          "explanation": "有用 thường đứng sau chủ thể; có thể thêm 很 để câu nhận xét trôi chảy, hoặc dùng 有用的 + danh từ。",
+          "boundary": "有用 trả lời “có giúp ích không?”; 有意思 trả lời “có thú vị không?”。",
+          "conditions": [
+            "Chủ thể + (很)有用 là mẫu nhận xét phổ biến。",
+            "有用的 + danh từ dùng để bổ nghĩa: 有用的办法。",
+            "Muốn nêu đối tượng hưởng lợi, có thể dùng 对 + người/việc + 有用。"
+          ],
+          "takeaway": "Nêu chủ thể rồi nhận xét 有用; muốn rõ mục tiêu, thêm 对 + đối tượng。"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这个地图很有用。",
+            "vi": "Bản đồ này rất hữu ích。",
+            "analysis": "很 đứng trước 有用 để thể hiện mức độ。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这本书对我有用。",
+            "vi": "Cuốn sách này có ích cho tôi。",
+            "analysis": "对我 nêu người nhận lợi ích, đứng trước 有用。",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + (很)有用",
+            "position": "有用 đứng sau chủ thể; 很 thường dùng trong câu nhận xét。",
+            "required": "Có thể thêm mức độ trước 有用。",
+            "omission": "Có thể lược 很 trong một số câu ngắn。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "对 + người/việc + 有用",
+            "position": "Đặt người hoặc mục tiêu sau 对 rồi đến 有用。",
+            "required": "Nêu rõ hữu ích đối với ai/việc gì。",
+            "omission": "Có thể lược đối tượng nếu đã rõ。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "有用 và 有意思",
+            "scene": "Bạn nhận xét về một cuốn sách。",
+            "possibleConfusion": "Tiếng Việt có thể khen chung là “hay”, nhưng hai từ nói điều khác。",
+            "difference": "有用 đánh giá sự giúp ích; 有意思 nói nội dung thú vị/hấp dẫn。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这本书对工作很有用。",
+                "vi": "Cuốn sách này rất hữu ích cho công việc。",
+                "comment": "Nêu giá trị sử dụng cho công việc。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这本书很有意思。",
+                "vi": "Cuốn sách này rất thú vị。",
+                "comment": "Nêu sức hấp dẫn, không nhất thiết hữu ích。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Dùng 有用 nếu giúp ích; 有意思 nếu thú vị。"
+            },
+            "boundary": "Một cuốn sách có thể vừa hữu ích vừa thú vị; hai nhận xét không loại trừ nhau。",
+            "tip": "Hỏi “giúp được gì?” hay “có thú vị không?”"
+          },
+          {
+            "id": "t2",
+            "title": "有用 và 有用的 + danh từ",
+            "scene": "Bạn nhận xét một cách làm có ích。",
+            "possibleConfusion": "Người học có thể bỏ danh từ sau 的 hoặc đặt 有用 sai vị trí。",
+            "difference": "Nhận xét độc lập: chủ thể + 有用; bổ nghĩa danh từ: 有用的 + danh từ。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个办法很有用。",
+                "vi": "Cách này rất hữu ích。",
+                "comment": "有用 làm vị ngữ sau chủ thể。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这是一个有用的办法。",
+                "vi": "Đây là một cách hữu ích。",
+                "comment": "有用的 đứng trước danh từ 办法。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nhận xét: 办法有用; miêu tả danh từ: 有用的办法。"
+            },
+            "boundary": "Có thể lược danh từ nếu đã rõ nhưng mẫu cơ bản nên giữ đủ。",
+            "tip": "有用 sau chủ thể; 有用的 trước danh từ。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
+          "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
+          "confusables": "有用 và 有意思: Hỏi “giúp được gì?” hay “có thú vị không?” 有用 và 有用的 + danh từ: 有用 sau chủ thể; 有用的 trước danh từ。"
+        },
+        "pronunciation": {
+          "text": "有用 đọc thanh 3 rồi thanh 4; nối âm tự nhiên, giữ rõ âm cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền 有用 hoặc 有意思: 这本词典对学中文很___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Sắp xếp: 这 / 是 / 一个 / 有用的 / 办法。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "有用"
+            ],
+            "explanation": "Từ điển giúp ích cho mục tiêu học tiếng Hoa。"
+          },
+          "q2": {
+            "accepted": [
+              "这是一个有用的办法。"
+            ],
+            "explanation": "有用的 đứng trước danh từ được miêu tả。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói điện thoại này hữu ích cho bạn。"
+          },
+          {
+            "id": "s2",
+            "prompt": "Giới thiệu một cách hữu ích để học từ mới。"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu chủ thể, rồi thêm 对我 và 有用。",
+            "frame": "这个 + vật + 对我 + 有用",
+            "model": "这个手机对我很有用。",
+            "vi": "Chiếc điện thoại này rất hữu ích cho tôi。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          },
+          "s2": {
+            "idea": "Đặt 有用的 trước danh từ 办法。",
+            "frame": "一个 + 有用的 + danh từ",
+            "model": "一个有用的办法。",
+            "vi": "Một cách hữu ích。",
+            "criteria": [
+              "Dùng đúng từ hoặc cấu trúc mục tiêu。",
+              "Nói đủ ý trong tình huống; cách diễn đạt hợp lý khác vẫn được chấp nhận。"
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-0c556aa9ef83",
@@ -89251,13 +91600,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 190,
-    "pending": 2044,
+    "ready": 202,
+    "pending": 2032,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 190
+        "ready": 202
       },
       {
         "level": 2,

@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 180/2224. Còn: 2044. Toàn khóa đủ cấu trúc: 190/2234.
+Đã bổ sung: 192/2224. Còn: 2032. Toàn khóa đủ cấu trúc: 202/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -21,20 +21,21 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-013 · mục 145–156 · 商店、图书馆、杯子、洗手间、电影、电影院、电脑、电视、电视机、看病、衣服、身体
 - batch-014 · mục 157–168 · 钱包、门口、饭店、五、哥、妈、妹、姐、子、常、弟、手
 - batch-015 · mục 169–180 · 爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷
+- batch-016 · mục 181–192 · 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用
 
 ## 12 mục tiếp theo
 
-- 爸爸 · hz-h1-36d44c8ffe9e · sourceIndex 161
-- 不 · hz-h1-091e097d8c14 · sourceIndex 162
-- 吗 · hz-h1-4a96054b003b · sourceIndex 164
-- 对 · hz-h1-5aa8ddf5f024 · sourceIndex 166
-- 有 · hz-h1-740051dfbab9 · sourceIndex 168
-- 没 · hz-h1-c6959958649f · sourceIndex 169
-- 的 · hz-h1-706b146215d7 · sourceIndex 170
-- 还 · hz-h1-afee2e64ef77 · sourceIndex 173
-- 是不是 · hz-h1-d0a667a84b92 · sourceIndex 174
-- 有些 · hz-h1-782802f94389 · sourceIndex 175
-- 有时 · hz-h1-1d8bb690208c · sourceIndex 176
-- 有用 · hz-h1-03e9688452d0 · sourceIndex 177
+- 有的 · hz-h1-0c556aa9ef83 · sourceIndex 178
+- 正在 · hz-h1-05141092cb92 · sourceIndex 179
+- 没有 · hz-h1-95d6379fdfc6 · sourceIndex 180
+- 真的 · hz-h1-4969b83d9cec · sourceIndex 181
+- 还是 · hz-h1-08f5745eb362 · sourceIndex 183
+- 还有 · hz-h1-c99d6c682449 · sourceIndex 184
+- 八 · hz-h1-68f9a548685c · sourceIndex 185
+- 冷 · hz-h1-473bd0dd1a59 · sourceIndex 186
+- 口 · hz-h1-332fab54b4f4 · sourceIndex 187
+- 吃 · hz-h1-26aea8f4d583 · sourceIndex 188
+- 喝 · hz-h1-ea87e2f5091f · sourceIndex 189
+- 渴 · hz-h1-b11a9f950493 · sourceIndex 190
 
-Batch-015 đã phát hành sang main tại 85a590fc47ddce64f41616875d3db33cac0c27c6; GitHub Pages run 39796683993 thành công. Đã mở đủ 12 route live, trạng thái BÀI HỌC ĐẦY ĐỦ/chuẩn V2 và đúng ordinal/sourceIndex. Bài đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện độc lập.
+Batch-015 đã phát hành sang main tại 85a590fc47ddce64f41616875d3db33cac0c27c6; GitHub Pages run 39796683993 thành công. Đợt 016 đang chờ commit và kiểm chứng Pages.
