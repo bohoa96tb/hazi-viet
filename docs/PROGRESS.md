@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 132/2224. Còn: 2092. Toàn khóa đủ cấu trúc: 142/2234.
+Đã bổ sung: 144/2224. Còn: 2080. Toàn khóa đủ cấu trúc: 154/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -17,20 +17,21 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-009 · mục 97–108 · 少、差、很、快、慢、真、老、贵、过、远、重、错
 - batch-010 · mục 109–120 · 难、高、不大、不对、重要、做、动、学、干、忙、用、看
 - batch-011 · mục 121–132 · 考、试、上学、上班、上网、上课、准备、动作、学习、工作、干什么、开会
+- batch-012 · mục 133–144 · 打球、爱好、考试、请假、包、吧、杯、门、东西、书店、医院、商场
 
 ## 12 mục tiếp theo
 
-- 打球 · hz-h1-82f562419bd5
-- 爱好 · hz-h1-b07f9d348f31
-- 考试 · hz-h1-ef37ca3e6008
-- 请假 · hz-h1-1c78720b6a3f
-- 包 · hz-h1-e43a5fdbf424
-- 吧 · hz-h1-f1945082ca49
-- 杯 · hz-h1-113c0125e338
-- 门 · hz-h1-f9f98f770564
-- 东西 · hz-h1-e62de0e7228c
-- 书店 · hz-h1-03d8dcb82f40
-- 医院 · hz-h1-c32f73d4f4c0
-- 商场 · hz-h1-866c497fc0bb
+- 商店 · hz-h1-08e00cd0b8cd
+- 图书馆 · hz-h1-a397ab7fa248
+- 杯子 · hz-h1-9410ed458167
+- 洗手间 · hz-h1-9f7cd1be7fc7
+- 电影 · hz-h1-777eb9bd2116
+- 电影院 · hz-h1-cf4723869aea
+- 电脑 · hz-h1-397d93198bd8
+- 电视 · hz-h1-da4276f0dc02
+- 电视机 · hz-h1-c6e111a085ae
+- 看病 · hz-h1-17e4bf7cf7f6
+- 衣服 · hz-h1-c421becca287
+- 身体 · hz-h1-6f0a7eea690a
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.

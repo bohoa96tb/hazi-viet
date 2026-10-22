@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 142 mục đủ cấu trúc V1/V2; còn 2092. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 132 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 154 mục đủ cấu trúc V1/V2; còn 2080. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 144 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -36566,16 +36566,187 @@
           "meaning": "chơi bóng"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我每个星期六都和朋友去打球。",
+          "vi": "Thứ bảy nào tôi cũng đi chơi bóng với bạn.",
+          "analysis": "打球 đứng sau 去 để nói mục đích đi chơi thể thao; môn bóng chưa được nêu rõ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他喜欢打球，也喜欢踢足球。",
+          "vi": "Anh ấy thích chơi bóng rổ, không thích đá bóng.",
+          "analysis": "Tên môn cụ thể đặt sau 打 với bóng rổ, còn bóng đá dùng 踢足球.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-82f562419bd5",
       "hanzi": "打球",
       "level": 1,
       "sourceIndex": 112,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-012",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 133,
+        "introduction": {
+          "scope": "打球 là chơi một môn thể thao dùng bóng; từ này thường nói chung, chưa nêu rõ môn nào."
+        },
+        "meaning": {
+          "scene": "Bạn rủ bạn bè vận động với bóng nhưng chưa cần nói rõ là bóng đá, bóng rổ hay môn nào khác.",
+          "explanation": "打球 là động từ: 打 + 球, dùng cho việc chơi các môn bóng. Khi muốn nói rõ môn, thường nêu tên môn sau 打, như 打篮球、打乒乓球.",
+          "boundary": "打球 thường nói chung về chơi thể thao với bóng. Bóng đá thường nói 踢足球 vì động tác chính là đá; khi đã nói rõ môn thì dùng tên môn, không cần lặp 球.",
+          "conditions": [
+            "打球: đi chơi/chơi bóng nói chung.",
+            "打篮球、打乒乓球: nói rõ môn cụ thể.",
+            "踢足球: dùng 踢 với bóng đá."
+          ],
+          "takeaway": "Nói môn bóng chung thì dùng 打球; nêu rõ bóng đá thì dùng 踢足球."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我每个星期六都和朋友去打球。",
+            "vi": "Thứ bảy nào tôi cũng đi chơi bóng với bạn.",
+            "analysis": "打球 đứng sau 去 để nói mục đích đi chơi thể thao; môn bóng chưa được nêu rõ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他喜欢打球，也喜欢踢足球。",
+            "vi": "Anh ấy thích chơi bóng rổ, không thích đá bóng.",
+            "analysis": "Tên môn cụ thể đặt sau 打 với bóng rổ, còn bóng đá dùng 踢足球.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去 + 打球",
+            "position": "打球 đứng sau động từ chỉ di chuyển như 去, nêu hoạt động đến nơi nào đó để làm.",
+            "required": "Giữ 打球 khi chưa nói rõ môn; thay bằng 打篮球/打乒乓球 nếu cần nói rõ.",
+            "omission": "Có thể bỏ chủ thể khi người nghe đã biết ai đi chơi.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "打 + tên môn bóng",
+            "position": "Tên môn bóng theo sau 打; riêng bóng đá thường dùng 踢足球.",
+            "required": "Nói tên môn để làm rõ chơi môn nào.",
+            "omission": "Khi ngữ cảnh đã rõ môn, có thể chỉ nói 去打球.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "打球 nói chung; 踢足球 nêu rõ môn bóng đá",
+            "scene": "Bạn muốn rủ ai đó đi chơi bóng nhưng người nghe cần biết có phải bóng đá không.",
+            "possibleConfusion": "Cả hai có thể được dịch nôm na là chơi bóng, nên dễ dùng 打球 cho mọi môn.",
+            "difference": "打球 là cách nói rộng về chơi thể thao với bóng. 踢足球 chỉ bóng đá và dùng 踢 theo động tác đá; hai cách nói không hoàn toàn thay thế nhau.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们下午去打球吧。",
+                "vi": "Chiều nay chúng ta đi chơi bóng nhé.",
+                "comment": "Câu nói chung về chơi bóng, chưa xác định môn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他们在操场上踢足球。",
+                "vi": "Họ đang đá bóng trên sân.",
+                "comment": "Khi nói rõ bóng đá, dùng 踢足球; đây là câu đúng với môn cụ thể.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 踢足球 thành 打球 sẽ làm mất thông tin “đá bóng”; đổi 打球 thành 踢足球 lại tự thêm môn bóng đá."
+            },
+            "boundary": "Hai cách nói có thể gần nhau khi rủ chơi thể thao, nhưng 打球 không xác định môn còn 踢足球 xác định là bóng đá.",
+            "tip": "Chưa nêu môn: 打球. Bóng đá: 踢足球."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 打球; phần học này tập trung vào nghĩa “chơi bóng”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "打球 là cách nói rộng về chơi thể thao với bóng. 踢足球 chỉ bóng đá và dùng 踢 theo động tác đá; hai cách nói không hoàn toàn thay thế nhau."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Bạn muốn nói “Tối nay tôi đi chơi bóng với bạn”. Hãy dùng cách nói chung, chưa nêu môn."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Sửa câu để nói rõ họ chơi bóng đá: 他们在公园打球。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我今晚和朋友去打球。",
+              "今晚我和朋友去打球。"
+            ],
+            "explanation": "打球 nói chung về chơi môn thể thao có bóng."
+          },
+          "q2": {
+            "accepted": [
+              "他们在公园踢足球。"
+            ],
+            "explanation": "Bóng đá thường dùng 踢足球."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói rằng cuối tuần bạn muốn đi chơi bóng với bạn. Chưa cần nói môn nào."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói môn bóng bạn thích chơi, dùng 打 + tên môn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Thời gian: cuối tuần; cùng ai: bạn; hoạt động: chơi bóng.",
+            "frame": "我周末想和朋友去打球。",
+            "model": "我周末想和朋友去打球。",
+            "vi": "Cuối tuần tôi muốn đi chơi bóng với bạn.",
+            "criteria": [
+              "Dùng 打球 như hoạt động chung.",
+              "Đặt 去 trước hoạt động khi nói đi chơi."
+            ]
+          },
+          "s2": {
+            "idea": "Hoạt động: chơi một môn bóng; môn cụ thể: bóng rổ.",
+            "frame": "我喜欢打篮球。",
+            "model": "我喜欢打篮球。",
+            "vi": "Tôi thích chơi bóng rổ.",
+            "criteria": [
+              "Nêu rõ tên môn sau 打.",
+              "Có thể đổi 篮球 thành 乒乓球 nếu đúng sở thích."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-b07f9d348f31",
@@ -36588,13 +36759,183 @@
         }
       ],
       "meaning": "sở thích",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-012",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我的爱好是听音乐和看书。",
+          "vi": "Sở thích của tôi là nghe nhạc và đọc sách.",
+          "analysis": "爱好 là danh từ; sau 是 là các hoạt động tạo thành sở thích.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你有什么爱好？我喜欢画画。",
+          "vi": "Bạn có sở thích gì? Tôi thích vẽ.",
+          "analysis": "Câu hỏi dùng danh từ 爱好; câu trả lời dùng 喜欢 để nêu việc mình thích làm.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 113,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 134,
+        "introduction": {
+          "scope": "爱好 thường chỉ sở thích hoặc điều một người thích làm; có thể dùng như danh từ, và đôi khi dùng như động từ."
+        },
+        "meaning": {
+          "scene": "Bạn hỏi một người thích làm gì lúc rảnh hoặc giới thiệu sở thích của mình.",
+          "explanation": "爱好 làm danh từ trong 我的爱好是…… (sở thích của tôi là…). Khi dùng như động từ, 爱好 đặt trước điều người ta yêu thích; trong hội thoại hằng ngày, 喜欢 thường tự nhiên và rộng hơn.",
+          "boundary": "喜欢 diễn tả thích/ưa một người, vật hoặc hoạt động. 爱好 thường là sở thích tương đối ổn định, hay dùng để nói về thú vui; không phải cứ thấy “thích” là thay 喜欢 bằng 爱好 được.",
+          "conditions": [
+            "Hỏi sở thích: 你有什么爱好？",
+            "Nêu sở thích như danh từ: 我的爱好是……",
+            "Nói điều mình thích một cách tự nhiên: 我喜欢……"
+          ],
+          "takeaway": "Hỏi thú vui dùng 爱好; nói “tôi thích…” thường dùng 喜欢."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我的爱好是听音乐和看书。",
+            "vi": "Sở thích của tôi là nghe nhạc và đọc sách.",
+            "analysis": "爱好 là danh từ; sau 是 là các hoạt động tạo thành sở thích.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你有什么爱好？我喜欢画画。",
+            "vi": "Bạn có sở thích gì? Tôi thích vẽ.",
+            "analysis": "Câu hỏi dùng danh từ 爱好; câu trả lời dùng 喜欢 để nêu việc mình thích làm.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "我的爱好是 + hoạt động",
+            "position": "爱好 đứng sau 的 để tạo cụm danh từ; sau 是 nêu hoạt động.",
+            "required": "Dùng 是 nối sở thích với hoạt động hoặc danh sách hoạt động.",
+            "omission": "Có thể bỏ 我的 khi chủ thể đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "有什么爱好？",
+            "position": "爱好 đứng sau 有什么 trong câu hỏi về thú vui.",
+            "required": "Dùng 爱好 khi hỏi về sở thích tương đối ổn định.",
+            "omission": "Câu trả lời có thể ngắn: 看书、打球等。",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "爱好 là sở thích; 喜欢 là thích",
+            "scene": "Bạn muốn nói về thú vui lâu dài hoặc chỉ muốn nói mình thích một việc ngay lúc này.",
+            "possibleConfusion": "Cả 爱好 và 喜欢 đều có thể đi cùng một hoạt động, nhưng vị trí và sắc thái khác nhau.",
+            "difference": "爱好 thường là danh từ chỉ thú vui: 我的爱好是看书. 喜欢 là động từ chỉ cảm giác thích: 我喜欢看书. Không nói 我的爱好喜欢看书.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我的爱好是打球。",
+                "vi": "Sở thích của tôi là chơi bóng.",
+                "comment": "爱好 là danh từ; dùng 是 để nối với hoạt động.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我喜欢打球。",
+                "vi": "Tôi thích chơi bóng.",
+                "comment": "喜欢 là động từ đứng trước hoạt động; câu này không thay cho cấu trúc danh từ 爱好.",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Hai câu đều có thể nói về cùng một hoạt động yêu thích, nhưng khung câu khác: 我的爱好是…… và 我喜欢……."
+            },
+            "boundary": "Dùng 爱好 để nêu tên sở thích; dùng 喜欢 để nói ai thích điều gì. Dạng động từ 爱好 có tồn tại nhưng không phải lựa chọn cơ bản nhất cho người mới.",
+            "tip": "Sau 我的爱好 là 是; sau 我喜欢 là hoạt động trực tiếp."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 爱好; phần học này tập trung vào nghĩa “sở thích”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "爱好 thường là danh từ chỉ thú vui: 我的爱好是看书. 喜欢 là động từ chỉ cảm giác thích: 我喜欢看书. Không nói 我的爱好喜欢看书."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền từ phù hợp: 我的____是看书。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Dịch ý “Tôi thích nghe nhạc” bằng cách nói cơ bản, tự nhiên."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我的爱好是看书。"
+            ],
+            "explanation": "Cần danh từ “sở thích” trước 是."
+          },
+          "q2": {
+            "accepted": [
+              "我喜欢听音乐。"
+            ],
+            "explanation": "喜欢 là động từ thích, đứng trước hoạt động nghe nhạc."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Giới thiệu một sở thích bằng mẫu 我的爱好是……"
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói một việc bạn thích làm vào ngày nghỉ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu một thú vui cá nhân; đặt hoạt động sau 是.",
+            "frame": "我的爱好是听音乐。",
+            "model": "我的爱好是听音乐。",
+            "vi": "Sở thích của tôi là nghe nhạc.",
+            "criteria": [
+              "Dùng 爱好 như danh từ.",
+              "Sau 是 nêu hoạt động hoặc thú vui."
+            ]
+          },
+          "s2": {
+            "idea": "Thời điểm: ngày nghỉ; hoạt động yêu thích: đọc sách.",
+            "frame": "我休息的时候喜欢看书。",
+            "model": "我休息的时候喜欢看书。",
+            "vi": "Lúc nghỉ tôi thích đọc sách.",
+            "criteria": [
+              "Dùng 喜欢 trước hoạt động.",
+              "Thay hoạt động bằng một điều bạn thật sự thích."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-ef37ca3e6008",
@@ -36603,17 +36944,189 @@
       "intro": [
         {
           "pinyin": "kǎoshì",
-          "meaning": "kỳ thi"
+          "meaning": "kỳ thi; thi"
         }
       ],
-      "meaning": "kỳ thi",
-      "status": "catalog",
+      "meaning": "kỳ thi; thi",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-012",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我下星期有汉语考试。",
+          "vi": "Tuần sau tôi có kỳ thi tiếng Trung.",
+          "analysis": "考试 là danh từ đứng sau 汉语, gọi tên kỳ thi.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "考试开始了，请把手机关掉。",
+          "vi": "Kỳ thi bắt đầu rồi, xin hãy tắt điện thoại.",
+          "analysis": "考试 là sự kiện làm chủ ngữ; 开始了 cho biết kỳ thi đã bắt đầu.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 114,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 135,
+        "introduction": {
+          "scope": "考试 nói về kỳ thi như một sự việc, hoặc dùng như động từ “thi/làm bài thi”."
+        },
+        "meaning": {
+          "scene": "Bạn nói về kỳ thi sắp tới, kỳ thi đã bắt đầu hoặc việc mình phải đi thi.",
+          "explanation": "考试 có thể là danh từ: 考试开始了 (kỳ thi bắt đầu), hoặc động từ: 我要考试 (tôi phải thi). Khi nói thi môn nào, có thể dùng 考 + môn học hoặc 考试 + môn học tùy cấu trúc câu.",
+          "boundary": "考试 là kỳ thi/việc đi thi. 考 thường là động từ “kiểm tra, thi môn nào”: 我明天考汉语. 做题 là làm bài tập/câu hỏi, không nhất thiết là một kỳ thi.",
+          "conditions": [
+            "有考试: có kỳ thi.",
+            "考试开始了: kỳ thi bắt đầu.",
+            "考 + môn học: thi môn đó."
+          ],
+          "takeaway": "考试 có thể là kỳ thi hoặc việc thi; dùng 考 + môn để nói thi môn nào."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我下星期有汉语考试。",
+            "vi": "Tuần sau tôi có kỳ thi tiếng Trung.",
+            "analysis": "考试 là danh từ đứng sau 汉语, gọi tên kỳ thi.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "考试开始了，请把手机关掉。",
+            "vi": "Kỳ thi bắt đầu rồi, xin hãy tắt điện thoại.",
+            "analysis": "考试 là sự kiện làm chủ ngữ; 开始了 cho biết kỳ thi đã bắt đầu.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "有 + môn học + 考试",
+            "position": "考试 đứng cuối cụm danh từ; môn học đặt trước để nói kỳ thi môn gì.",
+            "required": "Giữ 有 khi thông báo mình có một kỳ thi.",
+            "omission": "Môn học có thể bỏ nếu người nghe đã biết kỳ thi nào.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "考试 + 开始/结束",
+            "position": "考试 làm chủ ngữ trước động từ chỉ sự kiện.",
+            "required": "Dùng 开始 hoặc 结束 để nói kỳ thi bắt đầu hay kết thúc.",
+            "omission": "Có thể lược chủ thể trong lời thông báo ngắn.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "考试 gọi kỳ thi; 考 thường nêu việc thi môn nào",
+            "scene": "Bạn muốn nói “có kỳ thi” hay “ngày mai thi tiếng Trung”.",
+            "possibleConfusion": "Cả hai từ cùng liên quan đến thi nên người học thường dùng lẫn khung danh từ và động từ.",
+            "difference": "考试 có thể là danh từ chỉ kỳ thi hoặc động từ đi thi. 考 thường là động từ có thể theo sau bởi môn học: 考汉语. Hai khung đều đúng nhưng nhấn khác nhau.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "明天有汉语考试。",
+                "vi": "Ngày mai có kỳ thi tiếng Trung.",
+                "comment": "考试 là danh từ nêu sự kiện kỳ thi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我明天考汉语。",
+                "vi": "Ngày mai tôi thi tiếng Trung.",
+                "comment": "考 đứng trước môn học, diễn đạt hành động thi môn đó.",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Cả hai câu có thể nói về cùng kế hoạch, nhưng câu có 考试 nêu kỳ thi; câu có 考 nêu người thi môn nào."
+            },
+            "boundary": "考试 bắt đầu/kết thúc được; 考 + môn học diễn tả thi môn đó. Hãy chọn khung theo điều muốn nói.",
+            "tip": "“Có kỳ thi” dùng 有考试; “thi môn gì” có thể dùng 考 + môn."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 考试; phần học này tập trung vào nghĩa “kỳ thi; thi”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "考试 có thể là danh từ chỉ kỳ thi hoặc động từ đi thi. 考 thường là động từ có thể theo sau bởi môn học: 考汉语. Hai khung đều đúng nhưng nhấn khác nhau."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Dùng 考试 để nói “Kỳ thi tiếng Trung bắt đầu rồi”."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Dùng 考 để nói “Ngày mai tôi thi tiếng Trung”."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "汉语考试开始了。",
+              "考试开始了。"
+            ],
+            "explanation": "考试 là sự kiện làm chủ ngữ; có thể thêm 汉语 để chỉ môn."
+          },
+          "q2": {
+            "accepted": [
+              "我明天考汉语。",
+              "明天我考汉语。"
+            ],
+            "explanation": "考 đứng trước môn học 汉语."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tuần sau bạn có một kỳ thi tiếng Trung."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói kỳ thi đã kết thúc."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Thời gian: tuần sau; sự việc: có kỳ thi tiếng Trung.",
+            "frame": "我下星期有汉语考试。",
+            "model": "我下星期有汉语考试。",
+            "vi": "Tuần sau tôi có kỳ thi tiếng Trung.",
+            "criteria": [
+              "Dùng 有 + môn học + 考试.",
+              "Đặt thời gian trước cụm thông tin chính."
+            ]
+          },
+          "s2": {
+            "idea": "Sự việc: kỳ thi; trạng thái: đã kết thúc.",
+            "frame": "考试结束了。",
+            "model": "考试结束了。",
+            "vi": "Kỳ thi kết thúc rồi.",
+            "criteria": [
+              "Dùng 考试 làm chủ ngữ.",
+              "结束了 diễn tả sự kiện đã kết thúc."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-1c78720b6a3f",
@@ -36622,17 +37135,187 @@
       "intro": [
         {
           "pinyin": "qǐngjià",
-          "meaning": "xin nghỉ"
+          "meaning": "xin nghỉ phép; xin nghỉ học/làm"
         }
       ],
-      "meaning": "xin nghỉ",
-      "status": "catalog",
+      "meaning": "xin nghỉ phép; xin nghỉ học/làm",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-012",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我今天发烧了，想向老师请假。",
+          "vi": "Hôm nay tôi bị sốt, muốn xin phép thầy/cô nghỉ.",
+          "analysis": "向老师 đứng trước 请假 để nêu người mình xin phép.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他今天请假了，在家休息。",
+          "vi": "Anh ấy xin nghỉ hai ngày để ở nhà nghỉ ngơi.",
+          "analysis": "请了两天假 cho biết thời lượng xin nghỉ; 了 cho biết việc xin nghỉ đã được thực hiện.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 115,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 136,
+        "introduction": {
+          "scope": "请假 là báo và xin phép vắng mặt trong một khoảng thời gian vì lý do nào đó."
+        },
+        "meaning": {
+          "scene": "Bạn bị ốm hoặc có việc riêng nên cần xin nghỉ học, nghỉ làm và báo cho người phụ trách.",
+          "explanation": "请假 là động từ. Có thể nói 向 + người + 请假 để nêu xin phép ai, hoặc 请 + thời lượng + 假 để nói xin nghỉ bao lâu.",
+          "boundary": "请假 là chủ động xin phép nghỉ. 放假 là được nghỉ theo lịch/ngày nghỉ của trường hoặc cơ quan; hai từ không cùng ý định.",
+          "conditions": [
+            "向老师/老板请假: xin phép giáo viên/sếp nghỉ.",
+            "请一天假/请两天假: xin nghỉ một/hai ngày.",
+            "Nêu lý do sau 因为 hoặc trong câu tiếp theo khi cần."
+          ],
+          "takeaway": "Mình cần xin phép vắng mặt thì dùng 请假; kỳ nghỉ theo lịch thì dùng 放假."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我今天发烧了，想向老师请假。",
+            "vi": "Hôm nay tôi bị sốt, muốn xin phép thầy/cô nghỉ.",
+            "analysis": "向老师 đứng trước 请假 để nêu người mình xin phép.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他今天请假了，在家休息。",
+            "vi": "Anh ấy xin nghỉ hai ngày để ở nhà nghỉ ngơi.",
+            "analysis": "请了两天假 cho biết thời lượng xin nghỉ; 了 cho biết việc xin nghỉ đã được thực hiện.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "向 + người + 请假",
+            "position": "Người được xin phép đứng giữa 向 và 请假.",
+            "required": "Dùng 向 khi muốn nêu rõ xin phép ai.",
+            "omission": "Có thể bỏ người nhận nếu đã rõ trong cuộc trò chuyện.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "请 + thời lượng + 假",
+            "position": "Thời lượng đặt giữa 请 và 假.",
+            "required": "Dùng lượng thời gian để nói nghỉ bao lâu.",
+            "omission": "Có thể bỏ thời lượng nếu chỉ nói hành động xin nghỉ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "请假 là xin phép nghỉ; 放假 là có kỳ nghỉ",
+            "scene": "Bạn nghỉ vì phải xin phép, hoặc trường/công ty đang nghỉ theo lịch.",
+            "possibleConfusion": "Cả hai thường dịch có chữ “nghỉ”, nhưng một bên là hành động xin phép còn bên kia là lịch nghỉ.",
+            "difference": "请假 thường có người xin phép và lý do/thời lượng. 放假 nói trường, cơ quan hoặc mọi người được nghỉ theo lịch; không hàm ý người nói phải xin phép.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我想向老板请假一天。",
+                "vi": "Tôi muốn xin sếp nghỉ một ngày.",
+                "comment": "Có người xin phép, người nhận và thời lượng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "下星期学校放假。",
+                "vi": "Tuần sau trường được nghỉ.",
+                "comment": "Đây là lịch nghỉ của trường, không phải học sinh xin nghỉ riêng.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 请假 thành 放假 sẽ đổi từ “xin phép nghỉ” thành “được nghỉ theo lịch”; đổi 放假 thành 请假 cũng làm sai tình huống."
+            },
+            "boundary": "Khi cần nói mình xin phép vắng mặt, dùng 请假. Khi nói kỳ nghỉ chung, dùng 放假.",
+            "tip": "Ai xin phép nghỉ? 请假. Trường/cơ quan nghỉ theo lịch? 放假."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 请假; phần học này tập trung vào nghĩa “xin nghỉ phép; xin nghỉ học/làm”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "请假 thường có người xin phép và lý do/thời lượng. 放假 nói trường, cơ quan hoặc mọi người được nghỉ theo lịch; không hàm ý người nói phải xin phép."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền từ để nói “Tôi xin thầy giáo nghỉ một ngày”: 我向老师____一天。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Chọn cách nói về lịch nghỉ của trường: 下个月学校____。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我向老师请假一天。"
+            ],
+            "explanation": "Mẫu 向 + người + 请假 + thời lượng."
+          },
+          "q2": {
+            "accepted": [
+              "下个月学校放假。"
+            ],
+            "explanation": "放假 nói được nghỉ theo lịch."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn bị ốm và muốn xin phép giáo viên nghỉ hôm nay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn xin nghỉ hai ngày."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Thời điểm: hôm nay; lý do: không khỏe; xin phép giáo viên.",
+            "frame": "我今天不舒服，想向老师请假。",
+            "model": "我今天不舒服，想向老师请假。",
+            "vi": "Hôm nay tôi không khỏe, muốn xin phép thầy/cô nghỉ.",
+            "criteria": [
+              "Dùng 请假 cho việc xin phép.",
+              "Có thể đổi lý do nếu phù hợp."
+            ]
+          },
+          "s2": {
+            "idea": "Thời lượng: hai ngày; hành động: xin phép nghỉ.",
+            "frame": "我请两天假。",
+            "model": "我请两天假。",
+            "vi": "Tôi xin nghỉ hai ngày.",
+            "criteria": [
+              "Đặt thời lượng giữa 请 và 假.",
+              "Có thể thêm người nhận bằng 向 + người."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-e43a5fdbf424",
@@ -36641,17 +37324,188 @@
       "intro": [
         {
           "pinyin": "bāo",
-          "meaning": "túi"
+          "meaning": "túi; cặp"
         }
       ],
-      "meaning": "túi",
-      "status": "catalog",
+      "meaning": "túi; cặp",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-012",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "你的包里有手机吗？",
+          "vi": "Trong túi của bạn có điện thoại không?",
+          "analysis": "包里 là bên trong túi; 里 đứng sau danh từ chỉ vật chứa.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我想买一个黑色的包。",
+          "vi": "Tôi muốn mua một chiếc túi màu đen.",
+          "analysis": "一个 là số lượng; 的 nối màu sắc 黑色 với danh từ 包.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 116,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 137,
+        "introduction": {
+          "scope": "Ở mức này, 包 thường là túi/cặp dùng để đựng và mang theo đồ cá nhân."
+        },
+        "meaning": {
+          "scene": "Bạn hỏi chiếc túi ở đâu, nói đồ vật đang ở trong túi hoặc muốn mua túi.",
+          "explanation": "包 là danh từ chỉ túi/cặp. Thường đếm bằng 个: 一个包. Khi nói túi nhỏ bằng giấy/nhựa để đựng hàng, 袋子 thường cụ thể hơn.",
+          "boundary": "包 thường gợi chiếc túi cá nhân như túi xách, cặp hoặc túi đeo. 袋子 thường là túi đựng hàng bằng giấy/nhựa/vải; trong thực tế có vùng giao nhau, nên chọn theo vật và tình huống.",
+          "conditions": [
+            "一个包: một chiếc túi/cặp.",
+            "包里: bên trong túi.",
+            "一袋东西: một túi đồ; 袋子 gọi chiếc túi đựng hàng."
+          ],
+          "takeaway": "Đồ cá nhân mang theo thường là 包; túi đựng hàng thường nói 袋子."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你的包里有手机吗？",
+            "vi": "Trong túi của bạn có điện thoại không?",
+            "analysis": "包里 là bên trong túi; 里 đứng sau danh từ chỉ vật chứa.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我想买一个黑色的包。",
+            "vi": "Tôi muốn mua một chiếc túi màu đen.",
+            "analysis": "一个 là số lượng; 的 nối màu sắc 黑色 với danh từ 包.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "我的/你的 + 包",
+            "position": "Từ chỉ sở hữu đứng trước 包.",
+            "required": "Dùng 包里 khi muốn nói đồ ở bên trong.",
+            "omission": "Có thể bỏ từ sở hữu khi người nghe đã biết chiếc túi nào.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一 + lượng từ + 包",
+            "position": "Số lượng và lượng từ 个 đứng trước 包.",
+            "required": "Dùng 个 để đếm một chiếc túi.",
+            "omission": "Có thể nói 一个包, không cần thêm chiếc.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "包 thường là túi cá nhân; 袋子 thường là túi đựng hàng",
+            "scene": "Bạn cần gọi chiếc cặp mang đi làm hoặc chiếc túi nhựa đựng đồ ở cửa hàng.",
+            "possibleConfusion": "Tiếng Việt dùng “túi” cho cả hai vật nên dễ xem 包 và 袋子 là một.",
+            "difference": "包 thường là vật mang theo cá nhân như túi xách/cặp. 袋子 thường là túi đựng hàng. Có vùng giao nhau, nhưng câu phải hợp với loại vật cụ thể.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我把钥匙放在包里了。",
+                "vi": "Tôi để chìa khóa trong túi rồi.",
+                "comment": "包里 tự nhiên khi nói đồ cá nhân đựng bên trong.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "请给我一个塑料袋。",
+                "vi": "Làm ơn đưa tôi một chiếc túi nhựa.",
+                "comment": "袋子 phù hợp với túi nhựa đựng hàng.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Một chiếc túi xách có thể gọi là 包; chiếc túi nhựa ở quầy hàng thường gọi là 塑料袋. Thay từ mà không đổi loại vật sẽ gây hiểu nhầm."
+            },
+            "boundary": "Tên gọi phụ thuộc vào loại túi và công dụng; đây là khác biệt từ vựng theo vật, không phải quy tắc cứng rằng hai từ không bao giờ giao nhau.",
+            "tip": "Mang đồ cá nhân: 包. Túi đựng hàng: 袋子."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 包; phần học này tập trung vào nghĩa “túi; cặp”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "包 thường là vật mang theo cá nhân như túi xách/cặp. 袋子 thường là túi đựng hàng. Có vùng giao nhau, nhưng câu phải hợp với loại vật cụ thể."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói “Trong cặp có sách”: 包里有____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Ở cửa hàng, xin một chiếc túi nhựa: 请给我一个____。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "包里有书。",
+              "我的包里有书。"
+            ],
+            "explanation": "里 đứng sau 包 để nói bên trong túi."
+          },
+          "q2": {
+            "accepted": [
+              "请给我一个塑料袋。"
+            ],
+            "explanation": "Túi nhựa đựng hàng là 塑料袋."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi trong túi của bạn có chìa khóa không."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn muốn mua một chiếc túi nhỏ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đồ vật: chìa khóa; vị trí cần hỏi: bên trong túi.",
+            "frame": "你的包里有钥匙吗？",
+            "model": "你的包里有钥匙吗？",
+            "vi": "Trong túi của bạn có chìa khóa không?",
+            "criteria": [
+              "Dùng 包里 để nói bên trong túi.",
+              "Đặt 吗 cuối câu hỏi có/không."
+            ]
+          },
+          "s2": {
+            "idea": "Mong muốn: mua; vật: túi nhỏ.",
+            "frame": "我想买一个小包。",
+            "model": "我想买一个小包。",
+            "vi": "Tôi muốn mua một chiếc túi nhỏ.",
+            "criteria": [
+              "Dùng 个 trước 包.",
+              "Có thể đổi 小 thành màu sắc phù hợp."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-f1945082ca49",
@@ -36660,41 +37514,376 @@
       "intro": [
         {
           "pinyin": "ba",
-          "meaning": "nhé"
+          "meaning": "nhé; nhỉ"
         }
       ],
-      "meaning": "nhé",
-      "status": "example",
+      "meaning": "nhé; nhỉ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-012",
       "examples": [
         {
-          "zh": "我们走吧。",
-          "vi": "Chúng ta đi thôi."
+          "id": "e1",
+          "zh": "我们先回家吧。",
+          "vi": "Chúng ta về nhà trước nhé.",
+          "analysis": "吧 đứng cuối câu, làm lời đề nghị nghe nhẹ nhàng.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他应该在公司吧？",
+          "vi": "Chắc anh ấy ở công ty nhỉ?",
+          "analysis": "应该 và 吧 cho thấy đây là phỏng đoán, người nói chưa khẳng định chắc.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 117,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 138,
+        "introduction": {
+          "scope": "吧 là trợ từ thường đặt cuối câu để đưa ra lời rủ/đề nghị nhẹ nhàng hoặc phỏng đoán chưa chắc."
+        },
+        "meaning": {
+          "scene": "Bạn rủ người khác đi, đề nghị làm một việc hoặc đoán điều gì đó với giọng chưa khẳng định chắc chắn.",
+          "explanation": "Trong lời rủ, 吧 giúp câu nghe như một đề nghị: 我们走吧. Trong câu đoán, 吧 cho thấy người nói chưa chắc: 他在家吧. Nghĩa cụ thể phải dựa vào câu và giọng nói.",
+          "boundary": "吧 không phải dấu hỏi có/không. 吗 thường tạo câu hỏi cần người nghe xác nhận; 吧 thường rủ/đề nghị hoặc nêu phỏng đoán.",
+          "conditions": [
+            "Lời rủ/đề nghị: Câu + 吧.",
+            "Phỏng đoán: câu nhận định + 吧.",
+            "吧 đứng cuối câu; thường đọc nhẹ, không có thanh gốc như các âm tiết mang thanh."
+          ],
+          "takeaway": "Rủ hoặc đề nghị nhẹ nhàng dùng 吧; hỏi có/không cần câu trả lời thì dùng 吗."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们先回家吧。",
+            "vi": "Chúng ta về nhà trước nhé.",
+            "analysis": "吧 đứng cuối câu, làm lời đề nghị nghe nhẹ nhàng.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他应该在公司吧？",
+            "vi": "Chắc anh ấy ở công ty nhỉ?",
+            "analysis": "应该 và 吧 cho thấy đây là phỏng đoán, người nói chưa khẳng định chắc.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Câu đề nghị + 吧",
+            "position": "吧 đặt cuối câu rủ hoặc đề nghị.",
+            "required": "Đặt 吧 ở cuối để mềm lời rủ.",
+            "omission": "Bỏ 吧 thì câu có thể nghe trực tiếp hơn.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Có thể/应该 + nhận định + 吧",
+            "position": "吧 đặt cuối câu phỏng đoán.",
+            "required": "Dùng khi người nói chưa chắc và muốn xác nhận nhẹ.",
+            "omission": "Bỏ 吧 thì câu thường nghe chắc chắn hơn.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "吧 thường gợi ý hoặc phỏng đoán; 吗 hỏi có/không",
+            "scene": "Bạn muốn rủ đi về hoặc muốn hỏi người kia có về hay không.",
+            "possibleConfusion": "Cả câu có 吧 và 吗 đều có thể xuất hiện trong lời nói liên quan đến người nghe, nhưng chức năng khác nhau.",
+            "difference": "吧 cuối câu thường tạo lời rủ/đề nghị hoặc phỏng đoán. 吗 cuối câu biến nhận định thành câu hỏi có/không và chờ câu trả lời.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们现在走吧。",
+                "vi": "Chúng ta đi bây giờ nhé.",
+                "comment": "Đây là lời đề nghị cùng hành động, không hỏi người nghe có đi hay không.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你现在走吗？",
+                "vi": "Bây giờ bạn có đi không?",
+                "comment": "吗 hỏi có/không và cần câu trả lời.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 吧 thành 吗 sẽ biến lời rủ thành câu hỏi có/không; đổi 吗 thành 吧 sẽ làm mất ý hỏi trực tiếp."
+            },
+            "boundary": "Ngữ điệu có thể ảnh hưởng sắc thái, nhưng vị trí cuối câu và ý định giao tiếp giúp phân biệt hai trợ từ.",
+            "tip": "Rủ/đoán: 吧. Hỏi có/không: 吗."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 吧; phần học này tập trung vào nghĩa “nhé; nhỉ”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "吧 cuối câu thường tạo lời rủ/đề nghị hoặc phỏng đoán. 吗 cuối câu biến nhận định thành câu hỏi có/không và chờ câu trả lời."
+        },
+        "pronunciation": {
+          "text": "吧 ở đây là trợ từ cuối câu, đọc nhẹ và ngắn; đừng bỏ âm. Đọc 我们先回家吧 một lần. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Thêm trợ từ phù hợp để rủ “Chúng ta ăn cơm trước nhé”: 我们先吃饭____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Dùng trợ từ hỏi “Bạn có bận không?”: 你忙____？"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我们先吃饭吧。"
+            ],
+            "explanation": "吧 làm lời đề nghị nhẹ nhàng."
+          },
+          "q2": {
+            "accepted": [
+              "你忙吗？"
+            ],
+            "explanation": "吗 tạo câu hỏi có/không."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Rủ bạn bè về nhà trước bằng giọng nhẹ nhàng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Đoán nhẹ rằng người đó có lẽ đang ở nhà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Lời rủ: cùng về nhà trước.",
+            "frame": "我们先回家吧。",
+            "model": "我们先回家吧。",
+            "vi": "Chúng ta về nhà trước nhé.",
+            "criteria": [
+              "Đặt 吧 ở cuối câu.",
+              "Nội dung thể hiện lời đề nghị/rủ."
+            ]
+          },
+          "s2": {
+            "idea": "Phỏng đoán: anh ấy ở nhà; mức chắc chắn chưa cao.",
+            "frame": "他应该在家吧？",
+            "model": "他应该在家吧？",
+            "vi": "Chắc anh ấy ở nhà nhỉ?",
+            "criteria": [
+              "Dùng 吧 cho phỏng đoán chưa chắc.",
+              "Có thể đổi địa điểm hoặc chủ thể."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "cốc",
+      "meaning": "cốc; lượng từ cho đồ uống",
       "intro": [
         {
           "pinyin": "bēi",
-          "meaning": "cốc"
+          "meaning": "cốc; lượng từ cho đồ uống"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我要一杯热茶。",
+          "vi": "Tôi muốn một cốc trà nóng.",
+          "analysis": "一杯 đặt trước 热茶; 杯 là lượng từ đo đồ uống.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "桌子上有两个杯子。",
+          "vi": "Trên bàn có hai chiếc cốc.",
+          "analysis": "杯子 là danh từ chỉ vật; 个 đếm hai chiếc cốc.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-113c0125e338",
       "hanzi": "杯",
       "level": 1,
       "sourceIndex": 118,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "biên soạn bổ sung",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-012",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 139,
+        "introduction": {
+          "scope": "杯 gọi chiếc cốc trong một số cách dùng, và rất thường làm lượng từ cho một cốc đồ uống."
+        },
+        "meaning": {
+          "scene": "Bạn gọi đồ uống, nói uống bao nhiêu cốc hoặc chỉ chiếc cốc đặt trên bàn.",
+          "explanation": "一杯茶 nghĩa là một cốc trà: 杯 đứng sau số lượng và đo lượng đồ uống. 杯子 là chiếc cốc làm vật dụng. Hai từ có liên quan nhưng khung câu không giống nhau.",
+          "boundary": "一杯水 nói lượng nước đựng trong một cốc; 一个杯子 nói một chiếc cốc. Không dùng 杯子 làm lượng từ trong mẫu 一杯水.",
+          "conditions": [
+            "一杯茶/两杯水: số + 杯 + đồ uống.",
+            "一个杯子: số + 个 + 杯子, đếm chiếc cốc.",
+            "杯茶 thường được hiểu là một cốc trà; lượng từ đứng trước tên đồ uống."
+          ],
+          "takeaway": "Đồ uống: 一杯 + tên đồ uống. Đếm cái cốc: 一个杯子."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我要一杯热茶。",
+            "vi": "Tôi muốn một cốc trà nóng.",
+            "analysis": "一杯 đặt trước 热茶; 杯 là lượng từ đo đồ uống.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "桌子上有两个杯子。",
+            "vi": "Trên bàn có hai chiếc cốc.",
+            "analysis": "杯子 là danh từ chỉ vật; 个 đếm hai chiếc cốc.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一/两 + 杯 + đồ uống",
+            "position": "杯 đứng sau số và trước tên đồ uống.",
+            "required": "Dùng 杯 để gọi lượng đồ uống theo cốc.",
+            "omission": "Tên đồ uống có thể lược khi người nghe đã biết đang nói món gì.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一个/两个 + 杯子",
+            "position": "杯子 là danh từ sau số lượng và 个.",
+            "required": "Dùng 杯子 khi nói chiếc cốc vật lý.",
+            "omission": "Có thể lược 的位置词，如 桌子上 nếu ngữ cảnh đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "一杯水 là lượng nước; 一个杯子 là vật đựng",
+            "scene": "Bạn gọi một cốc nước hoặc hỏi trên bàn có bao nhiêu chiếc cốc.",
+            "possibleConfusion": "杯 xuất hiện trong cả hai cụm nên dễ bỏ nhầm 杯子 hoặc dùng sai lượng từ.",
+            "difference": "杯 đứng sau số để đo đồ uống. 杯子 là danh từ chỉ chiếc cốc; thường dùng 个 để đếm vật dụng.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请给我两杯水。",
+                "vi": "Làm ơn cho tôi hai cốc nước.",
+                "comment": "两杯 đo lượng đồ uống.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "桌子上有两个杯子。",
+                "vi": "Trên bàn có hai chiếc cốc.",
+                "comment": "两个杯子 đếm vật dụng là cốc.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "杯 và 杯子 liên quan nhưng không cùng chức năng: một bên là lượng từ của đồ uống, một bên là danh từ chỉ cái cốc."
+            },
+            "boundary": "Khi nói đồ uống theo cốc, dùng 杯 trước tên món; khi nói đồ vật, dùng 杯子.",
+            "tip": "Uống gì? 一杯茶. Có mấy cái cốc? 两个杯子."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 杯; phần học này tập trung vào nghĩa “cốc; lượng từ cho đồ uống”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "杯 đứng sau số để đo đồ uống. 杯子 là danh từ chỉ chiếc cốc; thường dùng 个 để đếm vật dụng."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Gọi một cốc cà phê: 我要____咖啡。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói trên bàn có hai chiếc cốc: 桌上有两个____。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我要一杯咖啡。"
+            ],
+            "explanation": "杯 làm lượng từ cho đồ uống."
+          },
+          "q2": {
+            "accepted": [
+              "桌上有两个杯子。"
+            ],
+            "explanation": "杯子 là danh từ chỉ chiếc cốc."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Gọi một cốc nước lạnh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói trên bàn có một chiếc cốc."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đồ uống: nước lạnh; số lượng: một cốc.",
+            "frame": "我要一杯冰水。",
+            "model": "我要一杯冰水。",
+            "vi": "Tôi muốn một cốc nước lạnh.",
+            "criteria": [
+              "Đặt 杯 giữa số và đồ uống.",
+              "Dùng tên đồ uống phù hợp."
+            ]
+          },
+          "s2": {
+            "idea": "Vị trí: trên bàn; vật: một chiếc cốc.",
+            "frame": "桌子上有一个杯子。",
+            "model": "桌子上有一个杯子。",
+            "vi": "Trên bàn có một chiếc cốc.",
+            "criteria": [
+              "Dùng 杯子 cho đồ vật.",
+              "Dùng 个 để đếm chiếc cốc."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-f9f98f770564",
@@ -36707,13 +37896,183 @@
         }
       ],
       "meaning": "cửa",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-012",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请把门关上。",
+          "vi": "Xin hãy đóng cửa lại.",
+          "analysis": "门 là vật được đóng; 关上 nghĩa là đóng kín/lại.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我在学校门口等你。",
+          "vi": "Tôi chờ bạn ở cổng trường.",
+          "analysis": "门口 chỉ địa điểm ngay lối ra vào; 学校 đứng trước để nêu cổng của trường.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 119,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 140,
+        "introduction": {
+          "scope": "门 là cửa ra vào/cánh cửa; từ này cũng xuất hiện trong một số từ chỉ khu vực gần cửa."
+        },
+        "meaning": {
+          "scene": "Bạn bảo ai đóng cửa, hỏi cửa ở đâu hoặc nói mình đang chờ gần lối ra vào.",
+          "explanation": "门 thường là cánh cửa hoặc lối vào được gọi là cửa. 门口 là khu vực ngay tại cửa, thường dịch là cửa ra vào/lối cửa; hai từ không thay nhau trong mọi câu.",
+          "boundary": "门 là vật/cửa. 门口 là địa điểm ở cửa hoặc lối ra vào; hậu tố 口 ở đây gợi khu vực mở/lối vào, không phải một cánh cửa khác.",
+          "conditions": [
+            "开门/关门: mở/đóng cửa.",
+            "在门口等: chờ ở cửa/lối vào.",
+            "家门口: trước cửa nhà."
+          ],
+          "takeaway": "Đóng/mở vật cửa: 门. Nói địa điểm ngay lối vào: 门口."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请把门关上。",
+            "vi": "Xin hãy đóng cửa lại.",
+            "analysis": "门 là vật được đóng; 关上 nghĩa là đóng kín/lại.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我在学校门口等你。",
+            "vi": "Tôi chờ bạn ở cổng trường.",
+            "analysis": "门口 chỉ địa điểm ngay lối ra vào; 学校 đứng trước để nêu cổng của trường.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "开/关 + 门",
+            "position": "门 đứng sau động từ chỉ mở/đóng.",
+            "required": "Dùng 门 khi nói hành động với cánh cửa.",
+            "omission": "Có thể bỏ 把 trong câu khẩu ngữ đơn giản: 请关门。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "在 + địa điểm + 门口",
+            "position": "门口 đứng sau tên nơi chốn để nêu lối vào.",
+            "required": "Dùng 在 trước nơi chờ hoặc gặp.",
+            "omission": "Có thể bỏ tên nơi chốn nếu ngữ cảnh đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "门 là cửa; 门口 là vị trí ở cửa",
+            "scene": "Bạn muốn nhờ đóng cửa hoặc báo mình đang đợi ngay lối vào.",
+            "possibleConfusion": "Tiếng Việt có thể gọi cả hai là “cửa”, nhưng một từ chỉ vật còn từ kia chỉ vị trí.",
+            "difference": "门 là cánh cửa/cửa ra vào. 门口 là khu vực hoặc lối đi ở cửa, nên 在门口等 nói chờ tại lối vào.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请把门打开。",
+                "vi": "Xin hãy mở cửa ra.",
+                "comment": "门 là vật được mở.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我在家门口等你。",
+                "vi": "Tôi chờ bạn ở trước cửa nhà.",
+                "comment": "门口 là nơi chờ, không phải vật được mở.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "把门打开 cần tên vật 门; 在家门口等 cần địa điểm 门口. Thay từ sẽ làm đổi vai trò trong câu."
+            },
+            "boundary": "Khi có thể mở/đóng, thường nói 门. Khi có thể đứng/chờ/gặp tại đó, thường nói 门口.",
+            "tip": "关门; 在门口等."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 门; phần học này tập trung vào nghĩa “cửa”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "门 là cánh cửa/cửa ra vào. 门口 là khu vực hoặc lối đi ở cửa, nên 在门口等 nói chờ tại lối vào."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền từ để nói “Xin đóng cửa”: 请把____关上。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói “Tôi chờ bạn ở cửa nhà”: 我在家____等你。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请把门关上。"
+            ],
+            "explanation": "门 là vật được đóng."
+          },
+          "q2": {
+            "accepted": [
+              "我在家门口等你。"
+            ],
+            "explanation": "门口 chỉ địa điểm ngay cửa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhờ người khác mở cửa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn đợi ở cửa công ty."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Hành động cần nhờ: mở cánh cửa.",
+            "frame": "请把门打开。",
+            "model": "请把门打开。",
+            "vi": "Xin hãy mở cửa ra.",
+            "criteria": [
+              "Dùng 门 làm vật được mở.",
+              "请 làm lời nhờ lịch sự."
+            ]
+          },
+          "s2": {
+            "idea": "Địa điểm: cửa công ty; hành động: chờ.",
+            "frame": "我在公司门口等。",
+            "model": "我在公司门口等。",
+            "vi": "Tôi chờ ở cửa công ty.",
+            "criteria": [
+              "Dùng 门口 làm địa điểm.",
+              "Có thể thêm người mình đợi bằng 等你."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-e62de0e7228c",
@@ -36722,22 +38081,188 @@
       "intro": [
         {
           "pinyin": "dōngxi",
-          "meaning": "đồ vật"
+          "meaning": "đồ vật; thứ"
         }
       ],
-      "meaning": "đồ vật",
-      "status": "example",
+      "meaning": "đồ vật; thứ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-012",
       "examples": [
         {
-          "zh": "这些东西是你的吗？",
-          "vi": "Những đồ vật này là của bạn à?"
+          "id": "e1",
+          "zh": "这些东西是谁的？",
+          "vi": "Những đồ này là của ai?",
+          "analysis": "这些东西 là cụm chỉ nhiều đồ vật; 是谁的 hỏi chủ sở hữu.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我想买点儿吃的东西。",
+          "vi": "Tôi muốn mua một ít đồ ăn.",
+          "analysis": "吃的东西 là thứ để ăn; 点儿 cho biết một lượng nhỏ, không cần đếm từng món.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 120,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 141,
+        "introduction": {
+          "scope": "东西 trong hội thoại thường có nghĩa là đồ vật/thứ; xi đọc thanh nhẹ trong cách đọc thông dụng này."
+        },
+        "meaning": {
+          "scene": "Bạn hỏi những món đồ đó của ai, hoặc nói muốn mua một vài thứ.",
+          "explanation": "东西 là danh từ chỉ đồ vật hoặc thứ nói chung. Khi đã rõ loại đồ, có thể thêm 的东西 như 吃的东西 (đồ ăn/thứ để ăn). Nghĩa cụ thể thường dựa vào câu.",
+          "boundary": "东西 dùng chung, không nói rõ món nào. Danh từ cụ thể như 书、手机、衣服 gọi đúng món; gọi một người là 东西 có thể mang ý xúc phạm, nên người mới không dùng theo cách đó.",
+          "conditions": [
+            "这些东西: những đồ vật này.",
+            "买点儿东西: mua một vài thứ.",
+            "吃的东西: đồ ăn/thứ để ăn."
+          ],
+          "takeaway": "东西 là “đồ/thứ” nói chung; nếu biết món cụ thể thì gọi tên món đó."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这些东西是谁的？",
+            "vi": "Những đồ này là của ai?",
+            "analysis": "这些东西 là cụm chỉ nhiều đồ vật; 是谁的 hỏi chủ sở hữu.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我想买点儿吃的东西。",
+            "vi": "Tôi muốn mua một ít đồ ăn.",
+            "analysis": "吃的东西 là thứ để ăn; 点儿 cho biết một lượng nhỏ, không cần đếm từng món.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "这/那/这些 + 东西",
+            "position": "Từ chỉ định và lượng từ số nhiều đứng trước 东西.",
+            "required": "Dùng 的 để hỏi chủ sở hữu trong 是谁的.",
+            "omission": "Có thể bỏ 这些 nếu đã chỉ rõ đồ vật bằng cử chỉ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "买 + 点儿 + 东西",
+            "position": "点儿 đặt giữa động từ và 东西 để nói mua một ít đồ.",
+            "required": "Có thể thêm tính từ/động từ + 的 trước 东西 để nói loại đồ.",
+            "omission": "Có thể lược 点儿 khi không cần nhấn lượng ít.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "东西 là đồ vật; tránh gọi người bằng 东西",
+            "scene": "Bạn nói về một món đồ nhưng cũng có thể vô tình dùng từ này để gọi một người.",
+            "possibleConfusion": "东西 nghĩa rộng là “thứ/đồ”, nhưng khi áp vào người, câu có thể nghe khinh miệt.",
+            "difference": "Nói 这些东西 về vật dụng là bình thường. Gọi ai đó 你这个东西 có thể là lời mắng, không phải cách gọi trung tính.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我把东西放在桌子上了。",
+                "vi": "Tôi để đồ lên bàn rồi.",
+                "comment": "东西 ở đây chỉ đồ vật, cách dùng trung tính.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你这个东西！",
+                "vi": "Đồ kia! (cách gọi mang tính xúc phạm)",
+                "comment": "Nói với người, cụm này có thể là lời mắng; không dùng để gọi người một cách bình thường.",
+                "judgment": "wrong-intent",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "东西 dùng an toàn khi nói về vật. Với người, hãy gọi tên, đại từ hoặc danh xưng phù hợp thay vì dùng cách gọi xúc phạm."
+            },
+            "boundary": "Nghĩa “đồ/thứ” thông dụng nói về vật; sắc thái khi nhắm vào người đổi hẳn theo ngữ cảnh.",
+            "tip": "Nói về đồ vật thì dùng được; không gọi người là 东西."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 东西; phần học này tập trung vào nghĩa “đồ vật; thứ”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "Nói 这些东西 về vật dụng là bình thường. Gọi ai đó 你这个东西 có thể là lời mắng, không phải cách gọi trung tính."
+        },
+        "pronunciation": {
+          "text": "在 东西 里，第二个音节读轻声，读得轻而短，但仍要发出这个音。 Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói “Những thứ này là của ai?”"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói “Tôi muốn mua một ít đồ ăn”: 我想买点儿____。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这些东西是谁的？"
+            ],
+            "explanation": "这些东西 chỉ những đồ vật đang được nói đến."
+          },
+          "q2": {
+            "accepted": [
+              "我想买点儿吃的东西。",
+              "我想买点儿东西吃。"
+            ],
+            "explanation": "Có thể nói 吃的东西 hoặc 东西吃; hai khung đều tự nhiên."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi những đồ vật này của ai."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn muốn mua một vài thứ ở cửa hàng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đối tượng: những đồ vật; thông tin cần hỏi: chủ sở hữu.",
+            "frame": "这些东西是谁的？",
+            "model": "这些东西是谁的？",
+            "vi": "Những đồ này là của ai?",
+            "criteria": [
+              "Dùng 这些东西 cho nhiều vật.",
+              "Đặt 是谁的 để hỏi chủ sở hữu."
+            ]
+          },
+          "s2": {
+            "idea": "Mong muốn: mua một ít; chưa nêu món cụ thể.",
+            "frame": "我想买点儿东西。",
+            "model": "我想买点儿东西。",
+            "vi": "Tôi muốn mua một vài thứ.",
+            "criteria": [
+              "Dùng 东西 khi chưa nêu món cụ thể.",
+              "Thêm 点儿 để nói một ít."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-03d8dcb82f40",
@@ -36746,22 +38271,187 @@
       "intro": [
         {
           "pinyin": "shūdiàn",
-          "meaning": "hiệu sách"
+          "meaning": "hiệu sách; nhà sách"
         }
       ],
-      "meaning": "hiệu sách",
-      "status": "example",
+      "meaning": "hiệu sách; nhà sách",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-012",
       "examples": [
         {
-          "zh": "书店在电影院旁边。",
-          "vi": "Hiệu sách ở cạnh rạp chiếu phim."
+          "id": "e1",
+          "zh": "我去书店买一本汉语词典。",
+          "vi": "Tôi đến hiệu sách mua một cuốn từ điển tiếng Trung.",
+          "analysis": "去书店 nêu nơi đến; 买一本汉语词典 nêu mục đích và món cần mua.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这家书店晚上九点关门。",
+          "vi": "Hiệu sách này đóng cửa lúc chín giờ tối.",
+          "analysis": "这家 dùng lượng từ 家 cho cửa hàng; 关门 nói cửa hàng đóng cửa.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 121,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 142,
+        "introduction": {
+          "scope": "书店 là cửa hàng bán sách; từ này chỉ nơi mua sách, không phải nơi chủ yếu cho mượn sách."
+        },
+        "meaning": {
+          "scene": "Bạn muốn tìm chỗ mua sách, từ điển hoặc đồ dùng học tập.",
+          "explanation": "书店 là danh từ ghép 书 (sách) + 店 (cửa hàng). Có thể dùng 去书店 để nói đi đến hiệu sách; dùng 在书店买…… để nói mua gì ở đó.",
+          "boundary": "书店 là nơi bán sách. 图书馆 là thư viện, nơi đọc hoặc mượn sách; hai địa điểm liên quan đến sách nhưng công dụng khác nhau.",
+          "conditions": [
+            "去书店: đi đến hiệu sách.",
+            "在书店买书: mua sách ở hiệu sách.",
+            "这家书店: hiệu sách này."
+          ],
+          "takeaway": "Mua sách thì đi 书店; mượn/đọc sách tại thư viện thì đi 图书馆."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我去书店买一本汉语词典。",
+            "vi": "Tôi đến hiệu sách mua một cuốn từ điển tiếng Trung.",
+            "analysis": "去书店 nêu nơi đến; 买一本汉语词典 nêu mục đích và món cần mua.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这家书店晚上九点关门。",
+            "vi": "Hiệu sách này đóng cửa lúc chín giờ tối.",
+            "analysis": "这家 dùng lượng từ 家 cho cửa hàng; 关门 nói cửa hàng đóng cửa.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去 + 书店 + động từ",
+            "position": "书店 đứng sau 去 như nơi đến; hành động tiếp theo cho biết mục đích.",
+            "required": "Dùng 去 khi nói đi đến hiệu sách.",
+            "omission": "Có thể nói 我去书店 nếu không cần kể mục đích.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "这家书店",
+            "position": "家 đứng sau số/từ chỉ định để đếm cơ sở kinh doanh.",
+            "required": "Dùng 家 cho hiệu sách/cửa hàng.",
+            "omission": "Có thể bỏ 这家 khi địa điểm đã biết.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "书店 bán sách; 图书馆 cho đọc hoặc mượn sách",
+            "scene": "Bạn cần mua một cuốn sách hay muốn mượn sách về đọc.",
+            "possibleConfusion": "Cả hai nơi đều có sách nên dễ nhầm tên địa điểm.",
+            "difference": "书店 là cửa hàng, thường trả tiền để mua sách. 图书馆 là thư viện, chủ yếu để đọc tại chỗ hoặc mượn theo quy định.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我去书店买一本书。",
+                "vi": "Tôi đến hiệu sách mua một cuốn sách.",
+                "comment": "Mua sách là hoạt động phù hợp ở 书店.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我去图书馆借书。",
+                "vi": "Tôi đến thư viện mượn sách.",
+                "comment": "借书 là mượn sách, phù hợp với 图书馆.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 书店 bằng 图书馆 sẽ đổi nơi mua thành thư viện; cần chọn địa điểm theo việc muốn mua hay mượn."
+            },
+            "boundary": "Từ này gọi địa điểm theo chức năng chính; sách có thể xuất hiện ở cả hai nơi.",
+            "tip": "Mua = 书店. Mượn/đọc = 图书馆."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 书店; phần học này tập trung vào nghĩa “hiệu sách; nhà sách”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "书店 là cửa hàng, thường trả tiền để mua sách. 图书馆 là thư viện, chủ yếu để đọc tại chỗ hoặc mượn theo quy định."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói “Tôi đến hiệu sách mua sách”: 我去____买书。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Bạn muốn mượn sách. Điền địa điểm: 我去____借书。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我去书店买书。"
+            ],
+            "explanation": "书店 là cửa hàng bán sách."
+          },
+          "q2": {
+            "accepted": [
+              "我去图书馆借书。"
+            ],
+            "explanation": "图书馆 là thư viện; 借书 là mượn sách."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn muốn đến hiệu sách mua từ điển."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hiệu sách này mở cửa lúc mấy giờ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Mục đích: mua từ điển; địa điểm: hiệu sách.",
+            "frame": "我想去书店买词典。",
+            "model": "我想去书店买词典。",
+            "vi": "Tôi muốn đến hiệu sách mua từ điển.",
+            "criteria": [
+              "Dùng 书店 cho nơi mua sách.",
+              "Theo sau địa điểm có thể nêu mục đích 买词典."
+            ]
+          },
+          "s2": {
+            "idea": "Cần hỏi giờ mở cửa của hiệu sách này.",
+            "frame": "这家书店几点开门？",
+            "model": "这家书店几点开门？",
+            "vi": "Hiệu sách này mở cửa lúc mấy giờ?",
+            "criteria": [
+              "Dùng 家 cho cửa hàng.",
+              "Dùng 开门 để nói mở cửa."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-c32f73d4f4c0",
@@ -36774,18 +38464,183 @@
         }
       ],
       "meaning": "bệnh viện",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-012",
       "examples": [
         {
-          "zh": "医院离这里很近。",
-          "vi": "Bệnh viện cách đây rất gần."
+          "id": "e1",
+          "zh": "他不舒服，今天要去医院看病。",
+          "vi": "Anh ấy không khỏe, hôm nay phải đến bệnh viện khám.",
+          "analysis": "去医院 nêu nơi đến; 看病 nêu mục đích đến đó.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我妈妈在医院工作。",
+          "vi": "Mẹ tôi làm việc ở bệnh viện.",
+          "analysis": "在医院 nêu nơi làm việc; 工作 là làm việc.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 122,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 143,
+        "introduction": {
+          "scope": "医院 là cơ sở y tế nơi người bệnh đến khám hoặc điều trị; không chỉ người làm nghề y."
+        },
+        "meaning": {
+          "scene": "Bạn nói một người cần đến bệnh viện khám hoặc hỏi bệnh viện ở đâu.",
+          "explanation": "医院 là danh từ chỉ bệnh viện. Các khung thường gặp gồm 去医院看病 (đến bệnh viện khám bệnh) và 在医院工作 (làm việc ở bệnh viện).",
+          "boundary": "医院 chỉ nơi khám/chữa bệnh. 医生 là bác sĩ; 看病 là khám bệnh/đi khám. Không dùng 医院 để chỉ bác sĩ hoặc hành động khám.",
+          "conditions": [
+            "去医院: đến bệnh viện.",
+            "去医院看病: đến bệnh viện khám bệnh.",
+            "在医院工作: làm việc ở bệnh viện."
+          ],
+          "takeaway": "医院 là nơi; 医生 là người; 看病 là việc khám bệnh."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他不舒服，今天要去医院看病。",
+            "vi": "Anh ấy không khỏe, hôm nay phải đến bệnh viện khám.",
+            "analysis": "去医院 nêu nơi đến; 看病 nêu mục đích đến đó.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我妈妈在医院工作。",
+            "vi": "Mẹ tôi làm việc ở bệnh viện.",
+            "analysis": "在医院 nêu nơi làm việc; 工作 là làm việc.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去 + 医院 + 看病",
+            "position": "医院 đứng sau 去 và trước hành động/mục đích 看病.",
+            "required": "Thêm 看病 để nói rõ đến bệnh viện khám.",
+            "omission": "Có thể nói 去医院 khi người nghe đã biết lý do.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "在 + 医院 + 工作",
+            "position": "医院 đứng sau 在 để nêu địa điểm làm việc.",
+            "required": "Dùng 在 khi nói công việc diễn ra ở bệnh viện.",
+            "omission": "Có thể lược địa điểm nếu đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "医院 là nơi; 医生 là bác sĩ",
+            "scene": "Bạn nói mình đến bệnh viện hay giới thiệu nghề của một người.",
+            "possibleConfusion": "医院 và 医生 cùng bắt đầu bằng 医, dễ nhầm người với nơi.",
+            "difference": "医院 là cơ sở y tế. 医生 là bác sĩ làm việc với bệnh nhân; 看病 là hành động khám bệnh.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我爸爸是医生。",
+                "vi": "Bố tôi là bác sĩ.",
+                "comment": "医生 chỉ người/nghề.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我爸爸在医院工作。",
+                "vi": "Bố tôi làm việc ở bệnh viện.",
+                "comment": "医院 chỉ nơi làm việc.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 医生 thành 医院 sẽ đổi người thành địa điểm; cần chọn theo câu đang nói về ai hay ở đâu."
+            },
+            "boundary": "Nơi: 医院. Người: 医生. Việc khám: 看病.",
+            "tip": "医院里有医生; hai từ không cùng loại."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 医院; phần học này tập trung vào nghĩa “bệnh viện”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "医院 là cơ sở y tế. 医生 là bác sĩ làm việc với bệnh nhân; 看病 là hành động khám bệnh."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói “Anh ấy đến bệnh viện khám bệnh”: 他去____看病。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Điền từ chỉ người bác sĩ: 我妈妈是____。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "他去医院看病。"
+            ],
+            "explanation": "医院 là địa điểm; 看病 là mục đích."
+          },
+          "q2": {
+            "accepted": [
+              "我妈妈是医生。"
+            ],
+            "explanation": "医生 chỉ bác sĩ, không phải bệnh viện."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn phải đến bệnh viện hôm nay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói mẹ bạn làm việc ở bệnh viện."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Thời điểm: hôm nay; nơi cần đến: bệnh viện.",
+            "frame": "我今天要去医院。",
+            "model": "我今天要去医院。",
+            "vi": "Hôm nay tôi phải đến bệnh viện.",
+            "criteria": [
+              "Dùng 医院 làm nơi đến.",
+              "Đặt 要 trước 去 để nói cần/phải đi."
+            ]
+          },
+          "s2": {
+            "idea": "Người: mẹ; nơi làm việc: bệnh viện.",
+            "frame": "我妈妈在医院工作。",
+            "model": "我妈妈在医院工作。",
+            "vi": "Mẹ tôi làm việc ở bệnh viện.",
+            "criteria": [
+              "Dùng 在医院 làm nơi làm việc.",
+              "工作 là động từ làm việc."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-866c497fc0bb",
@@ -36794,17 +38649,187 @@
       "intro": [
         {
           "pinyin": "shāngchǎng",
-          "meaning": "trung tâm mua sắm"
+          "meaning": "trung tâm mua sắm; khu thương mại"
         }
       ],
-      "meaning": "trung tâm mua sắm",
-      "status": "catalog",
+      "meaning": "trung tâm mua sắm; khu thương mại",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-012",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "周末我们去商场买衣服。",
+          "vi": "Cuối tuần chúng tôi đi trung tâm mua sắm mua quần áo.",
+          "analysis": "去商场 nêu điểm đến; 买衣服 nói hoạt động dự định làm.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这个商场里有超市、餐厅和电影院。",
+          "vi": "Trong trung tâm mua sắm này có siêu thị, nhà hàng và rạp chiếu phim.",
+          "analysis": "商场里 chỉ bên trong; 有 giới thiệu nhiều nơi/dịch vụ ở đó.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 123,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát nghĩa, cách kết hợp và câu mẫu; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+        ],
+        "cohortOrdinal": 144,
+        "introduction": {
+          "scope": "商场 thường chỉ một trung tâm mua sắm hoặc cửa hàng bách hóa lớn có nhiều quầy/ngành hàng."
+        },
+        "meaning": {
+          "scene": "Bạn hẹn đi mua quần áo, ăn uống hoặc dạo ở một nơi có nhiều cửa hàng.",
+          "explanation": "商场 là một địa điểm bán lẻ lớn, thường có nhiều cửa hàng hoặc quầy bên trong. Dùng 去商场 để nói đi đến đó; 在商场里 nói ở bên trong trung tâm mua sắm.",
+          "boundary": "商场 thường là khu mua sắm lớn. 商店 là cửa hàng nói chung, thường là một cửa hàng cụ thể; một 商场 có thể có nhiều 商店.",
+          "conditions": [
+            "去商场: đi đến trung tâm mua sắm.",
+            "商场里: bên trong trung tâm mua sắm.",
+            "在商场买衣服: mua quần áo ở trung tâm mua sắm."
+          ],
+          "takeaway": "Một địa điểm lớn có nhiều cửa hàng: 商场; một cửa hàng riêng lẻ: 商店."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "周末我们去商场买衣服。",
+            "vi": "Cuối tuần chúng tôi đi trung tâm mua sắm mua quần áo.",
+            "analysis": "去商场 nêu điểm đến; 买衣服 nói hoạt động dự định làm.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这个商场里有超市、餐厅和电影院。",
+            "vi": "Trong trung tâm mua sắm này có siêu thị, nhà hàng và rạp chiếu phim.",
+            "analysis": "商场里 chỉ bên trong; 有 giới thiệu nhiều nơi/dịch vụ ở đó.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去 + 商场 + hoạt động",
+            "position": "商场 đứng sau 去 như điểm đến; hành động tiếp theo có thể nêu việc sẽ làm.",
+            "required": "Dùng 去 khi nói đi đến trung tâm mua sắm.",
+            "omission": "Có thể bỏ hoạt động nếu không cần nêu mục đích.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "商场里 + 有 + địa điểm/dịch vụ",
+            "position": "里 đứng sau 商场 để nói bên trong; 有 giới thiệu thứ có ở đó.",
+            "required": "Dùng 里 khi muốn nhấn các cửa hàng/dịch vụ ở bên trong.",
+            "omission": "Có thể nói 这个商场有…… nếu không cần nhấn “bên trong”.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "商场 là trung tâm mua sắm; 商店 là cửa hàng",
+            "scene": "Bạn hỏi đường đến một khu mua sắm lớn hay nói đến một cửa hàng cụ thể.",
+            "possibleConfusion": "Cả hai đều là nơi mua hàng; 商场 thường lớn và có nhiều cửa hàng ở bên trong.",
+            "difference": "商场 là địa điểm/khu mua sắm lớn. 商店 là cửa hàng riêng lẻ hoặc cửa hàng nói chung; một 商场 có thể có nhiều 商店.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个商场里有很多商店。",
+                "vi": "Trong trung tâm mua sắm này có nhiều cửa hàng.",
+                "comment": "商场 là toàn khu; 商店 là các cửa hàng bên trong.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我去商店买水。",
+                "vi": "Tôi đến cửa hàng mua nước.",
+                "comment": "商店 gọi một cửa hàng; không nhất thiết là trung tâm lớn.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 商场 bằng 商店 sẽ chuyển từ một khu lớn có nhiều cửa hàng sang một cửa hàng; chọn theo quy mô/địa điểm định nói."
+            },
+            "boundary": "Cách dùng đời thường đôi khi thay đổi theo vùng và tên địa điểm, nhưng phân biệt cơ bản hữu ích là khu mua sắm lớn so với cửa hàng.",
+            "tip": "Nhiều cửa hàng trong một khu: 商场. Một cửa hàng: 商店."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 商场; phần học này tập trung vào nghĩa “trung tâm mua sắm; khu thương mại”.",
+          "literalTranslation": "Không tách từng chữ để đoán nghĩa; đọc cả từ và câu.",
+          "confusables": "商场 là địa điểm/khu mua sắm lớn. 商店 là cửa hàng riêng lẻ hoặc cửa hàng nói chung; một 商场 có thể có nhiều 商店."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói “Trong trung tâm mua sắm có nhà hàng”: 商场里____餐厅。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói “Tôi đến cửa hàng mua nước”, dùng 商店."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "商场里有餐厅。"
+            ],
+            "explanation": "有 giới thiệu địa điểm/dịch vụ bên trong."
+          },
+          "q2": {
+            "accepted": [
+              "我去商店买水。"
+            ],
+            "explanation": "商店 là cửa hàng nói chung."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói cuối tuần bạn đi trung tâm mua sắm mua quần áo."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói trong trung tâm mua sắm có siêu thị và nhà hàng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Thời điểm: cuối tuần; nơi đến: trung tâm mua sắm; việc cần làm: mua quần áo.",
+            "frame": "周末我去商场买衣服。",
+            "model": "周末我去商场买衣服。",
+            "vi": "Cuối tuần tôi đi trung tâm mua sắm mua quần áo.",
+            "criteria": [
+              "Dùng 商场 làm điểm đến.",
+              "Theo sau có thể nêu hoạt động mua sắm."
+            ]
+          },
+          "s2": {
+            "idea": "Vị trí: bên trong trung tâm; có siêu thị và nhà hàng.",
+            "frame": "商场里有超市和餐厅。",
+            "model": "商场里有超市和餐厅。",
+            "vi": "Trong trung tâm mua sắm có siêu thị và nhà hàng.",
+            "criteria": [
+              "Dùng 里 để nói bên trong.",
+              "Dùng 有 để nêu những thứ có ở đó."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-08e00cd0b8cd",
@@ -81180,13 +83205,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 142,
-    "pending": 2092,
+    "ready": 154,
+    "pending": 2080,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 142
+        "ready": 154
       },
       {
         "level": 2,
