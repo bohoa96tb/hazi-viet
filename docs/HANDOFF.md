@@ -39,7 +39,10 @@ Bài V2 dùng đúng hai câu chính mỗi mục. Đã sửa fixture trong `tool
 
 Đã biên soạn baseline ordinal 157–168: 钱包、门口、饭店、五、哥、妈、妹、姐、子、常、弟、手. Tiến độ sau batch: 168/2224; còn 2056; toàn khóa 178/2234 mục đủ cấu trúc. Nội dung V2 gồm hai ví dụ chính, bẫy theo ngữ cảnh, hai câu luyện có đáp án riêng và hai tình huống tự dùng. Đã tự rà và đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa có phản biện giáo viên độc lập.
 
-Phát hành Pages và kiểm tra live cần xác nhận sau khi commit. Chưa kiểm audio trên thiết bị Android.
+- Commit nội dung: d9f1a7a5f7c322b7610124fd064b81c6d33b9dc4.
+- Pages run [39789475190](https://github.com/bohoa96tb/hazi-viet/actions/runs/39789475190) hoàn tất thành công trên đúng commit.
+- Đã mở đủ 12 ID mới trên Pages live; cả 12 hiện trạng thái BÀI HỌC ĐẦY ĐỦ/chuẩn V2. Kiểm giao diện trực quan 钱包, 饭店 và 手 cho thấy nội dung mới và năm bước học.
+- courseSha256 trong manifest là hash của tệp nguồn đã kiểm ở commit; lượt này chưa tải trực tiếp tệp Pages để so byte. Không ghi hash live riêng. Chưa kiểm TTS Android hoặc phản biện giáo viên độc lập.
 
 ## Đợt tiếp theo
 
