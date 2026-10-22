@@ -1,3 +1,15 @@
+# Phát hành batch-015
+
+Mục baseline 169–180: 爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷. Tiến độ sau batch: 180/2.224; còn 2.044; toàn khóa đủ cấu trúc 190/2.234, gồm 10 mục ngoài baseline.
+
+- Nội dung V2 tự biên soạn, đối chiếu nguồn trong từng mục; chưa phản biện giáo viên độc lập.
+- Tệp khóa học SHA256 nguồn: `e4dc35257681af3c37e5dd9a17a922a953af1f3f8ebf64c01edd230401012dae`.
+- GitHub Pages và 12 route live đang chờ xác minh sau khi đẩy commit.
+
+Đợt tiếp theo bắt đầu tại ordinal 181; các ID chính thức nằm trong progress.json.
+
+---
+
 # Phát hành batch-014
 
 Mục baseline 157–168: 钱包、门口、饭店、五、哥、妈、妹、姐、子、常、弟、手. Tiến độ: 168/2.224; còn 2.056; toàn khóa đủ cấu trúc 178/2.234, gồm 10 mục ngoài baseline.

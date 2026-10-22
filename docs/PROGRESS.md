@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 168/2224. Còn: 2056. Toàn khóa đủ cấu trúc: 178/2234.
+Đã bổ sung: 180/2224. Còn: 2044. Toàn khóa đủ cấu trúc: 190/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -20,20 +20,21 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-012 · mục 133–144 · 打球、爱好、考试、请假、包、吧、杯、门、东西、书店、医院、商场
 - batch-013 · mục 145–156 · 商店、图书馆、杯子、洗手间、电影、电影院、电脑、电视、电视机、看病、衣服、身体
 - batch-014 · mục 157–168 · 钱包、门口、饭店、五、哥、妈、妹、姐、子、常、弟、手
+- batch-015 · mục 169–180 · 爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷
 
 ## 12 mục tiếp theo
 
-- 爸 · hz-h1-f11409a4c688
-- 儿子 · hz-h1-d9629d68254a
-- 哥哥 · hz-h1-079686d86ab4
-- 女儿 · hz-h1-c88d3bcef8b6
-- 女朋友 · hz-h1-7567d7604868
-- 妈妈 · hz-h1-048cf67d79cd
-- 妹妹 · hz-h1-b78f99866010
-- 姐姐 · hz-h1-2b1dac7c586f
-- 家人 · hz-h1-0cab89fe1634
-- 小姐 · hz-h1-e07066fa7728
-- 弟弟 · hz-h1-289012dc14bb
-- 爷爷 · hz-h1-d11fb38916bc
+- 爸爸 · hz-h1-36d44c8ffe9e
+- 不 · hz-h1-091e097d8c14
+- 吗 · hz-h1-4a96054b003b
+- 对 · hz-h1-5aa8ddf5f024
+- 有 · hz-h1-740051dfbab9
+- 没 · hz-h1-c6959958649f
+- 的 · hz-h1-706b146215d7
+- 还 · hz-h1-afee2e64ef77
+- 是不是 · hz-h1-d0a667a84b92
+- 有些 · hz-h1-782802f94389
+- 有时 · hz-h1-1d8bb690208c
+- 有用 · hz-h1-03e9688452d0
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.

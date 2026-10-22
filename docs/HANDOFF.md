@@ -35,26 +35,14 @@ Bài V2 dùng đúng hai câu chính mỗi mục. Đã sửa fixture trong `tool
 - Trình duyệt desktop live mở 少 ordinal 97/sourceIndex 76: thấy hai câu chính; hai bẫy phân biệt lượng với kích thước và cách đọc trong 少年; đáp án E ẩn trước thao tác. Chưa kiểm Android TTS/phát nền hoặc phản biện giáo viên độc lập.
 
 
-## Trạng thái đợt batch-014
+## Trạng thái đợt batch-015
 
-Đã biên soạn baseline ordinal 157–168: 钱包、门口、饭店、五、哥、妈、妹、姐、子、常、弟、手. Tiến độ sau batch: 168/2224; còn 2056; toàn khóa 178/2234 mục đủ cấu trúc. Nội dung V2 gồm hai ví dụ chính, bẫy theo ngữ cảnh, hai câu luyện có đáp án riêng và hai tình huống tự dùng. Đã tự rà và đối chiếu từ điển Bộ Giáo dục Đài Loan khi có mục từ; chưa có phản biện giáo viên độc lập.
+Đã biên soạn baseline ordinal 169–180: 爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷. Tiến độ dự kiến sau đợt: 180/2224; còn 2044; toàn khóa 190/2234 mục đủ cấu trúc. Mỗi bài có hai ví dụ chính, một nhóm phân biệt ngữ cảnh, hai câu luyện có đáp án riêng, hai tình huống tự dùng và nguồn. Đã audit V2 trong phiên; chưa phản biện giáo viên độc lập.
 
-- Commit nội dung: d9f1a7a5f7c322b7610124fd064b81c6d33b9dc4.
-- Pages run [39789475190](https://github.com/bohoa96tb/hazi-viet/actions/runs/39789475190) hoàn tất thành công trên đúng commit.
-- Đã mở đủ 12 ID mới trên Pages live; cả 12 hiện trạng thái BÀI HỌC ĐẦY ĐỦ/chuẩn V2. Kiểm giao diện trực quan 钱包, 饭店 và 手 cho thấy nội dung mới và năm bước học.
-- courseSha256 trong manifest là hash của tệp nguồn đã kiểm ở commit; lượt này chưa tải trực tiếp tệp Pages để so byte. Không ghi hash live riêng. Chưa kiểm TTS Android hoặc phản biện giáo viên độc lập.
+- Commit nội dung, Pages run và live routes đang chờ xác minh.
+- Batch source: tools/vocabulary/batches/batch-015.json.
+- Cache tag: batch-015.
 
 ## Đợt tiếp theo
 
-1. 爸 (hz-h1-f11409a4c688, sourceIndex 148)
-2. 儿子 (hz-h1-d9629d68254a, sourceIndex 149)
-3. 哥哥 (hz-h1-079686d86ab4, sourceIndex 151)
-4. 女儿 (hz-h1-c88d3bcef8b6, sourceIndex 152)
-5. 女朋友 (hz-h1-7567d7604868, sourceIndex 153)
-6. 妈妈 (hz-h1-048cf67d79cd, sourceIndex 154)
-7. 妹妹 (hz-h1-b78f99866010, sourceIndex 155)
-8. 姐姐 (hz-h1-2b1dac7c586f, sourceIndex 156)
-9. 家人 (hz-h1-0cab89fe1634, sourceIndex 157)
-10. 小姐 (hz-h1-e07066fa7728, sourceIndex 158)
-11. 弟弟 (hz-h1-289012dc14bb, sourceIndex 159)
-12. 爷爷 (hz-h1-d11fb38916bc, sourceIndex 160)
+Các mục tiếp theo là baseline ordinal 181–192; tra đúng danh sách trong progress.json. Không đoán theo sourceIndex.
