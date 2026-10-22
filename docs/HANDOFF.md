@@ -4,7 +4,7 @@ Nguồn chính: bohoa96tb/hazi-viet; biên soạn content/vocabulary-2224, phát
 
 ## Trạng thái đợt 005
 
-12 mục baseline 49–60: 回、帮、打、找、电、等、话、请、问、不用、回答、多少. Tiến độ dự kiến sau khi đọc lại xác minh GitHub: 60/2.224, còn 2.164; toàn khóa 70/2.234 bài đầy đủ, gồm 10 bài ngoài baseline. Lấy số chính thức từ progress tại HEAD, không dựa số trong tài liệu này.
+12 mục baseline 49–60: 回、帮、打、找、电、等、话、请、问、不用、回答、多少. Đã đọc lại xác minh GitHub: 60/2.224, còn 2.164; toàn khóa 70/2.234 bài đầy đủ, gồm 10 bài ngoài baseline. Lấy số chính thức từ progress tại HEAD, không dựa số trong tài liệu này.
 
 Đợt kế tiếp bắt đầu 帮忙 (ordinal 61), rồi 怎么、手机、电话、说话、请进、请问、奶、树、歌、毛、水; đối chiếu lại baseline trước khi làm.
 
@@ -19,6 +19,6 @@ V2 đã có audit, renderer, audio riêng, hai câu mẫu gắn khung; 2–4 bà
 
 ## Giới hạn phải giữ rõ
 
-Chưa phản biện giáo viên độc lập. Chưa chứng nhận bố cục trực quan, TTS hay phát nền Android trên thiết bị thật. Môi trường ban đầu mất kết nối trình duyệt/Chromium; DOM là mô phỏng, không gọi nó là kiểm thử Chrome thật. Nếu HTTP Pages bị hạn chế truy cập, ghi nhận đúng trạng thái; không quy lỗi cache điện thoại.
+Chưa phản biện giáo viên độc lập. Đã kiểm bố cục đại diện desktop và tương tác V2 trên website thật. Chưa kiểm bố cục mobile, TTS hay phát nền Android trên thiết bị thật. Môi trường ban đầu mất kết nối trình duyệt/Chromium; sau đó đã khôi phục trình duyệt và kiểm đại diện live. Bộ test-dom vẫn là mô phỏng; không đồng nhất với kiểm thử thiết bị. Nếu HTTP Pages bị hạn chế truy cập, ghi nhận đúng trạng thái; không quy lỗi cache điện thoại.
 
 Lần tiếp quản này khôi phục dữ liệu lớn qua fetch_blob của kết nối GitHub khi clone/HTTP gián đoạn. Local snapshot chỉ phục vụ kiểm thử; commit gửi GitHub phải dùng tree/parent SHA thật từ GitHub, không dùng lịch sử snapshot local để cập nhật nhánh.

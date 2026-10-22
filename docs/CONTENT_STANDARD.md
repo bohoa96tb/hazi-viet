@@ -30,4 +30,4 @@ Từ batch-005, bài mới dùng `lesson.version:2`; hợp đồng dữ liệu v
 
 58 record đủ mẫu ở mốc trước batch-005 (48 trong baseline và 10 ngoài baseline) giữ nguyên nội dung và hash. Không gọi việc giữ tương thích là biên tập lại bài cũ. Mục sửa lại trong tương lai phải có danh sách ID, trước/sau, hash hợp lệ và không tăng completedCount.
 
-Kiểm thử DOM và kế hoạch audio không chứng nhận bố cục trực quan hoặc phát âm trên Android thật; chưa phản biện giáo viên độc lập. Trạng thái xuất bản phải đọc docs/RELEASE.md và GitHub/live thực tế.
+Đã kiểm đại diện desktop trên website live. Kiểm thử DOM và kế hoạch audio không chứng nhận bố cục mobile hoặc phát âm trên Android thật; chưa phản biện giáo viên độc lập. Trạng thái xuất bản phải đọc docs/RELEASE.md và GitHub/live thực tế.
