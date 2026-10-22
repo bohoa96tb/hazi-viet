@@ -24,17 +24,17 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 
 ## 12 mục tiếp theo
 
-- 爸爸 · hz-h1-36d44c8ffe9e
-- 不 · hz-h1-091e097d8c14
-- 吗 · hz-h1-4a96054b003b
-- 对 · hz-h1-5aa8ddf5f024
-- 有 · hz-h1-740051dfbab9
-- 没 · hz-h1-c6959958649f
-- 的 · hz-h1-706b146215d7
-- 还 · hz-h1-afee2e64ef77
-- 是不是 · hz-h1-d0a667a84b92
-- 有些 · hz-h1-782802f94389
-- 有时 · hz-h1-1d8bb690208c
-- 有用 · hz-h1-03e9688452d0
+- 爸爸 · hz-h1-36d44c8ffe9e · sourceIndex 161
+- 不 · hz-h1-091e097d8c14 · sourceIndex 162
+- 吗 · hz-h1-4a96054b003b · sourceIndex 164
+- 对 · hz-h1-5aa8ddf5f024 · sourceIndex 166
+- 有 · hz-h1-740051dfbab9 · sourceIndex 168
+- 没 · hz-h1-c6959958649f · sourceIndex 169
+- 的 · hz-h1-706b146215d7 · sourceIndex 170
+- 还 · hz-h1-afee2e64ef77 · sourceIndex 173
+- 是不是 · hz-h1-d0a667a84b92 · sourceIndex 174
+- 有些 · hz-h1-782802f94389 · sourceIndex 175
+- 有时 · hz-h1-1d8bb690208c · sourceIndex 176
+- 有用 · hz-h1-03e9688452d0 · sourceIndex 177
 
-Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
+Batch-015 đã phát hành sang main tại 85a590fc47ddce64f41616875d3db33cac0c27c6; GitHub Pages run 39796683993 thành công. Đã mở đủ 12 route live, trạng thái BÀI HỌC ĐẦY ĐỦ/chuẩn V2 và đúng ordinal/sourceIndex. Bài đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện độc lập.

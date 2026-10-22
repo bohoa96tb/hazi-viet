@@ -1,12 +1,15 @@
 # Phát hành batch-015
 
-Mục baseline 169–180: 爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷. Tiến độ sau batch: 180/2.224; còn 2.044; toàn khóa đủ cấu trúc 190/2.234, gồm 10 mục ngoài baseline.
+Mục baseline 169–180: 爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷. Tiến độ: 180/2.224; còn 2.044; toàn khóa đủ cấu trúc 190/2.234, gồm 10 mục ngoài baseline.
 
-- Nội dung V2 tự biên soạn, đối chiếu nguồn trong từng mục; chưa phản biện giáo viên độc lập.
-- Tệp khóa học SHA256 nguồn: `e4dc35257681af3c37e5dd9a17a922a953af1f3f8ebf64c01edd230401012dae`.
-- GitHub Pages và 12 route live đang chờ xác minh sau khi đẩy commit.
+- Commit nội dung [85a590fc47ddce64f41616875d3db33cac0c27c6](https://github.com/bohoa96tb/hazi-viet/commit/85a590fc47ddce64f41616875d3db33cac0c27c6); đã fast-forward sang main.
+- [GitHub Pages run 39796683993](https://github.com/bohoa96tb/hazi-viet/actions/runs/39796683993) hoàn tất thành công trên đúng commit.
+- Đã mở đủ 12 route live; mọi route hiện BÀI HỌC ĐẦY ĐỦ, chuẩn V2, đúng ordinal/sourceIndex.
+- Kiểm thứ tự 2.234 mục, liên kết bài và hash 168 mục đã hoàn thành trước đó cùng 10 hash bảo vệ: đạt.
+- SHA256 của file course trong commit: `7e2c17edb01fef7dc61adc69f76c759089a74f065008ef7ad4f8472d863562ff`. Chưa tải bytes trực tiếp từ Pages để đối chiếu hash live.
+- Chưa kiểm TTS/phát nền Android hoặc phản biện giáo viên độc lập.
 
-Đợt tiếp theo bắt đầu tại ordinal 181; các ID chính thức nằm trong progress.json.
+Đợt kế tiếp bắt đầu tại ordinal 181; danh sách ID/sourceIndex nằm trong progress.json.
 
 ---
 
