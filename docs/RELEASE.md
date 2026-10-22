@@ -6,7 +6,7 @@ Mục baseline 61–72: 帮忙、怎么、手机、电话、说话、请进、�
 
 Đã chạy verify toàn khóa, DOM integration trên bài mới nhất và hồi quy V1/不用, kiểm đồng nhất ví dụ/ordinal baseline, đối chiếu chỉ 12 record thay đổi, cú pháp JS/MJS và diff --check. DOM không chứng nhận TTS Android; chưa phản biện giáo viên độc lập.
 
-Đang chờ lưu và đọc lại xác minh GitHub, rồi phát hành main/Pages. Manifest release.json có SHA256 khóa học mới; không mang kết quả live batch-005 sang nhận là đã kiểm batch-006.
+Đã đọc lại GitHub ở commit 190bfb38850f92d643fbace8d60e9b7e22ac4c45: progress 72/2.224 và toàn bộ nội dung khóa học khớp bản kiểm tra. SHA được ghi trong commit kế tiếp để tránh tự tham chiếu. Chờ phát hành main/Pages và xác minh live cho batch-006; không mang kết quả batch-005 sang nhận là đã kiểm đợt mới.
 
 ---
 

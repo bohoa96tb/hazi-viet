@@ -4,7 +4,7 @@ Nguồn chính: bohoa96tb/hazi-viet; biên soạn content/vocabulary-2224, phát
 
 ## Trạng thái đợt 006
 
-12 mục baseline 61–72: 帮忙、怎么、手机、电话、说话、请进、请问、奶、树、歌、毛、水. Đã chuẩn bị đủ dữ liệu cho 72/2.224, còn 2.152; toàn khóa 82/2.234 bài đầy đủ. Chỉ ghi nhận chính thức sau khi đọc lại GitHub; số tại progress/HEAD là nguồn chính.
+12 mục baseline 61–72: 帮忙、怎么、手机、电话、说话、请进、请问、奶、树、歌、毛、水. Đã đọc lại GitHub và xác minh toàn bộ blob khóa học ở commit 190bfb38850f92d643fbace8d60e9b7e22ac4c45: 72/2.224, còn 2.152; toàn khóa 82/2.234 bài đầy đủ. Số tại progress/HEAD là nguồn chính.
 
 Đợt kế tiếp bắt đầu 洗 (ordinal 73), rồi 热、爱、球、白、笑、肉、花、茶、菜、雨、风. Đối chiếu lại baseline trước khi làm; sourceIndex của 洗 không phải ordinal 73.
 
