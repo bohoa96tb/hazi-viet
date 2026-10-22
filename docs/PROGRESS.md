@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 120/2224. Còn: 2104. Toàn khóa đủ cấu trúc: 130/2234.
+Đã bổ sung: 132/2224. Còn: 2092. Toàn khóa đủ cấu trúc: 142/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -16,20 +16,21 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-008 · mục 85–96 · 下雨、天气、奶奶、水果、牛奶、鸡蛋、坏、多、大、太、好、小
 - batch-009 · mục 97–108 · 少、差、很、快、慢、真、老、贵、过、远、重、错
 - batch-010 · mục 109–120 · 难、高、不大、不对、重要、做、动、学、干、忙、用、看
+- batch-011 · mục 121–132 · 考、试、上学、上班、上网、上课、准备、动作、学习、工作、干什么、开会
 
 ## 12 mục tiếp theo
 
-- 考 · hz-h1-3a9a7012652b
-- 试 · hz-h1-214d60a80104
-- 上学 · hz-h1-79b1a2703d21
-- 上班 · hz-h1-ba978bf873f9
-- 上网 · hz-h1-e13c5be728b0
-- 上课 · hz-h1-f489bae50dff
-- 准备 · hz-h1-639b5e1cac16
-- 动作 · hz-h1-37fd10cbf083
-- 学习 · hz-h1-6590add2e1da
-- 工作 · hz-h1-90f1907562c4
-- 干什么 · hz-h1-a603b3bdb7cb
-- 开会 · hz-h1-6a5f7cd7b704
+- 打球 · hz-h1-82f562419bd5
+- 爱好 · hz-h1-b07f9d348f31
+- 考试 · hz-h1-ef37ca3e6008
+- 请假 · hz-h1-1c78720b6a3f
+- 包 · hz-h1-e43a5fdbf424
+- 吧 · hz-h1-f1945082ca49
+- 杯 · hz-h1-113c0125e338
+- 门 · hz-h1-f9f98f770564
+- 东西 · hz-h1-e62de0e7228c
+- 书店 · hz-h1-03d8dcb82f40
+- 医院 · hz-h1-c32f73d4f4c0
+- 商场 · hz-h1-866c497fc0bb
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
