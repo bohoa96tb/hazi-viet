@@ -1,71 +1,33 @@
-# Chuẩn nội dung cho từng từ — 5.1 đến 5.6
+# Chuẩn nội dung V2 — nghĩa, kết hợp và bẫy; giảm lặp
 
-Đây là quy chuẩn dài hạn của người dùng cho khóa học Hanzi Việt, không phải yêu cầu có 2.224 tiêu chí: 2.224 là số mục cần bổ sung trong baseline. Dạy bằng tiếng Việt đơn giản, cụ thể, tôn trọng người trưởng thành; ưu tiên thực hành nói, nghe, đọc và dùng được sau một thời gian. Không rút gọn cách dùng và bẫy thành dòng từ điển.
+Chuẩn mới do người dùng yêu cầu ngày 22/10/2026, dựa trên bản thử 打电话 và 能. Quy định đầy đủ, độc lập để tiếp quản ở [PROMPT_TIEP_QUAN_DU_AN_2224.md](PROMPT_TIEP_QUAN_DU_AN_2224.md), mục 3–6. Bản cũ 5.1–5.6 lưu tại [CONTENT_STANDARD_V1.md](CONTENT_STANDARD_V1.md) để kiểm chứng các bài cũ; không dùng nó để bắt bài V2 lặp dài.
 
-## Ngôn ngữ và phạm vi
+## Bố cục cho người học
 
-- Tiếng Trung dùng chữ Hán giản thể và Trung phổ thông, trừ khi tài liệu nguồn có hệ chữ khác; không âm thầm đổi hệ chữ.
-- Pinyin có dấu chỉ được ghi trong Giới thiệu từ mới của chính từ mục tiêu. Không Pinyin trong câu mẫu, khung câu, ví dụ, đối chiếu, bài tập, đáp án, lời giảng, kịch bản audio, mục lục hoặc bảng ánh xạ. Không phiên âm bằng tiếng Việt. Từ ngoài danh sách để đối chiếu chỉ cần chữ Hán và nghĩa Việt, không biến thành mục tiêu phải học.
-- Mỗi màn hình đầu chỉ dạy một nghĩa trọng tâm. Nghĩa phụ đặt trong Học thêm. Nhiều nghĩa khác với nhiều cách đọc; không suy một chữ đa âm thành cả từ đa âm. Không coi thanh nhẹ/biến điệu là nghĩa mới.
-- Phần lớn lời giảng dành cho nghĩa và điều kiện dùng; vị trí; kết hợp; ví dụ có phân tích; bẫy và đối chiếu. Nội dung nghe được độc lập, không phụ thuộc bảng hoặc việc nhìn màn hình.
-- Không bịa quy tắc tuyệt đối để dễ nhớ. Câu đúng nhưng đổi nghĩa, khác ý định, kém tự nhiên hoặc thiếu ngữ cảnh phải gắn nhãn đúng, không đều gọi là câu sai. Không nhồi nghĩa nâng cao hoặc bẫy không có căn cứ để đủ số.
+1. `[Từ số …] CHỮ HÁN — PINYIN — NGHĨA TRỌNG TÂM`.
+2. **Hiểu từ và biết khi nào dùng:** nghĩa chính, một tình huống cụ thể, phạm vi nghĩa Việt và điều kiện thực sự ảnh hưởng lựa chọn. Từ loại chỉ khi hữu ích.
+3. **Vị trí và cách kết hợp — qua hai ví dụ:** 1–2 khung cốt lõi; hai câu chính có nghĩa Việt, phân tích ngắn ngay tại câu. Một câu cơ bản và một tình huống/cách kết hợp khác. Nêu giới từ, lượng từ, vị trí người/vật, phần lược được, trường hợp đổi chỗ đổi nghĩa nếu liên quan. Không kể lại y hệt ở một mục ví dụ riêng.
+4. **Bẫy và cách phân biệt:** phần trọng tâm. Quét đa âm/đa nghĩa, hiểu sai Hán Việt/dịch từng chữ, từ/cấu trúc dễ nhầm kể cả ngoài danh sách. Chỉ hiển thị bẫy có thật, không ép số lượng. Mỗi bẫy có tình huống, khác biệt, cặp câu Trung + nghĩa Việt, kết quả thay thế, câu sửa nếu cần, vùng giao nhau và mẹo ngắn.
+5. **Đọc đúng — ngắn:** chỉ đặc điểm thật có; thanh nhẹ vẫn phát âm; không tả thanh ba luôn hạ rồi nâng trọn. Phân biệt thanh gốc/biến điệu. Giao đọc từ một lần rồi câu mẫu một lần.
+6. **Luyện vị trí và phân biệt:** 2–4 câu dựa nội dung đã giảng; không lộ đáp án. Từ đối chiếu ngoài danh sách phải được cung cấp nếu cần dùng trong đề.
+7. **Tự dùng từ:** hai tình huống thực tế, không mở mẫu trước khi thử. Gợi ý ý → khung → mẫu. Chấp nhận nhiều đáp án hợp lý và giải thích khác biệt; không tự nhận app chấm câu mở nếu chưa có tính năng.
 
-## 5.1. Giới thiệu từ mới
+## Ngôn ngữ và độ dài
 
-Ghi [Từ số] CHỮ HÁN — PINYIN — NGHĨA TRỌNG TÂM. Nêu phạm vi nghĩa sẽ học và từ loại nếu giúp dùng từ. Nếu có các cách đọc từ vựng thông dụng cần phân biệt, ghi các cách đọc và nghĩa tương ứng ngay tại đây, nêu rõ khi chỉ là cách đọc trong từ ghép. Không liệt kê mọi nghĩa từ điển. Audio đọc chữ Hán rồi giải thích nghĩa Việt, không đọc Pinyin thành tên chữ cái.
+- Chữ giản thể, tiếng Trung phổ thông; tiếng Việt dễ hiểu, không lời dẫn dài. Một nghĩa chính; nghĩa phụ thường gặp dễ nhầm ở bẫy/Học thêm, không liệt kê nghĩa hiếm.
+- Pinyin có dấu ở giới thiệu, 1–2 khung/câu minh họa khung và phần đọc đúng khi cần. Không Pinyin ở lời giảng dài, bẫy, bài tập hoặc đáp án. Thanh nhẹ không dấu; mặc định thanh gốc, ghi biến điệu phải chú thích. Không dùng phiên âm tiếng Việt. Audio không đọc Pinyin thành tên chữ cái.
+- Hai ví dụ chính là mục tiêu biên tập, không phải giới hạn cấm cặp đối chiếu cần thiết trong bẫy. Không thêm câu giống hệt chỉ đổi đại từ/số để đủ trường.
+- Không tạo ranh giới giả: đúng nhưng đổi nghĩa, không hợp ý định, kém tự nhiên, gần nghĩa và thiếu ngữ cảnh phải có nhãn khác sai ngữ pháp. Câu sai có nhãn trước và câu sửa sau. Không gán lỗi cho người học chưa làm bài.
+- Không bắt mọi từ có đủ ba loại bẫy. Không thấy bẫy thì ghi: “Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.” Từ đã giải thích vẫn nhắc ngắn đủ hiểu độc lập.
 
-## 5.2. Hiểu nghĩa và khi nào dùng
+## Chat và app
 
-A. Tình huống mở đầu ngắn, cụ thể, có nhu cầu giao tiếp.
-B. Giải thích từ nói về người/vật, hành động, trạng thái, mức độ, thời điểm/quan hệ, thái độ/ý định nào; chỉ chọn nội dung liên quan.
-C. Phạm vi nghĩa: nghĩa Việt rộng hơn ở đâu; khi nào phải chọn cách khác. Mỗi cách thay thế phải có câu hoàn chỉnh, dịch và giải nghĩa từ đối chiếu.
-D. Điều kiện thực sự ảnh hưởng cách dùng: người/vật, ý định/khả năng, thường xuyên/một lần, hiện tại/thay đổi, văn nói/trang trọng. Không áp danh sách máy móc.
-E. Chốt: “Khi muốn nói…, trong tình huống…, bạn có thể dùng…”.
+Trong chat, sau luyện vị trí/bẫy dừng chờ trả lời, chưa đưa đáp án; chấm rồi mới giao hai tình huống tự dùng. Trong chế độ biên soạn app, lưu đủ đề, đáp án, lời giải, gợi ý và câu mẫu vào các phần tách riêng; không đợi người dùng làm bài để tiếp tục cả đợt.
 
-## 5.3. Vị trí, kết hợp và tạo câu — trọng tâm thứ nhất
+## Tương thích và trạng thái áp dụng
 
-Chọn cách dùng thông dụng cần thiết ở mức học. Thường 2–4 khung, có thể ít hơn cho từ đơn giản hoặc nhiều hơn khi cần tránh lỗi; không thêm cấu trúc nâng cao để tăng số.
+Tại thời điểm lưu chuẩn, 48 mục trong baseline (và 10 mục ngoài baseline) đã có nội dung theo V1; dữ liệu và hash của chúng được giữ nguyên. Đây là cập nhật prompt/tài liệu, chưa phải chuyển toàn bộ 48 bài hoặc thay giao diện ứng dụng.
 
-Với MỖI cách dùng:
-A. Ý muốn nói và tình huống.
-B. Khung dễ hiểu bằng chữ Hán/tên thành phần Việt, nghe được, không là chuỗi ký hiệu vô nghĩa.
-C. Vị trí mục tiêu; trước/sau thường là gì; nhận người/vật/hành động trực tiếp hay cần giới từ, lượng từ, trung gian; thành phần cần cho cấu trúc khác với thành phần thường có để đủ thông tin; khi nào lược được.
-D. Câu hoàn chỉnh, nghĩa Việt tự nhiên, phân tích vai trò liên quan.
-E. Chỉ phần có thể thay, giới hạn thay, ít nhất một câu biến đổi có ích với cách dùng cốt lõi.
-F. Lỗi vị trí/kết hợp của chính khung, tóm tắt đủ để nghe tại chỗ dù có liên kết tới bẫy sâu hơn.
+Bộ mã V1 hiện kiểm tra ít nhất ba ví dụ, giới hạn Pinyin trong lesson và dựng giao diện 5.1–5.6. Trước batch V2 đầu tiên, phải bổ sung hỗ trợ có kiểm thử cho hai câu chính, vị trí Pinyin cho phép, câu hỏi mở/đáp án riêng, tự dùng/gợi ý và cách hiển thị không lặp. Giữ bài V1 đọc được; không nhét câu thừa hoặc nới kiểm tra tùy tiện để gọi V2 hoàn thành. Chỉ ghi đã hỗ trợ V2 sau khi code, dữ liệu và giao diện thực sự được kiểm tra.
 
-Khi liên quan: danh từ cần cách đếm, lượng từ, chỉ định, vai chủ thể/đối tượng; động từ cần loại đối tượng, giới từ, cách tách; tính từ/trạng thái cần cách làm vị ngữ, bổ nghĩa danh từ, từ mức độ, không mặc định thêm 是 hoặc 很 mọi câu; phó từ cần phạm vi và vị trí so với chủ thể/động từ/phủ định; thời gian/nơi chốn cần vị trí và khi cần 在; từ nối/hư từ cần thành phần được nối và thay đổi ý nghĩa.
-
-Dạy khẳng định, phủ định phù hợp và một cách hỏi khi cần dùng được; giải thích ý nghĩa thay đổi. Không coi 不 và 没 tùy ý thay nhau. Không đưa cấu trúc mới vào bài tập chưa giải thích. Khi đổi vị trí hoặc lược dễ nhầm, giữ gần nguyên câu và chỉ đổi yếu tố đang xét, nhận xét đúng/sai/đổi nghĩa/cần ngữ cảnh. Không khẳng định câu lược là sai nếu hội thoại có thể lược. Chọn 2–4 cụm tự nhiên khi hữu ích, giải thích cụm dùng làm gì.
-
-## 5.4. Ít nhất ba ví dụ thực tế
-
-Ít nhất một câu cơ bản, một tình huống khác/kết hợp thứ hai, một câu làm rõ điều kiện, hỏi/phủ định hoặc điểm dễ nhầm. Từ nhiều cách dùng tăng vừa đủ. Có thể dùng lại ví dụ phần cấu trúc bằng ID rõ ràng.
-
-Mỗi ví dụ: tình huống khi cần; câu Trung bằng chữ Hán; nghĩa Việt tự nhiên; lý do mục tiêu phù hợp; vị trí/kết hợp; audio riêng chỉ câu Trung để nhắc lại. Hiển thị in đậm mục tiêu nếu có thể; TTS không chứa dấu Markdown. Ít nhất một ví dụ có đường đi từ ý Việt → chọn từ/cấu trúc → sắp xếp → câu hoàn chỉnh, không gọi là dịch từng chữ. Hội thoại ngắn 2–4 lượt chỉ khi cần ngữ cảnh.
-
-## 5.5. Bẫy và phân biệt — trọng tâm thứ hai
-
-Chủ động xét: đa nghĩa/đa âm có thật; dịch Việt máy móc (phạm vi, trật tự, thừa/thiếu thành phần, ghép không tự nhiên); hiểu sai do Hán Việt/nghĩa từng chữ; gần nghĩa kể cả ngoài danh sách; vị trí, đối tượng, giới từ, lượng từ, phủ định, mức độ, câu hỏi, thời gian/trạng thái/thay đổi, tách cụm; hình chữ dễ nhầm. Không bắt mọi từ có đủ mọi loại. Thường 2–4 bẫy nếu có giá trị, không bịa để đủ chỉ tiêu. Nếu chưa thấy bẫy thông dụng, ghi đúng: “Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.”
-
-MỖI bẫy có đầy đủ:
-1. Tên cụ thể mô tả vấn đề, không tên chung như lưu ý quan trọng.
-2. Tình huống và ý định làm căn cứ đánh giá.
-3. “Bạn có thể dễ nhầm…” và suy luận dẫn tới nhầm; không quy người học đã sai khi chưa có bài làm.
-4. Bản chất khác nhau đơn giản, quyết định lựa chọn; nếu khác sắc thái phải nói cụ thể.
-5. Cặp ví dụ gần nhau, ưu tiên chỉ thay yếu tố so sánh; mỗi câu có chữ Hán, nghĩa Việt của chính câu, nhận xét ngữ pháp/ý nghĩa/tự nhiên.
-6. Thử thay A bằng B và trả lời kết quả: sai ngữ pháp; đúng đổi nghĩa; đúng không hợp ý định; hiểu được kém tự nhiên; vẫn đúng gần nghĩa; hoặc chưa đủ ngữ cảnh. Không ép hai từ gần nghĩa thành tuyệt đối không thay được.
-7. Sửa và lý do: nhãn “Câu sai” chỉ trước câu sai ngữ pháp; chỉ phần lỗi, câu đúng và vì sao sửa đúng ý. Nếu khác nghĩa hoặc tự nhiên thì dùng nhãn tương ứng. Nhiều cách sửa: cách cơ bản trước.
-8. Ranh giới/giao nhau tiêu biểu, giới hạn nghĩa/cấu trúc đang dạy; tránh ngoại lệ hiếm làm quá tải.
-9. Mẹo quyết định dựa ý nghĩa/cấu trúc, chính xác trong phạm vi đã dạy.
-10. Bẫy quan trọng có câu tự kiểm tra, ID, câu hỏi/audio không lộ đáp án; đáp án/lý do/audio giải thích nằm riêng và chỉ mở sau trả lời hoặc yêu cầu.
-
-Audio bẫy là lời giảng độc lập: nói tình huống trước; từng câu → giải thích → câu tiếp theo. Trước câu sai phải đọc chính xác “Đây là câu sai để phân tích.”; sau phân tích đọc câu sửa đúng. Không dùng câu sai để nhắc lại hoặc tắm ngôn ngữ. Câu đúng nhưng đổi nghĩa phải nói rõ, không gọi sai. Không tự phát câu hỏi và lời giải trong cùng audio. Đã dạy ở từ trước vẫn nhắc ngắn và có ví dụ đủ để nghe độc lập, có thể liên kết phần sâu hơn.
-
-## 5.6. Đọc đúng, ngắn và thực tế
-
-Chỉ nói đặc điểm thực sự xuất hiện: thanh nhẹ, biến điệu 一/不, hai thanh ba, âm dễ lẫn. Dùng tên thanh bằng tiếng Việt, không Pinyin. Phân biệt thanh gốc và khi nói liền. Không mô tả thanh ba luôn hạ rồi nâng đầy đủ. Âm đọc nhẹ vẫn phát ra, thường ngắn và nhẹ hơn, không bỏ âm hoặc tự đọc thành thanh một; không ép cao độ thanh nhẹ cố định mọi ngữ cảnh.
-
-## Lưu ý kiểm chứng
-
-Schema và kiểm thử chỉ xác nhận trường, ID, liên kết, phân loại và kế hoạch âm thanh; không chứng nhận nội dung hoàn toàn đúng ngôn ngữ hoặc âm thanh chạy trên điện thoại. Đối chiếu nguồn khi có điểm không chắc; tôn trọng giấy phép, không sao chép học liệu thương mại. Không gọi mục “đã hoàn thành trên GitHub” trước khi nhánh được cập nhật và đọc lại thành công.
+Nếu sửa lại bài cũ theo yêu cầu, dùng đợt chỉnh sửa có danh sách ID và cập nhật hash hợp lệ; không đổi baseline, không cộng thêm completedCount cho mục đã hoàn thành.
