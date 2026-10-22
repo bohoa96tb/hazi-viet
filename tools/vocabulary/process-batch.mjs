@@ -70,7 +70,9 @@ if(command==='init'){
   assert(batch.entries.length>=Math.min(12,p.remaining),'Default batch is 12.');
   const expected=b.orderedIds.slice(p.completedCount,p.completedCount+batch.entries.length);
   assert.deepEqual(batch.entries.map(e=>e.id),expected,'Only the next uncompleted cohort records may be edited.');
-  const allowed=new Set(['meaning','intro','task','model','quiz','more','editorialStatus']);
+  // Catalog/example records may not yet have the recognition and comparison
+  // fields required by validateCourse for a completed lesson.
+  const allowed=new Set(['meaning','intro','task','model','quiz','more','editorialStatus','shape','near']);
   // Validate every draft before touching files; abort atomically on invalid content.
   const drafts=batch.entries.map(entry=>{
    const w=structuredClone(byId.get(entry.id));assert.equal(w.hanzi,entry.hanzi);assert(!auditLesson(w).ready);

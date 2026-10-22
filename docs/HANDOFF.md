@@ -6,11 +6,11 @@ Repository: `bohoa96tb/hazi-viet`. Nhánh duy nhất được ghi nội dung: `c
 
 Đọc `AGENTS.md`, `docs/CONTENT_STANDARD.md`, `progress.json`, `tools/vocabulary/baseline.json`, `docs/PROGRESS.md` và code/dữ liệu từ HEAD mới nhất của nhánh. Không dùng nội dung hội thoại làm tiến độ chính thức. Baseline cố định có 2.224 ID cần bổ sung; 10 mục hoàn thiện trước baseline nằm ngoài số này. Toàn khóa có 2.234 mục.
 
-Chạy `node tools/vocabulary/process-batch.mjs verify` trước khi sửa. Chỉ tiếp tục khi tiến độ, dữ liệu, thứ tự, hash nội dung đã hoàn thiện và báo cáo khớp nhau. Nếu không khớp, điều tra trước; không chạy `init` lại. Đợt 002 bổ sung mục 13–24; sau khi xác minh lưu GitHub, đợt 003 bắt đầu mục 25: 个. Danh sách thực tế luôn lấy từ `progress.nextIds` và baseline, không dựa vào dòng mô tả này nếu đã có đợt mới.
+Chạy `node tools/vocabulary/process-batch.mjs verify` trước khi sửa. Chỉ tiếp tục khi tiến độ, dữ liệu, thứ tự, hash nội dung đã hoàn thiện và báo cáo khớp nhau. Nếu không khớp, điều tra trước; không chạy `init` lại. Vị trí tiếp tục lấy từ `progress.nextIds` và `baseline.orderedIds` sau `completedCount`, không suy từ số của file batch hoặc mô tả cũ. `docs/PROGRESS.md` là báo cáo dễ đọc được tạo lại từ dữ liệu.
 
 ## Biên soạn và kiểm tra
 
-Mỗi đợt lưu ở `tools/vocabulary/batches/batch-NNN.json`, theo mẫu các đợt đã có. Không sinh lời giảng chung để đủ trường. Mỗi lesson cần cả `authorship` và `sources` (mảng rỗng nếu không trích nguồn ngoài), vì giao diện dùng những trường này. Pinyin chỉ ở `wordEdits.intro` hoặc phần giới thiệu hiện có; không ghi trong lesson/audio. Ghi nghĩa, cách đọc, ví dụ, cách dùng, bẫy và nhãn đánh giá chính xác; không xem câu đúng nhưng đổi nghĩa là sai ngữ pháp. Nếu chưa chắc về ngôn ngữ, đối chiếu nguồn đáng tin cậy trước khi ghi hoàn thành.
+Mỗi đợt lưu ở `tools/vocabulary/batches/batch-NNN.json`, theo mẫu các đợt đã có. Không sinh lời giảng chung để đủ trường. Mỗi lesson cần cả `authorship` và `sources` (mảng rỗng nếu không trích nguồn ngoài), vì giao diện dùng những trường này. Thẻ tra cứu/ví dụ có thể chưa có `shape` và `near`; cần biên soạn hai phần này trong `wordEdits` khi thiếu để tương thích với khóa học hoàn chỉnh. Bộ áp dụng chỉ cho sửa danh sách trường được phép; không mở quyền sửa ID hay cấu trúc khóa học. Pinyin chỉ ở `wordEdits.intro` hoặc phần giới thiệu hiện có; không ghi trong lesson/audio. Ghi nghĩa, cách đọc, ví dụ, cách dùng, bẫy và nhãn đánh giá chính xác; không xem câu đúng nhưng đổi nghĩa là sai ngữ pháp. Nếu chưa chắc về ngôn ngữ, đối chiếu nguồn đáng tin cậy trước khi ghi hoàn thành.
 
 1. Tạo 12 mục kế tiếp trong batch mới, không sửa ID hoặc thứ tự khóa học.
 2. Chạy `node tools/vocabulary/process-batch.mjs apply tools/vocabulary/batches/batch-NNN.json`.
