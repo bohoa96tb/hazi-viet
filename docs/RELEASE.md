@@ -3,7 +3,7 @@
 Đợt 181–192: 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用. Tiến độ dự kiến sau batch: 192/2.224; còn 2.032; toàn khóa đủ cấu trúc 202/2.234.
 
 - Nội dung đã qua auditV2 (12/12), validateCourse (2.234 từ), 36 lượt render ba màn cho từng bài, 12 bài kiểm tra audio và playlist immersion.
-- Course source SHA256: `41988e9e358f0620e3b3e98e48cf302c25a0d01b09fc33f15de46c416607ded0`. Commit, Pages và live routes chưa xác minh.
+- Course source SHA256: `4bca2857e543a9d74bfe8f29613a27520c7b9a42ccc242ae16cf2c2dc8d5b58e`. Commit, Pages và live routes chưa xác minh.
 - Chưa kiểm TTS/phát nền Android hoặc phản biện giáo viên độc lập.
 
 ---
