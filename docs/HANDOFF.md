@@ -21,7 +21,7 @@ Hỗ trợ V2 từ batch-005 giữ nguyên. Đợt này chỉ làm kiểm thử 
 
 ## Giới hạn phải giữ rõ
 
-Chưa phản biện giáo viên độc lập. Đã kiểm bố cục đại diện desktop và tương tác V2 trên website thật. Chưa kiểm bố cục mobile, TTS hay phát nền Android trên thiết bị thật. Môi trường ban đầu mất kết nối trình duyệt/Chromium; sau đó đã khôi phục trình duyệt và kiểm đại diện live. Bộ test-dom vẫn là mô phỏng; không đồng nhất với kiểm thử thiết bị. Nếu HTTP Pages bị hạn chế truy cập, ghi nhận đúng trạng thái; không quy lỗi cache điện thoại.
+Chưa phản biện giáo viên độc lập. Đã kiểm đại diện desktop trên website thật, gồm batch-006 帮忙: số 61/sourceIndex 39, hai câu và targetParts tách, lời giải ẩn/mở riêng; toàn khóa live khớp SHA256. Chưa kiểm bố cục mobile, TTS hay phát nền Android trên thiết bị thật. Môi trường ban đầu mất kết nối trình duyệt/Chromium; sau đó đã khôi phục trình duyệt và kiểm đại diện live. Bộ test-dom vẫn là mô phỏng; không đồng nhất với kiểm thử thiết bị. Nếu HTTP Pages bị hạn chế truy cập, ghi nhận đúng trạng thái; không quy lỗi cache điện thoại.
 
 Lần tiếp quản này khôi phục dữ liệu lớn qua fetch_blob của kết nối GitHub khi clone/HTTP gián đoạn. Local snapshot chỉ phục vụ kiểm thử; commit gửi GitHub phải dùng tree/parent SHA thật từ GitHub, không dùng lịch sử snapshot local để cập nhật nhánh.
 
