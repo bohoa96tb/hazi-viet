@@ -40,8 +40,10 @@ Hỗ trợ V2: hai câu gắn khung, bài mở tách lời giải, hai tình hu�
 
 
 
-## Đợt 007 — đang kiểm tra và phát hành
 
-Mục baseline 73–84: 洗、热、爱、球、白、笑、肉、花、茶、菜、雨、风. Nội dung V2 có hai câu chính mỗi bài; đã chạy `verifyV2` cho 12 bài và `validateCourse` trên toàn khóa 2.234 từ (94 bài đầy đủ). Fixture của `verify-v2.mjs` được sửa để giữ các correction hiện có khi thêm câu sai tổng hợp; kiểm thử lại đạt.
+## Xác minh live batch-007
 
-Tiến độ cập nhật 84/2.224, còn 2.140; toàn khóa 94/2.234. Phát hành GitHub Pages và kiểm dữ liệu live đang chờ sau commit.
+- Commit nội dung `776234ddd73b740bb0ad2b75b362d750174bd859`; [GitHub Pages run 39743990647](https://github.com/bohoa96tb/hazi-viet/actions/runs/39743990647) hoàn tất thành công với `head_sha` đúng commit nội dung.
+- Tải trực tiếp `https://bohoa96tb.github.io/hazi-viet/data/vocabulary/hanzii-course.json`: 2.680.784 byte, SHA256 `c16970cf19df773701df924db8b1b18c0b74d8d55158e513425940b390078e57`; đủ 2.234 mục và đủ 12 ID batch-007, tất cả `status=deep`, `lesson.version=2`. Manifest live khớp SHA và commit.
+- Trình duyệt thật tại [bài 洗](https://bohoa96tb.github.io/hazi-viet/vocabulary.html?word=hz-h1-0896d5d77abe): ordinal 73/sourceIndex 52, chuẩn V2, đúng hai ví dụ; bài luyện hiển thị riêng và lời giải đóng trước khi thử. Ảnh chụp đã lưu kèm báo cáo.
+- Đã chạy `verifyV2` cho 12 bài, `validateCourse` cho 2.234 mục (94 bài đầy đủ), xác nhận 82 hash cũ/bảo vệ khớp; kiểm JSON và audio/safety qua bộ test V2. `test-dom.mjs` không chạy vì môi trường này không có `happy-dom`; chưa kiểm trên Android/mobile và chưa có phản biện giáo viên độc lập.

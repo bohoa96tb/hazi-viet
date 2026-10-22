@@ -1,27 +1,34 @@
 # Tiếp quản dự án 2.224 mục
 
-Nguồn chính: bohoa96tb/hazi-viet; biên soạn content/vocabulary-2224, phát hành main. Đọc AGENTS.md, PROMPT_TIEP_QUAN_DU_AN_2224.md, CONTENT_STANDARD.md, CONTENT_SCHEMA_V2.md, progress.json và baseline tại HEAD mới nhất. Quyền người dùng cho phép cập nhật main và triển khai sau kiểm tra; không hỏi lại thường lệ, không force-push.
+Nguồn chính: bohoa96tb/hazi-viet; biên soạn `content/vocabulary-2224`, phát hành `main`. Đọc `AGENTS.md`, `PROMPT_TIEP_QUAN_DU_AN_2224.md`, `docs/CONTENT_STANDARD.md`, `docs/CONTENT_SCHEMA_V2.md`, `progress.json` và baseline tại HEAD mới nhất. Người dùng cho phép cập nhật `main` và triển khai sau khi kiểm tra; không hỏi lại thường lệ, không force-push.
 
-## Trạng thái đợt 006
+## Trạng thái đợt 007
 
-12 mục baseline 61–72: 帮忙、怎么、手机、电话、说话、请进、请问、奶、树、歌、毛、水. Đã đọc lại GitHub và xác minh toàn bộ blob khóa học ở commit 190bfb38850f92d643fbace8d60e9b7e22ac4c45: 72/2.224, còn 2.152; toàn khóa 82/2.234 bài đầy đủ. Số tại progress/HEAD là nguồn chính.
+Đã hoàn tất 12 mục baseline 73–84: 洗、热、爱、球、白、笑、肉、花、茶、菜、雨、风. Đã xác nhận trên GitHub: 84/2.224, còn 2.140; tổng 94/2.234 bài đầy đủ, gồm 10 bài ngoài baseline. Commit nội dung được xác minh: 776234ddd73b740bb0ad2b75b362d750174bd859. Tiến độ và hash từng bài nằm trong `progress.json`.
 
-Đợt kế tiếp bắt đầu 洗 (ordinal 73), rồi 热、爱、球、白、笑、肉、花、茶、菜、雨、风. Đối chiếu lại baseline trước khi làm; sourceIndex của 洗 không phải ordinal 73.
+Bài V2 dùng đúng hai câu chính mỗi mục. Đã sửa fixture trong `tools/vocabulary/verify-v2.mjs` để giữ correction đã có khi test thêm một câu sai tổng hợp; toàn bộ 12 bài qua verify sau khi sửa.
 
-Batch-006 theo V2: 24 ví dụ chính, 20 nhóm bẫy, 34 câu luyện, 24 tình huống tự dùng. 帮忙 có ví dụ tách 帮我一个忙 với targetParts; sửa nghĩa giới thiệu 请进 để bỏ dấu ngoặc kép thừa của thẻ tra cứu. Không biên tập lại record đã hoàn thiện. 70 record đầy đủ trước batch-006 giữ nguyên nội dung/hash.
+## Kiểm tra và phát hành
 
-Hỗ trợ V2 từ batch-005 giữ nguyên. Đợt này chỉ làm kiểm thử DOM lấy bài mới nhất và dữ liệu mẫu động thay vì cố định bài 回 số 49; vẫn kiểm hồi quy 不用 và một bài V1. Verify đối chiếu cohortOrdinal với baseline và đồng nhất examples ở cấp word/lesson.
+- `verifyV2`: 12/12 bài đạt; gồm audit schema, các màn renderer, audio tiếng Trung/Việt, cảnh báo câu sai, bài luyện/đáp án riêng và gợi ý tự dùng.
+- `validateCourse`: 2.234 mục; 94 mục đầy đủ. Hash 72 bài đã hoàn thành và 10 hash baseline bảo vệ khớp trước/sau.
+- Pages run 39743990647 hoàn tất thành công trên commit nội dung. Tệp khóa học live dài 2.680.784 byte; SHA256 `c16970cf19df773701df924db8b1b18c0b74d8d55158e513425940b390078e57`; có đủ 12 ID batch-007, lesson V2 và tổng 2.234 mục.
+- Trình duyệt desktop live kiểm bài 洗 ordinal 73/sourceIndex 52: hai câu mẫu và bài tập có đáp án khóa. `test-dom.mjs` không chạy vì thiếu `happy-dom`; không xác nhận TTS/phát nền Android, mobile hoặc phản biện giáo viên độc lập.
 
-## Kiểm thử và phát hành
+## Đợt tiếp theo
 
-- `node tools/vocabulary/process-batch.mjs verify`: baseline, thứ tự, ID, hash bảo vệ; V1/V2 schema, renderer, audio, câu sai cảnh báo/sửa, ẩn đáp án và mẫu, kiểm tra từ chối draft thiếu.
-- `node tools/vocabulary/test-dom.mjs`: entry point thật trong Happy DOM, hai ví dụ, sự kiện nghe, lời giải/gợi ý, giữ bản nháp khi vẽ lại, ôn, yêu thích, tìm kiếm, chuyển bẫy, hồi quy bài V1.
-- Kiểm cú pháp JS và `git diff --check` trước phát hành. Chi tiết schema/quy trình trong CONTENT_SCHEMA_V2.md.
-- Xem docs/RELEASE.md và release.json để biết kiểm chứng phát hành. Không đồng nhất đã commit, đã cập nhật main và đã xác minh Pages.
+Bắt đầu đúng baseline ordinal 85:
+1. 下雨 (hz-h1-efc5a07d3d4f, sourceIndex 64)
+2. 天气 (hz-h1-c4bc9119c0ea, sourceIndex 65)
+3. 奶奶 (hz-h1-4b01c12e2fb5, sourceIndex 66)
+4. 水果 (hz-h1-91011160c68e, sourceIndex 67)
+5. 牛奶 (hz-h1-3f18a484d148, sourceIndex 68)
+6. 鸡蛋 (hz-h1-4823c87cc791, sourceIndex 69)
+7. 坏 (hz-h1-30c9c5791947, sourceIndex 70)
+8. 多 (hz-h1-36e11bd81443, sourceIndex 71)
+9. 大 (hz-h1-b83b12121e5b, sourceIndex 72)
+10. 太 (hz-h1-f164a812765d, sourceIndex 73)
+11. 好 (hz-h1-72f8c3542984, sourceIndex 74)
+12. 小 (hz-h1-2bafadee60b3, sourceIndex 75)
 
-## Giới hạn phải giữ rõ
-
-Chưa phản biện giáo viên độc lập. Đã kiểm đại diện desktop trên website thật, gồm batch-006 帮忙: số 61/sourceIndex 39, hai câu và targetParts tách, lời giải ẩn/mở riêng; toàn khóa live khớp SHA256. Chưa kiểm bố cục mobile, TTS hay phát nền Android trên thiết bị thật. Môi trường ban đầu mất kết nối trình duyệt/Chromium; sau đó đã khôi phục trình duyệt và kiểm đại diện live. Bộ test-dom vẫn là mô phỏng; không đồng nhất với kiểm thử thiết bị. Nếu HTTP Pages bị hạn chế truy cập, ghi nhận đúng trạng thái; không quy lỗi cache điện thoại.
-
-Lần tiếp quản này khôi phục dữ liệu lớn qua fetch_blob của kết nối GitHub khi clone/HTTP gián đoạn. Local snapshot chỉ phục vụ kiểm thử; commit gửi GitHub phải dùng tree/parent SHA thật từ GitHub, không dùng lịch sử snapshot local để cập nhật nhánh.
-
+Trạng thái triển khai mới nhất và các giới hạn được ghi trong `docs/RELEASE.md`, `data/vocabulary/release.json`. Luôn đọc HEAD, baseline và hash từ GitHub trước đợt kế tiếp.
