@@ -25,20 +25,29 @@ Bài V2 dùng đúng hai câu chính mỗi mục. Đã sửa fixture trong `tool
 - Desktop live mở 好 ordinal 95/sourceIndex 74: thấy chuẩn V2, đúng hai câu chính, bẫy, và bài luyện không lộ đáp án trước thao tác. Các mục đọc 奶奶/牛奶/好 được đối chiếu thêm với từ điển Bộ Giáo dục.
 - `test-dom.mjs` không chạy vì thiếu `happy-dom`; chưa kiểm bố cục mobile, TTS/phát nền Android thật hoặc phản biện giáo viên độc lập.
 
+## Trạng thái đợt 009
+
+Đã hoàn tất baseline ordinal 97–108: 少、差、很、快、慢、真、老、贵、过、远、重、错. Đã xác nhận trên GitHub: 108/2.224, còn 2.116; tổng khóa 118/2.234 bài đủ cấu trúc, gồm 10 mục hoàn thiện trước baseline. Commit nội dung `db829fb8c39c119a4b88c47c9c7312c668a01344`; các hash bài mới được lưu trong `progress.json`.
+
+- `process-batch.mjs apply`, `refresh`, `verify` đạt; đúng ID, thứ tự và cohort liên tục, 2.234 liên kết bài, hash 96 bài trước và 10 bài bảo vệ không đổi. 12 mục mới dùng đúng hai ví dụ chính, 13 nhóm bẫy có câu đối chiếu, đề và đáp án riêng, hai tình huống tự dùng.
+- `verifyV2` và `validateCourse` đạt; kiểm cú pháp JavaScript và `git diff --check` đạt. `test-dom.mjs` đạt sau khi cài Happy DOM trong `/tmp`; không thêm dependency vào sản phẩm.
+- Pages run [39754129731](https://github.com/bohoa96tb/hazi-viet/actions/runs/39754129731) thành công trên đúng commit nội dung. Dữ liệu live tải 2.863.798 byte, SHA256 `b302ae8d657ec03fb4eba70ddc373463c57d175af034c4dbe0f0364c55d4c296`, có đủ 2.234 từ, 118 bài đủ cấu trúc và 12 bài mới phiên bản 2.
+- Trình duyệt desktop live mở 少 ordinal 97/sourceIndex 76: thấy hai câu chính; hai bẫy phân biệt lượng với kích thước và cách đọc trong 少年; đáp án E ẩn trước thao tác. Chưa kiểm Android TTS/phát nền hoặc phản biện giáo viên độc lập.
+
 ## Đợt tiếp theo
 
-Bắt đầu đúng baseline ordinal 97:
-1. 少 (hz-h1-733609098341, sourceIndex 76)
-2. 差 (hz-h1-efc194540750, sourceIndex 77)
-3. 很 (hz-h1-754e4b61ec92, sourceIndex 78)
-4. 快 (hz-h1-22182cf36a90, sourceIndex 79)
-5. 慢 (hz-h1-eca0ce94b683, sourceIndex 80)
-6. 真 (hz-h1-878a1cbed839, sourceIndex 81)
-7. 老 (hz-h1-9a887a256484, sourceIndex 82)
-8. 贵 (hz-h1-b5fd29f3a43f, sourceIndex 83)
-9. 过 (hz-h1-9dac1ef58f36, sourceIndex 84)
-10. 远 (hz-h1-10ee35f935b7, sourceIndex 85)
-11. 重 (hz-h1-42d1804d6de2, sourceIndex 86)
-12. 错 (hz-h1-d59b70a3b4f4, sourceIndex 87)
+Bắt đầu đúng baseline ordinal 109:
+1. 难 (hz-h1-9751baafc5b0, sourceIndex 88)
+2. 高 (hz-h1-bee90b36dafe, sourceIndex 89)
+3. 不大 (hz-h1-777cecc20605, sourceIndex 90)
+4. 不对 (hz-h1-55ece8459abc, sourceIndex 91)
+5. 重要 (hz-h1-a2d895dabe7b, sourceIndex 92)
+6. 做 (hz-h1-c698571f3769, sourceIndex 93)
+7. 动 (hz-h1-109ce02573bf, sourceIndex 94)
+8. 学 (hz-h1-972fee5ddec8, sourceIndex 95)
+9. 干 (hz-h1-692026ac0c4d, sourceIndex 96)
+10. 忙 (hz-h1-0bc0aea3e47a, sourceIndex 97)
+11. 用 (hz-h1-fa344d8ea348, sourceIndex 98)
+12. 看 (hz-h1-a0227b47e71a, sourceIndex 99)
 
 Trạng thái phát hành: docs/RELEASE.md và data/vocabulary/release.json. Luôn đọc lại HEAD/baseline/progress/hash GitHub trước đợt tiếp theo.
