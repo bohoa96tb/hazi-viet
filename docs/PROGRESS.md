@@ -2,25 +2,26 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 12/2224. Còn: 2212. Toàn khóa đủ cấu trúc: 22/2234.
+Đã bổ sung: 24/2224. Còn: 2200. Toàn khóa đủ cấu trúc: 34/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
 - batch-001 · mục 1–12 · 我、你、您、他、她、我们、你们、汉字、谢谢、不客气、对不起、没关系
+- batch-002 · mục 13–24 · 再见、是、叫、名字、中国、中文、汉语、人、老师、学生、同学、朋友
 
 ## 12 mục tiếp theo
 
-- 再见 · hz-h1-dadf7ffde866
-- 是 · hz-h1-d869fcbf074b
-- 叫 · hz-h1-628ff5c3507e
-- 名字 · hz-h1-4247545ee5f9
-- 中国 · hz-h1-b05b84230588
-- 中文 · hz-h1-4789a966f565
-- 汉语 · hz-h1-277c140499d4
-- 人 · hz-h1-ac895f18b59d
-- 老师 · hz-h1-fdbb78c8e725
-- 学生 · hz-h1-22357796d4e3
-- 同学 · hz-h1-58837eebf47f
-- 朋友 · hz-h1-8de2a5b77843
+- 个 · hz-h1-f05455e3c9c0
+- 书 · hz-h1-f41783418fc4
+- 买 · hz-h1-8341aa4cbe2d
+- 事 · hz-h1-f122294ca48f
+- 元 · hz-h1-ae27e66d8546
+- 写 · hz-h1-b7fe1500b898
+- 分 · hz-h1-53aaf4b1dcee
+- 块 · hz-h1-0753b94f1793
+- 字 · hz-h1-d91434e9824e
+- 最 · hz-h1-938eb8eaef5d
+- 本 · hz-h1-4cdf3a52edbb
+- 次 · hz-h1-392c29368f51
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Nhánh này không tự triển khai lên website/main.

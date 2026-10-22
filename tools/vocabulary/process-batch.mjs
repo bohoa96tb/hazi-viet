@@ -8,6 +8,7 @@ import assert from 'node:assert/strict';
 import {auditLesson,lessonAudio,checkAudio} from '../../js/lesson-standard.js';
 import {validateCourse} from '../../js/vocabulary-course.js';
 import {buildPlaylist} from '../../js/vocabulary-audio.js';
+import {renderStandardLesson} from '../../js/lesson-standard-view.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const read=f=>JSON.parse(fs.readFileSync(path.join(root,f),'utf8'));
 const write=(f,x)=>fs.writeFileSync(path.join(root,f),JSON.stringify(x,null,2)+'\n');
@@ -94,6 +95,18 @@ if(command==='init'){
   const ready=data.words.filter(w=>auditLesson(w).ready);let wrong=0;
   for(const w of ready){
    const l=w.lesson;
+   // Exercise the actual renderer as well as the structural audit: stage 0
+   // requires provenance fields that auditLesson alone does not currently check.
+   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+   const render=options=>{const html=renderStandardLesson(w,{esc:escape,hanzi:escape,rich:escape,checkState:new Map(),...options});assert.equal(typeof html,'string',w.id+': renderer must return HTML');assert(html.length>0);};
+   render({stage:0});
+   for(let i=0;i<l.usages.length;i++)render({stage:1,view:'usages',usageIndex:i});
+   for(let i=0;i<l.examples.length;i++)render({stage:1,view:'examples',exampleIndex:i});
+   for(let i=0;i<l.traps.length;i++){
+    render({stage:2,trapIndex:i});
+    const id=l.traps[i].checkId;
+    if(id)render({stage:2,trapIndex:i,checkState:new Map([[w.id+':'+id,'requested']])});
+   }
    for(let i=0;i<l.examples.length;i++)assert.deepEqual(lessonAudio(w,'example-only',i).map(s=>[s.lang,s.text]),[['zh-CN',l.examples[i].zh]]);
    const full=lessonAudio(w);assert(full.length);assert(full.every(s=>!w.intro.some(x=>s.text.includes(x.pinyin))));
    for(let i=0;i<l.traps.length;i++)for(const c of l.traps[i].cases.filter(c=>c.judgment==='wrong-grammar')){
@@ -106,6 +119,6 @@ if(command==='init'){
   assert.equal(new Set(buildPlaylist(data.words,'podcast').map(s=>s.wordId)).size,actual);
   const sample=structuredClone(ready[0]);delete sample.lesson.meaning.boundary;assert(!auditLesson(sample).ready);
   const tampered=structuredClone(p);tampered.completedIds.reverse();assert.throws(()=>assertProgress(b,tampered));
-  console.log(`PASS: ${data.words.length} IDs and lesson links; fixed cohort and protected content hashes; ${p.completedCount}/${b.scopeTotal} completed; ${p.remaining} remaining; ${actual} structured lessons; ${wrong} wrong contrast sentences warned/corrected; example audio and isolated answers; pending podcasts blocked. Device playback and teacher review not verified.`);
+  console.log(`PASS: ${data.words.length} IDs and lesson links; fixed cohort and protected content hashes; ${p.completedCount}/${b.scopeTotal} completed; ${p.remaining} remaining; ${actual} structured lessons and renderer views; ${wrong} wrong contrast sentences warned/corrected; example audio and isolated answers; pending podcasts blocked. Browser/device playback and teacher review not verified.`);
  }else throw Error('Unknown command: '+command);
 }
