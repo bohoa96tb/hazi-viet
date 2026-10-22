@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 154 mục đủ cấu trúc V1/V2; còn 2080. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 144 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 166 mục đủ cấu trúc V1/V2; còn 2068. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 156 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -38842,18 +38842,185 @@
         }
       ],
       "meaning": "cửa hàng",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-013",
       "examples": [
         {
-          "zh": "商店九点开门。",
-          "vi": "Cửa hàng mở cửa lúc chín giờ."
+          "id": "e1",
+          "zh": "我去商店买水。",
+          "vi": "Tôi đến cửa hàng mua nước.",
+          "analysis": "去商店 nêu nơi đến; 买水 nêu việc mua. 商店 là nơi bán hàng.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这家商店晚上九点关门。",
+          "vi": "Cửa hàng này đóng cửa lúc chín giờ tối.",
+          "analysis": "这家 dùng với cửa hàng; 商店 đứng sau từ chỉ số lượng 家.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 124,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=131721&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 145,
+        "introduction": {
+          "scope": "商店 là nơi bán hàng; có thể là một cửa hàng riêng, chẳng hạn tiệm quần áo hoặc cửa hàng tiện lợi."
+        },
+        "meaning": {
+          "scene": "Bạn muốn mua một món đồ ở một cửa hàng gần nhà.",
+          "explanation": "商店 là danh từ chỉ cửa hàng bán hàng. Khi nói đến một cửa hàng cụ thể, thường dùng 一家商店; trước tên cửa hàng có thể đặt loại hàng.",
+          "boundary": "商店 là cửa hàng hoặc nơi bán hàng. 商场 thường chỉ khu mua sắm lớn có nhiều cửa hàng; hai từ có liên quan nhưng không cùng quy mô.",
+          "conditions": [
+            "Nói nơi mua một món hàng: 去商店买……",
+            "Nói một cửa hàng: 一家商店",
+            "Nói khu mua sắm lớn: 商场"
+          ],
+          "takeaway": "Mua ở một cửa hàng: 商店; đi cả khu mua sắm: 商场."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我去商店买水。",
+            "vi": "Tôi đến cửa hàng mua nước.",
+            "analysis": "去商店 nêu nơi đến; 买水 nêu việc mua. 商店 là nơi bán hàng.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这家商店晚上九点关门。",
+            "vi": "Cửa hàng này đóng cửa lúc chín giờ tối.",
+            "analysis": "这家 dùng với cửa hàng; 商店 đứng sau từ chỉ số lượng 家.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去 + 商店 + 买 + đồ vật",
+            "position": "商店 đứng sau 去 để chỉ nơi đến, trước hành động mua.",
+            "required": "Nêu tên đồ vật sau 买 nếu muốn nói rõ mua gì.",
+            "omission": "Có thể bỏ nơi đến khi người nghe đã biết bạn đi đâu.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "这/那 + 家 + 商店",
+            "position": "家 là lượng từ thường dùng khi đếm cửa hàng.",
+            "required": "Dùng 家 khi nói một cửa hàng cụ thể theo mẫu này.",
+            "omission": "Có thể chỉ nói 商店 khi không cần đếm hoặc xác định cửa hàng.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "商店 và 商场: cửa hàng hay khu mua sắm",
+            "scene": "Bạn hẹn bạn ở một cửa hàng nhỏ hay ở khu mua sắm lớn.",
+            "possibleConfusion": "Cả hai đều liên quan đến việc mua hàng nên dễ tưởng là cùng một nơi.",
+            "difference": "商店 thường là cửa hàng bán một nhóm hàng; 商场 thường là khu mua sắm hoặc trung tâm có nhiều gian hàng.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我去商店买一把伞。",
+                "vi": "Tôi đến cửa hàng mua một chiếc ô.",
+                "comment": "Nói đến một nơi bán hàng để mua một món.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "周末我们去商场逛逛。",
+                "vi": "Cuối tuần chúng tôi đi dạo ở trung tâm mua sắm.",
+                "comment": "Nói đến một khu có nhiều cửa hàng; cách dùng 商场 đúng với ý này.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 商店 thành 商场 sẽ chuyển ý từ một cửa hàng sang khu mua sắm; có thể đúng nếu nơi thực sự là trung tâm mua sắm."
+            },
+            "boundary": "Một 商场 có nhiều 商店; khi nói chung là đi mua đồ, cả hai có thể xuất hiện tùy nơi muốn nhấn mạnh.",
+            "tip": "Một tiệm: 商店. Cả khu mua sắm: 商场."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng của 商店.",
+          "literalTranslation": "Không suy nghĩa riêng từng chữ 商 và 店; cả từ chỉ cửa hàng.",
+          "confusables": "Đã phân biệt quy mô và nơi chốn với 商场."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Bạn đến cửa hàng để mua một quyển vở. Hãy nói bằng tiếng Trung."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Bạn muốn rủ bạn đi dạo trong trung tâm mua sắm, không phải vào một cửa hàng riêng. Chọn 商店 hay 商场 và đặt câu."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我去商店买本子。",
+              "我去商店买一个本子。"
+            ],
+            "explanation": "商店 là nơi đến; sau 买 nêu món đồ cần mua."
+          },
+          "q2": {
+            "accepted": [
+              "我们去商场逛逛。",
+              "我想去商场买东西。"
+            ],
+            "explanation": "商场 hợp khi nói đến cả khu mua sắm."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn muốn đến cửa hàng mua một món đồ cần dùng hôm nay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn thường ghé một cửa hàng gần nhà sau giờ làm."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nơi đến là cửa hàng; chọn một món đồ thật.",
+            "frame": "我去商店买……。",
+            "model": "我去商店买水。",
+            "vi": "Tôi đến cửa hàng mua nước.",
+            "criteria": [
+              "Dùng 商店 để chỉ nơi bán hàng.",
+              "Đặt món muốn mua sau 买."
+            ]
+          },
+          "s2": {
+            "idea": "Thói quen sau giờ làm và vị trí cửa hàng.",
+            "frame": "下班以后，我常去……。",
+            "model": "下班以后，我常去附近的商店。",
+            "vi": "Sau giờ làm, tôi thường đến cửa hàng gần đây.",
+            "criteria": [
+              "Dùng 商店 như địa điểm.",
+              "Có thể thay 附近 bằng nơi cụ thể phù hợp."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-a397ab7fa248",
@@ -38862,18 +39029,189 @@
       "intro": [
         {
           "pinyin": "túshūguǎn",
-          "meaning": "thư viện",
-          "sourcePinyin": "túshū guǎn"
+          "meaning": "thư viện"
         }
       ],
       "meaning": "thư viện",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-013",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我下午去图书馆看书。",
+          "vi": "Chiều nay tôi đến thư viện đọc sách.",
+          "analysis": "去图书馆 nêu nơi đến; 看书 nêu hoạt động.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "她在图书馆借了两本书。",
+          "vi": "Cô ấy đã mượn hai quyển sách ở thư viện.",
+          "analysis": "在图书馆 nêu nơi diễn ra việc mượn; 借书 là mượn sách.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 125,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=54188&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 146,
+        "introduction": {
+          "scope": "图书馆 là nơi tập hợp sách và tài liệu để mọi người đọc, học hoặc tra cứu; thường có thể mượn sách."
+        },
+        "meaning": {
+          "scene": "Bạn cần một chỗ yên tĩnh để đọc sách hoặc muốn mượn sách mang về.",
+          "explanation": "图书馆 là danh từ chỉ thư viện. Các hoạt động thường nói cùng từ này là 去图书馆、在图书馆看书 và 到图书馆借书.",
+          "boundary": "图书馆 phục vụ việc đọc, học và mượn sách; 书店 là nơi bán sách. Mượn sách thì đến thư viện, mua sách thì đến hiệu sách.",
+          "conditions": [
+            "Nơi đến: 去图书馆",
+            "Đọc sách ở đó: 在图书馆看书",
+            "Mượn sách: 去图书馆借书"
+          ],
+          "takeaway": "图书馆 để đọc hoặc mượn; 书店 để mua."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我下午去图书馆看书。",
+            "vi": "Chiều nay tôi đến thư viện đọc sách.",
+            "analysis": "去图书馆 nêu nơi đến; 看书 nêu hoạt động.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "她在图书馆借了两本书。",
+            "vi": "Cô ấy đã mượn hai quyển sách ở thư viện.",
+            "analysis": "在图书馆 nêu nơi diễn ra việc mượn; 借书 là mượn sách.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去 + 图书馆 + 看书/学习",
+            "position": "图书馆 đứng sau 去 để chỉ nơi đến; hoạt động theo sau.",
+            "required": "Dùng 在图书馆 nếu muốn nói hoạt động đang diễn ra ở thư viện.",
+            "omission": "Có thể lược nơi chốn nếu đã rõ địa điểm.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "在 + 图书馆 + 借书",
+            "position": "在图书馆 đứng trước hành động để chỉ nơi thực hiện.",
+            "required": "借书 có nghĩa mượn sách; nếu mua thì dùng 买书.",
+            "omission": "Có thể bỏ 两本 khi không cần nói số lượng.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "图书馆 và 书店: mượn sách hay mua sách",
+            "scene": "Bạn cần đọc một cuốn sách tại chỗ, mượn về, hay mua nó.",
+            "possibleConfusion": "Cả thư viện và hiệu sách đều có sách.",
+            "difference": "图书馆 là nơi đọc, học và thường cho mượn; 书店 là cửa hàng bán sách.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我去图书馆借书。",
+                "vi": "Tôi đến thư viện mượn sách.",
+                "comment": "借书 hợp với thư viện.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我去书店买一本书。",
+                "vi": "Tôi đến hiệu sách mua một quyển sách.",
+                "comment": "买书 hợp với nơi bán sách.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 图书馆 sang 书店 làm đổi nơi và mục đích: từ mượn/đọc sang mua; câu vẫn đúng nếu ý định thay đổi."
+            },
+            "boundary": "Có thể đọc sách trong hiệu sách theo quy định của cửa hàng; điểm phân biệt cơ bản vẫn là mượn/đọc ở thư viện và mua ở hiệu sách.",
+            "tip": "Mượn: 图书馆. Mua: 书店."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thường gặp của 图书馆.",
+          "literalTranslation": "馆 ở đây là nơi phục vụ sách và việc đọc; không dịch rời từng chữ.",
+          "confusables": "Đã đối chiếu với 书店 và phân biệt theo mục đích mượn hay mua."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Bạn đến thư viện để mượn hai quyển sách. Hãy đặt câu."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nếu bạn muốn mua sách, nơi nào phù hợp hơn: 图书馆 hay 书店? Hãy viết một câu."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我去图书馆借两本书。",
+              "我到图书馆借两本书。"
+            ],
+            "explanation": "去/到图书馆 nêu nơi đến; 借书 là mượn sách."
+          },
+          "q2": {
+            "accepted": [
+              "书店。我去书店买书。",
+              "我去书店买一本书。"
+            ],
+            "explanation": "书店 là nơi bán sách; 图书馆 không mang nghĩa cửa hàng mua sách."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn sẽ đến thư viện đọc sách vào chiều nay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn muốn mượn một quyển sách ở thư viện."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Thời gian chiều nay, nơi đến và hoạt động đọc.",
+            "frame": "我下午去图书馆……。",
+            "model": "我下午去图书馆看书。",
+            "vi": "Chiều nay tôi đến thư viện đọc sách.",
+            "criteria": [
+              "Dùng 图书馆 làm nơi đến.",
+              "Chọn 看书 nếu muốn nói đọc sách."
+            ]
+          },
+          "s2": {
+            "idea": "Nơi mượn và số lượng sách.",
+            "frame": "我去图书馆借……。",
+            "model": "我去图书馆借一本书。",
+            "vi": "Tôi đến thư viện mượn một quyển sách.",
+            "criteria": [
+              "Dùng 借 để nói mượn.",
+              "一本书 là một quyển sách."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-9410ed458167",
@@ -38882,22 +39220,188 @@
       "intro": [
         {
           "pinyin": "bēizi",
-          "meaning": "cốc"
+          "meaning": "cái cốc, cái ly"
         }
       ],
-      "meaning": "cốc",
-      "status": "example",
+      "meaning": "cái cốc, cái ly",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-013",
       "examples": [
         {
-          "zh": "这是我的杯子。",
-          "vi": "Đây là cốc của tôi."
+          "id": "e1",
+          "zh": "桌子上有一个干净的杯子。",
+          "vi": "Trên bàn có một chiếc cốc sạch.",
+          "analysis": "一个杯子 chỉ một vật đựng; 个 là lượng từ thường dùng trong mẫu này.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请给我一个杯子，里面装热水。",
+          "vi": "Làm ơn đưa cho tôi một chiếc cốc, trong đó có nước nóng.",
+          "analysis": "一个杯子 đếm vật đựng; câu sau nói bên trong có nước nóng.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 126,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=14757&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 147,
+        "introduction": {
+          "scope": "杯子 là vật đựng nước hoặc đồ uống; trong tiếng Việt có thể gọi là cốc hay ly tùy vùng."
+        },
+        "meaning": {
+          "scene": "Bạn cần lấy một chiếc cốc sạch để uống nước.",
+          "explanation": "杯子 chỉ vật chứa đồ uống. Khi nói chiếc cốc, có thể dùng 一个杯子; khi nói lượng đồ uống trong cốc, dùng 一杯水、一杯茶.",
+          "boundary": "杯子 là vật đựng. 杯 đứng sau số lượng để chỉ một phần đồ uống, như 一杯水; một chiếc cốc rỗng không phải là 一杯水.",
+          "conditions": [
+            "Vật đựng: 一个杯子",
+            "Lượng nước: 一杯水",
+            "Lượng trà: 一杯茶"
+          ],
+          "takeaway": "杯子 là chiếc cốc; 杯 trong 一杯水 đếm phần nước uống."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "桌子上有一个干净的杯子。",
+            "vi": "Trên bàn có một chiếc cốc sạch.",
+            "analysis": "一个杯子 chỉ một vật đựng; 个 là lượng từ thường dùng trong mẫu này.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请给我一个杯子，里面装热水。",
+            "vi": "Làm ơn đưa cho tôi một chiếc cốc, trong đó có nước nóng.",
+            "analysis": "一个杯子 đếm vật đựng; câu sau nói bên trong có nước nóng.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一个 + 杯子",
+            "position": "Lượng từ 个 đứng giữa số 一 và danh từ 杯子 để đếm vật.",
+            "required": "Dùng 一个杯子 khi đếm chiếc cốc.",
+            "omission": "Có thể bỏ số lượng nếu chỉ nói chung 杯子.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一个 + 杯子",
+            "position": "个 đứng giữa số lượng và danh từ 杯子 để đếm chiếc cốc.",
+            "required": "Dùng 一个杯子 khi cần gọi một chiếc cốc; nếu gọi lượng đồ uống thì dùng 一杯水/茶.",
+            "omission": "Có thể bỏ số lượng khi chỉ cần xin một chiếc cốc trong ngữ cảnh rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "杯子 là đồ vật; 杯 là lượng đồ uống",
+            "scene": "Bạn muốn chỉ cái cốc trên bàn hay gọi một phần nước.",
+            "possibleConfusion": "杯子 có chữ 杯 nên dễ dùng nhầm làm lượng từ trước tên đồ uống.",
+            "difference": "一个杯子 đếm chiếc cốc; 一杯水 đếm lượng nước trong một cốc. Tên đồ uống đứng sau 杯.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我买了两个杯子。",
+                "vi": "Tôi đã mua hai chiếc cốc.",
+                "comment": "两个杯子 đếm hai vật đựng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我喝了一杯水。",
+                "vi": "Tôi đã uống một cốc nước.",
+                "comment": "一杯水 đếm lượng nước uống; 杯 không có 子.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 杯子 vào 一杯水 sẽ sai mẫu đếm đồ uống; thay 一杯水 bằng 一个杯子 thì chuyển ý sang cái cốc, không còn nói lượng nước."
+            },
+            "boundary": "Một chiếc cốc có thể rỗng hoặc chứa đồ uống; từ đứng sau số lượng cho biết ta đang đếm vật hay phần uống.",
+            "tip": "Đếm đồ vật: 杯子. Đếm đồ uống: 一杯 + tên đồ uống."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc; 子 trong 杯子 đọc nhẹ, ngắn nhưng vẫn phát âm.",
+          "literalTranslation": "Không cần dịch riêng 杯 và 子; cả từ chỉ cái cốc.",
+          "confusables": "Đã phân biệt danh từ 杯子 với lượng từ 杯 trong cấu trúc đồ uống."
+        },
+        "pronunciation": {
+          "text": "Âm 子 ở đây nhẹ và ngắn nhưng vẫn đọc ra. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Hãy nói “trên bàn có hai chiếc cốc”."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Hãy gọi một cốc trà; dùng 杯 để đếm đồ uống, không đếm chiếc cốc."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "桌子上有两个杯子。"
+            ],
+            "explanation": "两个杯子 đếm hai vật."
+          },
+          "q2": {
+            "accepted": [
+              "一杯茶。",
+              "请给我一杯茶。"
+            ],
+            "explanation": "一杯茶 đếm một phần trà."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn muốn xin một chiếc cốc sạch."
+          },
+          {
+            "id": "s2",
+            "prompt": "Gọi một cốc nước lạnh ở quán."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Muốn lấy một vật đựng sạch.",
+            "frame": "我想要一个……。",
+            "model": "我想要一个干净的杯子。",
+            "vi": "Tôi muốn một chiếc cốc sạch.",
+            "criteria": [
+              "Dùng 杯子 để gọi vật đựng.",
+              "Có thể nói 干净的杯子 để mô tả chiếc cốc."
+            ]
+          },
+          "s2": {
+            "idea": "Một phần nước uống, nhiệt độ lạnh.",
+            "frame": "请给我一杯……。",
+            "model": "请给我一杯冰水。",
+            "vi": "Làm ơn cho tôi một cốc nước lạnh.",
+            "criteria": [
+              "Đặt 杯 trước tên đồ uống.",
+              "冰水 là nước lạnh/nước đá tùy ngữ cảnh."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-9f7cd1be7fc7",
@@ -38910,13 +39414,184 @@
         }
       ],
       "meaning": "nhà vệ sinh",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-013",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请问，洗手间在哪儿？",
+          "vi": "Xin hỏi, nhà vệ sinh ở đâu?",
+          "analysis": "请问 làm câu hỏi lịch sự; 洗手间 là nơi cần tìm.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我先去一下洗手间。",
+          "vi": "Tôi đi nhà vệ sinh một lát nhé.",
+          "analysis": "去洗手间 nói đi đến đó; 一下 làm lời nói nhẹ và tự nhiên hơn.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 127,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=104883&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 148,
+        "introduction": {
+          "scope": "洗手间 là nhà vệ sinh, thường dùng lịch sự khi hỏi chỗ đi vệ sinh ở nhà hàng, ga tàu hoặc nơi công cộng."
+        },
+        "meaning": {
+          "scene": "Bạn đang ở nhà hàng và cần hỏi nhà vệ sinh ở đâu.",
+          "explanation": "洗手间 là danh từ chỉ nhà vệ sinh. Cách hỏi thông dụng là 洗手间在哪儿？; có thể nói 去洗手间 để nói đi vào nhà vệ sinh.",
+          "boundary": "洗手间 và 厕所 cùng có thể chỉ nhà vệ sinh. 洗手间 thường nghe mềm và lịch sự hơn; 厕所 trực tiếp, bình thường, không tự động là thô lỗ.",
+          "conditions": [
+            "Hỏi vị trí: 洗手间在哪儿？",
+            "Nói đi vào đó: 去洗手间",
+            "Có thể dùng 厕所 trong hội thoại thân mật, trực tiếp"
+          ],
+          "takeaway": "Khi cần hỏi lịch sự, dùng 洗手间在哪儿？"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请问，洗手间在哪儿？",
+            "vi": "Xin hỏi, nhà vệ sinh ở đâu?",
+            "analysis": "请问 làm câu hỏi lịch sự; 洗手间 là nơi cần tìm.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我先去一下洗手间。",
+            "vi": "Tôi đi nhà vệ sinh một lát nhé.",
+            "analysis": "去洗手间 nói đi đến đó; 一下 làm lời nói nhẹ và tự nhiên hơn.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "洗手间 + 在哪儿？",
+            "position": "Tên nơi chốn đứng trước 在哪儿 để hỏi vị trí.",
+            "required": "Giữ 在哪儿 khi hỏi nơi đó ở đâu.",
+            "omission": "Có thể bỏ 请问 nếu không cần mở lời lịch sự.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "去 + 洗手间",
+            "position": "洗手间 đứng sau 去 để chỉ nơi đến.",
+            "required": "Có thể thêm 一下 để lời nói nhẹ hơn; không bắt buộc.",
+            "omission": "Có thể bỏ người nói khi ngữ cảnh đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "洗手间 và 厕所: cùng nơi, sắc thái hơi khác",
+            "scene": "Bạn hỏi nhân viên ở nơi công cộng về nhà vệ sinh.",
+            "possibleConfusion": "Người học có thể nghĩ 厕所 sai hoặc quá bất lịch sự.",
+            "difference": "Cả hai đều chỉ nhà vệ sinh. 洗手间 thường là cách gọi lịch sự hơn trong thông báo và câu hỏi; 厕所 trực tiếp, thông dụng trong giao tiếp thân mật.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请问，洗手间在哪儿？",
+                "vi": "Xin hỏi, nhà vệ sinh ở đâu?",
+                "comment": "Cách hỏi lịch sự, phù hợp khi hỏi người lạ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "厕所在哪儿？",
+                "vi": "Nhà vệ sinh ở đâu?",
+                "comment": "Câu vẫn đúng và dễ hiểu; giọng trực tiếp hơn, có thể thêm 请问 khi hỏi người lạ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Có thể thay 洗手间 bằng 厕所 mà vẫn hỏi đúng nơi đó; thay đổi chủ yếu là cách gọi và sắc thái, không phải đúng/sai."
+            },
+            "boundary": "Tùy vùng và hoàn cảnh, 卫生间 cũng thường dùng để chỉ nhà vệ sinh; không cần tránh 厕所 tuyệt đối.",
+            "tip": "Hỏi người lạ: 请问，洗手间在哪儿？"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa; đây là từ chỉ nơi chốn.",
+          "literalTranslation": "Không hiểu là chỉ có chỗ rửa tay; cả từ thường mang nghĩa nhà vệ sinh.",
+          "confusables": "Đã so sánh với 厕所 và ghi rõ hai từ cùng chỉ nơi này."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Bạn muốn hỏi lịch sự một nhân viên: “Xin hỏi, nhà vệ sinh ở đâu?”"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "厕所在哪儿？ có sai không? Nêu ngắn gọn điểm khác với 洗手间."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请问，洗手间在哪儿？",
+              "请问洗手间在哪儿？"
+            ],
+            "explanation": "请问 mở lời lịch sự; 在哪儿 hỏi vị trí."
+          },
+          "q2": {
+            "accepted": [
+              "Không sai; cả hai đều chỉ nhà vệ sinh, 洗手间 thường lịch sự hơn, 厕所 trực tiếp hơn."
+            ],
+            "explanation": "Đây là khác biệt sắc thái, không phải khác biệt đúng/sai."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Bạn đang ở ga tàu, hỏi nhân viên nhà vệ sinh ở đâu."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói với bạn mình rằng bạn đi nhà vệ sinh một lát."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Mở lời lịch sự rồi hỏi vị trí.",
+            "frame": "请问，……在哪儿？",
+            "model": "请问，洗手间在哪儿？",
+            "vi": "Xin hỏi, nhà vệ sinh ở đâu?",
+            "criteria": [
+              "Dùng 洗手间 để hỏi người lạ.",
+              "Đặt 在哪儿 sau địa điểm."
+            ]
+          },
+          "s2": {
+            "idea": "Nói mình đi đến nhà vệ sinh một lát.",
+            "frame": "我先去一下……。",
+            "model": "我先去一下洗手间。",
+            "vi": "Tôi đi nhà vệ sinh một lát nhé.",
+            "criteria": [
+              "Dùng 去洗手间 để nói nơi đến.",
+              "一下 có thể thêm để câu nhẹ hơn."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-777eb9bd2116",
@@ -38929,18 +39604,184 @@
         }
       ],
       "meaning": "phim",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-013",
       "examples": [
         {
+          "id": "e1",
+          "zh": "我晚上想看电影。",
+          "vi": "Tối nay tôi muốn xem phim.",
+          "analysis": "看电影 là cụm thông dụng nói xem phim; không nêu nơi xem.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
           "zh": "这部电影很好看。",
-          "vi": "Bộ phim này rất hay."
+          "vi": "Bộ phim này rất hay.",
+          "analysis": "部 là lượng từ thường dùng khi đếm phim; 好看 ở đây là hay, đáng xem.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 128,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=46737&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 149,
+        "introduction": {
+          "scope": "电影 là phim chiếu để xem; có thể nói một bộ phim hoặc nói hoạt động xem phim."
+        },
+        "meaning": {
+          "scene": "Bạn hẹn bạn tối nay xem một bộ phim mới.",
+          "explanation": "电影 là danh từ chỉ phim. Nói xem phim dùng 看电影; khi đếm từng bộ phim, thường dùng 一部电影.",
+          "boundary": "电影 là tác phẩm/phim được xem. 电影院 là nơi chiếu phim; có thể 看电影 ở nhà nên không phải lúc nào cũng cần 电影院.",
+          "conditions": [
+            "Hoạt động xem phim: 看电影",
+            "Một bộ phim: 一部电影",
+            "Địa điểm rạp chiếu: 电影院"
+          ],
+          "takeaway": "看电影 nói hoạt động; 电影院 nói nơi xem."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我晚上想看电影。",
+            "vi": "Tối nay tôi muốn xem phim.",
+            "analysis": "看电影 là cụm thông dụng nói xem phim; không nêu nơi xem.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这部电影很好看。",
+            "vi": "Bộ phim này rất hay.",
+            "analysis": "部 là lượng từ thường dùng khi đếm phim; 好看 ở đây là hay, đáng xem.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "看 + 电影",
+            "position": "电影 đứng sau 看 để chỉ nội dung được xem.",
+            "required": "Dùng 看电影 cho hoạt động xem phim.",
+            "omission": "Có thể bỏ người xem nếu đã rõ ngữ cảnh.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "这/一 + 部 + 电影",
+            "position": "部 đứng giữa số lượng hoặc từ chỉ định và 电影.",
+            "required": "Dùng 部 khi đếm bộ phim theo mẫu này.",
+            "omission": "Có thể chỉ nói 电影 khi nói chung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "电影 là phim; 电影院 là rạp",
+            "scene": "Bạn đang nói nội dung muốn xem hay địa điểm sẽ đến.",
+            "possibleConfusion": "Hai từ cùng bắt đầu bằng 电影 nên người học dễ xem chúng là cùng một thứ.",
+            "difference": "电影 là bộ phim/tác phẩm; 电影院 là tòa nhà hoặc nơi chiếu phim.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我在家看电影。",
+                "vi": "Tôi xem phim ở nhà.",
+                "comment": "看电影 là hoạt động; không cần tới rạp.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们去电影院看电影。",
+                "vi": "Chúng tôi đến rạp xem phim.",
+                "comment": "电影院 là nơi đến; 电影 là nội dung xem.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 电影 thành 电影院 sau 看 sẽ đổi từ tác phẩm sang địa điểm và không còn diễn đạt tự nhiên ý xem phim."
+            },
+            "boundary": "Có thể nói 去看电影 mà không nêu 电影院; địa điểm đã được lược vì không quan trọng hoặc đã rõ.",
+            "tip": "Phim: 电影. Rạp: 电影院."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng của 电影.",
+          "literalTranslation": "Không suy nghĩa bằng cách dịch riêng 电 và 影; cả từ chỉ phim.",
+          "confusables": "Đã phân biệt 电影 với địa điểm 电影院."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói tối nay bạn muốn xem phim, không cần nói ở đâu."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Điền từ phù hợp để nói “chúng tôi đến rạp xem phim”: 我们去……看电影。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我晚上想看电影。",
+              "我今晚想看电影。"
+            ],
+            "explanation": "看电影 nói hoạt động xem phim."
+          },
+          "q2": {
+            "accepted": [
+              "我们去电影院看电影。"
+            ],
+            "explanation": "电影院 là địa điểm; 电影 là phim được xem."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn vừa xem một bộ phim rất hay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Rủ bạn đi xem phim vào cuối tuần."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Một bộ phim đã xem và nhận xét tích cực.",
+            "frame": "我看了一部……的电影。",
+            "model": "我看了一部很好看的电影。",
+            "vi": "Tôi đã xem một bộ phim rất hay.",
+            "criteria": [
+              "Dùng 一部电影 để đếm phim.",
+              "Nhận xét đặt trước 的电影."
+            ]
+          },
+          "s2": {
+            "idea": "Thời gian cuối tuần và lời rủ xem phim.",
+            "frame": "周末我们去……吧。",
+            "model": "周末我们去看电影吧。",
+            "vi": "Cuối tuần chúng ta đi xem phim nhé.",
+            "criteria": [
+              "Dùng 看电影 cho hoạt động.",
+              "Không bắt buộc nêu rạp nếu nơi xem đã rõ."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-cf4723869aea",
@@ -38953,18 +39794,184 @@
         }
       ],
       "meaning": "rạp chiếu phim",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-013",
       "examples": [
         {
-          "zh": "电影院在学校旁边。",
-          "vi": "Rạp chiếu phim ở cạnh trường."
+          "id": "e1",
+          "zh": "我们星期六去电影院看电影。",
+          "vi": "Thứ bảy chúng tôi đi rạp xem phim.",
+          "analysis": "去电影院 chỉ nơi đến; 看电影 chỉ hoạt động tại đó.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这家电影院离地铁站很近。",
+          "vi": "Rạp chiếu phim này ở gần ga tàu điện ngầm.",
+          "analysis": "这家电影院 dùng 家 để đếm một cơ sở kinh doanh/dịch vụ.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 129,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=46752&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 150,
+        "introduction": {
+          "scope": "电影院 là địa điểm có phòng chiếu để khán giả xem phim."
+        },
+        "meaning": {
+          "scene": "Bạn mua vé và hẹn bạn gặp ở nơi chiếu phim.",
+          "explanation": "电影院 là danh từ chỉ rạp chiếu phim. Thường nói 去电影院看电影: 去电影院 nêu nơi đến, 看电影 nêu hoạt động.",
+          "boundary": "电影院 là nơi chiếu; 电影 là tác phẩm. Trong lời nói, người ta cũng có thể lược địa điểm và chỉ nói 去看电影.",
+          "conditions": [
+            "Đến rạp: 去电影院",
+            "Xem nội dung phim: 看电影",
+            "Ở rạp: 在电影院看电影"
+          ],
+          "takeaway": "电影院 là nơi; 电影 là thứ mình xem."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们星期六去电影院看电影。",
+            "vi": "Thứ bảy chúng tôi đi rạp xem phim.",
+            "analysis": "去电影院 chỉ nơi đến; 看电影 chỉ hoạt động tại đó.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这家电影院离地铁站很近。",
+            "vi": "Rạp chiếu phim này ở gần ga tàu điện ngầm.",
+            "analysis": "这家电影院 dùng 家 để đếm một cơ sở kinh doanh/dịch vụ.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去 + 电影院 + 看电影",
+            "position": "电影院 đứng sau 去; 看电影 theo sau để nói mục đích.",
+            "required": "Nói 去电影院 khi muốn nêu rõ đến rạp.",
+            "omission": "Có thể bỏ 电影院 nếu chỉ cần nói 去看电影.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "这/那 + 家 + 电影院",
+            "position": "家 có thể dùng làm lượng từ cho cơ sở dịch vụ như một rạp.",
+            "required": "Dùng 家 trong mẫu này khi định vị một rạp cụ thể.",
+            "omission": "Có thể bỏ 家 và nói 电影院 khi nói chung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "电影院 là nơi; 电影 là nội dung",
+            "scene": "Bạn nói mình đến đâu hay xem cái gì.",
+            "possibleConfusion": "Người học có thể thêm 院 vào sau 看 như thể đó là tên phim.",
+            "difference": "去电影院 nói đến rạp; 看电影 nói xem phim. Đây là hai phần có thể cùng dùng trong một câu.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我去电影院。",
+                "vi": "Tôi đến rạp chiếu phim.",
+                "comment": "Câu nêu địa điểm đến; chưa nói sẽ làm gì ở đó.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我在家看电影。",
+                "vi": "Tôi xem phim ở nhà.",
+                "comment": "Câu nêu hoạt động và nội dung; không cần có 电影院.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 电影院 bằng 电影 sau 去 làm mất ý đến rạp; thay 电影 bằng 电影院 sau 看 làm sai cụm 看电影."
+            },
+            "boundary": "电影院 thường chiếu phim, nhưng khi nói kế hoạch xem phim có thể không nêu rạp; cả hai cách đều tự nhiên theo lượng thông tin cần nói.",
+            "tip": "去电影院 là đi đến nơi; 看电影 là xem phim."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc của từ ghép 电影院.",
+          "literalTranslation": "院 trong từ này góp phần chỉ nơi/nhà; cả từ là rạp chiếu phim.",
+          "confusables": "Đã phân biệt với 电影 và kiểm tra cả trường hợp lược nơi đến."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói thứ bảy bạn sẽ đến rạp để xem phim."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong câu 我在家看电影，电影 là địa điểm hay nội dung được xem?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "星期六我去电影院看电影。",
+              "我们星期六去电影院看电影。"
+            ],
+            "explanation": "电影院 là nơi đến; 看电影 là hoạt động."
+          },
+          "q2": {
+            "accepted": [
+              "电影 là nội dung/bộ phim được xem; 在家 mới là địa điểm."
+            ],
+            "explanation": "Không phải câu nào có 电影 cũng nói về rạp."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hẹn bạn gặp ở rạp lúc sáu giờ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói rạp gần nhà bạn, rồi thêm hoạt động bạn thường làm ở đó."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Địa điểm gặp và thời gian sáu giờ.",
+            "frame": "我们六点在……见。",
+            "model": "我们六点在电影院见。",
+            "vi": "Sáu giờ chúng ta gặp ở rạp nhé.",
+            "criteria": [
+              "Dùng 电影院 sau 在 để nói nơi gặp.",
+              "Có thể đổi thời gian theo ý mình."
+            ]
+          },
+          "s2": {
+            "idea": "Rạp gần nhà và hoạt động xem phim.",
+            "frame": "我家附近有……，我常去……。",
+            "model": "我家附近有一家电影院，我常去那里看电影。",
+            "vi": "Gần nhà tôi có một rạp; tôi thường đến đó xem phim.",
+            "criteria": [
+              "Dùng 电影院 để chỉ địa điểm.",
+              "看电影 diễn đạt hoạt động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-397d93198bd8",
@@ -38977,18 +39984,184 @@
         }
       ],
       "meaning": "máy tính",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-013",
       "examples": [
         {
-          "zh": "我用电脑学习汉语。",
-          "vi": "Tôi dùng máy tính để học tiếng Trung."
+          "id": "e1",
+          "zh": "我每天用电脑学习中文。",
+          "vi": "Mỗi ngày tôi dùng máy tính học tiếng Trung.",
+          "analysis": "用电脑 đứng trước hoạt động 学习中文; 电脑 là công cụ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他买了一台新电脑。",
+          "vi": "Anh ấy đã mua một chiếc máy tính mới.",
+          "analysis": "台 là lượng từ thường dùng để đếm máy móc như 电脑.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 130,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=46470&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 151,
+        "introduction": {
+          "scope": "电脑 là máy tính; trong hội thoại phổ thông có thể chỉ máy tính để bàn hoặc máy tính xách tay, nếu cần phân biệt thì nói rõ."
+        },
+        "meaning": {
+          "scene": "Bạn dùng máy tính để học tiếng Trung hoặc làm việc.",
+          "explanation": "电脑 là danh từ chỉ máy tính. Nói dùng máy tính là 用电脑; một chiếc máy thường đếm bằng 台: 一台电脑.",
+          "boundary": "电脑 là máy tính có bàn phím/màn hình hoặc dạng máy tính xách tay; 手机 là điện thoại thông minh cầm tay. Một số việc cả hai đều làm được, nhưng chúng không phải cùng thiết bị.",
+          "conditions": [
+            "Dùng máy tính: 用电脑",
+            "Một máy: 一台电脑",
+            "Máy tính xách tay: 笔记本电脑"
+          ],
+          "takeaway": "电脑 là máy tính; 手机 là điện thoại."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我每天用电脑学习中文。",
+            "vi": "Mỗi ngày tôi dùng máy tính học tiếng Trung.",
+            "analysis": "用电脑 đứng trước hoạt động 学习中文; 电脑 là công cụ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他买了一台新电脑。",
+            "vi": "Anh ấy đã mua một chiếc máy tính mới.",
+            "analysis": "台 là lượng từ thường dùng để đếm máy móc như 电脑.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "用 + 电脑 + 做事",
+            "position": "电脑 đứng sau 用 để chỉ công cụ; việc cần làm theo sau.",
+            "required": "Có thể thêm 一台 khi muốn đếm một chiếc máy.",
+            "omission": "Nếu ngữ cảnh đã rõ thiết bị, có thể chỉ nói 用它.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一 + 台 + 电脑",
+            "position": "台 đứng giữa số lượng và danh từ chỉ máy.",
+            "required": "Dùng 台 trong mẫu đếm máy tính này.",
+            "omission": "Có thể bỏ 一台 khi không cần nêu số lượng.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "电脑 và 手机: máy tính hay điện thoại",
+            "scene": "Bạn muốn nói thiết bị dùng để học hoặc thiết bị mang theo để gọi điện.",
+            "possibleConfusion": "Cả hai đều có thể lên mạng và mở ứng dụng.",
+            "difference": "电脑 chỉ máy tính; 手机 chỉ điện thoại thông minh. Nếu cần nói máy tính xách tay, thêm 笔记本.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我用电脑写邮件。",
+                "vi": "Tôi dùng máy tính viết email.",
+                "comment": "电脑 phù hợp khi muốn nêu máy tính làm công cụ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我用手机打电话。",
+                "vi": "Tôi dùng điện thoại gọi điện.",
+                "comment": "手机 là điện thoại; 打电话 là gọi điện.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 电脑 và 手机 có thể làm câu vẫn đúng ngữ pháp nhưng thay thiết bị; hãy chọn theo thiết bị thực sự dùng."
+            },
+            "boundary": "Có việc làm được trên cả hai thiết bị; khi không cần phân biệt, ngữ cảnh thường cho biết máy nào.",
+            "tip": "Máy tính: 电脑. Điện thoại: 手机."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa hiện đại của 电脑.",
+          "literalTranslation": "Không dịch máy móc 电 và 脑; đây là tên thiết bị máy tính.",
+          "confusables": "Đã phân biệt với 手机; đã lưu ý cách gọi riêng 笔记本电脑 khi cần nói laptop."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói bạn dùng máy tính để học tiếng Trung."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Dùng lượng từ phù hợp để nói “một chiếc máy tính mới”: 一……新电脑。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我用电脑学习中文。",
+              "我每天用电脑学习中文。"
+            ],
+            "explanation": "用电脑 nêu công cụ; 学习中文 nêu hoạt động."
+          },
+          "q2": {
+            "accepted": [
+              "一台新电脑。"
+            ],
+            "explanation": "台 là lượng từ dùng với máy móc."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn thường dùng máy tính sau giờ làm để học."
+          },
+          {
+            "id": "s2",
+            "prompt": "Mô tả chiếc máy tính bạn muốn mua."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Thời gian sau giờ làm, công cụ và mục đích học.",
+            "frame": "下班以后，我用电脑……。",
+            "model": "下班以后，我用电脑学习中文。",
+            "vi": "Sau giờ làm, tôi dùng máy tính học tiếng Trung.",
+            "criteria": [
+              "Dùng 电脑 sau 用.",
+              "Nêu việc học bằng động từ phù hợp."
+            ]
+          },
+          "s2": {
+            "idea": "Một chiếc máy tính mới hoặc phù hợp nhu cầu.",
+            "frame": "我想买一台……电脑。",
+            "model": "我想买一台新电脑。",
+            "vi": "Tôi muốn mua một chiếc máy tính mới.",
+            "criteria": [
+              "Dùng 一台 để đếm máy.",
+              "Có thể thay 新 bằng đặc điểm thực tế."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-da4276f0dc02",
@@ -38997,41 +40170,378 @@
       "intro": [
         {
           "pinyin": "diànshì",
-          "meaning": "truyền hình"
+          "meaning": "tivi; truyền hình"
         }
       ],
-      "meaning": "truyền hình",
-      "status": "example",
+      "meaning": "tivi; truyền hình",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-013",
       "examples": [
         {
-          "zh": "爸爸在看电视。",
-          "vi": "Bố đang xem tivi."
+          "id": "e1",
+          "zh": "爷爷晚上喜欢看电视。",
+          "vi": "Buổi tối ông thích xem tivi.",
+          "analysis": "看电视 là cụm tự nhiên nói xem chương trình trên tivi.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我们家有一台电视。",
+          "vi": "Nhà chúng tôi có một chiếc tivi.",
+          "analysis": "Ở đây 电视 chỉ chiếc tivi; 台 là lượng từ cho thiết bị.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 131,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=46637&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 152,
+        "introduction": {
+          "scope": "电视 thường chỉ truyền hình/chương trình truyền hình; trong lời nói hằng ngày cũng thường gọi tắt chiếc tivi là 电视."
+        },
+        "meaning": {
+          "scene": "Bạn kể mình xem bản tin trên tivi vào buổi tối.",
+          "explanation": "电视 có thể nói về phương tiện hoặc chương trình truyền hình; 看电视 là xem tivi/xem chương trình trên tivi. Trong giao tiếp, 电视 cũng có thể chỉ thiết bị nếu ngữ cảnh đã rõ.",
+          "boundary": "电视机 gọi rõ chiếc máy tivi. Tuy vậy, 电视 thường cũng được dùng để nói chiếc tivi trong đời sống; không phải lúc nào hai từ cũng đối lập cứng.",
+          "conditions": [
+            "Xem tivi/chương trình: 看电视",
+            "Nói rõ thiết bị: 一台电视机",
+            "Tùy ngữ cảnh, 一台电视 cũng tự nhiên"
+          ],
+          "takeaway": "电视 dùng rộng; 电视机 nói rõ chiếc máy."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "爷爷晚上喜欢看电视。",
+            "vi": "Buổi tối ông thích xem tivi.",
+            "analysis": "看电视 là cụm tự nhiên nói xem chương trình trên tivi.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我们家有一台电视。",
+            "vi": "Nhà chúng tôi có một chiếc tivi.",
+            "analysis": "Ở đây 电视 chỉ chiếc tivi; 台 là lượng từ cho thiết bị.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "看 + 电视",
+            "position": "电视 đứng sau 看 để chỉ nội dung/phương tiện đang xem.",
+            "required": "Dùng 看电视; không cần thêm 机 trong cụm thông dụng này.",
+            "omission": "Có thể bỏ thời gian khi không cần nêu lúc xem.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一 + 台 + 电视/电视机",
+            "position": "台 đứng giữa số lượng và tên thiết bị.",
+            "required": "电视 hoặc 电视机 đều có thể dùng nếu đang đếm chiếc máy; 电视机 nêu rõ thiết bị hơn.",
+            "omission": "Có thể bỏ 一台 khi đã rõ chiếc tivi nào.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "电视 và 电视机: cách gọi rộng và cách gọi rõ thiết bị",
+            "scene": "Bạn nói đến chương trình đang xem hay chiếc máy trong phòng.",
+            "possibleConfusion": "Người học có thể nghĩ 电视 chỉ chương trình và 电视机 mới luôn đúng khi nói chiếc máy.",
+            "difference": "电视 thường dùng cho truyền hình/chương trình, nhưng trong khẩu ngữ cũng rất thường chỉ chiếc tivi. 电视机 gọi cụ thể thiết bị; hai cách có vùng dùng chung.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我每天看电视。",
+                "vi": "Ngày nào tôi cũng xem tivi.",
+                "comment": "电视 trong 看电视 là phương tiện/chương trình được xem.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "客厅里有一台电视机。",
+                "vi": "Trong phòng khách có một chiếc tivi.",
+                "comment": "电视机 nêu rõ vật thiết bị; 台 đếm máy.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Trong câu nói về thiết bị, 一台电视 và 一台电视机 đều có thể dùng; 电视机 cụ thể hơn, còn 看电视 là cụm thông dụng không thay bằng 看电视机."
+            },
+            "boundary": "Trong lời nói hằng ngày, 一台电视 tự nhiên khi ngữ cảnh là chiếc máy; chọn 电视机 nếu muốn tránh mơ hồ hoặc nhấn vào thiết bị.",
+            "tip": "看电视 là xem; muốn gọi rõ chiếc máy, dùng 电视机."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà các nghĩa thông dụng: truyền hình, chương trình và cách gọi tắt thiết bị.",
+          "literalTranslation": "Không dịch từng chữ 电 và 视; từ đã trở thành tên gọi truyền hình/tivi.",
+          "confusables": "Đã đối chiếu 电视机 và ghi nhận vùng giao nhau của hai cách gọi."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói rằng mỗi tối bạn xem tivi."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Bạn muốn nhấn rõ chiếc máy trong phòng. Hãy nói “Trong phòng có một chiếc tivi”, dùng 电视机."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我每天晚上看电视。",
+              "我晚上看电视。"
+            ],
+            "explanation": "看电视 là cụm nói xem tivi."
+          },
+          "q2": {
+            "accepted": [
+              "房间里有一台电视机。"
+            ],
+            "explanation": "一台电视机 dùng lượng từ thường gặp cho thiết bị."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn không xem tivi vào buổi sáng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói nhà bạn có một chiếc tivi mới."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Thời gian buổi sáng và hoạt động xem tivi bị phủ định.",
+            "frame": "我早上不……。",
+            "model": "我早上不看电视。",
+            "vi": "Buổi sáng tôi không xem tivi.",
+            "criteria": [
+              "Dùng 不 trước 看 để nói thói quen không làm.",
+              "Giữ cụm 看电视."
+            ]
+          },
+          "s2": {
+            "idea": "Một chiếc tivi mới trong nhà.",
+            "frame": "我家有一台……。",
+            "model": "我家有一台新电视。",
+            "vi": "Nhà tôi có một chiếc tivi mới.",
+            "criteria": [
+              "台 đếm thiết bị.",
+              "电视 có thể gọi tắt chiếc máy theo ngữ cảnh."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "máy thu hình",
+      "meaning": "máy tivi",
       "intro": [
         {
-          "pinyin": "diànshì jī",
-          "meaning": "máy thu hình"
+          "pinyin": "diànshìjī",
+          "meaning": "máy tivi"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "这台电视机有点儿大。",
+          "vi": "Chiếc tivi này hơi lớn.",
+          "analysis": "台 đếm thiết bị; 这台指 chiếc máy đang nói đến.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "家里的电视机坏了。",
+          "vi": "Máy tivi ở nhà bị hỏng rồi.",
+          "analysis": "电视机 là chủ thể bị hỏng; 了 báo tình trạng đã thay đổi.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-c6e111a085ae",
       "hanzi": "电视机",
       "level": 1,
       "sourceIndex": 132,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-013",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=46644&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 153,
+        "introduction": {
+          "scope": "电视机 là thiết bị có màn hình dùng để xem truyền hình hoặc video."
+        },
+        "meaning": {
+          "scene": "Bạn mô tả chiếc máy trong phòng khách bị hỏng.",
+          "explanation": "电视机 là danh từ chỉ máy tivi. Nói một chiếc máy thường dùng 一台电视机; nói về hành động xem thì dùng 看电视.",
+          "boundary": "电视机 nhấn rõ thiết bị; 电视 có thể chỉ chương trình/truyền hình và cũng thường được dùng thay cho tên chiếc máy trong lời nói.",
+          "conditions": [
+            "Thiết bị: 一台电视机",
+            "Xem chương trình: 看电视",
+            "Nói về chiếc máy nhưng ngữ cảnh rõ: 一台电视 cũng thường dùng"
+          ],
+          "takeaway": "电视机 gọi rõ thiết bị; xem chương trình nói 看电视."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这台电视机有点儿大。",
+            "vi": "Chiếc tivi này hơi lớn.",
+            "analysis": "台 đếm thiết bị; 这台指 chiếc máy đang nói đến.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "家里的电视机坏了。",
+            "vi": "Máy tivi ở nhà bị hỏng rồi.",
+            "analysis": "电视机 là chủ thể bị hỏng; 了 báo tình trạng đã thay đổi.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "这/那 + 台 + 电视机",
+            "position": "台 đứng giữa từ chỉ định và danh từ thiết bị.",
+            "required": "Dùng 台 để đếm máy theo mẫu này.",
+            "omission": "Có thể bỏ 这台 khi chỉ nói 电视机 nói chung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "电视机 + 坏了/在房间里",
+            "position": "电视机 đứng như danh từ làm chủ thể hoặc theo sau từ chỉ nơi.",
+            "required": "Chọn 电视机 khi muốn nói rõ vật thiết bị.",
+            "omission": "Có thể dùng 电视 nếu ngữ cảnh đã rõ đang nói chiếc máy.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "电视机 không cần có mặt trong cụm 看电视",
+            "scene": "Bạn muốn nói đang xem tivi, không phải mô tả cái máy.",
+            "possibleConfusion": "Thấy 电视机 là thiết bị nên có thể thêm 机 vào mọi câu.",
+            "difference": "看电视 là cụm thông dụng nói xem truyền hình/tivi. 电视机 dùng khi nói chiếc máy như một vật.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我晚上看电视。",
+                "vi": "Buổi tối tôi xem tivi.",
+                "comment": "Cụm đúng và tự nhiên để nói hoạt động xem.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "客厅里有一台电视机。",
+                "vi": "Trong phòng khách có một chiếc tivi.",
+                "comment": "Câu nói về thiết bị; 一台 là cách đếm thông dụng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thêm 机 sau 电视 trong 看电视机 không còn là cụm chuẩn để nói xem tivi; khi nói vật thiết bị, 电视机 phù hợp."
+            },
+            "boundary": "Khi mô tả cái máy, 一台电视 và 一台电视机 đều có thể đúng; 电视机 rõ nghĩa thiết bị hơn.",
+            "tip": "Hoạt động xem: 看电视. Cái máy: 电视机."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc và nghĩa chỉ thiết bị của 电视机.",
+          "literalTranslation": "机 ở đây giúp chỉ thiết bị; cả từ là máy tivi.",
+          "confusables": "Đã phân biệt cụm động từ 看电视 với danh từ thiết bị 电视机."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói chiếc tivi trong phòng khách bị hỏng rồi."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói “tôi xem tivi”, nên dùng 看电视 hay 看电视机? Vì sao?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "客厅里的电视机坏了。",
+              "客厅里的电视机坏了。"
+            ],
+            "explanation": "电视机 là vật bị hỏng; 了 báo tình trạng mới."
+          },
+          "q2": {
+            "accepted": [
+              "看电视; đây là cụm thông dụng nói hoạt động xem, không thêm 机."
+            ],
+            "explanation": "电视机 dùng để gọi thiết bị như một vật."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Mô tả chiếc tivi trong nhà bạn bằng một đặc điểm."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn muốn mua một chiếc tivi mới."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chọn đặc điểm của chiếc máy như mới, lớn hoặc nhỏ.",
+            "frame": "家里的电视机很……。",
+            "model": "家里的电视机很大。",
+            "vi": "Chiếc tivi ở nhà rất lớn.",
+            "criteria": [
+              "Dùng 电视机 làm danh từ chỉ thiết bị.",
+              "Đặt tính chất sau 很."
+            ]
+          },
+          "s2": {
+            "idea": "Muốn mua một thiết bị mới, đếm bằng 台.",
+            "frame": "我想买一台……。",
+            "model": "我想买一台新电视机。",
+            "vi": "Tôi muốn mua một chiếc tivi mới.",
+            "criteria": [
+              "Dùng 一台 để đếm thiết bị.",
+              "新 đặt trước 电视机."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-17e4bf7cf7f6",
@@ -39040,22 +40550,188 @@
       "intro": [
         {
           "pinyin": "kànbìng",
-          "meaning": "đi khám bệnh"
+          "meaning": "đi khám bệnh; khám bệnh"
         }
       ],
-      "meaning": "đi khám bệnh",
-      "status": "example",
+      "meaning": "đi khám bệnh; khám bệnh",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-013",
       "examples": [
         {
-          "zh": "我下午去医院看病。",
-          "vi": "Buổi chiều tôi đến bệnh viện khám bệnh."
+          "id": "e1",
+          "zh": "我今天不舒服，想去医院看病。",
+          "vi": "Hôm nay tôi không khỏe, muốn đến bệnh viện khám.",
+          "analysis": "Người bệnh dùng 去医院看病 để nói đi khám.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "医生每天给很多病人看病。",
+          "vi": "Bác sĩ khám cho rất nhiều bệnh nhân mỗi ngày.",
+          "analysis": "Khi chủ thể là bác sĩ, 给病人 đứng trước 看病 để nêu người được khám.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 133,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=77414&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 154,
+        "introduction": {
+          "scope": "看病 nói việc người bệnh đi khám để bác sĩ xem và điều trị; cũng có thể nói bác sĩ khám cho bệnh nhân."
+        },
+        "meaning": {
+          "scene": "Bạn bị sốt và cần đến bệnh viện gặp bác sĩ.",
+          "explanation": "Người bệnh thường nói 去医院看病 hoặc 我今天要看病. Với bác sĩ làm hành động khám cho ai, có thể nói 医生给病人看病.",
+          "boundary": "生病 nói tình trạng bị ốm; 看病 nói hành động đi khám hoặc bác sĩ khám cho người bệnh. Có thể dùng cả hai trong một câu nhưng chúng không đồng nghĩa.",
+          "conditions": [
+            "Người bệnh đi khám: 去医院看病",
+            "Tình trạng bị ốm: 生病了",
+            "Bác sĩ khám cho bệnh nhân: 医生给病人看病"
+          ],
+          "takeaway": "生病 là bị ốm; 看病 là đi khám hoặc khám bệnh cho ai."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我今天不舒服，想去医院看病。",
+            "vi": "Hôm nay tôi không khỏe, muốn đến bệnh viện khám.",
+            "analysis": "Người bệnh dùng 去医院看病 để nói đi khám.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "医生每天给很多病人看病。",
+            "vi": "Bác sĩ khám cho rất nhiều bệnh nhân mỗi ngày.",
+            "analysis": "Khi chủ thể là bác sĩ, 给病人 đứng trước 看病 để nêu người được khám.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去 + 医院/诊所 + 看病",
+            "position": "看病 đứng sau nơi đến; người bệnh là chủ thể thường được lược nếu đã rõ.",
+            "required": "Nêu địa điểm trước 看病 nếu cần nói đi đâu.",
+            "omission": "Có thể nói 我去看病 khi nơi khám đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "医生 + 给 + 病人 + 看病",
+            "position": "Người được khám đứng sau 给 và trước 看病.",
+            "required": "Dùng 给引出病人 khi nói bác sĩ khám cho ai.",
+            "omission": "Có thể bỏ 病人 nếu không cần nói cụ thể đối tượng.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "看病 là đi khám; 生病 là bị ốm",
+            "scene": "Bạn đang nói triệu chứng hay kế hoạch gặp bác sĩ.",
+            "possibleConfusion": "Tiếng Việt dùng “bệnh” trong cả hai nên dễ nhầm thành cùng một động từ.",
+            "difference": "生病 diễn tả tình trạng sức khỏe; 看病 diễn tả việc khám/đi khám. Người ta có thể 生病 rồi 去看病.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我生病了。",
+                "vi": "Tôi bị ốm rồi.",
+                "comment": "Câu nói tình trạng; chưa nói có đi khám hay không.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我生病了，今天要去看病。",
+                "vi": "Tôi bị ốm rồi, hôm nay phải đi khám.",
+                "comment": "Hai cụm cùng xuất hiện: một cụm nói tình trạng, một cụm nói hành động.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 看病 bằng 生病 sau 去医院 sẽ đổi ý từ đi khám sang bị ốm tại bệnh viện; muốn nói đi gặp bác sĩ dùng 看病."
+            },
+            "boundary": "Có thể nói 看医生 để nói gặp bác sĩ; 看病 nhấn vào việc khám bệnh, còn 看医生 gọi trực tiếp người mình đi gặp.",
+            "tip": "Cảm thấy ốm: 生病. Đi khám: 看病."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa theo vai người bệnh và bác sĩ; cùng từ có thể dùng ở cả hai góc nhìn.",
+          "literalTranslation": "Không hiểu 看病 là “nhìn căn bệnh”; đây là cụm cố định chỉ khám bệnh.",
+          "confusables": "Đã phân biệt với 生病 và nhắc ngắn cách dùng gần nghĩa 看医生."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Bạn bị ốm và muốn nói hôm nay sẽ đến bệnh viện khám. Hãy đặt câu."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "医生给病人看病 diễn tả ai đang làm gì? Hãy trả lời bằng tiếng Việt."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我生病了，今天想去医院看病。",
+              "我今天不舒服，想去医院看病。"
+            ],
+            "explanation": "看病 là đi khám; có thể nêu tình trạng trước đó."
+          },
+          "q2": {
+            "accepted": [
+              "Bác sĩ khám bệnh cho bệnh nhân."
+            ],
+            "explanation": "医生 là người khám; 病人 đứng sau 给 là người được khám."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn không khỏe và muốn đi khám vào ngày mai."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bác sĩ khám cho mẹ bạn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Tình trạng sức khỏe, thời gian ngày mai và hành động đi khám.",
+            "frame": "我不舒服，明天想去……。",
+            "model": "我不舒服，明天想去医院看病。",
+            "vi": "Tôi không khỏe, ngày mai muốn đến bệnh viện khám.",
+            "criteria": [
+              "Dùng 看病 cho việc đi khám.",
+              "Nêu nơi khám nếu muốn."
+            ]
+          },
+          "s2": {
+            "idea": "Bác sĩ là người khám, mẹ là người được khám.",
+            "frame": "医生给……看病。",
+            "model": "医生给我妈妈看病。",
+            "vi": "Bác sĩ khám cho mẹ tôi.",
+            "criteria": [
+              "Đặt người được khám sau 给.",
+              "Dùng 看病 để chỉ hành động khám."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-c421becca287",
@@ -39068,18 +40744,199 @@
         }
       ],
       "meaning": "quần áo",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-013",
       "examples": [
         {
-          "zh": "这些衣服很好看。",
-          "vi": "Những bộ quần áo này đẹp."
+          "id": "e1",
+          "zh": "天气冷了，记得多穿衣服。",
+          "vi": "Trời lạnh rồi, nhớ mặc thêm quần áo.",
+          "analysis": "穿 đứng trước 衣服 để nói mặc; 多 nhắc mặc thêm/nhiều hơn.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我买了一件蓝色的衣服。",
+          "vi": "Tôi đã mua một món quần áo màu xanh lam.",
+          "analysis": "一件 đếm một món; 蓝色的 mô tả màu của món đồ.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 134,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=150032&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 155,
+        "introduction": {
+          "scope": "衣服 là quần áo nói chung hoặc một món đồ để mặc; 衣服 là danh từ không cần thêm dấu số nhiều để nói nhiều quần áo."
+        },
+        "meaning": {
+          "scene": "Bạn đi mua quần áo hoặc hỏi người thân đã mặc áo khoác chưa.",
+          "explanation": "衣服 chỉ quần áo. Nói mặc quần áo dùng 穿衣服; muốn đếm một món quần áo thường dùng 一件衣服.",
+          "boundary": "衣服 là từ gọi chung quần áo; 衬衫、裤子、裙子 là các món cụ thể. 件 đếm một món/quần áo, không nhất thiết là cả bộ.",
+          "conditions": [
+            "Mặc quần áo: 穿衣服",
+            "Một món quần áo: 一件衣服",
+            "Nhiều quần áo: 很多衣服"
+          ],
+          "takeaway": "Nói chung quần áo dùng 衣服; đếm một món thường dùng 件."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "天气冷了，记得多穿衣服。",
+            "vi": "Trời lạnh rồi, nhớ mặc thêm quần áo.",
+            "analysis": "穿 đứng trước 衣服 để nói mặc; 多 nhắc mặc thêm/nhiều hơn.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我买了一件蓝色的衣服。",
+            "vi": "Tôi đã mua một món quần áo màu xanh lam.",
+            "analysis": "一件 đếm một món; 蓝色的 mô tả màu của món đồ.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "穿 + 衣服",
+            "position": "衣服 đứng sau 穿 để chỉ thứ được mặc.",
+            "required": "Dùng 穿衣服; thêm loại áo/quần cụ thể nếu cần.",
+            "omission": "Có thể bỏ 衣服 khi tên món đồ cụ thể đã được nói.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一 + 件 + (màu sắc) + 衣服",
+            "position": "件 đứng sau số 一; từ chỉ màu có thể đứng trước 的衣服.",
+            "required": "Dùng 件 khi đếm một món theo mẫu này.",
+            "omission": "Bỏ số lượng khi nói 衣服 chung chung, không đếm.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "衣服 là quần áo nói chung; 件 đếm từng món",
+            "scene": "Bạn nói có nhiều quần áo hay đếm một chiếc áo cụ thể.",
+            "possibleConfusion": "Người học có thể nghĩ 衣服 cần thêm 们 để thành số nhiều hoặc dùng 件 như tên loại quần áo.",
+            "difference": "衣服 tự dùng được để nói quần áo nói chung; 件 là lượng từ đặt giữa số và món đồ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "衣柜里有很多衣服。",
+                "vi": "Trong tủ có nhiều quần áo.",
+                "comment": "很多衣服 nói nhiều quần áo nói chung; không cần 衣服们.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我有一件新衣服。",
+                "vi": "Tôi có một món quần áo mới.",
+                "comment": "一件 đếm một món quần áo.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "衣服们很多。",
+                "vi": "Quần áo们 rất nhiều.",
+                "comment": "Câu sai: không thêm 们 vào danh từ đồ vật 衣服 để nói số nhiều.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "corrections": [
+              {
+                "caseId": "c3",
+                "zh": "衣服很多。",
+                "vi": "Có nhiều quần áo.",
+                "reason": "很多 đã diễn tả số lượng nhiều; không cần thêm 们 vào 衣服."
+              }
+            ],
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Không thêm 们 vào danh từ đồ vật 衣服 trong cách nói thông thường này; dùng 很多衣服 hoặc lượng từ 件 để đếm."
+            },
+            "boundary": "件 phù hợp với nhiều món quần áo đơn chiếc; khi nói một bộ quần áo gồm nhiều món, 套 có thể dùng cho cả bộ.",
+            "tip": "Quần áo nói chung: 衣服. Một món: 一件衣服."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc; âm cuối của 服 đọc nhẹ trong từ này.",
+          "literalTranslation": "衣服 là từ ghép chỉ quần áo, không tách ra để đoán nghĩa.",
+          "confusables": "Đã phân biệt danh từ chung 衣服 với lượng từ 件."
+        },
+        "pronunciation": {
+          "text": "Âm 服 ở đây đọc nhẹ và ngắn nhưng vẫn phát âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói trong tủ có nhiều quần áo."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Điền lượng từ phù hợp: 我买了两……衣服。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "衣柜里有很多衣服。"
+            ],
+            "explanation": "衣服 nói quần áo nói chung; 很多 đã thể hiện số lượng nhiều."
+          },
+          "q2": {
+            "accepted": [
+              "我买了两件衣服。"
+            ],
+            "explanation": "件 là lượng từ thường dùng để đếm món quần áo."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn thích mặc quần áo màu đen."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn cần mua một chiếc áo khoác mới."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Sở thích mặc quần áo và màu sắc.",
+            "frame": "我喜欢穿……衣服。",
+            "model": "我喜欢穿黑色的衣服。",
+            "vi": "Tôi thích mặc quần áo màu đen.",
+            "criteria": [
+              "Dùng 穿衣服 cho hoạt động mặc.",
+              "Đặt màu sắc trước 衣服."
+            ]
+          },
+          "s2": {
+            "idea": "Một món mới cụ thể là áo khoác.",
+            "frame": "我想买一件新的……。",
+            "model": "我想买一件新的外套。",
+            "vi": "Tôi muốn mua một chiếc áo khoác mới.",
+            "criteria": [
+              "Dùng 件 để đếm một món.",
+              "外套 là từ chỉ áo khoác, được cung cấp trong đề."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-6f0a7eea690a",
@@ -39088,17 +40945,188 @@
       "intro": [
         {
           "pinyin": "shēntǐ",
-          "meaning": "cơ thể"
+          "meaning": "cơ thể; sức khỏe"
         }
       ],
-      "meaning": "cơ thể",
-      "status": "catalog",
+      "meaning": "cơ thể; sức khỏe",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-013",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "奶奶的身体很好。",
+          "vi": "Sức khỏe của bà rất tốt.",
+          "analysis": "身体 làm chủ đề được nhận xét; 很好 nói tình trạng tốt.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我每天走路，锻炼身体。",
+          "vi": "Ngày nào tôi cũng đi bộ để rèn luyện sức khỏe.",
+          "analysis": "锻炼身体 là kết hợp tự nhiên nói luyện tập cho cơ thể.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 135,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà nghĩa và cách dùng; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=131147&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 156,
+        "introduction": {
+          "scope": "身体 chỉ cơ thể; trong các câu như 身体好/身体不好, từ này nói tình trạng sức khỏe của cơ thể."
+        },
+        "meaning": {
+          "scene": "Bạn hỏi thăm người nhà sau khi họ bị ốm hoặc kể mình đang tập thể dục.",
+          "explanation": "身体 là danh từ chỉ cơ thể, và thường xuất hiện khi nói khỏe hay không khỏe: 身体很好、身体不舒服. Có thể nói 锻炼身体 để chỉ tập luyện cho cơ thể.",
+          "boundary": "健康 thường nhấn vào trạng thái khỏe mạnh hoặc sức khỏe; 身体 gọi cơ thể hoặc tình trạng của cơ thể. Vì vậy 身体很好 và 身体很健康 đều có thể tự nhiên, nhưng 身体 là danh từ còn 健康 thường làm tính từ.",
+          "conditions": [
+            "Cơ thể/sức khỏe tốt: 身体很好",
+            "Cảm thấy không khỏe: 身体不舒服",
+            "Tập luyện cơ thể: 锻炼身体"
+          ],
+          "takeaway": "身体 là cơ thể/tình trạng cơ thể; 健康 miêu tả khỏe mạnh."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "奶奶的身体很好。",
+            "vi": "Sức khỏe của bà rất tốt.",
+            "analysis": "身体 làm chủ đề được nhận xét; 很好 nói tình trạng tốt.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我每天走路，锻炼身体。",
+            "vi": "Ngày nào tôi cũng đi bộ để rèn luyện sức khỏe.",
+            "analysis": "锻炼身体 là kết hợp tự nhiên nói luyện tập cho cơ thể.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "某人的 + 身体 + 很好/不舒服",
+            "position": "身体 là danh từ làm chủ thể hoặc chủ đề; tình trạng đứng sau.",
+            "required": "Có thể nói 身体好/不好/不舒服 để nêu tình trạng.",
+            "omission": "Có thể bỏ người sở hữu khi ngữ cảnh đã rõ: 身体很好.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "锻炼 + 身体",
+            "position": "身体 đứng sau 锻炼 để chỉ thứ được rèn luyện.",
+            "required": "Dùng 身体 trong cụm 锻炼身体.",
+            "omission": "Có thể chỉ nói 锻炼 nếu hoạt động cụ thể đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "身体 gọi cơ thể; 健康 miêu tả trạng thái khỏe",
+            "scene": "Bạn muốn nói cơ thể đang ở tình trạng nào hay khen ai khỏe mạnh.",
+            "possibleConfusion": "Cả hai từ đều dịch gần với “sức khỏe/khỏe” trong một số câu tiếng Việt.",
+            "difference": "身体 thường là danh từ chỉ cơ thể hoặc tình trạng cơ thể. 健康 thường là tính từ “khỏe mạnh” hoặc danh từ “sức khỏe”. Có vùng giao nhau khi nói về sức khỏe.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我的身体不太舒服。",
+                "vi": "Cơ thể tôi hơi khó chịu/ tôi hơi không khỏe.",
+                "comment": "身体 là cơ thể; 不舒服 mô tả tình trạng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我很健康。",
+                "vi": "Tôi rất khỏe mạnh.",
+                "comment": "健康 trực tiếp miêu tả người đó khỏe mạnh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Có thể nói 我的身体很健康; hai từ cùng nói về sức khỏe nhưng vai trò và điểm nhấn khác nhau. Không thể thay 身体 vào 我很健康 mà vẫn giữ đúng cấu trúc."
+            },
+            "boundary": "身体健康 là cách kết hợp tự nhiên: 身体 chỉ cơ thể/tình trạng cơ thể, 健康 nói cơ thể khỏe mạnh. Hai từ có vùng giao nhau khi nói về sức khỏe.",
+            "tip": "Cơ thể/tình trạng cơ thể: 身体. Khỏe mạnh: 健康."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa cơ thể và tình trạng sức khỏe; không có cách đọc thông dụng khác cần học ở mức này.",
+          "literalTranslation": "Không dịch tách 身 và 体; cả từ chỉ cơ thể.",
+          "confusables": "Đã phân biệt vai trò danh từ của 身体 với từ miêu tả 健康, đồng thời nêu vùng dùng chung."
+        },
+        "pronunciation": {
+          "text": "Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói sức khỏe của bà bạn rất tốt, dùng 身体."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Điền 身体 hoặc 健康: 我每天锻炼……；我希望自己很……。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我奶奶的身体很好。",
+              "奶奶的身体很好。"
+            ],
+            "explanation": "身体 là danh từ chỉ cơ thể/tình trạng sức khỏe."
+          },
+          "q2": {
+            "accepted": [
+              "我每天锻炼身体；我希望自己很健康。"
+            ],
+            "explanation": "锻炼身体 là kết hợp cố định; 健康 miêu tả trạng thái khỏe mạnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi thăm sức khỏe của một người thân."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn đi bộ mỗi ngày để rèn luyện sức khỏe."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Hỏi một người thân có khỏe không.",
+            "frame": "你的身体……吗？",
+            "model": "你的身体好吗？",
+            "vi": "Sức khỏe của bạn có tốt không?",
+            "criteria": [
+              "Dùng 身体 làm danh từ được hỏi thăm.",
+              "吗 đặt cuối câu hỏi có/không."
+            ]
+          },
+          "s2": {
+            "idea": "Thói quen đi bộ mỗi ngày và mục đích luyện tập.",
+            "frame": "我每天……，锻炼身体。",
+            "model": "我每天走路，锻炼身体。",
+            "vi": "Ngày nào tôi cũng đi bộ để rèn luyện sức khỏe.",
+            "criteria": [
+              "Dùng 锻炼身体 cho mục đích rèn luyện.",
+              "Nêu hoạt động đi bộ trước đó."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "ví",
@@ -83205,13 +85233,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 154,
-    "pending": 2080,
+    "ready": 166,
+    "pending": 2068,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 154
+        "ready": 166
       },
       {
         "level": 2,
