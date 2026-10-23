@@ -192,3 +192,13 @@ Mục baseline 205–216: 睡、饭、饿、什么、包子、午饭、吃饭、
 18 mục: 半天、后天、早上、明天、星期天、星期日、昨天、晚上、白天、见面、马上、一、七、三、两、二、几、十. Tiến độ nội dung chuẩn bị: 270/2.224; còn 1.954; toàn khóa 280/2.234 bài đủ cấu trúc. Mỗi bài có hai câu chính, bài luyện mở với đáp án riêng và hai tình huống tự dùng. Có phân biệt 两/二, số lượng/thứ tự, thời gian/thời lượng, 几/多少/几乎 và cụm tách 见面.
 
 `process-batch apply/verify`, kiểm cú pháp JS và `git diff --check` đạt; xác nhận ID/thứ tự/hash các bài cũ được bảo toàn. Trạng thái commit, DOM và Pages sẽ ghi sau khi xác minh. Chưa kiểm TTS/phát nền Android hoặc phản biện giáo viên độc lập.
+
+
+### Bằng chứng batch-021 đã xác minh
+
+- Commit nội dung [c67a4cb296bb783f81ccfd60003acbae9be617e6](https://github.com/bohoa96tb/hazi-viet/commit/c67a4cb296bb783f81ccfd60003acbae9be617e6) đã lưu và đưa vào main bằng fast-forward có expected SHA. Tree GitHub khớp tree bản đã kiểm, `f979cf3b928402531ae1db4f424697fc664a2146`.
+- [Pages run 39915674513](https://github.com/bohoa96tb/hazi-viet/actions/runs/39915674513) completed/success trên đúng SHA nội dung.
+- Live course 4.102.886 byte; SHA256 `8226cf8421195cedc0ad5afb740244fd96115bd0255860995df7d1ad33905a6d`, khớp byte với nguồn đã kiểm; 2.234 ID, 280 bài deep, đủ 18/18 bài mới có lesson khớp batch. Cache trang đã tăng lên batch-021.
+- `test-dom.mjs` đạt, gồm loader V1/V2, hai câu, audio dispatch, đáp án ẩn, giữ bản nháp, ba mức gợi ý, ôn/yêu thích/tìm kiếm và phân trang bẫy. Verify toàn khóa, cú pháp JS và diff check đạt; hash 252 bài cũ và 10 bài bảo vệ giữ nguyên.
+- UI live 半天: ordinal 253/sourceIndex 243, chuẩn V2, đúng hai câu chính, đề luyện chưa lộ lời giải. Chưa chứng nhận bố cục điện thoại, TTS/phát nền Android hay phản biện giáo viên độc lập.
+- Tiến độ chính thức 270/2.224, còn 1.954; 280/2.234 bài đầy đủ toàn khóa. Tiếp theo ordinal 271: 哪, rồi 就、第.

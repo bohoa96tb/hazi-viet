@@ -1053,12 +1053,12 @@
       ],
       "contentFile": "tools/vocabulary/batches/batch-021.json",
       "authorship": "18 mục ordinal 253–270 tự biên soạn theo chuẩn V2; tự rà ngôn ngữ, chưa phản biện giáo viên độc lập; nguồn tra cứu tham khảo ghi riêng, không tuyên bố xác minh nguồn chưa đọc.",
-      "contentCommit": null
+      "contentCommit": "c67a4cb296bb783f81ccfd60003acbae9be617e6"
     }
   ],
-  "lastVerifiedContentCommit": "2adc40958ad8e6a81491e1001af2a73288a84699",
-  "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/2adc40958ad8e6a81491e1001af2a73288a84699",
-  "verificationNote": "process-batch apply/verify, verifyV2 và test-dom.mjs đều đạt cho batch-019; Pages live chưa được xác minh tại thời điểm ghi.",
+  "lastVerifiedContentCommit": "c67a4cb296bb783f81ccfd60003acbae9be617e6",
+  "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/c67a4cb296bb783f81ccfd60003acbae9be617e6",
+  "verificationNote": "Batch-021: process-batch apply/verify, cú pháp JS, git diff --check và test-dom đều đạt. Pages run 39915674513 completed/success trên đúng commit nội dung; 18/18 bài live khớp byte, SHA256 8226cf8421195cedc0ad5afb740244fd96115bd0255860995df7d1ad33905a6d. UI live 半天 đúng ordinal 253, hai câu và đáp án đóng. Chưa kiểm Android TTS/phát nền hoặc phản biện giáo viên độc lập.",
   "editorialCorrections": [
     {
       "id": "correction-001",
