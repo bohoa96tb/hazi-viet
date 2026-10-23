@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 418/2224. Còn: 1806. Toàn khóa đủ cấu trúc: 428/2234.
+Đã bổ sung: 436/2224. Còn: 1788. Toàn khóa đủ cấu trúc: 446/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -36,26 +36,27 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-028 · mục 368–382 · 睡觉、请坐、起床、起来、住、先、地、天、家、山、床、楼、着、见、都
 - batch-029 · mục 383–400 · 里、回家、在家、地上、家里、房子、房间、桌子、楼上、楼下、身上、们、谁、介绍、他们、先生、别人、女人
 - batch-030 · mục 401–418 · 女生、她们、孩子、男人、男朋友、男生、病人、老人、东、前、北、南、右、左、西、一边、上边、下边
+- batch-031 · mục 419–436 · 东边、前边、北边、南边、右边、后边、外边、左边、旁边、西边、这边、那边、里边、九、站、跑、路、车
 
 ## 18 mục tiếp theo
 
-- 东边 · hz-h1-b7fa06b6bd0b
-- 前边 · hz-h1-11e7aab403ec
-- 北边 · hz-h1-abf9fa23bc2d
-- 南边 · hz-h1-bd57f7a97a41
-- 右边 · hz-h1-e18619f8596a
-- 后边 · hz-h1-f287f444d261
-- 外边 · hz-h1-c14f74be3d43
-- 左边 · hz-h1-5c67650185e3
-- 旁边 · hz-h1-117df9943874
-- 西边 · hz-h1-b63a94e4101d
-- 这边 · hz-h1-41f3c53014e6
-- 那边 · hz-h1-923c93e0c1f4
-- 里边 · hz-h1-3aae8e430def
-- 九 · hz-h1-2e9645bd89d5
-- 站 · hz-h1-18a966b92e35
-- 跑 · hz-h1-68a5d7b2023a
-- 路 · hz-h1-e62037d83670
-- 车 · hz-h1-fc9be1e83197
+- 飞 · hz-h1-94b7a883cbe9
+- 上车 · hz-h1-81c2d35e787c
+- 地图 · hz-h1-96cd4a079f59
+- 开车 · hz-h1-0fa672e0cf41
+- 打车 · hz-h1-dc4fd18c5eca
+- 机场 · hz-h1-0b27ab004680
+- 机票 · hz-h1-70c28006d532
+- 汽车 · hz-h1-2a53b8190d1b
+- 火车 · hz-h1-3ae826b4f4a7
+- 走路 · hz-h1-60ab04a03dbe
+- 路上 · hz-h1-92908d005e8b
+- 路口 · hz-h1-e7f73ac1c516
+- 车上 · hz-h1-b37f01b392ea
+- 车票 · hz-h1-842fc9e24059
+- 车站 · hz-h1-1ee7b5f8677b
+- 门票 · hz-h1-7707793dd93a
+- 飞机 · hz-h1-a3fa19a2d979
+- 马路 · hz-h1-e310526bf2db
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
