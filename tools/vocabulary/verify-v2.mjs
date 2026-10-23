@@ -13,7 +13,7 @@ export function verifyV2(w){
  const full=lessonAudio(w);assert(full.length&&full.every(s=>['vi-VN','zh-CN'].includes(s.lang)&&!/[\*_`#]/.test(s.text)));
  for(let i=0;i<2;i++)assert.deepEqual(lessonAudio(w,'example-only',i).map(s=>[s.lang,s.text]),[['zh-CN',w.lesson.examples[i].zh]]);
  for(const e of w.lesson.examples){assert.equal(full.filter(s=>s.label==='Câu mẫu'&&s.text===e.zh).length,1);if(e.pinyin)assert(full.every(s=>!s.text.includes(e.pinyin)))}
- assert(full.every(s=>!w.intro.some(i=>s.text.includes(i.pinyin))));
+ assert(full.every(s=>!w.intro.some(i=>s.text.split(/[^\p{L}\p{M}]+/u).includes(i.pinyin))));
  for(const t of w.lesson.traps)for(const c of t.cases.filter(c=>c.judgment==='wrong-grammar')){const a=lessonAudio(w,'traps',w.lesson.traps.indexOf(t)),i=a.findIndex(s=>s.text===c.zh);assert.equal(a[i-1].text,'Đây là câu sai để phân tích.');assert(!buildPlaylist([w],'immersion').some(s=>s.text===c.zh));assert(a.some(s=>s.text===t.corrections.find(r=>r.caseId===c.id).zh))}
  const tagged=structuredClone(w),c=tagged.lesson.checks[0];tagged.lesson.answers[c.id]={accepted:['ANSWER_SENTINEL'],explanation:'EXPLANATION_SENTINEL'};tagged.lesson.selfAnswers.s1.model='MODEL_SENTINEL';tagged.lesson.selfAnswers.s1.idea='IDEA_SENTINEL';
  const show=state=>render(tagged,3,state);assert(!/SENTINEL/.test(show(new Map())));

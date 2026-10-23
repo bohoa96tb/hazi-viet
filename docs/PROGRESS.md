@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 204/2224. Còn: 2020. Toàn khóa đủ cấu trúc: 214/2234.
+Đã bổ sung: 216/2224. Còn: 2008. Toàn khóa đủ cấu trúc: 226/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -23,20 +23,21 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-015 · mục 169–180 · 爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷
 - batch-016 · mục 181–192 · 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用
 - batch-017 · mục 193–204 · 有的、正在、没有、真的、还是、还有、八、冷、口、吃、喝、渴
+- batch-018 · mục 205–216 · 睡、饭、饿、什么、包子、午饭、吃饭、好吃、干净、早饭、晚饭、最好
 
 ## 12 mục tiếp theo
 
-- 睡 · hz-h1-61b3eaafe930 · sourceIndex 191
-- 饭 · hz-h1-19e663515e75 · sourceIndex 192
-- 饿 · hz-h1-6b1b97202e9c · sourceIndex 193
-- 什么 · hz-h1-483b7b8314b7 · sourceIndex 194
-- 包子 · hz-h1-3ee4e9bdb4bd · sourceIndex 195
-- 午饭 · hz-h1-514ee7ceeb93 · sourceIndex 196
-- 吃饭 · hz-h1-63bea411ec72 · sourceIndex 197
-- 好吃 · hz-h1-23fd43196def · sourceIndex 198
-- 干净 · hz-h1-2c9e6fa6fd87 · sourceIndex 199
-- 早饭 · hz-h1-a4a354339844 · sourceIndex 200
-- 晚饭 · hz-h1-45f2486f6226 · sourceIndex 201
-- 最好 · hz-h1-74ea2968e1c9 · sourceIndex 202
+- 生气 · hz-h1-b20a9a552feb
+- 米饭 · hz-h1-ab740ba7a1fa
+- 面包 · hz-h1-b72135eda0d1
+- 面条儿 · hz-h1-149f8169ab76
+- 中 · hz-h1-841ce33f9484
+- 也 · hz-h1-eb1f33f896a4
+- 六 · hz-h1-5898d1c66720
+- 出 · hz-h1-0c15dcf815cf
+- 国 · hz-h1-8e986c871691
+- 外 · hz-h1-3e6119df005f
+- 女 · hz-h1-18129ffcdff8
+- 新 · hz-h1-c401e722a02f
 
-Batch-017 đã qua kiểm tra cấu trúc V2, thứ tự baseline, liên kết ví dụ/audio và hash các mục đã khóa. GitHub Pages run 39880813380 completed/success trên commit b5dbc6cef459d8aac515b4bc570a5cd9f6e4072b. URL Pages trực tiếp chưa được đọc để đối chiếu payload live.
+Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.

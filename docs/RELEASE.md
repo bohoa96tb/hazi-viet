@@ -160,3 +160,13 @@ Hỗ trợ V2: hai câu gắn khung, bài mở tách lời giải, hai tình hu�
 ## Batch-014 — ordinal 157–168
 
 Mục mới: 钱包、门口、饭店、五、哥、妈、妹、姐、子、常、弟、手. Dữ liệu sau batch: 168/2224, còn 2056; 178/2234 bài đủ cấu trúc. Nội dung theo chuẩn V2. Verify toàn khóa, test DOM, commit, Pages run và dữ liệu live sẽ được ghi sau khi xác nhận từng bước.
+
+
+# Phát hành batch-018
+
+Mục baseline 205–216: 睡、饭、饿、什么、包子、午饭、吃饭、好吃、干净、早饭、晚饭、最好. Tiến độ: 216/2.224; còn 2.008; toàn khóa đủ cấu trúc 226/2.234.
+
+- 12 bài V2 gồm 24 câu chính, 12 nhóm phân biệt, 36 câu luyện mở và 24 tình huống tự dùng; đáp án/mẫu được tách riêng.
+- `process-batch.mjs verify` và `test-dom.mjs` đều qua; đã rà ID/thứ tự, liên kết, hash hoàn thành, renderer, audio và luồng mở đáp án.
+- Đã sửa một lỗi nội dung Pinyin trong lời giảng của 还 (mục 188) và phép dò Pinyin để tránh nhận nhầm chuỗi con trong từ tiếng Việt.
+- Đang chờ phát hành GitHub Pages; chưa xác minh trực tiếp URL live, bố cục thiết bị, TTS Android hay phản biện giáo viên độc lập.

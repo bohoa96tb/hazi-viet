@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 214 mục đủ cấu trúc V1/V2; còn 2020. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 204 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 226 mục đủ cấu trúc V1/V2; còn 2008. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 216 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -48807,8 +48807,8 @@
           "explanation": "还 đứng trước trạng thái/hành động còn tiếp tục. Căn cứ cụm từ để phân biệt nghĩa “vẫn” với nghĩa “trả lại”。",
           "boundary": "还在上班 = vẫn đang làm; 还书 = trả sách. Nghĩa và cách đọc gắn với cụm từ。",
           "conditions": [
-            "hái thường mang nghĩa vẫn/còn; bài này tập trung nghĩa ấy。",
-            "huán dùng trong nghĩa trả lại, như 还书。",
+            "Trong nghĩa “vẫn”, chữ này thường đứng trước trạng thái hoặc hành động còn tiếp tục.",
+            "Trong nghĩa hoàn trả, đặt vật cần trả sau chữ này, như 还书.",
             "还 thường đứng trước trạng thái hoặc động từ nó bổ nghĩa。"
           ],
           "takeaway": "还在… là “vẫn đang”; 还书 là “trả sách” và đọc khác。"
@@ -48914,7 +48914,7 @@
         "trapReview": {
           "readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng; nêu cách đọc/nghĩa phụ khi ảnh hưởng cách hiểu.",
           "literalTranslation": "Dịch theo cả câu và tình huống, không ghép máy móc từng chữ.",
-          "confusables": "还 nghĩa “vẫn” và 还 nghĩa “trả lại”: 还在…: vẫn; 还 + vật cần trả: hoàn trả。 还 và 已经: Còn tiếp tục hay đã đạt kết quả?"
+          "confusables": "还 nghĩa “vẫn” và 还 nghĩa “trả lại”: phân biệt theo cụm 还在… và 还书."
         },
         "pronunciation": {
           "text": "还 có hai cách đọc thông dụng; đọc theo cụm và nghĩa, không áp một âm cho cả chữ. Đọc từ một lần, rồi đọc câu mẫu một lần."
@@ -52293,18 +52293,186 @@
         }
       ],
       "meaning": "ngủ",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-018",
       "examples": [
         {
-          "zh": "孩子已经睡了。",
-          "vi": "Đứa trẻ đã ngủ rồi."
+          "id": "e1",
+          "zh": "我晚上十点睡。",
+          "vi": "Tôi ngủ lúc mười giờ tối。",
+          "analysis": "晚上十点 nêu giờ; 睡 là hành động。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "弟弟还没睡。",
+          "vi": "Em trai vẫn chưa ngủ。",
+          "analysis": "还没 nói việc ngủ chưa xảy ra。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 191,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=35734"
+        ],
+        "cohortOrdinal": 205,
+        "introduction": {
+          "scope": "睡 nói hành động ngủ; có thể đi với thời điểm."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 睡 nói hành động ngủ; có thể đi với thời điểm.",
+          "explanation": "Nghĩa trọng tâm: ngủ. 睡 nói hành động ngủ; có thể đi với thời điểm.",
+          "boundary": "Ranh giới nghĩa: 睡 nói hành động ngủ; có thể đi với thời điểm.",
+          "conditions": [
+            "Khung chính: 晚上十点 nêu giờ; 睡 là hành động。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "ngủ. 睡 nói hành động ngủ; có thể đi với thời điểm."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "睡 nói hành động ngủ; có thể đi với thời điểm.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我晚上十点睡。",
+            "vi": "Tôi ngủ lúc mười giờ tối。",
+            "analysis": "晚上十点 nêu giờ; 睡 là hành động。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "弟弟还没睡。",
+            "vi": "Em trai vẫn chưa ngủ。",
+            "analysis": "还没 nói việc ngủ chưa xảy ra。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "睡 và 睡着",
+            "scene": "睡 và 睡着 trong hội thoại hằng ngày.",
+            "possibleConfusion": "睡 và 睡着 có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "睡 và 睡着 thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "孩子已经睡了。",
+                "vi": "Đứa trẻ đã ngủ rồi。",
+                "comment": "Nói việc ngủ đã xảy ra。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "孩子已经睡着了。",
+                "vi": "Đứa trẻ đã ngủ thiếp đi rồi。",
+                "comment": "着 nhấn đã vào giấc。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Ngủ nói chung: 睡; đã vào giấc: 睡着。"
+            },
+            "boundary": "Ngủ nói chung: 睡; đã vào giấc: 睡着。",
+            "tip": "Ngủ nói chung: 睡; đã vào giấc: 睡着。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "睡 và 睡着",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "睡 và 睡着"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 睡 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 我晚上十点睡。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 睡 và 睡着"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 睡."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Tôi ngủ lúc mười giờ tối。"
+            ],
+            "explanation": "晚上十点 nêu giờ; 睡 là hành động。"
+          },
+          "q2": {
+            "accepted": [
+              "Ngủ nói chung: 睡; đã vào giấc: 睡着。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "弟弟还没睡。"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn thường ngủ lúc nào."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhắn người nhà em bé đã ngủ, xin nói nhỏ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu giờ ngủ của bản thân.",
+            "frame": "Chủ thể + thời điểm + 睡。",
+            "model": "我晚上十一点睡。",
+            "vi": "Tôi ngủ lúc mười một giờ tối。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Báo em bé đã vào giấc.",
+            "frame": "宝宝 + 睡着了；请 + lời nhờ。",
+            "model": "宝宝睡着了，请小声一点。",
+            "vi": "Em bé ngủ rồi, xin nói nhỏ một chút。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-19e663515e75",
@@ -52313,22 +52481,190 @@
       "intro": [
         {
           "pinyin": "fàn",
-          "meaning": "cơm"
+          "meaning": "cơm; bữa ăn"
         }
       ],
-      "meaning": "cơm",
-      "status": "example",
+      "meaning": "cơm; bữa ăn",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-018",
       "examples": [
         {
-          "zh": "饭好了，来吃吧。",
-          "vi": "Cơm xong rồi, đến ăn nhé."
+          "id": "e1",
+          "zh": "桌上有两碗饭。",
+          "vi": "Trên bàn có hai bát cơm。",
+          "analysis": "两碗 đếm cơm đã nấu。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我们吃饭以后再去。",
+          "vi": "Chúng ta ăn xong rồi hãy đi。",
+          "analysis": "吃饭 ở đây là dùng bữa。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 192,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=5690"
+        ],
+        "cohortOrdinal": 206,
+        "introduction": {
+          "scope": "饭 có thể chỉ cơm đã nấu hoặc đi trong tên bữa như 午饭、晚饭."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 饭 có thể chỉ cơm đã nấu hoặc đi trong tên bữa như 午饭、晚饭.",
+          "explanation": "Nghĩa trọng tâm: cơm; bữa ăn. 饭 có thể chỉ cơm đã nấu hoặc đi trong tên bữa như 午饭、晚饭.",
+          "boundary": "Ranh giới nghĩa: 饭 có thể chỉ cơm đã nấu hoặc đi trong tên bữa như 午饭、晚饭.",
+          "conditions": [
+            "Khung chính: 两碗 đếm cơm đã nấu。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "cơm; bữa ăn. 饭 có thể chỉ cơm đã nấu hoặc đi trong tên bữa như 午饭、晚饭."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "饭 có thể chỉ cơm đã nấu hoặc đi trong tên bữa như 午饭、晚饭.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "桌上有两碗饭。",
+            "vi": "Trên bàn có hai bát cơm。",
+            "analysis": "两碗 đếm cơm đã nấu。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我们吃饭以后再去。",
+            "vi": "Chúng ta ăn xong rồi hãy đi。",
+            "analysis": "吃饭 ở đây là dùng bữa。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "饭 chỉ cơm hay bữa",
+            "scene": "饭 chỉ cơm hay bữa trong hội thoại hằng ngày.",
+            "possibleConfusion": "饭 chỉ cơm hay bữa có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "饭 chỉ cơm hay bữa thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我吃了两碗饭。",
+                "vi": "Tôi ăn hai bát cơm。",
+                "comment": "两碗 đo lượng cơm。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我今天吃了三顿饭。",
+                "vi": "Hôm nay tôi ăn ba bữa。",
+                "comment": "三顿 đếm bữa, không phải bát cơm。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "碗 đếm bát; 顿 đếm bữa。"
+            },
+            "boundary": "碗 đếm bát; 顿 đếm bữa。",
+            "tip": "碗 đếm bát; 顿 đếm bữa。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "饭 chỉ cơm hay bữa",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "饭 chỉ cơm hay bữa"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 饭 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 桌上有两碗饭。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 饭 chỉ cơm hay bữa"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 饭."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Trên bàn có hai bát cơm。"
+            ],
+            "explanation": "两碗 đếm cơm đã nấu。"
+          },
+          "q2": {
+            "accepted": [
+              "碗 đếm bát; 顿 đếm bữa。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "我们吃饭以后再去。"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Kể bạn ăn hai bát cơm."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể số bữa bạn ăn hôm nay."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu lượng cơm đã ăn.",
+            "frame": "Số + 碗 + 饭。",
+            "model": "我吃了两碗饭。",
+            "vi": "Tôi ăn hai bát cơm。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu số bữa trong ngày.",
+            "frame": "Thời gian + 吃了 + số + 顿饭。",
+            "model": "我今天吃了三顿饭。",
+            "vi": "Hôm nay tôi ăn ba bữa。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-6b1b97202e9c",
@@ -52341,13 +52677,186 @@
         }
       ],
       "meaning": "đói",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-018",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我饿了，想吃点儿东西。",
+          "vi": "Tôi đói rồi, muốn ăn chút gì đó。",
+          "analysis": "饿了 nêu trạng thái; vế sau nêu mong muốn。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你现在饿不饿？",
+          "vi": "Bây giờ bạn có đói không?",
+          "analysis": "饿不饿 tạo câu hỏi có/không。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 193,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=39478"
+        ],
+        "cohortOrdinal": 207,
+        "introduction": {
+          "scope": "饿 miêu tả trạng thái cơ thể cần thức ăn."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 饿 miêu tả trạng thái cơ thể cần thức ăn.",
+          "explanation": "Nghĩa trọng tâm: đói. 饿 miêu tả trạng thái cơ thể cần thức ăn.",
+          "boundary": "Ranh giới nghĩa: 饿 miêu tả trạng thái cơ thể cần thức ăn.",
+          "conditions": [
+            "Khung chính: 饿了 nêu trạng thái; vế sau nêu mong muốn。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "đói. 饿 miêu tả trạng thái cơ thể cần thức ăn."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "饿 miêu tả trạng thái cơ thể cần thức ăn.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我饿了，想吃点儿东西。",
+            "vi": "Tôi đói rồi, muốn ăn chút gì đó。",
+            "analysis": "饿了 nêu trạng thái; vế sau nêu mong muốn。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你现在饿不饿？",
+            "vi": "Bây giờ bạn có đói không?",
+            "analysis": "饿不饿 tạo câu hỏi có/không。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "饿 và muốn ăn món",
+            "scene": "饿 và muốn ăn món trong hội thoại hằng ngày.",
+            "possibleConfusion": "饿 và muốn ăn món có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "饿 và muốn ăn món thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我饿了。",
+                "vi": "Tôi đói rồi。",
+                "comment": "Nêu cảm giác đói。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我想吃包子。",
+                "vi": "Tôi muốn ăn bánh bao。",
+                "comment": "Nêu món muốn ăn, chưa khẳng định đang đói。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Cảm giác đói: 饿; món muốn ăn: 想吃 + món。"
+            },
+            "boundary": "Cảm giác đói: 饿; món muốn ăn: 想吃 + món。",
+            "tip": "Cảm giác đói: 饿; món muốn ăn: 想吃 + món。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "饿 và muốn ăn món",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "饿 và muốn ăn món"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 饿 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 我饿了，想吃点儿东西。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 饿 và muốn ăn món"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 饿."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Tôi đói rồi, muốn ăn chút gì đó。"
+            ],
+            "explanation": "饿了 nêu trạng thái; vế sau nêu mong muốn。"
+          },
+          "q2": {
+            "accepted": [
+              "Cảm giác đói: 饿; món muốn ăn: 想吃 + món。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "你现在饿不饿？"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn đói sau buổi học."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi bạn có đói không."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu trạng thái đói mới xuất hiện.",
+            "frame": "Chủ thể + 饿了。",
+            "model": "下课以后我饿了。",
+            "vi": "Tan học xong tôi đói rồi。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Hỏi trạng thái hiện tại.",
+            "frame": "你 + 现在 + 饿不饿？",
+            "model": "你现在饿不饿？",
+            "vi": "Bây giờ bạn có đói không？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-483b7b8314b7",
@@ -52356,23 +52865,190 @@
       "intro": [
         {
           "pinyin": "shénme",
-          "meaning": "cái gì",
-          "sourcePinyin": "shén me"
+          "meaning": "gì; cái gì"
         }
       ],
-      "meaning": "cái gì",
-      "status": "example",
+      "meaning": "gì; cái gì",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-018",
       "examples": [
         {
+          "id": "e1",
           "zh": "你想吃什么？",
-          "vi": "Bạn muốn ăn gì?"
+          "vi": "Bạn muốn ăn gì?",
+          "analysis": "什么 đứng ở vị trí món ăn cần hỏi。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你买了什么书？",
+          "vi": "Bạn đã mua sách gì?",
+          "analysis": "什么 đứng trước 书 để hỏi loại sách。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 194,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=34679"
+        ],
+        "cohortOrdinal": 208,
+        "introduction": {
+          "scope": "什么 đứng ở vị trí thông tin chưa biết, thường là món, vật hoặc nội dung."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 什么 đứng ở vị trí thông tin chưa biết, thường là món, vật hoặc nội dung.",
+          "explanation": "Nghĩa trọng tâm: gì; cái gì. 什么 đứng ở vị trí thông tin chưa biết, thường là món, vật hoặc nội dung.",
+          "boundary": "Ranh giới nghĩa: 什么 đứng ở vị trí thông tin chưa biết, thường là món, vật hoặc nội dung.",
+          "conditions": [
+            "Khung chính: 什么 đứng ở vị trí món ăn cần hỏi。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "gì; cái gì. 什么 đứng ở vị trí thông tin chưa biết, thường là món, vật hoặc nội dung."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "什么 đứng ở vị trí thông tin chưa biết, thường là món, vật hoặc nội dung.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你想吃什么？",
+            "vi": "Bạn muốn ăn gì?",
+            "analysis": "什么 đứng ở vị trí món ăn cần hỏi。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你买了什么书？",
+            "vi": "Bạn đã mua sách gì?",
+            "analysis": "什么 đứng trước 书 để hỏi loại sách。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "什么 và 怎么",
+            "scene": "什么 và 怎么 trong hội thoại hằng ngày.",
+            "possibleConfusion": "什么 và 怎么 có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "什么 và 怎么 thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你想吃什么？",
+                "vi": "Bạn muốn ăn gì?",
+                "comment": "Hỏi món chưa biết。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你怎么去学校？",
+                "vi": "Bạn đến trường bằng cách nào?",
+                "comment": "怎么 hỏi cách di chuyển。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Vật/nội dung: 什么; cách thức: 怎么。"
+            },
+            "boundary": "Vật/nội dung: 什么; cách thức: 怎么。",
+            "tip": "Vật/nội dung: 什么; cách thức: 怎么。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "什么 và 怎么",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "什么 và 怎么"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 什么 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 你想吃什么？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 什么 và 怎么"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 什么."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Bạn muốn ăn gì?"
+            ],
+            "explanation": "什么 đứng ở vị trí món ăn cần hỏi。"
+          },
+          "q2": {
+            "accepted": [
+              "Vật/nội dung: 什么; cách thức: 怎么。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "你买了什么书？"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi bạn muốn uống gì."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi người kia mua quyển sách nào."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Hỏi đồ uống chưa biết.",
+            "frame": "你 + 想喝 + 什么？",
+            "model": "你想喝什么？",
+            "vi": "Bạn muốn uống gì？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Hỏi loại sách.",
+            "frame": "你 + 买了 + 什么 + 书？",
+            "model": "你买了什么书？",
+            "vi": "Bạn đã mua sách gì？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-3ee4e9bdb4bd",
@@ -52385,18 +53061,186 @@
         }
       ],
       "meaning": "bánh bao",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-018",
       "examples": [
         {
-          "zh": "我想吃包子。",
-          "vi": "Tôi muốn ăn bánh bao."
+          "id": "e1",
+          "zh": "我买了三个包子。",
+          "vi": "Tôi mua ba chiếc bánh bao。",
+          "analysis": "三个 đếm số chiếc。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这个包子里面有肉。",
+          "vi": "Trong chiếc bánh bao này có thịt。",
+          "analysis": "这个 chỉ chiếc cụ thể; câu nêu nhân。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 195,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=644"
+        ],
+        "cohortOrdinal": 209,
+        "introduction": {
+          "scope": "包子 là tên món ăn; thường dùng 个 để đếm từng chiếc."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 包子 là tên món ăn; thường dùng 个 để đếm từng chiếc.",
+          "explanation": "Nghĩa trọng tâm: bánh bao. 包子 là tên món ăn; thường dùng 个 để đếm từng chiếc.",
+          "boundary": "Ranh giới nghĩa: 包子 là tên món ăn; thường dùng 个 để đếm từng chiếc.",
+          "conditions": [
+            "Khung chính: 三个 đếm số chiếc。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "bánh bao. 包子 là tên món ăn; thường dùng 个 để đếm từng chiếc."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "包子 là tên món ăn; thường dùng 个 để đếm từng chiếc.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我买了三个包子。",
+            "vi": "Tôi mua ba chiếc bánh bao。",
+            "analysis": "三个 đếm số chiếc。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这个包子里面有肉。",
+            "vi": "Trong chiếc bánh bao này có thịt。",
+            "analysis": "这个 chỉ chiếc cụ thể; câu nêu nhân。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "包子 và 包",
+            "scene": "包子 và 包 trong hội thoại hằng ngày.",
+            "possibleConfusion": "包子 và 包 có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "包子 và 包 thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我想吃一个包子。",
+                "vi": "Tôi muốn ăn một chiếc bánh bao。",
+                "comment": "包子 chỉ món ăn; 个 đếm chiếc。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "桌上有一个包。",
+                "vi": "Trên bàn có một cái túi。",
+                "comment": "包 ở đây là túi/gói。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Món bánh bao: 包子; túi/gói: 包。"
+            },
+            "boundary": "Món bánh bao: 包子; túi/gói: 包。",
+            "tip": "Món bánh bao: 包子; túi/gói: 包。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "包子 và 包",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "包子 và 包"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 包子 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 我买了三个包子。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 包子 và 包"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 包子."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Tôi mua ba chiếc bánh bao。"
+            ],
+            "explanation": "三个 đếm số chiếc。"
+          },
+          "q2": {
+            "accepted": [
+              "Món bánh bao: 包子; túi/gói: 包。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "这个包子里面有肉。"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Gọi hai chiếc bánh bao rau."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi bánh bao có nhân gì."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu số lượng và loại nhân.",
+            "frame": "Số + 个 + 菜包子。",
+            "model": "我要两个菜包子。",
+            "vi": "Tôi lấy hai chiếc bánh bao rau。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Hỏi thông tin về phần nhân.",
+            "frame": "这个包子里面有什么？",
+            "model": "这个包子里面有什么？",
+            "vi": "Trong chiếc bánh bao này có gì？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-514ee7ceeb93",
@@ -52409,37 +53253,378 @@
         }
       ],
       "meaning": "bữa trưa",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-018",
       "examples": [
         {
-          "zh": "我和同事一起吃午饭。",
-          "vi": "Tôi ăn trưa cùng đồng nghiệp."
+          "id": "e1",
+          "zh": "我们中午一起吃午饭。",
+          "vi": "Trưa nay chúng ta cùng ăn trưa。",
+          "analysis": "中午 nêu lúc; 吃午饭 chỉ hoạt động。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你吃午饭了吗？",
+          "vi": "Bạn ăn trưa chưa?",
+          "analysis": "了…吗 hỏi bữa trưa đã ăn chưa。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 196,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=159687"
+        ],
+        "cohortOrdinal": 210,
+        "introduction": {
+          "scope": "午饭 là bữa ăn giữa ngày; 中午 chỉ thời gian."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 午饭 là bữa ăn giữa ngày; 中午 chỉ thời gian.",
+          "explanation": "Nghĩa trọng tâm: bữa trưa. 午饭 là bữa ăn giữa ngày; 中午 chỉ thời gian.",
+          "boundary": "Ranh giới nghĩa: 午饭 là bữa ăn giữa ngày; 中午 chỉ thời gian.",
+          "conditions": [
+            "Khung chính: 中午 nêu lúc; 吃午饭 chỉ hoạt động。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "bữa trưa. 午饭 là bữa ăn giữa ngày; 中午 chỉ thời gian."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "午饭 là bữa ăn giữa ngày; 中午 chỉ thời gian.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们中午一起吃午饭。",
+            "vi": "Trưa nay chúng ta cùng ăn trưa。",
+            "analysis": "中午 nêu lúc; 吃午饭 chỉ hoạt động。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你吃午饭了吗？",
+            "vi": "Bạn ăn trưa chưa?",
+            "analysis": "了…吗 hỏi bữa trưa đã ăn chưa。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "午饭 và 中午",
+            "scene": "午饭 và 中午 trong hội thoại hằng ngày.",
+            "possibleConfusion": "午饭 và 中午 có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "午饭 và 中午 thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我中午有空。",
+                "vi": "Trưa nay tôi rảnh。",
+                "comment": "中午 nêu thời điểm。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我还没吃午饭。",
+                "vi": "Tôi vẫn chưa ăn trưa。",
+                "comment": "午饭 là bữa ăn。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thời gian: 中午; tên bữa: 午饭。"
+            },
+            "boundary": "Thời gian: 中午; tên bữa: 午饭。",
+            "tip": "Thời gian: 中午; tên bữa: 午饭。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "午饭 và 中午",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "午饭 và 中午"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 午饭 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 我们中午一起吃午饭。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 午饭 và 中午"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 午饭."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Trưa nay chúng ta cùng ăn trưa。"
+            ],
+            "explanation": "中午 nêu lúc; 吃午饭 chỉ hoạt động。"
+          },
+          "q2": {
+            "accepted": [
+              "Thời gian: 中午; tên bữa: 午饭。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "你吃午饭了吗？"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Rủ đồng nghiệp ăn trưa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi bạn đã ăn trưa chưa."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đưa lời rủ ăn trưa.",
+            "frame": "我们 + 一起 + 吃午饭 + 吧。",
+            "model": "我们一起吃午饭吧。",
+            "vi": "Chúng ta cùng ăn trưa nhé。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Hỏi bữa trưa đã ăn chưa.",
+            "frame": "你 + 吃午饭 + 了 + 吗？",
+            "model": "你吃午饭了吗？",
+            "vi": "Bạn ăn trưa chưa？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "dùng bữa",
+      "meaning": "ăn; dùng bữa",
       "intro": [
         {
           "pinyin": "chīfàn",
-          "meaning": "dùng bữa"
+          "meaning": "ăn; dùng bữa"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "爸爸正在吃饭。",
+          "vi": "Bố đang ăn。",
+          "analysis": "正在 đứng trước động từ, chỉ việc đang diễn ra。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我晚上不在家吃饭。",
+          "vi": "Buổi tối tôi không ăn ở nhà。",
+          "analysis": "Thời gian và nơi chốn đứng trước động từ。",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-63bea411ec72",
       "hanzi": "吃饭",
       "level": 1,
       "sourceIndex": 197,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-018",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=45610"
+        ],
+        "cohortOrdinal": 211,
+        "introduction": {
+          "scope": "吃饭 nói việc ăn một bữa; 吃 + tên món nêu món cụ thể."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 吃饭 nói việc ăn một bữa; 吃 + tên món nêu món cụ thể.",
+          "explanation": "Nghĩa trọng tâm: ăn; dùng bữa. 吃饭 nói việc ăn một bữa; 吃 + tên món nêu món cụ thể.",
+          "boundary": "Ranh giới nghĩa: 吃饭 nói việc ăn một bữa; 吃 + tên món nêu món cụ thể.",
+          "conditions": [
+            "Khung chính: 正在 đứng trước động từ, chỉ việc đang diễn ra。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "ăn; dùng bữa. 吃饭 nói việc ăn một bữa; 吃 + tên món nêu món cụ thể."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "吃饭 nói việc ăn một bữa; 吃 + tên món nêu món cụ thể.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "爸爸正在吃饭。",
+            "vi": "Bố đang ăn。",
+            "analysis": "正在 đứng trước động từ, chỉ việc đang diễn ra。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我晚上不在家吃饭。",
+            "vi": "Buổi tối tôi không ăn ở nhà。",
+            "analysis": "Thời gian và nơi chốn đứng trước động từ。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "吃饭 và 吃 + món",
+            "scene": "吃饭 và 吃 + món trong hội thoại hằng ngày.",
+            "possibleConfusion": "吃饭 và 吃 + món có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "吃饭 và 吃 + món thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们先吃饭吧。",
+                "vi": "Chúng ta ăn trước nhé。",
+                "comment": "Lời rủ dùng bữa chung。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们先吃包子吧。",
+                "vi": "Chúng ta ăn bánh bao trước nhé。",
+                "comment": "Câu nêu món cụ thể。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Dùng bữa: 吃饭; món cụ thể: 吃 + tên món。"
+            },
+            "boundary": "Dùng bữa: 吃饭; món cụ thể: 吃 + tên món。",
+            "tip": "Dùng bữa: 吃饭; món cụ thể: 吃 + tên món。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "吃饭 và 吃 + món",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "吃饭 và 吃 + món"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 吃饭 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 爸爸正在吃饭。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 吃饭 và 吃 + món"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 吃饭."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Bố đang ăn。"
+            ],
+            "explanation": "正在 đứng trước động từ, chỉ việc đang diễn ra。"
+          },
+          "q2": {
+            "accepted": [
+              "Dùng bữa: 吃饭; món cụ thể: 吃 + tên món。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "我晚上不在家吃饭。"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Báo đang ăn, sẽ gọi lại sau."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi bố mẹ đã ăn tối chưa."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu hành động đang diễn ra.",
+            "frame": "我正在吃饭，等会儿再给你打电话。",
+            "model": "我正在吃饭，等会儿再给你打电话。",
+            "vi": "Tôi đang ăn, lát nữa gọi lại cho bạn。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Hỏi đã dùng bữa tối chưa.",
+            "frame": "你们 + 吃晚饭 + 了 + 吗？",
+            "model": "你们吃晚饭了吗？",
+            "vi": "Mọi người ăn tối chưa？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-23fd43196def",
@@ -52448,23 +53633,190 @@
       "intro": [
         {
           "pinyin": "hǎochī",
-          "meaning": "ngon",
-          "sourcePinyin": "hǎo chī"
+          "meaning": "ngon"
         }
       ],
       "meaning": "ngon",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-018",
       "examples": [
         {
-          "zh": "这个包子很好吃。",
-          "vi": "Bánh bao này ngon."
+          "id": "e1",
+          "zh": "这家店的面很好吃。",
+          "vi": "Mì ở quán này rất ngon。",
+          "analysis": "很好吃 đánh giá hương vị mì。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "妈妈做的包子特别好吃。",
+          "vi": "Bánh bao mẹ làm đặc biệt ngon。",
+          "analysis": "特别 tăng mức độ。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 198,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19444"
+        ],
+        "cohortOrdinal": 212,
+        "introduction": {
+          "scope": "好吃 đánh giá hương vị món ăn; 好 riêng có nghĩa rộng hơn."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 好吃 đánh giá hương vị món ăn; 好 riêng có nghĩa rộng hơn.",
+          "explanation": "Nghĩa trọng tâm: ngon. 好吃 đánh giá hương vị món ăn; 好 riêng có nghĩa rộng hơn.",
+          "boundary": "Ranh giới nghĩa: 好吃 đánh giá hương vị món ăn; 好 riêng có nghĩa rộng hơn.",
+          "conditions": [
+            "Khung chính: 很好吃 đánh giá hương vị mì。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "ngon. 好吃 đánh giá hương vị món ăn; 好 riêng có nghĩa rộng hơn."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "好吃 đánh giá hương vị món ăn; 好 riêng có nghĩa rộng hơn.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这家店的面很好吃。",
+            "vi": "Mì ở quán này rất ngon。",
+            "analysis": "很好吃 đánh giá hương vị mì。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "妈妈做的包子特别好吃。",
+            "vi": "Bánh bao mẹ làm đặc biệt ngon。",
+            "analysis": "特别 tăng mức độ。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "好吃 và 好",
+            "scene": "好吃 và 好 trong hội thoại hằng ngày.",
+            "possibleConfusion": "好吃 và 好 có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "好吃 và 好 thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个包子很好吃。",
+                "vi": "Bánh bao này rất ngon。",
+                "comment": "好吃 nhận xét vị。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这个包子很好。",
+                "vi": "Bánh bao này rất tốt/ổn。",
+                "comment": "好 không trực tiếp chỉ hương vị。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói vị: 好吃; khen chung: 好。"
+            },
+            "boundary": "Nói vị: 好吃; khen chung: 好。",
+            "tip": "Nói vị: 好吃; khen chung: 好。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "好吃 và 好",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "好吃 và 好"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 好吃 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 这家店的面很好吃。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 好吃 và 好"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 好吃."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Mì ở quán này rất ngon。"
+            ],
+            "explanation": "很好吃 đánh giá hương vị mì。"
+          },
+          "q2": {
+            "accepted": [
+              "Nói vị: 好吃; khen chung: 好。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "妈妈做的包子特别好吃。"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi bạn thấy món ăn ngon không."
+          },
+          {
+            "id": "s2",
+            "prompt": "Giới thiệu mì quán gần nhà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Hỏi vị món ăn.",
+            "frame": "这个菜 + 好吃 + 吗？",
+            "model": "这个菜好吃吗？",
+            "vi": "Món này ngon không？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Đưa lời giới thiệu món ngon.",
+            "frame": "你尝尝这家店的面吧，很好吃。",
+            "model": "你尝尝这家店的面吧，很好吃。",
+            "vi": "Bạn thử mì quán này nhé, ngon lắm。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-2c9e6fa6fd87",
@@ -52477,13 +53829,186 @@
         }
       ],
       "meaning": "sạch sẽ",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-018",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "厨房很干净。",
+          "vi": "Nhà bếp rất sạch。",
+          "analysis": "很 đứng trước tính từ。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请把桌子擦干净。",
+          "vi": "Làm ơn lau bàn cho sạch。",
+          "analysis": "擦 nêu hành động; 干净 nêu kết quả。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 199,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=16364"
+        ],
+        "cohortOrdinal": 213,
+        "introduction": {
+          "scope": "干净 thường miêu tả trạng thái vệ sinh của đồ vật hoặc nơi chốn."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 干净 thường miêu tả trạng thái vệ sinh của đồ vật hoặc nơi chốn.",
+          "explanation": "Nghĩa trọng tâm: sạch sẽ. 干净 thường miêu tả trạng thái vệ sinh của đồ vật hoặc nơi chốn.",
+          "boundary": "Ranh giới nghĩa: 干净 thường miêu tả trạng thái vệ sinh của đồ vật hoặc nơi chốn.",
+          "conditions": [
+            "Khung chính: 很 đứng trước tính từ。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "sạch sẽ. 干净 thường miêu tả trạng thái vệ sinh của đồ vật hoặc nơi chốn."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "干净 thường miêu tả trạng thái vệ sinh của đồ vật hoặc nơi chốn.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "厨房很干净。",
+            "vi": "Nhà bếp rất sạch。",
+            "analysis": "很 đứng trước tính từ。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请把桌子擦干净。",
+            "vi": "Làm ơn lau bàn cho sạch。",
+            "analysis": "擦 nêu hành động; 干净 nêu kết quả。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "干净 và 擦干净",
+            "scene": "干净 và 擦干净 trong hội thoại hằng ngày.",
+            "possibleConfusion": "干净 và 擦干净 có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "干净 và 擦干净 thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "桌子很干净。",
+                "vi": "Cái bàn rất sạch。",
+                "comment": "Chỉ miêu tả trạng thái。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我把桌子擦干净了。",
+                "vi": "Tôi đã lau sạch bàn。",
+                "comment": "Có người làm, hành động 擦 và kết quả。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Tả sạch: 干净; làm sạch: động từ + 干净。"
+            },
+            "boundary": "Tả sạch: 干净; làm sạch: động từ + 干净。",
+            "tip": "Tả sạch: 干净; làm sạch: động từ + 干净。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "干净 và 擦干净",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "干净 và 擦干净"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 干净 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 厨房很干净。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 干净 và 擦干净"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 干净."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Nhà bếp rất sạch。"
+            ],
+            "explanation": "很 đứng trước tính từ。"
+          },
+          "q2": {
+            "accepted": [
+              "Tả sạch: 干净; làm sạch: động từ + 干净。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "请把桌子擦干净。"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Mô tả lớp học sau khi dọn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhờ bạn lau bàn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Miêu tả trạng thái sạch.",
+            "frame": "教室 + 很干净。",
+            "model": "教室很干净。",
+            "vi": "Lớp học rất sạch。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Yêu cầu hành động làm sạch.",
+            "frame": "请 + 把 + 桌子 + 擦干净。",
+            "model": "请把桌子擦干净。",
+            "vi": "Làm ơn lau bàn cho sạch。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-a4a354339844",
@@ -52496,18 +54021,186 @@
         }
       ],
       "meaning": "bữa sáng",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-018",
       "examples": [
         {
-          "zh": "我七点吃早饭。",
-          "vi": "Tôi ăn sáng lúc bảy giờ."
+          "id": "e1",
+          "zh": "我每天七点吃早饭。",
+          "vi": "Mỗi ngày tôi ăn sáng lúc bảy giờ。",
+          "analysis": "每天七点 nêu giờ; 吃早饭 gọi bữa ăn。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "早饭已经准备好了。",
+          "vi": "Bữa sáng đã chuẩn bị xong rồi。",
+          "analysis": "早饭 là thứ được chuẩn bị。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 200,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=37130"
+        ],
+        "cohortOrdinal": 214,
+        "introduction": {
+          "scope": "早饭 là bữa ăn; 早上 là thời gian buổi sáng."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 早饭 là bữa ăn; 早上 là thời gian buổi sáng.",
+          "explanation": "Nghĩa trọng tâm: bữa sáng. 早饭 là bữa ăn; 早上 là thời gian buổi sáng.",
+          "boundary": "Ranh giới nghĩa: 早饭 là bữa ăn; 早上 là thời gian buổi sáng.",
+          "conditions": [
+            "Khung chính: 每天七点 nêu giờ; 吃早饭 gọi bữa ăn。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "bữa sáng. 早饭 là bữa ăn; 早上 là thời gian buổi sáng."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "早饭 là bữa ăn; 早上 là thời gian buổi sáng.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我每天七点吃早饭。",
+            "vi": "Mỗi ngày tôi ăn sáng lúc bảy giờ。",
+            "analysis": "每天七点 nêu giờ; 吃早饭 gọi bữa ăn。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "早饭已经准备好了。",
+            "vi": "Bữa sáng đã chuẩn bị xong rồi。",
+            "analysis": "早饭 là thứ được chuẩn bị。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "早饭 và 早上",
+            "scene": "早饭 và 早上 trong hội thoại hằng ngày.",
+            "possibleConfusion": "早饭 và 早上 có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "早饭 và 早上 thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我早上七点起床。",
+                "vi": "Tôi thức dậy lúc bảy giờ sáng。",
+                "comment": "早上 nêu thời điểm。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我七点吃早饭。",
+                "vi": "Tôi ăn sáng lúc bảy giờ。",
+                "comment": "早饭 là bữa được ăn。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thời điểm: 早上; tên bữa: 早饭。"
+            },
+            "boundary": "Thời điểm: 早上; tên bữa: 早饭。",
+            "tip": "Thời điểm: 早上; tên bữa: 早饭。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "早饭 và 早上",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "早饭 và 早上"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 早饭 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 我每天七点吃早饭。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 早饭 và 早上"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 早饭."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Mỗi ngày tôi ăn sáng lúc bảy giờ。"
+            ],
+            "explanation": "每天七点 nêu giờ; 吃早饭 gọi bữa ăn。"
+          },
+          "q2": {
+            "accepted": [
+              "Thời điểm: 早上; tên bữa: 早饭。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "早饭已经准备好了。"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Kể bạn thường ăn sáng lúc bảy giờ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hôm nay chưa ăn sáng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu thói quen và thời gian.",
+            "frame": "我 + 每天 + 七点 + 吃早饭。",
+            "model": "我每天七点吃早饭。",
+            "vi": "Mỗi ngày tôi ăn sáng lúc bảy giờ。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu bữa sáng chưa ăn.",
+            "frame": "我还没吃早饭。",
+            "model": "我还没吃早饭。",
+            "vi": "Tôi vẫn chưa ăn sáng。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-45f2486f6226",
@@ -52520,18 +54213,186 @@
         }
       ],
       "meaning": "bữa tối",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-018",
       "examples": [
         {
+          "id": "e1",
           "zh": "我们六点吃晚饭。",
-          "vi": "Chúng tôi ăn tối lúc sáu giờ."
+          "vi": "Chúng tôi ăn tối lúc sáu giờ。",
+          "analysis": "六点 nêu giờ; 吃晚饭 gọi bữa。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你晚上在家吃晚饭吗？",
+          "vi": "Buổi tối bạn ăn tối ở nhà à?",
+          "analysis": "晚上 nêu lúc; 在家 nêu nơi。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 201,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=43734"
+        ],
+        "cohortOrdinal": 215,
+        "introduction": {
+          "scope": "晚饭 là bữa tối; 晚上 là thời gian buổi tối."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 晚饭 là bữa tối; 晚上 là thời gian buổi tối.",
+          "explanation": "Nghĩa trọng tâm: bữa tối. 晚饭 là bữa tối; 晚上 là thời gian buổi tối.",
+          "boundary": "Ranh giới nghĩa: 晚饭 là bữa tối; 晚上 là thời gian buổi tối.",
+          "conditions": [
+            "Khung chính: 六点 nêu giờ; 吃晚饭 gọi bữa。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "bữa tối. 晚饭 là bữa tối; 晚上 là thời gian buổi tối."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "晚饭 là bữa tối; 晚上 là thời gian buổi tối.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们六点吃晚饭。",
+            "vi": "Chúng tôi ăn tối lúc sáu giờ。",
+            "analysis": "六点 nêu giờ; 吃晚饭 gọi bữa。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你晚上在家吃晚饭吗？",
+            "vi": "Buổi tối bạn ăn tối ở nhà à?",
+            "analysis": "晚上 nêu lúc; 在家 nêu nơi。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "晚饭 và 晚上",
+            "scene": "晚饭 và 晚上 trong hội thoại hằng ngày.",
+            "possibleConfusion": "晚饭 và 晚上 có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "晚饭 và 晚上 thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "晚上我在家看书。",
+                "vi": "Buổi tối tôi đọc sách ở nhà。",
+                "comment": "晚上 là thời điểm。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我还没吃晚饭。",
+                "vi": "Tôi vẫn chưa ăn tối。",
+                "comment": "晚饭 là bữa được ăn。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thời điểm: 晚上; bữa: 晚饭。"
+            },
+            "boundary": "Thời điểm: 晚上; bữa: 晚饭。",
+            "tip": "Thời điểm: 晚上; bữa: 晚饭。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "晚饭 và 晚上",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "晚饭 và 晚上"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 晚饭 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 我们六点吃晚饭。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 晚饭 và 晚上"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 晚饭."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Chúng tôi ăn tối lúc sáu giờ。"
+            ],
+            "explanation": "六点 nêu giờ; 吃晚饭 gọi bữa。"
+          },
+          "q2": {
+            "accepted": [
+              "Thời điểm: 晚上; bữa: 晚饭。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "你晚上在家吃晚饭吗？"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói cả nhà ăn tối lúc sáu giờ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi bạn có ăn tối ở nhà không."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu giờ ăn tối.",
+            "frame": "我们 + 六点 + 吃晚饭。",
+            "model": "我们六点吃晚饭。",
+            "vi": "Chúng tôi ăn tối lúc sáu giờ。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Hỏi nơi dùng bữa buổi tối.",
+            "frame": "你 + 晚上 + 在家 + 吃晚饭 + 吗？",
+            "model": "你晚上在家吃晚饭吗？",
+            "vi": "Buổi tối bạn ăn tối ở nhà à？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-74ea2968e1c9",
@@ -52540,18 +54401,190 @@
       "intro": [
         {
           "pinyin": "zuìhǎo",
-          "meaning": "tốt nhất",
-          "sourcePinyin": "zuì hǎo"
+          "meaning": "tốt nhất; tốt hơn hết"
         }
       ],
-      "meaning": "tốt nhất",
-      "status": "catalog",
+      "meaning": "tốt nhất; tốt hơn hết",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-018",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "这是最好的办法。",
+          "vi": "Đây là cách tốt nhất。",
+          "analysis": "最好的 đứng trước 办法 để xếp hạng。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你最好早点儿回家。",
+          "vi": "Bạn tốt hơn hết nên về nhà sớm。",
+          "analysis": "最好 đứng trước hành động để đưa lời khuyên。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 202,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=37590"
+        ],
+        "cohortOrdinal": 216,
+        "introduction": {
+          "scope": "最好 xếp hạng chất lượng hoặc khuyên nên làm việc gì."
+        },
+        "meaning": {
+          "scene": "Dùng từ trong tình huống thực tế: 最好 xếp hạng chất lượng hoặc khuyên nên làm việc gì.",
+          "explanation": "Nghĩa trọng tâm: tốt nhất; tốt hơn hết. 最好 xếp hạng chất lượng hoặc khuyên nên làm việc gì.",
+          "boundary": "Ranh giới nghĩa: 最好 xếp hạng chất lượng hoặc khuyên nên làm việc gì.",
+          "conditions": [
+            "Khung chính: 最好的 đứng trước 办法 để xếp hạng。",
+            "Xét ngữ cảnh và vị trí của từ trong câu.",
+            "Dùng cả cụm để phân biệt với từ gần nghĩa."
+          ],
+          "takeaway": "tốt nhất; tốt hơn hết. 最好 xếp hạng chất lượng hoặc khuyên nên làm việc gì."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "最好 xếp hạng chất lượng hoặc khuyên nên làm việc gì.",
+            "position": "Đặt từ vào vị trí phù hợp với khung câu.",
+            "required": "Giữ thành phần chính để câu rõ nghĩa.",
+            "omission": "Lược thông tin đã rõ trong ngữ cảnh.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这是最好的办法。",
+            "vi": "Đây là cách tốt nhất。",
+            "analysis": "最好的 đứng trước 办法 để xếp hạng。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你最好早点儿回家。",
+            "vi": "Bạn tốt hơn hết nên về nhà sớm。",
+            "analysis": "最好 đứng trước hành động để đưa lời khuyên。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "最好 xếp hạng hay khuyên",
+            "scene": "最好 xếp hạng hay khuyên trong hội thoại hằng ngày.",
+            "possibleConfusion": "最好 xếp hạng hay khuyên có thể gây nhầm vì các cách nói gần nghĩa.",
+            "difference": "最好 xếp hạng hay khuyên thay đổi loại thông tin hoặc sắc thái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这是最好的办法。",
+                "vi": "Đây là cách tốt nhất。",
+                "comment": "Có 的 và danh từ được xếp hạng。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你最好早点儿回家。",
+                "vi": "Bạn tốt hơn hết nên về nhà sớm。",
+                "comment": "最好 đứng trước hành động được khuyên。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Xem sau 最好 là danh từ hay hành động。"
+            },
+            "boundary": "Xem sau 最好 là danh từ hay hành động。",
+            "tip": "Xem sau 最好 là danh từ hay hành động。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "最好 xếp hạng hay khuyên",
+          "literalTranslation": "Không dịch từng chữ; dựa vào cụm từ và ngữ cảnh.",
+          "confusables": "最好 xếp hạng hay khuyên"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh điệu của 最好 trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Đọc và phân tích câu: 这是最好的办法。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nêu khác biệt giữa hai cách nói trong bẫy: 最好 xếp hạng hay khuyên"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tự đặt câu mới có từ 最好."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Đây là cách tốt nhất。"
+            ],
+            "explanation": "最好的 đứng trước 办法 để xếp hạng。"
+          },
+          "q2": {
+            "accepted": [
+              "Xem sau 最好 là danh từ hay hành động。"
+            ],
+            "explanation": "Đối chiếu cấu trúc và ngữ cảnh."
+          },
+          "q3": {
+            "accepted": [
+              "你最好早点儿回家。"
+            ],
+            "explanation": "Có thể dùng câu khác nếu đúng ngữ cảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Khuyên bạn mang ô vì trời sắp mưa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Chọn món bánh bao ngon nhất đã ăn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đưa lời khuyên về một hành động.",
+            "frame": "你最好 + 带伞。",
+            "model": "你最好带伞。",
+            "vi": "Bạn tốt hơn hết nên mang ô。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          },
+          "s2": {
+            "idea": "Xếp hạng hương vị trong trải nghiệm.",
+            "frame": "这是我吃过 + 最好吃的 + 包子。",
+            "model": "这是我吃过最好吃的包子。",
+            "vi": "Đây là bánh bao ngon nhất tôi từng ăn。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-b20a9a552feb",
@@ -93757,13 +95790,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 214,
-    "pending": 2020,
+    "ready": 226,
+    "pending": 2008,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 214
+        "ready": 226
       },
       {
         "level": 2,
