@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 355 mục đủ cấu trúc V1/V2; còn 1879. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 345 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 375 mục đủ cấu trúc V1/V2; còn 1859. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 365 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -79619,17 +79619,181 @@
       "intro": [
         {
           "pinyin": "dédào",
-          "meaning": "nhận được"
+          "meaning": "nhận được; có được"
         }
       ],
-      "meaning": "nhận được",
-      "status": "catalog",
+      "meaning": "nhận được; có được",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-026 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我得到了老师的帮助。",
+          "vi": "Tôi đã nhận được sự giúp đỡ của giáo viên.",
+          "analysis": "老师的帮助 là điều có được; 了 đánh dấu kết quả đã xảy ra.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ dédào le lǎoshī de bāngzhù."
+        },
+        {
+          "id": "e2",
+          "zh": "他没有得到这个机会。",
+          "vi": "Anh ấy không có được cơ hội này.",
+          "analysis": "没有 phủ nhận kết quả nhận cơ hội; không nói anh ấy không bao giờ có cơ hội.",
+          "practiceAllowed": true,
+          "pinyin": "Tā méiyǒu dédào zhè ge jīhuì."
+        }
+      ],
       "sourceIndex": 340,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 346,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=得到"
+        ],
+        "introduction": {
+          "scope": "nhận được; có được"
+        },
+        "meaning": {
+          "scene": "Bạn được giáo viên giúp và nói mình nhận được sự giúp đỡ đó.",
+          "explanation": "得到 nói có được hoặc nhận được một thứ, cơ hội, kết quả hay sự hỗ trợ. Nó nhấn điều đã đạt tới người nhận, không chỉ quá trình xin hoặc tìm kiếm.",
+          "boundary": "得到 thường đi với 帮助, 机会 hoặc kết quả có được. 收到 thường nhấn tiếp nhận thư, hàng, tiền hoặc thông tin được gửi tới; hai từ có vùng giao nhau, không chia tuyệt đối thành vật hữu hình và vô hình.",
+          "conditions": [
+            "Sau 得到 là điều có được. 没得到 phủ nhận kết quả ở lần đã xét; 得不到 nói không có được trong điều kiện hoặc khả năng nào đó."
+          ],
+          "takeaway": "得到 nói có được hoặc nhận được một thứ, cơ hội, kết quả hay sự hỗ trợ. Nó nhấn điều đã đạt tới người nhận, không chỉ quá trình xin hoặc tìm kiếm."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 得到 + điều có được",
+            "position": "Đối tượng nhận được nằm sau 得到. 了 có thể đi sau 得到 khi kể kết quả đã đạt.",
+            "required": "Sau 得到 là điều có được. 没得到 phủ nhận kết quả ở lần đã xét; 得不到 nói không có được trong điều kiện hoặc khả năng nào đó.",
+            "omission": "Có thể lược đối tượng khi đã rõ, nhưng trong câu mới nên nêu điều nhận được để tránh mơ hồ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我得到了老师的帮助。",
+            "vi": "Tôi đã nhận được sự giúp đỡ của giáo viên.",
+            "analysis": "老师的帮助 là điều có được; 了 đánh dấu kết quả đã xảy ra.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ dédào le lǎoshī de bāngzhù."
+          },
+          {
+            "id": "e2",
+            "zh": "他没有得到这个机会。",
+            "vi": "Anh ấy không có được cơ hội này.",
+            "analysis": "没有 phủ nhận kết quả nhận cơ hội; không nói anh ấy không bao giờ có cơ hội.",
+            "practiceAllowed": true,
+            "pinyin": "Tā méiyǒu dédào zhè ge jīhuì."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "得到 và 收到 khác trọng tâm",
+            "scene": "Bạn nhận sự giúp đỡ hoặc nhận thư được gửi tới.",
+            "possibleConfusion": "得到 và 收到 khác trọng tâm",
+            "difference": "得到 nhấn có được; 收到 nhấn tiếp nhận thứ được chuyển/gửi tới.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我得到了帮助。",
+                "vi": "Tôi đã nhận được sự giúp đỡ.",
+                "comment": "Kết hợp tự nhiên với sự hỗ trợ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我收到了你的信。",
+                "vi": "Tôi đã nhận được thư của bạn.",
+                "comment": "Thư được gửi và đã tới người nhận.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 收到 bằng 得到 trong câu về thư có thể chuyển sang nghĩa có được bức thư, không còn nhấn việc thư gửi tới."
+            },
+            "boundary": "收到帮助 không phải lựa chọn thông thường để nói được giúp; 得到礼物 và 收到礼物 có thể cùng dùng, khác trọng tâm.",
+            "tip": "Có được: 得到; được gửi tới: thường 收到."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "得 trong 得到 đọc thanh hai, khác 得 nhẹ trong 觉得 hoặc 得 mang nghĩa phải. 到 thanh bốn.",
+          "literalTranslation": "得到 thường đi với 帮助, 机会 hoặc kết quả có được. 收到 thường nhấn tiếp nhận thư, hàng, tiền hoặc thông tin được gửi tới; hai từ có vùng giao nhau, không chia tuyệt đối thành vật hữu hình và vô hình.",
+          "confusables": "得到 nhấn có được; 收到 nhấn tiếp nhận thứ được chuyển/gửi tới."
+        },
+        "pronunciation": {
+          "text": "得 trong 得到 đọc thanh hai, khác 得 nhẹ trong 觉得 hoặc 得 mang nghĩa phải. 到 thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 老师的帮助 / 得到了 / 我。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Bạn báo thư bạn gửi đã tới mình. Dùng 收到 hay 得到 để nhấn tiếp nhận thư?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我得到了老师的帮助。"
+            ],
+            "explanation": "Điều nhận được đứng sau 得到."
+          },
+          "q2": {
+            "accepted": [
+              "收到: 我收到了你的信。"
+            ],
+            "explanation": "收到 làm rõ thư đã được gửi đến; 得到 có thể nhấn có được bức thư trong ngữ cảnh khác."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn nhận được sự giúp đỡ của bạn bè."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn chưa có được cơ hội này."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt điều nhận được sau động từ.",
+            "frame": "我 + 得到了 + 朋友的帮助。",
+            "model": "我得到了朋友的帮助。",
+            "vi": "Tôi đã nhận được sự giúp đỡ của bạn bè.",
+            "criteria": [
+              "Đối tượng nhận được nằm sau 得到. 了 có thể đi sau 得到 khi kể kết quả đã đạt.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 还没 phủ nhận kết quả đến hiện tại.",
+            "frame": "我 + 还没得到 + 这个机会。",
+            "model": "我还没得到这个机会。",
+            "vi": "Tôi vẫn chưa có được cơ hội này.",
+            "criteria": [
+              "Đối tượng nhận được nằm sau 得到. 了 có thể đi sau 得到 khi kể kết quả đã đạt.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-3d1076644140",
@@ -79638,17 +79802,181 @@
       "intro": [
         {
           "pinyin": "dǎkāi",
-          "meaning": "mở ra"
+          "meaning": "mở ra; bật"
         }
       ],
-      "meaning": "mở ra",
-      "status": "catalog",
+      "meaning": "mở ra; bật",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-026 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请打开窗户。",
+          "vi": "Xin mở cửa sổ.",
+          "analysis": "窗户 là vật được mở; 请 là lời nhờ.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng dǎkāi chuānghu."
+        },
+        {
+          "id": "e2",
+          "zh": "老师打开书，开始上课。",
+          "vi": "Giáo viên mở sách, bắt đầu lên lớp.",
+          "analysis": "打开书 là mở quyển sách; hành động tiếp theo được nêu ở vế sau.",
+          "practiceAllowed": true,
+          "pinyin": "Lǎoshī dǎkāi shū, kāishǐ shàngkè."
+        }
+      ],
       "sourceIndex": 341,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 347,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=打开"
+        ],
+        "introduction": {
+          "scope": "mở ra; bật"
+        },
+        "meaning": {
+          "scene": "Bạn mở cửa sổ cho thoáng hoặc mở quyển sách để học.",
+          "explanation": "打开 diễn tả làm cho một vật mở ra, hoặc mở/bật thứ có thể sử dụng như máy tính, tệp. Trong 打开门, 打 không có nghĩa phải đánh vào cửa; cả cụm là mở cửa.",
+          "boundary": "打开 và 开 thường cùng dùng với cửa, cửa sổ. Nhưng 开 còn có các kết hợp như 开车 là lái xe, 开会 là họp; không thêm 打 vào mọi từ có 开.",
+          "conditions": [
+            "Đối tượng được mở nằm sau 打开. 没打开 nói lần đó chưa/không mở được hoặc chưa mở, tùy ngữ cảnh; 打不开 nhấn không mở ra được."
+          ],
+          "takeaway": "打开 diễn tả làm cho một vật mở ra, hoặc mở/bật thứ có thể sử dụng như máy tính, tệp. Trong 打开门, 打 không có nghĩa phải đánh vào cửa; cả cụm là mở cửa."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 打开 + đối tượng",
+            "position": "Đặt vật hoặc nội dung cần mở ngay sau 打开; 请 đứng trước để nhờ lịch sự.",
+            "required": "Đối tượng được mở nằm sau 打开. 没打开 nói lần đó chưa/không mở được hoặc chưa mở, tùy ngữ cảnh; 打不开 nhấn không mở ra được.",
+            "omission": "Khi đã chỉ rõ vật, có thể lược đối tượng trong 打开吧; không lược khi người nghe chưa biết cần mở gì.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请打开窗户。",
+            "vi": "Xin mở cửa sổ.",
+            "analysis": "窗户 là vật được mở; 请 là lời nhờ.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng dǎkāi chuānghu."
+          },
+          {
+            "id": "e2",
+            "zh": "老师打开书，开始上课。",
+            "vi": "Giáo viên mở sách, bắt đầu lên lớp.",
+            "analysis": "打开书 là mở quyển sách; hành động tiếp theo được nêu ở vế sau.",
+            "practiceAllowed": true,
+            "pinyin": "Lǎoshī dǎkāi shū, kāishǐ shàngkè."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "打开 không thay được mọi 开",
+            "scene": "Bạn mở cửa xe hoặc nói biết lái xe.",
+            "possibleConfusion": "打开 không thay được mọi 开",
+            "difference": "打开车门 là mở cánh cửa xe; 开车 là lái xe. Nghĩa khác nhau do kết hợp từ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请打开车门。",
+                "vi": "Xin mở cửa xe.",
+                "comment": "Mở bộ phận cửa.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他会开车。",
+                "vi": "Anh ấy biết lái xe.",
+                "comment": "开车 là kỹ năng lái.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 开车 thành 打开车 không giữ nghĩa lái xe; muốn mở cửa xe cần nêu 车门."
+            },
+            "boundary": "打开门 và 开门 thường gần nghĩa. Không suy từ cặp đó rằng 打开 luôn thay được 开.",
+            "tip": "Mở vật: 打开; lái xe: 开车."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "打 thanh ba, 开 thanh một; thanh ba trước âm tiếp thường thấp, không cần hạ rồi nâng trọn.",
+          "literalTranslation": "打开 và 开 thường cùng dùng với cửa, cửa sổ. Nhưng 开 còn có các kết hợp như 开车 là lái xe, 开会 là họp; không thêm 打 vào mọi từ có 开.",
+          "confusables": "打开车门 là mở cánh cửa xe; 开车 là lái xe. Nghĩa khác nhau do kết hợp từ."
+        },
+        "pronunciation": {
+          "text": "打 thanh ba, 开 thanh một; thanh ba trước âm tiếp thường thấp, không cần hạ rồi nâng trọn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 窗户 / 打开 / 请。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Có thể dùng 打开车 để diễn đạt biết lái xe thay cho 开车 không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请打开窗户。"
+            ],
+            "explanation": "Vật cần mở theo sau 打开."
+          },
+          "q2": {
+            "accepted": [
+              "Không; lái xe dùng 开车."
+            ],
+            "explanation": "打开车 không giữ nghĩa lái; mở cửa xe là 打开车门."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhờ bạn mở cửa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói giáo viên đã mở quyển sách này."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng lời nhờ và nêu vật.",
+            "frame": "请 + 打开 + 门。",
+            "model": "请打开门。",
+            "vi": "Xin mở cửa.",
+            "criteria": [
+              "Đặt vật hoặc nội dung cần mở ngay sau 打开; 请 đứng trước để nhờ lịch sự.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu hành động đã hoàn tất và đối tượng.",
+            "frame": "老师 + 打开了 + 这本书。",
+            "model": "老师打开了这本书。",
+            "vi": "Giáo viên đã mở quyển sách này.",
+            "criteria": [
+              "Đặt vật hoặc nội dung cần mở ngay sau 打开; 请 đứng trước để nhờ lịch sự.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "tìm thấy",
@@ -79658,35 +79986,364 @@
           "meaning": "tìm thấy"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我找到钥匙了。",
+          "vi": "Tôi tìm thấy chìa khóa rồi.",
+          "analysis": "到 nêu kết quả tìm thấy; 了 cuối câu báo tin mới.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ zhǎodào yàoshi le."
+        },
+        {
+          "id": "e2",
+          "zh": "我找了很久，还是没找到。",
+          "vi": "Tôi tìm lâu rồi mà vẫn chưa thấy.",
+          "analysis": "找了很久 kể quá trình; 没找到 phủ nhận kết quả, không mâu thuẫn với đã tìm.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ zhǎo le hěn jiǔ, háishi méi zhǎodào."
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-49ee7acee48b",
       "hanzi": "找到",
       "level": 1,
       "sourceIndex": 342,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-026 · phức tạp",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 348,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=找到"
+        ],
+        "introduction": {
+          "scope": "tìm thấy"
+        },
+        "meaning": {
+          "scene": "Bạn tìm chìa khóa một lúc rồi thấy nó trên bàn.",
+          "explanation": "找到 là tìm và có kết quả tìm thấy. 找 chỉ hành động tìm; 到 bổ sung kết quả. Vì vậy đang 找 chưa có nghĩa đã 找到. Đối tượng có thể là đồ vật, người hoặc thứ đang cần như công việc.",
+          "boundary": "找到 không phải đi tìm tới một nơi: 到 ở đây đánh dấu kết quả. Tìm thấy một thứ cũng không tự bảo đảm đã lấy hoặc mua được thứ ấy.",
+          "conditions": [
+            "没找到 phủ nhận kết quả trong lần tìm; 找不到 nói không tìm ra được, thường vì khó khăn hoặc điều kiện hiện tại. Hai cách có thể cùng hợp một tình huống nhưng nhấn khác."
+          ],
+          "takeaway": "找到 là tìm và có kết quả tìm thấy. 找 chỉ hành động tìm; 到 bổ sung kết quả. Vì vậy đang 找 chưa có nghĩa đã 找到. Đối tượng có thể là đồ vật, người hoặc thứ đang cần như công việc."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 找到 + đối tượng；người + 没找到 + đối tượng",
+            "position": "Đối tượng cần tìm đứng sau 找到; 没 đặt trước cả cụm.",
+            "required": "没找到 phủ nhận kết quả trong lần tìm; 找不到 nói không tìm ra được, thường vì khó khăn hoặc điều kiện hiện tại. Hai cách có thể cùng hợp một tình huống nhưng nhấn khác.",
+            "omission": "Có thể đáp 找到了 khi đối tượng đã được hỏi hoặc chỉ rõ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我找到钥匙了。",
+            "vi": "Tôi tìm thấy chìa khóa rồi.",
+            "analysis": "到 nêu kết quả tìm thấy; 了 cuối câu báo tin mới.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zhǎodào yàoshi le."
+          },
+          {
+            "id": "e2",
+            "zh": "我找了很久，还是没找到。",
+            "vi": "Tôi tìm lâu rồi mà vẫn chưa thấy.",
+            "analysis": "找了很久 kể quá trình; 没找到 phủ nhận kết quả, không mâu thuẫn với đã tìm.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zhǎo le hěn jiǔ, háishi méi zhǎodào."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "找 không bảo đảm 找到",
+            "scene": "Bạn kể đã tìm điện thoại nhưng vẫn chưa thấy.",
+            "possibleConfusion": "找 không bảo đảm 找到",
+            "difference": "找 là hành động; 找到 là đạt kết quả. Có thể đã tìm rất lâu mà chưa tìm thấy.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我在找手机。",
+                "vi": "Tôi đang tìm điện thoại.",
+                "comment": "Hành động đang diễn ra.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我找到手机了。",
+                "vi": "Tôi tìm thấy điện thoại rồi.",
+                "comment": "Kết quả đã có.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 找 thành 找到 chuyển sang xác nhận kết quả; không dùng để nói đang tìm mà chưa biết điện thoại ở đâu."
+            },
+            "boundary": "没找到 thường báo kết quả của lần tìm; 找不到 nhấn tìm không ra, đôi khi dùng được trong cùng cảnh.",
+            "tip": "Đang tìm: 找; thấy rồi: 找到了."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "找 có thanh gốc ba, 到 thanh bốn; thanh ba trước âm tiếp thường thấp, không cần đọc đường cong trọn.",
+          "literalTranslation": "找到 không phải đi tìm tới một nơi: 到 ở đây đánh dấu kết quả. Tìm thấy một thứ cũng không tự bảo đảm đã lấy hoặc mua được thứ ấy.",
+          "confusables": "找 là hành động; 找到 là đạt kết quả. Có thể đã tìm rất lâu mà chưa tìm thấy."
+        },
+        "pronunciation": {
+          "text": "找 có thanh gốc ba, 到 thanh bốn; thanh ba trước âm tiếp thường thấp, không cần đọc đường cong trọn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Tôi đã tìm nhưng chưa thấy: 我找了，但是没… 。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "我在找手机 có bảo đảm đã biết điện thoại ở đâu không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我找了，但是没找到。"
+            ],
+            "explanation": "Hành động có xảy ra nhưng chưa đạt kết quả."
+          },
+          "q2": {
+            "accepted": [
+              "Không; câu chỉ nói đang tìm."
+            ],
+            "explanation": "找到 mới nêu kết quả tìm thấy."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Báo bạn đã tìm thấy quyển sách rồi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể đã tìm rất lâu nhưng chưa thấy chìa khóa."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng kết quả tìm thấy.",
+            "frame": "我 + 找到 + 书 + 了。",
+            "model": "我找到书了。",
+            "vi": "Tôi tìm thấy sách rồi.",
+            "criteria": [
+              "Đối tượng cần tìm đứng sau 找到; 没 đặt trước cả cụm.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Tách quá trình và kết quả chưa đạt.",
+            "frame": "我找了很久，但是 + 没找到钥匙。",
+            "model": "我找了很久，但是没找到钥匙。",
+            "vi": "Tôi tìm rất lâu rồi nhưng chưa thấy chìa khóa.",
+            "criteria": [
+              "Đối tượng cần tìm đứng sau 找到; 没 đặt trước cả cụm.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "đến",
+      "meaning": "đến; tới một nơi",
       "intro": [
         {
-          "pinyin": "lái dào",
-          "meaning": "đến"
+          "pinyin": "láidào",
+          "meaning": "đến; tới một nơi"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我第一次来到北京。",
+          "vi": "Tôi lần đầu đến Bắc Kinh.",
+          "analysis": "第一次 nêu lần trải nghiệm; 北京 là đích được kể.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ dì yī cì láidào Běijīng."
+        },
+        {
+          "id": "e2",
+          "zh": "欢迎你来到我们学校。",
+          "vi": "Chào mừng bạn đến trường chúng tôi.",
+          "analysis": "来到 đặt sau lời chào mừng, hướng về trường được lấy làm điểm đón.",
+          "practiceAllowed": true,
+          "pinyin": "Huānyíng nǐ láidào wǒmen xuéxiào."
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-39ce62c27719",
       "hanzi": "来到",
       "level": 1,
       "sourceIndex": 343,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-026 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 349,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=来到"
+        ],
+        "introduction": {
+          "scope": "đến; tới một nơi"
+        },
+        "meaning": {
+          "scene": "Bạn kể lần đầu đến một thành phố mới.",
+          "explanation": "来到 nói đến một nơi, kết hợp hướng về điểm nhìn của 来 với đích đến của 到. Trong lời kể, nơi nhân vật tới có thể được chọn làm trung tâm câu chuyện; người kể không nhất thiết đang đứng ở đó khi kể.",
+          "boundary": "来到 thường dùng khi kể việc đến một nơi hoặc trong lời chào đón. 到 gọn hơn khi chỉ báo mốc tới; 来 nhấn hướng về điểm nhìn. Không cần dùng 来到 trong mọi câu có chữ đến.",
+          "conditions": [
+            "Địa điểm đứng sau 来到. Không chen địa điểm vào giữa 来 và 到 như mẫu 进屋来, vì đây là cấu trúc khác."
+          ],
+          "takeaway": "来到 nói đến một nơi, kết hợp hướng về điểm nhìn của 来 với đích đến của 到. Trong lời kể, nơi nhân vật tới có thể được chọn làm trung tâm câu chuyện; người kể không nhất thiết đang đứng ở đó khi kể."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 来到 + nơi",
+            "position": "Nơi đến theo sau cả cụm 来到. 第一次 có thể đứng trước để nêu lần đầu.",
+            "required": "Địa điểm đứng sau 来到. Không chen địa điểm vào giữa 来 và 到 như mẫu 进屋来, vì đây là cấu trúc khác.",
+            "omission": "Nếu không nêu nơi và chỉ báo đã tới, thường dùng 我到了 hoặc 我来了 theo ý muốn nói; không cắt đích khỏi mọi câu 来到.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我第一次来到北京。",
+            "vi": "Tôi lần đầu đến Bắc Kinh.",
+            "analysis": "第一次 nêu lần trải nghiệm; 北京 là đích được kể.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ dì yī cì láidào Běijīng."
+          },
+          {
+            "id": "e2",
+            "zh": "欢迎你来到我们学校。",
+            "vi": "Chào mừng bạn đến trường chúng tôi.",
+            "analysis": "来到 đặt sau lời chào mừng, hướng về trường được lấy làm điểm đón.",
+            "practiceAllowed": true,
+            "pinyin": "Huānyíng nǐ láidào wǒmen xuéxiào."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "来到 và 到 thường gần nhau nhưng khác cách kể",
+            "scene": "Bạn kể lần đầu tới Bắc Kinh hoặc báo giờ tới trường.",
+            "possibleConfusion": "来到 và 到 thường gần nhau nhưng khác cách kể",
+            "difference": "来到 thường làm nổi bật việc đến nơi trong lời kể/chào đón; 到 trực tiếp nêu đích hoặc giờ đến.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我第一次来到北京。",
+                "vi": "Tôi lần đầu đến Bắc Kinh.",
+                "comment": "Lấy Bắc Kinh làm nơi đến trong câu chuyện.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我八点到学校。",
+                "vi": "Tôi đến trường lúc tám giờ.",
+                "comment": "Nhấn mốc có mặt.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Đổi 来到 thành 到 trong câu đầu thường vẫn đúng và gần nghĩa; thay 到 bằng 来到 trong câu hai cần điểm nhìn và văn cảnh phù hợp."
+            },
+            "boundary": "Không đặt ranh giới rằng 来到 chỉ dùng trong văn viết hay chỉ cho chuyến đi xa.",
+            "tip": "Kể đến nơi: có thể 来到; báo giờ tới: 到 thường gọn."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "来 thanh hai, 到 thanh bốn; giữ hai âm tiết rõ, không đọc 来 như thanh nhẹ trong từ đứng riêng.",
+          "literalTranslation": "来到 thường dùng khi kể việc đến một nơi hoặc trong lời chào đón. 到 gọn hơn khi chỉ báo mốc tới; 来 nhấn hướng về điểm nhìn. Không cần dùng 来到 trong mọi câu có chữ đến.",
+          "confusables": "来到 thường làm nổi bật việc đến nơi trong lời kể/chào đón; 到 trực tiếp nêu đích hoặc giờ đến."
+        },
+        "pronunciation": {
+          "text": "来 thanh hai, 到 thanh bốn; giữ hai âm tiết rõ, không đọc 来 như thanh nhẹ trong từ đứng riêng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 北京 / 来到 / 我 / 第一次。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Đổi 来到 thành 到 trong 我第一次来到北京 có nhất thiết sai không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我第一次来到北京。"
+            ],
+            "explanation": "第一次 trước động từ; nơi đến sau cả 来到."
+          },
+          "q2": {
+            "accepted": [
+              "Không; 我第一次到北京 vẫn dùng được."
+            ],
+            "explanation": "Hai cách có vùng gần nghĩa; 来到 thường làm nổi bật việc đến nơi trong lời kể."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Kể lần đầu bạn tới ngôi trường này; ngôi trường này là 这所学校."
+          },
+          {
+            "id": "s2",
+            "prompt": "Chào mừng một người đến Bắc Kinh trong vai chủ nhà đón khách."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu lần trải nghiệm và nơi đến.",
+            "frame": "我 + 第一次 + 来到 + 这所学校。",
+            "model": "我第一次来到这所学校。",
+            "vi": "Tôi lần đầu đến ngôi trường này.",
+            "criteria": [
+              "所 là lượng từ được cung cấp cho 学校 trong tình huống này.",
+              "Nơi đến theo sau cả cụm 来到. 第一次 có thể đứng trước để nêu lần đầu.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng lời chào với điểm đón.",
+            "frame": "欢迎你 + 来到 + 北京。",
+            "model": "欢迎你来到北京。",
+            "vi": "Chào mừng bạn đến Bắc Kinh.",
+            "criteria": [
+              "Nơi đến theo sau cả cụm 来到. 第一次 có thể đứng trước để nêu lần đầu.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-e67e2220e9ba",
@@ -79695,17 +80352,197 @@
       "intro": [
         {
           "pinyin": "jìnqù",
-          "meaning": "vào trong"
+          "meaning": "đi vào trong"
         }
       ],
-      "meaning": "vào trong",
-      "status": "catalog",
+      "meaning": "đi vào trong",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-026 · phức tạp",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "你先进去吧，我在门外等。",
+          "vi": "Bạn vào trước đi, tôi đợi ngoài cửa.",
+          "analysis": "Người nói ở ngoài nên chuyển động vào trong rời điểm nhìn.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ xiān jìnqù ba, wǒ zài ménwài děng."
+        },
+        {
+          "id": "e2",
+          "zh": "他进屋去了。",
+          "vi": "Anh ấy đi vào trong nhà rồi.",
+          "analysis": "屋 nằm giữa 进 và 去; 来/去 không đứng trước địa điểm trong mẫu này.",
+          "practiceAllowed": true,
+          "targetParts": [
+            "进",
+            "去"
+          ],
+          "pinyin": "Tā jìn wū qù le."
+        }
+      ],
       "sourceIndex": 344,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 350,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=进去"
+        ],
+        "introduction": {
+          "scope": "đi vào trong"
+        },
+        "meaning": {
+          "scene": "Bạn đứng ngoài phòng và bảo bạn mình vào trước.",
+          "explanation": "进去 là từ ngoài vào trong, theo hướng rời điểm nhìn. Khi người nói đứng ngoài nhìn người khác bước vào phòng, 进去 là lựa chọn tự nhiên. Điểm nhìn có thể được chuyển trong lời kể, nên cần dựa vào cả tình huống.",
+          "boundary": "进来 cũng là vào trong nhưng hướng về điểm nhìn, như người trong phòng mời khách vào chỗ mình. Không phải cứ vào nhà thì luôn dùng cùng một từ bất kể người nói ở đâu.",
+          "conditions": [
+            "Khi nêu nơi đi vào trong mẫu cơ bản, đặt nơi giữa 进 và 去: 进屋去. Nếu không cần nhấn hướng, 进屋 cũng dùng được."
+          ],
+          "takeaway": "进去 là từ ngoài vào trong, theo hướng rời điểm nhìn. Khi người nói đứng ngoài nhìn người khác bước vào phòng, 进去 là lựa chọn tự nhiên. Điểm nhìn có thể được chuyển trong lời kể, nên cần dựa vào cả tình huống."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 进去",
+            "position": "Địa điểm chen giữa 进 và 去 nếu có; 先 đặt trước cụm để nói vào trước.",
+            "required": "Khi nêu nơi đi vào trong mẫu cơ bản, đặt nơi giữa 进 và 去: 进屋去. Nếu không cần nhấn hướng, 进屋 cũng dùng được.",
+            "omission": "Có thể lược nơi khi cả hai đang nhìn hoặc nói về cùng một phòng.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "người + 进 + nơi + 去",
+            "position": "屋 đứng giữa 进 và 去.",
+            "required": "Điểm nhìn ở ngoài nơi người kia đi vào.",
+            "omission": "Nếu nơi đã rõ, có thể nói 他进去了.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你先进去吧，我在门外等。",
+            "vi": "Bạn vào trước đi, tôi đợi ngoài cửa.",
+            "analysis": "Người nói ở ngoài nên chuyển động vào trong rời điểm nhìn.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ xiān jìnqù ba, wǒ zài ménwài děng."
+          },
+          {
+            "id": "e2",
+            "zh": "他进屋去了。",
+            "vi": "Anh ấy đi vào trong nhà rồi.",
+            "analysis": "屋 nằm giữa 进 và 去; 来/去 không đứng trước địa điểm trong mẫu này.",
+            "practiceAllowed": true,
+            "targetParts": [
+              "进",
+              "去"
+            ],
+            "pinyin": "Tā jìn wū qù le."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "进去 khác 进来 theo điểm nhìn",
+            "scene": "Một người đứng ngoài nhắc vào trước; một người trong phòng mời vào.",
+            "possibleConfusion": "进去 khác 进来 theo điểm nhìn",
+            "difference": "进去 vào xa điểm nhìn; 进来 vào về phía điểm nhìn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你进去吧，我在外面等你。",
+                "vi": "Bạn vào đi, tôi đợi bạn ở ngoài.",
+                "comment": "Điểm nhìn bên ngoài.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "请进来，我在里面。",
+                "vi": "Mời vào đây, tôi ở trong.",
+                "comment": "Điểm nhìn bên trong.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 去 thành 来 đổi hướng theo điểm nhìn; câu có thể không hợp nơi người nói đã nêu."
+            },
+            "boundary": "Hai người ở hai phía có thể nói về cùng chuyển động bằng hai từ khác nhau.",
+            "tip": "Người ngoài nhìn vào: 进去; người trong đón vào: 进来."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "进 thanh bốn, 去 có thanh gốc bốn; 去 có thể nhẹ hơn trong cụm hướng khi nói liền. Giữ rõ âm cuối của 进.",
+          "literalTranslation": "进来 cũng là vào trong nhưng hướng về điểm nhìn, như người trong phòng mời khách vào chỗ mình. Không phải cứ vào nhà thì luôn dùng cùng một từ bất kể người nói ở đâu.",
+          "confusables": "进去 vào xa điểm nhìn; 进来 vào về phía điểm nhìn."
+        },
+        "pronunciation": {
+          "text": "进 thanh bốn, 去 có thanh gốc bốn; 去 có thể nhẹ hơn trong cụm hướng khi nói liền. Giữ rõ âm cuối của 进. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Bạn đứng ngoài và sẽ chờ ở ngoài. Điền 进去 hoặc 进来: 你…吧，我在外面等。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp: 屋 / 去 / 进 / 他 / 了。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你进去吧，我在外面等。"
+            ],
+            "explanation": "Chuyển động vào trong rời điểm nhìn của người nói."
+          },
+          "q2": {
+            "accepted": [
+              "他进屋去了。"
+            ],
+            "explanation": "屋 nằm giữa 进 và 去."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Bạn ở ngoài lớp, bảo bạn mình vào trước."
+          },
+          {
+            "id": "s2",
+            "prompt": "Bạn đứng ngoài, kể giáo viên đã vào nhà rồi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Lấy phía ngoài làm điểm nhìn.",
+            "frame": "你 + 先 + 进去 + 吧。",
+            "model": "你先进去吧。",
+            "vi": "Bạn vào trước đi.",
+            "criteria": [
+              "Địa điểm chen giữa 进 và 去 nếu có; 先 đặt trước cụm để nói vào trước.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu nơi giữa hai phần chỉ hướng.",
+            "frame": "老师 + 进屋去 + 了。",
+            "model": "老师进屋去了。",
+            "vi": "Giáo viên đi vào nhà rồi.",
+            "criteria": [
+              "Địa điểm chen giữa 进 và 去 nếu có; 先 đặt trước cụm để nói vào trước.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-c985498f1319",
@@ -79714,18 +80551,197 @@
       "intro": [
         {
           "pinyin": "jìnlái",
-          "meaning": "vào đây",
-          "sourcePinyin": "jìn lái"
+          "meaning": "vào đây"
         }
       ],
       "meaning": "vào đây",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-026 · phức tạp",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请进来，我在里面。",
+          "vi": "Mời vào đây, tôi ở bên trong.",
+          "analysis": "Người nói ở trong nên 来 hướng về điểm nhìn đó.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng jìnlái, wǒ zài lǐmian."
+        },
+        {
+          "id": "e2",
+          "zh": "孩子进屋来了。",
+          "vi": "Đứa trẻ đi vào nhà rồi (về phía người đang ở trong).",
+          "analysis": "屋 nằm giữa 进 và 来; điểm nhìn ở phía trong nơi trẻ đi vào.",
+          "practiceAllowed": true,
+          "targetParts": [
+            "进",
+            "来"
+          ],
+          "pinyin": "Háizi jìn wū lái le."
+        }
+      ],
       "sourceIndex": 345,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 351,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=进来"
+        ],
+        "introduction": {
+          "scope": "vào đây"
+        },
+        "meaning": {
+          "scene": "Bạn đang ở trong phòng, mời người đứng ngoài cửa vào.",
+          "explanation": "进来 diễn tả từ ngoài vào trong, về phía điểm nhìn. Khi người nói ở trong phòng mời khách, 进来 là vào đây. Trong lời kể, điểm nhìn cũng có thể là nơi đang được lấy làm trung tâm.",
+          "boundary": "进来 không chỉ nói vị trí ở trong; nó nêu việc di chuyển vào. 进去 cùng là vào nhưng rời điểm nhìn, thường dùng khi người nói lấy bên ngoài làm trung tâm.",
+          "conditions": [
+            "Có thể nói 请进来 khi mời. Nếu thêm nơi theo mẫu cơ bản, đặt nơi giữa 进 và 来: 进屋来."
+          ],
+          "takeaway": "进来 diễn tả từ ngoài vào trong, về phía điểm nhìn. Khi người nói ở trong phòng mời khách, 进来 là vào đây. Trong lời kể, điểm nhìn cũng có thể là nơi đang được lấy làm trung tâm."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 进来",
+            "position": "来 theo sau 进 hoặc sau nơi được chen giữa; 请 đứng đầu lời mời.",
+            "required": "Có thể nói 请进来 khi mời. Nếu thêm nơi theo mẫu cơ bản, đặt nơi giữa 进 và 来: 进屋来.",
+            "omission": "Có thể lược chủ ngữ và nơi trong 请进来 khi đã rõ ai được mời vào phòng nào.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "người + 进 + nơi + 来",
+            "position": "屋 đứng giữa 进 và 来.",
+            "required": "Điểm nhìn nằm phía trong nơi người kia đi vào.",
+            "omission": "Nếu nơi đã rõ, có thể nói 孩子进来了.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请进来，我在里面。",
+            "vi": "Mời vào đây, tôi ở bên trong.",
+            "analysis": "Người nói ở trong nên 来 hướng về điểm nhìn đó.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng jìnlái, wǒ zài lǐmian."
+          },
+          {
+            "id": "e2",
+            "zh": "孩子进屋来了。",
+            "vi": "Đứa trẻ đi vào nhà rồi (về phía người đang ở trong).",
+            "analysis": "屋 nằm giữa 进 và 来; điểm nhìn ở phía trong nơi trẻ đi vào.",
+            "practiceAllowed": true,
+            "targetParts": [
+              "进",
+              "来"
+            ],
+            "pinyin": "Háizi jìn wū lái le."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "进来 và 进去 cùng là vào nhưng khác hướng nhìn",
+            "scene": "Bạn mời người ngoài vào chỗ mình, hoặc đứng ngoài bảo họ vào trước.",
+            "possibleConfusion": "进来 và 进去 cùng là vào nhưng khác hướng nhìn",
+            "difference": "进来 hướng vào phía điểm nhìn; 进去 hướng vào xa điểm nhìn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你进来吧，我在里面等你。",
+                "vi": "Bạn vào đây nhé, tôi đợi bên trong.",
+                "comment": "Người đợi ở trong.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你先进去，我还在外面。",
+                "vi": "Bạn vào trước đi, tôi vẫn ở ngoài.",
+                "comment": "Người nói lấy ngoài làm điểm nhìn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 来 thành 去 thay điểm nhìn; không giữ nguyên quan hệ hướng đã nêu ở vế sau."
+            },
+            "boundary": "Trong lời kể có thể chuyển điểm nhìn, nhưng phải nhất quán với tình huống.",
+            "tip": "Trong phòng đón người vào: 进来."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "进 thanh bốn, 来 có thanh gốc hai; 来 trong lời nói nối có thể nhẹ hơn. Không lược hẳn âm tiết 来.",
+          "literalTranslation": "进来 không chỉ nói vị trí ở trong; nó nêu việc di chuyển vào. 进去 cùng là vào nhưng rời điểm nhìn, thường dùng khi người nói lấy bên ngoài làm trung tâm.",
+          "confusables": "进来 hướng vào phía điểm nhìn; 进去 hướng vào xa điểm nhìn."
+        },
+        "pronunciation": {
+          "text": "进 thanh bốn, 来 có thanh gốc hai; 来 trong lời nói nối có thể nhẹ hơn. Không lược hẳn âm tiết 来. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Bạn ở trong phòng và mời khách đứng ngoài vào. Điền 进来 hoặc 进去: 请… 。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp: 来 / 孩子 / 屋 / 进 / 了。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请进来。"
+            ],
+            "explanation": "Hướng vào phía người đang đón ở trong."
+          },
+          "q2": {
+            "accepted": [
+              "孩子进屋来了。"
+            ],
+            "explanation": "屋 chen giữa 进 và 来."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Bạn ở trong lớp, mời bạn mình vào đây."
+          },
+          {
+            "id": "s2",
+            "prompt": "Bạn ở trong nhà, gọi em đi vào trong nhà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 来 theo điểm nhìn bên trong.",
+            "frame": "请 + 进来。",
+            "model": "请进来。",
+            "vi": "Mời vào đây.",
+            "criteria": [
+              "来 theo sau 进 hoặc sau nơi được chen giữa; 请 đứng đầu lời mời.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu nơi giữa hai phần hướng.",
+            "frame": "你 + 进屋来 + 吧。",
+            "model": "你进屋来吧。",
+            "vi": "Em vào trong nhà đây nhé.",
+            "criteria": [
+              "来 theo sau 进 hoặc sau nơi được chen giữa; 请 đứng đầu lời mời.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-b68721647e72",
@@ -79734,22 +80750,189 @@
       "intro": [
         {
           "pinyin": "xià",
-          "meaning": "dưới"
+          "meaning": "dưới; xuống; tiếp theo"
         }
       ],
-      "meaning": "dưới",
-      "status": "example",
+      "meaning": "dưới; xuống; tiếp theo",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-026 · phức tạp",
       "examples": [
         {
+          "id": "e1",
           "zh": "猫在桌子下。",
-          "vi": "Con mèo ở dưới bàn."
+          "vi": "Con mèo ở dưới bàn.",
+          "analysis": "桌子 là vật mốc; 下 theo sau tạo cụm vị trí.",
+          "practiceAllowed": true,
+          "pinyin": "Māo zài zhuōzi xià."
+        },
+        {
+          "id": "e2",
+          "zh": "下次我们一起去。",
+          "vi": "Lần sau chúng ta cùng đi.",
+          "analysis": "下次 là mốc lần tiếp theo, không phải một vị trí bên dưới.",
+          "practiceAllowed": true,
+          "pinyin": "Xià cì wǒmen yīqǐ qù."
         }
       ],
       "sourceIndex": 346,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 352,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=下"
+        ],
+        "introduction": {
+          "scope": "dưới; xuống; tiếp theo"
+        },
+        "meaning": {
+          "scene": "Bạn chỉ chỗ con mèo ở dưới bàn, rồi nói về lần gặp tiếp theo.",
+          "explanation": "下 có vài cách dùng thường gặp cần tách rõ. Sau tên vật, nó chỉ phía dưới: 桌子下. Trong 下楼, 下车, nó nêu đi xuống hoặc rời phương tiện. Trước đơn vị thời gian/lần, như 下次, 下个月, nó chỉ tiếp theo.",
+          "boundary": "Không lấy nghĩa dưới để dịch mọi 下. 下课 là hết tiết học; 下次 là lần sau. Muốn nói vị trí, cần cả vật mốc như 桌子下, không chỉ dịch một chữ dưới đứng riêng.",
+          "conditions": [
+            "Vị trí: vật mốc + 下, có thể mở rộng thành 下面. Tiếp theo: 下 + 次, hoặc 下 + 个 + 月 theo lượng từ của đơn vị."
+          ],
+          "takeaway": "下 có vài cách dùng thường gặp cần tách rõ. Sau tên vật, nó chỉ phía dưới: 桌子下. Trong 下楼, 下车, nó nêu đi xuống hoặc rời phương tiện. Trước đơn vị thời gian/lần, như 下次, 下个月, nó chỉ tiếp theo."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + vật mốc + 下",
+            "position": "下 chỉ phía dưới đứng sau vật mốc; 下 trong 下次 đứng trước 次. Hai vị trí thuộc hai cấu trúc khác nhau.",
+            "required": "Vị trí: vật mốc + 下, có thể mở rộng thành 下面. Tiếp theo: 下 + 次, hoặc 下 + 个 + 月 theo lượng từ của đơn vị.",
+            "omission": "Khi vật mốc đã rõ có thể dùng 下面 để chỉ bên dưới; không tự bỏ vật mốc trong mọi câu có 下.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "下次 + chủ ngữ + hành động",
+            "position": "下次 nằm trước hoạt động để nêu lần tiếp theo.",
+            "required": "次 đi trực tiếp sau 下, không cần thêm 个.",
+            "omission": "Có thể lược chủ ngữ trong lời hẹn 下次一起去 khi nhóm đi đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "猫在桌子下。",
+            "vi": "Con mèo ở dưới bàn.",
+            "analysis": "桌子 là vật mốc; 下 theo sau tạo cụm vị trí.",
+            "practiceAllowed": true,
+            "pinyin": "Māo zài zhuōzi xià."
+          },
+          {
+            "id": "e2",
+            "zh": "下次我们一起去。",
+            "vi": "Lần sau chúng ta cùng đi.",
+            "analysis": "下次 là mốc lần tiếp theo, không phải một vị trí bên dưới.",
+            "practiceAllowed": true,
+            "pinyin": "Xià cì wǒmen yīqǐ qù."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "下 không luôn là phía dưới",
+            "scene": "Bạn gặp 下 trong vị trí và trong hành động rời xe.",
+            "possibleConfusion": "下 không luôn là phía dưới",
+            "difference": "桌子下 là phía dưới bàn; 下车 là xuống/rời xe, không có nghĩa nằm ở dưới xe.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "猫在车下。",
+                "vi": "Con mèo ở dưới xe.",
+                "comment": "车下 là vị trí phía dưới phương tiện.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他下车了。",
+                "vi": "Anh ấy xuống xe rồi.",
+                "comment": "下车 là hành động rời phương tiện.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi thứ tự 车下 và 下车 thay cấu trúc và nghĩa; không chỉ là hai trật tự tương đương."
+            },
+            "boundary": "下楼 nêu đi xuống tầng; 下次 nêu lần tiếp theo. Đọc cả cụm để chọn nghĩa.",
+            "tip": "Vật + 下: phía dưới; 下车: xuống xe."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "下 thanh bốn, chỉ một âm tiết; không đọc thành hai âm khi gặp nguyên âm ghép.",
+          "literalTranslation": "Không lấy nghĩa dưới để dịch mọi 下. 下课 là hết tiết học; 下次 là lần sau. Muốn nói vị trí, cần cả vật mốc như 桌子下, không chỉ dịch một chữ dưới đứng riêng.",
+          "confusables": "桌子下 là phía dưới bàn; 下车 là xuống/rời xe, không có nghĩa nằm ở dưới xe."
+        },
+        "pronunciation": {
+          "text": "下 thanh bốn, chỉ một âm tiết; không đọc thành hai âm khi gặp nguyên âm ghép. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "车下 và 下车 khác nhau thế nào?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp câu con mèo ở dưới bàn: 桌子 / 猫 / 下 / 在。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "车下 là dưới xe; 下车 là xuống/rời xe."
+            ],
+            "explanation": "Thứ tự chữ làm đổi cấu trúc từ vị trí sang hành động."
+          },
+          "q2": {
+            "accepted": [
+              "猫在桌子下。"
+            ],
+            "explanation": "下 đặt sau vật mốc 桌子."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói sách ở dưới bàn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hẹn lần sau cùng ăn cơm."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng vật mốc rồi từ chỉ vị trí.",
+            "frame": "书 + 在 + 桌子下。",
+            "model": "书在桌子下。",
+            "vi": "Sách ở dưới bàn.",
+            "criteria": [
+              "下 chỉ phía dưới đứng sau vật mốc; 下 trong 下次 đứng trước 次. Hai vị trí thuộc hai cấu trúc khác nhau.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 下次 làm mốc trước hoạt động.",
+            "frame": "下次 + 我们 + 一起吃饭。",
+            "model": "下次我们一起吃饭。",
+            "vi": "Lần sau chúng ta cùng ăn cơm.",
+            "criteria": [
+              "下 chỉ phía dưới đứng sau vật mốc; 下 trong 下次 đứng trước 次. Hai vị trí thuộc hai cấu trúc khác nhau.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-70e560bcaf57",
@@ -79758,17 +80941,181 @@
       "intro": [
         {
           "pinyin": "guān",
-          "meaning": "đóng"
+          "meaning": "đóng; tắt"
         }
       ],
-      "meaning": "đóng",
-      "status": "catalog",
+      "meaning": "đóng; tắt",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-026 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请关门，外面很冷。",
+          "vi": "Xin đóng cửa, ngoài trời lạnh lắm.",
+          "analysis": "关门 nêu đóng cửa; vế sau giải thích lý do.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng guān mén, wàimian hěn lěng."
+        },
+        {
+          "id": "e2",
+          "zh": "睡觉前记得关灯。",
+          "vi": "Trước khi ngủ nhớ tắt đèn.",
+          "analysis": "关灯 dịch là tắt đèn; 睡觉前 nêu mốc trước khi ngủ.",
+          "practiceAllowed": true,
+          "pinyin": "Shuìjiào qián jìde guān dēng."
+        }
+      ],
       "sourceIndex": 347,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 353,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=关"
+        ],
+        "introduction": {
+          "scope": "đóng; tắt"
+        },
+        "meaning": {
+          "scene": "Bạn đóng cửa sổ khi trời lạnh và tắt đèn trước khi ngủ.",
+          "explanation": "关 nghĩa là đóng với cửa/cửa sổ, và tắt với đèn hoặc một số thiết bị. Cách dịch phụ thuộc vật đi sau. Nó thường đối lập với 开 trong các kết hợp này.",
+          "boundary": "关门 là đóng cửa, chưa có nghĩa khóa cửa bằng chìa. Muốn nhấn khóa dùng 锁门. Không tự suy mọi lần đóng cửa đều có khóa.",
+          "conditions": [
+            "Đối tượng cần đóng hoặc tắt đặt sau 关. 别关灯 là đừng tắt đèn; 请关门 là lời nhờ đóng cửa."
+          ],
+          "takeaway": "关 nghĩa là đóng với cửa/cửa sổ, và tắt với đèn hoặc một số thiết bị. Cách dịch phụ thuộc vật đi sau. Nó thường đối lập với 开 trong các kết hợp này."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 关 + cửa/thiết bị",
+            "position": "关 đứng trước vật; 请 hoặc 别 đứng trước cụm hành động.",
+            "required": "Đối tượng cần đóng hoặc tắt đặt sau 关. 别关灯 là đừng tắt đèn; 请关门 là lời nhờ đóng cửa.",
+            "omission": "Có thể lược vật khi đã được chỉ rõ, nhưng trong lời nhờ mới nên nói rõ cửa hay đèn.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请关门，外面很冷。",
+            "vi": "Xin đóng cửa, ngoài trời lạnh lắm.",
+            "analysis": "关门 nêu đóng cửa; vế sau giải thích lý do.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng guān mén, wàimian hěn lěng."
+          },
+          {
+            "id": "e2",
+            "zh": "睡觉前记得关灯。",
+            "vi": "Trước khi ngủ nhớ tắt đèn.",
+            "analysis": "关灯 dịch là tắt đèn; 睡觉前 nêu mốc trước khi ngủ.",
+            "practiceAllowed": true,
+            "pinyin": "Shuìjiào qián jìde guān dēng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Đóng cửa chưa chắc khóa cửa",
+            "scene": "Bạn cần biết cửa chỉ khép hay đã khóa.",
+            "possibleConfusion": "Đóng cửa chưa chắc khóa cửa",
+            "difference": "关门 nêu đóng; 锁门 nêu khóa. Muốn biết có khóa an toàn hay chưa, không chỉ hỏi đã 关 chưa.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他关门了。",
+                "vi": "Anh ấy đóng cửa rồi.",
+                "comment": "Chưa xác nhận có khóa.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他锁门了。",
+                "vi": "Anh ấy khóa cửa rồi.",
+                "comment": "Xác nhận hành động khóa.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 关 thành 锁 bổ sung ý khóa cửa; không phải hai cách nói luôn thay được."
+            },
+            "boundary": "Một lần rời nhà có thể vừa 关门 vừa 锁门. Có loại cửa tự khóa khi đóng, nhưng đó là đặc tính cửa, không nằm sẵn trong nghĩa 关.",
+            "tip": "Đóng: 关; khóa: 锁."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "关 thanh một; giữ rõ âm cuối mũi, không đổi sang âm cuối của 光.",
+          "literalTranslation": "关门 là đóng cửa, chưa có nghĩa khóa cửa bằng chìa. Muốn nhấn khóa dùng 锁门. Không tự suy mọi lần đóng cửa đều có khóa.",
+          "confusables": "关门 nêu đóng; 锁门 nêu khóa. Muốn biết có khóa an toàn hay chưa, không chỉ hỏi đã 关 chưa."
+        },
+        "pronunciation": {
+          "text": "关 thanh một; giữ rõ âm cuối mũi, không đổi sang âm cuối của 光. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói 他关门了 có bảo đảm đã khóa cửa không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp lời nhờ: 灯 / 关 / 请。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; muốn nêu khóa dùng 锁门."
+            ],
+            "explanation": "Đóng và khóa là hai hành động cần phân biệt."
+          },
+          "q2": {
+            "accepted": [
+              "请关灯。"
+            ],
+            "explanation": "Thiết bị đứng sau 关; nghĩa là tắt đèn."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhờ người kia đóng cửa sổ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhắc em đừng tắt đèn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 请 với đồ vật cần đóng.",
+            "frame": "请 + 关 + 窗户。",
+            "model": "请关窗户。",
+            "vi": "Xin đóng cửa sổ.",
+            "criteria": [
+              "关 đứng trước vật; 请 hoặc 别 đứng trước cụm hành động.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Đặt 别 trước hành động.",
+            "frame": "别 + 关灯。",
+            "model": "别关灯。",
+            "vi": "Đừng tắt đèn.",
+            "criteria": [
+              "关 đứng trước vật; 请 hoặc 别 đứng trước cụm hành động.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "zai-again",
@@ -80172,22 +81519,189 @@
       "intro": [
         {
           "pinyin": "zuò",
-          "meaning": "ngồi"
+          "meaning": "ngồi; đi bằng phương tiện"
         }
       ],
-      "meaning": "ngồi",
-      "status": "example",
+      "meaning": "ngồi; đi bằng phương tiện",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-026 · phức tạp",
       "examples": [
         {
+          "id": "e1",
           "zh": "请坐。",
-          "vi": "Mời ngồi."
+          "vi": "Mời ngồi.",
+          "analysis": "坐 là hành động ngồi; chỗ ngồi được hiểu theo tình huống.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng zuò."
+        },
+        {
+          "id": "e2",
+          "zh": "我坐公交车去学校。",
+          "vi": "Tôi đi xe buýt đến trường.",
+          "analysis": "坐公交车 nêu phương tiện; 去学校 nêu đích. Không khẳng định luôn có ghế ngồi.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ zuò gōngjiāochē qù xuéxiào."
         }
       ],
       "sourceIndex": 349,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 354,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=坐"
+        ],
+        "introduction": {
+          "scope": "ngồi; đi bằng phương tiện"
+        },
+        "meaning": {
+          "scene": "Bạn mời khách ngồi rồi nói cách mình đi học.",
+          "explanation": "坐 có nghĩa ngồi, như 请坐. Nó còn dùng trước tên phương tiện để nói đi bằng phương tiện đó: 坐公交车, 坐飞机. Trong cách dùng này không nhất thiết hành khách được ngồi ghế suốt chuyến.",
+          "boundary": "坐 khác 做 dù cùng cách đọc: 做 là làm, như 做作业. 坐公交车 nói đi xe buýt, không phải làm xe buýt hoặc chỉ ngồi trên một chiếc xe không di chuyển.",
+          "conditions": [
+            "Khi nói chỗ ngồi, dùng 坐在 + nơi. Khi nói phương tiện đi, dùng 坐 + phương tiện, có thể theo sau bằng 去 + đích."
+          ],
+          "takeaway": "坐 có nghĩa ngồi, như 请坐. Nó còn dùng trước tên phương tiện để nói đi bằng phương tiện đó: 坐公交车, 坐飞机. Trong cách dùng này không nhất thiết hành khách được ngồi ghế suốt chuyến."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "请坐",
+            "position": "Phương tiện đứng ngay sau 坐; nơi đến đi sau 去 nếu có. Với tư thế ở đâu, thêm 在 trước địa điểm.",
+            "required": "Khi nói chỗ ngồi, dùng 坐在 + nơi. Khi nói phương tiện đi, dùng 坐 + phương tiện, có thể theo sau bằng 去 + đích.",
+            "omission": "Có thể chỉ nói 请坐 trong lời mời; câu về phương tiện cần nêu loại xe nếu chưa rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "người + 坐 + phương tiện + 去 + nơi",
+            "position": "Phương tiện theo sau 坐, đích theo sau 去.",
+            "required": "坐公交车 là dùng xe buýt làm phương tiện, không khẳng định có ghế.",
+            "omission": "Nếu đích đã rõ, có thể chỉ nói 我坐公交车.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请坐。",
+            "vi": "Mời ngồi.",
+            "analysis": "坐 là hành động ngồi; chỗ ngồi được hiểu theo tình huống.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng zuò."
+          },
+          {
+            "id": "e2",
+            "zh": "我坐公交车去学校。",
+            "vi": "Tôi đi xe buýt đến trường.",
+            "analysis": "坐公交车 nêu phương tiện; 去学校 nêu đích. Không khẳng định luôn có ghế ngồi.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zuò gōngjiāochē qù xuéxiào."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "坐 và 做 đồng âm nhưng khác nghĩa",
+            "scene": "Bạn viết về đi xe hoặc làm bài tập.",
+            "possibleConfusion": "坐 và 做 đồng âm nhưng khác nghĩa",
+            "difference": "坐 là ngồi/đi bằng phương tiện; 做 là làm. Phát âm giống không có nghĩa chữ viết thay cho nhau.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我坐车去学校。",
+                "vi": "Tôi đi xe đến trường.",
+                "comment": "坐车 nêu phương tiện đi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我在家做作业。",
+                "vi": "Tôi làm bài tập ở nhà.",
+                "comment": "做作业 là làm bài tập.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Viết 做车 để diễn đạt đi xe là không đúng lựa chọn chữ trong nghĩa này; dùng 坐车."
+            },
+            "boundary": "Cần dựa vào nghĩa và từ đi cùng, không chỉ dựa vào âm đọc.",
+            "tip": "Đi xe/ngồi: 坐; làm việc: 做."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "坐 thanh bốn, cùng cách đọc với 做. Âm đầu không bật hơi mạnh; phân biệt chữ bằng nghĩa.",
+          "literalTranslation": "坐 khác 做 dù cùng cách đọc: 做 là làm, như 做作业. 坐公交车 nói đi xe buýt, không phải làm xe buýt hoặc chỉ ngồi trên một chiếc xe không di chuyển.",
+          "confusables": "坐 là ngồi/đi bằng phương tiện; 做 là làm. Phát âm giống không có nghĩa chữ viết thay cho nhau."
+        },
+        "pronunciation": {
+          "text": "坐 thanh bốn, cùng cách đọc với 做. Âm đầu không bật hơi mạnh; phân biệt chữ bằng nghĩa. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Chọn chữ 坐 hoặc 做 để nói đi xe: 我…车去学校。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "坐公交车 có bảo đảm hành khách ngồi ghế suốt chuyến không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我坐车去学校。"
+            ],
+            "explanation": "坐车 là đi bằng xe."
+          },
+          "q2": {
+            "accepted": [
+              "Không; cụm này nói sử dụng xe buýt làm phương tiện."
+            ],
+            "explanation": "Nghĩa phương tiện rộng hơn tư thế ngồi."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Mời một người khách ngồi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn đi máy bay đến Bắc Kinh; máy bay là 飞机."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng lời mời gọn.",
+            "frame": "请 + 坐。",
+            "model": "请坐。",
+            "vi": "Mời ngồi.",
+            "criteria": [
+              "Phương tiện đứng ngay sau 坐; nơi đến đi sau 去 nếu có. Với tư thế ở đâu, thêm 在 trước địa điểm.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu phương tiện rồi đích.",
+            "frame": "我 + 坐飞机 + 去北京。",
+            "model": "我坐飞机去北京。",
+            "vi": "Tôi đi máy bay đến Bắc Kinh.",
+            "criteria": [
+              "Phương tiện đứng ngay sau 坐; nơi đến đi sau 去 nếu có. Với tư thế ở đâu, thêm 在 trước địa điểm.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-403341d793e5",
@@ -80196,17 +81710,189 @@
       "intro": [
         {
           "pinyin": "fàng",
-          "meaning": "đặt"
+          "meaning": "đặt; để"
         }
       ],
-      "meaning": "đặt",
-      "status": "catalog",
+      "meaning": "đặt; để",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-026 · phức tạp",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "手机放在桌子上。",
+          "vi": "Điện thoại được để trên bàn.",
+          "analysis": "手机 là chủ đề/vật được đặt; 放在桌子上 mô tả nơi để.",
+          "practiceAllowed": true,
+          "pinyin": "Shǒujī fàng zài zhuōzi shàng."
+        },
+        {
+          "id": "e2",
+          "zh": "请把书放在这里。",
+          "vi": "Hãy để sách ở đây.",
+          "analysis": "把书 đưa vật ra trước; 这里 theo sau 放在 để nêu nơi đặt.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng bǎ shū fàng zài zhèlǐ."
+        }
+      ],
       "sourceIndex": 350,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 355,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=放"
+        ],
+        "introduction": {
+          "scope": "đặt; để"
+        },
+        "meaning": {
+          "scene": "Bạn đặt điện thoại lên bàn rồi nhắc người khác để sách đúng chỗ.",
+          "explanation": "放 trong bài này là đặt/để một vật vào một chỗ. Có thể đưa vật lên làm chủ đề rồi nói 放在 + nơi, hoặc dùng 把 + vật + 放在 + nơi khi muốn nói rõ xử lý vật đó thế nào.",
+          "boundary": "放 còn có nghĩa khác theo cụm: 放音乐 là phát nhạc, 放假 là được nghỉ. Không dịch mọi 放 thành đặt. 放在桌子上 nói để trên bàn, không tự khẳng định sắp xếp gọn đẹp.",
+          "conditions": [
+            "Với nghĩa đặt ở đâu, 在 + nơi thường theo sau 放. Khung 把 đưa vật cần đặt ra trước động từ: 把书放在桌子上."
+          ],
+          "takeaway": "放 trong bài này là đặt/để một vật vào một chỗ. Có thể đưa vật lên làm chủ đề rồi nói 放在 + nơi, hoặc dùng 把 + vật + 放在 + nơi khi muốn nói rõ xử lý vật đó thế nào."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "vật + 放在 + nơi",
+            "position": "Địa điểm đứng sau 放在. Trong khung 把, vật đứng sau 把 và trước 放.",
+            "required": "Với nghĩa đặt ở đâu, 在 + nơi thường theo sau 放. Khung 把 đưa vật cần đặt ra trước động từ: 把书放在桌子上.",
+            "omission": "Có thể lược người làm trong lời nhắc trực tiếp; không lược vị trí khi người nghe chưa biết cần để ở đâu.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "请 + 把 + vật + 放在 + nơi",
+            "position": "把书 ở trước 放在, 这里 ở sau 放在.",
+            "required": "Vật được nhắc cần rõ với người nghe trong câu dùng 把 này.",
+            "omission": "Lời nhờ trực tiếp có thể lược chủ ngữ 你.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "手机放在桌子上。",
+            "vi": "Điện thoại được để trên bàn.",
+            "analysis": "手机 là chủ đề/vật được đặt; 放在桌子上 mô tả nơi để.",
+            "practiceAllowed": true,
+            "pinyin": "Shǒujī fàng zài zhuōzi shàng."
+          },
+          {
+            "id": "e2",
+            "zh": "请把书放在这里。",
+            "vi": "Hãy để sách ở đây.",
+            "analysis": "把书 đưa vật ra trước; 这里 theo sau 放在 để nêu nơi đặt.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng bǎ shū fàng zài zhèlǐ."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "放在 và 在: đặt/để so với chỉ vị trí",
+            "scene": "Bạn nhắc cách để sách hoặc chỉ cho biết sách ở đâu.",
+            "possibleConfusion": "放在 và 在: đặt/để so với chỉ vị trí",
+            "difference": "放在 có ý đặt/để; 在 đơn thuần chỉ vị trí. Với vật làm chủ đề, 放在 cũng có thể mô tả trạng thái được để ở đó.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请把书放在桌子上。",
+                "vi": "Hãy đặt sách lên bàn.",
+                "comment": "Yêu cầu hành động đặt.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "书在桌子上。",
+                "vi": "Sách ở trên bàn.",
+                "comment": "Chỉ vị trí, không nói ai đặt.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Bỏ 放 khỏi khung 把 không giữ cấu trúc lời yêu cầu đặt; muốn chỉ vị trí dùng 书在桌子上."
+            },
+            "boundary": "书放在桌子上 và 书在桌子上 có thể cùng miêu tả vị trí hiện tại, câu đầu thêm ý sách được để ở đó.",
+            "tip": "Muốn ai đặt vật: 把 vật 放在 nơi."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "放 thanh bốn; giữ âm cuối mũi sau, không đọc lẫn với 饭.",
+          "literalTranslation": "放 còn có nghĩa khác theo cụm: 放音乐 là phát nhạc, 放假 là được nghỉ. Không dịch mọi 放 thành đặt. 放在桌子上 nói để trên bàn, không tự khẳng định sắp xếp gọn đẹp.",
+          "confusables": "放在 có ý đặt/để; 在 đơn thuần chỉ vị trí. Với vật làm chủ đề, 放在 cũng có thể mô tả trạng thái được để ở đó."
+        },
+        "pronunciation": {
+          "text": "放 thanh bốn; giữ âm cuối mũi sau, không đọc lẫn với 饭. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 这里 / 请 / 放在 / 书 / 把。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "书在桌子上 có nêu ai đã đặt sách không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请把书放在这里。"
+            ],
+            "explanation": "把书 đứng trước 放在; nơi theo sau."
+          },
+          "q2": {
+            "accepted": [
+              "Không; câu chỉ cho biết sách ở trên bàn."
+            ],
+            "explanation": "在 nêu vị trí, không tự kể hành động đặt."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhờ bạn đặt điện thoại lên bàn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói sách được để ở đây."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 把 để đưa vật cần đặt ra trước.",
+            "frame": "请 + 把手机 + 放在桌子上。",
+            "model": "请把手机放在桌子上。",
+            "vi": "Hãy đặt điện thoại lên bàn.",
+            "criteria": [
+              "Địa điểm đứng sau 放在. Trong khung 把, vật đứng sau 把 và trước 放.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Đưa vật lên làm chủ đề.",
+            "frame": "书 + 放在 + 这里。",
+            "model": "书放在这里。",
+            "vi": "Sách được để ở đây.",
+            "criteria": [
+              "Địa điểm đứng sau 放在. Trong khung 把, vật đứng sau 把 và trước 放.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-e4652f41d307",
@@ -80219,13 +81905,177 @@
         }
       ],
       "meaning": "mệt",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-026 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我今天很累。",
+          "vi": "Hôm nay tôi rất mệt.",
+          "analysis": "今天 nêu thời gian; 很累 nhận xét trạng thái trực tiếp.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ jīntiān hěn lèi."
+        },
+        {
+          "id": "e2",
+          "zh": "你累吗？休息一下吧。",
+          "vi": "Bạn mệt không? Nghỉ một lát nhé.",
+          "analysis": "累吗 hỏi trạng thái; 休息一下 đề nghị nghỉ, không bắt buộc ngủ.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ lèi ma? Xiūxi yīxià ba."
+        }
+      ],
       "sourceIndex": 351,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 356,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=累"
+        ],
+        "introduction": {
+          "scope": "mệt"
+        },
+        "meaning": {
+          "scene": "Bạn làm việc cả ngày rồi thấy mệt và muốn nghỉ.",
+          "explanation": "累 nói mệt do hoạt động, công việc hoặc áp lực. Có thể nhận xét trực tiếp 我很累, không cần 是 trước tính từ. 太累了 nhấn mệt quá; 有点儿累 là hơi mệt.",
+          "boundary": "累 không nhất thiết là buồn ngủ. 困 thường nói buồn ngủ; người có thể mệt mà chưa muốn ngủ, hoặc buồn ngủ dù không làm việc nặng.",
+          "conditions": [
+            "Phủ định trạng thái là 不累. 很累, 太累了 và 有点儿累 có mức độ khác nhau; chọn theo cảm giác thực tế."
+          ],
+          "takeaway": "累 nói mệt do hoạt động, công việc hoặc áp lực. Có thể nhận xét trực tiếp 我很累, không cần 是 trước tính từ. 太累了 nhấn mệt quá; 有点儿累 là hơi mệt."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 很/有点儿 + 累；người + 不累",
+            "position": "Từ mức độ hoặc 不 đứng trước 累. 了 cuối câu có thể báo tình trạng mệt hiện tại mới xuất hiện.",
+            "required": "Phủ định trạng thái là 不累. 很累, 太累了 và 有点儿累 có mức độ khác nhau; chọn theo cảm giác thực tế.",
+            "omission": "Khi người nói đã rõ, có thể đáp 有点儿累; không cần lặp lại 我.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我今天很累。",
+            "vi": "Hôm nay tôi rất mệt.",
+            "analysis": "今天 nêu thời gian; 很累 nhận xét trạng thái trực tiếp.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ jīntiān hěn lèi."
+          },
+          {
+            "id": "e2",
+            "zh": "你累吗？休息一下吧。",
+            "vi": "Bạn mệt không? Nghỉ một lát nhé.",
+            "analysis": "累吗 hỏi trạng thái; 休息一下 đề nghị nghỉ, không bắt buộc ngủ.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ lèi ma? Xiūxi yīxià ba."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "累 khác 困",
+            "scene": "Bạn mệt sau vận động hoặc buồn ngủ vào đêm muộn.",
+            "possibleConfusion": "累 khác 困",
+            "difference": "累 là mệt; 困 là buồn ngủ trong cách dùng này. Hai trạng thái có thể cùng có nhưng không đồng nhất.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我很累，但是不困。",
+                "vi": "Tôi rất mệt nhưng không buồn ngủ.",
+                "comment": "Có mệt mà vẫn tỉnh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我很困，想睡觉。",
+                "vi": "Tôi rất buồn ngủ, muốn ngủ.",
+                "comment": "Nêu nhu cầu ngủ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 累 thành 困 đổi trạng thái được kể; câu về mệt không tự có nghĩa muốn ngủ."
+            },
+            "boundary": "Sau một ngày dài có thể vừa 累 vừa 困; 休息 có thể giúp cả hai nhưng không bắt buộc là ngủ.",
+            "tip": "Mệt: 累; buồn ngủ: 困."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "累 nghĩa mệt đọc thanh bốn. Chữ này có cách đọc khác trong từ ghép như 积累; không đem cách đọc đó sang 我很累.",
+          "literalTranslation": "累 không nhất thiết là buồn ngủ. 困 thường nói buồn ngủ; người có thể mệt mà chưa muốn ngủ, hoặc buồn ngủ dù không làm việc nặng.",
+          "confusables": "累 là mệt; 困 là buồn ngủ trong cách dùng này. Hai trạng thái có thể cùng có nhưng không đồng nhất."
+        },
+        "pronunciation": {
+          "text": "累 nghĩa mệt đọc thanh bốn. Chữ này có cách đọc khác trong từ ghép như 积累; không đem cách đọc đó sang 我很累. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "我很累，但是不困 có mâu thuẫn không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp: 很 / 今天 / 累 / 我。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; có thể mệt nhưng không buồn ngủ."
+            ],
+            "explanation": "累 và 困 nói hai trạng thái khác nhau."
+          },
+          "q2": {
+            "accepted": [
+              "我今天很累。"
+            ],
+            "explanation": "很 đứng trước 累; thời gian có thể đứng sau chủ ngữ hoặc đầu câu."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn hôm nay hơi mệt."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi bạn của bạn có mệt không."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng mức độ nhẹ.",
+            "frame": "我今天 + 有点儿累。",
+            "model": "我今天有点儿累。",
+            "vi": "Hôm nay tôi hơi mệt.",
+            "criteria": [
+              "Từ mức độ hoặc 不 đứng trước 累. 了 cuối câu có thể báo tình trạng mệt hiện tại mới xuất hiện.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng câu hỏi trạng thái.",
+            "frame": "你 + 累 + 吗？",
+            "model": "你累吗？",
+            "vi": "Bạn mệt không?",
+            "criteria": [
+              "Từ mức độ hoặc 不 đứng trước 累. 了 cuối câu có thể báo tình trạng mệt hiện tại mới xuất hiện.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-23ccc8f46893",
@@ -80234,17 +82084,189 @@
       "intro": [
         {
           "pinyin": "zǒu",
-          "meaning": "đi"
+          "meaning": "đi; đi bộ; rời đi"
         }
       ],
-      "meaning": "đi",
-      "status": "catalog",
+      "meaning": "đi; đi bộ; rời đi",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-026 · phức tạp",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我每天走路去学校。",
+          "vi": "Tôi đi bộ đến trường mỗi ngày.",
+          "analysis": "走路 nêu phương thức; 去学校 nêu đích.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ měitiān zǒulù qù xuéxiào."
+        },
+        {
+          "id": "e2",
+          "zh": "时间不早了，我先走了。",
+          "vi": "Không còn sớm nữa, tôi đi trước nhé.",
+          "analysis": "先走了 là lời báo rời đi; không xác định sẽ đi bộ hay đi xe.",
+          "practiceAllowed": true,
+          "pinyin": "Shíjiān bù zǎo le, wǒ xiān zǒu le."
+        }
+      ],
       "sourceIndex": 352,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 357,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=走"
+        ],
+        "introduction": {
+          "scope": "đi; đi bộ; rời đi"
+        },
+        "meaning": {
+          "scene": "Bạn đi bộ tới trường hoặc báo mình phải rời buổi gặp.",
+          "explanation": "走 có thể nói đi bằng chân, hoặc rời một nơi. 走路 nhấn đi bộ; 我先走了 thường là lời báo tôi đi trước đây, không nhất thiết nói người ấy sẽ đi bộ cả hành trình.",
+          "boundary": "走 khác 去: 去 nêu đi tới nơi khác theo điểm nhìn; 走 có thể nêu cách đi bằng chân hoặc việc rời chỗ hiện tại. Không dịch mọi chữ đi trong tiếng Việt bằng cùng một từ.",
+          "conditions": [
+            "Muốn nói rõ đi bộ tới đâu, có thể dùng 走路去 + nơi. Muốn báo rời chỗ, dùng 先走了 hoặc 要走了 theo tình huống."
+          ],
+          "takeaway": "走 có thể nói đi bằng chân, hoặc rời một nơi. 走路 nhấn đi bộ; 我先走了 thường là lời báo tôi đi trước đây, không nhất thiết nói người ấy sẽ đi bộ cả hành trình."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 走路 + 去 + nơi",
+            "position": "走路 đứng trước 去 + đích khi nêu phương thức. 先 đứng trước 走 khi nói đi trước.",
+            "required": "Muốn nói rõ đi bộ tới đâu, có thể dùng 走路去 + nơi. Muốn báo rời chỗ, dùng 先走了 hoặc 要走了 theo tình huống.",
+            "omission": "Khi rời buổi gặp, có thể không nêu đích: 我先走了. Người nghe không nên tự suy phương tiện từ câu này.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "người + 先走了",
+            "position": "先 đứng trước 走; 了 cuối câu báo ý định rời ngay trong lời chào này.",
+            "required": "Câu chào này không tự chỉ ra sẽ đi bằng phương tiện nào.",
+            "omission": "Không cần nêu nơi đến nếu mục đích chỉ là chào rời buổi gặp.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我每天走路去学校。",
+            "vi": "Tôi đi bộ đến trường mỗi ngày.",
+            "analysis": "走路 nêu phương thức; 去学校 nêu đích.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ měitiān zǒulù qù xuéxiào."
+          },
+          {
+            "id": "e2",
+            "zh": "时间不早了，我先走了。",
+            "vi": "Không còn sớm nữa, tôi đi trước nhé.",
+            "analysis": "先走了 là lời báo rời đi; không xác định sẽ đi bộ hay đi xe.",
+            "practiceAllowed": true,
+            "pinyin": "Shíjiān bù zǎo le, wǒ xiān zǒu le."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "走 và 去 không hỏi cùng một điều",
+            "scene": "Bạn phân biệt đi bằng cách nào, đi đâu và rời đi.",
+            "possibleConfusion": "走 và 去 không hỏi cùng một điều",
+            "difference": "去学校 nêu đích; 走路去学校 thêm cách đi bộ. 走了 trong lời chào có thể chỉ rời chỗ hiện tại.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我去学校。",
+                "vi": "Tôi đi đến trường.",
+                "comment": "Chưa nêu phương tiện.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我走路去学校。",
+                "vi": "Tôi đi bộ đến trường.",
+                "comment": "Nêu rõ đi bộ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thêm 走路 làm rõ phương thức; không suy đi bộ chỉ từ 去 hoặc từ lời báo 我先走了."
+            },
+            "boundary": "Nếu nói 我走到学校, 走 kết hợp 到 có thể nói đi bộ tới trường; không dùng 走学校 như khung thay tự động cho 去学校.",
+            "tip": "Đi đâu: 去; đi bộ: 走路; rời đây: 走 trong ngữ cảnh."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "走 thanh ba; trước âm tiếp thường đọc thấp, không luôn cần nâng đầy đủ.",
+          "literalTranslation": "走 khác 去: 去 nêu đi tới nơi khác theo điểm nhìn; 走 có thể nêu cách đi bằng chân hoặc việc rời chỗ hiện tại. Không dịch mọi chữ đi trong tiếng Việt bằng cùng một từ.",
+          "confusables": "去学校 nêu đích; 走路去学校 thêm cách đi bộ. 走了 trong lời chào có thể chỉ rời chỗ hiện tại."
+        },
+        "pronunciation": {
+          "text": "走 thanh ba; trước âm tiếp thường đọc thấp, không luôn cần nâng đầy đủ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "我先走了 có bảo đảm người nói sẽ đi bộ cả quãng đường không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp: 学校 / 我 / 去 / 走路。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; trong lời chào câu chỉ báo rời đi."
+            ],
+            "explanation": "Muốn nói rõ đi bộ dùng 走路 hoặc ngữ cảnh phương thức."
+          },
+          "q2": {
+            "accepted": [
+              "我走路去学校。"
+            ],
+            "explanation": "Phương thức 走路 đứng trước 去 và đích."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn đi bộ đến trường."
+          },
+          {
+            "id": "s2",
+            "prompt": "Bạn cần rời buổi trò chuyện trước, nói lời báo ngắn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu phương thức rồi đích.",
+            "frame": "我 + 走路 + 去学校。",
+            "model": "我走路去学校。",
+            "vi": "Tôi đi bộ đến trường.",
+            "criteria": [
+              "走路 đứng trước 去 + đích khi nêu phương thức. 先 đứng trước 走 khi nói đi trước.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 先走了 như lời chào rời đi.",
+            "frame": "我 + 先走 + 了。",
+            "model": "我先走了。",
+            "vi": "Tôi đi trước nhé.",
+            "criteria": [
+              "走路 đứng trước 去 + đích khi nêu phương thức. 先 đứng trước 走 khi nói đi trước.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-267df531c499",
@@ -80253,36 +82275,372 @@
       "intro": [
         {
           "pinyin": "qǐ",
-          "meaning": "dậy"
+          "meaning": "dậy; đứng lên (trong các kết hợp)"
         }
       ],
-      "meaning": "dậy",
-      "status": "catalog",
+      "meaning": "dậy; đứng lên (trong các kết hợp)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-026 · phức tạp",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "你每天几点起？",
+          "vi": "Bạn mỗi ngày mấy giờ dậy?",
+          "analysis": "Ngữ cảnh là giờ dậy buổi sáng; 起 ở đây hiểu là 起床.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ měitiān jǐ diǎn qǐ?"
+        },
+        {
+          "id": "e2",
+          "zh": "我今天起得很早。",
+          "vi": "Hôm nay tôi dậy rất sớm.",
+          "analysis": "起得很早 nhận xét dậy sớm; 得 nối với phần 很早.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ jīntiān qǐ de hěn zǎo."
+        }
+      ],
       "sourceIndex": 353,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 358,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=起"
+        ],
+        "introduction": {
+          "scope": "dậy; đứng lên (trong các kết hợp)"
+        },
+        "meaning": {
+          "scene": "Bạn hỏi giờ dậy buổi sáng của người quen.",
+          "explanation": "起 có nghĩa đứng dậy hoặc dậy khỏi giường trong các kết hợp như 起床, 起来. Trong ngữ cảnh giờ ngủ dậy đã rõ, có thể nói 你几点起 hoặc 我起得很早 mà không lặp 床.",
+          "boundary": "起 không đồng nghĩa với tỉnh giấc: 醒 nói tỉnh sau khi ngủ, còn 起床 là dậy khỏi giường. Trong 想起, 起 thuộc cụm nghĩa nhớ ra; không dịch riêng chữ này thành dậy trong mọi từ ghép.",
+          "conditions": [
+            "Dùng 起床 khi muốn nói rõ việc dậy khỏi giường. Khung 起得很早 nói dậy sớm; 得 nối hành động và phần nhận xét mức độ/thời điểm tương đối."
+          ],
+          "takeaway": "起 có nghĩa đứng dậy hoặc dậy khỏi giường trong các kết hợp như 起床, 起来. Trong ngữ cảnh giờ ngủ dậy đã rõ, có thể nói 你几点起 hoặc 我起得很早 mà không lặp 床."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 几点起？",
+            "position": "几点 đứng trước 起 để hỏi giờ. Trong 起得很早, 很早 đứng sau 得; không đổi thành 很起早.",
+            "required": "Dùng 起床 khi muốn nói rõ việc dậy khỏi giường. Khung 起得很早 nói dậy sớm; 得 nối hành động và phần nhận xét mức độ/thời điểm tương đối.",
+            "omission": "床 có thể lược trong câu hỏi/nhận xét về giờ dậy khi ngữ cảnh đã rõ; không bỏ tùy ý trong mọi từ có 起.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "người + 起得 + nhận xét sớm/muộn",
+            "position": "得 nối 起 với 很早 hoặc 有点儿晚.",
+            "required": "Đang nói việc dậy khỏi giường, không chỉ tỉnh giấc.",
+            "omission": "Có thể nói 起得很早 khi người được nhận xét đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你每天几点起？",
+            "vi": "Bạn mỗi ngày mấy giờ dậy?",
+            "analysis": "Ngữ cảnh là giờ dậy buổi sáng; 起 ở đây hiểu là 起床.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ měitiān jǐ diǎn qǐ?"
+          },
+          {
+            "id": "e2",
+            "zh": "我今天起得很早。",
+            "vi": "Hôm nay tôi dậy rất sớm.",
+            "analysis": "起得很早 nhận xét dậy sớm; 得 nối với phần 很早.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ jīntiān qǐ de hěn zǎo."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Tỉnh giấc khác ra khỏi giường",
+            "scene": "Bạn đã tỉnh nhưng vẫn nằm nghỉ trên giường.",
+            "possibleConfusion": "Tỉnh giấc khác ra khỏi giường",
+            "difference": "醒 là tỉnh giấc; 起床 là dậy khỏi giường. Trong ngữ cảnh đã rõ, 起 có thể rút gọn từ 起床.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我醒了，但还没起床。",
+                "vi": "Tôi tỉnh rồi nhưng vẫn chưa dậy khỏi giường.",
+                "comment": "Hai trạng thái không mâu thuẫn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我已经起床了。",
+                "vi": "Tôi đã dậy khỏi giường rồi.",
+                "comment": "Đã thực hiện việc dậy.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 醒 thành 起床 làm thay đổi sự việc; tỉnh chưa chắc đã rời giường."
+            },
+            "boundary": "Trong thực tế hai việc thường gần nhau về thời gian, nhưng có thể tách biệt.",
+            "tip": "Mở mắt tỉnh: 醒; dậy khỏi giường: 起床."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "起 thanh ba, âm đầu bật hơi; trước âm khác thường đọc thấp thay vì hạ rồi nâng trọn.",
+          "literalTranslation": "起 không đồng nghĩa với tỉnh giấc: 醒 nói tỉnh sau khi ngủ, còn 起床 là dậy khỏi giường. Trong 想起, 起 thuộc cụm nghĩa nhớ ra; không dịch riêng chữ này thành dậy trong mọi từ ghép.",
+          "confusables": "醒 là tỉnh giấc; 起床 là dậy khỏi giường. Trong ngữ cảnh đã rõ, 起 có thể rút gọn từ 起床."
+        },
+        "pronunciation": {
+          "text": "起 thanh ba, âm đầu bật hơi; trước âm khác thường đọc thấp thay vì hạ rồi nâng trọn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "我醒了，但还没起床 có mâu thuẫn không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp: 很早 / 起得 / 我 / 今天。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; đã tỉnh nhưng có thể còn nằm trên giường."
+            ],
+            "explanation": "醒 và 起床 không cùng một hành động."
+          },
+          "q2": {
+            "accepted": [
+              "我今天起得很早。"
+            ],
+            "explanation": "得 nối 起 và phần nhận xét 很早."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi người kia mấy giờ dậy mỗi ngày, trong câu chuyện về giờ ngủ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hôm nay bạn dậy hơi muộn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Ngữ cảnh rõ nên có thể dùng 起.",
+            "frame": "你每天 + 几点 + 起？",
+            "model": "你每天几点起？",
+            "vi": "Bạn mỗi ngày mấy giờ dậy?",
+            "criteria": [
+              "几点 đứng trước 起 để hỏi giờ. Trong 起得很早, 很早 đứng sau 得; không đổi thành 很起早.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 得 nối hành động với nhận xét; hơi muộn là 有点儿晚.",
+            "frame": "我今天 + 起得 + 有点儿晚。",
+            "model": "我今天起得有点儿晚。",
+            "vi": "Hôm nay tôi dậy hơi muộn.",
+            "criteria": [
+              "几点 đứng trước 起 để hỏi giờ. Trong 起得很早, 很早 đứng sau 得; không đổi thành 很起早.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "lần tới",
+      "meaning": "lần sau; lần tới",
       "intro": [
         {
-          "pinyin": "xià cì",
-          "meaning": "lần tới"
+          "pinyin": "xiàcì",
+          "meaning": "lần sau; lần tới"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "下次我们一起吃饭。",
+          "vi": "Lần sau chúng ta cùng ăn cơm.",
+          "analysis": "下次 đứng đầu xác định dịp tiếp theo.",
+          "practiceAllowed": true,
+          "pinyin": "Xià cì wǒmen yīqǐ chī fàn."
+        },
+        {
+          "id": "e2",
+          "zh": "这次没时间，下次再说吧。",
+          "vi": "Lần này không có thời gian, để lần sau nói tiếp nhé.",
+          "analysis": "这次 đối lập 下次; 再 nói thực hiện vào dịp sau.",
+          "practiceAllowed": true,
+          "pinyin": "Zhè cì méi shíjiān, xià cì zài shuō ba."
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-f194001f6063",
       "hanzi": "下次",
       "level": 1,
       "sourceIndex": 354,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-026 · đơn giản",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 359,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=下次"
+        ],
+        "introduction": {
+          "scope": "lần sau; lần tới"
+        },
+        "meaning": {
+          "scene": "Bạn chưa đi ăn cùng bạn được và hẹn một lần khác.",
+          "explanation": "下次 chỉ lần tiếp theo của một hoạt động hoặc dịp đang nói tới. Nó có thể đứng đầu câu hoặc sau chủ ngữ, trước hành động. Không tự xác định là ngày mai.",
+          "boundary": "下次 phụ thuộc chuỗi sự việc: lần gặp sau, lần đi sau. 明天 là ngày mai trên lịch; lần sau có thể ngày mai hoặc muộn hơn.",
+          "conditions": [
+            "Có thể thêm 再 trước hành động để nói sẽ làm vào lần sau, như 下次再说. Không cần lượng từ 个 giữa 下 và 次."
+          ],
+          "takeaway": "下次 chỉ lần tiếp theo của một hoạt động hoặc dịp đang nói tới. Nó có thể đứng đầu câu hoặc sau chủ ngữ, trước hành động. Không tự xác định là ngày mai."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "下次 + chủ ngữ + hành động；chủ ngữ + 下次 + hành động",
+            "position": "下次 làm mốc thời gian, thường đứng trước động từ chính.",
+            "required": "Có thể thêm 再 trước hành động để nói sẽ làm vào lần sau, như 下次再说. Không cần lượng từ 个 giữa 下 và 次.",
+            "omission": "Khi đã rõ việc, có thể đáp 下次吧 để đề nghị để lần sau, nhưng cần giọng và ngữ cảnh phù hợp.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "下次我们一起吃饭。",
+            "vi": "Lần sau chúng ta cùng ăn cơm.",
+            "analysis": "下次 đứng đầu xác định dịp tiếp theo.",
+            "practiceAllowed": true,
+            "pinyin": "Xià cì wǒmen yīqǐ chī fàn."
+          },
+          {
+            "id": "e2",
+            "zh": "这次没时间，下次再说吧。",
+            "vi": "Lần này không có thời gian, để lần sau nói tiếp nhé.",
+            "analysis": "这次 đối lập 下次; 再 nói thực hiện vào dịp sau.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè cì méi shíjiān, xià cì zài shuō ba."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Lần sau không có ngày cố định",
+            "scene": "Bạn hẹn lần gặp tiếp theo mà chưa chốt lịch.",
+            "possibleConfusion": "Lần sau không có ngày cố định",
+            "difference": "下次 là dịp tiếp theo; 明天 là ngày ngay sau hôm nay.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "下次再见。",
+                "vi": "Hẹn gặp lại lần sau.",
+                "comment": "Chưa chốt ngày cụ thể.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "明天再见。",
+                "vi": "Hẹn gặp lại ngày mai.",
+                "comment": "Nêu ngày cụ thể.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 下次 bằng 明天 làm lịch hẹn cụ thể hơn; không được tự suy từ lần sau ra ngày mai."
+            },
+            "boundary": "Nếu lần gặp kế tiếp đúng ngày mai, cả hai cách có thể cùng đúng nhưng mức cụ thể khác.",
+            "tip": "下次 đếm dịp, 明天 chỉ ngày."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "下 và 次 đều thanh bốn; âm đầu 次 bật hơi, không đọc giống âm đầu của 字.",
+          "literalTranslation": "下次 phụ thuộc chuỗi sự việc: lần gặp sau, lần đi sau. 明天 là ngày mai trên lịch; lần sau có thể ngày mai hoặc muộn hơn.",
+          "confusables": "下次 là dịp tiếp theo; 明天 là ngày ngay sau hôm nay."
+        },
+        "pronunciation": {
+          "text": "下 và 次 đều thanh bốn; âm đầu 次 bật hơi, không đọc giống âm đầu của 字. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "下次 có nhất thiết là ngày mai không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp: 一起吃饭 / 我们 / 下次。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; đó là lần tiếp theo, chưa chốt ngày."
+            ],
+            "explanation": "Mốc phụ thuộc hoạt động được nói đến."
+          },
+          "q2": {
+            "accepted": [
+              "下次我们一起吃饭。"
+            ],
+            "explanation": "Cũng có thể nói 我们下次一起吃饭; mốc ở trước hành động."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hẹn lần sau cùng đi thư viện."
+          },
+          {
+            "id": "s2",
+            "prompt": "Bạn bận, đề nghị chuyện này để lần sau nói."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đưa mốc lần tiếp theo vào câu.",
+            "frame": "下次 + 我们 + 一起去图书馆。",
+            "model": "下次我们一起去图书馆。",
+            "vi": "Lần sau chúng ta cùng đi thư viện.",
+            "criteria": [
+              "下次 làm mốc thời gian, thường đứng trước động từ chính.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 下次再说 làm lời hoãn.",
+            "frame": "下次 + 再说 + 吧。",
+            "model": "下次再说吧。",
+            "vi": "Để lần sau nói nhé.",
+            "criteria": [
+              "下次 làm mốc thời gian, thường đứng trước động từ chính.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-a3dea621d16b",
@@ -80291,22 +82649,189 @@
       "intro": [
         {
           "pinyin": "xiàbān",
-          "meaning": "tan làm"
+          "meaning": "tan làm; hết ca làm"
         }
       ],
-      "meaning": "tan làm",
-      "status": "example",
+      "meaning": "tan làm; hết ca làm",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-026 · trung bình",
       "examples": [
         {
-          "zh": "我六点下班。",
-          "vi": "Tôi tan làm lúc sáu giờ."
+          "id": "e1",
+          "zh": "我今天六点下班。",
+          "vi": "Hôm nay tôi tan làm lúc sáu giờ.",
+          "analysis": "六点 là giờ kết thúc làm; chưa cho biết giờ về tới nhà.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ jīntiān liù diǎn xiàbān."
+        },
+        {
+          "id": "e2",
+          "zh": "下班后，我去买菜。",
+          "vi": "Sau khi tan làm, tôi đi mua rau/thực phẩm.",
+          "analysis": "下班后 đặt mốc cho hành động tiếp theo 去买菜.",
+          "practiceAllowed": true,
+          "pinyin": "Xiàbān hòu, wǒ qù mǎi cài."
         }
       ],
       "sourceIndex": 355,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 360,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=下班"
+        ],
+        "introduction": {
+          "scope": "tan làm; hết ca làm"
+        },
+        "meaning": {
+          "scene": "Bạn cho người nhà biết mấy giờ mình tan làm hôm nay.",
+          "explanation": "下班 là kết thúc giờ hoặc ca làm việc. Người đó có thể rời chỗ làm sau đó, nhưng từ này không tự nói đã về tới nhà. Nó cũng không có nghĩa bỏ việc hay nghỉ việc vĩnh viễn.",
+          "boundary": "下班 đối lập 上班 trong khung bắt đầu đi làm/đang làm và kết thúc giờ làm. Không dịch 下 theo nghĩa phía dưới trong cụm này.",
+          "conditions": [
+            "Thời gian tan làm thường đứng trước 下班. 下班后 là sau khi tan làm; có thể thêm hành động tiếp theo phía sau."
+          ],
+          "takeaway": "下班 là kết thúc giờ hoặc ca làm việc. Người đó có thể rời chỗ làm sau đó, nhưng từ này không tự nói đã về tới nhà. Nó cũng không có nghĩa bỏ việc hay nghỉ việc vĩnh viễn."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + giờ + 下班",
+            "position": "Giờ đặt trước 下班; 后 đứng sau cả cụm để tạo mốc sau khi tan làm.",
+            "required": "Thời gian tan làm thường đứng trước 下班. 下班后 là sau khi tan làm; có thể thêm hành động tiếp theo phía sau.",
+            "omission": "Có thể lược người trong câu hỏi 几点下班 khi đã rõ đang hỏi ai.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "下班后 + chủ ngữ + hành động",
+            "position": "后 đứng sau 下班 để tạo mốc cho việc tiếp theo.",
+            "required": "Việc đi mua đồ xảy ra sau khi kết thúc giờ làm.",
+            "omission": "Có thể lược chủ ngữ nếu đã rõ người thực hiện.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我今天六点下班。",
+            "vi": "Hôm nay tôi tan làm lúc sáu giờ.",
+            "analysis": "六点 là giờ kết thúc làm; chưa cho biết giờ về tới nhà.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ jīntiān liù diǎn xiàbān."
+          },
+          {
+            "id": "e2",
+            "zh": "下班后，我去买菜。",
+            "vi": "Sau khi tan làm, tôi đi mua rau/thực phẩm.",
+            "analysis": "下班后 đặt mốc cho hành động tiếp theo 去买菜.",
+            "practiceAllowed": true,
+            "pinyin": "Xiàbān hòu, wǒ qù mǎi cài."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Tan làm khác về tới nhà",
+            "scene": "Bạn cần phân biệt giờ hết ca với giờ có mặt ở nhà.",
+            "possibleConfusion": "Tan làm khác về tới nhà",
+            "difference": "下班 nói hết giờ làm; 到家 nói tới nhà. Hai mốc có thể cách nhau vì đi đường hoặc việc khác.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我六点下班。",
+                "vi": "Tôi tan làm lúc sáu giờ.",
+                "comment": "Mốc kết thúc giờ làm.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我七点到家。",
+                "vi": "Tôi về tới nhà lúc bảy giờ.",
+                "comment": "Mốc tới nhà.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 下班 thành 到家 thay sự việc được hẹn giờ; không thể suy giờ tới nhà từ giờ tan làm."
+            },
+            "boundary": "Làm việc tại nhà có thể khiến hai địa điểm trùng nhau, nhưng nghĩa hai cụm vẫn khác.",
+            "tip": "Hết ca: 下班; tới nhà: 到家."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "下 thanh bốn, 班 thanh một; giữ rõ cả hai âm, không đọc 班 thành thanh nhẹ.",
+          "literalTranslation": "下班 đối lập 上班 trong khung bắt đầu đi làm/đang làm và kết thúc giờ làm. Không dịch 下 theo nghĩa phía dưới trong cụm này.",
+          "confusables": "下班 nói hết giờ làm; 到家 nói tới nhà. Hai mốc có thể cách nhau vì đi đường hoặc việc khác."
+        },
+        "pronunciation": {
+          "text": "下 thanh bốn, 班 thanh một; giữ rõ cả hai âm, không đọc 班 thành thanh nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "我六点下班 có bảo đảm sáu giờ đã về tới nhà không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp: 我 / 去买菜 / 下班后。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; câu chỉ nêu giờ kết thúc ca làm."
+            ],
+            "explanation": "Còn có thời gian đi đường hoặc hoạt động khác."
+          },
+          "q2": {
+            "accepted": [
+              "下班后，我去买菜。"
+            ],
+            "explanation": "Cụm sau khi tan làm tạo mốc cho việc đi mua đồ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi bạn tan làm mấy giờ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói sau khi tan làm bạn đi về nhà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Hỏi giờ trước 下班.",
+            "frame": "你 + 几点 + 下班？",
+            "model": "你几点下班？",
+            "vi": "Bạn mấy giờ tan làm?",
+            "criteria": [
+              "Giờ đặt trước 下班; 后 đứng sau cả cụm để tạo mốc sau khi tan làm.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Đặt mốc trước hành động tiếp.",
+            "frame": "下班后 + 我 + 回家。",
+            "model": "下班后我回家。",
+            "vi": "Sau khi tan làm tôi về nhà.",
+            "criteria": [
+              "Giờ đặt trước 下班; 后 đứng sau cả cụm để tạo mốc sau khi tan làm.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-09b71694a709",
@@ -80315,41 +82840,372 @@
       "intro": [
         {
           "pinyin": "xiàkè",
-          "meaning": "tan học"
+          "meaning": "hết tiết; kết thúc giờ học"
         }
       ],
-      "meaning": "tan học",
-      "status": "example",
+      "meaning": "hết tiết; kết thúc giờ học",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-026 · trung bình",
       "examples": [
         {
+          "id": "e1",
           "zh": "我们十点下课。",
-          "vi": "Chúng tôi kết thúc giờ học lúc mười giờ."
+          "vi": "Chúng tôi kết thúc giờ học lúc mười giờ.",
+          "analysis": "十点 là mốc hết giờ học hiện tại, không tự khẳng định hết cả ngày.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒmen shí diǎn xiàkè."
+        },
+        {
+          "id": "e2",
+          "zh": "下课后，我去问老师。",
+          "vi": "Sau khi hết tiết, tôi đi hỏi giáo viên.",
+          "analysis": "下课后 tạo mốc; 去问老师 nêu việc làm sau đó.",
+          "practiceAllowed": true,
+          "pinyin": "Xiàkè hòu, wǒ qù wèn lǎoshī."
         }
       ],
       "sourceIndex": 356,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 361,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=下课"
+        ],
+        "introduction": {
+          "scope": "hết tiết; kết thúc giờ học"
+        },
+        "meaning": {
+          "scene": "Chuông báo hết tiết, học sinh nghỉ vài phút trước tiết tiếp theo.",
+          "explanation": "下课 nói một tiết hoặc giờ học kết thúc. Giáo viên có thể nói 下课 để cho kết thúc buổi dạy hiện tại. Sau đó vẫn có thể còn tiết khác; từ này không tự có nghĩa học sinh được về nhà.",
+          "boundary": "放学 thường nói kết thúc buổi hoặc ngày học ở trường và học sinh được ra về. 下课 có thể chỉ hết một tiết trong chuỗi nhiều tiết.",
+          "conditions": [
+            "Giờ kết thúc đặt trước 下课. 下课后 là sau khi hết tiết, dùng làm mốc cho hoạt động tiếp theo."
+          ],
+          "takeaway": "下课 nói một tiết hoặc giờ học kết thúc. Giáo viên có thể nói 下课 để cho kết thúc buổi dạy hiện tại. Sau đó vẫn có thể còn tiết khác; từ này không tự có nghĩa học sinh được về nhà."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người/lớp + giờ + 下课",
+            "position": "Giờ đứng trước 下课; 后 đứng sau cả cụm để nối với hoạt động sau giờ học.",
+            "required": "Giờ kết thúc đặt trước 下课. 下课后 là sau khi hết tiết, dùng làm mốc cho hoạt động tiếp theo.",
+            "omission": "Trong lớp có thể chỉ nói 下课了 để báo hết giờ; không cần nêu lại tiết nào khi đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "下课后 + chủ ngữ + hành động",
+            "position": "下课后 đứng trước hoạt động sau khi kết thúc tiết.",
+            "required": "Hết tiết không tự có nghĩa hết toàn bộ buổi học.",
+            "omission": "Chủ ngữ có thể lược khi người làm việc đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们十点下课。",
+            "vi": "Chúng tôi kết thúc giờ học lúc mười giờ.",
+            "analysis": "十点 là mốc hết giờ học hiện tại, không tự khẳng định hết cả ngày.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒmen shí diǎn xiàkè."
+          },
+          {
+            "id": "e2",
+            "zh": "下课后，我去问老师。",
+            "vi": "Sau khi hết tiết, tôi đi hỏi giáo viên.",
+            "analysis": "下课后 tạo mốc; 去问老师 nêu việc làm sau đó.",
+            "practiceAllowed": true,
+            "pinyin": "Xiàkè hòu, wǒ qù wèn lǎoshī."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "下课 khác 放学",
+            "scene": "Bạn phân biệt nghỉ giữa hai tiết với được ra về sau buổi học.",
+            "possibleConfusion": "下课 khác 放学",
+            "difference": "下课 nói hết tiết/giờ học; 放学 nói kết thúc buổi/ngày học ở trường để ra về.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "下课了，十分钟后还有一节课。",
+                "vi": "Hết tiết rồi, mười phút nữa còn một tiết.",
+                "comment": "Có thể còn học tiếp.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "放学了，我们回家吧。",
+                "vi": "Tan học rồi, chúng ta về nhà nhé.",
+                "comment": "Buổi học ở trường đã kết thúc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 下课 thành 放学 trong câu còn tiết tiếp theo có thể không hợp ý định; cần xét thời khóa biểu."
+            },
+            "boundary": "Nếu đó là tiết cuối, 下课 và 放学 có thể xảy ra gần nhau, nhưng không thành đồng nghĩa ở mọi tiết.",
+            "tip": "Hết tiết: 下课; hết buổi để về: 放学."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "下 và 课 đều thanh bốn; âm đầu 课 bật hơi, không đọc giống 哥.",
+          "literalTranslation": "放学 thường nói kết thúc buổi hoặc ngày học ở trường và học sinh được ra về. 下课 có thể chỉ hết một tiết trong chuỗi nhiều tiết.",
+          "confusables": "下课 nói hết tiết/giờ học; 放学 nói kết thúc buổi/ngày học ở trường để ra về."
+        },
+        "pronunciation": {
+          "text": "下 và 课 đều thanh bốn; âm đầu 课 bật hơi, không đọc giống 哥. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "下课了 có nhất thiết nghĩa là được về nhà luôn không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp: 十点 / 我们 / 下课。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; có thể chỉ hết một tiết và còn tiết khác."
+            ],
+            "explanation": "放学 thường nói kết thúc buổi/ngày học ở trường."
+          },
+          "q2": {
+            "accepted": [
+              "我们十点下课。"
+            ],
+            "explanation": "Thời gian đứng trước 下课."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi lớp của bạn mấy giờ hết tiết."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói sau khi hết tiết bạn đi thư viện."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 几点 trước động từ.",
+            "frame": "我们 + 几点 + 下课？",
+            "model": "我们几点下课？",
+            "vi": "Chúng ta mấy giờ hết tiết?",
+            "criteria": [
+              "Giờ đứng trước 下课; 后 đứng sau cả cụm để nối với hoạt động sau giờ học.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu mốc rồi việc tiếp theo.",
+            "frame": "下课后 + 我 + 去图书馆。",
+            "model": "下课后我去图书馆。",
+            "vi": "Sau khi hết tiết tôi đi thư viện.",
+            "criteria": [
+              "Giờ đứng trước 下课; 后 đứng sau cả cụm để nối với hoạt động sau giờ học.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "xuống",
+      "meaning": "xuống xe; rời phương tiện",
       "intro": [
         {
-          "pinyin": "xià chē",
-          "meaning": "xuống"
+          "pinyin": "xiàchē",
+          "meaning": "xuống xe; rời phương tiện"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我在这里下车。",
+          "vi": "Tôi xuống xe ở đây.",
+          "analysis": "在这里 đặt trước 下车 để nêu chỗ xuống.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ zài zhèlǐ xià chē."
+        },
+        {
+          "id": "e2",
+          "zh": "下一站下车的人很多。",
+          "vi": "Có nhiều người xuống xe ở trạm tiếp theo.",
+          "analysis": "下一站 xác định trạm; 下车的人 là những người thực hiện việc xuống.",
+          "practiceAllowed": true,
+          "pinyin": "Xià yī zhàn xià chē de rén hěn duō."
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-fa1ebf89462c",
       "hanzi": "下车",
       "level": 1,
       "sourceIndex": 357,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-026 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 362,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=下车"
+        ],
+        "introduction": {
+          "scope": "xuống xe; rời phương tiện"
+        },
+        "meaning": {
+          "scene": "Bạn đi xe buýt và định xuống ở trạm kế tiếp.",
+          "explanation": "下车 là xuống/rời khỏi một phương tiện như ô tô, xe buýt hoặc tàu. Không có nghĩa ở phía dưới gầm xe. Khi chỉ việc xuống máy bay thường nói 下飞机; không lấy 车 thay mọi tên phương tiện.",
+          "boundary": "下车 đối lập 上车 là lên xe. Nghĩa xuống xe không bắt buộc phải bước xuống độ cao lớn; ra khỏi taxi vẫn là 下车.",
+          "conditions": [
+            "Địa điểm xuống thường đứng trước với 在: 在这里下车. 下一站 là trạm kế tiếp, có thể đặt trước 下车."
+          ],
+          "takeaway": "下车 là xuống/rời khỏi một phương tiện như ô tô, xe buýt hoặc tàu. Không có nghĩa ở phía dưới gầm xe. Khi chỉ việc xuống máy bay thường nói 下飞机; không lấy 车 thay mọi tên phương tiện."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 在 + nơi + 下车；người + 下一站 + 下车",
+            "position": "Nơi xuống đứng trước 下车 trong khung 在…下车. 车 là phần của cụm, không thêm một tân ngữ địa điểm sau cả cụm theo cách dịch tiếng Việt.",
+            "required": "Địa điểm xuống thường đứng trước với 在: 在这里下车. 下一站 là trạm kế tiếp, có thể đặt trước 下车.",
+            "omission": "Có thể chỉ nói 我要下车了 khi xe và chỗ xuống đã rõ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我在这里下车。",
+            "vi": "Tôi xuống xe ở đây.",
+            "analysis": "在这里 đặt trước 下车 để nêu chỗ xuống.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zài zhèlǐ xià chē."
+          },
+          {
+            "id": "e2",
+            "zh": "下一站下车的人很多。",
+            "vi": "Có nhiều người xuống xe ở trạm tiếp theo.",
+            "analysis": "下一站 xác định trạm; 下车的人 là những người thực hiện việc xuống.",
+            "practiceAllowed": true,
+            "pinyin": "Xià yī zhàn xià chē de rén hěn duō."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "下车 là xuống xe; 车下 là dưới xe",
+            "scene": "Bạn mô tả hành khách rời xe hoặc vật nằm dưới gầm.",
+            "possibleConfusion": "下车 là xuống xe; 车下 là dưới xe",
+            "difference": "下车 là cụm hành động; 车下 là cụm vị trí. Đổi thứ tự là đổi nghĩa.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他下车了。",
+                "vi": "Anh ấy xuống xe rồi.",
+                "comment": "Hành động rời phương tiện.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "猫在车下。",
+                "vi": "Con mèo ở dưới xe.",
+                "comment": "Vị trí bên dưới.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Không thay 下车 bằng 车下 để giữ nghĩa xuống xe; cần chọn đúng cấu trúc."
+            },
+            "boundary": "Xuống taxi, xe buýt hay tàu đều có thể dùng 下车; tên phương tiện cụ thể do ngữ cảnh quyết định.",
+            "tip": "下 đứng trước 车: hành động xuống xe."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "下 thanh bốn, 车 thanh một; âm đầu 车 bật hơi, giữ lưỡi đúng âm quặt.",
+          "literalTranslation": "下车 đối lập 上车 là lên xe. Nghĩa xuống xe không bắt buộc phải bước xuống độ cao lớn; ra khỏi taxi vẫn là 下车.",
+          "confusables": "下车 là cụm hành động; 车下 là cụm vị trí. Đổi thứ tự là đổi nghĩa."
+        },
+        "pronunciation": {
+          "text": "下 thanh bốn, 车 thanh một; âm đầu 车 bật hơi, giữ lưỡi đúng âm quặt. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 下车 / 我 / 这里 / 在。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "猫在车下 và 他下车了 có cùng nghĩa xuống xe không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我在这里下车。"
+            ],
+            "explanation": "Nơi xuống với 在 đứng trước động từ."
+          },
+          "q2": {
+            "accepted": [
+              "Không; câu đầu là mèo ở dưới xe, câu sau là người xuống xe."
+            ],
+            "explanation": "Phân biệt trật tự 车下 và 下车."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Báo bạn sẽ xuống xe ở trạm tiếp theo."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi bạn xuống xe ở đâu."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt mốc trạm trước hành động.",
+            "frame": "我 + 下一站 + 下车。",
+            "model": "我下一站下车。",
+            "vi": "Tôi xuống xe ở trạm tiếp theo.",
+            "criteria": [
+              "Nơi xuống đứng trước 下车 trong khung 在…下车. 车 là phần của cụm, không thêm một tân ngữ địa điểm sau cả cụm theo cách dịch tiếng Việt.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 在哪里 trước hành động.",
+            "frame": "你 + 在哪里 + 下车？",
+            "model": "你在哪里下车？",
+            "vi": "Bạn xuống xe ở đâu?",
+            "criteria": [
+              "Nơi xuống đứng trước 下车 trong khung 在…下车. 车 là phần của cụm, không thêm một tân ngữ địa điểm sau cả cụm theo cách dịch tiếng Việt.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-9569dbfbb9e5",
@@ -80362,37 +83218,360 @@
         }
       ],
       "meaning": "nghỉ ngơi",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-026 · đơn giản",
       "examples": [
         {
+          "id": "e1",
           "zh": "你很累，休息一下吧。",
-          "vi": "Bạn mệt rồi, nghỉ một lát nhé."
+          "vi": "Bạn mệt lắm rồi, nghỉ một lát nhé.",
+          "analysis": "一下 làm thời lượng nghe ngắn; 吧 tạo lời khuyên.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ hěn lèi, xiūxi yīxià ba."
+        },
+        {
+          "id": "e2",
+          "zh": "我们休息十分钟。",
+          "vi": "Chúng ta nghỉ mười phút.",
+          "analysis": "十分钟 theo sau 休息, nêu độ dài của lần nghỉ.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒmen xiūxi shí fēnzhōng."
         }
       ],
       "sourceIndex": 358,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 363,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=休息"
+        ],
+        "introduction": {
+          "scope": "nghỉ ngơi"
+        },
+        "meaning": {
+          "scene": "Bạn mệt sau khi học và muốn nghỉ vài phút.",
+          "explanation": "休息 là nghỉ ngơi, tạm ngừng làm việc hoặc hoạt động để hồi sức. Có thể ngồi yên, đi thư giãn hoặc ngủ tùy tình huống; từ này không buộc người đó phải ngủ.",
+          "boundary": "睡觉 nói ngủ; 休息 rộng hơn. Nói 我休息一下 không cho biết chắc bạn sẽ chợp mắt hay chỉ tạm ngừng làm việc.",
+          "conditions": [
+            "一下 có thể đặt sau 休息 để nói nghỉ một chút. Nếu nêu độ dài cụ thể, đặt thời lượng sau động từ, như 休息十分钟."
+          ],
+          "takeaway": "休息 là nghỉ ngơi, tạm ngừng làm việc hoặc hoạt động để hồi sức. Có thể ngồi yên, đi thư giãn hoặc ngủ tùy tình huống; từ này không buộc người đó phải ngủ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 休息 + 一下/thời lượng",
+            "position": "一下 hoặc thời lượng như 十分钟 đi sau 休息; 吧 ở cuối câu tạo lời khuyên hoặc đề nghị.",
+            "required": "一下 có thể đặt sau 休息 để nói nghỉ một chút. Nếu nêu độ dài cụ thể, đặt thời lượng sau động từ, như 休息十分钟.",
+            "omission": "Có thể lược chủ ngữ trong 休息一下吧 khi đang khuyên trực tiếp người nghe.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你很累，休息一下吧。",
+            "vi": "Bạn mệt lắm rồi, nghỉ một lát nhé.",
+            "analysis": "一下 làm thời lượng nghe ngắn; 吧 tạo lời khuyên.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ hěn lèi, xiūxi yīxià ba."
+          },
+          {
+            "id": "e2",
+            "zh": "我们休息十分钟。",
+            "vi": "Chúng ta nghỉ mười phút.",
+            "analysis": "十分钟 theo sau 休息, nêu độ dài của lần nghỉ.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒmen xiūxi shí fēnzhōng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Nghỉ không nhất thiết ngủ",
+            "scene": "Bạn tạm dừng học để thư giãn nhưng vẫn thức.",
+            "possibleConfusion": "Nghỉ không nhất thiết ngủ",
+            "difference": "休息 là nghỉ hoạt động; 睡觉 là ngủ. Ngủ có thể là cách nghỉ nhưng không phải cách duy nhất.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我休息一下。",
+                "vi": "Tôi nghỉ một lát.",
+                "comment": "Chưa xác định có ngủ không.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我想睡觉。",
+                "vi": "Tôi muốn ngủ.",
+                "comment": "Nêu trực tiếp nhu cầu ngủ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 休息 thành 睡觉 làm ý cụ thể hơn về ngủ; không nên suy người nghỉ là đang ngủ."
+            },
+            "boundary": "Trong lời chúc 早点儿休息, nghỉ sớm có thể hàm ý đi ngủ sớm theo ngữ cảnh, không đổi nghĩa mọi 休息 thành ngủ.",
+            "tip": "Nghỉ: 休息; ngủ: 睡觉."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "休 thanh một, 息 thường thanh nhẹ trong 休息; âm nhẹ vẫn phải phát ra, không bỏ mất.",
+          "literalTranslation": "睡觉 nói ngủ; 休息 rộng hơn. Nói 我休息一下 không cho biết chắc bạn sẽ chợp mắt hay chỉ tạm ngừng làm việc.",
+          "confusables": "休息 là nghỉ hoạt động; 睡觉 là ngủ. Ngủ có thể là cách nghỉ nhưng không phải cách duy nhất."
+        },
+        "pronunciation": {
+          "text": "休 thanh một, 息 thường thanh nhẹ trong 休息; âm nhẹ vẫn phải phát ra, không bỏ mất. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "休息一下 có khẳng định sẽ ngủ không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp: 十分钟 / 休息 / 我们。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; nghỉ có thể chỉ ngừng việc và thư giãn."
+            ],
+            "explanation": "睡觉 mới nói trực tiếp việc ngủ."
+          },
+          "q2": {
+            "accepted": [
+              "我们休息十分钟。"
+            ],
+            "explanation": "Thời lượng đặt sau động từ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Khuyên bạn nghỉ một lát."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn muốn nghỉ năm phút."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng lời khuyên nhẹ.",
+            "frame": "休息一下 + 吧。",
+            "model": "休息一下吧。",
+            "vi": "Nghỉ một lát nhé.",
+            "criteria": [
+              "一下 hoặc số phút đi sau 休息. 不要/别 đứng trước nếu muốn nhắc đừng làm việc gì, nhưng lời rủ nghỉ thường dùng 吧.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu mong muốn và thời lượng.",
+            "frame": "我想 + 休息 + 五分钟。",
+            "model": "我想休息五分钟。",
+            "vi": "Tôi muốn nghỉ năm phút.",
+            "criteria": [
+              "一下 hoặc số phút đi sau 休息. 不要/别 đứng trước nếu muốn nhắc đừng làm việc gì, nhưng lời rủ nghỉ thường dùng 吧.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "ngồi xuống",
       "intro": [
         {
-          "pinyin": "zuò xià",
+          "pinyin": "zuòxià",
           "meaning": "ngồi xuống"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请坐下，我们开始上课。",
+          "vi": "Mời ngồi xuống, chúng ta bắt đầu học.",
+          "analysis": "坐下 yêu cầu chuyển sang ngồi trước khi bắt đầu giờ học.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng zuòxià, wǒmen kāishǐ shàngkè."
+        },
+        {
+          "id": "e2",
+          "zh": "他坐下了，又站起来了。",
+          "vi": "Anh ấy ngồi xuống rồi lại đứng dậy.",
+          "analysis": "坐下 và 站起来 là hai chuyển động nối tiếp, không mô tả giữ một tư thế suốt.",
+          "practiceAllowed": true,
+          "pinyin": "Tā zuòxià le, yòu zhàn qǐlái le."
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-fdfb7246213e",
       "hanzi": "坐下",
       "level": 1,
       "sourceIndex": 360,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-026 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 364,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=坐下"
+        ],
+        "introduction": {
+          "scope": "ngồi xuống"
+        },
+        "meaning": {
+          "scene": "Bạn mời người đang đứng ngồi xuống ghế.",
+          "explanation": "坐下 nói chuyển từ tư thế khác sang ngồi. 下 bổ sung kết quả hướng xuống trong động tác này; không có nghĩa ngồi ở bên dưới một vật. 请坐下 là lời mời/yêu cầu ngồi xuống.",
+          "boundary": "坐着 nói đang ở tư thế ngồi; 坐下 nói bắt đầu chuyển sang ngồi. 请坐 cũng là lời mời tự nhiên và thường gọn hơn; không coi thiếu 下 là sai.",
+          "conditions": [
+            "Khi kể đã ngồi xuống, có thể dùng 坐下了. Nếu muốn nêu nơi ngồi, khung 坐在 + nơi thường rõ hơn cho trạng thái tại một chỗ."
+          ],
+          "takeaway": "坐下 nói chuyển từ tư thế khác sang ngồi. 下 bổ sung kết quả hướng xuống trong động tác này; không có nghĩa ngồi ở bên dưới một vật. 请坐下 là lời mời/yêu cầu ngồi xuống."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 坐下；请 + 坐下",
+            "position": "下 đi ngay sau 坐 tạo cụm kết quả; 先 hoặc 慢慢 có thể đứng trước để nói ngồi trước hoặc từ từ ngồi xuống.",
+            "required": "Khi kể đã ngồi xuống, có thể dùng 坐下了. Nếu muốn nêu nơi ngồi, khung 坐在 + nơi thường rõ hơn cho trạng thái tại một chỗ.",
+            "omission": "Có thể bỏ chủ ngữ trong 请坐下. Trong lời mời thông thường, 请坐 cũng đủ tự nhiên.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请坐下，我们开始上课。",
+            "vi": "Mời ngồi xuống, chúng ta bắt đầu học.",
+            "analysis": "坐下 yêu cầu chuyển sang ngồi trước khi bắt đầu giờ học.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng zuòxià, wǒmen kāishǐ shàngkè."
+          },
+          {
+            "id": "e2",
+            "zh": "他坐下了，又站起来了。",
+            "vi": "Anh ấy ngồi xuống rồi lại đứng dậy.",
+            "analysis": "坐下 và 站起来 là hai chuyển động nối tiếp, không mô tả giữ một tư thế suốt.",
+            "practiceAllowed": true,
+            "pinyin": "Tā zuòxià le, yòu zhàn qǐlái le."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "坐下 khác 坐着",
+            "scene": "Bạn kể một động tác hoặc mô tả người đang ngồi.",
+            "possibleConfusion": "坐下 khác 坐着",
+            "difference": "坐下 nêu chuyển sang ngồi; 坐着 nêu trạng thái ngồi đang được duy trì.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他坐下了。",
+                "vi": "Anh ấy ngồi xuống rồi.",
+                "comment": "Động tác chuyển tư thế đã xảy ra.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他坐着看书。",
+                "vi": "Anh ấy ngồi đọc sách.",
+                "comment": "Giữ tư thế ngồi khi đọc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 坐下 thành 坐着 chuyển trọng tâm từ động tác sang trạng thái; không giữ nguyên mọi cấu trúc kèm theo."
+            },
+            "boundary": "Sau khi 坐下, người đó thường 坐着; hai câu có thể nói về các giai đoạn của cùng sự việc.",
+            "tip": "Ngồi xuống: 坐下; đang ngồi: 坐着."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "坐 và 下 đều thanh bốn ở dạng thanh gốc. Trong lời nói liền, thành phần kết quả có thể nhẹ hơn, vẫn giữ đủ hai âm.",
+          "literalTranslation": "坐着 nói đang ở tư thế ngồi; 坐下 nói bắt đầu chuyển sang ngồi. 请坐 cũng là lời mời tự nhiên và thường gọn hơn; không coi thiếu 下 là sai.",
+          "confusables": "坐下 nêu chuyển sang ngồi; 坐着 nêu trạng thái ngồi đang được duy trì."
+        },
+        "pronunciation": {
+          "text": "坐 và 下 đều thanh bốn ở dạng thanh gốc. Trong lời nói liền, thành phần kết quả có thể nhẹ hơn, vẫn giữ đủ hai âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "坐下 và 坐着 khác nhau thế nào?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "请坐 thay cho 请坐下 trong lời mời có sai không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "坐下 là ngồi xuống; 坐着 là đang/giữ tư thế ngồi."
+            ],
+            "explanation": "Phân biệt chuyển động và trạng thái."
+          },
+          "q2": {
+            "accepted": [
+              "Không; 请坐 là lời mời rất thông dụng."
+            ],
+            "explanation": "Không bắt buộc phải có 下 trong mọi lời mời ngồi."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Mời cả lớp ngồi xuống."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể bạn mình đã ngồi xuống rồi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng lời mời với nhóm.",
+            "frame": "请大家 + 坐下。",
+            "model": "请大家坐下。",
+            "vi": "Mời mọi người ngồi xuống.",
+            "criteria": [
+              "下 đi ngay sau 坐 tạo cụm kết quả; 先 hoặc 慢慢 có thể đứng trước để nói ngồi trước hoặc từ từ ngồi xuống.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu động tác hoàn tất.",
+            "frame": "我的朋友 + 坐下 + 了。",
+            "model": "我的朋友坐下了。",
+            "vi": "Bạn tôi ngồi xuống rồi.",
+            "criteria": [
+              "下 đi ngay sau 坐 tạo cụm kết quả; 先 hoặc 慢慢 có thể đứng trước để nói ngồi trước hoặc từ từ ngồi xuống.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-b5878c9ef355",
@@ -80401,17 +83580,181 @@
       "intro": [
         {
           "pinyin": "fàngjià",
-          "meaning": "được nghỉ"
+          "meaning": "được nghỉ; nghỉ theo lịch"
         }
       ],
-      "meaning": "được nghỉ",
-      "status": "catalog",
+      "meaning": "được nghỉ; nghỉ theo lịch",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-026 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我们明天放假。",
+          "vi": "Ngày mai chúng tôi được nghỉ.",
+          "analysis": "明天 là mốc nghỉ theo lịch, không đơn thuần tạm nghỉ vài phút.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒmen míngtiān fàngjià."
+        },
+        {
+          "id": "e2",
+          "zh": "学校放假三天。",
+          "vi": "Trường cho nghỉ ba ngày.",
+          "analysis": "学校 là đơn vị cho nghỉ; 三天 là độ dài kỳ nghỉ.",
+          "practiceAllowed": true,
+          "pinyin": "Xuéxiào fàngjià sān tiān."
+        }
+      ],
       "sourceIndex": 361,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 365,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=放假"
+        ],
+        "introduction": {
+          "scope": "được nghỉ; nghỉ theo lịch"
+        },
+        "meaning": {
+          "scene": "Bạn được nghỉ vài ngày vì trường hoặc công ty có lịch nghỉ.",
+          "explanation": "放假 nói trường, cơ quan cho nghỉ hoặc người học/người làm được nghỉ theo lịch. Nó có thể chỉ kỳ nghỉ dài hoặc vài ngày, không nhất thiết là nghỉ hè.",
+          "boundary": "休息 là nghỉ ngơi, không tự có nghĩa được cho nghỉ học/làm theo lịch. 请假 là xin phép nghỉ vì lý do riêng; không đồng nhất với lịch 放假 chung.",
+          "conditions": [
+            "Có thể nêu ngày nghỉ trước 放假 hoặc số ngày sau động từ, như 放假三天. Chủ ngữ có thể là 学校, 公司 hoặc 我们 tùy điều muốn nhấn."
+          ],
+          "takeaway": "放假 nói trường, cơ quan cho nghỉ hoặc người học/người làm được nghỉ theo lịch. Nó có thể chỉ kỳ nghỉ dài hoặc vài ngày, không nhất thiết là nghỉ hè."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "đơn vị/người + 放假；người/đơn vị + 放假 + số ngày",
+            "position": "Mốc ngày đặt trước 放假; thời lượng như 三天 đặt sau cả cụm.",
+            "required": "Có thể nêu ngày nghỉ trước 放假 hoặc số ngày sau động từ, như 放假三天. Chủ ngữ có thể là 学校, 公司 hoặc 我们 tùy điều muốn nhấn.",
+            "omission": "Khi lịch của nhóm đã rõ, có thể chỉ hỏi 什么时候放假; không cần lặp trường/công ty.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们明天放假。",
+            "vi": "Ngày mai chúng tôi được nghỉ.",
+            "analysis": "明天 là mốc nghỉ theo lịch, không đơn thuần tạm nghỉ vài phút.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒmen míngtiān fàngjià."
+          },
+          {
+            "id": "e2",
+            "zh": "学校放假三天。",
+            "vi": "Trường cho nghỉ ba ngày.",
+            "analysis": "学校 là đơn vị cho nghỉ; 三天 là độ dài kỳ nghỉ.",
+            "practiceAllowed": true,
+            "pinyin": "Xuéxiào fàngjià sān tiān."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "放假 khác 请假",
+            "scene": "Bạn phân biệt lịch nghỉ chung với xin nghỉ cá nhân.",
+            "possibleConfusion": "放假 khác 请假",
+            "difference": "放假 là được nghỉ/cho nghỉ theo lịch hoặc quyết định đơn vị; 请假 là xin phép nghỉ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "学校明天放假。",
+                "vi": "Ngày mai trường cho nghỉ.",
+                "comment": "Lịch nghỉ của trường.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我明天想请假。",
+                "vi": "Ngày mai tôi muốn xin nghỉ.",
+                "comment": "Cá nhân muốn xin phép nghỉ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 放假 thành 请假 làm đổi chủ thể và hành động: trường cho nghỉ khác cá nhân xin nghỉ."
+            },
+            "boundary": "Một người có thể 休息 trong ngày 放假, nhưng nghỉ ngơi không tự nói họ đã xin hay được cho nghỉ.",
+            "tip": "Lịch được nghỉ: 放假; xin nghỉ: 请假."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "放 và 假 trong 放假 đều thanh bốn. 假 nghĩa giả/không thật có cách đọc thanh ba; không dùng cách đó trong từ chỉ ngày nghỉ.",
+          "literalTranslation": "休息 là nghỉ ngơi, không tự có nghĩa được cho nghỉ học/làm theo lịch. 请假 là xin phép nghỉ vì lý do riêng; không đồng nhất với lịch 放假 chung.",
+          "confusables": "放假 là được nghỉ/cho nghỉ theo lịch hoặc quyết định đơn vị; 请假 là xin phép nghỉ."
+        },
+        "pronunciation": {
+          "text": "放 và 假 trong 放假 đều thanh bốn. 假 nghĩa giả/không thật có cách đọc thanh ba; không dùng cách đó trong từ chỉ ngày nghỉ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Bạn xin nghỉ vì việc riêng, dùng 放假 hay 请假?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp: 三天 / 学校 / 放假。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请假。"
+            ],
+            "explanation": "请假 là xin phép cá nhân; 放假 là cho/được nghỉ theo lịch."
+          },
+          "q2": {
+            "accepted": [
+              "学校放假三天。"
+            ],
+            "explanation": "Thời lượng kỳ nghỉ đứng sau 放假."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tuần sau bạn được nghỉ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi trường được nghỉ mấy ngày; 几天 là mấy ngày."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt mốc thời gian trước động từ.",
+            "frame": "我 + 下个星期 + 放假。",
+            "model": "我下个星期放假。",
+            "vi": "Tuần sau tôi được nghỉ.",
+            "criteria": [
+              "Mốc ngày đặt trước 放假; thời lượng như 三天 đặt sau cả cụm.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Đặt số ngày hỏi sau cụm.",
+            "frame": "学校 + 放假 + 几天？",
+            "model": "学校放假几天？",
+            "vi": "Trường được nghỉ mấy ngày?",
+            "criteria": [
+              "Mốc ngày đặt trước 放假; thời lượng như 三天 đặt sau cả cụm.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-a3527d0310fc",
@@ -116400,13 +119743,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 355,
-    "pending": 1879,
+    "ready": 375,
+    "pending": 1859,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 355
+        "ready": 375
       },
       {
         "level": 2,
