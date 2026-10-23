@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 410 mục đủ cấu trúc V1/V2; còn 1824. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 400 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 428 mục đủ cấu trúc V1/V2; còn 1806. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 418 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -90080,17 +90080,177 @@
       "intro": [
         {
           "pinyin": "nǚshēng",
-          "meaning": "học sinh hoặc sinh viên nữ"
+          "meaning": "học sinh, sinh viên nữ; bạn nữ"
         }
       ],
-      "meaning": "học sinh hoặc sinh viên nữ",
-      "status": "catalog",
+      "meaning": "học sinh, sinh viên nữ; bạn nữ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "那个女生是我同学。",
+          "vi": "Bạn nữ kia là bạn học của tôi.",
+          "analysis": "那个女生 là người được giới thiệu; 是 nối với thân phận 同学.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "三个女生在图书馆看书。",
+          "vi": "Ba bạn nữ đang đọc sách trong thư viện.",
+          "analysis": "三个女生 là số lượng + lượng từ + danh từ; 在图书馆 cho biết nơi đọc.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 403,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 401,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=女生"
+        ],
+        "introduction": {
+          "scope": "học sinh, sinh viên nữ; bạn nữ"
+        },
+        "meaning": {
+          "scene": "Bạn giới thiệu một bạn nữ trong lớp.",
+          "explanation": "女生 thường chỉ học sinh hoặc sinh viên nữ. Trong giao tiếp trẻ, từ này còn chỉ bạn nữ hoặc phụ nữ trẻ, kể cả ngoài trường học.",
+          "boundary": "Không dùng 女生 như cách gọi trung tính cho mọi phụ nữ ở mọi độ tuổi; 女人 rộng hơn về phụ nữ trưởng thành.",
+          "conditions": [
+            "Đếm người có thể dùng 个; 一位女生 lịch sự hơn."
+          ],
+          "takeaway": "女生 thường chỉ học sinh hoặc sinh viên nữ. Trong giao tiếp trẻ, từ này còn chỉ bạn nữ hoặc phụ nữ trẻ, kể cả ngoài trường học."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "女生 + hành động; số + 个 + 女生",
+            "position": "女生 có thể làm chủ thể hoặc đứng sau lượng từ.",
+            "required": "Đếm người có thể dùng 个; 一位女生 lịch sự hơn.",
+            "omission": "Có thể nói 女生 chung cả nhóm mà không cần số lượng.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "那个女生是我同学。",
+            "vi": "Bạn nữ kia là bạn học của tôi.",
+            "analysis": "那个女生 là người được giới thiệu; 是 nối với thân phận 同学.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "三个女生在图书馆看书。",
+            "vi": "Ba bạn nữ đang đọc sách trong thư viện.",
+            "analysis": "三个女生 là số lượng + lượng từ + danh từ; 在图书馆 cho biết nơi đọc.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "女生 và 女人",
+            "scene": "Chọn cách gọi một người nữ.",
+            "possibleConfusion": "女生 và 女人",
+            "difference": "女生 gợi học sinh, sinh viên hoặc người nữ trẻ; 女人 chỉ phụ nữ trưởng thành, không nói người ấy còn đi học.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她是女生。",
+                "vi": "Cô ấy là nữ sinh/bạn nữ.",
+                "comment": "Gợi nhóm nữ, thường trong bối cảnh trẻ hoặc trường học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "她是女人。",
+                "vi": "Cô ấy là phụ nữ.",
+                "comment": "Nêu giới tính và độ trưởng thành; cách nói trực tiếp hơn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "女生 gợi học sinh, sinh viên hoặc người nữ trẻ; 女人 chỉ phụ nữ trưởng thành, không nói người ấy còn đi học."
+            },
+            "boundary": "Hai từ có thể cùng chỉ một người trẻ trưởng thành, nhưng sắc thái khác nhau.",
+            "tip": "Trong lớp học, thường chọn 女生."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "女 đọc thanh ba, 生 thanh một; giữ âm tròn môi của 女.",
+          "literalTranslation": "Không dùng 女生 như cách gọi trung tính cho mọi phụ nữ ở mọi độ tuổi; 女人 rộng hơn về phụ nữ trưởng thành.",
+          "confusables": "女生 gợi học sinh, sinh viên hoặc người nữ trẻ; 女人 chỉ phụ nữ trưởng thành, không nói người ấy còn đi học."
+        },
+        "pronunciation": {
+          "text": "女 đọc thanh ba, 生 thanh một; giữ âm tròn môi của 女. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Lớp chúng tôi có mười bạn nữ. Cho biết 班 là lớp."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "女生 có luôn có nghĩa người nữ đang đi học không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我们班有十个女生。"
+            ],
+            "explanation": "Dùng 十个女生 sau 有."
+          },
+          "q2": {
+            "accepted": [
+              "Không; trong giao tiếp còn có thể chỉ người nữ trẻ."
+            ],
+            "explanation": "Bối cảnh quyết định có nhấn mạnh thân phận học sinh hay không."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Giới thiệu bạn nữ kia là bạn học của bạn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hai bạn nữ đang uống trà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu người rồi nói quan hệ.",
+            "frame": "那个女生 + 是 + 我同学。",
+            "model": "那个女生是我同学。",
+            "vi": "Bạn nữ kia là bạn học của tôi.",
+            "criteria": [
+              "女生 có thể làm chủ thể hoặc đứng sau lượng từ.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng số lượng rồi hành động.",
+            "frame": "两个女生 + 在 + 喝茶。",
+            "model": "两个女生在喝茶。",
+            "vi": "Hai bạn nữ đang uống trà.",
+            "criteria": [
+              "女生 có thể làm chủ thể hoặc đứng sau lượng từ.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-5c193225748e",
@@ -90099,22 +90259,177 @@
       "intro": [
         {
           "pinyin": "tāmen",
-          "meaning": "họ"
+          "meaning": "họ, các cô ấy (nhóm toàn nữ)"
         }
       ],
-      "meaning": "họ",
-      "status": "example",
+      "meaning": "họ, các cô ấy (nhóm toàn nữ)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-030 · đơn giản",
       "examples": [
         {
-          "zh": "她们都是老师。",
-          "vi": "Họ đều là giáo viên; nhóm này toàn nữ."
+          "id": "e1",
+          "zh": "她们都在这里工作。",
+          "vi": "Họ đều làm việc ở đây.",
+          "analysis": "都 đứng sau chủ thể 她们 và bao quát cả nhóm.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这是她们的房间。",
+          "vi": "Đây là phòng của họ.",
+          "analysis": "她们的 đứng trước 房间, chỉ người sở hữu.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 404,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 402,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=她们"
+        ],
+        "introduction": {
+          "scope": "họ, các cô ấy (nhóm toàn nữ)"
+        },
+        "meaning": {
+          "scene": "Bạn nói về hai đồng nghiệp nữ mà người nghe đã biết.",
+          "explanation": "她们 thay cho một nhóm người nữ đã được nhắc tới hoặc xác định trong tình huống. Từ này có thể làm chủ thể, người nhận hành động hoặc đứng trước 的 để nói sở hữu.",
+          "boundary": "Viết 她们 khi nhóm toàn nữ. Nhóm có nam và nữ thường viết 他们; hai cách viết này phát âm giống nhau.",
+          "conditions": [
+            "们 biểu thị số nhiều, không đặt số đếm trực tiếp trước 她们."
+          ],
+          "takeaway": "她们 thay cho một nhóm người nữ đã được nhắc tới hoặc xác định trong tình huống. Từ này có thể làm chủ thể, người nhận hành động hoặc đứng trước 的 để nói sở hữu."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "她们 + hành động; 她们的 + danh từ",
+            "position": "Đứng trước động từ khi làm chủ thể; trước 的 khi nói sở hữu.",
+            "required": "们 biểu thị số nhiều, không đặt số đếm trực tiếp trước 她们.",
+            "omission": "Với quan hệ gần gũi, có thể lược 的 trong cụm như 她们家.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她们都在这里工作。",
+            "vi": "Họ đều làm việc ở đây.",
+            "analysis": "都 đứng sau chủ thể 她们 và bao quát cả nhóm.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这是她们的房间。",
+            "vi": "Đây là phòng của họ.",
+            "analysis": "她们的 đứng trước 房间, chỉ người sở hữu.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "她们 và 他们",
+            "scene": "Bạn viết tin nhắn nói về một nhóm.",
+            "possibleConfusion": "她们 và 他们",
+            "difference": "她们 nêu nhóm toàn nữ; 他们 dùng cho nhóm nam hoặc nhóm có cả nam và nữ. Khi nghe riêng từ này không phân biệt được hai chữ viết.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她们来了。",
+                "vi": "Các cô ấy đến rồi.",
+                "comment": "Người viết xác định nhóm toàn nữ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他们来了。",
+                "vi": "Họ đến rồi.",
+                "comment": "Có thể là nhóm nam hoặc nhóm có cả nam và nữ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "她们 nêu nhóm toàn nữ; 他们 dùng cho nhóm nam hoặc nhóm có cả nam và nữ. Khi nghe riêng từ này không phân biệt được hai chữ viết."
+            },
+            "boundary": "Đổi chữ không làm đổi phát âm nhưng làm đổi thông tin về nhóm được nói đến.",
+            "tip": "Nghe âm giống nhau; xem nhóm người để chọn chữ."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "她 đọc thanh một; 们 đọc nhẹ, ngắn nhưng vẫn có âm.",
+          "literalTranslation": "Viết 她们 khi nhóm toàn nữ. Nhóm có nam và nữ thường viết 他们; hai cách viết này phát âm giống nhau.",
+          "confusables": "她们 nêu nhóm toàn nữ; 他们 dùng cho nhóm nam hoặc nhóm có cả nam và nữ. Khi nghe riêng từ này không phân biệt được hai chữ viết."
+        },
+        "pronunciation": {
+          "text": "她 đọc thanh một; 们 đọc nhẹ, ngắn nhưng vẫn có âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Viết: Tôi quen họ, biết nhóm này gồm hai phụ nữ."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nhóm gồm một nam và một nữ thường viết đại từ số nhiều nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我认识她们。"
+            ],
+            "explanation": "她们 làm người được 认识."
+          },
+          "q2": {
+            "accepted": [
+              "他们"
+            ],
+            "explanation": "Dùng 他们 cho nhóm có cả nam và nữ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói các cô ấy đều là giáo viên."
+          },
+          {
+            "id": "s2",
+            "prompt": "Giới thiệu đây là sách của họ, nhóm toàn nữ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt 都 sau đại từ.",
+            "frame": "她们 + 都是 + 老师。",
+            "model": "她们都是老师。",
+            "vi": "Họ đều là giáo viên.",
+            "criteria": [
+              "Đứng trước động từ khi làm chủ thể; trước 的 khi nói sở hữu.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 的 để nối sở hữu.",
+            "frame": "这是 + 她们的 + 书。",
+            "model": "这是她们的书。",
+            "vi": "Đây là sách của họ.",
+            "criteria": [
+              "Đứng trước động từ khi làm chủ thể; trước 的 khi nói sở hữu.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-26b2763767cb",
@@ -90123,22 +90438,177 @@
       "intro": [
         {
           "pinyin": "háizi",
-          "meaning": "trẻ em"
+          "meaning": "trẻ em; con (của ai đó)"
         }
       ],
-      "meaning": "trẻ em",
-      "status": "example",
+      "meaning": "trẻ em; con (của ai đó)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-030 · trung bình",
       "examples": [
         {
+          "id": "e1",
           "zh": "孩子在房间里睡觉。",
-          "vi": "Đứa trẻ đang ngủ trong phòng."
+          "vi": "Đứa trẻ đang ngủ trong phòng.",
+          "analysis": "孩子 là người thực hiện 睡觉; 在房间里 chỉ nơi.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我的孩子已经二十岁了。",
+          "vi": "Con tôi đã hai mươi tuổi rồi.",
+          "analysis": "我的孩子 nói quan hệ gia đình; không buộc người con còn nhỏ.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 405,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 403,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=孩子"
+        ],
+        "introduction": {
+          "scope": "trẻ em; con (của ai đó)"
+        },
+        "meaning": {
+          "scene": "Bạn nói về con mình hoặc một em nhỏ trong phòng.",
+          "explanation": "孩子 có thể chỉ một đứa trẻ, trẻ em nói chung, hoặc con của ai đó. Khi nói 我的孩子, từ này nêu quan hệ cha mẹ–con cái nên người con có thể đã lớn.",
+          "boundary": "孩子 không phân biệt con trai hay con gái; muốn nói rõ có thể dùng 儿子 hoặc 女儿.",
+          "conditions": [
+            "Đếm dùng 个孩子 hoặc nói 两个孩子."
+          ],
+          "takeaway": "孩子 có thể chỉ một đứa trẻ, trẻ em nói chung, hoặc con của ai đó. Khi nói 我的孩子, từ này nêu quan hệ cha mẹ–con cái nên người con có thể đã lớn."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "孩子 + hành động; người + 的孩子",
+            "position": "Là danh từ chỉ người; cụm sở hữu đặt trước 孩子.",
+            "required": "Đếm dùng 个孩子 hoặc nói 两个孩子.",
+            "omission": "Số ít hay số nhiều có thể hiểu theo ngữ cảnh; không bắt buộc thêm 们.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "孩子在房间里睡觉。",
+            "vi": "Đứa trẻ đang ngủ trong phòng.",
+            "analysis": "孩子 là người thực hiện 睡觉; 在房间里 chỉ nơi.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我的孩子已经二十岁了。",
+            "vi": "Con tôi đã hai mươi tuổi rồi.",
+            "analysis": "我的孩子 nói quan hệ gia đình; không buộc người con còn nhỏ.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "孩子 và 儿子",
+            "scene": "Bạn giới thiệu con mình.",
+            "possibleConfusion": "孩子 và 儿子",
+            "difference": "孩子 không nói giới tính; 儿子 chỉ con trai. 女儿 chỉ con gái.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我有一个孩子。",
+                "vi": "Tôi có một người con.",
+                "comment": "Chưa biết là con trai hay con gái.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我有一个儿子。",
+                "vi": "Tôi có một con trai.",
+                "comment": "Đã nêu rõ giới tính của con.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "孩子 không nói giới tính; 儿子 chỉ con trai. 女儿 chỉ con gái."
+            },
+            "boundary": "Nếu người con là con trai thì cả hai câu đều có thể đúng, nhưng thông tin khác nhau.",
+            "tip": "孩子 nói con; 儿子 nói con trai."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "孩 thanh hai, 子 đọc nhẹ; không bỏ âm 子.",
+          "literalTranslation": "孩子 không phân biệt con trai hay con gái; muốn nói rõ có thể dùng 儿子 hoặc 女儿.",
+          "confusables": "孩子 không nói giới tính; 儿子 chỉ con trai. 女儿 chỉ con gái."
+        },
+        "pronunciation": {
+          "text": "孩 thanh hai, 子 đọc nhẹ; không bỏ âm 子. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Tôi có hai người con."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "孩子 trong 我的孩子 có buộc phải là trẻ nhỏ không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我有两个孩子。"
+            ],
+            "explanation": "Dùng 两个 trước 孩子."
+          },
+          "q2": {
+            "accepted": [
+              "Không, có thể là người con đã trưởng thành."
+            ],
+            "explanation": "Cụm sở hữu cho phép cách hiểu về quan hệ gia đình."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói con bạn đang học tiếng Trung."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói trong phòng có ba đứa trẻ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu người con rồi hành động.",
+            "frame": "我的孩子 + 在学 + 中文。",
+            "model": "我的孩子在学中文。",
+            "vi": "Con tôi đang học tiếng Trung.",
+            "criteria": [
+              "Là danh từ chỉ người; cụm sở hữu đặt trước 孩子.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Địa điểm trước 有.",
+            "frame": "房间里 + 有 + 三个孩子。",
+            "model": "房间里有三个孩子。",
+            "vi": "Trong phòng có ba đứa trẻ.",
+            "criteria": [
+              "Là danh từ chỉ người; cụm sở hữu đặt trước 孩子.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-c1cc3f3bd0a8",
@@ -90151,13 +90621,173 @@
         }
       ],
       "meaning": "đàn ông",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "那个男人在门口等人。",
+          "vi": "Người đàn ông kia đang đợi ai đó ở cửa.",
+          "analysis": "那个男人 nhận diện người; 等人 là đợi người.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "车里有两个男人。",
+          "vi": "Trong xe có hai người đàn ông.",
+          "analysis": "两个男人 nêu số người; 车里 là trong xe.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 408,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 404,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=男人"
+        ],
+        "introduction": {
+          "scope": "đàn ông"
+        },
+        "meaning": {
+          "scene": "Bạn mô tả một người đàn ông đứng ở cửa.",
+          "explanation": "男人 chỉ người nam trưởng thành. Dùng để mô tả giới tính hoặc nhận diện người, không phải lời xưng hô lịch sự gọi người lạ.",
+          "boundary": "Bài này học cách đọc chỉ đàn ông. Trong một số cách nói khẩu ngữ, 男人 còn có thể chỉ chồng và 人 có thể đọc nhẹ; người mới học nên dùng 丈夫 hoặc 老公 khi muốn nói chồng.",
+          "conditions": [
+            "Dùng 个 để đếm; 位 khi cần lịch sự."
+          ],
+          "takeaway": "男人 chỉ người nam trưởng thành. Dùng để mô tả giới tính hoặc nhận diện người, không phải lời xưng hô lịch sự gọi người lạ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "那个男人 + hành động; số + 个 + 男人",
+            "position": "男人 là danh từ, có thể làm chủ thể hoặc đứng sau 是.",
+            "required": "Dùng 个 để đếm; 位 khi cần lịch sự.",
+            "omission": "Khi không cần nêu giới tính, có thể chỉ nói 那个人.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "那个男人在门口等人。",
+            "vi": "Người đàn ông kia đang đợi ai đó ở cửa.",
+            "analysis": "那个男人 nhận diện người; 等人 là đợi người.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "车里有两个男人。",
+            "vi": "Trong xe có hai người đàn ông.",
+            "analysis": "两个男人 nêu số người; 车里 là trong xe.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "男人 và 男生",
+            "scene": "Bạn mô tả một người nam.",
+            "possibleConfusion": "男人 và 男生",
+            "difference": "男人 nhấn mạnh người nam trưởng thành; 男生 thường gợi học sinh, sinh viên hoặc nam giới trẻ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他是个男人。",
+                "vi": "Anh ấy là một người đàn ông.",
+                "comment": "Nhấn vào giới tính và sự trưởng thành.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他是个男生。",
+                "vi": "Cậu ấy là nam sinh/bạn nam.",
+                "comment": "Thường hợp bối cảnh trường học hoặc người trẻ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "男人 nhấn mạnh người nam trưởng thành; 男生 thường gợi học sinh, sinh viên hoặc nam giới trẻ."
+            },
+            "boundary": "Một sinh viên nam trưởng thành có thể được gọi bằng cả hai từ, tùy góc nói.",
+            "tip": "Nhận diện đàn ông trưởng thành: 男人."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Ở nghĩa đàn ông trong bài, 男 thanh hai và 人 thanh hai.",
+          "literalTranslation": "Bài này học cách đọc chỉ đàn ông. Trong một số cách nói khẩu ngữ, 男人 còn có thể chỉ chồng và 人 có thể đọc nhẹ; người mới học nên dùng 丈夫 hoặc 老公 khi muốn nói chồng.",
+          "confusables": "男人 nhấn mạnh người nam trưởng thành; 男生 thường gợi học sinh, sinh viên hoặc nam giới trẻ."
+        },
+        "pronunciation": {
+          "text": "Ở nghĩa đàn ông trong bài, 男 thanh hai và 人 thanh hai. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Người đàn ông kia là thầy giáo của tôi."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Có nên gọi thẳng một người lạ bằng 男人 như lời chào lịch sự không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "那个男人是我的老师。"
+            ],
+            "explanation": "Dùng 是 nối người với thân phận."
+          },
+          "q2": {
+            "accepted": [
+              "Không; có thể dùng 先生 để gọi quý ông."
+            ],
+            "explanation": "男人 là từ mô tả, không phải cách gọi lịch sự thông thường."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Mô tả người đàn ông kia đang đọc sách."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói ở đây có ba người đàn ông."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu người rồi hành động.",
+            "frame": "那个男人 + 在 + 看书。",
+            "model": "那个男人在看书。",
+            "vi": "Người đàn ông kia đang đọc sách.",
+            "criteria": [
+              "男人 là danh từ, có thể làm chủ thể hoặc đứng sau 是.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Giới thiệu số người bằng 有.",
+            "frame": "这里 + 有 + 三个男人。",
+            "model": "这里有三个男人。",
+            "vi": "Ở đây có ba người đàn ông.",
+            "criteria": [
+              "男人 là danh từ, có thể làm chủ thể hoặc đứng sau 是.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-fa309d40d3dc",
@@ -90166,23 +90796,177 @@
       "intro": [
         {
           "pinyin": "nánpéngyou",
-          "meaning": "bạn trai",
-          "sourcePinyin": "nán péngyou"
+          "meaning": "bạn trai (quan hệ yêu đương)"
         }
       ],
-      "meaning": "bạn trai",
-      "status": "example",
+      "meaning": "bạn trai (quan hệ yêu đương)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-030 · trung bình",
       "examples": [
         {
-          "zh": "她男朋友在这里工作。",
-          "vi": "Bạn trai cô ấy làm việc ở đây."
+          "id": "e1",
+          "zh": "她的男朋友在这里工作。",
+          "vi": "Bạn trai cô ấy làm việc ở đây.",
+          "analysis": "她的 xác định bạn trai của ai.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我周末跟男朋友去看电影。",
+          "vi": "Cuối tuần tôi đi xem phim với bạn trai.",
+          "analysis": "跟男朋友 là cùng với bạn trai; đặt trước 去看电影.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 409,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 405,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=男朋友"
+        ],
+        "introduction": {
+          "scope": "bạn trai (quan hệ yêu đương)"
+        },
+        "meaning": {
+          "scene": "Bạn giới thiệu người yêu nam của một người bạn.",
+          "explanation": "男朋友 thông thường là bạn trai theo nghĩa người yêu. 我的男朋友 là bạn trai của tôi, không đơn thuần là một người bạn có giới tính nam.",
+          "boundary": "Nếu chỉ là bạn nam, dùng 男性朋友 hoặc nói rõ 一个男性朋友; không bỏ phần làm rõ nếu dễ gây hiểu nhầm.",
+          "conditions": [
+            "Có thể dùng 个 khi cần đếm hoặc giới thiệu một người."
+          ],
+          "takeaway": "男朋友 thông thường là bạn trai theo nghĩa người yêu. 我的男朋友 là bạn trai của tôi, không đơn thuần là một người bạn có giới tính nam."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Người + 的男朋友; 跟 + 男朋友 + hành động",
+            "position": "男朋友 là danh từ; người sở hữu đứng trước.",
+            "required": "Có thể dùng 个 khi cần đếm hoặc giới thiệu một người.",
+            "omission": "Trong quan hệ gần gũi, 她男朋友 có thể lược 的; giữ 的 vẫn đúng.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她的男朋友在这里工作。",
+            "vi": "Bạn trai cô ấy làm việc ở đây.",
+            "analysis": "她的 xác định bạn trai của ai.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我周末跟男朋友去看电影。",
+            "vi": "Cuối tuần tôi đi xem phim với bạn trai.",
+            "analysis": "跟男朋友 là cùng với bạn trai; đặt trước 去看电影.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Người yêu và bạn nam",
+            "scene": "Bạn muốn giới thiệu một người bạn nam bình thường.",
+            "possibleConfusion": "Người yêu và bạn nam",
+            "difference": "男朋友 dễ được hiểu là người yêu; 男性朋友 chỉ người bạn là nam.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他是我的男朋友。",
+                "vi": "Anh ấy là bạn trai của tôi.",
+                "comment": "Thông thường xác nhận quan hệ yêu đương.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他是我的一个男性朋友。",
+                "vi": "Anh ấy là một người bạn nam của tôi.",
+                "comment": "Không tự khẳng định quan hệ yêu đương.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "男朋友 dễ được hiểu là người yêu; 男性朋友 chỉ người bạn là nam."
+            },
+            "boundary": "Thay hai cụm làm thay đổi cách người nghe hiểu quan hệ.",
+            "tip": "Bạn nam bình thường: làm rõ bằng 男性朋友."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "男 thanh hai, 朋 thanh hai, 友 đọc nhẹ trong 朋友.",
+          "literalTranslation": "Nếu chỉ là bạn nam, dùng 男性朋友 hoặc nói rõ 一个男性朋友; không bỏ phần làm rõ nếu dễ gây hiểu nhầm.",
+          "confusables": "男朋友 dễ được hiểu là người yêu; 男性朋友 chỉ người bạn là nam."
+        },
+        "pronunciation": {
+          "text": "男 thanh hai, 朋 thanh hai, 友 đọc nhẹ trong 朋友. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "男朋友 có thường chỉ bất kỳ người bạn nam nào không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói: Bạn trai cô ấy là giáo viên."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; thường chỉ người yêu nam."
+            ],
+            "explanation": "Dùng 男性朋友 nếu chỉ nói bạn nam."
+          },
+          "q2": {
+            "accepted": [
+              "她的男朋友是老师。"
+            ],
+            "explanation": "她的男朋友 là chủ thể."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Giới thiệu anh ấy là bạn trai của bạn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hôm nay bạn ăn cơm cùng bạn trai."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 是 để giới thiệu.",
+            "frame": "他 + 是 + 我的男朋友。",
+            "model": "他是我的男朋友。",
+            "vi": "Anh ấy là bạn trai của tôi.",
+            "criteria": [
+              "男朋友 là danh từ; người sở hữu đứng trước.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Đặt cụm 跟 trước hành động.",
+            "frame": "我今天 + 跟男朋友 + 吃饭。",
+            "model": "我今天跟男朋友吃饭。",
+            "vi": "Hôm nay tôi ăn cơm cùng bạn trai.",
+            "criteria": [
+              "男朋友 là danh từ; người sở hữu đứng trước.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-e2b6de021112",
@@ -90191,17 +90975,177 @@
       "intro": [
         {
           "pinyin": "nánshēng",
-          "meaning": "học sinh hoặc sinh viên nam"
+          "meaning": "học sinh, sinh viên nam; bạn nam"
         }
       ],
-      "meaning": "học sinh hoặc sinh viên nam",
-      "status": "catalog",
+      "meaning": "học sinh, sinh viên nam; bạn nam",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · đơn giản",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我们班有十二个男生。",
+          "vi": "Lớp chúng tôi có mười hai bạn nam.",
+          "analysis": "十二个男生 là cụm số lượng, đặt sau 有.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "那个男生喜欢打篮球。",
+          "vi": "Bạn nam kia thích chơi bóng rổ.",
+          "analysis": "那个男生 làm chủ thể; 喜欢 đứng trước hoạt động yêu thích.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 410,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 406,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=男生"
+        ],
+        "introduction": {
+          "scope": "học sinh, sinh viên nam; bạn nam"
+        },
+        "meaning": {
+          "scene": "Bạn nói về các bạn nam trong lớp.",
+          "explanation": "男生 thường chỉ học sinh hoặc sinh viên nam; trong giao tiếp còn có thể chỉ nam giới trẻ. Từ này hay đi cùng 女生 để nói hai nhóm trong lớp hoặc nhóm bạn trẻ.",
+          "boundary": "Không đồng nghĩa hoàn toàn với 男人: 男人 nhấn người nam trưởng thành, không gợi thân phận học sinh.",
+          "conditions": [
+            "Đếm dùng 个 hoặc 位 tùy mức lịch sự."
+          ],
+          "takeaway": "男生 thường chỉ học sinh hoặc sinh viên nam; trong giao tiếp còn có thể chỉ nam giới trẻ. Từ này hay đi cùng 女生 để nói hai nhóm trong lớp hoặc nhóm bạn trẻ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "男生 + hành động; số + 个 + 男生",
+            "position": "Là danh từ, đứng ở vị trí người thực hiện hoặc sau lượng từ.",
+            "required": "Đếm dùng 个 hoặc 位 tùy mức lịch sự.",
+            "omission": "Nói nhóm nói chung có thể dùng 男生 mà không thêm 们.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们班有十二个男生。",
+            "vi": "Lớp chúng tôi có mười hai bạn nam.",
+            "analysis": "十二个男生 là cụm số lượng, đặt sau 有.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "那个男生喜欢打篮球。",
+            "vi": "Bạn nam kia thích chơi bóng rổ.",
+            "analysis": "那个男生 làm chủ thể; 喜欢 đứng trước hoạt động yêu thích.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "男生 và 女生",
+            "scene": "Bạn chia nhóm trong lớp.",
+            "possibleConfusion": "男生 và 女生",
+            "difference": "男生 là nhóm nam; 女生 là nhóm nữ. Cả hai đều thường dùng trong môi trường học sinh, sinh viên.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们班男生多。",
+                "vi": "Lớp chúng tôi có nhiều bạn nam.",
+                "comment": "Nói về số bạn nam.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们班女生多。",
+                "vi": "Lớp chúng tôi có nhiều bạn nữ.",
+                "comment": "Đổi từ làm đổi nhóm giới tính.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "男生 là nhóm nam; 女生 là nhóm nữ. Cả hai đều thường dùng trong môi trường học sinh, sinh viên."
+            },
+            "boundary": "Hai nhóm có thể cùng tồn tại trong một lớp; chọn theo người được nói đến.",
+            "tip": "男 chỉ nam; 女 chỉ nữ."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "男 thanh hai, 生 thanh một; không đọc 生 thành thanh nhẹ.",
+          "literalTranslation": "Không đồng nghĩa hoàn toàn với 男人: 男人 nhấn người nam trưởng thành, không gợi thân phận học sinh.",
+          "confusables": "男生 là nhóm nam; 女生 là nhóm nữ. Cả hai đều thường dùng trong môi trường học sinh, sinh viên."
+        },
+        "pronunciation": {
+          "text": "男 thanh hai, 生 thanh một; không đọc 生 thành thanh nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Hai bạn nam đang uống nước."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "男生 có chỉ tất cả đàn ông bất kể tuổi tác không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "两个男生在喝水。"
+            ],
+            "explanation": "两个 đứng trước 男生."
+          },
+          "q2": {
+            "accepted": [
+              "Không; thường là nam sinh hoặc người nam trẻ."
+            ],
+            "explanation": "Người nam trưởng thành nói chung dùng 男人 phù hợp hơn."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Giới thiệu bạn nam kia là em trai của bạn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói ba bạn nam đang đọc sách trong thư viện."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nối người với quan hệ.",
+            "frame": "那个男生 + 是 + 我弟弟。",
+            "model": "那个男生是我弟弟。",
+            "vi": "Bạn nam kia là em trai tôi.",
+            "criteria": [
+              "Là danh từ, đứng ở vị trí người thực hiện hoặc sau lượng từ.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu số người và nơi đọc.",
+            "frame": "三个男生 + 在图书馆 + 看书。",
+            "model": "三个男生在图书馆看书。",
+            "vi": "Ba bạn nam đang đọc sách trong thư viện.",
+            "criteria": [
+              "Là danh từ, đứng ở vị trí người thực hiện hoặc sau lượng từ.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-babc88a86428",
@@ -90210,17 +91154,177 @@
       "intro": [
         {
           "pinyin": "bìngrén",
-          "meaning": "người bệnh"
+          "meaning": "người bệnh, bệnh nhân"
         }
       ],
-      "meaning": "người bệnh",
-      "status": "catalog",
+      "meaning": "người bệnh, bệnh nhân",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "病人正在休息。",
+          "vi": "Người bệnh đang nghỉ ngơi.",
+          "analysis": "正在 nêu hành động đang diễn ra; 病人 là người nghỉ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "医生正在给病人检查身体。",
+          "vi": "Bác sĩ đang khám cho bệnh nhân.",
+          "analysis": "给病人 cho biết người được khám; 检查身体 là kiểm tra sức khỏe.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 411,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 407,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=病人"
+        ],
+        "introduction": {
+          "scope": "người bệnh, bệnh nhân"
+        },
+        "meaning": {
+          "scene": "Bạn mô tả người đang được bác sĩ chăm sóc.",
+          "explanation": "病人 là người bị bệnh, thường dùng trong hoàn cảnh khám chữa bệnh. Đây là danh từ chỉ người; muốn nói ai bị bệnh thì dùng 生病 hoặc 病了.",
+          "boundary": "病人 không phải tên nghề và không tự có nghĩa tình trạng bệnh nặng. Có thể là bệnh nhẹ hoặc nặng tùy tình huống.",
+          "conditions": [
+            "Đếm có thể dùng 个; 位 lịch sự với người bệnh."
+          ],
+          "takeaway": "病人 là người bị bệnh, thường dùng trong hoàn cảnh khám chữa bệnh. Đây là danh từ chỉ người; muốn nói ai bị bệnh thì dùng 生病 hoặc 病了."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "病人 + hành động; 医生 + hành động + 病人",
+            "position": "病人 làm chủ thể hoặc người nhận sự chăm sóc.",
+            "required": "Đếm có thể dùng 个; 位 lịch sự với người bệnh.",
+            "omission": "Khi người bệnh đã rõ, có thể dùng 他 hoặc 她 để tránh lặp.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "病人正在休息。",
+            "vi": "Người bệnh đang nghỉ ngơi.",
+            "analysis": "正在 nêu hành động đang diễn ra; 病人 là người nghỉ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "医生正在给病人检查身体。",
+            "vi": "Bác sĩ đang khám cho bệnh nhân.",
+            "analysis": "给病人 cho biết người được khám; 检查身体 là kiểm tra sức khỏe.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "病人 và 生病",
+            "scene": "Bạn báo một người bị ốm.",
+            "possibleConfusion": "病人 và 生病",
+            "difference": "病人 gọi tên người bệnh; 生病 diễn tả việc bị bệnh. Sau 是 có thể dùng 病人 để xác định thân phận trong tình huống.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他是病人。",
+                "vi": "Anh ấy là bệnh nhân.",
+                "comment": "Danh từ 病人 đứng sau 是.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他生病了。",
+                "vi": "Anh ấy bị ốm rồi.",
+                "comment": "生病 diễn tả tình trạng mắc bệnh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "病人 gọi tên người bệnh; 生病 diễn tả việc bị bệnh. Sau 是 có thể dùng 病人 để xác định thân phận trong tình huống."
+            },
+            "boundary": "Hai câu có thể cùng đúng về một người nhưng không thay trực tiếp 病人 vào vị trí 生病.",
+            "tip": "Người bệnh: 病人; bị bệnh: 生病."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "病 thanh bốn, 人 thanh hai; đọc rõ âm cuối mũi của 病.",
+          "literalTranslation": "病人 không phải tên nghề và không tự có nghĩa tình trạng bệnh nặng. Có thể là bệnh nhẹ hoặc nặng tùy tình huống.",
+          "confusables": "病人 gọi tên người bệnh; 生病 diễn tả việc bị bệnh. Sau 是 có thể dùng 病人 để xác định thân phận trong tình huống."
+        },
+        "pronunciation": {
+          "text": "病 thanh bốn, 人 thanh hai; đọc rõ âm cuối mũi của 病. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Người bệnh đang ngủ."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói Anh ấy bị ốm rồi, chọn 病人 hay 生病?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "病人在睡觉。"
+            ],
+            "explanation": "病人 là chủ thể của 睡觉."
+          },
+          "q2": {
+            "accepted": [
+              "他生病了。"
+            ],
+            "explanation": "Dùng từ chỉ tình trạng 生病, không dùng danh từ thay động từ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói ở đây có hai bệnh nhân."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bác sĩ đang nói chuyện với bệnh nhân."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Giới thiệu bằng 有.",
+            "frame": "这里 + 有 + 两位病人。",
+            "model": "这里有两位病人。",
+            "vi": "Ở đây có hai bệnh nhân.",
+            "criteria": [
+              "病人 làm chủ thể hoặc người nhận sự chăm sóc.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "跟 chỉ người cùng nói chuyện.",
+            "frame": "医生 + 在跟病人 + 说话。",
+            "model": "医生在跟病人说话。",
+            "vi": "Bác sĩ đang nói chuyện với bệnh nhân.",
+            "criteria": [
+              "病人 làm chủ thể hoặc người nhận sự chăm sóc.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-5226711529cb",
@@ -90233,13 +91337,173 @@
         }
       ],
       "meaning": "người cao tuổi",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · đơn giản",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "一位老人在公园散步。",
+          "vi": "Một người cao tuổi đang đi dạo trong công viên.",
+          "analysis": "一位老人 là người thực hiện 散步.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我给老人让座。",
+          "vi": "Tôi nhường chỗ cho người cao tuổi.",
+          "analysis": "给老人 nêu người được nhường chỗ; 让座 là nhường chỗ ngồi.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 412,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 408,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=老人"
+        ],
+        "introduction": {
+          "scope": "người cao tuổi"
+        },
+        "meaning": {
+          "scene": "Bạn nhường chỗ cho một người cao tuổi trên xe.",
+          "explanation": "老人 chỉ người đã cao tuổi, không phân biệt nam hay nữ. Có thể nói 一位老人 để nhắc tới người ấy một cách lịch sự.",
+          "boundary": "老人 là danh từ; không dịch máy móc thành một người cũ. 老师 là giáo viên, không có nghĩa người già.",
+          "conditions": [
+            "Dùng 位 lịch sự; 个 cũng dùng được trong lời nói thông thường."
+          ],
+          "takeaway": "老人 chỉ người đã cao tuổi, không phân biệt nam hay nữ. Có thể nói 一位老人 để nhắc tới người ấy một cách lịch sự."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一位老人 + hành động; 给 + 老人 + hành động",
+            "position": "老人 làm chủ thể hoặc đứng sau 给 để chỉ người nhận.",
+            "required": "Dùng 位 lịch sự; 个 cũng dùng được trong lời nói thông thường.",
+            "omission": "Nói nhóm chung có thể dùng 老人 không cần thêm 们.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "一位老人在公园散步。",
+            "vi": "Một người cao tuổi đang đi dạo trong công viên.",
+            "analysis": "一位老人 là người thực hiện 散步.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我给老人让座。",
+            "vi": "Tôi nhường chỗ cho người cao tuổi.",
+            "analysis": "给老人 nêu người được nhường chỗ; 让座 là nhường chỗ ngồi.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "老人 và 老师",
+            "scene": "Bạn gặp từ có chữ 老.",
+            "possibleConfusion": "老人 và 老师",
+            "difference": "老人 chỉ người cao tuổi; 老师 là giáo viên. 老 trong 老师 không cho biết giáo viên ấy già hay trẻ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他是老人。",
+                "vi": "Ông ấy là người cao tuổi.",
+                "comment": "Nói về tuổi tác.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他是老师。",
+                "vi": "Anh ấy/ông ấy là giáo viên.",
+                "comment": "Nói về nghề nghiệp; chưa biết tuổi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "老人 chỉ người cao tuổi; 老师 là giáo viên. 老 trong 老师 không cho biết giáo viên ấy già hay trẻ."
+            },
+            "boundary": "Một người có thể vừa là 老人 vừa là 老师; hai từ không thay nhau về nghĩa.",
+            "tip": "Đọc cả từ, không suy nghĩa từ riêng chữ 老."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "老 thanh ba thường đọc thấp trước 人 thanh hai; 人 không đọc nhẹ ở cách dùng này.",
+          "literalTranslation": "老人 là danh từ; không dịch máy móc thành một người cũ. 老师 là giáo viên, không có nghĩa người già.",
+          "confusables": "老人 chỉ người cao tuổi; 老师 là giáo viên. 老 trong 老师 không cho biết giáo viên ấy già hay trẻ."
+        },
+        "pronunciation": {
+          "text": "老 thanh ba thường đọc thấp trước 人 thanh hai; 人 không đọc nhẹ ở cách dùng này. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Người cao tuổi kia đang uống trà."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "老师 có bắt buộc chỉ giáo viên cao tuổi không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "那位老人在喝茶。"
+            ],
+            "explanation": "位 là lượng từ lịch sự."
+          },
+          "q2": {
+            "accepted": [
+              "Không; 老师 nghĩa giáo viên, không quy định tuổi."
+            ],
+            "explanation": "Không suy nghĩa của cả từ chỉ từ chữ 老."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trong phòng có hai người cao tuổi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn nhường chỗ cho người cao tuổi kia."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt nơi trước 有.",
+            "frame": "房间里 + 有 + 两位老人。",
+            "model": "房间里有两位老人。",
+            "vi": "Trong phòng có hai người cao tuổi.",
+            "criteria": [
+              "老人 làm chủ thể hoặc đứng sau 给 để chỉ người nhận.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu người nhận sau 给.",
+            "frame": "我 + 给那位老人 + 让座。",
+            "model": "我给那位老人让座。",
+            "vi": "Tôi nhường chỗ cho người cao tuổi kia.",
+            "criteria": [
+              "老人 làm chủ thể hoặc đứng sau 给 để chỉ người nhận.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-b38aa9413ad5",
@@ -90248,17 +91512,177 @@
       "intro": [
         {
           "pinyin": "dōng",
-          "meaning": "đông"
+          "meaning": "hướng đông"
         }
       ],
-      "meaning": "đông",
-      "status": "catalog",
+      "meaning": "hướng đông",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · đơn giản",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "学校在公园东边。",
+          "vi": "Trường ở phía đông công viên.",
+          "analysis": "公园 là mốc; 东边 nằm sau mốc.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "从这里往东走。",
+          "vi": "Từ đây đi về hướng đông.",
+          "analysis": "从这里 chỉ điểm xuất phát; 往东 chỉ hướng.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 413,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 409,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=东"
+        ],
+        "introduction": {
+          "scope": "hướng đông"
+        },
+        "meaning": {
+          "scene": "Bạn xem bản đồ rồi xác định vị trí hoặc hướng đi.",
+          "explanation": "东 chỉ hướng đông. Dùng 东边 để nói phía đông, 在 + mốc + 东边 để định vị, hoặc 往东走 để nói đi về hướng đông.",
+          "boundary": "Hướng địa lý không phụ thuộc việc người đang quay mặt về đâu. Trên bản đồ thông thường phía trên là bắc, nhưng cần xem ký hiệu hướng của bản đồ.",
+          "conditions": [
+            "Nói vị trí tương đối cần mốc rõ; mốc có thể đã được nhắc trong hội thoại."
+          ],
+          "takeaway": "东 chỉ hướng đông. Dùng 东边 để nói phía đông, 在 + mốc + 东边 để định vị, hoặc 往东走 để nói đi về hướng đông."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + mốc + 东边; 往 + 东 + 走",
+            "position": "东 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+            "required": "Nói vị trí tương đối cần mốc rõ; mốc có thể đã được nhắc trong hội thoại.",
+            "omission": "Sau 往 có thể dùng riêng 东; không bắt buộc thêm 边.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "学校在公园东边。",
+            "vi": "Trường ở phía đông công viên.",
+            "analysis": "公园 là mốc; 东边 nằm sau mốc.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "从这里往东走。",
+            "vi": "Từ đây đi về hướng đông.",
+            "analysis": "从这里 chỉ điểm xuất phát; 往东 chỉ hướng.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "东 và 西",
+            "scene": "Bạn chỉ hai phía đối nhau trên bản đồ.",
+            "possibleConfusion": "东 và 西",
+            "difference": "东 là hướng đông; 西 là hướng tây. Đổi chữ sẽ đổi hướng đi hoặc vị trí.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "往东走。",
+                "vi": "Đi về hướng đông.",
+                "comment": "Đi theo hướng đông.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "往西走。",
+                "vi": "Đi về hướng tây.",
+                "comment": "Đi theo hướng tây, ngược hướng trước.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "东 là hướng đông; 西 là hướng tây. Đổi chữ sẽ đổi hướng đi hoặc vị trí."
+            },
+            "boundary": "Đây là hai hướng đối nhau; không thể thay mà giữ nguyên chỉ dẫn.",
+            "tip": "Xác định hướng trên bản đồ trước khi chỉ đường."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "东 đọc thanh một; giữ giọng cao tương đối đều và âm cuối mũi.",
+          "literalTranslation": "Hướng địa lý không phụ thuộc việc người đang quay mặt về đâu. Trên bản đồ thông thường phía trên là bắc, nhưng cần xem ký hiệu hướng của bản đồ.",
+          "confusables": "东 là hướng đông; 西 là hướng tây. Đổi chữ sẽ đổi hướng đi hoặc vị trí."
+        },
+        "pronunciation": {
+          "text": "东 đọc thanh một; giữ giọng cao tương đối đều và âm cuối mũi. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Đi về hướng đông."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói: Ngân hàng ở phía đông trường. Cho biết 银行 là ngân hàng."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "往东走。"
+            ],
+            "explanation": "东 đứng sau 往."
+          },
+          "q2": {
+            "accepted": [
+              "银行在学校东边。"
+            ],
+            "explanation": "学校 là mốc; 东边 đặt sau mốc."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Báo nhà bạn ở phía đông trường."
+          },
+          {
+            "id": "s2",
+            "prompt": "Bảo người nghe từ đây đi về hướng đông."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Lấy trường làm mốc.",
+            "frame": "我家 + 在 + 学校东边。",
+            "model": "我家在学校东边。",
+            "vi": "Nhà tôi ở phía đông trường.",
+            "criteria": [
+              "东 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu điểm xuất phát rồi hướng.",
+            "frame": "从这里 + 往东 + 走。",
+            "model": "从这里往东走。",
+            "vi": "Từ đây đi về hướng đông.",
+            "criteria": [
+              "东 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-f7b3293bff84",
@@ -90267,22 +91691,177 @@
       "intro": [
         {
           "pinyin": "qián",
-          "meaning": "trước"
+          "meaning": "phía trước; trước (một mốc thời gian)"
         }
       ],
-      "meaning": "trước",
-      "status": "example",
+      "meaning": "phía trước; trước (một mốc thời gian)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-030 · phức tạp",
       "examples": [
         {
-          "zh": "上课前，我喝一点儿水。",
-          "vi": "Trước giờ học, tôi uống một ít nước."
+          "id": "e1",
+          "zh": "我在学校前等你。",
+          "vi": "Tôi đợi bạn trước trường.",
+          "analysis": "学校前 chỉ nơi đợi, không chỉ thời gian.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "吃饭前，我先洗手。",
+          "vi": "Trước khi ăn, tôi rửa tay trước.",
+          "analysis": "吃饭前 là mốc thời gian; 先 nhấn việc rửa tay làm trước.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 414,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 410,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=前"
+        ],
+        "introduction": {
+          "scope": "phía trước; trước (một mốc thời gian)"
+        },
+        "meaning": {
+          "scene": "Bạn đứng trước cửa trường hoặc làm việc gì trước bữa ăn.",
+          "explanation": "前 dùng cho vị trí phía trước và thời điểm trước một mốc. 门前 là trước cửa; 吃饭前 là trước khi ăn. Mốc đứng trước 前, khác với thứ tự “trước + mốc” trong tiếng Việt.",
+          "boundary": "Khi nói quá khứ chung chung như trước đây, thường dùng 以前, không đặt 前 một mình thay mọi cách dùng tiếng Việt.",
+          "conditions": [
+            "Muốn nói trước khi làm gì, đặt hoạt động đó trước 前."
+          ],
+          "takeaway": "前 dùng cho vị trí phía trước và thời điểm trước một mốc. 门前 là trước cửa; 吃饭前 là trước khi ăn. Mốc đứng trước 前, khác với thứ tự “trước + mốc” trong tiếng Việt."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Mốc nơi chốn + 前; hoạt động/thời điểm + 前",
+            "position": "前 đứng sau nơi chốn hoặc mốc thời gian; cụm thời gian thường đặt trước hành động chính.",
+            "required": "Muốn nói trước khi làm gì, đặt hoạt động đó trước 前.",
+            "omission": "Cụm thời gian có thể đứng đầu câu hoặc sau chủ thể, trước hành động chính.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我在学校前等你。",
+            "vi": "Tôi đợi bạn trước trường.",
+            "analysis": "学校前 chỉ nơi đợi, không chỉ thời gian.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "吃饭前，我先洗手。",
+            "vi": "Trước khi ăn, tôi rửa tay trước.",
+            "analysis": "吃饭前 là mốc thời gian; 先 nhấn việc rửa tay làm trước.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "前 và 后 trong thời gian",
+            "scene": "Bạn xác định lúc uống thuốc so với bữa ăn.",
+            "possibleConfusion": "前 và 后 trong thời gian",
+            "difference": "吃饭前 là trước khi ăn; 吃饭后 là sau khi ăn. Đây là quan hệ thứ tự thời gian, không phải vị trí trước sau của người.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "吃饭前喝水。",
+                "vi": "Uống nước trước khi ăn.",
+                "comment": "Việc uống xảy ra trước bữa ăn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "吃饭后喝水。",
+                "vi": "Uống nước sau khi ăn.",
+                "comment": "Việc uống xảy ra sau bữa ăn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "吃饭前 là trước khi ăn; 吃饭后 là sau khi ăn. Đây là quan hệ thứ tự thời gian, không phải vị trí trước sau của người."
+            },
+            "boundary": "Đổi 前 thành 后 vẫn đúng cấu trúc nhưng đảo thứ tự hai việc.",
+            "tip": "Mốc trước chữ 前; việc chính diễn ra trước mốc."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "前 đọc thanh hai; đọc rõ âm đầu có bật hơi.",
+          "literalTranslation": "Khi nói quá khứ chung chung như trước đây, thường dùng 以前, không đặt 前 một mình thay mọi cách dùng tiếng Việt.",
+          "confusables": "吃饭前 là trước khi ăn; 吃饭后 là sau khi ăn. Đây là quan hệ thứ tự thời gian, không phải vị trí trước sau của người."
+        },
+        "pronunciation": {
+          "text": "前 đọc thanh hai; đọc rõ âm đầu có bật hơi. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Trước khi ngủ, tôi đọc sách. Cho biết 睡觉 là ngủ."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "学校前 và 上课前 khác nhau thế nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "睡觉前，我看书。"
+            ],
+            "explanation": "Đặt 睡觉 trước 前 để tạo mốc."
+          },
+          "q2": {
+            "accepted": [
+              "学校前 chỉ vị trí trước trường; 上课前 chỉ thời gian trước khi vào học."
+            ],
+            "explanation": "Xem thành phần đứng trước 前 là địa điểm hay hoạt động."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn đợi mẹ trước cửa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói trước khi đi làm bạn uống một cốc nước."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "门 là cửa, làm mốc nơi chốn.",
+            "frame": "我 + 在门前 + 等妈妈。",
+            "model": "我在门前等妈妈。",
+            "vi": "Tôi đợi mẹ trước cửa.",
+            "criteria": [
+              "前 đứng sau nơi chốn hoặc mốc thời gian; cụm thời gian thường đặt trước hành động chính.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Đặt 上班前 làm mốc thời gian.",
+            "frame": "上班前 + 我 + 喝一杯水。",
+            "model": "上班前，我喝一杯水。",
+            "vi": "Trước khi đi làm, tôi uống một cốc nước.",
+            "criteria": [
+              "前 đứng sau nơi chốn hoặc mốc thời gian; cụm thời gian thường đặt trước hành động chính.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-10154770a9fc",
@@ -90291,17 +91870,177 @@
       "intro": [
         {
           "pinyin": "běi",
-          "meaning": "bắc"
+          "meaning": "hướng bắc"
         }
       ],
-      "meaning": "bắc",
-      "status": "catalog",
+      "meaning": "hướng bắc",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · đơn giản",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "医院在学校北边。",
+          "vi": "Bệnh viện ở phía bắc trường.",
+          "analysis": "学校 là mốc; 北边 chỉ phía bắc mốc.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我们往北走吧。",
+          "vi": "Chúng ta đi về hướng bắc nhé.",
+          "analysis": "往北 chỉ hướng; 吧 đưa ra đề nghị.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 415,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 411,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=北"
+        ],
+        "introduction": {
+          "scope": "hướng bắc"
+        },
+        "meaning": {
+          "scene": "Bạn xem bản đồ rồi xác định vị trí hoặc hướng đi.",
+          "explanation": "北 chỉ hướng bắc. Dùng 北边 để nói phía bắc, 在 + mốc + 北边 để định vị, hoặc 往北走 để nói đi về hướng bắc.",
+          "boundary": "Hướng địa lý không phụ thuộc việc người đang quay mặt về đâu. Trên bản đồ thông thường phía trên là bắc, nhưng cần xem ký hiệu hướng của bản đồ.",
+          "conditions": [
+            "Nói vị trí tương đối cần mốc rõ; mốc có thể đã được nhắc trong hội thoại."
+          ],
+          "takeaway": "北 chỉ hướng bắc. Dùng 北边 để nói phía bắc, 在 + mốc + 北边 để định vị, hoặc 往北走 để nói đi về hướng bắc."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + mốc + 北边; 往 + 北 + 走",
+            "position": "北 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+            "required": "Nói vị trí tương đối cần mốc rõ; mốc có thể đã được nhắc trong hội thoại.",
+            "omission": "Sau 往 có thể dùng riêng 北; không bắt buộc thêm 边.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "医院在学校北边。",
+            "vi": "Bệnh viện ở phía bắc trường.",
+            "analysis": "学校 là mốc; 北边 chỉ phía bắc mốc.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我们往北走吧。",
+            "vi": "Chúng ta đi về hướng bắc nhé.",
+            "analysis": "往北 chỉ hướng; 吧 đưa ra đề nghị.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "北 và 南",
+            "scene": "Bạn chỉ hai phía đối nhau trên bản đồ.",
+            "possibleConfusion": "北 và 南",
+            "difference": "北 là hướng bắc; 南 là hướng nam. Đổi chữ sẽ đổi hướng đi hoặc vị trí.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "往北走。",
+                "vi": "Đi về hướng bắc.",
+                "comment": "Đi theo hướng bắc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "往南走。",
+                "vi": "Đi về hướng nam.",
+                "comment": "Đi theo hướng nam, ngược hướng trước.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "北 là hướng bắc; 南 là hướng nam. Đổi chữ sẽ đổi hướng đi hoặc vị trí."
+            },
+            "boundary": "Đây là hai hướng đối nhau; không thể thay mà giữ nguyên chỉ dẫn.",
+            "tip": "Xác định hướng trên bản đồ trước khi chỉ đường."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "北 thanh ba; trước 走 thanh ba trong cụm 北走, 北 thường biến thành thanh hai khi đọc liền.",
+          "literalTranslation": "Hướng địa lý không phụ thuộc việc người đang quay mặt về đâu. Trên bản đồ thông thường phía trên là bắc, nhưng cần xem ký hiệu hướng của bản đồ.",
+          "confusables": "北 là hướng bắc; 南 là hướng nam. Đổi chữ sẽ đổi hướng đi hoặc vị trí."
+        },
+        "pronunciation": {
+          "text": "北 thanh ba; trước 走 thanh ba trong cụm 北走, 北 thường biến thành thanh hai khi đọc liền. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Đi về hướng bắc."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói: Công viên ở phía bắc nhà tôi."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "往北走。"
+            ],
+            "explanation": "北 đứng sau 往."
+          },
+          "q2": {
+            "accepted": [
+              "公园在我家北边。"
+            ],
+            "explanation": "我家 là mốc của 北边."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trường ở phía bắc công viên."
+          },
+          {
+            "id": "s2",
+            "prompt": "Rủ cả nhóm đi về hướng bắc."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt công viên làm mốc.",
+            "frame": "学校 + 在 + 公园北边。",
+            "model": "学校在公园北边。",
+            "vi": "Trường ở phía bắc công viên.",
+            "criteria": [
+              "北 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 吧 để gợi ý.",
+            "frame": "我们 + 往北走 + 吧。",
+            "model": "我们往北走吧。",
+            "vi": "Chúng ta đi về hướng bắc nhé.",
+            "criteria": [
+              "北 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-4d2b7224fe51",
@@ -90310,17 +92049,177 @@
       "intro": [
         {
           "pinyin": "nán",
-          "meaning": "nam"
+          "meaning": "hướng nam"
         }
       ],
-      "meaning": "nam",
-      "status": "catalog",
+      "meaning": "hướng nam",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · đơn giản",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "公园在医院南边。",
+          "vi": "Công viên ở phía nam bệnh viện.",
+          "analysis": "医院 làm mốc; 南边 chỉ phía nam.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "过了桥，再往南走。",
+          "vi": "Qua cầu rồi đi tiếp về hướng nam.",
+          "analysis": "过了桥 nêu đoạn qua cầu; 再 nêu bước tiếp theo.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 416,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 412,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=南"
+        ],
+        "introduction": {
+          "scope": "hướng nam"
+        },
+        "meaning": {
+          "scene": "Bạn xem bản đồ rồi xác định vị trí hoặc hướng đi.",
+          "explanation": "南 chỉ hướng nam. Dùng 南边 để nói phía nam, 在 + mốc + 南边 để định vị, hoặc 往南走 để nói đi về hướng nam.",
+          "boundary": "Hướng địa lý không phụ thuộc việc người đang quay mặt về đâu. Trên bản đồ thông thường phía trên là bắc, nhưng cần xem ký hiệu hướng của bản đồ.",
+          "conditions": [
+            "Nói vị trí tương đối cần mốc rõ; mốc có thể đã được nhắc trong hội thoại."
+          ],
+          "takeaway": "南 chỉ hướng nam. Dùng 南边 để nói phía nam, 在 + mốc + 南边 để định vị, hoặc 往南走 để nói đi về hướng nam."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + mốc + 南边; 往 + 南 + 走",
+            "position": "南 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+            "required": "Nói vị trí tương đối cần mốc rõ; mốc có thể đã được nhắc trong hội thoại.",
+            "omission": "Sau 往 có thể dùng riêng 南; không bắt buộc thêm 边.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "公园在医院南边。",
+            "vi": "Công viên ở phía nam bệnh viện.",
+            "analysis": "医院 làm mốc; 南边 chỉ phía nam.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "过了桥，再往南走。",
+            "vi": "Qua cầu rồi đi tiếp về hướng nam.",
+            "analysis": "过了桥 nêu đoạn qua cầu; 再 nêu bước tiếp theo.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "南 và 北",
+            "scene": "Bạn chỉ hai phía đối nhau trên bản đồ.",
+            "possibleConfusion": "南 và 北",
+            "difference": "南 là hướng nam; 北 là hướng bắc. Đổi chữ sẽ đổi hướng đi hoặc vị trí.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "往南走。",
+                "vi": "Đi về hướng nam.",
+                "comment": "Đi theo hướng nam.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "往北走。",
+                "vi": "Đi về hướng bắc.",
+                "comment": "Đi theo hướng bắc, ngược hướng trước.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "南 là hướng nam; 北 là hướng bắc. Đổi chữ sẽ đổi hướng đi hoặc vị trí."
+            },
+            "boundary": "Đây là hai hướng đối nhau; không thể thay mà giữ nguyên chỉ dẫn.",
+            "tip": "Xác định hướng trên bản đồ trước khi chỉ đường."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "南 thanh hai; âm đầu là n, phân biệt với âm l.",
+          "literalTranslation": "Hướng địa lý không phụ thuộc việc người đang quay mặt về đâu. Trên bản đồ thông thường phía trên là bắc, nhưng cần xem ký hiệu hướng của bản đồ.",
+          "confusables": "南 là hướng nam; 北 là hướng bắc. Đổi chữ sẽ đổi hướng đi hoặc vị trí."
+        },
+        "pronunciation": {
+          "text": "南 thanh hai; âm đầu là n, phân biệt với âm l. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Đi về hướng nam."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói: Trường ở phía nam bệnh viện."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "往南走。"
+            ],
+            "explanation": "南 nêu hướng sau 往."
+          },
+          "q2": {
+            "accepted": [
+              "学校在医院南边。"
+            ],
+            "explanation": "医院 là mốc, không phải nơi được định vị."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói nhà bạn ở phía nam trường."
+          },
+          {
+            "id": "s2",
+            "prompt": "Bảo người nghe qua cầu rồi đi về hướng nam. Cho biết 桥 là cầu."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Lấy trường làm mốc.",
+            "frame": "我家 + 在 + 学校南边。",
+            "model": "我家在学校南边。",
+            "vi": "Nhà tôi ở phía nam trường.",
+            "criteria": [
+              "南 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu hai bước theo thứ tự.",
+            "frame": "过了桥 + 再 + 往南走。",
+            "model": "过了桥，再往南走。",
+            "vi": "Qua cầu rồi đi tiếp về hướng nam.",
+            "criteria": [
+              "南 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-977cb3aa645d",
@@ -90329,17 +92228,177 @@
       "intro": [
         {
           "pinyin": "yòu",
-          "meaning": "phải"
+          "meaning": "phải, bên phải"
         }
       ],
-      "meaning": "phải",
-      "status": "catalog",
+      "meaning": "phải, bên phải",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "银行在学校右边。",
+          "vi": "Ngân hàng ở bên phải trường.",
+          "analysis": "学校 là mốc; cần góc nhìn đã thống nhất.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "到路口往右拐。",
+          "vi": "Đến ngã tư thì rẽ phải.",
+          "analysis": "到路口 nêu điểm rẽ; 往右拐 là rẽ phải.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 417,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 413,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=右"
+        ],
+        "introduction": {
+          "scope": "phải, bên phải"
+        },
+        "meaning": {
+          "scene": "Bạn chỉ đường rẽ phải ở ngã tư.",
+          "explanation": "右 chỉ phía phải. Thường nói 右边 khi nêu vị trí, 右手 khi nói tay phải và 往右 hoặc 向右 khi nói hướng di chuyển.",
+          "boundary": "Đây là “phải” về phương hướng, không phải “đúng” và cũng không phải “bắt buộc phải”. “Đúng” thường dùng 对; bắt buộc cần cấu trúc khác.",
+          "conditions": [
+            "Bên phải phụ thuộc mốc hoặc hướng nhìn; chỉ đường phải thống nhất góc nhìn."
+          ],
+          "takeaway": "右 chỉ phía phải. Thường nói 右边 khi nêu vị trí, 右手 khi nói tay phải và 往右 hoặc 向右 khi nói hướng di chuyển."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + mốc + 右边; 往右 + 拐",
+            "position": "右 trước 边 trong vị trí, sau 往 trong hướng đi.",
+            "required": "Bên phải phụ thuộc mốc hoặc hướng nhìn; chỉ đường phải thống nhất góc nhìn.",
+            "omission": "Mốc có thể lược khi người nghe đã biết bên phải của ai/nơi nào.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "银行在学校右边。",
+            "vi": "Ngân hàng ở bên phải trường.",
+            "analysis": "学校 là mốc; cần góc nhìn đã thống nhất.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "到路口往右拐。",
+            "vi": "Đến ngã tư thì rẽ phải.",
+            "analysis": "到路口 nêu điểm rẽ; 往右拐 là rẽ phải.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "右 và 对: hai nghĩa của “phải”",
+            "scene": "Bạn nói bên phải hoặc xác nhận đáp án đúng.",
+            "possibleConfusion": "右 và 对: hai nghĩa của “phải”",
+            "difference": "右 chỉ hướng phải; 对 nói đúng. Tiếng Việt dùng “phải” cho cả hai nhưng tiếng Trung phân biệt.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "往右走。",
+                "vi": "Đi về bên phải.",
+                "comment": "右 chỉ phương hướng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你说得对。",
+                "vi": "Bạn nói đúng.",
+                "comment": "对 đánh giá điều nói là đúng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "右 chỉ hướng phải; 对 nói đúng. Tiếng Việt dùng “phải” cho cả hai nhưng tiếng Trung phân biệt."
+            },
+            "boundary": "Không thay 右 vào câu đánh giá đúng sai; không thay 对 vào chỉ dẫn hướng phải.",
+            "tip": "Hướng phải: 右; đúng: 对."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "右 thanh bốn; hạ giọng dứt khoát, không thêm âm cuối.",
+          "literalTranslation": "Đây là “phải” về phương hướng, không phải “đúng” và cũng không phải “bắt buộc phải”. “Đúng” thường dùng 对; bắt buộc cần cấu trúc khác.",
+          "confusables": "右 chỉ hướng phải; 对 nói đúng. Tiếng Việt dùng “phải” cho cả hai nhưng tiếng Trung phân biệt."
+        },
+        "pronunciation": {
+          "text": "右 thanh bốn; hạ giọng dứt khoát, không thêm âm cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Rẽ phải ở đây."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong “Bạn nói đúng”, có dùng 右 để dịch “đúng/phải” không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "在这里往右拐。"
+            ],
+            "explanation": "往右 chỉ hướng rẽ."
+          },
+          "q2": {
+            "accepted": [
+              "Không; dùng 对, như 你说得对。"
+            ],
+            "explanation": "右 chỉ phương hướng."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói cửa hàng ở bên phải trường. Cho biết 商店 là cửa hàng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Bảo người nghe đến ngã tư thì rẽ phải. Cho biết 路口 là ngã tư."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Lấy trường làm mốc.",
+            "frame": "商店 + 在 + 学校右边。",
+            "model": "商店在学校右边。",
+            "vi": "Cửa hàng ở bên phải trường.",
+            "criteria": [
+              "右 trước 边 trong vị trí, sau 往 trong hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu điểm rẽ rồi hướng.",
+            "frame": "到路口 + 往右 + 拐。",
+            "model": "到路口往右拐。",
+            "vi": "Đến ngã tư thì rẽ phải.",
+            "criteria": [
+              "右 trước 边 trong vị trí, sau 往 trong hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-3fcbee5efe81",
@@ -90348,17 +92407,177 @@
       "intro": [
         {
           "pinyin": "zuǒ",
-          "meaning": "trái"
+          "meaning": "trái, bên trái"
         }
       ],
-      "meaning": "trái",
-      "status": "catalog",
+      "meaning": "trái, bên trái",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "窗户在门左边。",
+          "vi": "Cửa sổ ở bên trái cửa ra vào.",
+          "analysis": "门 là mốc; 左边 nêu bên trái theo góc nhìn đã rõ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请在前面往左拐。",
+          "vi": "Xin rẽ trái ở phía trước.",
+          "analysis": "在前面 nêu chỗ rẽ; 往左拐 nêu hướng rẽ.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 418,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 414,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=左"
+        ],
+        "introduction": {
+          "scope": "trái, bên trái"
+        },
+        "meaning": {
+          "scene": "Bạn xác định cửa sổ nằm bên trái cửa ra vào.",
+          "explanation": "左 chỉ phía trái. Ở mức cơ bản, thường gặp 左边 là bên trái, 左手 là tay trái và 往左拐 là rẽ trái.",
+          "boundary": "Bên trái phụ thuộc góc nhìn. Trái không phải một hướng địa lý cố định như đông hoặc tây.",
+          "conditions": [
+            "Cần xác định cùng hướng nhìn khi chỉ bên trái của một địa điểm."
+          ],
+          "takeaway": "左 chỉ phía trái. Ở mức cơ bản, thường gặp 左边 là bên trái, 左手 là tay trái và 往左拐 là rẽ trái."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + mốc + 左边; 往左 + 拐",
+            "position": "左 đứng trước 边 trong vị trí, sau 往 trong hướng đi.",
+            "required": "Cần xác định cùng hướng nhìn khi chỉ bên trái của một địa điểm.",
+            "omission": "Khi mốc đã rõ, có thể nói 在左边 mà không nhắc lại mốc.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "窗户在门左边。",
+            "vi": "Cửa sổ ở bên trái cửa ra vào.",
+            "analysis": "门 là mốc; 左边 nêu bên trái theo góc nhìn đã rõ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请在前面往左拐。",
+            "vi": "Xin rẽ trái ở phía trước.",
+            "analysis": "在前面 nêu chỗ rẽ; 往左拐 nêu hướng rẽ.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "左 và 右",
+            "scene": "Bạn đổi hướng rẽ ở ngã tư.",
+            "possibleConfusion": "左 và 右",
+            "difference": "左 là trái; 右 là phải. Hai phía đối nhau và đều phụ thuộc hướng nhìn của người được chỉ đường.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "往左拐。",
+                "vi": "Rẽ trái.",
+                "comment": "Rẽ sang bên trái.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "往右拐。",
+                "vi": "Rẽ phải.",
+                "comment": "Rẽ sang bên phải.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "左 là trái; 右 là phải. Hai phía đối nhau và đều phụ thuộc hướng nhìn của người được chỉ đường."
+            },
+            "boundary": "Đổi từ làm đổi chỉ dẫn; khi quay mặt ngược lại, phía trái/phải theo người cũng đổi.",
+            "tip": "Xác định hướng người nghe đang quay mặt trước khi chỉ."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "左 thanh ba; khi đi cùng 拐 thanh ba, 左 thường đọc thành thanh hai trong lời nói liền.",
+          "literalTranslation": "Bên trái phụ thuộc góc nhìn. Trái không phải một hướng địa lý cố định như đông hoặc tây.",
+          "confusables": "左 là trái; 右 là phải. Hai phía đối nhau và đều phụ thuộc hướng nhìn của người được chỉ đường."
+        },
+        "pronunciation": {
+          "text": "左 thanh ba; khi đi cùng 拐 thanh ba, 左 thường đọc thành thanh hai trong lời nói liền. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Rẽ trái ở đây."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Bên trái có luôn là hướng tây không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "在这里往左拐。"
+            ],
+            "explanation": "左 chỉ hướng sau 往."
+          },
+          "q2": {
+            "accepted": [
+              "Không, bên trái thay đổi theo hướng nhìn."
+            ],
+            "explanation": "Đông tây là hướng địa lý; trái phải lấy người hoặc mốc làm chuẩn."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói ngân hàng ở bên trái trường. Cho biết 银行 là ngân hàng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Bảo người nghe rẽ trái ở ngã tư."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Lấy trường làm mốc.",
+            "frame": "银行 + 在 + 学校左边。",
+            "model": "银行在学校左边。",
+            "vi": "Ngân hàng ở bên trái trường.",
+            "criteria": [
+              "左 đứng trước 边 trong vị trí, sau 往 trong hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu điểm rẽ rồi hướng.",
+            "frame": "到路口 + 往左 + 拐。",
+            "model": "到路口往左拐。",
+            "vi": "Đến ngã tư thì rẽ trái.",
+            "criteria": [
+              "左 đứng trước 边 trong vị trí, sau 往 trong hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-cc0f255de687",
@@ -90367,17 +92586,177 @@
       "intro": [
         {
           "pinyin": "xī",
-          "meaning": "tây"
+          "meaning": "hướng tây"
         }
       ],
-      "meaning": "tây",
-      "status": "catalog",
+      "meaning": "hướng tây",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · đơn giản",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我家在学校西边。",
+          "vi": "Nhà tôi ở phía tây trường.",
+          "analysis": "学校 là mốc; 西边 nêu phía tây.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "沿着这条路往西走。",
+          "vi": "Đi về hướng tây dọc theo con đường này.",
+          "analysis": "沿着这条路 là dọc con đường này; 往西 chỉ hướng đi.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 419,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 415,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=西"
+        ],
+        "introduction": {
+          "scope": "hướng tây"
+        },
+        "meaning": {
+          "scene": "Bạn xem bản đồ rồi xác định vị trí hoặc hướng đi.",
+          "explanation": "西 chỉ hướng tây. Dùng 西边 để nói phía tây, 在 + mốc + 西边 để định vị, hoặc 往西走 để nói đi về hướng tây.",
+          "boundary": "Hướng địa lý không phụ thuộc việc người đang quay mặt về đâu. Trên bản đồ thông thường phía trên là bắc, nhưng cần xem ký hiệu hướng của bản đồ.",
+          "conditions": [
+            "Nói vị trí tương đối cần mốc rõ; mốc có thể đã được nhắc trong hội thoại."
+          ],
+          "takeaway": "西 chỉ hướng tây. Dùng 西边 để nói phía tây, 在 + mốc + 西边 để định vị, hoặc 往西走 để nói đi về hướng tây."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + mốc + 西边; 往 + 西 + 走",
+            "position": "西 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+            "required": "Nói vị trí tương đối cần mốc rõ; mốc có thể đã được nhắc trong hội thoại.",
+            "omission": "Sau 往 có thể dùng riêng 西; không bắt buộc thêm 边.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我家在学校西边。",
+            "vi": "Nhà tôi ở phía tây trường.",
+            "analysis": "学校 là mốc; 西边 nêu phía tây.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "沿着这条路往西走。",
+            "vi": "Đi về hướng tây dọc theo con đường này.",
+            "analysis": "沿着这条路 là dọc con đường này; 往西 chỉ hướng đi.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "西 và 东",
+            "scene": "Bạn chỉ hai phía đối nhau trên bản đồ.",
+            "possibleConfusion": "西 và 东",
+            "difference": "西 là hướng tây; 东 là hướng đông. Đổi chữ sẽ đổi hướng đi hoặc vị trí.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "往西走。",
+                "vi": "Đi về hướng tây.",
+                "comment": "Đi theo hướng tây.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "往东走。",
+                "vi": "Đi về hướng đông.",
+                "comment": "Đi theo hướng đông, ngược hướng trước.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "西 là hướng tây; 东 là hướng đông. Đổi chữ sẽ đổi hướng đi hoặc vị trí."
+            },
+            "boundary": "Đây là hai hướng đối nhau; không thể thay mà giữ nguyên chỉ dẫn.",
+            "tip": "Xác định hướng trên bản đồ trước khi chỉ đường."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "西 thanh một; giữ giọng cao tương đối đều.",
+          "literalTranslation": "Hướng địa lý không phụ thuộc việc người đang quay mặt về đâu. Trên bản đồ thông thường phía trên là bắc, nhưng cần xem ký hiệu hướng của bản đồ.",
+          "confusables": "西 là hướng tây; 东 là hướng đông. Đổi chữ sẽ đổi hướng đi hoặc vị trí."
+        },
+        "pronunciation": {
+          "text": "西 thanh một; giữ giọng cao tương đối đều. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Đi về hướng tây."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói: Bệnh viện ở phía tây công viên."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "往西走。"
+            ],
+            "explanation": "西 đứng sau 往."
+          },
+          "q2": {
+            "accepted": [
+              "医院在公园西边。"
+            ],
+            "explanation": "公园 là mốc."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trường ở phía tây nhà bạn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Rủ người nghe đi về hướng tây."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng nhà bạn làm mốc.",
+            "frame": "学校 + 在 + 我家西边。",
+            "model": "学校在我家西边。",
+            "vi": "Trường ở phía tây nhà tôi.",
+            "criteria": [
+              "西 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我们 và 吧.",
+            "frame": "我们 + 往西走 + 吧。",
+            "model": "我们往西走吧。",
+            "vi": "Chúng ta đi về hướng tây nhé.",
+            "criteria": [
+              "西 đứng trước 边 trong cụm vị trí; sau 往 khi chỉ hướng đi.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-7d9a48f953e3",
@@ -90385,19 +92764,178 @@
       "hanzi": "一边",
       "intro": [
         {
-          "pinyin": "yìbiān",
-          "meaning": "một bên",
-          "sourcePinyin": "yībiān"
+          "pinyin": "yībiān",
+          "meaning": "một bên; vừa… vừa…"
         }
       ],
-      "meaning": "một bên",
-      "status": "catalog",
+      "meaning": "một bên; vừa… vừa…",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-030 · phức tạp",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请站到一边。",
+          "vi": "Xin đứng sang một bên.",
+          "analysis": "到一边 chỉ vị trí chuyển đến, không phải làm hai việc đồng thời.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "她一边听音乐，一边做饭。",
+          "vi": "Cô ấy vừa nghe nhạc vừa nấu ăn.",
+          "analysis": "Hai vế cùng chủ thể 她, hai hoạt động diễn ra đồng thời.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 420,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 416,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=一边"
+        ],
+        "introduction": {
+          "scope": "một bên; vừa… vừa…"
+        },
+        "meaning": {
+          "scene": "Bạn nhờ ai đó đứng sang một bên hoặc nói hai việc làm cùng lúc.",
+          "explanation": "一边 có thể chỉ một phía, một bên. Trong mẫu 一边…一边…, từ này nối hai hoạt động diễn ra đồng thời, thường do cùng một người thực hiện.",
+          "boundary": "Mẫu vừa…vừa… ở đây dùng cho hoạt động có thể cùng diễn ra. Không dùng để nối hai việc theo thứ tự trước rồi sau, cũng không thay cho mọi cặp tính chất như vừa cao vừa đẹp.",
+          "conditions": [
+            "Hai hoạt động song song cần có khoảng thời gian trùng nhau; trong bài dùng cùng chủ thể."
+          ],
+          "takeaway": "一边 có thể chỉ một phía, một bên. Trong mẫu 一边…一边…, từ này nối hai hoạt động diễn ra đồng thời, thường do cùng một người thực hiện."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一边 + hoạt động A + 一边 + hoạt động B; 到一边",
+            "position": "Trong mẫu song song, mỗi 一边 đứng trước một hoạt động. Trong nghĩa vị trí, 一边 là nơi đến sau 到.",
+            "required": "Hai hoạt động song song cần có khoảng thời gian trùng nhau; trong bài dùng cùng chủ thể.",
+            "omission": "Trong khẩu ngữ đôi khi lược 一 ở vế đầu hoặc cả hai, nhưng người mới học nên giữ mẫu đầy đủ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请站到一边。",
+            "vi": "Xin đứng sang một bên.",
+            "analysis": "到一边 chỉ vị trí chuyển đến, không phải làm hai việc đồng thời.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "她一边听音乐，一边做饭。",
+            "vi": "Cô ấy vừa nghe nhạc vừa nấu ăn.",
+            "analysis": "Hai vế cùng chủ thể 她, hai hoạt động diễn ra đồng thời.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Đồng thời và lần lượt",
+            "scene": "Bạn kể thứ tự nấu ăn và ăn cơm.",
+            "possibleConfusion": "Đồng thời và lần lượt",
+            "difference": "一边…一边… nhấn hai việc cùng diễn ra; 先…再… nghĩa trước hết…rồi… và chỉ hai bước lần lượt.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她一边听音乐，一边做饭。",
+                "vi": "Cô ấy vừa nghe nhạc vừa nấu ăn.",
+                "comment": "Hai việc có thể diễn ra cùng lúc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "她先做饭，再吃饭。",
+                "vi": "Cô ấy nấu ăn trước rồi ăn cơm.",
+                "comment": "Nấu xong rồi mới ăn theo trình tự.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "一边…一边… nhấn hai việc cùng diễn ra; 先…再… nghĩa trước hết…rồi… và chỉ hai bước lần lượt."
+            },
+            "boundary": "Không thay mẫu đồng thời vào câu kể hai bước nếu muốn giữ ý trước sau.",
+            "tip": "Cùng lúc: 一边…一边…; lần lượt: 先…再…."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Giới thiệu ghi thanh gốc của 一. Khi nói liền trước 边 thanh một, 一 thường đọc thành thanh bốn; 边 giữ thanh một.",
+          "literalTranslation": "Mẫu vừa…vừa… ở đây dùng cho hoạt động có thể cùng diễn ra. Không dùng để nối hai việc theo thứ tự trước rồi sau, cũng không thay cho mọi cặp tính chất như vừa cao vừa đẹp.",
+          "confusables": "一边…一边… nhấn hai việc cùng diễn ra; 先…再… nghĩa trước hết…rồi… và chỉ hai bước lần lượt."
+        },
+        "pronunciation": {
+          "text": "Giới thiệu ghi thanh gốc của 一. Khi nói liền trước 边 thanh một, 一 thường đọc thành thanh bốn; 边 giữ thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Tôi vừa uống trà vừa đọc sách."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "请站到一边 có nghĩa vừa đứng vừa làm việc khác không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我一边喝茶，一边看书。"
+            ],
+            "explanation": "Hai hành động cùng chủ thể và có thể diễn ra đồng thời."
+          },
+          "q2": {
+            "accepted": [
+              "Không, 一边 ở đây chỉ một bên."
+            ],
+            "explanation": "Phân biệt nghĩa vị trí với mẫu lặp 一边…一边…."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn vừa nghe nhạc vừa viết chữ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhờ người nghe đứng sang một bên."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chọn hai hoạt động cùng lúc.",
+            "frame": "我一边 + 听音乐 + 一边 + 写字。",
+            "model": "我一边听音乐，一边写字。",
+            "vi": "Tôi vừa nghe nhạc vừa viết chữ.",
+            "criteria": [
+              "Trong mẫu song song, mỗi 一边 đứng trước một hoạt động. Trong nghĩa vị trí, 一边 là nơi đến sau 到.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 请 để yêu cầu lịch sự.",
+            "frame": "请 + 站到 + 一边。",
+            "model": "请站到一边。",
+            "vi": "Xin đứng sang một bên.",
+            "criteria": [
+              "Trong mẫu song song, mỗi 一边 đứng trước một hoạt động. Trong nghĩa vị trí, 一边 là nơi đến sau 到.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "phía trên",
@@ -90407,35 +92945,355 @@
           "meaning": "phía trên"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "书在桌子上边。",
+          "vi": "Sách ở phía trên/trên mặt bàn.",
+          "analysis": "上边 chỉ vị trí cao hơn hoặc trên mặt bàn tùy cách đặt thực tế.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这张照片上边有一个名字。",
+          "vi": "Phía trên bức ảnh này có một cái tên.",
+          "analysis": "上边 nêu vùng phía trên; ngữ cảnh xác định tên nằm trên ảnh hay phía trên ảnh.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-8bede3b2b4f5",
       "hanzi": "上边",
       "level": 1,
       "sourceIndex": 421,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-030 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 417,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=上边"
+        ],
+        "introduction": {
+          "scope": "phía trên"
+        },
+        "meaning": {
+          "scene": "Bạn mô tả vị trí đồ vật theo một vật làm mốc.",
+          "explanation": "上边 chỉ vùng phía trên so với một mốc. Đặt tên vật hoặc nơi làm mốc trước 上边; dùng 在 để nói vật đang ở đâu, hoặc 有 để giới thiệu vật tại vị trí đó.",
+          "boundary": "上边 không tự nói vật ở bên trong. Cặp 上边/下边 nói trên–dưới, còn 里 nói bên trong.",
+          "conditions": [
+            "Chọn 在 khi định vị vật đã được nhắc; chọn 有 khi giới thiệu có vật ở một nơi."
+          ],
+          "takeaway": "上边 chỉ vùng phía trên so với một mốc. Đặt tên vật hoặc nơi làm mốc trước 上边; dùng 在 để nói vật đang ở đâu, hoặc 有 để giới thiệu vật tại vị trí đó."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Vật + 在 + mốc + 上边; mốc + 上边 + 有 + vật",
+            "position": "上边 theo sau tên mốc; cả cụm địa điểm đứng sau 在 hoặc trước 有.",
+            "required": "Chọn 在 khi định vị vật đã được nhắc; chọn 有 khi giới thiệu có vật ở một nơi.",
+            "omission": "Khi mốc đã rõ, có thể dùng riêng cụm vị trí sau 在.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "书在桌子上边。",
+            "vi": "Sách ở phía trên/trên mặt bàn.",
+            "analysis": "上边 chỉ vị trí cao hơn hoặc trên mặt bàn tùy cách đặt thực tế.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这张照片上边有一个名字。",
+            "vi": "Phía trên bức ảnh này có một cái tên.",
+            "analysis": "上边 nêu vùng phía trên; ngữ cảnh xác định tên nằm trên ảnh hay phía trên ảnh.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "上边 và 下边",
+            "scene": "Bạn mô tả vị trí chữ so với một bức ảnh.",
+            "possibleConfusion": "上边 và 下边",
+            "difference": "上边 chỉ phía trên; 下边 chỉ phía dưới. Cả hai dùng cùng mốc, nhưng vùng được nói đến khác nhau.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "名字在照片上边。",
+                "vi": "Tên ở phía trên bức ảnh.",
+                "comment": "Dùng 上边 để xác định vùng chữ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "名字在照片下边。",
+                "vi": "Tên ở phía dưới bức ảnh.",
+                "comment": "Dùng 下边 làm đổi vị trí tên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "上边 chỉ phía trên; 下边 chỉ phía dưới. Cả hai dùng cùng mốc, nhưng vùng được nói đến khác nhau."
+            },
+            "boundary": "Hai câu đều đúng cấu trúc; chọn theo vị trí thực, không phải hai cách nói đồng nghĩa.",
+            "tip": "Tên mốc đứng trước từ vị trí."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "上 thanh bốn; 边 đọc nhẹ trong cách đọc khẩu ngữ được chọn ở bài, vẫn phải phát âm.",
+          "literalTranslation": "上边 không tự nói vật ở bên trong. Cặp 上边/下边 nói trên–dưới, còn 里 nói bên trong.",
+          "confusables": "上边 chỉ phía trên; 下边 chỉ phía dưới. Cả hai dùng cùng mốc, nhưng vùng được nói đến khác nhau."
+        },
+        "pronunciation": {
+          "text": "上 thanh bốn; 边 đọc nhẹ trong cách đọc khẩu ngữ được chọn ở bài, vẫn phải phát âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Phía trên cửa có một cái đồng hồ. Cho biết 钟 là đồng hồ treo/tổng quát."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "上边 có luôn bắt buộc vật chạm vào mặt vật mốc không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "门上边有一个钟。"
+            ],
+            "explanation": "门上边 chỉ vùng phía trên cửa."
+          },
+          "q2": {
+            "accepted": [
+              "Không; có thể chỉ vùng ở phía trên mà không tiếp xúc."
+            ],
+            "explanation": "Ngữ cảnh hoặc mô tả thực tế quyết định có tiếp xúc hay không."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói phía trên cửa có một bức ảnh. Cho biết 照片 là ảnh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói sách ở trên bàn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nơi trước 有.",
+            "frame": "门上边 + 有 + 一张照片。",
+            "model": "门上边有一张照片。",
+            "vi": "Phía trên cửa có một bức ảnh.",
+            "criteria": [
+              "上边 theo sau tên mốc; cả cụm địa điểm đứng sau 在 hoặc trước 有.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu sách rồi vị trí.",
+            "frame": "书 + 在 + 桌子上边。",
+            "model": "书在桌子上边。",
+            "vi": "Sách ở trên bàn.",
+            "criteria": [
+              "上边 theo sau tên mốc; cả cụm địa điểm đứng sau 在 hoặc trước 有.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "ở dưới",
+      "meaning": "phía dưới",
       "intro": [
         {
           "pinyin": "xiàbian",
-          "meaning": "ở dưới"
+          "meaning": "phía dưới"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "猫在桌子下边。",
+          "vi": "Con mèo ở dưới bàn.",
+          "analysis": "桌子 là mốc; 下边 là phía dưới mốc.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这张照片下边有一个名字。",
+          "vi": "Phía dưới bức ảnh này có một cái tên.",
+          "analysis": "下边 xác định vùng bên dưới, không nhất thiết bị ảnh che khuất.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-a52ea19058bc",
       "hanzi": "下边",
       "level": 1,
       "sourceIndex": 422,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-030 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 418,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL nguồn là điểm tra cứu, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=下边"
+        ],
+        "introduction": {
+          "scope": "phía dưới"
+        },
+        "meaning": {
+          "scene": "Bạn mô tả vị trí đồ vật theo một vật làm mốc.",
+          "explanation": "下边 chỉ vùng phía dưới so với một mốc. Đặt tên vật hoặc nơi làm mốc trước 下边; dùng 在 để nói vật đang ở đâu, hoặc 有 để giới thiệu vật tại vị trí đó.",
+          "boundary": "下边 không tự nói vật ở bên trong. Cặp 下边/上边 nói trên–dưới, còn 里 nói bên trong.",
+          "conditions": [
+            "Chọn 在 khi định vị vật đã được nhắc; chọn 有 khi giới thiệu có vật ở một nơi."
+          ],
+          "takeaway": "下边 chỉ vùng phía dưới so với một mốc. Đặt tên vật hoặc nơi làm mốc trước 下边; dùng 在 để nói vật đang ở đâu, hoặc 有 để giới thiệu vật tại vị trí đó."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Vật + 在 + mốc + 下边; mốc + 下边 + 有 + vật",
+            "position": "下边 theo sau tên mốc; cả cụm địa điểm đứng sau 在 hoặc trước 有.",
+            "required": "Chọn 在 khi định vị vật đã được nhắc; chọn 有 khi giới thiệu có vật ở một nơi.",
+            "omission": "Khi mốc đã rõ, có thể dùng riêng cụm vị trí sau 在.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "猫在桌子下边。",
+            "vi": "Con mèo ở dưới bàn.",
+            "analysis": "桌子 là mốc; 下边 là phía dưới mốc.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这张照片下边有一个名字。",
+            "vi": "Phía dưới bức ảnh này có một cái tên.",
+            "analysis": "下边 xác định vùng bên dưới, không nhất thiết bị ảnh che khuất.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "下边 và 上边",
+            "scene": "Bạn mô tả vị trí chữ so với một bức ảnh.",
+            "possibleConfusion": "下边 và 上边",
+            "difference": "下边 chỉ phía dưới; 上边 chỉ phía trên. Cả hai dùng cùng mốc, nhưng vùng được nói đến khác nhau.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "名字在照片下边。",
+                "vi": "Tên ở phía dưới bức ảnh.",
+                "comment": "Dùng 下边 để xác định vùng chữ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "名字在照片上边。",
+                "vi": "Tên ở phía trên bức ảnh.",
+                "comment": "Dùng 上边 làm đổi vị trí tên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "下边 chỉ phía dưới; 上边 chỉ phía trên. Cả hai dùng cùng mốc, nhưng vùng được nói đến khác nhau."
+            },
+            "boundary": "Hai câu đều đúng cấu trúc; chọn theo vị trí thực, không phải hai cách nói đồng nghĩa.",
+            "tip": "Tên mốc đứng trước từ vị trí."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "下 thanh bốn; 边 đọc nhẹ trong cách đọc khẩu ngữ được chọn ở bài, vẫn phải phát âm.",
+          "literalTranslation": "下边 không tự nói vật ở bên trong. Cặp 下边/上边 nói trên–dưới, còn 里 nói bên trong.",
+          "confusables": "下边 chỉ phía dưới; 上边 chỉ phía trên. Cả hai dùng cùng mốc, nhưng vùng được nói đến khác nhau."
+        },
+        "pronunciation": {
+          "text": "下 thanh bốn; 边 đọc nhẹ trong cách đọc khẩu ngữ được chọn ở bài, vẫn phải phát âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Con chó ở dưới ghế. Cho biết 狗 là chó, 椅子 là ghế."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "下边 có luôn nghĩa ở bên trong không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "狗在椅子下边。"
+            ],
+            "explanation": "椅子 đặt trước 下边."
+          },
+          "q2": {
+            "accepted": [
+              "Không; 下边 chỉ phía dưới, bên trong thường dùng 里."
+            ],
+            "explanation": "Không nhầm vị trí thấp hơn với vị trí trong vật chứa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói giày ở dưới bàn. Cho biết 鞋 là giày."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói dưới ghế có một con mèo."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 在 để nói vị trí.",
+            "frame": "鞋 + 在 + 桌子下边。",
+            "model": "鞋在桌子下边。",
+            "vi": "Giày ở dưới bàn.",
+            "criteria": [
+              "下边 theo sau tên mốc; cả cụm địa điểm đứng sau 在 hoặc trước 有.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nơi trước 有; mèo dùng 只.",
+            "frame": "椅子下边 + 有 + 一只猫。",
+            "model": "椅子下边有一只猫。",
+            "vi": "Dưới ghế có một con mèo.",
+            "criteria": [
+              "下边 theo sau tên mốc; cả cụm địa điểm đứng sau 在 hoặc trước 有.",
+              "Chấp nhận cách nói khác đúng tình huống; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "hướng đông",
@@ -125325,13 +128183,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 410,
-    "pending": 1824,
+    "ready": 428,
+    "pending": 1806,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 410
+        "ready": 428
       },
       {
         "level": 2,
