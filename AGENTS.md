@@ -1,21 +1,23 @@
-# Quy trình tiếp quản — biên soạn và xuất bản
+# HAZI-VIET — chế độ tiếp tục nhanh
 
-Nguồn chính: GitHub `bohoa96tb/hazi-viet`. Biên soạn trên `content/vocabulary-2224`; website phục vụ từ `main`. Đọc [prompt đầy đủ](docs/PROMPT_TIEP_QUAN_DU_AN_2224.md), [chuẩn V2](docs/CONTENT_STANDARD.md), [handoff](docs/HANDOFF.md), tiến độ và dữ liệu thật tại HEAD mới nhất trước khi sửa.
+## Nguồn và quyền
+GitHub `bohoa96tb/hazi-viet` là nguồn chính. Biên soạn trên `content/vocabulary-2224`, phát hành từ `main`.
+Người dùng đã cho phép biên soạn, sửa dữ liệu/code cần thiết, commit, cập nhật main và triển khai GitHub Pages sau kiểm tra. Không hỏi lại quyền này. Không force-push, xóa lịch sử/dữ liệu hoặc đổi quyền/hosting.
 
-## Quyền người dùng đã cấp
+## Mỗi khi người dùng nhắn “Tiếp tục”
+1. Đọc HEAD mới nhất của hai nhánh, file này và `checkpoint.json`. Ghim mọi lần đọc của đợt vào SHA đã quan sát. Không đọc lịch sử commit, toàn bộ mã nguồn, toàn bộ từ vựng hoặc phân tích lại kiến trúc thường lệ.
+2. Checkpoint gọn chỉ là chỉ mục dẫn đường; `progress.json` và baseline cố định `tools/vocabulary/baseline.json` vẫn là nguồn tiến độ. Đối chiếu sourceBlobs với blob SHA tại HEAD. Nếu khớp, dùng nextIds/nextOrdinal để đọc đúng dữ liệu cần làm. Nếu lệch, đọc lại các nguồn tiến độ và tái tạo checkpoint; không tin số cũ. Không dùng sourceSnapshotCommit làm HEAD hiện tại.
+3. Đọc chuẩn `docs/CONTENT_STANDARD.md`, schema `docs/CONTENT_SCHEMA_V2.md` và chỉ các file liên quan đến đợt. Trong cùng phiên chỉ đọc lại file nếu SHA đổi. Prompt đầy đủ `docs/PROMPT_TIEP_QUAN_DU_AN_2224.md` dùng khi thiếu yêu cầu; handoff và release là tài liệu lịch sử, không thay tiến độ hiện hành.
+4. Chọn các ID chưa hoàn thành liên tiếp theo baseline 2.224 mục. 10 mục có sẵn ngoài baseline không tính vào 2.224; toàn khóa 2.234 mục. Không nhầm ordinal với sourceIndex. Tối đa hợp lý theo độ khó và dung lượng lượt; 18 mục là mức gần đây để tham khảo, không phải giới hạn hay chỉ tiêu bắt buộc. Không rút ngắn hoặc bỏ bất kỳ thành phần bắt buộc nào để tăng số lượng.
+5. Giữ chuẩn V2: nghĩa/cách dùng/bẫy đầy đủ, đúng hai câu chính theo chuẩn, bài luyện và đáp án tách riêng, gợi ý tự dùng và audio. Đọc chuẩn để biết toàn bộ yêu cầu; không xem danh sách tóm tắt này là thay thế. Giữ ID, thứ tự, tính năng và tiến độ học. Sửa bài cũ không tính là mục mới.
+6. Chạy kiểm thử cần thiết cho thay đổi và phần phụ thuộc. Dùng `node tools/vocabulary/process-batch.mjs apply <batch-path>` theo cú pháp công cụ hiện hành và `node tools/vocabulary/process-batch.mjs verify` khi thay nội dung/tiến độ: kiểm tra máy trên dữ liệu toàn khóa để bảo vệ hash/ID không phải yêu cầu đọc lại toàn bộ nội dung bằng mô hình. Kiểm schema/ngôn ngữ từng bài mới; kiểm renderer/audio/đáp án liên quan bằng công cụ hiện có. Chỉ kiểm cú pháp JS khi JS thay đổi; `git diff --check` cho diff. Thay tài liệu đơn thuần chỉ cần kiểm tài liệu/đường dẫn/checkpoint liên quan. Không chạy lại cùng kiểm thử đã đạt nếu không có thay đổi hoặc nghi vấn mới. Không gọi schema validation là phản biện giáo viên.
+7. Lưu nội dung, tiến độ và checkpoint trong cùng commit khi khả thi. Tái tạo checkpoint từ progress/baseline đã cập nhật; sourceBlobs phải là blob SHA đúng của các nguồn trong tree mới. Không ghi SHA tự tham chiếu. Commit phải có parent là HEAD đã kiểm; cập nhật ref fast-forward với expected SHA. Nếu HEAD đổi, đọc thay đổi liên quan và tích hợp an toàn; không ghi đè.
+8. Cập nhật main đã được cho phép. Xác minh file/tree liên quan sau ghi. Kiểm GitHub Pages bằng workflow run có head_sha đúng commit phát hành (không chỉ run mới nhất, không chỉ workflow PR). Phân biệt đã lưu GitHub, đang triển khai, triển khai thành công, và dữ liệu live đã xác minh. Với thay đổi học liệu, kiểm các bài mới/dữ liệu liên quan trên website thật. Ghi bằng chứng đã quan sát; không báo thành công khi pending hoặc chưa kiểm.
+9. Cuối lượt chỉ báo: số mục mới hoàn thành, tổng tiến độ, commit, trạng thái phát hành và lỗi nếu có.
 
-Ngày 22/10/2026, người dùng cho phép sửa `main` để triển khai website luôn. Từ nay mỗi lệnh “Tiếp tục” trong dự án này cho phép biên soạn, sửa code/dữ liệu cần thiết, commit/push, merge/cập nhật `main` sau kiểm tra và triển khai GitHub Pages. Không hỏi lại quyền thông thường này. Quy định cũ cấm tự merge main đã được thay thế trong phạm vi trên. Không force-push, xóa lịch sử/dữ liệu, thay quyền truy cập hoặc dịch vụ hosting ngoài phạm vi.
+## Khi nào rà soát sâu
+Chỉ mở rộng phạm vi khi xung đột commit, checkpoint sai, baseline/hash/ID lệch, cấu trúc thay đổi hoặc kiểm thử lỗi. Điều tra đúng phần gây lỗi trước. Không init lại baseline hay sửa hash để che lỗi. Không hạ chuẩn hoặc bỏ kiểm tính toàn vẹn để tăng tốc.
 
-## Quy trình mỗi đợt
-
-1. Đọc HEAD hai nhánh, commit gần nhất, `progress.json`, `tools/vocabulary/baseline.json`, chuẩn, code và dữ liệu thực; đồng bộ main an toàn. GitHub là nguồn chính, không đoán từ chat.
-2. Chạy `node tools/vocabulary/process-batch.mjs verify` trên nhánh biên soạn. Đối chiếu tiến độ, thứ tự, ID, hash và bài thật. Không chạy init lại để che lệch.
-3. Chọn 12 ID chưa hoàn thành kế tiếp theo baseline. Không nhầm `sourceIndex` với ordinal. 10 mục ngoài baseline không tính vào 2.224.
-4. Áp dụng chuẩn V2 ưu tiên nghĩa/bẫy, gộp vị trí với hai ví dụ; ít lặp. Trước batch V2 đầu tiên, giải quyết các khác biệt schema/renderer/audio/kiểm thử ghi ở handoff; không thêm câu thừa để qua validator V1.
-5. Lưu batch có ID mới và phiên bản chuẩn. Giữ ID, thứ tự, tính năng và tiến độ học. Bài cũ chỉ biên tập lại khi có yêu cầu hoặc lỗi cần sửa; không tính mục sửa lại là mục mới.
-6. Chạy apply/verify đã được cập nhật tương thích, kiểm tra cú pháp JS liên quan, hiển thị, audio, đề/đáp án, dữ liệu cũ và `git diff --check`. Tự rà ngôn ngữ, đối chiếu nguồn khi chưa chắc; không gọi schema là phản biện giáo viên.
-7. Commit/push, bảo vệ HEAD bằng expected SHA/fast-forward. Đọc lại tree/file/progress để xác minh; lưu mã commit đã kiểm chứng bằng commit kế tiếp nếu cần. Không ghi SHA tự tham chiếu.
-8. Đưa bản đã kiểm tra vào main, theo dõi đúng lượt GitHub Pages và kiểm tra dữ liệu trên URL website thật. Đã push, đã merge và đã xác minh website là ba trạng thái khác nhau. Không kết thúc bằng chỉ lưu nhánh khi yêu cầu là hoàn thành một đợt xuất bản.
-9. Báo số mới hoàn thành/còn lại, mục sửa, file/commit, kiểm thử, deploy/live và vị trí tiếp theo. Nếu lỗi, ghi nguyên nhân, trạng thái thật và phần còn thiếu; không yêu cầu tải/upload thủ công.
-
-Nếu chỉ được yêu cầu sửa/lưu prompt hoặc trình bày bản thử, hoàn thành đúng phạm vi đó, không tự tạo thêm một đợt từ vựng. Không dừng biên soạn app để chờ người dùng làm bài; chỉ chế độ dạy trong chat mới dừng chờ câu trả lời.
+## Checkpoint
+`checkpoint.json` là cache gọn có dấu vân tay nguồn, đợt cuối và nhóm tiếp theo; phải cập nhật mỗi đợt. Nếu thiếu hoặc cũ, tái tạo từ progress/baseline hiện hành. Không cần append dài vào handoff hay tạo commit chỉ để ghi SHA của chính nó.
+Yêu cầu chỉ sửa/lưu quy trình hoặc bản thử thì hoàn thành đúng phạm vi; không tự tạo thêm đợt từ vựng.
