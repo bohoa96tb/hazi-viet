@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 234/2224. Còn: 1990. Toàn khóa đủ cấu trúc: 244/2234.
+Đã bổ sung: 252/2224. Còn: 1972. Toàn khóa đủ cấu trúc: 262/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -25,26 +25,27 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-017 · mục 193–204 · 有的、正在、没有、真的、还是、还有、八、冷、口、吃、喝、渴
 - batch-018 · mục 205–216 · 睡、饭、饿、什么、包子、午饭、吃饭、好吃、干净、早饭、晚饭、最好
 - batch-019 · mục 217–234 · 生气、米饭、面包、面条儿、中、也、六、出、国、外、女、新、比、男、病、中间、别的、北京
+- batch-020 · mục 235–252 · 国外、国家、外国、外语、有名、网上、上、半、后、早、晚、穿、上午、下午、中午、今天、关上、前天
 
 ## 18 mục tiếp theo
 
-- 国外 · hz-h1-8a5370f712d5
-- 国家 · hz-h1-950d24f2d087
-- 外国 · hz-h1-7b2aeb4caef6
-- 外语 · hz-h1-ff99633eb7c5
-- 有名 · hz-h1-863c75096dec
-- 网上 · hz-h1-55dc256e49b9
-- 上 · hz-h1-a9f039606285
-- 半 · hz-h1-4b7c8848d659
-- 后 · hz-h1-239d398f7fe3
-- 早 · hz-h1-062d5f2109c6
-- 晚 · hz-h1-1f95be7924c5
-- 穿 · hz-h1-75afb5609a5b
-- 上午 · hz-h1-0bb1ea399349
-- 下午 · hz-h1-fbfe7ccc5408
-- 中午 · hz-h1-f5222818a6aa
-- 今天 · hz-h1-2fc72322725e
-- 关上 · hz-h1-89587a494d51
-- 前天 · hz-h1-2d75817ea67f
+- 半天 · hz-h1-43c555de1578
+- 后天 · hz-h1-5d5957591676
+- 早上 · hz-h1-71f98cb77d34
+- 明天 · hz-h1-e2fec8dacf11
+- 星期天 · hz-h1-f1304ef5dcff
+- 星期日 · hz-h1-656c96509fd0
+- 昨天 · hz-h1-7a635ffc5678
+- 晚上 · hz-h1-9d4c6e292234
+- 白天 · hz-h1-743ac58dbf5a
+- 见面 · hz-h1-3c2627c67d36
+- 马上 · hz-h1-fb40c9408c11
+- 一 · hz-h1-4f69d9d39f4e
+- 七 · hz-h1-267f3430c560
+- 三 · hz-h1-0198df1622ac
+- 两 · hz-h1-9c4c64bf48ef
+- 二 · hz-h1-5f56a69de9b6
+- 几 · hz-h1-5d48b8c6298e
+- 十 · hz-h1-c3af2ab14f88
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
