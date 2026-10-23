@@ -21,3 +21,12 @@ Chỉ mở rộng phạm vi khi xung đột commit, checkpoint sai, baseline/has
 ## Checkpoint
 `checkpoint.json` là cache gọn có dấu vân tay nguồn, đợt cuối và nhóm tiếp theo; phải cập nhật mỗi đợt. Nếu thiếu hoặc cũ, tái tạo từ progress/baseline hiện hành. Không cần append dài vào handoff hay tạo commit chỉ để ghi SHA của chính nó.
 Yêu cầu chỉ sửa/lưu quy trình hoặc bản thử thì hoàn thành đúng phạm vi; không tự tạo thêm đợt từ vựng.
+
+## Cổng an toàn trước cập nhật main
+
+- Nếu có xung đột commit/merge, checkpoint bất thường hoặc kiểm thử lỗi: dừng cập nhật `main`, báo bằng chứng, bước đã xong và bước bị chặn. Không tự coi việc tái tạo checkpoint là đã giải quyết bất thường; phải xác minh nguyên nhân và tính toàn vẹn trước khi tiếp tục phát hành.
+- HEAD đổi nhưng chưa có xung đột: fetch lại, đối chiếu thay đổi liên quan và kiểm tra lại phần bị ảnh hưởng trước khi fast-forward; không dùng bản kiểm thử của tree cũ để phát hành tree mới.
+- Trước commit nội dung, đối chiếu checkpoint với nguồn: `completedIds` phải là tiền tố liên tục, không trùng của `baseline.orderedIds`; số hoàn thành bằng độ dài tiền tố; còn lại bằng 2.224 trừ số hoàn thành. `lastCompletedId`, `lastBatch`, `nextOrdinal` và `nextIds` phải khớp progress/baseline; kiểm hash bài hoàn thành và 10 bài ngoài baseline bằng công cụ verify. Không sửa số đếm thủ công để che thiếu bài.
+- Tạo checkpoint từ các nguồn đã kiểm, ghi tạm rồi thay file một lần; sourceBlobs lấy bằng `git hash-object <path>` trên chính file sắp commit, không lấy nhầm blob HEAD cũ. Kiểm lại các blob trong tree commit trước khi push. Với đợt chỉ sửa tài liệu và nguồn tiến độ không đổi, giữ checkpoint nguyên trạng sau khi đối chiếu thành công.
+- Kiểm thử chỉ đọc không được âm thầm thay dữ liệu. Trước push, kiểm diff chỉ gồm file đúng phạm vi, rồi dùng push fast-forward thông thường; đồng bộ nhánh biên soạn và main với cùng commit đã kiểm. Khi hai nhánh cùng điểm xuất phát, có thể push `--atomic` cả hai ref để tránh cập nhật một nửa; không force-push.
+- Khi xác minh tiến độ, “hoàn thành” là nội dung đủ cấu trúc và hash hợp lệ theo kiểm thử hiện hành; không suy diễn thành đã phản biện ngôn ngữ hay đã thử âm thanh trên thiết bị thật.
