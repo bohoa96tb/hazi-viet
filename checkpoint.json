@@ -1,24 +1,22 @@
 {
   "schemaVersion": 1,
   "repository": "bohoa96tb/hazi-viet",
-  "sourceSnapshotCommit": "3ba530395ef6e70c5f6412b5047f6c54ad0573eb",
-  "note": "Batch-026: 20 bài mới (346–365), gồm 8 phức tạp, 10 trung bình và 2 đơn giản; tự rà ngôn ngữ, apply/verify và DOM đạt. Xác minh workflow đúng SHA và live sau phát hành.",
+  "sourceSnapshotCommit": "b3d1272f8f459baaa225459ceaebba0baaf7a793",
+  "note": "Batch-027: đã apply/verify và kiểm DOM trong GitHub Actions; chưa xác minh Pages, thiết bị Android hay phản biện giáo viên độc lập.",
   "sourceBlobs": {
-    "progress.json": "2c422fbe5e71030d9390aa74aba4a0e9d133f328",
+    "progress.json": "a127e946bc487689761078d3d500347f43ca1627",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
-    "data/vocabulary/hanzii-course.json": "9ff976d5f2bcb33fecd73f36097d266c6fae6765",
-    "data/vocabulary/content-audit.json": "74811fb1f4ef2383bccf19fa092bf0af495ad42b"
+    "data/vocabulary/hanzii-course.json": "0030d4e5163125c7622ab28b2504d9a51811b388",
+    "data/vocabulary/content-audit.json": "057b69316808b8f764c78afaccc125800a529efe"
   },
   "scopeTotal": 2224,
-  "completedCount": 365,
-  "remaining": 1859,
+  "completedCount": 367,
+  "remaining": 1857,
   "initialCompleteOutsideScope": 10,
-  "lastBatch": "batch-026",
-  "lastCompletedId": "hz-h1-b5878c9ef355",
-  "nextOrdinal": 366,
+  "lastBatch": "batch-027",
+  "lastCompletedId": "hz-h1-56730712e191",
+  "nextOrdinal": 368,
   "nextIds": [
-    "hz-h1-a3527d0310fc",
-    "hz-h1-56730712e191",
     "hz-h1-c910353bf22d",
     "hz-h1-c0d13131ada7",
     "hz-h1-a92ba3f9c7e1",
@@ -34,11 +32,13 @@
     "hz-h1-29d32239d810",
     "hz-h1-ef0aa57ebb30",
     "hz-h1-c54fef729488",
-    "hz-h1-080d8c21847d"
+    "hz-h1-080d8c21847d",
+    "hz-h1-6031de8385a6",
+    "hz-h1-bdbafb4843da"
   ],
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
   "lastVerifiedContentCommit": "3ba530395ef6e70c5f6412b5047f6c54ad0573eb",
-  "priorVerificationNote": "Batch-025: Pages run 39931692866 success đúng SHA, live khớp byte và 17 bài. Batch-026: apply/verify và DOM 20/20 route mới đạt; chưa xác minh triển khai commit sắp tạo, bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập."
+  "priorVerificationNote": "Đã kiểm nội dung trong workflow, cần xác minh Pages sau phát hành."
 }

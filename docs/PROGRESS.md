@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 365/2224. Còn: 1859. Toàn khóa đủ cấu trúc: 375/2234.
+Đã bổ sung: 367/2224. Còn: 1857. Toàn khóa đủ cấu trúc: 377/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -32,11 +32,10 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-024 · mục 314–328 · 听到、听见、告诉、唱歌、喜欢、忘记、明白、看到、看见、知道、觉得、认真、认识、记住、记得
 - batch-025 · mục 329–345 · 高兴、别、到、去、开、拿、来、行、跟、进、送、一起、出去、出来、回到、回去、回来
 - batch-026 · mục 346–365 · 得到、打开、找到、来到、进去、进来、下、关、坐、放、累、走、起、下次、下班、下课、下车、休息、坐下、放假
+- batch-027 · mục 366–367 · 放学、最后
 
 ## 18 mục tiếp theo
 
-- 放学 · hz-h1-a3527d0310fc
-- 最后 · hz-h1-56730712e191
 - 睡觉 · hz-h1-c910353bf22d
 - 请坐 · hz-h1-c0d13131ada7
 - 起床 · hz-h1-a92ba3f9c7e1
@@ -53,5 +52,7 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 见 · hz-h1-ef0aa57ebb30
 - 都 · hz-h1-c54fef729488
 - 里 · hz-h1-080d8c21847d
+- 回家 · hz-h1-6031de8385a6
+- 在家 · hz-h1-bdbafb4843da
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
