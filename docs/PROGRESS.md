@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 382/2224. Còn: 1842. Toàn khóa đủ cấu trúc: 392/2234.
+Đã bổ sung: 400/2224. Còn: 1824. Toàn khóa đủ cấu trúc: 410/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -34,26 +34,27 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-026 · mục 346–365 · 得到、打开、找到、来到、进去、进来、下、关、坐、放、累、走、起、下次、下班、下课、下车、休息、坐下、放假
 - batch-027 · mục 366–367 · 放学、最后
 - batch-028 · mục 368–382 · 睡觉、请坐、起床、起来、住、先、地、天、家、山、床、楼、着、见、都
+- batch-029 · mục 383–400 · 里、回家、在家、地上、家里、房子、房间、桌子、楼上、楼下、身上、们、谁、介绍、他们、先生、别人、女人
 
 ## 18 mục tiếp theo
 
-- 里 · hz-h1-080d8c21847d
-- 回家 · hz-h1-6031de8385a6
-- 在家 · hz-h1-bdbafb4843da
-- 地上 · hz-h1-00f1ad22ad66
-- 家里 · hz-h1-7d0adf7c6dd0
-- 房子 · hz-h1-794438ea5df3
-- 房间 · hz-h1-e226931c0051
-- 桌子 · hz-h1-f9eb50c86520
-- 楼上 · hz-h1-fab3cf7ece90
-- 楼下 · hz-h1-28beda763d50
-- 身上 · hz-h1-fd90b1393fe0
-- 们 · hz-h1-53b165a47cb8
-- 谁 · hz-h1-8ef23bce6545
-- 介绍 · hz-h1-90616b6a5c89
-- 他们 · hz-h1-6f1714d8acb1
-- 先生 · hz-h1-5473007caaeb
-- 别人 · hz-h1-39026e93e158
-- 女人 · hz-h1-f425afa54f49
+- 女生 · hz-h1-176a4ead3971
+- 她们 · hz-h1-5c193225748e
+- 孩子 · hz-h1-26b2763767cb
+- 男人 · hz-h1-c1cc3f3bd0a8
+- 男朋友 · hz-h1-fa309d40d3dc
+- 男生 · hz-h1-e2b6de021112
+- 病人 · hz-h1-babc88a86428
+- 老人 · hz-h1-5226711529cb
+- 东 · hz-h1-b38aa9413ad5
+- 前 · hz-h1-f7b3293bff84
+- 北 · hz-h1-10154770a9fc
+- 南 · hz-h1-4d2b7224fe51
+- 右 · hz-h1-977cb3aa645d
+- 左 · hz-h1-3fcbee5efe81
+- 西 · hz-h1-cc0f255de687
+- 一边 · hz-h1-7d9a48f953e3
+- 上边 · hz-h1-8bede3b2b4f5
+- 下边 · hz-h1-a52ea19058bc
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
