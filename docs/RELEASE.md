@@ -170,4 +170,5 @@ Mục baseline 205–216: 睡、饭、饿、什么、包子、午饭、吃饭、
 - `process-batch.mjs verify` và `test-dom.mjs` đều qua; đã rà ID/thứ tự, liên kết, hash hoàn thành, renderer, audio và luồng mở đáp án.
 - Đã sửa một lỗi nội dung Pinyin trong lời giảng của 还 (mục 188) và phép dò Pinyin để tránh nhận nhầm chuỗi con trong từ tiếng Việt.
 - Commit nội dung: [5baa08f6a647](https://github.com/bohoa96tb/hazi-viet/commit/5baa08f6a647e8ecd275805d5e8dbdbeff0a7262). `process-batch verify` và `test-dom.mjs` đều qua.
-- Đang chờ GitHub Pages. Chưa xác minh trực tiếp URL live, bố cục thiết bị, TTS Android hay phản biện giáo viên độc lập.
+- GitHub Pages run [39887553064](https://github.com/bohoa96tb/hazi-viet/actions/runs/39887553064) completed/success trên commit [74a9cd63016e](https://github.com/bohoa96tb/hazi-viet/commit/74a9cd63016ee89be6614cc4a4c3f2cb73c5414a). JSON live không truy cập được qua web lookup nên chưa đối chiếu trực tiếp SHA/route.
+- Chưa xác minh bố cục thiết bị, TTS Android hay phản biện giáo viên độc lập.
