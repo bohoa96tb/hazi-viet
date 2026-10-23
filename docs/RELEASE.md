@@ -1,6 +1,6 @@
 
 
-# Batch-019 · đang chuẩn bị phát hành
+# Batch-019 · nội dung đã kiểm tra, Pages đang chờ
 
 Mục baseline 217–234: 生气、米饭、面包、面条儿、中、也、六、出、国、外、女、新、比、男、病、中间、别的、北京. Candidate có 18 bài V2; tiến độ candidate 234/2.224, còn 1.990; toàn khóa đủ cấu trúc 244/2.234.
 
