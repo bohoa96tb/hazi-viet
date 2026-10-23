@@ -185,3 +185,10 @@ Mục baseline 205–216: 睡、饭、饿、什么、包子、午饭、吃饭、
 - Commit nội dung: [5baa08f6a647](https://github.com/bohoa96tb/hazi-viet/commit/5baa08f6a647e8ecd275805d5e8dbdbeff0a7262). `process-batch verify` và `test-dom.mjs` đều qua.
 - GitHub Pages run [39887553064](https://github.com/bohoa96tb/hazi-viet/actions/runs/39887553064) completed/success trên commit [74a9cd63016e](https://github.com/bohoa96tb/hazi-viet/commit/74a9cd63016ee89be6614cc4a4c3f2cb73c5414a). JSON live không truy cập được qua web lookup nên chưa đối chiếu trực tiếp SHA/route.
 - Chưa xác minh bố cục thiết bị, TTS Android hay phản biện giáo viên độc lập.
+
+
+## Batch-021 — mục 253–270
+
+18 mục: 半天、后天、早上、明天、星期天、星期日、昨天、晚上、白天、见面、马上、一、七、三、两、二、几、十. Tiến độ nội dung chuẩn bị: 270/2.224; còn 1.954; toàn khóa 280/2.234 bài đủ cấu trúc. Mỗi bài có hai câu chính, bài luyện mở với đáp án riêng và hai tình huống tự dùng. Có phân biệt 两/二, số lượng/thứ tự, thời gian/thời lượng, 几/多少/几乎 và cụm tách 见面.
+
+`process-batch apply/verify`, kiểm cú pháp JS và `git diff --check` đạt; xác nhận ID/thứ tự/hash các bài cũ được bảo toàn. Trạng thái commit, DOM và Pages sẽ ghi sau khi xác minh. Chưa kiểm TTS/phát nền Android hoặc phản biện giáo viên độc lập.

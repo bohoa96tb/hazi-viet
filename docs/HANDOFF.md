@@ -63,3 +63,10 @@ Bài V2 dùng đúng hai câu chính mỗi mục. Đã sửa fixture trong `tool
 202. 吃 · hz-h1-26aea8f4d583 · sourceIndex 188
 203. 喝 · hz-h1-ea87e2f5091f · sourceIndex 189
 204. 渴 · hz-h1-b11a9f950493 · sourceIndex 190
+
+
+## Batch-021 — mục 253–270
+
+18 mục: 半天、后天、早上、明天、星期天、星期日、昨天、晚上、白天、见面、马上、一、七、三、两、二、几、十. Tiến độ nội dung chuẩn bị: 270/2.224; còn 1.954; toàn khóa 280/2.234 bài đủ cấu trúc. Mỗi bài có hai câu chính, bài luyện mở với đáp án riêng và hai tình huống tự dùng. Có phân biệt 两/二, số lượng/thứ tự, thời gian/thời lượng, 几/多少/几乎 và cụm tách 见面.
+
+`process-batch apply/verify`, kiểm cú pháp JS và `git diff --check` đạt; xác nhận ID/thứ tự/hash các bài cũ được bảo toàn. Trạng thái commit, DOM và Pages sẽ ghi sau khi xác minh. Chưa kiểm TTS/phát nền Android hoặc phản biện giáo viên độc lập.
