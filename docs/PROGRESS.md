@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 192/2224. Còn: 2032. Toàn khóa đủ cấu trúc: 202/2234.
+Đã bổ sung: 204/2224. Còn: 2020. Toàn khóa đủ cấu trúc: 214/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -22,20 +22,21 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-014 · mục 157–168 · 钱包、门口、饭店、五、哥、妈、妹、姐、子、常、弟、手
 - batch-015 · mục 169–180 · 爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷
 - batch-016 · mục 181–192 · 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用
+- batch-017 · mục 193–204 · 有的、正在、没有、真的、还是、还有、八、冷、口、吃、喝、渴
 
 ## 12 mục tiếp theo
 
-- 有的 · hz-h1-0c556aa9ef83 · sourceIndex 178
-- 正在 · hz-h1-05141092cb92 · sourceIndex 179
-- 没有 · hz-h1-95d6379fdfc6 · sourceIndex 180
-- 真的 · hz-h1-4969b83d9cec · sourceIndex 181
-- 还是 · hz-h1-08f5745eb362 · sourceIndex 183
-- 还有 · hz-h1-c99d6c682449 · sourceIndex 184
-- 八 · hz-h1-68f9a548685c · sourceIndex 185
-- 冷 · hz-h1-473bd0dd1a59 · sourceIndex 186
-- 口 · hz-h1-332fab54b4f4 · sourceIndex 187
-- 吃 · hz-h1-26aea8f4d583 · sourceIndex 188
-- 喝 · hz-h1-ea87e2f5091f · sourceIndex 189
-- 渴 · hz-h1-b11a9f950493 · sourceIndex 190
+- 睡 · hz-h1-61b3eaafe930 · sourceIndex 191
+- 饭 · hz-h1-19e663515e75 · sourceIndex 192
+- 饿 · hz-h1-6b1b97202e9c · sourceIndex 193
+- 什么 · hz-h1-483b7b8314b7 · sourceIndex 194
+- 包子 · hz-h1-3ee4e9bdb4bd · sourceIndex 195
+- 午饭 · hz-h1-514ee7ceeb93 · sourceIndex 196
+- 吃饭 · hz-h1-63bea411ec72 · sourceIndex 197
+- 好吃 · hz-h1-23fd43196def · sourceIndex 198
+- 干净 · hz-h1-2c9e6fa6fd87 · sourceIndex 199
+- 早饭 · hz-h1-a4a354339844 · sourceIndex 200
+- 晚饭 · hz-h1-45f2486f6226 · sourceIndex 201
+- 最好 · hz-h1-74ea2968e1c9 · sourceIndex 202
 
-Batch-015 đã phát hành sang main tại 85a590fc47ddce64f41616875d3db33cac0c27c6; GitHub Pages run 39796683993 thành công. Batch-016 đã phát hành và xác minh: commit nội dung a1e41dca6d9061ab466bd33e840ffd7e3bba90a4; Pages run 39860241131 thành công trên commit cache 099856dac0399631d26c24d209332914a5eb7d40; đã kiểm đủ 12/12 route live với ordinal, sourceIndex và chuẩn V2.
+Batch-017 đã qua kiểm tra cấu trúc V2, thứ tự baseline, liên kết ví dụ/audio và hash các mục đã khóa. Xác minh Pages sẽ được ghi sau khi GitHub Actions hoàn tất.

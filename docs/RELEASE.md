@@ -1,3 +1,13 @@
+# Phát hành batch-017
+
+Mục baseline 193–204: 有的、正在、没有、真的、还是、还有、八、冷、口、吃、喝、渴. Tiến độ: 204/2.224; còn 2.020; toàn khóa đủ cấu trúc 214/2.234.
+
+- 12 bài V2 gồm 24 câu chính, 12 nhóm bẫy, 36 câu luyện mở và 24 tình huống tự dùng; đáp án/mẫu được tách riêng khỏi đề.
+- Đã kiểm ID/thứ tự baseline, hai ví dụ mỗi mục, liên kết khung, tách đáp án và hash các mục hoàn thành trước đó.
+- GitHub Pages chưa được xác minh trong bước chuẩn bị này.
+
+---
+
 # Phát hành batch-016
 
 Đợt baseline 181–192: 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用. Tiến độ: 192/2.224; còn 2.032; toàn khóa đủ cấu trúc 202/2.234.

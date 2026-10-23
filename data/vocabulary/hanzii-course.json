@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 202 mục đủ cấu trúc V1/V2; còn 2032. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 192 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 214 mục đủ cấu trúc V1/V2; còn 2020. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 204 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -49871,19 +49871,199 @@
           "sourcePinyin": "yǒu de"
         }
       ],
-      "meaning": "có người",
-      "status": "example",
+      "meaning": "một số; có cái/người",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-017",
       "examples": [
         {
-          "zh": "这些书，有的很难。",
-          "vi": "Trong những quyển sách này, có quyển rất khó."
+          "id": "e1",
+          "zh": "这些水果，有的很甜。",
+          "vi": "Những loại trái cây này, có loại rất ngọt.",
+          "analysis": "这些水果 nêu cả nhóm; 有的 thay cho một số loại trái cây; 很甜 miêu tả phần đó.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "同学们有的坐公交车，有的骑自行车。",
+          "vi": "Các bạn học, có người đi xe buýt, có người đi xe đạp.",
+          "analysis": "Hai cụm 有的… đối chiếu hai nhóm người; động từ theo sau nêu cách đi.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 178,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/"
+        ],
+        "cohortOrdinal": 193,
+        "introduction": {
+          "scope": "有的 dùng để chỉ một phần trong một nhóm đã nhắc hoặc người nghe biết; thường đi với các phần đối lập như 有的……有的……。"
+        },
+        "meaning": {
+          "scene": "Bạn nói về một nhóm đồ vật hoặc người, rồi nêu rằng trong nhóm có phần này khác phần kia.",
+          "explanation": "有的 nhấn vào một số thành viên của nhóm. Có thể đứng trước danh từ hoặc đứng riêng trước tính từ/cụm miêu tả khi danh từ đã rõ.",
+          "boundary": "Khi chỉ một phần trong nhóm, tiếng Việt thường dịch là “một số”, “có cái”, “có người”. Không dịch máy móc thành “có” sở hữu.",
+          "conditions": [
+            "有的 + danh từ: nêu một số thành viên cụ thể.",
+            "有的 + vị ngữ: danh từ bị lược vì đã được nhắc hoặc đoán được.",
+            "Muốn đối chiếu các phần, thường dùng 有的……有的……。"
+          ],
+          "takeaway": "有的 lấy một phần từ nhóm đã biết; danh từ có thể được nói ra hoặc lược đi."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这些水果，有的很甜。",
+            "vi": "Những loại trái cây này, có loại rất ngọt.",
+            "analysis": "这些水果 nêu cả nhóm; 有的 thay cho một số loại trái cây; 很甜 miêu tả phần đó.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "同学们有的坐公交车，有的骑自行车。",
+            "vi": "Các bạn học, có người đi xe buýt, có người đi xe đạp.",
+            "analysis": "Hai cụm 有的… đối chiếu hai nhóm người; động từ theo sau nêu cách đi.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "有的 + vị ngữ (danh từ đã biết được lược)",
+            "position": "Dùng khi người nghe biết nhóm nào đang được chia ra.",
+            "required": "有的 + danh từ: nêu một số thành viên cụ thể.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "有的 + vị ngữ（có thể lặp để đối chiếu）",
+            "position": "Nếu danh từ đã rõ, có thể không nhắc lại sau 有的.",
+            "required": "有的 + vị ngữ: danh từ bị lược vì đã được nhắc hoặc đoán được.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "有的 và 有些",
+            "scene": "Bạn muốn nói một phần của nhóm đã biết.",
+            "possibleConfusion": "Cả hai đều có thể gần nghĩa “một số”, nhưng 有的 dễ đứng riêng và chia nhóm.",
+            "difference": "有些 thường đứng trước danh từ; 有的 thường thay cho một số thành viên và hay xuất hiện trong cặp đối chiếu.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "有些水果很甜。",
+                "vi": "Một số loại trái cây rất ngọt.",
+                "comment": "有些 đứng trước danh từ 水果.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这些水果有的很甜，有的很酸。",
+                "vi": "Những loại trái cây này có loại ngọt, có loại chua.",
+                "comment": "有的 phân nhóm và lặp lại để đối chiếu.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Khi chỉ số lượng không xác định trước danh từ, hai cách có thể gần nhau; khi chia các thành viên thành từng nhóm, 有的 rõ hơn."
+            },
+            "boundary": "Không phải lúc nào cũng thay được: 有的 có thể đứng riêng khi danh từ đã được nhắc.",
+            "tip": "Có đối chiếu từng nhóm: nghĩ đến 有的……有的……。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "有的 có thể đứng riêng để thay danh từ đã biết; rà xem câu có nhóm được chia hay không.",
+          "literalTranslation": "Không dịch từng chữ thành “có một số” nếu nghĩa là một phần trong nhóm.",
+          "confusables": "Đối chiếu 有些 + danh từ và 有的 + vị ngữ; nhận ra phần lặp 有的……有的……。"
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền 有的 hoặc 有些: 这家店有很多衣服，___很便宜，___不太贵。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Câu 这些苹果，有的很甜。 đang nói cả nhóm hay một phần?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Viết một câu có 有的……有的…… để chia hai nhóm đồ vật."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "有的；有的",
+              "有的很便宜，有的……",
+              "有的……有的……"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Một phần táo trong nhóm ngọt; không phải tất cả.",
+              "Một số quả ngọt."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "这家店的衣服有的很便宜，有的不太贵。",
+              "这些书有的很新，有的很旧。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói về các món ăn trên bàn: một số món cay, một số món không cay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói về một nhóm bạn: có người đi làm, có người đi học."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chọn một nhóm quen thuộc và chia nhóm.",
+            "frame": "这桌菜有的……，有的……。",
+            "model": "这些菜有的很辣，有的不辣。",
+            "vi": "Trên bàn, có món rất cay, có món không cay.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu nhóm bạn rồi chia theo hoạt động.",
+            "frame": "朋友们有的……，有的……。",
+            "model": "朋友们有的上班，有的上学。",
+            "vi": "Bạn bè có người đi làm, có người đi học.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-05141092cb92",
@@ -49895,19 +50075,198 @@
           "meaning": "đang"
         }
       ],
-      "meaning": "đang",
-      "status": "example",
+      "meaning": "đang (đúng lúc hành động diễn ra)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-017",
       "examples": [
         {
-          "zh": "妈妈正在做饭。",
-          "vi": "Mẹ đang nấu ăn."
+          "id": "e1",
+          "zh": "我正在吃午饭。",
+          "vi": "Tôi đang ăn trưa.",
+          "analysis": "正在 đứng trước 吃, báo hành động ăn đang diễn ra.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "老师正在教室里写汉字呢。",
+          "vi": "Thầy/cô đang viết chữ Hán trong lớp.",
+          "analysis": "Địa điểm 教室里 đứng trước cụm động từ; 呢 nhấn trạng thái đang tiếp diễn.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 179,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=30396&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 194,
+        "introduction": {
+          "scope": "正在 đặt trước động từ để cho biết hành động đang diễn ra vào lúc nói hoặc một thời điểm được nhắc."
+        },
+        "meaning": {
+          "scene": "Bạn gọi điện cho mẹ và muốn nói mẹ đang nấu ăn ngay lúc này.",
+          "explanation": "Cấu trúc thường gặp là 主语 + 正在 + 动词（+ 宾语）。正在 làm rõ quá trình đang tiếp diễn.",
+          "boundary": "正在 thường đi với hành động có thể diễn ra trong một khoảng thời gian; không dùng như từ chỉ tương lai.",
+          "conditions": [
+            "Động từ theo sau nêu hành động đang diễn ra.",
+            "Có thể thêm 呢 ở cuối câu nói để nhấn trạng thái đang tiếp diễn.",
+            "Nếu chỉ nói thói quen chung, thường không cần 正在."
+          ],
+          "takeaway": "正在 + động từ = hành động đang diễn ra tại một thời điểm."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我正在吃午饭。",
+            "vi": "Tôi đang ăn trưa.",
+            "analysis": "正在 đứng trước 吃, báo hành động ăn đang diễn ra.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "老师正在教室里写汉字呢。",
+            "vi": "Thầy/cô đang viết chữ Hán trong lớp.",
+            "analysis": "Địa điểm 教室里 đứng trước cụm động từ; 呢 nhấn trạng thái đang tiếp diễn.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ + 正在 + động từ (+ tân ngữ)",
+            "position": "Đặt 正在 ngay trước cụm hành động.",
+            "required": "Động từ theo sau nêu hành động đang diễn ra.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ ngữ + 正在 + địa điểm + động từ + 呢",
+            "position": "Dùng khi muốn nhấn “ngay lúc đó đang làm”, không phải thói quen.",
+            "required": "Có thể thêm 呢 ở cuối câu nói để nhấn trạng thái đang tiếp diễn.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "正在 và 在",
+            "scene": "Bạn chọn cách nói về hành động đang diễn ra.",
+            "possibleConfusion": "在 cũng có thể đứng trước động từ; người mới học dễ nghĩ rằng 正在 và 在 luôn khác nghĩa hoàn toàn.",
+            "difference": "Cả hai đều có thể báo hành động đang diễn ra; 正在 thường nhấn rõ tính đang tiếp diễn hơn. 在 còn có thể chỉ vị trí khi đứng trước nơi chốn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我正在看书。",
+                "vi": "Tôi đang đọc sách.",
+                "comment": "正在 đứng trước động từ 看书.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我在家。",
+                "vi": "Tôi ở nhà.",
+                "comment": "在 đứng trước 家 để chỉ vị trí, không phải đang làm hành động.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Trong câu hành động, 有时 có thể dùng 在 hoặc 正在; chọn 正在 khi muốn nhấn rõ hành động đang diễn ra. Khi chỉ địa điểm, 在 đứng trước nơi chốn."
+            },
+            "boundary": "Nhìn từ ngay sau 在: nơi chốn thường là “ở đâu”; động từ thường báo hành động đang diễn ra.",
+            "tip": "正在 + hành động; 在 + địa điểm = ở tại."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "正再 đặt trước động từ để nhấn quá trình đang diễn ra.",
+          "literalTranslation": "Không thêm 正在 trước danh từ nơi chốn để nói “đang ở”.",
+          "confusables": "So sánh 在 + địa điểm với 正在 + động từ."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Chọn vị trí đặt 正在 trong câu: 我___看电视。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "我正在工作呢 có nghĩa là đang làm việc hay thường xuyên làm việc?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Đổi câu 我在学校。 thành câu nói “Tôi đang học ở trường”."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我正在看电视。",
+              "我正在 + động từ。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Đang làm việc tại thời điểm nói.",
+              "Hành động làm việc đang tiếp diễn."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "我正在学校学习。",
+              "我正在学校上课。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói một việc bạn đang làm bây giờ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói một việc người thân đang làm ở một địa điểm."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chọn chủ ngữ và hành động hiện tại.",
+            "frame": "主语 + 正在 + 动词。",
+            "model": "我正在学中文。",
+            "vi": "Tôi đang học tiếng Trung.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Thêm địa điểm trước động từ.",
+            "frame": "主语 + 正在 + 地点 + 动词。",
+            "model": "妈妈正在家里做饭。",
+            "vi": "Mẹ đang nấu ăn ở nhà.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-95d6379fdfc6",
@@ -49919,38 +50278,400 @@
           "meaning": "không có"
         }
       ],
-      "meaning": "không có",
-      "status": "example",
+      "meaning": "không có; đã không",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-017",
       "examples": [
         {
-          "zh": "我没有车。",
-          "vi": "Tôi không có xe."
+          "id": "e1",
+          "zh": "我没有哥哥。",
+          "vi": "Tôi không có anh trai.",
+          "analysis": "没有 đứng trước danh từ 哥哥, phủ định việc có anh trai.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "昨天他没有来学校。",
+          "vi": "Hôm qua cậu ấy đã không đến trường.",
+          "analysis": "没有 đứng trước 来, phủ định việc đến đã không xảy ra hôm qua.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 180,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3872&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 195,
+        "introduction": {
+          "scope": "没有 có hai cách dùng rất thường gặp: phủ định việc sở hữu/tồn tại và phủ định một hành động đã không xảy ra."
+        },
+        "meaning": {
+          "scene": "Bạn nói mình không có xe, hoặc hôm qua mình đã không đến lớp.",
+          "explanation": "没有 + danh từ nghĩa là không có thứ gì. 没有 + động từ thường phủ định việc đã xảy ra; trong nhiều câu có thể rút gọn thành 没 + động từ.",
+          "boundary": "Với hành động quá khứ đã không xảy ra, dùng 没有/没; không đổi thành 不 chỉ vì dịch tiếng Việt đều là “không”.",
+          "conditions": [
+            "Chủ ngữ + 没有 + danh từ: không sở hữu/không có.",
+            "Chủ ngữ + 没（有）+ động từ: việc đó đã không xảy ra hoặc chưa làm.",
+            "Muốn nói không đi theo ý định/thói quen, thường dùng 不去; sắc thái khác 没去."
+          ],
+          "takeaway": "没有 + danh từ = không có; 没有 + động từ = đã không làm/chưa xảy ra."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我没有哥哥。",
+            "vi": "Tôi không có anh trai.",
+            "analysis": "没有 đứng trước danh từ 哥哥, phủ định việc có anh trai.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "昨天他没有来学校。",
+            "vi": "Hôm qua cậu ấy đã không đến trường.",
+            "analysis": "没有 đứng trước 来, phủ định việc đến đã không xảy ra hôm qua.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ + 没有 + danh từ",
+            "position": "Có danh từ theo sau: thường hiểu là không có.",
+            "required": "Chủ ngữ + 没有 + danh từ: không sở hữu/không có.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ ngữ + 没（有）+ động từ",
+            "position": "Có động từ theo sau: xét thời điểm; kể việc đã không xảy ra thường dùng 没有.",
+            "required": "Chủ ngữ + 没（有）+ động từ: việc đó đã không xảy ra hoặc chưa làm.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "没有 và 不",
+            "scene": "Bạn muốn phủ định một việc liên quan đến hiện tại hoặc quá khứ.",
+            "possibleConfusion": "Cả hai thường dịch là “không”, nhưng thời điểm và ý định làm câu khác nhau.",
+            "difference": "没有/没 thường phủ định việc đã không xảy ra hoặc chưa có; 不 thường phủ định thói quen, ý định hoặc sự thật chung.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "昨天我没喝咖啡。",
+                "vi": "Hôm qua tôi đã không uống cà phê.",
+                "comment": "没 phủ định hành động đã không xảy ra.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我不喝咖啡。",
+                "vi": "Tôi không uống cà phê (thói quen/lựa chọn).",
+                "comment": "不 nêu thói quen hoặc lựa chọn hiện tại.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 没喝 thành 不喝 có thể biến lời kể về hôm qua thành thói quen/lựa chọn; cả hai câu đều đúng nhưng nghĩa khác."
+            },
+            "boundary": "Xem câu đang kể sự việc đã xảy ra hay nêu lựa chọn/thói quen.",
+            "tip": "Kể việc đã không xảy ra: 没有/没；thói quen hoặc ý định: 不."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "没有 + danh từ phủ định việc có; 没有 + động từ phủ định việc xảy ra.",
+          "literalTranslation": "Không thay máy móc 没有 bằng 不 trong câu kể quá khứ.",
+          "confusables": "Phân biệt 昨天没去 với 不去."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "我没有手机 nói không có điện thoại hay không dùng điện thoại?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Hoàn thành câu phủ định: 昨天我___去上班。"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Nêu sắc thái khác nhau giữa 我没喝茶 và 我不喝茶."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Nói không có điện thoại.",
+              "Không sở hữu điện thoại."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "昨天我没有去上班。",
+              "昨天我没去上班。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "没喝茶 kể việc đã không uống; 不喝茶 nêu thói quen/lựa chọn không uống.",
+              "Một câu kể quá khứ, một câu nói lựa chọn/thói quen."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói một thứ bạn không có."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể một việc bạn đã không làm hôm qua."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chọn đồ vật và đặt sau 没有.",
+            "frame": "我没有 + danh từ。",
+            "model": "我没有自行车。",
+            "vi": "Tôi không có xe đạp.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Chọn hành động quá khứ.",
+            "frame": "昨天我没有 + động từ。",
+            "model": "昨天我没有看电视。",
+            "vi": "Hôm qua tôi đã không xem tivi.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "thực sự",
+      "meaning": "thật sự; đúng là",
       "intro": [
         {
           "pinyin": "zhēn de",
           "meaning": "thực sự"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "这家饭店的菜真的很好吃。",
+          "vi": "Món ăn của nhà hàng này thật sự rất ngon.",
+          "analysis": "真的 đứng trước 很好吃, nhấn mạnh nhận xét.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你真的要回家吗？",
+          "vi": "Bạn thật sự định về nhà à?",
+          "analysis": "真的 đứng trước 要回家, hỏi xác nhận ý định.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-4969b83d9cec",
       "hanzi": "真的",
       "level": 1,
       "sourceIndex": 181,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-017",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/"
+        ],
+        "cohortOrdinal": 196,
+        "introduction": {
+          "scope": "真的 dùng để khẳng định điều gì đó là thật hoặc nhấn mạnh mức độ/sự chắc chắn; trong câu hỏi có thể mang nghĩa ngạc nhiên “thật à?”."
+        },
+        "meaning": {
+          "scene": "Bạn ăn món mới và muốn nói món đó thật sự ngon.",
+          "explanation": "真的 thường đứng trước tính từ hoặc cụm động từ để nhấn mạnh; cũng có thể đứng đầu câu hỏi như 真的？ hoặc 你说的是真的吗？",
+          "boundary": "真的 không phải lúc nào cũng tương đương 真. 真 thường nhấn nhanh trước tính từ; 真的 có thể nhấn cả nhận định hoặc mệnh đề.",
+          "conditions": [
+            "真的 + tính từ/cụm miêu tả: thật sự…",
+            "真的 + động từ/cụm vị ngữ: thực sự làm gì.",
+            "真的？ dùng như câu hỏi xác nhận, tùy ngữ điệu."
+          ],
+          "takeaway": "真的 nhấn rằng nhận định là thật; câu hỏi 真的？ là muốn xác nhận."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这家饭店的菜真的很好吃。",
+            "vi": "Món ăn của nhà hàng này thật sự rất ngon.",
+            "analysis": "真的 đứng trước 很好吃, nhấn mạnh nhận xét.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你真的要回家吗？",
+            "vi": "Bạn thật sự định về nhà à?",
+            "analysis": "真的 đứng trước 要回家, hỏi xác nhận ý định.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ + 真的 + tính từ",
+            "position": "Đặt 真的 trước phần muốn nhấn mạnh.",
+            "required": "真的 + tính từ/cụm miêu tả: thật sự…",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ ngữ + 真的 + động từ/cụm vị ngữ",
+            "position": "Câu hỏi dùng ngữ điệu xác nhận, không tự động là nghi ngờ hay trách móc.",
+            "required": "真的 + động từ/cụm vị ngữ: thực sự làm gì.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "真的 và 真",
+            "scene": "Bạn muốn nhấn một nhận xét hoặc xác nhận một thông tin.",
+            "possibleConfusion": "真 và 真的 cùng có thể dịch là “thật/sự”, nhưng cách đặt và sắc thái không giống hoàn toàn.",
+            "difference": "真 thường đứng sát trước tính từ như 真好；真的 thường nhấn cả nhận định hoặc mệnh đề, và xuất hiện tự nhiên trong câu hỏi xác nhận.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个苹果真甜。",
+                "vi": "Quả táo này ngọt thật.",
+                "comment": "真 đứng trước tính từ, cách nói ngắn gọn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这个苹果真的很甜。",
+                "vi": "Quả táo này thật sự rất ngọt.",
+                "comment": "真的 nhấn cả nhận xét.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Cả hai đều có thể nhấn mạnh tính từ; 真 ngắn gọn hơn, còn 真的 thường làm lời xác nhận rõ hơn."
+            },
+            "boundary": "Khi muốn hỏi “thật à?”, dùng 真的？ hoặc 你说的是真的吗？; không dùng mỗi 真 làm câu hỏi đầy đủ.",
+            "tip": "真 + tính từ ngắn gọn; 真的 nhấn rõ nhận định."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "真的 có thể đứng trước tính từ hoặc cụm động từ.",
+          "literalTranslation": "Câu 真的？ thường là câu hỏi xác nhận; ngữ điệu quyết định sắc thái.",
+          "confusables": "So sánh 真甜 và 真的很甜; đừng gán rằng một câu sai."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền 真的 vào vị trí phù hợp: 这部电影___很好看。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "你真的要走吗？ đang xác nhận điều gì?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Viết lại 这个菜真好吃 để nhấn rõ “thật sự”."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这部电影真的很好看。",
+              "这部电影真的很有意思。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Người nói hỏi có thật là người nghe định đi hay không.",
+              "Hỏi xác nhận ý định rời đi."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "这个菜真的很好吃。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Khen một món ăn mà bạn thật sự thích."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi người bạn xem họ có thật sự đang bận không."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu món ăn rồi nhấn nhận xét.",
+            "frame": "这个菜真的……。",
+            "model": "这个菜真的很好吃。",
+            "vi": "Món này thật sự rất ngon.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Đặt 真的 trước cụm vị ngữ và thêm 吗.",
+            "frame": "你真的……吗？",
+            "model": "你真的很忙吗？",
+            "vi": "Bạn thật sự rất bận à？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-08f5745eb362",
@@ -49963,33 +50684,397 @@
           "sourcePinyin": "háishì"
         }
       ],
-      "meaning": "hay",
-      "status": "catalog",
+      "meaning": "hay (trong câu hỏi lựa chọn); vẫn",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-017",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "你坐公交车还是坐地铁？",
+          "vi": "Bạn đi xe buýt hay đi tàu điện ngầm?",
+          "analysis": "还是 nối hai lựa chọn trong câu hỏi; câu trả lời chọn một phương án.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "今天下雨，我们还是坐出租车吧。",
+          "vi": "Hôm nay trời mưa, chúng ta cứ đi taxi nhé.",
+          "analysis": "还是……吧 đưa ra lời đề nghị chọn cách phù hợp.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 183,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/"
+        ],
+        "cohortOrdinal": 197,
+        "introduction": {
+          "scope": "还是 thường gặp trong câu hỏi chọn A hay B; trong câu kể, nó cũng có thể mang nghĩa “vẫn/cứ”."
+        },
+        "meaning": {
+          "scene": "Bạn hỏi bạn mình muốn uống trà hay nước, hoặc đề nghị cứ đi xe buýt.",
+          "explanation": "Trong câu hỏi lựa chọn: A 还是 B？ Trong câu kể/đề nghị: 主语 + 还是 + vị ngữ có thể diễn tả trạng thái vẫn tiếp tục hoặc lời khuyên chọn cách đó.",
+          "boundary": "Tiếng Việt “hay” dùng được trong câu lựa chọn, nhưng không dịch 还是 thành “hay” trong mọi câu; xem đó là câu hỏi hay câu kể.",
+          "conditions": [
+            "Câu hỏi lựa chọn: A 还是 B？",
+            "Câu kể: 还是 có thể nghĩa là “vẫn/cứ”, tùy ngữ cảnh.",
+            "Trước lời đề nghị có thể dùng 还是……吧 để khuyên chọn."
+          ],
+          "takeaway": "Câu hỏi chọn một trong hai: A 还是 B；câu kể có thể hiểu là “vẫn/cứ”."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你坐公交车还是坐地铁？",
+            "vi": "Bạn đi xe buýt hay đi tàu điện ngầm?",
+            "analysis": "还是 nối hai lựa chọn trong câu hỏi; câu trả lời chọn một phương án.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "今天下雨，我们还是坐出租车吧。",
+            "vi": "Hôm nay trời mưa, chúng ta cứ đi taxi nhé.",
+            "analysis": "还是……吧 đưa ra lời đề nghị chọn cách phù hợp.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "A 还是 B？（câu hỏi chọn lựa）",
+            "position": "Kiểm tra dấu hỏi và mục đích câu để chọn nghĩa.",
+            "required": "Câu hỏi lựa chọn: A 还是 B？",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "主语 + 还是 + động từ/ý kiến + 吧（đề nghị chọn）",
+            "position": "Trong câu kể, đừng dịch thành “hay”.",
+            "required": "Câu kể: 还是 có thể nghĩa là “vẫn/cứ”, tùy ngữ cảnh.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "还是 và 或者",
+            "scene": "Bạn đang nối hai phương án.",
+            "possibleConfusion": "Cả hai có thể tương đương “hoặc/hay”, nhưng hay đi với kiểu câu khác nhau.",
+            "difference": "还是 thường dùng trong câu hỏi trực tiếp để người nghe chọn; 或者 thường nối lựa chọn trong câu kể.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你喝茶还是喝水？",
+                "vi": "Bạn uống trà hay nước?",
+                "comment": "Câu hỏi trực tiếp, dùng 还是.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我想喝茶或者喝水。",
+                "vi": "Tôi muốn uống trà hoặc nước.",
+                "comment": "Câu kể nêu lựa chọn, dùng 或者 tự nhiên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 还是 bằng 或者 trong câu hỏi trực tiếp có thể làm mất cấu trúc hỏi chọn lựa; trong câu kể, 或者 thường phù hợp hơn."
+            },
+            "boundary": "Dấu hỏi là gợi ý: hỏi người nghe chọn trực tiếp thì dùng 还是; kể về các phương án thì thường dùng 或者.",
+            "tip": "Hỏi chọn: 还是；kể phương án: 或者."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "A 还是 B？ là câu hỏi chọn trực tiếp.",
+          "literalTranslation": "Trong câu kể, 或者 thường nối phương án; 还是 có thể là “vẫn/cứ”.",
+          "confusables": "Đừng dịch 还是 thành “hay” khi câu không hỏi lựa chọn."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Hoàn thành câu hỏi: 你想吃米饭___面条？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "我们还是坐地铁吧 trong câu kể nên hiểu “hay” hay “cứ/vẫn”?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Viết một câu kể có 或者 và một câu hỏi có 还是."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你想吃米饭还是面条？"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Cứ/vẫn đi tàu điện ngầm nhé; đây là lời đề nghị chọn.",
+              "还是……吧 đưa ra lựa chọn."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "我想喝水或者喝果汁。你喝水还是喝果汁？"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi một người bạn muốn uống trà hay nước."
+          },
+          {
+            "id": "s2",
+            "prompt": "Đề nghị một cách đi lại khi trời mưa."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu hai đồ uống trong cùng câu hỏi.",
+            "frame": "你想喝A还是喝B？",
+            "model": "你想喝茶还是喝水？",
+            "vi": "Bạn muốn uống trà hay nước？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu thời tiết rồi dùng 还是……吧.",
+            "frame": "下雨了，我们还是……吧。",
+            "model": "下雨了，我们还是坐出租车吧。",
+            "vi": "Trời mưa rồi, chúng ta cứ đi taxi nhé.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "vẫn còn",
+      "meaning": "còn có; thêm nữa",
       "intro": [
         {
           "pinyin": "hái yǒu",
           "meaning": "vẫn còn"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "冰箱里还有牛奶。",
+          "vi": "Trong tủ lạnh vẫn còn sữa.",
+          "analysis": "还有 đứng trước 牛奶, nêu thứ còn lại.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我买了苹果，还有一些鸡蛋。",
+          "vi": "Tôi đã mua táo, còn có thêm một ít trứng.",
+          "analysis": "还有 thêm một loại đồ đã mua vào danh sách.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-c99d6c682449",
       "hanzi": "还有",
       "level": 1,
       "sourceIndex": 184,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-017",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19239&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 198,
+        "introduction": {
+          "scope": "还有 báo rằng vẫn còn một thứ/người hoặc bổ sung thêm một thông tin vào điều đã nêu."
+        },
+        "meaning": {
+          "scene": "Bạn kể những món đã mua rồi nhớ ra trong túi còn có thêm sữa.",
+          "explanation": "还有 thường đứng trước danh từ/cụm danh từ để nói “còn có, thêm nữa”; cũng có thể đứng đầu câu để thêm một ý.",
+          "boundary": "还有 không phải “vẫn” chung chung trước mọi động từ; nó thường nói còn tồn tại hoặc có thêm đối tượng/thông tin.",
+          "conditions": [
+            "还有 + danh từ: còn có/thêm một thứ.",
+            "Câu mới bắt đầu bằng 还有: thêm một ý tiếp theo.",
+            "Muốn nhấn thứ vẫn ở lại, thường dịch “vẫn còn”."
+          ],
+          "takeaway": "还有 = vẫn còn hoặc ngoài điều đã nói còn thêm…"
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "冰箱里还有牛奶。",
+            "vi": "Trong tủ lạnh vẫn còn sữa.",
+            "analysis": "还有 đứng trước 牛奶, nêu thứ còn lại.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我买了苹果，还有一些鸡蛋。",
+            "vi": "Tôi đã mua táo, còn có thêm một ít trứng.",
+            "analysis": "还有 thêm một loại đồ đã mua vào danh sách.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Địa điểm + 还有 + danh từ",
+            "position": "Nhìn phía trước để biết 还有 nói phần còn lại hay thêm ý.",
+            "required": "还有 + danh từ: còn có/thêm một thứ.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Thông tin đã nêu， 还有 + thông tin bổ sung",
+            "position": "Sau 还有 thường là danh từ hoặc một cụm thông tin bổ sung.",
+            "required": "Câu mới bắt đầu bằng 还有: thêm một ý tiếp theo.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "还有 và 有的",
+            "scene": "Bạn muốn nói đến phần còn lại hoặc một phần của nhóm.",
+            "possibleConfusion": "Cả hai có thể liên quan đến một phần trong nhóm; 还有 nhấn còn tồn tại/thêm vào, 有的 nhấn chọn ra một số thành viên.",
+            "difference": "冰箱里还有牛奶 nói sữa vẫn còn; 水果有的很甜 chọn một phần trái cây để miêu tả.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "桌上还有一个杯子。",
+                "vi": "Trên bàn còn có thêm một cái cốc.",
+                "comment": "Nêu vật vẫn còn tồn tại.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这些杯子有的很大。",
+                "vi": "Những cái cốc này có cái rất to.",
+                "comment": "Chọn một số thành viên trong nhóm để miêu tả.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 还有 thành 有的 sẽ đổi ý từ “còn thêm vật” sang “một số thành viên trong nhóm có đặc điểm…”."
+            },
+            "boundary": "Nếu nói vật/ý còn lại, dùng 还有; nếu nói một phần có đặc điểm, dùng 有的.",
+            "tip": "Còn thêm cái gì? 还有；trong nhóm có cái thế nào? 有的."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "还有 + danh từ nêu thứ còn lại hoặc được bổ sung.",
+          "literalTranslation": "有的 chọn một số thành viên trong nhóm, không tự nói rằng chúng còn lại.",
+          "confusables": "Đọc ngữ cảnh trước câu để biết 还有 là còn lại hay thêm ý."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "桌子上还有一本书 nói điều gì về quyển sách?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Thêm 还有 để nói trong nhà còn có một con mèo: 家里___一只猫。"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Phân biệt 这些苹果有的很甜 và 桌上还有苹果."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Quyển sách vẫn còn ở trên bàn.",
+              "Trên bàn còn có một quyển sách."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "家里还有一只猫。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "Câu đầu chọn một số quả trong nhóm để nói vị ngọt; câu sau nói trên bàn còn có táo."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói một thứ vẫn còn trong tủ lạnh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể thêm một đồ vật bạn mang theo."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chọn địa điểm và đồ vật còn lại.",
+            "frame": "地点 + 还有 + danh từ。",
+            "model": "冰箱里还有水。",
+            "vi": "Trong tủ lạnh vẫn còn nước.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Kể một món đã nêu rồi bổ sung.",
+            "frame": "A，还有B。",
+            "model": "我带了手机，还有钱包。",
+            "vi": "Tôi mang điện thoại, còn có cả ví.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-68f9a548685c",
@@ -50001,19 +51086,196 @@
           "meaning": "tám"
         }
       ],
-      "meaning": "tám",
-      "status": "example",
+      "meaning": "tám (số 8)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-017",
       "examples": [
         {
-          "zh": "现在八点。",
-          "vi": "Bây giờ là tám giờ."
+          "id": "e1",
+          "zh": "我有八本书。",
+          "vi": "Tôi có tám quyển sách.",
+          "analysis": "八 đứng trước 本, lượng từ cho sách; 本 đứng trước 书.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "现在八点半。",
+          "vi": "Bây giờ là tám giờ rưỡi.",
+          "analysis": "八点半 nêu thời gian; 半 nghĩa là rưỡi.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 185,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/"
+        ],
+        "cohortOrdinal": 199,
+        "introduction": {
+          "scope": "八 là số đếm 8; dùng để đếm đồ vật, người, giờ và các số lớn hơn."
+        },
+        "meaning": {
+          "scene": "Bạn nói có tám quyển sách hoặc bây giờ là tám giờ.",
+          "explanation": "八 đứng trước lượng từ khi đếm danh từ và đứng trước 点 khi nói giờ. Trong số lớn, 八 có thể ở hàng chục hoặc hàng trăm.",
+          "boundary": "八 là số đếm; đừng nhầm với 吧, hư từ thường đặt cuối câu và đọc nhẹ.",
+          "conditions": [
+            "八 + lượng từ + danh từ: tám đồ vật/người.",
+            "八点: tám giờ.",
+            "Đọc số điện thoại hoặc số thứ tự từng chữ số theo ngữ cảnh."
+          ],
+          "takeaway": "八 là số 8; theo sau danh từ thường cần lượng từ như 个、本."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我有八本书。",
+            "vi": "Tôi có tám quyển sách.",
+            "analysis": "八 đứng trước 本, lượng từ cho sách; 本 đứng trước 书.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "现在八点半。",
+            "vi": "Bây giờ là tám giờ rưỡi.",
+            "analysis": "八点半 nêu thời gian; 半 nghĩa là rưỡi.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "八 + lượng từ + danh từ",
+            "position": "Đếm đồ vật: nhớ đặt lượng từ giữa 八 và danh từ.",
+            "required": "八 + lượng từ + danh từ: tám đồ vật/người.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "八点（+ 分 / 半）",
+            "position": "Khi nói giờ, dùng 八点.",
+            "required": "八点: tám giờ.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "八 và 吧",
+            "scene": "Bạn nghe âm gần giống trong một câu.",
+            "possibleConfusion": "八 và 吧 có âm đầu b và a; một từ là số đếm, một từ là hư từ cuối câu.",
+            "difference": "八 đọc thanh một và mang nghĩa số 8; 吧 thường ở cuối câu, đọc nhẹ, làm lời rủ/rủ đoán.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我买了八个苹果。",
+                "vi": "Tôi đã mua tám quả táo.",
+                "comment": "八 là số đếm, đi với 个.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们回家吧。",
+                "vi": "Chúng ta về nhà nhé.",
+                "comment": "吧 ở cuối câu gợi ý/rủ rê; không phải số 8.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 八 bằng 吧 sẽ làm mất số lượng; thay 吧 bằng 八 khiến câu cuối không còn là lời rủ."
+            },
+            "boundary": "Nhìn vị trí: số 八 thường ở trước lượng từ hoặc 点; 吧 thường đứng cuối câu.",
+            "tip": "Số tám: 八；câu “nhé”: 吧."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "八 + lượng từ + danh từ.",
+          "literalTranslation": "八点 nói giờ; 八本书 nói số lượng sách.",
+          "confusables": "Phân biệt 八 (số) với 吧 (hư từ cuối câu)."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền lượng từ: 八___书。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "现在八点半 là mấy giờ?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Trong 我们去吃饭吧, chữ cuối là số tám hay hư từ rủ rê?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "八本书。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Tám giờ rưỡi.",
+              "8 giờ 30 phút."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "Hư từ 吧, tạo lời đề nghị/rủ rê."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói mình có tám món đồ nào đó."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bây giờ là tám giờ và thêm số phút nếu muốn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chọn danh từ và lượng từ phù hợp.",
+            "frame": "我有八 + lượng từ + danh từ。",
+            "model": "我有八本书。",
+            "vi": "Tôi có tám quyển sách.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 八点 rồi thêm thời gian.",
+            "frame": "现在八点……。",
+            "model": "现在八点十分。",
+            "vi": "Bây giờ là tám giờ mười phút.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-473bd0dd1a59",
@@ -50026,18 +51288,196 @@
         }
       ],
       "meaning": "lạnh",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-017",
       "examples": [
         {
-          "zh": "今天很冷。",
-          "vi": "Hôm nay trời lạnh."
+          "id": "e1",
+          "zh": "今天外面很冷。",
+          "vi": "Hôm nay bên ngoài trời rất lạnh.",
+          "analysis": "外面 nêu nơi chốn; 很冷 miêu tả thời tiết.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这杯水太冷了。",
+          "vi": "Cốc nước này lạnh quá.",
+          "analysis": "冷 miêu tả nhiệt độ nước; 太…了 nhấn quá mức.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 186,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/"
+        ],
+        "cohortOrdinal": 200,
+        "introduction": {
+          "scope": "冷 miêu tả nhiệt độ thấp của thời tiết, đồ vật hoặc cơ thể; tùy danh từ mà dịch “lạnh”."
+        },
+        "meaning": {
+          "scene": "Bạn thấy trời lạnh và muốn nói hôm nay lạnh.",
+          "explanation": "冷 có thể làm vị ngữ sau 很 hoặc đứng sau danh từ để miêu tả nhiệt độ. Ví dụ: 天气很冷, 水很冷.",
+          "boundary": "冷 thường lạnh rõ hoặc gây cảm giác lạnh; 凉 thường là mát/dịu hơn, nhưng ranh giới tùy ngữ cảnh.",
+          "conditions": [
+            "天气 + 很冷: thời tiết lạnh.",
+            "东西/水 + 很冷: đồ vật/nước lạnh.",
+            "Nói cảm giác bản thân: 我觉得冷 hoặc 我很冷."
+          ],
+          "takeaway": "冷 miêu tả nhiệt độ thấp; thêm 很 trước tính từ khi làm vị ngữ."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "今天外面很冷。",
+            "vi": "Hôm nay bên ngoài trời rất lạnh.",
+            "analysis": "外面 nêu nơi chốn; 很冷 miêu tả thời tiết.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这杯水太冷了。",
+            "vi": "Cốc nước này lạnh quá.",
+            "analysis": "冷 miêu tả nhiệt độ nước; 太…了 nhấn quá mức.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Thời tiết/nơi chốn + 很冷",
+            "position": "Nói trời lạnh: 今天很冷 hoặc 天气很冷.",
+            "required": "天气 + 很冷: thời tiết lạnh.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Đồ vật + 太冷了",
+            "position": "Nói đồ uống lạnh: nước/đồ uống + 很冷.",
+            "required": "东西/水 + 很冷: đồ vật/nước lạnh.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "冷 và 凉",
+            "scene": "Bạn mô tả nhiệt độ thấp.",
+            "possibleConfusion": "Cả hai có thể nói về cảm giác mát/lạnh; 凉 thường nhẹ hơn, còn 冷 thường lạnh rõ hơn.",
+            "difference": "凉水 là nước mát; 冷水 là nước lạnh. Tùy tình huống, mức độ cảm nhận có thể thay đổi.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "今天早上有点凉。",
+                "vi": "Sáng nay hơi mát.",
+                "comment": "凉 hợp với cảm giác mát nhẹ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "冬天这里很冷。",
+                "vi": "Mùa đông ở đây rất lạnh.",
+                "comment": "冷 nói thời tiết lạnh rõ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Hai từ có vùng giao nhau khi chỉ nhiệt độ thấp; 凉 thường nhẹ hơn. Dùng từ nào còn tùy thời tiết và cảm giác người nói."
+            },
+            "boundary": "Mát dễ chịu/hơi lạnh: thường dùng 凉; lạnh rõ hoặc khó chịu: thường dùng 冷.",
+            "tip": "凉 nhẹ hơn; 冷 lạnh rõ hơn."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "冷 dùng cho thời tiết, nước, đồ vật hoặc cảm giác lạnh.",
+          "literalTranslation": "很冷 miêu tả mức lạnh; 太冷了 nhấn lạnh quá.",
+          "confusables": "Phân biệt 凉 nhẹ hơn và 冷 lạnh rõ hơn; đây là khác biệt mức độ, không phải ranh giới tuyệt đối."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Hoàn thành câu miêu tả thời tiết: 今天___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "这杯水很冷 đang nói thời tiết hay nhiệt độ nước?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Chọn từ hợp hơn cho “sáng nay hơi mát”: 冷 hay 凉? Vì sao?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "今天很冷。",
+              "今天很凉。 (có thể hiểu là hôm nay mát/lạnh dịu, tùy vùng)"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Nhiệt độ nước trong cốc.",
+              "Cốc nước lạnh."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "凉, vì “hơi mát” nhẹ hơn “lạnh rõ”; ngữ cảnh có thể làm thay đổi lựa chọn."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói thời tiết hôm nay lạnh hay không."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói một đồ uống đang lạnh."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chọn thời tiết thật ở nơi bạn đang ở.",
+            "frame": "今天 + 很/不 + 冷。",
+            "model": "今天很冷。",
+            "vi": "Hôm nay trời lạnh.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Chọn nước hoặc thức uống.",
+            "frame": "饮料 + 很冷。",
+            "model": "这杯水很冷。",
+            "vi": "Cốc nước này lạnh.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-332fab54b4f4",
@@ -50049,14 +51489,195 @@
           "meaning": "miệng"
         }
       ],
-      "meaning": "miệng",
-      "status": "catalog",
+      "meaning": "miệng; lượng từ cho người trong gia đình; một ngụm",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-017",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我家有四口人。",
+          "vi": "Nhà tôi có bốn người.",
+          "analysis": "四口人 đếm tổng số thành viên trong gia đình.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请喝一口水。",
+          "vi": "Mời uống một ngụm nước.",
+          "analysis": "一口水 chỉ lượng nước bằng một ngụm.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 187,
       "meaningOrigin": "biên soạn bổ sung",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/"
+        ],
+        "cohortOrdinal": 201,
+        "introduction": {
+          "scope": "口 là miệng; ngoài ra, 口 làm lượng từ khi đếm người trong gia đình hoặc một miếng/ngụm đưa vào miệng."
+        },
+        "meaning": {
+          "scene": "Bạn giới thiệu gia đình có ba người hoặc mời ai uống một ngụm nước.",
+          "explanation": "Trong 我家有三口人, 口 dùng để đếm số người trong một gia đình. Trong 一口水, nó nói lượng nước uống một ngụm.",
+          "boundary": "口 không thay cho 个 để đếm mọi người trong mọi tình huống; cách dùng lượng từ này đặc biệt phổ biến với số thành viên gia đình.",
+          "conditions": [
+            "Ba phần tử chính: 我家 + số + 口 + 人.",
+            "一口饭/水: một miếng cơm/một ngụm nước.",
+            "Nghĩa cơ bản vẫn là bộ phận miệng trong 身体/嘴巴."
+          ],
+          "takeaway": "Đếm thành viên gia đình dùng số + 口 + 人; nói một ngụm dùng 一口 + đồ ăn/uống."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我家有四口人。",
+            "vi": "Nhà tôi có bốn người.",
+            "analysis": "四口人 đếm tổng số thành viên trong gia đình.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请喝一口水。",
+            "vi": "Mời uống một ngụm nước.",
+            "analysis": "一口水 chỉ lượng nước bằng một ngụm.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Gia đình + số + 口 + 人",
+            "position": "Khi nói số người trong gia đình, giữ cả cụm 口人.",
+            "required": "Ba phần tử chính: 我家 + số + 口 + 人.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一口 + đồ ăn/uống",
+            "position": "Khi nói một ngụm, đặt 口 giữa số 一 và đồ ăn/uống.",
+            "required": "一口饭/水: một miếng cơm/một ngụm nước.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "口 và 个 khi đếm người",
+            "scene": "Bạn nói số thành viên trong gia đình.",
+            "possibleConfusion": "个 là lượng từ chung; 口 có cách dùng quen thuộc để đếm người trong một gia đình.",
+            "difference": "我家有四口人 là cách nói tự nhiên về số thành viên gia đình; 四个人 cũng đúng nếu nói bốn người theo nghĩa chung.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我家有四口人。",
+                "vi": "Nhà tôi có bốn người.",
+                "comment": "口人 đếm thành viên gia đình.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们宿舍有四个人。",
+                "vi": "Ký túc xá của chúng tôi có bốn người.",
+                "comment": "个 là lượng từ chung; câu nói số người trong ký túc xá.",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Hai câu có thể cùng nói số người; 口人 gắn rõ với số thành viên gia đình, 个 là lượng từ chung."
+            },
+            "boundary": "Có chữ 我家/家里 thì 四口人 thường là lựa chọn tự nhiên; nói một nhóm người chung có thể dùng 四个人.",
+            "tip": "Số thành viên nhà: 几口人；người nói chung: 几个人."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "口 có nghĩa là miệng và có cách dùng làm lượng từ.",
+          "literalTranslation": "Số thành viên gia đình: 数字 + 口 + 人.",
+          "confusables": "口 không thay 个 trong mọi danh từ hoặc mọi nhóm người."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền lượng từ tự nhiên: 我家有三___人。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "一口水 có nghĩa là một cốc nước đầy hay một ngụm?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Nêu điểm khác nhau giữa 我家有三口人 và 我们有三个人."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我家有三口人。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Một ngụm nước."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "三口人 nhấn số thành viên gia đình; 三个人 là ba người theo cách đếm chung."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói số người trong gia đình bạn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Mời ai đó uống một ngụm trà hoặc nước."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đếm số thành viên và thêm 口人.",
+            "frame": "我家有 + số + 口人。",
+            "model": "我家有四口人。",
+            "vi": "Nhà tôi có bốn người.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 一口 rồi nêu đồ uống.",
+            "frame": "请喝一口 + đồ uống。",
+            "model": "请喝一口茶。",
+            "vi": "Mời uống một ngụm trà.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-26aea8f4d583",
@@ -50068,19 +51689,196 @@
           "meaning": "ăn"
         }
       ],
-      "meaning": "ăn",
-      "status": "example",
+      "meaning": "ăn; dùng miệng tiếp nhận thức ăn",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-017",
       "examples": [
         {
-          "zh": "我们一起吃饭吧。",
-          "vi": "Chúng ta cùng ăn cơm nhé."
+          "id": "e1",
+          "zh": "我们晚上在家吃饭。",
+          "vi": "Buổi tối chúng tôi ăn cơm ở nhà.",
+          "analysis": "吃饭 là cụm chỉ ăn bữa; 在家 nêu địa điểm.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "医生让我每天吃药。",
+          "vi": "Bác sĩ bảo tôi uống thuốc mỗi ngày.",
+          "analysis": "Tiếng Trung dùng 吃药 cho việc uống thuốc.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 188,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31362&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 202,
+        "introduction": {
+          "scope": "吃 chủ yếu là ăn; trong tiếng Trung thường dùng 吃 với một số thứ không được xem là thức ăn rắn trong tiếng Việt, như thuốc."
+        },
+        "meaning": {
+          "scene": "Bạn nói cả nhà ăn cơm ở nhà hoặc nhắc người bệnh uống thuốc.",
+          "explanation": "吃 + tên món/đồ ăn; các cụm quen thuộc gồm 吃饭 (ăn cơm/ăn bữa), 吃水果, 吃药 (uống thuốc theo cách nói tiếng Trung).",
+          "boundary": "Không dịch mọi tân ngữ sau 吃 thành “ăn”. Với nước và đồ uống, thông thường dùng 喝; nhưng có một số cụm cố định như 吃药.",
+          "conditions": [
+            "吃饭 nói ăn bữa, không chỉ ăn hạt cơm.",
+            "吃 + thức ăn; 吃药 là cụm thông dụng.",
+            "Câu đề nghị có thể thêm 吧 ở cuối."
+          ],
+          "takeaway": "吃 thường là ăn; nhớ cụm 吃药, nhưng nước/trà thường dùng 喝."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们晚上在家吃饭。",
+            "vi": "Buổi tối chúng tôi ăn cơm ở nhà.",
+            "analysis": "吃饭 là cụm chỉ ăn bữa; 在家 nêu địa điểm.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "医生让我每天吃药。",
+            "vi": "Bác sĩ bảo tôi uống thuốc mỗi ngày.",
+            "analysis": "Tiếng Trung dùng 吃药 cho việc uống thuốc.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ + 吃 + món ăn/đồ ăn",
+            "position": "Học cả cụm 吃饭, 吃药 thay vì dịch tách từng chữ.",
+            "required": "吃饭 nói ăn bữa, không chỉ ăn hạt cơm.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "吃饭 / 吃药（cụm quen thuộc）",
+            "position": "Với nước/trà/sữa, thường dùng 喝.",
+            "required": "吃 + thức ăn; 吃药 là cụm thông dụng.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "吃 và 喝",
+            "scene": "Bạn nói về việc dùng miệng tiếp nhận đồ ăn, thuốc hoặc đồ uống.",
+            "possibleConfusion": "Tiếng Việt đều có thể nói ăn/uống theo từng thứ; tiếng Trung chia động từ theo cách kết hợp.",
+            "difference": "Thức ăn thường đi với 吃; chất lỏng để uống thường đi với 喝; thuốc thường nói 吃药.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我吃了一个鸡蛋。",
+                "vi": "Tôi đã ăn một quả trứng.",
+                "comment": "鸡蛋 là thức ăn, dùng 吃.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我喝了一杯牛奶。",
+                "vi": "Tôi đã uống một cốc sữa.",
+                "comment": "牛奶 là đồ uống, dùng 喝.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 吃 và 喝 có thể thành kết hợp không tự nhiên với đồ vật cụ thể; ghi nhớ 吃药 là ngoại lệ quen thuộc."
+            },
+            "boundary": "Xét vật đi sau động từ: món ăn thường 吃, nước/trà/sữa thường 喝; thuốc thường 吃药.",
+            "tip": "Ăn: 吃；uống: 喝；uống thuốc: 吃药."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "吃饭 nghĩa là ăn một bữa; không dịch sát thành chỉ ăn cơm.",
+          "literalTranslation": "Nước/trà/sữa thường đi với 喝; thuốc thường đi với 吃药.",
+          "confusables": "Không mở rộng nghĩa ăn sang mọi vật; học theo kết hợp quen thuộc."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Hoàn thành câu: 我早上吃___。 (chọn một món ăn)"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "吃药 trong tiếng Việt thường dịch là ăn thuốc hay uống thuốc?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Chọn động từ tự nhiên hơn: ___水 / ___苹果 (吃 hay 喝)."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我早上吃鸡蛋。",
+              "我早上吃面包。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Uống thuốc."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "喝水；吃苹果。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói món bạn ăn vào buổi sáng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói một câu nhắc ai uống thuốc mỗi ngày."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chọn món ăn thật và dùng 吃.",
+            "frame": "我早上吃……。",
+            "model": "我早上吃面包。",
+            "vi": "Buổi sáng tôi ăn bánh mì.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 吃药 và thêm thời gian.",
+            "frame": "每天 + 吃药。",
+            "model": "你每天要吃药。",
+            "vi": "Bạn cần uống thuốc mỗi ngày.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-ea87e2f5091f",
@@ -50092,19 +51890,196 @@
           "meaning": "uống"
         }
       ],
-      "meaning": "uống",
-      "status": "example",
+      "meaning": "uống (đồ uống)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-017",
       "examples": [
         {
-          "zh": "我想喝水。",
-          "vi": "Tôi muốn uống nước."
+          "id": "e1",
+          "zh": "我每天早上喝牛奶。",
+          "vi": "Mỗi sáng tôi uống sữa.",
+          "analysis": "喝 đứng trước đồ uống 牛奶.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请给我一杯水，我想喝一杯水。",
+          "vi": "Làm ơn cho tôi một cốc nước, tôi muốn uống nước.",
+          "analysis": "一杯水 nêu lượng; 喝水 nêu hành động.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 189,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19194&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 203,
+        "introduction": {
+          "scope": "喝 là uống chất lỏng như nước, trà, sữa; thường đi với tên đồ uống."
+        },
+        "meaning": {
+          "scene": "Bạn muốn xin nước hoặc nói mình muốn uống trà.",
+          "explanation": "喝 + tên đồ uống. Có thể nói 喝水, 喝茶, 喝咖啡, 喝牛奶; khi nêu lượng, dùng số + 杯 + đồ uống.",
+          "boundary": "喝 nói hành động uống; 渴 miêu tả cảm giác khát. Một số cụm cố định như 吃药 dùng 吃.",
+          "conditions": [
+            "喝 + đồ uống: uống nước/trà/sữa.",
+            "喝 + số + 杯 + đồ uống: uống lượng cụ thể.",
+            "Muốn nói “khát”, dùng 渴; không dùng 喝 làm tính từ."
+          ],
+          "takeaway": "喝 là hành động uống; khi nói cảm giác khát dùng 渴."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我每天早上喝牛奶。",
+            "vi": "Mỗi sáng tôi uống sữa.",
+            "analysis": "喝 đứng trước đồ uống 牛奶.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请给我一杯水，我想喝一杯水。",
+            "vi": "Làm ơn cho tôi một cốc nước, tôi muốn uống nước.",
+            "analysis": "一杯水 nêu lượng; 喝水 nêu hành động.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ + 喝 + đồ uống",
+            "position": "Nêu đồ uống ngay sau 喝.",
+            "required": "喝 + đồ uống: uống nước/trà/sữa.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "喝 + số + 杯 + đồ uống",
+            "position": "Một cốc nước: 一杯水; lượng từ 杯 đứng trước đồ uống.",
+            "required": "喝 + số + 杯 + đồ uống: uống lượng cụ thể.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "喝 và 渴",
+            "scene": "Bạn nói về uống nước hoặc cảm giác muốn uống.",
+            "possibleConfusion": "Hai chữ gần hình thức và đều thường xuất hiện khi nói về nước, nhưng một chữ là hành động, chữ kia là cảm giác.",
+            "difference": "喝 là động từ “uống”; 渴 là tính từ “khát”. Có thể nói 我渴了，想喝水。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我想喝水。",
+                "vi": "Tôi muốn uống nước.",
+                "comment": "喝 nêu hành động mong muốn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我渴了。",
+                "vi": "Tôi khát rồi.",
+                "comment": "渴 nêu cảm giác của người nói.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 喝 thành 渴 sẽ đổi hành động thành trạng thái; dùng cùng câu 我渴了，想喝水 để thấy hai từ đi cùng nhau."
+            },
+            "boundary": "Sau 我想 thường là động từ 喝; sau 我很/我…了 có thể là trạng thái 渴.",
+            "tip": "Muốn uống: 喝；đang khát: 渴."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "喝 + đồ uống; một cốc dùng 喝一杯… hoặc 喝 + 一杯 + danh từ theo cấu trúc phù hợp.",
+          "literalTranslation": "喝 diễn tả hành động, 渴 diễn tả cảm giác.",
+          "confusables": "Đừng nhầm 喝水 với 渴了."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền động từ: 我想___一杯茶。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "我渴了 đang nói hành động hay cảm giác?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Tạo câu có cả 渴 và 喝 để nói “Tôi khát nên muốn uống nước”."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我想喝一杯茶。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Cảm giác khát.",
+              "Trạng thái của người nói."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "我渴了，想喝水。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói đồ uống bạn muốn uống."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói mình khát rồi xin một cốc nước."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Chọn một đồ uống và dùng 想喝.",
+            "frame": "我想喝……。",
+            "model": "我想喝茶。",
+            "vi": "Tôi muốn uống trà.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 渴了 và 喝一杯水.",
+            "frame": "我渴了，请给我一杯水。",
+            "model": "我渴了，想喝一杯水。",
+            "vi": "Tôi khát rồi, muốn uống một cốc nước.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-b11a9f950493",
@@ -50116,14 +52091,196 @@
           "meaning": "khát"
         }
       ],
-      "meaning": "khát",
-      "status": "catalog",
+      "meaning": "khát; thấy muốn uống nước",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-017",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我走了很久，现在很渴。",
+          "vi": "Tôi đi bộ lâu rồi, bây giờ rất khát.",
+          "analysis": "很渴 miêu tả trạng thái hiện tại sau khi đi lâu.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "孩子们渴了，想喝水。",
+          "vi": "Bọn trẻ khát rồi, muốn uống nước.",
+          "analysis": "渴了 nêu cảm giác; 想喝水 nêu hành động mong muốn.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 190,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn riêng theo chuẩn V2; đối chiếu từ điển Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18022&la=0&powerMode=0"
+        ],
+        "cohortOrdinal": 204,
+        "introduction": {
+          "scope": "渴 miêu tả cảm giác miệng khô hoặc muốn uống nước; cách nói hằng ngày thường là 口渴 hoặc 渴了."
+        },
+        "meaning": {
+          "scene": "Bạn đi ngoài trời nắng và muốn nói mình đang khát.",
+          "explanation": "渴 là tính từ/trạng thái: 我渴了 (tôi khát rồi), 我很渴 (tôi rất khát). Sau đó có thể nói 想喝水 để nêu điều muốn làm.",
+          "boundary": "渴 nói cảm giác; 喝 nói hành động uống. Có một nghĩa nâng cao trong từ 渴望, nhưng ở mức mới học nên nhận ra cả cụm, chưa cần dùng.",
+          "conditions": [
+            "Chủ ngữ + 渴了: đã bắt đầu thấy khát.",
+            "Chủ ngữ + 很渴: rất khát.",
+            "口渴 là cụm thông dụng cùng nghĩa khát."
+          ],
+          "takeaway": "渴 là trạng thái khát; 喝 là hành động uống."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我走了很久，现在很渴。",
+            "vi": "Tôi đi bộ lâu rồi, bây giờ rất khát.",
+            "analysis": "很渴 miêu tả trạng thái hiện tại sau khi đi lâu.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "孩子们渴了，想喝水。",
+            "vi": "Bọn trẻ khát rồi, muốn uống nước.",
+            "analysis": "渴了 nêu cảm giác; 想喝水 nêu hành động mong muốn.",
+            "practiceAllowed": true
+          }
+        ],
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ + 很渴",
+            "position": "Miêu tả cảm giác dùng 很渴/渴了.",
+            "required": "Chủ ngữ + 渴了: đã bắt đầu thấy khát.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ ngữ + 渴了，想喝 + đồ uống",
+            "position": "Nêu điều muốn làm tiếp theo bằng 想喝 + đồ uống.",
+            "required": "Chủ ngữ + 很渴: rất khát.",
+            "omission": "Nếu ngữ cảnh đã rõ, có thể lược phần thông tin đã nhắc; giữ lại từ mục tiêu ở đúng vị trí trong khung.",
+            "exampleId": "e2"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "渴 và 喝",
+            "scene": "Bạn nghe hai từ xuất hiện trong cùng chủ đề uống nước.",
+            "possibleConfusion": "Hai từ đều có bộ 口 và dễ lẫn khi mới học; một từ chỉ cảm giác, một từ chỉ hành động.",
+            "difference": "渴 là trạng thái khát; 喝 là uống. Có thể nối hai từ trong câu 我渴了，想喝水。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "妹妹渴了。",
+                "vi": "Em gái khát rồi.",
+                "comment": "渴 làm vị ngữ miêu tả cảm giác.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "妹妹喝水了。",
+                "vi": "Em gái đã uống nước.",
+                "comment": "喝 đứng trước 水, nêu hành động.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Không thay trực tiếp được: 渴了 nêu cảm giác, 喝水了 nêu hành động đã uống."
+            },
+            "boundary": "渴 thường theo 很/了; 喝 thường đứng trước tên đồ uống.",
+            "tip": "渴了 là khát; 喝水 là uống nước."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "渴 thường nói cảm giác muốn uống nước.",
+          "literalTranslation": "口渴 và 渴了 đều thông dụng ở mức học này.",
+          "confusables": "Phân biệt trạng thái 渴 và hành động 喝; từ 渴望 là nghĩa mở rộng, chưa cần dùng."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ thanh gốc của từ trong câu mẫu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Hoàn thành câu: 我___了，想___水。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "孩子们很渴 đang nói các em uống nước hay cảm thấy khát?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Dựa vào vị trí từ, giải thích 渴水 và 喝水 có giống nhau không."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我渴了，想喝水。"
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Các em cảm thấy khát.",
+              "Các em rất khát."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          },
+          "q3": {
+            "accepted": [
+              "Không giống: 喝水 là uống nước; 渴 là cảm giác khát, nên 渴水 không phải cách nói cơ bản để diễn tả uống nước."
+            ],
+            "explanation": "Tự đối chiếu với vị trí và tình huống đã học; có thể có cách diễn đạt khác nếu vẫn giữ đúng nghĩa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói mình đang khát."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn muốn uống nước sau khi đi bộ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我渴了 hoặc 我很渴.",
+            "frame": "我 + 很渴/渴了。",
+            "model": "我渴了。",
+            "vi": "Tôi khát rồi.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 渴了 rồi nối ý muốn uống.",
+            "frame": "我走了……，很渴，想喝……。",
+            "model": "我走了很久，很渴，想喝水。",
+            "vi": "Tôi đi bộ lâu rồi, rất khát, muốn uống nước.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với tình huống và giữ được ý định diễn đạt."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-61b3eaafe930",
@@ -91600,13 +93757,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 202,
-    "pending": 2032,
+    "ready": 214,
+    "pending": 2020,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 202
+        "ready": 214
       },
       {
         "level": 2,
