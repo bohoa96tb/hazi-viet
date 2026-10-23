@@ -1,13 +1,16 @@
 
 
-# Batch-019 · nội dung đã kiểm tra, Pages đang chờ
+# Batch-019 · đã phát hành và xác minh Pages
 
 Mục baseline 217–234: 生气、米饭、面包、面条儿、中、也、六、出、国、外、女、新、比、男、病、中间、别的、北京. Candidate có 18 bài V2; tiến độ candidate 234/2.224, còn 1.990; toàn khóa đủ cấu trúc 244/2.234.
 
 - Mỗi mục giữ hai câu chính, khung cách dùng, phần bẫy/phân biệt, hai câu luyện mở với đáp án tách riêng và hai tình huống tự dùng với mẫu riêng.
 - ID/thứ tự đã so khớp baseline; hash của 226 mục đã hoàn thành/bảo vệ trước đó không đổi.
 - `process-batch apply`, `process-batch verify`, `verifyV2` cho 18 bài, `validateCourse` toàn khóa và `test-dom.mjs` đều đạt; hash 226 mục hoàn thành/bảo vệ không đổi.
-- Chưa xác minh Pages live, bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập; trạng thái commit/deploy sẽ được ghi sau khi xác minh.
+- Commit nội dung [2adc40958ad8e6a81491e1001af2a73288a84699](https://github.com/bohoa96tb/hazi-viet/commit/2adc40958ad8e6a81491e1001af2a73288a84699); commit xác minh [e0b99bb1ac6b4748ba1befd4c5e8a7f31e3267b2](https://github.com/bohoa96tb/hazi-viet/commit/e0b99bb1ac6b4748ba1befd4c5e8a7f31e3267b2); `main` đã fast-forward.
+- GitHub Pages run [39891898334](https://github.com/bohoa96tb/hazi-viet/actions/runs/39891898334) thành công trên commit `e0b99bb1ac6b4748ba1befd4c5e8a7f31e3267b2`.
+- Tệp JSON live được tải trực tiếp và khớp từng byte với bản kiểm tra: 3.815.776 bytes, SHA-256 `4fe01a79aa5db07af87e2146b60fbb9634e361d5b12fbb11a3a53809f5896367`; toàn khóa gồm 2.234 mục.
+- Chưa xác minh bố cục thiết bị, TTS Android hoặc phản biện giáo viên độc lập.
 # Phát hành batch-017
 
 Mục baseline 193–204: 有的、正在、没有、真的、还是、还有、八、冷、口、吃、喝、渴. Tiến độ: 204/2.224; còn 2.020; toàn khóa đủ cấu trúc 214/2.234.
