@@ -1,0 +1,76 @@
+name: Hazi-Viet vocabulary batch
+on:
+  push:
+    branches:
+      - content/vocabulary-2224
+    paths:
+      - 'tools/vocabulary/batches/batch-027.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: vocabulary-authoring
+  cancel-in-progress: false
+jobs:
+  apply-and-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify branch and original progress
+        run: |
+          test "$(git branch --show-current)" = "content/vocabulary-2224"
+          node tools/vocabulary/process-batch.mjs verify
+      - name: Apply authored batch
+        run: node tools/vocabulary/process-batch.mjs apply tools/vocabulary/batches/batch-027.json
+      - name: Verify immutable cohort and rendered lessons
+        run: node tools/vocabulary/process-batch.mjs verify
+      - name: Install isolated DOM test dependency
+        run: npm install --prefix /tmp/hazi-test-env happy-dom --no-audit --no-fund
+      - name: Check lesson UI and audio behavior
+        run: node tools/vocabulary/test-dom.mjs
+        env:
+          HAPPY_DOM_MODULE: /tmp/hazi-test-env/node_modules/happy-dom/lib/index.js
+      - name: Write checkpoint from verified content
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import {execFileSync} from 'node:child_process';
+          import assert from 'node:assert/strict';
+          const progress=JSON.parse(fs.readFileSync('progress.json','utf8'));
+          const baseline=JSON.parse(fs.readFileSync('tools/vocabulary/baseline.json','utf8'));
+          const old=JSON.parse(fs.readFileSync('checkpoint.json','utf8'));
+          assert.equal(progress.completedIds.length,progress.completedCount);
+          assert.deepEqual(progress.completedIds,baseline.orderedIds.slice(0,progress.completedCount));
+          const blob=path=>execFileSync('git',['hash-object',path],{encoding:'utf8'}).trim();
+          const next={...old,
+            sourceSnapshotCommit:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),
+            note:'Batch-027: đã apply/verify và kiểm DOM trong GitHub Actions; chưa xác minh Pages, thiết bị Android hay phản biện giáo viên độc lập.',
+            sourceBlobs:Object.fromEntries(['progress.json','tools/vocabulary/baseline.json','data/vocabulary/hanzii-course.json','data/vocabulary/content-audit.json'].map(path=>[path,blob(path)])),
+            scopeTotal:progress.scopeTotal,
+            completedCount:progress.completedCount,
+            remaining:progress.remaining,
+            lastBatch:progress.batches.at(-1).id,
+            lastCompletedId:progress.lastCompletedId,
+            nextOrdinal:progress.completedCount+1,
+            nextIds:progress.nextIds,
+            lastVerifiedContentCommit:progress.lastVerifiedContentCommit,
+            priorVerificationNote:'Đã kiểm nội dung trong workflow, cần xác minh Pages sau phát hành.'};
+          fs.writeFileSync('checkpoint.json',JSON.stringify(next,null,2)+'\n');
+          NODE
+      - name: Commit verified changes to authoring branch
+        run: |
+          git diff --check
+          git config user.name "hazi-viet-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add checkpoint.json progress.json data/vocabulary/hanzii-course.json data/vocabulary/content-audit.json docs/PROGRESS.md js/vocabulary.js vocabulary.html
+          git diff --cached --check
+          git diff --cached --quiet && { echo "No changes after apply"; exit 1; }
+          git commit -m "content: apply verified batch-027"
+          git push origin HEAD:refs/heads/content/vocabulary-2224
