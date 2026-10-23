@@ -8,6 +8,7 @@
 - `usages[]`: 1–2 khung với `id`, `frame`, `position`, `required`, `omission`, `exampleId`. Mỗi khung gắn với một ví dụ; khung chung có thể dùng cho hai câu.
 - `examples[]`: đúng hai câu chính khác nhau; `id`, `zh`, `vi`, `analysis`, `practiceAllowed:true`. Tùy chọn `pinyin` ở câu minh họa khung; `targetParts` khi từ bị tách trong câu. Không có tab ví dụ lặp.
 - `traps[]`: `id`, `title`, `scene`, `possibleConfusion`, `difference`, `cases[]`, `replacement:{result,explanation}`, `boundary`, `tip`. Mỗi case có `id`, `zh`, `vi`, `comment`, `judgment`, `practiceAllowed:false`. Nhãn đúng/ngữ pháp sai/đổi nghĩa/không hợp ý/kém tự nhiên/gần nghĩa/cần ngữ cảnh được phân biệt. Case sai cần `corrections[]` có `caseId,zh,vi,reason`; cảnh báo trước khi TTS đọc. Không đưa case vào immersion/nhắc lại.
+- `traps: []` hợp lệ khi không có bẫy hữu ích; giữ `noTrapReason: "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này."` và đủ kết quả rà soát. Độ dài giải thích thay đổi theo độ khó, số thành phần bắt buộc không đổi.
 - `trapReview`: ghi nội bộ kết quả rà `readingsAndMeanings`, `literalTranslation`, `confusables`; không ép đủ ba loại bẫy hiển thị. Nếu không có bẫy, ghi đúng `noTrapReason` theo chuẩn.
 - `pronunciation.text`: ngắn, kết bằng nhiệm vụ đọc; có thể thêm `pronunciation.pinyin` riêng. TTS không nhận trường Pinyin.
 - `checks[]`: 2–4 câu mở, `id,type:'open',question`. `answers[id]` riêng chứa `accepted[]` và `explanation`. Không chấm tự động theo chuỗi; người học tự đối chiếu, chấp nhận cách khác có lý.

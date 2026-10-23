@@ -111,7 +111,7 @@ Từ đơn giản viết gọn; từ nhiều cách dùng hoặc dễ nhầm vi�
 ## 5. Khi tôi nhắn “Tiếp tục”
 
 1. Đọc lại HEAD, tiến độ và dữ liệu thật từ GitHub; đồng bộ thay đổi từ `main` vào nhánh biên soạn mà không làm mất công việc.
-2. Chọn đúng 12 mục chưa hoàn thành kế tiếp theo baseline, không bỏ qua hoặc đổi thứ tự. Có thể làm hơn chỉ khi nội dung đơn giản và chất lượng không giảm.
+2. Tự đánh giá độ khó từng từ rồi chọn nhóm chưa hoàn thành liên tiếp theo baseline, không bỏ qua hoặc đổi thứ tự. Mục tiêu linh hoạt: nhóm chủ yếu đơn giản thử 40–50 mục; trung bình 25–35; phức tạp 15–25. Nhóm hỗn hợp chọn quy mô bảo đảm rà soát đầy đủ. Giải thích linh hoạt theo docs/CONTENT_STANDARD.md; giữ mọi thành phần V2 và kiểm thử, không bịa bẫy hoặc kéo dài cho đủ chữ. Chỉ cập nhật checkpoint sau khi bài đầy đủ và kiểm thử đạt.
 3. Biên soạn đủ theo chuẩn mới. Không tự sửa lại toàn bộ 48 mục cũ trong cùng đợt bổ sung nếu tôi chưa giao; nếu cần di chuyển định dạng kỹ thuật, giữ nội dung và số hoàn thành, ghi rõ phạm vi.
 4. Kiểm tra schema, bộ nạp, giao diện và audio có hỗ trợ chuẩn mới không. Nếu schema cũ bắt ít nhất ba ví dụ hoặc cấm Pinyin ở khung câu, phải sửa adapter/validator/renderer/audio và kiểm tra hồi quy trước khi áp dụng bài hai ví dụ. Không thêm ví dụ thừa hoặc nhét dữ liệu vào trường sai nghĩa để qua kiểm tra. Không tuyên bố hỗ trợ định dạng mới nếu mới sửa tài liệu.
 5. Tạo/sửa JSON, JS và file liên quan trực tiếp trong dự án. Giữ ID, thứ tự, liên kết, tiến độ học và tính năng có sẵn. Ghi phiên bản chuẩn nội dung để phân biệt bài cũ với bài mới.

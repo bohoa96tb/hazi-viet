@@ -20,8 +20,18 @@ export function verifyV2(w){
  const state=new Map([[w.id+':'+c.id,'requested'],[w.id+':self-unlocked',true]]);assert(show(state).includes('ANSWER_SENTINEL'));assert(!/MODEL_SENTINEL|IDEA_SENTINEL/.test(show(state)));
  state.set(w.id+':hint:s1',1);assert(show(state).includes('IDEA_SENTINEL'));assert(!show(state).includes('MODEL_SENTINEL'));state.set(w.id+':hint:s1',3);assert(show(state).includes('MODEL_SENTINEL'));
  assert.throws(()=>checkAudio(tagged,c.id,'answer'));assert(checkAudio(tagged,c.id,'answer',{revealed:true}).some(s=>s.text.includes('ANSWER')));assert(!lessonAudio(tagged).some(s=>/SENTINEL/.test(s.text)));assert(!checkAudio(tagged,c.id,'question').some(s=>/ANSWER|EXPLANATION/.test(s.text)));
- for(const mutate of [x=>x.lesson.examples.pop(),x=>delete x.lesson.meaning.boundary,x=>x.lesson.examples[0].practiceAllowed=false,x=>x.lesson.checks[0].answer='leak',x=>x.lesson.selfUse.pop(),x=>delete x.lesson.answers[x.lesson.checks[0].id],x=>x.lesson.usages[0].exampleId='missing',x=>x.lesson.traps[0].replacement.result='unknown',x=>x.lesson.meaning.scene='pinyin dǎ']){const b=structuredClone(w);mutate(b);assert(!auditLesson(b).ready,'Malformed V2 accepted')}
+ // Trap-path negative tests use a separate fixture so real no-trap lessons stay valid.
+ const trapFixture=structuredClone(w);
+ if(!trapFixture.lesson.traps.length){
+  const l=trapFixture.lesson;
+  assert(render(w,2).includes(l.noTrapReason));
+  assert(lessonAudio(w,'traps').some(s=>s.text===l.noTrapReason));
+  const missing=structuredClone(w);delete missing.lesson.noTrapReason;assert(!auditLesson(missing).ready);
+  l.traps=[{id:'test-trap',title:'Nhóm đối chiếu giả lập cho kiểm thử',scene:'Tình huống kiểm thử.',possibleConfusion:'Giả lập đường đi của nhãn và audio.',difference:'Chỉ dùng trong bộ nhớ kiểm thử, không phải nội dung biên soạn.',cases:l.examples.map((e,i)=>({id:'c'+(i+1),zh:e.zh,vi:e.vi,comment:'Câu đúng trong fixture.',judgment:'correct',practiceAllowed:false})),replacement:{result:'context-needed',explanation:'Fixture kiểm đường đi nhãn.'},boundary:'Không ghi fixture vào học liệu.',tip:'Chỉ phục vụ kiểm thử.'}];
+ }
+ assert(auditLesson(trapFixture).ready);
+ for(const mutate of [x=>x.lesson.examples.pop(),x=>delete x.lesson.meaning.boundary,x=>x.lesson.examples[0].practiceAllowed=false,x=>x.lesson.checks[0].answer='leak',x=>x.lesson.selfUse.pop(),x=>delete x.lesson.answers[x.lesson.checks[0].id],x=>x.lesson.usages[0].exampleId='missing',x=>x.lesson.traps[0].replacement.result='unknown',x=>x.lesson.meaning.scene='pinyin dǎ']){const b=structuredClone(trapFixture);mutate(b);assert(!auditLesson(b).ready,'Malformed V2 accepted')}
  // A synthetic wrong contrast verifies the warning and correction path even when
  // the authored batch avoids wrong example sentences.
- const wrong=structuredClone(w);wrong.lesson.traps[0].cases[0].judgment='wrong-grammar';wrong.lesson.traps[0].cases[0].zh='错句测试';wrong.lesson.traps[0].corrections=[...(wrong.lesson.traps[0].corrections||[]).filter(r=>r.caseId!=='c1'),{caseId:'c1',zh:'正确句测试',vi:'Câu sửa thử nghiệm.',reason:'Lý do sửa thử nghiệm.'}];assert(auditLesson(wrong).ready);const a=lessonAudio(wrong,'traps',0),i=a.findIndex(s=>s.text==='错句测试');assert.equal(a[i-1].text,'Đây là câu sai để phân tích.');assert(a.some(s=>s.text==='正确句测试'));assert(!buildPlaylist([wrong],'immersion').some(s=>s.text==='错句测试'));
+ const wrong=structuredClone(trapFixture);wrong.lesson.traps[0].cases[0].judgment='wrong-grammar';wrong.lesson.traps[0].cases[0].zh='错句测试';wrong.lesson.traps[0].corrections=[...(wrong.lesson.traps[0].corrections||[]).filter(r=>r.caseId!=='c1'),{caseId:'c1',zh:'正确句测试',vi:'Câu sửa thử nghiệm.',reason:'Lý do sửa thử nghiệm.'}];assert(auditLesson(wrong).ready);const a=lessonAudio(wrong,'traps',0),i=a.findIndex(s=>s.text==='错句测试');assert.equal(a[i-1].text,'Đây là câu sai để phân tích.');assert(a.some(s=>s.text==='正确句测试'));assert(!buildPlaylist([wrong],'immersion').some(s=>s.text==='错句测试'));
 }

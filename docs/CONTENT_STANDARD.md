@@ -20,6 +20,18 @@ Chuẩn mới do người dùng yêu cầu ngày 22/10/2026, dựa trên bản t
 - Không tạo ranh giới giả: đúng nhưng đổi nghĩa, không hợp ý định, kém tự nhiên, gần nghĩa và thiếu ngữ cảnh phải có nhãn khác sai ngữ pháp. Câu sai có nhãn trước và câu sửa sau. Không gán lỗi cho người học chưa làm bài.
 - Không bắt mọi từ có đủ ba loại bẫy. Không thấy bẫy thì ghi: “Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.” Từ đã giải thích vẫn nhắc ngắn đủ hiểu độc lập.
 
+## Độ sâu linh hoạt theo độ khó
+
+Trước khi biên soạn, đánh giá riêng từng mục theo số cách dùng cần dạy, mức đa nghĩa/đa âm và nguy cơ nhầm lẫn thực tế. Ghi mức cùng lý do ngắn trong metadata tệp batch; không đổi schema V2 hoặc buộc di chuyển dữ liệu cũ.
+
+- **Đơn giản:** nghĩa và cách dùng trực tiếp, giải thích gọn; ví dụ đơn giản, tự nhiên, hợp trình độ HSK. Chỉ thêm lưu ý thật có ích, không viết để đủ số chữ.
+- **Trung bình:** làm rõ vị trí trong câu, kết hợp thông dụng và những nhầm lẫn có căn cứ mà người Việt dễ gặp.
+- **Phức tạp:** giải thích sâu bằng ngôn ngữ dễ hiểu, phân biệt các từ/cấu trúc gần nhau, thêm tình huống thực tế và lỗi thường gặp cùng cách tránh. Không gom mọi nghĩa hiếm vào một bài.
+
+Có thể viết ngắn nội dung từng trường, nhưng giữ đầy đủ trường bắt buộc V2: 1–2 khung, đúng hai câu chính, 2–4 bài luyện và đáp án tách riêng, hai tình huống tự dùng với đủ ba mức gợi ý/mẫu riêng, phát âm và audio theo hợp đồng hiện có. Không tạo bẫy giả; nếu chưa thấy bẫy hữu ích, dùng `traps: []` và `noTrapReason` đúng câu quy định, vẫn ghi đủ `trapReview`. Kiểm thử phải hỗ trợ trường hợp này, không ép biên tập viên bịa cặp đối chiếu.
+
+Quy mô thử mỗi đợt: nhóm chủ yếu đơn giản 40–50; trung bình 25–35; phức tạp 15–25. Đây là mục tiêu linh hoạt, không phải chỉ tiêu. Nhóm hỗn hợp chọn dung lượng theo những mục khó và thời gian rà soát; không đổi thứ tự baseline. Không đánh đổi độ chính xác, tự nhiên, dễ hiểu, hiệu quả ghi nhớ hoặc kiểm thử lấy số lượng. Chỉ cập nhật checkpoint khi toàn bộ mục được ghi nhận đã đầy đủ và kiểm thử đạt.
+
 ## Chat và app
 
 Trong chat, sau luyện vị trí/bẫy dừng chờ trả lời, chưa đưa đáp án; chấm rồi mới giao hai tình huống tự dùng. Trong chế độ biên soạn app, lưu đủ đề, đáp án, lời giải, gợi ý và câu mẫu vào các phần tách riêng; không đợi người dùng làm bài để tiếp tục cả đợt.

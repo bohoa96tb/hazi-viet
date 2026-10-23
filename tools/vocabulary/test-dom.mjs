@@ -28,5 +28,21 @@ click('[data-start="hz-h1-b51cd2090a80"]');assert(body().includes('bù yòng'));
 click('[data-action="close"]');$('#wordSearch').value='';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
 // A protected V1 word can still be opened through the same application.
 const old=p.completedIds[0];$('#wordSearch').value=d.words.find(w=>w.id===old).hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-start="'+old+'"]');assert(body().includes('5.1'));click('[data-step="1"]');assert(document.querySelector('[data-lesson-view]'));
-console.log('PASS DOM: V1/V2 loader, two examples, audio dispatch, hidden answers, persisted drafts across redraw, three hint levels, review, favorite, search and trap paging. DOM simulation only; no visual layout/device playback certification.');
+// Exercise every new lesson through the real entry point, including empty traps.
+for(const id of p.batches.at(-1).wordIds){
+ const word=d.words.find(w=>w.id===id);
+ click('[data-action="close"]');$('#wordSearch').value=word.hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
+ const target='[data-start="'+id+'"]';
+ for(let page=0;!$(target)&&page<d.lessons.length;page++){assert(!$('[data-lesson="1"]').disabled,'Target must be reachable in filtered pages: '+id);click('[data-lesson="1"]');}
+ click(target);
+ assert(body().includes('[Từ số '+word.lesson.cohortOrdinal+']'));
+ click('[data-step="1"]');assert.equal(document.querySelectorAll('.standard-example').length,2);
+ click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,word.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
+ click('[data-step="2"]');if(!word.lesson.traps.length)assert(body().includes(word.lesson.noTrapReason));
+ click('[data-step="3"]');
+ if(id===sample.id)assert(document.querySelector('.feedback'),'Previously revealed answer must persist');
+ else{assert(!document.querySelector('.feedback'));assert(!document.querySelector('[data-v2-hint]'));}
+ assert.equal(document.querySelectorAll('[data-reveal-check]').length,word.lesson.checks.length);
+}
+console.log('PASS DOM: V1/V2 loader, two examples, audio dispatch, hidden answers, persisted drafts across redraw, three hint levels, review, favorite, search and trap paging; all latest-batch routes, empty traps and question counts. DOM simulation only; no visual layout/device playback certification.');
 window.happyDOM.abort();window.close();process.exit(0);

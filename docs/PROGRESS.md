@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 288/2224. Còn: 1936. Toàn khóa đủ cấu trúc: 298/2234.
+Đã bổ sung: 313/2224. Còn: 1911. Toàn khóa đủ cấu trúc: 323/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -28,26 +28,27 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-020 · mục 235–252 · 国外、国家、外国、外语、有名、网上、上、半、后、早、晚、穿、上午、下午、中午、今天、关上、前天
 - batch-021 · mục 253–270 · 半天、后天、早上、明天、星期天、星期日、昨天、晚上、白天、见面、马上、一、七、三、两、二、几、十
 - batch-022 · mục 271–288 · 哪、就、第、这、那、一些、上次、哪些、哪儿、哪里、这些、这儿、这里、那些、那儿、那里、了、和
+- batch-023 · mục 289–313 · 岁、年、日、月、正、间、一样、今年、半年、去年、地方、地点、小时、新年、日期、时候、时间、明年、星期、现在、生日、听、唱、忘、听写
 
 ## 18 mục tiếp theo
 
-- 岁 · hz-h1-3a19114d8cfa
-- 年 · hz-h1-60a82c7a1364
-- 日 · hz-h1-498e31b135f7
-- 月 · hz-h1-36d043e2f62d
-- 正 · hz-h1-59b0e99d13aa
-- 间 · hz-h1-cb43e6fe3090
-- 一样 · hz-h1-2acaa914efa0
-- 今年 · hz-h1-ccf2212072df
-- 半年 · hz-h1-8138f3144518
-- 去年 · hz-h1-1d21ccf443ff
-- 地方 · hz-h1-83f6c7327789
-- 地点 · hz-h1-078fd0715b8f
-- 小时 · hz-h1-f9d5980db5c5
-- 新年 · hz-h1-1777baa7f1e7
-- 日期 · hz-h1-ddd4e54501e0
-- 时候 · hz-h1-730e81670f61
-- 时间 · hz-h1-fbf92953ee60
-- 明年 · hz-h1-232c6466809d
+- 听到 · hz-h1-02b7c349829c
+- 听见 · hz-h1-658af063a3b9
+- 告诉 · hz-h1-61968b766f92
+- 唱歌 · hz-h1-5d8638315835
+- 喜欢 · hz-h1-6633bf9ff9e4
+- 忘记 · hz-h1-e6d8f4c4bfdd
+- 明白 · hz-h1-a06d3ae479ac
+- 看到 · hz-h1-1f951e12b2fb
+- 看见 · hz-h1-f433807a1781
+- 知道 · hz-h1-f78ff4e913d1
+- 觉得 · hz-h1-a0fdbf7298f8
+- 认真 · hz-h1-030d8519e69d
+- 认识 · hz-h1-5bdba0965e51
+- 记住 · hz-h1-0b7c6d86ec57
+- 记得 · hz-h1-f25a6b51a4a0
+- 高兴 · hz-h1-93bd6576787d
+- 别 · hz-h1-ae36968b9468
+- 到 · hz-h1-0eadc9d10d1c
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.

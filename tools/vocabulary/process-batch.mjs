@@ -68,7 +68,7 @@ if(command==='init'){
  if(command==='apply'){
   assert(argument,'Provide an authored batch JSON path.');const batch=read(argument);
   assert(!p.batches.some(x=>x.id===batch.id),'Batch already applied.');
-  assert(batch.entries.length>=Math.min(18,p.remaining),'Default batch is 18.');
+  assert(Array.isArray(batch.entries)&&batch.entries.length>0&&batch.entries.length<=p.remaining,'Batch must contain 1..remaining entries; size follows editorial difficulty.');
   const expected=b.orderedIds.slice(p.completedCount,p.completedCount+batch.entries.length);
   assert.deepEqual(batch.entries.map(e=>e.id),expected,'Only the next uncompleted cohort records may be edited.');
   // Catalog/example records may not yet have the recognition and comparison
