@@ -39,4 +39,4 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 晚饭 · hz-h1-45f2486f6226 · sourceIndex 201
 - 最好 · hz-h1-74ea2968e1c9 · sourceIndex 202
 
-Batch-017 đã qua kiểm tra cấu trúc V2, thứ tự baseline, liên kết ví dụ/audio và hash các mục đã khóa. Xác minh Pages sẽ được ghi sau khi GitHub Actions hoàn tất.
+Batch-017 đã qua kiểm tra cấu trúc V2, thứ tự baseline, liên kết ví dụ/audio và hash các mục đã khóa. GitHub Pages run 39880813380 completed/success trên commit b5dbc6cef459d8aac515b4bc570a5cd9f6e4072b. URL Pages trực tiếp chưa được đọc để đối chiếu payload live.

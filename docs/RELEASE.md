@@ -3,8 +3,9 @@
 Mục baseline 193–204: 有的、正在、没有、真的、还是、还有、八、冷、口、吃、喝、渴. Tiến độ: 204/2.224; còn 2.020; toàn khóa đủ cấu trúc 214/2.234.
 
 - 12 bài V2 gồm 24 câu chính, 12 nhóm bẫy, 36 câu luyện mở và 24 tình huống tự dùng; đáp án/mẫu được tách riêng khỏi đề.
-- Đã kiểm ID/thứ tự baseline, hai ví dụ mỗi mục, liên kết khung, tách đáp án và hash các mục hoàn thành trước đó.
-- GitHub Pages chưa được xác minh trong bước chuẩn bị này.
+- Đã kiểm ID/thứ tự baseline, hai ví dụ mỗi mục, liên kết khung, hash các mục hoàn thành trước đó và SHA256 khóa học.
+- GitHub Pages run [39880813380](https://github.com/bohoa96tb/hazi-viet/actions/runs/39880813380) completed/success trên commit `b5dbc6cef459d8aac515b4bc570a5cd9f6e4072b`.
+- Chưa đọc trực tiếp URL Pages để đối chiếu JSON/route live; chưa kiểm bố cục mobile, Android TTS hoặc phản biện giáo viên độc lập.
 
 ---
 
