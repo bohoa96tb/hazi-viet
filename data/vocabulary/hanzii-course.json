@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 226 mục đủ cấu trúc V1/V2; còn 2008. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 216 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 244 mục đủ cấu trúc V1/V2; còn 1990. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 234 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -54593,17 +54593,177 @@
       "intro": [
         {
           "pinyin": "shēngqì",
-          "meaning": "tức giận"
+          "meaning": "tức giận; giận"
         }
       ],
-      "meaning": "tức giận",
-      "status": "catalog",
+      "meaning": "tức giận; giận",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-019",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "他还在生气。",
+          "vi": "Anh ấy vẫn còn đang giận。",
+          "analysis": "还在 cho biết trạng thái giận còn tiếp diễn。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "妈妈对我生气了，因为我忘了打电话。",
+          "vi": "Mẹ giận tôi vì tôi quên gọi điện。",
+          "analysis": "对我 nêu người bị giận; vế sau nêu nguyên nhân。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 203,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E7%94%9F%E6%B0%94"
+        ],
+        "cohortOrdinal": 217,
+        "introduction": {
+          "scope": "生气 gọi cảm xúc bực/giận vì một việc; thường nói một người đang giận."
+        },
+        "meaning": {
+          "scene": "Bạn lỡ để bạn mình chờ lâu, bạn ấy bực và không muốn nói chuyện. Dùng 生气 để gọi trạng thái đó.",
+          "explanation": "Dùng người + 生气了 để nói ai đã giận/đang giận; thêm 对 + người trước 生气 để nêu người bị giận.",
+          "boundary": "生气 nói cảm xúc giận. 不高兴 rộng và thường nhẹ hơn, có thể chỉ không vui chứ chưa chắc giận; 发火 nhấn vào phản ứng nổi nóng.",
+          "conditions": [
+            "Muốn nói giận ai: người + 对 + người + 生气. Nói trạng thái mới xuất hiện: người + 生气了."
+          ],
+          "takeaway": "tức giận; giận. 生气 gọi cảm xúc bực/giận vì một việc; thường nói một người đang giận."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ thể + 对 + người + 生气；hoặc chủ thể + 生气了。",
+            "position": "生气 đứng sau chủ thể; 对 + người đặt trước 生气.",
+            "required": "Nêu người đang có cảm xúc; 对 + người thêm khi cần nói rõ ai bị giận.",
+            "omission": "Có thể lược người bị giận khi ngữ cảnh đã rõ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他还在生气。",
+            "vi": "Anh ấy vẫn còn đang giận。",
+            "analysis": "还在 cho biết trạng thái giận còn tiếp diễn。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "妈妈对我生气了，因为我忘了打电话。",
+            "vi": "Mẹ giận tôi vì tôi quên gọi điện。",
+            "analysis": "对我 nêu người bị giận; vế sau nêu nguyên nhân。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "生气 và 不高兴",
+            "scene": "Cả hai đều mô tả cảm xúc nên dễ bị xem là đồng nghĩa hoàn toàn.",
+            "possibleConfusion": "Cả hai đều mô tả cảm xúc nên dễ bị xem là đồng nghĩa hoàn toàn.",
+            "difference": "生气 gọi rõ cảm xúc giận; 不高兴 rộng hơn, có thể chỉ buồn hoặc không vui.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他听了这个消息很生气。",
+                "vi": "Anh ấy nghe tin này thì rất tức giận。",
+                "comment": "生气 nói rõ cảm xúc giận。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他今天不太高兴。",
+                "vi": "Hôm nay anh ấy không vui lắm。",
+                "comment": "Không vui chưa đủ căn cứ kết luận người đó giận ai。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Chọn 生气 khi cảm xúc là giận; 不高兴 dùng khi chỉ biết người đó không vui."
+            },
+            "boundary": "Hỏi người đó đang giận hay chỉ không vui.",
+            "tip": "生气 là cảm xúc; 不高兴 có phạm vi rộng hơn。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "生气 và 不高兴",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "生气 và 不高兴"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 生气, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 他还在生气, từ nào cho biết cơn giận vẫn còn?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Phân biệt 生气 với 不高兴."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "还在。"
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 生气 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "生气 là giận; 不高兴 chỉ nói không vui, chưa chắc đang giận."
+            ],
+            "explanation": "生气 là cảm xúc; 不高兴 có phạm vi rộng hơn。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Kể rằng bạn giận vì một người quên gọi cho bạn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói với bạn rằng mẹ bạn vẫn còn giận."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 生气 trong tình huống: kể rằng bạn giận vì một người quên gọi cho bạn.",
+            "frame": "Chủ thể + 对 + người + 生气；hoặc chủ thể + 生气了。",
+            "model": "我对你生气，因为你忘了打电话。",
+            "vi": "Tôi giận bạn vì bạn quên gọi điện。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 生气 trong tình huống: nói với bạn rằng mẹ bạn vẫn còn giận.",
+            "frame": "Chủ thể + 对 + người + 生气；hoặc chủ thể + 生气了。",
+            "model": "妈妈还在生气。",
+            "vi": "Mẹ vẫn còn đang giận。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "shengbing",
@@ -55002,22 +55162,177 @@
       "intro": [
         {
           "pinyin": "mǐfàn",
-          "meaning": "cơm"
+          "meaning": "cơm; cơm đã nấu"
         }
       ],
-      "meaning": "cơm",
-      "status": "example",
+      "meaning": "cơm; cơm đã nấu",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
-          "zh": "我要一碗米饭。",
-          "vi": "Tôi muốn lấy một bát cơm."
+          "id": "e1",
+          "zh": "我早上吃米饭。",
+          "vi": "Buổi sáng tôi ăn cơm。",
+          "analysis": "吃 đứng trước món 米饭。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请给我一碗米饭。",
+          "vi": "Làm ơn cho tôi một bát cơm。",
+          "analysis": "一碗 là số lượng và lượng từ cho phần cơm。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 205,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E7%B1%B3%E9%A5%AD"
+        ],
+        "cohortOrdinal": 218,
+        "introduction": {
+          "scope": "米饭 là gạo đã nấu chín dùng làm món ăn, thường là phần cơm trong bữa."
+        },
+        "meaning": {
+          "scene": "Ở quán, bạn gọi một bát cơm trắng ăn cùng món khác. Món cơm đó là 米饭.",
+          "explanation": "Dùng 吃米饭 khi nói ăn cơm, 一碗米饭 khi gọi một bát. 米饭 chỉ cơm chín, không chỉ cả bữa gồm mọi món.",
+          "boundary": "米 là gạo/hạt gạo trước khi nấu; 米饭 là cơm đã nấu. Nói chung đi ăn một bữa thường dùng 吃饭.",
+          "conditions": [
+            "Đếm phần cơm: số lượng + 碗 + 米饭. Nói ăn cơm chín: 吃 + 米饭; ăn bữa nói chung: 吃饭."
+          ],
+          "takeaway": "cơm; cơm đã nấu. 米饭 là gạo đã nấu chín dùng làm món ăn, thường là phần cơm trong bữa."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一碗 + 米饭；hoặc chủ thể + 吃 + 米饭。",
+            "position": "米饭 là danh từ; đứng sau lượng từ hoặc sau động từ 吃.",
+            "required": "Khi đếm phần cơm trong bát, dùng lượng từ 碗.",
+            "omission": "Có thể nói 吃饭 nếu không cần nhấn mạnh món cơm trắng.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我早上吃米饭。",
+            "vi": "Buổi sáng tôi ăn cơm。",
+            "analysis": "吃 đứng trước món 米饭。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请给我一碗米饭。",
+            "vi": "Làm ơn cho tôi một bát cơm。",
+            "analysis": "一碗 là số lượng và lượng từ cho phần cơm。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "米 và 米饭",
+            "scene": "Hai từ cùng có 米 nên có thể bị dịch đều là cơm.",
+            "possibleConfusion": "Hai từ cùng có 米 nên có thể bị dịch đều là cơm.",
+            "difference": "米 thường chỉ gạo chưa nấu; 米饭 là cơm chín, thường gọi theo bát.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我买了两斤米。",
+                "vi": "Tôi mua một cân gạo。",
+                "comment": "米 là nguyên liệu được cân。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我买了两碗米饭。",
+                "vi": "Tôi mua hai bát cơm。",
+                "comment": "米饭 là cơm chín được phục vụ theo bát。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Chọn 米 khi nói gạo; chọn 米饭 khi nói cơm chín trong bữa."
+            },
+            "boundary": "Hỏi thứ đó được cân để nấu hay nằm trong bát để ăn.",
+            "tip": "米 là gạo; 米饭 là cơm chín。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "米 và 米饭",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "米 và 米饭"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 米饭, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 我早上吃米饭, 米饭 chỉ gạo sống hay cơm chín?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Phân biệt 米 với 米饭."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Cơm chín。"
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 米饭 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "米 là gạo/nguyên liệu; 米饭 là cơm đã nấu chín."
+            ],
+            "explanation": "米 là gạo; 米饭 là cơm chín。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Gọi một bát cơm ở quán."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn ăn cơm vào buổi sáng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 米饭 trong tình huống: gọi một bát cơm ở quán.",
+            "frame": "一碗 + 米饭；hoặc chủ thể + 吃 + 米饭。",
+            "model": "请给我一碗米饭。",
+            "vi": "Làm ơn cho tôi một bát cơm。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 米饭 trong tình huống: nói bạn ăn cơm vào buổi sáng.",
+            "frame": "一碗 + 米饭；hoặc chủ thể + 吃 + 米饭。",
+            "model": "我早上吃米饭。",
+            "vi": "Buổi sáng tôi ăn cơm。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-b72135eda0d1",
@@ -55030,18 +55345,173 @@
         }
       ],
       "meaning": "bánh mì",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
-          "zh": "早上我吃面包。",
-          "vi": "Buổi sáng tôi ăn bánh mì."
+          "id": "e1",
+          "zh": "我每天早上吃面包。",
+          "vi": "Sáng nào tôi cũng ăn bánh mì。",
+          "analysis": "每天早上 nêu thời gian; 吃面包 nêu món ăn。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "桌上有两块面包，你吃一块吧。",
+          "vi": "Trên bàn có hai miếng bánh mì, bạn ăn một miếng đi。",
+          "analysis": "两块/一块 đếm từng miếng。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 206,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E9%9D%A2%E5%8C%85"
+        ],
+        "cohortOrdinal": 219,
+        "introduction": {
+          "scope": "面包 là bánh mì nói chung, thường là bánh nướng dạng ổ, lát hoặc bánh nhỏ; không mặc định là bánh dài kiểu Việt Nam."
+        },
+        "meaning": {
+          "scene": "Bạn mua bánh mì và sữa cho bữa sáng. Bánh mì gọi là 面包.",
+          "explanation": "Dùng 吃面包, 买面包 hoặc 一块面包. Lượng từ tùy phần bánh hoặc cách đóng gói.",
+          "boundary": "面包 là bánh mì dạng bánh; 面条儿 là mì sợi. Chữ 面 cùng xuất hiện nhưng không biến hai món thành một.",
+          "conditions": [
+            "Nói ăn/mua: 吃/买 + 面包. Đếm miếng bánh: 一块面包; đếm ổ/gói thì gọi đúng đơn vị."
+          ],
+          "takeaway": "bánh mì. 面包 là bánh mì nói chung, thường là bánh nướng dạng ổ, lát hoặc bánh nhỏ; không mặc định là bánh dài kiểu Việt Nam."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ thể + 吃/买 + 面包；hoặc 一块 + 面包。",
+            "position": "面包 là danh từ, đứng sau động từ hoặc lượng từ.",
+            "required": "Đếm phần đã cắt thì dùng 块; chọn lượng từ theo phần thực tế.",
+            "omission": "Có thể chỉ nói 面包 nếu chủ đề món ăn đã rõ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我每天早上吃面包。",
+            "vi": "Sáng nào tôi cũng ăn bánh mì。",
+            "analysis": "每天早上 nêu thời gian; 吃面包 nêu món ăn。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "桌上有两块面包，你吃一块吧。",
+            "vi": "Trên bàn có hai miếng bánh mì, bạn ăn một miếng đi。",
+            "analysis": "两块/一块 đếm từng miếng。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "面包 và 面条儿",
+            "scene": "Cả hai là món từ bột mì nên người học có thể lẫn tên món.",
+            "possibleConfusion": "Cả hai là món từ bột mì nên người học có thể lẫn tên món.",
+            "difference": "面包 là bánh mì dạng bánh; 面条儿 là mì dạng sợi.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我想吃面包。",
+                "vi": "Tôi muốn ăn bánh mì。",
+                "comment": "面包 là bánh mì。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我想吃面条儿。",
+                "vi": "Tôi muốn ăn mì sợi。",
+                "comment": "面条儿 là mì sợi, không phải bánh mì。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Cùng làm từ bột nhưng hình dạng và tên món khác nhau."
+            },
+            "boundary": "Tưởng tượng bánh để cắn hay mì sợi trong bát.",
+            "tip": "面包 gọi bánh mì dạng bánh; 面条儿 gọi mì sợi。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "面包 và 面条儿",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "面包 và 面条儿"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 面包, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 我每天早上吃面包, từ nào gọi tên món?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "面包 và 面条儿 khác nhau thế nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "面包 là bánh mì。"
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 面包 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "面包 là bánh mì dạng bánh; 面条儿 là mì dạng sợi."
+            ],
+            "explanation": "面包 gọi bánh mì dạng bánh; 面条儿 gọi mì sợi。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn ăn bánh mì vào buổi sáng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Mời người khác ăn một miếng bánh trên bàn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 面包 trong tình huống: nói bạn ăn bánh mì vào buổi sáng.",
+            "frame": "Chủ thể + 吃/买 + 面包；hoặc 一块 + 面包。",
+            "model": "我早上吃面包。",
+            "vi": "Buổi sáng tôi ăn bánh mì。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 面包 trong tình huống: mời người khác ăn một miếng bánh trên bàn.",
+            "frame": "Chủ thể + 吃/买 + 面包；hoặc 一块 + 面包。",
+            "model": "请你吃一块面包。",
+            "vi": "Mời bạn ăn một miếng bánh mì。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-149f8169ab76",
@@ -55049,23 +55519,178 @@
       "hanzi": "面条儿",
       "intro": [
         {
-          "pinyin": "miàntiáor",
+          "pinyin": "miàn tiáor",
           "meaning": "mì sợi"
         }
       ],
       "meaning": "mì sợi",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
-          "zh": "这家店的面条儿很好吃。",
-          "vi": "Mì của cửa hàng này ngon."
+          "id": "e1",
+          "zh": "我中午想吃一碗面条儿。",
+          "vi": "Buổi trưa tôi muốn ăn một bát mì。",
+          "analysis": "一碗 đếm phần mì; 想吃 nêu mong muốn。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这家饭店的面条儿很好吃。",
+          "vi": "Mì của nhà hàng này rất ngon。",
+          "analysis": "饭店的 xác định nơi; 面条儿 là món được nhận xét。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 207,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E9%9D%A2%E6%9D%A1%E5%84%BF"
+        ],
+        "cohortOrdinal": 220,
+        "introduction": {
+          "scope": "面条儿 là mì làm thành sợi để nấu. 儿 ở cuối là hậu tố uốn lưỡi trong cách đọc từ này, không có nghĩa 'đứa trẻ'."
+        },
+        "meaning": {
+          "scene": "Bạn gọi một bát mì nóng trong quán. Sợi mì trong món đó là 面条儿.",
+          "explanation": "Dùng 一碗面条儿 để gọi một bát mì hoặc 吃面条儿 để nói ăn mì. Khẩu ngữ có thể rút gọn thành 吃面 khi món đã rõ.",
+          "boundary": "面条儿 là mì sợi; 面包 là bánh mì. 儿 gắn với cách phát âm, không phải danh từ riêng.",
+          "conditions": [
+            "Một phần mì trong bát: 一碗面条儿. Nói ăn mì: 吃面条儿; có thể rút gọn thành 吃面 khi ngữ cảnh rõ."
+          ],
+          "takeaway": "mì sợi. 面条儿 là mì làm thành sợi để nấu. 儿 ở cuối là hậu tố uốn lưỡi trong cách đọc từ này, không có nghĩa 'đứa trẻ'."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一碗 + 面条儿；hoặc chủ thể + 吃 + 面条儿。",
+            "position": "面条儿 là danh từ, đứng sau 碗 hoặc sau 吃.",
+            "required": "Khi gọi một bát mì, dùng lượng từ 碗.",
+            "omission": "Có thể rút gọn thành 面/吃面 nếu người nghe biết món đang nói.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我中午想吃一碗面条儿。",
+            "vi": "Buổi trưa tôi muốn ăn một bát mì。",
+            "analysis": "一碗 đếm phần mì; 想吃 nêu mong muốn。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这家饭店的面条儿很好吃。",
+            "vi": "Mì của nhà hàng này rất ngon。",
+            "analysis": "饭店的 xác định nơi; 面条儿 là món được nhận xét。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "面条儿 và 面包",
+            "scene": "Chữ 面 có trong cả hai từ nên dễ chọn nhầm tên món.",
+            "possibleConfusion": "Chữ 面 có trong cả hai từ nên dễ chọn nhầm tên món.",
+            "difference": "面条儿 là mì sợi; 面包 là bánh mì. 儿 cuối từ là phần đọc uốn lưỡi.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我点了一碗面条儿。",
+                "vi": "Tôi gọi một bát mì sợi。",
+                "comment": "一碗 hợp với món mì trong bát。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我买了一个面包。",
+                "vi": "Tôi mua một ổ bánh mì。",
+                "comment": "面包 là bánh mì, không phải mì sợi。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi từ sẽ đổi món ăn; lượng từ cũng tùy hình dạng/phần."
+            },
+            "boundary": "Nhớ mì sợi trong bát; bánh mì thường là ổ, lát hoặc miếng.",
+            "tip": "面条儿 là mì sợi; 儿 không có nghĩa 'con'。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "面条儿 và 面包",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "面条儿 và 面包"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 面条儿, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "一碗面条儿 nói bao nhiêu phần?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "儿 trong 面条儿 có nghĩa là gì?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Một bát/phần mì。"
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 面条儿 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "Là hậu tố uốn lưỡi, không có nghĩa 'đứa trẻ'."
+            ],
+            "explanation": "面条儿 là mì sợi; 儿 không có nghĩa 'con'。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Gọi một bát mì cho bữa trưa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói mì của một nhà hàng rất ngon."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 面条儿 trong tình huống: gọi một bát mì cho bữa trưa.",
+            "frame": "一碗 + 面条儿；hoặc chủ thể + 吃 + 面条儿。",
+            "model": "我中午想吃一碗面条儿。",
+            "vi": "Buổi trưa tôi muốn ăn một bát mì。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 面条儿 trong tình huống: nói mì của một nhà hàng rất ngon.",
+            "frame": "一碗 + 面条儿；hoặc chủ thể + 吃 + 面条儿。",
+            "model": "这家饭店的面条儿很好吃。",
+            "vi": "Mì của nhà hàng này rất ngon。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-841ce33f9484",
@@ -55074,17 +55699,177 @@
       "intro": [
         {
           "pinyin": "zhōng",
-          "meaning": "trong"
+          "meaning": "trong; ở giữa/phạm vi giữa"
         }
       ],
-      "meaning": "trong",
-      "status": "catalog",
+      "meaning": "trong; ở giữa/phạm vi giữa",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-019",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "开会中，请不要打电话。",
+          "vi": "Đang họp, xin đừng gọi điện。",
+          "analysis": "开会中 đặt hoạt động họp trước 中, như thông báo。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "在学习中，我认识了很多朋友。",
+          "vi": "Trong quá trình học, tôi quen được nhiều bạn。",
+          "analysis": "在……中 đặt quá trình học làm phạm vi。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 208,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E4%B8%AD"
+        ],
+        "cohortOrdinal": 221,
+        "introduction": {
+          "scope": "中 ở đây thường đứng sau danh từ chỉ hoạt động hoặc phạm vi, tạo nghĩa 'trong lúc/trong phạm vi'; không luôn thay được cho 里."
+        },
+        "meaning": {
+          "scene": "Bạn muốn nhắc đồng nghiệp không gọi điện trong lúc họp. Có thể viết 开会中请不要打电话.",
+          "explanation": "Danh từ/hoạt động + 中 thường gặp trong thông báo hoặc văn viết. Khẩu ngữ có thể dùng 正在开会; vị trí trong đồ vật thường dùng 里/里面.",
+          "boundary": "中 còn gặp trong 中间、中国、中文. Trong 在……中, từ trước 中 nêu phạm vi/quá trình; 里 thường chỉ bên trong một nơi cụ thể.",
+          "conditions": [
+            "Mẫu phạm vi: hoạt động + 中 hoặc 在 + phạm vi + 中. Nói vị trí trong hộp/phòng thường ngày, ưu tiên 里/里面."
+          ],
+          "takeaway": "trong; ở giữa/phạm vi giữa. 中 ở đây thường đứng sau danh từ chỉ hoạt động hoặc phạm vi, tạo nghĩa 'trong lúc/trong phạm vi'; không luôn thay được cho 里."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + hoạt động/phạm vi + 中；hoặc hoạt động + 中。",
+            "position": "中 đứng sau danh từ chỉ sự việc/phạm vi; 在 có thể đứng trước cả cụm.",
+            "required": "Cần nêu phạm vi trước 中 để rõ 'trong việc gì'.",
+            "omission": "Trong thông báo ngắn có thể lược 在 và chủ thể.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "开会中，请不要打电话。",
+            "vi": "Đang họp, xin đừng gọi điện。",
+            "analysis": "开会中 đặt hoạt động họp trước 中, như thông báo。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "在学习中，我认识了很多朋友。",
+            "vi": "Trong quá trình học, tôi quen được nhiều bạn。",
+            "analysis": "在……中 đặt quá trình học làm phạm vi。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "中 và 里",
+            "scene": "Cả hai có thể dịch là 'trong' nhưng vị trí và sắc thái khác nhau.",
+            "possibleConfusion": "Cả hai có thể dịch là 'trong' nhưng vị trí và sắc thái khác nhau.",
+            "difference": "里/里面 tự nhiên khi nói vị trí trong vật; 中 thường theo sau phạm vi hoặc hoạt động như 工作中.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "钥匙在包里。",
+                "vi": "Chìa khóa ở trong túi。",
+                "comment": "里 nêu vị trí cụ thể, tự nhiên trong khẩu ngữ。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "工作中请注意安全。",
+                "vi": "Trong lúc làm việc, xin chú ý an toàn。",
+                "comment": "中 theo sau 工作, hợp thông báo。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "context-needed",
+              "explanation": "Vị trí trong đồ vật thường dùng 里/里面; phạm vi/hoạt động thường dùng 中."
+            },
+            "boundary": "Hỏi câu nêu nơi chứa hay một quá trình/hoạt động.",
+            "tip": "中 ở cụm chỉ phạm vi không thay được mọi cách nói 里。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "中 và 里",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "中 và 里"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 中, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 工作中, 中 đứng sau từ nào và tạo nghĩa gì?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Khi nói chìa khóa ở trong túi, chọn 中 hay 里?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Đứng sau 工作, tạo nghĩa 'trong lúc làm việc'."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 中 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "里 tự nhiên hơn để nói vị trí bên trong túi."
+            ],
+            "explanation": "中 ở cụm chỉ phạm vi không thay được mọi cách nói 里。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Viết lời nhắc không gọi điện trong lúc họp."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể rằng trong quá trình học bạn quen nhiều bạn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 中 trong tình huống: viết lời nhắc không gọi điện trong lúc họp.",
+            "frame": "在 + hoạt động/phạm vi + 中；hoặc hoạt động + 中。",
+            "model": "开会中，请不要打电话。",
+            "vi": "Đang họp, xin đừng gọi điện。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 中 trong tình huống: kể rằng trong quá trình học bạn quen nhiều bạn.",
+            "frame": "在 + hoạt động/phạm vi + 中；hoặc hoạt động + 中。",
+            "model": "在学习中，我认识了很多朋友。",
+            "vi": "Trong quá trình học, tôi quen được nhiều bạn。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-eb1f33f896a4",
@@ -55097,18 +55882,181 @@
         }
       ],
       "meaning": "cũng",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
-          "zh": "我也喜欢这本书。",
-          "vi": "Tôi cũng thích quyển sách này."
+          "id": "e1",
+          "zh": "我喜欢米饭，我妹妹也喜欢。",
+          "vi": "Tôi thích cơm, em gái tôi cũng thích。",
+          "analysis": "也 đứng trước 喜欢; sở thích của em gái trùng với ý trước。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他今天不去，我也不去。",
+          "vi": "Hôm nay anh ấy không đi, tôi cũng không đi。",
+          "analysis": "也 đứng trước 不 để nói 'cũng không'。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 209,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E4%B9%9F"
+        ],
+        "cohortOrdinal": 222,
+        "introduction": {
+          "scope": "也 thêm một người, vật hoặc việc nữa có cùng đặc điểm/hành động với điều vừa nêu."
+        },
+        "meaning": {
+          "scene": "Bạn nói mình thích trà rồi muốn nói bạn mình cũng thích trà. Đặt 也 trước 喜欢.",
+          "explanation": "也 thường đứng sau chủ ngữ và trước động từ/tính từ. Trong câu 'cũng không', đặt 也 trước 不/没: 我也不去.",
+          "boundary": "也 nối ý mới với thông tin đã biết; thiếu điểm tựa, người nghe có thể hỏi 'cũng như ai/cái gì?'.",
+          "conditions": [
+            "Khẳng định: chủ ngữ + 也 + động từ/tính từ. Phủ định: chủ ngữ + 也 + 不/没 + động từ."
+          ],
+          "takeaway": "cũng. 也 thêm một người, vật hoặc việc nữa có cùng đặc điểm/hành động với điều vừa nêu."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ + 也 + động từ/tính từ；phủ định: chủ ngữ + 也 + 不/没 + động từ。",
+            "position": "也 thường sau chủ ngữ, trước vị ngữ; trong phủ định đứng trước 不/没.",
+            "required": "Cần một ý/người/việc khác để 也 nối vào.",
+            "omission": "Bỏ 也 nếu không muốn nhấn mạnh sự giống nhau.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我喜欢米饭，我妹妹也喜欢。",
+            "vi": "Tôi thích cơm, em gái tôi cũng thích。",
+            "analysis": "也 đứng trước 喜欢; sở thích của em gái trùng với ý trước。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他今天不去，我也不去。",
+            "vi": "Hôm nay anh ấy không đi, tôi cũng không đi。",
+            "analysis": "也 đứng trước 不 để nói 'cũng không'。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Vị trí của 也 trong câu phủ định",
+            "scene": "Người học có thể đặt 也 sau 不 theo thứ tự tiếng Việt.",
+            "possibleConfusion": "Người học có thể đặt 也 sau 不 theo thứ tự tiếng Việt.",
+            "difference": "Thứ tự thông dụng là chủ ngữ + 也 + 不/没 + động từ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我也不喝咖啡。",
+                "vi": "Tôi cũng không uống cà phê。",
+                "comment": "也 đứng trước 不。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我不也喝咖啡。",
+                "vi": "Tôi không cũng uống cà phê。",
+                "comment": "Thứ tự này không diễn đạt tự nhiên ý 'tôi cũng không uống'.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Dùng 我也不喝咖啡 để nói 'tôi cũng không uống'; không đặt 也 sau 不."
+            },
+            "boundary": "Nếu có 不/没, đưa 也 lên phía trước.",
+            "tip": "也 thường sau chủ ngữ, trước động từ hoặc 不/没。",
+            "corrections": [
+              {
+                "caseId": "c2",
+                "zh": "我也不喝咖啡。",
+                "vi": "Tôi cũng không uống cà phê。",
+                "reason": "Đặt 也 trước 不 để nói 'cũng không'; thứ tự tự nhiên là 我也不喝咖啡。"
+              }
+            ]
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Vị trí của 也 trong câu phủ định",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "Vị trí của 也 trong câu phủ định"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 也, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 他今天不去，我也不去, 也 đứng ở đâu so với 不?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Dùng khung nào để nói 'cũng không đi'?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "也 đứng trước 不."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 也 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "也不 + động từ: 也不去."
+            ],
+            "explanation": "也 thường sau chủ ngữ, trước động từ hoặc 不/没。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn cũng thích bánh mì sau khi người khác vừa nói họ thích."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hôm nay bạn cũng không ăn mì."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 也 trong tình huống: nói bạn cũng thích bánh mì sau khi người khác vừa nói họ thích.",
+            "frame": "Chủ ngữ + 也 + động từ/tính từ；phủ định: chủ ngữ + 也 + 不/没 + động từ。",
+            "model": "我也喜欢面包。",
+            "vi": "Tôi cũng thích bánh mì。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 也 trong tình huống: nói hôm nay bạn cũng không ăn mì.",
+            "frame": "Chủ ngữ + 也 + động từ/tính từ；phủ định: chủ ngữ + 也 + 不/没 + động từ。",
+            "model": "我今天也不吃面条儿。",
+            "vi": "Hôm nay tôi cũng không ăn mì。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-5898d1c66720",
@@ -55117,22 +56065,177 @@
       "intro": [
         {
           "pinyin": "liù",
-          "meaning": "sáu"
+          "meaning": "sáu; số 6"
         }
       ],
-      "meaning": "sáu",
-      "status": "example",
+      "meaning": "sáu; số 6",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
-          "zh": "现在六点。",
-          "vi": "Bây giờ là sáu giờ."
+          "id": "e1",
+          "zh": "桌上有六个苹果。",
+          "vi": "Trên bàn có sáu quả táo。",
+          "analysis": "六 đứng trước 个 để đếm 苹果。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "会议在六点开始。",
+          "vi": "Cuộc họp bắt đầu lúc sáu giờ。",
+          "analysis": "六点 nêu giờ bắt đầu。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 210,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E5%85%AD"
+        ],
+        "cohortOrdinal": 223,
+        "introduction": {
+          "scope": "六 là số đếm 6; đứng trước lượng từ để đếm hoặc trước 点 để nói giờ."
+        },
+        "meaning": {
+          "scene": "Bạn đếm sáu quả táo hoặc nói bây giờ là sáu giờ. Cả hai đều dùng 六.",
+          "explanation": "Mẫu đếm: 六 + lượng từ + danh từ; nói giờ: 六点. Thêm 第 trước 六 để nói thứ tự thứ sáu.",
+          "boundary": "六 chỉ số lượng; 第六 chỉ vị trí trong thứ tự. Không thêm 第 khi chỉ đếm sáu vật.",
+          "conditions": [
+            "Đếm: 六 + lượng từ + danh từ. Giờ: 六点. Thứ tự: 第六 + danh từ."
+          ],
+          "takeaway": "sáu; số 6. 六 là số đếm 6; đứng trước lượng từ để đếm hoặc trước 点 để nói giờ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "六 + lượng từ + danh từ；六点；thứ tự: 第六 + danh từ。",
+            "position": "六 đứng trước lượng từ hoặc 点; 第 đứng trước 六 khi nói thứ tự.",
+            "required": "Khi đếm danh từ, dùng lượng từ phù hợp như 个.",
+            "omission": "Có thể chỉ trả lời 六 nếu câu hỏi đã nêu rõ đang hỏi số lượng nào.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "桌上有六个苹果。",
+            "vi": "Trên bàn có sáu quả táo。",
+            "analysis": "六 đứng trước 个 để đếm 苹果。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "会议在六点开始。",
+            "vi": "Cuộc họp bắt đầu lúc sáu giờ。",
+            "analysis": "六点 nêu giờ bắt đầu。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "六 và 第六",
+            "scene": "Thêm 第 làm ý đổi từ số lượng sang thứ tự.",
+            "possibleConfusion": "Thêm 第 làm ý đổi từ số lượng sang thứ tự.",
+            "difference": "六 đếm sáu; 第六 xếp người/vật ở vị trí thứ sáu.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们班有六个学生。",
+                "vi": "Lớp chúng tôi có sáu học sinh。",
+                "comment": "六个 nêu tổng số học sinh。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他是第六个到的。",
+                "vi": "Anh ấy là người đến thứ sáu。",
+                "comment": "第六个 nêu thứ tự đến。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Dùng 六个 khi hỏi tổng số; 第六个 khi hỏi người/vật thứ mấy."
+            },
+            "boundary": "Hỏi câu đang đếm tổng hay xếp thứ tự.",
+            "tip": "第 đứng trước 六 để đánh dấu thứ tự。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "六 và 第六",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "六 và 第六"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 六, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "六点 là sáu người hay sáu giờ?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Phân biệt 六个学生 với 第六个学生."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Sáu giờ."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 六 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "六个学生 là sáu học sinh; 第六个学生 là học sinh thứ sáu."
+            ],
+            "explanation": "第 đứng trước 六 để đánh dấu thứ tự。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn có sáu quyển sách."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn ngồi ở vị trí thứ sáu."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 六 trong tình huống: nói bạn có sáu quyển sách.",
+            "frame": "六 + lượng từ + danh từ；六点；thứ tự: 第六 + danh từ。",
+            "model": "我有六本书。",
+            "vi": "Tôi có sáu quyển sách。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 六 trong tình huống: nói bạn ngồi ở vị trí thứ sáu.",
+            "frame": "六 + lượng từ + danh từ；六点；thứ tự: 第六 + danh từ。",
+            "model": "我坐在第六个座位。",
+            "vi": "Tôi ngồi ở chỗ thứ sáu。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-0c15dcf815cf",
@@ -55141,17 +56244,177 @@
       "intro": [
         {
           "pinyin": "chū",
-          "meaning": "ra"
+          "meaning": "ra; đi ra/đưa ra"
         }
       ],
-      "meaning": "ra",
-      "status": "catalog",
+      "meaning": "ra; đi ra/đưa ra",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-019",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我现在要出门。",
+          "vi": "Bây giờ tôi phải ra khỏi nhà。",
+          "analysis": "出门 là cụm nói rời khỏi nhà。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请把书拿出来。",
+          "vi": "Làm ơn lấy quyển sách ra đây。",
+          "analysis": "拿出来 đưa sách về phía người nói。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 211,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E5%87%BA"
+        ],
+        "cohortOrdinal": 224,
+        "introduction": {
+          "scope": "出 diễn tả hướng ra ngoài hoặc kết hợp với 来/去; sau động từ, nó cũng có thể chỉ kết quả xuất hiện/nhận ra."
+        },
+        "meaning": {
+          "scene": "Bạn trong phòng nhờ người khác mang sách ra chỗ mình. 拿出来 diễn tả lấy ra về phía điểm nhìn.",
+          "explanation": "出门 là rời nhà; 出来 hướng ra về phía người nói/điểm nhìn; 出去 hướng ra xa điểm đó.",
+          "boundary": "出 không luôn có cùng nghĩa 'ra ngoài': 看出来 có thể là nhận ra; 来/去 xác định hướng.",
+          "conditions": [
+            "Động từ + 出来/出去 nêu hướng. 出门 là rời nhà; nghĩa khác tùy từ ghép."
+          ],
+          "takeaway": "ra; đi ra/đưa ra. 出 diễn tả hướng ra ngoài hoặc kết hợp với 来/去; sau động từ, nó cũng có thể chỉ kết quả xuất hiện/nhận ra."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ thể + 出门/出去/出来；hoặc động từ + 出来/出去。",
+            "position": "出 có thể đứng trong 出门 hoặc trước 来/去.",
+            "required": "Chọn 来 nếu vật/người hướng về điểm nhìn, 去 nếu rời xa.",
+            "omission": "Có thể bỏ nơi bắt đầu khi người nghe đã biết người/vật ở đâu.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我现在要出门。",
+            "vi": "Bây giờ tôi phải ra khỏi nhà。",
+            "analysis": "出门 là cụm nói rời khỏi nhà。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请把书拿出来。",
+            "vi": "Làm ơn lấy quyển sách ra đây。",
+            "analysis": "拿出来 đưa sách về phía người nói。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "出来 và 出去",
+            "scene": "Cả hai đều có 出 nên dễ chỉ dịch là 'mang ra'.",
+            "possibleConfusion": "Cả hai đều có 出 nên dễ chỉ dịch là 'mang ra'.",
+            "difference": "来 hướng về phía người nói/điểm nhìn; 去 hướng rời xa điểm đó.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请把书拿出来。",
+                "vi": "Làm ơn mang sách ra đây。",
+                "comment": "Sách được đưa về phía người nói。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "请把书拿出去。",
+                "vi": "Làm ơn mang sách ra ngoài đó。",
+                "comment": "Sách được đưa rời khỏi chỗ người nói。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Hai câu đều đúng; 来/去 cho hướng di chuyển khác nhau."
+            },
+            "boundary": "Xác định vật về phía người nói hay rời xa người nói.",
+            "tip": "来 hướng về điểm nhìn; 去 hướng ra xa。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "出来 và 出去",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "出来 và 出去"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 出, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 请把书拿出来, sách được đưa về phía ai?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Phân biệt 出来 và 出去."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Về phía người nói/điểm nhìn."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 出 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "出来 hướng về điểm nhìn; 出去 hướng rời xa điểm nhìn."
+            ],
+            "explanation": "来 hướng về điểm nhìn; 去 hướng ra xa。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhờ bạn cùng phòng mang giày từ trong phòng ra chỗ bạn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn sắp ra khỏi nhà để đi làm."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 出 trong tình huống: nhờ bạn cùng phòng mang giày từ trong phòng ra chỗ bạn.",
+            "frame": "Chủ thể + 出门/出去/出来；hoặc động từ + 出来/出去。",
+            "model": "请把鞋拿出来。",
+            "vi": "Làm ơn mang giày ra đây。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 出 trong tình huống: nói bạn sắp ra khỏi nhà để đi làm.",
+            "frame": "Chủ thể + 出门/出去/出来；hoặc động từ + 出来/出去。",
+            "model": "我现在要出门去上班。",
+            "vi": "Bây giờ tôi ra khỏi nhà để đi làm。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-8e986c871691",
@@ -55160,22 +56423,177 @@
       "intro": [
         {
           "pinyin": "guó",
-          "meaning": "nước"
+          "meaning": "nước; quốc gia (thường dùng trong từ ghép)"
         }
       ],
-      "meaning": "nước",
-      "status": "example",
+      "meaning": "nước; quốc gia (thường dùng trong từ ghép)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
+          "id": "e1",
           "zh": "你是哪国人？",
-          "vi": "Bạn là người nước nào?"
+          "vi": "Bạn là người nước nào？",
+          "analysis": "哪国人 hỏi quốc gia của người。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这是一个很大的国家。",
+          "vi": "Đây là một quốc gia rất rộng lớn。",
+          "analysis": "国家 là danh từ độc lập sau 一个。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 212,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E5%9B%BD"
+        ],
+        "cohortOrdinal": 225,
+        "introduction": {
+          "scope": "国 mang nghĩa nước/quốc gia nhưng thường ghép thành 中国、外国、国家 hoặc 哪国人; ít dùng một mình như danh từ thường ngày."
+        },
+        "meaning": {
+          "scene": "Bạn hỏi người mới quen thuộc nước nào. Dùng 你是哪国人？",
+          "explanation": "哪国人 là cách hỏi người nước nào; 国家 là danh từ đầy đủ 'quốc gia'. Tên nước thường là từ ghép như 中国、美国.",
+          "boundary": "Không dịch riêng 国 rồi đặt ở mọi vị trí. Khi cần danh từ quốc gia độc lập, 国家 tự nhiên hơn; 哪国人 là cụm hỏi người thuộc nước nào.",
+          "conditions": [
+            "哪国人: 哪 + 国 + 人. Danh từ 'một quốc gia': 一个国家; tên nước dùng tên riêng."
+          ],
+          "takeaway": "nước; quốc gia (thường dùng trong từ ghép). 国 mang nghĩa nước/quốc gia nhưng thường ghép thành 中国、外国、国家 hoặc 哪国人; ít dùng một mình như danh từ thường ngày."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "哪 + 国 + 人；hoặc 一个 + 国家。",
+            "position": "国 kết hợp trong 哪国人/外国/中国; 国家 đứng như danh từ.",
+            "required": "Hỏi người thuộc nước nào dùng 哪国人; danh từ 'một quốc gia' dùng 国家.",
+            "omission": "Có thể rút gọn 哪国 khi ngữ cảnh rõ; mẫu đầy đủ cho người mới là 哪国人.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你是哪国人？",
+            "vi": "Bạn là người nước nào？",
+            "analysis": "哪国人 hỏi quốc gia của người。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这是一个很大的国家。",
+            "vi": "Đây là một quốc gia rất rộng lớn。",
+            "analysis": "国家 là danh từ độc lập sau 一个。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "国 và 国家",
+            "scene": "Hai dạng liên quan nghĩa nhưng khác khả năng đứng riêng trong câu.",
+            "possibleConfusion": "Hai dạng liên quan nghĩa nhưng khác khả năng đứng riêng trong câu.",
+            "difference": "国家 là danh từ đầy đủ sau lượng từ; 国 thường nằm trong từ ghép như 哪国人、外国.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "中国是一个国家。",
+                "vi": "Trung Quốc là một quốc gia。",
+                "comment": "国家 là danh từ độc lập。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你是哪国人？",
+                "vi": "Bạn là người nước nào？",
+                "comment": "哪国人 là cụm hỏi quốc gia của người。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Dùng 国家 cho danh từ quốc gia; dùng 国 trong từ ghép quen thuộc."
+            },
+            "boundary": "Kiểm tra 国 nằm trong từ ghép hay câu cần danh từ độc lập.",
+            "tip": "国 thường kết hợp thành từ; 国家 đứng độc lập。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "国 và 国家",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "国 và 国家"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 国, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 你是哪国人, 哪国人 hỏi điều gì?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Khi muốn nói 'một quốc gia', dùng 国 hay 国家?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Hỏi người đó là người nước nào."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 国 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "Dùng 一个国家."
+            ],
+            "explanation": "国 thường kết hợp thành từ; 国家 đứng độc lập。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi một người bạn mới quen là người nước nào."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói Trung Quốc là một quốc gia lớn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 国 trong tình huống: hỏi một người bạn mới quen là người nước nào.",
+            "frame": "哪 + 国 + 人；hoặc 一个 + 国家。",
+            "model": "你是哪国人？",
+            "vi": "Bạn là người nước nào？",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 国 trong tình huống: nói trung quốc là một quốc gia lớn.",
+            "frame": "哪 + 国 + 人；hoặc 一个 + 国家。",
+            "model": "中国是一个很大的国家。",
+            "vi": "Trung Quốc là một quốc gia rất rộng lớn。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-3e6119df005f",
@@ -55184,22 +56602,177 @@
       "intro": [
         {
           "pinyin": "wài",
-          "meaning": "ngoài"
+          "meaning": "ngoài; bên ngoài"
         }
       ],
-      "meaning": "ngoài",
-      "status": "example",
+      "meaning": "ngoài; bên ngoài",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
-          "zh": "门外有人。",
-          "vi": "Bên ngoài cửa có người."
+          "id": "e1",
+          "zh": "门外有人在等你。",
+          "vi": "Ngoài cửa có người đang đợi bạn。",
+          "analysis": "门外 nêu vị trí ngoài cửa。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我想去外国看看。",
+          "vi": "Tôi muốn đi thăm một nước khác。",
+          "analysis": "外国 nói nước ngoài, không phải ngoài căn phòng。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 213,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E5%A4%96"
+        ],
+        "cohortOrdinal": 226,
+        "introduction": {
+          "scope": "外 chỉ phía ngoài một ranh giới hoặc nằm trong từ ghép như 外国; nghĩa cụ thể tùy từ đi cùng."
+        },
+        "meaning": {
+          "scene": "Bạn đứng trong nhà và thấy có người đợi ngoài cửa. Nói 门外有人.",
+          "explanation": "Địa điểm + 外 tạo cụm vị trí như 门外、屋外; 外面 gọi khu vực ngoài. Trong 外国, 外 chỉ nước ngoài chứ không phải ngoài căn phòng.",
+          "boundary": "门外 nói vị trí ngoài cửa; 外国 chỉ nước ngoài. Đừng hiểu mọi chữ 外 theo một nghĩa duy nhất.",
+          "conditions": [
+            "Nơi chốn + 外/外面 chỉ vị trí. 外国 là từ ghép chỉ nước ngoài."
+          ],
+          "takeaway": "ngoài; bên ngoài. 外 chỉ phía ngoài một ranh giới hoặc nằm trong từ ghép như 外国; nghĩa cụ thể tùy từ đi cùng."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Địa điểm + 外/外面；hoặc 外 + 国 → 外国。",
+            "position": "外 đứng sau địa điểm trong cụm vị trí; đứng trước 国 trong 外国.",
+            "required": "Nêu ranh giới để biết phía ngoài nơi nào; dùng 外国 khi nói nước ngoài.",
+            "omission": "Có thể bỏ 面 trong 门外 nếu ngữ cảnh rõ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "门外有人在等你。",
+            "vi": "Ngoài cửa có người đang đợi bạn。",
+            "analysis": "门外 nêu vị trí ngoài cửa。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我想去外国看看。",
+            "vi": "Tôi muốn đi thăm một nước khác。",
+            "analysis": "外国 nói nước ngoài, không phải ngoài căn phòng。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "外 và 外国",
+            "scene": "Hai cách dùng cùng chữ 外 nhưng một cụm chỉ chỗ, một cụm chỉ nước.",
+            "possibleConfusion": "Hai cách dùng cùng chữ 外 nhưng một cụm chỉ chỗ, một cụm chỉ nước.",
+            "difference": "Địa điểm + 外 nói vị trí phía ngoài; 外国 là danh từ chỉ nước ngoài.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "孩子在屋外玩。",
+                "vi": "Đứa trẻ đang chơi ngoài nhà。",
+                "comment": "屋外 là vị trí ngoài ngôi nhà。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他想去外国工作。",
+                "vi": "Anh ấy muốn đi nước ngoài làm việc。",
+                "comment": "外国 nói về một nước khác。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Địa điểm + 外 là nơi chốn; 外国 chỉ nước ngoài."
+            },
+            "boundary": "Nếu sau 外 là địa điểm hay 国 thì nghĩa đổi ra sao?",
+            "tip": "Ngoài cửa là 门外; nước ngoài là 外国。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "外 và 外国",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "外 và 外国"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 外, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "门外 nói phía ngoài cái gì?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Phân biệt 屋外 với 外国."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Phía ngoài cửa."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 外 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "屋外 là ngoài nhà; 外国 là nước ngoài."
+            ],
+            "explanation": "Ngoài cửa là 门外; nước ngoài là 外国。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói ngoài cửa có người đang đợi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn muốn đi nước ngoài du lịch."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 外 trong tình huống: nói ngoài cửa có người đang đợi.",
+            "frame": "Địa điểm + 外/外面；hoặc 外 + 国 → 外国。",
+            "model": "门外有人在等。",
+            "vi": "Ngoài cửa có người đang đợi。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 外 trong tình huống: nói bạn muốn đi nước ngoài du lịch.",
+            "frame": "Địa điểm + 外/外面；hoặc 外 + 国 → 外国。",
+            "model": "我想去外国旅游。",
+            "vi": "Tôi muốn đi nước ngoài du lịch。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-18129ffcdff8",
@@ -55208,22 +56781,177 @@
       "intro": [
         {
           "pinyin": "nǚ",
-          "meaning": "nữ"
+          "meaning": "nữ; người nữ (thường là thành tố từ ghép)"
         }
       ],
-      "meaning": "nữ",
-      "status": "example",
+      "meaning": "nữ; người nữ (thường là thành tố từ ghép)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
-          "zh": "她是女医生。",
-          "vi": "Cô ấy là bác sĩ nữ."
+          "id": "e1",
+          "zh": "她是一位女医生。",
+          "vi": "Cô ấy là một bác sĩ nữ。",
+          "analysis": "女 đứng trước 医生 để mô tả giới tính。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我女儿在学校学习。",
+          "vi": "Con gái tôi đang học ở trường。",
+          "analysis": "女儿 là danh từ chỉ con gái trong gia đình。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 214,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E5%A5%B3"
+        ],
+        "cohortOrdinal": 227,
+        "introduction": {
+          "scope": "女 chỉ nữ hoặc thuộc về nữ, thường đứng trước danh từ như 女医生; 女儿 là từ riêng nghĩa con gái."
+        },
+        "meaning": {
+          "scene": "Bạn giới thiệu bác sĩ trong phòng khám là nữ. Nói 女医生.",
+          "explanation": "女 + nghề/nhóm mô tả người nữ trong nhóm đó. Muốn nói con gái trong gia đình, dùng cả từ 女儿.",
+          "boundary": "女 là thành tố chỉ giới tính trong nhiều từ ghép; 女儿 là danh từ gia đình. Chỉ thêm giới tính khi liên quan đến ý muốn nói.",
+          "conditions": [
+            "Mô tả nghề/nhóm: 女 + danh từ. Quan hệ con gái: 女儿; không tách 女 làm từ chỉ con."
+          ],
+          "takeaway": "nữ; người nữ (thường là thành tố từ ghép). 女 chỉ nữ hoặc thuộc về nữ, thường đứng trước danh từ như 女医生; 女儿 là từ riêng nghĩa con gái."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "女 + nghề/nhóm người；hoặc 女儿 + vị ngữ。",
+            "position": "女 đứng trước danh từ được mô tả; 女儿 dùng như danh từ.",
+            "required": "Dùng cả 女儿 khi nói quan hệ cha mẹ-con; 女 + nghề khi muốn nêu giới tính.",
+            "omission": "Có thể bỏ 女 nếu giới tính không liên quan; nói nghề nghiệp thôi.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她是一位女医生。",
+            "vi": "Cô ấy là một bác sĩ nữ。",
+            "analysis": "女 đứng trước 医生 để mô tả giới tính。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我女儿在学校学习。",
+            "vi": "Con gái tôi đang học ở trường。",
+            "analysis": "女儿 là danh từ chỉ con gái trong gia đình。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "女 và 女儿",
+            "scene": "Cùng có 女 nên dễ tưởng hai từ đều chỉ một người con gái.",
+            "possibleConfusion": "Cùng có 女 nên dễ tưởng hai từ đều chỉ một người con gái.",
+            "difference": "女 mô tả giới tính; 女儿 là từ hoàn chỉnh chỉ con gái trong gia đình.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她是女学生。",
+                "vi": "Cô ấy là học sinh nữ。",
+                "comment": "女 mô tả nhóm học sinh。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "她是我女儿。",
+                "vi": "Cô ấy là con gái tôi。",
+                "comment": "女儿 chỉ quan hệ con cái。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Không dùng riêng 女 thay 女儿 khi nói quan hệ cha mẹ-con."
+            },
+            "boundary": "Câu đang nói giới tính nghề/nhóm hay quan hệ gia đình?",
+            "tip": "女 mô tả giới tính; 女儿 chỉ con gái trong gia đình。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "女 và 女儿",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "女 và 女儿"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 女, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 她是一位女医生, 女 bổ nghĩa cho từ nào?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Dùng 女 hay 女儿 để nói 'con gái tôi'?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Bổ nghĩa cho 医生."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 女 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "Dùng 女儿: 我女儿."
+            ],
+            "explanation": "女 mô tả giới tính; 女儿 chỉ con gái trong gia đình。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Giới thiệu một nữ bác sĩ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói con gái bạn đang học ở trường."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 女 trong tình huống: giới thiệu một nữ bác sĩ.",
+            "frame": "女 + nghề/nhóm người；hoặc 女儿 + vị ngữ。",
+            "model": "她是一位女医生。",
+            "vi": "Cô ấy là một bác sĩ nữ。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 女 trong tình huống: nói con gái bạn đang học ở trường.",
+            "frame": "女 + nghề/nhóm người；hoặc 女儿 + vị ngữ。",
+            "model": "我女儿在学校学习。",
+            "vi": "Con gái tôi đang học ở trường。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-c401e722a02f",
@@ -55236,18 +56964,173 @@
         }
       ],
       "meaning": "mới",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
+          "id": "e1",
           "zh": "这是我的新手机。",
-          "vi": "Đây là điện thoại mới của tôi."
+          "vi": "Đây là điện thoại mới của tôi。",
+          "analysis": "新 đứng trước 手机 để miêu tả điện thoại。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这件衣服太旧了，我想买新的。",
+          "vi": "Bộ quần áo này cũ quá, tôi muốn mua cái mới。",
+          "analysis": "新的 thay cho 衣服 đã nhắc trước đó。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 215,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E6%96%B0"
+        ],
+        "cohortOrdinal": 228,
+        "introduction": {
+          "scope": "新 mô tả vật mới, vừa có/đưa vào dùng hoặc việc vừa bắt đầu; thường đứng trước danh từ."
+        },
+        "meaning": {
+          "scene": "Bạn vừa mua điện thoại khác và giới thiệu đó là điện thoại mới. Nói 新手机.",
+          "explanation": "Đặt 新 trước danh từ: 新手机. Khi danh từ đã rõ và được lược, thêm 的 thành 新的, nghĩa là 'cái mới'.",
+          "boundary": "新手机 gọi tên vật; 新的 có thể thay danh từ đã nhắc. 新 còn có thể nằm trong cụm chỉ việc mới bắt đầu.",
+          "conditions": [
+            "Có danh từ: 新 + danh từ. Lược danh từ đã rõ: 新的."
+          ],
+          "takeaway": "mới. 新 mô tả vật mới, vừa có/đưa vào dùng hoặc việc vừa bắt đầu; thường đứng trước danh từ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "新 + danh từ；hoặc 新的 + (danh từ đã rõ)。",
+            "position": "新 đứng trước danh từ; 新的 có thể đứng riêng thay danh từ.",
+            "required": "Nếu bỏ danh từ, dùng 新的 khi người nghe biết vật nào đang nói đến.",
+            "omission": "Có thể bỏ danh từ sau 新的 khi đối tượng đã rõ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这是我的新手机。",
+            "vi": "Đây là điện thoại mới của tôi。",
+            "analysis": "新 đứng trước 手机 để miêu tả điện thoại。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这件衣服太旧了，我想买新的。",
+            "vi": "Bộ quần áo này cũ quá, tôi muốn mua cái mới。",
+            "analysis": "新的 thay cho 衣服 đã nhắc trước đó。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "新手机 và 新的",
+            "scene": "Tiếng Việt có thể lược danh từ, khiến người học quên cách đánh dấu cụm tính từ.",
+            "possibleConfusion": "Tiếng Việt có thể lược danh từ, khiến người học quên cách đánh dấu cụm tính từ.",
+            "difference": "Có danh từ: 新手机; lược danh từ đã biết: 新的.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我买了一部新手机。",
+                "vi": "Tôi mua một chiếc điện thoại mới。",
+                "comment": "手机 đứng sau 新。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "旧的我不要，我要新的。",
+                "vi": "Cái cũ thì tôi không lấy, tôi muốn cái mới。",
+                "comment": "旧的/新的 thay cho danh từ đã rõ。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "context-needed",
+              "explanation": "新手机 gọi tên vật; 新的 đứng thay danh từ khi danh từ đã rõ."
+            },
+            "boundary": "Kiểm tra danh từ có xuất hiện không và người nghe biết vật nào chưa.",
+            "tip": "新 đứng trước danh từ; 新的 có thể thay danh từ đã rõ。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "新手机 và 新的",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "新手机 và 新的"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 新, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 这是我的新手机, 新 đứng ở vị trí nào?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Vì sao câu 我想买新的 có 的?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Đứng trước danh từ 手机."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 新 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "新的 thay cho danh từ đã rõ trong ngữ cảnh."
+            ],
+            "explanation": "新 đứng trước danh từ; 新的 có thể thay danh từ đã rõ。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn vừa mua điện thoại mới."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn muốn mua chiếc áo mới thay cho chiếc áo cũ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 新 trong tình huống: nói bạn vừa mua điện thoại mới.",
+            "frame": "新 + danh từ；hoặc 新的 + (danh từ đã rõ)。",
+            "model": "我买了一部新手机。",
+            "vi": "Tôi mua một chiếc điện thoại mới。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 新 trong tình huống: nói bạn muốn mua chiếc áo mới thay cho chiếc áo cũ.",
+            "frame": "新 + danh từ；hoặc 新的 + (danh từ đã rõ)。",
+            "model": "这件衣服旧了，我想买新的。",
+            "vi": "Bộ quần áo này cũ rồi, tôi muốn mua cái mới。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-a1a6a2db6ffa",
@@ -55256,17 +57139,177 @@
       "intro": [
         {
           "pinyin": "bǐ",
-          "meaning": "so với"
+          "meaning": "so với; dùng để so sánh"
         }
       ],
-      "meaning": "so với",
-      "status": "catalog",
+      "meaning": "so với; dùng để so sánh",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-019",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "今天比昨天暖和。",
+          "vi": "Hôm nay ấm hơn hôm qua。",
+          "analysis": "今天 là bên được nhận xét; 昨天 là mốc。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "妹妹比我高三厘米。",
+          "vi": "Em gái cao hơn tôi ba xen-ti-mét。",
+          "analysis": "高 nêu đặc điểm; 三厘米 nêu độ chênh。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 216,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E6%AF%94"
+        ],
+        "cohortOrdinal": 229,
+        "introduction": {
+          "scope": "Trong mẫu cơ bản, 比 nối hai đối tượng để nói đặc điểm của đối tượng đứng trước cao hơn đối tượng làm mốc."
+        },
+        "meaning": {
+          "scene": "Bạn so sánh hôm nay với hôm qua và muốn nói hôm nay ấm hơn. Nói 今天比昨天暖和.",
+          "explanation": "Khung A 比 B + tính từ. A là bên được nhận xét; B là mốc. Có thể thêm mức chênh lệch sau tính từ.",
+          "boundary": "Đổi A và B sẽ đổi chiều so sánh. Trong mẫu cơ bản không đặt 很 ngay sau 比; nói 今天比昨天暖和.",
+          "conditions": [
+            "Đối tượng được đánh giá đứng trước 比; mốc đứng sau; tính từ theo sau B. Mức chênh có thể đặt sau tính từ."
+          ],
+          "takeaway": "so với; dùng để so sánh. Trong mẫu cơ bản, 比 nối hai đối tượng để nói đặc điểm của đối tượng đứng trước cao hơn đối tượng làm mốc."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "A + 比 + B + tính từ (+ mức chênh lệch)。",
+            "position": "Bên được nhận xét đứng trước 比; mốc đứng sau 比.",
+            "required": "Cần hai đối tượng so sánh; xếp đúng bên được nhận xét trước 比.",
+            "omission": "Có thể bỏ mốc nếu đã rõ, nhưng giữ đủ giúp tránh mơ hồ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "今天比昨天暖和。",
+            "vi": "Hôm nay ấm hơn hôm qua。",
+            "analysis": "今天 là bên được nhận xét; 昨天 là mốc。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "妹妹比我高三厘米。",
+            "vi": "Em gái cao hơn tôi ba xen-ti-mét。",
+            "analysis": "高 nêu đặc điểm; 三厘米 nêu độ chênh。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Đảo hai vế của 比",
+            "scene": "Có thể nhớ đúng từ nhưng đặt nhầm đối tượng trước/sau 比, làm kết luận ngược.",
+            "possibleConfusion": "Có thể nhớ đúng từ nhưng đặt nhầm đối tượng trước/sau 比, làm kết luận ngược.",
+            "difference": "Bên trước 比 được nói là hơn; bên sau là mốc so sánh.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "弟弟比姐姐高。",
+                "vi": "Em trai cao hơn chị gái。",
+                "comment": "弟弟 là bên cao hơn。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "姐姐比弟弟高。",
+                "vi": "Chị gái cao hơn em trai。",
+                "comment": "Đổi thứ tự nên kết luận ngược lại。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Cả hai câu đúng ngữ pháp nhưng nói hai kết quả ngược nhau."
+            },
+            "boundary": "Xác định bên nào hơn trước, rồi đặt bên đó trước 比.",
+            "tip": "Trong A比B, A là bên được nói là hơn。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đảo hai vế của 比",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "Đảo hai vế của 比"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 比, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 今天比昨天暖和, ngày nào ấm hơn?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nếu nói 昨天比今天暖和 thì ý có đổi không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "今天, tức hôm nay."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 比 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "Có; câu đó nói hôm qua ấm hơn hôm nay."
+            ],
+            "explanation": "Trong A比B, A là bên được nói là hơn。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói hôm nay bận hơn hôm qua."
+          },
+          {
+            "id": "s2",
+            "prompt": "So sánh giá hai món ăn, nói món nào đắt hơn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 比 trong tình huống: nói hôm nay bận hơn hôm qua.",
+            "frame": "A + 比 + B + tính từ (+ mức chênh lệch)。",
+            "model": "今天比昨天忙。",
+            "vi": "Hôm nay bận hơn hôm qua。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 比 trong tình huống: so sánh giá hai món ăn, nói món nào đắt hơn.",
+            "frame": "A + 比 + B + tính từ (+ mức chênh lệch)。",
+            "model": "这碗面比那碗面贵。",
+            "vi": "Bát mì này đắt hơn bát mì kia。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-97fb9103857c",
@@ -55275,22 +57318,177 @@
       "intro": [
         {
           "pinyin": "nán",
-          "meaning": "nam"
+          "meaning": "nam; người nam (thường là thành tố từ ghép)"
         }
       ],
-      "meaning": "nam",
-      "status": "example",
+      "meaning": "nam; người nam (thường là thành tố từ ghép)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
+          "id": "e1",
           "zh": "我们班有十个男学生。",
-          "vi": "Lớp chúng tôi có mười học sinh nam."
+          "vi": "Lớp chúng tôi có mười học sinh nam。",
+          "analysis": "男 đứng trước 学生 để mô tả nhóm。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "她的男朋友在日本工作。",
+          "vi": "Bạn trai của cô ấy làm việc ở Nhật。",
+          "analysis": "男朋友 là từ hoàn chỉnh chỉ bạn trai。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 217,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E7%94%B7"
+        ],
+        "cohortOrdinal": 230,
+        "introduction": {
+          "scope": "男 chỉ nam hoặc thuộc về nam, thường đứng trước danh từ nghề/nhóm; 男朋友 là từ ghép nghĩa bạn trai."
+        },
+        "meaning": {
+          "scene": "Bạn nói trong lớp có học sinh nam. Dùng 男学生.",
+          "explanation": "男 + nghề/nhóm mô tả giới tính: 男学生、男老师. Muốn nói bạn trai dùng đủ 男朋友; con trai trong gia đình thường là 儿子.",
+          "boundary": "男 là thành tố chỉ nam; 男孩 là bé trai, 男朋友 là bạn trai, 儿子 là con trai. Chọn từ theo quan hệ/thông tin cần nêu.",
+          "conditions": [
+            "Mô tả nghề/nhóm: 男 + danh từ. Quan hệ bạn trai: 男朋友; con trai trong gia đình: 儿子."
+          ],
+          "takeaway": "nam; người nam (thường là thành tố từ ghép). 男 chỉ nam hoặc thuộc về nam, thường đứng trước danh từ nghề/nhóm; 男朋友 là từ ghép nghĩa bạn trai."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "男 + nghề/nhóm；hoặc 男朋友/儿子 + vị ngữ。",
+            "position": "男 đứng trước danh từ được mô tả hoặc nằm trong từ ghép.",
+            "required": "Dùng đủ 男朋友 nếu muốn nói quan hệ bạn trai.",
+            "omission": "Bỏ 男 nếu giới tính không cần thiết để hiểu câu.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们班有十个男学生。",
+            "vi": "Lớp chúng tôi có mười học sinh nam。",
+            "analysis": "男 đứng trước 学生 để mô tả nhóm。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "她的男朋友在日本工作。",
+            "vi": "Bạn trai của cô ấy làm việc ở Nhật。",
+            "analysis": "男朋友 là từ hoàn chỉnh chỉ bạn trai。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "男 và 男朋友",
+            "scene": "Cùng có 男 nên có thể nghĩ 男 đứng một mình đã đủ nghĩa bạn trai.",
+            "possibleConfusion": "Cùng có 男 nên có thể nghĩ 男 đứng một mình đã đủ nghĩa bạn trai.",
+            "difference": "男 thường mô tả giới tính; 男朋友 là danh từ chỉ quan hệ tình cảm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他是男老师。",
+                "vi": "Anh ấy là giáo viên nam。",
+                "comment": "男 mô tả nghề giáo viên。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "她的男朋友在日本工作。",
+                "vi": "Bạn trai của cô ấy làm việc ở Nhật。",
+                "comment": "男朋友 chỉ mối quan hệ bạn trai。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Bỏ 朋友 sẽ mất nghĩa quan hệ; 男老师 chỉ giới tính và nghề."
+            },
+            "boundary": "Câu đang mô tả nghề/nhóm hay quan hệ tình cảm?",
+            "tip": "男 mô tả giới tính; 男朋友 là cả từ chỉ bạn trai。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "男 và 男朋友",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "男 và 男朋友"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 男, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 男学生, 男 bổ nghĩa cho từ nào?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Dùng 男 hay 男朋友 để nói 'bạn trai của cô ấy'?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Bổ nghĩa cho 学生."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 男 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "Dùng 男朋友: 她的男朋友."
+            ],
+            "explanation": "男 mô tả giới tính; 男朋友 là cả từ chỉ bạn trai。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trong lớp có mười học sinh nam."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn trai của một người bạn làm việc ở Nhật."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 男 trong tình huống: nói trong lớp có mười học sinh nam.",
+            "frame": "男 + nghề/nhóm；hoặc 男朋友/儿子 + vị ngữ。",
+            "model": "我们班有十个男学生。",
+            "vi": "Lớp chúng tôi có mười học sinh nam。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 男 trong tình huống: nói bạn trai của một người bạn làm việc ở nhật.",
+            "frame": "男 + nghề/nhóm；hoặc 男朋友/儿子 + vị ngữ。",
+            "model": "她的男朋友在日本工作。",
+            "vi": "Bạn trai của cô ấy làm việc ở Nhật。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-a9fbe5982e66",
@@ -55299,22 +57497,177 @@
       "intro": [
         {
           "pinyin": "bìng",
-          "meaning": "bệnh"
+          "meaning": "bệnh; ốm (thường trong từ ghép)"
         }
       ],
-      "meaning": "bệnh",
-      "status": "example",
+      "meaning": "bệnh; ốm (thường trong từ ghép)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-019",
       "examples": [
         {
-          "zh": "他的病好了。",
-          "vi": "Bệnh của anh ấy đã khỏi."
+          "id": "e1",
+          "zh": "他今天生病了，不能去上班。",
+          "vi": "Hôm nay anh ấy bị ốm, không thể đi làm。",
+          "analysis": "生病了 nêu tình trạng; vế sau nói hệ quả。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "医生说她的病不严重。",
+          "vi": "Bác sĩ nói bệnh của cô ấy không nghiêm trọng。",
+          "analysis": "她的病 gọi căn bệnh/tình trạng。",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 218,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E7%97%85"
+        ],
+        "cohortOrdinal": 231,
+        "introduction": {
+          "scope": "病 có thể là danh từ 'bệnh'; 生病 là cụm nói một người bị ốm. Nhìn cả cụm để biết vai trò."
+        },
+        "meaning": {
+          "scene": "Bạn nghỉ làm vì bị ốm hoặc bác sĩ nói bệnh của người thân đã khỏi. 生病 nói bị ốm; 病 có thể gọi tình trạng bệnh.",
+          "explanation": "Dùng người + 生病了 để kể ai bị ốm; dùng 人的病、病好了 để nói về căn bệnh/diễn biến.",
+          "boundary": "生病 là cụm chỉ tình trạng của người; 病 có thể là danh từ. Không dịch 生病 theo nghĩa đen là 'sinh ra bệnh'.",
+          "conditions": [
+            "Người + 生病了: kể người bị ốm. 人的病 + tính chất/diễn biến: 病不严重、病好了."
+          ],
+          "takeaway": "bệnh; ốm (thường trong từ ghép). 病 có thể là danh từ 'bệnh'; 生病 là cụm nói một người bị ốm. Nhìn cả cụm để biết vai trò."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ thể + 生病了；hoặc người + 的病 + diễn biến。",
+            "position": "生病 đứng sau người mắc bệnh; 病 theo sau 的 hoặc làm chủ thể trong 病好了.",
+            "required": "Nêu người trong mẫu 生病; khi nói căn bệnh, thêm sở hữu/ngữ cảnh.",
+            "omission": "Bỏ người bệnh nếu câu trước đã nêu rõ ai.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他今天生病了，不能去上班。",
+            "vi": "Hôm nay anh ấy bị ốm, không thể đi làm。",
+            "analysis": "生病了 nêu tình trạng; vế sau nói hệ quả。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "医生说她的病不严重。",
+            "vi": "Bác sĩ nói bệnh của cô ấy không nghiêm trọng。",
+            "analysis": "她的病 gọi căn bệnh/tình trạng。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "生病 và 病",
+            "scene": "Tiếng Việt dùng bệnh cho cả trạng thái và căn bệnh; tiếng Trung thể hiện vai trò bằng cụm.",
+            "possibleConfusion": "Tiếng Việt dùng bệnh cho cả trạng thái và căn bệnh; tiếng Trung thể hiện vai trò bằng cụm.",
+            "difference": "生病 nói người bị ốm; 病 có thể là danh từ trong 的病 hoặc 病好了.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我妹妹生病了。",
+                "vi": "Em gái tôi bị ốm。",
+                "comment": "生病 kể tình trạng của người。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我妹妹的病好了。",
+                "vi": "Bệnh của em gái tôi đã khỏi。",
+                "comment": "病 là danh từ chỉ tình trạng được nhắc đến。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Nói người bị ốm dùng 生病; nói bệnh/diễn biến của bệnh dùng 病 trong cụm."
+            },
+            "boundary": "Hỏi câu đang kể người bị ốm hay nói về căn bệnh.",
+            "tip": "生病 kể tình trạng; 病 có thể làm danh từ。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "生病 và 病",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "生病 và 病"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 病, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 他今天生病了, cụm nào nói anh ấy bị ốm?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Phân biệt 生病了 với 病好了."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "生病了。"
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 病 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "生病了 là bị ốm; 病好了 là bệnh đã khỏi."
+            ],
+            "explanation": "生病 kể tình trạng; 病 có thể làm danh từ。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Báo rằng hôm nay bạn bị ốm nên không đi làm."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bệnh của người thân đã khỏi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 病 trong tình huống: báo rằng hôm nay bạn bị ốm nên không đi làm.",
+            "frame": "Chủ thể + 生病了；hoặc người + 的病 + diễn biến。",
+            "model": "我今天生病了，不能去上班。",
+            "vi": "Hôm nay tôi bị ốm, không thể đi làm。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 病 trong tình huống: nói bệnh của người thân đã khỏi.",
+            "frame": "Chủ thể + 生病了；hoặc người + 的病 + diễn biến。",
+            "model": "他已经病好了。",
+            "vi": "Anh ấy đã khỏi bệnh rồi。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-3bbbf9068332",
@@ -55323,17 +57676,177 @@
       "intro": [
         {
           "pinyin": "zhōngjiān",
-          "meaning": "ở giữa"
+          "meaning": "ở giữa; khoảng giữa"
         }
       ],
-      "meaning": "ở giữa",
-      "status": "catalog",
+      "meaning": "ở giữa; khoảng giữa",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-019",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "桌子和门中间有一把椅子。",
+          "vi": "Giữa bàn và cửa có một chiếc ghế。",
+          "analysis": "桌子和门 là hai mốc; 中间 là khoảng giữa。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我坐在妈妈和爸爸中间。",
+          "vi": "Tôi ngồi giữa mẹ và bố。",
+          "analysis": "在 đặt vị trí vào khoảng giữa hai người。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 221,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E4%B8%AD%E9%97%B4"
+        ],
+        "cohortOrdinal": 232,
+        "introduction": {
+          "scope": "中间 chỉ vị trí/khoảng nằm giữa hai hoặc nhiều mốc; thường nêu mốc bằng A 和 B."
+        },
+        "meaning": {
+          "scene": "Bạn tìm chiếc ghế ở giữa bàn và cửa. Nói 桌子和门中间.",
+          "explanation": "Mẫu A 和 B 中间 + 有 + vật; hoặc chủ thể + 在 + A 和 B 中间. 中间 là từ chỉ vị trí hoàn chỉnh.",
+          "boundary": "中间 là khoảng giữa các mốc; 里/里面 là bên trong một nơi chứa. 中 cũng có thể nói phạm vi 'trong', không luôn thay cho 中间.",
+          "conditions": [
+            "Nêu hai mốc bằng A 和 B rồi đặt 中间 sau chúng. Vật ở giữa: 在 + A 和 B + 中间."
+          ],
+          "takeaway": "ở giữa; khoảng giữa. 中间 chỉ vị trí/khoảng nằm giữa hai hoặc nhiều mốc; thường nêu mốc bằng A 和 B."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "A 和 B + 中间 + 有 + vật；hoặc chủ thể + 在 + A 和 B + 中间。",
+            "position": "中间 đứng sau các mốc; 在 có thể mở đầu cụm vị trí.",
+            "required": "Nêu mốc để biết cái gì nằm giữa đâu; hai mốc thường nối bằng 和.",
+            "omission": "Có thể bỏ mốc đã rõ trong hội thoại.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "桌子和门中间有一把椅子。",
+            "vi": "Giữa bàn và cửa có một chiếc ghế。",
+            "analysis": "桌子和门 là hai mốc; 中间 là khoảng giữa。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我坐在妈妈和爸爸中间。",
+            "vi": "Tôi ngồi giữa mẹ và bố。",
+            "analysis": "在 đặt vị trí vào khoảng giữa hai người。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "中间 và 里",
+            "scene": "Cả hai chỉ vị trí nhưng 中间 cần mốc hai bên, 里 chỉ vùng bên trong.",
+            "possibleConfusion": "Cả hai chỉ vị trí nhưng 中间 cần mốc hai bên, 里 chỉ vùng bên trong.",
+            "difference": "中间 là khoảng giữa các mốc; 里/里面 là khu vực bên trong một vật/nơi.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "椅子在桌子和门中间。",
+                "vi": "Ghế ở giữa bàn và cửa。",
+                "comment": "Hai mốc xác định vị trí giữa。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "钥匙在包里。",
+                "vi": "Chìa khóa ở trong túi。",
+                "comment": "里 nói bên trong túi。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Dùng 里 cho vật bên trong túi; dùng 中间 khi có mốc hai phía."
+            },
+            "boundary": "Có hai bên làm mốc hay một vật chứa bên trong?",
+            "tip": "中间 là khoảng giữa; 里 là bên trong。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "中间 và 里",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "中间 và 里"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 中间, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 桌子和门中间, hai mốc là gì?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Chọn 中间 hay 里 để nói chìa khóa ở trong túi?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "桌子 và 门."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 中间 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "Dùng 里: 钥匙在包里。"
+            ],
+            "explanation": "中间 là khoảng giữa; 里 là bên trong。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn ngồi giữa hai đồng nghiệp."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói có ghế ở giữa bàn và cửa."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 中间 trong tình huống: nói bạn ngồi giữa hai đồng nghiệp.",
+            "frame": "A 和 B + 中间 + 有 + vật；hoặc chủ thể + 在 + A 和 B + 中间。",
+            "model": "我坐在两个同事中间。",
+            "vi": "Tôi ngồi giữa hai đồng nghiệp。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 中间 trong tình huống: nói có ghế ở giữa bàn và cửa.",
+            "frame": "A 和 B + 中间 + 有 + vật；hoặc chủ thể + 在 + A 和 B + 中间。",
+            "model": "椅子在桌子和门中间。",
+            "vi": "Ghế ở giữa bàn và cửa。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-82d7dabcf15b",
@@ -55341,38 +57854,357 @@
       "hanzi": "别的",
       "intro": [
         {
-          "pinyin": "biéde",
-          "meaning": "cái khác",
-          "sourcePinyin": "bié de"
+          "pinyin": "bié de",
+          "meaning": "cái khác; người/vật khác"
         }
       ],
-      "meaning": "cái khác",
-      "status": "catalog",
+      "meaning": "cái khác; người/vật khác",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-019",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "这件衣服太小了，我想看看别的衣服。",
+          "vi": "Bộ quần áo này nhỏ quá, tôi muốn xem bộ khác。",
+          "analysis": "别的 đứng trước 衣服。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这个我不要，请给我别的。",
+          "vi": "Tôi không lấy cái này, làm ơn đưa cho tôi cái khác。",
+          "analysis": "别的 thay cho món đã rõ。",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 222,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E5%88%AB%E7%9A%84"
+        ],
+        "cohortOrdinal": 233,
+        "introduction": {
+          "scope": "别的 chỉ người/vật khác với điều vừa nhắc; có thể đứng trước danh từ hoặc đứng riêng khi danh từ đã rõ."
+        },
+        "meaning": {
+          "scene": "Bạn thử một chiếc áo nhưng không thích và muốn xem chiếc khác. Nói 我想看看别的.",
+          "explanation": "别的东西/别的人: 别的 đứng trước danh từ. Khi danh từ rõ, có thể bỏ danh từ. Âm de là trợ từ, không dịch riêng.",
+          "boundary": "别的 nghĩa là khác; 别 đứng ngay trước động từ thường có nghĩa 'đừng', như 别走.",
+          "conditions": [
+            "Danh từ còn nói ra: 别的 + danh từ. Danh từ đã rõ có thể lược; lời ngăn: 别 + động từ."
+          ],
+          "takeaway": "cái khác; người/vật khác. 别的 chỉ người/vật khác với điều vừa nhắc; có thể đứng trước danh từ hoặc đứng riêng khi danh từ đã rõ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "别的 + danh từ；hoặc 别的 đứng riêng khi danh từ đã rõ。",
+            "position": "别的 đứng trước danh từ hoặc thay danh từ; 别 trong câu ngăn đứng trước động từ.",
+            "required": "Thêm danh từ sau 别的 nếu chưa rõ đang nói loại gì.",
+            "omission": "Có thể bỏ danh từ sau 别的 nếu vừa được nêu.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这件衣服太小了，我想看看别的衣服。",
+            "vi": "Bộ quần áo này nhỏ quá, tôi muốn xem bộ khác。",
+            "analysis": "别的 đứng trước 衣服。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这个我不要，请给我别的。",
+            "vi": "Tôi không lấy cái này, làm ơn đưa cho tôi cái khác。",
+            "analysis": "别的 thay cho món đã rõ。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "别的 và 别",
+            "scene": "Cùng có 别 nhưng có de hay không làm cách dùng khác nhau.",
+            "possibleConfusion": "Cùng có 别 nhưng có de hay không làm cách dùng khác nhau.",
+            "difference": "别的 là 'cái/người khác'; 别 + động từ là lời nhắc 'đừng'.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我想买别的东西。",
+                "vi": "Tôi muốn mua món khác。",
+                "comment": "别的 bổ nghĩa cho 东西。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "别买这个。",
+                "vi": "Đừng mua cái này。",
+                "comment": "别 đứng trước 买 để ngăn/cấm。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói món khác dùng 别的东西; nói đừng mua dùng 别买."
+            },
+            "boundary": "Xem sau 别 là danh từ hay động từ.",
+            "tip": "别的 là cái khác; 别 + động từ là đừng。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "别的 và 别",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "别的 và 别"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 别的, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 我想看看别的衣服, 别的 bổ nghĩa cho gì?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "别买这个 nghĩa là 'mua cái khác' hay 'đừng mua cái này'?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Bổ nghĩa cho 衣服, nghĩa là quần áo khác."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 别的 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "Đừng mua cái này."
+            ],
+            "explanation": "别的 là cái khác; 别 + động từ là đừng。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhờ người bán cho xem món khác."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhắc bạn đừng mua chiếc áo quá nhỏ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 别的 trong tình huống: nhờ người bán cho xem món khác.",
+            "frame": "别的 + danh từ；hoặc 别的 đứng riêng khi danh từ đã rõ。",
+            "model": "请给我别的衣服。",
+            "vi": "Làm ơn đưa cho tôi bộ quần áo khác。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 别的 trong tình huống: nhắc bạn đừng mua chiếc áo quá nhỏ.",
+            "frame": "别的 + danh từ；hoặc 别的 đứng riêng khi danh từ đã rõ。",
+            "model": "别买这件衣服。",
+            "vi": "Đừng mua bộ quần áo này。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "Bắc Kinh, thủ đô nước Cộng hòa Nhân dân Trung Hoa",
+      "meaning": "Bắc Kinh",
       "intro": [
         {
           "pinyin": "Běijīng",
-          "meaning": "Bắc Kinh, thủ đô nước Cộng hòa Nhân dân Trung Hoa"
+          "meaning": "Bắc Kinh"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我下个月要去北京。",
+          "vi": "Tháng sau tôi sẽ đi Bắc Kinh。",
+          "analysis": "去 đứng trước địa danh nơi đến。",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "她现在在北京工作。",
+          "vi": "Hiện nay cô ấy làm việc ở Bắc Kinh。",
+          "analysis": "在北京 nêu nơi làm việc。",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-bef90daf38fd",
       "hanzi": "北京",
       "level": 1,
       "sourceIndex": 223,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-019",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "authorship": "Biên soạn theo chuẩn V2; đối chiếu mục tra cứu của Từ điển Giản biên Bộ Giáo dục Đài Loan; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://dict.concised.moe.edu.tw/search.jsp?la=1&powerMode=0&word=%E5%8C%97%E4%BA%AC"
+        ],
+        "cohortOrdinal": 234,
+        "introduction": {
+          "scope": "北京 là tên riêng của thủ đô Trung Quốc; dùng như địa danh sau 在、去、到、从."
+        },
+        "meaning": {
+          "scene": "Bạn nói với đồng nghiệp tháng sau sẽ đi Bắc Kinh. Nói 去北京.",
+          "explanation": "北京 là thành phố; đứng sau 去/到 khi nói nơi đến, sau 在 khi nói nơi ở, sau 从 khi nói điểm xuất phát.",
+          "boundary": "北京 là thành phố còn 中国 là quốc gia: 北京在中国. Không dùng hai tên này thay nhau nếu câu hỏi cần cấp địa điểm khác.",
+          "conditions": [
+            "Nơi đến: 去/到 + 北京; nơi ở: 在 + 北京; điểm xuất phát: 从北京 + động từ."
+          ],
+          "takeaway": "Bắc Kinh. 北京 là tên riêng của thủ đô Trung Quốc; dùng như địa danh sau 在、去、到、从."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去/到 + 北京；在 + 北京 + hành động。",
+            "position": "北京 đứng sau từ chỉ hướng hoặc giới từ địa điểm.",
+            "required": "Chọn 去 (đến), 在 (ở), 从 (từ) theo ý muốn nói.",
+            "omission": "Có thể chỉ đáp 北京 khi câu hỏi đã rõ hỏi nơi ở/đến.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我下个月要去北京。",
+            "vi": "Tháng sau tôi sẽ đi Bắc Kinh。",
+            "analysis": "去 đứng trước địa danh nơi đến。",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "她现在在北京工作。",
+            "vi": "Hiện nay cô ấy làm việc ở Bắc Kinh。",
+            "analysis": "在北京 nêu nơi làm việc。",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "北京 và 中国",
+            "scene": "Hai địa danh có liên hệ nên có thể lẫn thành phố với quốc gia.",
+            "possibleConfusion": "Hai địa danh có liên hệ nên có thể lẫn thành phố với quốc gia.",
+            "difference": "北京 là thành phố cụ thể; 中国 là quốc gia có thành phố đó.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我住在北京。",
+                "vi": "Tôi sống ở Bắc Kinh。",
+                "comment": "北京 là thành phố。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "北京在中国。",
+                "vi": "Bắc Kinh nằm ở Trung Quốc。",
+                "comment": "中国 là quốc gia; 北京 là thành phố trong đó。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nếu hỏi thành phố trả lời 北京; nếu hỏi quốc gia trả lời 中国."
+            },
+            "boundary": "Câu hỏi yêu cầu thành phố hay đất nước?",
+            "tip": "北京 là thành phố; 中国 là quốc gia。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "北京 và 中国",
+          "literalTranslation": "Đọc nghĩa của cả từ/cụm và vai trò trong câu; không dịch tách từng chữ.",
+          "confusables": "北京 và 中国"
+        },
+        "pronunciation": {
+          "text": "Đọc đủ các âm tiết của 北京, giữ rõ thanh điệu và nối từ tự nhiên trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Trong 我下个月要去北京, 北京 là nơi đến hay nơi ở hiện tại?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "北京 và 中国 khác nhau ở cấp địa điểm nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Là nơi đến."
+            ],
+            "explanation": "Câu hỏi kiểm tra nghĩa hoặc vị trí dùng của 北京 trong nội dung vừa học."
+          },
+          "q2": {
+            "accepted": [
+              "北京 là thành phố; 中国 là quốc gia."
+            ],
+            "explanation": "北京 là thành phố; 中国 là quốc gia。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn sẽ đi Bắc Kinh tháng sau."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói một người hiện đang làm việc ở Bắc Kinh."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 北京 trong tình huống: nói bạn sẽ đi bắc kinh tháng sau.",
+            "frame": "去/到 + 北京；在 + 北京 + hành động。",
+            "model": "我下个月要去北京。",
+            "vi": "Tháng sau tôi sẽ đi Bắc Kinh。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 北京 trong tình huống: nói một người hiện đang làm việc ở bắc kinh.",
+            "frame": "去/到 + 北京；在 + 北京 + hành động。",
+            "model": "她现在在北京工作。",
+            "vi": "Hiện nay cô ấy làm việc ở Bắc Kinh。",
+            "criteria": [
+              "Dùng đúng từ mục tiêu và đúng khung câu.",
+              "Câu phù hợp tình huống; có thể có đáp án khác nếu tự nhiên."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "ở nước ngoài",
@@ -95790,13 +98622,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 226,
-    "pending": 2008,
+    "ready": 244,
+    "pending": 1990,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 226
+        "ready": 244
       },
       {
         "level": 2,

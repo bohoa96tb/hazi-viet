@@ -31,7 +31,7 @@ function assertProgress(b,p){
  assert.equal(p.completedCount,p.completedIds.length);assert.equal(p.remaining,b.scopeTotal-p.completedCount);
  assert.equal(p.lastCompletedId,p.completedIds.at(-1)||null);
  assert.equal(p.lastCompletedOrdinal,p.completedCount);
- assert.deepEqual(p.nextIds,b.orderedIds.slice(p.completedCount,p.completedCount+12));
+ assert.deepEqual(p.nextIds,b.orderedIds.slice(p.completedCount,p.completedCount+18));
  for(const id of b.initialCompleteIds){assert(auditLesson(byId.get(id)).ready);assert.equal(digest(byId.get(id)),b.protectedDigests[id],'Previously complete word changed: '+id);}
  for(const id of p.completedIds){const w=byId.get(id);assert(auditLesson(w).ready);assert.equal(digest(w),p.completedDigests[id],'Completed word changed: '+id);if(w.lesson.version===2)assert.equal(w.lesson.cohortOrdinal,b.orderedIds.indexOf(id)+1,'V2 baseline ordinal mismatch: '+id);assert.deepEqual(w.examples,w.lesson.examples,'Word/lesson examples differ: '+id);}
  for(const id of b.orderedIds.slice(p.completedCount))assert.equal(auditLesson(byId.get(id)).ready,false,'Untracked complete record: '+id);
@@ -47,7 +47,7 @@ function refresh(b,p){
  data.editorial=`Đã rà soát ${summary.total} mục. ${summary.ready} mục đủ cấu trúc V1/V2; còn ${summary.pending}. Trong đợt bổ sung ban đầu ${b.scopeTotal} mục, đã lưu nội dung cho ${p.completedCount} mục trên nhánh ${branch}. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.`;
  write(coursePath,data);write(auditPath,{version:1,standard:'V1/V2',summary,records});write('progress.json',p);
  const next=p.nextIds.map(id=>byId.get(id));
- fs.writeFileSync(path.join(root,'docs/PROGRESS.md'),`# Tiến độ nội dung trên nhánh biên soạn\n\nPhạm vi: ${b.scopeTotal} mục chưa đủ cấu trúc tại commit gốc ${b.sourceCommit}. Không gồm ${b.initialCompleteIds.length} mục đã có trước đó.\n\nĐã bổ sung: ${p.completedCount}/${b.scopeTotal}. Còn: ${p.remaining}. Toàn khóa đủ cấu trúc: ${ready}/${data.words.length}.\n\n## Các đợt đã đưa vào dữ liệu\n\n${p.batches.map(x=>'- '+x.id+' · mục '+x.ordinalFrom+'–'+x.ordinalTo+' · '+x.wordIds.map(id=>byId.get(id).hanzi).join('、')).join('\n')}\n\n## 12 mục tiếp theo\n\n${next.map(w=>'- '+w.hanzi+' · '+w.id).join('\n')}\n\nTrạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.\n`);
+ fs.writeFileSync(path.join(root,'docs/PROGRESS.md'),`# Tiến độ nội dung trên nhánh biên soạn\n\nPhạm vi: ${b.scopeTotal} mục chưa đủ cấu trúc tại commit gốc ${b.sourceCommit}. Không gồm ${b.initialCompleteIds.length} mục đã có trước đó.\n\nĐã bổ sung: ${p.completedCount}/${b.scopeTotal}. Còn: ${p.remaining}. Toàn khóa đủ cấu trúc: ${ready}/${data.words.length}.\n\n## Các đợt đã đưa vào dữ liệu\n\n${p.batches.map(x=>'- '+x.id+' · mục '+x.ordinalFrom+'–'+x.ordinalTo+' · '+x.wordIds.map(id=>byId.get(id).hanzi).join('、')).join('\n')}\n\n## 18 mục tiếp theo\n\n${next.map(w=>'- '+w.hanzi+' · '+w.id).join('\n')}\n\nTrạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.\n`);
  const cache=p.batches.at(-1)?.id;
  if(cache){
   const js=path.join(root,'js/vocabulary.js'),html=path.join(root,'vocabulary.html');
@@ -61,14 +61,14 @@ if(command==='init'){
  assert.equal(initial.length,10);assert.equal(pending.length,2224);
  const sourceCommit=execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim();
  const baseline={schemaVersion:1,repository:'bohoa96tb/hazi-viet',sourceCommit,coursePath,scopeTotal:pending.length,initialCompleteIds:initial.map(w=>w.id),protectedDigests:Object.fromEntries(initial.map(w=>[w.id,digest(w)])),orderedIds:pending.map(w=>w.id),courseOrderedIds:data.words.map(w=>w.id),lessons:data.lessons};
- const progress={schemaVersion:1,repository:baseline.repository,branch,baselinePath,standardPath:'docs/CONTENT_STANDARD.md',scopeTotal:pending.length,initialCompleteOutsideScope:initial.length,completedCount:0,remaining:pending.length,lastCompletedOrdinal:0,lastCompletedId:null,completedIds:[],completedDigests:{},nextIds:baseline.orderedIds.slice(0,12),batches:[],lastVerifiedContentCommit:null,lastVerifiedContentCommitUrl:null,verificationNote:'Commit chứa nội dung được ghi sau khi đã xác nhận nhánh GitHub. Không lưu SHA tự tham chiếu của chính commit đang ghi file này.'};
+ const progress={schemaVersion:1,repository:baseline.repository,branch,baselinePath,standardPath:'docs/CONTENT_STANDARD.md',scopeTotal:pending.length,initialCompleteOutsideScope:initial.length,completedCount:0,remaining:pending.length,lastCompletedOrdinal:0,lastCompletedId:null,completedIds:[],completedDigests:{},nextIds:baseline.orderedIds.slice(0,18),batches:[],lastVerifiedContentCommit:null,lastVerifiedContentCommitUrl:null,verificationNote:'Commit chứa nội dung được ghi sau khi đã xác nhận nhánh GitHub. Không lưu SHA tự tham chiếu của chính commit đang ghi file này.'};
  write(baselinePath,baseline);refresh(baseline,progress);console.log('Initialized fixed cohort of 2,224 records; no unverified completions.');
 }else{
  const b=read(baselinePath),p=read('progress.json');assertProgress(b,p);
  if(command==='apply'){
   assert(argument,'Provide an authored batch JSON path.');const batch=read(argument);
   assert(!p.batches.some(x=>x.id===batch.id),'Batch already applied.');
-  assert(batch.entries.length>=Math.min(12,p.remaining),'Default batch is 12.');
+  assert(batch.entries.length>=Math.min(18,p.remaining),'Default batch is 18.');
   const expected=b.orderedIds.slice(p.completedCount,p.completedCount+batch.entries.length);
   assert.deepEqual(batch.entries.map(e=>e.id),expected,'Only the next uncompleted cohort records may be edited.');
   // Catalog/example records may not yet have the recognition and comparison
@@ -84,7 +84,7 @@ if(command==='init'){
   });
   for(const w of drafts){data.words[data.words.findIndex(x=>x.id===w.id)]=w;byId.set(w.id,w);p.completedIds.push(w.id);p.completedDigests[w.id]=digest(w);}
   const from=p.completedCount+1;p.completedCount+=drafts.length;p.remaining=b.scopeTotal-p.completedCount;
-  p.lastCompletedOrdinal=p.completedCount;p.lastCompletedId=p.completedIds.at(-1);p.nextIds=b.orderedIds.slice(p.completedCount,p.completedCount+12);
+  p.lastCompletedOrdinal=p.completedCount;p.lastCompletedId=p.completedIds.at(-1);p.nextIds=b.orderedIds.slice(p.completedCount,p.completedCount+18);
   p.batches.push({id:batch.id,ordinalFrom:from,ordinalTo:p.completedCount,wordIds:drafts.map(w=>w.id),contentFile:argument,authorship:batch.authorship,contentCommit:null});
   assertProgress(b,p);validateCourse(data);refresh(b,p);
   console.log(`Prepared ${from}–${p.completedCount}; ${p.completedCount}/${p.scopeTotal}; remaining ${p.remaining}. Remote confirmation still required.`);

@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 216/2224. Còn: 2008. Toàn khóa đủ cấu trúc: 226/2234.
+Đã bổ sung: 234/2224. Còn: 1990. Toàn khóa đủ cấu trúc: 244/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -24,20 +24,27 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-016 · mục 181–192 · 爸爸、不、吗、对、有、没、的、还、是不是、有些、有时、有用
 - batch-017 · mục 193–204 · 有的、正在、没有、真的、还是、还有、八、冷、口、吃、喝、渴
 - batch-018 · mục 205–216 · 睡、饭、饿、什么、包子、午饭、吃饭、好吃、干净、早饭、晚饭、最好
+- batch-019 · mục 217–234 · 生气、米饭、面包、面条儿、中、也、六、出、国、外、女、新、比、男、病、中间、别的、北京
 
-## 12 mục tiếp theo
+## 18 mục tiếp theo
 
-- 生气 · hz-h1-b20a9a552feb
-- 米饭 · hz-h1-ab740ba7a1fa
-- 面包 · hz-h1-b72135eda0d1
-- 面条儿 · hz-h1-149f8169ab76
-- 中 · hz-h1-841ce33f9484
-- 也 · hz-h1-eb1f33f896a4
-- 六 · hz-h1-5898d1c66720
-- 出 · hz-h1-0c15dcf815cf
-- 国 · hz-h1-8e986c871691
-- 外 · hz-h1-3e6119df005f
-- 女 · hz-h1-18129ffcdff8
-- 新 · hz-h1-c401e722a02f
+- 国外 · hz-h1-8a5370f712d5
+- 国家 · hz-h1-950d24f2d087
+- 外国 · hz-h1-7b2aeb4caef6
+- 外语 · hz-h1-ff99633eb7c5
+- 有名 · hz-h1-863c75096dec
+- 网上 · hz-h1-55dc256e49b9
+- 上 · hz-h1-a9f039606285
+- 半 · hz-h1-4b7c8848d659
+- 后 · hz-h1-239d398f7fe3
+- 早 · hz-h1-062d5f2109c6
+- 晚 · hz-h1-1f95be7924c5
+- 穿 · hz-h1-75afb5609a5b
+- 上午 · hz-h1-0bb1ea399349
+- 下午 · hz-h1-fbfe7ccc5408
+- 中午 · hz-h1-f5222818a6aa
+- 今天 · hz-h1-2fc72322725e
+- 关上 · hz-h1-89587a494d51
+- 前天 · hz-h1-2d75817ea67f
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
