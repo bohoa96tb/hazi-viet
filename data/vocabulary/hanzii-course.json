@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 323 mục đủ cấu trúc V1/V2; còn 1911. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 313 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 338 mục đủ cấu trúc V1/V2; còn 1896. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 328 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -73256,20 +73256,184 @@
       "meaning": "nghe thấy",
       "intro": [
         {
-          "pinyin": "tīng dào",
+          "pinyin": "tīngdào",
           "meaning": "nghe thấy"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我听到电话响了。",
+          "vi": "Tôi nghe thấy điện thoại reo.",
+          "analysis": "电话响 là việc được nghe thấy; 了 báo việc này đã xảy ra.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ tīngdào diànhuà xiǎng le."
+        },
+        {
+          "id": "e2",
+          "zh": "你说什么？我没听到。",
+          "vi": "Bạn nói gì vậy? Tôi không nghe thấy.",
+          "analysis": "没听到 phủ nhận kết quả nghe; không thêm 了 ngay sau cụm phủ định này.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ shuō shénme? Wǒ méi tīngdào."
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-02b7c349829c",
       "hanzi": "听到",
       "level": 1,
       "sourceIndex": 307,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-024 · phức tạp",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 314,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=听到"
+        ],
+        "introduction": {
+          "scope": "nghe thấy"
+        },
+        "meaning": {
+          "scene": "Bạn đang ở phòng bên và nghe điện thoại reo.",
+          "explanation": "听到 nói việc nghe đã có kết quả: âm thanh hoặc thông tin đã đến tai. Có thể nghe thấy mà chưa hiểu. 到 ở đây biểu thị kết quả, không phải đi đến một nơi.",
+          "boundary": "听 là hoạt động nghe; 听到 là nghe được một âm thanh hoặc thông tin. 听见 thường thay được khi nói âm thanh nghe thấy, không cần tạo ranh giới cứng giữa hai từ.",
+          "conditions": [
+            "Kể việc đã xảy ra mà không nghe thấy dùng 没听到; 听不到 nói không nghe được do điều kiện hoặc khả năng."
+          ],
+          "takeaway": "听到 nói việc nghe đã có kết quả: âm thanh hoặc thông tin đã đến tai. Có thể nghe thấy mà chưa hiểu. 到 ở đây biểu thị kết quả, không phải đi đến một nơi."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 听到 + âm thanh/thông tin；người + 没听到 + đối tượng",
+            "position": "Đối tượng nghe đứng sau 听到. 没 đứng trước cả cụm khi phủ nhận kết quả đã xảy ra.",
+            "required": "Kể việc đã xảy ra mà không nghe thấy dùng 没听到; 听不到 nói không nghe được do điều kiện hoặc khả năng.",
+            "omission": "Khi đã rõ âm thanh nào, có thể trả lời 听到了 hoặc 没听到.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我听到电话响了。",
+            "vi": "Tôi nghe thấy điện thoại reo.",
+            "analysis": "电话响 là việc được nghe thấy; 了 báo việc này đã xảy ra.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ tīngdào diànhuà xiǎng le."
+          },
+          {
+            "id": "e2",
+            "zh": "你说什么？我没听到。",
+            "vi": "Bạn nói gì vậy? Tôi không nghe thấy.",
+            "analysis": "没听到 phủ nhận kết quả nghe; không thêm 了 ngay sau cụm phủ định này.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ shuō shénme? Wǒ méi tīngdào."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Nghe thấy chưa chắc nghe hiểu",
+            "scene": "Nghe một câu tiếng Trung trong lớp.",
+            "possibleConfusion": "Nghe thấy chưa chắc nghe hiểu",
+            "difference": "听到 xác nhận đã nghe được; 听懂 xác nhận hiểu nội dung.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我听到了，但是没听懂。",
+                "vi": "Tôi nghe thấy rồi, nhưng không hiểu.",
+                "comment": "Nghe được âm thanh, chưa hiểu lời.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我听懂了。",
+                "vi": "Tôi đã nghe hiểu rồi.",
+                "comment": "Đã hiểu nội dung.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 听到 thành 听懂 là thêm kết quả hiểu, không chỉ nghe được."
+            },
+            "boundary": "听到 và 听见 thường gần nghĩa trong tình huống nghe tiếng động; cả hai không tự bảo đảm hiểu.",
+            "tip": "Đến tai: 听到; hiểu lời: 听懂."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "听 thanh một, 到 thanh bốn; giữ rõ hai âm tiết.",
+          "literalTranslation": "听 là hoạt động nghe; 听到 là nghe được một âm thanh hoặc thông tin. 听见 thường thay được khi nói âm thanh nghe thấy, không cần tạo ranh giới cứng giữa hai từ.",
+          "confusables": "听到 xác nhận đã nghe được; 听懂 xác nhận hiểu nội dung."
+        },
+        "pronunciation": {
+          "text": "听 thanh một, 到 thanh bốn; giữ rõ hai âm tiết. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Bạn không nghe thấy lời vừa nói. Điền: 我…听到。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "听到 và 听懂 khác nhau ở kết quả nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我没听到。"
+            ],
+            "explanation": "Dùng 没 để phủ nhận kết quả trong tình huống vừa xảy ra."
+          },
+          "q2": {
+            "accepted": [
+              "听到: nghe thấy; 听懂: nghe hiểu."
+            ],
+            "explanation": "Nghe thấy chưa đủ để khẳng định hiểu nội dung."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn vừa nghe tiếng mèo kêu."
+          },
+          {
+            "id": "s2",
+            "prompt": "Giải thích rằng bạn nghe thấy nhưng chưa hiểu."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu âm thanh vừa đến tai.",
+            "frame": "我 + 听到 + âm thanh + 了。",
+            "model": "我听到猫叫了。",
+            "vi": "Tôi vừa nghe thấy mèo kêu.",
+            "criteria": [
+              "Đối tượng nghe đứng sau 听到. 没 đứng trước cả cụm khi phủ nhận kết quả đã xảy ra.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Tách kết quả nghe và hiểu.",
+            "frame": "我 + 听到了，但是 + 没听懂。",
+            "model": "我听到了，但是没听懂。",
+            "vi": "Tôi nghe thấy rồi nhưng không hiểu.",
+            "criteria": [
+              "Đối tượng nghe đứng sau 听到. 没 đứng trước cả cụm khi phủ nhận kết quả đã xảy ra.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-658af063a3b9",
@@ -73282,18 +73446,177 @@
         }
       ],
       "meaning": "nghe thấy",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-024 · trung bình",
       "examples": [
         {
-          "zh": "我听见你的声音了。",
-          "vi": "Tôi nghe thấy giọng của bạn rồi."
+          "id": "e1",
+          "zh": "我听见有人叫我的名字。",
+          "vi": "Tôi nghe thấy có người gọi tên tôi.",
+          "analysis": "有人叫我的名字 là sự việc nghe thấy, đứng sau 听见.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ tīngjiàn yǒu rén jiào wǒ de míngzi."
+        },
+        {
+          "id": "e2",
+          "zh": "刚才太吵，我没听见。",
+          "vi": "Lúc nãy ồn quá, tôi không nghe thấy.",
+          "analysis": "刚才 xác định lần vừa rồi; 没 phủ nhận kết quả nghe.",
+          "practiceAllowed": true,
+          "pinyin": "Gāngcái tài chǎo, wǒ méi tīngjiàn."
         }
       ],
       "sourceIndex": 308,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 315,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=听见"
+        ],
+        "introduction": {
+          "scope": "nghe thấy"
+        },
+        "meaning": {
+          "scene": "Trong phòng yên tĩnh, bạn nghe tiếng một người gọi tên mình.",
+          "explanation": "听见 nghĩa là nghe thấy, nhấn vào kết quả của thính giác. 见 trong cụm này không có nghĩa là dùng mắt nhìn; cả cụm vẫn nói về tai.",
+          "boundary": "听见 và 听到 thường cùng dùng được với tiếng người, tiếng xe, tiếng chuông. Không quy định một từ chỉ dùng khi cố ý nghe và từ kia chỉ khi vô tình nghe.",
+          "conditions": [
+            "没听见 dùng cho lần không nghe thấy; 听不见 diễn tả không nghe được trong điều kiện đang nói."
+          ],
+          "takeaway": "听见 nghĩa là nghe thấy, nhấn vào kết quả của thính giác. 见 trong cụm này không có nghĩa là dùng mắt nhìn; cả cụm vẫn nói về tai."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 听见 + âm thanh；người + 没听见",
+            "position": "Âm thanh hoặc sự việc nghe thấy đặt sau 听见; 没 đặt trước 听见.",
+            "required": "没听见 dùng cho lần không nghe thấy; 听不见 diễn tả không nghe được trong điều kiện đang nói.",
+            "omission": "Có thể lược đối tượng khi người nói và người nghe đều biết đang hỏi về tiếng gì.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我听见有人叫我的名字。",
+            "vi": "Tôi nghe thấy có người gọi tên tôi.",
+            "analysis": "有人叫我的名字 là sự việc nghe thấy, đứng sau 听见.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ tīngjiàn yǒu rén jiào wǒ de míngzi."
+          },
+          {
+            "id": "e2",
+            "zh": "刚才太吵，我没听见。",
+            "vi": "Lúc nãy ồn quá, tôi không nghe thấy.",
+            "analysis": "刚才 xác định lần vừa rồi; 没 phủ nhận kết quả nghe.",
+            "practiceAllowed": true,
+            "pinyin": "Gāngcái tài chǎo, wǒ méi tīngjiàn."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "听见 và 听 không nói cùng một kết quả",
+            "scene": "Bạn đang nghe bản ghi âm nhưng có thể bỏ lỡ tiếng chuông.",
+            "possibleConfusion": "听见 và 听 không nói cùng một kết quả",
+            "difference": "听 nói hoạt động; 听见 nói đã nhận ra âm thanh bằng tai.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我在听录音。",
+                "vi": "Tôi đang nghe bản ghi âm.",
+                "comment": "Mô tả việc đang làm.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我听见铃声了。",
+                "vi": "Tôi nghe thấy tiếng chuông rồi.",
+                "comment": "Xác nhận âm thanh đã nghe được.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 听见 thành 听 có thể chuyển sang hoạt động nghe; không còn khẳng định rõ kết quả."
+            },
+            "boundary": "听见铃声 và 听到铃声 thường đều đúng, gần nghĩa.",
+            "tip": "Hỏi đã nghe thấy chưa: 听见了吗？"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "听 thanh một, 见 thanh bốn; không đọc 见 thành thanh nhẹ.",
+          "literalTranslation": "听见 và 听到 thường cùng dùng được với tiếng người, tiếng xe, tiếng chuông. Không quy định một từ chỉ dùng khi cố ý nghe và từ kia chỉ khi vô tình nghe.",
+          "confusables": "听 nói hoạt động; 听见 nói đã nhận ra âm thanh bằng tai."
+        },
+        "pronunciation": {
+          "text": "听 thanh một, 见 thanh bốn; không đọc 见 thành thanh nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp câu: 没 / 我 / 听见。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Đổi 听见 thành 听到 trong 我听见铃声了 có nhất thiết làm câu sai không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我没听见。"
+            ],
+            "explanation": "没 đứng trước cụm động từ."
+          },
+          "q2": {
+            "accepted": [
+              "Không; 我听到铃声了 cũng tự nhiên."
+            ],
+            "explanation": "Hai cụm giao nhau khi nói kết quả nghe âm thanh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn nghe thấy tiếng chó sủa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Trả lời rằng lúc nãy bạn không nghe thấy."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt sự việc nghe được sau động từ.",
+            "frame": "我 + 听见 + sự việc + 了。",
+            "model": "我听见狗叫了。",
+            "vi": "Tôi nghe thấy chó sủa rồi.",
+            "criteria": [
+              "Âm thanh hoặc sự việc nghe thấy đặt sau 听见; 没 đặt trước 听见.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu thời điểm và phủ nhận kết quả.",
+            "frame": "刚才 + 我 + 没听见。",
+            "model": "刚才我没听见。",
+            "vi": "Lúc nãy tôi không nghe thấy.",
+            "criteria": [
+              "Âm thanh hoặc sự việc nghe thấy đặt sau 听见; 没 đặt trước 听见.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-61968b766f92",
@@ -73306,32 +73629,368 @@
         }
       ],
       "meaning": "nói cho biết",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-024 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请告诉我你的名字。",
+          "vi": "Xin cho tôi biết tên bạn.",
+          "analysis": "我 là người nhận; 你的名字 là thông tin muốn biết.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng gàosu wǒ nǐ de míngzi."
+        },
+        {
+          "id": "e2",
+          "zh": "老师告诉我们明天不上课。",
+          "vi": "Giáo viên báo cho chúng tôi biết ngày mai không học.",
+          "analysis": "我们 là người nhận; 明天不上课 là cả mệnh đề thông tin.",
+          "practiceAllowed": true,
+          "pinyin": "Lǎoshī gàosu wǒmen míngtiān bù shàngkè."
+        }
+      ],
       "sourceIndex": 309,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 316,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=告诉"
+        ],
+        "introduction": {
+          "scope": "nói cho biết"
+        },
+        "meaning": {
+          "scene": "Bạn hỏi bạn học địa chỉ lớp mới.",
+          "explanation": "告诉 là nói cho ai biết một thông tin. Cách thường dùng đặt người nhận ngay sau 告诉, rồi mới đến nội dung. Nó không chỉ miêu tả hành động phát ra lời nói.",
+          "boundary": "告诉 thường cần người nhận trong câu đầy đủ. 说 có thể trực tiếp đi với lời nói hoặc ngôn ngữ; không thay máy móc hai từ.",
+          "conditions": [
+            "Với câu nhờ vả, 请告诉我… vừa rõ người nhận vừa lịch sự. Nội dung có thể là một câu hỏi gián tiếp."
+          ],
+          "takeaway": "告诉 là nói cho ai biết một thông tin. Cách thường dùng đặt người nhận ngay sau 告诉, rồi mới đến nội dung. Nó không chỉ miêu tả hành động phát ra lời nói."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người nói + 告诉 + người nhận + thông tin",
+            "position": "我 trong 告诉我 là người được báo, không phải người nói. Nội dung đặt sau người nhận.",
+            "required": "Với câu nhờ vả, 请告诉我… vừa rõ người nhận vừa lịch sự. Nội dung có thể là một câu hỏi gián tiếp.",
+            "omission": "Khi thông tin đã rõ, có thể chỉ nói 请告诉我; người nhận có thể được hiểu ngầm trong một số ngữ cảnh, nhưng nên giữ ở câu cơ bản.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请告诉我你的名字。",
+            "vi": "Xin cho tôi biết tên bạn.",
+            "analysis": "我 là người nhận; 你的名字 là thông tin muốn biết.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng gàosu wǒ nǐ de míngzi."
+          },
+          {
+            "id": "e2",
+            "zh": "老师告诉我们明天不上课。",
+            "vi": "Giáo viên báo cho chúng tôi biết ngày mai không học.",
+            "analysis": "我们 là người nhận; 明天不上课 là cả mệnh đề thông tin.",
+            "practiceAllowed": true,
+            "pinyin": "Lǎoshī gàosu wǒmen míngtiān bù shàngkè."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "告诉 khác 说 ở cách đưa người nhận vào câu",
+            "scene": "Bạn muốn báo giờ bắt đầu cho một người.",
+            "possibleConfusion": "告诉 khác 说 ở cách đưa người nhận vào câu",
+            "difference": "告诉我 đặt người nhận ngay sau động từ; 对我说 dùng 对 để giới thiệu người được nói với.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他告诉我，明天八点上课。",
+                "vi": "Anh ấy báo cho tôi rằng ngày mai học lúc tám giờ.",
+                "comment": "Nhấn việc truyền thông tin cho tôi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他对我说：“明天八点上课。”",
+                "vi": "Anh ấy nói với tôi: “Ngày mai học lúc tám giờ.”",
+                "comment": "Dẫn lời nói bằng 对我说.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Có thể diễn đạt gần cùng sự việc nhưng phải đổi khung: 告诉我 hoặc 对我说."
+            },
+            "boundary": "Không coi mọi câu có 说 là có thể đổi riêng 说 thành 告诉; 说汉语 là nói tiếng Trung.",
+            "tip": "告诉 + ai + điều gì."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "告 thanh bốn; 诉 thường đọc thanh nhẹ trong từ này, vẫn phát âm rõ.",
+          "literalTranslation": "告诉 thường cần người nhận trong câu đầy đủ. 说 có thể trực tiếp đi với lời nói hoặc ngôn ngữ; không thay máy móc hai từ.",
+          "confusables": "告诉我 đặt người nhận ngay sau động từ; 对我说 dùng 对 để giới thiệu người được nói với."
+        },
+        "pronunciation": {
+          "text": "告 thanh bốn; 诉 thường đọc thanh nhẹ trong từ này, vẫn phát âm rõ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp câu: 地址 / 告诉 / 请 / 我 / 你的。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong 老师告诉我们明天不上课, ai nhận thông tin?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请告诉我你的地址。"
+            ],
+            "explanation": "Người nhận 我 đi trước nội dung 你的地址."
+          },
+          "q2": {
+            "accepted": [
+              "我们。"
+            ],
+            "explanation": "老师 là người báo, 我们 là người được báo."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhờ một người cho bạn biết số điện thoại của họ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói mẹ đã cho bạn biết hôm nay rất lạnh."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đưa người nhận trước thông tin.",
+            "frame": "请 + 告诉 + 我 + 你的电话号码。",
+            "model": "请告诉我你的电话号码。",
+            "vi": "Xin cho tôi biết số điện thoại của bạn.",
+            "criteria": [
+              "我 trong 告诉我 là người được báo, không phải người nói. Nội dung đặt sau người nhận.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Người nói, người nhận, rồi nội dung.",
+            "frame": "妈妈 + 告诉 + 我 + 今天很冷。",
+            "model": "妈妈告诉我今天很冷。",
+            "vi": "Mẹ nói cho tôi biết hôm nay rất lạnh.",
+            "criteria": [
+              "我 trong 告诉我 là người được báo, không phải người nói. Nội dung đặt sau người nhận.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "hát một bài hát",
+      "meaning": "hát",
       "intro": [
         {
           "pinyin": "chànggē",
-          "meaning": "hát một bài hát"
+          "meaning": "hát"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我喜欢唱歌。",
+          "vi": "Tôi thích hát.",
+          "analysis": "唱歌 là hoạt động được 喜欢 hướng đến; không giới hạn một bài.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xǐhuan chànggē."
+        },
+        {
+          "id": "e2",
+          "zh": "她唱了两首歌。",
+          "vi": "Cô ấy đã hát hai bài.",
+          "analysis": "两首 nằm giữa 唱了 và 歌; 首 đếm bài hát.",
+          "practiceAllowed": true,
+          "targetParts": [
+            "唱",
+            "歌"
+          ],
+          "pinyin": "Tā chàng le liǎng shǒu gē."
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-5d8638315835",
       "hanzi": "唱歌",
       "level": 1,
       "sourceIndex": 310,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-024 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 317,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=唱歌"
+        ],
+        "introduction": {
+          "scope": "hát"
+        },
+        "meaning": {
+          "scene": "Bạn nói về hoạt động mình thích làm khi rảnh.",
+          "explanation": "唱歌 là hát, không tự có nghĩa chỉ hát đúng một bài. 唱 là hành động, 歌 là bài hát; vì vậy có thể chèn thành phần đếm giữa chúng khi cần nói số bài.",
+          "boundary": "Khi chỉ hoạt động, dùng 唱歌. Khi nêu bài cụ thể, dùng 唱这首歌; khi đếm, dùng 唱一首歌. 首 là lượng từ cho bài hát.",
+          "conditions": [
+            "Không nối thêm tên bài như một tân ngữ mới sau cả cụm 唱歌; dùng 唱 + bài hát."
+          ],
+          "takeaway": "唱歌 là hát, không tự có nghĩa chỉ hát đúng một bài. 唱 là hành động, 歌 là bài hát; vì vậy có thể chèn thành phần đếm giữa chúng khi cần nói số bài."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 唱歌；người + 唱 + số + 首 + 歌",
+            "position": "Trong khung đếm bài, số và 首 đứng giữa 唱 và 歌. 了 chỉ hoàn tất có thể đứng sau 唱.",
+            "required": "Không nối thêm tên bài như một tân ngữ mới sau cả cụm 唱歌; dùng 唱 + bài hát.",
+            "omission": "Khi đã rõ hoạt động, 唱 cũng có thể đứng một mình; 唱歌 là cách nói rõ hoạt động hát.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我喜欢唱歌。",
+            "vi": "Tôi thích hát.",
+            "analysis": "唱歌 là hoạt động được 喜欢 hướng đến; không giới hạn một bài.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xǐhuan chànggē."
+          },
+          {
+            "id": "e2",
+            "zh": "她唱了两首歌。",
+            "vi": "Cô ấy đã hát hai bài.",
+            "analysis": "两首 nằm giữa 唱了 và 歌; 首 đếm bài hát.",
+            "practiceAllowed": true,
+            "targetParts": [
+              "唱",
+              "歌"
+            ],
+            "pinyin": "Tā chàng le liǎng shǒu gē."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Hoạt động hát và hát một bài",
+            "scene": "Bạn kể mình đã hát mấy bài.",
+            "possibleConfusion": "Hoạt động hát và hát một bài",
+            "difference": "唱歌 chỉ hoạt động; 唱一首歌 nêu số lượng một bài.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他在唱歌。",
+                "vi": "Anh ấy đang hát.",
+                "comment": "Không cho biết hát bao nhiêu bài.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他唱了一首歌。",
+                "vi": "Anh ấy đã hát một bài.",
+                "comment": "一首 nêu số lượng, 了 nêu hoàn tất.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thêm 一首 làm rõ số bài; không nên dịch mọi 唱歌 thành hát một bài hát."
+            },
+            "boundary": "Có thể dùng 唱歌 khi không cần nói số lượng, dù thực tế chỉ hát một bài.",
+            "tip": "Đếm bài: số + 首 đứng trước 歌."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "唱 thanh bốn, 歌 thanh một; giữ rõ âm cuối mũi của 唱.",
+          "literalTranslation": "Khi chỉ hoạt động, dùng 唱歌. Khi nêu bài cụ thể, dùng 唱这首歌; khi đếm, dùng 唱一首歌. 首 là lượng từ cho bài hát.",
+          "confusables": "唱歌 chỉ hoạt động; 唱一首歌 nêu số lượng một bài."
+        },
+        "pronunciation": {
+          "text": "唱 thanh bốn, 歌 thanh một; giữ rõ âm cuối mũi của 唱. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 歌 / 唱了 / 三首 / 他。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "我喜欢唱歌 có khẳng định tôi thích hát đúng một bài không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "他唱了三首歌。"
+            ],
+            "explanation": "三首 đi trước 歌, không đặt sau cả 唱歌."
+          },
+          "q2": {
+            "accepted": [
+              "Không; câu nói tôi thích hoạt động hát."
+            ],
+            "explanation": "唱歌 không mang sẵn số lượng một."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói em gái bạn thích hát."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể rằng hôm qua bạn hát hai bài."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt hoạt động sau 喜欢.",
+            "frame": "我妹妹 + 喜欢 + 唱歌。",
+            "model": "我妹妹喜欢唱歌。",
+            "vi": "Em gái tôi thích hát.",
+            "criteria": [
+              "Trong khung đếm bài, số và 首 đứng giữa 唱 và 歌. 了 chỉ hoàn tất có thể đứng sau 唱.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Thêm thời gian và số bài.",
+            "frame": "昨天 + 我 + 唱了 + 两首歌。",
+            "model": "昨天我唱了两首歌。",
+            "vi": "Hôm qua tôi đã hát hai bài.",
+            "criteria": [
+              "Trong khung đếm bài, số và 首 đứng giữa 唱 và 歌. 了 chỉ hoàn tất có thể đứng sau 唱.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-6633bf9ff9e4",
@@ -73344,18 +74003,177 @@
         }
       ],
       "meaning": "thích",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-024 · trung bình",
       "examples": [
         {
+          "id": "e1",
           "zh": "我喜欢这本书。",
-          "vi": "Tôi thích quyển sách này."
+          "vi": "Tôi thích quyển sách này.",
+          "analysis": "这本书 là vật được thích; 本 là lượng từ của sách.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xǐhuan zhè běn shū."
+        },
+        {
+          "id": "e2",
+          "zh": "她不喜欢喝咖啡。",
+          "vi": "Cô ấy không thích uống cà phê.",
+          "analysis": "喝咖啡 là cả hoạt động; 不 phủ định sở thích.",
+          "practiceAllowed": true,
+          "pinyin": "Tā bù xǐhuan hē kāfēi."
         }
       ],
       "sourceIndex": 311,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 318,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=喜欢"
+        ],
+        "introduction": {
+          "scope": "thích"
+        },
+        "meaning": {
+          "scene": "Bạn nói với bạn mới về đồ uống mình thích.",
+          "explanation": "喜欢 thể hiện sự yêu thích đối với người, đồ vật hoặc hoạt động. Sau 喜欢 có thể là danh từ hoặc một cụm hành động; không cần thêm 是 để nối chủ ngữ.",
+          "boundary": "喜欢 nói sở thích hoặc tình cảm; 想 có thể nói mong muốn thực hiện một việc lúc này. Thích uống trà không có nghĩa lúc nào cũng muốn uống.",
+          "conditions": [
+            "Phủ định sở thích thường dùng 不喜欢. 很喜欢 thể hiện mức thích rõ; 喜欢 không cần 很 mới dùng được."
+          ],
+          "takeaway": "喜欢 thể hiện sự yêu thích đối với người, đồ vật hoặc hoạt động. Sau 喜欢 có thể là danh từ hoặc một cụm hành động; không cần thêm 是 để nối chủ ngữ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 喜欢 + người/vật/hoạt động",
+            "position": "Đối tượng đứng sau 喜欢; 很 hoặc 不 đứng trước 喜欢.",
+            "required": "Phủ định sở thích thường dùng 不喜欢. 很喜欢 thể hiện mức thích rõ; 喜欢 không cần 很 mới dùng được.",
+            "omission": "Khi đã rõ đối tượng, có thể trả lời 喜欢 hoặc 不喜欢.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我喜欢这本书。",
+            "vi": "Tôi thích quyển sách này.",
+            "analysis": "这本书 là vật được thích; 本 là lượng từ của sách.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xǐhuan zhè běn shū."
+          },
+          {
+            "id": "e2",
+            "zh": "她不喜欢喝咖啡。",
+            "vi": "Cô ấy không thích uống cà phê.",
+            "analysis": "喝咖啡 là cả hoạt động; 不 phủ định sở thích.",
+            "practiceAllowed": true,
+            "pinyin": "Tā bù xǐhuan hē kāfēi."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Thích khác muốn làm lúc này",
+            "scene": "Bạn thích trà nhưng đang không muốn uống thêm.",
+            "possibleConfusion": "Thích khác muốn làm lúc này",
+            "difference": "喜欢 nói sự ưa thích; 想喝 nói mong muốn uống trong tình huống cụ thể.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我喜欢喝茶。",
+                "vi": "Tôi thích uống trà.",
+                "comment": "Sở thích.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我现在想喝茶。",
+                "vi": "Bây giờ tôi muốn uống trà.",
+                "comment": "Mong muốn lúc này.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 喜欢 bằng 想 đổi từ sở thích sang mong muốn; không phải lỗi ngữ pháp."
+            },
+            "boundary": "Một người có thể vừa thích vừa muốn uống; hai ý không loại trừ nhau.",
+            "tip": "Sở thích: 喜欢; muốn làm: 想 + việc."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "喜 có thanh gốc ba, 欢 đọc nhẹ; không kéo âm nhẹ thành thanh một đầy đủ.",
+          "literalTranslation": "喜欢 nói sở thích hoặc tình cảm; 想 có thể nói mong muốn thực hiện một việc lúc này. Thích uống trà không có nghĩa lúc nào cũng muốn uống.",
+          "confusables": "喜欢 nói sự ưa thích; 想喝 nói mong muốn uống trong tình huống cụ thể."
+        },
+        "pronunciation": {
+          "text": "喜 có thanh gốc ba, 欢 đọc nhẹ; không kéo âm nhẹ thành thanh một đầy đủ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 咖啡 / 喜欢 / 不 / 我 / 喝。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "我喜欢喝茶 và 我现在想喝茶 khác nhau thế nào?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我不喜欢喝咖啡。"
+            ],
+            "explanation": "不 ở trước 喜欢; hoạt động 喝咖啡 ở sau."
+          },
+          "q2": {
+            "accepted": [
+              "Câu đầu nói sở thích; câu sau nói muốn uống trà bây giờ."
+            ],
+            "explanation": "Thích một hoạt động không nhất thiết muốn làm ngay."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn thích học tiếng Trung."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn không thích quyển sách này."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng cả hoạt động làm đối tượng.",
+            "frame": "我 + 喜欢 + 学中文。",
+            "model": "我喜欢学中文。",
+            "vi": "Tôi thích học tiếng Trung.",
+            "criteria": [
+              "Đối tượng đứng sau 喜欢; 很 hoặc 不 đứng trước 喜欢.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Phủ định sở thích.",
+            "frame": "我 + 不喜欢 + 这本书。",
+            "model": "我不喜欢这本书。",
+            "vi": "Tôi không thích quyển sách này.",
+            "criteria": [
+              "Đối tượng đứng sau 喜欢; 很 hoặc 不 đứng trước 喜欢.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-e6d8f4c4bfdd",
@@ -73368,13 +74186,177 @@
         }
       ],
       "meaning": "quên",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-024 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我忘记他的名字了。",
+          "vi": "Tôi quên tên anh ấy rồi.",
+          "analysis": "他的名字 là thông tin bị quên; 了 cuối câu báo tình trạng hiện tại.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ wàngjì tā de míngzi le."
+        },
+        {
+          "id": "e2",
+          "zh": "别忘记带书。",
+          "vi": "Đừng quên mang sách.",
+          "analysis": "别 tạo lời nhắc; 带书 là việc cần làm.",
+          "practiceAllowed": true,
+          "pinyin": "Bié wàngjì dài shū."
+        }
+      ],
       "sourceIndex": 312,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 319,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=忘记"
+        ],
+        "introduction": {
+          "scope": "quên"
+        },
+        "meaning": {
+          "scene": "Bạn không nhớ tên người vừa gặp.",
+          "explanation": "忘记 là quên một thông tin, một người hoặc một việc cần làm. Có thể đặt tên, địa chỉ hay cụm hành động sau từ này. Khi nhắc ai đừng quên, dùng 别忘记 hoặc 不要忘记.",
+          "boundary": "忘 và 忘记 thường gần nghĩa khi nói quên tên hoặc quên làm việc. Không có ranh giới cứng rằng một từ chỉ quên tạm thời, từ kia quên vĩnh viễn.",
+          "conditions": [
+            "我没忘记 nói lần này vẫn không quên; 我不忘记 thường cần ngữ cảnh thói quen hoặc lời khẳng định, không thay máy móc cho 没."
+          ],
+          "takeaway": "忘记 là quên một thông tin, một người hoặc một việc cần làm. Có thể đặt tên, địa chỉ hay cụm hành động sau từ này. Khi nhắc ai đừng quên, dùng 别忘记 hoặc 不要忘记."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 忘记 + thông tin/việc；别 + 忘记 + việc",
+            "position": "别 đứng trước 忘记; việc cần nhớ đặt sau, như 带书 là mang sách.",
+            "required": "我没忘记 nói lần này vẫn không quên; 我不忘记 thường cần ngữ cảnh thói quen hoặc lời khẳng định, không thay máy móc cho 没.",
+            "omission": "Có thể lược điều bị quên khi đã rõ: 我忘记了.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我忘记他的名字了。",
+            "vi": "Tôi quên tên anh ấy rồi.",
+            "analysis": "他的名字 là thông tin bị quên; 了 cuối câu báo tình trạng hiện tại.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ wàngjì tā de míngzi le."
+          },
+          {
+            "id": "e2",
+            "zh": "别忘记带书。",
+            "vi": "Đừng quên mang sách.",
+            "analysis": "别 tạo lời nhắc; 带书 là việc cần làm.",
+            "practiceAllowed": true,
+            "pinyin": "Bié wàngjì dài shū."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Không quên khác đừng quên",
+            "scene": "Một người báo mình vẫn nhớ, người kia nhắc việc sắp làm.",
+            "possibleConfusion": "Không quên khác đừng quên",
+            "difference": "没忘记 phủ nhận việc đã quên; 别忘记 là lời nhắc người nghe.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我没忘记你的生日。",
+                "vi": "Tôi không quên sinh nhật của bạn.",
+                "comment": "Báo mình vẫn nhớ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "别忘记我的生日。",
+                "vi": "Đừng quên sinh nhật của tôi.",
+                "comment": "Nhắc người kia nhớ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 没 bằng 别 chuyển từ kể tình trạng sang yêu cầu, cần đổi người/ngữ cảnh phù hợp."
+            },
+            "boundary": "忘 và 忘记 có thể thay nhau ở nhiều câu trong bài.",
+            "tip": "Kể vẫn nhớ: 没忘记; nhắc: 别忘记."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "忘 và 记 đều thanh bốn; âm đầu của 记 không bật hơi mạnh.",
+          "literalTranslation": "忘 và 忘记 thường gần nghĩa khi nói quên tên hoặc quên làm việc. Không có ranh giới cứng rằng một từ chỉ quên tạm thời, từ kia quên vĩnh viễn.",
+          "confusables": "没忘记 phủ nhận việc đã quên; 别忘记 là lời nhắc người nghe."
+        },
+        "pronunciation": {
+          "text": "忘 và 记 đều thanh bốn; âm đầu của 记 không bật hơi mạnh. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền lời nhắc: …忘记带书。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bạn không quên sinh nhật mẹ trong lần này."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "别忘记带书。"
+            ],
+            "explanation": "别 tạo lời nhắc đừng quên; 不要 cũng được."
+          },
+          "q2": {
+            "accepted": [
+              "我没忘记妈妈的生日。"
+            ],
+            "explanation": "没 phủ nhận việc quên; các cách diễn đạt vẫn nhớ đúng ngữ cảnh cũng hợp lý."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn quên số điện thoại của anh ấy rồi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhắc bạn đừng quên làm bài tập."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt thông tin bị quên sau động từ.",
+            "frame": "我 + 忘记 + 他的电话号码 + 了。",
+            "model": "我忘记他的电话号码了。",
+            "vi": "Tôi quên số điện thoại của anh ấy rồi.",
+            "criteria": [
+              "别 đứng trước 忘记; việc cần nhớ đặt sau, như 带书 là mang sách.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng lời nhắc trước hoạt động.",
+            "frame": "别忘记 + 做作业。",
+            "model": "别忘记做作业。",
+            "vi": "Đừng quên làm bài tập.",
+            "criteria": [
+              "别 đứng trước 忘记; việc cần nhớ đặt sau, như 带书 là mang sách.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-a06d3ae479ac",
@@ -73387,32 +74369,360 @@
         }
       ],
       "meaning": "hiểu rõ",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
-      "sourceIndex": 313,
-      "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-    },
-    {
-      "meaning": "nhìn thấy",
-      "intro": [
+      "editorialStatus": "Biên soạn V2 · batch-024 · phức tạp",
+      "examples": [
         {
-          "pinyin": "kàn dào",
-          "meaning": "nhìn thấy"
+          "id": "e1",
+          "zh": "我明白你的意思了。",
+          "vi": "Tôi hiểu ý bạn rồi.",
+          "analysis": "你的意思 là nội dung hiểu được; 了 báo đã hiểu ra.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ míngbai nǐ de yìsi le."
+        },
+        {
+          "id": "e2",
+          "zh": "我不明白他为什么不来。",
+          "vi": "Tôi không hiểu vì sao anh ấy không đến.",
+          "analysis": "他为什么不来 là điều chưa hiểu, không phải câu hỏi trực tiếp độc lập.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ bù míngbai tā wèishénme bù lái."
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "sourceIndex": 313,
+      "meaningOrigin": "biên soạn mới",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 320,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=明白"
+        ],
+        "introduction": {
+          "scope": "hiểu rõ"
+        },
+        "meaning": {
+          "scene": "Sau khi giáo viên giải thích, bạn hiểu cách làm bài.",
+          "explanation": "明白 dùng để nói đã hiểu ý, nguyên nhân hoặc cách làm. Nó cũng có thể diễn tả sự rõ ràng, như 说得很明白 là nói rất rõ. Bài này tập trung vào người hiểu nội dung.",
+          "boundary": "知道 là biết thông tin; 明白 nhấn hiểu được nội dung hay lý do. Hai từ có lúc cùng dịch là biết/hiểu, nhưng không thay được trong mọi câu.",
+          "conditions": [
+            "我明白了 thường báo vừa hiểu ra; 我不明白 nói hiện chưa hiểu. Có thể dùng 明白 + câu hỏi gián tiếp để nêu điều chưa hiểu."
+          ],
+          "takeaway": "明白 dùng để nói đã hiểu ý, nguyên nhân hoặc cách làm. Nó cũng có thể diễn tả sự rõ ràng, như 说得很明白 là nói rất rõ. Bài này tập trung vào người hiểu nội dung."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 明白 + ý/nội dung；người + 不明白 + điều chưa hiểu",
+            "position": "Nội dung hoặc câu hỏi gián tiếp nằm sau 明白; 不 đứng trước cả động từ.",
+            "required": "我明白了 thường báo vừa hiểu ra; 我不明白 nói hiện chưa hiểu. Có thể dùng 明白 + câu hỏi gián tiếp để nêu điều chưa hiểu.",
+            "omission": "Có thể đáp 明白了 khi đã rõ điều được giải thích.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我明白你的意思了。",
+            "vi": "Tôi hiểu ý bạn rồi.",
+            "analysis": "你的意思 là nội dung hiểu được; 了 báo đã hiểu ra.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ míngbai nǐ de yìsi le."
+          },
+          {
+            "id": "e2",
+            "zh": "我不明白他为什么不来。",
+            "vi": "Tôi không hiểu vì sao anh ấy không đến.",
+            "analysis": "他为什么不来 là điều chưa hiểu, không phải câu hỏi trực tiếp độc lập.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ bù míngbai tā wèishénme bù lái."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Biết một sự việc và hiểu lý do",
+            "scene": "Bạn biết người bạn không đến, nhưng chưa hiểu nguyên nhân.",
+            "possibleConfusion": "Biết một sự việc và hiểu lý do",
+            "difference": "知道 ghi nhận thông tin; 明白 diễn tả hiểu điều được giải thích.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我知道他不来。",
+                "vi": "Tôi biết anh ấy không đến.",
+                "comment": "Biết sự việc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我不明白他为什么不来。",
+                "vi": "Tôi không hiểu vì sao anh ấy không đến.",
+                "comment": "Chưa hiểu lý do.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 知道 thành 明白 có thể chuyển sang hiểu hoặc nhận ra; không chỉ xác nhận đã có thông tin."
+            },
+            "boundary": "明白你的意思 và 知道你的意思 đôi khi gần nhau; 明白 làm nổi bật việc hiểu ý.",
+            "tip": "Biết việc gì: 知道; hiểu ý/lý do: 明白."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "明 thanh hai; 白 thường đọc nhẹ trong từ 明白 ở khẩu ngữ.",
+          "literalTranslation": "知道 là biết thông tin; 明白 nhấn hiểu được nội dung hay lý do. Hai từ có lúc cùng dịch là biết/hiểu, nhưng không thay được trong mọi câu.",
+          "confusables": "知道 ghi nhận thông tin; 明白 diễn tả hiểu điều được giải thích."
+        },
+        "pronunciation": {
+          "text": "明 thanh hai; 白 thường đọc nhẹ trong từ 明白 ở khẩu ngữ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 你的意思 / 明白 / 我 / 了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Bạn biết anh ấy không đến nhưng không hiểu vì sao. Dùng 知道 và 明白 nói hai ý này."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我明白你的意思了。"
+            ],
+            "explanation": "Đặt điều hiểu được sau 明白."
+          },
+          "q2": {
+            "accepted": [
+              "我知道他不来，但是不明白他为什么不来。"
+            ],
+            "explanation": "Biết sự việc chưa đồng nghĩa hiểu lý do."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Báo với giáo viên rằng bạn đã hiểu rồi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn chưa hiểu ý của cô ấy."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng câu trả lời gọn khi nội dung đã rõ.",
+            "frame": "我 + 明白 + 了。",
+            "model": "我明白了。",
+            "vi": "Tôi hiểu rồi.",
+            "criteria": [
+              "Nội dung hoặc câu hỏi gián tiếp nằm sau 明白; 不 đứng trước cả động từ.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu rõ nội dung chưa hiểu.",
+            "frame": "我 + 不明白 + 她的意思。",
+            "model": "我不明白她的意思。",
+            "vi": "Tôi không hiểu ý cô ấy.",
+            "criteria": [
+              "Nội dung hoặc câu hỏi gián tiếp nằm sau 明白; 不 đứng trước cả động từ.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "meaning": "nhìn thấy; thấy được",
+      "intro": [
+        {
+          "pinyin": "kàndào",
+          "meaning": "nhìn thấy; thấy được"
+        }
+      ],
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我在门口看到老师了。",
+          "vi": "Tôi nhìn thấy giáo viên ở cửa rồi.",
+          "analysis": "在门口 nêu nơi nhìn thấy; 老师 là người được thấy.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ zài ménkǒu kàndào lǎoshī le."
+        },
+        {
+          "id": "e2",
+          "zh": "你发的消息，我没看到。",
+          "vi": "Tin nhắn bạn gửi, tôi chưa thấy.",
+          "analysis": "Đưa tin nhắn lên đầu làm chủ đề; 没看到 phủ nhận kết quả nhìn/đọc được.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ fā de xiāoxi, wǒ méi kàndào."
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-1f951e12b2fb",
       "hanzi": "看到",
       "level": 1,
       "sourceIndex": 314,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-024 · phức tạp",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 321,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=看到"
+        ],
+        "introduction": {
+          "scope": "nhìn thấy; thấy được"
+        },
+        "meaning": {
+          "scene": "Bạn nhìn ra cửa sổ và thấy một chiếc xe.",
+          "explanation": "看到 nói việc nhìn đã có kết quả: thấy một người, vật, chữ viết hoặc thông tin. 到 bổ sung kết quả cho 看; không phải mỗi 看到 đều diễn tả một cuộc đi đến nơi nào.",
+          "boundary": "看到 và 看见 thường thay được khi thấy người/vật. 看到 còn hay dùng với tin tức, sự thay đổi hoặc kết quả quan sát; đây là xu hướng kết hợp, không phải ranh giới tuyệt đối.",
+          "conditions": [
+            "没看到 nói lần đã xét không thấy; 看不到 nói không thể thấy trong điều kiện nào đó. 看到 không tự có nghĩa hiểu hết nội dung nhìn được."
+          ],
+          "takeaway": "看到 nói việc nhìn đã có kết quả: thấy một người, vật, chữ viết hoặc thông tin. 到 bổ sung kết quả cho 看; không phải mỗi 看到 đều diễn tả một cuộc đi đến nơi nào."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 看到 + người/vật/thông tin；người + 没看到 + đối tượng",
+            "position": "Đặt đối tượng sau 看到; địa điểm có thể đặt trước động từ với 在.",
+            "required": "没看到 nói lần đã xét không thấy; 看不到 nói không thể thấy trong điều kiện nào đó. 看到 không tự có nghĩa hiểu hết nội dung nhìn được.",
+            "omission": "Có thể lược đối tượng nếu câu hỏi trước đã nêu rõ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我在门口看到老师了。",
+            "vi": "Tôi nhìn thấy giáo viên ở cửa rồi.",
+            "analysis": "在门口 nêu nơi nhìn thấy; 老师 là người được thấy.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zài ménkǒu kàndào lǎoshī le."
+          },
+          {
+            "id": "e2",
+            "zh": "你发的消息，我没看到。",
+            "vi": "Tin nhắn bạn gửi, tôi chưa thấy.",
+            "analysis": "Đưa tin nhắn lên đầu làm chủ đề; 没看到 phủ nhận kết quả nhìn/đọc được.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ fā de xiāoxi, wǒ méi kàndào."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Nhìn thấy chữ chưa chắc hiểu",
+            "scene": "Bạn thấy một câu tiếng Trung trên bảng.",
+            "possibleConfusion": "Nhìn thấy chữ chưa chắc hiểu",
+            "difference": "看到 xác nhận đã thấy; 看懂 xác nhận hiểu nội dung qua việc đọc/nhìn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我看到了，但是没看懂。",
+                "vi": "Tôi thấy rồi, nhưng chưa hiểu.",
+                "comment": "Thấy được mà chưa hiểu.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我看懂了这句话。",
+                "vi": "Tôi đã đọc hiểu câu này.",
+                "comment": "Xác nhận hiểu nghĩa.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 看到 bằng 看懂 thêm kết quả hiểu; không thể coi hai cụm là đồng nghĩa."
+            },
+            "boundary": "看到老师 và 看见老师 thường gần nghĩa.",
+            "tip": "Thấy được: 看到; đọc hiểu: 看懂."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "看 ở đây thanh bốn, 到 thanh bốn. 看 trong 看门 có cách đọc thanh một với nghĩa trông coi; không áp dụng cách đọc đó cho 看到.",
+          "literalTranslation": "看到 và 看见 thường thay được khi thấy người/vật. 看到 còn hay dùng với tin tức, sự thay đổi hoặc kết quả quan sát; đây là xu hướng kết hợp, không phải ranh giới tuyệt đối.",
+          "confusables": "看到 xác nhận đã thấy; 看懂 xác nhận hiểu nội dung qua việc đọc/nhìn."
+        },
+        "pronunciation": {
+          "text": "看 ở đây thanh bốn, 到 thanh bốn. 看 trong 看门 có cách đọc thanh một với nghĩa trông coi; không áp dụng cách đọc đó cho 看到. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói bạn không thấy tin nhắn đã gửi: 我…看到你发的消息。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "看到 có bảo đảm đã 看懂 không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我没看到你发的消息。"
+            ],
+            "explanation": "没 phủ nhận kết quả nhìn/đọc được trong lần này."
+          },
+          "q2": {
+            "accepted": [
+              "Không. Có thể nói 我看到了，但是没看懂。"
+            ],
+            "explanation": "Thấy và hiểu là hai kết quả khác nhau."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn thấy một con mèo ở ngoài cửa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Báo bạn đã thấy tin nhắn của người kia."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu địa điểm trước cụm kết quả.",
+            "frame": "我 + 在门外 + 看到 + 一只猫。",
+            "model": "我在门外看到一只猫。",
+            "vi": "Tôi thấy một con mèo ở ngoài cửa.",
+            "criteria": [
+              "Đặt đối tượng sau 看到; địa điểm có thể đặt trước động từ với 在.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Đặt thông tin sau động từ.",
+            "frame": "我 + 看到 + 你的消息 + 了。",
+            "model": "我看到你的消息了。",
+            "vi": "Tôi thấy tin nhắn của bạn rồi.",
+            "criteria": [
+              "Đặt đối tượng sau 看到; địa điểm có thể đặt trước động từ với 在.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-f433807a1781",
@@ -73425,18 +74735,177 @@
         }
       ],
       "meaning": "nhìn thấy",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-024 · trung bình",
       "examples": [
         {
-          "zh": "我看见老师了。",
-          "vi": "Tôi nhìn thấy thầy giáo rồi."
+          "id": "e1",
+          "zh": "我看见小王了。",
+          "vi": "Tôi nhìn thấy Tiểu Vương rồi.",
+          "analysis": "小王 là người được nhìn thấy; 了 báo phát hiện mới.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ kànjiàn Xiǎo Wáng le."
+        },
+        {
+          "id": "e2",
+          "zh": "你看见我的书了吗？",
+          "vi": "Bạn có thấy sách của tôi không?",
+          "analysis": "我的书 là đối tượng tìm; 了吗 hỏi đã thấy hay chưa.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ kànjiàn wǒ de shū le ma?"
         }
       ],
       "sourceIndex": 315,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 322,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=看见"
+        ],
+        "introduction": {
+          "scope": "nhìn thấy"
+        },
+        "meaning": {
+          "scene": "Bạn nhận ra bạn học bên kia đường.",
+          "explanation": "看见 nói kết quả nhìn thấy một người hoặc vật. Nó khác 看 ở chỗ không chỉ nói đang nhìn hay xem, mà xác nhận đối tượng đã được mắt nhận thấy.",
+          "boundary": "看见 không tự bảo đảm đọc hiểu hoặc nhận biết người đó là ai. 看到 thường thay được khi nói nhìn thấy người, vật trong đời thường.",
+          "conditions": [
+            "没看见 phủ nhận lần nhìn thấy; 看不见 nói không nhìn thấy được vì bị che, xa, tối hoặc điều kiện khác."
+          ],
+          "takeaway": "看见 nói kết quả nhìn thấy một người hoặc vật. Nó khác 看 ở chỗ không chỉ nói đang nhìn hay xem, mà xác nhận đối tượng đã được mắt nhận thấy."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 看见 + đối tượng；người + 没看见 + đối tượng",
+            "position": "Người/vật được thấy nằm sau 看见. 没 đặt trước cụm động từ.",
+            "required": "没看见 phủ nhận lần nhìn thấy; 看不见 nói không nhìn thấy được vì bị che, xa, tối hoặc điều kiện khác.",
+            "omission": "Có thể trả lời 没看见 khi đối tượng đã rõ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我看见小王了。",
+            "vi": "Tôi nhìn thấy Tiểu Vương rồi.",
+            "analysis": "小王 là người được nhìn thấy; 了 báo phát hiện mới.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ kànjiàn Xiǎo Wáng le."
+          },
+          {
+            "id": "e2",
+            "zh": "你看见我的书了吗？",
+            "vi": "Bạn có thấy sách của tôi không?",
+            "analysis": "我的书 là đối tượng tìm; 了吗 hỏi đã thấy hay chưa.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ kànjiàn wǒ de shū le ma?"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "看 là nhìn/xem, 看见 là thấy",
+            "scene": "Bạn nhìn ra cửa nhưng không thấy ai.",
+            "possibleConfusion": "看 là nhìn/xem, 看见 là thấy",
+            "difference": "Thực hiện hành động 看 chưa chắc đạt kết quả 看见.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我看了看门外。",
+                "vi": "Tôi nhìn ra ngoài cửa một chút.",
+                "comment": "Chỉ kể hành động nhìn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我没看见人。",
+                "vi": "Tôi không thấy ai.",
+                "comment": "Không có kết quả thấy người.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 看 thành 看见 làm thay đổi từ hành động sang kết quả; không thay riêng từ mà giữ mọi thành phần khác một cách máy móc."
+            },
+            "boundary": "看见 một người không nhất thiết 认识 người đó; 认识 là biết/quen người ấy.",
+            "tip": "Có nhìn chưa chắc có thấy."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "看 và 见 đều thanh bốn; 看 trong từ này không đọc thanh một.",
+          "literalTranslation": "看见 không tự bảo đảm đọc hiểu hoặc nhận biết người đó là ai. 看到 thường thay được khi nói nhìn thấy người, vật trong đời thường.",
+          "confusables": "Thực hiện hành động 看 chưa chắc đạt kết quả 看见."
+        },
+        "pronunciation": {
+          "text": "看 và 见 đều thanh bốn; 看 trong từ này không đọc thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 我的书 / 你 / 了吗 / 看见？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Một người đã 看 nhưng 没看见 có mâu thuẫn không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你看见我的书了吗？"
+            ],
+            "explanation": "Đối tượng đặt sau 看见, 了吗 ở cuối."
+          },
+          "q2": {
+            "accepted": [
+              "Không; đã nhìn nhưng có thể không thấy đối tượng."
+            ],
+            "explanation": "Hành động và kết quả cần phân biệt."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn thấy giáo viên trong thư viện."
+          },
+          {
+            "id": "s2",
+            "prompt": "Trả lời bạn không thấy điện thoại của người kia."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt nơi thấy trước động từ.",
+            "frame": "我 + 在图书馆 + 看见 + 老师 + 了。",
+            "model": "我在图书馆看见老师了。",
+            "vi": "Tôi thấy giáo viên trong thư viện rồi.",
+            "criteria": [
+              "Người/vật được thấy nằm sau 看见. 没 đặt trước cụm động từ.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Phủ nhận kết quả, nêu vật cần tìm.",
+            "frame": "我 + 没看见 + 你的手机。",
+            "model": "我没看见你的手机。",
+            "vi": "Tôi không thấy điện thoại của bạn.",
+            "criteria": [
+              "Người/vật được thấy nằm sau 看见. 没 đặt trước cụm động từ.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-f78ff4e913d1",
@@ -73449,18 +74918,177 @@
         }
       ],
       "meaning": "biết",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-024 · phức tạp",
       "examples": [
         {
-          "zh": "我不知道他在哪里。",
-          "vi": "Tôi không biết anh ấy ở đâu."
+          "id": "e1",
+          "zh": "我知道他的名字。",
+          "vi": "Tôi biết tên anh ấy.",
+          "analysis": "他的名字 là thông tin, không khẳng định hai người quen nhau.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ zhīdào tā de míngzi."
+        },
+        {
+          "id": "e2",
+          "zh": "你知道他住在哪里吗？",
+          "vi": "Bạn có biết anh ấy sống ở đâu không?",
+          "analysis": "他住在哪里 là nội dung được hỏi có biết không; 吗 kết thúc câu hỏi chính.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ zhīdào tā zhù zài nǎlǐ ma?"
         }
       ],
       "sourceIndex": 316,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 323,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=知道"
+        ],
+        "introduction": {
+          "scope": "biết"
+        },
+        "meaning": {
+          "scene": "Bạn được hỏi có biết giờ bắt đầu lớp không.",
+          "explanation": "知道 là biết một thông tin hoặc sự việc. Sau từ này có thể là tên, địa chỉ, giờ giấc, hoặc cả mệnh đề như 他住在哪里. Không cần thêm một từ nối tương đương rằng trong tiếng Việt.",
+          "boundary": "Biết một người theo nghĩa quen/nhận ra người ấy thường dùng 认识. 知道他 có thể là biết đến người ấy, chưa chắc đã gặp hoặc quen.",
+          "conditions": [
+            "不知道 là cách nói thông thường cho chưa/không biết, kể cả khi trả lời về một sự việc; không áp máy móc quy tắc phủ định của hành động đã xảy ra."
+          ],
+          "takeaway": "知道 là biết một thông tin hoặc sự việc. Sau từ này có thể là tên, địa chỉ, giờ giấc, hoặc cả mệnh đề như 他住在哪里. Không cần thêm một từ nối tương đương rằng trong tiếng Việt."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 知道 + thông tin/mệnh đề；người + 不知道 + điều chưa biết",
+            "position": "Giữ trật tự bình thường trong mệnh đề sau 知道, ví dụ 他住在哪里; không đảo như câu hỏi ngoại ngữ khác.",
+            "required": "不知道 là cách nói thông thường cho chưa/không biết, kể cả khi trả lời về một sự việc; không áp máy móc quy tắc phủ định của hành động đã xảy ra.",
+            "omission": "Khi thông tin đã rõ có thể trả lời 知道 hoặc 不知道.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我知道他的名字。",
+            "vi": "Tôi biết tên anh ấy.",
+            "analysis": "他的名字 là thông tin, không khẳng định hai người quen nhau.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zhīdào tā de míngzi."
+          },
+          {
+            "id": "e2",
+            "zh": "你知道他住在哪里吗？",
+            "vi": "Bạn có biết anh ấy sống ở đâu không?",
+            "analysis": "他住在哪里 là nội dung được hỏi có biết không; 吗 kết thúc câu hỏi chính.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ zhīdào tā zhù zài nǎlǐ ma?"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "知道 và 认识 khi nói về người",
+            "scene": "Bạn biết tên một giáo viên trên mạng nhưng chưa quen người ấy.",
+            "possibleConfusion": "知道 và 认识 khi nói về người",
+            "difference": "知道 tên hoặc thông tin không bảo đảm 认识 người đó. 认识 có thể chỉ quen hoặc nhận ra tùy đối tượng/ngữ cảnh.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我知道他的名字。",
+                "vi": "Tôi biết tên anh ấy.",
+                "comment": "Có thông tin về tên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我认识他。",
+                "vi": "Tôi biết/quen anh ấy.",
+                "comment": "Nói quan hệ quen biết hoặc khả năng nhận ra.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 知道他的名字 bằng 认识他 thay đổi điều khẳng định; không thể suy từ câu đầu ra câu sau."
+            },
+            "boundary": "知道他 có thể là biết đến anh ấy; không phải luôn sai nhưng khác 认识他.",
+            "tip": "Biết thông tin: 知道; biết người/nhận mặt: 认识."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "知 thanh một, 道 có thanh gốc bốn; trong khẩu ngữ 道 đôi khi nhẹ hơn. Giữ cách đọc thanh gốc khi luyện từ.",
+          "literalTranslation": "Biết một người theo nghĩa quen/nhận ra người ấy thường dùng 认识. 知道他 có thể là biết đến người ấy, chưa chắc đã gặp hoặc quen.",
+          "confusables": "知道 tên hoặc thông tin không bảo đảm 认识 người đó. 认识 có thể chỉ quen hoặc nhận ra tùy đối tượng/ngữ cảnh."
+        },
+        "pronunciation": {
+          "text": "知 thanh một, 道 có thanh gốc bốn; trong khẩu ngữ 道 đôi khi nhẹ hơn. Giữ cách đọc thanh gốc khi luyện từ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 他住在哪里 / 知道 / 你 / 吗？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Biết tên một người có nhất thiết là 认识 người đó không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你知道他住在哪里吗？"
+            ],
+            "explanation": "Mệnh đề thông tin ở sau 知道, 吗 ở cuối toàn câu."
+          },
+          "q2": {
+            "accepted": [
+              "Không. 我知道他的名字 không bảo đảm 我认识他。"
+            ],
+            "explanation": "Thông tin về người khác với việc quen hoặc nhận ra họ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi bạn có biết địa chỉ của giáo viên không."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn không biết cô ấy ở đâu."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt thông tin muốn biết sau động từ.",
+            "frame": "你 + 知道 + 老师的地址 + 吗？",
+            "model": "你知道老师的地址吗？",
+            "vi": "Bạn có biết địa chỉ của giáo viên không?",
+            "criteria": [
+              "Giữ trật tự bình thường trong mệnh đề sau 知道, ví dụ 他住在哪里; không đảo như câu hỏi ngoại ngữ khác.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Phủ định trước động từ, giữ mệnh đề sau.",
+            "frame": "我 + 不知道 + 她在哪里。",
+            "model": "我不知道她在哪里。",
+            "vi": "Tôi không biết cô ấy ở đâu.",
+            "criteria": [
+              "Giữ trật tự bình thường trong mệnh đề sau 知道, ví dụ 他住在哪里; không đảo như câu hỏi ngoại ngữ khác.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-a0fdbf7298f8",
@@ -73469,22 +75097,181 @@
       "intro": [
         {
           "pinyin": "juéde",
-          "meaning": "cảm thấy"
+          "meaning": "cảm thấy; cho rằng"
         }
       ],
-      "meaning": "cảm thấy",
-      "status": "example",
+      "meaning": "cảm thấy; cho rằng",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-024 · phức tạp",
       "examples": [
         {
-          "zh": "我觉得这个菜很好吃。",
-          "vi": "Tôi thấy món này ngon."
+          "id": "e1",
+          "zh": "我觉得有点儿冷。",
+          "vi": "Tôi cảm thấy hơi lạnh.",
+          "analysis": "有点儿冷 là cảm giác của 我; không cần thêm 是.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ juéde yǒudiǎnr lěng."
+        },
+        {
+          "id": "e2",
+          "zh": "你觉得这本书怎么样？",
+          "vi": "Bạn thấy quyển sách này thế nào?",
+          "analysis": "这本书怎么样 hỏi đánh giá; 你 là người đưa nhận xét.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ juéde zhè běn shū zěnmeyàng?"
         }
       ],
       "sourceIndex": 317,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 324,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=觉得"
+        ],
+        "introduction": {
+          "scope": "cảm thấy; cho rằng"
+        },
+        "meaning": {
+          "scene": "Bạn nhận xét món ăn với bạn cùng bàn.",
+          "explanation": "觉得 giới thiệu cảm giác hoặc đánh giá của người nói: thấy lạnh, thấy món ăn ngon, cho rằng một cách làm phù hợp. Sau nó thường là tính chất hoặc một mệnh đề nêu điều bạn cảm nhận.",
+          "boundary": "觉得 không nói việc nhìn thấy bằng mắt. Với nhận xét, nó gần với cách nói tôi thấy/tôi nghĩ trong tiếng Việt; không có nghĩa rằng nhận xét chắc chắn sai.",
+          "conditions": [
+            "Có thể nói 我觉得冷 về cảm giác, hoặc 我觉得这个菜很好吃 về nhận xét. 不觉得… là không có cảm nhận ấy, chưa nhất thiết khẳng định điều ngược lại."
+          ],
+          "takeaway": "觉得 giới thiệu cảm giác hoặc đánh giá của người nói: thấy lạnh, thấy món ăn ngon, cho rằng một cách làm phù hợp. Sau nó thường là tính chất hoặc một mệnh đề nêu điều bạn cảm nhận."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 觉得 + tính chất/mệnh đề",
+            "position": "Đặt nội dung cảm nhận ngay sau 觉得; chủ ngữ trong mệnh đề sau có thể khác người cảm nhận.",
+            "required": "Có thể nói 我觉得冷 về cảm giác, hoặc 我觉得这个菜很好吃 về nhận xét. 不觉得… là không có cảm nhận ấy, chưa nhất thiết khẳng định điều ngược lại.",
+            "omission": "Có thể bỏ 我觉得 khi ngữ cảnh đã rõ đang đưa nhận xét, nhưng sắc thái chủ quan sẽ ít được nêu trực tiếp hơn.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我觉得有点儿冷。",
+            "vi": "Tôi cảm thấy hơi lạnh.",
+            "analysis": "有点儿冷 là cảm giác của 我; không cần thêm 是.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ juéde yǒudiǎnr lěng."
+          },
+          {
+            "id": "e2",
+            "zh": "你觉得这本书怎么样？",
+            "vi": "Bạn thấy quyển sách này thế nào?",
+            "analysis": "这本书怎么样 hỏi đánh giá; 你 là người đưa nhận xét.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ juéde zhè běn shū zěnmeyàng?"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "觉得 không tự mang ý tưởng nhầm",
+            "scene": "Bạn nói một nhận xét hiện tại hoặc kể điều từng tưởng khác thực tế.",
+            "possibleConfusion": "觉得 không tự mang ý tưởng nhầm",
+            "difference": "觉得 đưa cảm nhận/ý kiến. 以为 thường kể một điều từng tưởng là thật, nhất là khi sau đó phát hiện khác, nhưng bản thân nó không luôn khẳng định sai.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我觉得他是老师。",
+                "vi": "Tôi nghĩ anh ấy là giáo viên.",
+                "comment": "Nhận định hiện tại, chưa nói có sai hay không.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我以为他是老师，原来他是医生。",
+                "vi": "Tôi cứ tưởng anh ấy là giáo viên, hóa ra anh ấy là bác sĩ.",
+                "comment": "Vế sau xác nhận suy đoán trước không đúng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 觉得 bằng 以为 đổi góc kể sang điều từng nghĩ; cần ngữ cảnh để biết nhận định có sai không."
+            },
+            "boundary": "Cả hai có thể dẫn một nhận định; không dịch mọi chữ nghĩ thành cùng một từ.",
+            "tip": "Cảm nhận hiện tại: 觉得; kể điều từng tưởng: 以为."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "觉 trong 觉得 đọc thanh hai; 得 đọc nhẹ. 觉 trong 睡觉 đọc thanh bốn với âm khác; đó là cách đọc theo từ, không đổi tùy ý.",
+          "literalTranslation": "觉得 không nói việc nhìn thấy bằng mắt. Với nhận xét, nó gần với cách nói tôi thấy/tôi nghĩ trong tiếng Việt; không có nghĩa rằng nhận xét chắc chắn sai.",
+          "confusables": "觉得 đưa cảm nhận/ý kiến. 以为 thường kể một điều từng tưởng là thật, nhất là khi sau đó phát hiện khác, nhưng bản thân nó không luôn khẳng định sai."
+        },
+        "pronunciation": {
+          "text": "觉 trong 觉得 đọc thanh hai; 得 đọc nhẹ. 觉 trong 睡觉 đọc thanh bốn với âm khác; đó là cách đọc theo từ, không đổi tùy ý. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 有点儿冷 / 觉得 / 我。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "我觉得他是老师 có khẳng định tôi đã nghĩ nhầm không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我觉得有点儿冷。"
+            ],
+            "explanation": "Cảm giác đặt sau 觉得."
+          },
+          "q2": {
+            "accepted": [
+              "Không; câu chỉ nêu nhận định."
+            ],
+            "explanation": "Muốn nói nhận định sai cần ngữ cảnh hoặc thông tin đính chính."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn thấy món ăn này rất ngon."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi bạn thấy tiếng Trung thế nào."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu người cảm nhận và lời đánh giá.",
+            "frame": "我觉得 + 这个菜 + 很好吃。",
+            "model": "我觉得这个菜很好吃。",
+            "vi": "Tôi thấy món này rất ngon.",
+            "criteria": [
+              "Đặt nội dung cảm nhận ngay sau 觉得; chủ ngữ trong mệnh đề sau có thể khác người cảm nhận.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Đưa điều được đánh giá vào câu hỏi.",
+            "frame": "你觉得 + 中文 + 怎么样？",
+            "model": "你觉得中文怎么样？",
+            "vi": "Bạn thấy tiếng Trung thế nào?",
+            "criteria": [
+              "Đặt nội dung cảm nhận ngay sau 觉得; chủ ngữ trong mệnh đề sau có thể khác người cảm nhận.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-030d8519e69d",
@@ -73493,17 +75280,181 @@
       "intro": [
         {
           "pinyin": "rènzhēn",
-          "meaning": "nghiêm túc"
+          "meaning": "nghiêm túc; chăm chú"
         }
       ],
-      "meaning": "nghiêm túc",
-      "status": "catalog",
+      "meaning": "nghiêm túc; chăm chú",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-024 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "她学习很认真。",
+          "vi": "Cô ấy học rất nghiêm túc.",
+          "analysis": "学习 nêu phương diện; 很认真 nhận xét thái độ học.",
+          "practiceAllowed": true,
+          "pinyin": "Tā xuéxí hěn rènzhēn."
+        },
+        {
+          "id": "e2",
+          "zh": "请认真听老师说话。",
+          "vi": "Hãy chú ý nghe giáo viên nói.",
+          "analysis": "认真 đứng trước 听 để nêu cách nghe; 老师说话 là nội dung nghe.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng rènzhēn tīng lǎoshī shuōhuà."
+        }
+      ],
       "sourceIndex": 318,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 325,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=认真"
+        ],
+        "introduction": {
+          "scope": "nghiêm túc; chăm chú"
+        },
+        "meaning": {
+          "scene": "Bạn thấy bạn học tập trung làm bài.",
+          "explanation": "认真 nói thái độ nghiêm túc, có chú tâm vào việc làm. Có thể nhận xét một người làm việc nghiêm túc hoặc đặt trước động từ để nói họ làm việc với thái độ đó.",
+          "boundary": "认真 không chỉ mang vẻ nghiêm nghị trên khuôn mặt. Nó nói sự chú tâm; 仔细 nhấn sự kỹ lưỡng ở chi tiết, nên hai từ có thể cùng dùng nhưng không hoàn toàn trùng nghĩa.",
+          "conditions": [
+            "认真学习 và 认真地学习 đều dùng được; 地 có thể lược trong kết hợp ngắn này. Sau 很, 认真 có thể làm phần nhận xét về thái độ."
+          ],
+          "takeaway": "认真 nói thái độ nghiêm túc, có chú tâm vào việc làm. Có thể nhận xét một người làm việc nghiêm túc hoặc đặt trước động từ để nói họ làm việc với thái độ đó."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 很认真；người + 认真（地）+ hành động",
+            "position": "Khi bổ nghĩa hành động, đặt 认真 trước động từ. Khi nhận xét thái độ, có thể dùng 很认真 sau chủ ngữ hoặc chủ đề.",
+            "required": "认真学习 và 认真地学习 đều dùng được; 地 có thể lược trong kết hợp ngắn này. Sau 很, 认真 có thể làm phần nhận xét về thái độ.",
+            "omission": "地 có thể lược ở 认真学习, nhưng không suy ra mọi trạng ngữ đều lược được 地.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她学习很认真。",
+            "vi": "Cô ấy học rất nghiêm túc.",
+            "analysis": "学习 nêu phương diện; 很认真 nhận xét thái độ học.",
+            "practiceAllowed": true,
+            "pinyin": "Tā xuéxí hěn rènzhēn."
+          },
+          {
+            "id": "e2",
+            "zh": "请认真听老师说话。",
+            "vi": "Hãy chú ý nghe giáo viên nói.",
+            "analysis": "认真 đứng trước 听 để nêu cách nghe; 老师说话 là nội dung nghe.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng rènzhēn tīng lǎoshī shuōhuà."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "认真 và 仔细 có vùng giao nhau",
+            "scene": "Bạn nhận xét thái độ học và việc kiểm tra từng chi tiết.",
+            "possibleConfusion": "认真 và 仔细 có vùng giao nhau",
+            "difference": "认真 là coi việc làm là nghiêm túc và tập trung; 仔细 là kỹ, không bỏ chi tiết.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他认真学习中文。",
+                "vi": "Anh ấy học tiếng Trung nghiêm túc.",
+                "comment": "Nhấn thái độ học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他仔细检查作业。",
+                "vi": "Anh ấy kiểm tra bài tập kỹ lưỡng.",
+                "comment": "Nhấn xem kỹ từng chi tiết.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 认真 thành 仔细 trước 检查 vẫn tự nhiên nhưng chuyển trọng tâm sang độ kỹ lưỡng."
+            },
+            "boundary": "认真检查 và 仔细检查 đều hợp; không cần xếp một cách nói là sai.",
+            "tip": "Thái độ: 认真; kỹ chi tiết: 仔细."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "认 thanh bốn, 真 thanh một; giữ rõ âm đầu và âm cuối của cả hai âm tiết.",
+          "literalTranslation": "认真 không chỉ mang vẻ nghiêm nghị trên khuôn mặt. Nó nói sự chú tâm; 仔细 nhấn sự kỹ lưỡng ở chi tiết, nên hai từ có thể cùng dùng nhưng không hoàn toàn trùng nghĩa.",
+          "confusables": "认真 là coi việc làm là nghiêm túc và tập trung; 仔细 là kỹ, không bỏ chi tiết."
+        },
+        "pronunciation": {
+          "text": "认 thanh bốn, 真 thanh một; giữ rõ âm đầu và âm cuối của cả hai âm tiết. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp: 学习 / 认真 / 他 / 中文。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "认真检查 và 仔细检查 có phải một câu luôn sai không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "他认真学习中文。"
+            ],
+            "explanation": "认真 đứng trước 学习."
+          },
+          "q2": {
+            "accepted": [
+              "Không; cả hai dùng được, khác trọng tâm."
+            ],
+            "explanation": "认真 nhấn thái độ, 仔细 nhấn kỹ chi tiết."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhắc em tập trung nghe."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn học của bạn học rất nghiêm túc."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt thái độ trước hành động.",
+            "frame": "请 + 认真 + 听。",
+            "model": "请认真听。",
+            "vi": "Hãy chú ý nghe.",
+            "criteria": [
+              "Khi bổ nghĩa hành động, đặt 认真 trước động từ. Khi nhận xét thái độ, có thể dùng 很认真 sau chủ ngữ hoặc chủ đề.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu phương diện rồi nhận xét.",
+            "frame": "我的同学 + 学习 + 很认真。",
+            "model": "我的同学学习很认真。",
+            "vi": "Bạn học của tôi học rất nghiêm túc.",
+            "criteria": [
+              "Khi bổ nghĩa hành động, đặt 认真 trước động từ. Khi nhận xét thái độ, có thể dùng 很认真 sau chủ ngữ hoặc chủ đề.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-5bdba0965e51",
@@ -73512,41 +75463,364 @@
       "intro": [
         {
           "pinyin": "rènshi",
-          "meaning": "quen"
+          "meaning": "biết; quen; nhận ra"
         }
       ],
-      "meaning": "quen",
-      "status": "example",
+      "meaning": "biết; quen; nhận ra",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-024 · phức tạp",
       "examples": [
         {
+          "id": "e1",
           "zh": "你认识那位老师吗？",
-          "vi": "Bạn có quen giáo viên kia không?"
+          "vi": "Bạn có quen giáo viên kia không?",
+          "analysis": "那位老师 là người được hỏi có biết; 位 là lượng từ lịch sự cho người.",
+          "practiceAllowed": true,
+          "pinyin": "Nǐ rènshi nà wèi lǎoshī ma?"
+        },
+        {
+          "id": "e2",
+          "zh": "这个字我不认识。",
+          "vi": "Tôi không biết chữ này.",
+          "analysis": "这个字 làm chủ đề; 不认识 nghĩa là không nhận biết chữ ấy, không phải không có quan hệ với chữ.",
+          "practiceAllowed": true,
+          "pinyin": "Zhè ge zì wǒ bù rènshi."
         }
       ],
       "sourceIndex": 319,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 326,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=认识"
+        ],
+        "introduction": {
+          "scope": "biết; quen; nhận ra"
+        },
+        "meaning": {
+          "scene": "Bạn hỏi người bên cạnh có quen giáo viên mới không.",
+          "explanation": "认识 dùng với người để nói biết/quen hoặc nhận ra người ấy; dùng với chữ, đường hoặc đồ vật có thể nói biết nhận diện. Nghĩa cụ thể phụ thuộc đối tượng, không phải mọi trường hợp đều là có quan hệ cá nhân.",
+          "boundary": "认识 một người không có nghĩa là thân thiết. Biết một thông tin về họ thường dùng 知道, còn biết đọc/nhận ra chữ có thể dùng 认识这个字.",
+          "conditions": [
+            "Phủ định thông thường là 不认识. 认识了 có thể kể đã làm quen với người mới trong một sự kiện, khác trạng thái 认识 hiện có."
+          ],
+          "takeaway": "认识 dùng với người để nói biết/quen hoặc nhận ra người ấy; dùng với chữ, đường hoặc đồ vật có thể nói biết nhận diện. Nghĩa cụ thể phụ thuộc đối tượng, không phải mọi trường hợp đều là có quan hệ cá nhân."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 认识 + người/chữ/đối tượng nhận diện",
+            "position": "Đối tượng được biết/nhận ra đứng sau 认识; 不 đứng trước động từ.",
+            "required": "Phủ định thông thường là 不认识. 认识了 có thể kể đã làm quen với người mới trong một sự kiện, khác trạng thái 认识 hiện có.",
+            "omission": "Khi người hoặc chữ đã được chỉ rõ, có thể đáp 认识 hoặc 不认识.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你认识那位老师吗？",
+            "vi": "Bạn có quen giáo viên kia không?",
+            "analysis": "那位老师 là người được hỏi có biết; 位 là lượng từ lịch sự cho người.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ rènshi nà wèi lǎoshī ma?"
+          },
+          {
+            "id": "e2",
+            "zh": "这个字我不认识。",
+            "vi": "Tôi không biết chữ này.",
+            "analysis": "这个字 làm chủ đề; 不认识 nghĩa là không nhận biết chữ ấy, không phải không có quan hệ với chữ.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè ge zì wǒ bù rènshi."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "认识 không đồng nghĩa 知道 mọi thông tin",
+            "scene": "Bạn biết tên một tác giả nhưng chưa từng gặp họ.",
+            "possibleConfusion": "认识 không đồng nghĩa 知道 mọi thông tin",
+            "difference": "知道他的名字 nói có thông tin; 认识他 thường nói biết/quen hoặc nhận ra người.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我知道他的名字，但不认识他。",
+                "vi": "Tôi biết tên anh ấy, nhưng không quen anh ấy.",
+                "comment": "Hai ý không mâu thuẫn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我认识他，但不知道他的名字。",
+                "vi": "Tôi biết/nhận ra anh ấy, nhưng không biết tên anh ấy.",
+                "comment": "Có thể nhận mặt mà chưa biết tên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 认识 bằng 知道 làm đổi mức hoặc kiểu biết; cần xem đối tượng là người hay thông tin."
+            },
+            "boundary": "认识他 có thể chỉ nhận mặt trong ngữ cảnh phù hợp, không bảo đảm là bạn thân.",
+            "tip": "Người/chữ nhận ra: 认识; thông tin: 知道."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "认 thanh bốn; 识 thường thanh nhẹ trong 认识.",
+          "literalTranslation": "认识 một người không có nghĩa là thân thiết. Biết một thông tin về họ thường dùng 知道, còn biết đọc/nhận ra chữ có thể dùng 认识这个字.",
+          "confusables": "知道他的名字 nói có thông tin; 认识他 thường nói biết/quen hoặc nhận ra người."
+        },
+        "pronunciation": {
+          "text": "认 thanh bốn; 识 thường thanh nhẹ trong 认识. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói bạn không biết chữ này bằng 认识."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "我认识他 có bảo đảm tôi biết tên hoặc rất thân với anh ấy không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我不认识这个字。"
+            ],
+            "explanation": "认识 dùng được với chữ; cũng có thể đưa 这个字 lên làm chủ đề."
+          },
+          "q2": {
+            "accepted": [
+              "Không; mức quen/nhận ra tùy ngữ cảnh."
+            ],
+            "explanation": "Không suy diễn thêm tên hay quan hệ thân thiết từ riêng 认识."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi người kia có quen bạn của bạn không."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn biết chữ này."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt người được hỏi về sau động từ.",
+            "frame": "你 + 认识 + 我的朋友 + 吗？",
+            "model": "你认识我的朋友吗？",
+            "vi": "Bạn có quen bạn của tôi không?",
+            "criteria": [
+              "Đối tượng được biết/nhận ra đứng sau 认识; 不 đứng trước động từ.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 认识 để nói nhận biết chữ.",
+            "frame": "我 + 认识 + 这个字。",
+            "model": "我认识这个字。",
+            "vi": "Tôi biết chữ này.",
+            "criteria": [
+              "Đối tượng được biết/nhận ra đứng sau 认识; 不 đứng trước động từ.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "ghi nhớ",
+      "meaning": "ghi nhớ; nhớ được",
       "intro": [
         {
-          "pinyin": "jì zhù",
-          "meaning": "ghi nhớ"
+          "pinyin": "jìzhù",
+          "meaning": "ghi nhớ; nhớ được"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请记住这个号码。",
+          "vi": "Hãy nhớ số này.",
+          "analysis": "请 tạo lời nhắc; 这个号码 là thông tin cần giữ trong trí nhớ.",
+          "practiceAllowed": true,
+          "pinyin": "Qǐng jìzhù zhè ge hàomǎ."
+        },
+        {
+          "id": "e2",
+          "zh": "我还没记住这些字。",
+          "vi": "Tôi vẫn chưa nhớ được những chữ này.",
+          "analysis": "还没 nêu kết quả chưa đạt tính đến hiện tại, không khẳng định không thể học được.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ hái méi jìzhù zhèxiē zì."
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-0b7c6d86ec57",
       "hanzi": "记住",
       "level": 1,
       "sourceIndex": 320,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "biên soạn bổ sung",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-024 · phức tạp",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 327,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=记住"
+        ],
+        "introduction": {
+          "scope": "ghi nhớ; nhớ được"
+        },
+        "meaning": {
+          "scene": "Bạn muốn ghi nhớ số phòng trước khi lên tầng.",
+          "explanation": "记住 nhấn việc giữ được thông tin trong trí nhớ. 住 ở đây là bổ ngữ kết quả, không mang nghĩa cư trú. Có thể dùng khi nhắc phải nhớ hoặc báo đã ghi nhớ thành công.",
+          "boundary": "记得 nói còn nhớ ở thời điểm đang xét; 记住 nhấn ghi nhớ/giữ được. Không phải cứ dùng 记住 là sẽ không bao giờ quên.",
+          "conditions": [
+            "没记住 nói lần học/nhớ chưa đạt kết quả; 记不住 nói khó hoặc không thể giữ trong trí nhớ trong điều kiện đang nói."
+          ],
+          "takeaway": "记住 nhấn việc giữ được thông tin trong trí nhớ. 住 ở đây là bổ ngữ kết quả, không mang nghĩa cư trú. Có thể dùng khi nhắc phải nhớ hoặc báo đã ghi nhớ thành công."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 记住 + thông tin；请 + 记住 + điều cần nhớ",
+            "position": "Điều cần ghi nhớ nằm sau 记住. 没 đặt trước cả cụm khi phủ nhận kết quả.",
+            "required": "没记住 nói lần học/nhớ chưa đạt kết quả; 记不住 nói khó hoặc không thể giữ trong trí nhớ trong điều kiện đang nói.",
+            "omission": "Khi nội dung đã rõ, có thể đáp 记住了.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请记住这个号码。",
+            "vi": "Hãy nhớ số này.",
+            "analysis": "请 tạo lời nhắc; 这个号码 là thông tin cần giữ trong trí nhớ.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng jìzhù zhè ge hàomǎ."
+          },
+          {
+            "id": "e2",
+            "zh": "我还没记住这些字。",
+            "vi": "Tôi vẫn chưa nhớ được những chữ này.",
+            "analysis": "还没 nêu kết quả chưa đạt tính đến hiện tại, không khẳng định không thể học được.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ hái méi jìzhù zhèxiē zì."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "记住 và 记得: ghi nhớ thành công và còn nhớ",
+            "scene": "Bạn học số mới rồi sau đó được hỏi có còn nhớ không.",
+            "possibleConfusion": "记住 và 记得: ghi nhớ thành công và còn nhớ",
+            "difference": "记住 làm nổi bật kết quả ghi vào trí nhớ; 记得 làm nổi bật còn nhớ để gọi lại.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我记住这个号码了。",
+                "vi": "Tôi nhớ được số này rồi.",
+                "comment": "Đã đạt kết quả ghi nhớ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我还记得这个号码。",
+                "vi": "Tôi vẫn nhớ số này.",
+                "comment": "Thông tin vẫn còn trong trí nhớ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 记住 thành 记得 thay góc nhìn: kết quả ghi nhớ hay trạng thái còn nhớ."
+            },
+            "boundary": "Cả hai có thể liên quan cùng một thông tin; 记住 không bảo đảm nhớ mãi.",
+            "tip": "Học cho nhớ: 记住; vẫn nhớ: 还记得."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "记 và 住 đều thanh bốn; phát âm rõ phần đầu của 住.",
+          "literalTranslation": "记得 nói còn nhớ ở thời điểm đang xét; 记住 nhấn ghi nhớ/giữ được. Không phải cứ dùng 记住 là sẽ không bao giờ quên.",
+          "confusables": "记住 làm nổi bật kết quả ghi vào trí nhớ; 记得 làm nổi bật còn nhớ để gọi lại."
+        },
+        "pronunciation": {
+          "text": "记 và 住 đều thanh bốn; phát âm rõ phần đầu của 住. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền phủ định kết quả: 我还…记住这些字。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "我记住这个号码了 có bảo đảm ngày mai không thể quên không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我还没记住这些字。"
+            ],
+            "explanation": "还没 nói vẫn chưa đạt kết quả ghi nhớ."
+          },
+          "q2": {
+            "accepted": [
+              "Không; câu chỉ báo đã ghi nhớ được ở thời điểm này."
+            ],
+            "explanation": "Không suy ra khả năng lưu giữ vĩnh viễn."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhắc bạn ghi nhớ địa chỉ này."
+          },
+          {
+            "id": "s2",
+            "prompt": "Báo bạn đã nhớ được tên giáo viên rồi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đưa thông tin sau lời nhắc.",
+            "frame": "请 + 记住 + 这个地址。",
+            "model": "请记住这个地址。",
+            "vi": "Hãy nhớ địa chỉ này.",
+            "criteria": [
+              "Điều cần ghi nhớ nằm sau 记住. 没 đặt trước cả cụm khi phủ nhận kết quả.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu kết quả mới đạt.",
+            "frame": "我 + 记住 + 老师的名字 + 了。",
+            "model": "我记住老师的名字了。",
+            "vi": "Tôi nhớ được tên giáo viên rồi.",
+            "criteria": [
+              "Điều cần ghi nhớ nằm sau 记住. 没 đặt trước cả cụm khi phủ nhận kết quả.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-f25a6b51a4a0",
@@ -73555,17 +75829,181 @@
       "intro": [
         {
           "pinyin": "jìde",
-          "meaning": "nhớ"
+          "meaning": "nhớ; còn nhớ"
         }
       ],
-      "meaning": "nhớ",
-      "status": "catalog",
+      "meaning": "nhớ; còn nhớ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-024 · phức tạp",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我还记得你的名字。",
+          "vi": "Tôi vẫn nhớ tên bạn.",
+          "analysis": "还 nhấn sự tiếp tục; 你的名字 là thông tin còn nhớ.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ hái jìde nǐ de míngzi."
+        },
+        {
+          "id": "e2",
+          "zh": "明天记得带书。",
+          "vi": "Ngày mai nhớ mang sách nhé.",
+          "analysis": "明天 và hành động 带书 cho biết đây là lời nhắc việc cần làm.",
+          "practiceAllowed": true,
+          "pinyin": "Míngtiān jìde dài shū."
+        }
+      ],
       "sourceIndex": 321,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 328,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ theo độ khó; chưa phản biện giáo viên độc lập. URL là nguồn tra cứu gợi ý, không tuyên bố đã đối chiếu trực tiếp.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=记得"
+        ],
+        "introduction": {
+          "scope": "nhớ; còn nhớ"
+        },
+        "meaning": {
+          "scene": "Bạn gặp lại bạn cũ và vẫn nhớ tên của họ.",
+          "explanation": "记得 nói còn nhớ một thông tin hoặc sự việc. Nó cũng dùng trong lời nhắc 记得 + hành động, nghĩa là nhớ làm việc ấy. Vì vậy phải xem phía sau là điều đã nhớ hay việc cần làm.",
+          "boundary": "记得 khác 记住 ở trọng tâm trạng thái còn nhớ so với kết quả ghi nhớ. 记得住 là một cấu trúc khả năng, không phải cứ thêm 住 vào 记得 là giữ nguyên nghĩa.",
+          "conditions": [
+            "不记得 nói không còn nhớ/không nhớ hiện tại. Trong lời nhắc, 记得带书 nghĩa là nhớ mang sách, không khẳng định đã mang."
+          ],
+          "takeaway": "记得 nói còn nhớ một thông tin hoặc sự việc. Nó cũng dùng trong lời nhắc 记得 + hành động, nghĩa là nhớ làm việc ấy. Vì vậy phải xem phía sau là điều đã nhớ hay việc cần làm."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 记得 + thông tin；记得 + việc cần làm",
+            "position": "Đối tượng trí nhớ hoặc cụm hành động đặt sau 记得. 不 đứng trước khi phủ định trạng thái nhớ.",
+            "required": "不记得 nói không còn nhớ/không nhớ hiện tại. Trong lời nhắc, 记得带书 nghĩa là nhớ mang sách, không khẳng định đã mang.",
+            "omission": "Có thể đáp 记得 hoặc 不记得 nếu thông tin được hỏi đã rõ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我还记得你的名字。",
+            "vi": "Tôi vẫn nhớ tên bạn.",
+            "analysis": "还 nhấn sự tiếp tục; 你的名字 là thông tin còn nhớ.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ hái jìde nǐ de míngzi."
+          },
+          {
+            "id": "e2",
+            "zh": "明天记得带书。",
+            "vi": "Ngày mai nhớ mang sách nhé.",
+            "analysis": "明天 và hành động 带书 cho biết đây là lời nhắc việc cần làm.",
+            "practiceAllowed": true,
+            "pinyin": "Míngtiān jìde dài shū."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Còn nhớ và nhớ làm một việc",
+            "scene": "Bạn phân biệt hồi tưởng với lời nhắc cho ngày mai.",
+            "possibleConfusion": "Còn nhớ và nhớ làm một việc",
+            "difference": "记得 + thông tin thường nói còn nhớ; 记得 + hành động trong lời nhắc yêu cầu đừng quên làm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我记得他的生日。",
+                "vi": "Tôi nhớ sinh nhật của anh ấy.",
+                "comment": "Nhớ thông tin.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "明天记得给他打电话。",
+                "vi": "Ngày mai nhớ gọi điện cho anh ấy.",
+                "comment": "Việc cần làm, chưa khẳng định đã gọi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi cụm danh từ sang hành động trong lời nhắc làm thay đổi cách hiểu; cần đọc cả câu và mốc thời gian."
+            },
+            "boundary": "记住他的生日 nhấn ghi nhớ ngày ấy; 记得他的生日 nhấn đang còn nhớ.",
+            "tip": "Nhìn phía sau: thông tin đang nhớ hay việc cần làm?"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "记 thanh bốn; 得 đọc nhẹ trong 记得. Không kéo 得 thành thanh hai như cách đọc của 得 trong một số từ khác.",
+          "literalTranslation": "记得 khác 记住 ở trọng tâm trạng thái còn nhớ so với kết quả ghi nhớ. 记得住 là một cấu trúc khả năng, không phải cứ thêm 住 vào 记得 là giữ nguyên nghĩa.",
+          "confusables": "记得 + thông tin thường nói còn nhớ; 记得 + hành động trong lời nhắc yêu cầu đừng quên làm."
+        },
+        "pronunciation": {
+          "text": "记 thanh bốn; 得 đọc nhẹ trong 记得. Không kéo 得 thành thanh hai như cách đọc của 得 trong một số từ khác. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "明天记得带书 có nói đã mang sách rồi không?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Xếp câu: 他的名字 / 不记得 / 我 / 了。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không; đó là lời nhắc mang sách ngày mai."
+            ],
+            "explanation": "Mốc tương lai và hoạt động theo sau xác định lời nhắc."
+          },
+          "q2": {
+            "accepted": [
+              "我不记得他的名字了。"
+            ],
+            "explanation": "不记得 là không nhớ; 了 cuối câu có thể báo tình trạng đã thay đổi."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn vẫn nhớ giáo viên của mình."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhắc bạn ngày mai nhớ gọi điện cho mẹ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 还 để nhấn vẫn còn nhớ.",
+            "frame": "我 + 还记得 + 我的老师。",
+            "model": "我还记得我的老师。",
+            "vi": "Tôi vẫn nhớ giáo viên của mình.",
+            "criteria": [
+              "Đối tượng trí nhớ hoặc cụm hành động đặt sau 记得. 不 đứng trước khi phủ định trạng thái nhớ.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu thời gian rồi việc cần nhớ làm.",
+            "frame": "明天 + 记得 + 给妈妈打电话。",
+            "model": "明天记得给妈妈打电话。",
+            "vi": "Ngày mai nhớ gọi điện cho mẹ nhé.",
+            "criteria": [
+              "Đối tượng trí nhớ hoặc cụm hành động đặt sau 记得. 不 đứng trước khi phủ định trạng thái nhớ.",
+              "Chấp nhận cách diễn đạt khác đúng tình huống; tự đối chiếu, app không chấm câu mở tự động."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-93bd6576787d",
@@ -111103,13 +113541,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 323,
-    "pending": 1911,
+    "ready": 338,
+    "pending": 1896,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 323
+        "ready": 338
       },
       {
         "level": 2,
