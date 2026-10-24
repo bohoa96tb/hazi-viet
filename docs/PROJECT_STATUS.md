@@ -5,10 +5,10 @@ Cập nhật: 2026-10-24. Chế độ hiện hành: `review-existing-first`.
 ## Rà soát bài đã có
 
 - Phạm vi: 377 bài đang đủ cấu trúc trong thứ tự `data/vocabulary/hanzii-course.json`, gồm 10 bài ngoài baseline.
-- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 200/377 bài.
-- Đã rà trong các đợt `review-001` đến `review-012`; review-012 gồm 不、会、吗、在、对、有、没、的、能、要、还、是不是、有些、有时、有用、有的、正在、没有.
-- Review-012 sửa lời giải bài tập ở 有的、正在、没有 để khớp công thức và đáp án; 15 bài còn lại được đọc, phân loại và kiểm tra sau khi giữ nguyên nội dung. Trong đợt này cũng ghi nhận ba hiệu chỉnh follow-up đã phát hành cho 子、姐姐、小姐 trong review-011.
-- Còn rà: 177 bài. Tiếp theo: bài 201 (`hz-h1-4969b83d9cec`) và các ID trong `tools/vocabulary/review-checkpoint.json`.
+- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 218/377 bài.
+- Đã rà trong các đợt `review-001` đến `review-013`; review-013 gồm 真的、还是、还有、八、冷、口、吃、喝、渴、睡、饭、饿、什么、包子、午饭、吃饭、好吃、干净.
+- Review-013 sửa phần nghĩa/cấu trúc chung ở 睡、饭、饿、什么、包子、午饭、吃饭、好吃、干净; riêng 吃饭 được sửa điều kiện dùng để không còn gắn 正在 một cách lệch với ví dụ. 9 bài 201–209 được đọc, phân loại và giữ nguyên sau kiểm tra.
+- Còn rà: 159 bài. Tiếp theo: bài 219 (`hz-h1-a4a354339844`) và các ID trong `tools/vocabulary/review-checkpoint.json`.
 - Chưa được coi là phản biện giáo viên độc lập; chưa kiểm bố cục mobile hoặc TTS Android thật.
 
 ## Bổ sung bài còn thiếu
