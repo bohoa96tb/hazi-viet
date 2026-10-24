@@ -22167,189 +22167,180 @@
       "meaning": "mưa; cơn mưa",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 017",
       "examples": [
         {
           "id": "e1",
-          "zh": "外面下雨了。",
-          "vi": "Ngoài trời mưa rồi.",
-          "analysis": "下雨 là cụm chỉ mưa rơi; 了 báo tình hình mới.",
+          "zh": "今天有雨。",
+          "pinyin": "Jīntiān yǒu yǔ.",
+          "vi": "Hôm nay có mưa.",
+          "analysis": "雨 là mưa, có thể làm danh từ chỉ hiện tượng.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "今天的雨很大。",
-          "vi": "Mưa hôm nay rất lớn.",
-          "analysis": "雨 làm chủ ngữ; 很大 miêu tả.",
+          "zh": "我喜欢听雨。",
+          "pinyin": "Wǒ xǐhuan tīng yǔ.",
+          "vi": "Tôi thích nghe tiếng mưa.",
+          "analysis": "雨 đứng sau 听 để chỉ âm thanh/hiện tượng mưa.",
           "practiceAllowed": true
         }
       ],
       "sourceIndex": 62,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nhắn rằng ngoài trời mưa rồi.",
-      "model": "外面下雨了。",
+      "task": "Nói hôm nay có mưa.",
+      "model": "今天有雨。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 83,
+        "difficulty": "easy",
+        "difficultyReason": "雨 là danh từ cơ bản chỉ mưa, dùng trực tiếp trong câu có và nghe mưa.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Weather"
+        ],
         "introduction": {
-          "scope": "雨 là mưa/cơn mưa; câu giao tiếp thường dùng cả cụm 下雨 để nói trời mưa."
-        },
-        "meaning": {
-          "scene": "Bạn thấy trời mưa trước giờ đi làm.",
-          "explanation": "Báo hiện tượng dùng 下雨; miêu tả cơn mưa dùng 雨很大/小.",
-          "boundary": "Không đặt 雨 một mình làm động từ trong câu cơ bản để dịch “trời mưa”.",
-          "conditions": [
-            "Báo mưa dùng 下雨; tả cơn mưa dùng 雨很大."
-          ],
-          "takeaway": "Báo hiện tượng dùng 下雨; miêu tả cơn mưa dùng 雨很大/小."
+          "scope": "雨 nghĩa là mưa hoặc cơn mưa như một hiện tượng thời tiết."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "外面下雨了。",
-            "vi": "Ngoài trời mưa rồi.",
-            "analysis": "下雨 là cụm chỉ mưa rơi; 了 báo tình hình mới.",
+            "zh": "今天有雨。",
+            "pinyin": "Jīntiān yǒu yǔ.",
+            "vi": "Hôm nay có mưa.",
+            "analysis": "雨 là mưa, có thể làm danh từ chỉ hiện tượng.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "今天的雨很大。",
-            "vi": "Mưa hôm nay rất lớn.",
-            "analysis": "雨 làm chủ ngữ; 很大 miêu tả.",
+            "zh": "我喜欢听雨。",
+            "pinyin": "Wǒ xǐhuan tīng yǔ.",
+            "vi": "Tôi thích nghe tiếng mưa.",
+            "analysis": "雨 đứng sau 听 để chỉ âm thanh/hiện tượng mưa.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Nơi/thời gian + 下雨; 雨 + 很 + 大/小",
-            "position": "下 đứng trước 雨; 雨 có thể làm danh từ.",
-            "required": "Báo mưa dùng 下雨; tả cơn mưa dùng 雨很大.",
-            "omission": "Có thể bỏ thời gian/nơi chốn khi đã rõ.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "雨 và 下雨: cơn mưa hay trời mưa",
-            "scene": "Bạn thấy trời mưa trước giờ đi làm.",
-            "possibleConfusion": "雨 là danh từ 'mưa/cơn mưa'; nói hiện tượng mưa thường dùng 下雨. Không đặt 雨 thẳng vào vị trí động từ.",
-            "difference": "外面下雨了 nói trời bắt đầu mưa; 今天的雨很大 dùng 雨 làm danh từ được miêu tả.",
-            "cases": [
+            "id": "rain",
+            "title": "Mưa",
+            "when": "Nói về mưa như một hiện tượng hoặc âm thanh.",
+            "meaning": "mưa; cơn mưa",
+            "grammar": "雨 là danh từ; muốn nói trời đang mưa thường dùng 下雨.",
+            "pattern": "有+雨；听+雨",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "现在下雨了。",
-                "vi": "Bây giờ mưa rồi.",
-                "comment": "下雨 là cụm nói hiện tượng mưa.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "今天有雨。",
+                "pinyin": "Jīntiān yǒu yǔ.",
+                "vi": "Hôm nay có mưa.",
+                "note": "雨 là hiện tượng."
               },
               {
-                "id": "c2",
-                "zh": "今天的雨很大。",
-                "vi": "Mưa hôm nay rất lớn.",
-                "comment": "雨 là danh từ, được miêu tả là lớn.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c3",
-                "zh": "现在雨了。",
-                "vi": "(Câu sai) Bây giờ mưa rồi.",
-                "comment": "Thiếu 下 trong cụm chỉ hiện tượng mưa; đây không phải cách nói chuẩn.",
-                "judgment": "wrong-grammar",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "wrong-grammar",
-              "explanation": "雨 không đứng một mình làm động từ trong câu thời tiết; dùng 下雨."
-            },
-            "boundary": "雨 đứng trực tiếp sau 很大 khi nói cơn mưa; diễn tả sự kiện trời mưa thì dùng 下雨.",
-            "tip": "Nói trời mưa: 下雨; tả cơn mưa: 雨很大.",
-            "corrections": [
-              {
-                "caseId": "c3",
-                "zh": "现在下雨了。",
-                "vi": "Bây giờ mưa rồi.",
-                "reason": "Thêm 下 để tạo cụm 下雨 diễn đạt trời mưa."
+                "zh": "我喜欢听雨。",
+                "pinyin": "Wǒ xǐhuan tīng yǔ.",
+                "vi": "Tôi thích nghe tiếng mưa.",
+                "note": "Nghe tiếng mưa."
               }
             ]
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "雨 đọc theo phần giới thiệu; chưa thấy cách đọc/đa nghĩa thông dụng khác cần nêu ở mức này.",
-          "literalTranslation": "Không dịch 'trời mưa' bằng cách đặt 雨 làm động từ; tiếng Trung dùng 下雨.",
-          "confusables": "雨 là danh từ; 下雨 là cụm chỉ hiện tượng mưa."
-        },
-        "pronunciation": {
-          "text": "雨 đọc thanh ba; âm vẫn phát ra, không bỏ hoặc tự đọc thành thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "confusions": [],
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Điền 下: 外面___雨了。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Chọn câu miêu tả cơn mưa: 雨很大 hay 下雨很大?"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Hôm nay có mưa.",
+            "tokens": [
+              "今天",
+              "有雨",
+              "。"
+            ],
+            "accepted": [
+              "今天有雨。"
+            ],
+            "model": "今天有雨。",
+            "explanation": "有雨 nghĩa là có mưa.",
+            "wrongFeedback": "Đặt 雨 sau 有."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "下"
-            ],
-            "explanation": "下 đứng trước 雨 trong cụm."
-          },
-          "q2": {
-            "accepted": [
-              "雨很大"
-            ],
-            "explanation": "雨 làm chủ ngữ, 大 miêu tả."
-          }
-        },
-        "selfUse": [
+        "discriminationExercises": [
           {
-            "id": "s1",
-            "prompt": "Nhắn rằng ngoài trời mưa rồi."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói mưa hôm nay rất lớn."
+            "id": "d1",
+            "senseId": "rain",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là mưa.",
+            "choices": [
+              "雨",
+              "风"
+            ],
+            "correctIndex": 0,
+            "model": "雨",
+            "explanation": "雨 là mưa; 风 là gió.",
+            "wrongFeedback": "Phân biệt mưa với gió."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "外面下雨了。",
-            "model": "外面下雨了。",
-            "vi": "Ngoài trời mưa rồi.",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói hôm nay có mưa.",
+            "hints": [
+              "Nêu thời gian: 今天.",
+              "Dùng 有雨.",
+              "Mẫu: 今天有雨。"
+            ],
+            "model": "今天有雨。",
+            "vi": "Hôm nay có mưa.",
             "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "今天的雨很大。",
-            "model": "今天的雨很大。",
-            "vi": "Mưa hôm nay rất lớn.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
+              "Dùng đúng 雨."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=44318&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là mưa?",
+            "hiddenAnswer": "雨",
+            "model": "雨"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 今天有__。",
+            "hiddenAnswer": "雨",
+            "model": "今天有雨。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Hôm nay có mưa.",
+            "choices": [
+              "今天",
+              "有雨",
+              "。"
+            ],
+            "correct": [
+              "今天有雨。"
+            ],
+            "explanation": "有雨 nghĩa là có mưa."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là mưa.",
+            "choices": [
+              "雨",
+              "风"
+            ],
+            "correctIndex": 0,
+            "explanation": "雨 là mưa."
+          }
+        }
       }
     },
     {
@@ -22365,173 +22356,180 @@
       "meaning": "gió",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 017",
       "examples": [
         {
           "id": "e1",
-          "zh": "今天风很大。",
-          "vi": "Hôm nay gió rất mạnh.",
-          "analysis": "风 làm chủ ngữ; 很大 miêu tả.",
+          "zh": "今天有风。",
+          "pinyin": "Jīntiān yǒu fēng.",
+          "vi": "Hôm nay có gió.",
+          "analysis": "风 là gió, có thể làm danh từ chỉ hiện tượng.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "外面刮风了。",
-          "vi": "Ngoài trời nổi gió rồi.",
-          "analysis": "刮风 là cụm chỉ hiện tượng.",
+          "zh": "风很大。",
+          "pinyin": "Fēng hěn dà.",
+          "vi": "Gió rất to.",
+          "analysis": "很大 mô tả cường độ của gió.",
           "practiceAllowed": true
         }
       ],
       "sourceIndex": 63,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Báo hôm nay gió mạnh.",
-      "model": "今天风很大。",
+      "task": "Nói hôm nay có gió.",
+      "model": "今天有风。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 84,
+        "difficulty": "easy",
+        "difficultyReason": "风 là danh từ thời tiết trực tiếp, với mẫu có gió và gió mạnh rõ ràng.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Weather"
+        ],
         "introduction": {
-          "scope": "风 là gió tự nhiên; 风扇 là quạt, thiết bị tạo gió."
-        },
-        "meaning": {
-          "scene": "Bạn kiểm tra thời tiết trước khi đi làm.",
-          "explanation": "Tả cường độ nói 风很大/小; nói gió thổi dùng 刮风.",
-          "boundary": "风扇 chỉ thiết bị, không phải gió tự nhiên.",
-          "conditions": [
-            "Nói thiết bị dùng 风扇; nói gió ngoài trời dùng 风/刮风."
-          ],
-          "takeaway": "Tả cường độ nói 风很大/小; nói gió thổi dùng 刮风."
+          "scope": "风 nghĩa là gió, luồng không khí chuyển động trong thời tiết."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "今天风很大。",
-            "vi": "Hôm nay gió rất mạnh.",
-            "analysis": "风 làm chủ ngữ; 很大 miêu tả.",
+            "zh": "今天有风。",
+            "pinyin": "Jīntiān yǒu fēng.",
+            "vi": "Hôm nay có gió.",
+            "analysis": "风 là gió, có thể làm danh từ chỉ hiện tượng.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "外面刮风了。",
-            "vi": "Ngoài trời nổi gió rồi.",
-            "analysis": "刮风 là cụm chỉ hiện tượng.",
+            "zh": "风很大。",
+            "pinyin": "Fēng hěn dà.",
+            "vi": "Gió rất to.",
+            "analysis": "很大 mô tả cường độ của gió.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "风 + 很 + 大/小; 刮风",
-            "position": "风 đứng trước mức độ; 刮 đứng trước 风.",
-            "required": "Nói thiết bị dùng 风扇; nói gió ngoài trời dùng 风/刮风.",
-            "omission": "Có thể bỏ 外面 khi nơi chốn hiển nhiên.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "风 và 风扇: gió hay cái quạt",
-            "scene": "Bạn kiểm tra thời tiết trước khi đi làm.",
-            "possibleConfusion": "风 là hiện tượng tự nhiên; 风扇 là thiết bị. 刮风 nói gió thổi; 开风扇 là bật quạt.",
-            "difference": "风 là hiện tượng tự nhiên; 风扇 là thiết bị. 刮风 nói gió thổi; 开风扇 là bật quạt.",
-            "cases": [
+            "id": "wind",
+            "title": "Gió",
+            "when": "Nói về gió hoặc mức độ gió trong thời tiết.",
+            "meaning": "gió",
+            "grammar": "风 làm chủ thể, có thể đi với 有 hoặc 很大.",
+            "pattern": "有+风；风+很大",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "外面刮风了。",
-                "vi": "Ngoài trời nổi gió rồi.",
-                "comment": "刮风 chỉ hiện tượng.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "今天有风。",
+                "pinyin": "Jīntiān yǒu fēng.",
+                "vi": "Hôm nay có gió.",
+                "note": "Có gió."
               },
               {
-                "id": "c2",
-                "zh": "请开风扇。",
-                "vi": "Làm ơn bật quạt.",
-                "comment": "风扇 là thiết bị.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "风很大。",
+                "pinyin": "Fēng hěn dà.",
+                "vi": "Gió rất to.",
+                "note": "Mô tả cường độ."
               }
-            ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Đổi 风 thành 风扇 trong câu thời tiết chuyển ý sang thiết bị, không còn nói gió tự nhiên."
-            },
-            "boundary": "风扇 chỉ thiết bị, không phải gió tự nhiên.",
-            "tip": "Trời có gió: 风/刮风; cái quạt: 风扇."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "风 đọc theo phần giới thiệu; chưa thấy cách đọc khác cần nêu cho nghĩa gió trong bài.",
-          "literalTranslation": "Không dịch từng chữ trong 风扇; 风 là gió tự nhiên, 风扇 là thiết bị quạt.",
-          "confusables": "刮风 nói hiện tượng gió thổi; 风扇 là vật dùng điện."
-        },
-        "pronunciation": {
-          "text": "风 là thanh một, giữ cao ngang; âm đầu f bật hơi nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Điền 刮: 外面___风了。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Bật quạt: 请开___。(风/风扇)"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "刮"
-            ],
-            "explanation": "刮风 chỉ gió thổi."
-          },
-          "q2": {
-            "accepted": [
-              "风扇"
-            ],
-            "explanation": "风扇 là thiết bị."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Báo hôm nay gió mạnh."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nhờ đồng nghiệp bật quạt."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "今天风很大。",
-            "model": "今天风很大。",
-            "vi": "Hôm nay gió rất mạnh.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "请开风扇。",
-            "model": "请开风扇。",
-            "vi": "Làm ơn bật quạt.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=44384&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Hôm nay có gió.",
+            "tokens": [
+              "今天",
+              "有风",
+              "。"
+            ],
+            "accepted": [
+              "今天有风。"
+            ],
+            "model": "今天有风。",
+            "explanation": "有风 nghĩa là có gió.",
+            "wrongFeedback": "Đặt 风 sau 有."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "wind",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là gió.",
+            "choices": [
+              "风",
+              "雨"
+            ],
+            "correctIndex": 0,
+            "model": "风",
+            "explanation": "风 là gió; 雨 là mưa.",
+            "wrongFeedback": "Phân biệt gió với mưa."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói hôm nay có gió.",
+            "hints": [
+              "Nêu thời gian: 今天.",
+              "Dùng 有风.",
+              "Mẫu: 今天有风。"
+            ],
+            "model": "今天有风。",
+            "vi": "Hôm nay có gió.",
+            "criteria": [
+              "Dùng đúng 风."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là gió?",
+            "hiddenAnswer": "风",
+            "model": "风"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 今天有__。",
+            "hiddenAnswer": "风",
+            "model": "今天有风。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Hôm nay có gió.",
+            "choices": [
+              "今天",
+              "有风",
+              "。"
+            ],
+            "correct": [
+              "今天有风。"
+            ],
+            "explanation": "有风 nghĩa là có gió."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là gió.",
+            "choices": [
+              "风",
+              "雨"
+            ],
+            "correctIndex": 0,
+            "explanation": "风 là gió."
+          }
+        }
       }
     },
     {
@@ -22547,20 +22545,22 @@
       "meaning": "mưa, trời có mưa",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-008",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 017",
       "examples": [
         {
           "id": "e1",
           "zh": "外面下雨了。",
-          "vi": "Ngoài trời mưa rồi.",
-          "analysis": "下雨 là cụm động từ chỉ việc trời mưa; 了 cho biết tình hình vừa đổi hoặc mưa đã bắt đầu.",
+          "pinyin": "Wàimiàn xià yǔ le.",
+          "vi": "Bên ngoài mưa rồi.",
+          "analysis": "下雨 là cụm động từ chỉ hiện tượng trời mưa.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "明天可能下雨。",
-          "vi": "Ngày mai có thể mưa.",
-          "analysis": "可能 đứng trước cụm 下雨 để nói khả năng; thời gian 明天 đứng đầu câu.",
+          "zh": "下雨的时候，我不出门。",
+          "pinyin": "Xià yǔ de shíhou, wǒ bù chūmén.",
+          "vi": "Khi trời mưa, tôi không ra ngoài.",
+          "analysis": "下雨的时候 là khi trời mưa, làm mốc thời gian.",
           "practiceAllowed": true
         }
       ],
@@ -22568,151 +22568,191 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 85,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "medium",
+        "difficultyReason": "下雨 là động từ/cụm hiện tượng khác với 雨 là danh từ mưa; cần dạy chủ thể ngầm và cách dùng trong mệnh đề thời gian.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://resources.allsetlearning.com/chinese/grammar/Raining"
         ],
         "introduction": {
-          "scope": "Học 下雨 để nói trời đang mưa hoặc có mưa; phân biệt hành động mưa với 雨 là cơn mưa/nước mưa."
-        },
-        "meaning": {
-          "scene": "Bạn nhìn ra cửa sổ và thấy mưa rơi.",
-          "explanation": "下雨 là động từ chỉ việc trời đổ mưa. Dùng được cho hiện tại và dự báo; muốn nói mưa to hay nhỏ, thường miêu tả 雨.",
-          "boundary": "“Mưa” trong tiếng Việt có thể gọi hiện tượng hoặc sự vật. 下雨 nói việc trời mưa; 雨 có thể gọi cơn mưa.",
-          "conditions": [
-            "Muốn dự báo, thêm 会、可能等 từ chỉ khả năng trước 下雨; không cần chia động từ theo hiện tại/quá khứ.",
-            "下雨了 thường báo mưa bắt đầu hoặc tình hình đã đổi; 了 không phải lúc nào cũng mang nghĩa quá khứ."
-          ],
-          "takeaway": "下雨 nói trời đổ mưa; 雨 nói cơn mưa hoặc nước mưa."
+          "scope": "下雨 nghĩa là trời mưa hoặc đang có mưa, dùng như một cụm chỉ hiện tượng thời tiết."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "外面下雨了。",
-            "vi": "Ngoài trời mưa rồi.",
-            "analysis": "下雨 là cụm động từ chỉ việc trời mưa; 了 cho biết tình hình vừa đổi hoặc mưa đã bắt đầu.",
+            "pinyin": "Wàimiàn xià yǔ le.",
+            "vi": "Bên ngoài mưa rồi.",
+            "analysis": "下雨 là cụm động từ chỉ hiện tượng trời mưa.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "明天可能下雨。",
-            "vi": "Ngày mai có thể mưa.",
-            "analysis": "可能 đứng trước cụm 下雨 để nói khả năng; thời gian 明天 đứng đầu câu.",
+            "zh": "下雨的时候，我不出门。",
+            "pinyin": "Xià yǔ de shíhou, wǒ bù chūmén.",
+            "vi": "Khi trời mưa, tôi không ra ngoài.",
+            "analysis": "下雨的时候 là khi trời mưa, làm mốc thời gian.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Thời gian/nơi + 下雨; dự báo: 会/可能 + 下雨",
-            "position": "下雨 làm vị ngữ sau thời gian hoặc nơi chốn; từ chỉ khả năng đứng ngay trước 下雨.",
-            "required": "Dùng cả cụm 下雨 khi nói trời có mưa; không chỉ đặt 下 một mình trong nghĩa này.",
-            "omission": "Khi thời gian đã rõ, có thể chỉ nói 下雨了。— Mưa rồi.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "下雨 là việc mưa; 雨 là cơn mưa",
-            "scene": "Bạn báo trời đang mưa hay miêu tả cơn mưa ngoài cửa.",
-            "possibleConfusion": "Tiếng Việt dùng “mưa” cho cả việc trời đổ mưa lẫn cơn mưa.",
-            "difference": "下雨 là động từ chỉ hiện tượng xảy ra. 雨 là danh từ, có thể nói 雨很大 để tả cơn mưa lớn.",
-            "cases": [
+            "id": "rainverb",
+            "title": "Trời mưa",
+            "when": "Nói hiện tượng mưa đang xảy ra hoặc làm mốc thời gian.",
+            "meaning": "mưa; trời mưa",
+            "grammar": "下雨 là cụm động từ, không cần chủ thể tự nhiên như tiếng Việt.",
+            "pattern": "下雨了；下雨的时候+…",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
                 "zh": "外面下雨了。",
-                "vi": "Ngoài trời mưa rồi.",
-                "comment": "下雨 nêu việc mưa bắt đầu.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "pinyin": "Wàimiàn xià yǔ le.",
+                "vi": "Bên ngoài mưa rồi.",
+                "note": "了 báo hiện tượng đã bắt đầu."
               },
               {
-                "id": "c2",
-                "zh": "外面的雨很大。",
-                "vi": "Cơn mưa ngoài trời rất lớn.",
-                "comment": "雨 là chủ ngữ được miêu tả là lớn.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "下雨的时候，我不出门。",
+                "pinyin": "Xià yǔ de shíhou, wǒ bù chūmén.",
+                "vi": "Khi trời mưa, tôi không ra ngoài.",
+                "note": "Làm mệnh đề thời gian."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "noun",
+            "afterSense": "rainverb",
+            "title": "下雨 và 雨 khác vai",
+            "explanation": "下雨 là cụm nói trời đang mưa; 雨 là danh từ mưa/cơn mưa, có thể đứng sau 有 hoặc 听.",
+            "contrasts": [
+              {
+                "zh": "外面下雨了。",
+                "pinyin": "Wàimiàn xià yǔ le.",
+                "vi": "Bên ngoài mưa rồi.",
+                "note": "Cụm hiện tượng."
+              },
+              {
+                "zh": "今天有雨。",
+                "pinyin": "Jīntiān yǒu yǔ.",
+                "vi": "Hôm nay có mưa.",
+                "note": "雨 là danh từ."
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 下雨 bằng 雨 trong 外面下雨了 sẽ thiếu cách nói hành động; đổi cả khung thành 外面的雨很大 thì đúng nhưng chuyển sang miêu tả cơn mưa."
-            },
-            "boundary": "Hai cách nói cùng nói về thời tiết mưa nhưng nhìn khác nhau: việc mưa xảy ra so với cơn mưa/độ lớn của nó.",
-            "tip": "Muốn nói trời đổ mưa: 下雨; muốn tả cơn mưa: 雨很大."
+            "tip": "Muốn nói đang xảy ra, dùng 下雨; muốn nói có mưa như một hiện tượng/dự báo, có thể dùng 有雨."
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "Không có cách đọc thông dụng khác cần dạy; tách động từ 下雨 khỏi danh từ 雨.",
-          "literalTranslation": "Không dịch 下 thành “xuống” theo từng chữ; cả cụm 下雨 nghĩa là trời mưa.",
-          "confusables": "Đối chiếu 雨 (cơn mưa) và 会/可能下雨 (dự báo); không nhầm thanh gốc với biến điệu."
-        },
-        "pronunciation": {
-          "text": "下 là thanh bốn, 雨 có thanh gốc thanh ba; đọc liền thành cụm, không cần đổi thanh trong cụm này. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Xếp các từ thành câu: 外面 / 下雨 / 了。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn muốn nói “Ngày mai có thể mưa”. Điền 可能 và 下雨 vào câu: 明天____。"
-          }
-        ],
-        "answers": {
-          "q1": {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Bên ngoài mưa rồi.",
+            "tokens": [
+              "外面",
+              "下雨了",
+              "。"
+            ],
             "accepted": [
               "外面下雨了。"
             ],
-            "explanation": "外面 là nơi; 下雨 nêu việc mưa; 了 báo tình hình mới."
+            "model": "外面下雨了。",
+            "explanation": "下雨了 là trời mưa rồi.",
+            "wrongFeedback": "Giữ cụm 下雨了."
           },
-          "q2": {
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: ____的时候，我不出门。",
             "accepted": [
-              "明天可能下雨。"
+              "下雨"
             ],
-            "explanation": "可能 đứng trước cụm động từ 下雨."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nhắn cho người nhà rằng ngoài trời đang mưa."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói ngày mai có thể mưa."
+            "model": "下雨的时候，我不出门。",
+            "explanation": "下雨的时候 là khi trời mưa.",
+            "wrongFeedback": "Điền cụm chỉ hiện tượng mưa."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Báo nơi và tình hình mưa.",
-            "frame": "外面 + 下雨 + 了。",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "noun",
+            "type": "choice",
+            "prompt": "Muốn nói đang mưa bên ngoài, chọn cụm đúng.",
+            "choices": [
+              "外面下雨了。",
+              "外面雨了。"
+            ],
+            "correctIndex": 0,
             "model": "外面下雨了。",
-            "vi": "Ngoài trời mưa rồi.",
+            "explanation": "下雨 là cụm động từ hoàn chỉnh.",
+            "wrongFeedback": "Không bỏ 下 trong cụm động từ chỉ mưa."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bên ngoài mưa rồi.",
+            "hints": [
+              "Nêu nơi chốn: 外面.",
+              "Dùng 下雨了.",
+              "Mẫu: 外面下雨了。"
+            ],
+            "model": "外面下雨了。",
+            "vi": "Bên ngoài mưa rồi.",
             "criteria": [
-              "Dùng đủ cụm 下雨.",
-              "Có thể đổi 了 nếu đang dự báo hoặc diễn đạt thời điểm khác."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu ngày mai và khả năng mưa.",
-            "frame": "明天 + 可能 + 下雨。",
-            "model": "明天可能下雨。",
-            "vi": "Ngày mai có thể mưa.",
-            "criteria": [
-              "Từ chỉ khả năng đứng trước 下雨.",
-              "Có thể dùng 会 khi muốn nói dự báo chắc hơn."
+              "Dùng đúng cụm 下雨."
             ]
           }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Cụm nào nghĩa là trời mưa?",
+            "hiddenAnswer": "下雨",
+            "model": "下雨"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 外面__雨了。",
+            "hiddenAnswer": "下",
+            "model": "外面下雨了。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Bên ngoài mưa rồi.",
+            "choices": [
+              "外面",
+              "下雨了",
+              "。"
+            ],
+            "correct": [
+              "外面下雨了。"
+            ],
+            "explanation": "下雨了 là mưa rồi."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Muốn nói đang mưa bên ngoài, chọn cụm đúng.",
+            "choices": [
+              "外面下雨了。",
+              "外面雨了。"
+            ],
+            "correctIndex": 0,
+            "explanation": "下雨 là cụm động từ."
+          }
         }
-      }
+      },
+      "task": "Nói ngoài trời đang mưa.",
+      "model": "外面下雨了。"
     },
     {
       "id": "hz-h1-c4bc9119c0ea",
@@ -22727,20 +22767,22 @@
       "meaning": "thời tiết",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-008",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 017",
       "examples": [
         {
           "id": "e1",
-          "zh": "今天天气很冷。",
-          "vi": "Hôm nay thời tiết rất lạnh.",
-          "analysis": "今天 nêu thời gian; 天气 là chủ đề được nhận xét bằng 很冷.",
+          "zh": "今天天气怎么样？",
+          "pinyin": "Jīntiān tiānqì zěnmeyàng?",
+          "vi": "Hôm nay thời tiết thế nào?",
+          "analysis": "天气 là thời tiết nói chung, còn 怎么样 hỏi tình trạng/đánh giá.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "明天天气怎么样？",
-          "vi": "Thời tiết ngày mai thế nào?",
-          "analysis": "Hỏi chung về tình hình thời tiết; muốn hỏi riêng trời có mưa không thì dùng 会不会下雨。",
+          "zh": "今天天气很好。",
+          "pinyin": "Jīntiān tiānqì hěn hǎo.",
+          "vi": "Hôm nay thời tiết rất đẹp.",
+          "analysis": "天气 làm chủ thể của nhận xét về thời tiết.",
           "practiceAllowed": true
         }
       ],
@@ -22748,151 +22790,191 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 86,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "medium",
+        "difficultyReason": "天气 là khái niệm thời tiết nói chung, cần phân biệt với 下雨/雨 là một hiện tượng cụ thể và dùng đúng 怎么样.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://resources.allsetlearning.com/chinese/grammar/Weather"
         ],
         "introduction": {
-          "scope": "Học 天气 để hỏi hoặc nhận xét thời tiết trong ngày; dùng 下雨 khi muốn nói cụ thể trời mưa."
-        },
-        "meaning": {
-          "scene": "Bạn muốn biết mai trời nóng, lạnh, nắng hay mưa.",
-          "explanation": "天气 là danh từ chỉ tình hình thời tiết. Có thể hỏi 天气怎么样 hoặc đặt tính từ sau 天气 để nhận xét.",
-          "boundary": "天气 gọi tình hình chung; 下雨 chỉ việc trời mưa. Không ghép 天气下雨 để nói “trời mưa”: hãy nói 天气很冷 để nhận xét chung hoặc 今天下雨 để báo mưa.",
-          "conditions": [
-            "Muốn hỏi thời tiết, dùng 天气怎么样; muốn hỏi có mưa không, hỏi 会不会下雨.",
-            "Không cần thêm 是 trước tính từ: 天气很冷 là câu tự nhiên."
-          ],
-          "takeaway": "天气 là tình hình chung; 下雨 nói riêng việc trời mưa."
+          "scope": "天气 nghĩa là thời tiết, tổng thể các điều kiện như nóng, lạnh, mưa hoặc gió."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "今天天气很冷。",
-            "vi": "Hôm nay thời tiết rất lạnh.",
-            "analysis": "今天 nêu thời gian; 天气 là chủ đề được nhận xét bằng 很冷.",
+            "zh": "今天天气怎么样？",
+            "pinyin": "Jīntiān tiānqì zěnmeyàng?",
+            "vi": "Hôm nay thời tiết thế nào?",
+            "analysis": "天气 là thời tiết nói chung, còn 怎么样 hỏi tình trạng/đánh giá.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "明天天气怎么样？",
-            "vi": "Thời tiết ngày mai thế nào?",
-            "analysis": "Hỏi chung về tình hình thời tiết; muốn hỏi riêng trời có mưa không thì dùng 会不会下雨。",
+            "zh": "今天天气很好。",
+            "pinyin": "Jīntiān tiānqì hěn hǎo.",
+            "vi": "Hôm nay thời tiết rất đẹp.",
+            "analysis": "天气 làm chủ thể của nhận xét về thời tiết.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Thời gian + 天气 + 怎么样？ / 天气 + 很 + tính từ",
-            "position": "Thời gian thường đứng đầu; 天气 đứng trước câu hỏi 怎么样 hoặc trước tính từ.",
-            "required": "Khi nhận xét, có thể dùng 天气很冷/很好; không đặt 是 giữa 天气 và tính từ.",
-            "omission": "Khi người nghe đã biết đang hỏi thời tiết, có thể hỏi đơn giản 天气怎么样？",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Hỏi thời tiết chung hay hỏi trời có mưa",
-            "scene": "Bạn lên kế hoạch đi chơi ngày mai.",
-            "possibleConfusion": "Thời tiết và mưa có liên quan nhưng một từ hỏi tình hình chung, cụm kia hỏi một hiện tượng.",
-            "difference": "天气怎么样？ hỏi nắng, lạnh, nóng, mưa…; 会不会下雨？ chỉ hỏi khả năng có mưa.",
-            "cases": [
+            "id": "weather",
+            "title": "Thời tiết",
+            "when": "Nói hoặc hỏi tình trạng thời tiết nói chung.",
+            "meaning": "thời tiết",
+            "grammar": "天气 làm chủ thể với 怎么样 hoặc tính từ nhận xét.",
+            "pattern": "天气+怎么样；天气+很好/很热",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "明天天气怎么样？",
-                "vi": "Thời tiết ngày mai thế nào?",
-                "comment": "Câu hỏi mở về tình hình chung.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "今天天气怎么样？",
+                "pinyin": "Jīntiān tiānqì zěnmeyàng?",
+                "vi": "Hôm nay thời tiết thế nào?",
+                "note": "Hỏi tổng thể thời tiết."
               },
               {
-                "id": "c2",
-                "zh": "明天会不会下雨？",
-                "vi": "Ngày mai có mưa không?",
-                "comment": "Câu hỏi cụ thể về mưa.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "今天天气很好。",
+                "pinyin": "Jīntiān tiānqì hěn hǎo.",
+                "vi": "Hôm nay thời tiết rất đẹp.",
+                "note": "Nhận xét thời tiết."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "phenomenon",
+            "afterSense": "weather",
+            "title": "天气 rộng hơn 雨 và 下雨",
+            "explanation": "天气 nói tổng thể thời tiết; 雨 và 下雨 chỉ mưa, một hiện tượng cụ thể trong thời tiết.",
+            "contrasts": [
+              {
+                "zh": "今天天气怎么样？",
+                "pinyin": "Jīntiān tiānqì zěnmeyàng?",
+                "vi": "Hôm nay thời tiết thế nào?",
+                "note": "Hỏi tổng thể."
+              },
+              {
+                "zh": "今天下雨了。",
+                "pinyin": "Jīntiān xià yǔ le.",
+                "vi": "Hôm nay trời mưa rồi.",
+                "note": "Nói một hiện tượng."
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Hai câu đều hữu ích khi lên kế hoạch nhưng không thay thế trọn ý nhau: câu thứ nhất hỏi chung, câu thứ hai chỉ hỏi mưa."
-            },
-            "boundary": "Trời mưa là một phần của thời tiết, nên câu trả lời về 天气 có thể nhắc 下雨; chỉ khác phạm vi câu hỏi.",
-            "tip": "Hỏi toàn cảnh dùng 天气怎么样; hỏi mưa dùng 会不会下雨."
+            "tip": "Hỏi toàn cảnh dùng 天气怎么样; nói hiện tượng mưa dùng 下雨."
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "天气 có một cách đọc thông dụng; không cần dạy nghĩa hiếm.",
-          "literalTranslation": "Không tách 天 và 气 để đoán nghĩa; cả từ là thời tiết.",
-          "confusables": "Đã đối chiếu 天气 với 下雨 theo phạm vi câu hỏi; không tạo ranh giới giữa thời tiết và một hiện tượng nằm trong thời tiết."
-        },
-        "pronunciation": {
-          "text": "天气 đọc thanh một rồi thanh bốn; giữ rõ cả hai tiếng, không đọc thành âm nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn muốn hỏi thời tiết ngày mai thế nào. Sắp xếp: 明天 / 天气 / 怎么样？"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn chỉ muốn hỏi ngày mai có mưa không. Viết câu với 会不会下雨。"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "明天天气怎么样？"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Hôm nay thời tiết thế nào?",
+            "tokens": [
+              "今天天气",
+              "怎么样",
+              "？"
             ],
-            "explanation": "Thời gian đứng trước; 天气怎么样 hỏi chung về thời tiết."
-          },
-          "q2": {
             "accepted": [
-              "明天会不会下雨？"
+              "今天天气怎么样？"
             ],
-            "explanation": "会不会 đặt trước cụm 下雨 để hỏi khả năng mưa."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Hỏi bạn bè thời tiết hôm nay thế nào."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói thời tiết ngày mai sẽ lạnh."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Hỏi tình hình thời tiết và thời điểm.",
-            "frame": "今天 + 天气 + 怎么样？",
             "model": "今天天气怎么样？",
-            "vi": "Thời tiết hôm nay thế nào?",
-            "criteria": [
-              "Có 天气怎么样 để hỏi chung.",
-              "Có thể bỏ 今天 khi ngữ cảnh đã rõ."
-            ]
+            "explanation": "怎么样 đứng sau chủ đề thời tiết.",
+            "wrongFeedback": "Dùng 怎么样 để hỏi tình trạng."
           },
-          "s2": {
-            "idea": "Nêu ngày mai và nhận xét lạnh.",
-            "frame": "明天 + 天气 + 很 + 冷。",
-            "model": "明天天气很冷。",
-            "vi": "Ngày mai thời tiết rất lạnh.",
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 今天天气很____。",
+            "accepted": [
+              "好"
+            ],
+            "model": "今天天气很好。",
+            "explanation": "好 nhận xét thời tiết.",
+            "wrongFeedback": "Điền tính từ nhận xét tích cực."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "phenomenon",
+            "type": "choice",
+            "prompt": "Muốn hỏi tổng thể thời tiết, chọn câu đúng.",
+            "choices": [
+              "今天天气怎么样？",
+              "今天下雨怎么样？"
+            ],
+            "correctIndex": 0,
+            "model": "今天天气怎么样？",
+            "explanation": "天气怎么样 hỏi toàn cảnh thời tiết.",
+            "wrongFeedback": "下雨 chỉ là một hiện tượng cụ thể."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Hỏi hôm nay thời tiết thế nào.",
+            "hints": [
+              "Nêu hôm nay và thời tiết: 今天天气.",
+              "Dùng 怎么样.",
+              "Mẫu: 今天天气怎么样？"
+            ],
+            "model": "今天天气怎么样？",
+            "vi": "Hôm nay thời tiết thế nào?",
             "criteria": [
-              "Đặt tính từ sau 天气.",
-              "Không cần thêm 是."
+              "Dùng đúng 天气 và 怎么样."
             ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là thời tiết?",
+            "hiddenAnswer": "天气",
+            "model": "天气"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 今天天气____？",
+            "hiddenAnswer": "怎么样",
+            "model": "今天天气怎么样？"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Hôm nay thời tiết thế nào?",
+            "choices": [
+              "今天天气",
+              "怎么样",
+              "？"
+            ],
+            "correct": [
+              "今天天气怎么样？"
+            ],
+            "explanation": "怎么样 hỏi tình trạng."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Muốn hỏi tổng thể thời tiết, chọn câu đúng.",
+            "choices": [
+              "今天天气怎么样？",
+              "今天下雨怎么样？"
+            ],
+            "correctIndex": 0,
+            "explanation": "天气怎么样 hỏi toàn cảnh."
           }
         }
-      }
+      },
+      "task": "Hỏi hôm nay thời tiết thế nào.",
+      "model": "今天天气怎么样？"
     },
     {
       "id": "hz-h1-4b01c12e2fb5",
@@ -22907,20 +22989,22 @@
       "meaning": "bà nội",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-008",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 017",
       "examples": [
         {
           "id": "e1",
-          "zh": "我奶奶今年七十岁。",
-          "vi": "Bà nội tôi năm nay 70 tuổi.",
-          "analysis": "我 đứng trước danh từ thân thuộc; 奶奶 là người được nói đến.",
+          "zh": "我奶奶在家。",
+          "pinyin": "Wǒ nǎinai zài jiā.",
+          "vi": "Bà nội tôi ở nhà.",
+          "analysis": "奶奶 là cách gọi bà nội trong gia đình.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "奶奶在家做饭。",
-          "vi": "Bà nội đang nấu ăn ở nhà.",
-          "analysis": "奶奶 làm chủ ngữ; 在家 nêu nơi, 做饭 nêu việc bà làm.",
+          "zh": "奶奶喜欢喝茶。",
+          "pinyin": "Nǎinai xǐhuan hē chá.",
+          "vi": "Bà nội thích uống trà.",
+          "analysis": "奶奶 làm chủ thể của hoạt động.",
           "practiceAllowed": true
         }
       ],
@@ -22928,152 +23012,158 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 87,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "easy",
+        "difficultyReason": "奶奶 là từ thân thuộc chỉ bà nội, dùng trực tiếp trong câu sở hữu/người thân.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=56326&la=0&powerMode=0"
+          "https://resources.allsetlearning.com/chinese/grammar/Family_terms"
         ],
         "introduction": {
-          "scope": "Học 奶奶 là bà của bên cha theo cách gọi phổ thông; phân biệt với bà bên mẹ."
-        },
-        "meaning": {
-          "scene": "Bạn giới thiệu bà với một người bạn Trung Quốc.",
-          "explanation": "奶奶 là mẹ của cha mình, tức bà nội. Đây là danh từ xưng gọi người trong gia đình.",
-          "boundary": "Tiếng Việt thường gọi cả hai người là “bà”; tiếng Trung thường phân biệt bên cha 奶奶 và bên mẹ 外婆 (ở nhiều nơi cũng gọi 姥姥).",
-          "conditions": [
-            "Khi giới thiệu người khác, thêm 我: 我奶奶 là bà nội tôi.",
-            "Tên gọi bên mẹ có khác nhau theo vùng; 外婆 là cách gọi phổ biến, 姥姥 cũng thường gặp."
-          ],
-          "takeaway": "奶奶 là bà bên cha; 外婆/姥姥 thường chỉ bà bên mẹ."
+          "scope": "奶奶 là cách gọi bà nội, tức mẹ của bố trong cách phân biệt gia đình cơ bản."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "我奶奶今年七十岁。",
-            "vi": "Bà nội tôi năm nay 70 tuổi.",
-            "analysis": "我 đứng trước danh từ thân thuộc; 奶奶 là người được nói đến.",
+            "zh": "我奶奶在家。",
+            "pinyin": "Wǒ nǎinai zài jiā.",
+            "vi": "Bà nội tôi ở nhà.",
+            "analysis": "奶奶 là cách gọi bà nội trong gia đình.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "奶奶在家做饭。",
-            "vi": "Bà nội đang nấu ăn ở nhà.",
-            "analysis": "奶奶 làm chủ ngữ; 在家 nêu nơi, 做饭 nêu việc bà làm.",
+            "zh": "奶奶喜欢喝茶。",
+            "pinyin": "Nǎinai xǐhuan hē chá.",
+            "vi": "Bà nội thích uống trà.",
+            "analysis": "奶奶 làm chủ thể của hoạt động.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "我/他/她 + 奶奶 + thông tin về người đó",
-            "position": "奶奶 đứng sau từ chỉ người sở hữu; nếu là người làm hành động, 奶奶 đứng đầu câu.",
-            "required": "Không dùng lượng từ khi nói quan hệ gia đình trong 我奶奶.",
-            "omission": "Trong nhà có thể gọi trực tiếp 奶奶 mà không thêm 我.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Bà bên cha hay bên mẹ",
-            "scene": "Bạn giới thiệu hai người bà trong ảnh gia đình.",
-            "possibleConfusion": "Tiếng Việt thường dùng “bà” cho cả hai bên nội ngoại.",
-            "difference": "奶奶 là mẹ của cha; 外婆 là mẹ của mẹ. Ở nhiều vùng, đặc biệt miền Bắc Trung Quốc, 姥姥 cũng được dùng cho bà ngoại.",
-            "cases": [
+            "id": "paternalgrandma",
+            "title": "Bà nội",
+            "when": "Nói về hoặc gọi mẹ của bố.",
+            "meaning": "bà nội",
+            "grammar": "奶奶 là danh từ thân tộc, có thể làm chủ thể hoặc đứng sau 我.",
+            "pattern": "我+奶奶；奶奶+động từ",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "这是我奶奶。",
-                "vi": "Đây là bà nội tôi.",
-                "comment": "奶奶 xác định bên cha.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我奶奶在家。",
+                "pinyin": "Wǒ nǎinai zài jiā.",
+                "vi": "Bà nội tôi ở nhà.",
+                "note": "我奶奶 là bà nội của tôi."
               },
               {
-                "id": "c2",
-                "zh": "这是我外婆。",
-                "vi": "Đây là bà ngoại tôi.",
-                "comment": "外婆 xác định bên mẹ.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "奶奶喜欢喝茶。",
+                "pinyin": "Nǎinai xǐhuan hē chá.",
+                "vi": "Bà nội thích uống trà.",
+                "note": "奶奶 làm chủ thể."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi 奶奶 thành 外婆 làm câu vẫn đúng nhưng đổi quan hệ gia đình; không phải chỉ đổi cách xưng hô."
-            },
-            "boundary": "Trong giao tiếp, mỗi gia đình có thể dùng cách xưng gọi thân mật riêng; khi học nghĩa chuẩn, hãy nhớ cách phân biệt bên cha/bên mẹ.",
-            "tip": "奶奶 bên cha; 外婆 hoặc 姥姥 bên mẹ."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "奶奶的第二个音节读轻声，是这个词的常见读法；不是另一个词义。",
-          "literalTranslation": "Không dịch từng chữ 奶 thành sữa rồi hiểu 奶奶 là “sữa sữa”; cả từ chỉ bà nội.",
-          "confusables": "Đã so với 外婆/姥姥 theo quan hệ bên cha/bên mẹ; các cách gọi bên ngoại có khác biệt vùng miền."
-        },
-        "pronunciation": {
-          "text": "奶奶 gồm một tiếng mang thanh ba và tiếng sau thanh nhẹ; tiếng nhẹ vẫn phát ra, ngắn và nhẹ hơn. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn nói “Đây là bà nội tôi”. Điền 奶奶 hoặc 外婆: 这是我____。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Sắp xếp thành câu: 在家 / 奶奶 / 做饭。"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "这是我奶奶。"
-            ],
-            "explanation": "奶奶 là bà bên cha; 外婆 chỉ bà bên mẹ."
-          },
-          "q2": {
-            "accepted": [
-              "奶奶在家做饭。"
-            ],
-            "explanation": "奶奶 làm chủ ngữ; nơi chốn 在家 đứng trước hành động 做饭."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Giới thiệu bà nội của bạn và nói tuổi bà."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói bà nội đang ở nhà nấu ăn."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu bà nội, năm nay và tuổi.",
-            "frame": "我奶奶 + 今年 + tuổi + 岁。",
-            "model": "我奶奶今年七十岁。",
-            "vi": "Bà nội tôi năm nay 70 tuổi.",
-            "criteria": [
-              "Dùng 奶奶 cho bà bên cha.",
-              "Tuổi có thể thay đổi theo thực tế."
             ]
-          },
-          "s2": {
-            "idea": "Nêu bà nội, nơi và hành động.",
-            "frame": "奶奶 + 在家 + 做饭。",
-            "model": "奶奶在家做饭。",
-            "vi": "Bà nội nấu ăn ở nhà.",
+          }
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Bà nội tôi ở nhà.",
+            "tokens": [
+              "我奶奶",
+              "在家",
+              "。"
+            ],
+            "accepted": [
+              "我奶奶在家。"
+            ],
+            "model": "我奶奶在家。",
+            "explanation": "我 đứng trước 奶奶 để chỉ quan hệ sở hữu.",
+            "wrongFeedback": "Dùng 我奶奶 để nói bà nội của tôi."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "paternalgrandma",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là bà nội.",
+            "choices": [
+              "奶奶",
+              "老师"
+            ],
+            "correctIndex": 0,
+            "model": "奶奶",
+            "explanation": "奶奶 là bà nội.",
+            "wrongFeedback": "老师 là giáo viên."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bà nội của bạn ở nhà.",
+            "hints": [
+              "Nêu người: 我奶奶.",
+              "Thêm 在家.",
+              "Mẫu: 我奶奶在家。"
+            ],
+            "model": "我奶奶在家。",
+            "vi": "Bà nội tôi ở nhà.",
             "criteria": [
-              "奶奶 là người làm hành động.",
-              "在家 đứng trước 做饭."
+              "Dùng đúng 奶奶."
             ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là bà nội?",
+            "hiddenAnswer": "奶奶",
+            "model": "奶奶"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我__在家。",
+            "hiddenAnswer": "奶奶",
+            "model": "我奶奶在家。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Bà nội tôi ở nhà.",
+            "choices": [
+              "我奶奶",
+              "在家",
+              "。"
+            ],
+            "correct": [
+              "我奶奶在家。"
+            ],
+            "explanation": "我奶奶 là bà nội của tôi."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là bà nội.",
+            "choices": [
+              "奶奶",
+              "老师"
+            ],
+            "correctIndex": 0,
+            "explanation": "奶奶 là bà nội."
           }
         }
-      }
+      },
+      "task": "Nói bà nội của bạn ở nhà.",
+      "model": "我奶奶在家。"
     },
     {
       "id": "hz-h1-91011160c68e",
@@ -23088,20 +23178,22 @@
       "meaning": "trái cây",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-008",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 017",
       "examples": [
         {
           "id": "e1",
           "zh": "我喜欢吃水果。",
+          "pinyin": "Wǒ xǐhuan chī shuǐguǒ.",
           "vi": "Tôi thích ăn trái cây.",
-          "analysis": "喜欢 đứng trước hành động 吃; 水果 là thứ được ăn, nói chung nên không cần lượng từ.",
+          "analysis": "水果 là trái cây nói chung, đứng sau 吃.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "我买了两种水果。",
-          "vi": "Tôi đã mua hai loại trái cây.",
-          "analysis": "种 đếm loại; nếu đếm từng quả cụ thể, dùng lượng từ hợp với quả đó như 个.",
+          "zh": "桌子上有很多水果。",
+          "pinyin": "Zhuōzi shàng yǒu hěn duō shuǐguǒ.",
+          "vi": "Trên bàn có nhiều trái cây.",
+          "analysis": "水果 làm danh từ số lượng không xác định sau 很多.",
           "practiceAllowed": true
         }
       ],
@@ -23109,151 +23201,160 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 88,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "easy",
+        "difficultyReason": "水果 là danh từ ghép quen thuộc, dùng trực tiếp cho ăn và số lượng nhiều.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://resources.allsetlearning.com/chinese/grammar/Fruit"
         ],
         "introduction": {
-          "scope": "Học 水果 để nói trái cây nói chung; phân biệt với nước ép từ trái cây."
-        },
-        "meaning": {
-          "scene": "Bạn ghé chợ mua táo, chuối hoặc cam.",
-          "explanation": "水果 là tên gọi chung cho trái cây. Khi muốn nói một loại hay một quả cụ thể, thêm lượng từ hoặc tên quả, như 一种水果、一个苹果.",
-          "boundary": "水果 chỉ đồ ăn là trái cây; 果汁 là nước ép. Một số đồ uống làm từ trái cây không phải bản thân 水果.",
-          "conditions": [
-            "Sau động từ 吃 có thể dùng 水果 không cần lượng từ khi nói chung.",
-            "Khi đếm, nói 一个苹果 hoặc 两种水果; lượng từ tùy đếm quả hay loại."
-          ],
-          "takeaway": "水果 là trái cây để ăn; 果汁 là nước ép để uống."
+          "scope": "水果 nghĩa là trái cây, nhóm thực phẩm từ cây dùng để ăn."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "我喜欢吃水果。",
+            "pinyin": "Wǒ xǐhuan chī shuǐguǒ.",
             "vi": "Tôi thích ăn trái cây.",
-            "analysis": "喜欢 đứng trước hành động 吃; 水果 là thứ được ăn, nói chung nên không cần lượng từ.",
+            "analysis": "水果 là trái cây nói chung, đứng sau 吃.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "我买了两种水果。",
-            "vi": "Tôi đã mua hai loại trái cây.",
-            "analysis": "种 đếm loại; nếu đếm từng quả cụ thể, dùng lượng từ hợp với quả đó như 个.",
+            "zh": "桌子上有很多水果。",
+            "pinyin": "Zhuōzi shàng yǒu hěn duō shuǐguǒ.",
+            "vi": "Trên bàn có nhiều trái cây.",
+            "analysis": "水果 làm danh từ số lượng không xác định sau 很多.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Người + 吃/买 + 水果; số lượng + 种 + 水果",
-            "position": "水果 đứng sau hành động ăn/mua; 种 đứng sau số khi đếm loại.",
-            "required": "Dùng 水果 khi nói chung; nêu lượng từ khi đếm quả hoặc loại cụ thể.",
-            "omission": "Nếu món ăn đã rõ trong hội thoại, có thể đáp 喜欢吃。— Thích ăn.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Trái cây hay nước ép",
-            "scene": "Bạn hỏi người thân muốn ăn gì hay muốn uống gì.",
-            "possibleConfusion": "果汁 được làm từ trái cây nhưng là đồ uống, không phải trái cây nguyên quả.",
-            "difference": "水果 thường đi với 吃; 果汁 thường đi với 喝. Câu trộn hai động từ sẽ không còn đúng ý định.",
-            "cases": [
+            "id": "fruit",
+            "title": "Trái cây",
+            "when": "Nói về trái cây nói chung hoặc nhóm thực phẩm.",
+            "meaning": "trái cây",
+            "grammar": "Đứng sau 吃, 很多 hoặc làm danh từ chủ thể.",
+            "pattern": "吃+水果；很多+水果",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "我想吃水果。",
-                "vi": "Tôi muốn ăn trái cây.",
-                "comment": "水果 là thức ăn được ăn.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我喜欢吃水果。",
+                "pinyin": "Wǒ xǐhuan chī shuǐguǒ.",
+                "vi": "Tôi thích ăn trái cây.",
+                "note": "喜欢吃水果 là thích ăn trái cây."
               },
               {
-                "id": "c2",
-                "zh": "我想喝果汁。",
-                "vi": "Tôi muốn uống nước ép.",
-                "comment": "果汁 là đồ uống, thường đi với 喝.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "桌子上有很多水果。",
+                "pinyin": "Zhuōzi shàng yǒu hěn duō shuǐguǒ.",
+                "vi": "Trên bàn có nhiều trái cây.",
+                "note": "很多水果 là nhiều trái cây."
               }
+            ]
+          }
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi thích ăn trái cây.",
+            "tokens": [
+              "我",
+              "喜欢",
+              "吃水果",
+              "。"
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 果汁 bằng 水果 hoặc đổi 喝 thành 吃 thì câu có thể đúng nhưng ý chuyển từ uống nước ép sang ăn trái cây."
-            },
-            "boundary": "Hai thứ liên quan và có thể cùng xuất hiện trong một bữa; chỉ không đồng nghĩa và cách ăn/uống khác nhau.",
-            "tip": "Ăn 水果; uống 果汁."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "水果 có một cách đọc thông dụng; nghĩa trái cây phù hợp mức này.",
-          "literalTranslation": "Không dịch 水果 theo nghĩa “quả nước”; cả từ là trái cây.",
-          "confusables": "Đối chiếu 果汁 theo việc ăn/uống; khi đếm phân biệt 个 (quả) với 种 (loại)."
-        },
-        "pronunciation": {
-          "text": "水果 đọc thanh ba rồi thanh ba; khi hai thanh ba liền nhau, tiếng đầu thường lên giọng như thanh hai trong lời nói, còn thanh gốc vẫn là thanh ba. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn muốn nói “Tôi thích ăn trái cây”. Sắp xếp: 水果 / 我 / 吃 / 喜欢。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn mua hai loại trái cây. Điền lượng từ thích hợp: 我买了两____水果。"
-          }
-        ],
-        "answers": {
-          "q1": {
             "accepted": [
               "我喜欢吃水果。"
             ],
-            "explanation": "喜欢 đứng trước 吃; 水果 là thứ được ăn."
-          },
-          "q2": {
-            "accepted": [
-              "我买了两种水果。"
-            ],
-            "explanation": "种 đếm loại trái cây; 个 dùng khi đếm từng quả cụ thể."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói bạn thích ăn trái cây."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói bạn mua ba loại trái cây."
+            "model": "我喜欢吃水果。",
+            "explanation": "吃水果 là ăn trái cây.",
+            "wrongFeedback": "Giữ cụm 吃水果."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu mình thích hành động ăn trái cây.",
-            "frame": "我 + 喜欢 + 吃 + 水果。",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "fruit",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là trái cây.",
+            "choices": [
+              "水果",
+              "肉"
+            ],
+            "correctIndex": 0,
+            "model": "水果",
+            "explanation": "水果 là trái cây; 肉 là thịt.",
+            "wrongFeedback": "Phân biệt trái cây với thịt."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn thích ăn trái cây.",
+            "hints": [
+              "Nêu chủ thể: 我喜欢.",
+              "Dùng 吃水果.",
+              "Mẫu: 我喜欢吃水果。"
+            ],
             "model": "我喜欢吃水果。",
             "vi": "Tôi thích ăn trái cây.",
             "criteria": [
-              "Dùng 吃 với 水果.",
-              "Có thể bỏ 我 khi chủ thể đã rõ."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu việc mua ba loại.",
-            "frame": "我买了 + 三 + 种 + 水果。",
-            "model": "我买了三种水果。",
-            "vi": "Tôi đã mua ba loại trái cây.",
-            "criteria": [
-              "种 đếm loại.",
-              "Có thể đổi con số theo ý."
+              "Dùng đúng 水果."
             ]
           }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là trái cây?",
+            "hiddenAnswer": "水果",
+            "model": "水果"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我喜欢吃__。",
+            "hiddenAnswer": "水果",
+            "model": "我喜欢吃水果。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi thích ăn trái cây.",
+            "choices": [
+              "我",
+              "喜欢",
+              "吃水果",
+              "。"
+            ],
+            "correct": [
+              "我喜欢吃水果。"
+            ],
+            "explanation": "吃水果 là ăn trái cây."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là trái cây.",
+            "choices": [
+              "水果",
+              "肉"
+            ],
+            "correctIndex": 0,
+            "explanation": "水果 là trái cây."
+          }
         }
-      }
+      },
+      "task": "Nói bạn thích ăn trái cây.",
+      "model": "我喜欢吃水果。"
     },
     {
       "id": "hz-h1-3f18a484d148",
