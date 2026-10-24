@@ -3,7 +3,7 @@
   "repository": "bohoa96tb/hazi-viet",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-22",
-  "note": "Batch-027: 2 bài mới (366–367), đều trung bình; đã biên soạn, tự rà nội dung, apply/verify và DOM đạt trên cây main Release 378. Chưa commit/push/phát hành lượt này.",
+  "note": "Batch-027: 2 bài mới (366–367), đều trung bình; đã biên soạn, tự rà nội dung, apply/verify và DOM đạt. Commit 859714a đã push fast-forward lên cả hai nhánh; Pages run 40093701329 success và course live khớp byte.",
   "sourceBlobs": {
     "progress.json": "58eaf59d6e82d9fc5fbd5e8fe340f458515b7c71",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
@@ -38,8 +38,8 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "1246046c73e329e41902d096403d91a870b60045",
-  "priorVerificationNote": "Đã kiểm HEAD main và nhánh content hiện có; không hợp nhất hướng V3 cũ. Batch-027 đã qua process-batch verify và test-dom. Chưa xác minh commit/phát hành của lượt này, bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "859714a1489df7357461c3dfa656008bd1192457",
+  "priorVerificationNote": "Đã kiểm HEAD main và nhánh content hiện có; không hợp nhất hướng V3 cũ. Batch-027 đã qua process-batch verify và test-dom; Pages run 40093701329 success đúng SHA, live course khớp byte. Chưa xác minh bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[367:]",
@@ -69,8 +69,10 @@
     "authoredIds": ["hz-h1-a3527d0310fc", "hz-h1-56730712e191"],
     "automatedVerifiedIds": ["hz-h1-a3527d0310fc", "hz-h1-56730712e191"],
     "editorialReviewedIds": ["hz-h1-a3527d0310fc", "hz-h1-56730712e191"],
-    "publishedIds": [],
+    "publishedIds": ["hz-h1-a3527d0310fc", "hz-h1-56730712e191"],
     "teacherReviewedIds": [],
-    "releaseState": "local-verified-pending-commit"
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40093701329,
+    "verifiedPagesCommit": "859714a1489df7357461c3dfa656008bd1192457"
   }
 }
