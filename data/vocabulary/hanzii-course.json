@@ -29328,9 +29328,17 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Nơi + danh từ + 很多; Người + động từ + 很多 + danh từ",
-            "position": "很多 đứng trước danh từ khi nói lượng trong cụm; danh từ có thể đứng trước 很多 trong mẫu nhận xét như 人很多.",
-            "required": "Chọn khung theo ý: giới thiệu lượng có/được mua hay nhận xét một nơi/nhóm đông.",
+            "frame": "Nơi + danh từ + 很多",
+            "position": "Danh từ đứng sau nơi chốn và 很多 đứng sau danh từ trong mẫu nhận xét số lượng.",
+            "required": "Dùng khung này để nhận xét một nơi hoặc nhóm có số lượng đông.",
+            "omission": "Khi danh từ đã rõ, có thể chỉ đáp 很多。— Nhiều lắm.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Người + động từ + 很多 + danh từ",
+            "position": "很多 đứng trước danh từ sau động từ khi nói số lượng được mua, có hoặc làm.",
+            "required": "Dùng khung này để nêu nhiều vật/người gắn với một hành động cụ thể.",
             "omission": "Khi danh từ đã rõ, có thể chỉ đáp 很多。— Nhiều lắm.",
             "exampleId": "e2"
           }
@@ -29879,11 +29887,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Danh từ + 很 + 好; món ăn + 很 + 好吃",
-            "position": "好 đứng sau 很 khi nhận xét; trong 好吃, 好 đứng trước 吃.",
-            "required": "Chọn 好 để khen chất lượng; ghép 好吃 khi nhận xét vị món ăn.",
+            "frame": "Danh từ + 很 + 好",
+            "position": "好 đứng sau 很 khi nhận xét chất lượng hoặc cách làm.",
+            "required": "Dùng 好 để khen điều gì đó tốt hoặc hay.",
             "omission": "Trong đáp ngắn có thể nói 很好/好吃 mà không nhắc lại món đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Món ăn + 很 + 好吃",
+            "position": "好 đứng trước 吃 trong cụm 好吃 để nhận xét vị món ăn.",
+            "required": "Dùng 好吃 cho món ngon; không dịch tách thành “tốt ăn”.",
+            "omission": "Khi món đã rõ, có thể đáp 好吃。— Ngon.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -30090,11 +30106,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Danh từ + 很 + 小; 一个 + 小 + danh từ",
-            "position": "小 đứng sau 很 trong nhận xét, hoặc đứng trước danh từ để bổ nghĩa.",
-            "required": "Dùng 小 cho kích thước; khi đếm cốc dùng 个 trước 小杯子.",
+            "frame": "Danh từ + 很 + 小",
+            "position": "小 đứng sau 很 khi nhận xét kích thước của vật.",
+            "required": "Dùng 小 để nói vật hoặc không gian có kích thước nhỏ.",
             "omission": "Khi vật đã rõ, có thể nói 很小。— Nhỏ lắm.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一个 + 小 + danh từ",
+            "position": "小 đứng trước danh từ để bổ nghĩa; 个 đứng trước 小 khi đếm một vật.",
+            "required": "Dùng khung này khi muốn mua hoặc chọn một vật nhỏ.",
+            "omission": "Có thể bỏ 一个 khi không cần nêu số lượng.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -30270,11 +30294,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Người + hành động + 得 + 很 + 少; 请 + 少 + động từ + ...",
-            "position": "少 đứng sau 很 trong nhận xét về lượng, hoặc đứng trước động từ để yêu cầu giảm lượng.",
-            "required": "Muốn nói ít, nêu rõ việc hoặc vật được tính; 少 không tự cho biết thứ gì ít.",
+            "frame": "Người + hành động + 得 + 很 + 少",
+            "position": "少 đứng sau 很 ở cuối cụm 得 để nói lượng của hành động.",
+            "required": "Dùng khung này để nói một người làm hoặc dùng một thứ với lượng ít.",
             "omission": "Khi việc đã rõ, có thể đáp 我吃得很少。— Tôi ăn rất ít.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "请 + 少 + động từ + ...",
+            "position": "少 đứng trước động từ để yêu cầu giảm lượng thực hiện.",
+            "required": "Nêu rõ thứ cần giảm sau động từ nếu người nghe chưa biết.",
+            "omission": "Có thể nói 请少放一点儿。 khi thứ cần cho vào đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -30481,11 +30513,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Danh từ/chủ thể + 很 + 差; A + 比 + B + 差",
-            "position": "差 đứng sau 很 hoặc sau chủ thể so sánh; 比 đứng trước mốc so sánh.",
-            "required": "Muốn nói một đáp án không đúng, dùng 错 hoặc 不对, không chỉ 差.",
+            "frame": "Danh từ/chủ thể + 很 + 差",
+            "position": "差 đứng sau 很 để đánh giá chất lượng hoặc kết quả ở mức thấp.",
+            "required": "Dùng 差 cho chất lượng/kết quả kém; không dùng để nói đáp án không đúng.",
             "omission": "Có thể lược mốc so sánh khi người nghe đã biết đang so với lần nào.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "A + 比 + B + 差",
+            "position": "差 đứng sau chủ thể A; 比 đứng trước mốc B để so sánh.",
+            "required": "Dùng khung này khi kết quả của A thấp hơn B.",
+            "omission": "Có thể lược mốc so sánh khi ngữ cảnh đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -30661,7 +30701,7 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 很 + tính từ; phủ định: 不 + tính từ",
+            "frame": "Chủ thể + 很 + tính từ",
             "position": "很 đặt ngay trước tính từ và sau chủ thể.",
             "required": "Dùng câu khẳng định đơn giản; không cần thêm 是 trước tính từ.",
             "omission": "Trong hội thoại, nếu chủ thể đã rõ, có thể chỉ đáp 很热。— Nóng.",
@@ -30841,11 +30881,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + động từ + 得 + 很 + 快; 快点儿 + hành động",
-            "position": "快 có thể đứng cuối phần mô tả sau 得, hoặc thành 快点儿 trước hành động cần giục.",
-            "required": "Muốn nói “sắp”, dùng 快要 + động từ, không nhầm với tốc độ.",
+            "frame": "Chủ thể + động từ + 得 + 很 + 快",
+            "position": "快 đứng sau 很 trong cụm 得 để tả tốc độ của hành động.",
+            "required": "Dùng khung này khi muốn nói ai hoặc vật làm việc gì nhanh.",
             "omission": "Khi hành động đã rõ, có thể chỉ nói 快点儿。— Nhanh lên.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "快点儿 + hành động",
+            "position": "快点儿 đứng trước hành động để giục làm nhanh hơn.",
+            "required": "Dùng lời giục này khi muốn người nghe tăng tốc ngay lúc nói.",
+            "omission": "Khi việc đã rõ, có thể chỉ nói 快点儿。— Nhanh lên.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -31021,11 +31069,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + động từ + 得 + 很 + 慢; động từ + 慢一点儿",
-            "position": "慢 có thể đứng sau 得 để tả tốc độ, hoặc sau động từ trong lời yêu cầu.",
-            "required": "Nêu hành động cần giảm tốc độ; nếu nói đến muộn thì chọn 晚.",
+            "frame": "Chủ thể + động từ + 得 + 很 + 慢",
+            "position": "慢 đứng sau 很 trong cụm 得 để tả tốc độ của hành động.",
+            "required": "Dùng khung này để nhận xét ai hoặc vật làm việc gì chậm.",
             "omission": "Khi việc đã rõ, có thể nói 慢一点儿。— Chậm hơn một chút.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Động từ + 慢一点儿",
+            "position": "慢一点儿 đứng sau động từ trong lời đề nghị giảm tốc độ.",
+            "required": "Dùng khung này để nhờ người khác làm chậm hành động đang diễn ra.",
+            "omission": "Khi việc đã rõ, có thể nói 慢一点儿。— Chậm hơn một chút.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -31201,11 +31257,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 真 + tính từ; 真(的) + thông tin + 吗?",
-            "position": "真 đứng trước tính từ hoặc trước thông tin cần xác nhận.",
-            "required": "Dựa vào cấu trúc và ngữ điệu: lời nhận xét hay câu hỏi xác nhận.",
+            "frame": "Chủ thể + 真 + tính từ",
+            "position": "真 đứng trước tính từ để nhấn mạnh cảm nhận hoặc lời khen.",
+            "required": "Dùng 真 khi muốn nói cảm nhận là thật hoặc nổi bật.",
             "omission": "Khi món ăn/ngữ cảnh đã rõ, có thể chỉ khen 真好吃！— Ngon thật!",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "真(的) + thông tin + 吗?",
+            "position": "真(的) đứng trước thông tin cần xác nhận và 吗 đứng cuối câu hỏi.",
+            "required": "Dùng khung này để hỏi người nghe thông tin có đúng sự thật hay không.",
+            "omission": "Có thể nói 真吗？ khi nội dung vừa nghe đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -31382,11 +31446,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Người + 老了/很老; cách gọi thân mật: 老 + họ",
-            "position": "老 đứng sau chủ thể khi nhận xét tuổi; trước họ trong một số cách gọi quen thuộc.",
-            "required": "Muốn nói đồ vật cũ, có thể dùng 旧; muốn nói người già, dùng 老.",
+            "frame": "Người + 老了/很老",
+            "position": "老 đứng sau chủ thể khi nhận xét người đã cao tuổi.",
+            "required": "Dùng 老 cho người; muốn nói đồ vật cũ, thường dùng 旧.",
             "omission": "Nếu mọi người biết người được gọi là ai, riêng 老王 đã đủ làm chủ ngữ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "老 + họ",
+            "position": "老 đứng trước họ trong một số cách gọi quen thuộc.",
+            "required": "Chỉ dùng cách gọi này khi quan hệ và sắc thái thân mật phù hợp; không suy ra tuổi từ 老 + họ.",
+            "omission": "Khi ngữ cảnh đã rõ, riêng 老王 đã đủ làm chủ ngữ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -31562,11 +31634,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Đồ vật + 很/太 + 贵; câu lịch sự: 您 + 贵姓?",
-            "position": "贵 đứng sau mức độ khi nói giá; đứng trước 姓 trong câu hỏi lịch sự.",
-            "required": "Dùng 便宜 nếu muốn nói giá thấp/rẻ; 贵姓 là cụm lịch sự cố định.",
+            "frame": "Đồ vật + 很/太 + 贵",
+            "position": "贵 đứng sau 很 hoặc 太 khi nói giá cao.",
+            "required": "Dùng 贵 cho giá cao; dùng 便宜 nếu muốn nói giá thấp.",
             "omission": "Khi đã rõ món hàng, có thể nói 太贵了。— Đắt quá.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "您 + 贵姓？",
+            "position": "贵 đứng trước 姓 trong câu hỏi lịch sự về họ.",
+            "required": "Dùng 贵姓 như một cụm lịch sự cố định, không hiểu là hỏi giá.",
+            "omission": "Có thể hỏi 您姓什么？ trong cách nói trực tiếp hơn.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -32104,11 +32184,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Đồ vật + 很 + 重; hỏi: ... + 有多重?",
-            "position": "重 đứng sau 很 trong nhận xét; 有多重 là cụm hỏi trọng lượng.",
+            "frame": "Đồ vật + 很 + 重",
+            "position": "重 đứng sau 很 để nhận xét trọng lượng của đồ vật.",
             "required": "Nếu ý là “quan trọng”, dùng 重要, không dùng riêng 重.",
             "omission": "Khi đồ vật đã rõ, có thể đáp 很重。— Nặng lắm.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Đồ vật + 有多重？",
+            "position": "有多重 đứng sau đồ vật để hỏi trọng lượng.",
+            "required": "Dùng khung này khi cần hỏi vật nặng bao nhiêu.",
+            "omission": "Có thể hỏi 多重？ khi đồ vật đã rõ trong hội thoại.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -32284,11 +32372,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Động từ + 错 + đối tượng; người/đáp án + 错了",
-            "position": "错 thường theo sau hành động gây lỗi; cũng có thể làm vị ngữ nhận xét lựa chọn sai.",
-            "required": "Nêu hành động và thứ bị làm sai; không dùng 错 để nhận xét chung chất lượng kém.",
+            "frame": "Động từ + 错 + đối tượng",
+            "position": "错 đứng sau hành động gây lỗi và trước đối tượng bị làm sai.",
+            "required": "Dùng khung này khi một thao tác làm sai thông tin hoặc vật cụ thể.",
             "omission": "Có thể bỏ đối tượng nếu đã biết rõ lỗi nào: 我写错了。— Tôi viết nhầm rồi.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Người/đáp án + 错了",
+            "position": "错了 đứng sau người hoặc đáp án được nhận xét là sai.",
+            "required": "Dùng khung này để kết luận một lựa chọn hoặc đáp án không đúng.",
+            "omission": "Có thể nói 不对 khi chỉ muốn phủ định tính đúng của đáp án.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -32444,7 +32540,7 @@
           "conditions": [
             "Muốn nhận xét việc khó, thường nói 事情很难; muốn nói ai gặp khó khi làm, có thể dùng 难 + động từ."
           ],
-          "takeaway": "难 đứng trước tính từ/dạng động từ trong các khung trên; giữ rõ thanh hai."
+          "takeaway": "难 nói mức độ khó; trong 很难写, 难 đứng trước động từ 写."
         },
         "examples": [
           {
@@ -32465,11 +32561,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 难 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "难 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 难; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 很 + 难",
+            "position": "难 đứng sau 很 để nhận xét mức độ khó của một việc hoặc vật.",
+            "required": "Dùng khung này khi chỉ muốn nói một việc hoặc bài tập khó.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Danh từ + 很 + 难 + động từ",
+            "position": "难 đứng trước động từ để nói hành động làm với danh từ đó khó.",
+            "required": "Dùng khung này khi muốn nêu rõ việc nào khó thực hiện.",
+            "omission": "Có thể lược danh từ khi đối tượng đã rõ: 很难写。— Rất khó viết.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -32478,40 +32582,40 @@
             "title": "难 và 不容易 đều có thể nói việc khó; 不容易 cũng có thể nhấn mạnh sự vất vả.",
             "scene": "Bạn đang học một bài mới và thấy làm chưa dễ.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 难 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "难 nói mức độ khó; 忙 nói không có thời gian rảnh. Khó về việc dùng 难; nói nhẹ hơn có thể dùng 不容易.",
+          "difference": "难 nói mức độ khó; 不容易 cũng nói không dễ nhưng thường mềm hơn; 忙 nói không có thời gian rảnh, không phải khó.",
             "cases": [
               {
                 "id": "c1",
-                "zh": "这道题不容易。",
-                "vi": "Câu này không dễ.",
-                "comment": "Cách nói này phù hợp với ý định thứ nhất.",
+                "zh": "这道题很难。",
+                "vi": "Câu này rất khó.",
+                "comment": "难 nói trực tiếp mức độ khó.",
                 "judgment": "correct",
                 "practiceAllowed": false
               },
               {
                 "id": "c2",
-                "zh": "不容易 diễn đạt gần nghĩa, không sai; sắc thái thường mềm hơn.",
-                "vi": "Đúng nhưng đổi sắc thái",
-                "comment": "Cách nói này minh họa lựa chọn/cấu trúc đối chiếu.",
-                "judgment": "correct",
+                "zh": "这道题不容易。",
+                "vi": "Câu này không dễ.",
+                "comment": "Câu đúng và gần nghĩa, nhưng sắc thái nhẹ hơn 难.",
+                "judgment": "overlap",
                 "practiceAllowed": false
               }
             ],
             "replacement": {
-              "result": "different-meaning",
-              "explanation": "Khó về việc dùng 难; nói nhẹ hơn có thể dùng 不容易."
+              "result": "overlap",
+              "explanation": "Thay 难 bằng 不容易 vẫn đúng, nhưng cách nói mềm hơn và nhấn rằng việc không dễ thay vì đánh giá trực tiếp là khó."
             },
-            "boundary": "Chọn từ theo điều muốn nhấn mạnh: độ khó hay sự vất vả.",
-            "tip": "难 đứng trước tính từ/dạng động từ trong các khung trên; giữ rõ thanh hai."
+            "boundary": "Chọn 难 khi muốn nói độ khó; chọn 不容易 khi muốn nói việc không dễ hoặc có phần vất vả; 忙 chỉ nói bận.",
+            "tip": "难 là khó; 不容易 là không dễ; 忙 là bận."
           }
         ],
         "trapReview": {
           "readingsAndMeanings": "Đã rà cách đọc theo mục từ; cần học cách đọc theo từ/cụm nếu gặp nghĩa khác.",
           "literalTranslation": "Không tách từng chữ để đoán nghĩa; chọn theo cụm và tình huống.",
-          "confusables": "难 đứng trước tính từ/dạng động từ trong các khung trên; giữ rõ thanh hai."
+          "confusables": "Đã so 难 với 不容易 về sắc thái và với 忙 về loại khó khăn: khó làm khác với không có thời gian."
         },
         "pronunciation": {
-          "text": "Bạn nhận xét đường về nhà hôm nay khó đi. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "难 đọc thanh hai, giọng đi lên rõ. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -32542,31 +32646,31 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "今天回家的路很难走。"
+            "prompt": "Nói đường về nhà hôm nay khó đi."
           },
           {
             "id": "s2",
-            "prompt": "这个作业很难。"
+            "prompt": "Nói bài tập này rất khó."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "今天回家的路很难走。",
-            "frame": "这道题很难。",
-            "model": "这道题很难。",
-            "vi": "Câu này rất khó.",
+            "idea": "Nêu đường về nhà và mức độ khó khi đi.",
+            "frame": "今天回家的路 + 很 + 难 + 走。",
+            "model": "今天回家的路很难走。",
+            "vi": "Đường về nhà hôm nay rất khó đi.",
             "criteria": [
-              "Dùng 难 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "难 đứng trước động từ 走 để nói việc đi khó.",
+              "Có thể thay địa điểm nhưng giữ đúng khung."
             ]
           },
           "s2": {
-            "idea": "这个作业很难。",
-            "frame": "这个字很难写。",
-            "model": "这个字很难写。",
-            "vi": "Chữ này rất khó viết.",
+            "idea": "Nêu bài tập và đánh giá mức độ khó.",
+            "frame": "这个作业 + 很 + 难。",
+            "model": "这个作业很难。",
+            "vi": "Bài tập này rất khó.",
             "criteria": [
-              "Dùng 难 đúng vị trí trong câu.",
+              "很 đứng trước 难.",
               "Chấp nhận cách nói khác nếu tự nhiên."
             ]
           }
