@@ -32582,7 +32582,7 @@
             "title": "难 và 不容易 đều có thể nói việc khó; 不容易 cũng có thể nhấn mạnh sự vất vả.",
             "scene": "Bạn đang học một bài mới và thấy làm chưa dễ.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 难 bằng một từ gần nghĩa ở mọi câu.",
-          "difference": "难 nói mức độ khó; 不容易 cũng nói không dễ nhưng thường mềm hơn; 忙 nói không có thời gian rảnh, không phải khó.",
+            "difference": "难 nói mức độ khó; 不容易 cũng nói không dễ nhưng thường mềm hơn; 忙 nói không có thời gian rảnh, không phải khó.",
             "cases": [
               {
                 "id": "c1",
@@ -32748,11 +32748,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 高 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "高 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 高; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 很 + 高",
+            "position": "高 đứng sau 很 để nói chiều cao của người hoặc vật.",
+            "required": "Dùng 高 cho chiều cao, không dùng thay cho kích thước chung 大.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "A + 比 + B + 高",
+            "position": "比 nối vật được so sánh với mốc; 高 đứng sau mốc B.",
+            "required": "Dùng khung này khi so chiều cao của A với B.",
+            "omission": "Có thể lược B nếu mốc so sánh đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -32761,7 +32769,7 @@
             "title": "高 và 大 không đồng nghĩa: 高 là chiều cao; 大 thường là kích thước hoặc quy mô lớn.",
             "scene": "Bạn hỏi chiều cao của một người hoặc độ cao của tòa nhà.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 高 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "高 nói cao; 贵 nói giá đắt. Dùng 高 cho chiều cao; dùng 大 cho kích thước/quy mô.",
+            "difference": "高 nói chiều cao hoặc độ cao; 大 nói kích thước hoặc quy mô. 贵 nói giá đắt, không phải chiều cao.",
             "cases": [
               {
                 "id": "c1",
@@ -32773,16 +32781,16 @@
               },
               {
                 "id": "c2",
-                "zh": "Câu nói chiều cao; nếu thay 大 sẽ thành cây to/lớn nói chung.",
-                "vi": "Đúng nhưng đổi nghĩa",
-                "comment": "Cách nói này minh họa lựa chọn/cấu trúc đối chiếu.",
+                "zh": "这棵树很大。",
+                "vi": "Cây này to/lớn.",
+                "comment": "大 tả kích thước hoặc quy mô, không xác định chiều cao.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "Dùng 高 cho chiều cao; dùng 大 cho kích thước/quy mô."
+              "explanation": "Nếu đang đo chiều cao hoặc độ cao, dùng 高; nếu nói đồ vật to hoặc quy mô lớn, dùng 大."
             },
             "boundary": "Hỏi đang đo chiều cao hay nói chung đồ vật lớn.",
             "tip": "高 đọc thanh một; không nuốt âm đầu."
@@ -32825,11 +32833,11 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "这件衣服的价格很高。"
+            "prompt": "Nói em trai của bạn cao."
           },
           {
             "id": "s2",
-            "prompt": "我比你高。"
+            "prompt": "Nói tòa nhà này cao hơn tòa kia."
           }
         ],
         "selfAnswers": {
@@ -32927,11 +32935,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 不大 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "不大 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 不大; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 不大",
+            "position": "不大 đứng sau chủ thể để phủ định mức lớn của kích thước hoặc mức độ.",
+            "required": "Dùng khung này khi muốn nói không lớn lắm hoặc không cao lắm.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Danh từ + 不大",
+            "position": "不大 đứng sau danh từ chỉ khả năng hoặc mức độ.",
+            "required": "Dùng khung này để nói khả năng hoặc mức độ thấp, không nhất thiết bằng không.",
+            "omission": "Có thể bỏ phần danh từ khi ngữ cảnh đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -32940,7 +32956,7 @@
             "title": "不大 và 小 đều có thể mô tả cỡ; 不大 phủ định “lớn”, còn 小 khẳng định “nhỏ”.",
             "scene": "Bạn muốn nói căn phòng không rộng lắm hoặc khả năng xảy ra không cao.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 不大 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "Không phải lúc nào 不大 cũng mang một nghĩa: theo từ đứng sau, có thể là kích thước nhỏ hoặc mức độ thấp. overlap",
+            "difference": "Không phải lúc nào 不大 cũng mang một nghĩa: theo từ đứng sau, có thể là kích thước nhỏ hoặc mức độ thấp.",
             "cases": [
               {
                 "id": "c1",
@@ -32961,7 +32977,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "overlap"
+              "explanation": "Giữ 不大 khi muốn nói mức độ hoặc kích thước không cao; chọn 小 khi muốn nói rõ là nhỏ."
             },
             "boundary": "Trong một số tình huống, phòng không lớn có thể xem là nhỏ; 不大 thường nhẹ hơn 小.",
             "tip": "不大 thường là “không lớn/không cao lắm”; nghe phần sau để xác định ý."
@@ -33106,11 +33122,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 不对 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "不对 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 不对; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 不对",
+            "position": "不对 đứng sau đáp án hoặc điều được nhận xét là không đúng.",
+            "required": "Dùng khung này để đánh giá thông tin hoặc đáp án không đúng.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "不对，+ nhận xét hoặc lý do",
+            "position": "不对 đứng đầu câu như một phản ứng, sau đó nêu điều bất thường.",
+            "required": "Dùng khung này khi vừa nhận ra tình hình trái dự tính.",
+            "omission": "Có thể chỉ nói 不对！ khi lý do đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -33119,7 +33143,7 @@
             "title": "不对 và 错 đều liên quan đến sai; 错 thường gọi rõ lỗi, 不对 là không đúng/không ổn theo tình huống.",
             "scene": "Bạn phát hiện đáp án sai hoặc thấy một việc có gì đó không ổn.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 不对 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "不对 không chỉ có nghĩa “sai đáp án”; đôi khi là dấu hiệu có điều bất thường. different-meaning",
+            "difference": "不对 không chỉ có nghĩa “sai đáp án”; đôi khi còn báo hiệu một điều bất thường.",
             "cases": [
               {
                 "id": "c1",
@@ -33140,7 +33164,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "different-meaning"
+              "explanation": "Dùng 不对 để nhận xét điều sai hoặc không ổn; nếu chỉ nói một kết quả tệ, cần xem có phải là 差 hay không."
             },
             "boundary": "Đổi 不对 thành 错 cần đổi cấu trúc; không thay máy móc trước mọi danh từ.",
             "tip": "Đánh giá đáp án có thể nói 不对; nêu mình mắc lỗi thường dùng 错."
@@ -33183,7 +33207,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "不 đọc thanh bốn trong cụm này; đọc đủ hai âm tiết."
+            "prompt": "Nói căn bếp nhà bạn không rộng lắm."
           },
           {
             "id": "s2",
@@ -33285,11 +33309,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 重要 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "重要 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 重要; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 很 + 重要",
+            "position": "重要 đứng sau 很 để nhận xét mức độ quan trọng.",
+            "required": "Dùng khung này để đánh giá một việc hoặc điều có giá trị lớn.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "这 + 是 + 一件 + 重要的 + danh từ",
+            "position": "重要 đứng trước 的 và danh từ để bổ nghĩa cho sự việc.",
+            "required": "Dùng khung này khi giới thiệu một việc cụ thể là quan trọng.",
+            "omission": "Có thể bỏ 一件 khi danh từ không phải loại cần lượng từ này.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -33362,7 +33394,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "重要 đọc thanh bốn rồi thanh nhẹ ở 要 trong cách đọc thông dụng."
+            "prompt": "Nói việc học từ mới rất quan trọng."
           },
           {
             "id": "s2",
@@ -33464,11 +33496,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 做 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "做 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 做; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 做 + 饭",
+            "position": "做 đứng trước 饭 trong cụm 做饭, nói nấu hoặc chuẩn bị bữa ăn.",
+            "required": "Dùng 做饭 cho việc nấu ăn; học theo cụm thay vì dịch từng chữ.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 做了 + 很多 + 工作",
+            "position": "做 đứng trước 工作 để nói thực hiện nhiều công việc.",
+            "required": "Dùng khung này khi nói một người đã làm nhiều việc.",
+            "omission": "Có thể bỏ 很多 khi không cần nói số lượng.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -33477,7 +33517,7 @@
             "title": "做 và 干 đều có thể là “làm”; 做 thường kết hợp với việc/sản phẩm cụ thể, 干 thường nhấn vào làm việc hoặc hành động.",
             "scene": "Bạn nói mình làm bài tập, làm việc nhà hoặc chuẩn bị một món ăn.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 做 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "做 là hành động làm; 工作 là công việc/đi làm trong nhiều cách nói. overlap",
+            "difference": "做 là hành động làm hoặc thực hiện; 工作 là công việc hay việc làm nói chung.",
             "cases": [
               {
                 "id": "c1",
@@ -33498,7 +33538,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "overlap"
+              "explanation": "Dùng 做 trước việc cụ thể như 做饭、做作业; 工作 là việc hoặc hoạt động lao động, không phải lúc nào cũng thay được cho 做."
             },
             "boundary": "做/干 có vùng nghĩa giao nhau; chọn theo cụm quen thuộc và sắc thái.",
             "tip": "Học theo cụm: 做饭、做作业; 干活、干工作."
@@ -33541,7 +33581,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "做 đọc thanh bốn, giữ âm cuối rõ."
+            "prompt": "Nói tối nay bạn làm bài tập."
           },
           {
             "id": "s2",
@@ -33643,11 +33683,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 动 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "动 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 动; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "别 + 动 + vật",
+            "position": "动 đứng sau 别 để yêu cầu không chạm hoặc di chuyển vật.",
+            "required": "Dùng khung này khi muốn ai đó để yên một vật.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Vật + 动了",
+            "position": "动 làm vị ngữ sau vật để nói vật bắt đầu chuyển động.",
+            "required": "Dùng khung này để nhận xét sự chuyển động đã xảy ra.",
+            "omission": "Có thể bỏ vật khi ngữ cảnh đã rõ: 动了！— Nó chuyển động rồi.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -33656,7 +33704,7 @@
             "title": "动 và 走 khác nhau: 动 là chuyển động nói chung; 走 thường là đi bộ/rời đi.",
             "scene": "Bạn nhắc ai đó đừng di chuyển đồ vật đang đặt đúng chỗ.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 动 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "动 nói chuyển động; 做 nói thực hiện một việc nói chung. different-meaning",
+            "difference": "动 nói chuyển động hoặc chạm vào vật; 做 nói thực hiện một việc.",
             "cases": [
               {
                 "id": "c1",
@@ -33677,7 +33725,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "different-meaning"
+              "explanation": "Dùng 动 khi vật di chuyển hoặc khi bảo ai đừng chạm; dùng 做 cho hành động tạo ra hay thực hiện một việc."
             },
             "boundary": "动 không tự chỉ việc đi bộ; dùng 走 khi nói đi/rời đi.",
             "tip": "动 là chuyển động chung; 走 là đi hoặc rời khỏi nơi này."
@@ -33720,7 +33768,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "动 đọc thanh bốn, âm cuối ngắn gọn."
+            "prompt": "Bảo ai đó đừng chạm vào chiếc hộp này."
           },
           {
             "id": "s2",
@@ -33822,11 +33870,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 学 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "学 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 学; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 学 + môn/kỹ năng",
+            "position": "学 đứng trước môn học hoặc kỹ năng cần học.",
+            "required": "Dùng khung này để nói nội dung người học đang tiếp nhận.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 学会了 + động từ",
+            "position": "学会 đứng trước động từ để nhấn mạnh đã học được cách làm.",
+            "required": "Dùng 学会 khi muốn nói kết quả đã biết làm, không chỉ quá trình học.",
+            "omission": "Có thể bỏ 了 khi không nhấn việc đã đạt kết quả.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -33835,7 +33891,7 @@
             "title": "学 và 学习 đều là học; 学习 thường đầy đủ/trang trọng hơn, còn 学 phổ biến trong cụm như 学中文.",
             "scene": "Bạn dành thời gian học tiếng Trung hoặc một kỹ năng mới.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 学 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "学 chỉ học; 教 là dạy người khác. overlap",
+            "difference": "学 là học từ người khác hoặc học một môn/kỹ năng; 教 là dạy người khác.",
             "cases": [
               {
                 "id": "c1",
@@ -33856,7 +33912,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "overlap"
+              "explanation": "Chủ thể là người tiếp nhận kiến thức thì dùng 学; người truyền đạt kiến thức thì dùng 教."
             },
             "boundary": "学 và 学习 có vùng giao nhau; không cần ép thành hai nghĩa tách biệt.",
             "tip": "Dùng đúng cụm quen thuộc; 学习 thường trang trọng/đầy đủ hơn."
@@ -33899,7 +33955,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "学 đọc thanh hai, đi lên giọng."
+            "prompt": "Nói bạn học tiếng Trung ở Nhật Bản."
           },
           {
             "id": "s2",
@@ -34001,11 +34057,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 干 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "干 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 干; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 在 + 干 + gì",
+            "position": "干 đứng sau 在 trong câu hỏi khẩu ngữ về việc đang làm.",
+            "required": "Dùng khung này để hỏi thân mật một người đang làm gì.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 在 + nơi chốn + 干了 + thời gian",
+            "position": "干 đứng sau nơi chốn và trước khoảng thời gian trong câu kể đã làm việc.",
+            "required": "Dùng khung này khi nói đã làm việc ở đâu trong bao lâu.",
+            "omission": "Có thể bỏ nơi chốn nếu ngữ cảnh đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -34014,7 +34078,7 @@
             "title": "干 và 做 đều có thể là làm; 干 thường khẩu ngữ và nhấn hành động/công việc.",
             "scene": "Đồng nghiệp hỏi bạn đang làm công việc gì.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 干 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "干 có cách đọc và nghĩa khác trong từ như 干净; bài này học nghĩa làm của chữ này. overlap",
+            "difference": "干 có cách đọc và nghĩa khác trong từ như 干净; bài này học nghĩa “làm” của 干.",
             "cases": [
               {
                 "id": "c1",
@@ -34035,7 +34099,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "overlap"
+              "explanation": "Trong 干什么, 干 dùng nghĩa khẩu ngữ “làm” và hỏi đang làm gì; không suy ra nghĩa “khô” hoặc dùng 干 thay cho mọi từ chỉ làm."
             },
             "boundary": "Không thay 干/做 tùy tiện trong mọi cụm; học theo kết hợp thường dùng.",
             "tip": "干常用于 hỏi/làm việc; 做常 đi với 做饭、做作业."
@@ -34078,7 +34142,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "干 trong nghĩa làm đọc thanh bốn; đừng nhầm với 干净."
+            "prompt": "Hỏi ai đó hiện đang làm gì."
           },
           {
             "id": "s2",
@@ -34180,11 +34244,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 忙 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "忙 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 忙; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 很 + 忙",
+            "position": "忙 đứng sau 很 để nói trạng thái có nhiều việc hoặc không rảnh.",
+            "required": "Dùng khung này để nhận xét lịch hoặc trạng thái bận.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 忙着 + hành động",
+            "position": "忙着 đứng trước hành động đang chiếm thời gian.",
+            "required": "Dùng khung này khi nói ai đó đang bận làm một việc cụ thể.",
+            "omission": "Có thể bỏ chủ thể khi ngữ cảnh đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -34193,7 +34265,7 @@
             "title": "忙 và 累 có thể cùng xảy ra nhưng không đồng nghĩa: bận nói lịch/việc, mệt nói thể lực.",
             "scene": "Bạn muốn nói hôm nay có nhiều việc và không rảnh.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 忙 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "忙 là trạng thái bận; 累 là cảm giác mệt. different-meaning",
+            "difference": "忙 là trạng thái có nhiều việc hoặc ít thời gian; 累 là cảm giác mệt.",
             "cases": [
               {
                 "id": "c1",
@@ -34214,7 +34286,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "different-meaning"
+              "explanation": "Dùng 忙 khi nói lịch hoặc công việc dày; dùng 累 khi nói cơ thể hoặc tinh thần mệt."
             },
             "boundary": "Thay 忙 bằng 累 chuyển từ thiếu thời gian sang cảm giác mệt.",
             "tip": "Có nhiều việc dùng 忙; cơ thể hết sức dùng 累."
@@ -34257,7 +34329,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "忙 đọc thanh hai, phát âm rõ thanh đi lên."
+            "prompt": "Nói tuần này công việc của bạn rất bận."
           },
           {
             "id": "s2",
@@ -34359,11 +34431,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 用 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "用 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 用; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 用 + công cụ + hành động",
+            "position": "用 đứng trước công cụ; hành động đứng sau công cụ.",
+            "required": "Dùng khung này để nói dùng vật hoặc phương tiện làm việc gì.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "请 + 用 + công cụ + hành động",
+            "position": "用 nối công cụ với hành động trong lời đề nghị hoặc yêu cầu.",
+            "required": "Dùng khung này khi nhờ ai sử dụng một vật cụ thể.",
+            "omission": "Có thể bỏ 请 khi chỉ mô tả việc sử dụng.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -34372,7 +34452,7 @@
             "title": "用 và 使用 gần nghĩa; 使用 trang trọng hơn, 用 thường gặp trong giao tiếp.",
             "scene": "Bạn hỏi mượn một dụng cụ để làm việc.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 用 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "用 là hành động sử dụng; 有用 mô tả vật có ích, hai cấu trúc khác nhau. different-meaning",
+            "difference": "用 là hành động sử dụng; 有用 mô tả vật hoặc cách làm có ích, hai cấu trúc khác nhau.",
             "cases": [
               {
                 "id": "c1",
@@ -34393,7 +34473,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "different-meaning"
+              "explanation": "Dùng 用 + công cụ + hành động khi nói dùng bằng gì; dùng 有用 khi đánh giá thứ đó có ích."
             },
             "boundary": "Thêm 有 trước 用 tạo tính từ/cụm đánh giá ích lợi, không còn là yêu cầu sử dụng.",
             "tip": "Muốn yêu cầu dùng vật: 用; muốn nói vật có ích: 有用."
@@ -34436,7 +34516,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "用 đọc thanh bốn; phát âm tròn môi ở đầu âm."
+            "prompt": "Nói bạn dùng máy tính để học."
           },
           {
             "id": "s2",
@@ -34538,11 +34618,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ thể + 看 + thành phần/cụm phù hợp với ý muốn nói.",
-            "position": "看 đứng ở vị trí được minh họa trong hai câu mẫu; xét phần đứng sau để xác định nghĩa cụ thể.",
-            "required": "Giữ thành phần/cụm đi cùng 看; không dịch máy móc một nghĩa Việt vào mọi câu.",
+            "frame": "Chủ thể + 看 + nội dung",
+            "position": "看 đứng trước vật hoặc nội dung được nhìn/xem/đọc.",
+            "required": "Dùng 看 cho việc dùng mắt tiếp nhận nội dung; dùng 读 khi nhấn đọc thành tiếng.",
             "omission": "Có thể lược chủ thể khi người nghe đã biết đang nói về ai.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 看 + 手机上的 + nội dung",
+            "position": "看 đứng trước nội dung hiển thị trên điện thoại.",
+            "required": "Dùng khung này khi xem hoặc đọc tin nhắn trên màn hình.",
+            "omission": "Có thể bỏ 手机上的 nếu nguồn nội dung đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -34551,7 +34639,7 @@
             "title": "看 và 读 đều có thể liên quan đến chữ viết; 看 thường là xem/đọc thông thường, 读 nhấn hành động đọc thành tiếng hoặc học đọc.",
             "scene": "Bạn nhìn đồng hồ, xem TV hoặc đọc một tin nhắn.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 看 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "看 là dùng mắt; 听 là dùng tai để nghe. overlap",
+            "difference": "看 là dùng mắt để xem hoặc đọc; 听 là dùng tai để nghe.",
             "cases": [
               {
                 "id": "c1",
@@ -34572,7 +34660,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "overlap"
+              "explanation": "Chọn 看 khi tiếp nhận thông tin bằng mắt; chọn 听 khi tiếp nhận âm thanh bằng tai."
             },
             "boundary": "Với sách, 看 và 读 đều có thể đúng tùy ý định; ngữ cảnh quyết định.",
             "tip": "Xem/đọc nội dung thường dùng 看; yêu cầu đọc thành lời thường dùng 读."
@@ -34615,7 +34703,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "看 đọc thanh bốn; không nhầm âm đầu k với g."
+            "prompt": "Nói bạn xem tin nhắn do đồng nghiệp gửi."
           },
           {
             "id": "s2",
@@ -34717,11 +34805,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "考试",
-            "position": "考 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 考 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + 要 + 考 + môn",
+            "position": "考 đứng trước môn hoặc nội dung thi.",
+            "required": "Dùng khung này khi nói sắp thi một môn hoặc nội dung.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Người + 考了 + người học + số lượng + nội dung",
+            "position": "考 đứng trước người được kiểm tra và nội dung kiểm tra.",
+            "required": "Dùng khung này khi giáo viên kiểm tra người học về một phần kiến thức.",
+            "omission": "Có thể bỏ số lượng nếu không cần nói bao nhiêu mục.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -34742,9 +34838,9 @@
               },
               {
                 "id": "c2",
-                "zh": "考：考 dùng trong thi/kiểm tra kiến thức, thường có môn hoặc nội dung theo sau; 试 đơn lẻ thường là thử làm/xem có được không.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 考 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "我想试试这道题。",
+                "vi": "Tôi muốn thử làm câu này.",
+                "comment": "试 nói thử làm; không phải thi hoặc kiểm tra như 考.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -34897,11 +34993,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "试一试",
-            "position": "试 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 试 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + 想 + 试一下 + vật",
+            "position": "试一下 đứng trước vật hoặc việc muốn thử.",
+            "required": "Dùng khung này khi muốn thử một vật hoặc cách làm.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 可以 + 试着 + hành động",
+            "position": "试着 đứng trước hành động được thử.",
+            "required": "Dùng khung này để đề nghị hoặc cho phép thử làm một việc.",
+            "omission": "Có thể bỏ 可以 khi chỉ kể việc đang thử.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -34922,9 +35026,9 @@
               },
               {
                 "id": "c2",
-                "zh": "试：试 biểu thị thử làm để xem kết quả; 考 gắn với kiểm tra hoặc kỳ thi, không thay cho việc thử quần áo hay thử cách làm.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 试 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "我明天要考试。",
+                "vi": "Ngày mai tôi phải thi.",
+                "comment": "考试 nói thi/kiểm tra; không phải thử một vật hay thử một cách làm.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -35077,11 +35181,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "上学",
-            "position": "上学 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 上学 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + 去 + 上学",
+            "position": "上学 đứng sau 去 để nói đi đến trường hoặc đi học.",
+            "required": "Dùng khung này khi nói lịch đi học.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 在 + nơi chốn + 上学",
+            "position": "上学 đứng sau nơi chốn để nói đang theo học ở đâu.",
+            "required": "Dùng khung này khi giới thiệu nơi một người đang đi học.",
+            "omission": "Có thể bỏ nơi chốn khi người nghe đã biết trường hoặc thành phố.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -35102,9 +35214,9 @@
               },
               {
                 "id": "c2",
-                "zh": "上学：上学 nói việc đi học/đang theo học ở trường; 上课 là tham gia một tiết học cụ thể.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 上学 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "我们八点开始上课。",
+                "vi": "Chúng tôi bắt đầu vào học lúc tám giờ.",
+                "comment": "上课 nói một tiết hoặc buổi học cụ thể, không phải việc đi học nói chung.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -35257,11 +35369,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "上班",
-            "position": "上班 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 上班 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + thời gian + 上班",
+            "position": "上班 đứng sau thời gian để nói giờ đi làm hoặc bắt đầu ca.",
+            "required": "Dùng khung này khi nói lịch làm việc.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 不去 + 上班",
+            "position": "不去 đứng trước 上班 để phủ định việc đi làm.",
+            "required": "Dùng khung này khi nói hôm nay hoặc một ngày cụ thể không đi làm.",
+            "omission": "Có thể nói 不上班 khi muốn nhấn không làm ca.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -35282,9 +35402,9 @@
               },
               {
                 "id": "c2",
-                "zh": "上班：上班 nhấn vào ca hoặc việc có mặt để làm; 工作 nói rộng về làm việc hay công việc/nghề nghiệp.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 上班 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "他今天在家工作。",
+                "vi": "Hôm nay anh ấy làm việc ở nhà.",
+                "comment": "工作 nói hoạt động làm việc nói chung; 上班 nhấn việc đi làm hoặc có mặt ở ca.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -35437,11 +35557,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "上网",
-            "position": "上网 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 上网 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + 上网 + hành động",
+            "position": "上网 đứng trước hành động được thực hiện trên Internet.",
+            "required": "Dùng khung này cho hành động truy cập và sử dụng mạng.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 不能 + 上网 + thời lượng",
+            "position": "上网 đứng sau 不能; thời lượng đứng sau 上网.",
+            "required": "Dùng khung này để giới hạn thời gian lên mạng.",
+            "omission": "Có thể bỏ thời lượng khi chỉ nói không được lên mạng.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -35462,9 +35590,9 @@
               },
               {
                 "id": "c2",
-                "zh": "上网：上网 là truy cập hoặc sử dụng Internet; 在网上 chỉ vị trí/trạng thái “trên mạng”, không tự nó nhấn hành động truy cập.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 上网 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "我在网上查资料。",
+                "vi": "Tôi tra tài liệu trên mạng.",
+                "comment": "在网上 nói nơi/trạng thái trên mạng; 上网 nhấn hành động truy cập.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -35617,11 +35745,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "上课",
-            "position": "上课 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 上课 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + 开始 + 上课",
+            "position": "上课 đứng sau 开始 để nói tiết học bắt đầu.",
+            "required": "Dùng khung này khi nói thời điểm vào học.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Giáo viên + 正在 + 上课",
+            "position": "正在 đứng trước 上课 để nói tiết học đang diễn ra hoặc giáo viên đang dạy.",
+            "required": "Dùng khung này khi mô tả hoạt động học đang diễn ra.",
+            "omission": "Có thể bỏ 正在 nếu ngữ cảnh đã rõ là đang học.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -35642,9 +35778,9 @@
               },
               {
                 "id": "c2",
-                "zh": "上课：上课 chỉ việc tiết học diễn ra hoặc ai đó dạy/học trong tiết; 上学 là đi học hay theo học nói chung.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 上课 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "她每天去上学。",
+                "vi": "Mỗi ngày cô ấy đi học.",
+                "comment": "上学 nói việc đi học hoặc theo học nói chung; 上课 chỉ tiết học cụ thể.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -35797,11 +35933,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "准备",
-            "position": "准备 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 准备 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + 在准备 + danh từ",
+            "position": "准备 đứng sau 在 và trước danh từ chỉ việc cần chuẩn bị.",
+            "required": "Dùng khung này khi đang chuẩn bị một vật hoặc sự kiện.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 准备 + động từ",
+            "position": "准备 đứng trước động từ chỉ việc sắp làm.",
+            "required": "Dùng khung này khi nói đã sẵn sàng hoặc định bắt đầu một hành động.",
+            "omission": "Có thể bỏ chủ thể khi ngữ cảnh đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -35822,9 +35966,9 @@
               },
               {
                 "id": "c2",
-                "zh": "准备：准备 là chuẩn bị điều kiện hoặc sẵn sàng làm việc; 打算 là dự định, nêu ý định chứ không nhất thiết đã chuẩn bị.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 准备 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "我打算明天出发。",
+                "vi": "Tôi dự định ngày mai khởi hành.",
+                "comment": "打算 nói ý định; 准备 nhấn việc đã chuẩn bị hoặc sẵn sàng.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
