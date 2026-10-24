@@ -5,10 +5,10 @@ Cập nhật: 2026-10-24. Chế độ hiện hành: `review-existing-first`.
 ## Rà soát bài đã có
 
 - Phạm vi: 377 bài đang đủ cấu trúc trong thứ tự `data/vocabulary/hanzii-course.json`, gồm 10 bài ngoài baseline.
-- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 290/377 bài.
-- Đã rà trong các đợt `review-001` đến `review-017`; review-017 gồm 两、二、几、十、哪、就、第、这、那、一些、上次、哪些、哪儿、哪里、这些、这儿、这里、那些.
-- Review-017 đọc và kiểm tra toàn bộ 18 bài, phân loại độ khó và giữ nguyên nội dung sau khi đối chiếu công thức, ví dụ, bẫy, bài tập, đáp án, audio và nguồn MDBG/Education Encyclopedia.
-- Còn rà: 87 bài. Tiếp theo: bài 291 (`hz-h1-b59ea71cc029`) và các ID trong `tools/vocabulary/review-checkpoint.json`.
+- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 308/377 bài.
+- Đã rà trong các đợt `review-001` đến `review-018`; review-018 gồm 那儿、那里、了、和、岁、年、日、月、正、间、一样、今年、半年、去年、地方、地点、小时、新年.
+- Review-018 đọc và kiểm tra toàn bộ 18 bài, phân loại 10 dễ, 5 trung bình, 3 khó; giữ nguyên nội dung sau khi đối chiếu công thức, ví dụ, bẫy, bài tập, đáp án, audio và 18 nguồn MDBG đều HTTP 200.
+- Còn rà: 69 bài. Tiếp theo: bài 309 (`hz-h1-ddd4e54501e0`, 日期) và các ID trong `tools/vocabulary/review-checkpoint.json`.
 - Chưa được coi là phản biện giáo viên độc lập; chưa kiểm bố cục mobile hoặc TTS Android thật.
 
 ## Bổ sung bài còn thiếu
