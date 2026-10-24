@@ -12029,7 +12029,7 @@
       "meaning": "chữ",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 33",
       "examples": [
         {
           "id": "e1",
@@ -12051,8 +12051,8 @@
       "sourceIndex": 9,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Hỏi người khác tên viết bằng mấy chữ.",
-      "model": "你的名字有几个字？",
+      "task": "Nói về một chữ hoặc hỏi một chữ được đọc thế nào.",
+      "model": "这个字怎么读？",
       "quiz": {
         "question": "Trong mục từ 汉语, cách mô tả nào đúng?",
         "choices": [
@@ -12083,8 +12083,8 @@
         "difficulty": "easy",
         "difficultyReason": "字 là danh từ cơ bản chỉ chữ viết, với mẫu hỏi cách đọc và đếm chữ rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Chinese_characters"
         ],
@@ -12227,6 +12227,30 @@
             "correctIndex": 0,
             "explanation": "字 là chữ."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "字 có cách đọc thông dụng zì trong bài chữ viết; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "字 có nghĩa trọng tâm là chữ/ký tự; cách dịch chữ hay ký tự tùy câu, không tạo nghĩa độc lập cần dạy."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần phân biệt 字 là từng chữ với 汉字 là chữ Hán nói rộng hơn."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 汉字 và 词; chưa thấy bẫy thông dụng cần đưa vào bài cơ bản này."
+          }
         }
       }
     },
@@ -12243,7 +12267,7 @@
       "meaning": "nhất",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 34",
       "examples": [
         {
           "id": "e1",
@@ -12265,8 +12289,8 @@
       "sourceIndex": 10,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn thích món này nhất.",
-      "model": "我最喜欢这个。",
+      "task": "Nói điều gì đó đứng đầu về mức độ.",
+      "model": "我最喜欢中文。",
       "quiz": {
         "question": "Câu nào nói rõ trà là lựa chọn được thích nhất?",
         "choices": [
@@ -12297,8 +12321,8 @@
         "difficulty": "easy",
         "difficultyReason": "最 là phó từ mức độ cao nhất, vị trí trước động từ/tính từ ổn định.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí, phạm vi so sánh, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Superlative_adverbs"
         ],
@@ -12443,6 +12467,30 @@
             "correctIndex": 0,
             "explanation": "最 biểu thị mức cao nhất."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "最 có cách đọc thông dụng zuì; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "最 là phó từ chỉ mức độ cao nhất; sắc thái ‘nhất’ thay đổi theo tính từ/động từ sau nó, không phải nghĩa khác."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không nên đặt 最 sau tính từ theo thói quen tiếng Việt; vị trí cơ bản là trước phần mô tả mức độ."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 很 và 更; chưa thấy bẫy thông dụng cần thêm ở mức bài này."
+          }
         }
       }
     },
@@ -12459,7 +12507,7 @@
       "meaning": "quyển",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 009",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 35",
       "examples": [
         {
           "id": "e1",
@@ -12481,8 +12529,8 @@
       "sourceIndex": 11,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn mua một quyển sách.",
-      "model": "我买了一本书。",
+      "task": "Đếm hoặc chỉ một quyển sách.",
+      "model": "这本书很好。",
       "quiz": {
         "question": "Bạn muốn đếm một chữ riêng lẻ. Chọn cụm phù hợp.",
         "choices": [
@@ -12513,8 +12561,8 @@
         "difficulty": "medium",
         "difficultyReason": "本 là lượng từ đặc trưng cho sách, nhưng có thể bị nhầm với 个; cần dạy vị trí và phạm vi dùng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí lượng từ, phạm vi, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Measure_words"
         ],
@@ -12573,24 +12621,28 @@
         "confusions": [
           {
             "id": "measure",
+            "category": "C",
             "afterSense": "bookmeasure",
-            "title": "本 và 个 không cùng phạm vi",
-            "explanation": "本 phù hợp với sách; 个 là lượng từ phổ biến nhưng không phải lựa chọn tự nhiên nhất khi nói một quyển sách.",
+            "title": "本 và 个: lượng từ cho sách hay lượng từ chung",
+            "possibleConfusion": "Tiếng Việt thường không bắt buộc lượng từ nên người học dễ dùng 个 cho mọi danh từ.",
+            "explanation": "本 là lượng từ đặc trưng cho sách, tạp chí hoặc vật dạng quyển. 个 là lượng từ phổ biến hơn nhưng không phải lựa chọn tự nhiên nhất cho sách trong mẫu cơ bản.",
+            "difference": "三本书 là ba quyển sách; 三个人 là ba người. Đổi 本 thành 个 làm câu về sách kém tự nhiên hoặc sai chuẩn học này.",
+            "boundary": "Đặt 本 giữa số/từ chỉ định và 书: 一本书, 这本书.",
             "contrasts": [
               {
-                "zh": "一本书。",
-                "pinyin": "Yì běn shū.",
-                "vi": "Một quyển sách.",
-                "note": "Lượng từ phù hợp."
+                "zh": "我有三本书。",
+                "pinyin": "Wǒ yǒu sān běn shū.",
+                "vi": "Tôi có ba quyển sách.",
+                "note": "Sách dùng lượng từ 本."
               },
               {
-                "zh": "一个人。",
-                "pinyin": "Yí ge rén.",
-                "vi": "Một người.",
-                "note": "个 dùng rất rộng, trong đó có người."
+                "zh": "我有三个人。",
+                "pinyin": "Wǒ yǒu sān ge rén.",
+                "vi": "Tôi có ba người.",
+                "note": "Người dùng 个, không dùng 本."
               }
             ],
-            "tip": "Gặp 书, ưu tiên 本 trong cụm đếm cơ bản."
+            "tip": "Thấy 书, nghĩ đến 本; lượng từ đứng trước danh từ."
           }
         ],
         "guidedExercises": [
@@ -12694,6 +12746,29 @@
             "correctIndex": 0,
             "explanation": "Sách dùng 本."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "本 có cách đọc thông dụng běn trong vai trò lượng từ sách; không có cách đọc cần tách trong bài này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "本 được dạy như lượng từ cho sách/quyển; không mở rộng sang các nghĩa khác của chữ để tránh lẫn mục tiêu."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Tiếng Việt có thể bỏ lượng từ nên người học dễ nói 三书; bài sửa bằng số + 本 + 书."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 本 với 个 theo loại danh từ và vị trí trong câu."
+          }
         }
       }
     },
@@ -12710,7 +12785,7 @@
       "meaning": "lần",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 009",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 36",
       "examples": [
         {
           "id": "e1",
@@ -12732,8 +12807,8 @@
       "sourceIndex": 12,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn đã xem bộ phim hai lần.",
-      "model": "我看了两次电影。",
+      "task": "Nói mình đã làm một việc bao nhiêu lần.",
+      "model": "我去过三次。",
       "quiz": {
         "question": "Trong 三次, người nghe biết chắc tổng thời lượng là ba phút chưa?",
         "choices": [
@@ -12764,8 +12839,8 @@
         "difficulty": "medium",
         "difficultyReason": "次 là lượng từ chỉ số lần, cần phân biệt với khoảng thời gian và đặt sau động từ/tân ngữ theo mẫu câu.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí lượng từ chỉ lần, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Times_occurrences"
         ],
@@ -12824,24 +12899,28 @@
         "confusions": [
           {
             "id": "duration",
+            "category": "C",
             "afterSense": "occurrence",
-            "title": "次 không phải phút hay khoảng thời gian",
-            "explanation": "次 đếm số lần xảy ra; 分钟 đếm thời lượng kéo dài bao lâu.",
+            "title": "次 chỉ số lần, không chỉ thời lượng",
+            "possibleConfusion": "Tiếng Việt dùng ‘lần’ và ‘một lúc/khoảng’ trong các cụm gần nhau, khiến người học đặt 次 cho thời gian kéo dài.",
+            "explanation": "次 đếm số lần một hành động xảy ra. Thời lượng dùng 分钟, 小时 hoặc cấu trúc thời gian khác.",
+            "difference": "我去过三次 là đã đi ba lần; 我等三分钟 là đã đợi ba phút. Một câu đếm sự kiện, một câu đo thời lượng.",
+            "boundary": "次 thường đứng sau động từ hoặc sau tân ngữ theo khung đã học; không thay 分钟 để nói bao lâu.",
             "contrasts": [
               {
-                "zh": "我看了两次。",
-                "pinyin": "Wǒ kàn le liǎng cì.",
-                "vi": "Tôi đã xem hai lần.",
-                "note": "Đếm lượt xảy ra."
+                "zh": "我去过三次。",
+                "pinyin": "Wǒ qù guo sān cì.",
+                "vi": "Tôi đã đi ba lần.",
+                "note": "次 đếm số lần đi."
               },
               {
-                "zh": "我看了两分钟。",
-                "pinyin": "Wǒ kàn le liǎng fēnzhōng.",
-                "vi": "Tôi đã xem trong hai phút.",
-                "note": "Đếm thời lượng."
+                "zh": "我等三分钟。",
+                "pinyin": "Wǒ děng sān fēnzhōng.",
+                "vi": "Tôi đợi ba phút.",
+                "note": "分钟 đo thời lượng."
               }
             ],
-            "tip": "Hỏi bao nhiêu lần thì dùng 次; hỏi bao lâu thì dùng 分钟 và đơn vị thời gian."
+            "tip": "Hỏi ‘mấy lần’ dùng 次; hỏi ‘bao lâu’ dùng đơn vị thời gian."
           }
         ],
         "guidedExercises": [
@@ -12947,6 +13026,29 @@
             "correctIndex": 0,
             "explanation": "次 đếm số lần."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "次 có cách đọc thông dụng cì trong lượng từ chỉ lần; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "Bài tập trung vào 次 như lượng từ đếm số lần xảy ra; không mở rộng sang chức năng khác ở mức này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 次 thành ‘thời gian’ máy móc sẽ sai; cần phân biệt số lần với thời lượng."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 次 với 分钟 để phân biệt số lần và khoảng thời gian bằng câu đúng."
+          }
         }
       }
     },
@@ -12963,7 +13065,7 @@
       "meaning": "giờ trên đồng hồ",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 009",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 37",
       "examples": [
         {
           "id": "e1",
@@ -12985,8 +13087,8 @@
       "sourceIndex": 13,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bây giờ là tám giờ.",
-      "model": "现在八点。",
+      "task": "Nói giờ trên đồng hồ và hỏi thời điểm.",
+      "model": "现在三点。",
       "quiz": {
         "question": "Cụm 两点 trong 我们两点上课 cho biết điều gì?",
         "choices": [
@@ -13022,8 +13124,8 @@
         "difficulty": "medium",
         "difficultyReason": "点 có nghĩa giờ trong cách nói thời gian và có thể đứng trong/được lược ở trạng ngữ giờ, cần dạy cả hai mẫu.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, vị trí trong giờ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Time"
         ],
@@ -13175,6 +13277,30 @@
             "correctIndex": 0,
             "explanation": "点 là giờ."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này ngoài ranh giới giờ và phút đã được dạy trong chính bài.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "点 có cách đọc thông dụng diǎn trong cách nói giờ; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "点 trong bài được giới hạn ở đơn vị giờ trên đồng hồ; nghĩa ‘điểm/chấm’ của chữ không cần đưa vào mục tiêu này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không dịch 点 thành dấu chấm trong câu giờ; vị trí sau số và trước 分 xác định nghĩa thời gian."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 分 và 分钟; chưa thấy bẫy thông dụng cần thêm ngoài ranh giới đã dạy."
+          }
         }
       }
     },
@@ -13191,7 +13317,7 @@
       "meaning": "trăm",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 009",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 38",
       "examples": [
         {
           "id": "e1",
@@ -13213,8 +13339,8 @@
       "sourceIndex": 14,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói số một trăm.",
-      "model": "一百。",
+      "task": "Nói một số tròn trăm hoặc giá tiền trăm đơn vị.",
+      "model": "一百元。",
       "quiz": {
         "question": "Chọn cách đọc rõ số 105.",
         "choices": [
@@ -13245,8 +13371,8 @@
         "difficulty": "easy",
         "difficultyReason": "百 là đơn vị số trăm, vị trí trong số và cụm đếm trực tiếp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, vị trí trong số, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Numbers"
         ],
@@ -13389,6 +13515,30 @@
             "correctIndex": 0,
             "explanation": "百 là trăm."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "百 có cách đọc thông dụng bǎi; không có cách đọc phổ biến thứ hai ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "百 là đơn vị số trăm; giá trị cụ thể do số đứng trước và danh từ/đơn vị sau quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần đặt 百 trong cấu trúc số Trung thay vì ghép từng chữ theo tiếng Việt."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 千 và 元; chưa thấy bẫy cần thêm ở bài cơ bản này."
+          }
         }
       }
     },
@@ -13405,7 +13555,7 @@
       "meaning": "vé",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 009",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 39",
       "examples": [
         {
           "id": "e1",
@@ -13427,8 +13577,8 @@
       "sourceIndex": 15,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn đã mua vé.",
-      "model": "我买票了。",
+      "task": "Nói về việc mua hoặc có một tấm vé.",
+      "model": "我买一张票。",
       "quiz": {
         "question": "Chỉ nghe 我有钱, đã biết chắc người nói có vé chưa?",
         "choices": [
@@ -13459,8 +13609,8 @@
         "difficulty": "easy",
         "difficultyReason": "票 là danh từ vé với mẫu mua vé và lượng từ 张 rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, lượng từ, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Tickets"
         ],
@@ -13605,6 +13755,30 @@
             "correctIndex": 0,
             "explanation": "票 là vé."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "票 có cách đọc thông dụng piào; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "票 có nghĩa trọng tâm là vé; loại vé được hiểu theo ngữ cảnh như tàu, phim hoặc sự kiện."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; khi đếm vé cần lượng từ 张 trong khung cơ bản."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 券 và 门票; chưa thấy bẫy cần thêm ở mức bài này."
+          }
         }
       }
     },
@@ -13621,7 +13795,7 @@
       "meaning": "ghi nhớ",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 009",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 40",
       "examples": [
         {
           "id": "e1",
@@ -13643,8 +13817,8 @@
       "sourceIndex": 16,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nhắc mình ghi nhớ từ mới.",
-      "model": "记住这个词。",
+      "task": "Nói nhớ một điều hoặc ghi nhớ điều đó.",
+      "model": "我记住了。",
       "quiz": {
         "question": "Bạn chỉ chép tên vào vở và chưa nhớ. Câu nào phù hợp với việc đã làm?",
         "choices": [
@@ -13680,8 +13854,8 @@
         "difficulty": "medium",
         "difficultyReason": "记 có thể là nhớ/ghi nhớ và thường kết hợp với 住 hoặc 得; cần phân biệt hành động ghi chép với trạng thái nhớ.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, cấu trúc bổ ngữ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Remembering"
         ],
@@ -13745,24 +13919,28 @@
         "confusions": [
           {
             "id": "write",
+            "category": "A2",
             "afterSense": "remember",
-            "title": "记 trong 记住 không phải chỉ ghi chép",
-            "explanation": "记 có thể liên quan đến ghi nhớ; trong 记住/记得, nghĩa trọng tâm là nhớ trong đầu. Muốn nói ghi ra giấy thường dùng 写.",
+            "title": "记 trong 记住: nhớ hay ghi chép",
+            "possibleConfusion": "Âm Hán Việt và bản dịch ‘ghi nhớ’ khiến người học tưởng 记 luôn là viết/ghi ra giấy.",
+            "explanation": "记 có thể là nhớ, đặc biệt trong 记住 = nhớ kỹ/ghi nhớ. Hành động viết ra dùng 写; không phải cứ thấy 记 là có bút giấy.",
+            "difference": "我记住了 là tôi đã nhớ; 我写下来了 là tôi đã viết lại. Hai câu đều đúng nhưng kết quả khác.",
+            "boundary": "记住 nhấn việc thông tin ở trong trí nhớ; 写/写下来 nhấn việc tạo văn bản hoặc ghi chép ra ngoài.",
             "contrasts": [
               {
-                "zh": "记住这个词。",
-                "pinyin": "Jìzhù zhège cí.",
-                "vi": "Hãy ghi nhớ từ này.",
-                "note": "Giữ thông tin trong trí nhớ."
+                "zh": "我记住了。",
+                "pinyin": "Wǒ jìzhù le.",
+                "vi": "Tôi nhớ rồi.",
+                "note": "记住 là nhớ kỹ, đã đạt kết quả nhớ."
               },
               {
-                "zh": "写下这个词。",
-                "pinyin": "Xiě xià zhège cí.",
-                "vi": "Viết từ này xuống.",
-                "note": "Tạo chữ trên giấy."
+                "zh": "我写下来了。",
+                "pinyin": "Wǒ xiě xiàlái le.",
+                "vi": "Tôi đã ghi lại rồi.",
+                "note": "写 nhấn hành động viết ra."
               }
             ],
-            "tip": "Hỏi là nhớ trong đầu hay viết ra; chọn 记住/记得 hoặc 写 theo ý định."
+            "tip": "记住 = nhớ kỹ; 写下来 = viết/ghi ra. Nhìn bổ ngữ và kết quả."
           }
         ],
         "guidedExercises": [
@@ -13866,6 +14044,29 @@
             "correctIndex": 0,
             "explanation": "记住 là ghi nhớ."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "记 có cách đọc thông dụng jì; không có cách đọc phổ biến thứ hai cần tách trong mục tiêu này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã kiểm tra chức năng nhớ/ghi nhớ trong 记住 và phân biệt với hành động viết ra; bài không mở rộng sang các nghĩa danh từ khác."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 记 từng chữ thành ‘ghi chép’ dễ làm người học dùng sai; 记住 thường là nhớ kỹ, còn viết ra dùng 写."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 记住 với 写下来 bằng hai câu đúng và giải thích khác biệt kết quả."
+          }
         }
       }
     },
@@ -13886,7 +14087,7 @@
       "meaning": "đọc",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 010",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 41",
       "examples": [
         {
           "id": "e1",
@@ -13908,7 +14109,7 @@
       "sourceIndex": 17,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn đọc sách.",
+      "task": "Nói bạn đọc sách hoặc đọc một chữ.",
       "model": "我读书。",
       "quiz": {
         "question": "Giáo viên muốn nghe bạn phát âm chữ. Chọn câu yêu cầu phù hợp.",
@@ -13945,8 +14146,8 @@
         "difficulty": "easy",
         "difficultyReason": "读 là động từ cơ bản, có mẫu đọc sách và hỏi cách đọc rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí tân ngữ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Reading"
         ],
@@ -14089,6 +14290,30 @@
             "correctIndex": 0,
             "explanation": "读 là đọc."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "读 có cách đọc thông dụng dú; không có cách đọc phổ biến thứ hai ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "读 có nghĩa trọng tâm là đọc; đối tượng có thể là sách hoặc chữ theo danh từ sau, không tạo nghĩa độc lập cần dạy."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; phân biệt đọc 读 với viết 写 theo hành động thực tế."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 写 và 看; chưa thấy bẫy thông dụng cần thêm ở bài này."
+          }
         }
       }
     },
@@ -14105,7 +14330,7 @@
       "meaning": "buổi/tiết học; môn học tùy cụm",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 010",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 42",
       "examples": [
         {
           "id": "e1",
@@ -14127,8 +14352,8 @@
       "sourceIndex": 18,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói hôm nay có tiết học tiếng Trung.",
-      "model": "今天有中文课。",
+      "task": "Nói về tiết học/môn học và việc đi học.",
+      "model": "我有一节课。",
       "quiz": {
         "question": "Cụm 一节课 cho biết điều gì?",
         "choices": [
@@ -14159,8 +14384,8 @@
         "difficulty": "medium",
         "difficultyReason": "课 có thể chỉ tiết học, môn học hoặc xuất hiện trong cụm 上课; cần dạy cụm thay vì dịch cứng một nghĩa.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, lượng từ và cụm cố định, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Class_lessons"
         ],
@@ -14219,24 +14444,28 @@
         "confusions": [
           {
             "id": "classword",
+            "category": "C",
             "afterSense": "class",
-            "title": "课 và 上课 không cùng vai",
-            "explanation": "课 là danh từ chỉ tiết/môn học; 上课 là cụm động từ chỉ đi học hoặc bắt đầu học.",
+            "title": "课 và 上课: danh từ tiết học hay cụm đi học",
+            "possibleConfusion": "Người học thấy cả hai đều liên quan đến lớp học nên dễ dùng 课 một mình ở nơi cần động từ.",
+            "explanation": "课 là danh từ chỉ tiết/môn học. 上课 là cụm động từ chỉ đi học hoặc bắt đầu học; không dịch cứng 上课 thành ‘trên lớp’ trong mọi câu.",
+            "difference": "我有一节课 nói tôi có một tiết học; 我们八点上课 nói chúng tôi bắt đầu học lúc tám giờ.",
+            "boundary": "Có số/lượng từ trước 课 khi đếm tiết; có chủ thể và thời điểm trước 上课 khi nói hoạt động học.",
             "contrasts": [
               {
-                "zh": "中文课。",
-                "pinyin": "Zhōngwén kè.",
-                "vi": "Tiết tiếng Trung.",
-                "note": "课 là danh từ."
+                "zh": "我有一节课。",
+                "pinyin": "Wǒ yǒu yì jié kè.",
+                "vi": "Tôi có một tiết học.",
+                "note": "课 là danh từ, đi sau lượng từ 节."
               },
               {
-                "zh": "我上课了。",
-                "pinyin": "Wǒ shàngkè le.",
-                "vi": "Tôi vào học rồi.",
-                "note": "上课 là hành động."
+                "zh": "我们八点上课。",
+                "pinyin": "Wǒmen bā diǎn shàngkè.",
+                "vi": "Chúng tôi bắt đầu học lúc tám giờ.",
+                "note": "上课 là hoạt động/cụm động từ."
               }
             ],
-            "tip": "Muốn nói có một tiết học, dùng môn + 课; muốn nói đi học/lên lớp, dùng 上课."
+            "tip": "Đếm tiết/môn: 一节课; nói bắt đầu đi học: 上课."
           }
         ],
         "guidedExercises": [
@@ -14341,6 +14570,29 @@
             ],
             "correctIndex": 0,
             "explanation": "上课 là cụm động từ."
+          }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "课 có cách đọc thông dụng kè; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "课 có thể chỉ tiết học hoặc môn học tùy cụm; 上课 là cấu trúc hoạt động liên quan nhưng không phải cách dịch cố định của 课."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 课 thành ‘bài’ hoặc 上课 thành ‘trên lớp’ từng chữ dễ sai; cần xét lượng từ và vai trò danh từ/động từ."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 课 với 上课 bằng câu danh từ và câu hoạt động, kèm Pinyin và nghĩa Việt."
           }
         }
       }
