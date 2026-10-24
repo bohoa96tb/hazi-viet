@@ -114,20 +114,21 @@
     "browserVisualLayout": "dom-simulation-only",
     "qualityRevision": "passed-internal"
   },
-  "status": "validated-not-deployed",
-  "lastVerifiedRemoteCommit": "c9d299efe512cf8bda06b24e66e4b4d43e3d9592",
+  "status": "deployed-and-live-verified",
+  "lastVerifiedRemoteCommit": "3119aa2ab6536bd35e9e58af93e8a95e3cec205d",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
-    "pagesRunId": 40080123269,
-    "pagesHeadSha": "c9d299efe512cf8bda06b24e66e4b4d43e3d9592",
+    "pagesRunId": 40082625813,
+    "pagesHeadSha": "3119aa2ab6536bd35e9e58af93e8a95e3cec205d",
     "pagesStatus": "success",
     "liveCourseDigestSha256": "efc3a5715fe32548f286cf13429ee3b607bac54b660c964f7b798b14277511af",
     "liveLessonsVerified": [
       "hz-h1-64d354d405bb",
       "hz-h1-0a3f1c936624",
-      "hz-h1-1ac411c12450"
+      "hz-h1-1ac411c12450",
+      "hz-h1-fb76fb22fed2"
     ]
   },
-  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
+  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline. Pages run đúng head_sha và dữ liệu live đã đối chiếu byte với file đã kiểm.",
   "lastBatch": "quality-revision-004"
 }
