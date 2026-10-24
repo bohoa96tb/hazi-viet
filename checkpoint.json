@@ -29,7 +29,7 @@
   "supplementationStatus": "paused-until-review-complete",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-24-review-first",
-  "note": "Review-003: đã rà 38/377 bài theo chuẩn mới; nhóm 21–38 đã đọc và kiểm tra, rút gọn phần giảng của 书 và 本. Renderer đã ẩn mã kỹ thuật/số schema. Đang chờ commit và Pages của đợt này; bổ sung vẫn tạm dừng.",
+  "note": "Review-003: đã rà 38/377 bài theo chuẩn mới; nhóm 21–38 đã đọc và kiểm tra, rút gọn phần giảng của 书 và 本. Renderer đã ẩn mã kỹ thuật/số schema. Commit 87eb82b đã push và Pages run 40096992138 success; bổ sung vẫn tạm dừng.",
   "sourceBlobs": {
     "progress.json": "81af82c61b7ffe61728e45e0c47022d499a812c8",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
@@ -66,8 +66,8 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "37046e59b1586bfea72d159607d9867ae905ea91",
-  "priorVerificationNote": "Đã kiểm HEAD main và nhánh content hiện có; không hợp nhất hướng V3 cũ. Review-002 đã qua process-batch verify, verify-review và test-dom; renderer đã ẩn mã kỹ thuật/số schema, Pages run 40095739937 success đúng SHA, course live khớp byte. Chưa xác minh bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "87eb82ba4ac7f78e139010e5f66226d225c1c623",
+  "priorVerificationNote": "Đã kiểm HEAD main và nhánh content hiện có; không hợp nhất hướng V3 cũ. Review-003 đã qua process-batch verify, verify-review và test-dom; đã đọc 38/377 bài, rút gọn 书 và 本, renderer ẩn mã kỹ thuật/số schema, Pages run 40096992138 success đúng SHA, course live khớp byte. Chưa xác minh bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[367:]",
@@ -147,9 +147,9 @@
     ],
     "reviewedCount": 38,
     "reviewTotal": 377,
-    "releaseState": "local-verified-pending-commit",
-    "verifiedPagesRun": 40095739937,
-    "verifiedPagesCommit": "37046e59b1586bfea72d159607d9867ae905ea91",
-    "liveCourseSha256": "c4a57f66321c9cb7f2baf56b4258c00e02776fb14b2c909e1629b90f11ab3bb7"
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40096992138,
+    "verifiedPagesCommit": "87eb82ba4ac7f78e139010e5f66226d225c1c623",
+    "liveCourseSha256": "ff94d50c69548fbf322ea78ce5477df0f4cfb99116aeda9e6bc89a5cd7eeefdf"
   }
 }
