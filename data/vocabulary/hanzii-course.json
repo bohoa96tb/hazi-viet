@@ -23588,20 +23588,22 @@
       "meaning": "trứng gà",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-008",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 019",
       "examples": [
         {
           "id": "e1",
           "zh": "我早上吃一个鸡蛋。",
+          "pinyin": "Wǒ zǎoshang chī yí gè jīdàn.",
           "vi": "Buổi sáng tôi ăn một quả trứng gà.",
-          "analysis": "一个 đứng trước 鸡蛋 để đếm quả; 吃 nêu việc ăn.",
+          "analysis": "个 đếm quả trứng.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "冰箱里还有两个鸡蛋。",
+          "pinyin": "Bīngxiāng lǐ hái yǒu liǎng gè jīdàn.",
           "vi": "Trong tủ lạnh vẫn còn hai quả trứng gà.",
-          "analysis": "冰箱里 nêu nơi; 两个鸡蛋 là hai quả còn lại.",
+          "analysis": "两个 đứng trước 鸡蛋.",
           "practiceAllowed": true
         }
       ],
@@ -23609,151 +23611,184 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 90,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "easy",
+        "difficultyReason": "Nghĩa trực tiếp; nhớ 个 đếm quả trứng.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nội bộ; chưa có phản biện độc lập.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 鸡蛋 là trứng gà để ăn; phân biệt quả trứng với con gà."
-        },
-        "meaning": {
-          "scene": "Bạn gọi món sáng và muốn thêm một quả trứng.",
-          "explanation": "鸡蛋 là quả trứng của gà, thường là thực phẩm. Khi đếm từng quả, dùng lượng từ 个: 一个鸡蛋.",
-          "boundary": "鸡 là con gà; 鸡蛋 là quả trứng gà. Tiếng Việt đôi khi nói gọn “trứng”, nhưng từ này chỉ rõ loại trứng.",
-          "conditions": [
-            "Nói ăn trứng: 吃鸡蛋; nói một quả: 一个鸡蛋.",
-            "个 đếm quả trứng; 只 thường đếm con vật như 一只鸡."
-          ],
-          "takeaway": "Đếm trứng dùng 个; đếm gà thường dùng 只."
+          "scope": "鸡蛋 là quả trứng gà dùng làm thực phẩm."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "我早上吃一个鸡蛋。",
+            "pinyin": "Wǒ zǎoshang chī yí gè jīdàn.",
             "vi": "Buổi sáng tôi ăn một quả trứng gà.",
-            "analysis": "一个 đứng trước 鸡蛋 để đếm quả; 吃 nêu việc ăn.",
+            "analysis": "个 đếm quả trứng.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "冰箱里还有两个鸡蛋。",
+            "pinyin": "Bīngxiāng lǐ hái yǒu liǎng gè jīdàn.",
             "vi": "Trong tủ lạnh vẫn còn hai quả trứng gà.",
-            "analysis": "冰箱里 nêu nơi; 两个鸡蛋 là hai quả còn lại.",
+            "analysis": "两个 đứng trước 鸡蛋.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "吃 + số lượng + 个 + 鸡蛋; nơi + 有 + số lượng + 个 + 鸡蛋",
-            "position": "Số lượng và 个 đứng trước 鸡蛋; khi nói còn có, nơi chốn đứng đầu câu.",
-            "required": "Dùng 个 khi đếm từng quả; không dùng 只 cho quả trứng.",
-            "omission": "Khi chỉ nói chung về món ăn, có thể bỏ số lượng: 我吃鸡蛋。— Tôi ăn trứng.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Một quả trứng hay một con gà",
-            "scene": "Bạn đang ghi món cần mua ở chợ.",
-            "possibleConfusion": "鸡蛋 chứa chữ 鸡 nhưng là quả trứng; 鸡 là con vật.",
-            "difference": "Lượng từ giúp phân biệt rõ: 一个鸡蛋 là một quả trứng; 一只鸡 là một con gà.",
-            "cases": [
+            "id": "egg",
+            "title": "Trứng gà",
+            "when": "Nói về trứng gà để ăn.",
+            "meaning": "trứng gà",
+            "grammar": "Dùng 个 khi đếm từng quả.",
+            "pattern": "吃+鸡蛋；一个+鸡蛋",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "我买了三个鸡蛋。",
-                "vi": "Tôi đã mua ba quả trứng gà.",
-                "comment": "三个 đếm ba quả trứng.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我早上吃一个鸡蛋。",
+                "pinyin": "Wǒ zǎoshang chī yí gè jīdàn.",
+                "vi": "Buổi sáng tôi ăn một quả trứng gà.",
+                "note": "个 đếm quả."
               },
               {
-                "id": "c2",
-                "zh": "我买了两只鸡。",
-                "vi": "Tôi đã mua hai con gà.",
-                "comment": "两只 đếm hai con vật.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "两个鸡蛋",
+                "pinyin": "liǎng gè jīdàn",
+                "vi": "hai quả trứng gà",
+                "note": "Số lượng đứng trước danh từ."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "chicken",
+            "afterSense": "egg",
+            "title": "鸡蛋 và 鸡",
+            "explanation": "鸡蛋 là quả trứng; 鸡 là con gà.",
+            "contrasts": [
+              {
+                "zh": "一个鸡蛋",
+                "pinyin": "yí gè jīdàn",
+                "vi": "một quả trứng",
+                "note": "个 đếm trứng."
+              },
+              {
+                "zh": "一只鸡",
+                "pinyin": "yì zhī jī",
+                "vi": "một con gà",
+                "note": "只 đếm con vật."
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 鸡蛋 bằng 鸡 và đổi lượng từ thành 只 thì câu vẫn đúng nhưng bạn mua gà chứ không phải trứng."
-            },
-            "boundary": "Một con gà có thể đẻ trứng; hai từ liên quan về nguồn gốc nhưng chỉ hai vật khác nhau.",
-            "tip": "Quả trứng: 鸡蛋 + 个; con gà: 鸡 + 只."
+            "tip": "Nhớ 个+鸡蛋, 只+鸡."
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "鸡蛋 có một cách đọc thông dụng; chưa cần mở rộng các nghĩa khác của 蛋.",
-          "literalTranslation": "Không suy ra 鸡蛋 là “quả gà”; từ ghép chỉ trứng gà.",
-          "confusables": "Đối chiếu 鸡 với 鸡蛋 và lượng từ 只/个; không nhầm vật đếm."
-        },
-        "pronunciation": {
-          "text": "鸡蛋 đọc thanh một rồi thanh bốn; nói rõ cả hai tiếng. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn ăn hai quả trứng. Điền số lượng và lượng từ: 我吃____鸡蛋。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn mua một con gà, không phải trứng. Điền lượng từ: 我买了一____鸡。"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "我吃两个鸡蛋。"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi ăn một quả trứng.",
+            "tokens": [
+              "我",
+              "吃",
+              "一个",
+              "鸡蛋",
+              "。"
             ],
-            "explanation": "个 đếm quả trứng; hai quả thường nói 两个."
-          },
-          "q2": {
             "accepted": [
-              "我买了一只鸡。"
+              "我吃一个鸡蛋。"
             ],
-            "explanation": "只 là lượng từ thường dùng để đếm con vật."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói bạn ăn một quả trứng vào buổi sáng."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói trong tủ lạnh còn hai quả trứng."
+            "model": "我吃一个鸡蛋。",
+            "explanation": "一个 đứng trước 鸡蛋.",
+            "wrongFeedback": "Đặt lượng từ trước danh từ."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu thời điểm, hành động và số trứng.",
-            "frame": "我早上 + 吃 + 一个 + 鸡蛋。",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "chicken",
+            "type": "choice",
+            "prompt": "Chọn cụm nghĩa là một quả trứng.",
+            "choices": [
+              "一个鸡蛋",
+              "一只鸡"
+            ],
+            "correctIndex": 0,
+            "model": "一个鸡蛋",
+            "explanation": "个 đếm quả trứng.",
+            "wrongFeedback": "一只鸡 là một con gà."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn ăn một quả trứng buổi sáng.",
+            "hints": [
+              "Mở đầu 我早上.",
+              "Dùng 吃一个鸡蛋.",
+              "Mẫu: 我早上吃一个鸡蛋。"
+            ],
             "model": "我早上吃一个鸡蛋。",
             "vi": "Buổi sáng tôi ăn một quả trứng gà.",
             "criteria": [
-              "Dùng 个 để đếm quả.",
-              "Có thể đổi thời điểm hoặc số lượng."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu nơi có trứng và số lượng.",
-            "frame": "冰箱里 + 还有 + 两个 + 鸡蛋。",
-            "model": "冰箱里还有两个鸡蛋。",
-            "vi": "Trong tủ lạnh vẫn còn hai quả trứng.",
-            "criteria": [
-              "个 đứng giữa số lượng và 鸡蛋.",
-              "Có thể thay con số theo thực tế."
+              "Dùng 个 để đếm quả."
             ]
           }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là trứng gà?",
+            "hiddenAnswer": "鸡蛋",
+            "model": "鸡蛋"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 一个__。",
+            "hiddenAnswer": "鸡蛋",
+            "model": "一个鸡蛋。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi ăn một quả trứng.",
+            "choices": [
+              "我",
+              "吃",
+              "一个",
+              "鸡蛋",
+              "。"
+            ],
+            "correct": [
+              "我吃一个鸡蛋。"
+            ],
+            "explanation": "一个 đứng trước 鸡蛋."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn cụm nghĩa là một quả trứng.",
+            "choices": [
+              "一个鸡蛋",
+              "一只鸡"
+            ],
+            "correctIndex": 0,
+            "explanation": "个 đếm quả trứng."
+          }
         }
-      }
+      },
+      "task": "Nói bạn ăn một quả trứng buổi sáng.",
+      "model": "我早上吃一个鸡蛋。"
     },
     {
       "id": "hz-h1-30c9c5791947",
