@@ -5,10 +5,10 @@ Cập nhật: 2026-10-24. Chế độ hiện hành: `review-existing-first`.
 ## Rà soát bài đã có
 
 - Phạm vi: 377 bài đang đủ cấu trúc trong thứ tự `data/vocabulary/hanzii-course.json`, gồm 10 bài ngoài baseline.
-- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 218/377 bài.
-- Đã rà trong các đợt `review-001` đến `review-013`; review-013 gồm 真的、还是、还有、八、冷、口、吃、喝、渴、睡、饭、饿、什么、包子、午饭、吃饭、好吃、干净.
-- Review-013 sửa phần nghĩa/cấu trúc chung ở 睡、饭、饿、什么、包子、午饭、吃饭、好吃、干净; riêng 吃饭 được sửa điều kiện dùng để không còn gắn 正在 một cách lệch với ví dụ. 9 bài 201–209 được đọc, phân loại và giữ nguyên sau kiểm tra.
-- Còn rà: 159 bài. Tiếp theo: bài 219 (`hz-h1-a4a354339844`) và các ID trong `tools/vocabulary/review-checkpoint.json`.
+- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 236/377 bài.
+- Đã rà trong các đợt `review-001` đến `review-014`; review-014 gồm 早饭、晚饭、最好、生气、生病、米饭、面包、面条儿、中、也、六、出、国、外、女、新、比、男.
+- Review-014 sửa phần nghĩa/cấu trúc chung ở 早饭、晚饭、最好; 15 bài còn lại được đọc, phân loại và giữ nguyên sau kiểm tra.
+- Còn rà: 141 bài. Tiếp theo: bài 237 (`hz-h1-a9fbe5982e66`) và các ID trong `tools/vocabulary/review-checkpoint.json`.
 - Chưa được coi là phản biện giáo viên độc lập; chưa kiểm bố cục mobile hoặc TTS Android thật.
 
 ## Bổ sung bài còn thiếu
