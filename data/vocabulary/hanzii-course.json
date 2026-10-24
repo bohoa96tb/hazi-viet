@@ -19491,7 +19491,7 @@
       "meaning": "điện thoại di động",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 013",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 63",
       "examples": [
         {
           "id": "e1",
@@ -19513,8 +19513,8 @@
       "sourceIndex": 41,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói điện thoại di động của bạn ở trên bàn.",
-      "model": "我的手机在桌子上。",
+      "task": "Nói về điện thoại di động của mình.",
+      "model": "这是我的手机。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -19522,8 +19522,8 @@
         "difficulty": "easy",
         "difficultyReason": "手机 là danh từ quen thuộc, có mẫu sở hữu và vị trí rõ.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí sở hữu, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Mobile_phones"
         ],
@@ -19665,6 +19665,30 @@
             ],
             "correctIndex": 0,
             "explanation": "手机 là điện thoại di động."
+          }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "手机 có cách đọc thông dụng shǒujī; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "手机 có nghĩa trọng tâm là điện thoại di động; thiết bị và cuộc gọi được phân biệt bằng 电话 ở bài đối chiếu."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không tách 手机 thành ‘máy tay’; cả từ là điện thoại di động."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 电话 và 打电话; chưa thấy bẫy cần thêm trong bài cơ bản."
           }
         }
       }
@@ -20062,7 +20086,7 @@
       "meaning": "điện thoại; cuộc gọi",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 013",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 64",
       "examples": [
         {
           "id": "e1",
@@ -20084,8 +20108,8 @@
       "sourceIndex": 43,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn gọi điện cho mẹ.",
-      "model": "我给妈妈打电话。",
+      "task": "Nói về thiết bị, số điện thoại hoặc một cuộc gọi.",
+      "model": "我打电话。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -20093,8 +20117,8 @@
         "difficulty": "medium",
         "difficultyReason": "电话 có thể chỉ thiết bị, cuộc gọi hoặc số điện thoại; cần phân biệt với 手机 và 打电话 theo ngữ cảnh.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nhiều phạm vi nghĩa, từ ghép, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Telephone"
         ],
@@ -20153,24 +20177,28 @@
         "confusions": [
           {
             "id": "mobile",
+            "category": "C",
             "afterSense": "telephone",
-            "title": "电话 và 手机 khác phạm vi",
-            "explanation": "手机 là thiết bị di động; 电话 rộng hơn, có thể chỉ điện thoại/cuộc gọi/số điện thoại tùy cụm.",
+            "title": "电话 và 手机: cuộc gọi/số hay thiết bị di động",
+            "possibleConfusion": "Tiếng Việt dùng ‘điện thoại’ cho cả máy, số và cuộc gọi nên người học dễ chọn một từ cho mọi câu.",
+            "explanation": "手机 là thiết bị điện thoại di động. 电话 có thể là điện thoại nói chung, số điện thoại hoặc cuộc gọi tùy cấu trúc; 打电话 là gọi điện.",
+            "difference": "这是我的手机 nói đây là chiếc máy; 你的电话号码是多少 hỏi số; 我打电话 nói thực hiện cuộc gọi.",
+            "boundary": "Nhìn từ đi kèm: 手/手机 là thiết bị, 号码 là số, 打电话 là hành động.",
             "contrasts": [
               {
-                "zh": "我的手机在这里。",
-                "pinyin": "Wǒ de shǒujī zài zhèlǐ.",
-                "vi": "Điện thoại di động của tôi ở đây.",
-                "note": "Thiết bị cầm tay."
+                "zh": "这是我的手机。",
+                "pinyin": "Zhè shì wǒ de shǒujī.",
+                "vi": "Đây là điện thoại di động của tôi.",
+                "note": "手机 là thiết bị."
               },
               {
-                "zh": "我给妈妈打电话。",
-                "pinyin": "Wǒ gěi māma dǎ diànhuà.",
-                "vi": "Tôi gọi điện cho mẹ.",
-                "note": "Hành động gọi điện."
+                "zh": "我打电话。",
+                "pinyin": "Wǒ dǎ diànhuà.",
+                "vi": "Tôi gọi điện.",
+                "note": "打电话 là hành động gọi."
               }
             ],
-            "tip": "Nói thiết bị di động dùng 手机; nói hành động gọi hoặc số điện thoại dùng 电话 trong cụm phù hợp."
+            "tip": "Máy = 手机; số/cuộc gọi = 电话; gọi điện = 打电话."
           }
         ],
         "guidedExercises": [
@@ -20276,6 +20304,29 @@
             "correctIndex": 0,
             "explanation": "手机 nhấn mạnh thiết bị di động."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "电话 có cách đọc thông dụng diànhuà; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "电话 có thể chỉ điện thoại nói chung, số điện thoại hoặc cuộc gọi tùy cụm; bài đã dùng 手机 và 打电话 để khoanh chức năng."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 电话 cố định thành ‘chiếc điện thoại’ sẽ sai trong 电话号码 hoặc 打电话; cần nhìn từ ghép và động từ đi kèm."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 电话 với 手机 và 打电话 theo thiết bị, số/cuộc gọi và hành động."
+          }
         }
       }
     },
@@ -20292,7 +20343,7 @@
       "meaning": "nói; nói chuyện",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 65",
       "examples": [
         {
           "id": "e1",
@@ -20314,8 +20365,8 @@
       "sourceIndex": 44,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói rằng bạn muốn nói chuyện.",
-      "model": "我想说话。",
+      "task": "Nói chuyện hoặc yêu cầu ai đó nói.",
+      "model": "请说话。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -20323,8 +20374,8 @@
         "difficulty": "medium",
         "difficultyReason": "说话 là cụm động từ, cần phân biệt với 说 + nội dung cụ thể và với 话 là danh từ lời nói.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà cụm động từ, vị trí tân ngữ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Speaking"
         ],
@@ -20377,24 +20428,28 @@
         "confusions": [
           {
             "id": "content",
+            "category": "C",
             "afterSense": "speak",
-            "title": "说话 và 说 + nội dung",
-            "explanation": "说话 nói chung về hành động nói; 说 thường đứng trước điều được nói.",
+            "title": "说话 và 说 + nội dung: nói chuyện hay nói điều gì",
+            "possibleConfusion": "Cả hai đều dịch là ‘nói’, nhưng một cụm không nêu nội dung còn một cấu trúc có tân ngữ/lời nói cụ thể.",
+            "explanation": "说话 thường chỉ hoạt động nói chuyện hoặc phát ra lời. 说 + nội dung nhấn vào điều được nói.",
+            "difference": "请说话 là hãy nói/hãy lên tiếng; 他说中文 là anh ấy nói tiếng Trung. Không thêm 话 sau mọi động từ 说.",
+            "boundary": "Không có nội dung cụ thể: 说话; có ngôn ngữ, câu hoặc điều được nói: 说 + nội dung.",
             "contrasts": [
               {
-                "zh": "我想说话。",
-                "pinyin": "Wǒ xiǎng shuōhuà.",
-                "vi": "Tôi muốn nói chuyện.",
-                "note": "Không nêu nội dung."
+                "zh": "请说话。",
+                "pinyin": "Qǐng shuōhuà.",
+                "vi": "Xin hãy nói.",
+                "note": "Cụm nói chuyện/nói thành lời."
               },
               {
-                "zh": "我说中文。",
-                "pinyin": "Wǒ shuō Zhōngwén.",
-                "vi": "Tôi nói tiếng Trung.",
-                "note": "说 có nội dung/ngôn ngữ theo sau."
+                "zh": "他说中文。",
+                "pinyin": "Tā shuō Zhōngwén.",
+                "vi": "Anh ấy nói tiếng Trung.",
+                "note": "说 có nội dung/ngôn ngữ đi sau."
               }
             ],
-            "tip": "Không có nội dung cụ thể thì dùng 说话; có điều/ngôn ngữ cụ thể thì dùng 说 + nội dung."
+            "tip": "Hoạt động nói: 说话; nói điều/ngôn ngữ cụ thể: 说 + nội dung."
           }
         ],
         "guidedExercises": [
@@ -20500,6 +20555,29 @@
             "correctIndex": 0,
             "explanation": "说话 nói chung về hành động nói."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "说话 có cách đọc thông dụng shuōhuà; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "说话 là cụm chỉ nói chuyện/nói thành lời; khác biệt với 说 + nội dung là cấu trúc, không phải nghĩa độc lập của 话."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch từng chữ 说话 thành ‘nói lời’ không giúp đặt câu; cần học cụm và biết khi nào tân ngữ đi sau 说."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 说话 với 说 + 中文 bằng hai câu đúng và phân tích có/không có nội dung."
+          }
         }
       }
     },
@@ -20536,9 +20614,9 @@
       "sourceIndex": 45,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 66",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Mời khách vào nhà.",
+      "task": "Mời người đang ở ngoài bước vào.",
       "model": "请进。",
       "lesson": {
         "version": 3,
@@ -20547,8 +20625,8 @@
         "difficulty": "easy",
         "difficultyReason": "请进 là cụm lời mời cố định, nghĩa và vị trí rõ.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà cụm mời, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Inviting_in"
         ],
@@ -20689,6 +20767,30 @@
             "correctIndex": 0,
             "explanation": "请进 là mời vào."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "请进 có cách đọc qǐng jìn; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "请进 là cụm mời vào; 请 giữ chức năng lịch sự và 进 nêu hướng đi vào."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không dịch 请进 thành ‘xin tiến’ từng chữ; cả cụm là mời vào."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 请坐 và 进来; chưa thấy bẫy cần thêm ở mức bài này."
+          }
         }
       }
     },
@@ -20705,7 +20807,7 @@
       "meaning": "xin hỏi",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 67",
       "examples": [
         {
           "id": "e1",
@@ -20727,8 +20829,8 @@
       "sourceIndex": 46,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Lịch sự hỏi đường.",
-      "model": "请问，学校在哪儿？",
+      "task": "Mở lời hỏi một người lịch sự.",
+      "model": "请问，医院在哪儿？",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -20736,8 +20838,8 @@
         "difficulty": "medium",
         "difficultyReason": "请问 là cụm lịch sự đã cố định hóa, cần phân biệt với 请 + động từ và với 问 dùng như động từ thường.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà cụm lịch sự, vị trí trước nội dung hỏi, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Polite_questions"
         ],
@@ -20790,24 +20892,28 @@
         "confusions": [
           {
             "id": "request",
+            "category": "C",
             "afterSense": "politeask",
-            "title": "请问 và 请 + hành động",
-            "explanation": "请问 là cụm xin hỏi; 请坐/请进 là lời mời người khác làm một hành động.",
+            "title": "请问 và 请 + hành động: xin hỏi hay mời làm",
+            "possibleConfusion": "请 xuất hiện trong cả hai nhưng mục đích của 请问 không phải mời người khác ‘hỏi’.",
+            "explanation": "请问 là cụm mở lời lịch sự trước câu hỏi. 请 + động từ khác dùng để mời/yêu cầu hành động như 请坐, 请进.",
+            "difference": "请问，医院在哪儿？là xin hỏi bệnh viện ở đâu; 请坐 là mời ngồi. Sau 请问 phải có nội dung câu hỏi.",
+            "boundary": "Thấy 问 ngay sau 请: hiểu là cụm mở lời; thấy động từ hành động khác: hiểu là lời mời/yêu cầu.",
             "contrasts": [
               {
-                "zh": "请问，学校在哪儿？",
-                "pinyin": "Qǐngwèn, xuéxiào zài nǎr?",
-                "vi": "Xin hỏi, trường học ở đâu?",
-                "note": "Cụm mở đầu câu hỏi."
+                "zh": "请问，医院在哪儿？",
+                "pinyin": "Qǐngwèn, yīyuàn zài nǎr?",
+                "vi": "Xin hỏi, bệnh viện ở đâu ạ?",
+                "note": "Cụm hỏi lịch sự."
               },
               {
                 "zh": "请坐。",
                 "pinyin": "Qǐng zuò.",
                 "vi": "Mời ngồi.",
-                "note": "请 đứng trước hành động được mời."
+                "note": "请 + hành động được mời."
               }
             ],
-            "tip": "Sau 请问 là một câu hỏi; sau 请 trong lời mời là hành động như 坐, 进."
+            "tip": "请问 + câu hỏi; 请 + động từ hành động = mời/yêu cầu lịch sự."
           }
         ],
         "guidedExercises": [
@@ -20911,6 +21017,29 @@
             "correctIndex": 0,
             "explanation": "请问 mở đầu câu hỏi."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "请问 có cách đọc qǐngwèn; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "请问 là cụm cố định để mở lời hỏi; chức năng khác của 请 được dạy qua 请坐/请进."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 请问 thành ‘mời hỏi’ sẽ không tự nhiên; cả cụm là xin hỏi, không phải lời mời người khác đặt câu hỏi."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 请问 với 请 + hành động bằng vị trí và mục đích giao tiếp."
+          }
         }
       }
     },
@@ -20947,10 +21076,10 @@
       "sourceIndex": 47,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "biên soạn bổ sung",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 68",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn uống sữa.",
-      "model": "我喝牛奶。",
+      "task": "Nói về sữa hoặc hỏi xin sữa.",
+      "model": "我喝奶。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -20958,8 +21087,8 @@
         "difficulty": "easy",
         "difficultyReason": "奶 là danh từ đồ uống quen thuộc, thường học qua 牛奶 và 喝奶.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Milk"
         ],
@@ -21102,6 +21231,30 @@
             "correctIndex": 0,
             "explanation": "奶 là sữa."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "奶 có cách đọc thông dụng nǎi; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "奶 có nghĩa trọng tâm là sữa; loại sữa do danh từ/cụm đi kèm quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần xét 奶 trong cụm như 牛奶 thay vì dịch tách rời."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 牛奶 và 水; chưa thấy bẫy cần thêm ở mức bài này."
+          }
         }
       }
     },
@@ -21118,7 +21271,7 @@
       "meaning": "cây (thân gỗ)",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 69",
       "examples": [
         {
           "id": "e1",
@@ -21140,8 +21293,8 @@
       "sourceIndex": 48,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói trước nhà có một cái cây.",
-      "model": "房子前面有一棵树。",
+      "task": "Nói hoặc hỏi về một cái cây.",
+      "model": "那是一棵树。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -21149,8 +21302,8 @@
         "difficulty": "easy",
         "difficultyReason": "树 là danh từ trực tiếp, có lượng từ 棵 và mẫu tồn tại rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, lượng từ, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Trees"
         ],
@@ -21291,6 +21444,30 @@
             "correctIndex": 0,
             "explanation": "树 là cây."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "树 có cách đọc thông dụng shù; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "树 có nghĩa trọng tâm là cây thân gỗ; số lượng và loại cây do lượng từ/ngữ cảnh quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; khi đếm cây dùng 棵 trong mẫu cơ bản."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 木 và 棵; chưa thấy bẫy cần thêm ở bài này."
+          }
         }
       }
     },
@@ -21307,7 +21484,7 @@
       "meaning": "bài hát",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 70",
       "examples": [
         {
           "id": "e1",
@@ -21329,7 +21506,7 @@
       "sourceIndex": 49,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn thích bài hát này.",
+      "task": "Nói về một bài hát hoặc hỏi ai đó có hát không.",
       "model": "我喜欢这首歌。",
       "lesson": {
         "version": 3,
@@ -21338,8 +21515,8 @@
         "difficulty": "easy",
         "difficultyReason": "歌 là danh từ bài hát với lượng từ 首 và cụm 唱歌 rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, lượng từ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Songs"
         ],
@@ -21482,6 +21659,30 @@
             "correctIndex": 0,
             "explanation": "歌 là bài hát."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "歌 có cách đọc thông dụng gē; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "歌 có nghĩa trọng tâm là bài hát; khi đếm bài hát dùng 首 trong cụm phù hợp."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; không dịch 歌 thành hành động hát trong mọi vị trí, vì hát là 唱."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 唱 và 首; chưa thấy bẫy cần thêm ở mức bài này."
+          }
         }
       }
     },
@@ -21498,7 +21699,7 @@
       "meaning": "hào (một phần mười tệ)",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 71",
       "examples": [
         {
           "id": "e1",
@@ -21520,8 +21721,8 @@
       "sourceIndex": 50,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói món đồ giá một hào.",
-      "model": "一毛钱。",
+      "task": "Nói giá tiền theo đơn vị hào trong ngữ cảnh rõ ràng.",
+      "model": "五毛钱。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -21529,8 +21730,8 @@
         "difficulty": "medium",
         "difficultyReason": "毛 có nghĩa lông nhưng trong bài này là đơn vị tiền; cần phân biệt nghĩa tiền với nghĩa vật chất và vị trí sau số.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nhiều nghĩa, đơn vị tiền, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Money"
         ],
@@ -21589,24 +21790,28 @@
         "confusions": [
           {
             "id": "fur",
+            "category": "A2",
             "afterSense": "money",
-            "title": "毛 còn có nghĩa lông",
-            "explanation": "毛 có thể là lông/tơ, nhưng sau số tiền hoặc trong 毛钱 thì là đơn vị tiền.",
+            "title": "毛 trong tiền và 毛 là lông",
+            "possibleConfusion": "Người học biết nghĩa Hán Việt/lông trước nên có thể hiểu sai giá tiền 五毛钱.",
+            "explanation": "Trong ngữ cảnh tiền, 毛 là cách nói một phần mười 元, tương đương hào. Trong cụm chỉ cơ thể/động vật, 毛 là lông.",
+            "difference": "五毛钱 là năm hào; 猫有很多毛 là con mèo có nhiều lông. Cùng chữ nhưng tân ngữ và ngữ cảnh đổi nghĩa.",
+            "boundary": "Có 钱 hoặc số tiền thì đọc theo đơn vị tiền; có động vật/cơ thể thì xét nghĩa lông.",
             "contrasts": [
               {
-                "zh": "一毛钱。",
-                "pinyin": "Yì máo qián.",
-                "vi": "Một hào.",
-                "note": "Nghĩa tiền."
+                "zh": "五毛钱。",
+                "pinyin": "Wǔ máo qián.",
+                "vi": "Năm hào/nửa tệ.",
+                "note": "毛 là đơn vị tiền khẩu ngữ."
               },
               {
-                "zh": "猫的毛。",
-                "pinyin": "Māo de máo.",
-                "vi": "Lông của mèo.",
-                "note": "Nghĩa lông."
+                "zh": "猫有很多毛。",
+                "pinyin": "Māo yǒu hěn duō máo.",
+                "vi": "Mèo có rất nhiều lông.",
+                "note": "毛 là lông trong ngữ cảnh cơ thể."
               }
             ],
-            "tip": "Nhìn ngữ cảnh: số + 毛 thường là tiền; 毛 của con vật là lông."
+            "tip": "Thấy 钱 và số: 毛 = hào; thấy động vật/cơ thể: 毛 = lông."
           }
         ],
         "guidedExercises": [
@@ -21710,6 +21915,29 @@
             "correctIndex": 0,
             "explanation": "毛 là đơn vị tiền trong cụm này."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "毛 có cách đọc thông dụng máo trong cả hai ngữ cảnh tiền và lông; khác nghĩa không phải cách đọc thứ hai."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã kiểm tra nghĩa đơn vị tiền một phần mười 元 và nghĩa lông; bài dùng ngữ cảnh để phân biệt."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 毛 luôn thành ‘lông’ sẽ sai trong 五毛钱; cần nhìn 钱 và số tiền đi kèm."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu hai nghĩa của 毛 bằng câu tiền và câu nói về lông, có Pinyin và nghĩa Việt."
+          }
         }
       }
     },
@@ -21726,7 +21954,7 @@
       "meaning": "nước",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 72",
       "examples": [
         {
           "id": "e1",
@@ -21748,8 +21976,8 @@
       "sourceIndex": 51,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn muốn uống nước.",
-      "model": "我想喝水。",
+      "task": "Nói về nước hoặc xin một cốc nước.",
+      "model": "我喝水。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -21757,8 +21985,8 @@
         "difficulty": "easy",
         "difficultyReason": "水 là danh từ cơ bản với mẫu uống nước và lượng từ 杯 rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Water"
         ],
@@ -21900,6 +22128,30 @@
             ],
             "correctIndex": 0,
             "explanation": "水 là nước."
+          }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "水 có cách đọc thông dụng shuǐ; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "水 có nghĩa trọng tâm là nước; loại nước do từ ghép hoặc ngữ cảnh quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần dùng lượng từ phù hợp khi gọi một cốc/chai nước, không dịch từng chữ."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 茶 và 饮料; chưa thấy bẫy cần thêm ở bài cơ bản này."
           }
         }
       }

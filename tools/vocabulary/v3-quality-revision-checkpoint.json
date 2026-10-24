@@ -7,16 +7,16 @@
   "standardPath": "docs/CONTENT_STANDARD_V3.md",
   "historyCheckpointPath": "tools/vocabulary/v3-rewrite-checkpoint.json",
   "scopeTotal": 2224,
-  "reviewedThroughOrdinal": 62,
-  "nextOrdinal": 63,
-  "pendingReviewCount": 2162,
-  "passedCount": 62,
+  "reviewedThroughOrdinal": 72,
+  "nextOrdinal": 73,
+  "pendingReviewCount": 2152,
+  "passedCount": 72,
   "retainedCount": 0,
-  "rewrittenCount": 62,
+  "rewrittenCount": 72,
   "needsRevisionCount": 0,
   "difficultyCountsReviewed": {
-    "easy": 30,
-    "medium": 32,
+    "easy": 36,
+    "medium": 36,
     "hard": 0
   },
   "reviewedIds": [
@@ -81,7 +81,17 @@
     "hz-h1-050d90f2468a",
     "hz-h1-8345c9c1e294",
     "hz-h1-8df32f671cf0",
-    "hz-h1-f135b43ff431"
+    "hz-h1-f135b43ff431",
+    "hz-h1-e0af7a55e54c",
+    "hz-h1-367df9600cd7",
+    "hz-h1-63896ea39d84",
+    "hz-h1-a9cbf4e7cccc",
+    "hz-h1-64ce3c69ace7",
+    "hz-h1-ab53b24f42a9",
+    "hz-h1-dc87a0871d2b",
+    "hz-h1-4c34faa448ef",
+    "hz-h1-cbe1b499a657",
+    "hz-h1-c2e211c93ffd"
   ],
   "passedIds": [
     "hz-h1-64d354d405bb",
@@ -145,7 +155,17 @@
     "hz-h1-050d90f2468a",
     "hz-h1-8345c9c1e294",
     "hz-h1-8df32f671cf0",
-    "hz-h1-f135b43ff431"
+    "hz-h1-f135b43ff431",
+    "hz-h1-e0af7a55e54c",
+    "hz-h1-367df9600cd7",
+    "hz-h1-63896ea39d84",
+    "hz-h1-a9cbf4e7cccc",
+    "hz-h1-64ce3c69ace7",
+    "hz-h1-ab53b24f42a9",
+    "hz-h1-dc87a0871d2b",
+    "hz-h1-4c34faa448ef",
+    "hz-h1-cbe1b499a657",
+    "hz-h1-c2e211c93ffd"
   ],
   "retainedIds": [],
   "rewrittenIds": [
@@ -210,7 +230,17 @@
     "hz-h1-050d90f2468a",
     "hz-h1-8345c9c1e294",
     "hz-h1-8df32f671cf0",
-    "hz-h1-f135b43ff431"
+    "hz-h1-f135b43ff431",
+    "hz-h1-e0af7a55e54c",
+    "hz-h1-367df9600cd7",
+    "hz-h1-63896ea39d84",
+    "hz-h1-a9cbf4e7cccc",
+    "hz-h1-64ce3c69ace7",
+    "hz-h1-ab53b24f42a9",
+    "hz-h1-dc87a0871d2b",
+    "hz-h1-4c34faa448ef",
+    "hz-h1-cbe1b499a657",
+    "hz-h1-c2e211c93ffd"
   ],
   "needsRevisionIds": [],
   "reviewRecords": [
@@ -651,6 +681,76 @@
       "result": "passed-after-rewrite",
       "difficulty": "medium",
       "reason": "怎么 hỏi cách thức và có thể dịch thế nào tùy động từ; cần tránh nhầm với 什么 hỏi sự vật."
+    },
+    {
+      "ordinal": 63,
+      "id": "hz-h1-e0af7a55e54c",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "手机 là danh từ quen thuộc, có mẫu sở hữu và vị trí rõ."
+    },
+    {
+      "ordinal": 64,
+      "id": "hz-h1-367df9600cd7",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "电话 có thể chỉ thiết bị, cuộc gọi hoặc số điện thoại; cần phân biệt với 手机 và 打电话 theo ngữ cảnh."
+    },
+    {
+      "ordinal": 65,
+      "id": "hz-h1-63896ea39d84",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "说话 là cụm động từ, cần phân biệt với 说 + nội dung cụ thể và với 话 là danh từ lời nói."
+    },
+    {
+      "ordinal": 66,
+      "id": "hz-h1-a9cbf4e7cccc",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "请进 là cụm lời mời cố định, nghĩa và vị trí rõ."
+    },
+    {
+      "ordinal": 67,
+      "id": "hz-h1-64ce3c69ace7",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "请问 là cụm lịch sự đã cố định hóa, cần phân biệt với 请 + động từ và với 问 dùng như động từ thường."
+    },
+    {
+      "ordinal": 68,
+      "id": "hz-h1-ab53b24f42a9",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "奶 là danh từ đồ uống quen thuộc, thường học qua 牛奶 và 喝奶."
+    },
+    {
+      "ordinal": 69,
+      "id": "hz-h1-dc87a0871d2b",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "树 là danh từ trực tiếp, có lượng từ 棵 và mẫu tồn tại rõ ràng."
+    },
+    {
+      "ordinal": 70,
+      "id": "hz-h1-4c34faa448ef",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "歌 là danh từ bài hát với lượng từ 首 và cụm 唱歌 rõ ràng."
+    },
+    {
+      "ordinal": 71,
+      "id": "hz-h1-cbe1b499a657",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "毛 có nghĩa lông nhưng trong bài này là đơn vị tiền; cần phân biệt nghĩa tiền với nghĩa vật chất và vị trí sau số."
+    },
+    {
+      "ordinal": 72,
+      "id": "hz-h1-c2e211c93ffd",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "水 là danh từ cơ bản với mẫu uống nước và lượng từ 杯 rõ ràng."
     }
   ],
   "previousDigests": {
@@ -720,11 +820,21 @@
     "hz-h1-050d90f2468a": "d66625a35e786b01096ace54d356e0046957a2e9110f99104b7ca86f1cd45c26",
     "hz-h1-8345c9c1e294": "02876fa07a5a854125482eb78a639914f7bbaa4f9789a0545eb4c730e776bb1d",
     "hz-h1-8df32f671cf0": "c1e8fc64709172dde35ea50cfe76e70870d9cb7bd74fc22b624a986ff717d2b9",
-    "hz-h1-f135b43ff431": "850f5bae64832eadeb1d502a706d0451eafb8266bead7ec72b298a22260bf46a"
+    "hz-h1-f135b43ff431": "850f5bae64832eadeb1d502a706d0451eafb8266bead7ec72b298a22260bf46a",
+    "hz-h1-e0af7a55e54c": "faa7110b7bc4541a6307971a6fc10f645834c56739300e3157004c7b4233400c",
+    "hz-h1-367df9600cd7": "2b0c10d2981f27daff6ef320ff0eac2a16d9e582a623dac5557da9cb50f29e14",
+    "hz-h1-63896ea39d84": "bf7b632c27087fd1e9cb14dd52ed4b02494249b303cd99c36851765648937162",
+    "hz-h1-a9cbf4e7cccc": "146f18bcd6f947bea1d44d0fa67b95be37fe1450579fbfd8835310b36e4fba4e",
+    "hz-h1-64ce3c69ace7": "0c3e3216c9a5f47a08fed1601f3e61054c5a1ba90182ad3e799feea57cfcc3d3",
+    "hz-h1-ab53b24f42a9": "345634676aceb70a7f3512727e25d8e0b2017a0cfe900910d00931613810a06a",
+    "hz-h1-dc87a0871d2b": "b6911d876a8b148273a3f580c0284938ecfdeda05418a4eb5e37e192d39a2673",
+    "hz-h1-4c34faa448ef": "99d0daca2b339c1b5c0cf61a7720945e819751203de3f0bdae7241fa538ae5e3",
+    "hz-h1-cbe1b499a657": "9f22504dbfcee8553eb6c6c7e3f59bd90e106134dd5fef6ff234ddea08e27415",
+    "hz-h1-c2e211c93ffd": "f578263880cd32a306ef1025a0f197d64a4ecfad7f6c6184e28af4efd8074299"
   },
   "sourceDigests": {
     "algorithm": "sha256",
-    "courseFile": "831ef2f7af9411b349f208099816351fc8bd0bfe6175a0fb1f2827a54085959f",
+    "courseFile": "4fbcee790e7e6f1f260c54ea279e09d7b10eb9d033a5e60e98afbeaa92fff8a9",
     "baselineFile": "253370b4136e5935982390cc472b1f577e992417c84d93cec82fad2cc1bec925",
     "standardFile": "59e0d0afad07989b9d14923cc33d0ad7639c912c9ed095d87764f9be4bb5c133",
     "agentsFile": "4db177889bc96362673db9f10388b9cf48e64262c0c2f7816344be7afe99fa83",
@@ -732,7 +842,7 @@
     "vocabularyScriptFile": "c1964505c084959aaa6ef403532408e341d8e41c92e3b89ed284f0d38f8a3ec4",
     "vocabularyHtmlFile": "38da4dea2a335e191b6d2a157f999f9f5305b04dce0e1b64f6fd24ca1bef9dd6",
     "domTestFile": "f1437324b917e1df0c273cd67926315c00f8c155adef03ccfdcf698b96530321",
-    "progressFile": "096223e60115ddb9463d106c8feb569be47aa78478417d99fad935d206143257"
+    "progressFile": "0e0f65d1d45f3c083a2d78c4c4f45e486af131dea3b4a7134b56e5c178bc1d3b"
   },
   "baselineIntegrity": {
     "completedPrefixLength": 91,
@@ -753,7 +863,7 @@
     "qualityRevision": "passed-internal"
   },
   "status": "validated-worktree",
-  "lastVerifiedRemoteCommit": "17b20c6df76717c2914d27e57d52e22b57ca0f56",
+  "lastVerifiedRemoteCommit": "bef90e9484a8f5d05bc99f9169d665e9468bbe77",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
     "pagesRunId": 40082625813,
@@ -768,5 +878,5 @@
     ]
   },
   "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
-  "lastBatch": "quality-revision-011"
+  "lastBatch": "quality-revision-012"
 }
