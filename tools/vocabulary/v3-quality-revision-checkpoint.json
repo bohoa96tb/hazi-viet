@@ -7,16 +7,16 @@
   "standardPath": "docs/CONTENT_STANDARD_V3.md",
   "historyCheckpointPath": "tools/vocabulary/v3-rewrite-checkpoint.json",
   "scopeTotal": 2224,
-  "reviewedThroughOrdinal": 24,
-  "nextOrdinal": 25,
-  "pendingReviewCount": 2200,
-  "passedCount": 24,
+  "reviewedThroughOrdinal": 32,
+  "nextOrdinal": 33,
+  "pendingReviewCount": 2192,
+  "passedCount": 32,
   "retainedCount": 0,
-  "rewrittenCount": 24,
+  "rewrittenCount": 32,
   "needsRevisionCount": 0,
   "difficultyCountsReviewed": {
-    "easy": 13,
-    "medium": 11,
+    "easy": 16,
+    "medium": 16,
     "hard": 0
   },
   "reviewedIds": [
@@ -43,7 +43,15 @@
     "hz-h1-fdbb78c8e725",
     "hz-h1-22357796d4e3",
     "hz-h1-58837eebf47f",
-    "hz-h1-8de2a5b77843"
+    "hz-h1-8de2a5b77843",
+    "hz-h1-f05455e3c9c0",
+    "hz-h1-f41783418fc4",
+    "hz-h1-8341aa4cbe2d",
+    "hz-h1-f122294ca48f",
+    "hz-h1-ae27e66d8546",
+    "hz-h1-b7fe1500b898",
+    "hz-h1-53aaf4b1dcee",
+    "hz-h1-0753b94f1793"
   ],
   "passedIds": [
     "hz-h1-64d354d405bb",
@@ -69,7 +77,15 @@
     "hz-h1-fdbb78c8e725",
     "hz-h1-22357796d4e3",
     "hz-h1-58837eebf47f",
-    "hz-h1-8de2a5b77843"
+    "hz-h1-8de2a5b77843",
+    "hz-h1-f05455e3c9c0",
+    "hz-h1-f41783418fc4",
+    "hz-h1-8341aa4cbe2d",
+    "hz-h1-f122294ca48f",
+    "hz-h1-ae27e66d8546",
+    "hz-h1-b7fe1500b898",
+    "hz-h1-53aaf4b1dcee",
+    "hz-h1-0753b94f1793"
   ],
   "retainedIds": [],
   "rewrittenIds": [
@@ -96,7 +112,15 @@
     "hz-h1-fdbb78c8e725",
     "hz-h1-22357796d4e3",
     "hz-h1-58837eebf47f",
-    "hz-h1-8de2a5b77843"
+    "hz-h1-8de2a5b77843",
+    "hz-h1-f05455e3c9c0",
+    "hz-h1-f41783418fc4",
+    "hz-h1-8341aa4cbe2d",
+    "hz-h1-f122294ca48f",
+    "hz-h1-ae27e66d8546",
+    "hz-h1-b7fe1500b898",
+    "hz-h1-53aaf4b1dcee",
+    "hz-h1-0753b94f1793"
   ],
   "needsRevisionIds": [],
   "reviewRecords": [
@@ -271,6 +295,62 @@
       "result": "passed-after-rewrite",
       "difficulty": "easy",
       "reason": "朋友 là danh từ quan hệ quen thuộc, dùng trực tiếp trong giới thiệu và hoạt động cùng nhau."
+    },
+    {
+      "ordinal": 25,
+      "id": "hz-h1-f05455e3c9c0",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "个 là lượng từ phổ biến nhưng phải đứng đúng giữa số/từ chỉ định và danh từ; 一 đọc nhẹ thành yí trong cụm."
+    },
+    {
+      "ordinal": 26,
+      "id": "hz-h1-f41783418fc4",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "书 là danh từ cơ bản với mẫu sở hữu và lượng từ thường gặp."
+    },
+    {
+      "ordinal": 27,
+      "id": "hz-h1-8341aa4cbe2d",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "买 là động từ hành động trực tiếp, với tân ngữ đứng sau."
+    },
+    {
+      "ordinal": 28,
+      "id": "hz-h1-f122294ca48f",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "事 có nghĩa rộng là việc/sự việc và thường đi với 件; cần phân biệt với 事情 là cách nói đầy đủ hơn trong một số câu."
+    },
+    {
+      "ordinal": 29,
+      "id": "hz-h1-ae27e66d8546",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "元 là đơn vị tiền tệ nhưng trong khẩu ngữ thường gặp 块; cần giữ đúng vị trí sau số và sắc thái tương đối chuẩn."
+    },
+    {
+      "ordinal": 30,
+      "id": "hz-h1-b7fe1500b898",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "写 là động từ cơ bản, tân ngữ đứng sau và mẫu dùng trực tiếp."
+    },
+    {
+      "ordinal": 31,
+      "id": "hz-h1-53aaf4b1dcee",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "分 có thể là phút trong cách nói giờ và còn xuất hiện trong 分钟; cần giữ đúng vị trí sau số phút."
+    },
+    {
+      "ordinal": 32,
+      "id": "hz-h1-0753b94f1793",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "块 vừa là từ khẩu ngữ chỉ đơn vị tiền, vừa có nghĩa gốc là mảnh/khối; bài này giới hạn ở nghĩa tiền và phân biệt với 元."
     }
   ],
   "previousDigests": {
@@ -302,11 +382,19 @@
     "hz-h1-fdbb78c8e725": "06201ffb45197dba5838ef4edc715a4828d81a89506bf9cd2c87219f0402ab5a",
     "hz-h1-22357796d4e3": "7da4bcb18cf90cd7e7f1ca5fadf29bff4633cf0dadab708ea74312909f8a2a89",
     "hz-h1-58837eebf47f": "3b89d3b3e54cd475382b8ec0bd1dcc05ac8153be7047afd44b396c42ba16b1c6",
-    "hz-h1-8de2a5b77843": "85b4a6f58461877d785c21a46db940b369480784c1b639e87ee4e9d53b2bedf4"
+    "hz-h1-8de2a5b77843": "85b4a6f58461877d785c21a46db940b369480784c1b639e87ee4e9d53b2bedf4",
+    "hz-h1-f05455e3c9c0": "501ffba3108bb3408f8993453f1d5b934d3895c69d9f1726d5457eeeaad3fd2d",
+    "hz-h1-f41783418fc4": "a65b138d2e671851bde8224ebb86c1cd21ab1f2c75270612fd77857e4d87843c",
+    "hz-h1-8341aa4cbe2d": "9c004a315559cfcdd7ef7f8467d896c55d408f1b1dcb6359d9804bb52c6ada47",
+    "hz-h1-f122294ca48f": "dc042d025d54643bd612bfc88f5c100f92c621de751cf26ef0c2d96cd2608695",
+    "hz-h1-ae27e66d8546": "d0526e7ed814d35a3f2029f4fca9dde1ee2eff2162c49246ba0fff010723f1ed",
+    "hz-h1-b7fe1500b898": "be5d7fe16ce378c39ce0b4bc6e0944c6ef3dd650dc1d0e9e3686ae6c1975c55f",
+    "hz-h1-53aaf4b1dcee": "9e2ce32e637b472abe89b1e321a5aec8aa7421aea04a216bdde211fcd21fae46",
+    "hz-h1-0753b94f1793": "e7cc8847b94320660d5cfcf82e7cd411df37134b2a08cbe82000fe370236d128"
   },
   "sourceDigests": {
     "algorithm": "sha256",
-    "courseFile": "49f6a53ea880eb487145f6a0ed99bd22a5fee8d514112dcd39626d28e85159bb",
+    "courseFile": "1dfa1fc54732f1cdb193f9d013d0b63302f1e603a7c35915956c6e2371b4f8ef",
     "baselineFile": "253370b4136e5935982390cc472b1f577e992417c84d93cec82fad2cc1bec925",
     "standardFile": "59e0d0afad07989b9d14923cc33d0ad7639c912c9ed095d87764f9be4bb5c133",
     "agentsFile": "4db177889bc96362673db9f10388b9cf48e64262c0c2f7816344be7afe99fa83",
@@ -314,7 +402,7 @@
     "vocabularyScriptFile": "c1964505c084959aaa6ef403532408e341d8e41c92e3b89ed284f0d38f8a3ec4",
     "vocabularyHtmlFile": "38da4dea2a335e191b6d2a157f999f9f5305b04dce0e1b64f6fd24ca1bef9dd6",
     "domTestFile": "f1437324b917e1df0c273cd67926315c00f8c155adef03ccfdcf698b96530321",
-    "progressFile": "51efae8e5198a56194f8712604c5d07216b58888d77bc5b99aeb9984ed5fa702"
+    "progressFile": "6e76c6b0d189a4471bb20e37a25bfbfbd7b3681a06c6b4b75a7fe21b0f54828b"
   },
   "baselineIntegrity": {
     "completedPrefixLength": 91,
@@ -335,7 +423,7 @@
     "qualityRevision": "passed-internal"
   },
   "status": "validated-worktree",
-  "lastVerifiedRemoteCommit": "5f4ba5d607207af584c8819f1decf20be49e7846",
+  "lastVerifiedRemoteCommit": "a25e82df86f9530bd6fcba734406db33aa97a413",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
     "pagesRunId": 40082625813,
@@ -350,5 +438,5 @@
     ]
   },
   "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
-  "lastBatch": "quality-revision-007"
+  "lastBatch": "quality-revision-008"
 }

@@ -9901,7 +9901,7 @@
       "meaning": "lượng từ đếm người và một số đồ vật",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 25",
       "examples": [
         {
           "id": "e1",
@@ -9923,8 +9923,8 @@
       "sourceIndex": 1,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn có một người bạn.",
-      "model": "我有一个朋友。",
+      "task": "Đếm người hoặc đồ vật bằng lượng từ 个.",
+      "model": "三个学生。",
       "quiz": {
         "question": "Chọn cụm đếm hai quyển sách thông dụng.",
         "choices": [
@@ -9955,8 +9955,8 @@
         "difficulty": "medium",
         "difficultyReason": "个 là lượng từ phổ biến nhưng phải đứng đúng giữa số/từ chỉ định và danh từ; 一 đọc nhẹ thành yí trong cụm.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí, phạm vi lượng từ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Measure_words"
         ],
@@ -10009,24 +10009,28 @@
         "confusions": [
           {
             "id": "position",
+            "category": "C",
             "afterSense": "measure",
-            "title": "个 không đứng sau danh từ",
-            "explanation": "Khi đếm, số và 个 đứng trước danh từ; không nói 学生三个 để tạo cụm số lượng cơ bản.",
+            "title": "个 đứng giữa số và danh từ",
+            "possibleConfusion": "Người học Việt có thể đặt lượng từ sau danh từ như ‘ba học sinh cái’ hoặc bỏ hẳn lượng từ.",
+            "explanation": "个 đứng sau số/từ chỉ định và trước danh từ: 三个学生, 这个人. Không đặt 个 sau danh từ.",
+            "difference": "三个学生 đúng; 学生三个 không phải khung cơ bản để nói ‘ba học sinh’.",
+            "boundary": "Một số danh từ có lượng từ riêng; 个 là lượng từ phổ biến nhưng không thay thế mọi lượng từ.",
             "contrasts": [
               {
                 "zh": "三个学生。",
                 "pinyin": "Sān ge xuésheng.",
-                "vi": "Ba học sinh.",
-                "note": "Thứ tự đúng."
+                "vi": "Ba học sinh/sinh viên.",
+                "note": "Số + 个 + danh từ."
               },
               {
-                "zh": "我有三个学生。",
-                "pinyin": "Wǒ yǒu sān ge xuésheng.",
-                "vi": "Tôi có ba học sinh.",
-                "note": "Cả cụm số lượng đứng sau 有."
+                "zh": "这本书。",
+                "pinyin": "Zhè běn shū.",
+                "vi": "Quyển sách này.",
+                "note": "Sách thường dùng 本, không dùng 个 trong khung đang học."
               }
             ],
-            "tip": "Nhớ khung số + 个 + danh từ."
+            "tip": "Nhớ vị trí: số/từ chỉ định + 个 + danh từ."
           }
         ],
         "guidedExercises": [
@@ -10134,6 +10138,29 @@
             "correctIndex": 0,
             "explanation": "个 đứng giữa số và danh từ."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "个 có cách đọc thông dụng gè trong khung lượng từ; biến âm nhẹ trong 一个人 không phải cách đọc hay nghĩa thứ hai của từ."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "Bài tập trung vào 个 như lượng từ phổ biến; phạm vi danh từ đặc thù sẽ dùng lượng từ riêng, không gán thành nghĩa khác cho 个."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Tiếng Việt thường bỏ lượng từ trong một số câu nên người học dễ bỏ 个 hoặc đặt sau danh từ; bài đã sửa bằng khung số + 个 + danh từ."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 个 với 本 để chỉ ra lượng từ phổ biến không thay thế lượng từ dành cho sách."
+          }
         }
       }
     },
@@ -10150,7 +10177,7 @@
       "meaning": "sách",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 26",
       "examples": [
         {
           "id": "e1",
@@ -10172,8 +10199,8 @@
       "sourceIndex": 2,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn có một quyển sách.",
-      "model": "我有一本书。",
+      "task": "Nói về một quyển sách bạn có hoặc đang đọc.",
+      "model": "这是我的书。",
       "quiz": {
         "question": "Chọn câu kể thói quen đọc sách.",
         "choices": [
@@ -10204,8 +10231,8 @@
         "difficulty": "easy",
         "difficultyReason": "书 là danh từ cơ bản với mẫu sở hữu và lượng từ thường gặp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Books"
         ],
@@ -10350,6 +10377,30 @@
             "correctIndex": 0,
             "explanation": "书 là sách."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "书 có cách đọc thông dụng shū; không có cách đọc phổ biến thứ hai ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "书 có nghĩa trọng tâm là sách; ‘quyển sách’ hay ‘sách’ thay đổi theo cách dịch tiếng Việt, không phải hai nghĩa độc lập."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; khi đếm sách cần nhớ lượng từ 本 thay vì dịch từng chữ."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 本 và 字; chưa thấy bẫy thông dụng cần đưa vào bài cơ bản này."
+          }
         }
       }
     },
@@ -10366,7 +10417,7 @@
       "meaning": "mua",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 27",
       "examples": [
         {
           "id": "e1",
@@ -10388,8 +10439,8 @@
       "sourceIndex": 3,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn muốn mua sách.",
-      "model": "我想买书。",
+      "task": "Nói bạn muốn mua một món đồ.",
+      "model": "我买书。",
       "quiz": {
         "question": "Bạn là khách muốn mua sách. Chọn câu đúng ý.",
         "choices": [
@@ -10420,8 +10471,8 @@
         "difficulty": "easy",
         "difficultyReason": "买 là động từ hành động trực tiếp, với tân ngữ đứng sau.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí tân ngữ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Buying"
         ],
@@ -10566,6 +10617,30 @@
             "correctIndex": 0,
             "explanation": "买 là mua."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "买 có cách đọc thông dụng mǎi; không có cách đọc phổ biến thứ hai ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "买 có chức năng trọng tâm là mua; đối tượng mua đứng sau động từ, không có nghĩa thông dụng khác cần dạy trong bài này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; lỗi thực tế chủ yếu là nhầm mua 买 với bán 卖, đã được kiểm tra ở mức đối chiếu."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 卖 và 要; chưa thấy bẫy cần thêm vào bài cơ bản này."
+          }
         }
       }
     },
@@ -10582,7 +10657,7 @@
       "meaning": "việc",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 28",
       "examples": [
         {
           "id": "e1",
@@ -10604,8 +10679,8 @@
       "sourceIndex": 4,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn có một việc cần làm.",
-      "model": "我有一件事。",
+      "task": "Nói về một việc hoặc sự việc.",
+      "model": "这件事很重要。",
       "quiz": {
         "question": "Chỉ muốn báo có việc riêng nên phải đi, cách nào bao quát hơn?",
         "choices": [
@@ -10636,8 +10711,8 @@
         "difficulty": "medium",
         "difficultyReason": "事 có nghĩa rộng là việc/sự việc và thường đi với 件; cần phân biệt với 事情 là cách nói đầy đủ hơn trong một số câu.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, lượng từ, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Things_and_matters"
         ],
@@ -10696,24 +10771,28 @@
         "confusions": [
           {
             "id": "thing",
+            "category": "C",
             "afterSense": "matter",
-            "title": "事 và 事情 gần nghĩa",
-            "explanation": "Cả hai đều có thể chỉ việc/sự việc; 事情 thường là dạng đầy đủ và dễ dùng khi nói về một tình huống, còn 事 thường xuất hiện trong cụm ngắn hoặc văn phong cô đọng.",
+            "title": "事 và 事情: gần nghĩa nhưng khác độ đầy đủ",
+            "possibleConfusion": "Cả hai đều có thể dịch là việc/sự việc nên người học tưởng một từ luôn sai khi thay từ kia.",
+            "explanation": "事 là danh từ ngắn, thường xuất hiện trong cụm như 这件事, 有事. 事情 đầy đủ hơn khi nói về một sự việc hoặc chuyện cụ thể trong câu kể.",
+            "difference": "这件事很重要 và 这件事情很重要 đều có thể đúng; sắc thái và nhịp câu khác, không phải một câu sai ngữ pháp.",
+            "boundary": "Khi đếm sự việc thường dùng 件: 一件事; đừng dùng 事 như động từ ‘làm việc’.",
             "contrasts": [
               {
                 "zh": "这件事很重要。",
                 "pinyin": "Zhè jiàn shì hěn zhòngyào.",
                 "vi": "Việc này rất quan trọng.",
-                "note": "事 đi với 件 rất tự nhiên."
+                "note": "事 đi sau lượng từ 件."
               },
               {
                 "zh": "这件事情很重要。",
                 "pinyin": "Zhè jiàn shìqing hěn zhòngyào.",
                 "vi": "Sự việc này rất quan trọng.",
-                "note": "事情 cũng dùng được trong cùng khung."
+                "note": "事情 là dạng đầy đủ hơn; câu vẫn đúng, không phải lỗi ngữ pháp."
               }
             ],
-            "tip": "Ở trình độ cơ bản, nhớ cụm 一件事/这件事; không coi 事情 là đáp án bắt buộc duy nhất."
+            "tip": "事 ngắn và thường đi trong cụm cố định; 事情 đầy đủ hơn. Nhìn cả cụm, không sửa máy móc câu đúng."
           }
         ],
         "guidedExercises": [
@@ -10820,6 +10899,29 @@
             "correctIndex": 0,
             "explanation": "事 thường đi với 件."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "事 có cách đọc thông dụng shì; cùng âm với 是 nhưng là chữ khác, không phải cách đọc thứ hai của 事."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "Ở mức bài này tập trung vào nghĩa sự việc; không thấy một nghĩa độc lập cần thêm ngoài cách kết hợp với 件."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy dịch từng chữ nghiêm trọng; lỗi thực tế là dùng 事 như động từ ‘làm việc’, đã giới hạn rõ đây là danh từ."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 事 với 事情, chỉ ra hai câu đều đúng nhưng khác độ đầy đủ và cách kết hợp."
+          }
         }
       }
     },
@@ -10836,7 +10938,7 @@
       "meaning": "đơn vị tiền; nhân dân tệ trong bối cảnh bài",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 29",
       "examples": [
         {
           "id": "e1",
@@ -10858,7 +10960,7 @@
       "sourceIndex": 5,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói món đồ có giá mười tệ.",
+      "task": "Nói giá tiền bằng đơn vị 元 trong ngữ cảnh rõ ràng.",
       "model": "十元。",
       "quiz": {
         "question": "Chọn cách ghi mười đơn vị tiền trong mẫu giá đang học.",
@@ -10895,8 +10997,8 @@
         "difficulty": "medium",
         "difficultyReason": "元 là đơn vị tiền tệ nhưng trong khẩu ngữ thường gặp 块; cần giữ đúng vị trí sau số và sắc thái tương đối chuẩn.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, vị trí sau số, phạm vi tiền tệ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Money"
         ],
@@ -10949,24 +11051,28 @@
         "confusions": [
           {
             "id": "spoken",
+            "category": "C",
             "afterSense": "currency",
-            "title": "元 và 块",
-            "explanation": "元 và 块 đều có thể chỉ đơn vị tiền; 元 trung tính hoặc chuẩn hơn, còn 块 rất thường gặp trong khẩu ngữ.",
+            "title": "元 và 块: đơn vị chuẩn và cách nói khẩu ngữ",
+            "possibleConfusion": "Người học thấy cả hai đều dịch là đồng tệ/yuan nên có thể tưởng phải dùng lẫn trong mọi văn cảnh.",
+            "explanation": "元 là đơn vị tiền chuẩn, thường gặp trong văn viết hoặc cách nói rõ ràng. 块 là cách nói khẩu ngữ phổ biến trong giao tiếp mua bán.",
+            "difference": "十元 và 十块 đều có thể chỉ mười tệ; khác biệt chủ yếu là sắc thái, không phải câu này đúng còn câu kia sai.",
+            "boundary": "Khi điền biểu mẫu, viết giá hoặc cần phong cách trung tính, 元 an toàn hơn; hội thoại đời thường thường nghe 块.",
             "contrasts": [
               {
-                "zh": "十元。",
-                "pinyin": "Shí yuán.",
-                "vi": "Mười tệ.",
-                "note": "Cách gọi đơn vị rõ ràng."
+                "zh": "这本书十元。",
+                "pinyin": "Zhè běn shū shí yuán.",
+                "vi": "Quyển sách này mười tệ.",
+                "note": "Cách nói/ghi giá trung tính."
               },
               {
-                "zh": "十块。",
-                "pinyin": "Shí kuài.",
-                "vi": "Mười đồng/mười tệ.",
-                "note": "Cách nói khẩu ngữ."
+                "zh": "这本书十块。",
+                "pinyin": "Zhè běn shū shí kuài.",
+                "vi": "Quyển sách này mười tệ.",
+                "note": "Cách nói khẩu ngữ; nghĩa tiền tương đương trong tình huống này."
               }
             ],
-            "tip": "Không hiểu 块 là loại tiền khác; đây chủ yếu là khác biệt sắc thái."
+            "tip": "元 = đơn vị chuẩn; 块 = cách nói đời thường. Đừng sửa câu đúng chỉ vì thấy dùng từ còn lại."
           }
         ],
         "guidedExercises": [
@@ -11070,6 +11176,29 @@
             "correctIndex": 0,
             "explanation": "块 là cách nói khẩu ngữ cho tiền."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "元 có cách đọc thông dụng yuán; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "Bài giới hạn 元 ở chức năng đơn vị tiền tệ; cách dịch nhân dân tệ hay tệ thay đổi theo ngữ cảnh, không tạo nghĩa độc lập."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không dịch 元 thành tên quốc gia hay tiền bất kỳ; đây là đơn vị tiền trong ngữ cảnh, và số đứng trước 元."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 元 với 块, giải thích khác biệt sắc thái và xác nhận hai câu có thể cùng đúng trong ngữ cảnh tiền."
+          }
         }
       }
     },
@@ -11086,7 +11215,7 @@
       "meaning": "viết",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 30",
       "examples": [
         {
           "id": "e1",
@@ -11108,7 +11237,7 @@
       "sourceIndex": 6,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn viết chữ Hán.",
+      "task": "Nói bạn viết chữ hoặc viết một câu.",
       "model": "我写汉字。",
       "quiz": {
         "question": "Bạn biết viết nhưng chưa viết vào vở. Chọn câu đúng ý.",
@@ -11140,8 +11269,8 @@
         "difficulty": "easy",
         "difficultyReason": "写 là động từ cơ bản, tân ngữ đứng sau và mẫu dùng trực tiếp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí tân ngữ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Writing"
         ],
@@ -11284,6 +11413,30 @@
             "correctIndex": 0,
             "explanation": "写 là viết."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "写 có cách đọc thông dụng xiě; không có cách đọc phổ biến thứ hai ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "写 có nghĩa trọng tâm là viết; đối tượng viết đứng sau động từ, không có chức năng khác cần dạy trong bài cơ bản này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần phân biệt hành động viết 写 với đọc 读 hoặc học 学 theo động từ, không dịch từng chữ máy móc."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 读 và 学; chưa thấy bẫy thông dụng cần thêm vào bài này."
+          }
         }
       }
     },
@@ -11304,7 +11457,7 @@
       "meaning": "phút trong cách đọc giờ",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 31",
       "examples": [
         {
           "id": "e1",
@@ -11326,8 +11479,8 @@
       "sourceIndex": 7,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bây giờ là tám giờ mười phút.",
-      "model": "现在八点十分。",
+      "task": "Nói số phút trong cách đọc giờ.",
+      "model": "三点十分。",
       "quiz": {
         "question": "Câu 我学习十分钟 trả lời loại thông tin nào?",
         "choices": [
@@ -11367,8 +11520,8 @@
         "difficulty": "medium",
         "difficultyReason": "分 có thể là phút trong cách nói giờ và còn xuất hiện trong 分钟; cần giữ đúng vị trí sau số phút.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, vị trí trong cách đọc giờ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Time"
         ],
@@ -11427,24 +11580,28 @@
         "confusions": [
           {
             "id": "time",
+            "category": "C",
             "afterSense": "minute",
             "title": "分 và 分钟 trong thời gian",
-            "explanation": "分 thường dùng trong cách đọc giờ; 分钟 thường nói một khoảng thời gian kéo dài bao lâu.",
+            "possibleConfusion": "Cả hai đều liên quan đến phút nên người học có thể thêm hoặc bỏ 钟 mà không xét khung câu.",
+            "explanation": "Trong cách đọc giờ, 分 thường đứng sau số phút: 三点十分. 分钟 là danh từ ‘phút’, dùng khi nói khoảng thời gian: 十分钟.",
+            "difference": "三点十分 = 3 giờ 10 phút; 我等十分钟 = tôi đợi 10 phút. Một từ gắn với mốc giờ, một từ gắn với khoảng kéo dài.",
+            "boundary": "Có 点 để nói giờ và 分 sau số phút; nói thời lượng thường dùng số + 分钟.",
             "contrasts": [
               {
-                "zh": "八点十分。",
-                "pinyin": "Bā diǎn shí fēn.",
-                "vi": "Tám giờ mười phút.",
-                "note": "Đọc thời điểm trên đồng hồ."
+                "zh": "现在三点十分。",
+                "pinyin": "Xiànzài sān diǎn shí fēn.",
+                "vi": "Bây giờ là 3 giờ 10 phút.",
+                "note": "分 nằm trong cấu trúc đọc giờ."
               },
               {
-                "zh": "十分钟。",
-                "pinyin": "Shí fēnzhōng.",
-                "vi": "Mười phút.",
-                "note": "Nói thời lượng."
+                "zh": "我等十分钟。",
+                "pinyin": "Wǒ děng shí fēnzhōng.",
+                "vi": "Tôi đợi 10 phút.",
+                "note": "分钟 chỉ khoảng thời gian kéo dài."
               }
             ],
-            "tip": "Có 点 phía trước thì 分 thường là phần phút của thời điểm; nói kéo dài bao lâu thì dùng 分钟."
+            "tip": "Đọc giờ: 点 + số + 分; nói thời lượng: số + 分钟."
           }
         ],
         "guidedExercises": [
@@ -11550,6 +11707,29 @@
             "correctIndex": 0,
             "explanation": "Thời lượng dùng 分钟."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "Trong bài thời gian, 分 đọc fēn; các cách đọc khác của chữ ở từ khác không thuộc mục tiêu bài này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "Bài giới hạn 分 ở đơn vị phút trong cách đọc giờ; không đưa các nghĩa phân chia/phần vào bài cơ bản này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không dịch 分 máy móc thành ‘phần’ trong câu giờ; vị trí sau số phút và 点 xác định nghĩa thời gian."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 分 với 分钟 bằng mốc giờ và khoảng thời gian, có Pinyin và nghĩa Việt riêng."
+          }
         }
       }
     },
@@ -11566,7 +11746,7 @@
       "meaning": "đơn vị tiền trong lời nói; nhân dân tệ trong bối cảnh bài",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 32",
       "examples": [
         {
           "id": "e1",
@@ -11588,8 +11768,8 @@
       "sourceIndex": 8,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói món đồ giá mười đồng theo cách khẩu ngữ.",
-      "model": "十块。",
+      "task": "Nói giá tiền theo cách khẩu ngữ và hiểu khi nào dùng 元.",
+      "model": "五块钱。",
       "quiz": {
         "question": "Trong cùng bối cảnh nhân dân tệ, 十块钱 và 十元 có cùng số tiền không?",
         "choices": [
@@ -11625,8 +11805,8 @@
         "difficulty": "medium",
         "difficultyReason": "块 vừa là từ khẩu ngữ chỉ đơn vị tiền, vừa có nghĩa gốc là mảnh/khối; bài này giới hạn ở nghĩa tiền và phân biệt với 元.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, phạm vi tiền tệ, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Money"
         ],
@@ -11685,24 +11865,28 @@
         "confusions": [
           {
             "id": "formal",
+            "category": "C",
             "afterSense": "money",
-            "title": "块 và 元 khác sắc thái",
-            "explanation": "块 là cách nói thân mật trong khẩu ngữ; 元 trung tính hoặc chuẩn hơn khi ghi giá và nói rõ đơn vị.",
+            "title": "块 và 元 trong giá tiền",
+            "possibleConfusion": "Người học có thể cho rằng 块 là sai vì sách thường dạy 元 trước, hoặc dùng 块 trong văn cảnh cần đơn vị chuẩn.",
+            "explanation": "块 là cách nói khẩu ngữ cho đơn vị tiền; 元 là dạng chuẩn/trung tính. Trong mua bán thường nghe 五块钱; trong ghi giá có thể dùng 五元.",
+            "difference": "五块钱 và 五元 cùng chỉ năm tệ trong tình huống tiền; khác sắc thái chứ không khác số tiền.",
+            "boundary": "Không dùng nghĩa ‘mảnh/khối’ của 块 khi xung quanh là số tiền hoặc 钱; nhìn danh từ và ngữ cảnh.",
             "contrasts": [
               {
-                "zh": "十块。",
-                "pinyin": "Shí kuài.",
-                "vi": "Mười đồng.",
-                "note": "Khẩu ngữ."
+                "zh": "这本书五块钱。",
+                "pinyin": "Zhè běn shū wǔ kuài qián.",
+                "vi": "Quyển sách này năm tệ.",
+                "note": "Khẩu ngữ mua bán."
               },
               {
-                "zh": "十元。",
-                "pinyin": "Shí yuán.",
-                "vi": "Mười tệ.",
-                "note": "Cách gọi đơn vị rõ ràng."
+                "zh": "这本书五元。",
+                "pinyin": "Zhè běn shū wǔ yuán.",
+                "vi": "Quyển sách này năm tệ.",
+                "note": "Dạng chuẩn/trung tính; cùng số tiền."
               }
             ],
-            "tip": "Hai từ không nhất thiết chỉ hai loại tiền khác nhau; chọn theo tình huống giao tiếp."
+            "tip": "Giá nói đời thường: 块; giá chuẩn/trung tính: 元. Có 钱 hoặc ngữ cảnh mua bán thì hiểu là tiền."
           }
         ],
         "guidedExercises": [
@@ -11805,6 +11989,29 @@
             ],
             "correctIndex": 0,
             "explanation": "块 là đơn vị tiền khẩu ngữ."
+          }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "块 có cách đọc thông dụng kuài trong bài tiền; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "块 có chức năng tiền tệ trong bài và còn có nghĩa thông thường là mảnh/khối; bài khoanh phạm vi tiền bằng số tiền, 钱 và ngữ cảnh mua bán."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 块 luôn thành ‘miếng/khối’ sẽ sai trong giá tiền; ngược lại không gán nghĩa tiền nếu danh từ xung quanh chỉ vật thể."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 块 với 元, đồng thời nêu ranh giới để không nhầm nghĩa tiền với mảnh/khối."
           }
         }
       }
