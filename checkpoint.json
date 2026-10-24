@@ -66,8 +66,8 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": null,
-  "priorVerificationNote": "Review-013 đang chờ phát hành: đã đọc và kiểm tra 201–218; sửa phần nghĩa/cấu trúc chung ở 睡、饭、饿、什么、包子、午饭、吃饭、好吃、干净, trong đó làm rõ điều kiện 正在吃饭 bị lệch ở 吃饭. Các bài 201–209 được đọc và giữ nguyên. Đã kiểm tra các nguồn từ điển MOE trả HTTP 200; chưa xác minh Pages của đợt này, bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "4ef6a05a83ee4b49b6d595721ffe75cd9f204ae2",
+  "priorVerificationNote": "Review-013 đã qua process-batch verify, verify-review và test-dom; đã đọc 218/377 bài. Nhóm 201–218 sửa phần nghĩa/cấu trúc chung ở 睡、饭、饿、什么、包子、午饭、吃饭、好吃、干净; đã kiểm tra nguồn MOE và xác nhận Pages run 40135089691 thành công, dữ liệu live khớp SHA 391d017bce2ca5410809801a04ed5bb1434f83b2b69eee3590a5282016cb3d5e, course 4.889.177 bytes. Chưa xác minh bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[367:]",
@@ -327,9 +327,9 @@
     ],
     "reviewedCount": 218,
     "reviewTotal": 377,
-    "releaseState": "pending-pages",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null,
-    "liveCourseSha256": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40135089691,
+    "verifiedPagesCommit": "4ef6a05a83ee4b49b6d595721ffe75cd9f204ae2",
+    "liveCourseSha256": "391d017bce2ca5410809801a04ed5bb1434f83b2b69eee3590a5282016cb3d5e"
   }
 }
