@@ -5,10 +5,10 @@ Cập nhật: 2026-10-24. Chế độ hiện hành: `review-existing-first`.
 ## Rà soát bài đã có
 
 - Phạm vi: 377 bài đang đủ cấu trúc trong thứ tự `data/vocabulary/hanzii-course.json`, gồm 10 bài ngoài baseline.
-- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 182/377 bài.
-- Đã rà trong các đợt `review-001` đến `review-011`; đợt review-011 gồm 姐、子、常、弟、手、爸、儿子、哥哥、女儿、女朋友、妈妈、妹妹、姐姐、家人、小姐、弟弟、爷爷、爸爸.
-- Bài có sửa nội dung trong review-011: 子 (sửa cặp đối chiếu 子女 bị lặp), 姐姐 (bỏ câu biên tập còn sót), 小姐 (căn chỉnh câu hỏi với đáp án). 15 bài còn lại được đọc và giữ nguyên sau kiểm tra.
-- Còn rà: 195 bài. Tiếp theo: 不 (`hz-h1-091e097d8c14`), 会, 吗 và các ID trong `tools/vocabulary/review-checkpoint.json`.
+- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 200/377 bài.
+- Đã rà trong các đợt `review-001` đến `review-012`; review-012 gồm 不、会、吗、在、对、有、没、的、能、要、还、是不是、有些、有时、有用、有的、正在、没有.
+- Review-012 sửa lời giải bài tập ở 有的、正在、没有 để khớp công thức và đáp án; 15 bài còn lại được đọc, phân loại và kiểm tra sau khi giữ nguyên nội dung. Trong đợt này cũng ghi nhận ba hiệu chỉnh follow-up đã phát hành cho 子、姐姐、小姐 trong review-011.
+- Còn rà: 177 bài. Tiếp theo: bài 201 (`hz-h1-4969b83d9cec`) và các ID trong `tools/vocabulary/review-checkpoint.json`.
 - Chưa được coi là phản biện giáo viên độc lập; chưa kiểm bố cục mobile hoặc TTS Android thật.
 
 ## Bổ sung bài còn thiếu
