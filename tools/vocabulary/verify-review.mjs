@@ -5,7 +5,7 @@ import {auditLesson,lessonAudio} from '../../js/lesson-standard.js';
 const read=f=>JSON.parse(fs.readFileSync(new URL('../../'+f,import.meta.url),'utf8'));
 const course=read('data/vocabulary/hanzii-course.json');
 const checkpoint=read('tools/vocabulary/review-checkpoint.json');
-const batches=['review-001','review-002','review-003','review-004','review-005','review-006','review-007','review-008','review-009','review-010','review-011','review-012','review-013','review-014','review-015','review-016','review-017','review-018','review-019','review-020','review-021'].map(id=>read(`tools/vocabulary/reviews/${id}.json`));
+const batches=['review-001','review-002','review-003','review-004','review-005','review-006','review-007','review-008','review-009','review-010','review-011','review-012','review-013','review-014','review-015','review-016','review-017','review-018','review-019','review-020','review-021','review-022'].map(id=>read(`tools/vocabulary/reviews/${id}.json`));
 const entries=batches.flatMap(batch=>batch.entries);
 const byId=new Map(course.words.map(w=>[w.id,w]));
 const ready=course.words.filter(w=>auditLesson(w).ready);
@@ -24,5 +24,5 @@ assert.equal(you.pattern,'你 + thời gian + hoạt động; 你 + 是 + ngư�
 assert.equal(you.lesson.usages[0].intent,'Xác nhận người đang nói chuyện có phải là một người hoặc vai trò nào đó.');
 assert(!JSON.stringify(you).includes('Hỏi người đang nói chuyện là ai.'));
 assert(!JSON.stringify(you).includes('你 + 是 + danh tính + 吗'));
-assert.equal(checkpoint.supplementation.status,'paused-until-review-complete');
-console.log(`PASS review: ${checkpoint.reviewedCount}/${checkpoint.scope.total} reviewed; batch IDs, difficulty metadata, lesson/audio checks, and 你 correction verified; supplementation remains paused.`);
+assert.match(checkpoint.supplementation.status,/^(paused-until-review-complete|ready-after-review)$/);
+console.log(`PASS review: ${checkpoint.reviewedCount}/${checkpoint.scope.total} reviewed; batch IDs, difficulty metadata, lesson/audio checks, and 你 correction verified; supplementation status: ${checkpoint.supplementation.status}.`);

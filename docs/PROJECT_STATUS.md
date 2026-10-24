@@ -5,17 +5,17 @@ Cập nhật: 2026-10-24. Chế độ hiện hành: `review-existing-first`.
 ## Rà soát bài đã có
 
 - Phạm vi: 377 bài đang đủ cấu trúc trong thứ tự `data/vocabulary/hanzii-course.json`, gồm 10 bài ngoài baseline.
-- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 362/377 bài.
-- Đã rà trong các đợt `review-001` đến `review-021`; review-021 gồm 行、跟、进、送、一起、出去、出来、回到、回去、回来、得到、打开、找到、来到、进去、进来、下、关.
-- Review-021 đọc và kiểm tra toàn bộ 18 bài, phân loại 1 dễ, 7 trung bình, 10 khó; giữ nguyên nội dung sau khi đối chiếu công thức, ví dụ, bẫy, bài tập, đáp án, audio và 18 nguồn MDBG đều HTTP 200.
-- Còn rà: 15 bài. Tiếp theo: bài 363 (`zai-again`, 再) và các ID trong `tools/vocabulary/review-checkpoint.json`.
+- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 377/377 bài.
+- Đã rà trong các đợt `review-001` đến `review-022`; review-022 gồm 再、坐、放、累、走、起、下次、下班、下课、下车、休息、坐下、放假、放学、最后.
+- Review-022 đọc và kiểm tra toàn bộ 15 bài, phân loại 4 dễ, 8 trung bình, 3 khó; sửa công thức bài 最后 thành `最后（的）+ danh từ` để khớp cả `最后一本书` và `最后的书`, đối chiếu 15 nguồn MDBG đều HTTP 200.
+- Đã hoàn tất rà soát toàn bộ 377 bài đủ cấu trúc. Không tự chuyển sang bổ sung trong lượt này; bổ sung đã ở trạng thái `ready-after-review`, mục tiếp theo là ordinal 368.
 - Chưa được coi là phản biện giáo viên độc lập; chưa kiểm bố cục mobile hoặc TTS Android thật.
 
 ## Bổ sung bài còn thiếu
 
 - Phạm vi baseline: 2.224 mục; 367 mục đã có nội dung bổ sung; còn 1.857 mục.
 - Tiến độ này độc lập với tiến độ rà soát ở trên và không được dùng để tuyên bố đã rà 367 bài.
-- Trạng thái: `paused-until-review-complete`. Không xử lý từ ordinal 368 trở đi trong khi còn bài đủ cấu trúc chưa rà.
+- Trạng thái: `ready-after-review`. Không xử lý ordinal 368 trong đợt review này; có thể bắt đầu bổ sung từ 368 ở đợt sau.
 
 ## Giao diện và chức năng
 
