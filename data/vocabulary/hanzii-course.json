@@ -5569,66 +5569,31 @@
       "meaning": "xin lỗi",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 005",
       "examples": [
         {
+          "id": "e1",
           "zh": "对不起。",
+          "pinyin": "Duìbuqǐ.",
           "vi": "Xin lỗi.",
-          "scene": "Bạn vô ý chắn đường người khác.",
-          "why": "Sự việc rõ nên lời xin lỗi ngắn đã đủ.",
-          "position": "Cả cụm làm một lượt nói; không cần chủ thể 我.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Muốn xin lỗi người vừa bị mình làm phiền.",
-            "choice": "Chọn 对不起 để bày tỏ xin lỗi, không chọn lời người bị làm phiền đáp lại.",
-            "order": "Nói cả cụm thành một lời xin lỗi.",
-            "result": "对不起。"
-          },
-          "id": "e01"
+          "analysis": "Lời xin lỗi ngắn khi lỗi hoặc sự bất tiện đã rõ.",
+          "practiceAllowed": true
         },
         {
+          "id": "e2",
           "zh": "对不起，我来晚了。",
+          "pinyin": "Duìbuqǐ, wǒ lái wǎn le.",
           "vi": "Xin lỗi, tôi đến muộn.",
-          "scene": "Bạn tới sau giờ hẹn.",
-          "why": "Phần sau nêu lỗi; 来晚了 nói đến muộn, không coi 了 là dấu quá khứ cho mọi câu.",
-          "position": "Ngắt sau 对不起; 我 là người đến, 晚 nói muộn sau 来.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "对不起，我写错了。",
-          "vi": "Xin lỗi, tôi viết nhầm rồi.",
-          "scene": "Bạn viết sai tên trong một tờ giấy.",
-          "why": "写错了 nêu việc viết sai; 错 bổ sung kết quả sai cho 写.",
-          "position": "Lời xin lỗi trước, câu giải thích sau; không ghép người nhận tùy tiện vào giữa cụm.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "老师，对不起。",
-          "vi": "Thưa thầy/cô, em xin lỗi.",
-          "scene": "Bạn xin lỗi người dạy mình.",
-          "why": "老师 gọi người nhận trước khi xin lỗi.",
-          "position": "Danh xưng đứng trước, có chỗ ngắt rồi đến 对不起.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "对不起，我不知道。",
-          "vi": "Xin lỗi, tôi không biết.",
-          "scene": "Bạn được hỏi thông tin nhưng không có câu trả lời và muốn đáp lịch sự.",
-          "why": "不知道 nói không biết thông tin; lời xin lỗi làm nhẹ việc không đáp ứng được, không nhất thiết nhận một lỗi nghiêm trọng.",
-          "position": "不 trước 知道; ngắt sau lời xin lỗi.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "对不起 đứng trước phần nêu lý do hoặc tình huống cần xin lỗi.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn đến muộn khiến người khác phải chờ.",
       "when": "Dùng 对不起 khi nhận lỗi hoặc xin lỗi. Có thể theo sau bằng lý do ngắn gọn.",
       "pattern": "对不起，+ việc đã làm hoặc lý do",
       "trap": "Khi hỏi đường, 请问 thường phù hợp để mở lời. Không cần dùng lời nhận lỗi mạnh cho mọi lần bắt chuyện.",
-      "task": "Xin lỗi vì bạn vừa vô ý làm phiền.",
-      "model": "对不起。",
+      "task": "Xin lỗi vì đã đến muộn.",
+      "model": "对不起，我来晚了。",
       "phrases": [
         "对不起，我来晚了。"
       ],
@@ -5666,237 +5631,194 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 11,
+        "difficulty": "medium",
+        "difficultyReason": "Lời xin lỗi có cấu trúc trực tiếp nhưng cần phân biệt với 不好意思 và lời đáp 没关系.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Apologizing"
+        ],
         "introduction": {
-          "partOfSpeech": "Lời xin lỗi.",
-          "scope": "Học cách nhận lỗi và mở đầu một lời xin lỗi vì gây bất tiện."
-        },
-        "meaning": {
-          "scene": "Bạn vô ý chắn lối khiến người khác phải chờ.",
-          "explanation": "对不起 bày tỏ lời xin lỗi vì việc mình làm ảnh hưởng người khác. Có thể đứng riêng hoặc đi trước câu nói rõ sự việc.",
-          "boundary": "对不起 không phải câu đáp không sao và không tự thay một lời cảm ơn. 不好意思 cũng có thể xin lỗi hoặc biểu thị ngại, tùy tình huống; không có thang mức độ cứng áp dụng mọi lần.",
-          "conditions": [
-            "Dùng khi muốn nhận lỗi hoặc xin lỗi vì gây bất tiện.",
-            "Khi việc đã rõ có thể nói riêng cụm; khi chưa rõ, thêm câu ngắn giải thích để người nghe hiểu."
-          ],
-          "takeaway": "Khi muốn xin lỗi, trong tình huống mình gây lỗi hoặc làm phiền người khác, bạn có thể dùng 对不起.",
-          "alternatives": [
-            {
-              "zh": "不好意思，我来晚了。",
-              "vi": "Xin lỗi, tôi đến muộn.",
-              "purpose": "不好意思 cũng dùng được trong tình huống xin lỗi xã giao này; 来晚了 là đến muộn."
-            }
-          ]
+          "scope": "对不起 dùng để xin lỗi khi mình gây lỗi hoặc làm người khác bất tiện."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "对不起。",
+            "pinyin": "Duìbuqǐ.",
             "vi": "Xin lỗi.",
-            "scene": "Bạn vô ý chắn đường người khác.",
-            "why": "Sự việc rõ nên lời xin lỗi ngắn đã đủ.",
-            "position": "Cả cụm làm một lượt nói; không cần chủ thể 我.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Muốn xin lỗi người vừa bị mình làm phiền.",
-              "choice": "Chọn 对不起 để bày tỏ xin lỗi, không chọn lời người bị làm phiền đáp lại.",
-              "order": "Nói cả cụm thành một lời xin lỗi.",
-              "result": "对不起。"
-            },
-            "id": "e01"
+            "analysis": "Lời xin lỗi ngắn khi lỗi hoặc sự bất tiện đã rõ.",
+            "practiceAllowed": true
           },
           {
+            "id": "e2",
             "zh": "对不起，我来晚了。",
+            "pinyin": "Duìbuqǐ, wǒ lái wǎn le.",
             "vi": "Xin lỗi, tôi đến muộn.",
-            "scene": "Bạn tới sau giờ hẹn.",
-            "why": "Phần sau nêu lỗi; 来晚了 nói đến muộn, không coi 了 là dấu quá khứ cho mọi câu.",
-            "position": "Ngắt sau 对不起; 我 là người đến, 晚 nói muộn sau 来.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "对不起，我写错了。",
-            "vi": "Xin lỗi, tôi viết nhầm rồi.",
-            "scene": "Bạn viết sai tên trong một tờ giấy.",
-            "why": "写错了 nêu việc viết sai; 错 bổ sung kết quả sai cho 写.",
-            "position": "Lời xin lỗi trước, câu giải thích sau; không ghép người nhận tùy tiện vào giữa cụm.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "老师，对不起。",
-            "vi": "Thưa thầy/cô, em xin lỗi.",
-            "scene": "Bạn xin lỗi người dạy mình.",
-            "why": "老师 gọi người nhận trước khi xin lỗi.",
-            "position": "Danh xưng đứng trước, có chỗ ngắt rồi đến 对不起.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "对不起，我不知道。",
-            "vi": "Xin lỗi, tôi không biết.",
-            "scene": "Bạn được hỏi thông tin nhưng không có câu trả lời và muốn đáp lịch sự.",
-            "why": "不知道 nói không biết thông tin; lời xin lỗi làm nhẹ việc không đáp ứng được, không nhất thiết nhận một lỗi nghiêm trọng.",
-            "position": "不 trước 知道; ngắt sau lời xin lỗi.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "对不起 đứng trước phần nêu lý do hoặc tình huống cần xin lỗi.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Xin lỗi ngắn hoặc gọi rõ người nhận.",
-            "frame": "对不起; danh xưng + 对不起",
-            "position": "Lời xin lỗi tự đứng thành một lượt; danh xưng có thể đứng trước.",
-            "required": "Không bắt buộc nêu tên hoặc 我 khi sự việc đã rõ.",
-            "omission": "Có thể lược danh xưng nếu chỉ có một người đang nghe và người nhận đã rõ.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Thêm 老师 để gọi người dạy mình.",
-              "exampleId": "e04",
-              "limit": "Chọn danh xưng đúng quan hệ; không dùng 老师 cho mọi người lớn tuổi."
-            },
-            "caution": "Ở nghĩa xin lỗi xã giao này, không tự thêm 你 sau cụm; 我对不起你 là cách nói khác về có lỗi với ai.",
+            "id": "apology",
+            "title": "Xin lỗi",
+            "when": "Mình gây lỗi, đến muộn hoặc làm người khác bất tiện.",
+            "meaning": "xin lỗi",
+            "grammar": "Có thể đứng riêng hoặc đứng trước lời giải thích.",
+            "pattern": "对不起（，+ lời giải thích）",
             "collocations": [
               {
-                "zh": "老师，对不起",
-                "vi": "thưa thầy/cô, em xin lỗi",
-                "purpose": "Gọi đúng người nhận trước khi xin lỗi."
+                "zh": "对不起你",
+                "pinyin": "duìbuqǐ nǐ",
+                "vi": "xin lỗi bạn"
               }
             ],
-            "forms": [],
-            "id": "u01"
-          },
-          {
-            "intent": "Xin lỗi rồi nói rõ sự việc.",
-            "frame": "对不起 + câu ngắn nêu việc mình làm hoặc điều chưa đáp ứng được",
-            "position": "Ngắt sau lời xin lỗi, rồi dùng câu hoàn chỉnh.",
-            "required": "Câu sau cần đủ thông tin để người nghe hiểu lý do; bản thân lời xin lỗi không bắt buộc có câu này.",
-            "omission": "Khi việc rõ, có thể chỉ nói 对不起; không lặp giải thích quá dài.",
-            "exampleId": "e02",
-            "transform": {
-              "change": "Đổi lý do đến muộn thành viết nhầm.",
-              "exampleId": "e03",
-              "limit": "来晚了 và 写错了 là hai cụm được học ở ví dụ; không thay ngẫu nhiên động từ rồi giữ mọi phần còn lại."
-            },
-            "caution": "Không dùng 对不起 thay cho biện pháp sửa lỗi khi cần; lời xin lỗi có thể đi kèm hành động khắc phục.",
-            "collocations": [
+            "examples": [
               {
-                "zh": "对不起，我来晚了",
-                "vi": "xin lỗi, tôi đến muộn",
-                "purpose": "Nói rõ bất tiện về giờ hẹn."
+                "zh": "对不起。",
+                "pinyin": "Duìbuqǐ.",
+                "vi": "Xin lỗi.",
+                "note": "Dùng khi nguyên nhân đã rõ."
               },
               {
-                "zh": "对不起，我写错了",
-                "vi": "xin lỗi, tôi viết nhầm",
-                "purpose": "Nhận lỗi viết sai."
+                "zh": "对不起，我来晚了。",
+                "pinyin": "Duìbuqǐ, wǒ lái wǎn le.",
+                "vi": "Xin lỗi, tôi đến muộn.",
+                "note": "Có thể thêm lý do sau dấu phẩy."
               }
-            ],
-            "forms": [],
-            "id": "u02"
+            ]
           }
         ],
-        "traps": [
+        "confusions": [
           {
-            "title": "Người xin lỗi và người đáp không sao có vai khác nhau",
-            "scene": "Bạn là người đã đến muộn.",
-            "possibleConfusion": "Bạn có thể dễ nhầm 对不起 và 没关系 vì hay xuất hiện sát nhau trong hội thoại.",
-            "difference": "对不起 là người gây bất tiện xin lỗi; 没关系 thường là người bị ảnh hưởng trấn an.",
-            "cases": [
+            "id": "reply",
+            "afterSense": "apology",
+            "title": "对不起 và 没关系 khác lượt nói",
+            "explanation": "对不起 là lời xin lỗi; 没关系 thường là lời đáp để nói không sao.",
+            "contrasts": [
               {
-                "id": "case-1",
-                "zh": "对不起，我来晚了。",
-                "vi": "Xin lỗi, tôi đến muộn.",
-                "judgment": "correct",
-                "comment": "Người nói nhận sự bất tiện mình gây ra.",
-                "practiceAllowed": false
+                "zh": "对不起。",
+                "pinyin": "Duìbuqǐ.",
+                "vi": "Xin lỗi.",
+                "note": "Người gây bất tiện nói."
               },
               {
-                "id": "case-2",
-                "zh": "没关系，我来晚了。",
-                "vi": "Không sao, tôi đến muộn.",
-                "judgment": "wrong-intent",
-                "comment": "Câu có thể dùng trong ngữ cảnh khác, nhưng không thực hiện lời xin lỗi vì mình muộn trong tình huống này.",
-                "practiceAllowed": false
+                "zh": "没关系。",
+                "pinyin": "Méi guānxi.",
+                "vi": "Không sao.",
+                "note": "Người nhận lời xin lỗi đáp."
               }
             ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Đổi 对不起 thành 没关系 đổi hành động giao tiếp từ xin lỗi sang trấn an, không còn đúng mục đích."
-            },
-            "boundary": "Nếu một người khác đang lo vì bạn đến muộn, bạn có thể nói 没关系 để trấn an họ trong ngữ cảnh khác; không kết luận câu ấy luôn sai.",
-            "tip": "Mình cần nhận lỗi thì nói 对不起; chấp nhận lời xin lỗi nhẹ thì có thể đáp 没关系.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "Không xếp 对不起 và 不好意思 vào thang mức độ cứng",
-            "scene": "Bạn đến cuộc hẹn hơi muộn và muốn xin lỗi.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rằng chỉ một trong hai cụm được phép dùng, tùy độ nặng cố định.",
-            "difference": "对不起 trực tiếp xin lỗi; 不好意思 có thể biểu thị xin lỗi hoặc ngại. Với lần đến muộn xã giao này, cả hai có thể hợp, tùy thái độ và quan hệ.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "对不起，我来晚了。",
-                "vi": "Xin lỗi, tôi đến muộn.",
-                "judgment": "correct",
-                "comment": "Lời xin lỗi trực tiếp.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "不好意思，我来晚了。",
-                "vi": "Xin lỗi, tôi đến muộn.",
-                "judgment": "correct",
-                "comment": "Tự nhiên trong nhiều tình huống xã giao, có thể gợi sự ngại vì làm phiền.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Thay 对不起 bằng 不好意思 ở đây vẫn có thể đúng và gần nghĩa; không có căn cứ gọi một câu sai."
-            },
-            "boundary": "不好意思 còn dùng khi thấy ngại mà không có lỗi cụ thể; không thay 对不起 trong mọi nghĩa hoặc mọi cách dùng. Với lỗi nghiêm trọng, lời xin lỗi cần cách nói và hành động phù hợp hơn một cụm đơn lẻ.",
-            "tip": "Trong cảnh xin lỗi đang học, chọn 对不起 là cách trực tiếp; nhận ra 不好意思 cũng có thể thực hiện lời xin lỗi.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
+            "tip": "Nếu mình gây lỗi, nói 对不起; nếu đang đáp lời xin lỗi, nói 没关系."
           }
         ],
-        "pronunciation": {
-          "text": "对 là thanh bốn, 不 trong lời xin lỗi 对不起 thường đọc thanh nhẹ, 起 mang thanh ba. Âm 不 vẫn phát ra ngắn và nhẹ, không bỏ mất. Khi cả cụm nằm trong câu, thanh ba cuối có thể đọc thấp gọn; không buộc lúc nào cũng hạ rồi nâng đầy đủ."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "check-01",
-            "question": "Bạn làm phiền và muốn xin lỗi. Chọn cụm.",
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Xin lỗi.",
+            "tokens": [
+              "对不起",
+              "。"
+            ],
+            "accepted": [
+              "对不起。"
+            ],
+            "model": "对不起。",
+            "explanation": "对不起 là cụm xin lỗi hoàn chỉnh.",
+            "wrongFeedback": "Giữ nguyên cụm 对不起."
+          },
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: ____，我来晚了。",
+            "accepted": [
+              "对不起",
+              "对不起。"
+            ],
+            "model": "对不起，我来晚了。",
+            "explanation": "Đặt lời xin lỗi trước phần giải thích.",
+            "wrongFeedback": "Lời xin lỗi đứng trước lý do."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "reply",
+            "type": "choice",
+            "prompt": "Bạn đến muộn và muốn xin lỗi. Chọn câu phù hợp.",
+            "choices": [
+              "对不起。",
+              "没关系。"
+            ],
+            "correctIndex": 0,
+            "model": "对不起。",
+            "explanation": "Bạn là người gây bất tiện nên xin lỗi.",
+            "wrongFeedback": "Xác định bạn đang xin lỗi hay đáp lời xin lỗi."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Xin lỗi vì bạn đến muộn.",
+            "hints": [
+              "Nêu ý: xin lỗi.",
+              "Thêm tình huống: đến muộn.",
+              "Mẫu: 对不起，我来晚了。"
+            ],
+            "model": "对不起，我来晚了。",
+            "vi": "Xin lỗi, tôi đến muộn.",
+            "criteria": [
+              "Dùng đúng 对不起.",
+              "Nêu được tình huống đến muộn."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nói lời xin lỗi bằng tiếng Trung.",
+            "hiddenAnswer": "对不起",
+            "model": "对不起。"
+          },
+          {
+            "id": "r2",
+            "prompt": "Từ nào thường đáp lại 对不起?",
+            "hiddenAnswer": "没关系",
+            "model": "没关系。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Xin lỗi.",
             "choices": [
               "对不起",
-              "没关系"
-            ]
+              "。"
+            ],
+            "correct": [
+              "对不起。"
+            ],
+            "explanation": "对不起 là cụm xin lỗi."
           },
-          {
-            "id": "check-02",
-            "question": "Với lần đến muộn xã giao, cả hai câu đối chiếu có thể phù hợp không?",
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Bạn đến muộn và muốn xin lỗi. Chọn câu phù hợp.",
             "choices": [
-              "Có, tùy quan hệ và thái độ.",
-              "Không, 不好意思 luôn sai."
-            ]
-          }
-        ],
-        "answers": {
-          "check-01": {
+              "对不起。",
+              "没关系。"
+            ],
             "correctIndex": 0,
-            "explanation": "Bạn đang thực hiện lời xin lỗi, không đáp lời xin lỗi."
-          },
-          "check-02": {
-            "correctIndex": 0,
-            "explanation": "Không có thang mức độ cứng khiến một trong hai câu luôn sai ở tình huống này."
+            "explanation": "Bạn là người xin lỗi."
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": [
-          "https://chinese.lec.u-tokai.ac.jp/apps/p.13_aisatsu_daigakumei_read.html"
-        ]
+        }
       }
     },
     {
@@ -5912,65 +5834,30 @@
       "meaning": "không sao",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 005",
       "examples": [
         {
+          "id": "e1",
           "zh": "没关系。",
+          "pinyin": "Méi guānxi.",
           "vi": "Không sao.",
-          "scene": "Người khác xin lỗi vì chắn đường bạn trong chốc lát.",
-          "why": "Bạn muốn bỏ qua một bất tiện nhỏ và trấn an.",
-          "position": "Cả cụm đủ làm một lượt đáp, không cần 我.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Muốn đáp rằng chuyện người kia vừa xin lỗi không sao.",
-            "choice": "Chọn 没关系 cho ý trấn an và bỏ qua bất tiện.",
-            "order": "Trong ngữ cảnh rõ, dùng cả cụm riêng thành một lượt đáp.",
-            "result": "没关系。"
-          },
-          "id": "e01"
+          "analysis": "Đứng riêng để đáp lời xin lỗi hoặc trấn an người khác.",
+          "practiceAllowed": true
         },
         {
-          "zh": "没关系，请进。",
-          "vi": "Không sao, mời vào.",
-          "scene": "Khách xin lỗi vì làm phiền lúc ghé thăm và bạn sẵn lòng tiếp.",
-          "why": "Lời trấn an đứng trước lời mời, thể hiện thái độ đón tiếp.",
-          "position": "Ngắt sau 没关系; 请 trước 进 tạo lời mời vào.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "没关系，请坐。",
-          "vi": "Không sao, mời ngồi.",
-          "scene": "Khách xin lỗi vì làm phiền rồi bạn mời ngồi.",
-          "why": "Đổi lời mời nhưng giữ ý không bận tâm đến bất tiện.",
-          "position": "请坐 là lời mời riêng sau cụm trấn an.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "没关系，我们明天再来。",
-          "vi": "Không sao, chúng tôi sẽ quay lại vào ngày mai.",
-          "scene": "Nơi cần đến hôm nay đóng cửa; bạn trấn an người đi cùng.",
-          "why": "没关系 cho biết thay đổi chưa thành vấn đề lớn; 再来 là đến lại.",
-          "position": "我们 là nhóm có người nói; 明天 trước 再来, 再 trước hành động 来.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "没关系，我不忙。",
-          "vi": "Không sao, tôi không bận.",
-          "scene": "Người khác xin lỗi vì hỏi bạn lúc đang làm việc, nhưng bạn vẫn có thể giúp.",
-          "why": "不忙 giải thích vì sao bạn không thấy bị làm phiền; 忙 là bận.",
-          "position": "我不忙 là câu trạng thái sau lời trấn an; không thêm 是.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "id": "e2",
+          "zh": "对不起。—没关系。",
+          "pinyin": "Duìbuqǐ. — Méi guānxi.",
+          "vi": "Xin lỗi. — Không sao.",
+          "analysis": "没关系 là lượt đáp trong cặp xin lỗi–trấn an.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Một người xin lỗi vì đến muộn, bạn muốn nói chuyện đó không sao.",
       "when": "没关系 dùng để trấn an hoặc cho biết việc ấy không gây vấn đề đáng kể.",
       "pattern": "没关系，+ lời trấn an hoặc đề nghị",
       "trap": "Không dùng 没关系 để nói mình không có thời gian. Trường hợp đó dùng 没有时间.",
-      "task": "Đáp lời xin lỗi về một bất tiện nhỏ mà bạn sẵn sàng bỏ qua.",
+      "task": "Đáp rằng không sao khi người khác xin lỗi.",
       "model": "没关系。",
       "phrases": [
         "没关系，我们还有时间。"
@@ -6009,249 +5896,194 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 12,
+        "difficulty": "medium",
+        "difficultyReason": "Cụm đáp có thể dịch là không sao nhưng phải phân biệt với 不客气, vốn đáp lời cảm ơn.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Apologizing"
+        ],
         "introduction": {
-          "partOfSpeech": "Lời trấn an hoặc đáp lời xin lỗi.",
-          "scope": "Học nghĩa không sao khi một bất tiện có thể bỏ qua; nghĩa không liên quan đặt ở Học thêm."
-        },
-        "meaning": {
-          "scene": "Một người xin lỗi vì vô ý chắn đường bạn trong chốc lát và bạn muốn nói chuyện đó không sao.",
-          "explanation": "没关系 cho biết trong tình huống này bạn không coi sự việc là trở ngại đáng lo hoặc sẵn sàng bỏ qua bất tiện. Nó giúp người kia yên tâm.",
-          "boundary": "Ở bài này 没关系 là lời không sao, không phải từ thay mọi lời cảm ơn hoặc mọi nghĩa quan hệ. Nghĩa không liên quan trong câu khác là phần mở rộng.",
-          "conditions": [
-            "Dùng khi muốn trấn an hoặc đáp lời xin lỗi về việc bạn thấy có thể bỏ qua.",
-            "Không bắt buộc nói 没关系 nếu sự việc thực sự nghiêm trọng hoặc bạn chưa chấp nhận; chọn lời đúng ý mình."
-          ],
-          "takeaway": "Khi muốn nói một bất tiện có thể bỏ qua, trong tình huống trấn an hoặc đáp lời xin lỗi, bạn có thể dùng 没关系.",
-          "alternatives": [
-            {
-              "zh": "不客气。",
-              "vi": "Không có gì.",
-              "purpose": "不客气 thường đáp lời cảm ơn; 没关系 trong bài này trấn an sau sự cố hoặc lời xin lỗi."
-            }
-          ]
+          "scope": "没关系 dùng để nói không sao hoặc không có vấn đề, đặc biệt khi đáp lời xin lỗi."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "没关系。",
+            "pinyin": "Méi guānxi.",
             "vi": "Không sao.",
-            "scene": "Người khác xin lỗi vì chắn đường bạn trong chốc lát.",
-            "why": "Bạn muốn bỏ qua một bất tiện nhỏ và trấn an.",
-            "position": "Cả cụm đủ làm một lượt đáp, không cần 我.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Muốn đáp rằng chuyện người kia vừa xin lỗi không sao.",
-              "choice": "Chọn 没关系 cho ý trấn an và bỏ qua bất tiện.",
-              "order": "Trong ngữ cảnh rõ, dùng cả cụm riêng thành một lượt đáp.",
-              "result": "没关系。"
-            },
-            "id": "e01"
+            "analysis": "Đứng riêng để đáp lời xin lỗi hoặc trấn an người khác.",
+            "practiceAllowed": true
           },
           {
-            "zh": "没关系，请进。",
-            "vi": "Không sao, mời vào.",
-            "scene": "Khách xin lỗi vì làm phiền lúc ghé thăm và bạn sẵn lòng tiếp.",
-            "why": "Lời trấn an đứng trước lời mời, thể hiện thái độ đón tiếp.",
-            "position": "Ngắt sau 没关系; 请 trước 进 tạo lời mời vào.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "没关系，请坐。",
-            "vi": "Không sao, mời ngồi.",
-            "scene": "Khách xin lỗi vì làm phiền rồi bạn mời ngồi.",
-            "why": "Đổi lời mời nhưng giữ ý không bận tâm đến bất tiện.",
-            "position": "请坐 là lời mời riêng sau cụm trấn an.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "没关系，我们明天再来。",
-            "vi": "Không sao, chúng tôi sẽ quay lại vào ngày mai.",
-            "scene": "Nơi cần đến hôm nay đóng cửa; bạn trấn an người đi cùng.",
-            "why": "没关系 cho biết thay đổi chưa thành vấn đề lớn; 再来 là đến lại.",
-            "position": "我们 là nhóm có người nói; 明天 trước 再来, 再 trước hành động 来.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "没关系，我不忙。",
-            "vi": "Không sao, tôi không bận.",
-            "scene": "Người khác xin lỗi vì hỏi bạn lúc đang làm việc, nhưng bạn vẫn có thể giúp.",
-            "why": "不忙 giải thích vì sao bạn không thấy bị làm phiền; 忙 là bận.",
-            "position": "我不忙 là câu trạng thái sau lời trấn an; không thêm 是.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "id": "e2",
+            "zh": "对不起。—没关系。",
+            "pinyin": "Duìbuqǐ. — Méi guānxi.",
+            "vi": "Xin lỗi. — Không sao.",
+            "analysis": "没关系 là lượt đáp trong cặp xin lỗi–trấn an.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Đáp lời xin lỗi ngắn gọn.",
-            "frame": "Lời xin lỗi của người kia → 没关系",
-            "position": "Đây là lượt đáp, không bắt buộc có chủ thể trong cùng câu.",
-            "required": "Giữ cả cụm ở nghĩa xã giao đang học; không đổi 没 thành 不 theo công thức phủ định thông thường.",
-            "omission": "Người nhận và bất tiện có thể không lặp nếu hai bên đều biết.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Thêm lời giải thích rằng mình không bận.",
-              "exampleId": "e05",
-              "limit": "Chỉ nói lý do đúng thực tế; không dùng công thức để ép mình chấp nhận điều không muốn."
-            },
-            "caution": "没关系 không phải lời bắt buộc sau mọi lỗi; cần phù hợp mức độ và thái độ thật của bạn.",
+            "id": "reassure",
+            "title": "Nói không sao",
+            "when": "Người khác xin lỗi hoặc lo rằng mình đã gây vấn đề.",
+            "meaning": "không sao; không có vấn đề",
+            "grammar": "Thường đứng riêng như câu đáp.",
+            "pattern": "A：对不起。 B：没关系。",
             "collocations": [
               {
-                "zh": "没关系",
-                "vi": "không sao",
-                "purpose": "Trấn an ngắn."
-              },
-              {
-                "zh": "没关系，我不忙",
-                "vi": "không sao, tôi không bận",
-                "purpose": "Làm người kia yên tâm vì bạn có thời gian."
+                "zh": "没关系的",
+                "pinyin": "méi guānxi de",
+                "vi": "không sao đâu"
               }
             ],
-            "forms": [],
-            "id": "u01"
-          },
-          {
-            "intent": "Trấn an rồi nói việc tiếp theo.",
-            "frame": "没关系 + một câu mời hoặc kế hoạch",
-            "position": "Ngắt sau lời trấn an rồi nói câu thứ hai.",
-            "required": "Nếu mời dùng 请 trước hành động; nếu kể kế hoạch cần chủ thể và thông tin đủ để hiểu.",
-            "omission": "Không có việc tiếp theo vẫn có thể dừng ở 没关系.",
-            "exampleId": "e02",
-            "transform": {
-              "change": "Đổi lời mời vào thành mời ngồi.",
-              "exampleId": "e03",
-              "limit": "Không lấy câu mời làm lời kể; 请进 và 请坐 đều hướng hành động đến người nghe."
-            },
-            "caution": "Trong câu 我们明天再来, 再来 là quay lại, không phải nghĩa của 没关系.",
-            "collocations": [
+            "examples": [
               {
-                "zh": "没关系，请进",
-                "vi": "không sao, mời vào",
-                "purpose": "Đón người đang ngại làm phiền."
+                "zh": "没关系。",
+                "pinyin": "Méi guānxi.",
+                "vi": "Không sao.",
+                "note": "Câu đáp ngắn và tự nhiên."
               },
               {
-                "zh": "没关系，我们明天再来",
-                "vi": "không sao, mai chúng tôi quay lại",
-                "purpose": "Chấp nhận thay đổi kế hoạch nhỏ."
+                "zh": "对不起。—没关系。",
+                "pinyin": "Duìbuqǐ. — Méi guānxi.",
+                "vi": "Xin lỗi. — Không sao.",
+                "note": "Gắn với lời xin lỗi ở lượt trước."
               }
-            ],
-            "forms": [],
-            "id": "u02"
+            ]
           }
         ],
-        "traps": [
+        "confusions": [
           {
-            "title": "Đáp lời cảm ơn và đáp lời xin lỗi không luôn dùng cùng câu",
-            "scene": "Người kia nói 谢谢 vì bạn đã giúp họ.",
-            "possibleConfusion": "Bạn có thể dễ nhầm không sao và không có gì trong tiếng Việt nên luôn chọn 没关系.",
-            "difference": "不客气 là đáp cảm ơn cơ bản; 没关系 thường đáp xin lỗi hoặc trấn an về bất tiện.",
-            "cases": [
+            "id": "thanks",
+            "afterSense": "reassure",
+            "title": "没关系 và 不客气 khác tình huống",
+            "explanation": "没关系 đáp lời xin lỗi; 不客气 đáp lời cảm ơn.",
+            "contrasts": [
               {
-                "id": "case-1",
-                "zh": "不客气。",
-                "vi": "Không có gì.",
-                "judgment": "correct",
-                "comment": "Lựa chọn cơ bản sau lời cảm ơn đơn thuần.",
-                "practiceAllowed": false
+                "zh": "对不起。—没关系。",
+                "pinyin": "Duìbuqǐ. — Méi guānxi.",
+                "vi": "Xin lỗi. — Không sao.",
+                "note": "Cặp xin lỗi và đáp."
               },
               {
-                "id": "case-2",
-                "zh": "没关系。",
-                "vi": "Không sao.",
-                "judgment": "unnatural",
-                "comment": "Hiểu được trong một số cuộc trao đổi, nhưng nếu chỉ có lời cảm ơn và không có bất tiện được nhắc thì kém phù hợp hơn.",
-                "practiceAllowed": false
+                "zh": "谢谢。—不客气。",
+                "pinyin": "Xièxie. — Bú kèqi.",
+                "vi": "Cảm ơn. — Không có gì.",
+                "note": "Cặp cảm ơn và đáp."
               }
             ],
-            "replacement": {
-              "result": "unnatural",
-              "explanation": "Thay 不客气 bằng 没关系 sau cảm ơn đơn thuần có thể gợi đang bỏ qua điều gì đó; không phải lỗi ngữ pháp."
-            },
-            "boundary": "Nếu lời cảm ơn gắn với lời xin lỗi vì đã làm phiền, 没关系 có thể tự nhiên vì đang trấn an về bất tiện.",
-            "tip": "Chỉ đáp cảm ơn ưu tiên 不客气; muốn nói bất tiện không sao thì dùng 没关系.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "Không đổi 没关系 thành 不关系 theo thói quen chọn phủ định",
-            "scene": "Bạn muốn nói không sao sau một lỗi nhỏ.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rằng không trong tiếng Việt luôn thay bằng 不, còn 关系 giữ nguyên.",
-            "difference": "没关系 là cụm dùng để nói không sao. 关系 trong cụm không phải một tính từ để tự đặt 不 trước theo mẫu 不忙.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "没关系。",
-                "vi": "Không sao.",
-                "judgment": "correct",
-                "comment": "Cụm phù hợp lời trấn an.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "不关系。",
-                "vi": "Ý định: không sao.",
-                "judgment": "wrong-grammar",
-                "comment": "Không tạo được lời trấn an phổ thông bằng cách thay 没 bằng 不 trong cụm này.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "wrong-grammar",
-              "explanation": "Thay 没 bằng 不 không giữ được cụm xã giao đúng ở nghĩa này."
-            },
-            "boundary": "不忙 — không bận — là một khung khác với từ chỉ trạng thái 忙; không dùng việc đó để suy ra 不 thay được 没 trong mọi cụm.",
-            "tip": "Ghi nhớ trọn 没关系 ở nghĩa không sao; chọn phủ định theo từng từ và cấu trúc, không dịch mỗi chữ không.",
-            "corrections": [
-              {
-                "caseId": "case-2",
-                "zh": "没关系。",
-                "vi": "Không sao.",
-                "reason": "Giữ 没 trong cụm xã giao cố định ở nghĩa đang học."
-              }
-            ],
-            "id": "t02",
-            "checkId": "check-02"
+            "tip": "Nhìn lượt trước: 对不起 đi với 没关系; 谢谢 đi với 不客气."
           }
         ],
-        "pronunciation": {
-          "text": "没 mang thanh hai; 关 thanh một; 系 thường đọc thanh nhẹ trong 没关系 khi nói thông thường. Âm 系 vẫn nghe được, thường ngắn và nhẹ hơn, không tự chuyển thành thanh một. Hãy luyện cả cụm với nhịp tự nhiên."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "check-01",
-            "question": "Người kia xin lỗi vì chắn đường và bạn muốn bỏ qua. Chọn đáp.",
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp câu đáp: Không sao.",
+            "tokens": [
+              "没关系",
+              "。"
+            ],
+            "accepted": [
+              "没关系。"
+            ],
+            "model": "没关系。",
+            "explanation": "没关系 là cụm đáp hoàn chỉnh.",
+            "wrongFeedback": "Dùng nguyên cụm 没关系."
+          },
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 对不起。—____。",
+            "accepted": [
+              "没关系",
+              "没关系。"
+            ],
+            "model": "没关系。",
+            "explanation": "没关系 đáp lời xin lỗi.",
+            "wrongFeedback": "Đây là cặp xin lỗi, không phải cảm ơn."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "thanks",
+            "type": "choice",
+            "prompt": "Người kia vừa nói 对不起. Bạn đáp gì?",
             "choices": [
               "没关系。",
-              "对不起。"
-            ]
-          },
+              "不客气。"
+            ],
+            "correctIndex": 0,
+            "model": "没关系。",
+            "explanation": "没关系 đáp lời xin lỗi.",
+            "wrongFeedback": "Phân biệt 对不起 với 谢谢."
+          }
+        ],
+        "productionExercises": [
           {
-            "id": "check-02",
-            "question": "Chọn lời trấn an đúng đã học.",
-            "choices": [
-              "不关系。",
-              "没关系。"
+            "id": "p1",
+            "prompt": "Đáp rằng không sao khi bạn của bạn xin lỗi.",
+            "hints": [
+              "Nhận diện: người kia nói 对不起.",
+              "Dùng cụm đáp lời xin lỗi.",
+              "Mẫu: 没关系。"
+            ],
+            "model": "没关系。",
+            "vi": "Không sao.",
+            "criteria": [
+              "Dùng đúng 没关系.",
+              "Phù hợp sau lời xin lỗi."
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 0,
-            "explanation": "Bạn trấn an người xin lỗi, không tự nhận lỗi."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Đáp 对不起 bằng cụm nào?",
+            "hiddenAnswer": "没关系",
+            "model": "没关系。"
           },
-          "check-02": {
-            "correctIndex": 1,
-            "explanation": "Giữ trọn cụm 没关系; 不关系 không dùng cho lời trấn an này."
+          {
+            "id": "r2",
+            "prompt": "Đáp 谢谢 bằng cụm nào?",
+            "hiddenAnswer": "不客气",
+            "model": "不客气。"
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": [
-          "https://chinese.lec.u-tokai.ac.jp/apps/p.13_aisatsu_daigakumei_read.html"
-        ]
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp câu đáp: Không sao.",
+            "choices": [
+              "没关系",
+              "。"
+            ],
+            "correct": [
+              "没关系。"
+            ],
+            "explanation": "没关系 là cụm đáp."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Người kia vừa nói 对不起. Bạn đáp gì?",
+            "choices": [
+              "没关系。",
+              "不客气。"
+            ],
+            "correctIndex": 0,
+            "explanation": "没关系 đáp lời xin lỗi."
+          }
+        }
       }
     },
     {
@@ -6267,57 +6099,31 @@
       "meaning": "tạm biệt",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 02; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 005",
       "examples": [
         {
-          "zh": "老师，再见！",
-          "vi": "Em chào thầy/cô, em về ạ!",
-          "scene": "Bạn rời lớp.",
-          "why": "再见 đánh dấu chia tay, không phải xin giáo viên đến gặp.",
-          "position": "老师 là người được chào, đứng trước lời chào.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Chào giáo viên khi ra về.",
-            "choice": "Chọn 再见 cho lúc chia tay và 老师 để gọi giáo viên.",
-            "order": "Gọi giáo viên trước rồi nói lời chào.",
-            "result": "老师，再见！"
-          },
-          "id": "e01"
+          "id": "e1",
+          "zh": "再见。",
+          "pinyin": "Zàijiàn.",
+          "vi": "Tạm biệt.",
+          "analysis": "Lời chào khi kết thúc cuộc gặp.",
+          "practiceAllowed": true
         },
         {
-          "zh": "再见！",
-          "vi": "Tạm biệt!",
-          "scene": "Bạn kết thúc cuộc gặp với bạn bè.",
-          "why": "Lời chào độc lập đã đủ vì người nghe ở ngay đó.",
-          "position": "Không cần thêm 是 hoặc một chủ ngữ.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "朋友们，再见！",
-          "vi": "Tạm biệt các bạn!",
-          "scene": "Bạn chào cả nhóm bạn.",
-          "why": "朋友们 gọi nhóm bạn, không đổi hình thức 再见 theo số người.",
-          "position": "朋友们 đứng trước lời chào, ngắt nhẹ sau cách gọi.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "我们明天再见。",
-          "vi": "Ngày mai chúng ta gặp lại nhé.",
-          "scene": "Hai người đã thống nhất gặp lại ngày mai.",
-          "why": "明天 nêu thời gian, 再见 ở đây diễn tả gặp lại; câu có nội dung hẹn rõ hơn lời chào độc lập.",
-          "position": "我们 trước 明天; 再 đứng trước 见; không chen 是.",
-          "practiceAllowed": true,
-          "id": "e04"
+          "id": "e2",
+          "zh": "明天再见。",
+          "pinyin": "Míngtiān zàijiàn.",
+          "vi": "Hẹn gặp lại ngày mai.",
+          "analysis": "Có thể thêm thời điểm trước 再见.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn chào kết thúc buổi học.",
       "when": "再见 dùng lúc chia tay. Không bắt buộc đã hẹn chính xác thời điểm gặp lại.",
       "pattern": "người được chào + 再见; 再见 đứng riêng",
       "trap": "Không dùng 再见 khi mới bắt đầu gặp nhau. Lúc ấy dùng 你好 hoặc lời chào phù hợp.",
-      "task": "Chào giáo viên khi ra về.",
-      "model": "老师，再见！",
+      "task": "Chào tạm biệt trước khi rời đi.",
+      "model": "再见。",
       "phrases": [
         "老师，再见。"
       ],
@@ -6355,224 +6161,152 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 13,
+        "difficulty": "easy",
+        "difficultyReason": "Lời chào tạm biệt trực tiếp, cấu trúc và tình huống dùng rõ.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Greetings"
+        ],
         "introduction": {
-          "partOfSpeech": "Lời chào khi chia tay.",
-          "scope": "Học lời tạm biệt trực tiếp và cách nói hẹn gặp ở một thời điểm; chưa học mọi cách dùng riêng của 再 và 见."
-        },
-        "meaning": {
-          "scene": "Bạn kết thúc buổi học và chào giáo viên trước khi ra về.",
-          "explanation": "再见 dùng khi kết thúc cuộc gặp hoặc cuộc trò chuyện. Nghĩa giao tiếp là tạm biệt; không đòi hỏi hai người đã hẹn chắc chắn sẽ gặp lại.",
-          "boundary": "Không dùng 再见 làm lời chào mở đầu thông thường. Khi muốn nói chính xác hẹn gặp ngày mai, 明天见 nêu thời điểm rõ hơn.",
-          "conditions": [
-            "Có thể nói độc lập khi chia tay, không bắt buộc có người được chào trong câu.",
-            "Dùng được với người quen và trong tình huống lịch sự; thêm cách gọi phù hợp khi cần."
-          ],
-          "takeaway": "Khi muốn chào lúc rời nhau, bạn có thể dùng 再见.",
-          "alternatives": [
-            {
-              "zh": "老师，您好。",
-              "vi": "Em chào thầy/cô.",
-              "purpose": "您好 là lời chào lịch sự lúc gặp; 老师 là giáo viên."
-            },
-            {
-              "zh": "明天见。",
-              "vi": "Hẹn gặp ngày mai.",
-              "purpose": "明天 là ngày mai; câu này nói rõ thời điểm gặp lại."
-            }
-          ]
+          "scope": "再见 dùng khi kết thúc cuộc gặp, với nghĩa tạm biệt hoặc hẹn gặp lại."
         },
         "examples": [
           {
-            "zh": "老师，再见！",
-            "vi": "Em chào thầy/cô, em về ạ!",
-            "scene": "Bạn rời lớp.",
-            "why": "再见 đánh dấu chia tay, không phải xin giáo viên đến gặp.",
-            "position": "老师 là người được chào, đứng trước lời chào.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Chào giáo viên khi ra về.",
-              "choice": "Chọn 再见 cho lúc chia tay và 老师 để gọi giáo viên.",
-              "order": "Gọi giáo viên trước rồi nói lời chào.",
-              "result": "老师，再见！"
-            },
-            "id": "e01"
+            "id": "e1",
+            "zh": "再见。",
+            "pinyin": "Zàijiàn.",
+            "vi": "Tạm biệt.",
+            "analysis": "Lời chào khi kết thúc cuộc gặp.",
+            "practiceAllowed": true
           },
           {
-            "zh": "再见！",
-            "vi": "Tạm biệt!",
-            "scene": "Bạn kết thúc cuộc gặp với bạn bè.",
-            "why": "Lời chào độc lập đã đủ vì người nghe ở ngay đó.",
-            "position": "Không cần thêm 是 hoặc một chủ ngữ.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "朋友们，再见！",
-            "vi": "Tạm biệt các bạn!",
-            "scene": "Bạn chào cả nhóm bạn.",
-            "why": "朋友们 gọi nhóm bạn, không đổi hình thức 再见 theo số người.",
-            "position": "朋友们 đứng trước lời chào, ngắt nhẹ sau cách gọi.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "我们明天再见。",
-            "vi": "Ngày mai chúng ta gặp lại nhé.",
-            "scene": "Hai người đã thống nhất gặp lại ngày mai.",
-            "why": "明天 nêu thời gian, 再见 ở đây diễn tả gặp lại; câu có nội dung hẹn rõ hơn lời chào độc lập.",
-            "position": "我们 trước 明天; 再 đứng trước 见; không chen 是.",
-            "practiceAllowed": true,
-            "id": "e04"
+            "id": "e2",
+            "zh": "明天再见。",
+            "pinyin": "Míngtiān zàijiàn.",
+            "vi": "Hẹn gặp lại ngày mai.",
+            "analysis": "Có thể thêm thời điểm trước 再见.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Chào tạm biệt một người hoặc một nhóm.",
-            "frame": "Cách gọi người nghe, rồi 再见; hoặc nói riêng 再见.",
-            "position": "Cách gọi đứng trước lời chào và được ngắt nhẹ.",
-            "required": "Không cần thêm danh từ chỉ việc gặp hay một đối tượng sau 再见.",
-            "omission": "Có thể bỏ cách gọi khi người nghe đã rõ.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Bỏ cách gọi vì đang nói trực tiếp với bạn.",
-              "exampleId": "e02",
-              "limit": "Chỉ bỏ cách gọi; chức năng chia tay của lời chào giữ nguyên."
-            },
-            "caution": "Không thêm 吗 để biến lời tạm biệt thành câu hỏi theo máy móc.",
-            "forms": [],
-            "collocations": [
-              {
-                "zh": "老师，再见",
-                "vi": "chào giáo viên lúc ra về",
-                "purpose": "Dùng khi kết thúc buổi học."
-              },
-              {
-                "zh": "朋友们，再见",
-                "vi": "tạm biệt các bạn",
-                "purpose": "Chào một nhóm bạn."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Nói rõ hôm sau sẽ gặp lại.",
-            "frame": "我们 + 明天 + 再见.",
-            "position": "Thời gian 明天 trước 再见; 再 đứng sát trước hành động 见.",
-            "required": "Thời điểm cần nêu nếu mục đích là hẹn một thời điểm cụ thể.",
-            "omission": "Chỉ nói 再见 vẫn là lời chia tay, nhưng mất thông tin ngày mai.",
-            "exampleId": "e04",
-            "transform": {
-              "change": "Chuyển từ hẹn rõ thời gian sang lời chào ngắn.",
-              "exampleId": "e02",
-              "limit": "Không coi hai câu có lượng thông tin giống hệt nhau."
-            },
-            "caution": "Lời chào 再见 tự nó không xác nhận một lịch hẹn.",
-            "forms": [],
+            "id": "farewell",
+            "title": "Tạm biệt",
+            "when": "Cuộc gặp sắp kết thúc và hai người rời nhau.",
+            "meaning": "tạm biệt; hẹn gặp lại",
+            "grammar": "Có thể đứng riêng hoặc sau một mốc thời gian.",
+            "pattern": "（thời điểm）+再见",
             "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Dùng tạm biệt vào lúc vừa gặp",
-            "scene": "Bạn vừa đến lớp và gặp giáo viên.",
-            "possibleConfusion": "Bạn có thể dễ nhầm vì tiếng Việt dùng chào cả lúc gặp và lúc đi.",
-            "difference": "您好 mở cuộc gặp lịch sự; 再见 khép cuộc gặp.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "老师，您好。",
-                "vi": "Em chào thầy/cô.",
-                "judgment": "correct",
-                "comment": "Phù hợp khi vừa gặp giáo viên.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "老师，再见。",
-                "vi": "Em chào thầy/cô, em về ạ.",
-                "judgment": "wrong-intent",
-                "comment": "Câu đúng nhưng báo chia tay, không hợp lúc mới đến nếu chưa định rời đi.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Đổi 您好 thành 再见 làm lời chào thành lời chia tay. Muốn chào khi đến, dùng 老师，您好。"
-            },
-            "boundary": "Có thể nói 再见 sau một cuộc gặp rất ngắn; quyết định dựa giai đoạn giao tiếp, không dựa độ dài buổi gặp.",
-            "tip": "Vừa gặp: chọn lời chào gặp mặt; sắp rời nhau: chọn 再见.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Hiểu tạm biệt thành một lời hẹn chắc chắn",
-            "scene": "Bạn kết thúc cuộc gọi nhưng chưa thống nhất ngày gặp.",
-            "possibleConfusion": "Bạn có thể dễ nhầm từ nghĩa từng chữ mà hiểu 再见 luôn là cam kết gặp lại ngày mai.",
-            "difference": "Lời chào 再见 không nêu ngày; thêm 明天 tạo thông tin ngày mai.",
-            "cases": [
-              {
-                "id": "case-1",
                 "zh": "再见。",
+                "pinyin": "Zàijiàn.",
                 "vi": "Tạm biệt.",
-                "judgment": "correct",
-                "comment": "Chỉ kết thúc cuộc trò chuyện.",
-                "practiceAllowed": false
+                "note": "Lời chào cơ bản."
               },
               {
-                "id": "case-2",
-                "zh": "我们明天再见。",
-                "vi": "Ngày mai chúng ta gặp lại nhé.",
-                "judgment": "different-meaning",
-                "comment": "Có thêm đề nghị hoặc xác nhận gặp lại ngày mai.",
-                "practiceAllowed": false
+                "zh": "明天再见。",
+                "pinyin": "Míngtiān zàijiàn.",
+                "vi": "Hẹn gặp lại ngày mai.",
+                "note": "明天 đứng trước 再见."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay lời tạm biệt bằng cả câu có 明天 sẽ thêm nội dung hẹn, cần phù hợp điều hai bên mong muốn."
-            },
-            "boundary": "再见 cũng có thể mang nghĩa gặp lại trong câu; phải nhìn cả câu, không luôn dịch riêng từng chữ.",
-            "tip": "Muốn hẹn rõ, nói rõ thời điểm; chỉ chia tay thì 再见 đã đủ.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
+            ]
           }
         ],
-        "checks": [
+        "confusions": [],
+        "guidedExercises": [
           {
-            "id": "q01",
-            "question": "Bạn vừa đến lớp, muốn chào giáo viên. Chọn lời chào phù hợp.",
-            "choices": [
-              "老师，再见。",
-              "老师，您好。"
-            ]
-          },
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tạm biệt.",
+            "tokens": [
+              "再见",
+              "。"
+            ],
+            "accepted": [
+              "再见。"
+            ],
+            "model": "再见。",
+            "explanation": "再见 là lời chào tạm biệt.",
+            "wrongFeedback": "Dùng 再见 để kết thúc cuộc gặp."
+          }
+        ],
+        "discriminationExercises": [
           {
-            "id": "q02",
-            "question": "Câu nào nêu rõ việc gặp lại vào ngày mai?",
+            "id": "d1",
+            "senseId": "farewell",
+            "type": "meaning",
+            "prompt": "Cuộc gặp kết thúc. Chọn từ dùng để chào tạm biệt.",
             "choices": [
               "再见。",
-              "我们明天再见。"
+              "谢谢。"
+            ],
+            "correctIndex": 0,
+            "model": "再见。",
+            "explanation": "再见 là lời tạm biệt.",
+            "wrongFeedback": "谢谢 là cảm ơn, không phải tạm biệt."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói lời tạm biệt khi rời đi.",
+            "hints": [
+              "Nêu ý: cuộc gặp kết thúc.",
+              "Dùng lời chào tạm biệt.",
+              "Mẫu: 再见。"
+            ],
+            "model": "再见。",
+            "vi": "Tạm biệt.",
+            "criteria": [
+              "Dùng đúng 再见."
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "您好 dùng khi gặp; 再见 dùng lúc chia tay."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nói tạm biệt bằng tiếng Trung.",
+            "hiddenAnswer": "再见",
+            "model": "再见。"
           },
-          "q02": {
-            "correctIndex": 1,
-            "explanation": "明天 nêu ngày mai; 再见 đứng riêng không có thông tin đó."
+          {
+            "id": "r2",
+            "prompt": "Thêm 再见 sau 明天 để nói hẹn gặp lại ngày mai.",
+            "hiddenAnswer": "明天再见",
+            "model": "明天再见。"
           }
-        },
-        "pronunciation": {
-          "text": "再 và 见 đều thanh bốn. Đọc hai âm gọn, có độ rơi rõ nhưng không gằn; không đổi âm sau thành thanh nhẹ. Ngữ điệu chào thân thiện có thể mềm hơn mà vẫn giữ nhận diện hai âm."
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tạm biệt.",
+            "choices": [
+              "再见",
+              "。"
+            ],
+            "correct": [
+              "再见。"
+            ],
+            "explanation": "再见 là lời tạm biệt."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Cuộc gặp kết thúc. Chọn từ dùng để chào tạm biệt.",
+            "choices": [
+              "再见。",
+              "谢谢。"
+            ],
+            "correctIndex": 0,
+            "explanation": "再见 là lời tạm biệt."
+          }
         }
       }
     },
@@ -6589,57 +6323,31 @@
       "meaning": "là",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 02; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 005",
       "examples": [
         {
+          "id": "e1",
           "zh": "我是学生。",
+          "pinyin": "Wǒ shì xuésheng.",
           "vi": "Tôi là học sinh/sinh viên.",
-          "scene": "Bạn tự giới thiệu vai trò.",
-          "why": "是 nối 我 với danh tính 学生; chưa nêu cấp học cụ thể.",
-          "position": "是 đứng giữa người nói 我 và danh từ 学生.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói mình là người học.",
-            "choice": "Chọn 是 để nối người nói với danh tính 学生.",
-            "order": "Đặt 我 trước, 是 ở giữa, 学生 sau.",
-            "result": "我是学生。"
-          },
-          "id": "e01"
+          "analysis": "是 nối chủ thể với danh từ chỉ thân phận hoặc loại.",
+          "practiceAllowed": true
         },
         {
-          "zh": "她是老师。",
-          "vi": "Cô ấy là giáo viên.",
-          "scene": "Bạn giới thiệu nghề của một người nữ.",
-          "why": "Đổi người và vai trò vẫn giữ quan hệ nhận diện.",
-          "position": "她 trước 是; 老师 sau 是.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "我不是老师。",
-          "vi": "Tôi không phải là giáo viên.",
-          "scene": "Bạn đính chính một sự nhầm lẫn.",
-          "why": "不是 bác bỏ danh tính giáo viên, không có nghĩa chưa làm xong một việc.",
-          "position": "不 đặt ngay trước 是; không dùng 没 trong mẫu phủ định danh tính này.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "你是学生吗？",
-          "vi": "Bạn có phải là học sinh/sinh viên không?",
-          "scene": "Bạn muốn xác nhận vai trò người đối diện.",
-          "why": "Giữ 是 để hỏi danh tính, thêm 吗 làm câu hỏi có/không.",
-          "position": "你 trước 是; 学生 sau 是; 吗 ở cuối.",
-          "practiceAllowed": true,
-          "id": "e04"
+          "id": "e2",
+          "zh": "这是我的书。",
+          "pinyin": "Zhè shì wǒ de shū.",
+          "vi": "Đây là sách của tôi.",
+          "analysis": "是 cũng nối đại từ chỉ định với danh từ.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn giới thiệu mình là học sinh.",
       "when": "是 thường nối người hoặc vật với danh tính, nghề nghiệp hoặc loại. Không dùng như từ là trước mọi tính từ.",
       "pattern": "người + 是 + danh tính; người + 不是 + danh tính",
       "trap": "Nói 我很忙 — tôi bận. Không dịch máy móc thành 我是忙 chỉ vì tiếng Việt có thể nói tôi là người bận rộn.",
-      "task": "Giới thiệu vai trò của bạn và phủ định một vai trò không đúng.",
-      "model": "我是学生。我不是老师。",
+      "task": "Nói bạn là sinh viên.",
+      "model": "我是学生。",
       "phrases": [
         "我是学生。"
       ],
@@ -6686,231 +6394,196 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 14,
+        "difficulty": "medium",
+        "difficultyReason": "是 có vai trò động từ nối và dễ bị dùng thừa trước tính từ khi người học dịch từng chữ từ tiếng Việt.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/是"
+        ],
         "introduction": {
-          "partOfSpeech": "Động từ nối để xác định người hoặc vật là ai, là gì.",
-          "scope": "Trọng tâm là nhận diện và danh tính; không mở rộng sang cấu trúc nhấn mạnh hoặc câu có 的."
-        },
-        "meaning": {
-          "scene": "Có người tưởng bạn là giáo viên, bạn cần nói mình là người học.",
-          "explanation": "是 nối người hoặc vật đang nói tới với tên gọi, nghề, vai trò hay loại của người hoặc vật đó. Tiếng Việt thường dịch là là trong những câu này.",
-          "boundary": "Không đặt 是 vào mọi câu tiếng Việt có cảm giác cần từ nối. Nói một trạng thái như bận dùng 忙 trong mẫu khác; nói ở đâu dùng 在.",
-          "conditions": [
-            "Phần sau 是 trong bài này là danh từ hoặc cụm danh từ chỉ danh tính.",
-            "Phủ định danh tính bằng 不是; hỏi xác nhận bằng cách thêm 吗 cuối câu."
-          ],
-          "takeaway": "Khi muốn xác định ai hoặc cái gì là ai, là gì, bạn có thể dùng 是 với danh tính phía sau.",
-          "alternatives": [
-            {
-              "zh": "我很忙。",
-              "vi": "Tôi bận.",
-              "purpose": "忙 là bận; 很 ở đây giúp câu kể trạng thái tự nhiên, không nhất thiết nhấn rất."
-            },
-            {
-              "zh": "我在学校。",
-              "vi": "Tôi ở trường.",
-              "purpose": "在 chỉ vị trí; 学校 là trường học, không phải danh tính của người nói."
-            }
-          ]
+          "scope": "是 nối chủ thể với danh từ hoặc cụm danh từ để xác định thân phận, loại hay quan hệ."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "我是学生。",
+            "pinyin": "Wǒ shì xuésheng.",
             "vi": "Tôi là học sinh/sinh viên.",
-            "scene": "Bạn tự giới thiệu vai trò.",
-            "why": "是 nối 我 với danh tính 学生; chưa nêu cấp học cụ thể.",
-            "position": "是 đứng giữa người nói 我 và danh từ 学生.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói mình là người học.",
-              "choice": "Chọn 是 để nối người nói với danh tính 学生.",
-              "order": "Đặt 我 trước, 是 ở giữa, 学生 sau.",
-              "result": "我是学生。"
-            },
-            "id": "e01"
+            "analysis": "是 nối chủ thể với danh từ chỉ thân phận hoặc loại.",
+            "practiceAllowed": true
           },
           {
-            "zh": "她是老师。",
-            "vi": "Cô ấy là giáo viên.",
-            "scene": "Bạn giới thiệu nghề của một người nữ.",
-            "why": "Đổi người và vai trò vẫn giữ quan hệ nhận diện.",
-            "position": "她 trước 是; 老师 sau 是.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "我不是老师。",
-            "vi": "Tôi không phải là giáo viên.",
-            "scene": "Bạn đính chính một sự nhầm lẫn.",
-            "why": "不是 bác bỏ danh tính giáo viên, không có nghĩa chưa làm xong một việc.",
-            "position": "不 đặt ngay trước 是; không dùng 没 trong mẫu phủ định danh tính này.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "你是学生吗？",
-            "vi": "Bạn có phải là học sinh/sinh viên không?",
-            "scene": "Bạn muốn xác nhận vai trò người đối diện.",
-            "why": "Giữ 是 để hỏi danh tính, thêm 吗 làm câu hỏi có/không.",
-            "position": "你 trước 是; 学生 sau 是; 吗 ở cuối.",
-            "practiceAllowed": true,
-            "id": "e04"
+            "id": "e2",
+            "zh": "这是我的书。",
+            "pinyin": "Zhè shì wǒ de shū.",
+            "vi": "Đây là sách của tôi.",
+            "analysis": "是 cũng nối đại từ chỉ định với danh từ.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Giới thiệu danh tính.",
-            "frame": "Người hoặc vật + 是 + danh tính.",
-            "position": "是 ở giữa đối tượng được nói tới và phần xác định đó là ai, là gì.",
-            "required": "Trong câu đầy đủ đang học, cần phần xác định sau 是.",
-            "omission": "Khi trả lời 你是学生吗, có thể đáp 是 hoặc 不是 vì nội dung đã rõ.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi người học thành một người nữ làm giáo viên.",
-              "exampleId": "e02",
-              "limit": "Thay bằng danh từ chỉ nghề, vai trò, quốc tịch phù hợp; không thay trực tiếp bằng mọi tính từ."
-            },
-            "caution": "Không thêm 很 trước 是 để nói rất là trong mẫu danh tính cơ bản.",
-            "forms": [
+            "id": "link",
+            "title": "Là, xác định danh tính hoặc loại",
+            "when": "Muốn nói một người/vật là ai, là gì hoặc thuộc loại nào.",
+            "meaning": "là",
+            "grammar": "是 đứng giữa chủ thể và danh từ/cụm danh từ.",
+            "pattern": "A+是+B（danh từ/cụm danh từ）",
+            "collocations": [
               {
-                "type": "Phủ định",
-                "exampleId": "e03",
-                "why": "不 đặt trước 是 để bác bỏ danh tính."
-              },
-              {
-                "type": "Hỏi xác nhận",
-                "exampleId": "e04",
-                "why": "Giữ câu danh tính và thêm 吗 cuối câu."
+                "zh": "是学生",
+                "pinyin": "shì xuésheng",
+                "vi": "là học sinh/sinh viên"
               }
             ],
-            "collocations": [],
-            "id": "u01"
-          },
-          {
-            "intent": "Đính chính và hỏi lại danh tính.",
-            "frame": "Người + 不是 + danh tính; người + 是 + danh tính + 吗.",
-            "position": "不 trước 是; 吗 sau toàn bộ phần danh tính.",
-            "required": "Lựa chọn danh tính đúng ý định; không gộp cả phủ định lẫn từ hỏi nếu chưa rõ mục đích.",
-            "omission": "Trong câu trả lời ngắn có thể bỏ người và danh tính: 不是.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Chuyển từ đính chính bản thân sang hỏi người nghe.",
-              "exampleId": "e04",
-              "limit": "Đây là đổi mục đích giao tiếp; câu hỏi không còn khẳng định ai là giáo viên."
-            },
-            "caution": "没 không thay 不 tự do: danh tính không phải một hành động đã/chưa xảy ra.",
-            "forms": [],
-            "collocations": [],
-            "id": "u02"
+            "examples": [
+              {
+                "zh": "我是学生。",
+                "pinyin": "Wǒ shì xuésheng.",
+                "vi": "Tôi là học sinh/sinh viên.",
+                "note": "学生 là danh từ chỉ thân phận."
+              },
+              {
+                "zh": "这是我的书。",
+                "pinyin": "Zhè shì wǒ de shū.",
+                "vi": "Đây là sách của tôi.",
+                "note": "我的书 là cụm danh từ."
+              }
+            ]
           }
         ],
-        "traps": [
+        "confusions": [
           {
-            "title": "Lẫn danh tính với trạng thái bận",
-            "scene": "Bạn chỉ muốn nói hôm nay mình bận.",
-            "possibleConfusion": "Bạn có thể dễ nhầm vì cho rằng câu tiếng Trung nào cũng phải có 是 như mẫu tôi là.",
-            "difference": "学生 là vai trò có thể nối bằng 是; 忙 là trạng thái và trong câu kể trung tính có thể dùng 很忙.",
-            "cases": [
+            "id": "adjective",
+            "afterSense": "link",
+            "title": "Không dùng 是 trước tính từ thông thường",
+            "explanation": "Khi vị ngữ là tính từ như 忙 hoặc 很好, tiếng Trung thường dùng tính từ trực tiếp, không thêm 是.",
+            "contrasts": [
               {
-                "id": "case-1",
+                "zh": "我是学生。",
+                "pinyin": "Wǒ shì xuésheng.",
+                "vi": "Tôi là sinh viên.",
+                "note": "学生 là danh từ nên dùng 是."
+              },
+              {
                 "zh": "我很忙。",
-                "vi": "Tôi bận.",
-                "judgment": "correct",
-                "comment": "Câu kể trạng thái trung tính.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我是忙。",
-                "vi": "Tôi đúng là bận.",
-                "judgment": "wrong-intent",
-                "comment": "Có thể xuất hiện khi nhấn mạnh đối lập trong ngữ cảnh thích hợp; đứng riêng không phải mẫu trung tính cần dùng.",
-                "practiceAllowed": false
+                "pinyin": "Wǒ hěn máng.",
+                "vi": "Tôi rất bận.",
+                "note": "忙 là tính từ, dùng 很忙 thay vì 是忙."
               }
             ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Thay 很 bằng 是 gợi nhấn mạnh và đòi hỏi ngữ cảnh; để kể thông thường dùng 我很忙。"
-            },
-            "boundary": "Không kết luận 是 không bao giờ đi với trạng thái; bài chỉ chọn cách nói cơ bản chưa có nhấn mạnh.",
-            "tip": "Danh tính: 是; kể bận một cách trung tính: 很忙.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Dùng 没 để phủ định danh tính",
-            "scene": "Bạn muốn đính chính mình không phải giáo viên.",
-            "possibleConfusion": "Bạn có thể dễ nhầm cả 不 và 没 đều dịch là không nên thay nhau được.",
-            "difference": "Mẫu phủ định danh tính là 不是. 没 thường liên quan việc chưa/không xảy ra hoặc không có, không đặt trước 是 theo mẫu này.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我不是老师。",
-                "vi": "Tôi không phải giáo viên.",
-                "judgment": "correct",
-                "comment": "不 phủ định quan hệ danh tính.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我没是老师。",
-                "vi": "Ý định: tôi không phải giáo viên.",
-                "judgment": "wrong-grammar",
-                "comment": "没是 không tạo phủ định danh tính chuẩn trong câu này.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "wrong-grammar",
-              "explanation": "Đổi 不 thành 没 làm mẫu phủ định danh tính sai; sửa về 我不是老师。"
-            },
-            "boundary": "Quy tắc này áp dụng cho phủ định danh tính đang học, không suy rằng mọi động từ đều chỉ dùng 不.",
-            "tip": "Muốn nói không phải: chọn 不是.",
-            "corrections": [
-              {
-                "caseId": "case-2",
-                "zh": "我不是老师。",
-                "vi": "Tôi không phải giáo viên.",
-                "reason": "Thay 没 bằng 不 để phủ định danh tính."
-              }
-            ],
-            "id": "t02",
-            "checkId": "q02"
+            "tip": "Sau 是 thường là danh từ/cụm danh từ; trước tính từ hãy kiểm tra xem có cần 很 hay không."
           }
         ],
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q01",
-            "question": "Bạn chỉ muốn kể mình bận, không nhấn mạnh đối lập. Chọn câu.",
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi là sinh viên.",
+            "tokens": [
+              "我",
+              "是",
+              "学生",
+              "。"
+            ],
+            "accepted": [
+              "我是学生。"
+            ],
+            "model": "我是学生。",
+            "explanation": "是 đứng giữa chủ thể 我 và danh từ 学生.",
+            "wrongFeedback": "Đặt 是 trước danh từ chỉ thân phận."
+          },
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 这____我的书。",
+            "accepted": [
+              "是"
+            ],
+            "model": "这是我的书。",
+            "explanation": "是 nối 这 với cụm danh từ 我的书.",
+            "wrongFeedback": "Sau 这 là 是 khi xác định đây là vật gì."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "adjective",
+            "type": "choice",
+            "prompt": "Chọn câu tự nhiên để nói Tôi rất bận.",
             "choices": [
               "我很忙。",
               "我是忙。"
-            ]
-          },
+            ],
+            "correctIndex": 0,
+            "model": "我很忙。",
+            "explanation": "忙 là tính từ, không dùng 是 trước nó.",
+            "wrongFeedback": "Phân biệt danh từ sau 是 với tính từ làm vị ngữ."
+          }
+        ],
+        "productionExercises": [
           {
-            "id": "q02",
-            "question": "Muốn nói tôi không phải giáo viên, chọn câu đúng.",
-            "choices": [
-              "我没是老师。",
-              "我不是老师。"
+            "id": "p1",
+            "prompt": "Nói bạn là sinh viên.",
+            "hints": [
+              "Nêu chủ thể: 我.",
+              "Nối chủ thể với danh từ bằng 是.",
+              "Mẫu: 我是学生。"
+            ],
+            "model": "我是学生。",
+            "vi": "Tôi là sinh viên.",
+            "criteria": [
+              "Dùng đúng 是.",
+              "Sau 是 có danh từ thân phận."
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 0,
-            "explanation": "我很忙 là cách kể trạng thái trung tính; câu còn lại cần ngữ cảnh nhấn mạnh."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Điền từ còn thiếu: 我__学生。",
+            "hiddenAnswer": "是",
+            "model": "我是学生。"
           },
-          "q02": {
-            "correctIndex": 1,
-            "explanation": "不是 là phủ định của 是 khi xác định danh tính."
+          {
+            "id": "r2",
+            "prompt": "Có dùng 是 trước 忙 trong câu Tôi rất bận không?",
+            "hiddenAnswer": "Không; 我很忙",
+            "model": "我很忙。"
           }
-        },
-        "pronunciation": {
-          "text": "是 mang thanh bốn, đọc gọn và hạ giọng. Trong 不是, 不 có thanh gốc là thanh bốn nhưng khi đứng trước 是 thanh bốn thường đọc thành thanh hai; 是 vẫn giữ thanh bốn. Không đọc âm cuối thành một âm riêng."
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi là sinh viên.",
+            "choices": [
+              "我",
+              "是",
+              "学生",
+              "。"
+            ],
+            "correct": [
+              "我是学生。"
+            ],
+            "explanation": "是 đứng giữa 我 và 学生."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn câu tự nhiên để nói Tôi rất bận.",
+            "choices": [
+              "我很忙。",
+              "我是忙。"
+            ],
+            "correctIndex": 0,
+            "explanation": "忙 là tính từ."
+          }
         }
       }
     },
@@ -6927,57 +6600,31 @@
       "meaning": "tên là",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 02; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 005",
       "examples": [
         {
-          "zh": "我叫小明。",
-          "vi": "Tôi tên là Tiểu Minh.",
-          "scene": "Bạn giới thiệu tên trong lớp.",
-          "why": "叫 nối người nói với tên gọi 小明.",
-          "position": "我 trước 叫, tên 小明 sau 叫, không chèn 是.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói tên mình là Tiểu Minh.",
-            "choice": "Chọn 我叫 và tên gọi 小明.",
-            "order": "Xếp người mang tên, 叫, rồi tên.",
-            "result": "我叫小明。"
-          },
-          "id": "e01"
+          "id": "e1",
+          "zh": "我叫安娜。",
+          "pinyin": "Wǒ jiào Ānnà.",
+          "vi": "Tôi tên là Anna.",
+          "analysis": "我叫 + tên dùng để tự giới thiệu tên.",
+          "practiceAllowed": true
         },
         {
-          "zh": "她叫小红。",
-          "vi": "Cô ấy tên là Tiểu Hồng.",
-          "scene": "Bạn giới thiệu tên của bạn nữ.",
-          "why": "Đổi người mang tên và tên, cách dùng 叫 giữ nguyên.",
-          "position": "她 làm người mang tên, 小红 là tên được nói tới.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
+          "id": "e2",
           "zh": "你叫什么名字？",
+          "pinyin": "Nǐ jiào shénme míngzi?",
           "vi": "Bạn tên là gì?",
-          "scene": "Bạn hỏi tên người mới quen.",
-          "why": "什么名字 thay cho tên chưa biết; 什么 nghĩa là gì.",
-          "position": "什么名字 ở sau 叫, là vị trí tên trong câu kể; không thêm 吗.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "我不叫小明。",
-          "vi": "Tôi không tên là Tiểu Minh.",
-          "scene": "Người khác gọi nhầm tên bạn.",
-          "why": "不叫 phủ định tên đang bị gán nhầm, không nói bạn chưa gọi ai.",
-          "position": "不 trước 叫; tên bị phủ định vẫn sau 叫.",
-          "practiceAllowed": true,
-          "id": "e04"
+          "analysis": "什么 đứng trước 名字 để hỏi tên; 叫 đứng sau chủ thể.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn giới thiệu tên khi làm quen.",
       "when": "叫 dùng để giới thiệu tên trong bài này. Chủ thể đứng trước; tên đứng ngay sau.",
       "pattern": "người + 叫 + tên; người + 叫什么名字",
       "trap": "Không thêm 是 vào mẫu 我叫小明 để thành 我是叫小明. Chọn 我叫小明 hoặc 我是小明 trong tình huống phù hợp.",
-      "task": "Giới thiệu tên và hỏi tên người đối diện.",
-      "model": "我叫小明。你叫什么名字？",
+      "task": "Nói tên của bạn.",
+      "model": "我叫安娜。",
       "phrases": [
         "我叫小明。"
       ],
@@ -7020,232 +6667,196 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 15,
+        "difficulty": "medium",
+        "difficultyReason": "叫 vừa dùng để nói tên vừa xuất hiện trong câu hỏi tên, cần phân biệt với 是 và cách hỏi 什么.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Introducing_names"
+        ],
         "introduction": {
-          "partOfSpeech": "Động từ dùng khi nói tên gọi.",
-          "scope": "Học nghĩa tên là để tự giới thiệu và hỏi tên. Nghĩa gọi ai hoặc kêu, la để ở Học thêm."
-        },
-        "meaning": {
-          "scene": "Bạn lần đầu gặp một người trong lớp và muốn giới thiệu tên mình.",
-          "explanation": "叫 đặt trước tên để nói một người được gọi bằng tên đó. Trong khung giới thiệu, tiếng Việt tự nhiên là tôi tên là, không phải tôi gọi ai.",
-          "boundary": "叫 theo nghĩa đang học cần tên gọi, không dùng trực tiếp với nghề để nói nghề nghiệp. Nói mình là giáo viên dùng 是老师.",
-          "conditions": [
-            "Tên đứng sau 叫; người mang tên thường đứng trước.",
-            "Hỏi tên có thể đặt 什么名字 sau 叫; câu này không thêm 吗."
-          ],
-          "takeaway": "Khi muốn nói hoặc hỏi tên một người, bạn có thể dùng 叫 trước tên hoặc trước 什么名字.",
-          "alternatives": [
-            {
-              "zh": "我是老师。",
-              "vi": "Tôi là giáo viên.",
-              "purpose": "是 giới thiệu nghề; 老师 là giáo viên."
-            },
-            {
-              "zh": "请叫老师来。",
-              "vi": "Hãy gọi giáo viên đến.",
-              "purpose": "叫 ở đây là gọi ai đến làm việc gì, không phải nói tên; 来 là đến."
-            }
-          ]
+          "scope": "叫 dùng trong mẫu giới thiệu hoặc hỏi tên, với người/tên đứng sau nó."
         },
         "examples": [
           {
-            "zh": "我叫小明。",
-            "vi": "Tôi tên là Tiểu Minh.",
-            "scene": "Bạn giới thiệu tên trong lớp.",
-            "why": "叫 nối người nói với tên gọi 小明.",
-            "position": "我 trước 叫, tên 小明 sau 叫, không chèn 是.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói tên mình là Tiểu Minh.",
-              "choice": "Chọn 我叫 và tên gọi 小明.",
-              "order": "Xếp người mang tên, 叫, rồi tên.",
-              "result": "我叫小明。"
-            },
-            "id": "e01"
+            "id": "e1",
+            "zh": "我叫安娜。",
+            "pinyin": "Wǒ jiào Ānnà.",
+            "vi": "Tôi tên là Anna.",
+            "analysis": "我叫 + tên dùng để tự giới thiệu tên.",
+            "practiceAllowed": true
           },
           {
-            "zh": "她叫小红。",
-            "vi": "Cô ấy tên là Tiểu Hồng.",
-            "scene": "Bạn giới thiệu tên của bạn nữ.",
-            "why": "Đổi người mang tên và tên, cách dùng 叫 giữ nguyên.",
-            "position": "她 làm người mang tên, 小红 là tên được nói tới.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
+            "id": "e2",
             "zh": "你叫什么名字？",
+            "pinyin": "Nǐ jiào shénme míngzi?",
             "vi": "Bạn tên là gì?",
-            "scene": "Bạn hỏi tên người mới quen.",
-            "why": "什么名字 thay cho tên chưa biết; 什么 nghĩa là gì.",
-            "position": "什么名字 ở sau 叫, là vị trí tên trong câu kể; không thêm 吗.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "我不叫小明。",
-            "vi": "Tôi không tên là Tiểu Minh.",
-            "scene": "Người khác gọi nhầm tên bạn.",
-            "why": "不叫 phủ định tên đang bị gán nhầm, không nói bạn chưa gọi ai.",
-            "position": "不 trước 叫; tên bị phủ định vẫn sau 叫.",
-            "practiceAllowed": true,
-            "id": "e04"
+            "analysis": "什么 đứng trước 名字 để hỏi tên; 叫 đứng sau chủ thể.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Tự giới thiệu hoặc giới thiệu tên người khác.",
-            "frame": "Người mang tên + 叫 + tên gọi.",
-            "position": "叫 đứng sau người, trước tên.",
-            "required": "Cần tên nếu muốn cung cấp tên trong câu đầy đủ; không cần 的 hoặc 是.",
-            "omission": "Khi hỏi tên, người nghe có thể chỉ đáp 小明; đó là câu trả lời lược theo ngữ cảnh.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi người và tên sang một người nữ.",
-              "exampleId": "e02",
-              "limit": "Dùng tên thật hoặc tên người đó muốn được gọi; không thay tên bằng nghề nghiệp."
-            },
-            "caution": "我叫老师 có thể được hiểu là tôi gọi giáo viên theo nghĩa khác, không giới thiệu nghề.",
-            "forms": [
+            "id": "name",
+            "title": "Tên là, được gọi là",
+            "when": "Giới thiệu tên mình hoặc hỏi tên người khác.",
+            "meaning": "tên là; gọi là",
+            "grammar": "Chủ thể đứng trước 叫, tên hoặc 什么 đứng sau.",
+            "pattern": "我/你+叫+（什么）名字",
+            "collocations": [
               {
-                "type": "Đính chính tên",
-                "exampleId": "e04",
-                "why": "不 đứng trước 叫 để bác bỏ tên nhầm."
+                "zh": "我叫…",
+                "pinyin": "wǒ jiào …",
+                "vi": "tôi tên là…"
               }
             ],
-            "collocations": [],
-            "id": "u01"
-          },
-          {
-            "intent": "Hỏi tên để làm quen.",
-            "frame": "你 + 叫 + 什么名字？",
-            "position": "Giữ vị trí tên sau 叫, thay tên cụ thể bằng 什么名字.",
-            "required": "什么 tạo nội dung cần hỏi; 名字 là tên gọi.",
-            "omission": "Người đã được chỉ rõ có thể lược chủ thể trong hội thoại; 你叫什么名字 là mẫu đầy đủ.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Chuyển từ hỏi tên sang tự trả lời bằng tên cụ thể.",
-              "exampleId": "e01",
-              "limit": "Chỉ thay phần cần biết bằng tên; không giữ 什么 sau khi đã trả lời."
-            },
-            "caution": "Không thêm 吗 vào câu hỏi dùng 什么名字 theo mẫu cơ bản.",
-            "forms": [
+            "examples": [
               {
-                "type": "Câu hỏi tên",
-                "exampleId": "e03",
-                "why": "什么 nằm tại chỗ thông tin chưa biết; đây không phải câu hỏi có/không."
-              }
-            ],
-            "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Nhầm tên gọi với nghề nghiệp",
-            "scene": "Bạn muốn nói mình là giáo viên.",
-            "possibleConfusion": "Bạn có thể dễ nhầm dịch tên là và là đều thành 叫.",
-            "difference": "叫 trong tự giới thiệu đi với tên; 是 đi với danh tính nghề.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我是老师。",
-                "vi": "Tôi là giáo viên.",
-                "judgment": "correct",
-                "comment": "Giới thiệu nghề nghiệp.",
-                "practiceAllowed": false
+                "zh": "我叫安娜。",
+                "pinyin": "Wǒ jiào Ānnà.",
+                "vi": "Tôi tên là Anna.",
+                "note": "Tên riêng đứng sau 叫."
               },
               {
-                "id": "case-2",
-                "zh": "我叫老师。",
-                "vi": "Tôi gọi giáo viên.",
-                "judgment": "different-meaning",
-                "comment": "Câu có thể hiểu theo nghĩa gọi ai; không diễn đạt nghề của người nói.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 是 bằng 叫 trước 老师 đổi từ nghề nghiệp sang hành động gọi, hoặc cần ngữ cảnh đặc biệt về tên gọi. Để giới thiệu nghề dùng 我是老师。"
-            },
-            "boundary": "Có người có biệt danh trùng danh từ, nhưng đó là ngữ cảnh riêng; không dùng làm mẫu nghề nghiệp.",
-            "tip": "Tên cụ thể: 叫; vai trò nghề nghiệp: 是.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Thêm 吗 sau câu đã hỏi 什么",
-            "scene": "Bạn muốn biết tên một người.",
-            "possibleConfusion": "Bạn có thể dễ nhầm mọi câu hỏi đều thêm 吗.",
-            "difference": "什么名字 đã hỏi tên; 吗 dùng cho câu hỏi có/không, không ghép máy móc vào mẫu hỏi tên này.",
-            "cases": [
-              {
-                "id": "case-1",
                 "zh": "你叫什么名字？",
-                "vi": "Bạn tên gì?",
-                "judgment": "correct",
-                "comment": "Hỏi thông tin tên.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "你叫什么名字吗？",
-                "vi": "Ý định: bạn tên gì?",
-                "judgment": "wrong-grammar",
-                "comment": "Không phải mẫu câu hỏi tên chuẩn, trung tính.",
-                "practiceAllowed": false
+                "pinyin": "Nǐ jiào shénme míngzi?",
+                "vi": "Bạn tên là gì?",
+                "note": "什么 hỏi phần tên chưa biết."
               }
-            ],
-            "replacement": {
-              "result": "wrong-grammar",
-              "explanation": "Bỏ 吗 để hỏi tên chưa biết: 你叫什么名字？"
-            },
-            "boundary": "Khi đã đoán một tên cụ thể, có thể hỏi 你叫小明吗？, nghĩa là bạn tên Tiểu Minh phải không.",
-            "tip": "Tên chưa biết: 什么名字; xác nhận một tên cụ thể: tên rồi 吗.",
-            "corrections": [
-              {
-                "caseId": "case-2",
-                "zh": "你叫什么名字？",
-                "vi": "Bạn tên gì?",
-                "reason": "Bỏ 吗 vì 什么 đã hỏi thông tin tên."
-              }
-            ],
-            "id": "t02",
-            "checkId": "q02"
-          }
-        ],
-        "checks": [
-          {
-            "id": "q01",
-            "question": "Chọn câu giới thiệu mình làm giáo viên.",
-            "choices": [
-              "我叫老师。",
-              "我是老师。"
-            ]
-          },
-          {
-            "id": "q02",
-            "question": "Bạn chưa biết tên người đối diện. Chọn câu hỏi đúng.",
-            "choices": [
-              "你叫什么名字？",
-              "你叫什么名字吗？"
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "老师 là nghề trong ý định này; cần 是."
+        "confusions": [
+          {
+            "id": "is",
+            "afterSense": "name",
+            "title": "叫 và 是 trong giới thiệu tên",
+            "explanation": "我叫安娜 tập trung vào tên gọi; 我是安娜 xác định người nói là Anna trong một tình huống nhận diện.",
+            "contrasts": [
+              {
+                "zh": "我叫安娜。",
+                "pinyin": "Wǒ jiào Ānnà.",
+                "vi": "Tôi tên là Anna.",
+                "note": "Cách tự giới thiệu tên tự nhiên."
+              },
+              {
+                "zh": "我是安娜。",
+                "pinyin": "Wǒ shì Ānnà.",
+                "vi": "Tôi là Anna.",
+                "note": "Xác nhận danh tính, không phải mẫu hỏi tên cơ bản."
+              }
+            ],
+            "tip": "Khi chủ động giới thiệu tên, ưu tiên 我叫 + tên."
+          }
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi tên là Anna.",
+            "tokens": [
+              "我",
+              "叫",
+              "安娜",
+              "。"
+            ],
+            "accepted": [
+              "我叫安娜。"
+            ],
+            "model": "我叫安娜。",
+            "explanation": "叫 đứng sau 我 và trước tên.",
+            "wrongFeedback": "Đặt tên sau 叫."
           },
-          "q02": {
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 你____什么名字？",
+            "accepted": [
+              "叫"
+            ],
+            "model": "你叫什么名字？",
+            "explanation": "叫 đứng sau chủ thể 你 trong câu hỏi tên.",
+            "wrongFeedback": "Câu hỏi tên dùng 你叫…"
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "is",
+            "type": "choice",
+            "prompt": "Khi tự giới thiệu tên, câu nào tự nhiên hơn?",
+            "choices": [
+              "我叫安娜。",
+              "我是安娜。"
+            ],
             "correctIndex": 0,
-            "explanation": "什么名字 tự tạo câu hỏi tên; không thêm 吗."
+            "model": "我叫安娜。",
+            "explanation": "叫 là mẫu giới thiệu tên thông dụng.",
+            "wrongFeedback": "Xác định đây là giới thiệu tên hay xác nhận danh tính."
           }
-        },
-        "pronunciation": {
-          "text": "叫 mang thanh bốn, đọc một âm tiết liền và gọn, không tách thành nhiều tiếng Việt. Trong 不叫, 不 đứng trước thanh bốn nên thường đọc thành thanh hai; 叫 giữ thanh bốn."
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Tự giới thiệu tên là Anna.",
+            "hints": [
+              "Nêu chủ thể: 我.",
+              "Dùng 叫 trước tên.",
+              "Mẫu: 我叫安娜。"
+            ],
+            "model": "我叫安娜。",
+            "vi": "Tôi tên là Anna.",
+            "criteria": [
+              "Dùng đúng 我叫.",
+              "Tên đứng sau 叫."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Điền từ: 我__安娜。",
+            "hiddenAnswer": "叫",
+            "model": "我叫安娜。"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hỏi tên người khác bằng mẫu 你…什么名字?",
+            "hiddenAnswer": "你叫什么名字",
+            "model": "你叫什么名字？"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi tên là Anna.",
+            "choices": [
+              "我",
+              "叫",
+              "安娜",
+              "。"
+            ],
+            "correct": [
+              "我叫安娜。"
+            ],
+            "explanation": "叫 đứng trước tên."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Khi tự giới thiệu tên, câu nào tự nhiên hơn?",
+            "choices": [
+              "我叫安娜。",
+              "我是安娜。"
+            ],
+            "correctIndex": 0,
+            "explanation": "我叫 là mẫu giới thiệu tên."
+          }
         }
       }
     },
@@ -7263,57 +6874,31 @@
       "meaning": "tên",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 02; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 005",
       "examples": [
         {
-          "zh": "我的名字叫小明。",
-          "vi": "Tên tôi là Tiểu Minh.",
-          "scene": "Bạn giới thiệu tên bằng một câu đầy đủ.",
-          "why": "我的名字 là tên của tôi; 叫 đưa ra tên cụ thể.",
-          "position": "我 và 的 bổ nghĩa cho 名字; 叫 đứng sau cả cụm.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói tên của mình là Tiểu Minh.",
-            "choice": "Chọn 我的名字 rồi dùng 叫 với 小明.",
-            "order": "Xếp tên của ai, 叫, rồi tên cụ thể.",
-            "result": "我的名字叫小明。"
-          },
-          "id": "e01"
-        },
-        {
-          "zh": "她的名字叫小红。",
-          "vi": "Tên cô ấy là Tiểu Hồng.",
-          "scene": "Bạn giới thiệu tên một người nữ.",
-          "why": "她的 chỉ người sở hữu tên; không phải tự giới thiệu tên mình.",
-          "position": "她的 đứng trước 名字, không đặt sau 名字.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "请写你的名字。",
-          "vi": "Hãy viết tên của bạn.",
-          "scene": "Bạn hướng dẫn người khác điền tên.",
-          "why": "写 là viết; 你的名字 là thông tin cần viết.",
-          "position": "请 ở đầu làm lời yêu cầu lịch sự; 写 trước 你的名字.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
+          "id": "e1",
           "zh": "你叫什么名字？",
-          "vi": "Bạn tên gì?",
-          "scene": "Bạn hỏi tên khi làm quen.",
-          "why": "什么名字 hỏi tên chưa biết; không hỏi nghề nghiệp.",
-          "position": "什么 đứng trước 名字; cả cụm sau 叫.",
-          "practiceAllowed": true,
-          "id": "e04"
+          "pinyin": "Nǐ jiào shénme míngzi?",
+          "vi": "Bạn tên là gì?",
+          "analysis": "名字 là danh từ tên; 什么 đứng trước nó để hỏi tên chưa biết.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我的名字是安娜。",
+          "pinyin": "Wǒ de míngzi shì Ānnà.",
+          "vi": "Tên tôi là Anna.",
+          "analysis": "我的 đặt trước 名字 để nói tên của mình.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn nhận xét tên người vừa làm quen.",
       "when": "名字 chỉ tên gọi của người hoặc vật. Trong lời hỏi thông thường, thường hiểu là tên của người đối thoại.",
       "pattern": "người + 的 + 名字; 叫什么名字",
       "trap": "名字 không tự là hoạt động đặt hoặc giới thiệu tên. Nói 我叫小明 hoặc 我的名字是小明, không nói 我名字小明 trong bài cơ bản.",
-      "task": "Viết câu giới thiệu tên và yêu cầu bạn viết tên.",
-      "model": "我的名字叫小明。请写你的名字。",
+      "task": "Hỏi tên của người đối diện.",
+      "model": "你叫什么名字？",
       "phrases": [
         "请写你的名字。"
       ],
@@ -7356,225 +6941,164 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 16,
+        "difficulty": "easy",
+        "difficultyReason": "名字 là danh từ quen thuộc với mẫu hỏi và trả lời trực tiếp.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Introducing_names"
+        ],
         "introduction": {
-          "partOfSpeech": "Danh từ chỉ tên gọi.",
-          "scope": "Trọng tâm là tên của người; chưa đi sâu tên đồ vật và phân biệt các thành phần pháp lý trong họ tên."
-        },
-        "meaning": {
-          "scene": "Bạn điền biểu mẫu hoặc muốn biết người mới quen tên gì.",
-          "explanation": "名字 là tên gọi để nhận biết một người. Trong câu hỏi giao tiếp 你叫什么名字, người nghe có thể nói tên thường dùng hoặc họ tên tùy tình huống.",
-          "boundary": "名字 chỉ tên, không phải bản thân người mang tên. Đừng coi 名字 lúc nào cũng bắt buộc là tên không gồm họ; biểu mẫu có thể quy định riêng.",
-          "conditions": [
-            "Làm chủ thể khi nói tên của ai là gì; làm đối tượng sau 写 khi viết tên.",
-            "Muốn hỏi tên, dùng 什么名字; muốn chỉ tên của mình, dùng 我的名字."
-          ],
-          "takeaway": "Khi muốn nói về tên gọi của một người, bạn có thể dùng 名字; thêm người và 的 khi cần rõ tên của ai.",
-          "alternatives": [
-            {
-              "zh": "我姓王。",
-              "vi": "Tôi họ Vương.",
-              "purpose": "姓 là mang họ; dùng khi chỉ hỏi hoặc nói họ, không thay mọi câu hỏi tên."
-            }
-          ]
+          "scope": "名字 là tên của một người, dùng trong câu hỏi hoặc câu giới thiệu tên."
         },
         "examples": [
           {
-            "zh": "我的名字叫小明。",
-            "vi": "Tên tôi là Tiểu Minh.",
-            "scene": "Bạn giới thiệu tên bằng một câu đầy đủ.",
-            "why": "我的名字 là tên của tôi; 叫 đưa ra tên cụ thể.",
-            "position": "我 và 的 bổ nghĩa cho 名字; 叫 đứng sau cả cụm.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói tên của mình là Tiểu Minh.",
-              "choice": "Chọn 我的名字 rồi dùng 叫 với 小明.",
-              "order": "Xếp tên của ai, 叫, rồi tên cụ thể.",
-              "result": "我的名字叫小明。"
-            },
-            "id": "e01"
-          },
-          {
-            "zh": "她的名字叫小红。",
-            "vi": "Tên cô ấy là Tiểu Hồng.",
-            "scene": "Bạn giới thiệu tên một người nữ.",
-            "why": "她的 chỉ người sở hữu tên; không phải tự giới thiệu tên mình.",
-            "position": "她的 đứng trước 名字, không đặt sau 名字.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "请写你的名字。",
-            "vi": "Hãy viết tên của bạn.",
-            "scene": "Bạn hướng dẫn người khác điền tên.",
-            "why": "写 là viết; 你的名字 là thông tin cần viết.",
-            "position": "请 ở đầu làm lời yêu cầu lịch sự; 写 trước 你的名字.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
+            "id": "e1",
             "zh": "你叫什么名字？",
-            "vi": "Bạn tên gì?",
-            "scene": "Bạn hỏi tên khi làm quen.",
-            "why": "什么名字 hỏi tên chưa biết; không hỏi nghề nghiệp.",
-            "position": "什么 đứng trước 名字; cả cụm sau 叫.",
-            "practiceAllowed": true,
-            "id": "e04"
+            "pinyin": "Nǐ jiào shénme míngzi?",
+            "vi": "Bạn tên là gì?",
+            "analysis": "名字 là danh từ tên; 什么 đứng trước nó để hỏi tên chưa biết.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我的名字是安娜。",
+            "pinyin": "Wǒ de míngzi shì Ānnà.",
+            "vi": "Tên tôi là Anna.",
+            "analysis": "我的 đặt trước 名字 để nói tên của mình.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Nói tên của ai và tên đó là gì.",
-            "frame": "Người + 的 + 名字 + 叫 + tên.",
-            "position": "的 nối người sở hữu với 名字, cả cụm trước 叫.",
-            "required": "Cần thông tin tên để hoàn thành lời giới thiệu; 叫 nối tới tên cụ thể.",
-            "omission": "Có thể nói gọn 我叫小明; bỏ cả cụm 的名字 khi đổi sang mẫu người + 叫 + tên.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi từ tên mình sang tên cô ấy.",
-              "exampleId": "e02",
-              "limit": "Thay người sở hữu và tên tương ứng, không đảo 的 ra sau danh từ."
-            },
-            "caution": "Không thêm 是 trước 叫 trong mẫu giới thiệu tên này.",
-            "forms": [],
+            "id": "name",
+            "title": "Tên",
+            "when": "Nói hoặc hỏi tên của một người.",
+            "meaning": "tên",
+            "grammar": "Có thể dùng sau 什么 để hỏi hoặc sau 的 để nói tên của ai.",
+            "pattern": "什么+名字；我的+名字",
             "collocations": [
               {
                 "zh": "我的名字",
-                "vi": "tên của tôi",
-                "purpose": "Chỉ rõ tên thuộc người nói."
-              },
-              {
-                "zh": "你的名字",
-                "vi": "tên của bạn",
-                "purpose": "Yêu cầu người nghe cung cấp tên."
+                "pinyin": "wǒ de míngzi",
+                "vi": "tên của tôi"
               }
             ],
-            "id": "u01"
-          },
-          {
-            "intent": "Yêu cầu viết tên hoặc hỏi tên.",
-            "frame": "请 + 写 + người + 的 + 名字; 你 + 叫 + 什么名字？",
-            "position": "名字 ở cuối cụm đối tượng của 写; 什么 bổ nghĩa cho 名字 trong câu hỏi.",
-            "required": "Phải xác định viết tên ai nếu ngữ cảnh chưa rõ; 什么 chỉ thông tin tên đang hỏi.",
-            "omission": "请写名字 có thể đủ trên một biểu mẫu khi người viết đã rõ; không coi bỏ 你的 luôn sai.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Chuyển từ yêu cầu viết tên sang hỏi tên bằng lời.",
-              "exampleId": "e04",
-              "limit": "Hai hành động giao tiếp khác nhau; giữ 名字 nhưng thay cả khung câu tương ứng."
-            },
-            "caution": "Không gắn 吗 vào 你叫什么名字 vì 什么 đã hỏi tên.",
-            "forms": [
+            "examples": [
               {
-                "type": "Hỏi tên",
-                "exampleId": "e04",
-                "why": "什么名字 thay cho tên chưa biết."
-              }
-            ],
-            "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Nhầm tên của người với chính người ấy",
-            "scene": "Bạn muốn nói người nữ đó là bạn của mình.",
-            "possibleConfusion": "Bạn có thể dễ nhầm vì 名字 thường xuất hiện khi giới thiệu người, nên dùng nó để thay người.",
-            "difference": "她 là cô ấy; 她的名字 là tên của cô ấy, hai cụm chỉ hai thứ khác nhau.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "她是我的朋友。",
-                "vi": "Cô ấy là bạn của tôi.",
-                "judgment": "correct",
-                "comment": "Chủ thể là người, phù hợp quan hệ bạn bè.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "她的名字是我的朋友。",
-                "vi": "Tên của cô ấy là bạn của tôi.",
-                "judgment": "wrong-intent",
-                "comment": "Hình thức nối danh từ có thể đọc được, nhưng biến cái tên thành người bạn; không phù hợp ý định thông thường.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Thay 她 bằng 她的名字 đổi chủ thể thành tên gọi. Muốn giới thiệu bạn, dùng 她是我的朋友。"
-            },
-            "boundary": "Có thể nói về một tên gọi như chủ đề đặc biệt trong văn chương, nhưng không phải cách giới thiệu quan hệ đang học.",
-            "tip": "Hỏi ai: nói người; hỏi tên gì: nói 名字.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Đồng nhất mọi câu hỏi tên với câu hỏi họ",
-            "scene": "Bạn mới làm quen, muốn biết tên thường gọi của người kia.",
-            "possibleConfusion": "Bạn có thể dễ nhầm 名字 bắt buộc chỉ phần tên riêng và luôn loại họ khỏi câu trả lời.",
-            "difference": "你叫什么名字 hỏi tên gọi nói chung trong giao tiếp; 你姓什么 hỏi riêng họ. Câu trả lời cho câu đầu tùy ngữ cảnh.",
-            "cases": [
-              {
-                "id": "case-1",
                 "zh": "你叫什么名字？",
-                "vi": "Bạn tên gì?",
-                "judgment": "correct",
-                "comment": "Hỏi tên gọi, có thể nhận tên thường dùng hoặc họ tên.",
-                "practiceAllowed": false
+                "pinyin": "Nǐ jiào shénme míngzi?",
+                "vi": "Bạn tên là gì?",
+                "note": "什么 đứng trước 名字."
               },
               {
-                "id": "case-2",
-                "zh": "你姓什么？",
-                "vi": "Bạn họ gì?",
-                "judgment": "different-meaning",
-                "comment": "姓 hỏi riêng họ; phạm vi hẹp hơn.",
-                "practiceAllowed": false
+                "zh": "我的名字是安娜。",
+                "pinyin": "Wǒ de míngzi shì Ānnà.",
+                "vi": "Tên tôi là Anna.",
+                "note": "我的 nói tên thuộc về tôi."
               }
+            ]
+          }
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Bạn tên là gì?",
+            "tokens": [
+              "你",
+              "叫",
+              "什么",
+              "名字",
+              "？"
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 叫什么名字 bằng 姓什么 đổi nội dung cần trả lời từ tên gọi sang họ."
-            },
-            "boundary": "Trên biểu mẫu, hãy theo nhãn hướng dẫn; 姓名 thường yêu cầu họ tên đầy đủ. Không suy mọi nhãn 名字 có cùng một quy định hành chính.",
-            "tip": "Muốn riêng họ: hỏi 姓; muốn tên để xưng gọi: hỏi 叫什么名字.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
+            "accepted": [
+              "你叫什么名字？"
+            ],
+            "model": "你叫什么名字？",
+            "explanation": "你叫 đứng trước 什么名字.",
+            "wrongFeedback": "Đặt 什么 trước 名字."
           }
         ],
-        "checks": [
+        "discriminationExercises": [
           {
-            "id": "q01",
-            "question": "Cụm 她的名字 chỉ điều gì?",
+            "id": "d1",
+            "senseId": "name",
+            "type": "meaning",
+            "prompt": "Chọn câu hỏi về tên.",
             "choices": [
-              "Cô ấy.",
-              "Tên của cô ấy."
-            ]
-          },
-          {
-            "id": "q02",
-            "question": "Người kia hỏi 你姓什么. Họ muốn biết phần nào?",
-            "choices": [
-              "Họ của bạn.",
-              "Nghề của bạn."
-            ]
-          }
-        ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "的 nối 她 với 名字 thành tên thuộc về cô ấy, không phải chính người đó."
-          },
-          "q02": {
+              "你叫什么名字？",
+              "你好吗？"
+            ],
             "correctIndex": 0,
-            "explanation": "姓 hỏi họ; không phải câu hỏi nghề."
+            "model": "你叫什么名字？",
+            "explanation": "Câu thứ nhất hỏi tên.",
+            "wrongFeedback": "Nhận diện câu hỏi tên."
           }
-        },
-        "pronunciation": {
-          "text": "名 mang thanh hai; 子 trong 名字 thường là thanh nhẹ. Âm nhẹ vẫn phải phát ra, thường ngắn và nhẹ hơn; không bỏ âm, không tự đọc thành thanh một. Tập nối hai âm thành một từ, tránh nhấn âm 子 như một từ riêng."
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Hỏi tên một người mới gặp.",
+            "hints": [
+              "Nêu ý: hỏi tên.",
+              "Dùng 你叫 + 什么名字.",
+              "Mẫu: 你叫什么名字？"
+            ],
+            "model": "你叫什么名字？",
+            "vi": "Bạn tên là gì?",
+            "criteria": [
+              "Dùng đúng 名字."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào có nghĩa là tên?",
+            "hiddenAnswer": "名字",
+            "model": "名字"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 你叫什么____？",
+            "hiddenAnswer": "名字",
+            "model": "你叫什么名字？"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Bạn tên là gì?",
+            "choices": [
+              "你",
+              "叫",
+              "什么",
+              "名字",
+              "？"
+            ],
+            "correct": [
+              "你叫什么名字？"
+            ],
+            "explanation": "什么 đứng trước 名字."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn câu hỏi về tên.",
+            "choices": [
+              "你叫什么名字？",
+              "你好吗？"
+            ],
+            "correctIndex": 0,
+            "explanation": "Câu thứ nhất hỏi tên."
+          }
         }
       }
     },
