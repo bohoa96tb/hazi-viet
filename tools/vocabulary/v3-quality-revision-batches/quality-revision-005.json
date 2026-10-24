@@ -1,0 +1,274 @@
+{
+  "id": "quality-revision-005",
+  "authorship": "Rà soát nội bộ theo chuẩn V3 nâng cao; chưa có phản biện độc lập của giáo viên thứ hai.",
+  "entries": [
+    {
+      "id": "hz-h1-489f35fdb6de",
+      "hanzi": "她",
+      "cohortOrdinal": 5,
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "wordEdits": {"editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 5", "task": "Giới thiệu nghề của một người nữ bạn biết.", "model": "她是医生。"},
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "difficultyReason": "Một đại từ ngôi thứ ba có nghĩa và vị trí khá trực tiếp; người học cần nhớ chữ viết 她 khác 他 dù hai chữ cùng đọc tā.",
+        "confusions": [
+          {
+            "id": "contrast",
+            "category": "C",
+            "afterSense": "main",
+            "title": "她 và 他: cùng đọc tā, khác người được chỉ",
+            "possibleConfusion": "Người Việt nghe tā rồi dễ chọn chữ theo âm hoặc nghĩ một chữ dùng cho mọi giới tính.",
+            "explanation": "她 dùng khi người được nhắc là nữ; 他 dùng khi người được nhắc là nam. Hai câu đều đúng ngữ pháp nhưng đổi chữ sẽ đổi người được chỉ.",
+            "difference": "Đây là hai chữ khác nhau có cùng cách đọc trong tiếng Trung hiện đại, không phải hai cách đọc của 她.",
+            "boundary": "Khi nghe chỉ có tā, dựa vào ngữ cảnh; khi viết phải dựa vào giới tính của người được nhắc.",
+            "contrasts": [
+              {"zh": "她是医生。", "pinyin": "Tā shì yīshēng.", "vi": "Cô ấy là bác sĩ.", "note": "她 chỉ người nữ; câu đúng và phù hợp với tình huống người nữ."},
+              {"zh": "他是医生。", "pinyin": "Tā shì yīshēng.", "vi": "Anh ấy là bác sĩ.", "note": "他 chỉ người nam; câu vẫn đúng ngữ pháp nhưng khác người được nói đến."}
+            ],
+            "tip": "Nghe tā chưa đủ để chọn chữ: nữ dùng 她, nam dùng 他."
+          }
+        ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "她 có một cách đọc thông dụng trong bài này là tā; 他 cùng đọc tā nhưng là chữ khác, không phải cách đọc thứ hai của 她."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "她 có một chức năng trọng tâm là đại từ chỉ một người nữ được nhắc đến; cách dịch cô ấy, chị ấy hay bà ấy tùy ngữ cảnh tiếng Việt."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Âm Hán Việt ‘tha’ không giúp người mới đoán cách dùng hiện đại; bẫy thực tế nằm ở chữ 她/他 và đã được dạy ở nhóm C."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 她 với 他: cùng âm tā nhưng khác giới tính của người được chỉ; hai câu đối chiếu đều đúng ngữ pháp nhưng khác nghĩa."}
+        }
+      }
+    },
+    {
+      "id": "hz-h1-14cd68fb49a8",
+      "hanzi": "我们",
+      "cohortOrdinal": 6,
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "wordEdits": {"editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 6", "task": "Nói một việc bạn và người khác cùng làm, hoặc giới thiệu nhóm của mình.", "model": "我们一起学习。"},
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, phạm vi bao gồm người nghe, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "confusions": [
+          {
+            "id": "contrast",
+            "category": "C",
+            "afterSense": "main",
+            "title": "我们 và 咱们: có thể bao gồm người nghe",
+            "possibleConfusion": "Tiếng Việt tách ‘chúng tôi’ và ‘chúng ta’ rõ hơn, nên người học dễ dịch 我们 thành một đáp án cố định.",
+            "explanation": "我们 luôn có người nói nhưng ngữ cảnh quyết định có bao gồm người nghe hay không. 咱们 trong khẩu ngữ thường làm rõ nhóm có cả người nghe.",
+            "difference": "我们 là lựa chọn trung tính và rộng; 咱们 thường mang sắc thái ‘chúng ta, cả bạn và tôi’ và không thay thế máy móc trong mọi văn phong.",
+            "boundary": "Muốn rủ người nghe cùng làm, thêm 一起 hoặc dùng ngữ cảnh rõ; đừng chỉ nhìn bản dịch tiếng Việt.",
+            "contrasts": [
+              {"zh": "我们是同事。", "pinyin": "Wǒmen shì tóngshì.", "vi": "Chúng tôi là đồng nghiệp.", "note": "Trong lời giới thiệu với khách, 我们 có thể không bao gồm người nghe."},
+              {"zh": "咱们一起学习吧。", "pinyin": "Zánmen yìqǐ xuéxí ba.", "vi": "Chúng ta cùng học nhé.", "note": "咱们 thường làm rõ người nghe cũng thuộc nhóm được rủ."}
+            ],
+            "tip": "Dịch theo tình huống: 我们 có thể là chúng tôi hoặc chúng ta; đừng gắn một nghĩa tiếng Việt cố định."
+          },
+          {
+            "id": "women-we",
+            "category": "C",
+            "afterSense": "main",
+            "title": "我们 và 你们: nhóm có người nói hay nhóm người nghe",
+            "possibleConfusion": "Cả hai đều chỉ nhiều người, nhưng người học có thể chọn nhầm theo số lượng thay vì xét vai giao tiếp.",
+            "explanation": "我们 có 我, nên nhóm có người nói. 你们 có 你, nên nhóm gồm từ hai người nghe trở lên và không lấy người nói làm trung tâm.",
+            "difference": "Cùng có 们 nhưng khác ngôi: 我们 = tôi và người khác; 你们 = bạn và những người cùng nghe.",
+            "boundary": "Nếu người nói thuộc nhóm đang được nói đến, dùng 我们; nếu chỉ gọi nhóm trước mặt, dùng 你们.",
+            "contrasts": [
+              {"zh": "我们一起学习。", "pinyin": "Wǒmen yìqǐ xuéxí.", "vi": "Chúng ta cùng học.", "note": "Người nói thuộc nhóm học."},
+              {"zh": "你们一起学习。", "pinyin": "Nǐmen yìqǐ xuéxí.", "vi": "Các bạn cùng học.", "note": "Người nói đứng ngoài, nói với nhóm người nghe."}
+            ],
+            "tip": "Nhìn chữ đầu: 我们 có ‘tôi’ trong nhóm, 你们 là nhóm người đang được gọi trực tiếp."
+          }
+        ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "我们 có một cách đọc thông dụng là wǒmen; không có cách đọc theo ngữ cảnh cần tách ở mức học này."},
+          "a2Meanings": {"checked": true, "found": true, "summary": "我们 có cùng một chức năng đại từ số nhiều nhưng có hai cách hiểu thực tế: chúng tôi không gồm người nghe hoặc chúng ta có gồm người nghe; ngữ cảnh quyết định."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không có bẫy Hán Việt hữu ích để suy nghĩa; bẫy dịch từng chữ đáng chú ý thực tế là ép 我们 chỉ thành ‘chúng tôi’ hoặc chỉ thành ‘chúng ta’, đã giải thích trong cách dùng."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã so sánh 我们 với 咱们 và 你们 để phân biệt bao gồm người nghe, người nói và sắc thái khẩu ngữ."}
+        }
+      }
+    },
+    {
+      "id": "hz-h1-84d9b4b03d4f",
+      "hanzi": "你们",
+      "cohortOrdinal": 7,
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "wordEdits": {"editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 7", "task": "Chào hoặc cảm ơn một nhóm người.", "model": "你们好。"},
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "confusions": [
+          {
+            "id": "contrast",
+            "category": "C",
+            "afterSense": "main",
+            "title": "你们 và 你: số người nghe",
+            "possibleConfusion": "Người học có thể thấy 你们 chỉ là 你 thêm 们 nhưng quên đổi số người trong tình huống.",
+            "explanation": "你 chỉ một người nghe; 你们 chỉ từ hai người nghe trở lên. 们 đánh dấu nhóm người, không dùng để gọi một người.",
+            "difference": "Hai câu đều đúng ngữ pháp nhưng khác đối tượng: một người so với nhiều người.",
+            "boundary": "Người nói không thuộc nhóm 你们; đây là nhóm đang được gọi trực tiếp.",
+            "contrasts": [
+              {"zh": "你好。", "pinyin": "Nǐ hǎo.", "vi": "Chào bạn.", "note": "Chào một người."},
+              {"zh": "你们好。", "pinyin": "Nǐmen hǎo.", "vi": "Chào các bạn.", "note": "Chào từ hai người trở lên."}
+            ],
+            "tip": "Một người dùng 你; nhiều người nghe dùng 你们."
+          }
+        ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "你们 có một cách đọc thông dụng là nǐmen; 们 không tạo cách đọc riêng theo ngữ cảnh."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "你们 có một nghĩa trọng tâm là chỉ nhóm người nghe; bản dịch các bạn, các anh chị hay mọi người tùy ngữ cảnh."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không có bẫy Hán Việt đáng kể; bẫy dịch từng chữ thực tế là bỏ qua 们 và dùng 你们 cho một người, đã được đối chiếu."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 你们 với 你 theo số người nghe; hai câu cùng là lời chào nhưng không thể thay thế khi số người khác nhau."}
+        }
+      }
+    },
+    {
+      "id": "hz-h1-0e7703e395dc",
+      "hanzi": "汉字",
+      "cohortOrdinal": 8,
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "wordEdits": {"editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 8", "task": "Nói về việc học, viết hoặc nhận ra chữ Hán và phân biệt với tiếng Hán.", "model": "我学习汉字。"},
+      "lessonPatch": {
+        "difficulty": "medium",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, lượng từ, kết hợp, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "difficultyReason": "汉字 vừa chỉ chữ viết nói chung vừa chỉ những chữ cụ thể; người học phải dùng lượng từ khi đếm và phân biệt chữ Hán với tiếng Hán 汉语/中文.",
+        "confusions": [
+          {
+            "id": "contrast",
+            "category": "A2",
+            "afterSense": "main",
+            "title": "汉字 nói chung và từng chữ cụ thể",
+            "possibleConfusion": "Người học thấy 汉字 là danh từ số nhiều theo tiếng Việt và dễ đặt số lượng trực tiếp trước từ này.",
+            "explanation": "Khi nói chung về chữ Hán, dùng 汉字 trực tiếp. Khi đếm từng chữ, thêm số và lượng từ 个: 三个汉字.",
+            "difference": "我写汉字 nói về hoạt động chung; 我写三个汉字 nói rõ có ba chữ cụ thể.",
+            "boundary": "Không bỏ 个 trong khung số + lượng từ + danh từ khi nêu số chữ ở mức cơ bản.",
+            "contrasts": [
+              {"zh": "我写汉字。", "pinyin": "Wǒ xiě Hànzì.", "vi": "Tôi viết chữ Hán.", "note": "Nói chung về hoạt động viết chữ Hán."},
+              {"zh": "我写三个汉字。", "pinyin": "Wǒ xiě sān ge Hànzì.", "vi": "Tôi viết ba chữ Hán.", "note": "Đếm ba chữ cụ thể với 个."}
+            ],
+            "tip": "Có con số cụ thể: số + 个 + 汉字."
+          },
+          {
+            "id": "hanzi-language",
+            "category": "C",
+            "afterSense": "main",
+            "title": "汉字 và 汉语/中文: chữ viết hay ngôn ngữ",
+            "possibleConfusion": "Tiếng Việt đều có thể nói ‘tiếng/chữ Hán’, khiến người học dùng 汉字 khi muốn nói mình học tiếng Trung.",
+            "explanation": "汉字 là chữ viết; 汉语 và 中文 là tiếng Trung/ngôn ngữ Trung Quốc. Học viết chữ là 学汉字, còn học tiếng là 学汉语 hoặc 学中文.",
+            "difference": "Câu 我学习汉字 nói về hệ thống chữ; câu 我学习汉语 nói về ngôn ngữ, gồm nghe nói và các kỹ năng khác tùy ngữ cảnh.",
+            "boundary": "Nếu sau động từ là đối tượng chữ cụ thể, dùng 汉字; nếu nói năng lực ngôn ngữ, chọn 汉语/中文.",
+            "contrasts": [
+              {"zh": "我学习汉字。", "pinyin": "Wǒ xuéxí Hànzì.", "vi": "Tôi học chữ Hán.", "note": "Tập trung vào mặt chữ và cách viết/nhận mặt chữ."},
+              {"zh": "我学习汉语。", "pinyin": "Wǒ xuéxí Hànyǔ.", "vi": "Tôi học tiếng Trung.", "note": "Tập trung vào ngôn ngữ tiếng Trung, không chỉ chữ viết."}
+            ],
+            "tip": "Chữ viết là 汉字; tiếng/ngôn ngữ là 汉语 hoặc 中文."
+          }
+        ],
+        "guidedExercises": [
+          {"id": "g1", "level": "Cơ bản · chạm sắp xếp", "type": "order", "prompt": "Chạm các mảnh để tạo câu: Tôi viết chữ Hán.", "tokens": ["我", "写", "汉字", "。"], "accepted": ["我写汉字。"], "model": "我写汉字。", "explanation": "汉字 là đối tượng của 写 nên đứng sau động từ.", "wrongFeedback": "Đặt 我 trước, 写 ở giữa và 汉字 sau động từ."},
+          {"id": "g2", "level": "Vận dụng · lượng từ", "type": "order", "prompt": "Chạm các mảnh để tạo câu: Tôi viết ba chữ Hán.", "tokens": ["我", "写", "三", "个", "汉字", "。"], "accepted": ["我写三个汉字。"], "model": "我写三个汉字。", "explanation": "Khi đếm chữ cụ thể, đặt số 三 và lượng từ 个 trước 汉字.", "wrongFeedback": "Đừng bỏ 个 giữa số 三 và danh từ 汉字."}
+        ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "汉字 có cách đọc thông dụng Hànzì; không có cách đọc phổ biến thứ hai cần tách ở mức học này."},
+          "a2Meanings": {"checked": true, "found": true, "summary": "Đã kiểm tra hai phạm vi dùng: 汉字 nói chung về chữ viết và 汉字 được đếm như những chữ cụ thể với lượng từ 个."},
+          "bLiteralTranslation": {"checked": true, "found": true, "summary": "Đã kiểm tra bẫy dịch ‘chữ Hán’ thành tiếng Trung hoặc ngược lại; không suy theo từng chữ Hán Việt mà phải xét đối tượng là chữ viết hay ngôn ngữ."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 汉字 với 汉语/中文; đây là khác biệt chữ viết và ngôn ngữ, có ví dụ Hanzi, Pinyin và nghĩa Việt riêng."}
+        }
+      }
+    },
+    {
+      "id": "hz-h1-722d36ebd9c0",
+      "hanzi": "谢谢",
+      "cohortOrdinal": 9,
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "wordEdits": {"editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 9", "task": "Cảm ơn một người vừa giúp bạn.", "model": "谢谢你。"},
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "confusions": [
+          {
+            "id": "contrast",
+            "category": "C",
+            "afterSense": "main",
+            "title": "谢谢 và 不客气: cảm ơn hay đáp lời cảm ơn",
+            "possibleConfusion": "Hai cụm thường xuất hiện liền nhau trong hội thoại, nên người học dễ đảo vai người nói.",
+            "explanation": "谢谢 là lời của người nhận sự giúp đỡ hoặc thiện ý. 不客气 thường là lời của người vừa được cảm ơn để đáp lại.",
+            "difference": "Cùng một đoạn hội thoại có thể có cả hai câu nhưng chúng thuộc hai lượt nói và hai vai khác nhau.",
+            "boundary": "Xác định mình đang cảm ơn hay đang nhận lời cảm ơn trước khi chọn từ.",
+            "contrasts": [
+              {"zh": "谢谢你。", "pinyin": "Xièxie nǐ.", "vi": "Cảm ơn bạn.", "note": "Người vừa nhận giúp đỡ nói 谢谢."},
+              {"zh": "不客气。", "pinyin": "Bú kèqi.", "vi": "Không có gì.", "note": "Người vừa giúp đáp lại lời cảm ơn."}
+            ],
+            "tip": "Mình nhận giúp đỡ thì nói 谢谢; mình được cảm ơn thì thường đáp 不客气."
+          }
+        ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "谢谢 có cách đọc thông dụng xièxie trong bài này; âm tiết thứ hai thường đọc nhẹ, không tạo một nghĩa khác cần dạy."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "谢谢 có chức năng trọng tâm là bày tỏ lời cảm ơn; có thể đứng riêng hoặc theo sau là người/việc được cảm ơn, không phải hai nghĩa độc lập."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không có bẫy Hán Việt hữu ích; lỗi thực tế là dịch và dùng sai vai hội thoại, đã được đặt cạnh 不客气 để sửa."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 谢谢 với 不客气 theo vai giao tiếp và thứ tự lượt nói; hai từ không thể đổi chỗ dù thường đi thành cặp."}
+        }
+      }
+    },
+    {
+      "id": "hz-h1-3f50a387a499",
+      "hanzi": "不客气",
+      "cohortOrdinal": 10,
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "wordEdits": {"editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 10", "task": "Đáp lời một người vừa cảm ơn bạn đã giúp họ.", "model": "不客气。"},
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, vai giao tiếp, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "confusions": [
+          {
+            "id": "apology",
+            "category": "C",
+            "afterSense": "reply",
+            "title": "不客气 và 没关系: đáp cảm ơn hay đáp xin lỗi",
+            "possibleConfusion": "Tiếng Việt đều có thể dịch 不客气 và 没关系 thành ‘không sao/không có gì’, nhưng chúng đáp hai tình huống khác nhau.",
+            "explanation": "不客气 đáp 谢谢 khi người kia cảm ơn. 没关系 thường đáp 对不起 khi người kia xin lỗi hoặc lo mình bị phiền.",
+            "difference": "Đây là khác biệt vai giao tiếp, không phải câu sai ngữ pháp: đổi từ sẽ đổi tình huống được đáp.",
+            "boundary": "Nhìn lượt nói trước: 谢谢 → 不客气; 对不起 → 没关系.",
+            "contrasts": [
+              {"zh": "谢谢你。—不客气。", "pinyin": "Xièxie nǐ. — Bú kèqi.", "vi": "Cảm ơn bạn. — Không có gì.", "note": "Cặp cảm ơn và đáp lời cảm ơn."},
+              {"zh": "对不起。—没关系。", "pinyin": "Duìbuqǐ. — Méi guānxi.", "vi": "Xin lỗi. — Không sao.", "note": "Cặp xin lỗi và đáp lời xin lỗi; không thay 不客气 vào đây nếu muốn trấn an người xin lỗi."}
+            ],
+            "tip": "Cảm ơn thì 不客气; xin lỗi thì thường 没关系."
+          },
+          {
+            "id": "bukeqi-dont-be-polite",
+            "category": "C",
+            "afterSense": "reply",
+            "title": "不客气 và 别客气: lời đáp hay lời mời tự nhiên",
+            "possibleConfusion": "Người học có thể dịch cả hai là ‘đừng khách sáo’ rồi dùng lẫn trong mọi câu.",
+            "explanation": "不客气 đứng riêng rất tự nhiên để đáp 谢谢. Khi chủ động bảo khách đừng giữ ý, 别客气 thường tự nhiên hơn: 您别客气。",
+            "difference": "不客气 trong cặp A—B là lượt đáp; 别客气 là lời khuyên/lời mời người kia cứ tự nhiên, không cần giữ ý.",
+            "boundary": "Có lời cảm ơn ngay trước đó thì ưu tiên 不客气; đang mời khách dùng đồ hoặc nhận giúp đỡ thì thường dùng 别客气.",
+            "contrasts": [
+              {"zh": "谢谢你。—不客气。", "pinyin": "Xièxie nǐ. — Bú kèqi.", "vi": "Cảm ơn bạn. — Không có gì.", "note": "Lời đáp sau 谢谢."},
+              {"zh": "您别客气，请坐。", "pinyin": "Nín bié kèqi, qǐng zuò.", "vi": "Bác đừng khách sáo, mời ngồi.", "note": "Lời mời khách tự nhiên; không phải câu trả lời bắt buộc cho 谢谢."}
+            ],
+            "tip": "Đáp lời cảm ơn: 不客气; bảo người khác cứ tự nhiên: 别客气."
+          }
+        ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "不客气 có cách đọc thông dụng bú kèqi; 不 biến âm thành bú trước thanh 4 客, không tạo cách đọc hay nghĩa riêng cần tách ở bài này."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "Bài này kiểm tra cách dùng xã giao thông dụng của 不客气 là đáp lời cảm ơn; nghĩa ‘không khách sáo’ được đối chiếu bằng 别客气, không gán thành nghĩa thứ hai máy móc cho câu đáp."},
+          "bLiteralTranslation": {"checked": true, "found": true, "summary": "Dịch từng chữ ‘không khách khí’ dễ khiến người học dùng 不客气 cho mọi câu ‘không sao’; cần xét lời trước là cảm ơn hay xin lỗi và đã đối chiếu 没关系."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã so sánh 不客气 với 没关系 và 别客气 bằng hai đoạn hội thoại đối chiếu, kèm Pinyin, nghĩa Việt, ranh giới và mẹo chọn."}
+        }
+      }
+    }
+  ]
+}

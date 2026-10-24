@@ -25,6 +25,14 @@ Thiếu dependency kiểm thử có thể cài đặt phải được xử lý t
 `checkpoint.json` là cache gọn có dấu vân tay nguồn, đợt cuối và nhóm tiếp theo; phải cập nhật mỗi đợt. Nếu thiếu hoặc cũ, tái tạo từ progress/baseline hiện hành. Không cần append dài vào handoff hay tạo commit chỉ để ghi SHA của chính nó.
 Yêu cầu chỉ sửa/lưu quy trình hoặc bản thử thì hoàn thành đúng phạm vi; không tự tạo thêm đợt từ vựng.
 
+## AUTO-MAX-BATCH và đợt kiểm định chất lượng V3
+
+Khi người dùng nhắn “Tiếp tục”, tự động tính toán và xử lý số từ tối đa hợp lý theo độ khó, chất lượng, tài nguyên và giới hạn thực thi thực tế. Không giới hạn số lượng từ cố định. Sau mỗi batch đã kiểm định và lưu an toàn, tự tiếp tục batch kế tiếp nếu vẫn đủ khả năng. Không giảm chuẩn nội dung để tăng số lượng.
+
+Mỗi lượt phải đọc HEAD mới nhất của hai nhánh, file này và checkpoint; xem trước nhóm ID liên tiếp để ước lượng độ khó rồi chọn cỡ batch linh hoạt. Từ dễ có thể làm nhiều hơn, từ trung bình/khó phải dành đủ nguồn lực cho cấu trúc, bẫy và kiểm định. Sau từng batch phải kiểm thử, lưu checkpoint nhất quán, kiểm diff và lưu an toàn trước khi quyết định tiếp tục. Chỉ dừng khi hết nguồn lực an toàn, gặp lỗi không thể giải quyết, gặp xung đột cần người dùng quyết định hoặc đã hết phạm vi.
+
+Mỗi lượt “Tiếp tục” phải đọc `v3-quality-revision-checkpoint.json` và xử lý ordinal kế tiếp từ đầu baseline; không dùng số lượng batch trước làm giới hạn và không rút ngắn bài để tăng số lượng.
+
 ## Đợt kiểm định chất lượng V3
 
 Mỗi lượt “Tiếp tục” phải đọc `v3-quality-revision-checkpoint.json` và xử lý ordinal kế tiếp từ đầu baseline cho đến khi bắt kịp tiến độ cũ. Một bài đã đạt validator vẫn phải được rà nghĩa, từ loại, cấu trúc, Pinyin có dấu, bản dịch, độ tự nhiên, bẫy, đáp án, audio và cả năm bước hiển thị. Bài đạt chuẩn có thể giữ nguyên byte nội dung nhưng phải ghi bằng chứng trong checkpoint; sửa bài không tính thành mục mới. Không xóa hoặc đặt lại checkpoint biên soạn lịch sử.

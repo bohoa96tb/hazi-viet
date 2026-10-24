@@ -7,36 +7,54 @@
   "standardPath": "docs/CONTENT_STANDARD_V3.md",
   "historyCheckpointPath": "tools/vocabulary/v3-rewrite-checkpoint.json",
   "scopeTotal": 2224,
-  "reviewedThroughOrdinal": 4,
-  "nextOrdinal": 5,
-  "pendingReviewCount": 2220,
-  "passedCount": 4,
+  "reviewedThroughOrdinal": 10,
+  "nextOrdinal": 11,
+  "pendingReviewCount": 2214,
+  "passedCount": 10,
   "retainedCount": 0,
-  "rewrittenCount": 4,
+  "rewrittenCount": 10,
   "needsRevisionCount": 0,
   "difficultyCountsReviewed": {
-    "easy": 3,
-    "medium": 1,
+    "easy": 6,
+    "medium": 4,
     "hard": 0
   },
   "reviewedIds": [
     "hz-h1-64d354d405bb",
     "hz-h1-0a3f1c936624",
     "hz-h1-1ac411c12450",
-    "hz-h1-fb76fb22fed2"
+    "hz-h1-fb76fb22fed2",
+    "hz-h1-489f35fdb6de",
+    "hz-h1-14cd68fb49a8",
+    "hz-h1-84d9b4b03d4f",
+    "hz-h1-0e7703e395dc",
+    "hz-h1-722d36ebd9c0",
+    "hz-h1-3f50a387a499"
   ],
   "passedIds": [
     "hz-h1-64d354d405bb",
     "hz-h1-0a3f1c936624",
     "hz-h1-1ac411c12450",
-    "hz-h1-fb76fb22fed2"
+    "hz-h1-fb76fb22fed2",
+    "hz-h1-489f35fdb6de",
+    "hz-h1-14cd68fb49a8",
+    "hz-h1-84d9b4b03d4f",
+    "hz-h1-0e7703e395dc",
+    "hz-h1-722d36ebd9c0",
+    "hz-h1-3f50a387a499"
   ],
   "retainedIds": [],
   "rewrittenIds": [
     "hz-h1-64d354d405bb",
     "hz-h1-0a3f1c936624",
     "hz-h1-1ac411c12450",
-    "hz-h1-fb76fb22fed2"
+    "hz-h1-fb76fb22fed2",
+    "hz-h1-489f35fdb6de",
+    "hz-h1-14cd68fb49a8",
+    "hz-h1-84d9b4b03d4f",
+    "hz-h1-0e7703e395dc",
+    "hz-h1-722d36ebd9c0",
+    "hz-h1-3f50a387a499"
   ],
   "needsRevisionIds": [],
   "reviewRecords": [
@@ -71,6 +89,48 @@
       "result": "passed-after-rewrite",
       "difficulty": "easy",
       "reason": "他 có một nghĩa và một cách đọc thông dụng, giữ vị trí đại từ khá rõ; người mới chủ yếu cần phân biệt người được nhắc với người đối thoại và chữ 他 với 她."
+    },
+    {
+      "ordinal": 5,
+      "id": "hz-h1-489f35fdb6de",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "Một đại từ ngôi thứ ba có nghĩa và vị trí khá trực tiếp; người học cần nhớ chữ viết 她 khác 他 dù hai chữ cùng đọc tā."
+    },
+    {
+      "ordinal": 6,
+      "id": "hz-h1-14cd68fb49a8",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "Cùng một từ có thể bao gồm hoặc không bao gồm người nghe; người học Việt còn cần phân biệt với 咱们."
+    },
+    {
+      "ordinal": 7,
+      "id": "hz-h1-84d9b4b03d4f",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "Một đại từ số nhiều có nghĩa rõ, tạo trực tiếp từ 你 + 们."
+    },
+    {
+      "ordinal": 8,
+      "id": "hz-h1-0e7703e395dc",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "汉字 vừa chỉ chữ viết nói chung vừa chỉ những chữ cụ thể; người học phải dùng lượng từ khi đếm và phân biệt chữ Hán với tiếng Hán 汉语/中文."
+    },
+    {
+      "ordinal": 9,
+      "id": "hz-h1-722d36ebd9c0",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "Nghĩa chính trực tiếp là lời cảm ơn; cấu trúc cơ bản rõ và chỉ cần phân biệt với lời đáp 不客气."
+    },
+    {
+      "ordinal": 10,
+      "id": "hz-h1-3f50a387a499",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "Cụm đáp xã giao có vai giao tiếp rõ nhưng dễ nhầm với 没关系 và 对不起 khi dịch đều là không sao/không có gì."
     }
   ],
   "previousDigests": {
@@ -82,19 +142,25 @@
     "hz-h1-64d354d405bb": "ae9206c928e461934b11bcae105dd34eae61d348b71d725251d049f576ab5c93",
     "hz-h1-0a3f1c936624": "b926467c87131711c467d4776b66423d0353794eed5794dc76b8a82bd229bb49",
     "hz-h1-1ac411c12450": "8624f43cb7a8cdccf8f44a4c88818cf85c55f475c3e13f0cacaf901d7998e779",
-    "hz-h1-fb76fb22fed2": "3f186b94d6164fcc7d2447f0f1f085e7141209c2b1f64d515ffae506f900f66f"
+    "hz-h1-fb76fb22fed2": "3f186b94d6164fcc7d2447f0f1f085e7141209c2b1f64d515ffae506f900f66f",
+    "hz-h1-489f35fdb6de": "fed26ac5353cefc9e04ae414cfe77de2e82efa9704430adaec146adca6936cad",
+    "hz-h1-14cd68fb49a8": "26dc7b4091a99b6e689a475a21fdb398fbe1751392a059361e2de331411a8e42",
+    "hz-h1-84d9b4b03d4f": "112640e00568686e277a4226133ea1dfba0abe72ed34fb24ae19e5da48649e44",
+    "hz-h1-0e7703e395dc": "f99563dffb14de5aa5c520edee3e090fe8381267c267b194997f84819c4aa9a0",
+    "hz-h1-722d36ebd9c0": "90034a780921210ae7799c197e71ff397d4b4ffb98476c3772a0ff8f3fb71902",
+    "hz-h1-3f50a387a499": "580e9b3e62dcf25cbebdb694adff5c2ee93609a03fb449bba8eb872d4e9f8775"
   },
   "sourceDigests": {
     "algorithm": "sha256",
-    "courseFile": "41d2eb4f294a9a794de439b5d0366c658fa630f184b38c128129484134c0437b",
+    "courseFile": "05c9d530fb7b8750a0e0161cfbc08b5474635b2b646a641a13bea3f6deb337e0",
     "baselineFile": "253370b4136e5935982390cc472b1f577e992417c84d93cec82fad2cc1bec925",
     "standardFile": "59e0d0afad07989b9d14923cc33d0ad7639c912c9ed095d87764f9be4bb5c133",
-    "agentsFile": "e1a80c1bfb92370eec8d82efb1cb7a5685aeeb1676156babaf0facf77cab1a3c",
+    "agentsFile": "4db177889bc96362673db9f10388b9cf48e64262c0c2f7816344be7afe99fa83",
     "rendererFile": "2a83719403bd54560062340d878190b5cea836984338b67cfab35044cd595c2e",
     "vocabularyScriptFile": "c1964505c084959aaa6ef403532408e341d8e41c92e3b89ed284f0d38f8a3ec4",
     "vocabularyHtmlFile": "38da4dea2a335e191b6d2a157f999f9f5305b04dce0e1b64f6fd24ca1bef9dd6",
     "domTestFile": "f1437324b917e1df0c273cd67926315c00f8c155adef03ccfdcf698b96530321",
-    "progressFile": "6df8170cdfc56c4201fb332d94a8b71eebc552c43f01473cfb6698e3146f624b"
+    "progressFile": "201a7524181f34148ab4838d3a72cc17ea65f7b7cb4e9fd337dd291dbd298bad"
   },
   "baselineIntegrity": {
     "completedPrefixLength": 91,
@@ -114,8 +180,8 @@
     "browserVisualLayout": "dom-simulation-only",
     "qualityRevision": "passed-internal"
   },
-  "status": "deployed-and-live-verified",
-  "lastVerifiedRemoteCommit": "3119aa2ab6536bd35e9e58af93e8a95e3cec205d",
+  "status": "validated-worktree",
+  "lastVerifiedRemoteCommit": "8f8aa17c911e2f2f57ff34abf5ac10fa59e237c2",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
     "pagesRunId": 40082625813,
@@ -129,6 +195,6 @@
       "hz-h1-fb76fb22fed2"
     ]
   },
-  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline. Pages run đúng head_sha và dữ liệu live đã đối chiếu byte với file đã kiểm.",
-  "lastBatch": "quality-revision-004"
+  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
+  "lastBatch": "quality-revision-005"
 }

@@ -49,16 +49,19 @@ assert.equal(checkpoint.reviewedIds.length,checkpoint.reviewedThroughOrdinal);
 const revisedWords=[];
 for(const entry of batch.entries){
  const index=data.words.findIndex(word=>word.id===entry.id),current=data.words[index];
- assert(index>=0,'Word not found: '+entry.id);assert.equal(current.hanzi,entry.hanzi);assert.equal(entry.cohortOrdinal,checkpoint.reviewedThroughOrdinal+1+revisedWords.length);assert.equal(entry.lesson.cohortOrdinal,entry.cohortOrdinal);assert.equal(entry.lesson.difficulty,entry.difficulty);
- const revised={...current,...entry.wordEdits,lesson:entry.lesson,examples:entry.examples,status:'deep'};
+ assert(index>=0,'Word not found: '+entry.id);assert.equal(current.hanzi,entry.hanzi);assert.equal(entry.cohortOrdinal,checkpoint.reviewedThroughOrdinal+1+revisedWords.length);
+ const lesson=entry.lesson||{...current.lesson,...entry.lessonPatch};
+ assert.equal(lesson.cohortOrdinal,entry.cohortOrdinal);assert.equal(lesson.difficulty,entry.difficulty);
+ const revised={...current,...entry.wordEdits,lesson,examples:entry.examples||current.examples,status:'deep'};
  const audit=auditLesson(revised);assert(audit.ready,entry.id+': '+JSON.stringify(audit.issues));
  data.words[index]=revised;progress.completedDigests[entry.id]=digest(revised);revisedWords.push(revised);
 }
 
 const from=checkpoint.reviewedThroughOrdinal+1;
-for(const word of revisedWords){
- checkpoint.reviewedIds.push(word.id);checkpoint.passedIds.push(word.id);checkpoint.rewrittenIds.push(word.id);checkpoint.currentDigests[word.id]=digest(word);checkpoint.reviewRecords.push({ordinal:word.lesson.cohortOrdinal,id:word.id,hanzi:word.hanzi,result:'passed-after-rewrite',difficulty:word.lesson.difficulty,reason:word.lesson.difficultyReason});checkpoint.difficultyCountsReviewed[word.lesson.difficulty]++;
+for(const [index,word] of revisedWords.entries()){
+ const entry=batch.entries[index],retained=entry.result==='retained';
+ checkpoint.reviewedIds.push(word.id);checkpoint.passedIds.push(word.id);if(retained)checkpoint.retainedIds.push(word.id);else checkpoint.rewrittenIds.push(word.id);checkpoint.currentDigests[word.id]=digest(word);checkpoint.reviewRecords.push({ordinal:word.lesson.cohortOrdinal,id:word.id,result:retained?'retained':'passed-after-rewrite',difficulty:word.lesson.difficulty,reason:word.lesson.difficultyReason});checkpoint.difficultyCountsReviewed[word.lesson.difficulty]++;
 }
-checkpoint.reviewedThroughOrdinal+=revisedWords.length;checkpoint.nextOrdinal=checkpoint.reviewedThroughOrdinal+1;checkpoint.pendingReviewCount=checkpoint.scopeTotal-checkpoint.reviewedThroughOrdinal;checkpoint.passedCount+=revisedWords.length;checkpoint.rewrittenCount+=revisedWords.length;checkpoint.lastBatch=batch.id;checkpoint.status='worktree-prepared';checkpoint.validation={...checkpoint.validation,qualityRevision:'pending',processBatchVerify:'pending',v3LevelTests:'pending',domIntegration:'pending',gitDiffCheck:'pending'};checkpoint.note='Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.';
+checkpoint.reviewedThroughOrdinal+=revisedWords.length;checkpoint.nextOrdinal=checkpoint.reviewedThroughOrdinal+1;checkpoint.pendingReviewCount=checkpoint.scopeTotal-checkpoint.reviewedThroughOrdinal;checkpoint.passedCount+=revisedWords.length;checkpoint.rewrittenCount+=batch.entries.filter(entry=>entry.result!=='retained').length;checkpoint.retainedCount+=batch.entries.filter(entry=>entry.result==='retained').length;checkpoint.lastBatch=batch.id;checkpoint.status='worktree-prepared';checkpoint.validation={...checkpoint.validation,qualityRevision:'pending',processBatchVerify:'pending',v3LevelTests:'pending',domIntegration:'pending',gitDiffCheck:'pending'};checkpoint.note='Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.';
 refresh(data,baseline,progress);validateCourse(data);updateSourceDigests(checkpoint,progress);write(checkpointPath,checkpoint);
 console.log(`Prepared quality revision ${from}–${checkpoint.reviewedThroughOrdinal}; baseline completion remains ${progress.completedCount}/${progress.scopeTotal}.`);
