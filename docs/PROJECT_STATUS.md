@@ -5,10 +5,10 @@ Cập nhật: 2026-10-24. Chế độ hiện hành: `review-existing-first`.
 ## Rà soát bài đã có
 
 - Phạm vi: 377 bài đang đủ cấu trúc trong thứ tự `data/vocabulary/hanzii-course.json`, gồm 10 bài ngoài baseline.
-- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 254/377 bài.
-- Đã rà trong các đợt `review-001` đến `review-015`; review-015 gồm 病、中间、别的、北京、国外、国家、外国、外语、有名、网上、上、半、后、早、晚、穿、上午、下午.
-- Review-015 đọc và kiểm tra toàn bộ 18 bài, phân loại độ khó và giữ nguyên nội dung sau khi đối chiếu công thức, ví dụ, bẫy, bài tập và đáp án.
-- Còn rà: 123 bài. Tiếp theo: bài 255 (`hz-h1-f5222818a6aa`) và các ID trong `tools/vocabulary/review-checkpoint.json`.
+- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 272/377 bài.
+- Đã rà trong các đợt `review-001` đến `review-016`; review-016 gồm 中午、今天、关上、前天、半天、后天、早上、明天、星期天、星期日、昨天、晚上、白天、见面、马上、一、七、三.
+- Review-016 đọc và kiểm tra toàn bộ 18 bài, phân loại độ khó và giữ nguyên nội dung sau khi đối chiếu công thức, ví dụ, bẫy, bài tập và đáp án.
+- Còn rà: 105 bài. Tiếp theo: bài 273 (`hz-h1-9c4c64bf48ef`) và các ID trong `tools/vocabulary/review-checkpoint.json`.
 - Chưa được coi là phản biện giáo viên độc lập; chưa kiểm bố cục mobile hoặc TTS Android thật.
 
 ## Bổ sung bài còn thiếu
