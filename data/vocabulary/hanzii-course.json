@@ -17144,7 +17144,7 @@
       "meaning": "điện",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 012",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 53",
       "examples": [
         {
           "id": "e1",
@@ -17166,7 +17166,7 @@
       "sourceIndex": 31,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn gọi điện.",
+      "task": "Nói về điện hoặc dùng từ ghép 电话.",
       "model": "我打电话。",
       "lesson": {
         "version": 3,
@@ -17175,8 +17175,8 @@
         "difficulty": "easy",
         "difficultyReason": "电 trong phạm vi bài dùng qua từ ghép 电话, với mẫu gọi điện và sở hữu trực tiếp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, từ ghép, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Telephone"
         ],
@@ -17323,6 +17323,30 @@
             "correctIndex": 0,
             "explanation": "电 tạo thành 电话."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "电 có cách đọc thông dụng diàn; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "电 trong bài được học qua nghĩa điện và từ ghép 电话; đây là cách kết hợp, không phải nghĩa độc lập cần tách."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần học cả 电话 là điện thoại/cuộc gọi, không đoán từng chữ tách rời."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 手机 và 电话; chưa thấy bẫy cần thêm ở bài cơ bản này."
+          }
         }
       }
     },
@@ -17339,7 +17363,7 @@
       "meaning": "đợi",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 012",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 54",
       "examples": [
         {
           "id": "e1",
@@ -17361,8 +17385,8 @@
       "sourceIndex": 32,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn đang đợi bạn.",
-      "model": "我在等朋友。",
+      "task": "Nói bạn đang đợi một người hoặc việc gì.",
+      "model": "我等你。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -17370,8 +17394,8 @@
         "difficulty": "easy",
         "difficultyReason": "等 là động từ cơ bản, tân ngữ đứng sau và mẫu đang đợi rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí tân ngữ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Waiting"
         ],
@@ -17514,6 +17538,30 @@
             "correctIndex": 0,
             "explanation": "等 là đợi."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "等 có cách đọc thông dụng děng; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "等 có nghĩa trọng tâm là đợi trong bài này; tân ngữ đứng sau giúp nhận biết chức năng."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; không dịch 等 thành dấu kết thúc danh sách trong mọi trường hợp."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 等等 và 期待; chưa thấy bẫy thông dụng cần thêm ở mức học này."
+          }
         }
       }
     },
@@ -17550,10 +17598,10 @@
       "sourceIndex": 33,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "biên soạn bổ sung",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 012",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 55",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn muốn nói chuyện.",
-      "model": "我想说话。",
+      "task": "Nói về lời nói hoặc dùng 说话.",
+      "model": "请说话。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -17561,8 +17609,8 @@
         "difficulty": "easy",
         "difficultyReason": "话 chủ yếu được học qua các cụm 说话 và lời nói, cách dùng trực tiếp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, từ ghép, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Speaking"
         ],
@@ -17705,6 +17753,30 @@
             "correctIndex": 0,
             "explanation": "话 là lời nói."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "话 có cách đọc thông dụng huà; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "话 có nghĩa trọng tâm là lời nói/câu chuyện trong các cụm cơ bản; nghĩa cụ thể do từ ghép đi kèm."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần học cụm 说话 là nói chuyện thay vì ghép từng chữ rời rạc."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 语言 và 说; chưa thấy bẫy cần thêm ở bài này."
+          }
         }
       }
     },
@@ -17721,7 +17793,7 @@
       "meaning": "mời; làm ơn",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 012",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 56",
       "examples": [
         {
           "id": "e1",
@@ -17743,7 +17815,7 @@
       "sourceIndex": 34,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Mời bạn ngồi.",
+      "task": "Mời hoặc yêu cầu lịch sự; mở lời hỏi bằng 请问.",
       "model": "请坐。",
       "lesson": {
         "version": 3,
@@ -17752,8 +17824,8 @@
         "difficulty": "medium",
         "difficultyReason": "请 vừa có thể là mời/yêu cầu lịch sự vừa xuất hiện trong lời mời; cần phân biệt với 对不起 và vị trí trước động từ.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà chức năng yêu cầu lịch sự, vị trí trước động từ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Polite_requests"
         ],
@@ -17806,24 +17878,28 @@
         "confusions": [
           {
             "id": "apology",
+            "category": "C",
             "afterSense": "request",
-            "title": "请 không phải 对不起",
-            "explanation": "请 làm lời mời/yêu cầu; 对不起 là xin lỗi khi mình gây lỗi hoặc bất tiện.",
+            "title": "请 và 对不起: mời/yêu cầu hay xin lỗi",
+            "possibleConfusion": "Cả hai có thể xuất hiện khi bắt đầu nói với người lạ nên người học dễ dùng 对不起 cho mọi lời mở đầu.",
+            "explanation": "请 đứng trước hành động để mời hoặc yêu cầu lịch sự. 对不起 là lời xin lỗi khi mình gây lỗi/bất tiện.",
+            "difference": "请坐 là mời ngồi; 对不起，我迟到了 là nhận lỗi đến muộn. Hai câu khác mục đích giao tiếp.",
+            "boundary": "Muốn người khác làm gì một cách lịch sự: 请 + động từ; đã gây phiền: 对不起.",
             "contrasts": [
               {
                 "zh": "请坐。",
                 "pinyin": "Qǐng zuò.",
                 "vi": "Mời ngồi.",
-                "note": "Mời người khác làm việc."
+                "note": "请 mở lời mời lịch sự."
               },
               {
-                "zh": "对不起。",
-                "pinyin": "Duìbuqǐ.",
-                "vi": "Xin lỗi.",
-                "note": "Nhận lỗi hoặc xin lỗi."
+                "zh": "对不起，我来晚了。",
+                "pinyin": "Duìbuqǐ, wǒ lái wǎn le.",
+                "vi": "Xin lỗi, tôi đến muộn.",
+                "note": "对不起 nhận lỗi, không phải lời mời."
               }
             ],
-            "tip": "Sau 请 thường có hành động; khi nhận lỗi dùng 对不起."
+            "tip": "請 + hành động muốn mời; 对不起 + lỗi/bất tiện cần xin."
           }
         ],
         "guidedExercises": [
@@ -17927,6 +18003,29 @@
             "correctIndex": 0,
             "explanation": "请坐 là lời mời."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "请 có cách đọc thông dụng qǐng; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "请 có chức năng trung tâm là yêu cầu/mời lịch sự; sắc thái câu thay đổi theo động từ sau, không phải nghĩa độc lập khác."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Không dịch 请 thành ‘xin’ trong mọi câu tiếng Việt một cách máy móc; cần nhìn hành động sau 请 và phân biệt với lời xin lỗi."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 请 với 对不起 bằng hai mục đích giao tiếp và câu mẫu cụ thể."
+          }
         }
       }
     },
@@ -17943,7 +18042,7 @@
       "meaning": "hỏi",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 012",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 57",
       "examples": [
         {
           "id": "e1",
@@ -17965,8 +18064,8 @@
       "sourceIndex": 35,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Hỏi tên của bạn.",
-      "model": "我问你的名字。",
+      "task": "Hỏi một người về thông tin và dùng 请问 để mở lời lịch sự.",
+      "model": "我问你。",
       "shape": {
         "pair": "问 / 闻",
         "difference": "问 có 口 trong 门; 闻 có 耳. Mẹo nhận mặt chữ, không phải quy tắc đoán mọi nghĩa.",
@@ -17979,8 +18078,8 @@
         "difficulty": "medium",
         "difficultyReason": "问 là động từ hỏi và tạo cụm 请问; cần phân biệt người được hỏi với nội dung câu hỏi.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà động từ, người được hỏi, nội dung hỏi, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Asking_questions"
         ],
@@ -18039,24 +18138,28 @@
         "confusions": [
           {
             "id": "polite",
+            "category": "C",
             "afterSense": "ask",
-            "title": "请问 là cụm lịch sự",
-            "explanation": "请问 không phải hai hành động tách rời mời và hỏi trong ngữ cảnh này; đây là cụm mở đầu câu hỏi lịch sự.",
+            "title": "问 và 请问: hỏi và mở lời lịch sự",
+            "possibleConfusion": "Người học thấy 请问 là cụm cố định nên có thể tưởng 请问 là một động từ khác hoàn toàn với 问.",
+            "explanation": "问 là động từ hỏi. 请问 = xin hỏi, dùng lịch sự để mở lời; 请 không làm mất chức năng hỏi của 问.",
+            "difference": "我问你 hỏi trực tiếp bạn; 请问，医院在哪儿？là mở lời lịch sự với người lạ.",
+            "boundary": "Sau 请问 vẫn cần nội dung câu hỏi; không dùng 请问 một mình như câu trả lời.",
             "contrasts": [
               {
-                "zh": "请问，你叫什么？",
-                "pinyin": "Qǐngwèn, nǐ jiào shénme?",
-                "vi": "Xin hỏi, bạn tên là gì?",
-                "note": "Mở đầu câu hỏi."
+                "zh": "我问你。",
+                "pinyin": "Wǒ wèn nǐ.",
+                "vi": "Tôi hỏi bạn.",
+                "note": "问 là động từ hỏi trực tiếp."
               },
               {
-                "zh": "我问你的名字。",
-                "pinyin": "Wǒ wèn nǐ de míngzi.",
-                "vi": "Tôi hỏi tên của bạn.",
-                "note": "Câu kể dùng 问 như động từ."
+                "zh": "请问，医院在哪儿？",
+                "pinyin": "Qǐngwèn, yīyuàn zài nǎr?",
+                "vi": "Xin hỏi, bệnh viện ở đâu ạ?",
+                "note": "请问 là mở lời lịch sự."
               }
             ],
-            "tip": "Khi bắt chuyện để hỏi người lạ, 请问 là lựa chọn lịch sự tự nhiên."
+            "tip": "问 = hỏi; 请问 = xin hỏi, lịch sự hơn trong lời mở đầu."
           }
         ],
         "guidedExercises": [
@@ -18160,6 +18263,29 @@
             "correctIndex": 0,
             "explanation": "请问 là xin hỏi."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "问 có cách đọc thông dụng wèn; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "问 có chức năng trọng tâm là hỏi; 请问 là cụm lịch sự mở rộng, không phải nghĩa khác của chữ 问."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 请问 thành ‘mời hỏi’ từng chữ sẽ không tự nhiên; cả cụm nghĩa là xin hỏi."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 问 và 请问 theo sắc thái trực tiếp/lịch sự, với người được hỏi và nội dung hỏi rõ."
+          }
         }
       }
     },
@@ -18176,7 +18302,7 @@
       "meaning": "không cần",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 012",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 58",
       "examples": [
         {
           "id": "e1",
@@ -18198,7 +18324,7 @@
       "sourceIndex": 36,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói rằng người kia không cần cảm ơn.",
+      "task": "Nói rằng không cần làm việc gì hoặc không cần dùng thứ gì.",
       "model": "不用谢。",
       "lesson": {
         "version": 3,
@@ -18207,8 +18333,8 @@
         "difficulty": "medium",
         "difficultyReason": "不用 là cấu trúc phủ định sự cần thiết, dễ nhầm với 不要 là đừng/không được và với 没有.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà phủ định nhu cầu, vị trí sau chủ thể/trước động từ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Need_not"
         ],
@@ -18267,24 +18393,28 @@
         "confusions": [
           {
             "id": "dont",
+            "category": "C",
             "afterSense": "notneed",
-            "title": "不用 và 不要 khác ý định",
-            "explanation": "不用 nói không cần hoặc không bắt buộc; 不要 thường nói đừng làm hoặc không muốn, mang ý ngăn cản/khuyên bảo rõ hơn.",
+            "title": "不用 và 不要: không cần hay đừng làm",
+            "possibleConfusion": "Tiếng Việt đều có thể dùng ‘không’ trong câu phủ định nên người học dễ đổi hai cấu trúc.",
+            "explanation": "不用 nói hành động không cần thiết/không cần làm. 不要 thường là lời bảo đừng làm hoặc biểu thị không muốn.",
+            "difference": "不用谢 = không cần cảm ơn; 不要说话 = đừng nói chuyện. Đổi từ sẽ đổi ý định từ giảm nhu cầu sang ngăn hành động.",
+            "boundary": "Muốn nói ‘không cần’: 不用 + động từ; muốn cấm/khuyên đừng: 不要 + động từ.",
             "contrasts": [
               {
-                "zh": "你不用等我。",
-                "pinyin": "Nǐ bú yòng děng wǒ.",
-                "vi": "Bạn không cần đợi tôi.",
-                "note": "Không bắt buộc phải đợi."
+                "zh": "不用谢。",
+                "pinyin": "Búyòng xiè.",
+                "vi": "Không cần cảm ơn.",
+                "note": "Không cần thực hiện lời cảm ơn."
               },
               {
-                "zh": "你不要等我。",
-                "pinyin": "Nǐ bú yào děng wǒ.",
-                "vi": "Bạn đừng đợi tôi.",
-                "note": "Yêu cầu/ngăn việc đợi."
+                "zh": "不要说话。",
+                "pinyin": "Búyào shuōhuà.",
+                "vi": "Đừng nói chuyện.",
+                "note": "Lời yêu cầu ngăn hành động."
               }
             ],
-            "tip": "Nếu chỉ bỏ yêu cầu vì không cần thiết, dùng 不用; nếu bảo người kia đừng làm, dùng 不要."
+            "tip": "Nhu cầu bằng không: 不用; bảo ai đừng làm: 不要."
           }
         ],
         "guidedExercises": [
@@ -18388,6 +18518,29 @@
             "correctIndex": 0,
             "explanation": "不用 nói không cần thiết."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "不用 có cách đọc thông dụng búyòng; 不 đọc thành bú trước âm tiết thanh 4, không phải cách đọc riêng của 不用."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "不用 được dạy ở chức năng phủ định sự cần thiết; ý ‘đừng’ thuộc 不要 và đã được đối chiếu, không gán cho 不用."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 不用 thành ‘không dùng’ trong mọi câu sẽ sai ở 不用谢 = không cần cảm ơn; phải xét cả cụm và ý định."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 不用 với 不要 qua hai câu đúng nhưng khác ý định giao tiếp."
+          }
         }
       }
     },
@@ -18404,7 +18557,7 @@
       "meaning": "trả lời",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 013",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 59",
       "examples": [
         {
           "id": "e1",
@@ -18426,8 +18579,8 @@
       "sourceIndex": 37,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn trả lời câu hỏi.",
-      "model": "我回答问题。",
+      "task": "Nói trả lời một câu hỏi hoặc yêu cầu người khác trả lời.",
+      "model": "请回答问题。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -18435,8 +18588,8 @@
         "difficulty": "easy",
         "difficultyReason": "回答 là động từ cơ bản với tân ngữ 问题 và mẫu yêu cầu rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí tân ngữ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Answering_questions"
         ],
@@ -18579,6 +18732,30 @@
             "correctIndex": 0,
             "explanation": "回答 là trả lời."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "回答 có cách đọc thông dụng huídá; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "回答 có nghĩa trọng tâm là trả lời câu hỏi/yêu cầu; tân ngữ thường là 问题 hoặc câu hỏi."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần phân biệt trả lời 回答 với đáp án 答案 khi nói về vật/câu dùng để trả lời."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 问 và 答案; chưa thấy bẫy cần thêm ở bài cơ bản này."
+          }
         }
       }
     },
@@ -18595,7 +18772,7 @@
       "meaning": "bao nhiêu",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 013",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 60",
       "examples": [
         {
           "id": "e1",
@@ -18617,8 +18794,8 @@
       "sourceIndex": 38,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Hỏi giá món đồ.",
-      "model": "这个多少钱？",
+      "task": "Hỏi số lượng hoặc giá tiền.",
+      "model": "多少钱？",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -18626,8 +18803,8 @@
         "difficulty": "medium",
         "difficultyReason": "多少 hỏi số lượng/số tiền và cần đứng trước danh từ hoặc đơn vị; phải phân biệt với 几 trong phạm vi số nhỏ.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ để hỏi số lượng, vị trí, phạm vi, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/How_many"
         ],
@@ -18686,24 +18863,28 @@
         "confusions": [
           {
             "id": "few",
+            "category": "C",
             "afterSense": "amount",
-            "title": "多少 và 几 khác phạm vi thường gặp",
-            "explanation": "Cả hai đều hỏi số lượng; 几 thường gợi một số nhỏ, còn 多少 không giới hạn như vậy và dùng rất tự nhiên khi hỏi giá.",
+            "title": "多少 và 几: bao nhiêu nói chung hay vài/số nhỏ",
+            "possibleConfusion": "Tiếng Việt đều có thể dịch là ‘mấy/bao nhiêu’ nên người học dễ dùng 几 cho mọi con số.",
+            "explanation": "多少 hỏi số lượng không giới hạn rõ. 几 thường hỏi một số nhỏ, thường dùng khi người nói dự đoán số lượng không nhiều.",
+            "difference": "几个人 thường hỏi mấy người; 多少个人/多少钱 hỏi số lượng hoặc giá nói rộng hơn.",
+            "boundary": "Nêu số lượng lớn/không đoán trước dùng 多少; số nhỏ trong tình huống quen thuộc có thể dùng 几.",
             "contrasts": [
               {
-                "zh": "你有几本书？",
-                "pinyin": "Nǐ yǒu jǐ běn shū?",
-                "vi": "Bạn có mấy quyển sách?",
-                "note": "Thường hỏi số lượng nhỏ."
+                "zh": "你有几个朋友？",
+                "pinyin": "Nǐ yǒu jǐ ge péngyou?",
+                "vi": "Bạn có mấy người bạn?",
+                "note": "Câu hỏi số nhỏ, thân mật."
               },
               {
-                "zh": "这个多少钱？",
-                "pinyin": "Zhège duōshao qián?",
-                "vi": "Cái này bao nhiêu tiền?",
-                "note": "Hỏi giá dùng 多少."
+                "zh": "这本书多少钱？",
+                "pinyin": "Zhè běn shū duōshao qián?",
+                "vi": "Quyển sách này bao nhiêu tiền?",
+                "note": "Hỏi giá bằng 多少."
               }
             ],
-            "tip": "Hỏi giá hoặc số lượng chưa biết rộng, ưu tiên 多少; 几 thường dùng khi dự đoán số ít."
+            "tip": "Số nhỏ, dự đoán ít: 几; số lượng/giá mở: 多少."
           }
         ],
         "guidedExercises": [
@@ -18807,6 +18988,29 @@
             "correctIndex": 0,
             "explanation": "多少钱 là bao nhiêu tiền."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "多少 có cách đọc thông dụng duōshao; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "多少 hỏi lượng hoặc giá; đối tượng sau nó quyết định đang hỏi người, vật hay tiền, không tạo nghĩa từ vựng độc lập."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Không dịch 多少 thành một số cố định; đây là từ hỏi cần đi với danh từ/đơn vị hoặc mẫu giá."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 多少 với 几 theo phạm vi số lượng và ví dụ hỏi giá."
+          }
         }
       }
     },
@@ -18823,7 +19027,7 @@
       "meaning": "giúp đỡ; giúp một tay",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 013",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 61",
       "examples": [
         {
           "id": "e1",
@@ -18845,7 +19049,7 @@
       "sourceIndex": 39,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nhờ bạn giúp một tay.",
+      "task": "Nhờ ai giúp hoặc nói mình giúp một tay.",
       "model": "请你帮忙。",
       "lesson": {
         "version": 3,
@@ -18854,8 +19058,8 @@
         "difficulty": "easy",
         "difficultyReason": "帮忙 là cụm quen thuộc nghĩa giúp đỡ, với mẫu nhờ và cảm ơn trực tiếp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại/cụm động từ, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Asking_for_help"
         ],
@@ -18996,6 +19200,30 @@
             "correctIndex": 0,
             "explanation": "帮忙 là giúp đỡ."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "帮忙 có cách đọc thông dụng bāngmáng; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "帮忙 là cụm chỉ giúp đỡ/giúp một tay; người hoặc việc cần giúp do ngữ cảnh hoặc thành phần thêm vào quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; học cả cụm 帮忙 thay vì tách 帮 và 忙 thành ‘giúp bận’."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 帮 và 帮助; chưa thấy bẫy cần thêm ở mức bài cơ bản."
+          }
         }
       }
     },
@@ -19012,7 +19240,7 @@
       "meaning": "thế nào; bằng cách nào",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 013",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 62",
       "examples": [
         {
           "id": "e1",
@@ -19034,8 +19262,8 @@
       "sourceIndex": 40,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Hỏi cách đi đến trường.",
-      "model": "怎么去学校？",
+      "task": "Hỏi cách làm hoặc cách thức của một hành động.",
+      "model": "这个字怎么读？",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -19043,8 +19271,8 @@
         "difficulty": "medium",
         "difficultyReason": "怎么 hỏi cách thức và có thể dịch thế nào tùy động từ; cần tránh nhầm với 什么 hỏi sự vật.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ để hỏi cách thức, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/How_to"
         ],
@@ -19097,24 +19325,28 @@
         "confusions": [
           {
             "id": "what",
+            "category": "C",
             "afterSense": "how",
-            "title": "怎么 và 什么 hỏi khác loại thông tin",
-            "explanation": "怎么 hỏi cách thức; 什么 hỏi sự vật, nội dung hoặc lựa chọn chưa biết.",
+            "title": "怎么 và 什么: hỏi cách làm hay hỏi sự vật/thông tin",
+            "possibleConfusion": "Tiếng Việt dùng ‘gì/thế nào’ linh hoạt nên người học dễ đổi hai từ hỏi.",
+            "explanation": "怎么 hỏi cách thức hoặc tình trạng ‘làm thế nào’. 什么 hỏi vật, việc hoặc thông tin ‘cái gì/là gì’.",
+            "difference": "这个字怎么读？hỏi cách đọc; 这是什么字？hỏi chữ này là chữ gì. Cả hai đều đúng nhưng câu hỏi khác.",
+            "boundary": "Nếu cần một cách làm/cách đọc, dùng 怎么; nếu cần tên hoặc vật được xác định, dùng 什么.",
             "contrasts": [
               {
-                "zh": "你怎么去学校？",
-                "pinyin": "Nǐ zěnme qù xuéxiào?",
-                "vi": "Bạn đi học bằng cách nào?",
-                "note": "Hỏi phương thức."
+                "zh": "这个字怎么读？",
+                "pinyin": "Zhège zì zěnme dú?",
+                "vi": "Chữ này đọc thế nào?",
+                "note": "Hỏi cách đọc."
               },
               {
-                "zh": "你去什么学校？",
-                "pinyin": "Nǐ qù shénme xuéxiào?",
-                "vi": "Bạn đi trường nào?",
-                "note": "Hỏi đối tượng/trường nào."
+                "zh": "这是什么字？",
+                "pinyin": "Zhè shì shénme zì?",
+                "vi": "Đây là chữ gì?",
+                "note": "Hỏi tên/loại chữ."
               }
             ],
-            "tip": "Nếu câu trả lời là bằng xe buýt/đi bộ, dùng 怎么; nếu là tên sự vật, dùng 什么."
+            "tip": "Hỏi ‘làm thế nào’: 怎么; hỏi ‘cái gì/là gì’: 什么."
           }
         ],
         "guidedExercises": [
@@ -19219,6 +19451,29 @@
             ],
             "correctIndex": 0,
             "explanation": "怎么 hỏi cách thức."
+          }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "怎么 có cách đọc thông dụng zěnme; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "怎么 hỏi cách thức hoặc tình trạng tùy động từ sau; các bản dịch thế nào/bằng cách nào thuộc cùng chức năng hỏi cách."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 怎么 thành ‘cái gì’ theo từng chữ sẽ nhầm với 什么; cần xét loại thông tin muốn hỏi."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 怎么 với 什么 bằng cặp câu hỏi chữ Hán có cách đọc và mục tiêu khác nhau."
           }
         }
       }
