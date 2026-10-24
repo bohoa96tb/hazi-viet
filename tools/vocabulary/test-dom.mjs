@@ -5,7 +5,6 @@ const {Window}=await import(process.env.HAPPY_DOM_MODULE||'/tmp/hazi-test-env/no
 const root=new URL('../..',import.meta.url),read=p=>fs.readFileSync(new URL(p,root),'utf8');
 const d=JSON.parse(read('data/vocabulary/hanzii-course.json')),p=JSON.parse(read('progress.json'));
 const sample=d.words.find(w=>w.id===p.batches.at(-1).wordIds[0]);
-const sampleAnswer=sample.lesson.answers.q1.accepted[0], selfTranslation=sample.lesson.selfAnswers.s1.vi;
 const window=new Window({url:'https://bohoa96tb.github.io/hazi-viet/vocabulary.html?word='+p.batches.at(-1).wordIds[0]});
 window.document.write(read('vocabulary.html').replace(/<script[^>]*>[\s\S]*?<\/script>/g,''));
 for(const name of ['window','document','location','navigator','URL','Blob'])Object.defineProperty(globalThis,name,{value:name==='window'?window:window[name],configurable:true});
@@ -13,13 +12,15 @@ const speech=[];window.speechSynthesis={getVoices:()=>[],addEventListener(){},ca
 globalThis.fetch=async url=>({ok:true,json:async()=>structuredClone(d)});
 await import(new URL('../../js/vocabulary.js?dom-test',import.meta.url));await new Promise(r=>setTimeout(r,20));
 const $=s=>document.querySelector(s),click=s=>{assert($(s),'Missing '+s);$(s).click()},body=()=>$('#lessonBody').textContent;
-assert($('#wordDialog').open);assert(body().includes('Chuẩn V2'));assert(body().includes('[Từ số '+sample.lesson.cohortOrdinal+']'));
-click('[data-step="1"]');assert.equal(document.querySelectorAll('.standard-example').length,2);assert(!document.querySelector('[data-lesson-view]'));
-click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,sample.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
-click('[data-step="3"]');assert(!document.querySelector('.feedback'));assert(!document.querySelector('[data-v2-hint]'));
-const input=$('[data-v2-draft="q1"]');input.value=sampleAnswer;input.dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-reveal-check="q1"]');assert(body().includes('Đáp án tham khảo'));assert.equal($('[data-v2-draft="q1"]').value,sampleAnswer);
-click('[data-v2-unlock]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(body().includes(selfTranslation));
-click('[data-step="4"]');click('[data-action="revealReview"]');assert(document.querySelector('[data-grade="good"]'));
+assert($('#wordDialog').open);assert(body().includes('Chuẩn bài học V3'));assert(body().includes('[Từ số '+sample.lesson.cohortOrdinal+']'));assert.equal(document.querySelectorAll('.usage-block').length,4);assert(!/Đọc đúng|Nhận mặt chữ/.test(body()));
+click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,sample.lesson.senses[0].examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
+click('[data-step="1"]');assert(!body().includes(sample.lesson.guidedExercises[0].model));
+const input=$('[data-v2-draft="g1"]');input.value=sample.lesson.guidedExercises[0].accepted[0];input.dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-v3-check="g1"]');assert(body().includes('Đúng.'));assert.equal($('[data-v2-draft="g1"]').value,sample.lesson.guidedExercises[0].accepted[0]);
+click('[data-v3-check="g2"]');assert(body().includes('Bạn chưa nhập câu trả lời.'));
+const wrong=$('[data-v2-draft="g3"]');wrong.value='桌子下面在猫。';wrong.dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-v3-check="g3"]');assert(body().includes('Chưa đúng'));
+click('[data-step="2"]');click('[data-v3-choice="d1"][data-choice-index="0"]');assert(body().includes('Chưa đúng'));click('[data-v3-choice="d2"][data-choice-index="0"]');assert(body().includes('Đúng.'));
+click('[data-step="3"]');assert(!body().includes(sample.lesson.productionExercises[0].model));click('[data-v2-hint="p1"]');assert(!body().includes(sample.lesson.productionExercises[0].model));click('[data-v2-hint="p1"]');assert(!body().includes(sample.lesson.productionExercises[0].model));click('[data-v2-hint="p1"]');assert(body().includes(sample.lesson.productionExercises[0].model));
+click('[data-step="4"]');assert(!body().includes(sample.lesson.reviewExercises[0].hiddenAnswer));assert(!document.querySelector('[data-grade="good"]'));assert($('.word-identity').classList.contains('recall-hidden'));click('[data-v3-review-reveal="r1"]');assert(body().includes(sample.lesson.reviewExercises[0].hiddenAnswer));assert(document.querySelector('[data-grade="good"]'));
 // Favorite and progress storage still operate; no grade is automatically assigned.
 click('[data-action="favorite"]');assert.equal($('[data-action="favorite"]').getAttribute('aria-pressed'),'true');
 click('[data-action="close"]');assert(!$('#wordDialog').open);
@@ -37,13 +38,8 @@ for(const id of p.batches.at(-1).wordIds){
  for(let page=0;!$(target)&&page<d.lessons.length;page++){assert(!$('[data-lesson="1"]').disabled,'Target must be reachable in filtered pages: '+id);click('[data-lesson="1"]');}
  click(target);
  assert(body().includes('[Từ số '+word.lesson.cohortOrdinal+']'));
- click('[data-step="1"]');assert.equal(document.querySelectorAll('.standard-example').length,2);
- click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,word.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
- click('[data-step="2"]');if(!word.lesson.traps.length)assert(body().includes(word.lesson.noTrapReason));
- click('[data-step="3"]');
- if(id===sample.id)assert(document.querySelector('.feedback'),'Previously revealed answer must persist');
- else{assert(!document.querySelector('.feedback'));assert(!document.querySelector('[data-v2-hint]'));}
- assert.equal(document.querySelectorAll('[data-reveal-check]').length,word.lesson.checks.length);
+ if(word.lesson.version===3){assert.equal(document.querySelectorAll('.usage-block').length,word.lesson.senses.length);click('[data-step="1"]');assert.equal(document.querySelectorAll('.interactive-exercise').length,word.lesson.guidedExercises.length);click('[data-step="2"]');assert.equal(document.querySelectorAll('.interactive-exercise').length,word.lesson.discriminationExercises.length);}
+ else{click('[data-step="1"]');assert.equal(document.querySelectorAll('.standard-example').length,2);click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,word.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');click('[data-step="2"]');if(!word.lesson.traps.length)assert(body().includes(word.lesson.noTrapReason));click('[data-step="3"]');if(id===sample.id)assert(document.querySelector('.feedback'),'Previously revealed answer must persist');else{assert(!document.querySelector('.feedback'));assert(!document.querySelector('[data-v2-hint]'));}assert.equal(document.querySelectorAll('[data-reveal-check]').length,word.lesson.checks.length);}
 }
-console.log('PASS DOM: V1/V2 loader, two examples, audio dispatch, hidden answers, persisted drafts across redraw, three hint levels, review, favorite, search and trap paging; all latest-batch routes, empty traps and question counts. DOM simulation only; no visual layout/device playback certification.');
+console.log('PASS DOM: V1/V2/V3 loader; V3 usage blocks, correct/blank/wrong checks, trap choice, progressive hints and recall gating; audio, progress, favorite, search and latest-batch routes. DOM simulation only; no visual layout/device playback certification.');
 window.happyDOM.abort();window.close();process.exit(0);

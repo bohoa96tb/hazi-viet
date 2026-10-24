@@ -1,6 +1,8 @@
 import {renderV2} from './lesson-v2-view.js?v=v2-word-495';
+import {renderV3} from './lesson-v3-view.js?v=v3-word-495';
 import {judgments,exampleById} from './lesson-standard.js?v=v2-word-495';
 export function renderStandardLesson(w,{stage,view='usages',usageIndex=0,exampleIndex=0,trapIndex=0,checkState,esc,hanzi,rich}){
+ if(w.lesson?.version===3)return renderV3(w,{stage,checkState,esc,hanzi,rich});
  if(w.lesson?.version===2)return renderV2(w,{stage,trapIndex,checkState,esc,hanzi,rich});
  const l=w.lesson;
  const audio=(part,label,index=0)=>`<div class="audio-row"><button class="soft" data-lesson-audio="${part}" data-lesson-index="${index}">◖ ${label}</button><button class="soft" data-lesson-stop="1">Dừng</button></div>`;

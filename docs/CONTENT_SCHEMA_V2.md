@@ -1,5 +1,20 @@
 # Hợp đồng bài V2 và tương thích V1
 
+## Mở rộng thử nghiệm V3 cho từ 495
+
+`word.lesson.version === 3` hiện chỉ được dùng cho `hz-h2-b68721647e72` (下). Bộ nạp vẫn giữ nguyên đường V1/V2. V3 bỏ trường giảng riêng `pronunciation` và không render `shape` trong bài từ vựng; audio từ/câu và liên kết từng Hanzi sang trang phân tích độc lập vẫn giữ.
+
+V3 tổ chức trực tiếp theo năm bước:
+
+- `senses[]`: các khối cách dùng, mỗi khối có tình huống, nghĩa, vai trò, cấu trúc, cụm từ và ví dụ có Pinyin.
+- `confusions[]`: bẫy được giảng ngay sau cách dùng liên quan qua `afterSense`; mỗi bẫy có đối chiếu cụ thể.
+- `guidedExercises[]`: sắp xếp, điền và hoàn thành cấu trúc ở bước Ghép câu.
+- `discriminationExercises[]`: bài tương tác kiểm tra từng `trapId`, không lộ đáp án trước khi trả lời.
+- `productionExercises[]`: hai nhiệm vụ tự tạo câu, gợi ý mở tuần tự ý → khung → mẫu.
+- `reviewExercises[]`: ba kiểu nhớ lại; đáp án và từ mục tiêu được ẩn trước khi thử. Chỉ nút tự đánh giá mới cập nhật lịch ôn.
+
+Validator V3 nằm ở `js/lesson-v3.js`, renderer ở `js/lesson-v3-view.js`, kiểm thử cấu trúc/ẩn đáp án ở `tools/vocabulary/verify-v3.mjs`. Việc áp dụng correction không tăng số bài hoàn thành và phải cập nhật digest của đúng ID.
+
 `word.lesson.version === 2` chọn audit/renderer/audio V2 trong `js/lesson-v2.js` và `js/lesson-v2-view.js`. Các bài không mang version 2 tiếp tục qua hợp đồng V1 cũ; 58 record đã hoàn thiện tại mốc ce64b7f giữ nguyên byte nội dung JSON và hash đối tượng. Không chạy init lại.
 
 - `cohortOrdinal`: số mục trong baseline 2.224; khác `word.sourceIndex` (thứ tự nguồn trong cấp).

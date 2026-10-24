@@ -7,6 +7,7 @@ import {execFileSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 import {auditLesson,lessonAudio,checkAudio} from '../../js/lesson-standard.js';
 import {verifyV2} from './verify-v2.mjs';
+import {verifyV3} from './verify-v3.mjs';
 import {validateCourse} from '../../js/vocabulary-course.js';
 import {buildPlaylist} from '../../js/vocabulary-audio.js';
 import {renderStandardLesson} from '../../js/lesson-standard-view.js';
@@ -44,11 +45,11 @@ function refresh(b,p){
  const ready=records.filter(r=>r.ready).length;
  const summary={total:records.length,ready,pending:records.length-ready,byLevel:[1,2,3].map(level=>({level,total:records.filter(r=>r.level===level).length,ready:records.filter(r=>r.level===level&&r.ready).length})),note:'Kiểm tra độ đầy đủ và liên kết; chưa thay thế phản biện ngôn ngữ của giáo viên.'};
  data.contentAuditSummary=summary;
- data.editorial=`Đã rà soát ${summary.total} mục. ${summary.ready} mục đủ cấu trúc V1/V2; còn ${summary.pending}. Trong đợt bổ sung ban đầu ${b.scopeTotal} mục, đã lưu nội dung cho ${p.completedCount} mục trên nhánh ${branch}. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.`;
- write(coursePath,data);write(auditPath,{version:1,standard:'V1/V2',summary,records});write('progress.json',p);
+ data.editorial=`Đã rà soát ${summary.total} mục. ${summary.ready} mục đủ cấu trúc V1/V2/V3; còn ${summary.pending}. Trong đợt bổ sung ban đầu ${b.scopeTotal} mục, đã lưu nội dung cho ${p.completedCount} mục trên nhánh ${branch}. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.`;
+ write(coursePath,data);write(auditPath,{version:1,standard:'V1/V2/V3',summary,records});write('progress.json',p);
  const next=p.nextIds.map(id=>byId.get(id));
  fs.writeFileSync(path.join(root,'docs/PROGRESS.md'),`# Tiến độ nội dung trên nhánh biên soạn\n\nPhạm vi: ${b.scopeTotal} mục chưa đủ cấu trúc tại commit gốc ${b.sourceCommit}. Không gồm ${b.initialCompleteIds.length} mục đã có trước đó.\n\nĐã bổ sung: ${p.completedCount}/${b.scopeTotal}. Còn: ${p.remaining}. Toàn khóa đủ cấu trúc: ${ready}/${data.words.length}.\n\n## Các đợt đã đưa vào dữ liệu\n\n${p.batches.map(x=>'- '+x.id+' · mục '+x.ordinalFrom+'–'+x.ordinalTo+' · '+x.wordIds.map(id=>byId.get(id).hanzi).join('、')).join('\n')}\n\n## 18 mục tiếp theo\n\n${next.map(w=>'- '+w.hanzi+' · '+w.id).join('\n')}\n\nTrạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.\n`);
- const cache=p.batches.at(-1)?.id;
+ const cache=data.words.some(w=>w.lesson?.version===3)?'v3-word-495':p.batches.at(-1)?.id;
  if(cache){
   const js=path.join(root,'js/vocabulary.js'),html=path.join(root,'vocabulary.html');
   fs.writeFileSync(js,fs.readFileSync(js,'utf8').replace(/hanzii-course\.json\?v=[^']+/, 'hanzii-course.json?v='+cache));
@@ -65,7 +66,14 @@ if(command==='init'){
  write(baselinePath,baseline);refresh(baseline,progress);console.log('Initialized fixed cohort of 2,224 records; no unverified completions.');
 }else{
  const b=read(baselinePath),p=read('progress.json');assertProgress(b,p);
- if(command==='apply'){
+ if(command==='apply-correction'){
+  assert(argument,'Provide an authored correction JSON path.');const correction=read(argument),index=data.words.findIndex(w=>w.id===correction.wordId);assert(index>=0,'Correction word not found.');
+  const current=data.words[index];assert.equal(current.hanzi,correction.hanzi);assert.equal(current.lesson?.cohortOrdinal,correction.cohortOrdinal);assert(p.completedIds.includes(current.id),'Corrections only apply to an already completed record.');
+  const allowed=new Set(['editorialStatus','task','model']);for(const key of Object.keys(correction.wordEdits||{}))assert(allowed.has(key),'Out-of-scope correction edit: '+key);
+  const revised={...current,...correction.wordEdits,lesson:correction.lesson,examples:correction.examples};const audit=auditLesson(revised);assert(audit.ready,revised.id+': '+JSON.stringify(audit.issues));
+  data.words[index]=revised;byId.set(revised.id,revised);p.completedDigests[revised.id]=digest(revised);assertProgress(b,p);validateCourse(data);refresh(b,p);
+  console.log(`Applied ${correction.id} to ${revised.id}; completion count unchanged at ${p.completedCount}.`);
+ }else if(command==='apply'){
   assert(argument,'Provide an authored batch JSON path.');const batch=read(argument);
   assert(!p.batches.some(x=>x.id===batch.id),'Batch already applied.');
   assert(Array.isArray(batch.entries)&&batch.entries.length>0&&batch.entries.length<=p.remaining,'Batch must contain 1..remaining entries; size follows editorial difficulty.');
@@ -98,6 +106,7 @@ if(command==='init'){
   const ready=data.words.filter(w=>auditLesson(w).ready);let wrong=0;
   for(const w of ready){
    const l=w.lesson;
+   if(l.version===3){verifyV3(w);continue;}
    if(l.version===2){verifyV2(w);continue;}
    // Exercise the actual renderer as well as the structural audit: stage 0
    // requires provenance fields that auditLesson alone does not currently check.

@@ -1,10 +1,12 @@
 import {auditV2,v2Audio,splitSpeech} from './lesson-v2.js?v=v2-word-495';
+import {auditV3,v3Audio,v3CheckAudio} from './lesson-v3.js?v=v3-word-495';
 // The 5.1–5.6 contract checks content coverage; it does not certify linguistic accuracy.
 export const sections=[['introduction','5.1 · Giới thiệu từ mới'],['meaning','5.2 · Hiểu nghĩa và khi nào dùng'],['usages','5.3 · Cách sử dụng'],['examples','5.4 · Ví dụ có phân tích'],['traps','5.5 · Bẫy và phân biệt'],['pronunciation','5.6 · Đọc đúng']];
 export const judgments={correct:'Đúng và phù hợp', 'wrong-grammar':'Câu sai ngữ pháp','different-meaning':'Đúng nhưng đổi nghĩa','wrong-intent':'Đúng nhưng không phù hợp ý định','unnatural':'Hiểu được nhưng kém tự nhiên trong ngữ cảnh này','overlap':'Vẫn đúng và gần nghĩa','context-needed':'Chưa đủ ngữ cảnh để kết luận'};
 const text=v=>typeof v==='string'&&v.trim().length>0;
 const list=Array.isArray;
 export function auditLesson(word){
+ if(word.lesson?.version===3)return auditV3(word);
  if(word.lesson?.version===2)return auditV2(word);
  const l=word.lesson,issues=[],add=(path,message)=>issues.push({path,message});
  if(!l||l.version!==1){for(const [key,label]of sections)add(key,'Chưa biên soạn theo mẫu '+label);return {ready:false,issues,completeSections:0,totalSections:6};}
@@ -34,6 +36,7 @@ export function auditLesson(word){
 export function exampleById(word,id){return word.lesson?.examples.find(e=>e.id===id)}
 function mixed(text){return String(text||'').replace(/\*\*/g,'').split(/([\p{Script=Han}]+(?:[，。？！、；：…“”「」《》\s]*[\p{Script=Han}]+)*[，。？！、；：…]*)/u).filter(s=>/[\p{L}\p{N}]/u.test(s)).map(s=>({text:s.trim().replace(/[→/]/g,', '),lang:/\p{Script=Han}/u.test(s)?'zh-CN':'vi-VN'}));}
 export function lessonAudio(word,part='full',index=0){
+ if(word.lesson?.version===3)return v3Audio(word,part,index);
  if(word.lesson?.version===2)return v2Audio(word,part,index);
  if(!auditLesson(word).ready)return [];
  const l=word.lesson,q=[],seen=new Set(),say=(s,label)=>q.push(...mixed(s).map(x=>({...x,label}))),zh=(s,label)=>{if(s)q.push({text:s,lang:'zh-CN',label})},example=(id,label)=>{const e=exampleById(word,id);if(!e||(part==='full'&&seen.has(id)))return;seen.add(id); say(e.scene,label);zh(e.zh,label);say(e.vi,label);say(e.why,label);say(e.position,label);};
@@ -47,6 +50,7 @@ export function lessonAudio(word,part='full',index=0){
  return q.map((s,i)=>({...s,id:word.id+'-'+part+'-'+index+'-a'+(i+1)}));
 }
 export function checkAudio(word,id,kind,{revealed=false}={}){
+ if(word.lesson?.version===3)return v3CheckAudio(word,id,kind,{revealed});
  const check=word.lesson?.checks.find(c=>c.id===id);if(!check)return [];
  if(kind==='question')return mixed(check.question).map((s,i)=>({...s,id:word.id+'-'+id+'-q'+i,label:'Câu tự kiểm tra'}));
  if(kind!=='answer'||!revealed)throw Error('Chỉ mở audio lời giải sau khi trả lời hoặc yêu cầu xem đáp án.');
