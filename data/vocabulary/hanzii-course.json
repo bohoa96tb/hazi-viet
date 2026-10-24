@@ -22169,7 +22169,7 @@
       "meaning": "rửa, giặt",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 73",
       "examples": [
         {
           "id": "e1",
@@ -22191,7 +22191,7 @@
       "sourceIndex": 52,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn rửa tay.",
+      "task": "Nói rửa tay hoặc giặt một vật.",
       "model": "我洗手。",
       "lesson": {
         "version": 3,
@@ -22200,8 +22200,8 @@
         "difficulty": "easy",
         "difficultyReason": "洗 là động từ hành động cơ bản, tân ngữ đứng sau và dùng được cho tay/quần áo.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Washing"
         ],
@@ -22344,6 +22344,30 @@
             "correctIndex": 0,
             "explanation": "洗 là rửa/giặt."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "洗 có cách đọc thông dụng xǐ; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "洗 có nghĩa trọng tâm là rửa/giặt; vật đi sau quyết định cách dịch tự nhiên."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; không dịch 洗 thành chỉ ‘rửa’ khi tân ngữ là quần áo."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 擦 và 刷; chưa thấy bẫy cần thêm ở bài cơ bản này."
+          }
         }
       }
     },
@@ -22360,7 +22384,7 @@
       "meaning": "nóng",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 74",
       "examples": [
         {
           "id": "e1",
@@ -22382,7 +22406,7 @@
       "sourceIndex": 53,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói nước nóng.",
+      "task": "Nói thời tiết hoặc đồ uống nóng.",
       "model": "水很热。",
       "lesson": {
         "version": 3,
@@ -22391,8 +22415,8 @@
         "difficulty": "easy",
         "difficultyReason": "热 là tính từ chỉ nóng, dùng trực tiếp với 很 trong câu miêu tả.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí tính từ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Temperature"
         ],
@@ -22535,6 +22559,30 @@
             "correctIndex": 0,
             "explanation": "热 là nóng."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "热 có cách đọc thông dụng rè; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "热 có nghĩa trọng tâm là nóng/nhiệt độ cao; mức độ do 很 hoặc ngữ cảnh thể hiện."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; 热 làm vị ngữ tính từ, không cần 是 trong câu cơ bản."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 烫 và 暖; chưa thấy bẫy cần thêm ở mức bài này."
+          }
         }
       }
     },
@@ -22551,7 +22599,7 @@
       "meaning": "yêu; rất quý",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 75",
       "examples": [
         {
           "id": "e1",
@@ -22573,8 +22621,8 @@
       "sourceIndex": 54,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn yêu gia đình.",
-      "model": "我爱我的家人。",
+      "task": "Nói bạn yêu hoặc rất quý một người/điều gì.",
+      "model": "我爱中国。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -22582,8 +22630,8 @@
         "difficulty": "medium",
         "difficultyReason": "爱 có thể là yêu về tình cảm hoặc rất thích một hoạt động/sở thích; cần dạy tân ngữ và sắc thái.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà mức độ tình cảm, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Love_and_like"
         ],
@@ -22636,24 +22684,28 @@
         "confusions": [
           {
             "id": "like",
+            "category": "C",
             "afterSense": "love",
-            "title": "爱 mạnh hơn 喜欢 trong nhiều tình huống",
-            "explanation": "爱 có thể diễn tả tình yêu hoặc sở thích rất mạnh; 喜欢 thường trung tính hơn khi nói thích một món đồ, hoạt động hay người.",
+            "title": "爱 và 喜欢: yêu sâu hay thích",
+            "possibleConfusion": "Tiếng Việt dùng ‘yêu/thích’ linh hoạt, nhưng 爱 thường mạnh hơn 喜欢 trong nhiều tình huống.",
+            "explanation": "爱 biểu thị tình cảm yêu hoặc gắn bó mạnh; 喜欢 thường là thích, ưa, sắc thái nhẹ hơn và dùng rộng hơn cho hoạt động/sở thích.",
+            "difference": "我爱你 là lời yêu mạnh; 我喜欢茶 là tôi thích trà. Không phải câu nào dùng 喜欢 cũng đổi được sang 爱.",
+            "boundary": "Nói sở thích thường dùng 喜欢; nói tình cảm yêu/gắn bó dùng 爱 khi phù hợp quan hệ.",
             "contrasts": [
               {
-                "zh": "我爱我的家人。",
-                "pinyin": "Wǒ ài wǒ de jiārén.",
-                "vi": "Tôi yêu gia đình.",
-                "note": "Tình cảm sâu sắc."
+                "zh": "我爱你。",
+                "pinyin": "Wǒ ài nǐ.",
+                "vi": "Tôi yêu bạn.",
+                "note": "Tình cảm mạnh."
               },
               {
-                "zh": "我喜欢这首歌。",
-                "pinyin": "Wǒ xǐhuan zhè shǒu gē.",
-                "vi": "Tôi thích bài hát này.",
-                "note": "Sở thích thông thường."
+                "zh": "我喜欢喝茶。",
+                "pinyin": "Wǒ xǐhuan hē chá.",
+                "vi": "Tôi thích uống trà.",
+                "note": "Sở thích; không thay 爱 máy móc."
               }
             ],
-            "tip": "Nói tình yêu/gắn bó sâu sắc dùng 爱; sở thích thông thường thường dùng 喜欢."
+            "tip": "Sở thích: 喜欢; tình cảm yêu/gắn bó: 爱, tùy quan hệ và mức độ."
           }
         ],
         "guidedExercises": [
@@ -22759,6 +22811,29 @@
             "correctIndex": 0,
             "explanation": "爱 diễn tả tình yêu sâu sắc."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "爱 có cách đọc thông dụng ài; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "爱 trong bài là yêu/rất quý; mức độ tình cảm thay đổi theo đối tượng và ngữ cảnh, không cần tách thành nghĩa khác."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 爱 và 喜欢 cùng thành ‘thích’ sẽ làm yếu hoặc đổi sắc thái; cần giữ mức độ tình cảm."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 爱 với 喜欢 bằng lời yêu và câu sở thích, chỉ ra trường hợp không thay thế máy móc."
+          }
         }
       }
     },
@@ -22775,7 +22850,7 @@
       "meaning": "quả bóng; bóng",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 76",
       "examples": [
         {
           "id": "e1",
@@ -22797,8 +22872,8 @@
       "sourceIndex": 55,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn chơi bóng.",
-      "model": "我喜欢打球。",
+      "task": "Nói về quả bóng hoặc chơi bóng.",
+      "model": "我喜欢球。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -22806,8 +22881,8 @@
         "difficulty": "easy",
         "difficultyReason": "球 là danh từ quen thuộc với cụm 打球 và mẫu chỉ một quả bóng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, lượng từ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Balls_and_sports"
         ],
@@ -22950,6 +23025,30 @@
             "correctIndex": 0,
             "explanation": "球 là bóng."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "球 có cách đọc thông dụng qiú; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "球 có nghĩa trọng tâm là bóng/quả bóng; loại bóng do từ ghép hoặc ngữ cảnh quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; không suy mọi 球 đều là môn thể thao cụ thể."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 球类 và các từ chỉ môn bóng; chưa thấy bẫy cần thêm ở mức bài này."
+          }
         }
       }
     },
@@ -22986,10 +23085,10 @@
       "sourceIndex": 56,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 77",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói tờ giấy màu trắng.",
-      "model": "纸是白的。",
+      "task": "Nói màu trắng hoặc nói ai đó uổng công/không hiểu ngữ cảnh cụ thể.",
+      "model": "这件衣服是白的。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -22997,8 +23096,8 @@
         "difficulty": "medium",
         "difficultyReason": "白 có nghĩa màu trắng và một số cách dùng phó từ như uổng công; cần phân biệt theo vị trí/cụm.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nhiều chức năng, vị trí tính từ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Colors"
         ],
@@ -23065,24 +23164,28 @@
         "confusions": [
           {
             "id": "waste",
+            "category": "A2",
             "afterSense": "white",
-            "title": "白 không phải lúc nào cũng là màu trắng",
-            "explanation": "Trong 白看、白等, 白 đứng trước động từ và thường nghĩa là uổng công/làm không có kết quả; sau 是 hoặc trước danh từ đồ vật thường là màu trắng.",
+            "title": "白 không chỉ là màu trắng",
+            "possibleConfusion": "Người học ghi nhớ 白 = trắng và bỏ qua các cụm khẩu ngữ có nghĩa uổng công/không có kết quả.",
+            "explanation": "白 làm tính từ màu trắng trong 白衣服. Trong 白等, 白说, 白忙, nó chỉ việc làm uổng công hoặc không đạt kết quả.",
+            "difference": "白色的衣服 là quần áo màu trắng; 我白等了 là tôi đã đợi uổng công. Cùng chữ nhưng chức năng theo cụm khác.",
+            "boundary": "Có danh từ màu sắc: trắng; đứng trước động từ như 等/说/忙: xét nghĩa uổng công.",
             "contrasts": [
               {
-                "zh": "纸是白的。",
-                "pinyin": "Zhǐ shì bái de.",
-                "vi": "Giấy màu trắng.",
-                "note": "Mô tả màu."
+                "zh": "这件衣服是白的。",
+                "pinyin": "Zhè jiàn yīfu shì bái de.",
+                "vi": "Bộ quần áo này màu trắng.",
+                "note": "白 là màu sắc."
               },
               {
                 "zh": "我白等了。",
                 "pinyin": "Wǒ bái děng le.",
                 "vi": "Tôi đã đợi uổng công.",
-                "note": "Đứng trước động từ, nghĩa uổng công."
+                "note": "白 + động từ chỉ việc không có kết quả."
               }
             ],
-            "tip": "Xem 白 bổ nghĩa cho vật hay đứng trước hành động để chọn nghĩa."
+            "tip": "白 + danh từ màu = trắng; 白 + động từ trong cụm như 白等 = uổng công."
           }
         ],
         "guidedExercises": [
@@ -23188,6 +23291,29 @@
             "correctIndex": 0,
             "explanation": "白 trong câu đầu là màu trắng."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "白 có cách đọc thông dụng bái trong các cách dùng bài này; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã kiểm tra nghĩa màu trắng và chức năng khẩu ngữ ‘uổng công’ trong 白等/白忙; bài dùng ngữ cảnh để phân biệt."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 白 luôn thành ‘trắng’ sẽ sai trong 白等了; cần nhìn động từ sau 白."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu hai chức năng của 白 bằng câu màu sắc và câu uổng công."
+          }
         }
       }
     },
@@ -23204,7 +23330,7 @@
       "meaning": "cười",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 78",
       "examples": [
         {
           "id": "e1",
@@ -23226,8 +23352,8 @@
       "sourceIndex": 57,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn cười.",
-      "model": "我笑了。",
+      "task": "Nói ai đó cười hoặc bảo ai đó đừng cười.",
+      "model": "他笑了。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -23235,8 +23361,8 @@
         "difficulty": "easy",
         "difficultyReason": "笑 là động từ cơ bản, dùng độc lập hoặc với 得 để mô tả cách cười.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Laughing"
         ],
@@ -23379,6 +23505,30 @@
             "correctIndex": 0,
             "explanation": "笑 là cười."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "笑 có cách đọc thông dụng xiào; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "笑 có nghĩa trọng tâm là cười; nguyên nhân hoặc sắc thái do thành phần khác nêu ra."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; phân biệt 笑 là cười với 哭 là khóc theo hành động."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 哭 và 微笑; chưa thấy bẫy cần thêm ở bài cơ bản này."
+          }
         }
       }
     },
@@ -23395,7 +23545,7 @@
       "meaning": "thịt",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 79",
       "examples": [
         {
           "id": "e1",
@@ -23417,7 +23567,7 @@
       "sourceIndex": 58,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn không ăn thịt.",
+      "task": "Nói về thịt hoặc gọi món có thịt.",
       "model": "我不吃肉。",
       "lesson": {
         "version": 3,
@@ -23426,8 +23576,8 @@
         "difficulty": "easy",
         "difficultyReason": "肉 là danh từ thực phẩm cơ bản với mẫu ăn và lượng từ 盘 rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Meat"
         ],
@@ -23570,6 +23720,30 @@
             "correctIndex": 0,
             "explanation": "肉 là thịt."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "肉 có cách đọc thông dụng ròu; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "肉 có nghĩa trọng tâm là thịt; loại thịt do từ ghép hoặc ngữ cảnh món ăn quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; không suy 肉 luôn là thịt động vật cụ thể nào nếu câu không nêu."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 菜 và 鱼; chưa thấy bẫy cần thêm ở mức bài này."
+          }
         }
       }
     },
@@ -23586,7 +23760,7 @@
       "meaning": "hoa",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 80",
       "examples": [
         {
           "id": "e1",
@@ -23608,8 +23782,8 @@
       "sourceIndex": 59,
       "meaningOrigin": "biên soạn bổ sung",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói trên bàn có một bông hoa.",
-      "model": "桌子上有一朵花。",
+      "task": "Nói về một bông hoa hoặc mua hoa.",
+      "model": "我喜欢花。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -23617,8 +23791,8 @@
         "difficulty": "easy",
         "difficultyReason": "花 là danh từ cơ bản với lượng từ 朵 và mẫu tồn tại rõ.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Flowers"
         ],
@@ -23759,6 +23933,30 @@
             "correctIndex": 0,
             "explanation": "花 là hoa."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "花 có cách đọc thông dụng huā; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "花 có nghĩa trọng tâm là hoa trong bài này; các nghĩa dùng tiền/thời gian không đưa vào mục tiêu cơ bản."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần xét ngữ cảnh nếu gặp 花钱, không gán nghĩa tiền cho mọi câu."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 草 và 花钱; chưa thấy bẫy cần thêm vào bài cơ bản."
+          }
         }
       }
     },
@@ -23775,7 +23973,7 @@
       "meaning": "trà; nước trà",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 81",
       "examples": [
         {
           "id": "e1",
@@ -23797,8 +23995,8 @@
       "sourceIndex": 60,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Mời bạn uống trà.",
-      "model": "请喝茶。",
+      "task": "Nói về trà hoặc mời ai đó uống trà.",
+      "model": "我喝茶。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -23806,8 +24004,8 @@
         "difficulty": "easy",
         "difficultyReason": "茶 là danh từ đồ uống cơ bản, với mẫu 喝茶 và lời mời 请喝茶 rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Tea"
         ],
@@ -23948,6 +24146,30 @@
             "correctIndex": 0,
             "explanation": "茶 là trà."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "茶 có cách đọc thông dụng chá; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "茶 có nghĩa trọng tâm là trà/nước trà; loại trà do từ ghép hoặc ngữ cảnh quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; không dịch 茶 thành cây trà trong mọi câu ăn uống."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 水 và 饮料; chưa thấy bẫy cần thêm ở bài này."
+          }
         }
       }
     },
@@ -23964,7 +24186,7 @@
       "meaning": "món ăn; rau",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 82",
       "examples": [
         {
           "id": "e1",
@@ -23986,8 +24208,8 @@
       "sourceIndex": 61,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói món ăn này ngon.",
-      "model": "这个菜很好吃。",
+      "task": "Nói về món ăn hoặc rau trong bữa ăn.",
+      "model": "我喜欢这道菜。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -23995,8 +24217,8 @@
         "difficulty": "medium",
         "difficultyReason": "菜 có thể là món ăn hoặc rau/thức ăn thực vật; cần dựa vào động từ và ngữ cảnh để dịch tự nhiên.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nhiều nghĩa, lượng từ, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Food_and_vegetables"
         ],
@@ -24049,24 +24271,28 @@
         "confusions": [
           {
             "id": "dish",
+            "category": "A2",
             "afterSense": "food",
-            "title": "菜 không chỉ có nghĩa rau",
-            "explanation": "Khi nói 这个菜 hoặc 菜很好吃, 菜 thường là món ăn; trong ngữ cảnh ăn uống nói chung, 吃菜 có thể được hiểu là ăn rau.",
+            "title": "菜: rau hay món ăn",
+            "possibleConfusion": "Tiếng Việt tách ‘rau’ và ‘món ăn’ rõ, còn 菜 dùng được cho cả nguyên liệu rau và món đã nấu tùy ngữ cảnh.",
+            "explanation": "菜 có thể chỉ rau làm thực phẩm hoặc món ăn trên bàn. Lượng từ 道 và động từ 点 thường gợi nghĩa món ăn.",
+            "difference": "我不喜欢吃菜 có thể nói không thích ăn rau; 我喜欢这道菜 nói thích món ăn này. Đạo từ và ngữ cảnh làm rõ.",
+            "boundary": "Có 道/盘 hoặc gọi món: món ăn; nói nguyên liệu/ăn rau: rau/thức ăn thực vật.",
             "contrasts": [
               {
-                "zh": "这个菜很好吃。",
-                "pinyin": "Zhège cài hěn hǎochī.",
-                "vi": "Món này rất ngon.",
-                "note": "菜 là món ăn."
+                "zh": "我不喜欢吃菜。",
+                "pinyin": "Wǒ bù xǐhuan chī cài.",
+                "vi": "Tôi không thích ăn rau.",
+                "note": "菜 có thể hiểu là rau/thức ăn rau."
               },
               {
-                "zh": "多吃菜。",
-                "pinyin": "Duō chī cài.",
-                "vi": "Ăn nhiều rau nhé.",
-                "note": "菜 được hiểu là rau/thức ăn thực vật."
+                "zh": "我喜欢这道菜。",
+                "pinyin": "Wǒ xǐhuan zhè dào cài.",
+                "vi": "Tôi thích món ăn này.",
+                "note": "道 là lượng từ món ăn, nên hiểu là món."
               }
             ],
-            "tip": "Xem 菜 đang được chỉ ra như một món hay được khuyên ăn trong nhóm rau."
+            "tip": "Có 道/盘 và ngữ cảnh gọi món: 菜 = món; nói ăn rau: 菜 = rau/thức ăn rau."
           }
         ],
         "guidedExercises": [
@@ -24169,6 +24395,29 @@
             ],
             "correctIndex": 0,
             "explanation": "菜 là món ăn trong ngữ cảnh này."
+          }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "菜 có cách đọc thông dụng cài; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã kiểm tra hai cách dùng thông dụng: rau/thức ăn rau và món ăn; lượng từ/ngữ cảnh giúp phân biệt."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 菜 luôn thành ‘rau’ sẽ sai khi có 道/盘 hoặc ngữ cảnh gọi món; cần xét cả cụm."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 菜 theo hai nghĩa bằng câu ăn rau và câu nói về món ăn."
           }
         }
       }
