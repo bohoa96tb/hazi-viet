@@ -70,9 +70,15 @@ function openWord(id,options={}){
  session=options.queue||lessonWords().map(w=>w.id);if(!session.includes(id))session=[id];pos=session.indexOf(id);resetPractice();if(!studySteps(word).includes(stage))stage=0;
  document.body.classList.add('word-open');if(!dialog.open)dialog.showModal();drawWord();
 }
+function stripLessonTechnicalMarkup(root){
+ root.querySelectorAll('.course-word-source').forEach(el=>el.remove());
+ root.querySelectorAll('small').forEach(el=>{if(/^Mã (ví dụ|cách dùng|câu hỏi):/.test(el.textContent.trim()))el.remove()});
+ root.innerHTML=root.innerHTML.replace(/\[Từ số \d+\]\s*/g,'').replace(/\b5\.[1-6]\s*·\s*/g,'').replace(/mẫu 5\.1–5\.6/g,'mẫu bài học');
+}
 function drawWord(){
  stop();progress.remember(selected.id,stage);const c=progress.card(selected.id),steps=studySteps(selected),next=moveStep(selected,stage,1);
  content.innerHTML=`<div class="lesson-top"><span>TỪ VỰNG · ${pos+1}/${session.length}${isReview?' · ÔN TẬP':''}</span><button data-action="close" class="round" aria-label="Đóng bài học">✕</button></div><div class="word-identity"><div><span class="eyebrow">${isReview?'TỰ NHỚ TRƯỚC KHI XEM':statusLabels[selected.status].toUpperCase()}</span><h2 lang="zh-CN">${stage===3&&quizMode==='listen'&&!listenShown?'•••':hanzi(selected.hanzi)}</h2></div><div class="identity-actions"><button class="round" data-action="favorite" aria-label="${c.favorite?'Bỏ yêu thích':'Yêu thích'}" aria-pressed="${c.favorite}">${c.favorite?'★':'☆'}</button></div></div><div class="lesson-tabs" role="tablist" aria-label="Các bước học từ">${steps.map(i=>`<button id="vstep-${i}" role="tab" aria-selected="${stage===i}" aria-controls="lessonBody" tabindex="${stage===i?0:-1}" data-step="${i}"><small>0${steps.indexOf(i)+1}</small>${stages[i]}</button>`).join('')}</div><section id="lessonBody" class="lesson-body" role="tabpanel" aria-labelledby="vstep-${stage}">${coverageNotice(selected)}${renderStage()}</section><div class="lesson-footer"><div class="step-caption"><span>${stage===3&&quizMode==='listen'&&!listenShown?'Luyện nghe':esc(selected.hanzi)} · Bước ${steps.indexOf(stage)+1}/${steps.length}</span><span>${c.learned?'✓ Đã học':'Chưa đánh dấu'}</span></div><div class="step-buttons"><button class="soft" data-action="back" ${stage===0&&pos===0?'disabled':''} aria-label="Bước trước">←</button><button class="primary" data-action="next">${stage===4?'Từ tiếp theo':'Tiếp: '+stages[next]} →</button><button class="soft" data-action="skip" ${pos===session.length-1?'disabled':''} aria-label="Bỏ qua sang từ tiếp">⇥</button></div></div>`;
+ stripLessonTechnicalMarkup(content);
  content.querySelector('[data-action="close"]').focus();
 }
 function renderFoundation(w){

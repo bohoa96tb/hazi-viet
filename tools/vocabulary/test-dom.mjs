@@ -13,7 +13,7 @@ const speech=[];window.speechSynthesis={getVoices:()=>[],addEventListener(){},ca
 globalThis.fetch=async url=>({ok:true,json:async()=>structuredClone(d)});
 await import(new URL('../../js/vocabulary.js?dom-test',import.meta.url));await new Promise(r=>setTimeout(r,20));
 const $=s=>document.querySelector(s),click=s=>{assert($(s),'Missing '+s);$(s).click()},body=()=>$('#lessonBody').textContent;
-assert($('#wordDialog').open);assert(body().includes('Chuẩn V2'));assert(body().includes('[Từ số '+sample.lesson.cohortOrdinal+']'));
+assert($('#wordDialog').open);assert(!body().includes('Chuẩn V2'));assert(!body().includes('[Từ số '+sample.lesson.cohortOrdinal+']'));assert(!body().includes('Mã ví dụ:'));
 click('[data-step="1"]');assert.equal(document.querySelectorAll('.standard-example').length,2);assert(!document.querySelector('[data-lesson-view]'));
 click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,sample.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
 click('[data-step="3"]');assert(!document.querySelector('.feedback'));assert(!document.querySelector('[data-v2-hint]'));
@@ -27,7 +27,7 @@ $('#wordSearch').value='不用';$('#wordSearch').dispatchEvent(new window.Event(
 click('[data-start="hz-h1-b51cd2090a80"]');assert(body().includes('bù yòng'));click('[data-step="2"]');assert(body().includes('不用 / 不要'));click('[data-lesson-page="trap"][data-delta="1"]');assert(body().includes('不用 / 没用'));
 click('[data-action="close"]');$('#wordSearch').value='';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
 // A protected V1 word can still be opened through the same application.
-const old=p.completedIds[0];$('#wordSearch').value=d.words.find(w=>w.id===old).hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-start="'+old+'"]');assert(body().includes('5.1'));click('[data-step="1"]');assert(document.querySelector('[data-lesson-view]'));
+const old=p.completedIds[0];$('#wordSearch').value=d.words.find(w=>w.id===old).hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-start="'+old+'"]');assert(!body().includes('5.1'));assert(!body().includes('Mã ví dụ:'));click('[data-step="1"]');assert(document.querySelector('[data-lesson-view]'));assert(!body().includes('5.3'));
 // Exercise every new lesson through the real entry point, including empty traps.
 for(const id of p.batches.at(-1).wordIds){
  const word=d.words.find(w=>w.id===id);
@@ -35,7 +35,7 @@ for(const id of p.batches.at(-1).wordIds){
  const target='[data-start="'+id+'"]';
  for(let page=0;!$(target)&&page<d.lessons.length;page++){assert(!$('[data-lesson="1"]').disabled,'Target must be reachable in filtered pages: '+id);click('[data-lesson="1"]');}
  click(target);
- assert(body().includes('[Từ số '+word.lesson.cohortOrdinal+']'));
+ assert(!body().includes('Chuẩn V2'));assert(!body().includes('[Từ số '+word.lesson.cohortOrdinal+']'));assert(!body().includes('Mã ví dụ:'));assert(!body().includes('Mã cách dùng:'));assert(!body().includes('Mã câu hỏi:'));
  click('[data-step="1"]');assert.equal(document.querySelectorAll('.standard-example').length,2);
  click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,word.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
  click('[data-step="2"]');if(!word.lesson.traps.length)assert(body().includes(word.lesson.noTrapReason));
