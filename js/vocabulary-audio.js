@@ -1,4 +1,4 @@
-import {auditLesson,lessonAudio} from './lesson-standard.js?v=v2-word-495';
+import {auditLesson,lessonAudio} from './lesson-standard.js?v=v3-rewrite-001';
 // Deterministic scripts and a cancellable, segment-by-segment bilingual player.
 export const audioModes=[
  {id:'quick',icon:'⚡',title:'Ôn nhanh',description:'Từ tiếng Trung → nghĩa tiếng Việt.'},

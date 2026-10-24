@@ -1,8 +1,8 @@
 # Hợp đồng bài V2 và tương thích V1
 
-## Mở rộng thử nghiệm V3 cho từ 495
+## Hợp đồng V3 tổng quát
 
-`word.lesson.version === 3` hiện chỉ được dùng cho `hz-h2-b68721647e72` (下). Bộ nạp vẫn giữ nguyên đường V1/V2. V3 bỏ trường giảng riêng `pronunciation` và không render `shape` trong bài từ vựng; audio từ/câu và liên kết từng Hanzi sang trang phân tích độc lập vẫn giữ.
+`word.lesson.version === 3` dùng cho quá trình tái biên soạn từ đầu baseline; `hz-h2-b68721647e72` (下) là mẫu định hướng, không phải khuôn độ dài. Bộ nạp vẫn giữ nguyên đường V1/V2. V3 bỏ trường giảng riêng `pronunciation` và không render `shape` trong bài từ vựng; audio từ/câu và liên kết từng Hanzi sang trang phân tích độc lập vẫn giữ. Chuẩn biên tập đầy đủ nằm ở `CONTENT_STANDARD_V3.md`.
 
 V3 tổ chức trực tiếp theo năm bước:
 
@@ -10,8 +10,8 @@ V3 tổ chức trực tiếp theo năm bước:
 - `confusions[]`: bẫy được giảng ngay sau cách dùng liên quan qua `afterSense`; mỗi bẫy có đối chiếu cụ thể.
 - `guidedExercises[]`: sắp xếp, điền và hoàn thành cấu trúc ở bước Ghép câu.
 - `discriminationExercises[]`: bài tương tác kiểm tra từng `trapId`, không lộ đáp án trước khi trả lời.
-- `productionExercises[]`: hai nhiệm vụ tự tạo câu, gợi ý mở tuần tự ý → khung → mẫu.
-- `reviewExercises[]`: ba kiểu nhớ lại; đáp án và từ mục tiêu được ẩn trước khi thử. Chỉ nút tự đánh giá mới cập nhật lịch ôn.
+- `productionExercises[]`: nhiệm vụ tự tạo câu, gợi ý mở tuần tự ý → khung → mẫu; số lượng theo độ khó.
+- `reviewExercises[]`: các kiểu nhớ lại theo độ khó; đáp án và từ mục tiêu được ẩn trước khi thử. Mỗi thẻ có trạng thái riêng và chỉ sau khi đủ thẻ mới cập nhật lịch ôn tổng hợp.
 
 Validator V3 nằm ở `js/lesson-v3.js`, renderer ở `js/lesson-v3-view.js`, kiểm thử cấu trúc/ẩn đáp án ở `tools/vocabulary/verify-v3.mjs`. Việc áp dụng correction không tăng số bài hoàn thành và phải cập nhật digest của đúng ID.
 

@@ -3060,65 +3060,30 @@
       "meaning": "tôi",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 001",
       "examples": [
         {
+          "id": "e1",
           "zh": "我是越南人。",
+          "pinyin": "Wǒ shì Yuènán rén.",
           "vi": "Tôi là người Việt Nam.",
-          "scene": "Bạn giới thiệu quốc tịch.",
-          "why": "我 chỉ người tự giới thiệu; 是 nối người với danh tính.",
-          "position": "我 đứng trước 是; 越南人 là danh tính phía sau.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Giới thiệu tôi là người Việt Nam.",
-            "choice": "Chọn 我 để chỉ mình và 是 để nối với danh tính.",
-            "order": "Xếp người nói, từ nối 是, rồi danh tính.",
-            "result": "我是越南人。"
-          },
-          "id": "e01"
+          "analysis": "我 là người tự giới thiệu; 是 nối người với danh tính.",
+          "practiceAllowed": true
         },
         {
-          "zh": "我不是老师。",
-          "vi": "Tôi không phải là giáo viên.",
-          "scene": "Bạn đính chính nghề nghiệp.",
-          "why": "不是 phủ định danh tính, không phủ định bản thân đại từ.",
-          "position": "不 đứng ngay trước 是; 我 vẫn ở đầu câu.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
+          "id": "e2",
           "zh": "我学习中文。",
+          "pinyin": "Wǒ xuéxí Zhōngwén.",
           "vi": "Tôi học tiếng Trung.",
-          "scene": "Bạn nói việc mình đang học.",
-          "why": "我 làm người học; 学习 là học, nhận 中文 là nội dung học.",
-          "position": "Hành động 学习 đi sau 我, không cần 是 ở giữa.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "你认识我吗？",
-          "vi": "Bạn có biết tôi không?",
-          "scene": "Bạn hỏi người đối diện có nhận ra mình.",
-          "why": "认识 là biết hoặc quen một người; 我 là người được hỏi có quen hay không.",
-          "position": "我 đứng sau 认识; 吗 ở cuối tạo câu hỏi.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "我是学生。",
-          "vi": "Tôi là học sinh hoặc sinh viên.",
-          "scene": "Bạn giới thiệu vai trò người học.",
-          "why": "Giữ mẫu danh tính, đổi quốc tịch thành vai trò.",
-          "position": "学生 đứng sau 是; 我 vẫn chỉ người đang nói.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "学习 là hành động nên đứng thẳng sau 我, không cần 是.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn giới thiệu mình với một người mới gặp.",
       "when": "Người đang nói dùng 我 để chỉ chính mình. Không đổi từ này theo giới tính.",
       "pattern": "我 + hoạt động; 我是 + danh tính",
       "trap": "Không thêm 是 trước mọi hoạt động: 我工作 là tôi làm việc; 我是工作 không có nghĩa đó.",
-      "task": "Giới thiệu bạn là người Việt Nam.",
+      "task": "Tự giới thiệu một thông tin về bản thân bằng 我.",
       "model": "我是越南人。",
       "phrases": [
         "我是越南人。"
@@ -3166,248 +3131,238 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 1,
+        "difficulty": "medium",
+        "difficultyReason": "Nghĩa đại từ đơn giản nhưng cần phân biệt câu danh tính với câu hành động và phân biệt số ít 我 với số nhiều 我们.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Tái biên soạn V3 từ mục 1; đã tự rà tính tự nhiên, Pinyin, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
+        ],
         "introduction": {
-          "partOfSpeech": "Đại từ chỉ người đang nói.",
-          "scope": "Học cách tự giới thiệu và nói việc của bản thân; cách nói sở hữu đặt ở Học thêm."
-        },
-        "meaning": {
-          "scene": "Bạn gặp đồng nghiệp mới và cần nói mình là người Việt Nam.",
-          "explanation": "我 chỉ chính người đang nói, tương ứng tôi, mình hoặc em tùy cách xưng hô tiếng Việt. Người nam và người nữ đều dùng cùng một chữ này.",
-          "boundary": "我 chỉ một người đang nói; khi đại diện cho một nhóm, cần 我们. Không chọn từ tiếng Trung bằng cách dịch cố định mọi từ em hoặc anh trong tiếng Việt.",
-          "conditions": [
-            "Chọn theo vai trò người nói, không theo tuổi hoặc giới tính.",
-            "Có thể làm người thực hiện ở trước hành động hoặc người được tác động sau hành động."
-          ],
-          "takeaway": "Khi muốn nói về chính mình, trong tình huống một người đang phát biểu, bạn có thể dùng 我.",
-          "alternatives": [
-            {
-              "zh": "我们是同事。",
-              "vi": "Chúng tôi là đồng nghiệp.",
-              "purpose": "我们 chỉ nhóm có người nói; 同事 là đồng nghiệp."
-            }
-          ]
+          "scope": "我 là đại từ người nói dùng để chỉ chính mình, tương ứng tôi, mình hoặc em tùy cách xưng hô tiếng Việt. Nam và nữ đều dùng 我. Bài này tập trung vào vị trí của 我 trong câu danh tính, câu hành động và khi làm đối tượng của động từ."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "我是越南人。",
+            "pinyin": "Wǒ shì Yuènán rén.",
             "vi": "Tôi là người Việt Nam.",
-            "scene": "Bạn giới thiệu quốc tịch.",
-            "why": "我 chỉ người tự giới thiệu; 是 nối người với danh tính.",
-            "position": "我 đứng trước 是; 越南人 là danh tính phía sau.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Giới thiệu tôi là người Việt Nam.",
-              "choice": "Chọn 我 để chỉ mình và 是 để nối với danh tính.",
-              "order": "Xếp người nói, từ nối 是, rồi danh tính.",
-              "result": "我是越南人。"
-            },
-            "id": "e01"
+            "analysis": "我 là người tự giới thiệu; 是 nối người với danh tính.",
+            "practiceAllowed": true
           },
           {
-            "zh": "我不是老师。",
-            "vi": "Tôi không phải là giáo viên.",
-            "scene": "Bạn đính chính nghề nghiệp.",
-            "why": "不是 phủ định danh tính, không phủ định bản thân đại từ.",
-            "position": "不 đứng ngay trước 是; 我 vẫn ở đầu câu.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
+            "id": "e2",
             "zh": "我学习中文。",
+            "pinyin": "Wǒ xuéxí Zhōngwén.",
             "vi": "Tôi học tiếng Trung.",
-            "scene": "Bạn nói việc mình đang học.",
-            "why": "我 làm người học; 学习 là học, nhận 中文 là nội dung học.",
-            "position": "Hành động 学习 đi sau 我, không cần 是 ở giữa.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "你认识我吗？",
-            "vi": "Bạn có biết tôi không?",
-            "scene": "Bạn hỏi người đối diện có nhận ra mình.",
-            "why": "认识 là biết hoặc quen một người; 我 là người được hỏi có quen hay không.",
-            "position": "我 đứng sau 认识; 吗 ở cuối tạo câu hỏi.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "我是学生。",
-            "vi": "Tôi là học sinh hoặc sinh viên.",
-            "scene": "Bạn giới thiệu vai trò người học.",
-            "why": "Giữ mẫu danh tính, đổi quốc tịch thành vai trò.",
-            "position": "学生 đứng sau 是; 我 vẫn chỉ người đang nói.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "学习 là hành động nên đứng thẳng sau 我, không cần 是.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Giới thiệu mình là ai.",
-            "frame": "我 + 是 + danh tính",
-            "position": "我 ở đầu; 是 nối với danh từ chỉ danh tính.",
-            "required": "Theo khung này phải có 是 giữa người và danh tính.",
-            "omission": "Khi trả lời câu hỏi ai là giáo viên, có thể nói 我 nếu ngữ cảnh đủ rõ; câu trả lời ngắn đó không phải mẫu đầy đủ.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi danh tính từ người Việt Nam sang người học.",
-              "exampleId": "e05",
-              "limit": "Có thể đổi sang nghề nghiệp hoặc quốc tịch phù hợp; không đặt mọi hành động sau 是."
-            },
-            "caution": "Không hiểu 是 là từ bắt buộc sau mọi đại từ.",
+            "id": "speaker",
+            "title": "Chỉ chính người đang nói",
+            "when": "Dùng 我 khi một người nói về bản thân. Cách dịch tiếng Việt thay đổi theo quan hệ, nhưng vai trò trong tiếng Trung vẫn là người nói.",
+            "meaning": "Tôi, mình, em, anh hoặc chị khi các từ đó chỉ người đang phát ngôn.",
+            "grammar": "我 là đại từ. Khi làm chủ ngữ, 我 đứng trước phần nói người đó là ai hoặc làm gì.",
+            "pattern": "我 + 是 + danh tính；我 + động từ + thành phần khác",
             "collocations": [
               {
                 "zh": "我是学生",
-                "vi": "tôi là người học",
-                "purpose": "Giới thiệu vai trò."
+                "pinyin": "wǒ shì xuésheng",
+                "vi": "tôi là học sinh/sinh viên"
               },
               {
-                "zh": "我不是老师",
-                "vi": "tôi không phải giáo viên",
-                "purpose": "Đính chính danh tính."
+                "zh": "我学习中文",
+                "pinyin": "wǒ xuéxí Zhōngwén",
+                "vi": "tôi học tiếng Trung"
               }
             ],
-            "forms": [
+            "examples": [
               {
-                "type": "Phủ định danh tính",
-                "exampleId": "e02",
-                "why": "不 đứng trước 是; không đổi 我 thành hình thức khác."
+                "zh": "我是越南人。",
+                "pinyin": "Wǒ shì Yuènán rén.",
+                "vi": "Tôi là người Việt Nam.",
+                "note": "Dùng 是 vì 越南人 là danh tính."
+              },
+              {
+                "zh": "我学习中文。",
+                "pinyin": "Wǒ xuéxí Zhōngwén.",
+                "vi": "Tôi học tiếng Trung.",
+                "note": "学习 là hành động; không thêm 是 vào giữa."
               }
-            ],
-            "id": "u01"
+            ]
           },
           {
-            "intent": "Nói việc mình làm hoặc người khác tác động đến mình.",
-            "frame": "我 + hành động + nội dung; người khác + hành động + 我",
-            "position": "Đầu câu 我 thường là người thực hiện; sau 认识, 我 là người được biết.",
-            "required": "Hành động quyết định có cần đối tượng; 学习中文 nêu rõ học gì.",
-            "omission": "Khi nội dung học đã rõ, 我学习 có thể đủ; không coi mọi câu thiếu đối tượng là sai.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Đổi từ kể việc mình làm sang hỏi người khác có quen mình không.",
-              "exampleId": "e04",
-              "limit": "Đây là đổi vai trong câu, không phải mọi động từ đều nhận 我 trực tiếp."
-            },
-            "caution": "Đặt 不 trước hành động để phủ định ý định hoặc thói quen; câu hỏi đã học đặt 吗 ở cuối.",
+            "id": "object",
+            "title": "Chỉ người nói ở sau động từ",
+            "when": "Dùng khi hành động của người khác hướng đến chính người đang nói.",
+            "meaning": "Tôi hoặc mình, nhưng lần này 我 là người nhận hay đối tượng của hành động.",
+            "grammar": "Người thực hiện đứng trước động từ; 我 đứng sau những động từ có thể nhận một người làm đối tượng, như 认识.",
+            "pattern": "Người khác + động từ + 我",
             "collocations": [
               {
                 "zh": "认识我",
-                "vi": "biết tôi",
-                "purpose": "Nói người khác quen người nói."
+                "pinyin": "rènshi wǒ",
+                "vi": "biết/quen tôi"
               }
             ],
-            "forms": [
+            "examples": [
               {
-                "type": "Câu hỏi có đối tượng 我",
-                "exampleId": "e04",
-                "why": "认识我 hỏi việc quen biết; 吗 biến câu kể thành câu hỏi."
+                "zh": "你认识我吗？",
+                "pinyin": "Nǐ rènshi wǒ ma?",
+                "vi": "Bạn có biết tôi không?",
+                "note": "你 là người được hỏi; 我 đứng sau 认识 vì là người được biết."
               }
-            ],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Thêm 是 trước hành động vì quen mẫu tôi là",
-            "scene": "Bạn muốn nói mình học tiếng Trung.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rằng sau 我 luôn phải có 是.",
-            "difference": "是 nối danh tính trong 我是学生; 学习 tự làm phần nói việc làm, không cần 是 trong câu kể trung tính.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我学习中文。",
-                "vi": "Tôi học tiếng Trung.",
-                "judgment": "correct",
-                "comment": "Câu trực tiếp nói hoạt động.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我是学习中文。",
-                "vi": "Ý định: tôi học tiếng Trung.",
-                "judgment": "wrong-intent",
-                "comment": "Với ngữ cảnh đối lập đặc biệt có thể hiểu 是 là nhấn mạnh; câu đứng riêng không phải cách kể trung tính đang học.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Nếu thêm 是, câu có thể gợi nhấn mạnh hoặc đối lập và cần ngữ cảnh; ưu tiên 我学习中文 cho ý kể việc đơn thuần."
-            },
-            "boundary": "Không áp dụng mẹo bỏ 是 cho câu danh tính 我是学生; ở đó 是 thuộc khung cơ bản.",
-            "tip": "Giới thiệu mình là ai dùng 我是; kể việc mình làm dùng 我 rồi đến hành động.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "Một người và nhóm người đều dịch thành mình",
-            "scene": "Bạn đang giới thiệu riêng bản thân, không đại diện cả lớp.",
-            "possibleConfusion": "Bạn có thể dễ nhầm giữa 我 và 我们 vì tiếng Việt đều có thể nói mình.",
-            "difference": "我 chỉ cá nhân người nói; 我们 bao gồm người nói và ít nhất một người khác.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我是学生。",
-                "vi": "Tôi là học sinh hoặc sinh viên.",
-                "judgment": "correct",
-                "comment": "Chỉ cá nhân đang nói.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我们是学生。",
-                "vi": "Chúng tôi hoặc chúng ta là học sinh, sinh viên.",
-                "judgment": "different-meaning",
-                "comment": "Câu đúng nhưng nói cả nhóm.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 我 bằng 我们 vẫn đúng cấu trúc nhưng tăng phạm vi từ cá nhân sang nhóm."
-            },
-            "boundary": "Một người có thể thay mặt nhóm phát biểu bằng 我们; số người thực sự phát âm không quyết định dùng số nhiều.",
-            "tip": "Nói riêng mình dùng 我; đại diện nhóm có mình dùng 我们.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
-          }
-        ],
-        "pronunciation": {
-          "text": "我 mang thanh ba. Trước âm thanh một trong 我学习, thường đọc thấp, không cần uốn lên đầy đủ. Trong 我也, hai thanh ba liền nhau làm âm đầu thường đọc gần thanh hai. Đây là cách nói liền, thanh gốc của 我 vẫn là thanh ba."
-        },
-        "checks": [
-          {
-            "id": "check-01",
-            "question": "Bạn chỉ muốn kể mình học tiếng Trung. Chọn câu trung tính.",
-            "choices": [
-              "我学习中文。",
-              "我是学生。"
             ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "shi-before-action",
+            "afterSense": "speaker",
+            "title": "Không đặt 是 trước mọi hành động",
+            "explanation": "我是学生 dùng 是 để nối với danh tính. Khi kể một hành động như học tiếng Trung, đặt động từ 学习 ngay sau 我. Câu 我是学习中文 đứng riêng không phải cách kể trung tính này.",
+            "contrasts": [
+              {
+                "zh": "我是学生。",
+                "pinyin": "Wǒ shì xuésheng.",
+                "vi": "Tôi là học sinh/sinh viên.",
+                "note": "学生 là danh tính nên dùng 是."
+              },
+              {
+                "zh": "我学习中文。",
+                "pinyin": "Wǒ xuéxí Zhōngwén.",
+                "vi": "Tôi học tiếng Trung.",
+                "note": "学习 là hành động nên không cần 是."
+              }
+            ],
+            "tip": "Nói mình là ai: 我是…; nói mình làm gì: 我 + động từ."
           },
           {
-            "id": "check-02",
-            "question": "Chỉ giới thiệu một mình bạn. Chọn chủ thể.",
+            "id": "wo-women",
+            "afterSense": "object",
+            "title": "我 và 我们 không cùng số lượng",
+            "explanation": "我 chỉ cá nhân người nói. 我们 chỉ một nhóm có người nói; tùy ngữ cảnh có thể dịch là chúng tôi hoặc chúng ta.",
+            "contrasts": [
+              {
+                "zh": "我是学生。",
+                "pinyin": "Wǒ shì xuésheng.",
+                "vi": "Tôi là học sinh/sinh viên.",
+                "note": "Chỉ một cá nhân."
+              },
+              {
+                "zh": "我们是学生。",
+                "pinyin": "Wǒmen shì xuésheng.",
+                "vi": "Chúng tôi/chúng ta là học sinh, sinh viên.",
+                "note": "Nói về cả nhóm có người nói."
+              }
+            ],
+            "tip": "Chỉ riêng mình dùng 我; nói cả nhóm có mình dùng 我们."
+          }
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "level": "Cơ bản · chạm sắp xếp",
+            "type": "order",
+            "prompt": "Chạm các mảnh để tạo câu: Tôi là người Việt Nam.",
+            "tokens": [
+              "我",
+              "是",
+              "越南人",
+              "。"
+            ],
+            "accepted": [
+              "我是越南人。"
+            ],
+            "model": "我是越南人。",
+            "explanation": "我 đứng đầu, 是 nối với danh tính 越南人.",
+            "wrongFeedback": "Kiểm tra lại: người nói → 是 → danh tính."
+          },
+          {
+            "id": "g2",
+            "level": "Vị trí từ",
+            "type": "complete",
+            "prompt": "Viết câu tiếng Trung: Bạn có biết tôi không?",
+            "context": "Dùng 你, 认识, 我, 吗.",
+            "accepted": [
+              "你认识我吗？",
+              "你认识我吗"
+            ],
+            "model": "你认识我吗？",
+            "explanation": "我 đứng sau 认识; 吗 đứng cuối câu hỏi.",
+            "wrongFeedback": "Hãy đặt người được hỏi trước 认识, rồi đến 我 và 吗."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "shi-before-action",
+            "type": "choice",
+            "prompt": "Bạn chỉ muốn kể mình học tiếng Trung. Chọn câu tự nhiên.",
+            "choices": [
+              "我是学习中文。",
+              "我学习中文。"
+            ],
+            "correctIndex": 1,
+            "model": "我学习中文。",
+            "explanation": "学习 là hành động nên không cần 是.",
+            "wrongFeedback": "是 dùng để nối danh tính, không đặt trước hành động trong ý này."
+          },
+          {
+            "id": "d2",
+            "trapId": "wo-women",
+            "type": "choice",
+            "prompt": "Bạn chỉ giới thiệu riêng bản thân. Chọn chủ ngữ.",
             "choices": [
               "我",
               "我们"
+            ],
+            "correctIndex": 0,
+            "model": "我",
+            "explanation": "我 chỉ một người đang nói; 我们 chỉ nhóm có người nói.",
+            "wrongFeedback": "Không có nhóm nào trong tình huống này."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Hãy tự giới thiệu một thông tin thật về bạn: quốc tịch, nghề hoặc việc đang học.",
+            "hints": [
+              "Chọn ý là danh tính hay hành động.",
+              "Danh tính: 我是 + …；hành động: 我 + động từ + …"
+            ],
+            "model": "我学习中文。",
+            "vi": "Tôi học tiếng Trung.",
+            "criteria": [
+              "Dùng 我 để chỉ bản thân.",
+              "Chỉ dùng 是 trước danh tính, không chèn trước động từ hành động."
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 0,
-            "explanation": "学习中文 là hoạt động học tiếng Trung; câu kia giới thiệu vai trò người học."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhìn nghĩa, nhớ từ",
+            "cue": "Tôi; mình — người đang nói",
+            "hiddenAnswer": "我 — wǒ",
+            "model": "我是越南人。",
+            "vi": "Tôi là người Việt Nam."
           },
-          "check-02": {
-            "correctIndex": 0,
-            "explanation": "Không có nhóm nào được nói đến nên dùng 我."
+          {
+            "id": "r2",
+            "prompt": "Tình huống mới",
+            "cue": "Bạn muốn nói: Tôi học tiếng Trung.",
+            "hiddenAnswer": "Dùng 我 trước động từ 学习; không thêm 是.",
+            "model": "我学习中文。",
+            "vi": "Tôi học tiếng Trung."
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": [
-          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
         ]
       }
     },
@@ -107124,7 +107079,12 @@
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi",
       "lesson": {
         "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 495,
+        "difficulty": "hard",
+        "difficultyReason": "Có nhiều nghĩa thông dụng, nhiều vị trí trong câu và các cụm cố định không thể dịch từng chữ.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "pilot-reviewed",
         "authorship": "Nâng cấp thử nghiệm V3 cho riêng từ 495; đã tự rà ngôn ngữ và luồng tương tác, chưa phản biện độc lập bởi giáo viên thứ hai.",
         "sources": [
           "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E4%B8%8B",
@@ -107387,6 +107347,12 @@
             "level": "Mức 1 · Sắp xếp",
             "type": "order",
             "prompt": "Chạm hoặc viết lại theo đúng thứ tự: 我 / 下午 / 五点 / 下班",
+            "tokens": [
+              "我",
+              "下午",
+              "五点",
+              "下班"
+            ],
             "accepted": [
               "我下午五点下班。",
               "下午五点我下班。"
