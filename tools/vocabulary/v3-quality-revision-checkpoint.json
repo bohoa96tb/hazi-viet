@@ -7,18 +7,31 @@
   "standardPath": "docs/CONTENT_STANDARD_V3.md",
   "historyCheckpointPath": "tools/vocabulary/v3-rewrite-checkpoint.json",
   "scopeTotal": 2224,
-  "reviewedThroughOrdinal": 91,
-  "nextOrdinal": 92,
-  "pendingReviewCount": 2133,
-  "passedCount": 91,
-  "retainedCount": 0,
-  "rewrittenCount": 91,
+  "contentVersion": 3,
+  "baselineTotal": 2224,
+  "totalToReview": 2224,
+  "reviewedCount": 101,
+  "unchangedCount": 6,
+  "rewrittenCount": 95,
+  "passedRevisionCount": 101,
+  "reviewedThroughOrdinal": 101,
+  "nextOrdinal": 102,
+  "pendingReviewCount": 2123,
+  "passedCount": 101,
+  "retainedCount": 6,
   "needsRevisionCount": 0,
   "difficultyCountsReviewed": {
-    "easy": 49,
-    "medium": 42,
-    "hard": 0
+    "easy": 50,
+    "medium": 50,
+    "hard": 1
   },
+  "trapCountsReviewed": {
+    "A1": 4,
+    "A2": 5,
+    "B": 7,
+    "C": 10
+  },
+  "standardVersion": "V3-quality-2026-10-24",
   "reviewedIds": [
     "hz-h1-64d354d405bb",
     "hz-h1-0a3f1c936624",
@@ -110,7 +123,17 @@
     "hz-h1-91011160c68e",
     "hz-h1-3f18a484d148",
     "hz-h1-4823c87cc791",
-    "hz-h1-30c9c5791947"
+    "hz-h1-30c9c5791947",
+    "hz-h1-36e11bd81443",
+    "hz-h1-b83b12121e5b",
+    "hz-h1-f164a812765d",
+    "hz-h1-72f8c3542984",
+    "hz-h1-2bafadee60b3",
+    "hz-h1-733609098341",
+    "hz-h1-efc194540750",
+    "hz-h1-754e4b61ec92",
+    "hz-h1-22182cf36a90",
+    "hz-h1-eca0ce94b683"
   ],
   "passedIds": [
     "hz-h1-64d354d405bb",
@@ -203,9 +226,26 @@
     "hz-h1-91011160c68e",
     "hz-h1-3f18a484d148",
     "hz-h1-4823c87cc791",
-    "hz-h1-30c9c5791947"
+    "hz-h1-30c9c5791947",
+    "hz-h1-36e11bd81443",
+    "hz-h1-b83b12121e5b",
+    "hz-h1-f164a812765d",
+    "hz-h1-72f8c3542984",
+    "hz-h1-2bafadee60b3",
+    "hz-h1-733609098341",
+    "hz-h1-efc194540750",
+    "hz-h1-754e4b61ec92",
+    "hz-h1-22182cf36a90",
+    "hz-h1-eca0ce94b683"
   ],
-  "retainedIds": [],
+  "retainedIds": [
+    "hz-h1-36e11bd81443",
+    "hz-h1-f164a812765d",
+    "hz-h1-2bafadee60b3",
+    "hz-h1-754e4b61ec92",
+    "hz-h1-22182cf36a90",
+    "hz-h1-eca0ce94b683"
+  ],
   "rewrittenIds": [
     "hz-h1-64d354d405bb",
     "hz-h1-0a3f1c936624",
@@ -297,7 +337,11 @@
     "hz-h1-91011160c68e",
     "hz-h1-3f18a484d148",
     "hz-h1-4823c87cc791",
-    "hz-h1-30c9c5791947"
+    "hz-h1-30c9c5791947",
+    "hz-h1-b83b12121e5b",
+    "hz-h1-72f8c3542984",
+    "hz-h1-733609098341",
+    "hz-h1-efc194540750"
   ],
   "needsRevisionIds": [],
   "reviewRecords": [
@@ -941,6 +985,76 @@
       "result": "passed-after-rewrite",
       "difficulty": "medium",
       "reason": "坏 có hai nghĩa thông dụng cần tách: đồ vật/thức ăn bị hỏng trong 坏了 và người, việc hoặc tính chất xấu trong 坏人/坏事; người học Việt dễ dùng lẫn hai phạm vi."
+    },
+    {
+      "ordinal": 92,
+      "id": "hz-h1-36e11bd81443",
+      "result": "retained",
+      "difficulty": "medium",
+      "reason": "多 vừa mô tả số lượng nhiều, vừa xuất hiện trong 多少 để hỏi số lượng; người Việt cần đặt đúng vị trí trước danh từ hoặc sau chủ thể."
+    },
+    {
+      "ordinal": 93,
+      "id": "hz-h1-b83b12121e5b",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "大 có nghĩa kích thước và tham gia các cấu trúc hỏi hoặc so sánh tuổi; người Việt cần nhìn cấu trúc 多大/比…大, đồng thời biết 大 trong 大夫 là cách đọc của một từ ghép khác."
+    },
+    {
+      "ordinal": 94,
+      "id": "hz-h1-f164a812765d",
+      "result": "retained",
+      "difficulty": "medium",
+      "reason": "太 là phó từ mức độ trong 太+ tính từ +了, vừa có thể là ‘quá’ vừa là lời cảm thán; cần phân biệt với 很 là mức độ trung tính hơn."
+    },
+    {
+      "ordinal": 95,
+      "id": "hz-h1-72f8c3542984",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "好 vừa đánh giá tốt/ổn, vừa nằm trong từ ghép như 好吃; người học còn phải phân biệt 好 với 对 và 可以, đồng thời nhận ra 好 đọc hǎo trong bài nhưng đọc hào trong 爱好."
+    },
+    {
+      "ordinal": 96,
+      "id": "hz-h1-2bafadee60b3",
+      "result": "retained",
+      "difficulty": "easy",
+      "reason": "小 có nghĩa kích thước trực tiếp, vị trí rõ và chỉ cần phân biệt với 大 khi mô tả to–nhỏ."
+    },
+    {
+      "ordinal": 97,
+      "id": "hz-h1-733609098341",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "少 vừa nói số lượng ít, vừa đứng trước động từ để yêu cầu làm ít hơn; người Việt cần phân biệt vị trí trước danh từ, sau 得 và trước động từ, đồng thời nhận ra 少 đọc shào trong 少年."
+    },
+    {
+      "ordinal": 98,
+      "id": "hz-h1-efc194540750",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "差 đánh giá chất lượng kém, nhưng chữ này còn đọc chā trong 差别 và chāi trong 出差; người Việt cũng dễ gộp 差 với 坏了, 不好, 错 hoặc 不对."
+    },
+    {
+      "ordinal": 99,
+      "id": "hz-h1-754e4b61ec92",
+      "result": "retained",
+      "difficulty": "medium",
+      "reason": "很 là phó từ đứng trước tính từ; khác biệt giữa cấu trúc tự nhiên và mức độ ‘rất’ khiến người Việt dễ dịch máy móc hoặc bỏ 很."
+    },
+    {
+      "ordinal": 100,
+      "id": "hz-h1-22182cf36a90",
+      "result": "retained",
+      "difficulty": "hard",
+      "reason": "快 có ít nhất ba chức năng giao tiếp: tốc độ nhanh, lời giục ‘mau lên’ và sự việc sắp xảy ra; mỗi chức năng có cấu trúc khác nhau và dễ bị dịch một chữ máy móc."
+    },
+    {
+      "ordinal": 101,
+      "id": "hz-h1-eca0ce94b683",
+      "result": "retained",
+      "difficulty": "medium",
+      "reason": "慢 mô tả tốc độ thấp và thường đi với 得 hoặc 一点儿; người Việt cần phân biệt tính từ này với lời yêu cầu nói chậm hơn."
     }
   ],
   "previousDigests": {
@@ -1039,20 +1153,30 @@
     "hz-h1-91011160c68e": "46b47bd00b3883136cf225a11170487c61aefc72fa5ec41520b7e2a03ea1a9e9",
     "hz-h1-3f18a484d148": "27ab978967d18016c4a62a7658311c6f5388ab43bc1230ca4800e33e14ad7834",
     "hz-h1-4823c87cc791": "1b840f1355ae68b20cabc05891accdf4b8ae6a7b4e652795f085a1e7e02ac649",
-    "hz-h1-30c9c5791947": "0ae699afc5440a163b257376771b31d534f5835fea594c05189b9cc1218c5e76"
+    "hz-h1-30c9c5791947": "0ae699afc5440a163b257376771b31d534f5835fea594c05189b9cc1218c5e76",
+    "hz-h1-36e11bd81443": "c53efec43e37e4a035b4222fe857f53afcb27232baa515fe4d23311fceacdb5e",
+    "hz-h1-b83b12121e5b": "010cfb98d5ad99421985eea524c4b9b93c0e47ba3e1d8d2e90610f521cb194d3",
+    "hz-h1-f164a812765d": "750cfbe78e5121d658464a2d0233e0497e37e753a2ddbaf89d26098faa485922",
+    "hz-h1-72f8c3542984": "9bc4f3d557bb16fcc6e435a2304ac706947a10a06ff30b609b984bcbb21c40a2",
+    "hz-h1-2bafadee60b3": "23ed898f2763d0f56e0b55e80852732c8d2ed59c03923925083606339a306f04",
+    "hz-h1-733609098341": "70a80a504130d1d6bf2e5da459514a1a96312a68b79d4a0d27860a63a4638309",
+    "hz-h1-efc194540750": "2e566d4a69c01f2dceaf8b1a20b2a8d23c3f8a816ab32587ab83669123a50b37",
+    "hz-h1-754e4b61ec92": "16bdcc828bea5e11d5c84bf4d29fcabbd6ed939c6fc99b1a9c269e147caab272",
+    "hz-h1-22182cf36a90": "d7177289d6ed7c00bec7e8f08132c7fc5167713d50db07bb5066d7b47ad54d34",
+    "hz-h1-eca0ce94b683": "2bf70b5c373fda45bbae3162249c24e192e3f37412b6c7c3c58a1b3ad1fd5b90"
   },
   "sourceDigests": {
     "algorithm": "sha256",
-    "courseFile": "5b9373edf9a888390927584b67d6bdeb2f6b524cf6ab44c4af8f683b7b59dda4",
+    "courseFile": "481e562f1b5639034163145c87c2605fdde49c1b1e34cc97db4bf36ee2c48e5d",
     "baselineFile": "3f0d5c83a26a0fcc229e6b400014d27be00b2615235b93413bc0ba01effc6394",
     "standardFile": "6a9dcecab1b29e930737e9d65fe60b6d71ecc8ce1ed9f0773edd7b16a6283d60",
     "agentsFile": "595947c076f563fec1f5b312cc1f35a8200c0f834099237a594c37ba5f3906d8",
     "rendererFile": "2a83719403bd54560062340d878190b5cea836984338b67cfab35044cd595c2e",
-    "vocabularyScriptFile": "c1964505c084959aaa6ef403532408e341d8e41c92e3b89ed284f0d38f8a3ec4",
-    "vocabularyHtmlFile": "38da4dea2a335e191b6d2a157f999f9f5305b04dce0e1b64f6fd24ca1bef9dd6",
+    "vocabularyScriptFile": "335baa7dabea603b2f6fffe485c98bc2e4415f1b3944d30408c41f958f035340",
+    "vocabularyHtmlFile": "87a0afa38b484c993fd66915bf68f7042b91917ff64cab41bc304f00f006e4e8",
     "domTestFile": "f1437324b917e1df0c273cd67926315c00f8c155adef03ccfdcf698b96530321",
-    "progressFile": "4180397775ab6d4300dfb5576761eaf6ffa46efa65db741409fb44b5ffecb44f",
-    "validatorFile": "a8c9373c38ae9c5a965f30689404193b687faf60fbc50c2e92d6be2d16e2d1c5"
+    "progressFile": "ffbad8960321a91063ebc276953e20761f028a8cebdb5bf4ec1a9f55b3362360",
+    "validatorFile": "28f45942f24c4794dcc9a970296a3ecf378dcf69fe9f1abc2403ba14bc668ec2"
   },
   "baselineIntegrity": {
     "completedPrefixLength": 91,
@@ -1109,13 +1233,14 @@
     "browserVisualLayout": "dom-simulation-only",
     "qualityRevision": "passed-internal"
   },
-  "status": "deployed-and-live-verified",
+  "status": "verified-pending-publish",
   "lastVerifiedRemoteCommit": "49e50a7c7308087c7cabf2908b7383a1d3bdc59f",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
+    "status": "pending-current-batch",
     "pagesRunId": 40087407751,
     "pagesHeadSha": "49e50a7c7308087c7cabf2908b7383a1d3bdc59f",
-    "pagesStatus": "success",
+    "pagesStatus": "previous-commit-verified",
     "liveCourseDigestSha256": "5b9373edf9a888390927584b67d6bdeb2f6b524cf6ab44c4af8f683b7b59dda4",
     "liveLessonsVerified": [
       "hz-h1-64d354d405bb",
@@ -1150,6 +1275,15 @@
       "hz-h1-eca0ce94b683"
     ]
   },
-  "note": "Checkpoint kiểm định chất lượng riêng; nội dung sửa không làm tăng số mục hoàn thành baseline. Pages run đúng head_sha và dữ liệu live đã đối chiếu byte với file đã kiểm.",
-  "lastBatch": "quality-revision-014"
+  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
+  "lastBatch": "quality-revision-015",
+  "currentBatch": {
+    "id": "quality-revision-015",
+    "ordinalFrom": 92,
+    "ordinalTo": 101,
+    "entryCount": 10,
+    "batchFileSha256": "276650d4d5345496be8bc90e7734e19b3b83d46d571711aee923d607a7e50ed5",
+    "status": "verified-pending-publish",
+    "baselineCompletionDelta": 0
+  }
 }
