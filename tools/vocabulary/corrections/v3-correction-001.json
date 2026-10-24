@@ -1,0 +1,58 @@
+{
+  "id": "v3-correction-001",
+  "reason": "Phân loại lại 我 theo độ khó học nghĩa và sử dụng: một đại từ ngôi thứ nhất có nghĩa trọng tâm rõ, không cần tách chủ ngữ và tân ngữ thành hai cách dùng.",
+  "entry": {
+    "id": "hz-h1-64d354d405bb",
+    "hanzi": "我",
+    "cohortOrdinal": 1,
+    "difficulty": "easy",
+    "wordEdits": {
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · sửa phân loại DỄ",
+      "task": "Tự giới thiệu một thông tin về bản thân bằng 我.",
+      "model": "我学习中文。"
+    },
+    "examples": [
+      {"id":"e1","zh":"我是越南人。","pinyin":"Wǒ shì Yuènán rén.","vi":"Tôi là người Việt Nam.","analysis":"我 đứng đầu câu để chỉ người đang tự giới thiệu.","practiceAllowed":true},
+      {"id":"e2","zh":"你认识我吗？","pinyin":"Nǐ rènshi wǒ ma?","vi":"Bạn có biết tôi không?","analysis":"Sau động từ 认识, 我 vẫn chỉ chính người đang nói.","practiceAllowed":true}
+    ],
+    "lesson": {
+      "version": 3,
+      "contentVersion": 3,
+      "cohortOrdinal": 1,
+      "difficulty": "easy",
+      "difficultyReason": "Một đại từ có nghĩa trọng tâm rõ và dùng trực tiếp để chỉ người đang nói; vị trí chủ ngữ hoặc sau động từ đều dễ áp dụng sau vài ví dụ.",
+      "reviewedAt": "2026-10-24",
+      "qualityStatus": "internally-reviewed",
+      "authorship": "Đã tự rà lại độ khó, nghĩa, Pinyin, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+      "sources": ["https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"],
+      "introduction": {"scope":"我 là đại từ chỉ chính người đang nói, tương ứng tôi, mình hoặc em tùy cách xưng hô tiếng Việt. Nam và nữ đều dùng 我."},
+      "examples": [
+        {"id":"e1","zh":"我是越南人。","pinyin":"Wǒ shì Yuènán rén.","vi":"Tôi là người Việt Nam.","analysis":"我 đứng đầu câu để chỉ người đang tự giới thiệu.","practiceAllowed":true},
+        {"id":"e2","zh":"你认识我吗？","pinyin":"Nǐ rènshi wǒ ma?","vi":"Bạn có biết tôi không?","analysis":"Sau động từ 认识, 我 vẫn chỉ chính người đang nói.","practiceAllowed":true}
+      ],
+      "senses": [
+        {
+          "id":"speaker","title":"Chỉ chính người đang nói","when":"Dùng 我 khi nói về bản thân.","meaning":"Tôi, mình, em, anh hoặc chị, tùy cách xưng hô trong tiếng Việt.","grammar":"我 thường đứng trước phần nói mình là ai hoặc làm gì. Nó cũng có thể đứng sau động từ khi hành động hướng đến người nói.","pattern":"我 + 是 + danh tính；我 + động từ；người khác + động từ + 我",
+          "collocations":[{"zh":"我是学生","pinyin":"wǒ shì xuésheng","vi":"tôi là học sinh/sinh viên"},{"zh":"认识我","pinyin":"rènshi wǒ","vi":"biết/quen tôi"}],
+          "examples":[{"zh":"我是越南人。","pinyin":"Wǒ shì Yuènán rén.","vi":"Tôi là người Việt Nam.","note":"我 làm chủ ngữ."},{"zh":"你认识我吗？","pinyin":"Nǐ rènshi wǒ ma?","vi":"Bạn có biết tôi không?","note":"我 đứng sau 认识 vì là người được biết."}]
+        }
+      ],
+      "confusions": [
+        {"id":"wo-women","afterSense":"speaker","title":"我 và 我们 khác số lượng","explanation":"我 chỉ một người đang nói. 我们 chỉ một nhóm có người nói.","contrasts":[{"zh":"我是学生。","pinyin":"Wǒ shì xuésheng.","vi":"Tôi là học sinh/sinh viên.","note":"Một người."},{"zh":"我们是学生。","pinyin":"Wǒmen shì xuésheng.","vi":"Chúng tôi/chúng ta là học sinh, sinh viên.","note":"Một nhóm có người nói."}],"tip":"Chỉ riêng mình dùng 我; nói cả nhóm có mình dùng 我们."}
+      ],
+      "guidedExercises": [
+        {"id":"g1","level":"Cơ bản · chạm sắp xếp","type":"order","prompt":"Chạm các mảnh để tạo câu: Tôi là người Việt Nam.","tokens":["我","是","越南人","。"],"accepted":["我是越南人。"],"model":"我是越南人。","explanation":"我 đứng đầu câu; 是 nối với danh tính 越南人.","wrongFeedback":"Hãy xếp người nói trước, rồi đến 是 và danh tính."}
+      ],
+      "discriminationExercises": [
+        {"id":"d1","trapId":"wo-women","type":"choice","prompt":"Bạn chỉ giới thiệu riêng bản thân. Chọn chủ ngữ.","choices":["我","我们"],"correctIndex":0,"model":"我","explanation":"我 chỉ một người đang nói.","wrongFeedback":"Tình huống không nói đến một nhóm."}
+      ],
+      "productionExercises": [
+        {"id":"p1","prompt":"Hãy tự giới thiệu một thông tin thật về bạn.","hints":["Chọn một thông tin như quốc tịch, nghề hoặc việc đang học.","Dùng 我是 + danh tính, hoặc 我 + động từ + …"],"model":"我学习中文。","vi":"Tôi học tiếng Trung.","criteria":["Dùng 我 để chỉ bản thân.","Câu diễn đạt đúng thông tin bạn muốn nói."]}
+      ],
+      "reviewExercises": [
+        {"id":"r1","prompt":"Nhìn nghĩa, nhớ từ","cue":"Tôi; mình — người đang nói","hiddenAnswer":"我 — wǒ","model":"我是越南人。","vi":"Tôi là người Việt Nam."},
+        {"id":"r2","prompt":"Nhớ vị trí trong câu","cue":"Bạn muốn hỏi: Bạn có biết tôi không?","hiddenAnswer":"Đặt 我 sau 认识.","model":"你认识我吗？","vi":"Bạn có biết tôi không?"}
+      ]
+    }
+  }
+}

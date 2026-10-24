@@ -76,6 +76,16 @@ if(command==='init'){
   checkpoint.lastBatch=batch.id;checkpoint.engineStatus='generalized';checkpoint.pendingReviewCount=0;checkpoint.failedCount=0;checkpoint.testStatus='pending';
   assertProgress(b,p);validateCourse(data);write('tools/vocabulary/v3-rewrite-checkpoint.json',checkpoint);refresh(b,p);
   console.log(`Prepared V3 rewrite ${batch.entries[0].cohortOrdinal}–${batch.entries.at(-1).cohortOrdinal}; ${checkpoint.passedCount}/${checkpoint.scopeTotal} passed. Remote confirmation still required.`);
+ }else if(command==='apply-v3-correction'){
+  assert(argument,'Provide an authored V3 correction JSON path.');const correction=read(argument),checkpoint=read('tools/vocabulary/v3-rewrite-checkpoint.json');
+  const entry=correction.entry,index=data.words.findIndex(w=>w.id===entry?.id);assert(index>=0,'V3 correction word not found.');const current=data.words[index];
+  assert.equal(current.hanzi,entry.hanzi);assert.equal(current.lesson?.version,3);assert(checkpoint.completedBaselineIds.includes(current.id),'V3 correction requires an already completed V3 ID.');
+  assert.equal(entry.cohortOrdinal,b.orderedIds.indexOf(entry.id)+1);assert.equal(entry.lesson.cohortOrdinal,entry.cohortOrdinal);assert.equal(entry.lesson.difficulty,entry.difficulty);
+  const revised={...current,...entry.wordEdits,lesson:entry.lesson,examples:entry.examples,status:'deep'},audit=auditLesson(revised);assert(audit.ready,revised.id+': '+JSON.stringify(audit.issues));
+  data.words[index]=revised;byId.set(revised.id,revised);p.completedDigests[revised.id]=digest(revised);
+  if(current.lesson.difficulty!==entry.difficulty){checkpoint.difficultyCounts[current.lesson.difficulty]--;checkpoint.difficultyCounts[entry.difficulty]++;}
+  checkpoint.lastBatch=correction.id;checkpoint.testStatus='pending';assertProgress(b,p);validateCourse(data);write('tools/vocabulary/v3-rewrite-checkpoint.json',checkpoint);refresh(b,p);
+  console.log(`Applied V3 correction ${correction.id} to ${revised.id}; V3 completion remains ${checkpoint.passedCount}/${checkpoint.scopeTotal}.`);
  }else if(command==='apply-correction'){
   assert(argument,'Provide an authored correction JSON path.');const correction=read(argument),index=data.words.findIndex(w=>w.id===correction.wordId);assert(index>=0,'Correction word not found.');
   const current=data.words[index];assert.equal(current.hanzi,correction.hanzi);assert.equal(current.lesson?.cohortOrdinal,correction.cohortOrdinal);assert(p.completedIds.includes(current.id),'Corrections only apply to an already completed record.');

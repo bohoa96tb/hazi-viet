@@ -3060,22 +3060,22 @@
       "meaning": "tôi",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 001",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · sửa phân loại DỄ",
       "examples": [
         {
           "id": "e1",
           "zh": "我是越南人。",
           "pinyin": "Wǒ shì Yuènán rén.",
           "vi": "Tôi là người Việt Nam.",
-          "analysis": "我 là người tự giới thiệu; 是 nối người với danh tính.",
+          "analysis": "我 đứng đầu câu để chỉ người đang tự giới thiệu.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "我学习中文。",
-          "pinyin": "Wǒ xuéxí Zhōngwén.",
-          "vi": "Tôi học tiếng Trung.",
-          "analysis": "学习 là hành động nên đứng thẳng sau 我, không cần 是.",
+          "zh": "你认识我吗？",
+          "pinyin": "Nǐ rènshi wǒ ma?",
+          "vi": "Bạn có biết tôi không?",
+          "analysis": "Sau động từ 认识, 我 vẫn chỉ chính người đang nói.",
           "practiceAllowed": true
         }
       ],
@@ -3084,7 +3084,7 @@
       "pattern": "我 + hoạt động; 我是 + danh tính",
       "trap": "Không thêm 是 trước mọi hoạt động: 我工作 là tôi làm việc; 我是工作 không có nghĩa đó.",
       "task": "Tự giới thiệu một thông tin về bản thân bằng 我.",
-      "model": "我是越南人。",
+      "model": "我学习中文。",
       "phrases": [
         "我是越南人。"
       ],
@@ -3134,16 +3134,16 @@
         "version": 3,
         "contentVersion": 3,
         "cohortOrdinal": 1,
-        "difficulty": "medium",
-        "difficultyReason": "Nghĩa đại từ đơn giản nhưng cần phân biệt câu danh tính với câu hành động và phân biệt số ít 我 với số nhiều 我们.",
+        "difficulty": "easy",
+        "difficultyReason": "Một đại từ có nghĩa trọng tâm rõ và dùng trực tiếp để chỉ người đang nói; vị trí chủ ngữ hoặc sau động từ đều dễ áp dụng sau vài ví dụ.",
         "reviewedAt": "2026-10-24",
         "qualityStatus": "internally-reviewed",
-        "authorship": "Tái biên soạn V3 từ mục 1; đã tự rà tính tự nhiên, Pinyin, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "authorship": "Đã tự rà lại độ khó, nghĩa, Pinyin, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
         ],
         "introduction": {
-          "scope": "我 là đại từ người nói dùng để chỉ chính mình, tương ứng tôi, mình hoặc em tùy cách xưng hô tiếng Việt. Nam và nữ đều dùng 我. Bài này tập trung vào vị trí của 我 trong câu danh tính, câu hành động và khi làm đối tượng của động từ."
+          "scope": "我 là đại từ chỉ chính người đang nói, tương ứng tôi, mình hoặc em tùy cách xưng hô tiếng Việt. Nam và nữ đều dùng 我."
         },
         "examples": [
           {
@@ -3151,15 +3151,15 @@
             "zh": "我是越南人。",
             "pinyin": "Wǒ shì Yuènán rén.",
             "vi": "Tôi là người Việt Nam.",
-            "analysis": "我 là người tự giới thiệu; 是 nối người với danh tính.",
+            "analysis": "我 đứng đầu câu để chỉ người đang tự giới thiệu.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "我学习中文。",
-            "pinyin": "Wǒ xuéxí Zhōngwén.",
-            "vi": "Tôi học tiếng Trung.",
-            "analysis": "学习 là hành động nên đứng thẳng sau 我, không cần 是.",
+            "zh": "你认识我吗？",
+            "pinyin": "Nǐ rènshi wǒ ma?",
+            "vi": "Bạn có biết tôi không?",
+            "analysis": "Sau động từ 认识, 我 vẫn chỉ chính người đang nói.",
             "practiceAllowed": true
           }
         ],
@@ -3167,45 +3167,16 @@
           {
             "id": "speaker",
             "title": "Chỉ chính người đang nói",
-            "when": "Dùng 我 khi một người nói về bản thân. Cách dịch tiếng Việt thay đổi theo quan hệ, nhưng vai trò trong tiếng Trung vẫn là người nói.",
-            "meaning": "Tôi, mình, em, anh hoặc chị khi các từ đó chỉ người đang phát ngôn.",
-            "grammar": "我 là đại từ. Khi làm chủ ngữ, 我 đứng trước phần nói người đó là ai hoặc làm gì.",
-            "pattern": "我 + 是 + danh tính；我 + động từ + thành phần khác",
+            "when": "Dùng 我 khi nói về bản thân.",
+            "meaning": "Tôi, mình, em, anh hoặc chị, tùy cách xưng hô trong tiếng Việt.",
+            "grammar": "我 thường đứng trước phần nói mình là ai hoặc làm gì. Nó cũng có thể đứng sau động từ khi hành động hướng đến người nói.",
+            "pattern": "我 + 是 + danh tính；我 + động từ；người khác + động từ + 我",
             "collocations": [
               {
                 "zh": "我是学生",
                 "pinyin": "wǒ shì xuésheng",
                 "vi": "tôi là học sinh/sinh viên"
               },
-              {
-                "zh": "我学习中文",
-                "pinyin": "wǒ xuéxí Zhōngwén",
-                "vi": "tôi học tiếng Trung"
-              }
-            ],
-            "examples": [
-              {
-                "zh": "我是越南人。",
-                "pinyin": "Wǒ shì Yuènán rén.",
-                "vi": "Tôi là người Việt Nam.",
-                "note": "Dùng 是 vì 越南人 là danh tính."
-              },
-              {
-                "zh": "我学习中文。",
-                "pinyin": "Wǒ xuéxí Zhōngwén.",
-                "vi": "Tôi học tiếng Trung.",
-                "note": "学习 là hành động; không thêm 是 vào giữa."
-              }
-            ]
-          },
-          {
-            "id": "object",
-            "title": "Chỉ người nói ở sau động từ",
-            "when": "Dùng khi hành động của người khác hướng đến chính người đang nói.",
-            "meaning": "Tôi hoặc mình, nhưng lần này 我 là người nhận hay đối tượng của hành động.",
-            "grammar": "Người thực hiện đứng trước động từ; 我 đứng sau những động từ có thể nhận một người làm đối tượng, như 认识.",
-            "pattern": "Người khác + động từ + 我",
-            "collocations": [
               {
                 "zh": "认识我",
                 "pinyin": "rènshi wǒ",
@@ -3214,53 +3185,38 @@
             ],
             "examples": [
               {
+                "zh": "我是越南人。",
+                "pinyin": "Wǒ shì Yuènán rén.",
+                "vi": "Tôi là người Việt Nam.",
+                "note": "我 làm chủ ngữ."
+              },
+              {
                 "zh": "你认识我吗？",
                 "pinyin": "Nǐ rènshi wǒ ma?",
                 "vi": "Bạn có biết tôi không?",
-                "note": "你 là người được hỏi; 我 đứng sau 认识 vì là người được biết."
+                "note": "我 đứng sau 认识 vì là người được biết."
               }
             ]
           }
         ],
         "confusions": [
           {
-            "id": "shi-before-action",
-            "afterSense": "speaker",
-            "title": "Không đặt 是 trước mọi hành động",
-            "explanation": "我是学生 dùng 是 để nối với danh tính. Khi kể một hành động như học tiếng Trung, đặt động từ 学习 ngay sau 我. Câu 我是学习中文 đứng riêng không phải cách kể trung tính này.",
-            "contrasts": [
-              {
-                "zh": "我是学生。",
-                "pinyin": "Wǒ shì xuésheng.",
-                "vi": "Tôi là học sinh/sinh viên.",
-                "note": "学生 là danh tính nên dùng 是."
-              },
-              {
-                "zh": "我学习中文。",
-                "pinyin": "Wǒ xuéxí Zhōngwén.",
-                "vi": "Tôi học tiếng Trung.",
-                "note": "学习 là hành động nên không cần 是."
-              }
-            ],
-            "tip": "Nói mình là ai: 我是…; nói mình làm gì: 我 + động từ."
-          },
-          {
             "id": "wo-women",
-            "afterSense": "object",
-            "title": "我 và 我们 không cùng số lượng",
-            "explanation": "我 chỉ cá nhân người nói. 我们 chỉ một nhóm có người nói; tùy ngữ cảnh có thể dịch là chúng tôi hoặc chúng ta.",
+            "afterSense": "speaker",
+            "title": "我 và 我们 khác số lượng",
+            "explanation": "我 chỉ một người đang nói. 我们 chỉ một nhóm có người nói.",
             "contrasts": [
               {
                 "zh": "我是学生。",
                 "pinyin": "Wǒ shì xuésheng.",
                 "vi": "Tôi là học sinh/sinh viên.",
-                "note": "Chỉ một cá nhân."
+                "note": "Một người."
               },
               {
                 "zh": "我们是学生。",
                 "pinyin": "Wǒmen shì xuésheng.",
                 "vi": "Chúng tôi/chúng ta là học sinh, sinh viên.",
-                "note": "Nói về cả nhóm có người nói."
+                "note": "Một nhóm có người nói."
               }
             ],
             "tip": "Chỉ riêng mình dùng 我; nói cả nhóm có mình dùng 我们."
@@ -3282,41 +3238,13 @@
               "我是越南人。"
             ],
             "model": "我是越南人。",
-            "explanation": "我 đứng đầu, 是 nối với danh tính 越南人.",
-            "wrongFeedback": "Kiểm tra lại: người nói → 是 → danh tính."
-          },
-          {
-            "id": "g2",
-            "level": "Vị trí từ",
-            "type": "complete",
-            "prompt": "Viết câu tiếng Trung: Bạn có biết tôi không?",
-            "context": "Dùng 你, 认识, 我, 吗.",
-            "accepted": [
-              "你认识我吗？",
-              "你认识我吗"
-            ],
-            "model": "你认识我吗？",
-            "explanation": "我 đứng sau 认识; 吗 đứng cuối câu hỏi.",
-            "wrongFeedback": "Hãy đặt người được hỏi trước 认识, rồi đến 我 và 吗."
+            "explanation": "我 đứng đầu câu; 是 nối với danh tính 越南人.",
+            "wrongFeedback": "Hãy xếp người nói trước, rồi đến 是 và danh tính."
           }
         ],
         "discriminationExercises": [
           {
             "id": "d1",
-            "trapId": "shi-before-action",
-            "type": "choice",
-            "prompt": "Bạn chỉ muốn kể mình học tiếng Trung. Chọn câu tự nhiên.",
-            "choices": [
-              "我是学习中文。",
-              "我学习中文。"
-            ],
-            "correctIndex": 1,
-            "model": "我学习中文。",
-            "explanation": "学习 là hành động nên không cần 是.",
-            "wrongFeedback": "是 dùng để nối danh tính, không đặt trước hành động trong ý này."
-          },
-          {
-            "id": "d2",
             "trapId": "wo-women",
             "type": "choice",
             "prompt": "Bạn chỉ giới thiệu riêng bản thân. Chọn chủ ngữ.",
@@ -3326,23 +3254,23 @@
             ],
             "correctIndex": 0,
             "model": "我",
-            "explanation": "我 chỉ một người đang nói; 我们 chỉ nhóm có người nói.",
-            "wrongFeedback": "Không có nhóm nào trong tình huống này."
+            "explanation": "我 chỉ một người đang nói.",
+            "wrongFeedback": "Tình huống không nói đến một nhóm."
           }
         ],
         "productionExercises": [
           {
             "id": "p1",
-            "prompt": "Hãy tự giới thiệu một thông tin thật về bạn: quốc tịch, nghề hoặc việc đang học.",
+            "prompt": "Hãy tự giới thiệu một thông tin thật về bạn.",
             "hints": [
-              "Chọn ý là danh tính hay hành động.",
-              "Danh tính: 我是 + …；hành động: 我 + động từ + …"
+              "Chọn một thông tin như quốc tịch, nghề hoặc việc đang học.",
+              "Dùng 我是 + danh tính, hoặc 我 + động từ + …"
             ],
             "model": "我学习中文。",
             "vi": "Tôi học tiếng Trung.",
             "criteria": [
               "Dùng 我 để chỉ bản thân.",
-              "Chỉ dùng 是 trước danh tính, không chèn trước động từ hành động."
+              "Câu diễn đạt đúng thông tin bạn muốn nói."
             ]
           }
         ],
@@ -3357,11 +3285,11 @@
           },
           {
             "id": "r2",
-            "prompt": "Tình huống mới",
-            "cue": "Bạn muốn nói: Tôi học tiếng Trung.",
-            "hiddenAnswer": "Dùng 我 trước động từ 学习; không thêm 是.",
-            "model": "我学习中文。",
-            "vi": "Tôi học tiếng Trung."
+            "prompt": "Nhớ vị trí trong câu",
+            "cue": "Bạn muốn hỏi: Bạn có biết tôi không?",
+            "hiddenAnswer": "Đặt 我 sau 认识.",
+            "model": "你认识我吗？",
+            "vi": "Bạn có biết tôi không?"
           }
         ]
       }
@@ -3379,65 +3307,30 @@
       "meaning": "bạn",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 002",
       "examples": [
         {
+          "id": "e1",
           "zh": "你是老师吗？",
+          "pinyin": "Nǐ shì lǎoshī ma?",
           "vi": "Bạn có phải là giáo viên không?",
-          "scene": "Bạn hỏi nghề nghiệp một người.",
-          "why": "你 chỉ người đang được hỏi.",
-          "position": "你 trước 是; 吗 ở cuối.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Muốn hỏi người đối diện có phải giáo viên không.",
-            "choice": "Chọn 你 cho người nghe, 是 cho danh tính và 吗 để hỏi.",
-            "order": "Xếp người nghe, 是, danh tính 老师, rồi 吗.",
-            "result": "你是老师吗？"
-          },
-          "id": "e01"
+          "analysis": "你 là người được hỏi.",
+          "practiceAllowed": true
         },
         {
-          "zh": "你是学生吗？",
-          "vi": "Bạn có phải là học sinh hoặc sinh viên không?",
-          "scene": "Bạn hỏi vai trò người học.",
-          "why": "Giữ nguyên người nghe và đổi danh tính.",
-          "position": "学生 thay 老师, vị trí 你 không đổi.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
+          "id": "e2",
           "zh": "我认识你。",
+          "pinyin": "Wǒ rènshi nǐ.",
           "vi": "Tôi biết bạn.",
-          "scene": "Bạn nói đã quen người đối diện.",
-          "why": "你 là người được biết.",
-          "position": "你 đứng ngay sau động từ 认识, không thêm từ nối sở hữu.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "你不是老师。",
-          "vi": "Bạn không phải là giáo viên.",
-          "scene": "Bạn đính chính thông tin về người nghe.",
-          "why": "不是 phủ định danh tính; 你 không thay hình thức.",
-          "position": "不 ở trước 是, không đặt trước 你 để phủ định cả câu.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "谢谢你。",
-          "vi": "Cảm ơn bạn.",
-          "scene": "Bạn cảm ơn trực tiếp người vừa giúp mình.",
-          "why": "你 làm rõ người nhận lời cảm ơn.",
-          "position": "你 đứng sau 谢谢; người nói thường được lược.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "你 đứng sau 认识 vì là người được biết.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn hỏi người đang nói chuyện với mình hôm nay có rảnh không.",
       "when": "你 chỉ một người đối thoại. Dùng 您 khi muốn thể hiện sự kính trọng rõ hơn.",
       "pattern": "你 + thời gian + hoạt động; 你是 + danh tính",
       "trap": "你 là một người. Hỏi nhiều người cùng lúc thường dùng 你们; không dùng 你们 cho một người để tăng lịch sự.",
-      "task": "Hỏi một người đối diện có phải là giáo viên không.",
+      "task": "Hỏi người đối diện một thông tin đơn giản về họ.",
       "model": "你是老师吗？",
       "phrases": [
         "你今天有时间吗？"
@@ -3481,242 +3374,167 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 2,
+        "difficulty": "easy",
+        "difficultyReason": "Một đại từ chỉ người nghe, nghĩa rõ và vị trí trong câu giống danh từ.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
+        ],
         "introduction": {
-          "partOfSpeech": "Đại từ chỉ một người được nói chuyện trực tiếp.",
-          "scope": "Học cách hỏi một người đối diện và nêu người nhận hành động."
-        },
-        "meaning": {
-          "scene": "Bạn hỏi một người mới quen có phải là giáo viên không.",
-          "explanation": "你 hướng lời nói đến một người đối diện, gần với bạn hoặc anh, chị, em trong tiếng Việt tùy quan hệ. Không tự cho biết giới tính.",
-          "boundary": "Trong tiếng Việt, bạn còn là bạn bè; nghĩa đó thường dùng 朋友. 你 chỉ người đang được nói chuyện trực tiếp.",
-          "conditions": [
-            "Dùng cho một người nghe trong cách xưng hô thông thường.",
-            "Khi cần thể hiện sự kính trọng với một người, có thể chọn 您; với nhóm người dùng 你们."
-          ],
-          "takeaway": "Khi muốn nói trực tiếp với một người, trong cách xưng hô thông thường, bạn có thể dùng 你.",
-          "alternatives": [
-            {
-              "zh": "他是我的朋友。",
-              "vi": "Anh ấy là bạn của tôi.",
-              "purpose": "朋友 là bạn bè; 他 chỉ người nam đang được nhắc tới, không phải người nghe trong câu này."
-            }
-          ]
+          "scope": "你 chỉ một người đang nghe, tương ứng bạn, cậu, anh hoặc chị tùy cách xưng hô tiếng Việt."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "你是老师吗？",
+            "pinyin": "Nǐ shì lǎoshī ma?",
             "vi": "Bạn có phải là giáo viên không?",
-            "scene": "Bạn hỏi nghề nghiệp một người.",
-            "why": "你 chỉ người đang được hỏi.",
-            "position": "你 trước 是; 吗 ở cuối.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Muốn hỏi người đối diện có phải giáo viên không.",
-              "choice": "Chọn 你 cho người nghe, 是 cho danh tính và 吗 để hỏi.",
-              "order": "Xếp người nghe, 是, danh tính 老师, rồi 吗.",
-              "result": "你是老师吗？"
-            },
-            "id": "e01"
+            "analysis": "你 là người được hỏi.",
+            "practiceAllowed": true
           },
           {
-            "zh": "你是学生吗？",
-            "vi": "Bạn có phải là học sinh hoặc sinh viên không?",
-            "scene": "Bạn hỏi vai trò người học.",
-            "why": "Giữ nguyên người nghe và đổi danh tính.",
-            "position": "学生 thay 老师, vị trí 你 không đổi.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
+            "id": "e2",
             "zh": "我认识你。",
+            "pinyin": "Wǒ rènshi nǐ.",
             "vi": "Tôi biết bạn.",
-            "scene": "Bạn nói đã quen người đối diện.",
-            "why": "你 là người được biết.",
-            "position": "你 đứng ngay sau động từ 认识, không thêm từ nối sở hữu.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "你不是老师。",
-            "vi": "Bạn không phải là giáo viên.",
-            "scene": "Bạn đính chính thông tin về người nghe.",
-            "why": "不是 phủ định danh tính; 你 không thay hình thức.",
-            "position": "不 ở trước 是, không đặt trước 你 để phủ định cả câu.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "谢谢你。",
-            "vi": "Cảm ơn bạn.",
-            "scene": "Bạn cảm ơn trực tiếp người vừa giúp mình.",
-            "why": "你 làm rõ người nhận lời cảm ơn.",
-            "position": "你 đứng sau 谢谢; người nói thường được lược.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "你 đứng sau 认识 vì là người được biết.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Hỏi người đang nói chuyện là ai.",
-            "frame": "你 + 是 + danh tính + 吗",
-            "position": "你 đứng trước phần hỏi danh tính; 吗 đứng cuối.",
-            "required": "Muốn hỏi có phải theo mẫu này giữ cả 是 và 吗.",
-            "omission": "Nếu đã rõ đang hỏi ai, có thể chỉ hỏi 是老师吗 trong hội thoại; 你 làm câu rõ đối tượng hơn.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi nghề giáo viên sang vai trò người học.",
-              "exampleId": "e02",
-              "limit": "Đổi danh tính nhưng không thay thành hành động rồi giữ nguyên 是."
-            },
-            "caution": "你 không phải cách gọi một người thứ ba khi họ không phải người nghe.",
+            "id": "main",
+            "title": "Nghĩa và cách dùng chính",
+            "when": "你 chỉ một người đang nghe, tương ứng bạn, cậu, anh hoặc chị tùy cách xưng hô tiếng Việt.",
+            "meaning": "bạn",
+            "grammar": "你 thường đứng đầu câu khi người nghe là chủ ngữ; cũng đứng sau động từ khi là đối tượng.",
+            "pattern": "你 + động từ；động từ + 你",
             "collocations": [
               {
-                "zh": "你是老师吗",
-                "vi": "bạn có phải giáo viên không",
-                "purpose": "Hỏi thông tin trực tiếp."
-              }
-            ],
-            "forms": [
-              {
-                "type": "Phủ định danh tính",
-                "exampleId": "e04",
-                "why": "Dùng 不是, không dùng 没是 trong mẫu này."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Nêu người nghe là người nhận hoặc đối tượng.",
-            "frame": "Người thực hiện + 认识 + 你; 谢谢 + 你",
-            "position": "你 đứng sau động từ trong hai cụm đã học.",
-            "required": "认识 nhận trực tiếp người được biết; 谢谢 có thể nhận người được cảm ơn.",
-            "omission": "谢谢 đứng riêng đã đủ để cảm ơn khi người nhận rõ; không bắt buộc thêm 你.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Đổi từ nói quen người nghe sang cảm ơn người nghe.",
-              "exampleId": "e05",
-              "limit": "Vị trí sau động từ này không có nghĩa mọi hành động đều nhận người trực tiếp."
-            },
-            "caution": "Không thêm 的 sau động từ để nối 你.",
-            "collocations": [
+                "zh": "你好",
+                "pinyin": "nǐ hǎo",
+                "vi": "xin chào"
+              },
               {
                 "zh": "谢谢你",
-                "vi": "cảm ơn bạn",
-                "purpose": "Cảm ơn trực tiếp người đối diện."
-              },
-              {
-                "zh": "认识你",
-                "vi": "biết bạn",
-                "purpose": "Nêu người được quen biết."
+                "pinyin": "xièxie nǐ",
+                "vi": "cảm ơn bạn"
               }
             ],
-            "forms": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Nhầm bạn trong xưng hô với bạn bè",
-            "scene": "Bạn nói một người nam là bạn của mình.",
-            "possibleConfusion": "Bạn có thể dễ nhầm vì cả 你 và 朋友 đều được dịch là bạn.",
-            "difference": "你 chỉ người đang được nói chuyện; 朋友 là quan hệ bạn bè.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "他是我的朋友。",
-                "vi": "Anh ấy là bạn của tôi.",
-                "judgment": "correct",
-                "comment": "朋友 là danh từ sau cụm sở hữu 我的.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "他是你。",
-                "vi": "Anh ấy là bạn — chính người đang nghe.",
-                "judgment": "different-meaning",
-                "comment": "Đúng trong tình huống xác định danh tính đặc biệt, không nói quan hệ bạn bè.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 我的朋友 bằng 你 làm đổi lời giới thiệu quan hệ thành đồng nhất người đó với người nghe."
-            },
-            "boundary": "Bạn thân cũng có thể được gọi trực tiếp là 你; khi đó người ấy vừa là người nghe vừa là bạn bè, nhưng vai trò từ khác nhau.",
-            "tip": "Đang gọi người nghe thì dùng 你; đang nói quan hệ bạn bè thì dùng 朋友.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "你 không tự mang mức kính trọng của mọi cách gọi tiếng Việt",
-            "scene": "Bạn hỏi một người lớn tuổi mới gặp và muốn chủ động thể hiện sự kính trọng.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rằng 你 đã tương đương hoàn toàn với cách gọi bác hoặc ông trong tiếng Việt.",
-            "difference": "你 là cách xưng hô thông thường; 您 đánh dấu sự kính trọng với một người.",
-            "cases": [
-              {
-                "id": "case-1",
                 "zh": "你是老师吗？",
+                "pinyin": "Nǐ shì lǎoshī ma?",
                 "vi": "Bạn có phải là giáo viên không?",
-                "judgment": "correct",
-                "comment": "Đúng; mức lịch sự còn phụ thuộc quan hệ, giọng nói và hoàn cảnh.",
-                "practiceAllowed": false
+                "note": "你 là người được hỏi."
               },
               {
-                "id": "case-2",
-                "zh": "您是老师吗？",
-                "vi": "Bác có phải là giáo viên không ạ?",
-                "judgment": "correct",
-                "comment": "Chủ động thể hiện sự kính trọng qua đại từ.",
-                "practiceAllowed": false
+                "zh": "我认识你。",
+                "pinyin": "Wǒ rènshi nǐ.",
+                "vi": "Tôi biết bạn.",
+                "note": "你 đứng sau 认识 vì là người được biết."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "contrast",
+            "afterSense": "main",
+            "title": "你 chỉ một người nghe",
+            "explanation": "Khi nói với nhiều người, dùng 你们 thay cho 你.",
+            "contrasts": [
+              {
+                "zh": "你是学生吗？",
+                "pinyin": "Nǐ shì xuésheng ma?",
+                "vi": "Bạn có phải là học sinh/sinh viên không?",
+                "note": "Hỏi một người."
+              },
+              {
+                "zh": "你们是学生吗？",
+                "pinyin": "Nǐmen shì xuésheng ma?",
+                "vi": "Các bạn có phải là học sinh/sinh viên không?",
+                "note": "Hỏi nhiều người."
               }
             ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Thay 你 bằng 您 vẫn đúng và hỏi cùng thông tin; cách xưng hô kính trọng hơn trong tình huống này."
-            },
-            "boundary": "Không phải mọi lần nói 你 với người lớn tuổi đều bất lịch sự; quan hệ thân thiết có thể dùng 你 tự nhiên.",
-            "tip": "Muốn nhấn sự kính trọng với một người thì ưu tiên 您; quan hệ thông thường dùng 你.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
+            "tip": "Một người nghe dùng 你; nhiều người nghe dùng 你们."
           }
         ],
-        "pronunciation": {
-          "text": "你 là thanh ba. Trong 你好, hai thanh ba liền nhau khiến âm đầu thường đọc gần thanh hai. Không đổi cách đọc này thành một nghĩa mới. Khi đứng riêng, có thể nghe rõ đường nét thanh ba hơn khi nói trong câu."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "check-01",
-            "question": "Bạn cần danh từ chỉ quan hệ bạn bè. Chọn từ.",
+            "id": "g1",
+            "level": "Cơ bản · chạm sắp xếp",
+            "type": "order",
+            "prompt": "Chạm các mảnh để tạo câu: Bạn có phải là giáo viên không?",
+            "tokens": [
+              "你",
+              "是",
+              "老师",
+              "吗",
+              "？"
+            ],
+            "accepted": [
+              "你是老师吗？"
+            ],
+            "model": "你是老师吗？",
+            "explanation": "Sắp xếp theo cấu trúc đã học.",
+            "wrongFeedback": "Kiểm tra lại vị trí chủ ngữ, động từ và thành phần cuối câu."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "contrast",
+            "type": "choice",
+            "prompt": "Bạn đang hỏi riêng một người. Chọn đại từ.",
             "choices": [
               "你",
-              "朋友"
-            ]
-          },
+              "你们"
+            ],
+            "correctIndex": 0,
+            "model": "你",
+            "explanation": "Một người nghe dùng 你; nhiều người nghe dùng 你们.",
+            "wrongFeedback": "Đọc lại tình huống và điểm phân biệt ở bước Hiểu."
+          }
+        ],
+        "productionExercises": [
           {
-            "id": "check-02",
-            "question": "Bạn muốn chọn đại từ thể hiện sự kính trọng với một người.",
-            "choices": [
-              "你",
-              "您"
+            "id": "p1",
+            "prompt": "Hỏi người đối diện một thông tin đơn giản về họ.",
+            "hints": [
+              "Chọn một ý thật phù hợp với tình huống.",
+              "Dùng 你 + 是 + danh tính + 吗？"
+            ],
+            "model": "你是老师吗？",
+            "vi": "Bạn có phải là giáo viên không?",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với ý muốn diễn đạt."
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 1,
-            "explanation": "朋友 chỉ quan hệ; 你 là người nghe."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhìn nghĩa, nhớ từ",
+            "cue": "bạn",
+            "hiddenAnswer": "你 — nǐ",
+            "model": "你是老师吗？",
+            "vi": "Bạn có phải là giáo viên không?"
           },
-          "check-02": {
-            "correctIndex": 1,
-            "explanation": "您 trực tiếp thể hiện sự kính trọng; không cần đổi sang một hệ đại từ theo tuổi như tiếng Việt."
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách dùng trong tình huống",
+            "cue": "Hỏi người đối diện một thông tin đơn giản về họ.",
+            "hiddenAnswer": "Dùng 你 + 是 + danh tính + 吗？",
+            "model": "你是老师吗？",
+            "vi": "Bạn có phải là giáo viên không?"
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": [
-          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
         ]
       }
     },
@@ -3733,65 +3551,30 @@
       "meaning": "bạn — cách xưng hô kính trọng",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 002",
       "examples": [
         {
+          "id": "e1",
           "zh": "您请坐。",
+          "pinyin": "Nín qǐng zuò.",
           "vi": "Mời bác ngồi ạ.",
-          "scene": "Bạn mời một vị khách ngồi.",
-          "why": "您 hướng lời mời kính trọng đến vị khách.",
-          "position": "您 đứng trước 请坐; 请 làm lời mời lịch sự.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Muốn mời một vị khách ngồi một cách kính trọng.",
-            "choice": "Chọn 您 cho người nghe và 请坐 cho lời mời ngồi.",
-            "order": "Đặt người được mời trước rồi đến 请坐.",
-            "result": "您请坐。"
-          },
-          "id": "e01"
+          "analysis": "您 thể hiện sự kính trọng với khách.",
+          "practiceAllowed": true
         },
         {
-          "zh": "您请进。",
-          "vi": "Mời bác vào ạ.",
-          "scene": "Bạn đón khách ở cửa.",
-          "why": "Giữ xưng hô, đổi hành động được mời.",
-          "position": "进 là vào, đứng sau 请.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
+          "id": "e2",
           "zh": "谢谢您。",
+          "pinyin": "Xièxie nín.",
           "vi": "Cảm ơn bác ạ.",
-          "scene": "Bạn cảm ơn một người muốn kính trọng.",
-          "why": "您 là người nhận lời cảm ơn.",
-          "position": "您 đứng sau 谢谢, không cần giới từ ở giữa.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "您是老师吗？",
-          "vi": "Bác có phải là giáo viên không ạ?",
-          "scene": "Bạn hỏi nghề nghiệp vị khách.",
-          "why": "您 giữ thái độ kính trọng trong câu hỏi.",
-          "position": "是 nối danh tính; 吗 cuối câu hỏi có phải.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "您不是老师。",
-          "vi": "Bác không phải là giáo viên.",
-          "scene": "Bạn đính chính nghề của một người đang nói chuyện.",
-          "why": "不是 phủ định danh tính, không phủ định sự kính trọng.",
-          "position": "不 đứng trước 是; 您 vẫn ở đầu.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "您 là người nhận lời cảm ơn.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn đón một người lớn tuổi hoặc khách cần được xưng hô lịch sự.",
       "when": "Dùng 您 để gọi người đối thoại một cách kính trọng. Mức độ phù hợp tùy quan hệ và tình huống.",
       "pattern": "您 + hoạt động; 您好; 请问，您…",
       "trap": "Không có quy tắc phải dùng 您 cho mọi người lạ. Trong nhiều cuộc nói chuyện bình thường, 你 vẫn phù hợp.",
-      "task": "Mời một vị khách ngồi với cách xưng hô kính trọng.",
+      "task": "Mời một vị khách ngồi một cách lịch sự.",
       "model": "您请坐。",
       "phrases": [
         "您好，请坐。"
@@ -3835,242 +3618,166 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 3,
+        "difficulty": "easy",
+        "difficultyReason": "Một đại từ có nghĩa rõ; điểm cần nhớ duy nhất là sắc thái kính trọng với một người.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
+        ],
         "introduction": {
-          "partOfSpeech": "Đại từ kính trọng chỉ một người nghe.",
-          "scope": "Học cách xưng hô kính trọng; không gắn cố định với giới tính hoặc tuổi."
-        },
-        "meaning": {
-          "scene": "Bạn mời một vị khách lớn tuổi ngồi xuống.",
-          "explanation": "您 vẫn chỉ người đang được nói chuyện trực tiếp, đồng thời thể hiện thái độ kính trọng. Tiếng Việt có thể dịch bác, ông, bà, anh hoặc chị kèm cách nói lịch sự, tùy người nghe.",
-          "boundary": "您 không có nghĩa từ vựng là người già và không chỉ riêng nữ hoặc nam. Lịch sự còn nằm ở cả lời mời và giọng nói.",
-          "conditions": [
-            "Dùng với một người nghe khi muốn thể hiện sự kính trọng.",
-            "Trong cách dùng phổ thông cơ bản, không tạo số nhiều máy móc bằng cách thêm 们 vào 您."
-          ],
-          "takeaway": "Khi muốn xưng hô kính trọng, trong tình huống nói trực tiếp với một người, bạn có thể dùng 您.",
-          "alternatives": [
-            {
-              "zh": "老师，请坐。",
-              "vi": "Thưa thầy/cô, mời ngồi.",
-              "purpose": "老师 là thầy/cô; có thể dùng chức danh gọi trực tiếp khi phù hợp quan hệ."
-            }
-          ]
+          "scope": "您 là cách gọi kính trọng một người đang nghe, thường dùng với người lớn tuổi, khách hoặc người cần thể hiện phép lịch sự."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "您请坐。",
+            "pinyin": "Nín qǐng zuò.",
             "vi": "Mời bác ngồi ạ.",
-            "scene": "Bạn mời một vị khách ngồi.",
-            "why": "您 hướng lời mời kính trọng đến vị khách.",
-            "position": "您 đứng trước 请坐; 请 làm lời mời lịch sự.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Muốn mời một vị khách ngồi một cách kính trọng.",
-              "choice": "Chọn 您 cho người nghe và 请坐 cho lời mời ngồi.",
-              "order": "Đặt người được mời trước rồi đến 请坐.",
-              "result": "您请坐。"
-            },
-            "id": "e01"
+            "analysis": "您 thể hiện sự kính trọng với khách.",
+            "practiceAllowed": true
           },
           {
-            "zh": "您请进。",
-            "vi": "Mời bác vào ạ.",
-            "scene": "Bạn đón khách ở cửa.",
-            "why": "Giữ xưng hô, đổi hành động được mời.",
-            "position": "进 là vào, đứng sau 请.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
+            "id": "e2",
             "zh": "谢谢您。",
+            "pinyin": "Xièxie nín.",
             "vi": "Cảm ơn bác ạ.",
-            "scene": "Bạn cảm ơn một người muốn kính trọng.",
-            "why": "您 là người nhận lời cảm ơn.",
-            "position": "您 đứng sau 谢谢, không cần giới từ ở giữa.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "您是老师吗？",
-            "vi": "Bác có phải là giáo viên không ạ?",
-            "scene": "Bạn hỏi nghề nghiệp vị khách.",
-            "why": "您 giữ thái độ kính trọng trong câu hỏi.",
-            "position": "是 nối danh tính; 吗 cuối câu hỏi có phải.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "您不是老师。",
-            "vi": "Bác không phải là giáo viên.",
-            "scene": "Bạn đính chính nghề của một người đang nói chuyện.",
-            "why": "不是 phủ định danh tính, không phủ định sự kính trọng.",
-            "position": "不 đứng trước 是; 您 vẫn ở đầu.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "您 là người nhận lời cảm ơn.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Mời một người làm việc gì một cách kính trọng.",
-            "frame": "您 + 请 + hành động",
-            "position": "您 đứng đầu; 请 đứng trước hành động mời.",
-            "required": "请进 hoặc 请坐 đã tạo lời mời; 您 làm rõ cách xưng hô.",
-            "omission": "Có thể nói 请坐 khi đã rõ người nhận; không có 您 không tự làm câu bất lịch sự.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi lời mời ngồi sang mời vào.",
-              "exampleId": "e02",
-              "limit": "Chọn hành động phù hợp thực tế; không thêm 请 trước mọi câu kể."
-            },
-            "caution": "Không dùng 您 như một danh từ có nghĩa ông hoặc bà để nói về người thứ ba.",
+            "id": "main",
+            "title": "Nghĩa và cách dùng chính",
+            "when": "您 là cách gọi kính trọng một người đang nghe, thường dùng với người lớn tuổi, khách hoặc người cần thể hiện phép lịch sự.",
+            "meaning": "bạn — cách xưng hô kính trọng",
+            "grammar": "您 có vị trí như 你: đứng trước phần nói về người nghe hoặc sau động từ.",
+            "pattern": "您 + động từ；động từ + 您",
             "collocations": [
               {
-                "zh": "您请坐",
-                "vi": "mời bác ngồi",
-                "purpose": "Đón tiếp khách."
+                "zh": "您好",
+                "pinyin": "nín hǎo",
+                "vi": "xin chào ạ"
               },
               {
                 "zh": "谢谢您",
-                "vi": "cảm ơn bác",
-                "purpose": "Thể hiện kính trọng khi cảm ơn."
+                "pinyin": "xièxie nín",
+                "vi": "cảm ơn bác/ông/bà ạ"
               }
             ],
-            "forms": [],
-            "id": "u01"
-          },
-          {
-            "intent": "Hỏi danh tính người nghe với thái độ kính trọng.",
-            "frame": "您 + 是 + danh tính + 吗",
-            "position": "您 ở vị trí người được hỏi; 吗 cuối câu.",
-            "required": "Giữ 是 khi hỏi danh tính theo mẫu này.",
-            "omission": "Trong hội thoại có thể lược người nghe nếu rõ, nhưng giữ 您 giúp thể hiện xưng hô.",
-            "exampleId": "e04",
-            "transform": {
-              "change": "Chuyển câu hỏi thành lời đính chính không phải giáo viên.",
-              "exampleId": "e05",
-              "limit": "Câu phủ định này chỉ nói về danh tính; không thay bằng 没 để diễn đạt cùng ý."
-            },
-            "caution": "Thay 你 bằng 您 thay cách xưng hô, không thay trật tự câu.",
-            "collocations": [
+            "examples": [
               {
-                "zh": "您是老师吗",
-                "vi": "bác có phải là giáo viên không ạ",
-                "purpose": "Hỏi nghề một người."
-              }
-            ],
-            "forms": [
-              {
-                "type": "Phủ định",
-                "exampleId": "e05",
-                "why": "不是 diễn đạt không phải; 不 ở trước 是."
-              }
-            ],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Dịch 您 thành ông hoặc bà rồi dùng để kể về người vắng mặt",
-            "scene": "Bạn kể với bạn mình rằng một người nam khác là giáo viên.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rằng 您 nghĩa là ông nên dùng để nói ông ấy.",
-            "difference": "您 hướng lời nói đến người nghe; 他 chỉ một người nam được nhắc tới.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "您是老师。",
-                "vi": "Bác là giáo viên.",
-                "judgment": "wrong-intent",
-                "comment": "Đúng ngữ pháp nhưng đang nói trực tiếp với người nghe.",
-                "practiceAllowed": false
+                "zh": "您请坐。",
+                "pinyin": "Nín qǐng zuò.",
+                "vi": "Mời bác ngồi ạ.",
+                "note": "您 thể hiện sự kính trọng với khách."
               },
               {
-                "id": "case-2",
-                "zh": "他是老师。",
-                "vi": "Ông ấy là giáo viên.",
-                "judgment": "correct",
-                "comment": "Nói về người nam khác; tuổi tùy ngữ cảnh.",
-                "practiceAllowed": false
+                "zh": "谢谢您。",
+                "pinyin": "Xièxie nín.",
+                "vi": "Cảm ơn bác ạ.",
+                "note": "您 là người nhận lời cảm ơn."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 您 bằng 他 đổi người nghe thành người được kể về; không chỉ đổi độ lịch sự."
-            },
-            "boundary": "Nếu vị giáo viên đang là người bạn nói chuyện trực tiếp, 您 phù hợp; khi kể về họ với người khác dùng 他 hoặc chức danh.",
-            "tip": "Nói với người đó dùng 您; kể về một người nam khác dùng 他.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "Tạo số nhiều kính trọng bằng 您们",
-            "scene": "Bạn chào một nhóm khách và muốn lịch sự.",
-            "possibleConfusion": "Bạn có thể dễ nhầm chỉ cần thêm 们 sau mọi đại từ chỉ một người.",
-            "difference": "Mẫu số nhiều thông dụng là 你们; muốn kính trọng cả nhóm có thể gọi 各位, nghĩa là quý vị hoặc các vị.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "你们好。",
-                "vi": "Chào các bạn.",
-                "judgment": "correct",
-                "comment": "Chào một nhóm theo cách thông thường.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "各位好。",
-                "vi": "Kính chào quý vị.",
-                "judgment": "correct",
-                "comment": "各位 hướng tới một nhóm với cách gọi trang trọng hơn.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Thay 你们 bằng 各位 vẫn chào nhóm, nhưng đổi sắc thái xưng hô; dùng 各位 khi muốn kính trọng cả nhóm."
-            },
-            "boundary": "您们 có xuất hiện trong một số văn cảnh; ở mức học này không chọn làm mẫu số nhiều phổ thông. Không suy rằng 你们 tự nó luôn thiếu lịch sự.",
-            "tip": "Một người kính trọng dùng 您; một nhóm ưu tiên 各位 khi cần cách gọi kính trọng.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
+            ]
           }
         ],
-        "pronunciation": {
-          "text": "您 mang thanh hai, cần nghe rõ âm mũi ở cuối. 你 không có âm mũi cuối như vậy. Đây là hai từ khác nhau về cách xưng hô, không phải chỉ đọc cùng một từ bằng giọng lịch sự hơn."
-        },
-        "checks": [
+        "confusions": [
           {
-            "id": "check-01",
-            "question": "Bạn kính trọng người đối diện và hỏi họ. Chọn đại từ.",
+            "id": "contrast",
+            "afterSense": "main",
+            "title": "您 trang trọng hơn 你",
+            "explanation": "Cả hai đều chỉ một người nghe; chọn 您 khi muốn thể hiện sự kính trọng.",
+            "contrasts": [
+              {
+                "zh": "你好。",
+                "pinyin": "Nǐ hǎo.",
+                "vi": "Chào bạn.",
+                "note": "Cách gọi thông thường."
+              },
+              {
+                "zh": "您好。",
+                "pinyin": "Nín hǎo.",
+                "vi": "Chào bác/ông/bà ạ.",
+                "note": "Cách gọi kính trọng."
+              }
+            ],
+            "tip": "Không phải lúc nào cũng cần 您; dùng theo quan hệ và hoàn cảnh."
+          }
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "level": "Cơ bản · chạm sắp xếp",
+            "type": "order",
+            "prompt": "Chạm các mảnh để tạo câu: Mời bác ngồi ạ.",
+            "tokens": [
+              "您",
+              "请",
+              "坐",
+              "。"
+            ],
+            "accepted": [
+              "您请坐。"
+            ],
+            "model": "您请坐。",
+            "explanation": "Sắp xếp theo cấu trúc đã học.",
+            "wrongFeedback": "Kiểm tra lại vị trí chủ ngữ, động từ và thành phần cuối câu."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "contrast",
+            "type": "choice",
+            "prompt": "Bạn kính trọng nói với một vị khách. Chọn đại từ.",
             "choices": [
               "您",
-              "他"
-            ]
-          },
+              "你们"
+            ],
+            "correctIndex": 0,
+            "model": "您",
+            "explanation": "Không phải lúc nào cũng cần 您; dùng theo quan hệ và hoàn cảnh.",
+            "wrongFeedback": "Đọc lại tình huống và điểm phân biệt ở bước Hiểu."
+          }
+        ],
+        "productionExercises": [
           {
-            "id": "check-02",
-            "question": "Bạn chào cả nhóm theo cách kính trọng đã học. Chọn câu.",
-            "choices": [
-              "各位好。",
-              "您好。"
+            "id": "p1",
+            "prompt": "Mời một vị khách ngồi một cách lịch sự.",
+            "hints": [
+              "Chọn một ý thật phù hợp với tình huống.",
+              "Dùng 您 + 请坐。"
+            ],
+            "model": "您请坐。",
+            "vi": "Mời bác ngồi ạ.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với ý muốn diễn đạt."
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 0,
-            "explanation": "Người được nhắc đến chính là người nghe."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhìn nghĩa, nhớ từ",
+            "cue": "bạn — cách xưng hô kính trọng",
+            "hiddenAnswer": "您 — nín",
+            "model": "您请坐。",
+            "vi": "Mời bác ngồi ạ."
           },
-          "check-02": {
-            "correctIndex": 0,
-            "explanation": "各位 chỉ nhóm; 您好 thường hướng đến một người."
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách dùng trong tình huống",
+            "cue": "Mời một vị khách ngồi một cách lịch sự.",
+            "hiddenAnswer": "Dùng 您 + 请坐。",
+            "model": "您请坐。",
+            "vi": "Mời bác ngồi ạ."
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": [
-          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
         ]
       }
     },
@@ -4087,65 +3794,30 @@
       "meaning": "anh ấy",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 002",
       "examples": [
         {
+          "id": "e1",
           "zh": "他是老师。",
+          "pinyin": "Tā shì lǎoshī.",
           "vi": "Anh ấy là giáo viên.",
-          "scene": "Bạn giới thiệu nghề của một đồng nghiệp nam.",
-          "why": "他 giúp nhắc lại người đã rõ thay vì lặp tên.",
-          "position": "他 trước 是; 老师 là danh tính sau 是.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói người đồng nghiệp nam ấy là giáo viên.",
-            "choice": "Chọn 他 để nhắc người nam và 是 để nối với nghề.",
-            "order": "Xếp 他, 是, rồi 老师.",
-            "result": "他是老师。"
-          },
-          "id": "e01"
+          "analysis": "他 chỉ người nam đang được nhắc.",
+          "practiceAllowed": true
         },
         {
-          "zh": "他是医生。",
-          "vi": "Anh ấy là bác sĩ.",
-          "scene": "Bạn giới thiệu một người nam khác.",
-          "why": "Giữ đại từ, đổi nghề thành 医生 — bác sĩ.",
-          "position": "医生 thay 老师 sau 是.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
+          "id": "e2",
           "zh": "我认识他。",
+          "pinyin": "Wǒ rènshi tā.",
           "vi": "Tôi biết anh ấy.",
-          "scene": "Bạn xác nhận mình quen người đang được nhắc.",
-          "why": "他 là người được biết, không phải người làm hành động.",
-          "position": "他 ở sau 认识, không đổi dạng vì làm đối tượng.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "他不是老师。",
-          "vi": "Anh ấy không phải là giáo viên.",
-          "scene": "Bạn đính chính nghề của người nam.",
-          "why": "不是 phủ định danh tính.",
-          "position": "不 đứng trước 是, không tách 他 ra khỏi phần còn lại bằng 是 khác.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "他是老师吗？",
-          "vi": "Anh ấy có phải là giáo viên không?",
-          "scene": "Bạn hỏi về người nam đã nhắc trước.",
-          "why": "Câu hỏi vẫn nói người thứ ba.",
-          "position": "吗 đứng cuối; 他 không thay thành 你 nếu người ấy không phải người nghe.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "他 đứng sau 认识.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn giới thiệu một người đàn ông đang đứng gần đó.",
       "when": "他 chỉ một người nam được nhắc đến. Người đó không nhất thiết có mặt.",
       "pattern": "他是 + danh tính; 他 + hoạt động",
       "trap": "Chỉ nghe âm thanh sẽ không phân biệt được 他 và 她. Khi viết, chọn theo người được nhắc đến.",
-      "task": "Giới thiệu một đồng nghiệp nam là giáo viên.",
+      "task": "Giới thiệu nghề của một người nam bạn biết.",
       "model": "他是老师。",
       "phrases": [
         "他是我的同学。"
@@ -4193,242 +3865,166 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 4,
+        "difficulty": "easy",
+        "difficultyReason": "Một đại từ ngôi thứ ba có nghĩa trọng tâm rõ và dùng trực tiếp.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
+        ],
         "introduction": {
-          "partOfSpeech": "Đại từ chỉ một người nam được nhắc tới.",
-          "scope": "Học cách nói anh ấy hoặc ông ấy; cách nói nhóm đặt ở Học thêm."
-        },
-        "meaning": {
-          "scene": "Bạn giới thiệu một đồng nghiệp nam cho người khác.",
-          "explanation": "他 chỉ một người nam mà người nói và người nghe xác định được qua ngữ cảnh. Có thể dịch anh ấy, ông ấy hoặc cậu ấy tùy tuổi và quan hệ.",
-          "boundary": "他 không phải từ chỉ anh trai. 哥哥 là anh trai; 他 chỉ vai trò người được nhắc tới. Trong cách viết hiện đại, người nữ thường dùng 她.",
-          "conditions": [
-            "Người nghe phải biết 他 đang chỉ ai, qua lời trước hoặc tình huống.",
-            "Dùng khi nói về người đó; khi hướng lời trực tiếp đến họ, thường chuyển sang 你 hoặc 您."
-          ],
-          "takeaway": "Khi muốn nói về một người nam đã rõ là ai, trong tình huống kể về người đó, bạn có thể dùng 他.",
-          "alternatives": [
-            {
-              "zh": "他是我哥哥。",
-              "vi": "Anh ấy là anh trai tôi.",
-              "purpose": "哥哥 là anh trai; 他 chỉ người nam được giới thiệu, không tự mang quan hệ anh em."
-            }
-          ]
+          "scope": "他 chỉ một người nam không phải người nói hay người nghe: anh ấy, ông ấy hoặc cậu ấy tùy ngữ cảnh."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "他是老师。",
+            "pinyin": "Tā shì lǎoshī.",
             "vi": "Anh ấy là giáo viên.",
-            "scene": "Bạn giới thiệu nghề của một đồng nghiệp nam.",
-            "why": "他 giúp nhắc lại người đã rõ thay vì lặp tên.",
-            "position": "他 trước 是; 老师 là danh tính sau 是.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói người đồng nghiệp nam ấy là giáo viên.",
-              "choice": "Chọn 他 để nhắc người nam và 是 để nối với nghề.",
-              "order": "Xếp 他, 是, rồi 老师.",
-              "result": "他是老师。"
-            },
-            "id": "e01"
+            "analysis": "他 chỉ người nam đang được nhắc.",
+            "practiceAllowed": true
           },
           {
-            "zh": "他是医生。",
-            "vi": "Anh ấy là bác sĩ.",
-            "scene": "Bạn giới thiệu một người nam khác.",
-            "why": "Giữ đại từ, đổi nghề thành 医生 — bác sĩ.",
-            "position": "医生 thay 老师 sau 是.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
+            "id": "e2",
             "zh": "我认识他。",
+            "pinyin": "Wǒ rènshi tā.",
             "vi": "Tôi biết anh ấy.",
-            "scene": "Bạn xác nhận mình quen người đang được nhắc.",
-            "why": "他 là người được biết, không phải người làm hành động.",
-            "position": "他 ở sau 认识, không đổi dạng vì làm đối tượng.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "他不是老师。",
-            "vi": "Anh ấy không phải là giáo viên.",
-            "scene": "Bạn đính chính nghề của người nam.",
-            "why": "不是 phủ định danh tính.",
-            "position": "不 đứng trước 是, không tách 他 ra khỏi phần còn lại bằng 是 khác.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "他是老师吗？",
-            "vi": "Anh ấy có phải là giáo viên không?",
-            "scene": "Bạn hỏi về người nam đã nhắc trước.",
-            "why": "Câu hỏi vẫn nói người thứ ba.",
-            "position": "吗 đứng cuối; 他 không thay thành 你 nếu người ấy không phải người nghe.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "他 đứng sau 认识.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Nói người nam ấy là ai.",
-            "frame": "他 + 是 + danh tính",
-            "position": "他 đứng đầu chỉ người được kể; 是 nối với nghề hoặc vai trò.",
-            "required": "Theo mẫu danh tính này cần 是.",
-            "omission": "Trong lời đáp ai là giáo viên, nói 他 có thể đủ nếu người nghe biết đang chỉ ai.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi nghề giáo viên thành bác sĩ.",
-              "exampleId": "e02",
-              "limit": "Chỉ thay danh tính bằng danh từ thích hợp, không thêm 是 trước mọi động từ."
-            },
-            "caution": "Câu mới phải có ngữ cảnh xác định 他, tránh mở đầu kể về một người chưa từng giới thiệu.",
+            "id": "main",
+            "title": "Nghĩa và cách dùng chính",
+            "when": "他 chỉ một người nam không phải người nói hay người nghe: anh ấy, ông ấy hoặc cậu ấy tùy ngữ cảnh.",
+            "meaning": "anh ấy",
+            "grammar": "他 có thể làm chủ ngữ trước động từ hoặc đứng sau động từ khi là đối tượng.",
+            "pattern": "他 + động từ；động từ + 他",
             "collocations": [
               {
                 "zh": "他是老师",
-                "vi": "anh ấy là giáo viên",
-                "purpose": "Giới thiệu nghề."
-              }
-            ],
-            "forms": [
-              {
-                "type": "Phủ định",
-                "exampleId": "e04",
-                "why": "不是 diễn đạt không phải."
+                "pinyin": "tā shì lǎoshī",
+                "vi": "anh ấy là giáo viên"
               },
-              {
-                "type": "Câu hỏi",
-                "exampleId": "e05",
-                "why": "Thêm 吗 cuối câu để hỏi có phải."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Nêu người nam là đối tượng quen biết.",
-            "frame": "Người biết + 认识 + 他",
-            "position": "他 theo sau 认识; đổi sang đầu câu sẽ đổi vai.",
-            "required": "认识 nối trực tiếp với người được quen biết.",
-            "omission": "Nếu ai cũng biết người được hỏi, 我认识 có thể đủ; thêm 他 làm rõ đối tượng.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Đổi từ mình biết anh ấy sang giới thiệu nghề anh ấy.",
-              "exampleId": "e01",
-              "limit": "Đổi vai phải đổi cả phần nói việc hoặc danh tính cho phù hợp."
-            },
-            "caution": "Không thêm giới từ chỉ vì tiếng Việt nói biết về; 认识他 là quen biết người này.",
-            "collocations": [
               {
                 "zh": "认识他",
-                "vi": "biết anh ấy",
-                "purpose": "Nhấn người được quen biết."
+                "pinyin": "rènshi tā",
+                "vi": "biết anh ấy"
               }
             ],
-            "forms": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Nghe giống nhau không có nghĩa viết cùng một chữ",
-            "scene": "Bạn viết tin nhắn nói về một đồng nghiệp nam.",
-            "possibleConfusion": "Bạn có thể dễ nhầm 他 và 她 vì nghe giống nhau.",
-            "difference": "他 thường viết cho người nam; 她 cho người nữ. Khi nghe chỉ âm này, cần ngữ cảnh xác định người.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
                 "zh": "他是老师。",
+                "pinyin": "Tā shì lǎoshī.",
                 "vi": "Anh ấy là giáo viên.",
-                "judgment": "correct",
-                "comment": "Phù hợp người nam đang nói đến.",
-                "practiceAllowed": false
+                "note": "他 chỉ người nam đang được nhắc."
               },
               {
-                "id": "case-2",
-                "zh": "她是老师。",
-                "vi": "Cô ấy là giáo viên.",
-                "judgment": "different-meaning",
-                "comment": "Đúng ngữ pháp nhưng chữ viết chỉ người nữ.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 他 bằng 她 đổi người được chỉ trong văn bản theo giới tính, dù cách đọc không đổi."
-            },
-            "boundary": "Nếu chỉ nghe câu mà không biết người được nhắc tới, chưa đủ căn cứ chọn chữ; không chấm theo âm để đoán giới tính.",
-            "tip": "Khi viết, dựa vào người được nhắc; khi nghe, dùng thông tin trước sau.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "Đổi chủ thể và đối tượng làm đổi ai biết ai",
-            "scene": "Bạn muốn nói mình quen anh ấy.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rằng 认识 nằm giữa hai người thì đổi chỗ ai trước cũng như nhau.",
-            "difference": "Người trước 认识 là người biết; người sau là người được biết. Quen biết thực tế có thể hai chiều nhưng câu diễn đạt hai hướng khác nhau.",
-            "cases": [
-              {
-                "id": "case-1",
                 "zh": "我认识他。",
+                "pinyin": "Wǒ rènshi tā.",
                 "vi": "Tôi biết anh ấy.",
-                "judgment": "correct",
-                "comment": "我 là người biết.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "他认识我。",
-                "vi": "Anh ấy biết tôi.",
-                "judgment": "different-meaning",
-                "comment": "Câu đúng; 他 trở thành người biết.",
-                "practiceAllowed": false
+                "note": "他 đứng sau 认识."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi vị trí 我 và 他 làm đổi ai biết ai; không thể giữ nguyên bản dịch của câu trước."
-            },
-            "boundary": "Hai câu có thể cùng đúng khi cả hai biết nhau; vẫn không coi vai trò trong câu giống hệt.",
-            "tip": "Muốn nói ai biết thì đặt người đó trước 认识.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
+            ]
           }
         ],
-        "pronunciation": {
-          "text": "他 mang thanh một; trong cách đọc phổ thông, 他 và 她 phát âm giống nhau. Không cố tạo khác biệt âm thanh để đánh dấu nam và nữ. Hãy nghe cả ngữ cảnh để nhận ra người đang được nói tới."
-        },
-        "checks": [
+        "confusions": [
           {
-            "id": "check-01",
-            "question": "Tin nhắn nói về người nam đã rõ. Chọn chữ.",
+            "id": "contrast",
+            "afterSense": "main",
+            "title": "他 và 她 có cùng cách đọc",
+            "explanation": "Trong chữ viết, 他 chỉ nam còn 她 chỉ nữ. Khi nghe riêng âm này, cần dựa vào ngữ cảnh.",
+            "contrasts": [
+              {
+                "zh": "他是老师。",
+                "pinyin": "Tā shì lǎoshī.",
+                "vi": "Anh ấy là giáo viên.",
+                "note": "他 viết cho người nam."
+              },
+              {
+                "zh": "她是老师。",
+                "pinyin": "Tā shì lǎoshī.",
+                "vi": "Cô ấy là giáo viên.",
+                "note": "她 viết cho người nữ."
+              }
+            ],
+            "tip": "Nghe giống nhau; phân biệt giới tính bằng chữ viết hoặc ngữ cảnh."
+          }
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "level": "Cơ bản · chạm sắp xếp",
+            "type": "order",
+            "prompt": "Chạm các mảnh để tạo câu: Anh ấy là giáo viên.",
+            "tokens": [
+              "他",
+              "是",
+              "老师",
+              "。"
+            ],
+            "accepted": [
+              "他是老师。"
+            ],
+            "model": "他是老师。",
+            "explanation": "Sắp xếp theo cấu trúc đã học.",
+            "wrongFeedback": "Kiểm tra lại vị trí chủ ngữ, động từ và thành phần cuối câu."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "contrast",
+            "type": "choice",
+            "prompt": "Bạn viết về một người nam. Chọn đại từ.",
             "choices": [
               "他",
               "她"
-            ]
-          },
+            ],
+            "correctIndex": 0,
+            "model": "他",
+            "explanation": "Nghe giống nhau; phân biệt giới tính bằng chữ viết hoặc ngữ cảnh.",
+            "wrongFeedback": "Đọc lại tình huống và điểm phân biệt ở bước Hiểu."
+          }
+        ],
+        "productionExercises": [
           {
-            "id": "check-02",
-            "question": "Bạn cần nói anh ấy biết tôi. Chọn câu.",
-            "choices": [
-              "我认识他。",
-              "他认识我。"
+            "id": "p1",
+            "prompt": "Giới thiệu nghề của một người nam bạn biết.",
+            "hints": [
+              "Chọn một ý thật phù hợp với tình huống.",
+              "Dùng 他是 + nghề nghiệp."
+            ],
+            "model": "他是老师。",
+            "vi": "Anh ấy là giáo viên.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với ý muốn diễn đạt."
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 0,
-            "explanation": "Dùng 他 cho người nam trong ngữ cảnh này."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhìn nghĩa, nhớ từ",
+            "cue": "anh ấy",
+            "hiddenAnswer": "他 — tā",
+            "model": "他是老师。",
+            "vi": "Anh ấy là giáo viên."
           },
-          "check-02": {
-            "correctIndex": 1,
-            "explanation": "他 trước 认识 là người biết; 我 ở sau là người được biết."
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách dùng trong tình huống",
+            "cue": "Giới thiệu nghề của một người nam bạn biết.",
+            "hiddenAnswer": "Dùng 他是 + nghề nghiệp.",
+            "model": "他是老师。",
+            "vi": "Anh ấy là giáo viên."
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": [
-          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
         ]
       }
     },
@@ -4445,65 +4041,30 @@
       "meaning": "cô ấy",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 002",
       "examples": [
         {
+          "id": "e1",
           "zh": "她是医生。",
+          "pinyin": "Tā shì yīshēng.",
           "vi": "Cô ấy là bác sĩ.",
-          "scene": "Bạn giới thiệu nghề của một đồng nghiệp nữ.",
-          "why": "她 thay tên của người nữ đã biết.",
-          "position": "她 đứng trước 是, nghề 医生 đứng sau.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói người nữ ấy là bác sĩ.",
-            "choice": "Chọn 她 cho người nữ và 是 để nối với danh tính.",
-            "order": "Xếp người được kể, 是, rồi nghề 医生.",
-            "result": "她是医生。"
-          },
-          "id": "e01"
+          "analysis": "她 chỉ người nữ đang được nhắc.",
+          "practiceAllowed": true
         },
         {
-          "zh": "她是老师。",
-          "vi": "Cô ấy là giáo viên.",
-          "scene": "Bạn đổi sang giới thiệu nghề giáo.",
-          "why": "Giữ người nữ, đổi danh tính.",
-          "position": "老师 thay 医生 sau 是.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
+          "id": "e2",
           "zh": "我认识她。",
+          "pinyin": "Wǒ rènshi tā.",
           "vi": "Tôi biết cô ấy.",
-          "scene": "Bạn xác nhận có quen người nữ này.",
-          "why": "她 là người được biết.",
-          "position": "她 theo sau 认识; không thêm 的 để nối hai phần.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "她不是医生。",
-          "vi": "Cô ấy không phải là bác sĩ.",
-          "scene": "Bạn đính chính nghề.",
-          "why": "不是 phủ định nghề đã nêu.",
-          "position": "不 nằm trước 是.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "她是医生吗？",
-          "vi": "Cô ấy có phải là bác sĩ không?",
-          "scene": "Bạn hỏi về người nữ đã nhắc.",
-          "why": "Câu hỏi hướng đến người nghe nhưng nội dung hỏi về người khác.",
-          "position": "她 giữ vị trí đầu; 吗 ở cuối.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "她 đứng sau 认识.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn giới thiệu nghề nghiệp của một người phụ nữ.",
       "when": "她 chỉ một người nữ được nhắc đến. Khi nói trực tiếp với người ấy, dùng 你 hoặc 您.",
       "pattern": "她是 + danh tính; 她 + hoạt động",
       "trap": "Không dùng 她 để gọi trực tiếp một người phụ nữ thay cho 你. Phải xác định đang nói với ai hay đang nói về ai.",
-      "task": "Giới thiệu một đồng nghiệp nữ là bác sĩ.",
+      "task": "Giới thiệu nghề của một người nữ bạn biết.",
       "model": "她是医生。",
       "phrases": [
         "她是医生。"
@@ -4551,242 +4112,166 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 5,
+        "difficulty": "easy",
+        "difficultyReason": "Một đại từ ngôi thứ ba có nghĩa trọng tâm rõ; chỉ cần lưu ý chữ viết khác 他.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
+        ],
         "introduction": {
-          "partOfSpeech": "Đại từ chỉ một người nữ được nhắc tới.",
-          "scope": "Học cách nhắc một người nữ; không suy từ cách đọc để đoán chữ khi thiếu ngữ cảnh."
-        },
-        "meaning": {
-          "scene": "Bạn kể cho bạn mình về một đồng nghiệp nữ.",
-          "explanation": "她 chỉ người nữ mà hai bên xác định được, có thể dịch cô ấy, bà ấy hoặc chị ấy. Độ tuổi không nằm sẵn trong chữ này.",
-          "boundary": "她 không có nghĩa là chị gái; 姐姐 mới chỉ chị gái. Không dùng 她 để gọi trực tiếp một người nữ đang là người nghe chỉ vì tiếng Việt gọi chị.",
-          "conditions": [
-            "Dùng khi nói về người nữ đã rõ trong ngữ cảnh.",
-            "Khi viết cần phân biệt với 他; khi nghe, hai chữ không có khác biệt âm thanh."
-          ],
-          "takeaway": "Khi muốn nhắc đến một người nữ đã rõ là ai, trong tình huống kể về người đó, bạn có thể dùng 她.",
-          "alternatives": [
-            {
-              "zh": "她是我姐姐。",
-              "vi": "Cô ấy là chị gái tôi.",
-              "purpose": "姐姐 là chị gái; 她 chỉ người nữ đang được nhắc tới."
-            }
-          ]
+          "scope": "她 chỉ một người nữ không phải người nói hay người nghe: cô ấy, chị ấy hoặc bà ấy tùy ngữ cảnh."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "她是医生。",
+            "pinyin": "Tā shì yīshēng.",
             "vi": "Cô ấy là bác sĩ.",
-            "scene": "Bạn giới thiệu nghề của một đồng nghiệp nữ.",
-            "why": "她 thay tên của người nữ đã biết.",
-            "position": "她 đứng trước 是, nghề 医生 đứng sau.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói người nữ ấy là bác sĩ.",
-              "choice": "Chọn 她 cho người nữ và 是 để nối với danh tính.",
-              "order": "Xếp người được kể, 是, rồi nghề 医生.",
-              "result": "她是医生。"
-            },
-            "id": "e01"
+            "analysis": "她 chỉ người nữ đang được nhắc.",
+            "practiceAllowed": true
           },
           {
-            "zh": "她是老师。",
-            "vi": "Cô ấy là giáo viên.",
-            "scene": "Bạn đổi sang giới thiệu nghề giáo.",
-            "why": "Giữ người nữ, đổi danh tính.",
-            "position": "老师 thay 医生 sau 是.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
+            "id": "e2",
             "zh": "我认识她。",
+            "pinyin": "Wǒ rènshi tā.",
             "vi": "Tôi biết cô ấy.",
-            "scene": "Bạn xác nhận có quen người nữ này.",
-            "why": "她 là người được biết.",
-            "position": "她 theo sau 认识; không thêm 的 để nối hai phần.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "她不是医生。",
-            "vi": "Cô ấy không phải là bác sĩ.",
-            "scene": "Bạn đính chính nghề.",
-            "why": "不是 phủ định nghề đã nêu.",
-            "position": "不 nằm trước 是.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "她是医生吗？",
-            "vi": "Cô ấy có phải là bác sĩ không?",
-            "scene": "Bạn hỏi về người nữ đã nhắc.",
-            "why": "Câu hỏi hướng đến người nghe nhưng nội dung hỏi về người khác.",
-            "position": "她 giữ vị trí đầu; 吗 ở cuối.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "她 đứng sau 认识.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Giới thiệu danh tính một người nữ.",
-            "frame": "她 + 是 + danh tính",
-            "position": "她 chỉ người nữ được kể; danh tính ở sau 是.",
-            "required": "Cần 是 trong câu danh tính cơ bản.",
-            "omission": "Trả lời ai là bác sĩ có thể chỉ nói 她 khi đã rõ đang chỉ ai.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi bác sĩ thành giáo viên.",
-              "exampleId": "e02",
-              "limit": "Thay bằng danh tính thích hợp; không dùng quy tắc này cho mọi câu tính chất."
-            },
-            "caution": "她 không tự nghĩa là chị gái hoặc cô giáo.",
+            "id": "main",
+            "title": "Nghĩa và cách dùng chính",
+            "when": "她 chỉ một người nữ không phải người nói hay người nghe: cô ấy, chị ấy hoặc bà ấy tùy ngữ cảnh.",
+            "meaning": "cô ấy",
+            "grammar": "她 có thể làm chủ ngữ trước động từ hoặc đứng sau động từ khi là đối tượng.",
+            "pattern": "她 + động từ；động từ + 她",
             "collocations": [
               {
                 "zh": "她是医生",
-                "vi": "cô ấy là bác sĩ",
-                "purpose": "Giới thiệu nghề."
-              }
-            ],
-            "forms": [
-              {
-                "type": "Phủ định",
-                "exampleId": "e04",
-                "why": "不是 là không phải."
+                "pinyin": "tā shì yīshēng",
+                "vi": "cô ấy là bác sĩ"
               },
-              {
-                "type": "Câu hỏi",
-                "exampleId": "e05",
-                "why": "吗 hỏi người nghe có xác nhận thông tin này không."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Nói người nữ được ai quen biết.",
-            "frame": "Người biết + 认识 + 她",
-            "position": "她 ở sau 认识 là đối tượng, không phải người thực hiện.",
-            "required": "认识 nhận trực tiếp người trong câu này.",
-            "omission": "Có thể bỏ đối tượng trong câu trả lời khi đã rõ; thêm 她 nhắc chính người nữ đó.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Chuyển sang giới thiệu cô ấy là ai.",
-              "exampleId": "e01",
-              "limit": "Không lấy vị trí sau 认识 làm quy tắc cho mọi động từ."
-            },
-            "caution": "Khi đổi người nữ thành người nam trong văn bản, phải đổi chữ thích hợp.",
-            "collocations": [
               {
                 "zh": "认识她",
-                "vi": "biết cô ấy",
-                "purpose": "Nêu người nữ được quen biết."
+                "pinyin": "rènshi tā",
+                "vi": "biết cô ấy"
               }
             ],
-            "forms": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Gọi chị trong tiếng Việt không đồng nghĩa dùng 她 để xưng hô",
-            "scene": "Bạn hỏi trực tiếp một người nữ có phải bác sĩ không.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rằng chị được dịch bằng 她 trong mọi tình huống.",
-            "difference": "她 nói về người nữ; 你 hoặc 您 hướng lời trực tiếp đến người nghe. Chọn theo vai trò giao tiếp, không chỉ theo giới tính.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "她是医生吗？",
-                "vi": "Cô ấy có phải là bác sĩ không?",
-                "judgment": "wrong-intent",
-                "comment": "Đúng nhưng hỏi về người thứ ba.",
-                "practiceAllowed": false
+                "zh": "她是医生。",
+                "pinyin": "Tā shì yīshēng.",
+                "vi": "Cô ấy là bác sĩ.",
+                "note": "她 chỉ người nữ đang được nhắc."
               },
               {
-                "id": "case-2",
-                "zh": "你是医生吗？",
-                "vi": "Chị có phải là bác sĩ không?",
-                "judgment": "correct",
-                "comment": "Hỏi trực tiếp người nghe theo xưng hô thông thường.",
-                "practiceAllowed": false
+                "zh": "我认识她。",
+                "pinyin": "Wǒ rènshi tā.",
+                "vi": "Tôi biết cô ấy.",
+                "note": "她 đứng sau 认识."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 她 bằng 你 chuyển người được hỏi thông tin sang chính người nghe."
-            },
-            "boundary": "Nếu bạn quay sang hỏi người khác về vị bác sĩ đang có mặt, 她 vẫn có thể đúng; người có mặt chưa chắc là người nghe trực tiếp.",
-            "tip": "Nói với chị ấy dùng 你 hoặc 您; kể về chị ấy dùng 她.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "他 và 她 phân biệt bằng ngữ cảnh khi nghe",
-            "scene": "Bạn đọc một câu viết về đồng nghiệp nữ.",
-            "possibleConfusion": "Bạn có thể dễ nhầm chữ 他 vì nghe hai chữ giống nhau.",
-            "difference": "她 thường viết cho người nữ, 他 cho người nam; cách đọc giống nhau nên audio không tự cho biết chữ nào.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "她是老师。",
-                "vi": "Cô ấy là giáo viên.",
-                "judgment": "correct",
-                "comment": "Phù hợp người nữ trong văn bản.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "他是老师。",
-                "vi": "Anh ấy là giáo viên.",
-                "judgment": "different-meaning",
-                "comment": "Đúng cấu trúc nhưng đổi người được nhắc theo cách viết.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 她 bằng 他 giữ âm đọc nhưng đổi cách chỉ người trong văn bản."
-            },
-            "boundary": "Khi chưa biết người được kể là ai, chỉ nghe âm không đủ để chọn 他 hay 她; cần hỏi hoặc chờ thêm thông tin.",
-            "tip": "Viết theo người đã xác định; nghe theo cả câu chuyện, không đoán từ giọng nam hay nữ của máy đọc.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
-          }
-        ],
-        "pronunciation": {
-          "text": "她 mang thanh một và phát âm giống 他. Giọng nam hay nữ đọc audio không quyết định chữ nào được dùng. Khi nghe, cần dựa vào người đang được nhắc trong câu chuyện."
-        },
-        "checks": [
-          {
-            "id": "check-01",
-            "question": "Bạn muốn hỏi trực tiếp người nữ đối diện. Chọn câu.",
-            "choices": [
-              "她是医生吗？",
-              "你是医生吗？"
-            ]
-          },
-          {
-            "id": "check-02",
-            "question": "Văn bản nói rõ một phụ nữ. Chọn chữ.",
-            "choices": [
-              "他",
-              "她"
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 1,
-            "explanation": "Người nữ đó là người nghe nên dùng 你 trong cách nói thông thường."
-          },
-          "check-02": {
-            "correctIndex": 1,
-            "explanation": "Chữ 她 phù hợp người nữ đã được xác định."
+        "confusions": [
+          {
+            "id": "contrast",
+            "afterSense": "main",
+            "title": "她 và 他 có cùng cách đọc",
+            "explanation": "Trong chữ viết, 她 chỉ nữ còn 他 chỉ nam. Phát âm của hai từ giống nhau.",
+            "contrasts": [
+              {
+                "zh": "她是医生。",
+                "pinyin": "Tā shì yīshēng.",
+                "vi": "Cô ấy là bác sĩ.",
+                "note": "她 viết cho người nữ."
+              },
+              {
+                "zh": "他是医生。",
+                "pinyin": "Tā shì yīshēng.",
+                "vi": "Anh ấy là bác sĩ.",
+                "note": "他 viết cho người nam."
+              }
+            ],
+            "tip": "Khi nói không cần tạo khác biệt trong phát âm; ngữ cảnh cho biết người nào."
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": [
-          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "level": "Cơ bản · chạm sắp xếp",
+            "type": "order",
+            "prompt": "Chạm các mảnh để tạo câu: Cô ấy là bác sĩ.",
+            "tokens": [
+              "她",
+              "是",
+              "医生",
+              "。"
+            ],
+            "accepted": [
+              "她是医生。"
+            ],
+            "model": "她是医生。",
+            "explanation": "Sắp xếp theo cấu trúc đã học.",
+            "wrongFeedback": "Kiểm tra lại vị trí chủ ngữ, động từ và thành phần cuối câu."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "contrast",
+            "type": "choice",
+            "prompt": "Bạn viết về một người nữ. Chọn đại từ.",
+            "choices": [
+              "她",
+              "他"
+            ],
+            "correctIndex": 0,
+            "model": "她",
+            "explanation": "Khi nói không cần tạo khác biệt trong phát âm; ngữ cảnh cho biết người nào.",
+            "wrongFeedback": "Đọc lại tình huống và điểm phân biệt ở bước Hiểu."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Giới thiệu nghề của một người nữ bạn biết.",
+            "hints": [
+              "Chọn một ý thật phù hợp với tình huống.",
+              "Dùng 她是 + nghề nghiệp."
+            ],
+            "model": "她是医生。",
+            "vi": "Cô ấy là bác sĩ.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với ý muốn diễn đạt."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhìn nghĩa, nhớ từ",
+            "cue": "cô ấy",
+            "hiddenAnswer": "她 — tā",
+            "model": "她是医生。",
+            "vi": "Cô ấy là bác sĩ."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách dùng trong tình huống",
+            "cue": "Giới thiệu nghề của một người nữ bạn biết.",
+            "hiddenAnswer": "Dùng 她是 + nghề nghiệp.",
+            "model": "她是医生。",
+            "vi": "Cô ấy là bác sĩ."
+          }
         ]
       }
     },
@@ -4803,65 +4288,30 @@
       "meaning": "chúng tôi / chúng ta",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 002",
       "examples": [
         {
+          "id": "e1",
           "zh": "我们是同事。",
+          "pinyin": "Wǒmen shì tóngshì.",
           "vi": "Chúng tôi là đồng nghiệp.",
-          "scene": "Hai người giới thiệu nhóm với một vị khách không cùng công ty.",
-          "why": "我们 gồm người nói và đồng nghiệp, không gồm vị khách trong tình huống này.",
-          "position": "我们 trước 是; 同事 nêu quan hệ nhóm.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Muốn giới thiệu nhóm mình là đồng nghiệp.",
-            "choice": "Chọn 我们 cho nhóm có mình và 是 để nối danh tính.",
-            "order": "Xếp nhóm, 是, rồi 同事.",
-            "result": "我们是同事。"
-          },
-          "id": "e01"
+          "analysis": "Trong tình huống giới thiệu với khách, nhóm có thể không gồm người nghe.",
+          "practiceAllowed": true
         },
         {
-          "zh": "我们是学生。",
-          "vi": "Chúng tôi là học sinh hoặc sinh viên.",
-          "scene": "Một nhóm người học giới thiệu với giáo viên.",
-          "why": "Thay danh tính nhưng vẫn là nhóm có người nói.",
-          "position": "学生 đứng sau 是.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
+          "id": "e2",
           "zh": "我们一起学习。",
+          "pinyin": "Wǒmen yìqǐ xuéxí.",
           "vi": "Chúng ta cùng học.",
-          "scene": "Bạn rủ người đang nói chuyện cùng học.",
-          "why": "Ở tình huống này 我们 bao gồm cả người nghe; 一起 cho biết cùng làm.",
-          "position": "一起 trước hành động 学习, sau 我们.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "我们不是老师。",
-          "vi": "Chúng tôi không phải là giáo viên.",
-          "scene": "Nhóm đính chính nghề với vị khách.",
-          "why": "不是 phủ định danh tính của nhóm.",
-          "position": "不 đứng trước 是; không đặt sau 我们 để phủ định riêng một thành viên.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "我们一起学习吗？",
-          "vi": "Chúng ta cùng học chứ?",
-          "scene": "Bạn hỏi người nghe có cùng học với mình không.",
-          "why": "吗 tạo câu hỏi xác nhận việc cùng học, không phải mệnh lệnh.",
-          "position": "Giữ 我们一起学习 rồi thêm 吗 ở cuối.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "Lời rủ này bao gồm người nghe.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn rủ người đối thoại cùng học.",
       "when": "我们 là nhóm gồm người nói. Tùy ngữ cảnh, nhóm có thể gồm hoặc không gồm người đang nghe.",
       "pattern": "我们 + 一起 + hoạt động + 吧",
       "trap": "Không tự hiểu 我们 luôn là chúng tôi, loại người nghe. Trong lời rủ, nó thường là chúng ta.",
-      "task": "Thay mặt nhóm mình giới thiệu là đồng nghiệp với nhau.",
+      "task": "Nói một việc bạn và người khác cùng làm.",
       "model": "我们是同事。",
       "phrases": [
         "我们一起学习吧。"
@@ -4905,243 +4355,180 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 6,
+        "difficulty": "medium",
+        "difficultyReason": "Cùng một từ có thể bao gồm hoặc không bao gồm người nghe; người học Việt còn cần phân biệt với 咱们.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
+        ],
         "introduction": {
-          "partOfSpeech": "Đại từ chỉ nhóm có người nói.",
-          "scope": "Nghĩa trọng tâm: chúng tôi hoặc chúng ta; chưa tách thành hai nghĩa chỉ dựa vào bản dịch Việt."
-        },
-        "meaning": {
-          "scene": "Bạn cùng đồng nghiệp giới thiệu nhóm mình với một vị khách.",
-          "explanation": "我们 chỉ nhóm có người đang nói. Nhóm có thể gồm người nghe hoặc không, tùy tình huống; chính từ này không buộc chọn một trong hai.",
-          "boundary": "Tiếng Việt thường phân biệt chúng tôi với chúng ta; 我们 có thể dùng cho cả hai. 咱们 thường dùng trong khẩu ngữ để nhấn nhóm gồm người nói và người nghe.",
-          "conditions": [
-            "Nhóm phải bao gồm người nói, không chỉ người nghe.",
-            "Muốn biết người nghe có thuộc nhóm không, xét việc đang làm và tình huống hoặc nói rõ thành viên."
-          ],
-          "takeaway": "Khi muốn nói về một nhóm có mình, trong tình huống đã rõ nhóm gồm ai, bạn có thể dùng 我们.",
-          "alternatives": [
-            {
-              "zh": "咱们一起去吧。",
-              "vi": "Chúng ta cùng đi nhé.",
-              "purpose": "咱们 bao gồm cả người nói và người nghe; 一起 là cùng nhau, 吧 tạo lời gợi ý."
-            }
-          ]
+          "scope": "我们 chỉ một nhóm có người nói. Tùy ngữ cảnh, nhóm có thể gồm người nghe (chúng ta) hoặc không gồm người nghe (chúng tôi)."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "我们是同事。",
+            "pinyin": "Wǒmen shì tóngshì.",
             "vi": "Chúng tôi là đồng nghiệp.",
-            "scene": "Hai người giới thiệu nhóm với một vị khách không cùng công ty.",
-            "why": "我们 gồm người nói và đồng nghiệp, không gồm vị khách trong tình huống này.",
-            "position": "我们 trước 是; 同事 nêu quan hệ nhóm.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Muốn giới thiệu nhóm mình là đồng nghiệp.",
-              "choice": "Chọn 我们 cho nhóm có mình và 是 để nối danh tính.",
-              "order": "Xếp nhóm, 是, rồi 同事.",
-              "result": "我们是同事。"
-            },
-            "id": "e01"
+            "analysis": "Trong tình huống giới thiệu với khách, nhóm có thể không gồm người nghe.",
+            "practiceAllowed": true
           },
           {
-            "zh": "我们是学生。",
-            "vi": "Chúng tôi là học sinh hoặc sinh viên.",
-            "scene": "Một nhóm người học giới thiệu với giáo viên.",
-            "why": "Thay danh tính nhưng vẫn là nhóm có người nói.",
-            "position": "学生 đứng sau 是.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
+            "id": "e2",
             "zh": "我们一起学习。",
+            "pinyin": "Wǒmen yìqǐ xuéxí.",
             "vi": "Chúng ta cùng học.",
-            "scene": "Bạn rủ người đang nói chuyện cùng học.",
-            "why": "Ở tình huống này 我们 bao gồm cả người nghe; 一起 cho biết cùng làm.",
-            "position": "一起 trước hành động 学习, sau 我们.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "我们不是老师。",
-            "vi": "Chúng tôi không phải là giáo viên.",
-            "scene": "Nhóm đính chính nghề với vị khách.",
-            "why": "不是 phủ định danh tính của nhóm.",
-            "position": "不 đứng trước 是; không đặt sau 我们 để phủ định riêng một thành viên.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "我们一起学习吗？",
-            "vi": "Chúng ta cùng học chứ?",
-            "scene": "Bạn hỏi người nghe có cùng học với mình không.",
-            "why": "吗 tạo câu hỏi xác nhận việc cùng học, không phải mệnh lệnh.",
-            "position": "Giữ 我们一起学习 rồi thêm 吗 ở cuối.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "Lời rủ này bao gồm người nghe.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Giới thiệu nhóm có mình là ai.",
-            "frame": "我们 + 是 + danh tính",
-            "position": "我们 đứng đầu làm chủ thể nhóm.",
-            "required": "Theo khung danh tính này giữ 是; danh tính phù hợp cả nhóm đang nêu.",
-            "omission": "Có thể nói 我们 khi trả lời ai là người học, nếu ngữ cảnh đã rõ.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi nhóm đồng nghiệp thành nhóm người học.",
-              "exampleId": "e02",
-              "limit": "Không dùng 我们 cho nhóm không có mình chỉ vì nhóm ấy đang nghe mình."
-            },
-            "caution": "Không tự dịch 我们 luôn thành chúng ta trong mọi câu.",
-            "collocations": [
-              {
-                "zh": "我们是同事",
-                "vi": "chúng tôi là đồng nghiệp",
-                "purpose": "Giới thiệu nhóm có người nói."
-              }
-            ],
-            "forms": [
-              {
-                "type": "Phủ định danh tính",
-                "exampleId": "e04",
-                "why": "不是 nói nhóm không thuộc danh tính ấy."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Nói cùng làm một việc với nhóm.",
-            "frame": "我们 + 一起 + hành động",
-            "position": "一起 đứng sau nhóm và trước hành động.",
-            "required": "一起 cần khi muốn nói rõ cùng làm trong khung này, không phải từ bắt buộc sau mọi 我们.",
-            "omission": "Bỏ 一起 thì 我们学习 chỉ nói nhóm học, không nhấn cùng học một lúc hoặc cùng nhau.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Chuyển lời rủ trong ngữ cảnh sang câu hỏi xác nhận bằng 吗.",
-              "exampleId": "e05",
-              "limit": "Không thêm 吗 nếu chỉ muốn kể một sự việc, vì nó đổi ý định thành hỏi."
-            },
-            "caution": "Nói rõ ai thuộc nhóm nếu kế hoạch dễ hiểu nhầm.",
+            "id": "main",
+            "title": "Nghĩa và cách dùng chính",
+            "when": "我们 chỉ một nhóm có người nói. Tùy ngữ cảnh, nhóm có thể gồm người nghe (chúng ta) hoặc không gồm người nghe (chúng tôi).",
+            "meaning": "chúng tôi / chúng ta",
+            "grammar": "我们 làm chủ ngữ số nhiều hoặc đứng sau động từ. Ngữ cảnh quyết định có bao gồm người nghe hay không.",
+            "pattern": "我们 + động từ；động từ + 我们",
             "collocations": [
               {
                 "zh": "我们一起学习",
-                "vi": "chúng ta cùng học",
-                "purpose": "Rủ hoặc nói hoạt động chung tùy ngữ điệu và ngữ cảnh."
-              }
-            ],
-            "forms": [
-              {
-                "type": "Câu hỏi",
-                "exampleId": "e05",
-                "why": "吗 ở cuối chuyển sang hỏi việc cùng học."
-              }
-            ],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "我们 không luôn loại người nghe ra ngoài",
-            "scene": "Bạn rủ chính người đối diện cùng học.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rằng 我们 chỉ được dịch là chúng tôi nên không thể gồm người nghe.",
-            "difference": "我们 có thể bao gồm người nghe khi ngữ cảnh cho thấy hoạt động chung. 咱们 thường nhấn nhóm gồm cả hai bên trong khẩu ngữ.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我们一起学习。",
-                "vi": "Chúng ta cùng học.",
-                "judgment": "correct",
-                "comment": "Ngữ cảnh lời rủ làm rõ nhóm gồm người nghe.",
-                "practiceAllowed": false
+                "pinyin": "wǒmen yìqǐ xuéxí",
+                "vi": "chúng ta cùng học"
               },
               {
-                "id": "case-2",
-                "zh": "咱们一起学习。",
-                "vi": "Chúng ta cùng học.",
-                "judgment": "correct",
-                "comment": "Cũng phù hợp lời rủ, dùng 咱们 để thể hiện nhóm chung.",
-                "practiceAllowed": false
+                "zh": "我们是同事",
+                "pinyin": "wǒmen shì tóngshì",
+                "vi": "chúng tôi là đồng nghiệp"
               }
             ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Trong lời rủ này, thay 我们 bằng 咱们 vẫn đúng và gần nghĩa; không phải cặp một đúng một sai."
-            },
-            "boundary": "Khi khách nói nhóm mình sẽ về còn chủ nhà ở lại, 我们 có thể chỉ nhóm khách; 咱们 sẽ gợi gồm cả chủ nhà và không hợp ý đó.",
-            "tip": "Nhóm có mình dùng 我们; muốn nhấn nhóm có cả người nghe trong khẩu ngữ có thể dùng 咱们.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "我们 và 你们 đổi vị trí của người nói trong nhóm",
-            "scene": "Bạn giới thiệu nhóm đồng nghiệp của chính mình.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rằng cả hai từ đều là các bạn nên thay được.",
-            "difference": "我们 gồm người nói; 你们 chỉ nhóm được nói trực tiếp và không gồm người đang nói trong cách dùng này.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
                 "zh": "我们是同事。",
+                "pinyin": "Wǒmen shì tóngshì.",
                 "vi": "Chúng tôi là đồng nghiệp.",
-                "judgment": "correct",
-                "comment": "Người nói thuộc nhóm.",
-                "practiceAllowed": false
+                "note": "Trong tình huống giới thiệu với khách, nhóm có thể không gồm người nghe."
               },
               {
-                "id": "case-2",
-                "zh": "你们是同事。",
-                "vi": "Các bạn là đồng nghiệp.",
-                "judgment": "different-meaning",
-                "comment": "Người nói nhận xét về nhóm người nghe.",
-                "practiceAllowed": false
+                "zh": "我们一起学习。",
+                "pinyin": "Wǒmen yìqǐ xuéxí.",
+                "vi": "Chúng ta cùng học.",
+                "note": "Lời rủ này bao gồm người nghe."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 我们 bằng 你们 đổi nhóm đang được nhắc; không chỉ đổi cách dịch cho lịch sự."
-            },
-            "boundary": "Cả hai nhóm có thể là đồng nghiệp trong một cơ quan, nhưng mỗi đại từ vẫn có điểm xuất phát khác nhau.",
-            "tip": "Nhóm có mình dùng 我们; nhóm người nghe dùng 你们.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
+            ]
           }
         ],
-        "pronunciation": {
-          "text": "我 mang thanh ba, 们 thường đọc thanh nhẹ trong 我们. Âm 们 vẫn phát ra, thường ngắn và nhẹ hơn; không bỏ âm và không cố đọc thành thanh một. Thanh nhẹ thay đổi theo âm đứng trước và nhịp câu."
-        },
-        "checks": [
+        "confusions": [
           {
-            "id": "check-01",
-            "question": "Bạn rủ người nghe cùng học. 我们 có thể gồm người nghe trong tình huống này không?",
-            "choices": [
-              "Có, dựa vào tình huống.",
-              "Không, luôn loại người nghe."
-            ]
+            "id": "contrast",
+            "afterSense": "main",
+            "title": "我们 và 咱们",
+            "explanation": "我们 có thể gồm hoặc không gồm người nghe. Trong khẩu ngữ miền Bắc, 咱们 thường nói rõ nhóm có cả người nghe.",
+            "contrasts": [
+              {
+                "zh": "我们是同事。",
+                "pinyin": "Wǒmen shì tóngshì.",
+                "vi": "Chúng tôi là đồng nghiệp.",
+                "note": "Có thể không gồm người nghe."
+              },
+              {
+                "zh": "咱们一起学习吧。",
+                "pinyin": "Zánmen yìqǐ xuéxí ba.",
+                "vi": "Chúng ta cùng học nhé.",
+                "note": "咱们 thường bao gồm người nghe."
+              }
+            ],
+            "tip": "Dùng ngữ cảnh để hiểu 我们; không máy móc dịch luôn là chúng tôi hoặc chúng ta."
+          }
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "level": "Cơ bản · chạm sắp xếp",
+            "type": "order",
+            "prompt": "Chạm các mảnh để tạo câu: Chúng tôi là đồng nghiệp.",
+            "tokens": [
+              "我们",
+              "是",
+              "同事",
+              "。"
+            ],
+            "accepted": [
+              "我们是同事。"
+            ],
+            "model": "我们是同事。",
+            "explanation": "Sắp xếp theo cấu trúc đã học.",
+            "wrongFeedback": "Kiểm tra lại vị trí chủ ngữ, động từ và thành phần cuối câu."
           },
           {
-            "id": "check-02",
-            "question": "Bạn thay mặt nhóm mình tự giới thiệu. Chọn đại từ.",
+            "id": "g2",
+            "level": "Vận dụng",
+            "type": "complete",
+            "prompt": "Viết câu: Chúng ta cùng học.",
+            "context": "Dùng 我们, 一起, 学习.",
+            "accepted": [
+              "我们一起学习。",
+              "我们一起学习"
+            ],
+            "model": "我们一起学习。",
+            "explanation": "一起 đứng sau chủ ngữ 我们 và trước động từ 学习.",
+            "wrongFeedback": "Đặt 我们 trước, rồi 一起 và động từ."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "contrast",
+            "type": "choice",
+            "prompt": "Bạn nói thay cho cả nhóm có mình. Chọn đại từ.",
             "choices": [
               "我们",
-              "你们"
+              "我"
+            ],
+            "correctIndex": 0,
+            "model": "我们",
+            "explanation": "Dùng ngữ cảnh để hiểu 我们; không máy móc dịch luôn là chúng tôi hoặc chúng ta.",
+            "wrongFeedback": "Đọc lại tình huống và điểm phân biệt ở bước Hiểu."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói một việc bạn và người khác cùng làm.",
+            "hints": [
+              "Chọn một ý thật phù hợp với tình huống.",
+              "Dùng 我们 + 一起 + động từ."
+            ],
+            "model": "我们是同事。",
+            "vi": "Chúng tôi là đồng nghiệp.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với ý muốn diễn đạt."
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 0,
-            "explanation": "我们 không cố định loại người nghe; lời rủ cho biết nhóm gồm cả hai."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhìn nghĩa, nhớ từ",
+            "cue": "chúng tôi / chúng ta",
+            "hiddenAnswer": "我们 — wǒmen",
+            "model": "我们是同事。",
+            "vi": "Chúng tôi là đồng nghiệp."
           },
-          "check-02": {
-            "correctIndex": 0,
-            "explanation": "Người nói nằm trong nhóm được giới thiệu."
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách dùng trong tình huống",
+            "cue": "Nói một việc bạn và người khác cùng làm.",
+            "hiddenAnswer": "Dùng 我们 + 一起 + động từ.",
+            "model": "我们是同事。",
+            "vi": "Chúng tôi là đồng nghiệp."
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": [
-          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
         ]
       }
     },
@@ -5158,65 +4545,30 @@
       "meaning": "các bạn",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 002",
       "examples": [
         {
+          "id": "e1",
           "zh": "你们好。",
+          "pinyin": "Nǐmen hǎo.",
           "vi": "Chào các bạn.",
-          "scene": "Bạn chào ba người vừa gặp.",
-          "why": "你们 hướng lời chào tới cả nhóm.",
-          "position": "你们 đứng trước 好; đây là lời chào cố định, không thêm 是.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Muốn chào cả nhóm đang ở trước mặt.",
-            "choice": "Chọn 你们 thay vì 你 vì có nhiều người nghe.",
-            "order": "Đặt nhóm người nghe rồi đến 好 trong lời chào.",
-            "result": "你们好。"
-          },
-          "id": "e01"
+          "analysis": "Lời chào hướng đến cả nhóm.",
+          "practiceAllowed": true
         },
         {
+          "id": "e2",
           "zh": "谢谢你们。",
+          "pinyin": "Xièxie nǐmen.",
           "vi": "Cảm ơn các bạn.",
-          "scene": "Bạn cảm ơn nhóm vừa giúp mình.",
-          "why": "你们 làm rõ nhiều người nhận lời cảm ơn.",
-          "position": "Đứng sau 谢谢, không đổi dạng vì làm người nhận.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "你们是老师吗？",
-          "vi": "Các bạn có phải là giáo viên không?",
-          "scene": "Bạn hỏi nghề của nhóm.",
-          "why": "你们 làm chủ thể số nhiều trong câu hỏi danh tính.",
-          "position": "是 trước 老师; 吗 cuối câu. 老师 không bắt buộc thêm 们.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "你们是学生吗？",
-          "vi": "Các bạn có phải là học sinh hoặc sinh viên không?",
-          "scene": "Bạn đổi câu hỏi sang vai trò người học.",
-          "why": "Vẫn cùng nhóm người nghe, chỉ đổi danh tính.",
-          "position": "学生 thay 老师 sau 是.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "你们不是老师。",
-          "vi": "Các bạn không phải là giáo viên.",
-          "scene": "Bạn đính chính một thông tin về nhóm.",
-          "why": "不是 phủ định danh tính.",
-          "position": "不 đặt trước 是, không thay hình thức của 你们.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "你们 đứng sau 谢谢.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn hỏi một nhóm người có cùng là học sinh không.",
       "when": "你们 chỉ nhiều người đang được nói chuyện trực tiếp với. Nhóm không gồm người nói.",
       "pattern": "你们 + 都 + 是 + danh tính + 吗",
       "trap": "Không thêm số lượng trực tiếp vào 你们 theo kiểu 三你们. Muốn nói ba người các bạn, có thể dùng 你们三个人.",
-      "task": "Chào một nhóm người bạn vừa gặp.",
+      "task": "Chào hoặc cảm ơn một nhóm người.",
       "model": "你们好。",
       "phrases": [
         "你们明天来吗？"
@@ -5260,242 +4612,165 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 7,
+        "difficulty": "easy",
+        "difficultyReason": "Một đại từ số nhiều có nghĩa rõ, tạo trực tiếp từ 你 + 们.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
+        ],
         "introduction": {
-          "partOfSpeech": "Đại từ chỉ nhóm người đang được nói chuyện trực tiếp.",
-          "scope": "Học cách nói với nhiều người; không dùng như số nhiều của mọi cách gọi kính trọng."
-        },
-        "meaning": {
-          "scene": "Bạn bước vào phòng có ba người và chào cả nhóm.",
-          "explanation": "你们 hướng lời nói đến nhóm có từ hai người trở lên. Tiếng Việt có thể nói các bạn, các anh chị hoặc các em tùy quan hệ; từ tiếng Trung không tự chỉ tuổi.",
-          "boundary": "你 chỉ một người nghe; 你们 chỉ nhóm người nghe. Nhóm có người nói dùng 我们. Trong lời chào trang trọng với cả nhóm, có thể dùng 各位 — quý vị.",
-          "conditions": [
-            "Nhóm đang được nói trực tiếp, không phải chỉ được kể cho người khác nghe.",
-            "Người nói không nằm trong nhóm mà 你们 chỉ trong tình huống cơ bản này."
-          ],
-          "takeaway": "Khi muốn nói trực tiếp với nhiều người, trong tình huống hướng lời đến cả nhóm, bạn có thể dùng 你们.",
-          "alternatives": [
-            {
-              "zh": "各位好。",
-              "vi": "Kính chào quý vị.",
-              "purpose": "各位 là cách gọi nhóm khi muốn thể hiện sự kính trọng, không phải tên riêng của nhóm."
-            }
-          ]
+          "scope": "你们 chỉ từ hai người nghe trở lên, tương ứng các bạn, các anh/chị hoặc mọi người tùy ngữ cảnh."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "你们好。",
+            "pinyin": "Nǐmen hǎo.",
             "vi": "Chào các bạn.",
-            "scene": "Bạn chào ba người vừa gặp.",
-            "why": "你们 hướng lời chào tới cả nhóm.",
-            "position": "你们 đứng trước 好; đây là lời chào cố định, không thêm 是.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Muốn chào cả nhóm đang ở trước mặt.",
-              "choice": "Chọn 你们 thay vì 你 vì có nhiều người nghe.",
-              "order": "Đặt nhóm người nghe rồi đến 好 trong lời chào.",
-              "result": "你们好。"
-            },
-            "id": "e01"
+            "analysis": "Lời chào hướng đến cả nhóm.",
+            "practiceAllowed": true
           },
           {
+            "id": "e2",
             "zh": "谢谢你们。",
+            "pinyin": "Xièxie nǐmen.",
             "vi": "Cảm ơn các bạn.",
-            "scene": "Bạn cảm ơn nhóm vừa giúp mình.",
-            "why": "你们 làm rõ nhiều người nhận lời cảm ơn.",
-            "position": "Đứng sau 谢谢, không đổi dạng vì làm người nhận.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "你们是老师吗？",
-            "vi": "Các bạn có phải là giáo viên không?",
-            "scene": "Bạn hỏi nghề của nhóm.",
-            "why": "你们 làm chủ thể số nhiều trong câu hỏi danh tính.",
-            "position": "是 trước 老师; 吗 cuối câu. 老师 không bắt buộc thêm 们.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "你们是学生吗？",
-            "vi": "Các bạn có phải là học sinh hoặc sinh viên không?",
-            "scene": "Bạn đổi câu hỏi sang vai trò người học.",
-            "why": "Vẫn cùng nhóm người nghe, chỉ đổi danh tính.",
-            "position": "学生 thay 老师 sau 是.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "你们不是老师。",
-            "vi": "Các bạn không phải là giáo viên.",
-            "scene": "Bạn đính chính một thông tin về nhóm.",
-            "why": "不是 phủ định danh tính.",
-            "position": "不 đặt trước 是, không thay hình thức của 你们.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "你们 đứng sau 谢谢.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Chào hoặc cảm ơn cả nhóm người nghe.",
-            "frame": "你们 + 好; 谢谢 + 你们",
-            "position": "Trong lời chào 你们 ở trước 好; khi cảm ơn nó đứng sau 谢谢.",
-            "required": "Giữ cả hai âm của 你们 để nêu nhóm, thay vì chỉ một người.",
-            "omission": "Có thể chỉ nói 谢谢 khi cả nhóm biết được cảm ơn; trong 你们好, bỏ 你们 chỉ còn 好 sẽ không giữ nguyên lời chào nhóm.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi ý định từ chào nhóm sang cảm ơn nhóm.",
-              "exampleId": "e02",
-              "limit": "Đổi cả khung khi đổi ý định, không chỉ chuyển vị trí chữ tùy ý."
-            },
-            "caution": "你们 không làm câu tự mất lịch sự; cách gọi phù hợp tùy quan hệ.",
+            "id": "main",
+            "title": "Nghĩa và cách dùng chính",
+            "when": "你们 chỉ từ hai người nghe trở lên, tương ứng các bạn, các anh/chị hoặc mọi người tùy ngữ cảnh.",
+            "meaning": "các bạn",
+            "grammar": "你们 đứng trước phần nói về nhóm người nghe hoặc sau động từ khi nhóm là đối tượng.",
+            "pattern": "你们 + động từ；động từ + 你们",
             "collocations": [
               {
                 "zh": "你们好",
-                "vi": "chào các bạn",
-                "purpose": "Mở lời với một nhóm."
+                "pinyin": "nǐmen hǎo",
+                "vi": "chào các bạn"
               },
               {
                 "zh": "谢谢你们",
-                "vi": "cảm ơn các bạn",
-                "purpose": "Cảm ơn nhiều người."
+                "pinyin": "xièxie nǐmen",
+                "vi": "cảm ơn các bạn"
               }
             ],
-            "forms": [],
-            "id": "u01"
-          },
-          {
-            "intent": "Hỏi danh tính của nhóm.",
-            "frame": "你们 + 是 + danh tính + 吗",
-            "position": "你们 trước 是; danh tính sau 是, 吗 cuối câu.",
-            "required": "是 và danh tính tạo phần nội dung; 吗 cần cho cách hỏi có phải đang học.",
-            "omission": "Nếu đã rõ nhóm nào, có thể hỏi 是老师吗; giữ 你们 giúp rõ đang hỏi cả nhóm.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Đổi nghề giáo viên thành vai trò người học.",
-              "exampleId": "e04",
-              "limit": "Nếu chỉ hỏi một thành viên thì dùng 你 hoặc gọi tên, không giữ 你们."
-            },
-            "caution": "Không nhân đôi 们 vì nhóm đông; 你们 đã chỉ nhóm.",
-            "collocations": [
+            "examples": [
               {
-                "zh": "你们是学生吗",
-                "vi": "các bạn có phải người học không",
-                "purpose": "Hỏi nhóm đang đối thoại."
-              }
-            ],
-            "forms": [
-              {
-                "type": "Phủ định danh tính",
-                "exampleId": "e05",
-                "why": "Dùng 不是 trong câu không phải; không dùng 没是."
-              }
-            ],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Nhầm nhóm người nghe với nhóm được kể tới",
-            "scene": "Bạn hỏi trực tiếp nhóm trước mặt có phải là giáo viên không.",
-            "possibleConfusion": "Bạn có thể dễ nhầm 你们 với 他们 vì đều chỉ nhiều người.",
-            "difference": "你们 hướng lời đến nhóm; 他们 chỉ một nhóm đang được nói về, thường là nam hoặc nhóm có cả nam và nữ trong cách viết cơ bản.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "你们是老师吗？",
-                "vi": "Các bạn có phải là giáo viên không?",
-                "judgment": "correct",
-                "comment": "Hỏi chính nhóm người nghe.",
-                "practiceAllowed": false
+                "zh": "你们好。",
+                "pinyin": "Nǐmen hǎo.",
+                "vi": "Chào các bạn.",
+                "note": "Lời chào hướng đến cả nhóm."
               },
               {
-                "id": "case-2",
-                "zh": "他们是老师吗？",
-                "vi": "Họ có phải là giáo viên không?",
-                "judgment": "different-meaning",
-                "comment": "Hỏi người nghe về một nhóm khác.",
-                "practiceAllowed": false
+                "zh": "谢谢你们。",
+                "pinyin": "Xièxie nǐmen.",
+                "vi": "Cảm ơn các bạn.",
+                "note": "你们 đứng sau 谢谢."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 你们 bằng 他们 đổi đối tượng của câu hỏi sang nhóm được kể tới."
-            },
-            "boundary": "Một nhóm có thể có mặt nhưng bạn đang quay sang hỏi người khác về họ; khi đó 他们 có thể hợp. Vai trò giao tiếp quan trọng hơn việc có mặt.",
-            "tip": "Nói với nhóm dùng 你们; kể về nhóm dùng 他们 trong ngữ cảnh đã nêu.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "你们 không bao gồm chính người đang phát biểu",
-            "scene": "Bạn giới thiệu cả nhóm mình với một vị khách.",
-            "possibleConfusion": "Bạn có thể dễ nhầm các bạn trong tiếng Việt thành 你们 ngay cả khi đang đại diện nhóm mình.",
-            "difference": "我们 gồm người nói; 你们 hướng đến nhóm người nghe.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我们是学生。",
-                "vi": "Chúng tôi là học sinh hoặc sinh viên.",
-                "judgment": "correct",
-                "comment": "Người phát biểu thuộc nhóm.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "你们是学生。",
-                "vi": "Các bạn là học sinh hoặc sinh viên.",
-                "judgment": "different-meaning",
-                "comment": "Câu đúng nhưng nhận xét về nhóm người nghe.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 我们 bằng 你们 đổi nhóm có người nói thành nhóm được người nói hướng lời tới."
-            },
-            "boundary": "Một người có thể nói 我们 trước rồi chuyển sang 你们 khi so sánh hai nhóm; mỗi lần phải xác định nhóm đang nhắc.",
-            "tip": "Nhóm có mình dùng 我们; nhóm các bạn đang nghe dùng 你们.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
-          }
-        ],
-        "pronunciation": {
-          "text": "你 mang thanh ba; 们 thường là thanh nhẹ, phát ngắn và nhẹ hơn nhưng vẫn có âm mũi cuối. Không đọc mất 们, vì như vậy dễ nghe thành chỉ một người. Không ép thanh nhẹ lên một cao độ cố định."
-        },
-        "checks": [
-          {
-            "id": "check-01",
-            "question": "Bạn hỏi thẳng cả nhóm đối diện. Chọn câu.",
-            "choices": [
-              "他们是老师吗？",
-              "你们是老师吗？"
             ]
-          },
+          }
+        ],
+        "confusions": [
           {
-            "id": "check-02",
-            "question": "Bạn thay mặt nhóm tự giới thiệu. Chọn đại từ.",
+            "id": "contrast",
+            "afterSense": "main",
+            "title": "你们 dành cho nhiều người nghe",
+            "explanation": "你 chỉ một người nghe; 你们 chỉ một nhóm người nghe.",
+            "contrasts": [
+              {
+                "zh": "你好。",
+                "pinyin": "Nǐ hǎo.",
+                "vi": "Chào bạn.",
+                "note": "Một người nghe."
+              },
+              {
+                "zh": "你们好。",
+                "pinyin": "Nǐmen hǎo.",
+                "vi": "Chào các bạn.",
+                "note": "Nhiều người nghe."
+              }
+            ],
+            "tip": "Có 们 là số nhiều; không dùng 你们 cho một người."
+          }
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "level": "Cơ bản · chạm sắp xếp",
+            "type": "order",
+            "prompt": "Chạm các mảnh để tạo câu: Chào các bạn.",
+            "tokens": [
+              "你们",
+              "好",
+              "。"
+            ],
+            "accepted": [
+              "你们好。"
+            ],
+            "model": "你们好。",
+            "explanation": "Sắp xếp theo cấu trúc đã học.",
+            "wrongFeedback": "Kiểm tra lại vị trí chủ ngữ, động từ và thành phần cuối câu."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "contrast",
+            "type": "choice",
+            "prompt": "Bạn chào ba người cùng lúc. Chọn đại từ.",
             "choices": [
               "你们",
-              "我们"
+              "你"
+            ],
+            "correctIndex": 0,
+            "model": "你们",
+            "explanation": "Có 们 là số nhiều; không dùng 你们 cho một người.",
+            "wrongFeedback": "Đọc lại tình huống và điểm phân biệt ở bước Hiểu."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Chào hoặc cảm ơn một nhóm người.",
+            "hints": [
+              "Chọn một ý thật phù hợp với tình huống.",
+              "Dùng 你们好 hoặc 谢谢你们。"
+            ],
+            "model": "你们好。",
+            "vi": "Chào các bạn.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với ý muốn diễn đạt."
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 1,
-            "explanation": "Nhóm đó là người nghe trực tiếp nên dùng 你们."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhìn nghĩa, nhớ từ",
+            "cue": "các bạn",
+            "hiddenAnswer": "你们 — nǐmen",
+            "model": "你们好。",
+            "vi": "Chào các bạn."
           },
-          "check-02": {
-            "correctIndex": 1,
-            "explanation": "Người phát biểu thuộc nhóm nên dùng 我们."
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách dùng trong tình huống",
+            "cue": "Chào hoặc cảm ơn một nhóm người.",
+            "hiddenAnswer": "Dùng 你们好 hoặc 谢谢你们。",
+            "model": "你们好。",
+            "vi": "Chào các bạn."
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": [
-          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
         ]
       }
     },
@@ -5512,65 +4787,30 @@
       "meaning": "chữ Hán",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 002",
       "examples": [
         {
+          "id": "e1",
           "zh": "我写汉字。",
+          "pinyin": "Wǒ xiě Hànzì.",
           "vi": "Tôi viết chữ Hán.",
-          "scene": "Bạn mô tả hoạt động luyện viết.",
-          "why": "汉字 là nội dung được viết.",
-          "position": "汉字 sau 写; nói chung nên không cần lượng từ.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Muốn nói mình viết chữ Hán.",
-            "choice": "Chọn 写 là viết, 汉字 là thứ được viết.",
-            "order": "Xếp người thực hiện 我, hành động 写, rồi 汉字.",
-            "result": "我写汉字。"
-          },
-          "id": "e01"
+          "analysis": "汉字 là nội dung được viết.",
+          "practiceAllowed": true
         },
         {
+          "id": "e2",
           "zh": "我写三个汉字。",
+          "pinyin": "Wǒ xiě sān ge Hànzì.",
           "vi": "Tôi viết ba chữ Hán.",
-          "scene": "Bạn nói số chữ trong một lượt luyện viết.",
-          "why": "三个 giới hạn số lượng chữ riêng lẻ.",
-          "position": "三 là số, 个 là lượng từ, cả cụm đứng trước 汉字.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "这个汉字很难。",
-          "vi": "Chữ Hán này khó.",
-          "scene": "Bạn chỉ một chữ đang học.",
-          "why": "这个 chọn một chữ cụ thể; 难 là khó.",
-          "position": "这 + 个 đứng trước 汉字; 很难 là phần nói tính chất, không cần 是.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "你认识这个汉字吗？",
-          "vi": "Bạn có biết chữ Hán này không?",
-          "scene": "Bạn hỏi người khác có nhận ra chữ trên trang.",
-          "why": "认识 ở đây là nhận biết mặt chữ, không chỉ quen một người.",
-          "position": "这个汉字 sau 认识; 吗 cuối câu.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "我不认识这个汉字。",
-          "vi": "Tôi không biết chữ Hán này.",
-          "scene": "Bạn nói mình không nhận ra chữ đang thấy.",
-          "why": "不认识 phủ định việc nhận biết hiện tại; không nói về số lần đã học.",
-          "position": "不 trước 认识, đối tượng 这个汉字 ở sau.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "Khi đếm từng chữ, dùng lượng từ 个.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn muốn hỏi cách viết một chữ trong lúc học tiếng Trung.",
       "when": "汉字 là chữ Hán, chỉ đơn vị chữ viết. Không dùng thay cho tên ngôn ngữ trong mọi tình huống.",
       "pattern": "写 + 汉字; 一个 + 汉字",
       "trap": "学汉字 nhấn mạnh học mặt chữ; 学汉语 nói học ngôn ngữ. Một từ có thể có nhiều chữ, nên số từ không bằng số chữ.",
-      "task": "Nói rằng bạn viết chữ Hán.",
+      "task": "Nói bạn học, viết hoặc nhận ra chữ Hán.",
       "model": "我写汉字。",
       "phrases": [
         "这个汉字怎么写？"
@@ -5614,251 +4854,167 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 8,
+        "difficulty": "easy",
+        "difficultyReason": "Một danh từ cụ thể, nghĩa rõ và kết hợp trực tiếp với các động từ cơ bản.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
+        ],
         "introduction": {
-          "partOfSpeech": "Danh từ chỉ chữ viết Hán.",
-          "scope": "Nghĩa trọng tâm là chữ Hán; phân biệt việc học ngôn ngữ với học mặt chữ."
-        },
-        "meaning": {
-          "scene": "Bạn biết nói một câu nhưng chưa viết được chữ trong câu đó và muốn học chữ viết.",
-          "explanation": "汉字 gọi những chữ viết như 人 hoặc 学. Nó nói về đơn vị và hệ chữ, không gọi toàn bộ việc nghe, nói và giao tiếp bằng tiếng Trung.",
-          "boundary": "中文 là tiếng Trung; 汉字 là chữ Hán. Học tiếng Trung có thể gồm học chữ, nhưng hai từ không thay nhau trong mọi câu. 一个汉字 là một chữ, không nhất thiết là một từ vựng.",
-          "conditions": [
-            "Khi đếm chữ riêng lẻ ở mức cơ bản, dùng số + 个 + 汉字.",
-            "Khi nói chung về chữ viết, không bắt buộc thêm số hoặc lượng từ."
-          ],
-          "takeaway": "Khi muốn nói về chữ viết Hán, trong tình huống học đọc hoặc viết mặt chữ, bạn có thể dùng 汉字.",
-          "alternatives": [
-            {
-              "zh": "我学习中文。",
-              "vi": "Tôi học tiếng Trung.",
-              "purpose": "中文 chỉ ngôn ngữ; 学习 là học. Câu rộng hơn việc chỉ học mặt chữ."
-            }
-          ]
+          "scope": "汉字 là chữ viết của tiếng Hán. Từ này có thể chỉ hệ thống chữ Hán nói chung hoặc các chữ cụ thể theo ngữ cảnh."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "我写汉字。",
+            "pinyin": "Wǒ xiě Hànzì.",
             "vi": "Tôi viết chữ Hán.",
-            "scene": "Bạn mô tả hoạt động luyện viết.",
-            "why": "汉字 là nội dung được viết.",
-            "position": "汉字 sau 写; nói chung nên không cần lượng từ.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Muốn nói mình viết chữ Hán.",
-              "choice": "Chọn 写 là viết, 汉字 là thứ được viết.",
-              "order": "Xếp người thực hiện 我, hành động 写, rồi 汉字.",
-              "result": "我写汉字。"
-            },
-            "id": "e01"
+            "analysis": "汉字 là nội dung được viết.",
+            "practiceAllowed": true
           },
           {
+            "id": "e2",
             "zh": "我写三个汉字。",
+            "pinyin": "Wǒ xiě sān ge Hànzì.",
             "vi": "Tôi viết ba chữ Hán.",
-            "scene": "Bạn nói số chữ trong một lượt luyện viết.",
-            "why": "三个 giới hạn số lượng chữ riêng lẻ.",
-            "position": "三 là số, 个 là lượng từ, cả cụm đứng trước 汉字.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "这个汉字很难。",
-            "vi": "Chữ Hán này khó.",
-            "scene": "Bạn chỉ một chữ đang học.",
-            "why": "这个 chọn một chữ cụ thể; 难 là khó.",
-            "position": "这 + 个 đứng trước 汉字; 很难 là phần nói tính chất, không cần 是.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "你认识这个汉字吗？",
-            "vi": "Bạn có biết chữ Hán này không?",
-            "scene": "Bạn hỏi người khác có nhận ra chữ trên trang.",
-            "why": "认识 ở đây là nhận biết mặt chữ, không chỉ quen một người.",
-            "position": "这个汉字 sau 认识; 吗 cuối câu.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "我不认识这个汉字。",
-            "vi": "Tôi không biết chữ Hán này.",
-            "scene": "Bạn nói mình không nhận ra chữ đang thấy.",
-            "why": "不认识 phủ định việc nhận biết hiện tại; không nói về số lần đã học.",
-            "position": "不 trước 认识, đối tượng 这个汉字 ở sau.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "Khi đếm từng chữ, dùng lượng từ 个.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Nói mình viết chữ hoặc viết bao nhiêu chữ.",
-            "frame": "Người viết + 写 + 汉字; người viết + 写 + số + 个 + 汉字",
-            "position": "汉字 là đối tượng sau 写; số và 个 đứng ngay trước danh từ.",
-            "required": "Khi đếm trong khung này cần lượng từ 个; nói chung 写汉字 không cần 个.",
-            "omission": "Có thể lược số lượng để chỉ hoạt động; bỏ cả đối tượng khi người nghe đã biết đang viết gì cũng có thể đủ trong hội thoại.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Thêm số lượng ba chữ vào câu.",
-              "exampleId": "e02",
-              "limit": "Đếm chữ viết, không tự coi ba chữ là ba từ vựng."
-            },
-            "caution": "Không thêm 们 vào 汉字 để biểu thị số nhiều.",
+            "id": "main",
+            "title": "Nghĩa và cách dùng chính",
+            "when": "汉字 là chữ viết của tiếng Hán. Từ này có thể chỉ hệ thống chữ Hán nói chung hoặc các chữ cụ thể theo ngữ cảnh.",
+            "meaning": "chữ Hán",
+            "grammar": "汉字 là danh từ, thường đứng sau động từ như 写 (viết), 学 (học), 认识 (biết/nhận ra).",
+            "pattern": "động từ + 汉字；số + 个 + 汉字",
             "collocations": [
               {
                 "zh": "写汉字",
-                "vi": "viết chữ Hán",
-                "purpose": "Nói hoạt động luyện chữ."
+                "pinyin": "xiě Hànzì",
+                "vi": "viết chữ Hán"
               },
-              {
-                "zh": "三个汉字",
-                "vi": "ba chữ Hán",
-                "purpose": "Đếm ba đơn vị chữ."
-              }
-            ],
-            "forms": [],
-            "id": "u01"
-          },
-          {
-            "intent": "Nhắc một chữ cụ thể và nói có nhận ra không.",
-            "frame": "这 + 个 + 汉字; người biết + 认识 + 这个汉字",
-            "position": "这个汉字 là cụm danh từ có thể làm chủ thể hoặc đối tượng.",
-            "required": "个 là lượng từ trong mẫu 这个汉字; 认识 nhận trực tiếp cả cụm.",
-            "omission": "Khi đang chỉ đúng chữ trên màn hình, có thể chỉ nói 这个, nghĩa là cái này; ngữ cảnh phải đủ rõ.",
-            "exampleId": "e04",
-            "transform": {
-              "change": "Chuyển câu hỏi thành lời mình chưa nhận ra chữ.",
-              "exampleId": "e05",
-              "limit": "Câu trả lời nói việc nhận biết, không tự suy ra người đó không học tiếng Trung."
-            },
-            "caution": "Nói tính chất dùng 这个汉字很难; 很 tạo cách kể mức độ thông thường ở đây, không phải từ bắt buộc sau mọi danh từ.",
-            "collocations": [
               {
                 "zh": "认识汉字",
-                "vi": "nhận biết chữ Hán",
-                "purpose": "Nói khả năng nhận ra mặt chữ."
-              },
-              {
-                "zh": "这个汉字",
-                "vi": "chữ Hán này",
-                "purpose": "Chỉ một chữ cụ thể."
+                "pinyin": "rènshi Hànzì",
+                "vi": "biết/nhận ra chữ Hán"
               }
             ],
-            "forms": [
+            "examples": [
               {
-                "type": "Phủ định nhận biết",
-                "exampleId": "e05",
-                "why": "不认识 nói không nhận ra; không đổi thành 没认识 như một lựa chọn tùy ý."
+                "zh": "我写汉字。",
+                "pinyin": "Wǒ xiě Hànzì.",
+                "vi": "Tôi viết chữ Hán.",
+                "note": "汉字 là nội dung được viết."
               },
               {
-                "type": "Nói tính chất",
-                "exampleId": "e03",
-                "why": "很难 nói khó; không thêm 是 theo mẫu câu danh tính."
+                "zh": "我写三个汉字。",
+                "pinyin": "Wǒ xiě sān ge Hànzì.",
+                "vi": "Tôi viết ba chữ Hán.",
+                "note": "Khi đếm từng chữ, dùng lượng từ 个."
               }
-            ],
-            "id": "u02"
+            ]
           }
         ],
-        "traps": [
+        "confusions": [
           {
-            "title": "Học chữ Hán không đồng nghĩa toàn bộ việc học tiếng Trung",
-            "scene": "Bạn muốn nhấn mình luyện chữ viết.",
-            "possibleConfusion": "Bạn có thể dễ nhầm 汉字 và 中文 vì cả hai liên quan tiếng Trung.",
-            "difference": "汉字 nói mặt chữ; 中文 nói ngôn ngữ gồm cả dùng để nghe, nói, đọc, viết.",
-            "cases": [
+            "id": "contrast",
+            "afterSense": "main",
+            "title": "Nói chung và đếm từng chữ",
+            "explanation": "Nói hoạt động chung có thể dùng 汉字 trực tiếp. Khi nêu số chữ cụ thể, đặt số và lượng từ 个 trước 汉字.",
+            "contrasts": [
               {
-                "id": "case-1",
-                "zh": "我学习汉字。",
-                "vi": "Tôi học chữ Hán.",
-                "judgment": "correct",
-                "comment": "Tập trung nội dung chữ viết.",
-                "practiceAllowed": false
+                "zh": "我写汉字。",
+                "pinyin": "Wǒ xiě Hànzì.",
+                "vi": "Tôi viết chữ Hán.",
+                "note": "Nói chung về hoạt động."
               },
               {
-                "id": "case-2",
-                "zh": "我学习中文。",
-                "vi": "Tôi học tiếng Trung.",
-                "judgment": "different-meaning",
-                "comment": "Phạm vi rộng hơn việc chỉ học mặt chữ.",
-                "practiceAllowed": false
+                "zh": "我写三个汉字。",
+                "pinyin": "Wǒ xiě sān ge Hànzì.",
+                "vi": "Tôi viết ba chữ Hán.",
+                "note": "Đếm ba chữ cụ thể."
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 汉字 bằng 中文 vẫn đúng, nhưng không giữ nguyên điểm nhấn chỉ chữ viết."
-            },
-            "boundary": "Người học 中文 có thể đồng thời học 汉字; hai câu có thể cùng đúng về một người, nhưng phạm vi không trùng hoàn toàn.",
-            "tip": "Muốn nhấn chữ viết dùng 汉字; muốn nói ngôn ngữ dùng 中文.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "Đếm chữ không phải lúc nào cũng là đếm từ",
-            "scene": "Bạn đếm hai chữ trong 学生.",
-            "possibleConfusion": "Bạn có thể dễ nhầm một 汉字 luôn bằng một từ tiếng Việt hoặc một từ vựng tiếng Trung.",
-            "difference": "汉字 đếm đơn vị chữ; 词 là từ. 学生 viết bằng hai chữ nhưng trong nghĩa người học là một từ.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "学生有两个汉字。",
-                "vi": "学生 có hai chữ Hán.",
-                "judgment": "correct",
-                "comment": "Đếm hai chữ 学 và 生.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "学生是一个词。",
-                "vi": "学生 là một từ.",
-                "judgment": "correct",
-                "comment": "词 chỉ đơn vị từ vựng, không phải số chữ.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 汉字 bằng 词 khi giữ số hai sẽ thành nói hai từ, không đúng ý đang đếm hai chữ của từ 学生."
-            },
-            "boundary": "Có từ chỉ gồm một chữ; khi đó số chữ và số từ có thể bằng nhau. Không suy thành mọi từ đều một chữ.",
-            "tip": "Đếm mặt chữ dùng 汉字; đếm mục từ hoặc đơn vị từ dùng 词.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
+            "tip": "Có số lượng cụ thể: số + 个 + 汉字."
           }
         ],
-        "pronunciation": {
-          "text": "汉 là thanh bốn, 字 cũng là thanh bốn. Khi nói liền, giữ hai âm gọn và rõ; đừng nuốt âm 字. Không có thanh nhẹ trong cách đọc cơ bản của từ này, nên không áp dụng quy tắc thanh nhẹ chỉ vì từ có hai chữ."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "check-01",
-            "question": "Bạn muốn nhấn việc học mặt chữ. Chọn đối tượng.",
-            "choices": [
+            "id": "g1",
+            "level": "Cơ bản · chạm sắp xếp",
+            "type": "order",
+            "prompt": "Chạm các mảnh để tạo câu: Tôi viết chữ Hán.",
+            "tokens": [
+              "我",
+              "写",
               "汉字",
-              "中文"
-            ]
-          },
+              "。"
+            ],
+            "accepted": [
+              "我写汉字。"
+            ],
+            "model": "我写汉字。",
+            "explanation": "Sắp xếp theo cấu trúc đã học.",
+            "wrongFeedback": "Kiểm tra lại vị trí chủ ngữ, động từ và thành phần cuối câu."
+          }
+        ],
+        "discriminationExercises": [
           {
-            "id": "check-02",
-            "question": "学生 là một từ viết bằng mấy chữ Hán?",
+            "id": "d1",
+            "trapId": "contrast",
+            "type": "choice",
+            "prompt": "Bạn chỉ nói chung rằng mình viết chữ Hán, không nêu số lượng. Chọn câu.",
             "choices": [
-              "Một chữ.",
-              "Hai chữ."
+              "我写汉字。",
+              "我写三个汉字。"
+            ],
+            "correctIndex": 0,
+            "model": "我写汉字。",
+            "explanation": "Có số lượng cụ thể: số + 个 + 汉字.",
+            "wrongFeedback": "Đọc lại tình huống và điểm phân biệt ở bước Hiểu."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn học, viết hoặc nhận ra chữ Hán.",
+            "hints": [
+              "Chọn một ý thật phù hợp với tình huống.",
+              "Dùng 我 + 学/写/认识 + 汉字。"
+            ],
+            "model": "我写汉字。",
+            "vi": "Tôi viết chữ Hán.",
+            "criteria": [
+              "Dùng đúng từ mục tiêu.",
+              "Câu phù hợp với ý muốn diễn đạt."
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 0,
-            "explanation": "汉字 gọi các chữ viết đang học."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhìn nghĩa, nhớ từ",
+            "cue": "chữ Hán",
+            "hiddenAnswer": "汉字 — hànzì",
+            "model": "我写汉字。",
+            "vi": "Tôi viết chữ Hán."
           },
-          "check-02": {
-            "correctIndex": 1,
-            "explanation": "Có 学 và 生: hai chữ, dù cả cụm là một từ."
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách dùng trong tình huống",
+            "cue": "Nói bạn học, viết hoặc nhận ra chữ Hán.",
+            "hiddenAnswer": "Dùng 我 + 学/写/认识 + 汉字。",
+            "model": "我写汉字。",
+            "vi": "Tôi viết chữ Hán."
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": []
+        ]
       }
     },
     {
