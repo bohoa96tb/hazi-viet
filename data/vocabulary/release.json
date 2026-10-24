@@ -1,12 +1,13 @@
 {
-  "version": "v2-batch-034",
-  "batch": "batch-034",
-  "baseCommit": "7451d48279b63dcb8ef7eeca6713877ccb317bf9",
-  "scopeCompleted": 478,
+  "version": "v2-batch-019",
+  "batch": "batch-019",
+  "contentCommit": "2adc40958ad8e6a81491e1001af2a73288a84699",
+  "scopeCompleted": 234,
   "scopeTotal": 2224,
   "courseTotal": 2234,
-  "ready": 488,
-  "courseSha256": "b9b1b7d6a1443929b9ad714a6a5c3737f6e6c997282950e4f272de234747367e",
+  "ready": 244,
+  "courseSha256": "4fe01a79aa5db07af87e2146b60fbb9634e361d5b12fbb11a3a53809f5896367",
+  "baseCommit": "6aec1d032b7035657abeff88130bdfc5a3bf8b42",
   "verification": {
     "schema": true,
     "protectedHashes": true,
@@ -14,7 +15,11 @@
     "visualBrowser": false,
     "androidPlayback": false,
     "independentTeacherReview": false,
-    "liveCourseVerified": false,
-    "note": "Apply/verify và DOM toàn bộ 6 route mới đạt; kiểm cache JS và diff. Chưa thử TTS thiết bị thật hoặc phản biện giáo viên độc lập. Trạng thái tại thời điểm tạo commit: chờ phát hành và xác minh Pages/live."
+    "visualScope": "process-batch apply/verify, verifyV2 cho 18 bài, validateCourse toàn khóa và test-dom.mjs đều đạt; hash 226 mục hoàn thành/bảo vệ giữ nguyên. GitHub Pages run 39891898334 thành công trên commit e0b99bb1ac6b4748ba1befd4c5e8a7f31e3267b2; tệp JSON live có SHA-256 4fe01a79aa5db07af87e2146b60fbb9634e361d5b12fbb11a3a53809f5896367, 3.815.776 bytes. Chưa xác minh bố cục trên thiết bị, TTS Android hoặc phản biện giáo viên độc lập.",
+    "liveCourseVerified": true,
+    "liveCourseSha256": "4fe01a79aa5db07af87e2146b60fbb9634e361d5b12fbb11a3a53809f5896367",
+    "liveCourseBytes": 3815776,
+    "verifiedPagesCommit": "e0b99bb1ac6b4748ba1befd4c5e8a7f31e3267b2",
+    "verifiedPagesRun": 39891898334
   }
 }

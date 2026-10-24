@@ -1,12 +1,3 @@
-# Batch-036 · đã phát hành và xác minh Pages
-
-Mục baseline 495–512: 下、两、低、克、卡、小、平、当、得、懂、成、掉、满、熟、省、短、表、该. Tiến độ 512/2.224, còn 1.712; toàn khóa đủ cấu trúc 522/2.234.
-
-- Commit nội dung [64104e8202989cd799755d45543ebe7d4bcff4fb](https://github.com/bohoa96tb/hazi-viet/commit/64104e8202989cd799755d45543ebe7d4bcff4fb) đã fast-forward đồng thời sang `content/vocabulary-2224` và `main`.
-- [GitHub Pages run 40048331939](https://github.com/bohoa96tb/hazi-viet/actions/runs/40048331939) hoàn tất thành công trên đúng SHA nội dung.
-- Dữ liệu khóa học live khớp từng byte với bản đã kiểm, SHA-256 `ba0b886851d47ad0b604647b71afea5933f171c19591cb94f656f6ead3b4572b`; đủ 18 ID mới, ordinal 495–512, `status=deep`, lesson V2. HTML live dùng cache `batch-036`.
-- `process-batch.mjs verify`, kiểm DOM trên toàn bộ bài mới, hồi quy V1/V2 và `git diff --check` đều đạt. Bộ test DOM được mở rộng để chuyển đúng cấp HSK khi batch mới bắt đầu HSK 2.
-- Chưa kiểm bố cục thiết bị, TTS Android/phát nền hoặc phản biện giáo viên độc lập.
 
 
 # Batch-019 · đã phát hành và xác minh Pages
