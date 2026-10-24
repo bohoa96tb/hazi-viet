@@ -5,7 +5,7 @@ import {auditLesson,lessonAudio} from '../../js/lesson-standard.js';
 const read=f=>JSON.parse(fs.readFileSync(new URL('../../'+f,import.meta.url),'utf8'));
 const course=read('data/vocabulary/hanzii-course.json');
 const checkpoint=read('tools/vocabulary/review-checkpoint.json');
-const batches=['review-001','review-002','review-003'].map(id=>read(`tools/vocabulary/reviews/${id}.json`));
+const batches=['review-001','review-002','review-003','review-004'].map(id=>read(`tools/vocabulary/reviews/${id}.json`));
 const entries=batches.flatMap(batch=>batch.entries);
 const byId=new Map(course.words.map(w=>[w.id,w]));
 const ready=course.words.filter(w=>auditLesson(w).ready);

@@ -21216,12 +21216,28 @@
                 "comment": "跟你 trước 说话 nêu người cùng nói.",
                 "judgment": "correct",
                 "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "我想话一句话。",
+                "vi": "Ý định: tôi muốn nói một câu.",
+                "comment": "话 là danh từ chỉ lời/nội dung, không thay động từ 说 trong khung này.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
               }
             ],
             "replacement": {
               "result": "wrong-grammar",
-              "explanation": "Trong khung 我想说一句话, không lấy danh từ 话 thay động từ 说. Giữ câu đúng 我想说一句话。 — Tôi muốn nói một câu. Muốn nêu người nghe, dùng 跟你说话."
+              "explanation": "Câu 我想话一句话 sai vì lấy danh từ 话 thay động từ 说. Sửa thành 我想说一句话。 — Tôi muốn nói một câu. Muốn nêu người nghe, dùng 跟你说话."
             },
+            "corrections": [
+              {
+                "caseId": "c3",
+                "zh": "我想说一句话。",
+                "vi": "Tôi muốn nói một câu.",
+                "reason": "Thêm động từ 说 trước 一句话; 话 chỉ nội dung/lời nói."
+              }
+            ],
             "boundary": "说中文 là nói tiếng Trung; 说话 không thay mọi cụm có 说. 说几句话 dùng khi muốn đếm số câu.",
             "tip": "说 là làm; 话 là lời. Với người trò chuyện: 跟你说话.",
             "id": "t1"
