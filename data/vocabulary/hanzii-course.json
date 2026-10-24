@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 488 mục đủ cấu trúc V1/V2; còn 1746. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 478 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 504 mục đủ cấu trúc V1/V2; còn 1730. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 494 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -104092,18 +104092,185 @@
       "intro": [
         {
           "pinyin": "yíkuàir",
-          "meaning": "cùng nhau",
-          "sourcePinyin": "yīkuàir"
+          "meaning": "cùng nhau"
         }
       ],
       "meaning": "cùng nhau",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我们一块儿去吃饭吧。",
+          "vi": "Chúng ta cùng đi ăn nhé.",
+          "analysis": "我们 là nhóm cùng tham gia; 一块儿 đứng trước 去吃饭.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我跟同学一块儿回学校。",
+          "vi": "Tôi cùng bạn học quay về trường.",
+          "analysis": "跟同学 nêu người đi cùng; 一块儿 bổ nghĩa cho 回学校.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 486,
       "meaningOrigin": "biên soạn bổ sung",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 479,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E4%B8%80%E5%9D%97%E5%84%BF"
+        ],
+        "introduction": {
+          "scope": "Dùng 一块儿 để nói hai hay nhiều người cùng thực hiện một việc."
+        },
+        "meaning": {
+          "scene": "Bạn rủ một người bạn cùng đi ăn.",
+          "explanation": "一块儿 là phó từ khẩu ngữ nghĩa là cùng nhau, thường đứng sau chủ ngữ và trước động từ. Người cùng tham gia có thể nằm trong chủ ngữ hoặc được nối bằng 跟.",
+          "boundary": "Trong bài này học nghĩa cùng nhau. 块 đứng riêng còn có thể là lượng từ cho miếng, cục hoặc đồng tiền; phải dựa vào vị trí và ngữ cảnh.",
+          "conditions": [
+            "Chủ thể phải gồm ít nhất hai người hoặc ngữ cảnh phải cho thấy có người cùng tham gia."
+          ],
+          "takeaway": "一块儿 là phó từ khẩu ngữ nghĩa là cùng nhau, thường đứng sau chủ ngữ và trước động từ. Người cùng tham gia có thể nằm trong chủ ngữ hoặc được nối bằng 跟."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ số nhiều + 一块儿 + động từ",
+            "position": "一块儿 đứng sau nhóm người và trước hành động chung.",
+            "required": "Cần một hành động mà các bên cùng tham gia.",
+            "omission": "Có thể bỏ chủ ngữ khi các bên đã rõ trong hội thoại.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "A + 跟 + B + 一块儿 + động từ",
+            "position": "跟 nối người A với người B; 一块儿 đặt trước động từ.",
+            "required": "B là người cùng thực hiện, không phải nơi chốn.",
+            "omission": "Có thể lược 一块儿 nếu 跟 đã đủ làm rõ, nhưng sắc thái “cùng nhau” bớt nổi bật.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们一块儿去吃饭吧。",
+            "vi": "Chúng ta cùng đi ăn nhé.",
+            "analysis": "我们 là nhóm cùng tham gia; 一块儿 đứng trước 去吃饭.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我跟同学一块儿回学校。",
+            "vi": "Tôi cùng bạn học quay về trường.",
+            "analysis": "跟同学 nêu người đi cùng; 一块儿 bổ nghĩa cho 回学校.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "一块儿 không phải lúc nào cũng là “một miếng”",
+            "scene": "Bạn gặp cùng chuỗi chữ trong câu nói về người hoặc đồ vật.",
+            "possibleConfusion": "Dịch máy móc thành “một miếng” sẽ làm sai câu có hành động chung.",
+            "difference": "Khi 一块儿 đứng trước động từ và chủ thể có nhiều người, nó thường là cùng nhau. Khi 一块 đứng trước danh từ, 块 có thể là lượng từ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们一块儿学习。",
+                "vi": "Chúng tôi cùng học.",
+                "comment": "一块儿 bổ nghĩa cho 学习.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我吃了一块蛋糕。",
+                "vi": "Tôi đã ăn một miếng bánh.",
+                "comment": "一块 bổ nghĩa cho 蛋糕; đây là lượng từ, không phải phó từ cùng nhau.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Bỏ 儿 và đổi vị trí có thể chuyển sang cấu trúc số + lượng từ."
+            },
+            "boundary": "Khẩu ngữ miền Bắc hay có 儿; 一起 là từ gần nghĩa phổ biến và dùng được rộng hơn.",
+            "tip": "Đứng trước hành động chung: nghĩ “cùng nhau”; đứng trước danh từ: kiểm tra nghĩa lượng từ."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 一块儿 để nói hai hay nhiều người cùng thực hiện một việc.",
+          "literalTranslation": "Trong bài này học nghĩa cùng nhau. 块 đứng riêng còn có thể là lượng từ cho miếng, cục hoặc đồng tiền; phải dựa vào vị trí và ngữ cảnh.",
+          "confusables": "Khi 一块儿 đứng trước động từ và chủ thể có nhiều người, nó thường là cùng nhau. Khi 一块 đứng trước danh từ, 块 có thể là lượng từ."
+        },
+        "pronunciation": {
+          "text": "Giới thiệu ghi cách đọc biến điệu yí trước âm tiết thanh bốn; 儿 nhập vào vần trước. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Chúng ta cùng đi nhé."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong 一块蛋糕, 块 có nghĩa “cùng nhau” hay là lượng từ?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我们一块儿走吧。"
+            ],
+            "explanation": "Đặt 一块儿 trước 走; 一起 cũng là cách nói tự nhiên gần nghĩa."
+          },
+          "q2": {
+            "accepted": [
+              "Là lượng từ."
+            ],
+            "explanation": "一块 đứng trước 蛋糕 để đếm một miếng bánh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Rủ bạn cùng học tiếng Trung."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể bạn đi xem phim cùng em gái."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu hai bên cùng làm việc gì.",
+            "frame": "我们 + 一块儿 + 学习汉语",
+            "model": "我们一块儿学习汉语吧。",
+            "vi": "Chúng ta cùng học tiếng Trung nhé.",
+            "criteria": [
+              "一块儿 đứng trước hành động.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 跟 để nêu người đi cùng.",
+            "frame": "我 + 跟妹妹 + 一块儿 + 去看电影",
+            "model": "我跟妹妹一块儿去看电影。",
+            "vi": "Tôi đi xem phim cùng em gái.",
+            "criteria": [
+              "跟妹妹 nêu người cùng tham gia.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-c96b2433111e",
@@ -104112,23 +104279,185 @@
       "intro": [
         {
           "pinyin": "yìdiǎnr",
-          "meaning": "một ít",
-          "sourcePinyin": "yīdiǎnr"
+          "meaning": "một ít; … hơn một chút"
         }
       ],
-      "meaning": "một ít",
-      "status": "example",
+      "meaning": "một ít; … hơn một chút",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-035 · phức tạp",
       "examples": [
         {
+          "id": "e1",
           "zh": "我想喝一点儿水。",
-          "vi": "Tôi muốn uống một ít nước."
+          "vi": "Tôi muốn uống một ít nước.",
+          "analysis": "一点儿 đứng trước 水 và chỉ lượng nước nhỏ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请说慢一点儿。",
+          "vi": "Xin hãy nói chậm hơn một chút.",
+          "analysis": "慢一点儿 là yêu cầu giảm tốc độ nói so với hiện tại.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 487,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 480,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E4%B8%80%E7%82%B9%E5%84%BF"
+        ],
+        "introduction": {
+          "scope": "Học hai cách thông dụng: 一点儿 + danh từ và tính từ + 一点儿."
+        },
+        "meaning": {
+          "scene": "Bạn muốn gọi một ít nước hoặc đề nghị ai nói chậm hơn một chút.",
+          "explanation": "一点儿 chỉ một lượng nhỏ. Sau tính từ, nó cho biết mức độ thay đổi một chút, thường xuất hiện trong yêu cầu hoặc so sánh ngầm.",
+          "boundary": "有点儿 thường đứng trước tính từ và hay nêu đánh giá không như ý; 一点儿 đứng sau tính từ khi muốn mức độ thay đổi.",
+          "conditions": [
+            "Trước danh từ, 一点儿 là lượng nhỏ; sau tính từ, nó bổ sung mức độ “một chút”."
+          ],
+          "takeaway": "一点儿 chỉ một lượng nhỏ. Sau tính từ, nó cho biết mức độ thay đổi một chút, thường xuất hiện trong yêu cầu hoặc so sánh ngầm."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "động từ + 一点儿 + danh từ",
+            "position": "一点儿 đứng giữa động từ và danh từ để chỉ lượng nhỏ.",
+            "required": "Danh từ có thể bỏ nếu người nghe biết đang nói đến thứ gì.",
+            "omission": "Có thể nói 喝一点儿 khi đồ uống đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "tính từ + 一点儿",
+            "position": "一点儿 đứng sau tính từ để yêu cầu hoặc mô tả mức độ hơn một chút.",
+            "required": "Cần ngữ cảnh có chuẩn so sánh hoặc mong muốn thay đổi.",
+            "omission": "Không bỏ tính từ vì sẽ mất hướng thay đổi.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我想喝一点儿水。",
+            "vi": "Tôi muốn uống một ít nước.",
+            "analysis": "一点儿 đứng trước 水 và chỉ lượng nước nhỏ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请说慢一点儿。",
+            "vi": "Xin hãy nói chậm hơn một chút.",
+            "analysis": "慢一点儿 là yêu cầu giảm tốc độ nói so với hiện tại.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "一点儿 và 有点儿 khác vị trí, sắc thái",
+            "scene": "Bạn muốn nói trời hơi lạnh hoặc muốn phòng ấm hơn một chút.",
+            "possibleConfusion": "Cả hai đều có thể dịch là “hơi/một chút”, nhưng không thay máy móc cho nhau.",
+            "difference": "有点儿 + tính từ thường nhận xét mức độ đang có, hay mang sắc thái không như ý. Tính từ + 一点儿 thường hướng tới thay đổi hoặc so sánh.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "今天有点儿冷。",
+                "vi": "Hôm nay hơi lạnh.",
+                "comment": "有点儿 đứng trước 冷 và nêu cảm nhận hiện tại.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "屋里暖和一点儿。",
+                "vi": "Trong phòng ấm hơn một chút.",
+                "comment": "一点儿 đứng sau 暖和 và nêu mức độ nhỉnh hơn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi vị trí làm đổi từ nhận xét hiện trạng sang mức độ so sánh hoặc mong muốn."
+            },
+            "boundary": "Với lượng nhỏ trước danh từ, dùng 一点儿; 有点儿 không làm lượng từ trước danh từ theo khung này.",
+            "tip": "Hiện trạng hơi không như ý: 有点儿 + tính từ. Muốn hơn một chút: tính từ + 一点儿."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Học hai cách thông dụng: 一点儿 + danh từ và tính từ + 一点儿.",
+          "literalTranslation": "有点儿 thường đứng trước tính từ và hay nêu đánh giá không như ý; 一点儿 đứng sau tính từ khi muốn mức độ thay đổi.",
+          "confusables": "有点儿 + tính từ thường nhận xét mức độ đang có, hay mang sắc thái không như ý. Tính từ + 一点儿 thường hướng tới thay đổi hoặc so sánh."
+        },
+        "pronunciation": {
+          "text": "Giới thiệu ghi yì theo biến điệu trước 点 thanh ba; 儿 nhập vào vần trước. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền từ thích hợp: 请说慢___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói: Tôi muốn mua một ít hoa quả."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "一点儿"
+            ],
+            "explanation": "Sau 慢 dùng 一点儿 để yêu cầu nói chậm hơn."
+          },
+          "q2": {
+            "accepted": [
+              "我想买一点儿水果。"
+            ],
+            "explanation": "一点儿 đứng trước danh từ 水果."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Gọi một ít trà."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhờ người khác viết chữ to hơn một chút."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu mong muốn rồi lượng nhỏ.",
+            "frame": "我想 + 喝 + 一点儿茶",
+            "model": "我想喝一点儿茶。",
+            "vi": "Tôi muốn uống một ít trà.",
+            "criteria": [
+              "一点儿 đứng trước 茶.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng tính từ rồi 一点儿.",
+            "frame": "请 + 写 + 大一点儿",
+            "model": "请写大一点儿。",
+            "vi": "Xin hãy viết to hơn một chút.",
+            "criteria": [
+              "大一点儿 nêu hướng thay đổi kích thước.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-94a9380b80dd",
@@ -104137,17 +104466,185 @@
       "intro": [
         {
           "pinyin": "nǚháir",
-          "meaning": "bé gái"
+          "meaning": "bé gái; cô gái trẻ"
         }
       ],
-      "meaning": "bé gái",
-      "status": "catalog",
+      "meaning": "bé gái; cô gái trẻ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "那个女孩儿在看书。",
+          "vi": "Bé gái kia đang đọc sách.",
+          "analysis": "那个 xác định người; 女孩儿 là chủ ngữ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "门口有一个女孩儿。",
+          "vi": "Ở cửa có một cô gái trẻ.",
+          "analysis": "一个女孩儿 là người được giới thiệu sau 有.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 489,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 481,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E5%A5%B3%E5%AD%A9%E5%84%BF"
+        ],
+        "introduction": {
+          "scope": "Dùng 女孩儿 để chỉ một bé gái hoặc cô gái trẻ, không biểu thị quan hệ gia đình."
+        },
+        "meaning": {
+          "scene": "Bạn chỉ một bé gái đang đọc sách.",
+          "explanation": "女孩儿 gọi một người nữ còn nhỏ hoặc còn trẻ. Từ này mô tả người, không cho biết cô ấy là con của ai.",
+          "boundary": "女儿 là con gái trong quan hệ với cha mẹ. Muốn nói “con gái tôi”, dùng 我女儿, không dùng 我的女孩儿 trong cách nói thông thường.",
+          "conditions": [
+            "Tuổi chính xác do ngữ cảnh quyết định; với phụ nữ trưởng thành nên chọn cách gọi phù hợp hơn."
+          ],
+          "takeaway": "女孩儿 gọi một người nữ còn nhỏ hoặc còn trẻ. Từ này mô tả người, không cho biết cô ấy là con của ai."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "(那个/一个) + 女孩儿",
+            "position": "Từ chỉ định hoặc số lượng đứng trước 女孩儿.",
+            "required": "Dùng 个 khi cần đếm.",
+            "omission": "Có thể bỏ từ chỉ định nếu người nghe biết người đang nói.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "女孩儿 + đang làm gì",
+            "position": "女孩儿 làm chủ ngữ đứng trước vị ngữ.",
+            "required": "Ngữ cảnh cho biết đó là người nào.",
+            "omission": "Có thể thêm 那个 để xác định rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "那个女孩儿在看书。",
+            "vi": "Bé gái kia đang đọc sách.",
+            "analysis": "那个 xác định người; 女孩儿 là chủ ngữ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "门口有一个女孩儿。",
+            "vi": "Ở cửa có một cô gái trẻ.",
+            "analysis": "一个女孩儿 là người được giới thiệu sau 有.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "女孩儿 không phải 女儿",
+            "scene": "Bạn muốn giới thiệu con gái của mình.",
+            "possibleConfusion": "Hai từ đều liên quan người nữ trẻ nhưng chỉ 女儿 biểu thị quan hệ con cái.",
+            "difference": "女孩儿 mô tả một bé/cô gái; 女儿 xác định người con gái của cha mẹ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "那个女孩儿是学生。",
+                "vi": "Cô gái kia là học sinh.",
+                "comment": "女孩儿 chỉ một cô gái.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我女儿是学生。",
+                "vi": "Con gái tôi là học sinh.",
+                "comment": "女儿 đứng sau 我 để nêu quan hệ gia đình.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 女儿 thành 女孩儿 làm mất nghĩa “con gái của tôi”."
+            },
+            "boundary": "Trong ngữ cảnh cụ thể, một người có thể vừa là 女孩儿 vừa là 女儿, nhưng hai từ chọn góc nhìn khác nhau.",
+            "tip": "Có cha mẹ/người sở hữu đứng trước: kiểm tra xem có cần 女儿."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 女孩儿 để chỉ một bé gái hoặc cô gái trẻ, không biểu thị quan hệ gia đình.",
+          "literalTranslation": "女儿 là con gái trong quan hệ với cha mẹ. Muốn nói “con gái tôi”, dùng 我女儿, không dùng 我的女孩儿 trong cách nói thông thường.",
+          "confusables": "女孩儿 mô tả một bé/cô gái; 女儿 xác định người con gái của cha mẹ."
+        },
+        "pronunciation": {
+          "text": "女 đọc thanh ba; 儿 nhập vào vần của 孩. Giữ âm ü của 女, không đọc thành âm u. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Bé gái kia đang uống nước."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói “con gái tôi”, chọn 我女儿 hay 我的女孩儿?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "那个女孩儿在喝水。"
+            ],
+            "explanation": "Dùng 那个女孩儿 làm chủ ngữ."
+          },
+          "q2": {
+            "accepted": [
+              "我女儿"
+            ],
+            "explanation": "女儿 biểu thị quan hệ con gái với cha mẹ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Mô tả một bé gái đang chơi ở công viên."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô gái ở cửa là bạn học của bạn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu người rồi hành động và nơi chốn.",
+            "frame": "一个女孩儿 + 在公园 + 玩儿",
+            "model": "一个女孩儿在公园玩儿。",
+            "vi": "Một bé gái đang chơi ở công viên.",
+            "criteria": [
+              "女孩儿 không mang nghĩa con gái của ai.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng cụm nơi chốn để xác định người.",
+            "frame": "门口的女孩儿 + 是 + 我同学",
+            "model": "门口的女孩儿是我同学。",
+            "vi": "Cô gái ở cửa là bạn học của tôi.",
+            "criteria": [
+              "的 nối 门口 với 女孩儿.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-341ca6659178",
@@ -104156,22 +104653,185 @@
       "intro": [
         {
           "pinyin": "hǎotīng",
-          "meaning": "hay"
+          "meaning": "hay, dễ nghe"
         }
       ],
-      "meaning": "hay",
-      "status": "example",
+      "meaning": "hay, dễ nghe",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
       "examples": [
         {
+          "id": "e1",
           "zh": "这首歌很好听。",
-          "vi": "Bài hát này nghe hay."
+          "vi": "Bài hát này rất hay.",
+          "analysis": "首 là lượng từ của bài hát; 好听 đánh giá âm thanh.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你的名字听起来很好听。",
+          "vi": "Tên của bạn nghe rất hay.",
+          "analysis": "听起来 cho biết đang đánh giá âm hưởng của tên.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 490,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 482,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E5%A5%BD%E5%90%AC"
+        ],
+        "introduction": {
+          "scope": "Dùng 好听 để khen thứ được nghe như bài hát, giọng nói hoặc tên gọi."
+        },
+        "meaning": {
+          "scene": "Bạn khen một bài hát nghe hay.",
+          "explanation": "好听 là dễ nghe, nghe hay. Chủ thể thường là âm thanh, giọng, bài hát, lời nói hoặc tên khi xét âm hưởng.",
+          "boundary": "好看 dùng cho thứ nhìn đẹp hoặc nội dung đáng xem/đọc; không dùng 好听 để khen màu sắc hay hình dáng.",
+          "conditions": [
+            "Đánh giá dựa trên điều tai nghe được; với lời nói, 好听 đôi khi chỉ lời nghe êm tai chứ chưa chắc đúng."
+          ],
+          "takeaway": "好听 là dễ nghe, nghe hay. Chủ thể thường là âm thanh, giọng, bài hát, lời nói hoặc tên khi xét âm hưởng."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "danh từ âm thanh + 很/真 + 好听",
+            "position": "好听 làm vị ngữ; 很 thường nối chủ ngữ với tính từ trong câu trung tính.",
+            "required": "Chủ thể phải là thứ có thể nghe hoặc tên được xét về âm thanh.",
+            "omission": "Có thể dùng 真 để cảm thán trực tiếp.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "…听起来 + 很 + 好听",
+            "position": "听起来 nêu ấn tượng khi nghe, rồi đến đánh giá 好听.",
+            "required": "Cần thứ tạo ra âm thanh hoặc lời nói.",
+            "omission": "Có thể bỏ 听起来 và nói trực tiếp nếu ngữ cảnh rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这首歌很好听。",
+            "vi": "Bài hát này rất hay.",
+            "analysis": "首 là lượng từ của bài hát; 好听 đánh giá âm thanh.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你的名字听起来很好听。",
+            "vi": "Tên của bạn nghe rất hay.",
+            "analysis": "听起来 cho biết đang đánh giá âm hưởng của tên.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Nghe hay dùng 好听, nhìn đẹp dùng 好看",
+            "scene": "Bạn muốn khen một bức tranh và một bài hát.",
+            "possibleConfusion": "Dịch chung là “đẹp/hay” dễ làm lẫn giác quan.",
+            "difference": "好听 hướng vào âm thanh; 好看 hướng vào hình ảnh hoặc thứ đáng xem.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这首歌很好听。",
+                "vi": "Bài hát này rất hay.",
+                "comment": "Dùng tai nghe bài hát.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这张照片很好看。",
+                "vi": "Tấm ảnh này rất đẹp.",
+                "comment": "Dùng mắt nhìn tấm ảnh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 好听 thành 好看 chuyển từ nghe sang nhìn/xem và thường không hợp với 歌 nếu đang khen giai điệu."
+            },
+            "boundary": "Một bộ phim có thể vừa 好看 vì nội dung/hình ảnh vừa có nhạc 好听; phải xác định đối tượng đánh giá.",
+            "tip": "Nghe → 好听; nhìn/xem → 好看."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 好听 để khen thứ được nghe như bài hát, giọng nói hoặc tên gọi.",
+          "literalTranslation": "好看 dùng cho thứ nhìn đẹp hoặc nội dung đáng xem/đọc; không dùng 好听 để khen màu sắc hay hình dáng.",
+          "confusables": "好听 hướng vào âm thanh; 好看 hướng vào hình ảnh hoặc thứ đáng xem."
+        },
+        "pronunciation": {
+          "text": "好 đọc thanh ba, 听 thanh một; giữ âm cuối mũi sau của 听. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Khen giọng của cô ấy nghe hay."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Một chiếc áo đẹp nên dùng 好听 hay 好看?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "她的声音很好听。"
+            ],
+            "explanation": "声音 là thứ nghe được nên dùng 好听."
+          },
+          "q2": {
+            "accepted": [
+              "好看"
+            ],
+            "explanation": "Áo được đánh giá bằng mắt, nên dùng 好看."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Khen bài hát này rất hay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Khen tên tiếng Trung của bạn mình nghe hay."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu bài hát rồi đánh giá.",
+            "frame": "这首歌 + 很 + 好听",
+            "model": "这首歌很好听。",
+            "vi": "Bài hát này rất hay.",
+            "criteria": [
+              "Dùng 首 làm lượng từ cho bài hát.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 听起来 để nêu ấn tượng.",
+            "frame": "你的中文名字 + 听起来 + 很好听",
+            "model": "你的中文名字听起来很好听。",
+            "vi": "Tên tiếng Trung của bạn nghe rất hay.",
+            "criteria": [
+              "好听 đánh giá âm hưởng tên.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-a43b25f0c825",
@@ -104180,23 +104840,185 @@
       "intro": [
         {
           "pinyin": "hǎowánr",
-          "meaning": "vui",
-          "sourcePinyin": "hǎo wánr"
+          "meaning": "vui, thú vị để chơi/trải nghiệm"
         }
       ],
-      "meaning": "vui",
-      "status": "example",
+      "meaning": "vui, thú vị để chơi/trải nghiệm",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
       "examples": [
         {
-          "zh": "这个地方很好玩儿。",
-          "vi": "Chỗ này chơi rất vui."
+          "id": "e1",
+          "zh": "这个游戏很好玩儿。",
+          "vi": "Trò chơi này rất vui.",
+          "analysis": "好玩儿 đánh giá trải nghiệm chơi 游戏.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "北京有什么好玩儿的？",
+          "vi": "Ở Bắc Kinh có gì vui để chơi hoặc trải nghiệm?",
+          "analysis": "好玩儿的 chỉ các nơi hay hoạt động thú vị trong ngữ cảnh du lịch.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 491,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 483,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E5%A5%BD%E7%8E%A9%E5%84%BF"
+        ],
+        "introduction": {
+          "scope": "Dùng 好玩儿 để nói một trò, nơi hoặc trải nghiệm vui và đáng tham gia."
+        },
+        "meaning": {
+          "scene": "Bạn kể công viên này có nhiều thứ vui để chơi.",
+          "explanation": "好玩儿 nghĩa là vui, thú vị khi chơi hoặc trải nghiệm. Từ này thường đánh giá trò chơi, hoạt động, đồ chơi và nơi có hoạt động thú vị.",
+          "boundary": "好看 đánh giá thứ nhìn đẹp hoặc đáng xem. 有意思 rộng hơn, có thể là thú vị về ý tưởng mà không nhất thiết vui để chơi.",
+          "conditions": [
+            "Chủ thể phải gợi một trải nghiệm hoặc hoạt động; không dùng để khen âm thanh."
+          ],
+          "takeaway": "好玩儿 nghĩa là vui, thú vị khi chơi hoặc trải nghiệm. Từ này thường đánh giá trò chơi, hoạt động, đồ chơi và nơi có hoạt động thú vị."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "trò/nơi/hoạt động + 很 + 好玩儿",
+            "position": "好玩儿 làm vị ngữ đánh giá trải nghiệm.",
+            "required": "Người nói đã hoặc có thể tham gia trải nghiệm đó.",
+            "omission": "Có thể dùng 真好玩儿 để cảm thán.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "…有什么好玩儿的？",
+            "position": "好玩儿的 danh từ hóa, chỉ những thứ hoặc hoạt động vui.",
+            "required": "的 thay cho danh từ đã hiểu theo ngữ cảnh.",
+            "omission": "Có thể thêm địa điểm ở đầu câu.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这个游戏很好玩儿。",
+            "vi": "Trò chơi này rất vui.",
+            "analysis": "好玩儿 đánh giá trải nghiệm chơi 游戏.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "北京有什么好玩儿的？",
+            "vi": "Ở Bắc Kinh có gì vui để chơi hoặc trải nghiệm?",
+            "analysis": "好玩儿的 chỉ các nơi hay hoạt động thú vị trong ngữ cảnh du lịch.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "好玩儿 khác 好看",
+            "scene": "Bạn nhận xét một trò chơi và hình thức của nó.",
+            "possibleConfusion": "Một thứ có thể nhìn đẹp nhưng chơi không vui, hoặc ngược lại.",
+            "difference": "好玩儿 đánh giá trải nghiệm chơi; 好看 đánh giá vẻ ngoài hay nội dung để xem.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个游戏很好玩儿。",
+                "vi": "Trò chơi này rất vui.",
+                "comment": "Nhấn vào trải nghiệm chơi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这个游戏的画面很好看。",
+                "vi": "Hình ảnh của trò chơi này đẹp.",
+                "comment": "好看 đánh giá phần hình ảnh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay từ làm đổi tiêu chí từ trải nghiệm sang thị giác."
+            },
+            "boundary": "Với phim hoặc sách, thường dùng 好看 hoặc 有意思; 好玩儿 phù hợp hơn khi có yếu tố chơi/trải nghiệm.",
+            "tip": "Hỏi “chơi có vui không?” → 好玩儿. Hỏi “nhìn/xem có hay không?” → 好看."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 好玩儿 để nói một trò, nơi hoặc trải nghiệm vui và đáng tham gia.",
+          "literalTranslation": "好看 đánh giá thứ nhìn đẹp hoặc đáng xem. 有意思 rộng hơn, có thể là thú vị về ý tưởng mà không nhất thiết vui để chơi.",
+          "confusables": "好玩儿 đánh giá trải nghiệm chơi; 好看 đánh giá vẻ ngoài hay nội dung để xem."
+        },
+        "pronunciation": {
+          "text": "好 thanh ba, 玩 thanh hai; 儿 nhập vào vần của 玩. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Trò này rất vui."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Khen hình ảnh đẹp của trò chơi thì dùng 好玩儿 hay 好看?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这个游戏很好玩儿。"
+            ],
+            "explanation": "好玩儿 đánh giá trải nghiệm chơi."
+          },
+          "q2": {
+            "accepted": [
+              "好看"
+            ],
+            "explanation": "Hình ảnh được đánh giá bằng thị giác."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Kể công viên này rất vui."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi Thượng Hải có gì vui."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu nơi rồi đánh giá trải nghiệm.",
+            "frame": "这个公园 + 很 + 好玩儿",
+            "model": "这个公园很好玩儿。",
+            "vi": "Công viên này rất vui.",
+            "criteria": [
+              "Ngữ cảnh hiểu là có hoạt động vui ở công viên.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 有什么好玩儿的.",
+            "frame": "上海 + 有什么 + 好玩儿的",
+            "model": "上海有什么好玩儿的？",
+            "vi": "Ở Thượng Hải có gì vui?",
+            "criteria": [
+              "的 thay cho nơi hoặc hoạt động vui.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-881f345b6126",
@@ -104205,22 +105027,185 @@
       "intro": [
         {
           "pinyin": "hǎokàn",
-          "meaning": "đẹp"
+          "meaning": "đẹp; hay, đáng xem/đọc"
         }
       ],
-      "meaning": "đẹp",
-      "status": "example",
+      "meaning": "đẹp; hay, đáng xem/đọc",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
       "examples": [
         {
+          "id": "e1",
           "zh": "这件衣服很好看。",
-          "vi": "Bộ quần áo này đẹp."
+          "vi": "Bộ quần áo này rất đẹp.",
+          "analysis": "件 là lượng từ; 好看 đánh giá vẻ ngoài.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这本书很好看。",
+          "vi": "Quyển sách này rất hay, đáng đọc.",
+          "analysis": "好看 ở đây đánh giá nội dung khi đọc, không chỉ bìa sách.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 492,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 484,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E5%A5%BD%E7%9C%8B"
+        ],
+        "introduction": {
+          "scope": "Dùng 好看 để khen vẻ ngoài hoặc nói phim, sách và chương trình đáng xem/đọc."
+        },
+        "meaning": {
+          "scene": "Bạn khen chiếc áo đẹp và bộ phim hay.",
+          "explanation": "好看 có thể là nhìn đẹp hoặc nội dung hấp dẫn, đáng xem. Với sách, 好看 thường nghĩa là đọc hay, cuốn hút.",
+          "boundary": "好听 dành cho âm thanh; 好玩儿 dành cho trải nghiệm vui khi chơi. 好看 không chỉ có nghĩa “đẹp người”.",
+          "conditions": [
+            "Đối tượng phải được đánh giá qua hình ảnh hoặc việc xem/đọc."
+          ],
+          "takeaway": "好看 có thể là nhìn đẹp hoặc nội dung hấp dẫn, đáng xem. Với sách, 好看 thường nghĩa là đọc hay, cuốn hút."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "đồ vật/người + 很 + 好看",
+            "position": "好看 làm vị ngữ chỉ vẻ ngoài đẹp.",
+            "required": "Ngữ cảnh tập trung vào hình dáng, màu sắc hoặc tổng thể nhìn thấy.",
+            "omission": "Có thể dùng 真好看 để cảm thán.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "phim/sách/chương trình + 很 + 好看",
+            "position": "好看 làm vị ngữ nghĩa là nội dung hay, đáng xem hoặc đọc.",
+            "required": "Đối tượng là nội dung người ta xem hoặc đọc.",
+            "omission": "Có thể thêm 但是… để nêu đánh giá đối lập.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这件衣服很好看。",
+            "vi": "Bộ quần áo này rất đẹp.",
+            "analysis": "件 là lượng từ; 好看 đánh giá vẻ ngoài.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这本书很好看。",
+            "vi": "Quyển sách này rất hay, đáng đọc.",
+            "analysis": "好看 ở đây đánh giá nội dung khi đọc, không chỉ bìa sách.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "好看 không chỉ là “trông đẹp”",
+            "scene": "Bạn nghe ai khen một quyển sách 好看.",
+            "possibleConfusion": "Nếu chỉ hiểu vẻ ngoài, bạn có thể tưởng người nói đang khen bìa sách.",
+            "difference": "Với phim, sách hoặc chương trình, 好看 thường nghĩa là nội dung hay, cuốn hút.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这件衣服很好看。",
+                "vi": "Bộ quần áo này rất đẹp.",
+                "comment": "Đánh giá vẻ ngoài.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这部电影很好看。",
+                "vi": "Bộ phim này rất hay.",
+                "comment": "Đánh giá trải nghiệm xem nội dung.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "context-needed",
+              "explanation": "Phải nhìn danh từ và ngữ cảnh để biết 好看 là đẹp về hình thức hay hay về nội dung."
+            },
+            "boundary": "Khi nói rõ 封面很好看, người nói khen bìa; khi nói 书很好看, cách hiểu thường là sách hay.",
+            "tip": "Đồ vật: thường “đẹp”. Phim/sách: thường “hay, đáng xem/đọc”."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 好看 để khen vẻ ngoài hoặc nói phim, sách và chương trình đáng xem/đọc.",
+          "literalTranslation": "好听 dành cho âm thanh; 好玩儿 dành cho trải nghiệm vui khi chơi. 好看 không chỉ có nghĩa “đẹp người”.",
+          "confusables": "Với phim, sách hoặc chương trình, 好看 thường nghĩa là nội dung hay, cuốn hút."
+        },
+        "pronunciation": {
+          "text": "好 thanh ba, 看 thanh bốn; đọc rõ âm cuối n của 看. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Bộ phim này rất hay."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong 这本书很好看, 好看 thường khen bìa hay nội dung?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这部电影很好看。"
+            ],
+            "explanation": "Dùng 部 cho phim; 好看 nghĩa là đáng xem."
+          },
+          "q2": {
+            "accepted": [
+              "Nội dung."
+            ],
+            "explanation": "Nếu muốn khen bìa, nói rõ 这本书的封面很好看."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Khen chiếc váy này đẹp."
+          },
+          {
+            "id": "s2",
+            "prompt": "Giới thiệu một chương trình rất hay."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu đồ vật rồi 好看.",
+            "frame": "这条裙子 + 很 + 好看",
+            "model": "这条裙子很好看。",
+            "vi": "Chiếc váy này rất đẹp.",
+            "criteria": [
+              "好看 đánh giá vẻ ngoài.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 好看 theo nghĩa đáng xem.",
+            "frame": "这个节目 + 很 + 好看",
+            "model": "这个节目很好看。",
+            "vi": "Chương trình này rất hay.",
+            "criteria": [
+              "Chủ thể là nội dung để xem.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-1fe9f5395906",
@@ -104229,17 +105214,185 @@
       "intro": [
         {
           "pinyin": "xiǎoháir",
-          "meaning": "trẻ em"
+          "meaning": "trẻ em, đứa trẻ"
         }
       ],
-      "meaning": "trẻ em",
-      "status": "catalog",
+      "meaning": "trẻ em, đứa trẻ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "门口有两个小孩儿。",
+          "vi": "Ở cửa có hai đứa trẻ.",
+          "analysis": "两个 nêu rõ số lượng; 小孩儿 là người được giới thiệu.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "小孩儿喜欢玩儿。",
+          "vi": "Trẻ em thích chơi.",
+          "analysis": "Không có số lượng cụ thể nên câu nói khái quát về trẻ em.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 494,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 485,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E5%B0%8F%E5%AD%A9%E5%84%BF"
+        ],
+        "introduction": {
+          "scope": "Dùng 小孩儿 để nói về một đứa trẻ hoặc trẻ em nói chung."
+        },
+        "meaning": {
+          "scene": "Bạn nói trẻ em đang chơi ở sân.",
+          "explanation": "小孩儿 là đứa trẻ, trẻ em. Số lượng do từ đi kèm hoặc ngữ cảnh cho biết; bản thân từ không đánh dấu số nhiều.",
+          "boundary": "小朋友 thường là cách gọi thân thiện, lịch sự với trẻ nhỏ. 小孩儿 là danh từ mô tả và có thể nghe thẳng hơn khi gọi trực tiếp một em nhỏ.",
+          "conditions": [
+            "Khi cần đếm, dùng 个: 一个小孩儿、两个小孩儿."
+          ],
+          "takeaway": "小孩儿 là đứa trẻ, trẻ em. Số lượng do từ đi kèm hoặc ngữ cảnh cho biết; bản thân từ không đánh dấu số nhiều."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "số + 个 + 小孩儿",
+            "position": "个 đứng trước 小孩儿 khi đếm.",
+            "required": "Cần số hoặc từ chỉ lượng nếu muốn nói rõ bao nhiêu trẻ.",
+            "omission": "Có thể bỏ số lượng khi chỉ nói chung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "小孩儿 + vị ngữ",
+            "position": "小孩儿 làm chủ ngữ, số ít hay số nhiều do ngữ cảnh.",
+            "required": "Vị ngữ cho biết hành động hoặc đặc điểm.",
+            "omission": "Có thể thêm 这些 để nói rõ số nhiều.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "门口有两个小孩儿。",
+            "vi": "Ở cửa có hai đứa trẻ.",
+            "analysis": "两个 nêu rõ số lượng; 小孩儿 là người được giới thiệu.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "小孩儿喜欢玩儿。",
+            "vi": "Trẻ em thích chơi.",
+            "analysis": "Không có số lượng cụ thể nên câu nói khái quát về trẻ em.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Nói về trẻ và gọi trẻ không hoàn toàn giống nhau",
+            "scene": "Bạn muốn hỏi trực tiếp một em nhỏ tên gì.",
+            "possibleConfusion": "Dùng 小孩儿 để mô tả là bình thường, nhưng gọi trực tiếp 小朋友 thường thân thiện hơn.",
+            "difference": "小孩儿 là danh từ “đứa trẻ”; 小朋友 vừa chỉ trẻ nhỏ vừa thường dùng để xưng gọi.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "那个小孩儿在等妈妈。",
+                "vi": "Đứa trẻ kia đang đợi mẹ.",
+                "comment": "Mô tả một đứa trẻ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "小朋友，你叫什么名字？",
+                "vi": "Cháu nhỏ, cháu tên là gì?",
+                "comment": "小朋友 là lời gọi thân thiện.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay trong câu gọi trực tiếp có thể làm sắc thái kém thân thiện dù người nghe vẫn hiểu."
+            },
+            "boundary": "Trong lời kể, 小孩儿 và 小朋友 có vùng giao nhau; chọn theo sắc thái và quan hệ.",
+            "tip": "Mô tả: 小孩儿. Gọi thân thiện: 小朋友."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 小孩儿 để nói về một đứa trẻ hoặc trẻ em nói chung.",
+          "literalTranslation": "小朋友 thường là cách gọi thân thiện, lịch sự với trẻ nhỏ. 小孩儿 là danh từ mô tả và có thể nghe thẳng hơn khi gọi trực tiếp một em nhỏ.",
+          "confusables": "小孩儿 là danh từ “đứa trẻ”; 小朋友 vừa chỉ trẻ nhỏ vừa thường dùng để xưng gọi."
+        },
+        "pronunciation": {
+          "text": "小 thanh ba; 儿 nhập vào vần của 孩. Đọc rõ âm đầu x của 小, không đọc thành s. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Ở công viên có ba đứa trẻ."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Khi gọi trực tiếp một em nhỏ, 小朋友 hay 小孩儿 thường thân thiện hơn?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "公园里有三个小孩儿。"
+            ],
+            "explanation": "Dùng 三个 trước 小孩儿."
+          },
+          "q2": {
+            "accepted": [
+              "小朋友"
+            ],
+            "explanation": "小朋友 thường dùng làm lời xưng gọi lịch sự với trẻ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Kể một đứa trẻ đang đợi bố."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói trẻ em thích chơi ở đây."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 一个小孩儿 làm chủ ngữ.",
+            "frame": "一个小孩儿 + 在等 + 爸爸",
+            "model": "一个小孩儿在等爸爸。",
+            "vi": "Một đứa trẻ đang đợi bố.",
+            "criteria": [
+              "个 là lượng từ.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 小孩儿 theo nghĩa khái quát.",
+            "frame": "小孩儿 + 喜欢 + 在这里玩儿",
+            "model": "小孩儿喜欢在这里玩儿。",
+            "vi": "Trẻ em thích chơi ở đây.",
+            "criteria": [
+              "Không cần đánh dấu số nhiều riêng.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-af7ba840a323",
@@ -104248,22 +105401,185 @@
       "intro": [
         {
           "pinyin": "xiǎopéngyǒu",
-          "meaning": "trẻ nhỏ"
+          "meaning": "trẻ nhỏ; cách gọi thân thiện với trẻ"
         }
       ],
-      "meaning": "trẻ nhỏ",
-      "status": "example",
+      "meaning": "trẻ nhỏ; cách gọi thân thiện với trẻ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
       "examples": [
         {
-          "zh": "小朋友，你叫什么名字？",
-          "vi": "Cháu bé, cháu tên là gì?"
+          "id": "e1",
+          "zh": "那个小朋友很可爱。",
+          "vi": "Em nhỏ kia rất đáng yêu.",
+          "analysis": "那个 xác định em nhỏ đang được nói tới.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "小朋友们，请进来。",
+          "vi": "Các em, mời vào.",
+          "analysis": "小朋友们 là lời gọi cả nhóm; 请进来 là lời mời.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 495,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 486,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E5%B0%8F%E6%9C%8B%E5%8F%8B"
+        ],
+        "introduction": {
+          "scope": "Dùng 小朋友 để chỉ hoặc gọi thân thiện một em nhỏ."
+        },
+        "meaning": {
+          "scene": "Giáo viên gọi các em nhỏ vào lớp.",
+          "explanation": "小朋友 thường chỉ trẻ nhỏ và là cách người lớn gọi trẻ một cách thân thiện. Trong số nhiều, có thể thêm 们 khi xưng gọi cả nhóm.",
+          "boundary": "朋友 là bạn bè nói chung. 小朋友 thường không có nghĩa là một người bạn có vóc dáng nhỏ.",
+          "conditions": [
+            "Khi xưng gọi trực tiếp, có thể đặt 小朋友 ở đầu câu và ngăn bằng dấu phẩy."
+          ],
+          "takeaway": "小朋友 thường chỉ trẻ nhỏ và là cách người lớn gọi trẻ một cách thân thiện. Trong số nhiều, có thể thêm 们 khi xưng gọi cả nhóm."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "(一个/那个) + 小朋友",
+            "position": "小朋友 là danh từ chỉ một em nhỏ.",
+            "required": "Dùng 个 khi cần đếm.",
+            "omission": "Có thể bỏ từ chỉ định nếu người nghe biết em nào.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "小朋友(们)，+ lời nói",
+            "position": "小朋友 hoặc 小朋友们 đứng đầu làm lời gọi.",
+            "required": "们 dùng khi gọi rõ một nhóm; không bắt buộc nếu ngữ cảnh tập thể đã rõ.",
+            "omission": "Có thể lược lời gọi nếu đang trực tiếp trò chuyện.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "那个小朋友很可爱。",
+            "vi": "Em nhỏ kia rất đáng yêu.",
+            "analysis": "那个 xác định em nhỏ đang được nói tới.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "小朋友们，请进来。",
+            "vi": "Các em, mời vào.",
+            "analysis": "小朋友们 là lời gọi cả nhóm; 请进来 là lời mời.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "小朋友 không phải “người bạn nhỏ con”",
+            "scene": "Bạn nghe người lớn nói về một em nhỏ không quen biết.",
+            "possibleConfusion": "Tách 小 + 朋友 dễ khiến người học hiểu là người bạn có kích thước nhỏ.",
+            "difference": "Toàn từ 小朋友 thường chỉ trẻ nhỏ; 朋友 mới là bạn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这是我的朋友。",
+                "vi": "Đây là bạn của tôi.",
+                "comment": "朋友 nêu quan hệ bạn bè.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这个小朋友五岁。",
+                "vi": "Em nhỏ này năm tuổi.",
+                "comment": "小朋友 chỉ một trẻ nhỏ, không cần là bạn của người nói.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 小朋友 bằng 朋友 chuyển từ độ tuổi/sắc thái gọi trẻ sang quan hệ bạn bè."
+            },
+            "boundary": "Một trẻ nhỏ vẫn có thể là bạn, nhưng từ dùng theo hai tiêu chí khác nhau.",
+            "tip": "Thấy tuổi nhỏ hoặc lời gọi của người lớn: nghĩ đến “em nhỏ”."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 小朋友 để chỉ hoặc gọi thân thiện một em nhỏ.",
+          "literalTranslation": "朋友 là bạn bè nói chung. 小朋友 thường không có nghĩa là một người bạn có vóc dáng nhỏ.",
+          "confusables": "Toàn từ 小朋友 thường chỉ trẻ nhỏ; 朋友 mới là bạn."
+        },
+        "pronunciation": {
+            "text": "小 thanh ba, 朋 thanh hai, 友 thanh ba; đọc liền ba âm tiết và giữ thanh nhẹ nếu người bản ngữ đọc 友 nhẹ trong lời gọi tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Gọi một nhóm trẻ: Các em, mời ngồi."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "小朋友 có nhất thiết là bạn của người nói không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "小朋友们，请坐。"
+            ],
+            "explanation": "小朋友们 là lời gọi nhóm trẻ."
+          },
+          "q2": {
+            "accepted": [
+              "Không."
+            ],
+            "explanation": "Từ này thường chỉ hoặc gọi một em nhỏ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Khen em nhỏ kia rất ngoan."
+          },
+          {
+            "id": "s2",
+            "prompt": "Mời các em uống nước."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 那个小朋友 làm chủ ngữ.",
+            "frame": "那个小朋友 + 很 + 听话",
+            "model": "那个小朋友很听话。",
+            "vi": "Em nhỏ kia rất ngoan, biết nghe lời.",
+            "criteria": [
+              "小朋友 chỉ em nhỏ, không nói quan hệ bạn bè.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Gọi nhóm rồi đưa lời mời.",
+            "frame": "小朋友们，+ 请 + 喝水",
+            "model": "小朋友们，请喝水。",
+            "vi": "Các em, mời uống nước.",
+            "criteria": [
+              "Dấu phẩy tách lời gọi với câu.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-74b2bd2425de",
@@ -104272,112 +105588,1130 @@
       "intro": [
         {
           "pinyin": "chángcháng",
-          "meaning": "thường xuyên"
+          "meaning": "thường xuyên, thường"
         }
       ],
-      "meaning": "thường xuyên",
-      "status": "catalog",
+      "meaning": "thường xuyên, thường",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我常常给妈妈打电话。",
+          "vi": "Tôi thường gọi điện cho mẹ.",
+          "analysis": "常常 đứng trước cụm động từ 给妈妈打电话.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "周末我们常常在家做饭。",
+          "vi": "Cuối tuần chúng tôi thường nấu ăn ở nhà.",
+          "analysis": "周末 nêu thời gian; 常常 đứng trước 在家做饭.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 496,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 487,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E5%B8%B8%E5%B8%B8"
+        ],
+        "introduction": {
+          "scope": "Dùng 常常 để nói một hành động xảy ra nhiều lần, khá thường xuyên."
+        },
+        "meaning": {
+          "scene": "Bạn kể cuối tuần mình thường gọi điện cho bố mẹ.",
+          "explanation": "常常 là phó từ tần suất, đứng trước động từ hoặc cụm động từ. Nó nói việc xảy ra thường xuyên, không khẳng định lần nào cũng xảy ra.",
+          "boundary": "有时候 là đôi khi, tần suất thấp hơn. 总是 là luôn luôn hoặc rất thường xuyên và có thể mang sắc thái phàn nàn tùy ngữ cảnh.",
+          "conditions": [
+            "Nếu có thời gian hoặc nơi chốn, 常常 thường đứng sau chủ ngữ và trước động từ chính."
+          ],
+          "takeaway": "常常 là phó từ tần suất, đứng trước động từ hoặc cụm động từ. Nó nói việc xảy ra thường xuyên, không khẳng định lần nào cũng xảy ra."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ ngữ + 常常 + động từ",
+            "position": "常常 đứng ngay trước hành động lặp lại.",
+            "required": "Hành động phải có khả năng xảy ra nhiều lần.",
+            "omission": "Có thể lược chủ ngữ khi đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ ngữ + thời gian/nơi chốn + 常常 + động từ",
+            "position": "Cụm bối cảnh thường đứng trước 常常; 常常 vẫn sát động từ.",
+            "required": "Trật tự có thể thay đổi theo trọng tâm, nhưng không đặt 常常 sau tân ngữ.",
+            "omission": "Có thể bỏ bối cảnh nếu không cần.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我常常给妈妈打电话。",
+            "vi": "Tôi thường gọi điện cho mẹ.",
+            "analysis": "常常 đứng trước cụm động từ 给妈妈打电话.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "周末我们常常在家做饭。",
+            "vi": "Cuối tuần chúng tôi thường nấu ăn ở nhà.",
+            "analysis": "周末 nêu thời gian; 常常 đứng trước 在家做饭.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "常常 không phải 有时候",
+            "scene": "Bạn muốn nói việc xảy ra thường xuyên hay chỉ thỉnh thoảng.",
+            "possibleConfusion": "Cả hai đều nói tần suất không tuyệt đối nhưng mức độ khác nhau.",
+            "difference": "常常 là thường xuyên; 有时候 là đôi khi và thường đặt trước cả mệnh đề hoặc trước động từ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我常常坐地铁上班。",
+                "vi": "Tôi thường đi làm bằng tàu điện ngầm.",
+                "comment": "Việc này xảy ra nhiều lần.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我有时候坐地铁上班。",
+                "vi": "Đôi khi tôi đi làm bằng tàu điện ngầm.",
+                "comment": "Việc này chỉ xảy ra một số lúc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 常常 bằng 有时候 làm tần suất giảm rõ rệt."
+            },
+            "boundary": "Không có con số cố định cho hai từ; chọn theo cách người nói nhìn tần suất.",
+            "tip": "Nhiều lần, thành thói quen → 常常; một số lúc → 有时候."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 常常 để nói một hành động xảy ra nhiều lần, khá thường xuyên.",
+          "literalTranslation": "有时候 là đôi khi, tần suất thấp hơn. 总是 là luôn luôn hoặc rất thường xuyên và có thể mang sắc thái phàn nàn tùy ngữ cảnh.",
+          "confusables": "常常 là thường xuyên; 有时候 là đôi khi và thường đặt trước cả mệnh đề hoặc trước động từ."
+        },
+        "pronunciation": {
+          "text": "Hai âm tiết đều thanh hai; đọc rõ âm cuối mũi sau ng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Tôi thường đọc sách buổi tối."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Từ nào có tần suất thấp hơn: 常常 hay 有时候?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我晚上常常读书。"
+            ],
+            "explanation": "常常 đứng trước 读书."
+          },
+          "q2": {
+            "accepted": [
+              "有时候"
+            ],
+            "explanation": "有时候 là đôi khi."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Kể bạn thường ăn trưa ở trường."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể cuối tuần bạn thường chơi với em trai."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu nơi rồi phó từ tần suất và hành động.",
+              "frame": "我 + 常常 + 在学校 + 吃午饭",
+              "model": "我常常在学校吃午饭。",
+            "vi": "Tôi thường ăn trưa ở trường.",
+            "criteria": [
+              "常常 đứng trước hành động.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu thời gian rồi hành động lặp lại.",
+            "frame": "周末 + 我 + 常常 + 跟弟弟玩儿",
+            "model": "周末我常常跟弟弟玩儿。",
+            "vi": "Cuối tuần tôi thường chơi với em trai.",
+            "criteria": [
+              "跟弟弟 nêu người cùng chơi.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "đùa giỡn",
+      "meaning": "đùa, nói đùa",
       "intro": [
         {
           "pinyin": "kāiwánxiào",
-          "meaning": "đùa giỡn"
+          "meaning": "đùa, nói đùa"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我在开玩笑，别生气。",
+          "vi": "Tôi chỉ đang đùa thôi, đừng giận.",
+          "analysis": "在开玩笑 giải thích lời vừa nói không nghiêm túc.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他常常跟朋友开玩笑。",
+          "vi": "Anh ấy thường đùa với bạn bè.",
+          "analysis": "跟朋友 đứng trước 开玩笑 và nêu người liên quan.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-f3c61ec69d2c",
       "hanzi": "开玩笑",
       "level": 1,
       "sourceIndex": 497,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 488,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E5%BC%80%E7%8E%A9%E7%AC%91"
+        ],
+        "introduction": {
+          "scope": "Dùng 开玩笑 để nói ai đó đùa hoặc nói một câu không nghiêm túc."
+        },
+        "meaning": {
+          "scene": "Bạn giải thích câu vừa nói chỉ là đùa.",
+          "explanation": "开玩笑 là động từ li hợp nghĩa là đùa, nói đùa. Có thể nói 跟/和 ai 开玩笑 để nêu người bị hoặc cùng đùa.",
+          "boundary": "玩笑 là danh từ “lời/trò đùa”; 玩儿 là chơi. Không hiểu 开玩笑 là “mở trò chơi”.",
+          "conditions": [
+            "Khi nêu người liên quan, dùng 跟/和 + người + 开玩笑; không đặt người trực tiếp sau toàn cụm như một tân ngữ đơn giản."
+          ],
+          "takeaway": "开玩笑 là động từ li hợp nghĩa là đùa, nói đùa. Có thể nói 跟/和 ai 开玩笑 để nêu người bị hoặc cùng đùa."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ ngữ + (在)开玩笑",
+            "position": "开玩笑 làm vị ngữ; 在 nhấn hành động đang diễn ra.",
+            "required": "Ngữ cảnh cho biết nội dung đùa.",
+            "omission": "Có thể bỏ 在 khi chỉ xác nhận tính chất câu nói.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ ngữ + 跟/和 + người + 开玩笑",
+            "position": "Cụm 跟/和 nêu người liên quan, đứng trước 开玩笑.",
+            "required": "Cần cân nhắc quan hệ và tình huống để lời đùa không gây khó chịu.",
+            "omission": "Có thể bỏ người nếu đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我在开玩笑，别生气。",
+            "vi": "Tôi chỉ đang đùa thôi, đừng giận.",
+            "analysis": "在开玩笑 giải thích lời vừa nói không nghiêm túc.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他常常跟朋友开玩笑。",
+            "vi": "Anh ấy thường đùa với bạn bè.",
+            "analysis": "跟朋友 đứng trước 开玩笑 và nêu người liên quan.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "开玩笑 là động từ, 玩笑 là danh từ",
+            "scene": "Bạn muốn nói “đây là một lời đùa” hoặc “tôi đang đùa”.",
+            "possibleConfusion": "Dùng nhầm loại từ sẽ tạo khung câu không tự nhiên.",
+            "difference": "开玩笑 làm hành động; 玩笑 có thể đứng sau 一个 hoặc làm danh từ sau 是.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我只是开玩笑。",
+                "vi": "Tôi chỉ đùa thôi.",
+                "comment": "开玩笑 là vị ngữ hành động.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这只是一个玩笑。",
+                "vi": "Đây chỉ là một lời đùa.",
+                "comment": "一个玩笑 là cụm danh từ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi cả cụm phải đổi khung câu từ hành động sang danh từ."
+            },
+            "boundary": "Hai cách có thể truyền đạt ý gần nhau trong một số ngữ cảnh, nhưng cấu trúc ngữ pháp khác nhau.",
+            "tip": "Có 一个 → 玩笑. Sau chủ ngữ để nói hành động → 开玩笑."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 开玩笑 để nói ai đó đùa hoặc nói một câu không nghiêm túc.",
+          "literalTranslation": "玩笑 là danh từ “lời/trò đùa”; 玩儿 là chơi. Không hiểu 开玩笑 là “mở trò chơi”.",
+          "confusables": "开玩笑 làm hành động; 玩笑 có thể đứng sau 一个 hoặc làm danh từ sau 是."
+        },
+        "pronunciation": {
+          "text": "开 thanh một; 玩 thanh hai; 笑 thanh bốn. Đọc liền ba âm tiết, không tách 开 thành nghĩa “mở”. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Tôi chỉ đang đùa thôi."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Điền: 这是一个___。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我只是在开玩笑。",
+              "我只是开玩笑。"
+            ],
+            "explanation": "开玩笑 làm vị ngữ; 在 có thể nhấn hành động đang diễn ra."
+          },
+          "q2": {
+            "accepted": [
+              "玩笑"
+            ],
+            "explanation": "Sau 一个 cần danh từ 玩笑."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói với bạn: Đừng giận, tôi đùa thôi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể em trai thường đùa với bạn bè."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Giải thích rồi yêu cầu bạn đừng giận.",
+            "frame": "别生气，+ 我只是 + 开玩笑",
+            "model": "别生气，我只是开玩笑。",
+            "vi": "Đừng giận, tôi chỉ đùa thôi.",
+            "criteria": [
+              "开玩笑 là hành động.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 跟 nêu người liên quan.",
+            "frame": "我弟弟 + 常常 + 跟朋友 + 开玩笑",
+            "model": "我弟弟常常跟朋友开玩笑。",
+            "vi": "Em trai tôi thường đùa với bạn bè.",
+            "criteria": [
+              "跟朋友 đứng trước 开玩笑.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "đôi khi",
+      "meaning": "đôi khi, có lúc",
       "intro": [
         {
           "pinyin": "yǒu shíhou",
-          "meaning": "đôi khi"
+          "meaning": "đôi khi, có lúc"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "有时候我坐公共汽车上班。",
+          "vi": "Đôi khi tôi đi làm bằng xe buýt.",
+          "analysis": "有时候 ở đầu câu nêu tần suất.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我有时候晚上看电影。",
+          "vi": "Đôi khi buổi tối tôi xem phim.",
+          "analysis": "有时候 đứng sau 我, trước cụm thời gian và hành động.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-1588acfb3631",
       "hanzi": "有时候",
       "level": 1,
       "sourceIndex": 498,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 489,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E6%9C%89%E6%97%B6%E5%80%99"
+        ],
+        "introduction": {
+          "scope": "Dùng 有时候 để nói một việc xảy ra vào một số lúc, không thường xuyên."
+        },
+        "meaning": {
+          "scene": "Bạn kể đôi khi mình đi bộ tới trường.",
+          "explanation": "有时候 nghĩa là đôi khi, có lúc. Nó có thể đứng đầu câu hoặc sau chủ ngữ, trước hành động.",
+          "boundary": "有时间 là có thời gian, rảnh để làm việc gì. 有时候 chỉ tần suất và không tự nói người đó rảnh.",
+          "conditions": [
+            "Nếu hai tình huống đối lập được nêu, có thể dùng 有时候…，有时候…."
+          ],
+          "takeaway": "有时候 nghĩa là đôi khi, có lúc. Nó có thể đứng đầu câu hoặc sau chủ ngữ, trước hành động."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "有时候 + mệnh đề",
+            "position": "有时候 đứng đầu để đặt khung “có lúc”.",
+            "required": "Mệnh đề sau nêu việc chỉ xảy ra một số lần.",
+            "omission": "Có thể chuyển 有时候 ra sau chủ ngữ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ ngữ + 有时候 + động từ",
+            "position": "有时候 đứng sau chủ ngữ và trước hành động.",
+            "required": "Không thêm 的 sau 有时候 trong khung phó từ này.",
+            "omission": "Có thể lược chủ ngữ nếu nối tiếp cùng một người.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "有时候我坐公共汽车上班。",
+            "vi": "Đôi khi tôi đi làm bằng xe buýt.",
+            "analysis": "有时候 ở đầu câu nêu tần suất.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我有时候晚上看电影。",
+            "vi": "Đôi khi buổi tối tôi xem phim.",
+            "analysis": "有时候 đứng sau 我, trước cụm thời gian và hành động.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "有时候 không phải 有时间",
+            "scene": "Bạn muốn hỏi ai đó có rảnh hay kể việc thỉnh thoảng xảy ra.",
+            "possibleConfusion": "Cả hai chứa 有 và 时 nhưng trả lời hai câu hỏi khác nhau.",
+            "difference": "有时候 trả lời “bao lâu xảy ra một lần”; 有时间 trả lời “có thời gian để làm không”.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我有时候去游泳。",
+                "vi": "Đôi khi tôi đi bơi.",
+                "comment": "Nêu tần suất đi bơi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我今天有时间去游泳。",
+                "vi": "Hôm nay tôi có thời gian đi bơi.",
+                "comment": "Nêu hôm nay có đủ thời gian.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay từ chuyển từ tần suất sang điều kiện thời gian rảnh."
+            },
+            "boundary": "Một người có thể vừa 有时候去 vừa 有时间去, nhưng hai câu không đồng nghĩa.",
+            "tip": "“Đôi khi” → 有时候; “có thời gian/rảnh” → 有时间."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 有时候 để nói một việc xảy ra vào một số lúc, không thường xuyên.",
+          "literalTranslation": "有时间 là có thời gian, rảnh để làm việc gì. 有时候 chỉ tần suất và không tự nói người đó rảnh.",
+          "confusables": "有时候 trả lời “bao lâu xảy ra một lần”; 有时间 trả lời “có thời gian để làm không”."
+        },
+        "pronunciation": {
+          "text": "有 thanh ba; 时 thanh hai; 候 trong từ này thường đọc thanh nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Đôi khi tôi ăn ở nhà."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn hỏi “Hôm nay bạn có thời gian không?”, dùng 有时候 hay 有时间?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我有时候在家吃饭。",
+              "有时候我在家吃饭。"
+            ],
+            "explanation": "有时候 có thể đứng đầu câu hoặc sau chủ ngữ."
+          },
+          "q2": {
+            "accepted": [
+              "有时间"
+            ],
+            "explanation": "有时间 nói có thời gian rảnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Kể đôi khi bạn đi học bằng xe đạp."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói có lúc bạn uống trà, có lúc uống cà phê."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt 有时候 trước hành động.",
+            "frame": "我 + 有时候 + 骑自行车上学",
+            "model": "我有时候骑自行车上学。",
+            "vi": "Đôi khi tôi đi học bằng xe đạp.",
+            "criteria": [
+              "有时候 nêu tần suất.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Lặp khung 有时候 để đối chiếu.",
+            "frame": "有时候 + 喝茶，+ 有时候 + 喝咖啡",
+            "model": "我有时候喝茶，有时候喝咖啡。",
+            "vi": "Có lúc tôi uống trà, có lúc uống cà phê.",
+            "criteria": [
+              "Hai vế nêu hai khả năng ở những lúc khác nhau.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "có thời gian rảnh",
+      "meaning": "không sao; không có việc gì; rảnh",
       "intro": [
         {
           "pinyin": "méishìr",
-          "meaning": "có thời gian rảnh"
+          "meaning": "không sao; không có việc gì; rảnh"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "对不起！—没事儿。",
+          "vi": "Xin lỗi! — Không sao.",
+          "analysis": "Sau lời xin lỗi, 没事儿 là lời trấn an.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我下午没事儿，可以帮你。",
+          "vi": "Chiều nay tôi rảnh, có thể giúp bạn.",
+          "analysis": "下午 đặt bối cảnh lịch trình; 没事儿 nghĩa là không bận.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-c7c0315f63cf",
       "hanzi": "没事儿",
       "level": 1,
       "sourceIndex": 499,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-035 · phức tạp",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 490,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E6%B2%A1%E4%BA%8B%E5%84%BF"
+        ],
+        "introduction": {
+          "scope": "Học ba cách dùng thông dụng của 没事儿: không sao, không có chuyện gì và rảnh."
+        },
+        "meaning": {
+          "scene": "Bạn trấn an người vừa xin lỗi hoặc nói chiều nay mình rảnh.",
+          "explanation": "没事儿 có thể trả lời “không sao”, nói không có chuyện gì xảy ra, hoặc cho biết không bận. Ý đúng do tình huống và từ chỉ thời gian quyết định.",
+          "boundary": "没什么 thường là “không có gì/không có gì đáng kể” và có thể đứng trước danh từ hay sau động từ. 没事儿 tập trung vào việc, vấn đề hoặc trạng thái không bận.",
+          "conditions": [
+            "Làm câu đáp độc lập sau lời xin lỗi thường là “không sao”; đi với mốc thời gian và một hành động sau đó thường là “rảnh”."
+          ],
+          "takeaway": "没事儿 có thể trả lời “không sao”, nói không có chuyện gì xảy ra, hoặc cho biết không bận. Ý đúng do tình huống và từ chỉ thời gian quyết định."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "没事儿。",
+            "position": "Dùng độc lập để trấn an hoặc xác nhận không có vấn đề.",
+            "required": "Ngữ cảnh trước đó phải cho biết người nói đang đáp lại điều gì.",
+            "omission": "Có thể thêm 别担心 để nói rõ ý trấn an.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ ngữ + thời gian + 没事儿，+ hành động",
+            "position": "没事儿 làm vị ngữ nghĩa là không bận, sau đó thường nêu việc có thể làm.",
+            "required": "Cần mốc thời gian hoặc ngữ cảnh lịch trình để hiểu là rảnh.",
+            "omission": "Có thể bỏ chủ ngữ nếu đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "对不起！—没事儿。",
+            "vi": "Xin lỗi! — Không sao.",
+            "analysis": "Sau lời xin lỗi, 没事儿 là lời trấn an.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我下午没事儿，可以帮你。",
+            "vi": "Chiều nay tôi rảnh, có thể giúp bạn.",
+            "analysis": "下午 đặt bối cảnh lịch trình; 没事儿 nghĩa là không bận.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Một hình thức, nhiều cách hiểu theo ngữ cảnh",
+            "scene": "Bạn nghe 没事儿 sau lời xin lỗi hoặc sau một mốc thời gian.",
+            "possibleConfusion": "Nếu luôn dịch là “rảnh”, câu trấn an sẽ sai; nếu luôn dịch “không sao”, câu lịch trình sẽ mơ hồ.",
+            "difference": "Lời xin lỗi/sự cố gợi nghĩa không sao; lịch trình gợi nghĩa rảnh; câu hỏi 发生什么了 gợi nghĩa không có chuyện gì.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我没事儿，别担心。",
+                "vi": "Tôi không sao, đừng lo.",
+                "comment": "Nói tình trạng không có vấn đề.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我今天晚上没事儿。",
+                "vi": "Tối nay tôi rảnh.",
+                "comment": "Mốc tối nay gợi lịch trình không bận.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "context-needed",
+              "explanation": "Không thể chọn một nghĩa Việt duy nhất nếu thiếu câu trước và bối cảnh."
+            },
+            "boundary": "Các nghĩa đều xoay quanh “không có việc/vấn đề”, nên có vùng giao nhau nhưng bản dịch tự nhiên khác nhau.",
+            "tip": "Nhìn câu trước và mốc thời gian để chọn “không sao”, “không có chuyện gì” hay “rảnh”."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Học ba cách dùng thông dụng của 没事儿: không sao, không có chuyện gì và rảnh.",
+          "literalTranslation": "没什么 thường là “không có gì/không có gì đáng kể” và có thể đứng trước danh từ hay sau động từ. 没事儿 tập trung vào việc, vấn đề hoặc trạng thái không bận.",
+          "confusables": "Lời xin lỗi/sự cố gợi nghĩa không sao; lịch trình gợi nghĩa rảnh; câu hỏi 发生什么了 gợi nghĩa không có chuyện gì."
+        },
+        "pronunciation": {
+          "text": "没 thanh hai; 儿 nhập vào vần của 事. Đọc 事 rõ thanh bốn trước âm uốn lưỡi. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Sau câu 对不起, đáp 没事儿 thường nghĩa gì?"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói: Ngày mai tôi rảnh."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "Không sao."
+            ],
+            "explanation": "Đây là lời trấn an sau khi người kia xin lỗi."
+          },
+          "q2": {
+            "accepted": [
+              "我明天没事儿。"
+            ],
+            "explanation": "Mốc 明天 khiến 没事儿 được hiểu là không bận."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Trấn an bạn rằng bạn không sao."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cuối tuần bạn rảnh và có thể đi chơi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nói tình trạng rồi bảo bạn đừng lo.",
+            "frame": "我 + 没事儿，+ 别担心",
+            "model": "我没事儿，别担心。",
+            "vi": "Tôi không sao, đừng lo.",
+            "criteria": [
+              "Ngữ cảnh sức khỏe/sự cố cho nghĩa không sao.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu thời gian, trạng thái không bận rồi khả năng.",
+            "frame": "我周末 + 没事儿，+ 可以出去玩儿",
+            "model": "我周末没事儿，可以出去玩儿。",
+            "vi": "Cuối tuần tôi rảnh, có thể ra ngoài chơi.",
+            "criteria": [
+              "Mốc 周末 gợi nghĩa rảnh.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "không sao",
+      "meaning": "không có gì; không có gì đáng kể",
       "intro": [
         {
           "pinyin": "méi shénme",
-          "meaning": "không sao"
+          "meaning": "không có gì; không có gì đáng kể"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "你怎么了？—没什么。",
+          "vi": "Bạn sao vậy? — Không có gì đâu.",
+          "analysis": "没什么 lược điều đang xảy ra và giảm nhẹ câu trả lời.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这件事没什么问题。",
+          "vi": "Việc này không có vấn đề gì.",
+          "analysis": "没什么 đứng trước 问题 để phủ định việc có vấn đề đáng kể.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-d2d2c346c745",
       "hanzi": "没什么",
       "level": 1,
       "sourceIndex": 500,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-035 · phức tạp",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 491,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E6%B2%A1%E4%BB%80%E4%B9%88"
+        ],
+        "introduction": {
+          "scope": "Dùng 没什么 để nói không có gì, không có điều đáng kể hoặc giảm nhẹ một chuyện."
+        },
+        "meaning": {
+          "scene": "Bạn trả lời rằng không có chuyện gì đặc biệt hoặc vết đau không nghiêm trọng.",
+          "explanation": "没什么 nghĩa đen là không có gì. Nó có thể đứng độc lập, trước danh từ, hoặc trong 没什么大事 để nói không có việc nghiêm trọng.",
+          "boundary": "没事儿 thường trấn an “không sao” hoặc nói không bận. 没什么 nhấn không có nội dung, đồ vật hay điều gì đáng kể.",
+          "conditions": [
+            "Nghĩa cụ thể phụ thuộc phần bị lược: 没什么(东西/问题/特别的)."
+          ],
+          "takeaway": "没什么 nghĩa đen là không có gì. Nó có thể đứng độc lập, trước danh từ, hoặc trong 没什么大事 để nói không có việc nghiêm trọng."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "没什么。",
+            "position": "Đứng độc lập để đáp “không có gì/không có gì đâu”.",
+            "required": "Câu hỏi trước cho biết thứ đang được phủ định.",
+            "omission": "Có thể thêm 就是… để giải thích tiếp.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "没什么 + danh từ/tính từ + 的",
+            "position": "没什么 đứng trước thành phần bị phủ định, như 没什么问题 hoặc 没什么特别的.",
+            "required": "Danh từ hay tính từ phải phù hợp với điều đang hỏi.",
+            "omission": "Có thể lược phần sau khi ngữ cảnh đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你怎么了？—没什么。",
+            "vi": "Bạn sao vậy? — Không có gì đâu.",
+            "analysis": "没什么 lược điều đang xảy ra và giảm nhẹ câu trả lời.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这件事没什么问题。",
+            "vi": "Việc này không có vấn đề gì.",
+            "analysis": "没什么 đứng trước 问题 để phủ định việc có vấn đề đáng kể.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "没什么 và 没事儿 có vùng giao nhau nhưng không hoàn toàn thay thế",
+            "scene": "Bạn đáp lời hỏi thăm hoặc nói mình rảnh.",
+            "possibleConfusion": "Cả hai đôi khi dịch “không sao”, nhưng 没什么 không tự nhiên để nói lịch trình rảnh.",
+            "difference": "没什么 nhấn không có gì đáng kể; 没事儿 có thể chỉ không có vấn đề hoặc không bận.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我没什么，就是有点儿累。",
+                "vi": "Tôi không sao, chỉ hơi mệt.",
+                "comment": "没什么 giảm nhẹ tình trạng đang được hỏi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我下午没事儿。",
+                "vi": "Chiều nay tôi rảnh.",
+                "comment": "Chỉ 没事儿 mang nghĩa lịch trình không bận ở đây.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 没事儿 bằng 没什么 trong câu lịch trình làm mất cách hiểu “rảnh”."
+            },
+            "boundary": "Trong lời trấn an ngắn, hai từ đôi lúc đều dùng được nhưng sắc thái và phần lược khác nhau.",
+            "tip": "Không có gì đáng kể → 没什么; không bận/rảnh → 没事儿."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 没什么 để nói không có gì, không có điều đáng kể hoặc giảm nhẹ một chuyện.",
+          "literalTranslation": "没事儿 thường trấn an “không sao” hoặc nói không bận. 没什么 nhấn không có nội dung, đồ vật hay điều gì đáng kể.",
+          "confusables": "没什么 nhấn không có gì đáng kể; 没事儿 có thể chỉ không có vấn đề hoặc không bận."
+        },
+        "pronunciation": {
+          "text": "没 thanh hai; 什 thanh hai; 么 trong từ này đọc thanh nhẹ. Đọc liền, không nhấn 么. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền từ thích hợp để nói “Chiều nay tôi rảnh”: 我下午___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói: Không có vấn đề gì."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "没事儿"
+            ],
+            "explanation": "没事儿 có nghĩa không bận trong ngữ cảnh lịch trình."
+          },
+          "q2": {
+            "accepted": [
+              "没什么问题。"
+            ],
+            "explanation": "没什么 đứng trước 问题."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Đáp rằng không có gì, chỉ hơi mệt."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bài tập này không có vấn đề gì."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Giảm nhẹ rồi nêu tình trạng thật.",
+            "frame": "没什么，+ 就是 + 有点儿累",
+            "model": "没什么，就是有点儿累。",
+            "vi": "Không có gì đâu, chỉ hơi mệt.",
+            "criteria": [
+              "没什么 lược điều đáng lo.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Đặt 没什么 trước 问题.",
+            "frame": "这个作业 + 没什么问题",
+            "model": "这个作业没什么问题。",
+            "vi": "Bài tập này không có vấn đề gì.",
+            "criteria": [
+              "问题 là điều bị phủ định.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "chơi",
+      "meaning": "chơi, vui chơi",
       "intro": [
         {
           "pinyin": "wánr",
-          "meaning": "chơi"
+          "meaning": "chơi, vui chơi"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "孩子们在外面玩儿。",
+          "vi": "Bọn trẻ đang chơi ở bên ngoài.",
+          "analysis": "在外面 nêu nơi, 玩儿 là hành động.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "周末我们去公园玩儿。",
+          "vi": "Cuối tuần chúng tôi đi công viên chơi.",
+          "analysis": "去公园 nêu nơi đến rồi 玩儿 nêu mục đích.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-bc3b6c328ee7",
       "hanzi": "玩儿",
       "level": 1,
       "sourceIndex": 502,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 492,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E7%8E%A9%E5%84%BF"
+        ],
+        "introduction": {
+          "scope": "Dùng 玩儿 để nói chơi, vui chơi hoặc đi chơi trong một tình huống cụ thể."
+        },
+        "meaning": {
+          "scene": "Bạn rủ bạn bè đến nhà chơi.",
+          "explanation": "玩儿 là chơi, vui chơi. Có thể dùng một mình, đi với nơi chốn, hoặc đi với một số trò/đồ chơi; cách kết hợp cụ thể tùy hoạt động.",
+          "boundary": "开玩笑 là đùa bằng lời/hành động, không phải chơi nói chung. 好玩儿 là tính từ “vui, thú vị để chơi”.",
+          "conditions": [
+            "Nơi chốn thường đứng trước 玩儿 với 在, hoặc sau 去 trong khung 去 + nơi + 玩儿."
+          ],
+          "takeaway": "玩儿 là chơi, vui chơi. Có thể dùng một mình, đi với nơi chốn, hoặc đi với một số trò/đồ chơi; cách kết hợp cụ thể tùy hoạt động."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ ngữ + (在 + nơi) + 玩儿",
+            "position": "Cụm nơi đứng trước 玩儿.",
+            "required": "Ngữ cảnh cho biết chơi gì nếu không có tân ngữ.",
+            "omission": "Có thể bỏ nơi hoặc chủ ngữ khi đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "去 + nơi + 玩儿",
+            "position": "去 nêu hướng đi, nơi đến đứng giữa 去 và 玩儿.",
+            "required": "Cần nơi đến hoặc ngữ cảnh đã rõ.",
+            "omission": "Có thể nói 去玩儿 khi nơi đến không quan trọng.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "孩子们在外面玩儿。",
+            "vi": "Bọn trẻ đang chơi ở bên ngoài.",
+            "analysis": "在外面 nêu nơi, 玩儿 là hành động.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "周末我们去公园玩儿。",
+            "vi": "Cuối tuần chúng tôi đi công viên chơi.",
+            "analysis": "去公园 nêu nơi đến rồi 玩儿 nêu mục đích.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "玩儿, 好玩儿 và 开玩笑 khác vai trò",
+            "scene": "Bạn muốn nói chơi, trò chơi vui, hoặc chỉ đang đùa.",
+            "possibleConfusion": "Ba từ cùng có 玩 nhưng không thay trực tiếp cho nhau.",
+            "difference": "玩儿 là hành động chơi; 好玩儿 là đánh giá vui; 开玩笑 là nói/làm điều đùa.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们去玩儿吧。",
+                "vi": "Chúng ta đi chơi nhé.",
+                "comment": "玩儿 là động từ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这个游戏很好玩儿。",
+                "vi": "Trò chơi này rất vui.",
+                "comment": "好玩儿 là tính từ đánh giá.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "我在开玩笑。",
+                "vi": "Tôi đang đùa.",
+                "comment": "开玩笑 là cụm động từ riêng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay đổi từ sẽ đổi giữa hành động, đánh giá và đùa."
+            },
+            "boundary": "Trong một buổi chơi vui có thể xuất hiện cả ba ý, nhưng từng câu cần đúng khung.",
+            "tip": "Làm gì? 玩儿. Có vui không? 好玩儿. Có nói nghiêm túc không? 开玩笑."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 玩儿 để nói chơi, vui chơi hoặc đi chơi trong một tình huống cụ thể.",
+          "literalTranslation": "开玩笑 là đùa bằng lời/hành động, không phải chơi nói chung. 好玩儿 là tính từ “vui, thú vị để chơi”.",
+          "confusables": "玩儿 là hành động chơi; 好玩儿 là đánh giá vui; 开玩笑 là nói/làm điều đùa."
+        },
+        "pronunciation": {
+          "text": "儿 nhập vào vần của 玩; không tách thành một âm tiết riêng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Bọn trẻ đang chơi ở nhà."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói “trò chơi này vui”, dùng 玩儿 hay 好玩儿?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "孩子们在家玩儿。"
+            ],
+            "explanation": "Nơi chốn 在家 đứng trước 玩儿."
+          },
+          "q2": {
+            "accepted": [
+              "好玩儿"
+            ],
+            "explanation": "好玩儿 là tính từ đánh giá trò chơi."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Rủ bạn cuối tuần đi chơi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Kể em trai đang chơi ở phòng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 去玩儿 để nêu hoạt động.",
+            "frame": "周末 + 我们 + 去玩儿吧",
+            "model": "周末我们去玩儿吧。",
+            "vi": "Cuối tuần chúng ta đi chơi nhé.",
+            "criteria": [
+              "吧 làm lời rủ nhẹ.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Nêu người, nơi rồi hành động.",
+            "frame": "我弟弟 + 在房间里 + 玩儿",
+            "model": "我弟弟在房间里玩儿。",
+            "vi": "Em trai tôi đang chơi trong phòng.",
+            "criteria": [
+              "Cụm nơi đứng trước 玩儿.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-12cdf7d590f3",
@@ -104386,17 +106720,185 @@
       "intro": [
         {
           "pinyin": "nánháir",
-          "meaning": "bé trai"
+          "meaning": "bé trai; chàng trai trẻ"
         }
       ],
-      "meaning": "bé trai",
-      "status": "catalog",
+      "meaning": "bé trai; chàng trai trẻ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "那个男孩儿在踢足球。",
+          "vi": "Bé trai kia đang đá bóng.",
+          "analysis": "那个 xác định người; 男孩儿 là chủ ngữ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "门口站着一个男孩儿。",
+          "vi": "Ở cửa có một cậu bé đang đứng.",
+          "analysis": "一个男孩儿 là người xuất hiện trong câu tồn hiện.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 503,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 493,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E7%94%B7%E5%AD%A9%E5%84%BF"
+        ],
+        "introduction": {
+          "scope": "Dùng 男孩儿 để chỉ một bé trai hoặc chàng trai trẻ, không biểu thị quan hệ gia đình."
+        },
+        "meaning": {
+          "scene": "Bạn chỉ một bé trai đang đá bóng.",
+          "explanation": "男孩儿 gọi một người nam còn nhỏ hoặc còn trẻ. Từ này mô tả người, không cho biết cậu ấy là con của ai.",
+          "boundary": "儿子 là con trai trong quan hệ với cha mẹ. Muốn nói “con trai tôi”, dùng 我儿子, không dùng 我的男孩儿 trong cách nói thông thường.",
+          "conditions": [
+            "Tuổi cụ thể do ngữ cảnh quyết định; với đàn ông trưởng thành nên chọn cách gọi khác phù hợp."
+          ],
+          "takeaway": "男孩儿 gọi một người nam còn nhỏ hoặc còn trẻ. Từ này mô tả người, không cho biết cậu ấy là con của ai."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "(那个/一个) + 男孩儿",
+            "position": "Từ chỉ định hoặc số lượng đứng trước 男孩儿.",
+            "required": "Dùng 个 khi cần đếm.",
+            "omission": "Có thể bỏ từ chỉ định nếu người nghe biết người đang nói.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "男孩儿 + đang làm gì",
+            "position": "男孩儿 làm chủ ngữ trước vị ngữ.",
+            "required": "Ngữ cảnh xác định người được nói tới.",
+            "omission": "Có thể thêm 那个 để nói rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "那个男孩儿在踢足球。",
+            "vi": "Bé trai kia đang đá bóng.",
+            "analysis": "那个 xác định người; 男孩儿 là chủ ngữ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "门口站着一个男孩儿。",
+            "vi": "Ở cửa có một cậu bé đang đứng.",
+            "analysis": "一个男孩儿 là người xuất hiện trong câu tồn hiện.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "男孩儿 không phải 儿子",
+            "scene": "Bạn muốn giới thiệu con trai của mình.",
+            "possibleConfusion": "Hai từ đều có thể chỉ người nam trẻ, nhưng chỉ 儿子 biểu thị quan hệ con cái.",
+            "difference": "男孩儿 mô tả một bé/cậu trai; 儿子 xác định con trai của cha mẹ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "那个男孩儿是学生。",
+                "vi": "Cậu bé kia là học sinh.",
+                "comment": "男孩儿 chỉ một cậu bé.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我儿子是学生。",
+                "vi": "Con trai tôi là học sinh.",
+                "comment": "儿子 đứng sau 我 để nêu quan hệ gia đình.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 儿子 thành 男孩儿 làm mất nghĩa “con trai của tôi”."
+            },
+            "boundary": "Một người có thể vừa là 男孩儿 vừa là 儿子, nhưng góc nhìn khác nhau.",
+            "tip": "Có cha mẹ/người sở hữu đứng trước: kiểm tra xem cần 儿子 không."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 男孩儿 để chỉ một bé trai hoặc chàng trai trẻ, không biểu thị quan hệ gia đình.",
+          "literalTranslation": "儿子 là con trai trong quan hệ với cha mẹ. Muốn nói “con trai tôi”, dùng 我儿子, không dùng 我的男孩儿 trong cách nói thông thường.",
+          "confusables": "男孩儿 mô tả một bé/cậu trai; 儿子 xác định con trai của cha mẹ."
+        },
+        "pronunciation": {
+          "text": "男 thanh hai; 儿 nhập vào vần của 孩. Giữ âm cuối n của 男 và chuyển liền sang 孩. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Cậu bé kia đang uống nước."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói “con trai tôi”, chọn 我儿子 hay 我的男孩儿?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "那个男孩儿在喝水。"
+            ],
+            "explanation": "Dùng 那个男孩儿 làm chủ ngữ."
+          },
+          "q2": {
+            "accepted": [
+              "我儿子"
+            ],
+            "explanation": "儿子 biểu thị quan hệ con trai với cha mẹ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Mô tả một bé trai đang chơi ở ngoài."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cậu bé ở cửa là em trai bạn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Nêu người rồi nơi và hành động.",
+            "frame": "一个男孩儿 + 在外面 + 玩儿",
+            "model": "一个男孩儿在外面玩儿。",
+            "vi": "Một bé trai đang chơi ở ngoài.",
+            "criteria": [
+              "男孩儿 không mang nghĩa con trai của ai.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng cụm nơi chốn để xác định người.",
+            "frame": "门口的男孩儿 + 是 + 我弟弟",
+            "model": "门口的男孩儿是我弟弟。",
+            "vi": "Cậu bé ở cửa là em trai tôi.",
+            "criteria": [
+              "的 nối 门口 với 男孩儿.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-07ebf75bb164",
@@ -104405,22 +106907,185 @@
       "intro": [
         {
           "pinyin": "fēicháng",
-          "meaning": "rất"
+          "meaning": "rất, vô cùng"
         }
       ],
-      "meaning": "rất",
-      "status": "example",
+      "meaning": "rất, vô cùng",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-035 · trung bình",
       "examples": [
         {
+          "id": "e1",
+          "zh": "今天非常冷。",
+          "vi": "Hôm nay rất lạnh.",
+          "analysis": "非常 đứng trước 冷 và nhấn mức độ cao.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
           "zh": "我非常喜欢这本书。",
-          "vi": "Tôi rất thích quyển sách này."
+          "vi": "Tôi rất thích quyển sách này.",
+          "analysis": "非常 bổ nghĩa cho động từ tâm lý 喜欢.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 504,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 494,
+        "authorship": "Tự biên soạn và tự rà ngôn ngữ; chưa phản biện giáo viên độc lập. URL là điểm tra cứu tham khảo, chưa đối chiếu trực tiếp trong đợt này.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E9%9D%9E%E5%B8%B8"
+        ],
+        "introduction": {
+          "scope": "Dùng 非常 trước tính từ hoặc động từ tâm lý để nhấn mức độ rất cao."
+        },
+        "meaning": {
+          "scene": "Bạn nói mình rất thích thành phố này.",
+          "explanation": "非常 là phó từ mức độ nghĩa là rất, vô cùng. Nó đứng trước tính từ hoặc một số động từ biểu thị cảm xúc, thái độ như 喜欢、感谢.",
+            "boundary": "非常 đứng trước cụm tính chất để nhấn mạnh: 非常不好 là “rất tệ”. 不太好 là “không tốt lắm”, nhẹ hơn. 非常 không đứng trực tiếp trước danh từ để nói “rất một vật”.",
+          "conditions": [
+            "Thành phần sau phải là tính chất hoặc trạng thái có thể tăng mức độ, hoặc động từ tâm lý phù hợp."
+          ],
+          "takeaway": "非常 là phó từ mức độ nghĩa là rất, vô cùng. Nó đứng trước tính từ hoặc một số động từ biểu thị cảm xúc, thái độ như 喜欢、感谢."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ ngữ + 非常 + tính từ",
+            "position": "非常 đứng ngay trước tính từ để tăng mức độ.",
+            "required": "Không cần thêm 很 cùng lúc trong cùng vị trí.",
+            "omission": "Có thể lược chủ ngữ khi đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ ngữ + 非常 + động từ tâm lý",
+              "position": "非常 đứng trước các động từ như 喜欢、感谢、希望 khi ngữ nghĩa cho phép mức độ.",
+            "required": "Không áp dụng máy móc cho mọi động từ hành động.",
+            "omission": "Có thể thêm tân ngữ sau động từ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "今天非常冷。",
+            "vi": "Hôm nay rất lạnh.",
+            "analysis": "非常 đứng trước 冷 và nhấn mức độ cao.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我非常喜欢这本书。",
+            "vi": "Tôi rất thích quyển sách này.",
+            "analysis": "非常 bổ nghĩa cho động từ tâm lý 喜欢.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "非常不好 khác 不太好",
+            "scene": "Bạn muốn chê mạnh hay nói giảm nhẹ.",
+            "possibleConfusion": "Đặt vị trí phủ định khác nhau tạo mức độ rất khác.",
+            "difference": "非常不好 là rất tệ/không tốt chút nào; 不太好 là không tốt lắm và nhẹ hơn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个办法非常不好。",
+                "vi": "Cách này rất tệ.",
+                "comment": "非常 tăng mức độ của đánh giá 不好.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这个办法不太好。",
+                "vi": "Cách này không được tốt lắm.",
+                "comment": "不太 giảm nhẹ lời chê.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay 非常不 bằng 不太 làm đánh giá nhẹ đi rõ rệt."
+            },
+            "boundary": "Trong hội thoại lịch sự, người nói có thể chọn 不太好 để giảm độ trực diện.",
+            "tip": "非常不好 = chê mạnh; 不太好 = nói nhẹ “không tốt lắm”."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Dùng 非常 trước tính từ hoặc động từ tâm lý để nhấn mức độ rất cao.",
+            "literalTranslation": "非常 đứng trước cụm tính chất để nhấn mạnh: 非常不好 là “rất tệ”. 不太好 là “không tốt lắm”, nhẹ hơn. 非常 không đứng trực tiếp trước danh từ để nói “rất một vật”.",
+          "confusables": "非常不好 là rất tệ/không tốt chút nào; 不太好 là không tốt lắm và nhẹ hơn."
+        },
+        "pronunciation": {
+          "text": "非 thanh một, 常 thanh hai; đọc rõ âm cuối mũi sau của 常. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Nói: Tôi rất thích tiếng Trung."
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Câu nào chê nhẹ hơn: 非常不好 hay 不太好?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我非常喜欢汉语。"
+            ],
+            "explanation": "非常 đứng trước 喜欢."
+          },
+          "q2": {
+            "accepted": [
+              "不太好"
+            ],
+            "explanation": "不太好 nghĩa là không tốt lắm."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói hôm nay trời rất nóng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn rất cảm ơn giáo viên."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt 非常 trước tính từ.",
+            "frame": "今天 + 非常 + 热",
+            "model": "今天非常热。",
+            "vi": "Hôm nay rất nóng.",
+            "criteria": [
+              "Không cần thêm 很 cạnh 非常.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 非常 trước động từ tâm lý/thái độ.",
+            "frame": "我 + 非常 + 感谢老师",
+            "model": "我非常感谢老师。",
+            "vi": "Tôi vô cùng cảm ơn giáo viên.",
+            "criteria": [
+              "非常 bổ nghĩa cho 感谢.",
+              "Chấp nhận câu khác tự nhiên và đúng ý; tự đối chiếu, app không tự chấm câu mở."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h2-b68721647e72",
@@ -137724,13 +140389,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 488,
-    "pending": 1746,
+    "ready": 504,
+    "pending": 1730,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 488
+        "ready": 504
       },
       {
         "level": 2,
