@@ -23803,20 +23803,22 @@
       "meaning": "hỏng; không còn hoạt động tốt",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-008",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 020",
       "examples": [
         {
           "id": "e1",
           "zh": "我的手机坏了。",
+          "pinyin": "Wǒ de shǒujī huài le.",
           "vi": "Điện thoại của tôi hỏng rồi.",
-          "analysis": "我的手机 là vật được nói đến; 坏了 nêu tình trạng đã hỏng.",
+          "analysis": "坏了 đứng sau vật để báo tình trạng hỏng.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "这个苹果坏了，别吃。",
+          "pinyin": "Zhège píngguǒ huài le, bié chī.",
           "vi": "Quả táo này hỏng rồi, đừng ăn.",
-          "analysis": "坏了 nêu thức ăn đã hư; 别吃 là lời khuyên không ăn.",
+          "analysis": "坏了 cũng nói thức ăn bị hư.",
           "practiceAllowed": true
         }
       ],
@@ -23824,183 +23826,191 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 91,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "medium",
+        "difficultyReason": "坏了 chỉ tình trạng hỏng; cần phân biệt với 不好用, vốn chỉ dùng không tiện.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 坏 để nói đồ vật bị hỏng hoặc thức ăn hư; cùng chữ này còn dùng trong 坏人 để nói người xấu."
-        },
-        "meaning": {
-          "scene": "Điện thoại của bạn không bật lên được.",
-          "explanation": "坏 là tính từ chỉ tình trạng không còn hoạt động hoặc không dùng được như mong muốn. 坏了 thường báo đồ vật vừa hỏng hoặc đồ ăn đã hư.",
-          "boundary": "Với người, 坏 trong 坏人 nói về tính xấu; với máy móc hay thực phẩm, thường nói tình trạng hỏng/hư. “Không tốt” không phải lúc nào cũng là hỏng.",
-          "conditions": [
-            "坏了 thường đứng sau vật để nói tình trạng: 手机坏了.",
-            "不好/不好用 thường đánh giá chất lượng hoặc mức tiện dùng, chưa khẳng định vật đã hỏng."
-          ],
-          "takeaway": "坏了 báo tình trạng hỏng/hư; 不好 có thể chỉ là chất lượng chưa tốt."
+          "scope": "坏 thường chỉ đồ vật hoặc thức ăn bị hỏng."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "我的手机坏了。",
+            "pinyin": "Wǒ de shǒujī huài le.",
             "vi": "Điện thoại của tôi hỏng rồi.",
-            "analysis": "我的手机 là vật được nói đến; 坏了 nêu tình trạng đã hỏng.",
+            "analysis": "坏了 đứng sau vật để báo tình trạng hỏng.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "这个苹果坏了，别吃。",
+            "pinyin": "Zhège píngguǒ huài le, bié chī.",
             "vi": "Quả táo này hỏng rồi, đừng ăn.",
-            "analysis": "坏了 nêu thức ăn đã hư; 别吃 là lời khuyên không ăn.",
+            "analysis": "坏了 cũng nói thức ăn bị hư.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Đồ vật/thức ăn + 坏了",
-            "position": "坏 đứng sau vật, thường kèm 了 để báo tình trạng hỏng/hư.",
-            "required": "Nêu vật bị ảnh hưởng trước 坏; không nói 手机很坏 để chỉ máy không bật được.",
-            "omission": "Khi vật đã rõ, có thể đáp 坏了。— Hỏng rồi.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Hỏng hẳn hay chỉ không tốt",
-            "scene": "Bạn nhận xét một chiếc điện thoại cũ.",
-            "possibleConfusion": "坏 và 不好 đều có thể mang đánh giá tiêu cực, nhưng mức khẳng định khác nhau.",
-            "difference": "手机坏了 thường nói máy đã hỏng/không dùng được; 手机不好用 nói trải nghiệm sử dụng kém, máy vẫn có thể hoạt động.",
-            "cases": [
+            "id": "broken",
+            "title": "Hỏng, hư",
+            "when": "Nói đồ vật không hoạt động hoặc thức ăn không dùng được.",
+            "meaning": "hỏng; hư",
+            "grammar": "坏了 thường đứng sau vật.",
+            "pattern": "手机/苹果+坏了",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "我的手机坏了，开不了机。",
-                "vi": "Điện thoại của tôi hỏng rồi, không bật lên được.",
-                "comment": "坏了 được xác nhận bởi dấu hiệu không khởi động.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我的手机坏了。",
+                "pinyin": "Wǒ de shǒujī huài le.",
+                "vi": "Điện thoại của tôi hỏng rồi.",
+                "note": "Đồ vật bị hỏng."
               },
               {
-                "id": "c2",
-                "zh": "这个手机不好用，但是还能开机。",
-                "vi": "Điện thoại này khó dùng, nhưng vẫn bật được.",
-                "comment": "不好用 chê trải nghiệm; máy còn hoạt động.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "这个苹果坏了。",
+                "pinyin": "Zhège píngguǒ huài le.",
+                "vi": "Quả táo này hỏng rồi.",
+                "note": "Thức ăn bị hư."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "把 这家店人很多 里的 多 换成 大，会变成 这家店人很大，通常被理解为 người ở cửa hàng có vóc dáng lớn và nghe lạc đề trong tình huống này. Muốn nói cửa hàng có quy mô lớn thì đổi chủ thể thành 这家店很大。"
-            },
-            "boundary": "Một đồ vật hỏng thường cũng khiến nó không tốt khi dùng; 不好 dùng rộng hơn và không tự kết luận vật đã hỏng.",
-            "tip": "Không hoạt động/hư: 坏了; dùng kém nhưng có thể còn chạy: 不好用."
-          },
+            ]
+          }
+        ],
+        "confusions": [
           {
-            "id": "t2",
-            "title": "坏人 nói về con người",
-            "scene": "Bạn kể về một người có hành vi xấu.",
-            "possibleConfusion": "坏 còn xuất hiện trong từ ghép phổ biến nói về phẩm chất của người.",
-            "difference": "坏人 là người xấu; từ này không nói người bị hỏng. Cách đọc của 坏 không đổi.",
-            "cases": [
+            "id": "quality",
+            "afterSense": "broken",
+            "title": "坏了 và 不好用",
+            "explanation": "坏了 khẳng định vật hỏng; 不好用 chỉ trải nghiệm sử dụng kém.",
+            "contrasts": [
               {
-                "id": "c1",
-                "zh": "他不是坏人。",
-                "vi": "Anh ấy không phải người xấu.",
-                "comment": "坏人 nói về phẩm chất/hành vi của người.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "手机坏了，开不了机。",
+                "pinyin": "Shǒujī huài le, kāi bù liǎo jī.",
+                "vi": "Điện thoại hỏng, không bật được.",
+                "note": "Có dấu hiệu hỏng."
               },
               {
-                "id": "c2",
-                "zh": "他的手机坏了。",
-                "vi": "Điện thoại của anh ấy hỏng rồi.",
-                "comment": "Với đồ vật, 坏了 nói tình trạng hỏng.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "手机不好用，但是还能开机。",
+                "pinyin": "Shǒujī bù hǎo yòng, dànshì hái néng kāijī.",
+                "vi": "Điện thoại khó dùng nhưng vẫn bật được.",
+                "note": "Vẫn hoạt động."
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "坏人 và 手机坏了 dùng cùng chữ nhưng nghĩa do danh từ và khung câu quyết định; không thể thay cả cụm mà giữ nguyên ý."
-            },
-            "boundary": "坏人 là nghĩa phụ thông dụng cần nhận ra; bài này tập trung dùng 坏 để nói tình trạng đồ vật/thức ăn.",
-            "tip": "Nhìn danh từ theo sau: 坏人 là người xấu; đồ vật + 坏了 là bị hỏng."
+            "tip": "Không hoạt động: 坏了; dùng bất tiện: 不好用."
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "坏 đọc huài trong các nghĩa đã học; nghĩa “xấu” trong 坏人 khác nghĩa “hỏng” theo ngữ cảnh, không phải đa âm.",
-          "literalTranslation": "Không dịch 坏 thành một nghĩa duy nhất trong mọi câu; xác định đó là người hay đồ vật/thực phẩm.",
-          "confusables": "Đã phân biệt 坏了 với 不好用 và nhận ra nghĩa phổ biến 坏人."
-        },
-        "pronunciation": {
-          "text": "坏 mang thanh bốn; giữ giọng rơi rõ, không thêm âm nhẹ ở cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Điện thoại không bật được. Viết câu với 手机 + 坏了。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Người đó có hành vi xấu. Điền 坏人: 他不是____。"
-          }
-        ],
-        "answers": {
-          "q1": {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Điện thoại của tôi hỏng rồi.",
+            "tokens": [
+              "我的手机",
+              "坏了",
+              "。"
+            ],
             "accepted": [
-              "手机坏了。",
               "我的手机坏了。"
             ],
-            "explanation": "Vật đứng trước 坏了; có thể thêm 我的."
+            "model": "我的手机坏了。",
+            "explanation": "坏了 đứng sau vật.",
+            "wrongFeedback": "Đặt vật trước 坏了."
           },
-          "q2": {
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 这个苹果____，别吃。",
             "accepted": [
-              "他不是坏人。"
+              "坏了"
             ],
-            "explanation": "坏人 nói người xấu, không phải người bị hỏng."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Báo điện thoại của bạn hỏng rồi."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói một quả táo đã hỏng và không nên ăn."
+            "model": "这个苹果坏了，别吃。",
+            "explanation": "坏了 báo quả táo đã hư.",
+            "wrongFeedback": "Dùng 坏了 để báo thức ăn hỏng."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu điện thoại và tình trạng hỏng.",
-            "frame": "我的手机 + 坏了。",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "quality",
+            "type": "choice",
+            "prompt": "Điện thoại không bật được, chọn câu phù hợp.",
+            "choices": [
+              "手机坏了",
+              "手机不好用"
+            ],
+            "correctIndex": 0,
+            "model": "手机坏了",
+            "explanation": "Không bật được là dấu hiệu hỏng.",
+            "wrongFeedback": "不好用 chưa khẳng định máy hỏng."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói điện thoại của bạn hỏng rồi.",
+            "hints": [
+              "Nêu vật: 我的手机.",
+              "Dùng 坏了.",
+              "Mẫu: 我的手机坏了。"
+            ],
             "model": "我的手机坏了。",
             "vi": "Điện thoại của tôi hỏng rồi.",
             "criteria": [
-              "Dùng 坏了 để nói tình trạng.",
-              "Có thể lược 我的 nếu ngữ cảnh rõ."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu quả táo hỏng và khuyên không ăn.",
-            "frame": "这个苹果 + 坏了，+ 别吃。",
-            "model": "这个苹果坏了，别吃。",
-            "vi": "Quả táo này hỏng rồi, đừng ăn.",
-            "criteria": [
-              "坏了 đứng sau đồ ăn.",
-              "别吃 là khuyên tránh ăn."
+              "Đặt 坏了 sau vật."
             ]
           }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Điền từ: 我的手机____。",
+            "hiddenAnswer": "坏了",
+            "model": "我的手机坏了。"
+          },
+          {
+            "id": "r2",
+            "prompt": "坏了 báo tình trạng gì?",
+            "hiddenAnswer": "hỏng hoặc hư",
+            "model": "坏了"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Điện thoại của tôi hỏng rồi.",
+            "choices": [
+              "我的手机",
+              "坏了",
+              "。"
+            ],
+            "correct": [
+              "我的手机坏了。"
+            ],
+            "explanation": "坏了 đứng sau vật."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Điện thoại không bật được, chọn câu phù hợp.",
+            "choices": [
+              "手机坏了",
+              "手机不好用"
+            ],
+            "correctIndex": 0,
+            "explanation": "Không bật được là dấu hiệu hỏng."
+          }
         }
-      }
+      },
+      "task": "Nói điện thoại của bạn hỏng rồi.",
+      "model": "我的手机坏了。"
     },
     {
       "id": "hz-h1-36e11bd81443",
