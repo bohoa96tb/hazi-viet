@@ -1,13 +1,13 @@
 {
-  "version": "v2-review-003",
-  "batch": "review-003",
-  "contentCommit": "87eb82ba4ac7f78e139010e5f66226d225c1c623",
+  "version": "v2-review-004",
+  "batch": "review-004",
+  "contentCommit": "2f4f23ebbdf0b14fdf7c3952e8860b1e74bccfc8",
   "scopeCompleted": 367,
   "scopeTotal": 2224,
   "courseTotal": 2234,
   "ready": 377,
-  "courseSha256": "ff94d50c69548fbf322ea78ce5477df0f4cfb99116aeda9e6bc89a5cd7eeefdf",
-  "baseCommit": "ae19634a64943fb53cee41f82e534579f2e68810",
+  "courseSha256": "7985353995963ea6f5f866477a82d3dcdf03363a7b9d4b6ffd113071a95cab66",
+  "baseCommit": "cba402c799c6b5511364af80e533db805b8fe916",
   "verification": {
     "schema": true,
     "protectedHashes": true,
@@ -15,11 +15,11 @@
     "visualBrowser": false,
     "androidPlayback": false,
     "independentTeacherReview": false,
-    "visualScope": "process-batch verify, verify-review và test-dom.mjs đạt; đã rà 38/377 bài, sửa và rút gọn 书 và 本 theo độ khó, không tăng completedCount; renderer đã ẩn mã kỹ thuật và số schema trong luồng học. Pages run 40096992138 thành công đúng SHA 87eb82ba4ac7f78e139010e5f66226d225c1c623; tệp JSON live khớp byte, 4.870.171 bytes. Chưa xác minh bố cục trên thiết bị, TTS Android hoặc phản biện giáo viên độc lập.",
+    "visualScope": "process-batch verify, verify-review và test-dom.mjs đạt; đã rà 56/377 bài, giữ nguyên nội dung đúng và sửa bẫy 话 để có câu sai/câu sửa khớp nhãn; không tăng completedCount. Renderer đã ẩn mã kỹ thuật và số schema trong luồng học từ đợt trước. Pages run 40097517905 thành công đúng SHA 2f4f23ebbdf0b14fdf7c3952e8860b1e74bccfc8; tệp JSON live khớp byte, 4.870.851 bytes. Chưa xác minh bố cục trên thiết bị, TTS Android hoặc phản biện giáo viên độc lập.",
     "liveCourseVerified": true,
-    "liveCourseSha256": "ff94d50c69548fbf322ea78ce5477df0f4cfb99116aeda9e6bc89a5cd7eeefdf",
-    "liveCourseBytes": 4870171,
-    "verifiedPagesCommit": "87eb82ba4ac7f78e139010e5f66226d225c1c623",
-    "verifiedPagesRun": 40096992138
+    "liveCourseSha256": "7985353995963ea6f5f866477a82d3dcdf03363a7b9d4b6ffd113071a95cab66",
+    "liveCourseBytes": 4870851,
+    "verifiedPagesCommit": "2f4f23ebbdf0b14fdf7c3952e8860b1e74bccfc8",
+    "verifiedPagesRun": 40097517905
   }
 }

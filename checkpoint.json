@@ -29,7 +29,7 @@
   "supplementationStatus": "paused-until-review-complete",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-24-review-first",
-  "note": "Review-004: đã rà 56/377 bài theo chuẩn mới; nhóm 39–56 đã đọc và kiểm tra, sửa bẫy 话 để có câu sai và câu sửa rõ. Đang chờ commit và Pages của đợt này; bổ sung vẫn tạm dừng.",
+  "note": "Review-004: đã rà 56/377 bài theo chuẩn mới; nhóm 39–56 đã đọc và kiểm tra, sửa bẫy 话 để có câu sai và câu sửa rõ. Commit 2f4f23e đã push main; Pages run 40097517905 success và live course khớp SHA; bổ sung vẫn tạm dừng.",
   "sourceBlobs": {
     "progress.json": "2fddb5498fd1cea52cbaa1f1782fb658e6c87def",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
@@ -165,9 +165,9 @@
     ],
     "reviewedCount": 56,
     "reviewTotal": 377,
-    "releaseState": "local-verified-pending-commit",
-    "verifiedPagesRun": 40096992138,
-    "verifiedPagesCommit": "87eb82ba4ac7f78e139010e5f66226d225c1c623",
-    "liveCourseSha256": "ff94d50c69548fbf322ea78ce5477df0f4cfb99116aeda9e6bc89a5cd7eeefdf"
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40097517905,
+    "verifiedPagesCommit": "2f4f23ebbdf0b14fdf7c3952e8860b1e74bccfc8",
+    "liveCourseSha256": "7985353995963ea6f5f866477a82d3dcdf03363a7b9d4b6ffd113071a95cab66"
   }
 }
