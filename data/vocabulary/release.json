@@ -1,13 +1,13 @@
 {
-  "version": "v2-review-006",
-  "batch": "review-006",
-  "contentCommit": "ec462a18d052985df696543c56bb60b8f04a625a",
+  "version": "v2-review-007",
+  "batch": "review-007",
+  "contentCommit": "0c855af156e8ed551ec09dc5a4a411c3b0e2c96d",
   "scopeCompleted": 367,
   "scopeTotal": 2224,
   "courseTotal": 2234,
   "ready": 377,
-  "courseSha256": "6d22f33e5f38c53c8252ed1764dd7413dd8d4e2ddf21252e44b1fc9465ef1bbf",
-  "baseCommit": "1bfc8e46435f2632718705c5f70313ee294b846e",
+  "courseSha256": "479a81d4e2353a41f3190a7818e681cb74d318fca72a3c723b99c38d5577c980",
+  "baseCommit": "1dfbadad83069c6eb256209b433fb98c5fce112d",
   "verification": {
     "schema": true,
     "protectedHashes": true,
@@ -15,11 +15,11 @@
     "visualBrowser": false,
     "androidPlayback": false,
     "independentTeacherReview": false,
-    "visualScope": "process-batch verify, verify-review và test-dom.mjs đạt; đã rà 92/377 bài. Nhóm 75–92 được đọc toàn bộ; tách 16 usage gộp sai liên kết công thức với ví dụ, giữ nguyên câu mẫu đúng, và xác nhận 白/坏 không cần sửa. Renderer đã ẩn mã kỹ thuật và số schema từ đợt trước; không tăng completedCount. Pages run 40099150918 thành công đúng SHA ec462a18d052985df696543c56bb60b8f04a625a; tệp JSON live khớp byte với commit nội dung, course 4.876.606 bytes. Chưa xác minh bố cục trên thiết bị, TTS Android hoặc phản biện giáo viên độc lập.",
+    "visualScope": "process-batch verify, verify-review và test-dom.mjs đạt; đã rà 110/377 bài. Nhóm 93–110 được đọc toàn bộ; tách 14 usage gộp sai liên kết công thức với ví dụ, sửa nhãn bẫy và selfUse lệch ở 难, giữ nguyên câu mẫu đúng ngoài phần bẫy cần sửa. Không tăng completedCount. Pages run 40099831236 thành công đúng SHA 0c855af156e8ed551ec09dc5a4a411c3b0e2c96d; checkpoint và review-007 live khớp byte, course 4.878.554 bytes. Chưa xác minh bố cục trên thiết bị, TTS Android hoặc phản biện giáo viên độc lập.",
     "liveCourseVerified": true,
-    "liveCourseSha256": "6d22f33e5f38c53c8252ed1764dd7413dd8d4e2ddf21252e44b1fc9465ef1bbf",
-    "liveCourseBytes": 4876606,
-    "verifiedPagesCommit": "ec462a18d052985df696543c56bb60b8f04a625a",
-    "verifiedPagesRun": 40099150918
+    "liveCourseSha256": "479a81d4e2353a41f3190a7818e681cb74d318fca72a3c723b99c38d5577c980",
+    "liveCourseBytes": 4881554,
+    "verifiedPagesCommit": "0c855af156e8ed551ec09dc5a4a411c3b0e2c96d",
+    "verifiedPagesRun": 40099831236
   }
 }
