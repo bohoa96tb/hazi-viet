@@ -101,8 +101,19 @@
     "deviceAudioPlayback": "not-verified",
     "browserVisualLayout": "dom-simulation-only"
   },
-  "status": "verified-pending-commit",
-  "lastVerifiedRemoteCommit": "3ce49b378f7cc0db6b8da80cacdd400d84a17cac",
+  "status": "deployed-and-live-verified",
+  "lastVerifiedRemoteCommit": "c9d299efe512cf8bda06b24e66e4b4d43e3d9592",
   "lastVerifiedRemoteAt": "2026-10-24",
+  "deployment": {
+    "pagesRunId": 40080123269,
+    "pagesHeadSha": "c9d299efe512cf8bda06b24e66e4b4d43e3d9592",
+    "pagesStatus": "success",
+    "liveCourseDigestSha256": "efc3a5715fe32548f286cf13429ee3b607bac54b660c964f7b798b14277511af",
+    "liveLessonsVerified": [
+      "hz-h1-64d354d405bb",
+      "hz-h1-0a3f1c936624",
+      "hz-h1-1ac411c12450"
+    ]
+  },
   "note": "Đây là checkpoint kiểm định chất lượng riêng; không đặt lại hoặc thay thế tiến độ lịch sử V3. SHA commit chứa checkpoint này sẽ được xác minh sau khi commit/push, không tự tham chiếu trong file."
 }
