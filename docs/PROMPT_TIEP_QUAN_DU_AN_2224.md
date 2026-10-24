@@ -108,6 +108,10 @@ Từ đơn giản viết gọn; từ nhiều cách dùng hoặc dễ nhầm vi�
 
 **Biên soạn và cập nhật app:** Tạo đủ dữ liệu bài, đề, đáp án, giải thích, bài tự dùng, gợi ý từng mức và câu mẫu ẩn. App giữ đáp án/gợi ý đóng trước khi người học thử hoặc chủ động yêu cầu mở. Không dừng cả đợt biên soạn để đợi tôi làm bài trong chat. Không tự nhận chấm được câu mở hay giọng nói nếu app chưa có chức năng ấy; cung cấp tự đối chiếu và tiêu chí rõ ràng.
 
+### Ưu tiên rà soát hiện hành
+
+Khi `tools/vocabulary/review-checkpoint.json` còn ID chưa rà, chế độ mặc định là `review-existing-first`: xử lý bài đã có theo thứ tự khóa học, không chọn ID bổ sung kế tiếp của baseline. Tiến độ rà soát và tiến độ bổ sung là hai chỉ số độc lập. Chỉ đóng cổng này khi mọi bài đủ cấu trúc đã được rà, hoặc khi người dùng đổi ưu tiên rõ ràng.
+
 ## 5. Khi tôi nhắn “Tiếp tục”
 
 1. Đọc lại HEAD, tiến độ và dữ liệu thật từ GitHub; đồng bộ thay đổi từ `main` vào nhánh biên soạn mà không làm mất công việc.
@@ -151,4 +155,4 @@ Báo ngắn gọn:
 
 ## 9. Thực hiện ngay khi nhận prompt
 
-Khôi phục trạng thái mới nhất trên GitHub. Nếu đây là lần đầu áp dụng chuẩn mới, kiểm tra và hoàn thiện khả năng hỗ trợ chuẩn mới của app trước khi đánh dấu bài mới hoàn thành. Sau đó làm đợt chưa hoàn thành kế tiếp và triển khai theo quy trình trên. Nếu tôi chỉ yêu cầu sửa/lưu prompt hoặc xem bản thử, hoàn thành đúng việc đó, không tự chạy thêm đợt từ vựng.
+Khôi phục trạng thái mới nhất trên GitHub. Đọc checkpoint rà soát riêng và xử lý đợt rà soát kế tiếp trước khi bổ sung từ mới. Nếu đây là lần đầu áp dụng chuẩn mới, kiểm tra và hoàn thiện khả năng hỗ trợ chuẩn mới của app trước khi đánh dấu bài đã rà. Chỉ khi không còn bài đủ cấu trúc chưa rà, hoặc người dùng đổi ưu tiên, mới làm đợt bổ sung theo baseline. Nếu tôi chỉ yêu cầu sửa/lưu prompt hoặc xem bản thử, hoàn thành đúng việc đó, không tự chạy thêm đợt từ vựng.

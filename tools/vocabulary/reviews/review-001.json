@@ -1,0 +1,129 @@
+{
+  "id": "review-001",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-24-review-first",
+  "scope": "10 bài đầu theo thứ tự data.words; không tăng completedCount",
+  "authorship": "Đọc và tự rà nội dung theo chuẩn mới; chưa phản biện giáo viên độc lập.",
+  "entries": [
+    {
+      "reviewOrdinal": 1,
+      "id": "hz-h1-64d354d405bb",
+      "hanzi": "我",
+      "difficulty": "dễ",
+      "reason": "Một đại từ cơ bản; điểm cần giữ là phân biệt người nói với 我们 và không dịch cứng đại từ tiếng Việt.",
+      "status": "reviewed",
+      "action": "Giữ nội dung; kiểm tra hai khung 我是 + người/vai trò và 我 + hành động, ví dụ, phủ định và đáp án khớp.",
+      "changed": false,
+      "sources": ["https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"],
+      "limits": ["Chưa phản biện giáo viên độc lập."]
+    },
+    {
+      "reviewOrdinal": 2,
+      "id": "hz-h1-0a3f1c936624",
+      "hanzi": "你",
+      "difficulty": "trung bình",
+      "reason": "Đại từ đơn giản về hình thức nhưng dễ nhầm với 朋友, 您 và 你们; ví dụ có cả chủ thể, đối tượng và câu hỏi xác nhận.",
+      "status": "reviewed",
+      "action": "Sửa mô tả tình huống, công thức và tiêu đề khung: dùng ‘你 + 是 + người hoặc vai trò + 吗’ để hỏi xác nhận ‘Bạn có phải là… không?’, không dùng ‘danh tính’ trừu tượng.",
+      "changed": true,
+      "changedPaths": ["scene", "pattern", "examples[].translationSteps.choice", "examples[].translationSteps.order", "lesson.usages[0].intent", "lesson.usages[0].frame", "lesson.usages[0].position", "lesson.usages[0].required", "lesson.usages[0].transform.limit", "lesson.usages[0].collocations[0].purpose"],
+      "sources": ["https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"],
+      "limits": ["Cấu trúc V1 cũ vẫn được giữ để bảo toàn tương thích; luồng giao diện còn backlog ẩn mã schema.", "Chưa phản biện giáo viên độc lập."]
+    },
+    {
+      "reviewOrdinal": 3,
+      "id": "hz-h1-1ac411c12450",
+      "hanzi": "您",
+      "difficulty": "trung bình",
+      "reason": "Không chỉ là ‘người lớn tuổi’; cần phân biệt sắc thái kính trọng, 您/你 và lỗi tạo số nhiều 您们.",
+      "status": "reviewed",
+      "action": "Giữ nội dung; kiểm tra ví dụ mời, hỏi và cảm ơn đều khớp sắc thái kính trọng.",
+      "changed": false,
+      "sources": ["https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"],
+      "limits": ["Chưa phản biện giáo viên độc lập."]
+    },
+    {
+      "reviewOrdinal": 4,
+      "id": "hz-h1-fb76fb22fed2",
+      "hanzi": "他",
+      "difficulty": "dễ",
+      "reason": "Đại từ ngôi ba cơ bản; bẫy thật là 他 không có nghĩa riêng là anh trai và cần phân biệt 他/她 khi viết.",
+      "status": "reviewed",
+      "action": "Giữ nội dung; kiểm tra khung 是 và 认识 cùng câu hỏi/phủ định.",
+      "changed": false,
+      "sources": ["https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"],
+      "limits": ["Chưa phản biện giáo viên độc lập."]
+    },
+    {
+      "reviewOrdinal": 5,
+      "id": "hz-h1-489f35fdb6de",
+      "hanzi": "她",
+      "difficulty": "dễ",
+      "reason": "Đại từ ngôi ba cơ bản; bẫy chính là không dùng 她 để gọi trực tiếp người nghe và không suy ra tuổi từ chữ.",
+      "status": "reviewed",
+      "action": "Giữ nội dung; kiểm tra đối chiếu 他/她 và vị trí tân ngữ.",
+      "changed": false,
+      "sources": ["https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"],
+      "limits": ["Chưa phản biện giáo viên độc lập."]
+    },
+    {
+      "reviewOrdinal": 6,
+      "id": "hz-h1-14cd68fb49a8",
+      "hanzi": "我们",
+      "difficulty": "trung bình",
+      "reason": "Cần làm rõ nhóm có thể gồm hoặc không gồm người nghe, khác thói quen dịch chúng tôi/chúng ta trong tiếng Việt.",
+      "status": "reviewed",
+      "action": "Giữ nội dung; kiểm tra ví dụ giới thiệu nhóm, cùng làm và câu hỏi có khớp phạm vi nhóm.",
+      "changed": false,
+      "sources": ["https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"],
+      "limits": ["Chưa phản biện giáo viên độc lập."]
+    },
+    {
+      "reviewOrdinal": 7,
+      "id": "hz-h1-84d9b4b03d4f",
+      "hanzi": "你们",
+      "difficulty": "dễ",
+      "reason": "Dạng số nhiều trực tiếp của 你; cần giữ ranh giới một người/nhóm và không bao gồm người nói.",
+      "status": "reviewed",
+      "action": "Giữ nội dung; kiểm tra lời chào, cảm ơn, hỏi và phủ định đều hướng tới nhóm người nghe.",
+      "changed": false,
+      "sources": ["https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"],
+      "limits": ["Chưa phản biện giáo viên độc lập."]
+    },
+    {
+      "reviewOrdinal": 8,
+      "id": "hz-h1-0e7703e395dc",
+      "hanzi": "汉字",
+      "difficulty": "trung bình",
+      "reason": "Người Việt dễ đồng nhất 汉字 với tiếng Trung; cần phân biệt chữ Hán, từ vựng và cách đếm chữ.",
+      "status": "reviewed",
+      "action": "Giữ nội dung; kiểm tra lượng từ 个, ví dụ viết/nhận diện và bẫy 汉字/中文.",
+      "changed": false,
+      "sources": [],
+      "limits": ["Chưa có nguồn ngoài đã truy cập trong đợt này; nội dung phù hợp dữ liệu hiện có nhưng cần đối chiếu từ điển khi rà sâu.", "Chưa phản biện giáo viên độc lập."]
+    },
+    {
+      "reviewOrdinal": 9,
+      "id": "hz-h1-722d36ebd9c0",
+      "hanzi": "谢谢",
+      "difficulty": "dễ",
+      "reason": "Cách nói cơ bản; điểm cần giữ là có thể đứng riêng hoặc nêu người/việc được cảm ơn và không nhầm với lời đáp.",
+      "status": "reviewed",
+      "action": "Giữ nội dung; kiểm tra các mẫu 谢谢, 谢谢你 và 谢谢 + việc có lời giải phù hợp.",
+      "changed": false,
+      "sources": ["https://chinese.lec.u-tokai.ac.jp/apps/p.13_aisatsu_daigakumei_read.html"],
+      "limits": ["Chưa phản biện giáo viên độc lập."]
+    },
+    {
+      "reviewOrdinal": 10,
+      "id": "hz-h1-3f50a387a499",
+      "hanzi": "不客气",
+      "difficulty": "trung bình",
+      "reason": "Cụm đáp lời cảm ơn; người mới học dễ dùng thay cho 没关系 khi đáp lời xin lỗi.",
+      "status": "reviewed",
+      "action": "Giữ nội dung; kiểm tra tình huống đáp lời cảm ơn, câu nối tiếp và đối chiếu với 没关系.",
+      "changed": false,
+      "sources": [],
+      "limits": ["Chưa có nguồn ngoài đã truy cập trong đợt này; cần đối chiếu thêm khi rà các đáp lời gần nghĩa.", "Chưa phản biện giáo viên độc lập."]
+    }
+  ]
+}

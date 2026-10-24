@@ -3424,7 +3424,7 @@
       "meaning": "bạn",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "đã rà theo CONTENT_STANDARD_V2-2026-10-24-review-first; sửa công thức hỏi xác nhận; chưa phản biện độc lập",
       "examples": [
         {
           "zh": "你是老师吗？",
@@ -3435,8 +3435,8 @@
           "practiceAllowed": true,
           "translationSteps": {
             "intention": "Muốn hỏi người đối diện có phải giáo viên không.",
-            "choice": "Chọn 你 cho người nghe, 是 cho danh tính và 吗 để hỏi.",
-            "order": "Xếp người nghe, 是, danh tính 老师, rồi 吗.",
+            "choice": "Chọn 你 cho người nghe, 是 để nối người nghe với người hoặc vai trò, và 吗 để hỏi xác nhận.",
+            "order": "Xếp người nghe, 是, người hoặc vai trò 老师, rồi 吗.",
             "result": "你是老师吗？"
           },
           "id": "e01"
@@ -3478,9 +3478,9 @@
           "id": "e05"
         }
       ],
-      "scene": "Bạn hỏi người đang nói chuyện với mình hôm nay có rảnh không.",
+      "scene": "Bạn hỏi người đang nói chuyện có phải là giáo viên không.",
       "when": "你 chỉ một người đối thoại. Dùng 您 khi muốn thể hiện sự kính trọng rõ hơn.",
-      "pattern": "你 + thời gian + hoạt động; 你是 + danh tính",
+      "pattern": "你 + thời gian + hoạt động; 你 + 是 + người hoặc vai trò + 吗",
       "trap": "你 là một người. Hỏi nhiều người cùng lúc thường dùng 你们; không dùng 你们 cho một người để tăng lịch sự.",
       "task": "Hỏi một người đối diện có phải là giáo viên không.",
       "model": "你是老师吗？",
@@ -3558,8 +3558,8 @@
             "practiceAllowed": true,
             "translationSteps": {
               "intention": "Muốn hỏi người đối diện có phải giáo viên không.",
-              "choice": "Chọn 你 cho người nghe, 是 cho danh tính và 吗 để hỏi.",
-              "order": "Xếp người nghe, 是, danh tính 老师, rồi 吗.",
+              "choice": "Chọn 你 cho người nghe, 是 để nối người nghe với người hoặc vai trò, và 吗 để hỏi xác nhận.",
+              "order": "Xếp người nghe, 是, người hoặc vai trò 老师, rồi 吗.",
               "result": "你是老师吗？"
             },
             "id": "e01"
@@ -3603,23 +3603,23 @@
         ],
         "usages": [
           {
-            "intent": "Hỏi người đang nói chuyện là ai.",
-            "frame": "你 + 是 + danh tính + 吗",
-            "position": "你 đứng trước phần hỏi danh tính; 吗 đứng cuối.",
-            "required": "Muốn hỏi có phải theo mẫu này giữ cả 是 và 吗.",
+            "intent": "Xác nhận người đang nói chuyện có phải là một người hoặc vai trò nào đó.",
+            "frame": "你 + 是 + người hoặc vai trò + 吗",
+            "position": "你 đứng đầu; 是 đứng trước người hoặc vai trò cần xác nhận; 吗 đứng cuối.",
+            "required": "Muốn hỏi xác nhận, giữ 你 ở đầu, 是 trước người hoặc vai trò và 吗 ở cuối.",
             "omission": "Nếu đã rõ đang hỏi ai, có thể chỉ hỏi 是老师吗 trong hội thoại; 你 làm câu rõ đối tượng hơn.",
             "exampleId": "e01",
             "transform": {
               "change": "Đổi nghề giáo viên sang vai trò người học.",
               "exampleId": "e02",
-              "limit": "Đổi danh tính nhưng không thay thành hành động rồi giữ nguyên 是."
+              "limit": "Đổi người hoặc vai trò cần xác nhận; nếu hỏi một hành động thì không giữ nguyên 是."
             },
             "caution": "你 không phải cách gọi một người thứ ba khi họ không phải người nghe.",
             "collocations": [
               {
                 "zh": "你是老师吗",
                 "vi": "bạn có phải giáo viên không",
-                "purpose": "Hỏi thông tin trực tiếp."
+                "purpose": "Hỏi người đối diện có phải là giáo viên không."
               }
             ],
             "forms": [

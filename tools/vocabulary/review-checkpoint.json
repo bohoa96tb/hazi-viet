@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "repository": "bohoa96tb/hazi-viet",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-24-review-first",
+  "workMode": "review-existing-first",
+  "scope": {
+    "type": "currently-structured-course-lessons",
+    "source": "data/vocabulary/hanzii-course.json",
+    "order": "data.words order",
+    "total": 377,
+    "includesOutsideBaseline": 10
+  },
+  "reviewedCount": 10,
+  "remainingCount": 367,
+  "reviewedIds": [
+    "hz-h1-64d354d405bb",
+    "hz-h1-0a3f1c936624",
+    "hz-h1-1ac411c12450",
+    "hz-h1-fb76fb22fed2",
+    "hz-h1-489f35fdb6de",
+    "hz-h1-14cd68fb49a8",
+    "hz-h1-84d9b4b03d4f",
+    "hz-h1-0e7703e395dc",
+    "hz-h1-722d36ebd9c0",
+    "hz-h1-3f50a387a499"
+  ],
+  "lastReviewedOrdinal": 10,
+  "lastReviewedId": "hz-h1-3f50a387a499",
+  "nextReviewOrdinal": 11,
+  "nextReviewIds": [
+    "hz-h1-15b6a3af5e33",
+    "hz-h1-b71f4cfff8c9",
+    "hz-h1-dadf7ffde866",
+    "hz-h1-d869fcbf074b",
+    "hz-h1-628ff5c3507e",
+    "hz-h1-4247545ee5f9",
+    "hz-h1-b05b84230588",
+    "hz-h1-4789a966f565",
+    "hz-h1-277c140499d4",
+    "hz-h1-ac895f18b59d",
+    "hz-h1-fdbb78c8e725",
+    "hz-h1-22357796d4e3",
+    "hz-h1-58837eebf47f",
+    "hz-h1-8de2a5b77843",
+    "hz-h1-f05455e3c9c0",
+    "hz-h1-f41783418fc4",
+    "hz-h1-8341aa4cbe2d",
+    "hz-h1-f122294ca48f"
+  ],
+  "latestReviewBatch": "review-001",
+  "supplementation": {
+    "status": "paused-until-review-complete",
+    "scopeTotal": 2224,
+    "completedCount": 367,
+    "remaining": 1857,
+    "nextOrdinal": 368,
+    "nextIdsSource": "checkpoint.json.nextIds"
+  },
+  "uiBacklogSource": "docs/PROJECT_STATUS.md",
+  "limits": [
+    "Tự rà nội dung, schema và luồng DOM; chưa phải phản biện giáo viên độc lập.",
+    "Chưa kiểm bố cục mobile và TTS trên thiết bị Android thật."
+  ]
+}

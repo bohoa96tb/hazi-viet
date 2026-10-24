@@ -43,3 +43,13 @@ Từ batch-005, bài mới dùng `lesson.version:2`; hợp đồng dữ liệu v
 58 record đủ mẫu ở mốc trước batch-005 (48 trong baseline và 10 ngoài baseline) giữ nguyên nội dung và hash. Không gọi việc giữ tương thích là biên tập lại bài cũ. Mục sửa lại trong tương lai phải có danh sách ID, trước/sau, hash hợp lệ và không tăng completedCount.
 
 Đã kiểm đại diện desktop trên website live. Kiểm thử DOM và kế hoạch audio không chứng nhận bố cục mobile hoặc phát âm trên Android thật; chưa phản biện giáo viên độc lập. Trạng thái xuất bản phải đọc docs/RELEASE.md và GitHub/live thực tế.
+
+## Quy trình rà soát bài đã có
+
+Rà soát bài đã có là một tiến độ riêng, không được suy ra từ số mục bổ sung trong `progress.json`. Phạm vi là mọi bài hiện đang đủ cấu trúc theo thứ tự khóa học, gồm cả bài V1, V2 và 10 bài ngoài baseline. Trong mỗi lượt:
+
+- Đọc nội dung thật trước khi đánh dấu; phân loại `dễ`, `trung bình` hoặc `khó` và ghi lý do trong metadata đợt rà soát.
+- Bài dễ được rút gọn phần lặp nhưng vẫn giữ trường dữ liệu, âm thanh, ví dụ và bài tập bắt buộc. Bài trung bình phải làm rõ kết hợp, vị trí và bẫy thật. Bài khó phải tách nghĩa/chức năng, điều kiện và đối chiếu cần thiết; tra nguồn khi điểm đó chưa chắc.
+- Kiểm tra riêng sự khớp nhau giữa công thức, câu mẫu, câu hỏi, đáp án, lời giải và audio. Validator chỉ xác nhận hợp đồng dữ liệu, không thay cho việc đọc hiểu nội dung.
+- Lưu ID đã rà trong `tools/vocabulary/review-checkpoint.json` và metadata chi tiết trong `tools/vocabulary/reviews/`. Không tăng `completedCount` khi sửa bài cũ.
+- Khi còn ID chưa rà, chế độ mặc định là `review-existing-first`; không tự chuyển sang bổ sung ID kế tiếp của baseline.

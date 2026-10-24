@@ -15,12 +15,24 @@ Người dùng đã cho phép biên soạn, sửa dữ liệu/code cần thiết
 8. Cập nhật main đã được cho phép. Xác minh file/tree liên quan sau ghi. Kiểm GitHub Pages bằng workflow run có head_sha đúng commit phát hành (không chỉ run mới nhất, không chỉ workflow PR). Phân biệt đã lưu GitHub, đang triển khai, triển khai thành công, và dữ liệu live đã xác minh. Với thay đổi học liệu, kiểm các bài mới/dữ liệu liên quan trên website thật. Ghi bằng chứng đã quan sát; không báo thành công khi pending hoặc chưa kiểm.
 9. Cuối lượt chỉ báo: số mục mới hoàn thành, tổng tiến độ, commit, trạng thái phát hành và lỗi nếu có.
 
+## Ưu tiên hiện hành
+
+Khi `review-checkpoint.json.workMode` là `review-existing-first`, quy tắc rà soát ở trên được ưu tiên hơn quy trình chọn ID baseline trong mục 4. Không tự bổ sung từ mới khi còn bài đủ cấu trúc chưa được rà.
+
 ## Khi nào rà soát sâu
 Chỉ mở rộng phạm vi khi xung đột commit, checkpoint sai, baseline/hash/ID lệch, cấu trúc thay đổi hoặc kiểm thử lỗi. Điều tra đúng phần gây lỗi trước. Không init lại baseline hay sửa hash để che lỗi. Không hạ chuẩn hoặc bỏ kiểm tính toàn vẹn để tăng tốc.
 
 ## Checkpoint
 `checkpoint.json` là cache gọn có dấu vân tay nguồn, đợt cuối và nhóm tiếp theo; phải cập nhật mỗi đợt. Nếu thiếu hoặc cũ, tái tạo từ progress/baseline hiện hành. Không cần append dài vào handoff hay tạo commit chỉ để ghi SHA của chính nó.
 Yêu cầu chỉ sửa/lưu quy trình hoặc bản thử thì hoàn thành đúng phạm vi; không tự tạo thêm đợt từ vựng.
+
+## Cổng rà soát bài đã có
+
+- `tools/vocabulary/review-checkpoint.json` là nguồn tiến độ riêng cho rà soát chất lượng; không dùng `progress.json.completedCount` để đại diện cho tiến độ này.
+- Phạm vi rà soát là mọi bài đang đủ cấu trúc trong thứ tự `data/vocabulary/hanzii-course.json`, gồm cả V1, V2 và 10 mục ngoài baseline. Chỉ đánh dấu một ID là `reviewed` sau khi đã đọc nội dung, phân loại độ khó, kiểm tra nghĩa/cách dùng/bẫy/ví dụ/bài tập/đáp án và chạy kiểm tra liên quan.
+- Metadata mỗi đợt phải lưu ID ổn định, ordinal rà soát, mức `dễ`/`trung bình`/`khó`, lý do, thay đổi hoặc kết luận giữ nguyên, nguồn và giới hạn kiểm chứng. Sửa bài cũ không tăng `completedCount`.
+- `docs/PROJECT_STATUS.md` phải tách rõ tiến độ rà soát, tiến độ bổ sung còn thiếu và backlog giao diện.
+- Khi cổng rà soát mở, mọi batch bổ sung từ ordinal 368 trở đi bị tạm dừng; chỉ chuyển lại sau khi rà soát xong hoặc người dùng đổi ưu tiên.
 
 ## Cổng an toàn trước cập nhật main
 
