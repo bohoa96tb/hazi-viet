@@ -3135,10 +3135,10 @@
         "contentVersion": 3,
         "cohortOrdinal": 1,
         "difficulty": "easy",
-        "difficultyReason": "Một đại từ có nghĩa trọng tâm rõ và dùng trực tiếp để chỉ người đang nói; vị trí chủ ngữ hoặc sau động từ đều dễ áp dụng sau vài ví dụ.",
+        "difficultyReason": "Qua năm tiêu chí, 我 chỉ có một chức năng thông dụng, đứng như chủ ngữ hoặc tân ngữ, kết hợp đơn giản và ít gây nhầm; người Việt có thể tự đặt câu sau khi phân biệt 我是 với 我 + động từ.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà lại độ khó, nghĩa, Pinyin, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã kiểm định lại theo chuẩn chất lượng V3: năm tiêu chí độ khó, nghĩa, Pinyin, ví dụ, đáp án, audio và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
         ],
@@ -3228,6 +3228,7 @@
             "level": "Cơ bản · chạm sắp xếp",
             "type": "order",
             "prompt": "Chạm các mảnh để tạo câu: Tôi là người Việt Nam.",
+            "context": "Bạn tự giới thiệu quốc tịch với người mới gặp.",
             "tokens": [
               "我",
               "是",
@@ -3239,7 +3240,7 @@
             ],
             "model": "我是越南人。",
             "explanation": "我 đứng đầu câu; 是 nối với danh tính 越南人.",
-            "wrongFeedback": "Hãy xếp người nói trước, rồi đến 是 và danh tính."
+            "wrongFeedback": "Hãy đặt người nói trước; dùng 是 khi nối 我 với danh tính 越南人. Không dùng 是 trước một hoạt động."
           }
         ],
         "discriminationExercises": [
@@ -3378,10 +3379,10 @@
         "contentVersion": 3,
         "cohortOrdinal": 2,
         "difficulty": "easy",
-        "difficultyReason": "Một đại từ chỉ người nghe, nghĩa rõ và vị trí trong câu giống danh từ.",
+        "difficultyReason": "Qua năm tiêu chí, 你 có một nghĩa chính, giữ vị trí như danh từ ở chủ ngữ hoặc tân ngữ, kết hợp trực tiếp và chỉ cần phân biệt số ít với 你们; người Việt dễ tự dùng sau một tình huống hỏi–đáp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã kiểm định lại theo chuẩn chất lượng V3: năm tiêu chí độ khó, nghĩa, Pinyin, bản dịch, ví dụ, đáp án, audio và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
         ],
@@ -3471,6 +3472,7 @@
             "level": "Cơ bản · chạm sắp xếp",
             "type": "order",
             "prompt": "Chạm các mảnh để tạo câu: Bạn có phải là giáo viên không?",
+            "context": "Bạn hỏi riêng một người đang nói chuyện với mình.",
             "tokens": [
               "你",
               "是",
@@ -3483,7 +3485,7 @@
             ],
             "model": "你是老师吗？",
             "explanation": "Sắp xếp theo cấu trúc đã học.",
-            "wrongFeedback": "Kiểm tra lại vị trí chủ ngữ, động từ và thành phần cuối câu."
+            "wrongFeedback": "Đặt người nghe trước, rồi 是 + danh tính; 吗 đứng cuối để biến câu thành câu hỏi."
           }
         ],
         "discriminationExercises": [
@@ -3621,11 +3623,11 @@
         "version": 3,
         "contentVersion": 3,
         "cohortOrdinal": 3,
-        "difficulty": "easy",
-        "difficultyReason": "Một đại từ có nghĩa rõ; điểm cần nhớ duy nhất là sắc thái kính trọng với một người.",
+        "difficulty": "medium",
+        "difficultyReason": "Qua năm tiêu chí, 您 có một chức năng chính nhưng người học phải chọn sắc thái kính trọng theo quan hệ, dùng đúng vị trí như 你 và tránh suy luận rằng mọi người lạ đều phải dùng 您; vì vậy khó hơn một đại từ trực tiếp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã kiểm định lại theo chuẩn chất lượng V3: năm tiêu chí độ khó, sắc thái lịch sự, Pinyin, bản dịch, ví dụ, đáp án, audio và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html"
         ],
@@ -3727,6 +3729,20 @@
             "model": "您请坐。",
             "explanation": "Sắp xếp theo cấu trúc đã học.",
             "wrongFeedback": "Kiểm tra lại vị trí chủ ngữ, động từ và thành phần cuối câu."
+          },
+          {
+            "id": "g2",
+            "level": "Mức 2 · Hoàn thành lời chào",
+            "type": "fill",
+            "prompt": "Điền một chữ: ___好，请坐。",
+            "context": "Bạn chào một vị khách một cách kính trọng.",
+            "accepted": [
+              "您",
+              "您好，请坐。"
+            ],
+            "model": "您好，请坐。",
+            "explanation": "您好 là lời chào lịch sự với một người; 请坐 mời người đó ngồi.",
+            "wrongFeedback": "Hãy chọn đại từ dành cho một người được xưng hô kính trọng, không chọn đại từ chỉ người thứ ba."
           }
         ],
         "discriminationExercises": [
@@ -3736,13 +3752,13 @@
             "type": "choice",
             "prompt": "Bạn kính trọng nói với một vị khách. Chọn đại từ.",
             "choices": [
-              "您",
-              "你们"
+              "你",
+              "您"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "model": "您",
-            "explanation": "Không phải lúc nào cũng cần 您; dùng theo quan hệ và hoàn cảnh.",
-            "wrongFeedback": "Đọc lại tình huống và điểm phân biệt ở bước Hiểu."
+            "explanation": "Đang nói lịch sự với một vị khách nên chọn 您. 你 không sai trong mọi hoàn cảnh, nhưng ít thể hiện kính trọng hơn.",
+            "wrongFeedback": "Hãy xem quan hệ và mục đích giao tiếp: ở đây cần thể hiện sự kính trọng với một người khách."
           }
         ],
         "productionExercises": [

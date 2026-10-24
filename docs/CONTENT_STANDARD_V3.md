@@ -2,13 +2,13 @@
 
 V3 áp dụng cho quá trình tái biên soạn 2.224 mục baseline và 10 mục hoàn thiện ngoài baseline. Thứ tự và ID lấy từ `tools/vocabulary/baseline.json`; `cohortOrdinal` không phải `sourceIndex`.
 
-Mỗi bài có năm bước **Hiểu → Ghép câu → Phân biệt → Tự dùng → Ôn nhớ**. Bài lưu `difficulty` (`easy`, `medium`, `hard`), lý do ngắn, `contentVersion: 3`, ngày rà soát và trạng thái chất lượng. Độ khó được xét theo số nghĩa, vai trò ngữ pháp, cấu trúc, khả năng nhầm và khả năng tự áp dụng; không suy từ HSK hay số nét.
+Mỗi bài có năm bước **Hiểu → Ghép câu → Phân biệt → Tự dùng → Ôn nhớ**. Bài lưu `difficulty` (`easy`, `medium`, `hard`), lý do ngắn, `contentVersion: 3`, ngày rà soát và trạng thái chất lượng. Giao diện phải hiển thị ngay dưới tiêu đề nhãn **Độ khó thực tế: Dễ / Trung bình / Khó** và lý do ngắn để người học biết cách học. Độ khó được xét theo năm tiêu chí: số nghĩa/chức năng, vai trò ngữ pháp và vị trí, cấu trúc/kết hợp, khả năng nhầm lẫn, và độ khó khi người Việt tự đặt câu; không suy từ HSK, số nét hoặc số chữ Hán.
 
 - `easy`: nghĩa và cách dùng trực tiếp; tối thiểu 1 bài ghép câu, 1 tình huống phân biệt cách dùng, 1 nhiệm vụ tự dùng và 2 thẻ ôn.
 - `medium`: có cấu trúc hoặc nhầm lẫn cần dạy; tối thiểu 2 bài ghép câu, 1 bài phân biệt, 1 nhiệm vụ tự dùng và 2 thẻ ôn.
 - `hard`: nhiều nghĩa/cấu trúc hoặc bẫy; tối thiểu 3 bài ghép câu, 2 bài phân biệt, 2 nhiệm vụ tự dùng và 3 thẻ ôn.
 
-Đây là mức sàn, không phải khuôn độ dài. Số `senses`, `collocations` và `confusions` theo nội dung thật; danh sách cụm từ và bẫy có thể rỗng. Bài Phân biệt khi không có bẫy gắn với một cách dùng đã dạy, không tạo bẫy giả. Mỗi bẫy có thật phải xuất hiện ngay sau cách dùng liên quan và có đối chiếu cụ thể.
+Đây là mức sàn, không phải khuôn độ dài hay tỷ lệ thống kê. Số `senses`, `collocations` và `confusions` theo nội dung thật; danh sách cụm từ và bẫy có thể rỗng. Bài Phân biệt khi không có bẫy gắn với một cách dùng đã dạy, không tạo bẫy giả. Mỗi bẫy có thật phải xuất hiện ngay sau cách dùng liên quan và có đối chiếu cụ thể. Bài 下 ở ordinal 495 là gold standard về độ rõ, trình tự, tương tác và trải nghiệm học; không sao chép độ dài hoặc số nghĩa của bài đó sang từ khác.
 
 ## Quy trình phân loại và kiểm định từng mục
 
@@ -30,7 +30,9 @@ Bài sắp xếp dùng các nút chạm thật. Trả lời sai không lộ đá
 
 V3 không có bài giảng riêng về phát âm, khẩu hình, bộ thủ, cấu tạo, nguồn gốc hay thứ tự nét. Pinyin có dấu, audio câu/từ và liên kết Hanzi sang công cụ phân tích vẫn được giữ. V1/V2 tiếp tục được nạp và hiển thị trong giai đoạn chuyển đổi.
 
-Checkpoint riêng: `tools/vocabulary/v3-rewrite-checkpoint.json`. Tiến độ V2 cũ không được dùng làm số hoàn thành V3. `completedBaselineIds` phải là tiền tố liên tục của baseline và chỉ tăng trong cùng lần áp dụng batch đã qua validator. Checkpoint lưu SHA remote đã xác minh của lượt trước, trạng thái batch hiện tại và digest dữ liệu; không lưu SHA tự tham chiếu của commit đang chứa chính checkpoint. Sau push phải đối chiếu HEAD remote bằng Git.
+Checkpoint biên soạn lịch sử: `tools/vocabulary/v3-rewrite-checkpoint.json`. Checkpoint kiểm định chất lượng riêng: `tools/vocabulary/v3-quality-revision-checkpoint.json`. Tiến độ V2 cũ không được dùng làm số hoàn thành V3. `completedBaselineIds` phải là tiền tố liên tục của baseline và chỉ tăng trong cùng lần áp dụng batch đã qua validator. Checkpoint kiểm định phải ghi chuẩn đang dùng, ordinal hiện tại, bài đạt/giữ nguyên, bài đã viết lại, bài còn cần sửa, lý do độ khó, SHA/digest và trạng thái kiểm thử. Không biến bài chỉ PASS validator thành bài đã đạt chuẩn mới nếu chưa rà ngôn ngữ và sư phạm. Checkpoint lưu SHA remote đã xác minh của lượt trước, trạng thái batch hiện tại và digest dữ liệu; không lưu SHA tự tham chiếu của commit đang chứa chính checkpoint. Sau push phải đối chiếu HEAD remote bằng Git.
+
+Khi người dùng nhắn “Tiếp tục”, ưu tiên hoàn tất đợt kiểm định từ ordinal 1 theo thứ tự, kể cả khi tiến độ biên soạn cũ đã ở ordinal cao hơn. Chỉ quay lại luồng biên soạn mới sau khi checkpoint kiểm định ghi nhận đã bắt kịp tiến độ cũ.
 
 Mỗi lượt chỉ đọc HEAD, checkpoint, phần baseline sắp làm và file trực tiếp liên quan. Chọn cỡ batch theo độ khó và khả năng rà soát; có thể làm nhiều batch liên tiếp, nhưng từng batch phải kiểm thử, commit, push và xác minh trước khi tăng tiếp. Mục 495 `下` là pilot tham khảo và chỉ được tính đúng một lần khi tiến trình tuần tự tới đó. Mười ID ngoài baseline được giữ riêng, không làm lệch ordinal.
 

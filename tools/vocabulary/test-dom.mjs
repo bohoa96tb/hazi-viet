@@ -3,7 +3,7 @@
 import fs from 'node:fs';import assert from 'node:assert/strict';
 const {Window}=await import(process.env.HAPPY_DOM_MODULE||'/tmp/hazi-test-env/node_modules/happy-dom/lib/index.js');
 const root=new URL('../..',import.meta.url),read=p=>fs.readFileSync(new URL(p,root),'utf8');
-const d=JSON.parse(read('data/vocabulary/hanzii-course.json')),p=JSON.parse(read('progress.json'));
+const d=JSON.parse(read('data/vocabulary/hanzii-course.json')),p=JSON.parse(read('progress.json')),v3=JSON.parse(read('tools/vocabulary/v3-rewrite-checkpoint.json'));
 const sample=d.words.find(w=>w.lesson?.version===3&&w.lesson.difficulty==='easy');
 const hard=d.words.find(w=>w.lesson?.version===3&&w.lesson.difficulty==='hard');
 assert.equal(sample?.hanzi,'我','DOM test must directly exercise baseline word 1');assert(hard,'Hard V3 representative missing');
@@ -34,9 +34,17 @@ $('#wordSearch').value='不用';$('#wordSearch').dispatchEvent(new window.Event(
 click('[data-start="hz-h1-b51cd2090a80"]');assert(body().includes('bù yòng'));click('[data-step="2"]');assert(body().includes('不用')&&body().includes('不要'));const trapNext=$('[data-lesson-page="trap"][data-delta="1"]');if(trapNext){trapNext.click();assert(body().includes('不用')&&body().includes('不要'));}
 click('[data-action="close"]');$('#wordSearch').value='';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
 // A protected V1 word can still be opened through the same application.
-const old=p.completedIds.find(id=>[1,2].includes(d.words.find(w=>w.id===id)?.lesson?.version));$('#wordSearch').value=d.words.find(w=>w.id===old).hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-start="'+old+'"]');assert($('#lessonBody'));click('[data-step="1"]');assert($('#lessonBody'));
-// Exercise every new lesson through the real entry point, including empty traps.
-for(const id of p.batches.at(-1).wordIds){
+const old=p.completedIds.find(id=>[1,2].includes(d.words.find(w=>w.id===id)?.lesson?.version));
+$('#wordSearch').value=d.words.find(w=>w.id===old).hanzi;
+$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
+const oldTarget=`[data-start="${old}"]`;
+for(let page=0;!$(oldTarget)&&page<d.lessons.length;page++){
+ assert(!$('[data-lesson="1"]').disabled,'Protected target must be reachable: '+old);
+ click('[data-lesson="1"]');
+}
+click(oldTarget);assert($('#lessonBody'));click('[data-step="1"]');assert($('#lessonBody'));
+// Exercise the latest V3 batch through the real entry point, including empty traps.
+for(const id of v3.completedBaselineIds.slice(-6)){
  const word=d.words.find(w=>w.id===id);
  click('[data-action="close"]');click('[data-level="'+word.level+'"]');$('#wordSearch').value=word.hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
  const target='[data-start="'+id+'"]';

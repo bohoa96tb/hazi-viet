@@ -1,7 +1,7 @@
-import {auditLesson,sections as standardSections,lessonAudio,checkAudio} from './lesson-standard.js?v=v3-rewrite-001';
-import {renderStandardLesson} from './lesson-standard-view.js?v=v3-rewrite-001';
-import {statusLabels,studySteps,moveStep,coursePages,validateCourse,meaningQuiz} from './vocabulary-course.js?v=v3-rewrite-001';
-import {audioModes,lessonsOf,columnsOf,selectAudioWords,buildPlaylist,createAudioPlayer,chooseVoice,voiceMatches,speechErrorMessage} from './vocabulary-audio.js?v=v3-rewrite-001';
+import {auditLesson,sections as standardSections,lessonAudio,checkAudio} from './lesson-standard.js?v=v3-quality-revision-001';
+import {renderStandardLesson} from './lesson-standard-view.js?v=v3-quality-revision-001';
+import {statusLabels,studySteps,moveStep,coursePages,validateCourse,meaningQuiz} from './vocabulary-course.js?v=v3-quality-revision-001';
+import {audioModes,lessonsOf,columnsOf,selectAudioWords,buildPlaylist,createAudioPlayer,chooseVoice,voiceMatches,speechErrorMessage} from './vocabulary-audio.js?v=v3-quality-revision-001';
 import {createProgress,intervals} from './vocabulary-progress.js?v=4.0.0';
 const $=s=>document.querySelector(s),main=$('#vocabMain'),dialog=$('#wordDialog'),content=$('#wordContent');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -196,6 +196,6 @@ function handlePlayer(action){
 window.speechSynthesis?.addEventListener('voiceschanged',showVoices);
 document.addEventListener('change',e=>{const key=e.target.dataset.display;if(!key)return;display[key]=e.target.checked;if(!Object.values(display).some(Boolean)){display[key]=true;e.target.checked=true;notify('Giữ ít nhất một mục hiển thị để chọn được từ.');return}saveDisplay();renderList()});
 
-async function boot(){try{const r=await fetch('./data/vocabulary/hanzii-course.json?v=v3-batch-020');if(!r.ok)throw Error('Thiếu file data/vocabulary/hanzii-course.json.');dataset=validateCourse(await r.json());words=dataset.words;audioOptions.to=words.length;const p=new URLSearchParams(location.search),id=p.get('word'),saved=words.find(w=>w.id===id),step=Number(p.get('step')||0);if(saved)courseLevel=saved.level;route();if(saved){lessonPage=coursePages(dataset,filtered()).findIndex(l=>l.wordIds.includes(saved.id));openWord(saved.id,{stage:step,queue:lessonWords().map(w=>w.id)})}else if(id)notify('Từ được liên kết chưa có trong khóa học.')}catch(err){main.innerHTML=`<section class="panel"><h1>Chưa mở được bài học</h1><p>${esc(err.message)}</p><p>Hãy mở qua địa chỉ GitHub Pages, không mở file HTML trực tiếp.</p><button class="primary" id="retryLoad">Thử lại</button></section>`;$('#retryLoad').onclick=()=>location.reload()}}
+async function boot(){try{const r=await fetch('./data/vocabulary/hanzii-course.json?v=v3-quality-revision-001');if(!r.ok)throw Error('Thiếu file data/vocabulary/hanzii-course.json.');dataset=validateCourse(await r.json());words=dataset.words;audioOptions.to=words.length;const p=new URLSearchParams(location.search),id=p.get('word'),saved=words.find(w=>w.id===id),step=Number(p.get('step')||0);if(saved)courseLevel=saved.level;route();if(saved){lessonPage=coursePages(dataset,filtered()).findIndex(l=>l.wordIds.includes(saved.id));openWord(saved.id,{stage:step,queue:lessonWords().map(w=>w.id)})}else if(id)notify('Từ được liên kết chưa có trong khóa học.')}catch(err){main.innerHTML=`<section class="panel"><h1>Chưa mở được bài học</h1><p>${esc(err.message)}</p><p>Hãy mở qua địa chỉ GitHub Pages, không mở file HTML trực tiếp.</p><button class="primary" id="retryLoad">Thử lại</button></section>`;$('#retryLoad').onclick=()=>location.reload()}}
 boot();
 

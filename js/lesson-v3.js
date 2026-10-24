@@ -1,4 +1,4 @@
-import {splitSpeech} from './lesson-v2.js?v=v3-rewrite-001';
+import {splitSpeech} from './lesson-v2.js?v=v3-quality-revision-001';
 
 const filled=value=>typeof value==='string'&&value.trim().length>0;
 const list=(value,min=1)=>Array.isArray(value)&&value.length>=min;
