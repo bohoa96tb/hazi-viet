@@ -18525,224 +18525,215 @@
       "meaning": "nói; nói chuyện",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-006",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
       "examples": [
         {
-          "zh": "他们在说话。",
-          "vi": "Họ đang nói chuyện.",
-          "analysis": "在 trước 说话 báo hoạt động đang diễn ra; chưa nói rõ nội dung.",
-          "practiceAllowed": true,
-          "pinyin": "Tāmen zài shuōhuà.",
-          "id": "e1"
+          "id": "e1",
+          "zh": "我想说话。",
+          "pinyin": "Wǒ xiǎng shuōhuà.",
+          "vi": "Tôi muốn nói chuyện.",
+          "analysis": "说话 là cụm nói hoặc trò chuyện, không phải chỉ 说 đơn lẻ.",
+          "practiceAllowed": true
         },
         {
-          "zh": "我想跟你说话。",
-          "vi": "Tôi muốn nói chuyện với bạn.",
-          "analysis": "跟你 trước 说话 là người cùng nói; 想 trước cả cụm nêu ý muốn.",
-          "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "zh": "请不要说话。",
+          "pinyin": "Qǐng bú yào shuōhuà.",
+          "vi": "Xin đừng nói chuyện.",
+          "analysis": "不要 đứng trước cụm 说话 để yêu cầu không nói.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 44,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói hai đồng nghiệp đang nói chuyện.",
-      "model": "他们在说话。",
+      "task": "Nói rằng bạn muốn nói chuyện.",
+      "model": "我想说话。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 65,
+        "difficulty": "medium",
+        "difficultyReason": "说话 là cụm động từ, cần phân biệt với 说 + nội dung cụ thể và với 话 là danh từ lời nói.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Speaking"
+        ],
         "introduction": {
-          "scope": "Học hoạt động nói và cách nêu người mình nói cùng."
-        },
-        "meaning": {
-          "scene": "Bạn thấy hai đồng nghiệp đang nói chuyện hoặc muốn trao đổi với bạn mình.",
-          "explanation": "说话 là nói, cất lời hoặc nói chuyện. Có thể chỉ nêu hoạt động, không cần nêu đang nói điều gì.",
-          "boundary": "Nếu muốn nêu ngôn ngữ hoặc nội dung, thường dùng 说 rồi đặt nội dung sau: 说中文 là nói tiếng Trung. Muốn nói cùng ai, đặt 跟 + người trước 说话.",
-          "conditions": [
-            "跟你说话 là nói chuyện với bạn; 说话 không tự có nghĩa tán gẫu vui vẻ."
-          ],
-          "takeaway": "说话 là nói, cất lời hoặc nói chuyện. Có thể chỉ nêu hoạt động, không cần nêu đang nói điều gì."
+          "scope": "说话 nghĩa là nói chuyện hoặc phát ra lời nói, dùng như một cụm động từ."
         },
         "examples": [
           {
-            "zh": "他们在说话。",
-            "vi": "Họ đang nói chuyện.",
-            "analysis": "在 trước 说话 báo hoạt động đang diễn ra; chưa nói rõ nội dung.",
-            "practiceAllowed": true,
-            "pinyin": "Tāmen zài shuōhuà.",
-            "id": "e1"
+            "id": "e1",
+            "zh": "我想说话。",
+            "pinyin": "Wǒ xiǎng shuōhuà.",
+            "vi": "Tôi muốn nói chuyện.",
+            "analysis": "说话 là cụm nói hoặc trò chuyện, không phải chỉ 说 đơn lẻ.",
+            "practiceAllowed": true
           },
           {
-            "zh": "我想跟你说话。",
-            "vi": "Tôi muốn nói chuyện với bạn.",
-            "analysis": "跟你 trước 说话 là người cùng nói; 想 trước cả cụm nêu ý muốn.",
-            "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "zh": "请不要说话。",
+            "pinyin": "Qǐng bú yào shuōhuà.",
+            "vi": "Xin đừng nói chuyện.",
+            "analysis": "不要 đứng trước cụm 说话 để yêu cầu không nói.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "frame": "Người + 在 + 说话",
-            "position": "在 trước toàn bộ 说话.",
-            "required": "Chỉ hoạt động nói, không bắt buộc có nội dung sau.",
-            "omission": "Đã rõ người có thể nói 在说话。 khi đáp câu hỏi.",
-            "id": "u1",
-            "exampleId": "e1"
-          },
-          {
-            "frame": "Người + 跟 + người cùng nói + 说话",
-            "position": "跟 + người đứng trước 说话.",
-            "required": "Không đặt người trần sau cả cụm 说话 theo khung cơ bản này. Cùng nghĩa với 跟, 和 cũng dùng được trong 和你说话.",
-            "omission": "Đã rõ nói cùng ai, có thể lược 跟 + người.",
-            "id": "u2",
-            "exampleId": "e2"
-          }
-        ],
-        "traps": [
-          {
-            "title": "说话 và 说中文: hoạt động hay ngôn ngữ",
-            "scene": "Bạn muốn nói mình biết nói tiếng Trung.",
-            "possibleConfusion": "说话 là cả cụm; không nối thêm mọi nội dung sau nó theo mẫu 说 + nội dung.",
-            "difference": "说话 nêu việc nói; 说中文 lấy 中文 làm ngôn ngữ được nói. Muốn nêu điều nói có thể dùng 说一句话 — nói một câu.",
-            "cases": [
+            "id": "speak",
+            "title": "Nói chuyện",
+            "when": "Nói hoặc trò chuyện mà không nêu nội dung cụ thể.",
+            "meaning": "nói chuyện; nói",
+            "grammar": "说话 là cụm động từ, có thể sau 想 hoặc 不要.",
+            "pattern": "想/不要+说话",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "他在说话。",
-                "vi": "Anh ấy đang nói chuyện.",
-                "comment": "Nêu hoạt động.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我想说话。",
+                "pinyin": "Wǒ xiǎng shuōhuà.",
+                "vi": "Tôi muốn nói chuyện.",
+                "note": "说话 là hành động nói."
               },
               {
-                "id": "c2",
-                "zh": "他会说中文。",
-                "vi": "Anh ấy biết nói tiếng Trung.",
-                "comment": "会 nói khả năng; 中文 trực tiếp sau 说.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "请不要说话。",
+                "pinyin": "Qǐng bú yào shuōhuà.",
+                "vi": "Xin đừng nói chuyện.",
+                "note": "不要 phủ định lời yêu cầu."
               }
-            ],
-            "replacement": {
-              "result": "wrong-grammar",
-              "explanation": "Không dùng 说话 thay nguyên vị trí 说 trong mẫu 会说中文 rồi nối 中文 phía sau. Câu đúng: 他会说中文。 — Anh ấy biết nói tiếng Trung. Hoặc chỉ nói 他在说话。 — Anh ấy đang nói chuyện."
-            },
-            "boundary": "Trong cụm dài hơn có cách ghép khác, nhưng hai mẫu ở đây phân biệt rõ hoạt động với ngôn ngữ; không suy rằng 话 luôn phải có mặt sau 说.",
-            "tip": "Ngôn ngữ: 说 + 中文; hoạt động nói: 说话.",
-            "id": "t1"
-          },
+            ]
+          }
+        ],
+        "confusions": [
           {
-            "title": "说话 và 聊天: nói và trò chuyện tán gẫu",
-            "scene": "Bạn muốn trao đổi công việc hoặc ngồi trò chuyện với bạn.",
-            "possibleConfusion": "Nói chuyện có thể là trao đổi nghiêm túc, không nhất thiết tán gẫu.",
-            "difference": "说话 bao quát việc nói; 聊天 thường là trò chuyện trao đổi thoải mái. Ngữ cảnh và giọng mới quyết định cuộc nói vui hay nghiêm.",
-            "cases": [
+            "id": "content",
+            "afterSense": "speak",
+            "title": "说话 và 说 + nội dung",
+            "explanation": "说话 nói chung về hành động nói; 说 thường đứng trước điều được nói.",
+            "contrasts": [
               {
-                "id": "c1",
-                "zh": "我想跟你说话。",
-                "vi": "Tôi muốn nói chuyện với bạn.",
-                "comment": "Chưa nói rõ là việc riêng, công việc hay chuyện vui.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我想说话。",
+                "pinyin": "Wǒ xiǎng shuōhuà.",
+                "vi": "Tôi muốn nói chuyện.",
+                "note": "Không nêu nội dung."
               },
               {
-                "id": "c2",
-                "zh": "我想跟你聊天。",
-                "vi": "Tôi muốn trò chuyện với bạn.",
-                "comment": "Gợi một cuộc trò chuyện thoải mái hơn.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我说中文。",
+                "pinyin": "Wǒ shuō Zhōngwén.",
+                "vi": "Tôi nói tiếng Trung.",
+                "note": "说 có nội dung/ngôn ngữ theo sau."
               }
             ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Thay 说话 bằng 聊天 vẫn đúng và có thể gần nghĩa nếu chỉ muốn trò chuyện. Trong lời nhờ trao đổi việc nghiêm túc, 聊天 có thể không giữ đúng sắc thái."
-            },
-            "boundary": "Không coi mọi 说话 là nghiêm túc hoặc mọi 聊天 là vô ích. Hai cách nói giao nhau trong trò chuyện hằng ngày.",
-            "tip": "Chỉ nói đến việc nói: 说话; muốn gợi tán gẫu: 聊天.",
-            "id": "t2"
+            "tip": "Không có nội dung cụ thể thì dùng 说话; có điều/ngôn ngữ cụ thể thì dùng 说 + nội dung."
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "说 trong 说话 dùng cách đọc nói thông dụng; không chuyển cách đọc của chữ ở từ khác sang đây.",
-          "literalTranslation": "Không dịch 话 như một động từ thứ hai.",
-          "confusables": "Rà 说话/说中文 và 聊天; nêu người bằng 跟/和."
-        },
-        "pronunciation": {
-          "text": "说 thanh một, 话 thanh bốn. Đọc liền cả từ; không đổi 话 thành thanh nhẹ theo thói quen đọc mọi tiếng cuối nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "type": "open",
-            "question": "Xếp câu: 我 / 跟你 / 说话 / 想。",
-            "id": "q1"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi muốn nói chuyện.",
+            "tokens": [
+              "我",
+              "想",
+              "说话",
+              "。"
+            ],
+            "accepted": [
+              "我想说话。"
+            ],
+            "model": "我想说话。",
+            "explanation": "说话 là cụm động từ sau 想.",
+            "wrongFeedback": "Giữ trọn cụm 说话."
           },
           {
-            "type": "open",
-            "question": "Cho 说、说话. Muốn nói biết tiếng Trung: 他会___中文。",
-            "id": "q2"
-          },
-          {
-            "type": "open",
-            "question": "Cho 说话、聊天 (trò chuyện). Trong lúc rảnh muốn trò chuyện thoải mái với bạn, cả 我想跟你说话 và 我想跟你聊天 có thể đúng không?",
-            "id": "q3"
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 请不要____。",
+            "accepted": [
+              "说话"
+            ],
+            "model": "请不要说话。",
+            "explanation": "说话 là hành động không được yêu cầu.",
+            "wrongFeedback": "Điền cụm nói chuyện sau 不要."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "我想跟你说话。"
-            ],
-            "explanation": "跟你 trước 说话; 想 trước cả việc muốn làm."
-          },
-          "q2": {
-            "accepted": [
-              "他会说中文。"
-            ],
-            "explanation": "中文 là ngôn ngữ sau 说, không nối trực tiếp sau cả cụm 说话 trong mẫu này."
-          },
-          "q3": {
-            "accepted": [
-              "Có, cả hai có thể đúng; 聊天 gợi trò chuyện thoải mái hơn."
-            ],
-            "explanation": "Hai cách có vùng giao nhau, không chấm sai chỉ vì khác mẫu."
-          }
-        },
-        "selfUse": [
+        "discriminationExercises": [
           {
-            "prompt": "Nói hai đồng nghiệp đang nói chuyện.",
-            "id": "s1"
-          },
-          {
-            "prompt": "Nói bạn muốn trao đổi với người nghe.",
-            "id": "s2"
+            "id": "d1",
+            "trapId": "content",
+            "type": "choice",
+            "prompt": "Không nêu nội dung cụ thể, chọn câu tự nhiên.",
+            "choices": [
+              "我想说话。",
+              "我想说。"
+            ],
+            "correctIndex": 0,
+            "model": "我想说话。",
+            "explanation": "说话 nói chung về hành động nói.",
+            "wrongFeedback": "说 thường cần nội dung theo sau."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu người và hoạt động đang diễn ra.",
-            "frame": "他们 + 在 + 说话。",
-            "model": "他们在说话。",
-            "vi": "Họ đang nói chuyện.",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn muốn nói chuyện.",
+            "hints": [
+              "Nêu ý: 我想.",
+              "Thêm cụm 说话.",
+              "Mẫu: 我想说话。"
+            ],
+            "model": "我想说话。",
+            "vi": "Tôi muốn nói chuyện.",
             "criteria": [
-              "在 trước 说话.",
-              "Không bắt nêu nội dung khi chưa cần."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu muốn nói cùng ai.",
-            "frame": "我想 + 跟你 + 说话。",
-            "model": "我想跟你说话。",
-            "vi": "Tôi muốn nói chuyện với bạn.",
-            "criteria": [
-              "跟你 trước 说话.",
-              "和你 cũng được khi nghĩa phù hợp."
+              "Dùng đúng cụm 说话."
             ]
           }
-        },
-        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Cụm nào nghĩa là nói chuyện?",
+            "hiddenAnswer": "说话",
+            "model": "说话"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我想__。",
+            "hiddenAnswer": "说话",
+            "model": "我想说话。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi muốn nói chuyện.",
+            "choices": [
+              "我",
+              "想",
+              "说话",
+              "。"
+            ],
+            "correct": [
+              "我想说话。"
+            ],
+            "explanation": "说话 là cụm động từ."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Không nêu nội dung cụ thể, chọn câu tự nhiên.",
+            "choices": [
+              "我想说话。",
+              "我想说。"
+            ],
+            "correctIndex": 0,
+            "explanation": "说话 nói chung về hành động nói."
+          }
+        }
       }
     },
     {
@@ -18755,19 +18746,20 @@
       ],
       "examples": [
         {
-          "zh": "请进！",
-          "vi": "Mời vào!",
-          "analysis": "Nói với người ở ngoài cửa; người và căn phòng đã rõ nên lược đi.",
-          "practiceAllowed": true,
-          "pinyin": "Qǐng jìn!",
-          "id": "e1"
+          "id": "e1",
+          "zh": "请进。",
+          "pinyin": "Qǐng jìn.",
+          "vi": "Mời vào.",
+          "analysis": "请 đứng trước 进 để tạo lời mời lịch sự.",
+          "practiceAllowed": true
         },
         {
+          "id": "e2",
           "zh": "请进来坐。",
+          "pinyin": "Qǐng jìnlái zuò.",
           "vi": "Mời vào ngồi.",
-          "analysis": "进来 là vào về phía người nói ở trong; 坐 thêm việc ngồi sau khi vào.",
-          "practiceAllowed": true,
-          "id": "e2"
+          "analysis": "进来 nhấn hướng đi vào phía người nói.",
+          "practiceAllowed": true
         }
       ],
       "status": "deep",
@@ -18777,183 +18769,160 @@
       "sourceIndex": 45,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "Biên soạn V2 · batch-006",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Bạn trong phòng; mời khách vừa gõ cửa vào.",
+      "task": "Mời khách vào nhà.",
       "model": "请进。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 66,
+        "difficulty": "easy",
+        "difficultyReason": "请进 là cụm lời mời cố định, nghĩa và vị trí rõ.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Inviting_in"
+        ],
         "introduction": {
-          "scope": "Học lời mời khách vào phòng; hiểu hướng 进来/进去."
-        },
-        "meaning": {
-          "scene": "Bạn ở trong phòng, nghe khách gõ cửa.",
-          "explanation": "请进 là lời mời người nghe đi vào. Đây là một lời nói trọn vẹn khi nơi và người đã rõ, không cần thêm chủ ngữ mới thành câu.",
-          "boundary": "请进 không phải lời mời ngồi. Vào phòng dùng 进; ngồi dùng 坐. Muốn nói rõ hướng về phía mình có thể dùng 进来.",
-          "conditions": [
-            "请 đứng trước 进. Nơi cần vào có thể nêu khi chưa rõ, nhưng ở cửa phòng thường chỉ cần 请进."
-          ],
-          "takeaway": "请进 là lời mời người nghe đi vào. Đây là một lời nói trọn vẹn khi nơi và người đã rõ, không cần thêm chủ ngữ mới thành câu."
+          "scope": "请进 nghĩa là mời vào, thường nói với người đang ở cửa hoặc ngoài phòng."
         },
         "examples": [
           {
-            "zh": "请进！",
-            "vi": "Mời vào!",
-            "analysis": "Nói với người ở ngoài cửa; người và căn phòng đã rõ nên lược đi.",
-            "practiceAllowed": true,
-            "pinyin": "Qǐng jìn!",
-            "id": "e1"
+            "id": "e1",
+            "zh": "请进。",
+            "pinyin": "Qǐng jìn.",
+            "vi": "Mời vào.",
+            "analysis": "请 đứng trước 进 để tạo lời mời lịch sự.",
+            "practiceAllowed": true
           },
           {
+            "id": "e2",
             "zh": "请进来坐。",
+            "pinyin": "Qǐng jìnlái zuò.",
             "vi": "Mời vào ngồi.",
-            "analysis": "进来 là vào về phía người nói ở trong; 坐 thêm việc ngồi sau khi vào.",
-            "practiceAllowed": true,
-            "id": "e2"
+            "analysis": "进来 nhấn hướng đi vào phía người nói.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "frame": "请 + 进",
-            "position": "请 mời lịch sự; 进 là hành động vào.",
-            "required": "Khi ở cửa và rõ nơi, không cần ghép thêm người hoặc địa điểm.",
-            "omission": "请进。 tự là lời mời đầy đủ trong ngữ cảnh.",
-            "id": "u1",
-            "exampleId": "e1"
-          },
-          {
-            "frame": "请 + 进来 + 坐",
-            "position": "进来 nêu hướng vào gần người nói; 坐 là việc sau đó.",
-            "required": "Dùng khi người nói ở trong hoặc lấy phía trong làm mốc.",
-            "omission": "Nếu không muốn mời ngồi, bỏ 坐; 请进来。 vẫn là mời vào.",
-            "id": "u2",
-            "exampleId": "e2"
-          }
-        ],
-        "traps": [
-          {
-            "title": "请进、请进来、请进去、请坐",
-            "scene": "Người mời có thể ở trong hoặc đứng ngoài cửa.",
-            "possibleConfusion": "Mời vào, hướng vào và mời ngồi là những thông tin khác nhau.",
-            "difference": "请进 chỉ mời vào; 进来 thêm hướng về phía người nói/mốc trong; 进去 là vào phía xa mốc đang xét. 请坐 là mời ngồi, không tự nói cần đi vào.",
-            "cases": [
+            "id": "invitein",
+            "title": "Mời vào",
+            "when": "Mời người đang ở ngoài bước vào.",
+            "meaning": "mời vào",
+            "grammar": "请 đứng trước 进; có thể thêm 来 và hành động tiếp theo.",
+            "pattern": "请进；请进来+động từ",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "请进来。",
-                "vi": "Mời vào đây.",
-                "comment": "Người nói ở trong phòng.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "请进。",
+                "pinyin": "Qǐng jìn.",
+                "vi": "Mời vào.",
+                "note": "Lời mời ngắn."
               },
               {
-                "id": "c2",
-                "zh": "请进去。",
-                "vi": "Mời vào trong đó.",
-                "comment": "Người nói ở ngoài, chỉ người kia vào trong.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c3",
-                "zh": "请坐。",
-                "vi": "Mời ngồi.",
-                "comment": "Chỉ nêu ngồi xuống.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "请进来坐。",
+                "pinyin": "Qǐng jìnlái zuò.",
+                "vi": "Mời vào ngồi.",
+                "note": "进来 hướng về người nói."
               }
+            ]
+          }
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Mời vào.",
+            "tokens": [
+              "请",
+              "进",
+              "。"
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 进来 bằng 进去 làm đổi mốc hướng. Thay 请进 bằng 请坐 vẫn đúng nhưng đổi việc được mời: ngồi thay vì vào."
-            },
-            "boundary": "请进 và 请进来 thường cùng phù hợp khi người mời ở trong; không coi thiếu 来 là sai. Cách lấy mốc có thể theo nơi được nhắc trong hội thoại.",
-            "tip": "Vào: 进; về phía mình: 来; ngồi: 坐.",
-            "id": "t1"
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "Không có đa âm cần thêm; 来/去 là hướng, không phải cách đọc mới.",
-          "literalTranslation": "Không dịch từng chữ thành “xin tiến” hay tự hiểu là mời ngồi.",
-          "confusables": "Rà 请进/请坐 và 进来/进去."
-        },
-        "pronunciation": {
-          "text": "请 có thanh ba, 进 thanh bốn. Trước thanh bốn, 请 thường đọc thấp, không bắt buộc hạ rồi nâng đầy đủ. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "type": "open",
-            "question": "Bạn ở trong phòng, khách gõ cửa. Viết lời mời vào ngắn bằng 请进.",
-            "id": "q1"
-          },
-          {
-            "type": "open",
-            "question": "Cho 进来、进去. Người nói đứng trong phòng, muốn mời khách vào về phía mình: 请___坐。",
-            "id": "q2"
-          },
-          {
-            "type": "open",
-            "question": "Cho 请进、请坐. Bạn chỉ muốn mời khách đã trong phòng ngồi xuống, chọn lời nào?",
-            "id": "q3"
-          }
-        ],
-        "answers": {
-          "q1": {
             "accepted": [
-              "请进！",
               "请进。"
             ],
-            "explanation": "Người và phòng đã rõ nên đây là lời mời đầy đủ."
-          },
-          "q2": {
-            "accepted": [
-              "请进来坐。"
-            ],
-            "explanation": "进来 hợp mốc người nói ở trong. 进去 dùng mốc hướng khác."
-          },
-          "q3": {
-            "accepted": [
-              "请坐。"
-            ],
-            "explanation": "坐 là ngồi; 请进 là mời vào, không tự nghĩa mời ngồi."
-          }
-        },
-        "selfUse": [
-          {
-            "prompt": "Bạn trong phòng; mời khách vừa gõ cửa vào.",
-            "id": "s1"
-          },
-          {
-            "prompt": "Mời khách vào gần chỗ mình rồi ngồi.",
-            "id": "s2"
+            "model": "请进。",
+            "explanation": "请 đứng trước 进.",
+            "wrongFeedback": "Dùng 请 để làm lời mời lịch sự."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Lời mời ngắn, nơi đã rõ.",
-            "frame": "请 + 进。",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "invitein",
+            "type": "meaning",
+            "prompt": "Chọn câu mời khách vào.",
+            "choices": [
+              "请进。",
+              "请坐。"
+            ],
+            "correctIndex": 0,
+            "model": "请进。",
+            "explanation": "请进 là mời vào; 请坐 là mời ngồi.",
+            "wrongFeedback": "Phân biệt hành động vào với ngồi."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Mời khách vào.",
+            "hints": [
+              "Nêu lời mời lịch sự: 请.",
+              "Thêm 进.",
+              "Mẫu: 请进。"
+            ],
             "model": "请进。",
             "vi": "Mời vào.",
             "criteria": [
-              "Không bắt buộc có chủ ngữ.",
-              "请进来。 cũng hợp mốc ở trong."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu hướng vào và hành động ngồi.",
-            "frame": "请 + 进来 + 坐。",
-            "model": "请进来坐。",
-            "vi": "Mời vào ngồi.",
-            "criteria": [
-              "进来 hợp mốc người nói.",
-              "Có 坐 nếu muốn mời ngồi."
+              "Dùng đúng 请进."
             ]
           }
-        },
-        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Cụm nào nghĩa là mời vào?",
+            "hiddenAnswer": "请进",
+            "model": "请进。"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 请__。",
+            "hiddenAnswer": "进",
+            "model": "请进。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Mời vào.",
+            "choices": [
+              "请",
+              "进",
+              "。"
+            ],
+            "correct": [
+              "请进。"
+            ],
+            "explanation": "请 đứng trước 进."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn câu mời khách vào.",
+            "choices": [
+              "请进。",
+              "请坐。"
+            ],
+            "correctIndex": 0,
+            "explanation": "请进 là mời vào."
+          }
+        }
       }
     },
     {
@@ -18969,193 +18938,213 @@
       "meaning": "xin hỏi",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-006",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
       "examples": [
         {
-          "zh": "请问，医院在哪儿？",
-          "vi": "Xin hỏi, bệnh viện ở đâu?",
-          "analysis": "请问 đầu lời hỏi; 哪儿 ở vị trí địa điểm sau 在.",
-          "practiceAllowed": true,
-          "pinyin": "Qǐngwèn, yīyuàn zài nǎr?",
-          "id": "e1"
+          "id": "e1",
+          "zh": "请问，学校在哪儿？",
+          "pinyin": "Qǐngwèn, xuéxiào zài nǎr?",
+          "vi": "Xin hỏi, trường học ở đâu?",
+          "analysis": "请问 là cụm mở đầu lịch sự trước câu hỏi.",
+          "practiceAllowed": true
         },
         {
-          "zh": "请问，这个多少钱？",
-          "vi": "Xin hỏi, cái này bao nhiêu tiền?",
-          "analysis": "多少钱 hỏi giá; 请问 làm lời mở đầu lịch sự, không đổi vị trí từ hỏi.",
-          "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "zh": "请问，你叫什么？",
+          "pinyin": "Qǐngwèn, nǐ jiào shénme?",
+          "vi": "Xin hỏi, bạn tên là gì?",
+          "analysis": "请问 không phải câu trả lời; nó mở đầu khi bắt chuyện để hỏi.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 46,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Hỏi người lạ bệnh viện ở đâu.",
-      "model": "请问，医院在哪儿？",
+      "task": "Lịch sự hỏi đường.",
+      "model": "请问，学校在哪儿？",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 67,
+        "difficulty": "medium",
+        "difficultyReason": "请问 là cụm lịch sự đã cố định hóa, cần phân biệt với 请 + động từ và với 问 dùng như động từ thường.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Polite_questions"
+        ],
         "introduction": {
-          "scope": "Học mở đầu câu hỏi lịch sự, khác lời nhờ làm việc."
-        },
-        "meaning": {
-          "scene": "Bạn hỏi đường người chưa quen.",
-          "explanation": "请问 đặt đầu lời hỏi để thu hút sự chú ý và hỏi lịch sự. Phần sau mới là thông tin muốn biết, như nơi chốn, giá hay tên.",
-          "boundary": "请问 không tự thay cho nội dung câu hỏi và không dùng để dẫn mọi lời yêu cầu. Nhờ ai đọc giúp một chữ có thể dùng 请 + hành động.",
-          "conditions": [
-            "Dùng dấu phẩy sau 请问 để dễ đọc là được, không phải một từ mới hoặc một phần bắt buộc của ngữ pháp."
-          ],
-          "takeaway": "请问 đặt đầu lời hỏi để thu hút sự chú ý và hỏi lịch sự. Phần sau mới là thông tin muốn biết, như nơi chốn, giá hay tên."
+          "scope": "请问 nghĩa là xin hỏi, dùng để mở đầu một câu hỏi lịch sự."
         },
         "examples": [
           {
-            "zh": "请问，医院在哪儿？",
-            "vi": "Xin hỏi, bệnh viện ở đâu?",
-            "analysis": "请问 đầu lời hỏi; 哪儿 ở vị trí địa điểm sau 在.",
-            "practiceAllowed": true,
-            "pinyin": "Qǐngwèn, yīyuàn zài nǎr?",
-            "id": "e1"
+            "id": "e1",
+            "zh": "请问，学校在哪儿？",
+            "pinyin": "Qǐngwèn, xuéxiào zài nǎr?",
+            "vi": "Xin hỏi, trường học ở đâu?",
+            "analysis": "请问 là cụm mở đầu lịch sự trước câu hỏi.",
+            "practiceAllowed": true
           },
           {
-            "zh": "请问，这个多少钱？",
-            "vi": "Xin hỏi, cái này bao nhiêu tiền?",
-            "analysis": "多少钱 hỏi giá; 请问 làm lời mở đầu lịch sự, không đổi vị trí từ hỏi.",
-            "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "zh": "请问，你叫什么？",
+            "pinyin": "Qǐngwèn, nǐ jiào shénme?",
+            "vi": "Xin hỏi, bạn tên là gì?",
+            "analysis": "请问 không phải câu trả lời; nó mở đầu khi bắt chuyện để hỏi.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "frame": "请问，+ câu hỏi muốn biết",
-            "position": "请问 trước cả câu hỏi, không chen giữa từ hỏi và phần nó hỏi.",
-            "required": "Phía sau cần câu hỏi đủ rõ trong ngữ cảnh; câu hỏi có 哪儿 hoặc 多少 không cần cộng 吗.",
-            "omission": "Bạn bè quen có thể hỏi trực tiếp, không bắt buộc dùng 请问 mọi lần.",
-            "id": "u1",
-            "exampleId": "e1"
+            "id": "politeask",
+            "title": "Xin hỏi",
+            "when": "Muốn hỏi người lạ hoặc mở đầu một câu hỏi lịch sự.",
+            "meaning": "xin hỏi",
+            "grammar": "请问 đứng đầu, sau đó là câu hỏi chính.",
+            "pattern": "请问，+câu hỏi",
+            "collocations": [],
+            "examples": [
+              {
+                "zh": "请问，学校在哪儿？",
+                "pinyin": "Qǐngwèn, xuéxiào zài nǎr?",
+                "vi": "Xin hỏi, trường học ở đâu?",
+                "note": "Mở đầu hỏi đường."
+              },
+              {
+                "zh": "请问，你叫什么？",
+                "pinyin": "Qǐngwèn, nǐ jiào shénme?",
+                "vi": "Xin hỏi, bạn tên là gì?",
+                "note": "Mở đầu hỏi tên."
+              }
+            ]
           }
         ],
-        "traps": [
+        "confusions": [
           {
-            "title": "请问、问、请: xin hỏi, hỏi và mời/nhờ",
-            "scene": "Bạn hỏi đường hoặc nhờ người kia đọc một chữ.",
-            "possibleConfusion": "Từ lịch sự đầu câu phải hợp hành động: hỏi thông tin khác nhờ làm.",
-            "difference": "请问 mở đầu câu hỏi; 问 là động từ hỏi, có thể nêu người sau nó. 请 trước hành động là mời/nhờ làm, như 请读 — xin đọc.",
-            "cases": [
+            "id": "request",
+            "afterSense": "politeask",
+            "title": "请问 và 请 + hành động",
+            "explanation": "请问 là cụm xin hỏi; 请坐/请进 là lời mời người khác làm một hành động.",
+            "contrasts": [
               {
-                "id": "c1",
-                "zh": "请问，医院在哪儿？",
-                "vi": "Xin hỏi, bệnh viện ở đâu?",
-                "comment": "Xin một thông tin.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "请问，学校在哪儿？",
+                "pinyin": "Qǐngwèn, xuéxiào zài nǎr?",
+                "vi": "Xin hỏi, trường học ở đâu?",
+                "note": "Cụm mở đầu câu hỏi."
               },
               {
-                "id": "c2",
-                "zh": "我想问你一个问题。",
-                "vi": "Tôi muốn hỏi bạn một câu.",
-                "comment": "问 nêu hành động hỏi người.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c3",
-                "zh": "请读这个字。",
-                "vi": "Xin đọc chữ này.",
-                "comment": "Nhờ thực hiện việc đọc, không đặt câu hỏi về nơi hay giá.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "请坐。",
+                "pinyin": "Qǐng zuò.",
+                "vi": "Mời ngồi.",
+                "note": "请 đứng trước hành động được mời."
               }
             ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Thay 请问 bằng 请 trong lời mở đầu rồi giữ nguyên câu hỏi không tạo cùng mẫu “xin hỏi”. Muốn hỏi đường, giữ 请问，医院在哪儿？ — Xin hỏi, bệnh viện ở đâu? Muốn nhờ đọc, dùng 请读这个字。 — Xin đọc chữ này."
-            },
-            "boundary": "请问，这个字怎么读？ — Xin hỏi chữ này đọc thế nào, cũng có thể khiến người nghe đọc mẫu. Ý hỏi cách đọc và lời nhờ đọc có thể dẫn tới cùng kết quả, nhưng cấu trúc khác nhau.",
-            "tip": "Hỏi thông tin: 请问 + câu hỏi; nhờ việc: 请 + hành động.",
-            "id": "t1"
+            "tip": "Sau 请问 là một câu hỏi; sau 请 trong lời mời là hành động như 坐, 进."
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "Không có đa âm thông dụng cần thêm.",
-          "literalTranslation": "Không hiểu “xin hỏi” thành xin phép làm mọi hành động; phân biệt nội dung hỏi/nhờ.",
-          "confusables": "Rà 请问/问/请, câu hỏi có từ hỏi không thêm 吗 theo mẫu cơ bản."
-        },
-        "pronunciation": {
-          "text": "请 thanh ba, 问 thanh bốn; 请 trước 问 thường đọc thấp, không bắt buộc hạ rồi nâng đầy đủ. Trong câu mẫu, 哪儿 có âm cuộn ở cuối; không cần tách 儿 thành một tiếng riêng. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "type": "open",
-            "question": "Xếp lời hỏi đường: 医院在哪儿 / 请问？",
-            "id": "q1"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Xin hỏi, trường học ở đâu?",
+            "tokens": [
+              "请问",
+              "学校在哪儿",
+              "？"
+            ],
+            "accepted": [
+              "请问，学校在哪儿？"
+            ],
+            "model": "请问，学校在哪儿？",
+            "explanation": "请问 đứng đầu câu hỏi.",
+            "wrongFeedback": "Dùng 请问 như cụm mở đầu."
           },
           {
-            "type": "open",
-            "question": "Cho 请问、请. Bạn nhờ đọc một chữ, không hỏi đường hay giá: ___读这个字。",
-            "id": "q2"
-          },
-          {
-            "type": "open",
-            "question": "Thêm lời mở đầu lịch sự vào 这个多少钱？",
-            "id": "q3"
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: ____，你叫什么？",
+            "accepted": [
+              "请问"
+            ],
+            "model": "请问，你叫什么？",
+            "explanation": "请问 làm câu hỏi lịch sự hơn.",
+            "wrongFeedback": "Điền cụm xin hỏi ở đầu câu."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "请问，医院在哪儿？"
-            ],
-            "explanation": "请问 trước câu hỏi; dấu phẩy giúp đọc rõ."
-          },
-          "q2": {
-            "accepted": [
-              "请读这个字。"
-            ],
-            "explanation": "请 trực tiếp trước hành động 读 là lời nhờ."
-          },
-          "q3": {
-            "accepted": [
-              "请问，这个多少钱？"
-            ],
-            "explanation": "请问 mở đầu; 多少钱 đã hỏi giá nên không cần 吗."
-          }
-        },
-        "selfUse": [
+        "discriminationExercises": [
           {
-            "prompt": "Hỏi người lạ bệnh viện ở đâu.",
-            "id": "s1"
-          },
-          {
-            "prompt": "Hỏi lịch sự giá món đồ đang chỉ.",
-            "id": "s2"
+            "id": "d1",
+            "trapId": "request",
+            "type": "choice",
+            "prompt": "Muốn lịch sự hỏi tên người lạ, chọn cách mở đầu.",
+            "choices": [
+              "请问",
+              "请坐"
+            ],
+            "correctIndex": 0,
+            "model": "请问",
+            "explanation": "请问 mở đầu câu hỏi.",
+            "wrongFeedback": "请坐 là mời ngồi."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Mở đầu xin hỏi rồi hỏi địa điểm.",
-            "frame": "请问，医院 + 在哪儿？",
-            "model": "请问，医院在哪儿？",
-            "vi": "Xin hỏi, bệnh viện ở đâu?",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Lịch sự hỏi trường học ở đâu.",
+            "hints": [
+              "Mở đầu bằng 请问.",
+              "Hỏi địa điểm: 学校在哪儿.",
+              "Mẫu: 请问，学校在哪儿？"
+            ],
+            "model": "请问，学校在哪儿？",
+            "vi": "Xin hỏi, trường học ở đâu?",
             "criteria": [
-              "请问 trước cả câu.",
-              "哪里 thay 哪儿 cũng được."
-            ]
-          },
-          "s2": {
-            "idea": "Xin hỏi rồi hỏi lượng tiền.",
-            "frame": "请问，这个 + 多少钱？",
-            "model": "请问，这个多少钱？",
-            "vi": "Xin hỏi, cái này bao nhiêu tiền?",
-            "criteria": [
-              "多少钱 hỏi giá.",
-              "Lược 这个 được nếu đang chỉ đồ rõ."
+              "Dùng đúng 请问 ở đầu câu."
             ]
           }
-        },
-        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Cụm nào nghĩa là xin hỏi?",
+            "hiddenAnswer": "请问",
+            "model": "请问"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: ____,你叫什么？",
+            "hiddenAnswer": "请问",
+            "model": "请问，你叫什么？"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Xin hỏi, trường học ở đâu?",
+            "choices": [
+              "请问",
+              "学校在哪儿",
+              "？"
+            ],
+            "correct": [
+              "请问，学校在哪儿？"
+            ],
+            "explanation": "请问 đứng đầu."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Muốn lịch sự hỏi tên người lạ, chọn cách mở đầu.",
+            "choices": [
+              "请问",
+              "请坐"
+            ],
+            "correctIndex": 0,
+            "explanation": "请问 mở đầu câu hỏi."
+          }
+        }
       }
     },
     {
@@ -19168,19 +19157,20 @@
       ],
       "examples": [
         {
-          "zh": "我每天喝奶。",
-          "vi": "Tôi uống sữa mỗi ngày.",
-          "analysis": "每天 là thời gian/thói quen trước 喝; 奶 là thứ uống sau 喝.",
-          "practiceAllowed": true,
-          "pinyin": "Wǒ měitiān hē nǎi.",
-          "id": "e1"
+          "id": "e1",
+          "zh": "我喝牛奶。",
+          "pinyin": "Wǒ hē niúnǎi.",
+          "vi": "Tôi uống sữa bò.",
+          "analysis": "奶 thường xuất hiện trong 牛奶, sữa bò.",
+          "practiceAllowed": true
         },
         {
-          "zh": "我想买一盒奶。",
-          "vi": "Tôi muốn mua một hộp sữa.",
-          "analysis": "一 + 盒 + 奶 nêu lượng bằng hộp; 想 trước 买 nêu muốn mua.",
-          "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "zh": "孩子喜欢喝奶。",
+          "pinyin": "Háizi xǐhuan hē nǎi.",
+          "vi": "Đứa trẻ thích uống sữa.",
+          "analysis": "奶 có thể dùng ngắn gọn để chỉ sữa trong ngữ cảnh quen thuộc.",
+          "practiceAllowed": true
         }
       ],
       "status": "deep",
@@ -19190,214 +19180,162 @@
       "sourceIndex": 47,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "biên soạn bổ sung",
-      "editorialStatus": "Biên soạn V2 · batch-006",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn uống sữa mỗi ngày.",
-      "model": "我每天喝奶。",
+      "task": "Nói bạn uống sữa.",
+      "model": "我喝牛奶。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 68,
+        "difficulty": "easy",
+        "difficultyReason": "奶 là danh từ đồ uống quen thuộc, thường học qua 牛奶 và 喝奶.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Milk"
+        ],
         "introduction": {
-          "scope": "Học 奶 là sữa, dùng lượng chứa và phân biệt từ chỉ người."
-        },
-        "meaning": {
-          "scene": "Bạn mua sữa cho bữa sáng.",
-          "explanation": "奶 là sữa. Trong trao đổi ăn uống hằng ngày, khi loại sữa đã rõ có thể chỉ nói 奶; muốn nêu rõ sữa bò thì dùng 牛奶.",
-          "boundary": "Không phải cứ chất lỏng màu trắng là 奶. Cần biết tên món: 豆浆 là sữa đậu nành theo cách gọi tiếng Việt; trong tiếng Trung nó không tự đồng nghĩa với 牛奶. Các tên sản phẩm thực vật có thể dùng 奶 theo quy ước riêng.",
-          "conditions": [
-            "奶 là chất lỏng, thường đo bằng lượng chứa: 一杯奶 — một cốc sữa, 一盒奶 — một hộp sữa."
-          ],
-          "takeaway": "奶 là sữa. Trong trao đổi ăn uống hằng ngày, khi loại sữa đã rõ có thể chỉ nói 奶; muốn nêu rõ sữa bò thì dùng 牛奶."
+          "scope": "奶 nghĩa là sữa; thường gặp trong 牛奶 hoặc cụm 喝奶."
         },
         "examples": [
           {
-            "zh": "我每天喝奶。",
-            "vi": "Tôi uống sữa mỗi ngày.",
-            "analysis": "每天 là thời gian/thói quen trước 喝; 奶 là thứ uống sau 喝.",
-            "practiceAllowed": true,
-            "pinyin": "Wǒ měitiān hē nǎi.",
-            "id": "e1"
+            "id": "e1",
+            "zh": "我喝牛奶。",
+            "pinyin": "Wǒ hē niúnǎi.",
+            "vi": "Tôi uống sữa bò.",
+            "analysis": "奶 thường xuất hiện trong 牛奶, sữa bò.",
+            "practiceAllowed": true
           },
           {
-            "zh": "我想买一盒奶。",
-            "vi": "Tôi muốn mua một hộp sữa.",
-            "analysis": "一 + 盒 + 奶 nêu lượng bằng hộp; 想 trước 买 nêu muốn mua.",
-            "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "zh": "孩子喜欢喝奶。",
+            "pinyin": "Háizi xǐhuan hē nǎi.",
+            "vi": "Đứa trẻ thích uống sữa.",
+            "analysis": "奶 có thể dùng ngắn gọn để chỉ sữa trong ngữ cảnh quen thuộc.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "frame": "Người + thời gian + 喝 + 奶",
-            "position": "奶 sau hành động uống; thời gian thường trước 喝.",
-            "required": "Muốn nói rõ loại sữa, thay 奶 bằng 牛奶 hoặc tên sản phẩm phù hợp.",
-            "omission": "Đã rõ loại thì 奶 không phải câu thiếu nghĩa vì không có 牛.",
-            "id": "u1",
-            "exampleId": "e1"
-          },
-          {
-            "frame": "Người + 买 + số lượng + 盒 / 瓶 + 奶",
-            "position": "Lượng từ chứa ở giữa số và 奶.",
-            "required": "盒 là hộp, 瓶 là chai; chọn theo bao bì thật.",
-            "omission": "Nếu chỉ hỏi có mua sữa không, có thể lược số và lượng chứa.",
-            "id": "u2",
-            "exampleId": "e2"
-          }
-        ],
-        "traps": [
-          {
-            "title": "奶、牛奶、豆浆: tên chung và loại đồ uống",
-            "scene": "Bạn chọn đồ uống sáng, cần nói rõ sữa bò hay đậu nành.",
-            "possibleConfusion": "Cách tiếng Việt gọi “sữa” không làm các tên đồ uống tiếng Trung đồng nghĩa.",
-            "difference": "奶 là tên chung; 牛奶 chỉ sữa bò. 豆浆 là đồ uống từ đậu nành thường dịch sữa đậu nành. Không suy ra mọi tên đồ uống thực vật đều theo cùng một công thức.",
-            "cases": [
+            "id": "milk",
+            "title": "Sữa",
+            "when": "Nói về sữa như đồ uống hoặc thực phẩm.",
+            "meaning": "sữa",
+            "grammar": "奶 có thể đứng trong 牛奶 hoặc sau 喝.",
+            "pattern": "喝+奶；牛奶",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "我喝奶。",
-                "vi": "Tôi uống sữa.",
-                "comment": "Chưa nêu loại; ngữ cảnh có thể đã rõ.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
                 "zh": "我喝牛奶。",
+                "pinyin": "Wǒ hē niúnǎi.",
                 "vi": "Tôi uống sữa bò.",
-                "comment": "Nêu rõ nguồn sữa bò.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "note": "牛奶 là sữa bò."
               },
               {
-                "id": "c3",
-                "zh": "我喝豆浆。",
-                "vi": "Tôi uống sữa đậu nành.",
-                "comment": "Một loại đồ uống khác, không phải 牛奶.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "孩子喜欢喝奶。",
+                "pinyin": "Háizi xǐhuan hē nǎi.",
+                "vi": "Đứa trẻ thích uống sữa.",
+                "note": "喝奶 là uống sữa."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 奶 bằng 牛奶 làm ý cụ thể hơn và có thể cùng chỉ đồ uống đang có. Thay 牛奶 bằng 豆浆 đổi loại đồ uống, không chỉ đổi tên cho cùng thứ."
-            },
-            "boundary": "Khi cốc sữa bò đã rõ, 喝奶 và 喝牛奶 có thể cùng đúng. Sản phẩm như 椰奶 có tên riêng; không đặt quy tắc cấm dùng 奶 cho mọi đồ uống thực vật.",
-            "tip": "Cần rõ loại: nói đủ tên, đừng chỉ đoán từ tiếng Việt.",
-            "id": "t1"
-          },
-          {
-            "title": "奶 và 奶奶: sữa và bà nội",
-            "scene": "Bạn nói bà nội thích uống sữa.",
-            "possibleConfusion": "Lặp chữ không phải lúc nào cũng chỉ số nhiều hoặc “nhiều sữa”.",
-            "difference": "奶 là sữa; 奶奶 là bà nội, một từ chỉ người. Trong câu có thể xuất hiện cả hai với vai khác.",
-            "cases": [
-              {
-                "id": "c1",
-                "zh": "我买奶。",
-                "vi": "Tôi mua sữa.",
-                "comment": "奶 là đồ được mua.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "我给奶奶买奶。",
-                "vi": "Tôi mua sữa cho bà nội.",
-                "comment": "奶奶 là người nhận; 奶 cuối câu là đồ mua.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 奶 bằng 奶奶 sẽ chuyển từ đồ uống sang người; không còn giữ ý mua sữa. Muốn rõ người nhận, dùng 给奶奶买奶 như câu đối chiếu."
-            },
-            "boundary": "奶 trong từ ghép có thể không đứng riêng theo nghĩa sữa; học cả từ 奶奶, không dịch từng chữ.",
-            "tip": "Một chữ ở đây: sữa; cả từ 奶奶: bà nội.",
-            "id": "t2"
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "Rà sữa và 奶奶; thanh nhẹ tiếng hai của từ bà không phải cách đọc mới của mục 奶.",
-          "literalTranslation": "Không ép mọi sữa tiếng Việt thành 奶 hoặc 牛奶.",
-          "confusables": "Rà 奶/牛奶/豆浆, 奶奶 và lượng chứa."
-        },
-        "pronunciation": {
-          "text": "奶 thanh ba, đọc cuối câu có thể có đường nét đầy hơn nhưng không phải lúc nào cũng hạ rồi nâng trọn. Trong 奶奶 theo cách đọc phổ thông ở bài, tiếng thứ hai nhẹ, vẫn phát âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "type": "open",
-            "question": "Xếp câu: 喝 / 我 / 奶 / 每天。",
-            "id": "q1"
-          },
-          {
-            "type": "open",
-            "question": "Mua một hộp sữa, điền 盒 (hộp) hoặc 个 (cái): 我想买一___奶。",
-            "id": "q2"
-          },
-          {
-            "type": "open",
-            "question": "Cho 奶 (sữa), 奶奶 (bà nội). Điền để nói mua sữa cho bà nội: 我给___买___。",
-            "id": "q3"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "我每天喝奶。"
-            ],
-            "explanation": "每天 trước 喝; 奶 sau 喝."
-          },
-          "q2": {
-            "accepted": [
-              "我想买一盒奶。"
-            ],
-            "explanation": "盒 nêu lượng chứa phù hợp với sữa đóng hộp."
-          },
-          "q3": {
-            "accepted": [
-              "我给奶奶买奶。"
-            ],
-            "explanation": "给奶奶 nêu người nhận; 奶 cuối là thứ mua."
-          }
-        },
-        "selfUse": [
-          {
-            "prompt": "Nói bạn uống sữa mỗi ngày.",
-            "id": "s1"
-          },
-          {
-            "prompt": "Nói bạn muốn mua một hộp sữa.",
-            "id": "s2"
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu thói quen và đồ uống.",
-            "frame": "我每天 + 喝 + 奶。",
-            "model": "我每天喝奶。",
-            "vi": "Tôi uống sữa mỗi ngày.",
-            "criteria": [
-              "每天 trước hành động.",
-              "Nói 牛奶 cũng đúng nếu muốn rõ sữa bò."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu mong muốn và lượng chứa.",
-            "frame": "我想买 + 一盒 + 奶。",
-            "model": "我想买一盒奶。",
-            "vi": "Tôi muốn mua một hộp sữa.",
-            "criteria": [
-              "盒 giữa 一 và 奶.",
-              "Đổi 瓶 được khi thật sự mua chai."
             ]
           }
-        },
-        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=12184&la=0&powerMode=0",
-          "https://www.coelang.tufs.ac.jp/modules/zh/vmod/v_search_detail.php?id=312&ls=1.20%2C%E4%BA%BA%E9%96%93&rf=2"
-        ]
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi uống sữa bò.",
+            "tokens": [
+              "我",
+              "喝",
+              "牛奶",
+              "。"
+            ],
+            "accepted": [
+              "我喝牛奶。"
+            ],
+            "model": "我喝牛奶。",
+            "explanation": "牛奶 là đồ uống sau 喝.",
+            "wrongFeedback": "Đặt sữa sau động từ uống."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "milk",
+            "type": "meaning",
+            "prompt": "Chọn từ liên quan đến sữa.",
+            "choices": [
+              "奶",
+              "树"
+            ],
+            "correctIndex": 0,
+            "model": "奶",
+            "explanation": "奶 là sữa.",
+            "wrongFeedback": "树 là cây."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn uống sữa bò.",
+            "hints": [
+              "Nêu chủ thể: 我.",
+              "Dùng 喝牛奶.",
+              "Mẫu: 我喝牛奶。"
+            ],
+            "model": "我喝牛奶。",
+            "vi": "Tôi uống sữa bò.",
+            "criteria": [
+              "Dùng đúng 奶 trong 牛奶."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là sữa?",
+            "hiddenAnswer": "奶",
+            "model": "奶"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我喝牛__。",
+            "hiddenAnswer": "奶",
+            "model": "我喝牛奶。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi uống sữa bò.",
+            "choices": [
+              "我",
+              "喝",
+              "牛奶",
+              "。"
+            ],
+            "correct": [
+              "我喝牛奶。"
+            ],
+            "explanation": "牛奶 đứng sau 喝."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ liên quan đến sữa.",
+            "choices": [
+              "奶",
+              "树"
+            ],
+            "correctIndex": 0,
+            "explanation": "奶 là sữa."
+          }
+        }
       }
     },
     {
@@ -19413,222 +19351,180 @@
       "meaning": "cây (thân gỗ)",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-006",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
       "examples": [
         {
-          "zh": "这里有两棵树。",
-          "vi": "Ở đây có hai cây.",
-          "analysis": "这里 là nơi; 有 nêu có; 两 + 棵 + 树 đếm hai cây.",
-          "practiceAllowed": true,
-          "pinyin": "Zhèlǐ yǒu liǎng kē shù.",
-          "id": "e1"
+          "id": "e1",
+          "zh": "房子前面有一棵树。",
+          "pinyin": "Fángzi qiánmiàn yǒu yì kē shù.",
+          "vi": "Trước nhà có một cái cây.",
+          "analysis": "树 là cây thân gỗ; 棵 là lượng từ thường dùng cho cây.",
+          "practiceAllowed": true
         },
         {
-          "zh": "我在树下等你。",
-          "vi": "Tôi đợi bạn dưới cây.",
-          "analysis": "在树下 trước 等 nêu nơi chờ; 你 sau 等 là người đợi.",
-          "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "zh": "这棵树很高。",
+          "pinyin": "Zhè kē shù hěn gāo.",
+          "vi": "Cây này rất cao.",
+          "analysis": "这棵树 chỉ cây này với lượng từ 棵.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 48,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Chỉ hai cây trước mặt và nói ở đây có hai cây.",
-      "model": "这里有两棵树。",
+      "task": "Nói trước nhà có một cái cây.",
+      "model": "房子前面有一棵树。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 69,
+        "difficulty": "easy",
+        "difficultyReason": "树 là danh từ trực tiếp, có lượng từ 棵 và mẫu tồn tại rõ ràng.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Trees"
+        ],
         "introduction": {
-          "scope": "Học chỉ cây, đếm cây và phân biệt với gỗ làm vật liệu."
-        },
-        "meaning": {
-          "scene": "Bạn chỉ hai cây trước nhà hoặc hẹn bạn chờ dưới gốc cây.",
-          "explanation": "树 thường chỉ cây có thân gỗ, như cây táo hay cây to trước nhà. Tiếng Việt “cây” rộng hơn, không phải mọi chỗ có chữ cây đều dịch là 树.",
-          "boundary": "Cây bút nói 笔, không dùng 树; cây cỏ nói chung còn có tên khác như 草. 木材 là gỗ khi nói vật liệu, không phải tự tên một cây.",
-          "conditions": [
-            "Đếm cây dùng 棵: 一棵树, 两棵树. 树下 là dưới cây."
-          ],
-          "takeaway": "树 thường chỉ cây có thân gỗ, như cây táo hay cây to trước nhà. Tiếng Việt “cây” rộng hơn, không phải mọi chỗ có chữ cây đều dịch là 树."
+          "scope": "树 nghĩa là cây, đặc biệt cây thân gỗ; thường đi với lượng từ 棵."
         },
         "examples": [
           {
-            "zh": "这里有两棵树。",
-            "vi": "Ở đây có hai cây.",
-            "analysis": "这里 là nơi; 有 nêu có; 两 + 棵 + 树 đếm hai cây.",
-            "practiceAllowed": true,
-            "pinyin": "Zhèlǐ yǒu liǎng kē shù.",
-            "id": "e1"
+            "id": "e1",
+            "zh": "房子前面有一棵树。",
+            "pinyin": "Fángzi qiánmiàn yǒu yì kē shù.",
+            "vi": "Trước nhà có một cái cây.",
+            "analysis": "树 là cây thân gỗ; 棵 là lượng từ thường dùng cho cây.",
+            "practiceAllowed": true
           },
           {
-            "zh": "我在树下等你。",
-            "vi": "Tôi đợi bạn dưới cây.",
-            "analysis": "在树下 trước 等 nêu nơi chờ; 你 sau 等 là người đợi.",
-            "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "zh": "这棵树很高。",
+            "pinyin": "Zhè kē shù hěn gāo.",
+            "vi": "Cây này rất cao.",
+            "analysis": "这棵树 chỉ cây này với lượng từ 棵.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "frame": "Nơi + 有 + số lượng + 棵 + 树",
-            "position": "棵 giữa số và 树, dùng 两 khi nói hai cây trong mẫu này.",
-            "required": "棵 dùng để đếm cây, không đổi sang 颗 chỉ vì nghe giống.",
-            "omission": "Đã rõ đang đếm cây, có thể nói 这里有两棵。",
-            "id": "u1",
-            "exampleId": "e1"
-          },
-          {
-            "frame": "Người + 在树下 + hành động",
-            "position": "在树下 trước việc đang làm ở đó.",
-            "required": "下 đặt sau 树 thành vị trí dưới cây; giữ 在 khi nêu nơi của hành động.",
-            "omission": "Đã rõ cây nào, có thể không lặp thêm tên hay số cây.",
-            "id": "u2",
-            "exampleId": "e2"
-          }
-        ],
-        "traps": [
-          {
-            "title": "棵 và 颗: đồng âm nhưng không cùng lượng từ",
-            "scene": "Bạn đếm cây hoặc viên kẹo.",
-            "possibleConfusion": "Nghe cùng âm không có nghĩa viết hai chữ thay nhau.",
-            "difference": "棵 dùng đếm cây; 颗 thường đếm vật dạng hạt/viên/tròn như 糖. Chọn theo thứ được đếm, không chọn theo âm.",
-            "cases": [
+            "id": "tree",
+            "title": "Cây",
+            "when": "Nói về cây thân gỗ ở một vị trí hoặc nói chung.",
+            "meaning": "cây",
+            "grammar": "Thường dùng sau lượng từ 棵.",
+            "pattern": "一/这+棵+树",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "这里有两棵树。",
-                "vi": "Ở đây có hai cây.",
-                "comment": "棵 đi với 树.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "房子前面有一棵树。",
+                "pinyin": "Fángzi qiánmiàn yǒu yì kē shù.",
+                "vi": "Trước nhà có một cái cây.",
+                "note": "一棵树 là một cây."
               },
               {
-                "id": "c2",
-                "zh": "这里有两颗糖。",
-                "vi": "Ở đây có hai viên kẹo.",
-                "comment": "颗 đi với 糖 trong mẫu đếm viên.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "wrong-grammar",
-              "explanation": "Không thay 颗 vào vị trí 棵 khi đếm 树 trong mẫu này. Câu đúng: 两棵树 — hai cây; 两颗糖 — hai viên kẹo. Hai câu có thể cùng đúng nhưng cho hai loại vật khác nhau."
-            },
-            "boundary": "Cả hai đều là lượng từ và cùng âm; phạm vi dùng còn tùy danh từ, không phải cứ mọi vật tròn đều bắt buộc 颗.",
-            "tip": "Đếm cây: nhớ 棵 có phần 木.",
-            "id": "t1"
-          },
-          {
-            "title": "树、木材 và “cây” trong tiếng Việt",
-            "scene": "Bạn nói cây ngoài sân hoặc gỗ dùng làm bàn.",
-            "possibleConfusion": "“Cây” và “gỗ” không được dịch bằng một chữ trong mọi tình huống.",
-            "difference": "树 là cây; 木材 là vật liệu gỗ. “Cây bút” tiếng Việt dùng 笔, chữ cây ở đó không chỉ thực vật.",
-            "cases": [
-              {
-                "id": "c1",
                 "zh": "这棵树很高。",
+                "pinyin": "Zhè kē shù hěn gāo.",
                 "vi": "Cây này rất cao.",
-                "comment": "树 chỉ cây được đếm bằng 棵.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "这是木材。",
-                "vi": "Đây là gỗ vật liệu.",
-                "comment": "木材 chỉ thứ dùng làm vật liệu.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c3",
-                "zh": "这是一支笔。",
-                "vi": "Đây là một cây bút.",
-                "comment": "笔 là bút; 支 là lượng từ, không thêm 树.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "note": "这棵树 là cây này."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 树 bằng 木材 đổi từ cây sang vật liệu; không giữ nguyên khung 这棵树 vì lượng từ cũng phải hợp vật nói đến."
-            },
-            "boundary": "Cây bị chặt vẫn có thể được nhắc là cây trong ngữ cảnh. Không lấy “đang sống” làm điều kiện tuyệt đối để dùng 树; ở đây phân biệt cách nhìn cây và vật liệu.",
-            "tip": "Hỏi đang nói thực vật, vật liệu hay lượng từ tiếng Việt?",
-            "id": "t2"
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "Không có đa âm thông dụng cần thêm; 棵/颗 là hai chữ đồng âm khác.",
-          "literalTranslation": "Tiếng Việt cây bút không dùng 树.",
-          "confusables": "Rà 树/木材, lượng từ 棵/颗 và 树下."
-        },
-        "pronunciation": {
-          "text": "树 mang thanh bốn; phân biệt với 水 thanh ba ở bài sau. 棵 và 颗 ở đối chiếu cùng âm nhưng khác chữ, không phải đa âm của 树. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "type": "open",
-            "question": "Điền 棵 hoặc 颗 (đều được cung cấp): 这里有两___树。",
-            "id": "q1"
-          },
-          {
-            "type": "open",
-            "question": "Xếp câu chờ bạn dưới cây: 我 / 等你 / 在树下。",
-            "id": "q2"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "这里有两棵树。"
-            ],
-            "explanation": "棵 đếm cây, 颗 dùng với nhiều vật dạng viên/hạt."
-          },
-          "q2": {
-            "accepted": [
-              "我在树下等你。"
-            ],
-            "explanation": "在树下 trước hành động 等; 你 là người đợi."
-          }
-        },
-        "selfUse": [
-          {
-            "prompt": "Chỉ hai cây trước mặt và nói ở đây có hai cây.",
-            "id": "s1"
-          },
-          {
-            "prompt": "Nhắn bạn rằng bạn đợi dưới cây.",
-            "id": "s2"
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nơi có gì, dùng lượng từ cây.",
-            "frame": "这里有 + 两棵树。",
-            "model": "这里有两棵树。",
-            "vi": "Ở đây có hai cây.",
-            "criteria": [
-              "两 trước 棵.",
-              "Không đổi 棵 thành 颗."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu nơi rồi việc chờ.",
-            "frame": "我 + 在树下 + 等你。",
-            "model": "我在树下等你。",
-            "vi": "Tôi đợi bạn dưới cây.",
-            "criteria": [
-              "在树下 trước 等.",
-              "Có thể nêu rõ cây nào khi cần."
             ]
           }
-        },
-        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=17956&la=0&powerMode=0",
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=17960&la=0&powerMode=0"
-        ]
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Một cái cây.",
+            "tokens": [
+              "一棵",
+              "树",
+              "。"
+            ],
+            "accepted": [
+              "一棵树。"
+            ],
+            "model": "一棵树。",
+            "explanation": "棵 đứng trước 树.",
+            "wrongFeedback": "Dùng lượng từ 棵 cho cây."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "tree",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là cây.",
+            "choices": [
+              "树",
+              "奶"
+            ],
+            "correctIndex": 0,
+            "model": "树",
+            "explanation": "树 là cây.",
+            "wrongFeedback": "奶 là sữa."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói trước nhà có một cái cây.",
+            "hints": [
+              "Nêu vị trí: 房子前面.",
+              "Dùng 有一棵树.",
+              "Mẫu: 房子前面有一棵树。"
+            ],
+            "model": "房子前面有一棵树。",
+            "vi": "Trước nhà có một cái cây.",
+            "criteria": [
+              "Dùng đúng 树 và 棵."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là cây?",
+            "hiddenAnswer": "树",
+            "model": "树"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 一棵__。",
+            "hiddenAnswer": "树",
+            "model": "一棵树。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Một cái cây.",
+            "choices": [
+              "一棵",
+              "树",
+              "。"
+            ],
+            "correct": [
+              "一棵树。"
+            ],
+            "explanation": "棵 đứng trước 树."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là cây.",
+            "choices": [
+              "树",
+              "奶"
+            ],
+            "correctIndex": 0,
+            "explanation": "树 là cây."
+          }
+        }
       }
     },
     {
@@ -19644,232 +19540,182 @@
       "meaning": "bài hát",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-006",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 014",
       "examples": [
         {
-          "zh": "这首歌很好听。",
-          "vi": "Bài hát này nghe rất hay.",
-          "analysis": "这 + 首 + 歌 là bài hát này; 好听 nhận xét âm thanh nghe hay.",
-          "practiceAllowed": true,
-          "pinyin": "Zhè shǒu gē hěn hǎotīng.",
-          "id": "e1"
+          "id": "e1",
+          "zh": "我喜欢这首歌。",
+          "pinyin": "Wǒ xǐhuan zhè shǒu gē.",
+          "vi": "Tôi thích bài hát này.",
+          "analysis": "歌 là bài hát; 首 là lượng từ cho bài hát.",
+          "practiceAllowed": true
         },
         {
-          "zh": "我会唱这首歌。",
-          "vi": "Tôi biết hát bài này.",
-          "analysis": "会 trước 唱 nêu biết làm; 这首歌 sau 唱 là bài cụ thể, không cần lặp thêm 歌 của cụm 唱歌.",
-          "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "zh": "她会唱歌。",
+          "pinyin": "Tā huì chànggē.",
+          "vi": "Cô ấy biết hát.",
+          "analysis": "唱歌 là cụm hát, trong đó 歌 là thành tố của hoạt động.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 49,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Khen bài hát đang nghe hay.",
-      "model": "这首歌很好听。",
+      "task": "Nói bạn thích bài hát này.",
+      "model": "我喜欢这首歌。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 70,
+        "difficulty": "easy",
+        "difficultyReason": "歌 là danh từ bài hát với lượng từ 首 và cụm 唱歌 rõ ràng.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Songs"
+        ],
         "introduction": {
-          "scope": "Học gọi tên, đếm bài hát và nói nghe/hát."
-        },
-        "meaning": {
-          "scene": "Bạn nghe một bài hay và muốn nói mình biết hát bài ấy.",
-          "explanation": "歌 là bài hát, thứ có thể nghe hoặc hát. Nó không tự là động từ hát. Muốn nói hành động hát, dùng 唱歌 hoặc 唱 + bài hát cụ thể.",
-          "boundary": "Tiếng Việt “ca” có thể gợi hát hoặc một ca làm việc; 歌 trong bài này là bài hát, không dùng chỉ ca làm việc. 音乐 là âm nhạc rộng hơn.",
-          "conditions": [
-            "Đếm bài hát dùng 首: 一首歌, 这首歌. 听歌 là nghe nhạc/bài hát, 唱歌 là hát."
-          ],
-          "takeaway": "歌 là bài hát, thứ có thể nghe hoặc hát. Nó không tự là động từ hát. Muốn nói hành động hát, dùng 唱歌 hoặc 唱 + bài hát cụ thể."
+          "scope": "歌 nghĩa là bài hát; thường dùng trong 一首歌 hoặc 唱歌."
         },
         "examples": [
           {
-            "zh": "这首歌很好听。",
-            "vi": "Bài hát này nghe rất hay.",
-            "analysis": "这 + 首 + 歌 là bài hát này; 好听 nhận xét âm thanh nghe hay.",
-            "practiceAllowed": true,
-            "pinyin": "Zhè shǒu gē hěn hǎotīng.",
-            "id": "e1"
+            "id": "e1",
+            "zh": "我喜欢这首歌。",
+            "pinyin": "Wǒ xǐhuan zhè shǒu gē.",
+            "vi": "Tôi thích bài hát này.",
+            "analysis": "歌 là bài hát; 首 là lượng từ cho bài hát.",
+            "practiceAllowed": true
           },
           {
-            "zh": "我会唱这首歌。",
-            "vi": "Tôi biết hát bài này.",
-            "analysis": "会 trước 唱 nêu biết làm; 这首歌 sau 唱 là bài cụ thể, không cần lặp thêm 歌 của cụm 唱歌.",
-            "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "zh": "她会唱歌。",
+            "pinyin": "Tā huì chànggē.",
+            "vi": "Cô ấy biết hát.",
+            "analysis": "唱歌 là cụm hát, trong đó 歌 là thành tố của hoạt động.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "frame": "这 / 一 + 首 + 歌 + nhận xét",
-            "position": "首 đứng trước 歌 trong cụm đếm hoặc chỉ bài.",
-            "required": "好听 dùng cho thứ nghe hay; trong mẫu nhận xét không cần 是 trước 很好听.",
-            "omission": "Đã rõ là bài hát, có thể chỉ nói 这首很好听。",
-            "id": "u1",
-            "exampleId": "e1"
-          },
-          {
-            "frame": "Người + 会 + 唱 + bài hát cụ thể",
-            "position": "会 trước 唱; đối tượng như 这首歌 sau 唱.",
-            "required": "Chỉ nêu hoạt động hát thì dùng 唱歌; nêu bài cụ thể thì dùng 唱这首歌.",
-            "omission": "Đã rõ bài nào, có thể nói 我会唱。 — Tôi biết hát bài đó.",
-            "id": "u2",
-            "exampleId": "e2"
-          }
-        ],
-        "traps": [
-          {
-            "title": "歌、唱歌、听歌: bài và hành động",
-            "scene": "Bạn thích một bài nhưng không muốn tự hát.",
-            "possibleConfusion": "Thích bài hát khác thích hát; nghe cũng không phải hát.",
-            "difference": "歌 là bài; 唱歌 là hát; 听歌 là nghe bài hát/nhạc. Trước bài cụ thể, 唱 hoặc 听 làm hành động.",
-            "cases": [
+            "id": "song",
+            "title": "Bài hát",
+            "when": "Nói về một bài hát hoặc hoạt động hát.",
+            "meaning": "bài hát; bài ca",
+            "grammar": "Thường sau 首 khi đếm bài hát hoặc trong 唱歌.",
+            "pattern": "这/一+首+歌；唱歌",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
                 "zh": "我喜欢这首歌。",
+                "pinyin": "Wǒ xǐhuan zhè shǒu gē.",
                 "vi": "Tôi thích bài hát này.",
-                "comment": "Thích một tác phẩm cụ thể.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "note": "这首歌 là bài hát này."
               },
               {
-                "id": "c2",
-                "zh": "我喜欢唱歌。",
-                "vi": "Tôi thích hát.",
-                "comment": "Thích hoạt động tự hát.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c3",
-                "zh": "我喜欢听歌。",
-                "vi": "Tôi thích nghe nhạc.",
-                "comment": "Thích hoạt động nghe, chưa nói mình hát được.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "她会唱歌。",
+                "pinyin": "Tā huì chànggē.",
+                "vi": "Cô ấy biết hát.",
+                "note": "唱歌 là hát."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi 这首歌 thành 唱歌 trong câu thích vẫn đúng nhưng đổi đối tượng yêu thích từ bài sang hoạt động. Muốn biết hát bài này, dùng 我会唱这首歌。 — Tôi biết hát bài này."
-            },
-            "boundary": "Một người có thể cùng thích bài, thích hát và thích nghe. Không suy từ喜欢这首歌 rằng người đó đã biết hát.",
-            "tip": "Bài: 歌; làm gì với bài: 唱 hoặc 听.",
-            "id": "t1"
-          },
-          {
-            "title": "歌 và 音乐: bài hát và âm nhạc",
-            "scene": "Bạn nói bài có người hát hoặc nghe nhạc không lời.",
-            "possibleConfusion": "Không phải mọi 音乐 đều là một bài hát.",
-            "difference": "歌 thường là bài hát; 音乐 là âm nhạc, có thể gồm bài hát hoặc nhạc không lời. Muốn đếm một bài hát dùng 首 với 歌.",
-            "cases": [
-              {
-                "id": "c1",
-                "zh": "我在听歌。",
-                "vi": "Tôi đang nghe bài hát/nhạc.",
-                "comment": "Gợi việc nghe các bài hát.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "我在听音乐。",
-                "vi": "Tôi đang nghe nhạc.",
-                "comment": "Rộng hơn, có thể có hoặc không có lời.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Khi đang nghe một bài hát, thay 听歌 bằng 听音乐 có thể vẫn đúng, nhưng 音乐 không nêu rõ loại có lời. Nếu thật sự chỉ nhạc không lời, 音乐 rộng và hợp hơn."
-            },
-            "boundary": "歌 và 音乐 giao nhau khi nói âm nhạc có hát; không chia thành nhạc Trung/nhạc nước ngoài hay hay/dở.",
-            "tip": "Một bài hát: 歌; lĩnh vực âm nhạc rộng: 音乐.",
-            "id": "t2"
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "歌 dùng cách đọc thông dụng duy nhất ở mức này.",
-          "literalTranslation": "Âm Hán Việt ca không thay mọi “ca”, nhất là ca làm việc.",
-          "confusables": "Rà 歌/唱歌/听歌, 音乐 và lượng từ 首."
-        },
-        "pronunciation": {
-          "text": "歌 mang thanh một. Trong 这首歌, 首 mang thanh ba trước thanh một thường đọc thấp; không bắt buộc hạ rồi nâng đủ. Trong 很好听, hai thanh ba liền nhau khiến 很 thường chuyển thanh hai khi nói liền; Pinyin giữ thanh gốc. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "type": "open",
-            "question": "Điền 首 hoặc 个 theo mẫu đếm bài hát: 这___歌很好听。",
-            "id": "q1"
-          },
-          {
-            "type": "open",
-            "question": "Xếp câu biết hát bài này: 我 / 这首歌 / 会 / 唱。",
-            "id": "q2"
-          },
-          {
-            "type": "open",
-            "question": "Cho 唱歌 (hát), 听歌 (nghe bài hát). Bạn muốn nói chỉ thích nghe, chưa nói mình hát: 我喜欢___。",
-            "id": "q3"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "这首歌很好听。"
-            ],
-            "explanation": "首 là lượng từ thông dụng cho bài hát."
-          },
-          "q2": {
-            "accepted": [
-              "我会唱这首歌。"
-            ],
-            "explanation": "会 trước 唱; bài cụ thể sau 唱."
-          },
-          "q3": {
-            "accepted": [
-              "我喜欢听歌。"
-            ],
-            "explanation": "听歌 nêu việc nghe. 唱歌 đúng cấu trúc nhưng đổi sang thích tự hát."
-          }
-        },
-        "selfUse": [
-          {
-            "prompt": "Khen bài hát đang nghe hay.",
-            "id": "s1"
-          },
-          {
-            "prompt": "Nói bạn biết hát bài này.",
-            "id": "s2"
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Chỉ bài này và nhận xét âm thanh.",
-            "frame": "这首歌 + 很好听。",
-            "model": "这首歌很好听。",
-            "vi": "Bài hát này rất hay.",
-            "criteria": [
-              "首 trước 歌.",
-              "好听 nhận xét nghe hay."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu khả năng và bài cụ thể.",
-            "frame": "我会 + 唱 + 这首歌。",
-            "model": "我会唱这首歌。",
-            "vi": "Tôi biết hát bài này.",
-            "criteria": [
-              "会 trước hành động.",
-              "Không nhầm biết hát với thích nghe."
             ]
           }
-        },
-        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi thích bài hát này.",
+            "tokens": [
+              "我",
+              "喜欢",
+              "这首歌",
+              "。"
+            ],
+            "accepted": [
+              "我喜欢这首歌。"
+            ],
+            "model": "我喜欢这首歌。",
+            "explanation": "这首歌 là bài hát này.",
+            "wrongFeedback": "Dùng lượng từ 首 trước 歌."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "song",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là bài hát.",
+            "choices": [
+              "歌",
+              "树"
+            ],
+            "correctIndex": 0,
+            "model": "歌",
+            "explanation": "歌 là bài hát.",
+            "wrongFeedback": "树 là cây."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn thích bài hát này.",
+            "hints": [
+              "Nêu chủ thể: 我喜欢.",
+              "Dùng 这首歌.",
+              "Mẫu: 我喜欢这首歌。"
+            ],
+            "model": "我喜欢这首歌。",
+            "vi": "Tôi thích bài hát này.",
+            "criteria": [
+              "Dùng đúng 歌 và 首."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là bài hát?",
+            "hiddenAnswer": "歌",
+            "model": "歌"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 这首__。",
+            "hiddenAnswer": "歌",
+            "model": "这首歌。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi thích bài hát này.",
+            "choices": [
+              "我",
+              "喜欢",
+              "这首歌",
+              "。"
+            ],
+            "correct": [
+              "我喜欢这首歌。"
+            ],
+            "explanation": "这首歌 là bài hát này."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là bài hát.",
+            "choices": [
+              "歌",
+              "树"
+            ],
+            "correctIndex": 0,
+            "explanation": "歌 là bài hát."
+          }
+        }
       }
     },
     {
