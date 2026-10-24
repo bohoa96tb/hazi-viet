@@ -5,10 +5,10 @@ Cập nhật: 2026-10-24. Chế độ hiện hành: `review-existing-first`.
 ## Rà soát bài đã có
 
 - Phạm vi: 377 bài đang đủ cấu trúc trong thứ tự `data/vocabulary/hanzii-course.json`, gồm 10 bài ngoài baseline.
-- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 128/377 bài.
-- Đã rà trong các đợt `review-001` đến `review-008`: các nhóm trước đây và nhóm review-008 gồm 高、不大、不对、重要、做、动、学、干、忙、用、看、考、试、上学、上班、上网、上课、准备.
-- Bài có sửa nội dung trong review-008: cả 18 bài; tách usage gắn đúng ví dụ, sửa bẫy placeholder/dấu kỹ thuật và đề selfUse lệch ở 高、不大、不对、重要、做、动、学、干、忙、用、看.
-- Còn rà: 249 bài. Tiếp theo: 动作 (`hz-h1-37fd10cbf083`), 学习, 工作 và các ID trong `tools/vocabulary/review-checkpoint.json`.
+- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 146/377 bài.
+- Đã rà trong các đợt `review-001` đến `review-009`: các nhóm trước đây và nhóm review-009 gồm 动作、学习、工作、干什么、开会、打球、爱好、考试、请假、包、吧、杯、门、东西、书店、医院、商场、商店.
+- Bài có sửa nội dung trong review-009: 动作、学习、工作、干什么、开会 (tách usage, sửa bẫy placeholder và selfUse), 打球 (sửa câu mẫu/dịch), 请假 (sửa câu mẫu/dịch), 杯 (sửa ghi chú kỹ thuật). 10 bài còn lại được đọc và giữ nguyên sau kiểm tra.
+- Còn rà: 231 bài. Tiếp theo: 图书馆 (`hz-h1-a397ab7fa248`), 杯子, 洗手间 và các ID trong `tools/vocabulary/review-checkpoint.json`.
 - Chưa được coi là phản biện giáo viên độc lập; chưa kiểm bố cục mobile hoặc TTS Android thật.
 
 ## Bổ sung bài còn thiếu
