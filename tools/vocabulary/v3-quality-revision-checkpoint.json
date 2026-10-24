@@ -972,21 +972,28 @@
     "browserVisualLayout": "dom-simulation-only",
     "qualityRevision": "passed-internal"
   },
-  "status": "validated-worktree",
-  "lastVerifiedRemoteCommit": "a95c50cf248a5d59f803ae895a8beb93b5b2a615",
+  "status": "deployed-and-live-verified",
+  "lastVerifiedRemoteCommit": "f8c2ac88e321617ec7274f5c1c76d303db1514bf",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
-    "pagesRunId": 40082625813,
-    "pagesHeadSha": "3119aa2ab6536bd35e9e58af93e8a95e3cec205d",
+    "pagesRunId": 40085704728,
+    "pagesHeadSha": "f8c2ac88e321617ec7274f5c1c76d303db1514bf",
     "pagesStatus": "success",
-    "liveCourseDigestSha256": "41d2eb4f294a9a794de439b5d0366c658fa630f184b38c128129484134c0437b",
+    "liveCourseDigestSha256": "dda50ffdc8b30be101f31ad9b29ebd89f841dc0109372313db98af302db78c16",
     "liveLessonsVerified": [
       "hz-h1-64d354d405bb",
       "hz-h1-0a3f1c936624",
       "hz-h1-1ac411c12450",
-      "hz-h1-fb76fb22fed2"
+      "hz-h1-fb76fb22fed2",
+      "hz-h1-489f35fdb6de",
+      "hz-h1-14cd68fb49a8",
+      "hz-h1-84d9b4b03d4f",
+      "hz-h1-0e7703e395dc",
+      "hz-h1-722d36ebd9c0",
+      "hz-h1-3f50a387a499",
+      "hz-h1-678ba85d28e7"
     ]
   },
-  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
+  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline. Pages run đúng head_sha và dữ liệu live đã đối chiếu byte với file đã kiểm.",
   "lastBatch": "quality-revision-013"
 }
