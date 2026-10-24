@@ -19731,234 +19731,219 @@
       "meaning": "hào (một phần mười tệ)",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-006",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
       "examples": [
         {
-          "zh": "这个五毛钱。",
-          "vi": "Cái này năm hào.",
-          "analysis": "五毛钱 là giá nửa tệ; 钱 có thể bỏ khi đã rõ nói giá.",
-          "practiceAllowed": true,
-          "pinyin": "Zhège wǔ máo qián.",
-          "id": "e1"
+          "id": "e1",
+          "zh": "一毛钱。",
+          "pinyin": "Yì máo qián.",
+          "vi": "Một hào.",
+          "analysis": "毛 là đơn vị tiền nhỏ, bằng một phần mười 元 trong cách nói thông dụng.",
+          "practiceAllowed": true
         },
         {
-          "zh": "我有三块五毛钱。",
-          "vi": "Tôi có ba tệ rưỡi.",
-          "analysis": "三块 là ba tệ, 五毛 là thêm nửa tệ; tổng là 3,5 tệ. Có lượng tiền sau 有.",
-          "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "zh": "这个五毛。",
+          "pinyin": "Zhège wǔ máo.",
+          "vi": "Cái này năm hào.",
+          "analysis": "毛 đứng sau số để nói giá tiền nhỏ.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 50,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Báo món đang chỉ giá năm hào.",
-      "model": "这个五毛钱。",
+      "task": "Nói món đồ giá một hào.",
+      "model": "一毛钱。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 71,
+        "difficulty": "medium",
+        "difficultyReason": "毛 có nghĩa lông nhưng trong bài này là đơn vị tiền; cần phân biệt nghĩa tiền với nghĩa vật chất và vị trí sau số.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Money"
+        ],
         "introduction": {
-          "scope": "Học 毛 trong giá tiền; phân biệt nghĩa lông/tơ khi đổi ngữ cảnh."
-        },
-        "meaning": {
-          "scene": "Bạn nghe người bán nói một món giá năm hào.",
-          "explanation": "毛 là cách nói thông dụng của 角 trong giá tiền nhân dân tệ: mười 毛 bằng một 元, cũng thường nói một 块. Năm 毛 là nửa tệ.",
-          "boundary": "Trong văn bản giá tiền, 角 trang trọng hơn; 毛 thường gặp khi nói. 毛 còn chỉ lông/tơ ở câu khác, không phải một cách đọc mới. Không đổi nghĩa mục từ nguồn sang chỉ lông.",
-          "conditions": [
-            "Số + 毛 hoặc số + 毛钱 là lượng tiền. Giá có cả tệ và hào thường nói số + 块 + số + 毛."
-          ],
-          "takeaway": "毛 là cách nói thông dụng của 角 trong giá tiền nhân dân tệ: mười 毛 bằng một 元, cũng thường nói một 块. Năm 毛 là nửa tệ."
+          "scope": "毛 trong bài này là đơn vị tiền bằng một phần mười 元, thường dùng trong giá nhỏ."
         },
         "examples": [
           {
-            "zh": "这个五毛钱。",
+            "id": "e1",
+            "zh": "一毛钱。",
+            "pinyin": "Yì máo qián.",
+            "vi": "Một hào.",
+            "analysis": "毛 là đơn vị tiền nhỏ, bằng một phần mười 元 trong cách nói thông dụng.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这个五毛。",
+            "pinyin": "Zhège wǔ máo.",
             "vi": "Cái này năm hào.",
-            "analysis": "五毛钱 là giá nửa tệ; 钱 có thể bỏ khi đã rõ nói giá.",
-            "practiceAllowed": true,
-            "pinyin": "Zhège wǔ máo qián.",
-            "id": "e1"
-          },
-          {
-            "zh": "我有三块五毛钱。",
-            "vi": "Tôi có ba tệ rưỡi.",
-            "analysis": "三块 là ba tệ, 五毛 là thêm nửa tệ; tổng là 3,5 tệ. Có lượng tiền sau 有.",
-            "practiceAllowed": true,
-            "id": "e2"
+            "analysis": "毛 đứng sau số để nói giá tiền nhỏ.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "frame": "Đồ vật + số + 毛（钱）",
-            "position": "毛 sau số; 钱 tùy chọn khi rõ giá.",
-            "required": "Một 毛 là một phần mười tệ, không phải một tệ.",
-            "omission": "Đang chỉ đồ, chỉ đáp 五毛。 cũng rõ giá.",
-            "id": "u1",
-            "exampleId": "e1"
-          },
-          {
-            "frame": "Người + 有 + số + 块 + số + 毛（钱）",
-            "position": "块 theo phần tệ; 毛 theo phần hào.",
-            "required": "三块五毛钱 là 3,5 tệ. Trong ngữ cảnh giá, 三块五 thường lược đơn vị 毛 cuối mà vẫn là 3,5 tệ.",
-            "omission": "Có thể lược 钱 nếu đã rõ đang nói tiền.",
-            "id": "u2",
-            "exampleId": "e2"
-          }
-        ],
-        "traps": [
-          {
-            "title": "毛、角、块、元: cùng hệ tiền, khác đơn vị hoặc cách nói",
-            "scene": "Bạn đọc nhãn rồi nghe người bán báo giá.",
-            "possibleConfusion": "Không phải đổi 毛 thành 块 mà giữ số vẫn giữ được giá.",
-            "difference": "毛 và 角 cùng đơn vị một phần mười tệ; 块 và 元 cùng đơn vị tệ. 毛、块 hay dùng khi nói; 角、元 thường gặp trong cách ghi chuẩn.",
-            "cases": [
+            "id": "money",
+            "title": "Hào, đơn vị tiền nhỏ",
+            "when": "Nói số tiền bằng một phần mười tệ/元.",
+            "meaning": "hào; một phần mười tệ",
+            "grammar": "Đứng sau số tiền, có thể thêm 钱.",
+            "pattern": "số+毛（钱）",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "这个五毛钱。",
-                "vi": "Cái này năm hào.",
-                "comment": "Bằng nửa tệ.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "这个五角钱。",
-                "vi": "Cái này năm hào.",
-                "comment": "Cùng giá với năm 毛.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c3",
-                "zh": "这个五块钱。",
-                "vi": "Cái này năm tệ.",
-                "comment": "Gấp mười giá năm 毛.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "一毛钱",
+                "pinyin": "yì máo qián",
+                "vi": "một hào"
               }
             ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Thay 毛 bằng 角 trong 五毛钱 giữ giá và đổi cách gọi. Thay bằng 块 thành 五块钱 vẫn đúng nhưng tăng giá lên mười lần."
-            },
-            "boundary": "Khẩu ngữ và văn bản có thể trộn cách gọi tùy tình huống; không coi dùng 元 khi nói là sai.",
-            "tip": "毛=角; 块=元; mười hào mới một tệ.",
-            "id": "t1"
-          },
-          {
-            "title": "毛: hào hay lông",
-            "scene": "Bạn hỏi giá hoặc tả con mèo.",
-            "possibleConfusion": "Một chữ có nhiều nghĩa; không lấy nghĩa giá tiền áp vào mọi danh từ.",
-            "difference": "Số + 毛钱 thường chỉ tiền. 猫的毛 là lông mèo; 毛 ở đây là thứ trên cơ thể, không phải đồng hào.",
-            "cases": [
+            "examples": [
               {
-                "id": "c1",
-                "zh": "我有五毛钱。",
-                "vi": "Tôi có năm hào.",
-                "comment": "钱 nêu rõ tiền.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "一毛钱。",
+                "pinyin": "Yì máo qián.",
+                "vi": "Một hào.",
+                "note": "毛 là đơn vị tiền nhỏ."
               },
               {
-                "id": "c2",
-                "zh": "这只猫的毛很白。",
-                "vi": "Lông của con mèo này rất trắng.",
-                "comment": "毛 là lông; 的 nối mèo với lông.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "这个五毛。",
+                "pinyin": "Zhège wǔ máo.",
+                "vi": "Cái này năm hào.",
+                "note": "五毛 là năm phần mười tệ."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "fur",
+            "afterSense": "money",
+            "title": "毛 còn có nghĩa lông",
+            "explanation": "毛 có thể là lông/tơ, nhưng sau số tiền hoặc trong 毛钱 thì là đơn vị tiền.",
+            "contrasts": [
+              {
+                "zh": "一毛钱。",
+                "pinyin": "Yì máo qián.",
+                "vi": "Một hào.",
+                "note": "Nghĩa tiền."
+              },
+              {
+                "zh": "猫的毛。",
+                "pinyin": "Māo de máo.",
+                "vi": "Lông của mèo.",
+                "note": "Nghĩa lông."
               }
             ],
-            "replacement": {
-              "result": "context-needed",
-              "explanation": "Giữ cả câu và đối tượng để chọn nghĩa. Chỉ nhìn 五毛 có thể là giá trong mua bán; trong câu tả lông, nghĩa tiền không phù hợp."
-            },
-            "boundary": "Hai nghĩa cùng cách đọc, là đa nghĩa chứ không đa âm. Không bắt người học dùng nghĩa lông trong bài tự dùng về giá.",
-            "tip": "Có 钱 hoặc đang báo giá: nghĩ hào; cơ thể con vật: nghĩ lông.",
-            "id": "t2"
+            "tip": "Nhìn ngữ cảnh: số + 毛 thường là tiền; 毛 của con vật là lông."
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "Rà nghĩa hào/lông cùng cách đọc; không gọi đa nghĩa thành đa âm.",
-          "literalTranslation": "毛 trong giá dịch hào, không dịch máy móc theo âm Hán Việt mao.",
-          "confusables": "Rà 毛/角/块/元, số tiền và cách lược 毛 cuối."
-        },
-        "pronunciation": {
-          "text": "毛 mang thanh hai ở cả nghĩa hào và lông. 五 trong 五毛 là thanh ba trước thanh hai, thường đọc thấp, không bắt buộc hạ rồi nâng đầy đủ. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "type": "open",
-            "question": "Cho 毛、角、块、元. Năm 毛 bằng năm 角 hay năm 块?",
-            "id": "q1"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: một hào.",
+            "tokens": [
+              "一",
+              "毛钱",
+              "。"
+            ],
+            "accepted": [
+              "一毛钱。"
+            ],
+            "model": "一毛钱。",
+            "explanation": "毛钱 là đơn vị tiền nhỏ.",
+            "wrongFeedback": "Đặt 毛 sau số tiền."
           },
           {
-            "type": "open",
-            "question": "三块五毛钱 là 3,5 tệ hay 35 tệ?",
-            "id": "q2"
-          },
-          {
-            "type": "open",
-            "question": "Trong 这只猫的毛很白。, 毛 là hào hay lông?",
-            "id": "q3"
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 五____。",
+            "accepted": [
+              "毛"
+            ],
+            "model": "五毛。",
+            "explanation": "毛 đứng sau số để nói giá nhỏ.",
+            "wrongFeedback": "Chọn đơn vị tiền nhỏ."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "Năm 角.",
-              "五角钱。"
-            ],
-            "explanation": "毛 và 角 cùng một phần mười tệ; 块/元 là tệ."
-          },
-          "q2": {
-            "accepted": [
-              "3,5 tệ.",
-              "Ba tệ rưỡi."
-            ],
-            "explanation": "三块 là 3 tệ, 五毛 là 0,5 tệ, không ghép thành số ba mươi lăm tệ."
-          },
-          "q3": {
-            "accepted": [
-              "Lông."
-            ],
-            "explanation": "Mèo và màu lông xác định nghĩa; không phải câu báo giá."
-          }
-        },
-        "selfUse": [
+        "discriminationExercises": [
           {
-            "prompt": "Báo món đang chỉ giá năm hào.",
-            "id": "s1"
-          },
-          {
-            "prompt": "Nói bạn có ba tệ rưỡi.",
-            "id": "s2"
+            "id": "d1",
+            "trapId": "fur",
+            "type": "choice",
+            "prompt": "Trong 一毛钱, 毛 nghĩa là gì?",
+            "choices": [
+              "đơn vị tiền",
+              "lông"
+            ],
+            "correctIndex": 0,
+            "model": "đơn vị tiền",
+            "explanation": "毛 sau số tiền là một phần mười 元.",
+            "wrongFeedback": "Không chọn nghĩa lông khi có ngữ cảnh tiền."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Chỉ món đồ và số tiền.",
-            "frame": "这个 + 五毛（钱）。",
-            "model": "这个五毛钱。",
-            "vi": "Cái này năm hào.",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói món đồ giá một hào.",
+            "hints": [
+              "Nêu số: 一.",
+              "Thêm 毛钱.",
+              "Mẫu: 一毛钱。"
+            ],
+            "model": "一毛钱。",
+            "vi": "Một hào.",
             "criteria": [
-              "五毛 bằng nửa tệ.",
-              "Lược 钱 được khi rõ báo giá."
-            ]
-          },
-          "s2": {
-            "idea": "Tách phần tệ và phần hào.",
-            "frame": "我有 + 三块 + 五毛（钱）。",
-            "model": "我有三块五毛钱。",
-            "vi": "Tôi có ba tệ rưỡi.",
-            "criteria": [
-              "三块 + 五毛, tổng 3,5 tệ.",
-              "我有三块五。 cũng được nếu ngữ cảnh tiền rõ."
+              "Dùng đúng 毛 trong nghĩa tiền."
             ]
           }
-        },
-        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=4002&la=0&powerMode=0"
-        ]
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Đơn vị tiền nhỏ một phần mười tệ là gì?",
+            "hiddenAnswer": "毛",
+            "model": "一毛钱。"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 五__。",
+            "hiddenAnswer": "毛",
+            "model": "五毛。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: một hào.",
+            "choices": [
+              "一",
+              "毛钱",
+              "。"
+            ],
+            "correct": [
+              "一毛钱。"
+            ],
+            "explanation": "毛钱 là tiền nhỏ."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Trong 一毛钱, 毛 nghĩa là gì?",
+            "choices": [
+              "đơn vị tiền",
+              "lông"
+            ],
+            "correctIndex": 0,
+            "explanation": "毛 là đơn vị tiền trong cụm này."
+          }
+        }
       }
     },
     {
@@ -19974,22 +19959,23 @@
       "meaning": "nước",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-006",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
       "examples": [
         {
+          "id": "e1",
           "zh": "我想喝水。",
-          "vi": "Tôi muốn uống nước.",
-          "analysis": "想 trước 喝 nêu mong muốn; 水 sau 喝 là thứ uống, không bắt buộc đếm lượng.",
-          "practiceAllowed": true,
           "pinyin": "Wǒ xiǎng hē shuǐ.",
-          "id": "e1"
+          "vi": "Tôi muốn uống nước.",
+          "analysis": "水 là nước, đứng sau 喝 làm đồ uống.",
+          "practiceAllowed": true
         },
         {
-          "zh": "请给我一杯水。",
-          "vi": "Xin cho tôi một cốc nước.",
-          "analysis": "给 + 我 + 一杯水: người nhận trước, vật đưa sau. 一 + 杯 + 水 nêu lượng nước bằng cốc.",
-          "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "zh": "桌子上有一杯水。",
+          "pinyin": "Zhuōzi shàng yǒu yì bēi shuǐ.",
+          "vi": "Trên bàn có một cốc nước.",
+          "analysis": "一杯水 là một cốc nước, với 杯 là lượng từ cho đồ uống.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 51,
@@ -19998,208 +19984,157 @@
       "task": "Nói bạn muốn uống nước.",
       "model": "我想喝水。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 72,
+        "difficulty": "easy",
+        "difficultyReason": "水 là danh từ cơ bản với mẫu uống nước và lượng từ 杯 rõ ràng.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Water"
+        ],
         "introduction": {
-          "scope": "Học nước uống và cách nói một cốc/một chai nước."
-        },
-        "meaning": {
-          "scene": "Bạn khát và nhờ người nhà đưa một cốc nước.",
-          "explanation": "水 là nước. Trong 喝水, thường nói uống nước; chưa tự nêu nóng, lạnh hay nước đóng chai. Muốn rõ loại hoặc nhiệt độ thì thêm từ phù hợp.",
-          "boundary": "Không dịch mọi “nước” tiếng Việt thành 水: nước Nhật là 日本, nước ngoài là 外国; đó là quốc gia chứ không phải chất lỏng. Nước trái cây thường gọi 果汁.",
-          "conditions": [
-            "Nói lượng nước bằng vật chứa: 一杯水 là một cốc, 一瓶水 là một chai. Không cần lượng từ khi chỉ nói uống nước nói chung."
-          ],
-          "takeaway": "水 là nước. Trong 喝水, thường nói uống nước; chưa tự nêu nóng, lạnh hay nước đóng chai. Muốn rõ loại hoặc nhiệt độ thì thêm từ phù hợp."
+          "scope": "水 nghĩa là nước, chất lỏng hoặc đồ uống nước trong ngữ cảnh thường ngày."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "我想喝水。",
-            "vi": "Tôi muốn uống nước.",
-            "analysis": "想 trước 喝 nêu mong muốn; 水 sau 喝 là thứ uống, không bắt buộc đếm lượng.",
-            "practiceAllowed": true,
             "pinyin": "Wǒ xiǎng hē shuǐ.",
-            "id": "e1"
+            "vi": "Tôi muốn uống nước.",
+            "analysis": "水 là nước, đứng sau 喝 làm đồ uống.",
+            "practiceAllowed": true
           },
           {
-            "zh": "请给我一杯水。",
-            "vi": "Xin cho tôi một cốc nước.",
-            "analysis": "给 + 我 + 一杯水: người nhận trước, vật đưa sau. 一 + 杯 + 水 nêu lượng nước bằng cốc.",
-            "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "zh": "桌子上有一杯水。",
+            "pinyin": "Zhuōzi shàng yǒu yì bēi shuǐ.",
+            "vi": "Trên bàn có một cốc nước.",
+            "analysis": "一杯水 là một cốc nước, với 杯 là lượng từ cho đồ uống.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "frame": "Người + 想 + 喝 + 水",
-            "position": "水 sau hành động 喝, 想 trước 喝.",
-            "required": "Muốn rõ nước nóng/lạnh có thể nói 热水/冷水; 水 đơn lẻ không tự khẳng định nhiệt độ.",
-            "omission": "Đã rõ đang nói nước gì có thể lược mô tả nhiệt độ.",
-            "id": "u1",
-            "exampleId": "e1"
-          },
-          {
-            "frame": "请 + 给 + người nhận + số + 杯 / 瓶 + 水",
-            "position": "Người nhận sau 给; số lượng, vật chứa, 水 ở cuối.",
-            "required": "杯 là cốc, 瓶 là chai; chọn đúng thứ bạn muốn nhận.",
-            "omission": "Khi hai bên biết đang nói nước, có thể xin 一杯。 — Một cốc, không buộc lặp 水.",
-            "id": "u2",
-            "exampleId": "e2"
-          }
-        ],
-        "traps": [
-          {
-            "title": "水、果汁、饮料: nước và loại đồ uống",
-            "scene": "Bạn muốn nước thường hoặc nước trái cây.",
-            "possibleConfusion": "Tiếng Việt đều có thể dùng chữ nước nhưng tên đồ uống tiếng Trung khác.",
-            "difference": "水 là nước; 果汁 là nước ép trái cây; 饮料 là đồ uống, trong mua hàng thường gợi các đồ uống chế biến. Không tự gọi mọi nước trái cây chỉ là 水.",
-            "cases": [
+            "id": "water",
+            "title": "Nước",
+            "when": "Nói về nước để uống hoặc chất lỏng nói chung.",
+            "meaning": "nước",
+            "grammar": "Có thể đứng sau 喝 hoặc sau lượng từ 杯.",
+            "pattern": "喝+水；一+杯+水",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
                 "zh": "我想喝水。",
+                "pinyin": "Wǒ xiǎng hē shuǐ.",
                 "vi": "Tôi muốn uống nước.",
-                "comment": "Chưa nêu đồ uống có vị hay trái cây.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "note": "喝水 là uống nước."
               },
               {
-                "id": "c2",
-                "zh": "我想喝果汁。",
-                "vi": "Tôi muốn uống nước ép trái cây.",
-                "comment": "Nêu rõ loại đồ uống trái cây.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c3",
-                "zh": "你想喝什么饮料？",
-                "vi": "Bạn muốn uống đồ uống gì?",
-                "comment": "Hỏi loại đồ uống, phạm vi rộng hơn chỉ nước thường.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "桌子上有一杯水。",
+                "pinyin": "Zhuōzi shàng yǒu yì bēi shuǐ.",
+                "vi": "Trên bàn có một cốc nước.",
+                "note": "一杯水 là một cốc nước."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 水 bằng 果汁 trong câu muốn uống vẫn đúng nhưng đổi món muốn nhận. Thay bằng 饮料 làm ý rộng hơn, có thể cần hỏi tiếp là loại nào."
-            },
-            "boundary": "Nước cũng là thứ uống được, nhưng tên danh mục đồ uống trong cửa hàng tùy ngữ cảnh. Không đưa quy tắc rằng 水 và 饮料 tuyệt đối không giao nhau.",
-            "tip": "Muốn đúng món: 水 là nước; nước ép: 果汁.",
-            "id": "t1"
-          },
-          {
-            "title": "杯水、瓶水: lượng chứa không phải cùng lượng mặc định",
-            "scene": "Bạn gọi một cốc nước tại quán hoặc mua nước chai.",
-            "possibleConfusion": "Không chọn lượng từ chỉ để đủ câu mà bỏ qua thứ sẽ nhận.",
-            "difference": "杯 đo bằng cốc; 瓶 đo bằng chai. Hai đơn vị có thể có dung tích khác nhau; không mặc định một cốc bằng một chai.",
-            "cases": [
-              {
-                "id": "c1",
-                "zh": "请给我一杯水。",
-                "vi": "Xin cho tôi một cốc nước.",
-                "comment": "Nhận nước theo cốc.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "请给我一瓶水。",
-                "vi": "Xin cho tôi một chai nước.",
-                "comment": "Nhận nước theo chai.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 杯 bằng 瓶 vẫn đúng nhưng đổi kiểu lượng và vật chứa yêu cầu. Trong bài dùng số + 杯/瓶 + 水; không ghép máy móc theo “một cái nước”."
-            },
-            "boundary": "Cùng một lượng nước có thể rót từ chai sang cốc, nhưng câu đặt hàng nói khác vật chứa. Khẩu ngữ có thể lược tên đồ uống nếu đã rõ.",
-            "tip": "Chọn lượng từ theo cốc hay chai bạn cần.",
-            "id": "t2"
+            ]
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "Không có đa âm thông dụng cần thêm; phân biệt 水 và 树 là hai chữ/từ.",
-          "literalTranslation": "Không dịch nước trong nước Nhật thành 水; không ép nước trái cây chỉ là 水.",
-          "confusables": "Rà 水/果汁/饮料 và 杯/瓶 với lược danh từ theo ngữ cảnh."
-        },
-        "pronunciation": {
-          "text": "水 mang thanh ba; phân biệt với 树 thanh bốn. Trong 喝水, 水 ở cuối có thể đọc đường nét đầy hơn, nhưng thanh ba không phải lúc nào cũng hạ rồi nâng trọn. 一 trong 一杯 đứng trước thanh một nên khi nói liền thường đọc thanh bốn; giới thiệu giữ thanh gốc. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "confusions": [],
+        "guidedExercises": [
           {
-            "type": "open",
-            "question": "Xếp câu: 想 / 水 / 我 / 喝。",
-            "id": "q1"
-          },
-          {
-            "type": "open",
-            "question": "Bạn muốn một chai nước. Điền 杯 (cốc) hoặc 瓶 (chai): 请给我一___水。",
-            "id": "q2"
-          },
-          {
-            "type": "open",
-            "question": "Cho 水、果汁 (nước ép). Muốn nước ép trái cây, không chỉ nước thường: 我想喝___。",
-            "id": "q3"
-          }
-        ],
-        "answers": {
-          "q1": {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi muốn uống nước.",
+            "tokens": [
+              "我",
+              "想",
+              "喝水",
+              "。"
+            ],
             "accepted": [
               "我想喝水。"
             ],
-            "explanation": "想 trước 喝; 水 là đồ uống sau 喝."
-          },
-          "q2": {
-            "accepted": [
-              "请给我一瓶水。"
-            ],
-            "explanation": "瓶 đúng vật chứa bạn muốn; 杯 sẽ đổi sang cốc."
-          },
-          "q3": {
-            "accepted": [
-              "我想喝果汁。"
-            ],
-            "explanation": "果汁 giữ đúng loại đồ uống; 水 một mình không nêu được nước ép."
-          }
-        },
-        "selfUse": [
-          {
-            "prompt": "Nói bạn muốn uống nước.",
-            "id": "s1"
-          },
-          {
-            "prompt": "Nhờ người nhà đưa một cốc nước.",
-            "id": "s2"
+            "model": "我想喝水。",
+            "explanation": "喝水 là uống nước.",
+            "wrongFeedback": "Giữ cụm 喝水."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu mong muốn rồi việc uống.",
-            "frame": "我想 + 喝 + 水。",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "water",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là nước.",
+            "choices": [
+              "水",
+              "奶"
+            ],
+            "correctIndex": 0,
+            "model": "水",
+            "explanation": "水 là nước; 奶 là sữa.",
+            "wrongFeedback": "Phân biệt nước với sữa."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn muốn uống nước.",
+            "hints": [
+              "Nêu ý: 我想.",
+              "Dùng 喝水.",
+              "Mẫu: 我想喝水。"
+            ],
             "model": "我想喝水。",
             "vi": "Tôi muốn uống nước.",
             "criteria": [
-              "想 trước 喝.",
-              "Có thể thêm 热/冷 khi thật sự muốn nêu nhiệt độ."
-            ]
-          },
-          "s2": {
-            "idea": "Lịch sự, nêu người nhận rồi vật.",
-            "frame": "请 + 给我 + 一杯水。",
-            "model": "请给我一杯水。",
-            "vi": "Xin cho tôi một cốc nước.",
-            "criteria": [
-              "我 sau 给; 一杯水 sau người.",
-              "Đổi 瓶 được nếu muốn chai, nhưng đổi ý về vật chứa."
+              "Dùng đúng 水."
             ]
           }
-        },
-        "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là nước?",
+            "hiddenAnswer": "水",
+            "model": "水"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我想喝__。",
+            "hiddenAnswer": "水",
+            "model": "我想喝水。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi muốn uống nước.",
+            "choices": [
+              "我",
+              "想",
+              "喝水",
+              "。"
+            ],
+            "correct": [
+              "我想喝水。"
+            ],
+            "explanation": "喝水 là uống nước."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là nước.",
+            "choices": [
+              "水",
+              "奶"
+            ],
+            "correctIndex": 0,
+            "explanation": "水 là nước."
+          }
+        }
       }
     },
     {
@@ -20215,173 +20150,182 @@
       "meaning": "rửa, giặt",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
       "examples": [
         {
           "id": "e1",
-          "zh": "我先洗手。",
-          "vi": "Tôi rửa tay trước.",
-          "analysis": "洗 đứng trước 手; 先 nêu thứ tự.",
+          "zh": "我洗手。",
+          "pinyin": "Wǒ xǐ shǒu.",
+          "vi": "Tôi rửa tay.",
+          "analysis": "洗 đứng trước bộ phận hoặc vật được rửa.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "周末我洗衣服。",
-          "vi": "Cuối tuần tôi giặt quần áo.",
-          "analysis": "衣服 là thứ được giặt; thời gian đứng đầu câu.",
+          "zh": "她在洗衣服。",
+          "pinyin": "Tā zài xǐ yīfu.",
+          "vi": "Cô ấy đang giặt quần áo.",
+          "analysis": "洗 cũng dùng cho giặt quần áo.",
           "practiceAllowed": true
         }
       ],
       "sourceIndex": 52,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Kể việc bạn làm trước khi ăn.",
-      "model": "我先洗手。",
+      "task": "Nói bạn rửa tay.",
+      "model": "我洗手。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 73,
+        "difficulty": "easy",
+        "difficultyReason": "洗 là động từ hành động cơ bản, tân ngữ đứng sau và dùng được cho tay/quần áo.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Washing"
+        ],
         "introduction": {
-          "scope": "Dùng 洗 khi làm sạch bằng nước: rửa tay, rửa rau, giặt quần áo."
-        },
-        "meaning": {
-          "scene": "Rửa tay trước bữa ăn.",
-          "explanation": "洗 thường đứng trước thứ được rửa. Với 洗澡, người làm tự tắm nên không cần nói thêm cơ thể.",
-          "boundary": "Rửa bằng nước dùng 洗; lau bề mặt bằng khăn thường dùng 擦.",
-          "conditions": [
-            "Nêu đồ vật sau 洗: 洗手、洗衣服."
-          ],
-          "takeaway": "洗 thường đứng trước thứ được rửa. Với 洗澡, người làm tự tắm nên không cần nói thêm cơ thể."
+          "scope": "洗 nghĩa là rửa hoặc giặt bằng nước."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "我先洗手。",
-            "vi": "Tôi rửa tay trước.",
-            "analysis": "洗 đứng trước 手; 先 nêu thứ tự.",
+            "zh": "我洗手。",
+            "pinyin": "Wǒ xǐ shǒu.",
+            "vi": "Tôi rửa tay.",
+            "analysis": "洗 đứng trước bộ phận hoặc vật được rửa.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "周末我洗衣服。",
-            "vi": "Cuối tuần tôi giặt quần áo.",
-            "analysis": "衣服 là thứ được giặt; thời gian đứng đầu câu.",
+            "zh": "她在洗衣服。",
+            "pinyin": "Tā zài xǐ yīfu.",
+            "vi": "Cô ấy đang giặt quần áo.",
+            "analysis": "洗 cũng dùng cho giặt quần áo.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Người + 洗 + đồ vật/bộ phận",
-            "position": "洗 đứng sau người làm, trước thứ được rửa.",
-            "required": "Nêu đồ vật sau 洗: 洗手、洗衣服.",
-            "omission": "Có thể nói 洗澡, không cần thêm 身体.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "洗 và 擦: rửa hay lau",
-            "scene": "Rửa tay trước bữa ăn.",
-            "possibleConfusion": "Hai cụm đều có 手 sau động từ nên dễ dịch chung là làm sạch tay. Chọn theo việc dùng nước rửa hay dùng khăn lau.",
-            "difference": "洗手 thường là rửa bằng nước; 擦手 là lau hoặc thấm khô bằng khăn. Cùng nói về tay nhưng khác cách làm.",
-            "cases": [
+            "id": "wash",
+            "title": "Rửa, giặt",
+            "when": "Làm sạch tay, cơ thể, đồ vật hoặc quần áo bằng nước.",
+            "meaning": "rửa; giặt",
+            "grammar": "洗 đứng trước vật/bộ phận được rửa.",
+            "pattern": "洗+tay/quần áo/vật",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "洗手",
-                "vi": "Rửa tay.",
-                "comment": "Dùng nước để làm sạch tay.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我洗手。",
+                "pinyin": "Wǒ xǐ shǒu.",
+                "vi": "Tôi rửa tay.",
+                "note": "洗手 là rửa tay."
               },
               {
-                "id": "c2",
-                "zh": "擦手",
-                "vi": "Lau tay.",
-                "comment": "Dùng khăn lau hoặc thấm khô tay.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "她在洗衣服。",
+                "pinyin": "Tā zài xǐ yīfu.",
+                "vi": "Cô ấy đang giặt quần áo.",
+                "note": "洗衣服 là giặt quần áo."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 洗 bằng 擦 trong 洗手 vẫn tạo được cụm nhưng chuyển từ rửa bằng nước sang lau/thấm khô."
-            },
-            "boundary": "擦 cũng có thể là chà bằng tay/vật khác; ở bài này đối chiếu với cách lau bằng khăn.",
-            "tip": "Rửa tay bằng nước: 洗手; lau khô tay: 擦手."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "Trong 洗手/洗衣服, chưa thấy cách đọc hay nghĩa thông dụng khác cần học.",
-          "literalTranslation": "Không nên suy nghĩa từ âm Hán Việt; chọn theo cách kết hợp với 手/衣服.",
-          "confusables": "洗 dùng nước rửa; 擦 dùng khăn lau hoặc thấm khô."
-        },
-        "pronunciation": {
-          "text": "洗 là thanh ba. Trước 手, đọc thấp gọn, không cần kéo đủ đường lên xuống. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Điền thứ tự: 先 / 我 / 手 / 洗。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Dùng khăn lau bàn: chọn 洗 hay 擦 trong ___桌子。"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "我先洗手。"
-            ],
-            "explanation": "先 đứng trước hành động; 手 theo sau 洗."
-          },
-          "q2": {
-            "accepted": [
-              "擦"
-            ],
-            "explanation": "Lau bề mặt bằng khăn dùng 擦."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Kể việc bạn làm trước khi ăn."
-          },
-          {
-            "id": "s2",
-            "prompt": "Kể cuối tuần bạn giặt quần áo."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我先洗手。",
-            "model": "我先洗手。",
-            "vi": "Tôi rửa tay trước.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "周末我洗衣服。",
-            "model": "周末我洗衣服。",
-            "vi": "Cuối tuần tôi giặt quần áo.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=27414&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi rửa tay.",
+            "tokens": [
+              "我",
+              "洗",
+              "手",
+              "。"
+            ],
+            "accepted": [
+              "我洗手。"
+            ],
+            "model": "我洗手。",
+            "explanation": "手 là vật được rửa sau 洗.",
+            "wrongFeedback": "Đặt bộ phận sau động từ 洗."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "wash",
+            "type": "meaning",
+            "prompt": "Chọn động từ nghĩa là rửa/giặt.",
+            "choices": [
+              "洗",
+              "写"
+            ],
+            "correctIndex": 0,
+            "model": "洗",
+            "explanation": "洗 là rửa/giặt.",
+            "wrongFeedback": "写 là viết."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn rửa tay.",
+            "hints": [
+              "Nêu chủ thể: 我.",
+              "Dùng 洗手.",
+              "Mẫu: 我洗手。"
+            ],
+            "model": "我洗手。",
+            "vi": "Tôi rửa tay.",
+            "criteria": [
+              "Dùng đúng 洗."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là rửa/giặt?",
+            "hiddenAnswer": "洗",
+            "model": "洗"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我__手。",
+            "hiddenAnswer": "洗",
+            "model": "我洗手。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi rửa tay.",
+            "choices": [
+              "我",
+              "洗",
+              "手",
+              "。"
+            ],
+            "correct": [
+              "我洗手。"
+            ],
+            "explanation": "洗 đứng trước 手."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn động từ nghĩa là rửa/giặt.",
+            "choices": [
+              "洗",
+              "写"
+            ],
+            "correctIndex": 0,
+            "explanation": "洗 là rửa/giặt."
+          }
+        }
       }
     },
     {
@@ -20397,173 +20341,182 @@
       "meaning": "nóng",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
       "examples": [
         {
           "id": "e1",
-          "zh": "今天很热。",
-          "vi": "Hôm nay trời nóng.",
-          "analysis": "很 đứng trước tính từ 热.",
+          "zh": "水很热。",
+          "pinyin": "Shuǐ hěn rè.",
+          "vi": "Nước rất nóng.",
+          "analysis": "热 là tính từ chỉ nhiệt độ cao.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "我想喝热水。",
-          "vi": "Tôi muốn uống nước nóng.",
-          "analysis": "热 đứng trước 水 để nói loại nước.",
+          "zh": "今天很热。",
+          "pinyin": "Jīntiān hěn rè.",
+          "vi": "Hôm nay rất nóng.",
+          "analysis": "热 cũng mô tả thời tiết hoặc môi trường.",
           "practiceAllowed": true
         }
       ],
       "sourceIndex": 53,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói hôm nay trời nóng.",
-      "model": "今天很热。",
+      "task": "Nói nước nóng.",
+      "model": "水很热。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 74,
+        "difficulty": "easy",
+        "difficultyReason": "热 là tính từ chỉ nóng, dùng trực tiếp với 很 trong câu miêu tả.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Temperature"
+        ],
         "introduction": {
-          "scope": "热 mô tả thời tiết hoặc vật có nhiệt độ cao: 很热、热水."
-        },
-        "meaning": {
-          "scene": "Bạn tan ca trong ngày hè và thấy ngoài trời nóng.",
-          "explanation": "Khi tả thời tiết, dùng 很热. Trước danh từ, 热 đứng trước vật để gọi nước hoặc đồ ăn nóng.",
-          "boundary": "烫 thường nhấn vật nóng có thể làm bỏng khi chạm/uống; 热 dùng rộng hơn, nhất là thời tiết.",
-          "conditions": [
-            "Dùng 很热 cho thời tiết, 热水 cho nước nóng."
-          ],
-          "takeaway": "Khi tả thời tiết, dùng 很热. Trước danh từ, 热 đứng trước vật để gọi nước hoặc đồ ăn nóng."
+          "scope": "热 nghĩa là nóng, chỉ nhiệt độ cao của vật, đồ uống, thời tiết hoặc nơi chốn."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "今天很热。",
-            "vi": "Hôm nay trời nóng.",
-            "analysis": "很 đứng trước tính từ 热.",
+            "zh": "水很热。",
+            "pinyin": "Shuǐ hěn rè.",
+            "vi": "Nước rất nóng.",
+            "analysis": "热 là tính từ chỉ nhiệt độ cao.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "我想喝热水。",
-            "vi": "Tôi muốn uống nước nóng.",
-            "analysis": "热 đứng trước 水 để nói loại nước.",
+            "zh": "今天很热。",
+            "pinyin": "Jīntiān hěn rè.",
+            "vi": "Hôm nay rất nóng.",
+            "analysis": "热 cũng mô tả thời tiết hoặc môi trường.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Thời tiết + 很 + 热; 热 + danh từ",
-            "position": "很 đứng trước 热 khi miêu tả; 热 đứng trước vật.",
-            "required": "Dùng 很热 cho thời tiết, 热水 cho nước nóng.",
-            "omission": "Trong khẩu ngữ đôi khi bỏ 很 khi ngữ cảnh rõ.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "热 và 烫: nóng hay dễ bỏng",
-            "scene": "Bạn muốn uống nước nóng, rồi kiểm tra xem nước có quá nóng để uống chưa.",
-            "possibleConfusion": "热 nói nóng nói chung; 烫 nhấn vào độ nóng khi chạm/uống, thường cần chú ý bỏng.",
-            "difference": "Nói nhiệt độ mong muốn có thể dùng 热水; báo nước quá nóng thì 水太烫了. 烫 cũng dùng cho cảm giác bị bỏng.",
-            "cases": [
+            "id": "hot",
+            "title": "Nóng",
+            "when": "Mô tả nhiệt độ cao của vật hoặc thời tiết.",
+            "meaning": "nóng",
+            "grammar": "Thường dùng 很 trước tính từ trong câu miêu tả.",
+            "pattern": "chủ thể+很+热",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "我想喝热水。",
-                "vi": "Tôi muốn uống nước nóng.",
-                "comment": "Nêu loại/nhiệt độ nước muốn uống.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "水很热。",
+                "pinyin": "Shuǐ hěn rè.",
+                "vi": "Nước rất nóng.",
+                "note": "Mô tả nước."
               },
               {
-                "id": "c2",
-                "zh": "水太烫了，等一下。",
-                "vi": "Nước nóng quá, đợi một chút.",
-                "comment": "Nước đang quá nóng để uống ngay.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "今天很热。",
+                "pinyin": "Jīntiān hěn rè.",
+                "vi": "Hôm nay rất nóng.",
+                "note": "Mô tả thời tiết."
               }
-            ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Thay 热 bằng 烫 trong câu gọi nước nóng có thể khiến người nghe hiểu nước nóng bỏng, không phải chỉ chọn nước nóng."
-            },
-            "boundary": "Trong nhiều ngữ cảnh, cả hai đều nói vật có nhiệt độ cao; 烫 thường nổi bật cảm giác chạm/uống quá nóng, không phải ranh giới tuyệt đối.",
-            "tip": "Chọn nước nóng: 热水; cảnh báo quá nóng: 太烫了."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "热 đọc theo phần giới thiệu; bẫy cần nhớ ở đây là sắc thái khác với 烫, không phải cách đọc khác.",
-          "literalTranslation": "Không dịch đơn lẻ 'nóng' theo một chữ; xét đang gọi nhiệt độ hay cảnh báo quá nóng.",
-          "confusables": "热 nêu nóng chung/độ nóng mong muốn; 烫 thường cảnh báo vật nóng khi chạm hoặc uống."
-        },
-        "pronunciation": {
-          "text": "热 là thanh bốn, đọc gọn và dứt. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Tả thời tiết: 今天很___。 (热/烫)"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Cảnh báo canh nóng bỏng: 汤很___，小心。"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "热"
-            ],
-            "explanation": "Đang miêu tả thời tiết."
-          },
-          "q2": {
-            "accepted": [
-              "烫"
-            ],
-            "explanation": "Đây là cảnh báo có thể bị bỏng."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói hôm nay trời nóng."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói bạn muốn uống nước nóng."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "今天很热。",
-            "model": "今天很热。",
-            "vi": "Hôm nay trời nóng.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我想喝热水。",
-            "model": "我想喝热水。",
-            "vi": "Tôi muốn uống nước nóng.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=35919&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Nước rất nóng.",
+            "tokens": [
+              "水",
+              "很",
+              "热",
+              "。"
+            ],
+            "accepted": [
+              "水很热。"
+            ],
+            "model": "水很热。",
+            "explanation": "很 đứng trước tính từ 热.",
+            "wrongFeedback": "Dùng 很 trong câu miêu tả tính chất."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "hot",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là nóng.",
+            "choices": [
+              "热",
+              "冷"
+            ],
+            "correctIndex": 0,
+            "model": "热",
+            "explanation": "热 là nóng; 冷 là lạnh.",
+            "wrongFeedback": "Phân biệt nóng với lạnh."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói nước rất nóng.",
+            "hints": [
+              "Nêu chủ thể: 水.",
+              "Dùng 很热.",
+              "Mẫu: 水很热。"
+            ],
+            "model": "水很热。",
+            "vi": "Nước rất nóng.",
+            "criteria": [
+              "Dùng đúng 热."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là nóng?",
+            "hiddenAnswer": "热",
+            "model": "热"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 水很__。",
+            "hiddenAnswer": "热",
+            "model": "水很热。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Nước rất nóng.",
+            "choices": [
+              "水",
+              "很",
+              "热",
+              "。"
+            ],
+            "correct": [
+              "水很热。"
+            ],
+            "explanation": "很 đứng trước 热."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là nóng.",
+            "choices": [
+              "热",
+              "冷"
+            ],
+            "correctIndex": 0,
+            "explanation": "热 là nóng."
+          }
+        }
       }
     },
     {
@@ -20579,20 +20532,22 @@
       "meaning": "yêu; rất quý",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
       "examples": [
         {
           "id": "e1",
           "zh": "我爱我的家人。",
-          "vi": "Tôi yêu gia đình mình.",
-          "analysis": "爱 đứng trước đối tượng tình cảm.",
+          "pinyin": "Wǒ ài wǒ de jiārén.",
+          "vi": "Tôi yêu gia đình của tôi.",
+          "analysis": "爱 đứng trước người hoặc điều được yêu quý.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "他爱听音乐。",
-          "vi": "Anh ấy rất thích nghe nhạc.",
-          "analysis": "爱 + hành động có thể diễn tả niềm yêu thích mạnh; sở thích thường ngày cũng có thể nói 喜欢听音乐.",
+          "zh": "我爱喝茶。",
+          "pinyin": "Wǒ ài hē chá.",
+          "vi": "Tôi rất thích uống trà.",
+          "analysis": "爱 + động từ có thể nói rất thích một hoạt động quen thuộc.",
           "practiceAllowed": true
         }
       ],
@@ -20602,151 +20557,190 @@
       "task": "Nói bạn yêu gia đình.",
       "model": "我爱我的家人。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 75,
+        "difficulty": "medium",
+        "difficultyReason": "爱 có thể là yêu về tình cảm hoặc rất thích một hoạt động/sở thích; cần dạy tân ngữ và sắc thái.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Love_and_like"
+        ],
         "introduction": {
-          "scope": "爱 diễn tả tình cảm yêu thương sâu sắc với người hoặc điều gắn bó."
-        },
-        "meaning": {
-          "scene": "Bạn nói với người nhà rằng mình yêu gia đình.",
-          "explanation": "爱 có thể diễn tả tình yêu với người thân hoặc niềm yêu thích mạnh; với sở thích thường ngày, 喜欢 thường nhẹ và trung tính hơn.",
-          "boundary": "Với hoạt động yêu thích, 爱 và 喜欢 có vùng giao nhau; không phải cứ gặp 喜欢 là phải thay bằng 爱.",
-          "conditions": [
-            "爱 thường nói tình cảm sâu; 喜欢 hợp sở thích thường ngày."
-          ],
-          "takeaway": "爱 thường nhấn tình cảm sâu hoặc niềm say mê; với sở thích thường ngày, 喜欢 là lựa chọn trung tính."
+          "scope": "爱 nghĩa là yêu hoặc rất thích; sắc thái tùy theo người/vật hay hoạt động đứng sau."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "我爱我的家人。",
-            "vi": "Tôi yêu gia đình mình.",
-            "analysis": "爱 đứng trước đối tượng tình cảm.",
+            "pinyin": "Wǒ ài wǒ de jiārén.",
+            "vi": "Tôi yêu gia đình của tôi.",
+            "analysis": "爱 đứng trước người hoặc điều được yêu quý.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "他爱听音乐。",
-            "vi": "Anh ấy rất thích nghe nhạc.",
-            "analysis": "爱 + hành động có thể diễn tả niềm yêu thích mạnh; sở thích thường ngày cũng có thể nói 喜欢听音乐.",
+            "zh": "我爱喝茶。",
+            "pinyin": "Wǒ ài hē chá.",
+            "vi": "Tôi rất thích uống trà.",
+            "analysis": "爱 + động từ có thể nói rất thích một hoạt động quen thuộc.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Người + 爱 + đối tượng; 喜欢 + hoạt động",
-            "position": "Đối tượng đặt ngay sau 爱; hoạt động đặt sau 喜欢.",
-            "required": "爱 thường nói tình cảm sâu; 喜欢 hợp sở thích thường ngày.",
-            "omission": "Có thể lược đối tượng khi ngữ cảnh đã rõ.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "爱 và 喜欢: yêu thương hay sở thích",
-            "scene": "Bạn nói về tình cảm với một bộ phim mình thích.",
-            "possibleConfusion": "爱 và 喜欢 đều có thể nói thích một hoạt động/sự vật; 爱 thường mạnh hơn, 喜欢 trung tính hơn.",
-            "difference": "So cùng một bộ phim: 我爱这部电影 nghe tình cảm mạnh hoặc say mê; 我喜欢这部电影 là tôi thích phim này. Cả hai đều đúng.",
-            "cases": [
+            "id": "love",
+            "title": "Yêu, rất thích",
+            "when": "Bày tỏ tình cảm sâu sắc hoặc sở thích mạnh.",
+            "meaning": "yêu; rất thích",
+            "grammar": "爱 đứng trước danh từ/người hoặc trước động từ.",
+            "pattern": "爱+người/vật；爱+động từ",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "我爱这部电影。",
-                "vi": "Tôi yêu/rất mê bộ phim này.",
-                "comment": "Sắc thái mạnh, thể hiện tình cảm hoặc say mê.",
-                "judgment": "overlap",
-                "practiceAllowed": false
+                "zh": "我爱我的家人。",
+                "pinyin": "Wǒ ài wǒ de jiārén.",
+                "vi": "Tôi yêu gia đình của tôi.",
+                "note": "爱 chỉ tình cảm với người."
               },
               {
-                "id": "c2",
-                "zh": "我喜欢这部电影。",
-                "vi": "Tôi thích bộ phim này.",
-                "comment": "Cách nói trung tính; có thể dùng trong cùng tình huống.",
-                "judgment": "overlap",
-                "practiceAllowed": false
+                "zh": "我爱喝茶。",
+                "pinyin": "Wǒ ài hē chá.",
+                "vi": "Tôi rất thích uống trà.",
+                "note": "爱 đứng trước hoạt động yêu thích."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "like",
+            "afterSense": "love",
+            "title": "爱 mạnh hơn 喜欢 trong nhiều tình huống",
+            "explanation": "爱 có thể diễn tả tình yêu hoặc sở thích rất mạnh; 喜欢 thường trung tính hơn khi nói thích một món đồ, hoạt động hay người.",
+            "contrasts": [
+              {
+                "zh": "我爱我的家人。",
+                "pinyin": "Wǒ ài wǒ de jiārén.",
+                "vi": "Tôi yêu gia đình.",
+                "note": "Tình cảm sâu sắc."
+              },
+              {
+                "zh": "我喜欢这首歌。",
+                "pinyin": "Wǒ xǐhuan zhè shǒu gē.",
+                "vi": "Tôi thích bài hát này.",
+                "note": "Sở thích thông thường."
               }
             ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Thay 爱 bằng 喜欢 trong câu này vẫn đúng và gần nghĩa, nhưng sắc thái nhẹ hơn; không phải câu sai."
-            },
-            "boundary": "爱 dùng tự nhiên với gia đình và cả sở thích; lựa chọn phụ thuộc sắc thái, không chỉ đối tượng.",
-            "tip": "爱 nhấn tình cảm mạnh; 喜欢 trung tính hơn, và đôi khi thay nhau được."
+            "tip": "Nói tình yêu/gắn bó sâu sắc dùng 爱; sở thích thông thường thường dùng 喜欢."
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "爱 đọc theo phần giới thiệu; chưa thấy cách đọc khác cần học. Nghĩa dễ nhầm ở đây là độ mạnh của tình cảm.",
-          "literalTranslation": "Âm Hán Việt 'ái' gần với yêu; không nên suy rằng 爱 chỉ dùng cho tình yêu đôi lứa.",
-          "confusables": "喜欢 thường trung tính hơn; 爱 và 喜欢 có vùng giao nhau khi nói điều mình mê/thích."
-        },
-        "pronunciation": {
-          "text": "爱 là thanh bốn, đọc nhanh xuống giọng. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Nói tình cảm với gia đình: 我___我的家人。 (爱/喜欢; cả hai có thể dùng, sắc thái khác nhau)"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi yêu gia đình của tôi.",
+            "tokens": [
+              "我",
+              "爱",
+              "我的家人",
+              "。"
+            ],
+            "accepted": [
+              "我爱我的家人。"
+            ],
+            "model": "我爱我的家人。",
+            "explanation": "爱 đứng trước người được yêu.",
+            "wrongFeedback": "Đặt người được yêu sau 爱."
           },
           {
-            "id": "q2",
-            "type": "open",
-            "question": "Sở thích nghe nhạc thường ngày: 我___听音乐。"
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 我爱____茶。",
+            "accepted": [
+              "喝"
+            ],
+            "model": "我爱喝茶。",
+            "explanation": "爱 có thể đứng trước hoạt động yêu thích.",
+            "wrongFeedback": "Điền động từ uống sau 爱."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "like",
+            "type": "choice",
+            "prompt": "Nói tình cảm sâu sắc với gia đình, chọn câu phù hợp.",
+            "choices": [
               "我爱我的家人。",
               "我喜欢我的家人。"
             ],
-            "explanation": "Cả hai đúng; 爱 thường mạnh hơn, 喜欢 nhẹ hơn."
-          },
-          "q2": {
-            "accepted": [
-              "喜欢"
-            ],
-            "explanation": "喜欢 đứng trước hoạt động."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói bạn yêu gia đình."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói bạn thích học tiếng Trung."
+            "correctIndex": 0,
+            "model": "我爱我的家人。",
+            "explanation": "爱 diễn tả tình yêu sâu sắc.",
+            "wrongFeedback": "Phân biệt tình yêu sâu sắc với sở thích thông thường."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我爱我的家人。",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn yêu gia đình.",
+            "hints": [
+              "Nêu chủ thể: 我.",
+              "Dùng 爱 + 我的家人.",
+              "Mẫu: 我爱我的家人。"
+            ],
             "model": "我爱我的家人。",
-            "vi": "Tôi yêu gia đình mình.",
+            "vi": "Tôi yêu gia đình của tôi.",
             "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我喜欢学中文。",
-            "model": "我喜欢学中文。",
-            "vi": "Tôi thích học tiếng Trung.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
+              "Dùng đúng 爱."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=39542&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là yêu/rất thích?",
+            "hiddenAnswer": "爱",
+            "model": "爱"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我__我的家人。",
+            "hiddenAnswer": "爱",
+            "model": "我爱我的家人。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi yêu gia đình của tôi.",
+            "choices": [
+              "我",
+              "爱",
+              "我的家人",
+              "。"
+            ],
+            "correct": [
+              "我爱我的家人。"
+            ],
+            "explanation": "爱 đứng trước người được yêu."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Nói tình cảm sâu sắc với gia đình, chọn câu phù hợp.",
+            "choices": [
+              "我爱我的家人。",
+              "我喜欢我的家人。"
+            ],
+            "correctIndex": 0,
+            "explanation": "爱 diễn tả tình yêu sâu sắc."
+          }
+        }
       }
     },
     {
@@ -20762,173 +20756,182 @@
       "meaning": "quả bóng; bóng",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 015",
       "examples": [
         {
           "id": "e1",
-          "zh": "我有一个球。",
-          "vi": "Tôi có một quả bóng.",
-          "analysis": "一个 là lượng + 个; 球 là vật được đếm.",
+          "zh": "我喜欢打球。",
+          "pinyin": "Wǒ xǐhuan dǎ qiú.",
+          "vi": "Tôi thích chơi bóng.",
+          "analysis": "球 là bóng; 打球 là chơi bóng nói chung.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "他喜欢打篮球。",
-          "vi": "Anh ấy thích chơi bóng rổ.",
-          "analysis": "打篮球 là hoạt động chơi bóng rổ.",
+          "zh": "桌子上有一个球。",
+          "pinyin": "Zhuōzi shàng yǒu yí ge qiú.",
+          "vi": "Trên bàn có một quả bóng.",
+          "analysis": "球 là vật thể quả bóng sau một lượng từ.",
           "practiceAllowed": true
         }
       ],
       "sourceIndex": 55,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn có một quả bóng.",
-      "model": "我有一个球。",
+      "task": "Nói bạn chơi bóng.",
+      "model": "我喜欢打球。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 76,
+        "difficulty": "easy",
+        "difficultyReason": "球 là danh từ quen thuộc với cụm 打球 và mẫu chỉ một quả bóng.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Balls_and_sports"
+        ],
         "introduction": {
-          "scope": "球 gọi quả bóng hoặc đồ vật hình cầu; tên môn thể thao thường ghép với 球."
-        },
-        "meaning": {
-          "scene": "Bạn hỏi em mình có quả bóng ở nhà không.",
-          "explanation": "Đếm quả bóng dùng 个. Nói chơi một môn bóng dùng tên hoạt động như 打篮球、踢足球.",
-          "boundary": "球 không phải từ chung thay cho mọi trò chơi.",
-          "conditions": [
-            "Đếm một quả dùng 一个球; nêu môn cụ thể như 打篮球."
-          ],
-          "takeaway": "Đếm quả bóng dùng 个. Nói chơi một môn bóng dùng tên hoạt động như 打篮球、踢足球."
+          "scope": "球 nghĩa là quả bóng hoặc bóng trong các hoạt động thể thao."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "我有一个球。",
-            "vi": "Tôi có một quả bóng.",
-            "analysis": "一个 là lượng + 个; 球 là vật được đếm.",
+            "zh": "我喜欢打球。",
+            "pinyin": "Wǒ xǐhuan dǎ qiú.",
+            "vi": "Tôi thích chơi bóng.",
+            "analysis": "球 là bóng; 打球 là chơi bóng nói chung.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "他喜欢打篮球。",
-            "vi": "Anh ấy thích chơi bóng rổ.",
-            "analysis": "打篮球 là hoạt động chơi bóng rổ.",
+            "zh": "桌子上有一个球。",
+            "pinyin": "Zhuōzi shàng yǒu yí ge qiú.",
+            "vi": "Trên bàn có một quả bóng.",
+            "analysis": "球 là vật thể quả bóng sau một lượng từ.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "有 + số + 个 + 球; 打/踢 + tên môn",
-            "position": "球 sau lượng từ 个; động từ chơi đứng trước tên môn.",
-            "required": "Đếm một quả dùng 一个球; nêu môn cụ thể như 打篮球.",
-            "omission": "Có thể bỏ số lượng khi hỏi chung 你有球吗？",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "球: quả bóng hay hoạt động chơi bóng",
-            "scene": "Bạn hỏi em mình có quả bóng ở nhà không.",
-            "possibleConfusion": "一个球 đếm vật; 打球 nói hoạt động. Tên môn cụ thể có 球: 打篮球、踢足球.",
-            "difference": "一个球 đếm vật; 打球 nói hoạt động. Tên môn cụ thể có 球: 打篮球、踢足球.",
-            "cases": [
+            "id": "ball",
+            "title": "Quả bóng, bóng",
+            "when": "Nói về vật thể hình bóng hoặc hoạt động chơi bóng.",
+            "meaning": "quả bóng; bóng",
+            "grammar": "Xuất hiện trong 打球 hoặc sau lượng từ 个.",
+            "pattern": "打球；一个+球",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "桌上有一个球。",
-                "vi": "Trên bàn có một quả bóng.",
-                "comment": "一个 đếm vật.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我喜欢打球。",
+                "pinyin": "Wǒ xǐhuan dǎ qiú.",
+                "vi": "Tôi thích chơi bóng.",
+                "note": "打球 là chơi bóng."
               },
               {
-                "id": "c2",
-                "zh": "我周末打球。",
-                "vi": "Cuối tuần tôi chơi bóng.",
-                "comment": "打球 là hoạt động.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "桌子上有一个球。",
+                "pinyin": "Zhuōzi shàng yǒu yí ge qiú.",
+                "vi": "Trên bàn có một quả bóng.",
+                "note": "一个球 là một quả bóng."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi 一个球 thành 打球 sau 有 sẽ đổi vật thành hoạt động."
-            },
-            "boundary": "球 không phải từ chung thay cho mọi trò chơi.",
-            "tip": "Có lượng từ: quả bóng; 打/踢: hoạt động."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "Đã rà nghĩa và cách đọc thông dụng; không thêm nghĩa hiếm không cần thiết cho bài.",
-          "literalTranslation": "Không suy nghĩa bằng cách dịch từng chữ; chọn nghĩa theo cách kết hợp và tình huống.",
-          "confusables": "一个球 đếm vật; 打球 nói hoạt động. Tên môn cụ thể có 球: 打篮球、踢足球."
-        },
-        "pronunciation": {
-          "text": "球 là thanh hai, giọng đi lên. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "“Tôi có một quả bóng”: 我有一个___。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "“Tôi chơi bóng rổ”: chọn 打篮球 hay 一个篮球."
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "球"
-            ],
-            "explanation": "球 là vật được đếm."
-          },
-          "q2": {
-            "accepted": [
-              "打篮球"
-            ],
-            "explanation": "打篮球 là hoạt động."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói bạn có một quả bóng."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói cuối tuần bạn chơi bóng rổ."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我有一个球。",
-            "model": "我有一个球。",
-            "vi": "Tôi có một quả bóng.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "周末我打篮球。",
-            "model": "周末我打篮球。",
-            "vi": "Cuối tuần tôi chơi bóng rổ.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=25023&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi thích chơi bóng.",
+            "tokens": [
+              "我",
+              "喜欢",
+              "打球",
+              "。"
+            ],
+            "accepted": [
+              "我喜欢打球。"
+            ],
+            "model": "我喜欢打球。",
+            "explanation": "打球 là chơi bóng.",
+            "wrongFeedback": "Giữ cụm 打球."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "ball",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là bóng.",
+            "choices": [
+              "球",
+              "水"
+            ],
+            "correctIndex": 0,
+            "model": "球",
+            "explanation": "球 là bóng; 水 là nước.",
+            "wrongFeedback": "Phân biệt bóng với nước."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn thích chơi bóng.",
+            "hints": [
+              "Nêu chủ thể: 我喜欢.",
+              "Dùng 打球.",
+              "Mẫu: 我喜欢打球。"
+            ],
+            "model": "我喜欢打球。",
+            "vi": "Tôi thích chơi bóng.",
+            "criteria": [
+              "Dùng đúng 球 trong 打球."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là bóng?",
+            "hiddenAnswer": "球",
+            "model": "球"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我喜欢打__。",
+            "hiddenAnswer": "球",
+            "model": "我喜欢打球。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi thích chơi bóng.",
+            "choices": [
+              "我",
+              "喜欢",
+              "打球",
+              "。"
+            ],
+            "correct": [
+              "我喜欢打球。"
+            ],
+            "explanation": "打球 là chơi bóng."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là bóng.",
+            "choices": [
+              "球",
+              "水"
+            ],
+            "correctIndex": 0,
+            "explanation": "球 là bóng."
+          }
+        }
       }
     },
     {

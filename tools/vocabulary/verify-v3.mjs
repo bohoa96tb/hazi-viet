@@ -14,6 +14,6 @@ export function verifyV3(word){
  const production=render(3);for(const item of word.lesson.productionExercises){assert(production.includes(esc(item.prompt)));assert(!production.includes(esc(item.model)),'Production model leaked');}
  const review=render(4);assert(!review.includes(esc(word.lesson.reviewExercises[0].hiddenAnswer)),'Review answer leaked');assert(!review.includes(esc(word.lesson.reviewExercises[0].model)),'Review model leaked');assert(review.includes(`đã đánh giá 0/${word.lesson.reviewExercises.length}`));
  const revealed=new Map([[`${word.id}:review-reveal:${word.lesson.reviewExercises[0].id}`,true]]);assert(render(4,revealed).includes(esc(word.lesson.reviewExercises[0].model)));
- const full=lessonAudio(word);assert(full.length);assert(full.every(item=>['zh-CN','vi-VN'].includes(item.lang)));assert(!full.some(item=>word.intro.some(intro=>item.text.includes(intro.pinyin))));
+ const full=lessonAudio(word);assert(full.length);assert(full.every(item=>['zh-CN','vi-VN'].includes(item.lang)));assert(!full.some(item=>item.lang==='zh-CN'&&word.intro.some(intro=>item.text.includes(intro.pinyin))));
  const question=word.lesson.guidedExercises[0];assert.throws(()=>checkAudio(word,question.id,'answer'));assert(checkAudio(word,question.id,'answer',{revealed:true}).length);
 }

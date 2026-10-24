@@ -8,15 +8,15 @@
   "scopeTotal": 2234,
   "baselineTotal": 2224,
   "outsideBaselineTotal": 10,
-  "rewrittenCount": 70,
-  "passedCount": 70,
+  "rewrittenCount": 76,
+  "passedCount": 76,
   "failedCount": 0,
   "pendingReviewCount": 0,
-  "lastCompletedId": "hz-h1-4c34faa448ef",
-  "nextBaselineOrdinal": 71,
+  "lastCompletedId": "hz-h1-bf68a9a65a3c",
+  "nextBaselineOrdinal": 77,
   "difficultyCounts": {
-    "easy": 37,
-    "medium": 33,
+    "easy": 41,
+    "medium": 35,
     "hard": 0
   },
   "completedBaselineIds": [
@@ -89,7 +89,13 @@
     "hz-h1-64ce3c69ace7",
     "hz-h1-ab53b24f42a9",
     "hz-h1-dc87a0871d2b",
-    "hz-h1-4c34faa448ef"
+    "hz-h1-4c34faa448ef",
+    "hz-h1-cbe1b499a657",
+    "hz-h1-c2e211c93ffd",
+    "hz-h1-0896d5d77abe",
+    "hz-h1-b27dafc3d340",
+    "hz-h1-f19e5ba46c86",
+    "hz-h1-bf68a9a65a3c"
   ],
   "outsideBaselineIds": [
     "dadianhua",
@@ -111,20 +117,20 @@
   },
   "engineStatus": "generalized",
   "testStatus": "passed-verify-levels-dom-js-diff",
-  "lastBatch": "v3-batch-014",
+  "lastBatch": "v3-batch-015",
   "lastVerifiedRemoteCommit": "065a46fc32e854232c452dcd0564c40f83a48da6",
   "lastVerifiedRemoteAt": "2026-10-24T06:17:02Z",
   "currentBatch": {
-    "id": "v3-batch-014",
+    "id": "v3-batch-015",
     "status": "verified-pending-publish",
-    "ordinalFrom": 65,
-    "ordinalTo": 70,
+    "ordinalFrom": 71,
+    "ordinalTo": 76,
     "entryCount": 6,
-    "batchDigestSha256": "ab728392b1c0e8fa70084c5de5e3326a3610f10abd393770efd595efc0ce70b2"
+    "batchDigestSha256": "ea8ebcf14ef285e371b6911fd46c00a86373b4973e796dd02ae3f764f0dc89ad"
   },
   "sourceDigests": {
     "algorithm": "sha256",
-    "course": "0175e6f5d066ee0e8e41633b6c25b328cbb0080673f5b6e49ad0c01c9a261312",
+    "course": "106a46cfbe87e17e6c6554842f7b07c5dfa1da8e55d8a7ed5de9cb4028ed19bb",
     "baseline": "253370b4136e5935982390cc472b1f577e992417c84d93cec82fad2cc1bec925"
   },
   "deployment": {
