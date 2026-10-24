@@ -36121,11 +36121,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "动作",
-            "position": "动作 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 动作 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "这个 + 动作 + 要 + tính từ + 一点",
+            "position": "动作 đứng sau từ chỉ định 这个 và trước phần nhận xét về động tác.",
+            "required": "Dùng khung này khi nhận xét một động tác cần nhanh hoặc chậm hơn.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "请 + 重复 + ... + 动作",
+            "position": "动作 đứng sau động từ 重复 để chỉ cử động cần làm lại.",
+            "required": "Dùng khung này khi yêu cầu lặp lại một động tác đã có.",
+            "omission": "Có thể bỏ 请 khi ngữ cảnh không cần lời yêu cầu lịch sự.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -36146,9 +36154,9 @@
               },
               {
                 "id": "c2",
-                "zh": "动作：动作 là một cử động/hành động cụ thể có thể quan sát; 动 là di chuyển hoặc làm cử động, thường là động từ.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 动作 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "请别动手机。",
+                "vi": "Đừng chạm vào điện thoại.",
+                "comment": "动 là động từ chỉ di chuyển hoặc chạm vào; không phải danh từ chỉ một động tác.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -36202,15 +36210,15 @@
           },
           {
             "id": "s2",
-            "prompt": "Đổi chủ thể hoặc thời gian trong câu: 请重复刚才的动作。"
+            "prompt": "Nói bạn lặp lại động tác vừa rồi."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Hãy làm lại động tác ấy.",
-            "frame": "动作",
-            "model": "这个动作要慢一点。",
-            "vi": "Động tác này cần chậm hơn một chút.",
+            "idea": "Yêu cầu ai đó lặp lại động tác vừa rồi.",
+            "frame": "请 + 重复 + 刚才的 + 动作",
+            "model": "请重复刚才的动作。",
+            "vi": "Xin hãy lặp lại động tác vừa rồi.",
             "criteria": [
               "Dùng 动作 đúng nghĩa.",
               "Câu phù hợp ngữ cảnh và tự nhiên.",
@@ -36218,10 +36226,10 @@
             ]
           },
           "s2": {
-            "idea": "请重复刚才的动作。",
-            "frame": "动作",
-            "model": "请重复刚才的动作。",
-            "vi": "Xin hãy lặp lại động tác vừa rồi.",
+            "idea": "Nói động tác này cần chậm hơn một chút.",
+            "frame": "这个 + 动作 + 要 + tính từ + 一点",
+            "model": "这个动作要慢一点。",
+            "vi": "Động tác này cần chậm hơn một chút.",
             "criteria": [
               "Giữ đúng vị trí/cụm của 动作.",
               "Chấp nhận cách diễn đạt khác nếu tự nhiên."
@@ -36301,11 +36309,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "学习",
-            "position": "学习 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 学习 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + 学习 + môn + thời lượng",
+            "position": "学习 đứng trước môn học; thời lượng có thể đặt sau môn học.",
+            "required": "Dùng khung này để nói học một môn trong bao lâu.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 在 + nơi chốn + 学习 + môn",
+            "position": "在 đứng trước nơi học; 学习 đứng trước môn học.",
+            "required": "Dùng khung này khi nêu nơi và nội dung học tập.",
+            "omission": "Có thể bỏ nơi chốn nếu người nghe đã biết.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -36326,9 +36342,9 @@
               },
               {
                 "id": "c2",
-                "zh": "学习：学习 nhấn quá trình học có hệ thống và có thể nhận tân ngữ môn học; 学 cũng có nghĩa học nhưng ngắn gọn, thường gặp trong khẩu ngữ và một số cấu trúc cố định.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 学习 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "我学中文。",
+                "vi": "Tôi học tiếng Trung.",
+                "comment": "学 là cách nói ngắn gọn, tự nhiên trong khẩu ngữ; 学习 nhấn quá trình học đầy đủ hơn.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -36382,13 +36398,13 @@
           },
           {
             "id": "s2",
-            "prompt": "Đổi chủ thể hoặc thời gian trong câu: 她在大学学习法律。"
+            "prompt": "Nói cô ấy học luật ở đại học."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Tôi học tiếng Trung mỗi ngày.",
-            "frame": "学习",
+            "idea": "Nói bạn học tiếng Trung một tiếng mỗi ngày.",
+            "frame": "Chủ thể + 学习 + môn + thời lượng",
             "model": "我每天学习汉语一个小时。",
             "vi": "Mỗi ngày tôi học tiếng Trung một tiếng.",
             "criteria": [
@@ -36398,8 +36414,8 @@
             ]
           },
           "s2": {
-            "idea": "她在大学学习法律。",
-            "frame": "学习",
+            "idea": "Nói cô ấy học luật ở đại học.",
+            "frame": "Chủ thể + 在 + nơi chốn + 学习 + môn",
             "model": "她在大学学习法律。",
             "vi": "Cô ấy học luật ở đại học.",
             "criteria": [
@@ -36481,11 +36497,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "工作",
-            "position": "工作 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 工作 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + 在 + nơi chốn + 工作",
+            "position": "工作 đứng sau nơi chốn để nói làm việc ở đâu.",
+            "required": "Dùng khung này khi nói địa điểm làm việc.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "这/那 + 份 + 工作 + 很 + tính từ",
+            "position": "工作 đứng sau 这份/那份 để chỉ một công việc cụ thể.",
+            "required": "Dùng 份 khi nhận xét một công việc hoặc vị trí cụ thể.",
+            "omission": "Có thể bỏ 这份 khi nói chung về công việc.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -36562,15 +36586,15 @@
           },
           {
             "id": "s2",
-            "prompt": "Đổi chủ thể hoặc thời gian trong câu: 这份工作很有意思。"
+            "prompt": "Nói công việc này rất thú vị."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Chị tôi làm việc ở trường.",
-            "frame": "工作",
-            "model": "我在医院工作。",
-            "vi": "Tôi làm việc ở bệnh viện.",
+            "idea": "Nói chị bạn làm việc ở trường.",
+            "frame": "Chủ thể + 在 + nơi chốn + 工作",
+            "model": "我姐姐在学校工作。",
+            "vi": "Chị tôi làm việc ở trường.",
             "criteria": [
               "Dùng 工作 đúng nghĩa.",
               "Câu phù hợp ngữ cảnh và tự nhiên.",
@@ -36578,8 +36602,8 @@
             ]
           },
           "s2": {
-            "idea": "这份工作很有意思。",
-            "frame": "工作",
+            "idea": "Nói công việc này rất thú vị.",
+            "frame": "这 + 份 + 工作 + 很 + tính từ",
             "model": "这份工作很有意思。",
             "vi": "Công việc này rất thú vị.",
             "criteria": [
@@ -36661,11 +36685,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "干什么",
-            "position": "干什么 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 干什么 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + 在 + 干什么",
+            "position": "在 đứng trước 干什么 để hỏi hành động đang diễn ra.",
+            "required": "Dùng khung này để hỏi thân mật một người đang làm gì.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Thời gian + chủ thể + 想 + 干什么",
+            "position": "干什么 đứng sau 想 để hỏi dự định làm gì.",
+            "required": "Dùng khung này khi hỏi kế hoạch, không chỉ hành động đang diễn ra.",
+            "omission": "Có thể bỏ thời gian khi ngữ cảnh đã rõ.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -36686,9 +36718,9 @@
               },
               {
                 "id": "c2",
-                "zh": "干什么：干什么 hỏi đang làm/định làm việc gì; 做什么 gần nghĩa và trung tính hơn trong nhiều tình huống, còn sắc thái干 phụ thuộc giọng điệu và ngữ cảnh.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 干什么 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "你周末想做什么？",
+                "vi": "Cuối tuần bạn muốn làm gì?",
+                "comment": "做什么 gần nghĩa và trung tính hơn; 干什么 khẩu ngữ hơn và chịu ảnh hưởng của giọng điệu.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -36742,7 +36774,7 @@
           },
           {
             "id": "s2",
-            "prompt": "Đổi chủ thể hoặc thời gian trong câu: 周末你想干什么？"
+            "prompt": "Hỏi cuối tuần bạn muốn làm gì."
           }
         ],
         "selfAnswers": {
@@ -36758,8 +36790,8 @@
             ]
           },
           "s2": {
-            "idea": "周末你想干什么？",
-            "frame": "干什么",
+            "idea": "Hỏi cuối tuần bạn muốn làm gì.",
+            "frame": "Thời gian + chủ thể + 想 + 干什么",
             "model": "周末你想干什么？",
             "vi": "Cuối tuần bạn muốn làm gì?",
             "criteria": [
@@ -36841,11 +36873,19 @@
         "usages": [
           {
             "id": "u1",
-            "frame": "开会",
-            "position": "开会 đứng trong cụm được minh họa; xác định chức năng qua từ đứng trước và sau.",
-            "required": "Giữ cụm đi cùng 开会 để câu biểu đạt đúng hành động/ý nghĩa.",
+            "frame": "Chủ thể + thời gian + 要 + 开会",
+            "position": "开会 đứng sau 要 để nói sắp hoặc cần họp.",
+            "required": "Dùng khung này khi nói lịch họp của một người hoặc một nhóm.",
             "omission": "Có thể lược chủ thể khi ngữ cảnh đã rõ.",
             "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ thể + 正在 + 开会",
+            "position": "正在 đứng trước 开会 để nói cuộc họp đang diễn ra.",
+            "required": "Dùng khung này khi người đó hiện đang họp.",
+            "omission": "Có thể bỏ 正在 nếu ngữ cảnh đã rõ việc đang diễn ra.",
+            "exampleId": "e2"
           }
         ],
         "traps": [
@@ -36866,9 +36906,9 @@
               },
               {
                 "id": "c2",
-                "zh": "开会：开会 là hành động tham dự/tổ chức cuộc họp; 会议 là cuộc họp với tư cách sự kiện/danh từ, thường kết hợp 参加、召开.",
-                "vi": "Ranh giới nghĩa cần ghi nhớ",
-                "comment": "Dùng 开会 ở đúng khung; từ đối chiếu chỉ thay được khi ý định phù hợp.",
+                "zh": "我们下午参加会议。",
+                "vi": "Chiều nay chúng tôi tham gia cuộc họp.",
+                "comment": "会议 là danh từ chỉ cuộc họp; 参加 đứng trước danh từ này.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -36922,15 +36962,15 @@
           },
           {
             "id": "s2",
-            "prompt": "Đổi chủ thể hoặc thời gian trong câu: 经理正在开会。"
+            "prompt": "Nói quản lý đang họp."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Chúng tôi họp lúc ba giờ.",
-            "frame": "开会",
-            "model": "我们下午要开会。",
-            "vi": "Chiều nay chúng tôi sẽ họp.",
+            "idea": "Nói chúng tôi họp lúc ba giờ.",
+            "frame": "Chủ thể + thời gian + 要 + 开会",
+            "model": "我们三点要开会。",
+            "vi": "Chúng tôi sẽ họp lúc ba giờ.",
             "criteria": [
               "Dùng 开会 đúng nghĩa.",
               "Câu phù hợp ngữ cảnh và tự nhiên.",
@@ -36938,8 +36978,8 @@
             ]
           },
           "s2": {
-            "idea": "经理正在开会。",
-            "frame": "开会",
+            "idea": "Nói quản lý đang họp.",
+            "frame": "Chủ thể + 正在 + 开会",
             "model": "经理正在开会。",
             "vi": "Quản lý đang họp.",
             "criteria": [
@@ -36968,9 +37008,9 @@
         },
         {
           "id": "e2",
-          "zh": "他喜欢打球，也喜欢踢足球。",
-          "vi": "Anh ấy thích chơi bóng rổ, không thích đá bóng.",
-          "analysis": "Tên môn cụ thể đặt sau 打 với bóng rổ, còn bóng đá dùng 踢足球.",
+        "zh": "他喜欢打球，也喜欢踢足球。",
+        "vi": "Anh ấy thích chơi bóng, cũng thích đá bóng.",
+        "analysis": "打球 nói chung về chơi bóng; khi nói rõ bóng đá, dùng 踢足球.",
           "practiceAllowed": true
         }
       ],
@@ -37014,9 +37054,9 @@
           },
           {
             "id": "e2",
-            "zh": "他喜欢打球，也喜欢踢足球。",
-            "vi": "Anh ấy thích chơi bóng rổ, không thích đá bóng.",
-            "analysis": "Tên môn cụ thể đặt sau 打 với bóng rổ, còn bóng đá dùng 踢足球.",
+        "zh": "他喜欢打球，也喜欢踢足球。",
+        "vi": "Anh ấy thích chơi bóng, cũng thích đá bóng.",
+        "analysis": "打球 nói chung về chơi bóng; khi nói rõ bóng đá, dùng 踢足球.",
             "practiceAllowed": true
           }
         ],
@@ -37544,9 +37584,9 @@
         },
         {
           "id": "e2",
-          "zh": "他今天请假了，在家休息。",
-          "vi": "Anh ấy xin nghỉ hai ngày để ở nhà nghỉ ngơi.",
-          "analysis": "请了两天假 cho biết thời lượng xin nghỉ; 了 cho biết việc xin nghỉ đã được thực hiện.",
+        "zh": "他今天请假两天，在家休息。",
+        "vi": "Hôm nay anh ấy xin nghỉ hai ngày và ở nhà nghỉ ngơi.",
+        "analysis": "请假 đứng trước thời lượng 两天 để nói xin nghỉ bao lâu.",
           "practiceAllowed": true
         }
       ],
@@ -37584,9 +37624,9 @@
           },
           {
             "id": "e2",
-            "zh": "他今天请假了，在家休息。",
-            "vi": "Anh ấy xin nghỉ hai ngày để ở nhà nghỉ ngơi.",
-            "analysis": "请了两天假 cho biết thời lượng xin nghỉ; 了 cho biết việc xin nghỉ đã được thực hiện.",
+        "zh": "他今天请假两天，在家休息。",
+        "vi": "Hôm nay anh ấy xin nghỉ hai ngày và ở nhà nghỉ ngơi.",
+        "analysis": "请假 đứng trước thời lượng 两天 để nói xin nghỉ bao lâu.",
             "practiceAllowed": true
           }
         ],
@@ -38172,7 +38212,7 @@
             "frame": "一个/两个 + 杯子",
             "position": "杯子 là danh từ sau số lượng và 个.",
             "required": "Dùng 杯子 khi nói chiếc cốc vật lý.",
-            "omission": "Có thể lược 的位置词，如 桌子上 nếu ngữ cảnh đã rõ.",
+            "omission": "Có thể lược từ chỉ vị trí như 桌子上 nếu ngữ cảnh đã rõ.",
             "exampleId": "e2"
           }
         ],
