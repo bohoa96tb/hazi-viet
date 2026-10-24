@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "repository": "bohoa96tb/hazi-viet",
   "sourceSnapshotCommit": "0924cb8c5bb6bce483008d5e9fa093a8e35e4232",
-  "note": "Batch-035: 16 bài mới (479–494), hoàn tất phần HSK 1 trong cohort; tự rà ngôn ngữ; apply/verify và DOM đạt. Cần xác minh Pages/live sau phát hành.",
+  "note": "Batch-035: 16 bài mới (479–494), hoàn tất phần HSK 1 trong cohort; apply/verify và DOM đạt; Pages/live đã xác minh tại commit nội dung 848f1d6.",
   "sourceBlobs": {
-    "progress.json": "3f92a4fac2984c4f4688ec74b5ae181edf03d25f",
+    "progress.json": "976e7c0236aa03e8703483c3fbaee2f5e073f220",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "260a4d4c552efafe9ded5af03a96c155cb34f89d",
     "data/vocabulary/content-audit.json": "2d27fedea71c4ba75558c11aa3d530a9259f0723"
@@ -39,6 +39,6 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "7451d48279b63dcb8ef7eeca6713877ccb317bf9",
-  "priorVerificationNote": "16 bài mới qua apply/verify và DOM; chưa phản biện giáo viên độc lập hoặc thử TTS thiết bị thật; Pages/live chưa xác minh."
+  "lastVerifiedContentCommit": "848f1d62d61f1ee35e07323a427dc760f61ac436",
+  "priorVerificationNote": "Pages run 40047453046 thành công đúng SHA; dữ liệu khóa học live khớp byte và đủ 16 ID V2 ordinal 479–494. Chưa phản biện giáo viên độc lập hoặc thử TTS thiết bị thật."
 }
