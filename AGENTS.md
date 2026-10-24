@@ -42,6 +42,8 @@ Mỗi lượt “Tiếp tục” phải đọc `v3-quality-revision-checkpoint.j
 
 Bài 下 (ordinal 495) là chuẩn tham khảo vàng về chất lượng sư phạm và trải nghiệm, không phải khuôn cố định về độ dài, số nghĩa hay số câu. V3 không bị ràng buộc bởi số câu hoặc độ dài cũ của V2. Giữ đủ schema V3 và mức sàn luyện tập theo độ khó; chỉ thêm nội dung khi cần để người học hiểu và tự dùng đúng. Validator PASS chỉ xác nhận hợp đồng dữ liệu, không đồng nghĩa bài đã được kiểm định tốt về ngôn ngữ và giảng dạy.
 
+Mọi bài V3 phải ghi kết quả quét A1–A2–B–C trong `lesson.trapReview`: đã kiểm tra cách đọc, nhiều nghĩa, bẫy Hán Việt/dịch từng chữ và từ/cấu trúc gần nghĩa. Chỉ đưa bẫy thật vào `confusions[]`; nếu không có bẫy hữu ích, renderer hiện câu trạng thái chuẩn thay vì tạo mục rỗng.
+
 ## Giải thích linh hoạt theo độ khó
 
 Từ đơn giản đi thẳng vào nghĩa/cách dùng, ví dụ tự nhiên phù hợp trình độ HSK; không kéo dài để đủ chữ. Từ trung bình làm rõ vị trí, kết hợp phổ biến và nhầm lẫn thực tế của người Việt. Từ phức tạp giải thích sâu bằng lời dễ hiểu, có so sánh gần nghĩa/cách dùng, tình huống thực tế và cách tránh lỗi. Không bịa bẫy hay quy tắc ngữ pháp. Ưu tiên chính xác, tự nhiên, dễ hiểu và dễ nhớ hơn số chữ. Giữ đủ schema V3 và mức sàn luyện tập theo độ khó; số câu, cụm từ và bẫy linh hoạt theo nhu cầu thật của từ. Chỉ cập nhật checkpoint sau khi bài hoàn chỉnh và kiểm thử đạt.

@@ -10,6 +10,12 @@ Mỗi bài có năm bước **Hiểu → Ghép câu → Phân biệt → Tự d�
 
 Đây là mức sàn, không phải khuôn độ dài hay tỷ lệ thống kê. Số `senses`, `collocations` và `confusions` theo nội dung thật; danh sách cụm từ và bẫy có thể rỗng. Bài Phân biệt khi không có bẫy gắn với một cách dùng đã dạy, không tạo bẫy giả. Mỗi bẫy có thật phải xuất hiện ngay sau cách dùng liên quan và có đối chiếu cụ thể. Bài 下 ở ordinal 495 là gold standard về độ rõ, trình tự, tương tác và trải nghiệm học; không sao chép độ dài hoặc số nghĩa của bài đó sang từ khác.
 
+## Quét bẫy A1–A2–B–C bắt buộc
+
+Trước khi hoàn tất mọi bài, ghi `lesson.trapReview` với `status: "complete"` và kết quả riêng cho A1 nhiều cách đọc, A2 nhiều nghĩa, B bẫy Hán Việt/dịch từng chữ và C từ hoặc cấu trúc dễ nhầm. Mỗi mục phải có `checked: true`, `found: true|false` và `summary` trung thực. `confusions[]` chỉ chứa bẫy thực sự phát hiện được; bẫy có thể gắn `category` để renderer nhóm đúng.
+
+Nếu không có bẫy thông dụng đáng chú ý, giữ `confusions: []` và hiển thị đúng câu: “Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.” Không dùng câu này khi chưa kiểm tra. Với bài trung bình/khó, mọi bẫy thông dụng đã phát hiện phải được giải thích bằng ví dụ Hanzi, Pinyin có dấu, nghĩa Việt, khác biệt và mẹo nhớ; không chỉ ghi tên từ cần phân biệt.
+
 ## Quy trình phân loại và kiểm định từng mục
 
 Trước khi viết, đánh giá riêng năm yếu tố: số nghĩa thông dụng, vai trò ngữ pháp, cấu trúc/kết hợp, nhầm lẫn thực tế và độ khó khi tự đặt câu. Không dùng HSK, số nét hay số phần có thể viết làm căn cứ. Từ DỄ đi thẳng vào một nghĩa chính; từ TRUNG BÌNH làm rõ vị trí/cấu trúc hoặc nhầm lẫn thật; từ KHÓ chia theo các nghĩa/chức năng thực tế. Không ép mọi từ có cùng số cách dùng, bẫy, ví dụ hoặc độ dài.

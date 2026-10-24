@@ -7,7 +7,7 @@
 V3 tổ chức trực tiếp theo năm bước:
 
 - `senses[]`: các khối cách dùng, mỗi khối có tình huống, nghĩa, vai trò, cấu trúc, cụm từ và ví dụ có Pinyin.
-- `confusions[]`: bẫy được giảng ngay sau cách dùng liên quan qua `afterSense`; mỗi bẫy có đối chiếu cụ thể.
+- `confusions[]`: bẫy được giảng ngay sau cách dùng liên quan qua `afterSense`; mỗi bẫy có đối chiếu cụ thể và có thể gắn `category: 'A1'|'A2'|'B'|'C'`.
 - `guidedExercises[]`: sắp xếp, điền và hoàn thành cấu trúc ở bước Ghép câu.
 - `discriminationExercises[]`: bài tương tác kiểm tra từng `trapId`, không lộ đáp án trước khi trả lời.
 - `productionExercises[]`: nhiệm vụ tự tạo câu, gợi ý mở tuần tự ý → khung → mẫu; số lượng theo độ khó.
@@ -24,7 +24,7 @@ Validator V3 nằm ở `js/lesson-v3.js`, renderer ở `js/lesson-v3-view.js`, k
 - `examples[]`: đúng hai câu chính khác nhau; `id`, `zh`, `vi`, `analysis`, `practiceAllowed:true`. Tùy chọn `pinyin` ở câu minh họa khung; `targetParts` khi từ bị tách trong câu. Không có tab ví dụ lặp.
 - `traps[]`: `id`, `title`, `scene`, `possibleConfusion`, `difference`, `cases[]`, `replacement:{result,explanation}`, `boundary`, `tip`. Mỗi case có `id`, `zh`, `vi`, `comment`, `judgment`, `practiceAllowed:false`; có thể thêm `pinyin` để hiển thị cách đọc của câu đối chiếu. Pinyin này không được đưa vào TTS. Nhãn đúng/ngữ pháp sai/đổi nghĩa/không hợp ý/kém tự nhiên/gần nghĩa/cần ngữ cảnh được phân biệt. Case sai cần `corrections[]` có `caseId,zh,vi,reason`; cảnh báo trước khi TTS đọc. Không đưa case vào immersion/nhắc lại.
 - `traps: []` hợp lệ khi không có bẫy hữu ích; giữ `noTrapReason: "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này."` và đủ kết quả rà soát. Độ dài giải thích thay đổi theo độ khó, số thành phần bắt buộc không đổi.
-- `trapReview`: ghi nội bộ kết quả rà `readingsAndMeanings`, `literalTranslation`, `confusables`; không ép đủ ba loại bẫy hiển thị. Nếu không có bẫy, ghi đúng `noTrapReason` theo chuẩn.
+- `trapReview`: ghi kết quả quét bắt buộc với `status:'complete'` và bốn mục `a1Readings`, `a2Meanings`, `bLiteralTranslation`, `cConfusables`; mỗi mục có `checked:true`, `found:boolean`, `summary`. Nếu `confusions[]` rỗng, renderer phải hiện đúng `noTrapReason: "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này."`; không tạo confusion giả.
 - `pronunciation.text`: ngắn, kết bằng nhiệm vụ đọc; có thể thêm `pronunciation.pinyin` riêng. TTS không nhận trường Pinyin.
 - `checks[]`: 2–4 câu mở, `id,type:'open',question`. `answers[id]` riêng chứa `accepted[]` và `explanation`; có thể thêm `audioText` khi đáp án hiển thị chứa Pinyin hoặc ký hiệu không nên được TTS đọc nguyên văn. Không chấm tự động theo chuỗi; người học tự đối chiếu, chấp nhận cách khác có lý.
 - `selfUse[]`: đúng hai tình huống `id,prompt`. `selfAnswers[id]` riêng chứa `idea,frame,model,vi,criteria[]`. Mở lần lượt ý → khung → mẫu; F mở sau khi đã mở lời giải E hoặc chủ động yêu cầu.

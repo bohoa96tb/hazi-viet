@@ -1,0 +1,247 @@
+{
+  "id": "quality-revision-004",
+  "authorship": "Rà soát nội bộ theo chuẩn V3 nâng cao; chưa có phản biện độc lập của giáo viên thứ hai.",
+  "entries": [
+    {
+      "id": "hz-h1-fb76fb22fed2",
+      "hanzi": "他",
+      "cohortOrdinal": 4,
+      "difficulty": "easy",
+      "wordEdits": {
+        "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát lại ordinal 4",
+        "task": "Giới thiệu một người nam hoặc hỏi người khác có biết anh ấy không.",
+        "model": "他是老师。"
+      },
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "他是老师。",
+          "pinyin": "Tā shì lǎoshī.",
+          "vi": "Anh ấy là giáo viên.",
+          "analysis": "他 đứng đầu câu làm chủ ngữ; 是 nối người được nói đến với danh tính 老师.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我认识他。",
+          "pinyin": "Wǒ rènshi tā.",
+          "vi": "Tôi biết anh ấy.",
+          "analysis": "他 đứng sau 认识 vì là người được biết; vị trí tân ngữ không làm đổi nghĩa ‘anh ấy’.",
+          "practiceAllowed": true
+        }
+      ],
+      "lesson": {
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 4,
+        "difficulty": "easy",
+        "difficultyReason": "他 có một nghĩa và một cách đọc thông dụng, giữ vị trí đại từ khá rõ; người mới chủ yếu cần phân biệt người được nhắc với người đối thoại và chữ 他 với 她.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà lại theo năm yếu tố độ khó, nghĩa, vị trí, Pinyin có dấu, ví dụ, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/003.html",
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E4%BB%96"
+        ],
+        "introduction": {
+          "scope": "他 là đại từ ngôi thứ ba dùng để chỉ một người nam không phải người nói hay người nghe: anh ấy, ông ấy hoặc cậu ấy tùy ngữ cảnh. Không dùng 他 để gọi trực tiếp người đang nghe mình."
+        },
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他是老师。",
+            "pinyin": "Tā shì lǎoshī.",
+            "vi": "Anh ấy là giáo viên.",
+            "analysis": "他 đứng đầu câu làm chủ ngữ; 是 nối người được nói đến với danh tính 老师.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我认识他。",
+            "pinyin": "Wǒ rènshi tā.",
+            "vi": "Tôi biết anh ấy.",
+            "analysis": "他 đứng sau 认识 vì là người được biết; vị trí tân ngữ không làm đổi nghĩa ‘anh ấy’.",
+            "practiceAllowed": true
+          }
+        ],
+        "senses": [
+          {
+            "id": "main",
+            "title": "Chỉ người nam được nhắc đến",
+            "when": "Dùng 他 khi nói về một người nam vắng mặt hoặc đang được nhắc đến trong cuộc trò chuyện.",
+            "meaning": "anh ấy; ông ấy; cậu ấy — tùy quan hệ và tuổi tác trong tiếng Việt",
+            "grammar": "他 là đại từ. Là chủ ngữ, 他 đứng trước 是 hoặc động từ; là đối tượng, 他 đứng sau động từ như 认识.",
+            "pattern": "他 + 是/động từ + …；người nói + động từ + 他",
+            "collocations": [
+              {
+                "zh": "他是老师",
+                "pinyin": "tā shì lǎoshī",
+                "vi": "anh ấy là giáo viên"
+              },
+              {
+                "zh": "认识他",
+                "pinyin": "rènshi tā",
+                "vi": "biết/quen anh ấy"
+              }
+            ],
+            "examples": [
+              {
+                "zh": "他是老师。",
+                "pinyin": "Tā shì lǎoshī.",
+                "vi": "Anh ấy là giáo viên.",
+                "note": "他 là người được giới thiệu, nên đứng trước 是 và 老师."
+              },
+              {
+                "zh": "我认识他。",
+                "pinyin": "Wǒ rènshi tā.",
+                "vi": "Tôi biết anh ấy.",
+                "note": "我 là người biết; 他 là đối tượng của 认识 nên đứng sau động từ."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "ta-male-female",
+            "category": "C",
+            "afterSense": "main",
+            "title": "他 và 她: cùng đọc tā, khác người được chỉ",
+            "possibleConfusion": "Người Việt có thể nghe cùng một âm tā rồi chọn chữ theo thói quen, hoặc nghĩ 他 là đại từ dùng cho mọi người.",
+            "explanation": "他 dùng khi người được nhắc là nam; 她 dùng khi người được nhắc là nữ. Hai chữ có cùng cách đọc tā trong tiếng Trung hiện đại, vì vậy khi nghe phải dựa vào ngữ cảnh, còn khi viết phải chọn đúng chữ.",
+            "difference": "Đây là hai đại từ khác nhau có cùng cách đọc, không phải hai cách đọc của cùng một chữ. Đổi chữ sẽ đổi người được chỉ, dù câu vẫn có thể đúng ngữ pháp.",
+            "contrasts": [
+              {
+                "zh": "他是老师。",
+                "pinyin": "Tā shì lǎoshī.",
+                "vi": "Anh ấy là giáo viên.",
+                "note": "他 chỉ người nam."
+              },
+              {
+                "zh": "她是老师。",
+                "pinyin": "Tā shì lǎoshī.",
+                "vi": "Cô ấy là giáo viên.",
+                "note": "她 chỉ người nữ; cách đọc câu vẫn là tā shì lǎoshī."
+              }
+            ],
+            "tip": "Nghe tā chưa đủ để chọn chữ: nam dùng 他, nữ dùng 她."
+          },
+          {
+            "id": "ta-ni",
+            "category": "C",
+            "afterSense": "main",
+            "title": "他 và 你: người được nhắc với người đang nghe",
+            "possibleConfusion": "Tiếng Việt có thể dùng ‘anh’ cho cả người đang nghe và người được nhắc, nên người học dễ gọi trực tiếp đối phương bằng 他.",
+            "explanation": "你 chỉ người đang nghe mình nói; 他 chỉ một người nam khác đang được nhắc đến. Nếu quay sang nói trực tiếp với người đó, phải dùng 你, không dùng 他.",
+            "difference": "Cùng một người nam có thể được gọi là 你 khi nói thẳng với anh ấy và là 他 khi nói về anh ấy với người khác.",
+            "contrasts": [
+              {
+                "zh": "你是老师吗？",
+                "pinyin": "Nǐ shì lǎoshī ma?",
+                "vi": "Anh có phải là giáo viên không?",
+                "note": "Đang hỏi trực tiếp người đối diện nên dùng 你."
+              },
+              {
+                "zh": "他是老师。",
+                "pinyin": "Tā shì lǎoshī.",
+                "vi": "Anh ấy là giáo viên.",
+                "note": "Đang nói về một người nam khác nên dùng 他."
+              }
+            ],
+            "tip": "Nói thẳng với người nghe: 你; nói về người nam khác: 他."
+          }
+        ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "他 chỉ có một cách đọc thông dụng trong bài này: tā. 他 và 她 cùng đọc tā nhưng là hai chữ khác nhau, không phải cách đọc thứ hai của 他."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "他 có một nghĩa đại từ trọng tâm là chỉ người nam được nhắc đến; cách dịch anh ấy, ông ấy hay cậu ấy thay đổi theo ngữ cảnh tiếng Việt."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Âm Hán Việt ‘tha’ không tạo một cách đoán nghĩa hiện đại hữu ích; bẫy chính của người mới nằm ở vai trò người nghe/người được nhắc và chữ 他/她, đã được dạy ở nhóm C."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 他 với 她 vì cùng đọc tā nhưng khác giới tính trong chữ viết, và với 你 vì khác vai trò giao tiếp: người được nhắc so với người đang nghe."
+          }
+        },
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "level": "Cơ bản · chạm sắp xếp",
+            "type": "order",
+            "prompt": "Chạm các mảnh để tạo câu: Anh ấy là giáo viên.",
+            "tokens": ["他", "是", "老师", "。"],
+            "accepted": ["他是老师。"],
+            "model": "他是老师。",
+            "explanation": "他 là chủ ngữ nên đứng trước 是; 老师 là danh tính ở sau 是.",
+            "wrongFeedback": "Đặt người được nhắc trước 是, rồi đến danh tính 老师."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "ta-male-female",
+            "type": "choice",
+            "prompt": "Bạn viết về một người nữ. Chọn đại từ: ___是老师。",
+            "choices": ["他", "她"],
+            "correctIndex": 1,
+            "model": "她是老师。",
+            "explanation": "Người được nhắc là nữ nên viết 她; 他 dùng cho người nam.",
+            "wrongFeedback": "Âm đều là tā, hãy dựa vào giới tính của người được nhắc để chọn chữ."
+          },
+          {
+            "id": "d2",
+            "trapId": "ta-ni",
+            "type": "choice",
+            "prompt": "Bạn hỏi trực tiếp người nam trước mặt: ___是老师吗？",
+            "choices": ["他", "你"],
+            "correctIndex": 1,
+            "model": "你是老师吗？",
+            "explanation": "Đang nói trực tiếp với người nghe nên dùng 你; 他 chỉ người nam được nhắc với người khác.",
+            "wrongFeedback": "Hãy xác định bạn đang nói thẳng với người nghe hay đang nói về một người khác."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Giới thiệu nghề của một người nam bạn biết.",
+            "hints": [
+              "Nêu người nam được nhắc, rồi nói nghề của anh ấy.",
+              "Dùng 他是 + nghề nghiệp。"
+            ],
+            "model": "他是老师。",
+            "vi": "Anh ấy là giáo viên.",
+            "criteria": ["Dùng 他 cho người nam được nhắc.", "Đặt 他 trước 是 và nghề nghiệp sau 是."]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhìn nghĩa, nhớ từ",
+            "cue": "anh ấy; người nam được nhắc đến",
+            "hiddenAnswer": "他 — tā",
+            "model": "他是老师。",
+            "vi": "Anh ấy là giáo viên."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ điểm phân biệt",
+            "cue": "Bạn nói trực tiếp với người nam trước mặt",
+            "hiddenAnswer": "Dùng 你 khi nói trực tiếp; dùng 他 khi nói về anh ấy với người khác.",
+            "model": "你是老师吗？",
+            "vi": "Anh có phải là giáo viên không?"
+          }
+        ]
+      }
+    }
+  ]
+}
