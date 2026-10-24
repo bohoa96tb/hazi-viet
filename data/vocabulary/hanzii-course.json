@@ -8636,75 +8636,31 @@
       "meaning": "bạn học",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 02; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
       "examples": [
         {
+          "id": "e1",
           "zh": "他是我的同学。",
+          "pinyin": "Tā shì wǒ de tóngxué.",
           "vi": "Anh ấy là bạn học của tôi.",
-          "scene": "Bạn giới thiệu một người từng học cùng.",
-          "why": "同学 nêu quan hệ học cùng; không cần người đó đang ngồi trong lớp lúc nói.",
-          "position": "我的 trước 同学; cả cụm làm danh tính sau 是.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Giới thiệu người nam đó là bạn học của mình.",
-            "choice": "Chọn 同学 cho quan hệ học cùng và 我的 để chỉ với mình.",
-            "order": "Xếp 他是, rồi 我的, rồi 同学.",
-            "result": "他是我的同学。"
-          },
-          "id": "e01"
+          "analysis": "同学 đứng sau 我的 để chỉ người cùng học.",
+          "practiceAllowed": true
         },
         {
-          "zh": "她是我的同学。",
-          "vi": "Cô ấy là bạn học của tôi.",
-          "scene": "Bạn giới thiệu người nữ học cùng.",
-          "why": "同学 không đổi theo giới tính.",
-          "position": "Đổi 他 thành 她; 我的同学 giữ nguyên.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "我们是同学。",
-          "vi": "Chúng tôi/chúng ta là bạn học.",
-          "scene": "Bạn nói quan hệ học cùng của nhóm có mình.",
-          "why": "我们 đã chỉ nhóm; 同学 là danh từ quan hệ sau 是.",
-          "position": "我们 trước 是; không bắt buộc thêm 们 sau 同学.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "你们是同学吗？",
-          "vi": "Các bạn có phải là bạn học không?",
-          "scene": "Bạn hỏi quan hệ giữa những người đối diện.",
-          "why": "你们 là nhóm người nghe; 吗 hỏi có/không về việc học cùng.",
-          "position": "你们 trước 是, 同学 sau 是, 吗 ở cuối.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "他不是我的同学。",
-          "vi": "Anh ấy không phải bạn học của tôi.",
-          "scene": "Bạn đính chính quan hệ của một người.",
-          "why": "不是 bác bỏ quan hệ học cùng, không phủ nhận có thể là bạn bè.",
-          "position": "不 trước 是; 我的 vẫn đứng trước 同学.",
-          "practiceAllowed": true,
-          "id": "e05"
-        },
-        {
-          "zh": "我有两个同学在日本。",
-          "vi": "Tôi có hai người bạn học đang ở Nhật Bản.",
-          "scene": "Bạn nói nơi ở hiện tại của bạn học.",
-          "why": "有两个同学 giới thiệu hai người có quan hệ bạn học; 在日本 nói họ ở Nhật.",
-          "position": "两个 trước 同学; 在日本 đi sau cụm người để nêu nơi họ ở.",
-          "practiceAllowed": true,
-          "id": "e06"
+          "id": "e2",
+          "zh": "我和同学一起学习。",
+          "pinyin": "Wǒ hé tóngxué yìqǐ xuéxí.",
+          "vi": "Tôi học cùng bạn học.",
+          "analysis": "同学 đứng sau 和 để chỉ người cùng thực hiện việc học.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn giới thiệu một người đã học cùng mình.",
       "when": "同学 chỉ bạn học; có thể là cùng lớp hoặc cùng trường tùy ngữ cảnh.",
       "pattern": "người + 是 + người + 的 + 同学",
       "trap": "Một đồng nghiệp không tự trở thành 同学. Nếu cùng làm việc nhưng chưa từng học cùng, chọn 同事.",
-      "task": "Giới thiệu một người là bạn học và hỏi một nhóm có học cùng không.",
-      "model": "他是我的同学。你们是同学吗？",
+      "task": "Nói người ngồi cạnh là bạn học của bạn.",
+      "model": "他是我的同学。",
       "phrases": [
         "他是我的同学。"
       ],
@@ -8747,254 +8703,158 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 23,
+        "difficulty": "easy",
+        "difficultyReason": "同学 là danh từ chỉ người cùng học, có mẫu kết hợp trực tiếp và rõ.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Expressing_relationships"
+        ],
         "introduction": {
-          "partOfSpeech": "Danh từ chỉ quan hệ bạn học.",
-          "scope": "Trọng tâm là người cùng học trong lớp hoặc trường; cách gọi học sinh trong trường chỉ là mở rộng."
-        },
-        "meaning": {
-          "scene": "Bạn giới thiệu một người đã học cùng mình với một người bạn mới.",
-          "explanation": "同学 chỉ người có quan hệ học cùng. Có thể là cùng lớp hoặc cùng trường tùy ngữ cảnh; từ này không tự khẳng định hai người thân thiết.",
-          "boundary": "同学 không phải mọi người cùng đi làm; người cùng cơ quan là 同事. 朋友 nói quan hệ bạn bè, có thể giao với quan hệ bạn học nhưng không đồng nghĩa.",
-          "conditions": [
-            "Dùng 我的同学 khi nói người đó là bạn học của mình.",
-            "我们是同学 nói quan hệ học cùng giữa các thành viên; không cần thêm số nhiều sau 同学 trong mẫu này."
-          ],
-          "takeaway": "Khi muốn giới thiệu quan hệ học cùng với ai đó, bạn có thể dùng 同学 và nêu người liên quan nếu cần.",
-          "alternatives": [
-            {
-              "zh": "他是我的同事。",
-              "vi": "Anh ấy là đồng nghiệp của tôi.",
-              "purpose": "同事 chỉ người cùng làm việc; không mặc định đã học cùng."
-            },
-            {
-              "zh": "他是我的朋友。",
-              "vi": "Anh ấy là bạn của tôi.",
-              "purpose": "朋友 nhấn quan hệ bạn bè; không tự nói đã học cùng."
-            }
-          ]
+          "scope": "同学 chỉ bạn học hoặc người cùng học trong một lớp, trường hay chương trình."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "他是我的同学。",
+            "pinyin": "Tā shì wǒ de tóngxué.",
             "vi": "Anh ấy là bạn học của tôi.",
-            "scene": "Bạn giới thiệu một người từng học cùng.",
-            "why": "同学 nêu quan hệ học cùng; không cần người đó đang ngồi trong lớp lúc nói.",
-            "position": "我的 trước 同学; cả cụm làm danh tính sau 是.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Giới thiệu người nam đó là bạn học của mình.",
-              "choice": "Chọn 同学 cho quan hệ học cùng và 我的 để chỉ với mình.",
-              "order": "Xếp 他是, rồi 我的, rồi 同学.",
-              "result": "他是我的同学。"
-            },
-            "id": "e01"
+            "analysis": "同学 đứng sau 我的 để chỉ người cùng học.",
+            "practiceAllowed": true
           },
           {
-            "zh": "她是我的同学。",
-            "vi": "Cô ấy là bạn học của tôi.",
-            "scene": "Bạn giới thiệu người nữ học cùng.",
-            "why": "同学 không đổi theo giới tính.",
-            "position": "Đổi 他 thành 她; 我的同学 giữ nguyên.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "我们是同学。",
-            "vi": "Chúng tôi/chúng ta là bạn học.",
-            "scene": "Bạn nói quan hệ học cùng của nhóm có mình.",
-            "why": "我们 đã chỉ nhóm; 同学 là danh từ quan hệ sau 是.",
-            "position": "我们 trước 是; không bắt buộc thêm 们 sau 同学.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "你们是同学吗？",
-            "vi": "Các bạn có phải là bạn học không?",
-            "scene": "Bạn hỏi quan hệ giữa những người đối diện.",
-            "why": "你们 là nhóm người nghe; 吗 hỏi có/không về việc học cùng.",
-            "position": "你们 trước 是, 同学 sau 是, 吗 ở cuối.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "他不是我的同学。",
-            "vi": "Anh ấy không phải bạn học của tôi.",
-            "scene": "Bạn đính chính quan hệ của một người.",
-            "why": "不是 bác bỏ quan hệ học cùng, không phủ nhận có thể là bạn bè.",
-            "position": "不 trước 是; 我的 vẫn đứng trước 同学.",
-            "practiceAllowed": true,
-            "id": "e05"
-          },
-          {
-            "zh": "我有两个同学在日本。",
-            "vi": "Tôi có hai người bạn học đang ở Nhật Bản.",
-            "scene": "Bạn nói nơi ở hiện tại của bạn học.",
-            "why": "有两个同学 giới thiệu hai người có quan hệ bạn học; 在日本 nói họ ở Nhật.",
-            "position": "两个 trước 同学; 在日本 đi sau cụm người để nêu nơi họ ở.",
-            "practiceAllowed": true,
-            "id": "e06"
+            "id": "e2",
+            "zh": "我和同学一起学习。",
+            "pinyin": "Wǒ hé tóngxué yìqǐ xuéxí.",
+            "vi": "Tôi học cùng bạn học.",
+            "analysis": "同学 đứng sau 和 để chỉ người cùng thực hiện việc học.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Giới thiệu quan hệ bạn học với mình.",
-            "frame": "Người + 是 + 我的 + 同学.",
-            "position": "我的 đứng trước 同学 để nêu có quan hệ học cùng với người nói.",
-            "required": "Cần quan hệ học cùng thật sự; không chỉ cùng làm việc hoặc quen ngoài trường.",
-            "omission": "Khi đã rõ đang nói quan hệ với mình, có thể nói 他是同学 trong ngữ cảnh thích hợp; giữ 我的 sẽ rõ hơn.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi người nam thành người nữ.",
-              "exampleId": "e02",
-              "limit": "Chỉ đổi người được giới thiệu; 同学 không phân biệt giới tính."
-            },
-            "caution": "Đặt 我的 trước danh từ; không đảo thành 同学的我 để giữ nghĩa.",
-            "forms": [
-              {
-                "type": "Phủ định quan hệ",
-                "exampleId": "e05",
-                "why": "不是我的同学 phủ định học cùng với mình."
-              }
-            ],
-            "collocations": [
-              {
-                "zh": "我的同学",
-                "vi": "bạn học của tôi",
-                "purpose": "Nêu quan hệ với người nói."
-              },
-              {
-                "zh": "两个同学",
-                "vi": "hai người bạn học",
-                "purpose": "Đếm người học cùng."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Nói hoặc hỏi quan hệ học cùng giữa một nhóm người.",
-            "frame": "我们 + 是 + 同学; 你们 + 是 + 同学 + 吗.",
-            "position": "Nhóm người đứng trước 是; 同学 nêu quan hệ, không cần 们 theo sau.",
-            "required": "Chủ thể cần xác định người có quan hệ học cùng; câu hỏi thêm 吗 cuối câu.",
-            "omission": "Khi người được nói tới đã rõ, 是同学 có thể là câu trả lời lược.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Đổi sang hỏi nhóm người nghe có học cùng không.",
-              "exampleId": "e04",
-              "limit": "Đổi 我们 thành 你们 thay nhóm đang nói; thêm 吗 thay khẳng định bằng câu hỏi."
-            },
-            "caution": "我们是同学们 không phải cách thông thường chỉ quan hệ học cùng; 同学们 tự nhiên hơn khi gọi một nhóm học sinh.",
-            "forms": [
-              {
-                "type": "Hỏi quan hệ",
-                "exampleId": "e04",
-                "why": "Giữ khung danh tính và thêm 吗."
-              }
-            ],
+            "id": "classmate",
+            "title": "Bạn học",
+            "when": "Nói về người cùng học với mình.",
+            "meaning": "bạn học",
+            "grammar": "Có thể đứng sau 的 hoặc 和.",
+            "pattern": "我的+同学；和+同学+一起+động từ",
             "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Đồng nghiệp chưa chắc là bạn học",
-            "scene": "Bạn giới thiệu người chỉ làm cùng, chưa từng học cùng.",
-            "possibleConfusion": "Bạn có thể dễ nhầm chữ đồng trong đồng nghiệp và đồng học nên dùng 同学 cho mọi người cùng hoạt động.",
-            "difference": "同学 dựa vào học cùng; 同事 dựa vào làm cùng. Một người có thể là cả hai nếu có đủ hai quan hệ.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "他是我的同事。",
-                "vi": "Anh ấy là đồng nghiệp của tôi.",
-                "judgment": "correct",
-                "comment": "Đúng với người làm cùng trong tình huống này.",
-                "practiceAllowed": false
+                "zh": "他是我的同学。",
+                "pinyin": "Tā shì wǒ de tóngxué.",
+                "vi": "Anh ấy là bạn học của tôi.",
+                "note": "我的 bổ nghĩa cho 同学."
               },
               {
-                "id": "case-2",
-                "zh": "他是我的同学。",
-                "vi": "Anh ấy là bạn học của tôi.",
-                "judgment": "wrong-intent",
-                "comment": "Câu đúng nhưng khẳng định quan hệ học cùng mà tình huống chưa có.",
-                "practiceAllowed": false
+                "zh": "我和同学一起学习。",
+                "pinyin": "Wǒ hé tóngxué yìqǐ xuéxí.",
+                "vi": "Tôi học cùng bạn học.",
+                "note": "和 nối người cùng làm việc."
               }
-            ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Đổi 同事 thành 同学 sẽ thêm một quan hệ không đúng dữ kiện. Sửa về 他是我的同事。 khi chỉ làm cùng."
-            },
-            "boundary": "Nếu đã học cùng rồi cùng làm, cả hai câu đều có thể đúng; không tạo đối lập tuyệt đối giữa hai nhóm người.",
-            "tip": "Cùng học: 同学; cùng làm: 同事.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Bạn học không tự đồng nghĩa bạn thân",
-            "scene": "Bạn chỉ biết hai người học cùng, chưa biết quan hệ thân thiết.",
-            "possibleConfusion": "Bạn có thể dễ nhầm tiếng Việt dùng bạn trong cả bạn học và bạn bè nên thay hai từ như nhau.",
-            "difference": "同学 nêu quan hệ học; 朋友 nêu quan hệ bạn bè. Hai quan hệ có thể cùng tồn tại nhưng không tự suy ra nhau.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "他是我的同学。",
-                "vi": "Anh ấy là bạn học của tôi.",
-                "judgment": "correct",
-                "comment": "Chỉ xác nhận học cùng.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "他是我的朋友。",
-                "vi": "Anh ấy là bạn của tôi.",
-                "judgment": "different-meaning",
-                "comment": "Chuyển sang tình bạn, không xác nhận cùng học.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 同学 bằng 朋友 đổi thông tin quan hệ. Nếu có tình bạn thật thì câu sau cũng đúng, nhưng không chỉ là đổi từ đồng nghĩa."
-            },
-            "boundary": "Có thể nói 他是我的同学，也是我的朋友, nghĩa là anh ấy là bạn học và cũng là bạn của tôi; 也是 là cũng là.",
-            "tip": "Muốn kể học cùng hãy giữ 同学; muốn kể tình bạn hãy dùng 朋友.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
+            ]
           }
         ],
-        "checks": [
+        "confusions": [],
+        "guidedExercises": [
           {
-            "id": "q01",
-            "question": "Một người chỉ làm cùng bạn và chưa từng học cùng. Chọn từ phù hợp.",
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Anh ấy là bạn học của tôi.",
+            "tokens": [
+              "他",
+              "是",
+              "我的",
+              "同学",
+              "。"
+            ],
+            "accepted": [
+              "他是我的同学。"
+            ],
+            "model": "他是我的同学。",
+            "explanation": "我的 đứng trước 同学.",
+            "wrongFeedback": "Đặt từ sở hữu trước danh từ."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "classmate",
+            "type": "meaning",
+            "prompt": "Chọn từ chỉ bạn học.",
             "choices": [
               "同学",
-              "同事"
-            ]
-          },
+              "老师"
+            ],
+            "correctIndex": 0,
+            "model": "同学",
+            "explanation": "同学 là bạn học; 老师 là giáo viên.",
+            "wrongFeedback": "Phân biệt người cùng học với người dạy."
+          }
+        ],
+        "productionExercises": [
           {
-            "id": "q02",
-            "question": "Chỉ biết 他是我的同学, có thể kết luận chắc chắn hai người thân nhau không?",
-            "choices": [
-              "Có, 同学 luôn là bạn thân.",
-              "Không, câu chỉ nêu quan hệ học cùng."
+            "id": "p1",
+            "prompt": "Nói anh ấy là bạn học của bạn.",
+            "hints": [
+              "Nêu chủ thể: 他.",
+              "Dùng 我的 trước danh từ.",
+              "Mẫu: 他是我的同学。"
+            ],
+            "model": "他是我的同学。",
+            "vi": "Anh ấy là bạn học của tôi.",
+            "criteria": [
+              "Dùng đúng 同学."
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "同事 chỉ quan hệ làm cùng; 同学 cần quan hệ học cùng."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là bạn học?",
+            "hiddenAnswer": "同学",
+            "model": "同学"
           },
-          "q02": {
-            "correctIndex": 1,
-            "explanation": "Bạn học có thể thân hoặc không; từ này không tự nêu mức thân thiết."
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我的____。",
+            "hiddenAnswer": "同学",
+            "model": "我的同学。"
           }
-        },
-        "pronunciation": {
-          "text": "同 và 学 đều mang thanh hai. Hai thanh hai nối nhau vẫn giữ hướng đi lên vừa phải; không áp quy tắc hai thanh ba vào đây. Đọc liền thành từ nhưng không biến 学 thành thanh nhẹ."
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Anh ấy là bạn học của tôi.",
+            "choices": [
+              "他",
+              "是",
+              "我的",
+              "同学",
+              "。"
+            ],
+            "correct": [
+              "他是我的同学。"
+            ],
+            "explanation": "我的 đứng trước 同学."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ chỉ bạn học.",
+            "choices": [
+              "同学",
+              "老师"
+            ],
+            "correctIndex": 0,
+            "explanation": "同学 là bạn học."
+          }
         }
       }
     },
@@ -9011,75 +8871,31 @@
       "meaning": "bạn; bạn bè",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 02; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
       "examples": [
         {
-          "zh": "他是我的朋友。",
-          "vi": "Anh ấy là bạn của tôi.",
-          "scene": "Bạn giới thiệu một người bạn nam.",
-          "why": "朋友 xác định tình bạn, không gán quan hệ yêu đương.",
-          "position": "我的 đứng trước 朋友; cả cụm theo sau 是.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Giới thiệu người nam là bạn của mình.",
-            "choice": "Chọn 我的朋友 để nói quan hệ bạn bè, không thêm 男 thành 男朋友.",
-            "order": "Xếp 他, 是, rồi 我的朋友.",
-            "result": "他是我的朋友。"
-          },
-          "id": "e01"
-        },
-        {
+          "id": "e1",
           "zh": "她是我的朋友。",
+          "pinyin": "Tā shì wǒ de péngyou.",
           "vi": "Cô ấy là bạn của tôi.",
-          "scene": "Bạn giới thiệu một người bạn nữ.",
-          "why": "朋友 dùng được cho cả nam và nữ.",
-          "position": "她 trước 是; 我的朋友 giữ nguyên.",
-          "practiceAllowed": true,
-          "id": "e02"
+          "analysis": "朋友 đứng sau 我的 để nói quan hệ bạn bè.",
+          "practiceAllowed": true
         },
         {
-          "zh": "他是你的朋友吗？",
-          "vi": "Anh ấy có phải là bạn của bạn không?",
-          "scene": "Bạn xác nhận quan hệ với người nghe.",
-          "why": "你的朋友 là bạn của bạn, không phải của người nói.",
-          "position": "你的 trước 朋友; 吗 cuối câu.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "他不是我的朋友。",
-          "vi": "Anh ấy không phải là bạn của tôi.",
-          "scene": "Bạn đính chính quan hệ khi bị hiểu nhầm.",
-          "why": "不是 phủ định quan hệ bạn bè; có thể vẫn là người quen.",
-          "position": "不 trước 是; 我的朋友 không đổi thứ tự.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
+          "id": "e2",
           "zh": "我和朋友一起吃饭。",
+          "pinyin": "Wǒ hé péngyou yìqǐ chīfàn.",
           "vi": "Tôi ăn cơm cùng bạn.",
-          "scene": "Bạn kể hoạt động với bạn bè.",
-          "why": "和朋友 nêu người cùng làm; 一起 là cùng nhau; 吃饭 là ăn cơm.",
-          "position": "和朋友一起 đứng trước 吃饭, không đặt sau như thứ tự dịch Việt.",
-          "practiceAllowed": true,
-          "id": "e05"
-        },
-        {
-          "zh": "我有两个朋友在日本。",
-          "vi": "Tôi có hai người bạn ở Nhật Bản.",
-          "scene": "Bạn kể nơi ở của hai người bạn.",
-          "why": "两个 đếm hai người bạn; 在日本 cho biết họ ở Nhật.",
-          "position": "两个 trước 朋友; 在日本 sau cụm người để nêu nơi ở.",
-          "practiceAllowed": true,
-          "id": "e06"
+          "analysis": "和朋友一起 chỉ cùng làm việc với bạn.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Bạn giới thiệu một người bạn với người khác.",
       "when": "朋友 chỉ người có quan hệ bạn bè. Khi cần nêu quan hệ cụ thể như bạn học, có thể chọn từ cụ thể hơn.",
       "pattern": "người + 的 + 朋友; 和朋友 + hoạt động",
       "trap": "朋友 không tự mang nghĩa người yêu. 男朋友 và 女朋友 thường có nghĩa bạn trai và bạn gái trong quan hệ tình cảm.",
-      "task": "Giới thiệu một người bạn và kể một hoạt động cùng bạn.",
-      "model": "他是我的朋友。我和朋友一起吃饭。",
+      "task": "Giới thiệu một người bạn.",
+      "model": "她是我的朋友。",
       "phrases": [
         "他是我的朋友。"
       ],
@@ -9122,253 +8938,158 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 24,
+        "difficulty": "easy",
+        "difficultyReason": "朋友 là danh từ quan hệ quen thuộc, dùng trực tiếp trong giới thiệu và hoạt động cùng nhau.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Expressing_relationships"
+        ],
         "introduction": {
-          "partOfSpeech": "Danh từ chỉ quan hệ bạn bè.",
-          "scope": "Trọng tâm là một người bạn hoặc bạn bè nói chung; phân biệt quan hệ bạn bè với người yêu và bạn học."
-        },
-        "meaning": {
-          "scene": "Bạn đưa một người bạn đi gặp đồng nghiệp và cần giới thiệu quan hệ giữa hai người.",
-          "explanation": "朋友 là người có quan hệ bạn bè. Từ này không tự nêu giới tính, số lượng hoặc mức thân; tùy câu có thể dịch là bạn hoặc bạn bè.",
-          "boundary": "朋友 không mặc định là người yêu. 男朋友 và 女朋友 thường mang nghĩa bạn trai, bạn gái trong quan hệ tình cảm; 同学 nêu quan hệ học cùng chứ không tự xác nhận tình bạn.",
-          "conditions": [
-            "Giới thiệu bạn của mình dùng 我的朋友.",
-            "Đếm bạn dùng số + 个 + 朋友; nói cùng bạn làm việc gì có thể dùng 和朋友一起 trước hành động."
-          ],
-          "takeaway": "Khi muốn nói về quan hệ bạn bè, bạn có thể dùng 朋友; thêm người sở hữu, số lượng hoặc hành động khi cần rõ.",
-          "alternatives": [
-            {
-              "zh": "他是我的男朋友。",
-              "vi": "Anh ấy là bạn trai của tôi.",
-              "purpose": "男朋友 thường là người yêu nam, không chỉ bất kỳ bạn nam."
-            },
-            {
-              "zh": "他是我的同学。",
-              "vi": "Anh ấy là bạn học của tôi.",
-              "purpose": "同学 nói quan hệ học cùng, có thể đồng thời là bạn bè hoặc chưa thân."
-            }
-          ]
+          "scope": "朋友 nghĩa là bạn, người có quan hệ bạn bè với mình."
         },
         "examples": [
           {
-            "zh": "他是我的朋友。",
-            "vi": "Anh ấy là bạn của tôi.",
-            "scene": "Bạn giới thiệu một người bạn nam.",
-            "why": "朋友 xác định tình bạn, không gán quan hệ yêu đương.",
-            "position": "我的 đứng trước 朋友; cả cụm theo sau 是.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Giới thiệu người nam là bạn của mình.",
-              "choice": "Chọn 我的朋友 để nói quan hệ bạn bè, không thêm 男 thành 男朋友.",
-              "order": "Xếp 他, 是, rồi 我的朋友.",
-              "result": "他是我的朋友。"
-            },
-            "id": "e01"
-          },
-          {
+            "id": "e1",
             "zh": "她是我的朋友。",
+            "pinyin": "Tā shì wǒ de péngyou.",
             "vi": "Cô ấy là bạn của tôi.",
-            "scene": "Bạn giới thiệu một người bạn nữ.",
-            "why": "朋友 dùng được cho cả nam và nữ.",
-            "position": "她 trước 是; 我的朋友 giữ nguyên.",
-            "practiceAllowed": true,
-            "id": "e02"
+            "analysis": "朋友 đứng sau 我的 để nói quan hệ bạn bè.",
+            "practiceAllowed": true
           },
           {
-            "zh": "他是你的朋友吗？",
-            "vi": "Anh ấy có phải là bạn của bạn không?",
-            "scene": "Bạn xác nhận quan hệ với người nghe.",
-            "why": "你的朋友 là bạn của bạn, không phải của người nói.",
-            "position": "你的 trước 朋友; 吗 cuối câu.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "他不是我的朋友。",
-            "vi": "Anh ấy không phải là bạn của tôi.",
-            "scene": "Bạn đính chính quan hệ khi bị hiểu nhầm.",
-            "why": "不是 phủ định quan hệ bạn bè; có thể vẫn là người quen.",
-            "position": "不 trước 是; 我的朋友 không đổi thứ tự.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
+            "id": "e2",
             "zh": "我和朋友一起吃饭。",
+            "pinyin": "Wǒ hé péngyou yìqǐ chīfàn.",
             "vi": "Tôi ăn cơm cùng bạn.",
-            "scene": "Bạn kể hoạt động với bạn bè.",
-            "why": "和朋友 nêu người cùng làm; 一起 là cùng nhau; 吃饭 là ăn cơm.",
-            "position": "和朋友一起 đứng trước 吃饭, không đặt sau như thứ tự dịch Việt.",
-            "practiceAllowed": true,
-            "id": "e05"
-          },
-          {
-            "zh": "我有两个朋友在日本。",
-            "vi": "Tôi có hai người bạn ở Nhật Bản.",
-            "scene": "Bạn kể nơi ở của hai người bạn.",
-            "why": "两个 đếm hai người bạn; 在日本 cho biết họ ở Nhật.",
-            "position": "两个 trước 朋友; 在日本 sau cụm người để nêu nơi ở.",
-            "practiceAllowed": true,
-            "id": "e06"
+            "analysis": "和朋友一起 chỉ cùng làm việc với bạn.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Giới thiệu, hỏi và đếm bạn bè.",
-            "frame": "Người + 是 + người + 的 + 朋友; 有 + số + 个 + 朋友.",
-            "position": "Người sở hữu và 的 đứng trước 朋友; số và 个 cũng đứng trước danh từ khi đếm.",
-            "required": "Cần nói bạn của ai nếu quan hệ chưa rõ; đếm hai người dùng 两个 trong mẫu này.",
-            "omission": "Khi quan hệ rõ, 他是朋友 có thể đủ trong ngữ cảnh; dùng 我的朋友 để giới thiệu rõ với người mới gặp.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi từ bạn nam sang bạn nữ.",
-              "exampleId": "e02",
-              "limit": "朋友 giữ nguyên; đại từ đổi theo người muốn giới thiệu."
-            },
-            "caution": "Không thêm 男 hoặc 女 chỉ để đánh dấu giới tính nếu không muốn gợi nghĩa người yêu.",
-            "forms": [
-              {
-                "type": "Hỏi quan hệ",
-                "exampleId": "e03",
-                "why": "你的 chuyển quan hệ sang người nghe; 吗 hỏi xác nhận."
-              },
-              {
-                "type": "Phủ định quan hệ",
-                "exampleId": "e04",
-                "why": "不是 bác bỏ quan hệ bạn bè."
-              }
-            ],
-            "collocations": [
-              {
-                "zh": "我的朋友",
-                "vi": "bạn của tôi",
-                "purpose": "Giới thiệu quan hệ."
-              },
-              {
-                "zh": "两个朋友",
-                "vi": "hai người bạn",
-                "purpose": "Nêu số lượng bạn."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Kể hoạt động cùng bạn.",
-            "frame": "我 + 和朋友 + 一起 + hành động.",
-            "position": "和朋友 nêu người cùng làm, đặt trước 一起 và hành động.",
-            "required": "Hành động cần phù hợp thực hiện cùng nhau; 一起 làm rõ cùng nhau.",
-            "omission": "Có thể nói 我和朋友吃饭 khi ngữ cảnh rõ; 一起 không luôn bắt buộc để câu đúng.",
-            "exampleId": "e05",
-            "transform": {
-              "change": "Đổi từ ăn cùng bạn sang kể có hai bạn ở Nhật.",
-              "exampleId": "e06",
-              "limit": "Đây là hai cách dùng danh từ trong hai ý khác nhau; không suy bạn ăn cùng nhất định ở Nhật."
-            },
-            "caution": "Không đặt cụm 和朋友 sau 吃饭 theo trật tự dịch từng chữ trong mẫu trung tính này.",
-            "forms": [],
+            "id": "friend",
+            "title": "Bạn bè",
+            "when": "Nói về một người có quan hệ bạn bè với mình.",
+            "meaning": "bạn; bạn bè",
+            "grammar": "Có thể đứng sau 的 hoặc 和.",
+            "pattern": "我的+朋友；和+朋友+一起+động từ",
             "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Thêm 男 hoặc 女 làm thay đổi quan hệ",
-            "scene": "Bạn giới thiệu một người bạn nam và không có quan hệ yêu đương.",
-            "possibleConfusion": "Bạn có thể dễ nhầm dịch bạn nam thành 男朋友 vì nam là 男.",
-            "difference": "朋友 không nêu giới tính; 男朋友 thường nghĩa là bạn trai trong quan hệ tình cảm.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "他是我的朋友。",
-                "vi": "Anh ấy là bạn của tôi.",
-                "judgment": "correct",
-                "comment": "Phù hợp giới thiệu quan hệ bạn bè.",
-                "practiceAllowed": false
+                "zh": "她是我的朋友。",
+                "pinyin": "Tā shì wǒ de péngyou.",
+                "vi": "Cô ấy là bạn của tôi.",
+                "note": "我的 bổ nghĩa cho 朋友."
               },
               {
-                "id": "case-2",
-                "zh": "他是我的男朋友。",
-                "vi": "Anh ấy là bạn trai của tôi.",
-                "judgment": "different-meaning",
-                "comment": "Câu tự nhiên nhưng thông thường xác nhận quan hệ yêu đương.",
-                "practiceAllowed": false
+                "zh": "我和朋友一起吃饭。",
+                "pinyin": "Wǒ hé péngyou yìqǐ chīfàn.",
+                "vi": "Tôi ăn cơm cùng bạn.",
+                "note": "和 nối người cùng hoạt động."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thêm 男 trước 朋友 đổi nghĩa quan hệ theo cách hiểu thông thường. Để chỉ bạn bè, dùng 他是我的朋友。"
-            },
-            "boundary": "Nếu cần nói rõ giới tính mà tránh nghĩa người yêu, có thể nói 他是我的一位男性朋友, nghĩa là anh ấy là một người bạn nam của tôi; 男性 chỉ nam giới, 位 là lượng từ lịch sự. Đây là cách nói mở rộng.",
-            "tip": "Chỉ giới thiệu bạn bè: 朋友; quan hệ yêu đương: mới chọn 男朋友 hoặc 女朋友 phù hợp.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Coi 朋友 luôn là nhiều người",
-            "scene": "Bạn muốn nói chỉ có một người bạn đang tới.",
-            "possibleConfusion": "Bạn có thể dễ nhầm bản dịch bạn bè trong thẻ từ thành số nhiều bắt buộc.",
-            "difference": "朋友 không tự đánh dấu số; 一个朋友 là một bạn, 两个朋友 là hai bạn. Không cần 们 sau cụm có số lượng.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我有一个朋友在日本。",
-                "vi": "Tôi có một người bạn ở Nhật Bản.",
-                "judgment": "correct",
-                "comment": "一个 xác định đúng một người bạn.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我有两个朋友在日本。",
-                "vi": "Tôi có hai người bạn ở Nhật Bản.",
-                "judgment": "different-meaning",
-                "comment": "两个 đổi số lượng thành hai; 朋友 giữ nguyên.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi 一个 thành 两个 thay số lượng, không phải đổi từ 朋友 sang dạng số nhiều. Muốn nói một người, giữ 一个朋友."
-            },
-            "boundary": "朋友们 có thể gọi hoặc chỉ một nhóm bạn; không vì có nhiều bạn mà phải luôn thêm 们, đặc biệt sau số đếm.",
-            "tip": "Xem số và lượng từ để biết bao nhiêu; đừng suy số lượng từ bản dịch bạn bè.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
-          }
-        ],
-        "checks": [
-          {
-            "id": "q01",
-            "question": "Bạn chỉ giới thiệu một bạn nam, không phải người yêu. Chọn câu ít gây hiểu nhầm.",
-            "choices": [
-              "他是我的男朋友。",
-              "他是我的朋友。"
-            ]
-          },
-          {
-            "id": "q02",
-            "question": "Cụm 一个朋友 chỉ bao nhiêu người bạn?",
-            "choices": [
-              "Một người.",
-              "Nhiều người vì 朋友 nghĩa là bạn bè."
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "男朋友 thường là người yêu nam; 朋友 đủ để giới thiệu tình bạn."
-          },
-          "q02": {
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Cô ấy là bạn của tôi.",
+            "tokens": [
+              "她",
+              "是",
+              "我的",
+              "朋友",
+              "。"
+            ],
+            "accepted": [
+              "她是我的朋友。"
+            ],
+            "model": "她是我的朋友。",
+            "explanation": "我的 đứng trước 朋友.",
+            "wrongFeedback": "Đặt từ sở hữu trước danh từ."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "friend",
+            "type": "meaning",
+            "prompt": "Chọn từ chỉ bạn bè.",
+            "choices": [
+              "朋友",
+              "同学"
+            ],
             "correctIndex": 0,
-            "explanation": "一个 chỉ một; 朋友 không bắt buộc mang số nhiều."
+            "model": "朋友",
+            "explanation": "朋友 là bạn; 同学 nhấn mạnh cùng học.",
+            "wrongFeedback": "Phân biệt quan hệ bạn bè với quan hệ bạn học."
           }
-        },
-        "pronunciation": {
-          "text": "朋 mang thanh hai; 友 trong 朋友 thường là thanh nhẹ. Âm nhẹ vẫn được phát ra ngắn và nhẹ hơn, không phải bỏ âm hay đọc thành thanh một. Tránh đọc cả hai âm mạnh ngang nhau nếu đang luyện cách nói thông thường."
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói cô ấy là bạn của bạn.",
+            "hints": [
+              "Nêu chủ thể: 她.",
+              "Dùng 我的 trước 朋友.",
+              "Mẫu: 她是我的朋友。"
+            ],
+            "model": "她是我的朋友。",
+            "vi": "Cô ấy là bạn của tôi.",
+            "criteria": [
+              "Dùng đúng 朋友."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là bạn?",
+            "hiddenAnswer": "朋友",
+            "model": "朋友"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我的____。",
+            "hiddenAnswer": "朋友",
+            "model": "我的朋友。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Cô ấy là bạn của tôi.",
+            "choices": [
+              "她",
+              "是",
+              "我的",
+              "朋友",
+              "。"
+            ],
+            "correct": [
+              "她是我的朋友。"
+            ],
+            "explanation": "我的 đứng trước 朋友."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ chỉ bạn bè.",
+            "choices": [
+              "朋友",
+              "同学"
+            ],
+            "correctIndex": 0,
+            "explanation": "朋友 là bạn."
+          }
         }
       }
     },
@@ -9385,65 +9106,30 @@
       "meaning": "lượng từ đếm người và một số đồ vật",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 03; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
       "examples": [
         {
-          "zh": "我买两个苹果。",
-          "vi": "Tôi mua hai quả táo.",
-          "scene": "Bạn nói số táo muốn mua.",
-          "why": "两 nêu hai, 个 nối số với 苹果 là táo.",
-          "position": "个 đứng giữa 两 và 苹果.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói mình mua hai quả táo.",
-            "choice": "Chọn 买 để nói mua, 两个苹果 để đếm hai quả.",
-            "order": "Xếp 我, 买, 两, 个, 苹果.",
-            "result": "我买两个苹果。"
-          },
-          "id": "e01"
-        },
-        {
-          "zh": "我买三个苹果。",
-          "vi": "Tôi mua ba quả táo.",
-          "scene": "Bạn thay đổi số táo cần mua.",
-          "why": "Chỉ đổi số, giữ 个 vì đối tượng vẫn là táo.",
-          "position": "三 thay 两 trước 个; 苹果 theo sau.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "你买几个苹果？",
-          "vi": "Bạn mua mấy quả táo?",
-          "scene": "Bạn hỏi người đi chợ cần bao nhiêu táo.",
-          "why": "几 thay cho số chưa biết, 个 vẫn giữ giữa từ hỏi và danh từ.",
-          "position": "几 trước 个, 苹果 sau 个; không thêm 吗 vào mẫu hỏi này.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "我买这个苹果。",
-          "vi": "Tôi mua quả táo này.",
-          "scene": "Bạn chọn một quả cụ thể.",
-          "why": "这个 chỉ đối tượng gần hoặc đang được chỉ; không chỉ nói số lượng chung.",
-          "position": "这 đứng trước 个, danh từ 苹果 theo sau.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
+          "id": "e1",
           "zh": "我有一个朋友。",
+          "pinyin": "Wǒ yǒu yí ge péngyou.",
           "vi": "Tôi có một người bạn.",
-          "scene": "Bạn giới thiệu mình có một người bạn.",
-          "why": "个 dùng với 朋友; tiếng Việt dịch là người, không phải cái.",
-          "position": "一 trước 个, 个 trước 朋友.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "个 đứng sau số từ 一 và trước danh từ đếm được.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "三个学生在学习。",
+          "pinyin": "Sān ge xuésheng zài xuéxí.",
+          "vi": "Ba học sinh đang học.",
+          "analysis": "个 đứng giữa số lượng 三 và danh từ 学生.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 1,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn mua hai quả táo rồi hỏi người kia mua mấy quả.",
-      "model": "我买两个苹果。你买几个苹果？",
+      "task": "Nói bạn có một người bạn.",
+      "model": "我有一个朋友。",
       "quiz": {
         "question": "Chọn cụm đếm hai quyển sách thông dụng.",
         "choices": [
@@ -9468,239 +9154,191 @@
       },
       "more": [],
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 25,
+        "difficulty": "medium",
+        "difficultyReason": "个 là lượng từ phổ biến nhưng phải đứng đúng giữa số/từ chỉ định và danh từ; 一 đọc nhẹ thành yí trong cụm.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Measure_words"
+        ],
         "introduction": {
-          "partOfSpeech": "Lượng từ để đếm một số loại người, đồ vật hoặc sự việc.",
-          "scope": "Trọng tâm là số + 个 + danh từ và 这个; không học 个 như một từ thay được mọi lượng từ."
-        },
-        "meaning": {
-          "scene": "Bạn mua táo và cần nói rõ muốn hai quả, không phải một quả.",
-          "explanation": "个 đứng giữa số và danh từ khi đếm nhiều loại đối tượng thông dụng, như người hoặc táo. Nghĩa tiếng Việt thay đổi theo danh từ: người trong 两个人, quả trong 两个苹果; không dịch mọi 个 thành cái.",
-          "boundary": "个 là lượng từ thông dụng nhưng không dùng thay mọi lượng từ. Sách trong mẫu cơ bản dùng 本; quần áo dùng 件. Học cụm cùng danh từ sẽ dễ chọn hơn.",
-          "conditions": [
-            "Đếm hai đối tượng trước 个 thường dùng 两: 两个苹果.",
-            "这个 hoặc 那个 đứng trước danh từ để chỉ cái này/cái kia; khi danh từ đã rõ có thể lược danh từ."
-          ],
-          "takeaway": "Khi muốn đếm người hoặc đồ vật có thể kết hợp với 个, bạn đặt 个 sau số và trước danh từ.",
-          "alternatives": [
-            {
-              "zh": "我买两本书。",
-              "vi": "Tôi mua hai quyển sách.",
-              "purpose": "本 là lượng từ thông dụng của sách; không mặc định dùng 个 cho sách."
-            },
-            {
-              "zh": "我买两件衣服。",
-              "vi": "Tôi mua hai món quần áo.",
-              "purpose": "件 dùng đếm món quần áo; 衣服 là quần áo."
-            }
-          ]
+          "scope": "个 là lượng từ thông dụng cho người và nhiều danh từ khi nói số lượng hoặc chỉ định."
         },
         "examples": [
           {
-            "zh": "我买两个苹果。",
-            "vi": "Tôi mua hai quả táo.",
-            "scene": "Bạn nói số táo muốn mua.",
-            "why": "两 nêu hai, 个 nối số với 苹果 là táo.",
-            "position": "个 đứng giữa 两 và 苹果.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói mình mua hai quả táo.",
-              "choice": "Chọn 买 để nói mua, 两个苹果 để đếm hai quả.",
-              "order": "Xếp 我, 买, 两, 个, 苹果.",
-              "result": "我买两个苹果。"
-            },
-            "id": "e01"
-          },
-          {
-            "zh": "我买三个苹果。",
-            "vi": "Tôi mua ba quả táo.",
-            "scene": "Bạn thay đổi số táo cần mua.",
-            "why": "Chỉ đổi số, giữ 个 vì đối tượng vẫn là táo.",
-            "position": "三 thay 两 trước 个; 苹果 theo sau.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "你买几个苹果？",
-            "vi": "Bạn mua mấy quả táo?",
-            "scene": "Bạn hỏi người đi chợ cần bao nhiêu táo.",
-            "why": "几 thay cho số chưa biết, 个 vẫn giữ giữa từ hỏi và danh từ.",
-            "position": "几 trước 个, 苹果 sau 个; không thêm 吗 vào mẫu hỏi này.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "我买这个苹果。",
-            "vi": "Tôi mua quả táo này.",
-            "scene": "Bạn chọn một quả cụ thể.",
-            "why": "这个 chỉ đối tượng gần hoặc đang được chỉ; không chỉ nói số lượng chung.",
-            "position": "这 đứng trước 个, danh từ 苹果 theo sau.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
+            "id": "e1",
             "zh": "我有一个朋友。",
+            "pinyin": "Wǒ yǒu yí ge péngyou.",
             "vi": "Tôi có một người bạn.",
-            "scene": "Bạn giới thiệu mình có một người bạn.",
-            "why": "个 dùng với 朋友; tiếng Việt dịch là người, không phải cái.",
-            "position": "一 trước 个, 个 trước 朋友.",
-            "practiceAllowed": true,
-            "id": "e05"
-          }
-        ],
-        "usages": [
-          {
-            "intent": "Đếm táo hoặc người.",
-            "frame": "Số + 个 + danh từ.",
-            "position": "个 sau số, trước danh từ như 苹果 hoặc 朋友.",
-            "required": "Trong mẫu đếm đầy đủ cần lượng từ; chọn 两 cho hai trước 个 ở mức học này.",
-            "omission": "Khi đã hỏi mua mấy quả táo, có thể đáp 两个 vì danh từ đã rõ; không coi câu đáp thiếu 苹果 là sai.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi hai quả sang ba quả.",
-              "exampleId": "e02",
-              "limit": "Chỉ thay số; khi đổi danh từ phải kiểm tra lượng từ có phù hợp không."
-            },
-            "caution": "Không đảo 个 ra sau danh từ theo trật tự một quả táo của tiếng Việt.",
-            "forms": [
-              {
-                "type": "Hỏi số lượng",
-                "exampleId": "e03",
-                "why": "几 thay số ở trước 个 để hỏi mấy quả."
-              }
-            ],
-            "collocations": [
-              {
-                "zh": "一个朋友",
-                "vi": "một người bạn",
-                "purpose": "Đếm một bạn."
-              },
-              {
-                "zh": "两个苹果",
-                "vi": "hai quả táo",
-                "purpose": "Nêu số táo."
-              }
-            ],
-            "id": "u01"
+            "analysis": "个 đứng sau số từ 一 và trước danh từ đếm được.",
+            "practiceAllowed": true
           },
           {
-            "intent": "Chọn một đối tượng cụ thể.",
-            "frame": "这 + 个 + danh từ.",
-            "position": "这 chỉ gần hoặc đang chỉ; 个 đi ngay sau 这 và trước danh từ.",
-            "required": "Danh từ phải phù hợp với 个; nói một quyển sách này dùng 这本书.",
-            "omission": "Nếu đối tượng đã rõ có thể chỉ nói 这个 để chọn cái này.",
-            "exampleId": "e04",
-            "transform": {
-              "change": "Chuyển từ chỉ quả này sang nêu mua hai quả.",
-              "exampleId": "e01",
-              "limit": "这个 chỉ đối tượng cụ thể, 两个 nêu số lượng; hai cụm không tự cùng nghĩa."
-            },
-            "caution": "Không dịch 个 cố định là cái: 这个苹果 là quả táo này.",
-            "forms": [],
+            "id": "e2",
+            "zh": "三个学生在学习。",
+            "pinyin": "Sān ge xuésheng zài xuéxí.",
+            "vi": "Ba học sinh đang học.",
+            "analysis": "个 đứng giữa số lượng 三 và danh từ 学生.",
+            "practiceAllowed": true
+          }
+        ],
+        "senses": [
+          {
+            "id": "measure",
+            "title": "Lượng từ phổ biến",
+            "when": "Đếm hoặc chỉ định một số người và danh từ thông dụng.",
+            "meaning": "cái/người; lượng từ phổ biến",
+            "grammar": "Đứng sau số hoặc từ chỉ định, trước danh từ.",
+            "pattern": "số/từ chỉ định+个+danh từ",
             "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Dùng 个 với mọi loại đồ vật",
-            "scene": "Bạn muốn nói mua hai quyển sách trong câu mẫu chuẩn.",
-            "possibleConfusion": "Bạn có thể dễ nhầm 个 thông dụng nên mọi vật đều dùng 个 như nhau.",
-            "difference": "Danh từ thường có lượng từ phù hợp. Sách trong cách đếm cơ bản là 本, táo thường dùng 个.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "我买两本书。",
-                "vi": "Tôi mua hai quyển sách.",
-                "judgment": "correct",
-                "comment": "本 phù hợp với sách.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我买两个书。",
-                "vi": "Ý định: tôi mua hai quyển sách.",
-                "judgment": "unnatural",
-                "comment": "Trong mẫu chuẩn cho người mới học, 个 không phải lựa chọn tự nhiên để đếm 书.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "unnatural",
-              "explanation": "Thay 本 bằng 个 làm cụm đếm sách kém chuẩn trong tình huống này. Dùng 我买两本书。"
-            },
-            "boundary": "Trong lời nói vội, người nói có thể dùng lượng từ chung thay thế; điều đó không làm mọi cách thay thành lựa chọn nên học.",
-            "tip": "Học cả cụm: 两个苹果 nhưng 两本书.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Bỏ 个 trong cụm đếm người thông thường",
-            "scene": "Bạn muốn nói mình có một người bạn.",
-            "possibleConfusion": "Bạn có thể dễ nhầm dịch một bạn rồi ghép 一朋友, bỏ lượng từ.",
-            "difference": "Trong cụm đếm đầy đủ thông thường, số đứng trước lượng từ rồi mới đến danh từ.",
-            "cases": [
-              {
-                "id": "case-1",
                 "zh": "我有一个朋友。",
+                "pinyin": "Wǒ yǒu yí ge péngyou.",
                 "vi": "Tôi có một người bạn.",
-                "judgment": "correct",
-                "comment": "一、个、朋友 đúng thứ tự.",
-                "practiceAllowed": false
+                "note": "一、个、朋友 theo đúng thứ tự."
               },
               {
-                "id": "case-2",
-                "zh": "我有一朋友。",
-                "vi": "Tôi có một người bạn.",
-                "judgment": "unnatural",
-                "comment": "Lối lược này có thể gặp ở văn viết cô đọng, không phải mẫu hội thoại trung tính nên bắt chước lúc mới học.",
-                "practiceAllowed": false
+                "zh": "三个学生在学习。",
+                "pinyin": "Sān ge xuésheng zài xuéxí.",
+                "vi": "Ba học sinh đang học.",
+                "note": "个 đứng sau 三."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "position",
+            "afterSense": "measure",
+            "title": "个 không đứng sau danh từ",
+            "explanation": "Khi đếm, số và 个 đứng trước danh từ; không nói 学生三个 để tạo cụm số lượng cơ bản.",
+            "contrasts": [
+              {
+                "zh": "三个学生。",
+                "pinyin": "Sān ge xuésheng.",
+                "vi": "Ba học sinh.",
+                "note": "Thứ tự đúng."
+              },
+              {
+                "zh": "我有三个学生。",
+                "pinyin": "Wǒ yǒu sān ge xuésheng.",
+                "vi": "Tôi có ba học sinh.",
+                "note": "Cả cụm số lượng đứng sau 有."
               }
             ],
-            "replacement": {
-              "result": "unnatural",
-              "explanation": "Bỏ 个 làm câu không còn là mẫu hội thoại đầy đủ, thông dụng; giữ 我有一个朋友。"
-            },
-            "boundary": "Không tuyên bố mọi chuỗi số + danh từ đều sai: từ chỉ thời gian và nhiều lối văn viết có quy tắc khác. Mẹo ở đây giới hạn vào đếm bạn trong hội thoại.",
-            "tip": "Đếm bạn thông thường: số, 个, rồi 朋友.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
+            "tip": "Nhớ khung số + 个 + danh từ."
           }
         ],
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q01",
-            "question": "Chọn cụm đếm hai quyển sách thông dụng.",
-            "choices": [
-              "两个书",
-              "两本书"
-            ]
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi có một người bạn.",
+            "tokens": [
+              "我",
+              "有",
+              "一个",
+              "朋友",
+              "。"
+            ],
+            "accepted": [
+              "我有一个朋友。"
+            ],
+            "model": "我有一个朋友。",
+            "explanation": "一个 đứng trước 朋友.",
+            "wrongFeedback": "Đặt lượng từ trước danh từ."
           },
           {
-            "id": "q02",
-            "question": "Trong hội thoại cơ bản, chọn cách nói một người bạn.",
-            "choices": [
-              "一个朋友",
-              "一朋友"
-            ]
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 三____学生。",
+            "accepted": [
+              "个"
+            ],
+            "model": "三个学生。",
+            "explanation": "个 đứng sau số 三.",
+            "wrongFeedback": "Khung đếm là số + 个 + danh từ."
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "Sách thường đếm bằng 本; 个 không thay mọi lượng từ."
-          },
-          "q02": {
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "position",
+            "type": "choice",
+            "prompt": "Chọn cụm đúng: ba học sinh.",
+            "choices": [
+              "三个学生",
+              "学生三个"
+            ],
             "correctIndex": 0,
-            "explanation": "Giữ 个 trong cụm đếm thông thường để câu tự nhiên."
+            "model": "三个学生",
+            "explanation": "个 đứng giữa số và danh từ.",
+            "wrongFeedback": "Nhớ khung số + 个 + danh từ."
           }
-        },
-        "pronunciation": {
-          "text": "个 có thanh gốc là thanh bốn. Sau số hoặc từ chỉ định, âm này thường được đọc nhẹ trong lời nói; vẫn phải phát âm, không bỏ. Khi đọc rõ hoặc nhấn số lượng có thể nghe thanh bốn rõ hơn. Hai người thường nói 两个人, không cần nhấn mạnh từng âm bằng nhau."
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn có một người bạn.",
+            "hints": [
+              "Nêu ý: tôi có.",
+              "Dùng 一个 trước 朋友.",
+              "Mẫu: 我有一个朋友。"
+            ],
+            "model": "我有一个朋友。",
+            "vi": "Tôi có một người bạn.",
+            "criteria": [
+              "Dùng đúng vị trí 个."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Điền lượng từ: 一__朋友。",
+            "hiddenAnswer": "个",
+            "model": "一个朋友。"
+          },
+          {
+            "id": "r2",
+            "prompt": "Thứ tự đúng là 学生三个 hay 三个学生?",
+            "hiddenAnswer": "三个学生",
+            "model": "三个学生。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi có một người bạn.",
+            "choices": [
+              "我",
+              "有",
+              "一个",
+              "朋友",
+              "。"
+            ],
+            "correct": [
+              "我有一个朋友。"
+            ],
+            "explanation": "一个 đứng trước 朋友."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn cụm đúng: ba học sinh.",
+            "choices": [
+              "三个学生",
+              "学生三个"
+            ],
+            "correctIndex": 0,
+            "explanation": "个 đứng giữa số và danh từ."
+          }
         }
       }
     },
@@ -9717,65 +9355,30 @@
       "meaning": "sách",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 03; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
       "examples": [
         {
+          "id": "e1",
+          "zh": "这是我的书。",
+          "pinyin": "Zhè shì wǒ de shū.",
+          "vi": "Đây là sách của tôi.",
+          "analysis": "书 là danh từ chỉ sách.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
           "zh": "我有一本书。",
+          "pinyin": "Wǒ yǒu yì běn shū.",
           "vi": "Tôi có một quyển sách.",
-          "scene": "Bạn nói mình có sách học.",
-          "why": "有 nêu có; 一本书 đếm một quyển.",
-          "position": "一 trước 本, 书 sau 本; cụm sách sau 有.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói mình có một quyển sách.",
-            "choice": "Chọn 有 và cụm 一本书.",
-            "order": "Xếp 我, 有, 一, 本, 书.",
-            "result": "我有一本书。"
-          },
-          "id": "e01"
-        },
-        {
-          "zh": "我有两本书。",
-          "vi": "Tôi có hai quyển sách.",
-          "scene": "Bạn đổi số sách đang có.",
-          "why": "两 trước 本 nêu hai quyển; danh từ 书 giữ nguyên.",
-          "position": "两 thay 一 trước 本.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "你有几本书？",
-          "vi": "Bạn có mấy quyển sách?",
-          "scene": "Bạn hỏi số sách của bạn học.",
-          "why": "几 hỏi số lượng, vẫn cần 本 trong cụm đếm này.",
-          "position": "几 trước 本; không thêm 吗 vào mẫu hỏi số lượng này.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "我每天看书。",
-          "vi": "Tôi đọc sách mỗi ngày.",
-          "scene": "Bạn kể thói quen đọc.",
-          "why": "看书 dùng tự nhiên cho việc đọc sách; 每天 là mỗi ngày.",
-          "position": "每天 trước 看, 书 sau 看; không cần thêm 本 khi không đếm.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "这本书很好看。",
-          "vi": "Quyển sách này đọc rất hay.",
-          "scene": "Bạn nhận xét nội dung cuốn sách.",
-          "why": "好看 khi nói về sách có thể là hay, hấp dẫn để đọc, không chỉ đẹp mắt.",
-          "position": "这本书 là chủ thể; 很好看 nhận xét phía sau.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "一本书 dùng lượng từ 本 phù hợp với sách.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 2,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói số sách bạn có và thói quen đọc mỗi ngày.",
-      "model": "我有两本书。我每天看书。",
+      "task": "Nói bạn có một quyển sách.",
+      "model": "我有一本书。",
       "quiz": {
         "question": "Chọn câu kể thói quen đọc sách.",
         "choices": [
@@ -9800,241 +9403,158 @@
       },
       "more": [],
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 26,
+        "difficulty": "easy",
+        "difficultyReason": "书 là danh từ cơ bản với mẫu sở hữu và lượng từ thường gặp.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Books"
+        ],
         "introduction": {
-          "partOfSpeech": "Danh từ chỉ sách.",
-          "scope": "Trọng tâm là sách dùng để đọc; chữ này trong từ ghép có thể mang nghĩa khác, chưa học ở bài này."
-        },
-        "meaning": {
-          "scene": "Bạn chuẩn bị học và muốn nói mình có hoặc cần mua bao nhiêu quyển sách.",
-          "explanation": "书 chỉ sách. Có thể là đối tượng sau 看 khi đọc sách hoặc sau 买 khi mua sách. Khi đếm quyển dùng 本 trước 书.",
-          "boundary": "书 không tự là động từ đọc. Muốn nói đọc sách cần 看书 hoặc 读书 tùy ngữ cảnh; không ghép 我书 để diễn tả tôi đọc sách.",
-          "conditions": [
-            "Đếm sách bằng số + 本 + 书; hai quyển thường là 两本书.",
-            "这本书 chỉ quyển sách này; câu nói về sách không tự khẳng định người nói đã mua hay đọc xong."
-          ],
-          "takeaway": "Khi muốn nói về sách, trong việc đọc, mua hoặc đếm quyển, bạn có thể dùng 书 với động từ và lượng từ phù hợp.",
-          "alternatives": [
-            {
-              "zh": "我读这篇课文。",
-              "vi": "Tôi đọc bài khóa này.",
-              "purpose": "课文 là bài khóa, 篇 đếm bài viết; không đồng nhất một bài khóa với một quyển sách."
-            }
-          ]
+          "scope": "书 nghĩa là sách, một vật để đọc hoặc học."
         },
         "examples": [
           {
+            "id": "e1",
+            "zh": "这是我的书。",
+            "pinyin": "Zhè shì wǒ de shū.",
+            "vi": "Đây là sách của tôi.",
+            "analysis": "书 là danh từ chỉ sách.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
             "zh": "我有一本书。",
+            "pinyin": "Wǒ yǒu yì běn shū.",
             "vi": "Tôi có một quyển sách.",
-            "scene": "Bạn nói mình có sách học.",
-            "why": "有 nêu có; 一本书 đếm một quyển.",
-            "position": "一 trước 本, 书 sau 本; cụm sách sau 有.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói mình có một quyển sách.",
-              "choice": "Chọn 有 và cụm 一本书.",
-              "order": "Xếp 我, 有, 一, 本, 书.",
-              "result": "我有一本书。"
-            },
-            "id": "e01"
-          },
-          {
-            "zh": "我有两本书。",
-            "vi": "Tôi có hai quyển sách.",
-            "scene": "Bạn đổi số sách đang có.",
-            "why": "两 trước 本 nêu hai quyển; danh từ 书 giữ nguyên.",
-            "position": "两 thay 一 trước 本.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "你有几本书？",
-            "vi": "Bạn có mấy quyển sách?",
-            "scene": "Bạn hỏi số sách của bạn học.",
-            "why": "几 hỏi số lượng, vẫn cần 本 trong cụm đếm này.",
-            "position": "几 trước 本; không thêm 吗 vào mẫu hỏi số lượng này.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "我每天看书。",
-            "vi": "Tôi đọc sách mỗi ngày.",
-            "scene": "Bạn kể thói quen đọc.",
-            "why": "看书 dùng tự nhiên cho việc đọc sách; 每天 là mỗi ngày.",
-            "position": "每天 trước 看, 书 sau 看; không cần thêm 本 khi không đếm.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "这本书很好看。",
-            "vi": "Quyển sách này đọc rất hay.",
-            "scene": "Bạn nhận xét nội dung cuốn sách.",
-            "why": "好看 khi nói về sách có thể là hay, hấp dẫn để đọc, không chỉ đẹp mắt.",
-            "position": "这本书 là chủ thể; 很好看 nhận xét phía sau.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "一本书 dùng lượng từ 本 phù hợp với sách.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Nói có hoặc hỏi số sách.",
-            "frame": "Người + 有 + số + 本 + 书.",
-            "position": "本 giữa số và 书; cả cụm sau 有.",
-            "required": "Có 本 trong mẫu đếm quyển; dùng 两 cho hai trước 本.",
-            "omission": "Khi đã rõ đếm sách có thể trả lời 两本; muốn nói có sách nói chung không cần số cụ thể.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi một quyển thành hai quyển.",
-              "exampleId": "e02",
-              "limit": "Thay số, giữ 本 cho quyển sách."
-            },
-            "caution": "Không dùng 个 như lượng từ mặc định của 书 trong bài cơ bản.",
-            "forms": [
-              {
-                "type": "Hỏi số quyển",
-                "exampleId": "e03",
-                "why": "几 thay số nhưng giữ 本."
-              }
-            ],
-            "collocations": [
-              {
-                "zh": "一本书",
-                "vi": "một quyển sách",
-                "purpose": "Đếm một quyển."
-              },
-              {
-                "zh": "这本书",
-                "vi": "quyển sách này",
-                "purpose": "Chỉ sách cụ thể."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Kể thói quen đọc và nhận xét một sách.",
-            "frame": "Người + 每天 + 看书; 这本书 + 很好看.",
-            "position": "书 sau 看 là nội dung đọc; 这本书 trước phần nhận xét.",
-            "required": "Muốn nói đọc cần có động từ; 书 tự nó chỉ vật.",
-            "omission": "看书 có thể không nêu quyển cụ thể khi nói thói quen.",
-            "exampleId": "e04",
-            "transform": {
-              "change": "Chuyển từ đọc sách nói chung sang nhận xét quyển này.",
-              "exampleId": "e05",
-              "limit": "好看 ở đây là hấp dẫn khi đọc, không tự khẳng định người đó thích mọi sách."
-            },
-            "caution": "Không coi mọi chữ 好看 đều chỉ bìa đẹp; phải nhìn đối tượng đang nhận xét.",
-            "forms": [],
+            "id": "book",
+            "title": "Sách",
+            "when": "Nói về một quyển sách hoặc sách nói chung.",
+            "meaning": "sách",
+            "grammar": "Có thể đứng sau 的 hoặc sau lượng từ 本.",
+            "pattern": "我的+书；一+本+书",
             "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Lấy danh từ sách thay động từ đọc",
-            "scene": "Bạn muốn nói mình đọc sách mỗi ngày.",
-            "possibleConfusion": "Bạn có thể dễ nhầm biết 书 là sách nên bỏ luôn động từ đọc khi ráp câu.",
-            "difference": "书 chỉ đồ vật; 看书 có 看 để nói hoạt động đọc.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "我每天看书。",
-                "vi": "Tôi đọc sách mỗi ngày.",
-                "judgment": "correct",
-                "comment": "Có động từ 看 làm rõ hoạt động.",
-                "practiceAllowed": false
+                "zh": "这是我的书。",
+                "pinyin": "Zhè shì wǒ de shū.",
+                "vi": "Đây là sách của tôi.",
+                "note": "我的 bổ nghĩa cho 书."
               },
               {
-                "id": "case-2",
-                "zh": "我每天书。",
-                "vi": "Ý định: tôi đọc sách mỗi ngày.",
-                "judgment": "wrong-grammar",
-                "comment": "Danh từ 书 không tự làm động từ đọc trong mẫu này.",
-                "practiceAllowed": false
+                "zh": "我有一本书。",
+                "pinyin": "Wǒ yǒu yì běn shū.",
+                "vi": "Tôi có một quyển sách.",
+                "note": "本 là lượng từ thường dùng cho sách."
               }
-            ],
-            "replacement": {
-              "result": "wrong-grammar",
-              "explanation": "Bỏ 看 làm câu thiếu phần hành động; sửa 我每天看书。"
-            },
-            "boundary": "读书 cũng có thể nói đọc sách, nhưng còn có nghĩa đi học tùy ngữ cảnh; bài này chọn 看书 cho thói quen đọc.",
-            "tip": "Muốn nói làm gì với sách, chọn động từ rồi đặt 书 sau.",
-            "corrections": [
-              {
-                "caseId": "case-2",
-                "zh": "我每天看书。",
-                "vi": "Tôi đọc sách mỗi ngày.",
-                "reason": "Thêm 看 trước 书 để có hành động đọc."
-              }
-            ],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Hiểu 好看 của sách chỉ là đẹp bìa",
-            "scene": "Bạn vừa đọc sách và thấy nội dung cuốn hút.",
-            "possibleConfusion": "Bạn có thể dễ nhầm thấy 看 là nhìn nên dịch mọi 好看 là đẹp bên ngoài.",
-            "difference": "Với sách, 好看 thường nhận xét nội dung hay, hấp dẫn; 漂亮 thường nói đẹp về hình thức.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "这本书很好看。",
-                "vi": "Quyển sách này đọc rất hay.",
-                "judgment": "correct",
-                "comment": "Phù hợp nhận xét nội dung sau khi đọc.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "这本书很漂亮。",
-                "vi": "Quyển sách này rất đẹp.",
-                "judgment": "different-meaning",
-                "comment": "Chuyển trọng tâm sang hình thức của sách, không tự khen nội dung.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 好看 bằng 漂亮 trong ngữ cảnh đang khen nội dung làm lời khen nghiêng sang vẻ ngoài; giữ 好看 cho ý sách đọc hay."
-            },
-            "boundary": "好看 cũng có thể nhận xét hình thức khi ngữ cảnh tập trung thiết kế; không khẳng định cứ gặp 书 là chỉ được hiểu nội dung.",
-            "tip": "Hỏi đang khen nội dung hay hình thức rồi mới dịch lời nhận xét.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
-          }
-        ],
-        "checks": [
-          {
-            "id": "q01",
-            "question": "Chọn câu kể thói quen đọc sách.",
-            "choices": [
-              "我每天书。",
-              "我每天看书。"
-            ]
-          },
-          {
-            "id": "q02",
-            "question": "Sau khi đọc và thấy nội dung cuốn hút, câu 这本书很好看 thường nghĩa gì?",
-            "choices": [
-              "Sách đọc rất hay.",
-              "Sách bắt buộc chỉ có bìa đẹp."
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "看 là hoạt động đọc trong cụm 看书."
-          },
-          "q02": {
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Đây là sách của tôi.",
+            "tokens": [
+              "这",
+              "是",
+              "我的",
+              "书",
+              "。"
+            ],
+            "accepted": [
+              "这是我的书。"
+            ],
+            "model": "这是我的书。",
+            "explanation": "我的 đứng trước 书.",
+            "wrongFeedback": "Đặt từ sở hữu trước danh từ."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "book",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là sách.",
+            "choices": [
+              "书",
+              "本"
+            ],
             "correctIndex": 0,
-            "explanation": "好看 có nghĩa hấp dẫn để đọc khi đang nhận xét nội dung sách."
+            "model": "书",
+            "explanation": "书 là sách; 本 trong câu này là lượng từ.",
+            "wrongFeedback": "Phân biệt danh từ với lượng từ."
           }
-        },
-        "pronunciation": {
-          "text": "书 mang thanh một, giữ âm tương đối cao và đều. Âm đầu cần uốn lưỡi theo tiếng Trung, tránh đồng nhất với mọi âm tương tự trong tiếng Việt. Trong 一本书, 一 đứng trước 本 thanh ba nên thường đọc thành thanh bốn; 本 trong cụm thường đọc thấp, không cần nâng trọn."
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn có một quyển sách.",
+            "hints": [
+              "Nêu ý: tôi có.",
+              "Dùng 一本书.",
+              "Mẫu: 我有一本书。"
+            ],
+            "model": "我有一本书。",
+            "vi": "Tôi có một quyển sách.",
+            "criteria": [
+              "Dùng đúng 书."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là sách?",
+            "hiddenAnswer": "书",
+            "model": "书"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 一本____。",
+            "hiddenAnswer": "书",
+            "model": "一本书。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Đây là sách của tôi.",
+            "choices": [
+              "这",
+              "是",
+              "我的",
+              "书",
+              "。"
+            ],
+            "correct": [
+              "这是我的书。"
+            ],
+            "explanation": "我的 đứng trước 书."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là sách.",
+            "choices": [
+              "书",
+              "本"
+            ],
+            "correctIndex": 0,
+            "explanation": "书 là sách."
+          }
         }
       }
     },
@@ -10051,74 +9571,30 @@
       "meaning": "mua",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 03; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
       "examples": [
         {
-          "zh": "我想买一本书。",
-          "vi": "Tôi muốn mua một quyển sách.",
-          "scene": "Bạn nói món mình đang muốn tìm.",
-          "why": "想 nêu ý muốn; 买 là mua; 一本书 là một quyển sách.",
-          "position": "想 trước 买; món mua sau 买.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói muốn mua một quyển sách.",
-            "choice": "Chọn 想买 để nói ý muốn mua và 一本书 để đếm món.",
-            "order": "Xếp 我, 想, 买, rồi 一本书.",
-            "result": "我想买一本书。"
-          },
-          "id": "e01"
+          "id": "e1",
+          "zh": "我想买书。",
+          "pinyin": "Wǒ xiǎng mǎi shū.",
+          "vi": "Tôi muốn mua sách.",
+          "analysis": "买 đứng trước vật muốn mua.",
+          "practiceAllowed": true
         },
         {
-          "zh": "我想买两本书。",
-          "vi": "Tôi muốn mua hai quyển sách.",
-          "scene": "Bạn thay đổi số lượng cần mua.",
-          "why": "Giữ mong muốn mua, chỉ đổi số sách.",
-          "position": "两 trước 本; cả cụm 两本书 sau 买.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "你想买什么？",
-          "vi": "Bạn muốn mua gì?",
-          "scene": "Người bán hỏi nhu cầu của khách.",
-          "why": "什么 thay món chưa biết ở vị trí sau 买.",
-          "position": "想 trước 买, 什么 sau 买; không thêm 吗.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "我不买这本书。",
-          "vi": "Tôi không mua quyển sách này.",
-          "scene": "Bạn quyết định không chọn món đang xem.",
-          "why": "不买 nêu lựa chọn không mua trong tình huống này.",
-          "position": "不 trước 买; 这本书 sau 买.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "我没买这本书。",
-          "vi": "Tôi chưa/đã không mua quyển sách này.",
-          "scene": "Bạn kể lại việc mua chưa hoặc không diễn ra.",
-          "why": "没买 phủ định sự xảy ra của việc mua, không chỉ nêu ý định tương lai.",
-          "position": "没 trước 买; không giữ 了 hoàn thành ngay sau 买 trong câu phủ định này.",
-          "practiceAllowed": true,
-          "id": "e05"
-        },
-        {
-          "zh": "我买了这本书。",
-          "vi": "Tôi đã mua quyển sách này.",
-          "scene": "Bạn xác nhận giao dịch đã diễn ra.",
-          "why": "了 sau 买 đánh dấu hành động mua đã xảy ra trong câu này.",
-          "position": "买了 trước món mua; không thêm 没 vào câu này mà giữ nguyên 了.",
-          "practiceAllowed": true,
-          "id": "e06"
+          "id": "e2",
+          "zh": "我买了一本书。",
+          "pinyin": "Wǒ mǎi le yì běn shū.",
+          "vi": "Tôi đã mua một quyển sách.",
+          "analysis": "了 cho biết hành động mua đã hoàn tất trong ngữ cảnh.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 3,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói món bạn muốn mua và phân biệt không mua với chưa mua.",
-      "model": "我想买一本书。我没买这本书。",
+      "task": "Nói bạn muốn mua sách.",
+      "model": "我想买书。",
       "quiz": {
         "question": "Bạn là khách muốn mua sách. Chọn câu đúng ý.",
         "choices": [
@@ -10143,249 +9619,158 @@
       },
       "more": [],
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 27,
+        "difficulty": "easy",
+        "difficultyReason": "买 là động từ hành động trực tiếp, với tân ngữ đứng sau.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Buying"
+        ],
         "introduction": {
-          "partOfSpeech": "Động từ chỉ mua.",
-          "scope": "Học mua đồ, muốn mua, không mua và chưa/đã không mua; phân biệt với bán."
-        },
-        "meaning": {
-          "scene": "Bạn vào cửa hàng và nói thứ mình muốn mua, rồi đính chính một món chưa mua.",
-          "explanation": "买 là nhận hàng hoặc dịch vụ bằng việc trả tiền theo một giao dịch mua. Người mua thường trước 买, món mua sau 买. Muốn chỉ mong muốn, thêm 想 trước 买.",
-          "boundary": "买 khác 卖 là bán: cùng một giao dịch nhưng hai vai khác nhau. 不买 và 没买 cũng không tùy tiện thay nhau: không định/không thường mua khác với việc mua chưa/không xảy ra.",
-          "conditions": [
-            "Món mua đặt sau 买; đếm món cần lượng từ thích hợp.",
-            "Mong muốn dùng 想买, phủ định mong muốn dùng 不想买; phủ định việc mua đã/chưa xảy ra dùng 没买."
-          ],
-          "takeaway": "Khi muốn nói hành động mua một món, bạn dùng 买 trước món đó; chọn từ phủ định theo ý định hoặc sự việc.",
-          "alternatives": [
-            {
-              "zh": "他卖水果。",
-              "vi": "Anh ấy bán trái cây.",
-              "purpose": "卖 là bán; 水果 là trái cây. Người này ở phía bán, không phải mua."
-            }
-          ]
+          "scope": "买 nghĩa là mua, tức dùng tiền hoặc hình thức trao đổi để lấy một vật/dịch vụ."
         },
         "examples": [
           {
-            "zh": "我想买一本书。",
-            "vi": "Tôi muốn mua một quyển sách.",
-            "scene": "Bạn nói món mình đang muốn tìm.",
-            "why": "想 nêu ý muốn; 买 là mua; 一本书 là một quyển sách.",
-            "position": "想 trước 买; món mua sau 买.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói muốn mua một quyển sách.",
-              "choice": "Chọn 想买 để nói ý muốn mua và 一本书 để đếm món.",
-              "order": "Xếp 我, 想, 买, rồi 一本书.",
-              "result": "我想买一本书。"
-            },
-            "id": "e01"
+            "id": "e1",
+            "zh": "我想买书。",
+            "pinyin": "Wǒ xiǎng mǎi shū.",
+            "vi": "Tôi muốn mua sách.",
+            "analysis": "买 đứng trước vật muốn mua.",
+            "practiceAllowed": true
           },
           {
-            "zh": "我想买两本书。",
-            "vi": "Tôi muốn mua hai quyển sách.",
-            "scene": "Bạn thay đổi số lượng cần mua.",
-            "why": "Giữ mong muốn mua, chỉ đổi số sách.",
-            "position": "两 trước 本; cả cụm 两本书 sau 买.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "你想买什么？",
-            "vi": "Bạn muốn mua gì?",
-            "scene": "Người bán hỏi nhu cầu của khách.",
-            "why": "什么 thay món chưa biết ở vị trí sau 买.",
-            "position": "想 trước 买, 什么 sau 买; không thêm 吗.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "我不买这本书。",
-            "vi": "Tôi không mua quyển sách này.",
-            "scene": "Bạn quyết định không chọn món đang xem.",
-            "why": "不买 nêu lựa chọn không mua trong tình huống này.",
-            "position": "不 trước 买; 这本书 sau 买.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "我没买这本书。",
-            "vi": "Tôi chưa/đã không mua quyển sách này.",
-            "scene": "Bạn kể lại việc mua chưa hoặc không diễn ra.",
-            "why": "没买 phủ định sự xảy ra của việc mua, không chỉ nêu ý định tương lai.",
-            "position": "没 trước 买; không giữ 了 hoàn thành ngay sau 买 trong câu phủ định này.",
-            "practiceAllowed": true,
-            "id": "e05"
-          },
-          {
-            "zh": "我买了这本书。",
-            "vi": "Tôi đã mua quyển sách này.",
-            "scene": "Bạn xác nhận giao dịch đã diễn ra.",
-            "why": "了 sau 买 đánh dấu hành động mua đã xảy ra trong câu này.",
-            "position": "买了 trước món mua; không thêm 没 vào câu này mà giữ nguyên 了.",
-            "practiceAllowed": true,
-            "id": "e06"
+            "id": "e2",
+            "zh": "我买了一本书。",
+            "pinyin": "Wǒ mǎi le yì běn shū.",
+            "vi": "Tôi đã mua một quyển sách.",
+            "analysis": "了 cho biết hành động mua đã hoàn tất trong ngữ cảnh.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Nói mong muốn và hỏi món mua.",
-            "frame": "Người + 想买 + món; người + 想买 + 什么？",
-            "position": "想 đứng trước 买; món hoặc 什么 đứng sau 买.",
-            "required": "Cần món cụ thể nếu muốn nói rõ mua gì; 想 chỉ mong muốn chứ chưa xác nhận giao dịch xong.",
-            "omission": "Trong hội thoại đã rõ món, 我想买 có thể đủ; thiếu món không luôn sai.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi một quyển sang hai quyển.",
-              "exampleId": "e02",
-              "limit": "Giữ 本 cho sách; chọn lượng từ khác khi đổi loại hàng."
-            },
-            "caution": "Không thêm 是 trước 买 để kể việc mua thông thường.",
-            "forms": [
-              {
-                "type": "Hỏi nhu cầu",
-                "exampleId": "e03",
-                "why": "什么 thay đúng vị trí món mua."
-              }
-            ],
-            "collocations": [
-              {
-                "zh": "买书",
-                "vi": "mua sách",
-                "purpose": "Nêu hoạt động mua."
-              },
-              {
-                "zh": "想买",
-                "vi": "muốn mua",
-                "purpose": "Nêu ý định, chưa phải kết quả."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Phân biệt lựa chọn không mua với việc chưa mua.",
-            "frame": "不买 + món; 没买 + món; 买了 + món.",
-            "position": "不 hoặc 没 đứng trước 买; 了 hoàn thành đứng sau 买 trong câu khẳng định đã mua.",
-            "required": "Chọn phủ định dựa vào điều đang nói: ý định/thói quen hay sự việc đã/chưa xảy ra.",
-            "omission": "Nếu ai cũng biết món đang xét, có thể đáp 不买 hoặc 没买; hai câu trả lời vẫn khác ý.",
-            "exampleId": "e04",
-            "transform": {
-              "change": "Chuyển từ quyết định không mua sang báo việc mua chưa xảy ra.",
-              "exampleId": "e05",
-              "limit": "Không coi đây là hai bản dịch tùy chọn của cùng một tình huống."
-            },
-            "caution": "Khi dùng 没 phủ định việc mua đã xảy ra, bỏ 了 hoàn thành của 买了.",
-            "forms": [
-              {
-                "type": "Kể đã mua",
-                "exampleId": "e06",
-                "why": "买了 xác nhận việc mua xảy ra trong tình huống đang kể."
-              }
-            ],
+            "id": "buy",
+            "title": "Mua",
+            "when": "Nói về việc lấy hàng hóa hoặc dịch vụ bằng tiền hay trao đổi.",
+            "meaning": "mua",
+            "grammar": "买 đứng trước tân ngữ.",
+            "pattern": "chủ thể+买+vật",
             "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Nhầm 买 với 卖 làm đảo vai giao dịch",
-            "scene": "Bạn đứng ở phía khách hàng muốn lấy hàng và trả tiền.",
-            "possibleConfusion": "Bạn có thể dễ nhầm hai chữ gần hình hoặc chỉ nhớ chung việc buôn bán.",
-            "difference": "买 là mua; 卖 là bán. Đổi chữ sẽ đổi người đang là bên mua hay bên bán.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "我买水果。",
-                "vi": "Tôi mua trái cây.",
-                "judgment": "correct",
-                "comment": "Người nói là bên mua.",
-                "practiceAllowed": false
+                "zh": "我想买书。",
+                "pinyin": "Wǒ xiǎng mǎi shū.",
+                "vi": "Tôi muốn mua sách.",
+                "note": "书 là tân ngữ."
               },
               {
-                "id": "case-2",
-                "zh": "我卖水果。",
-                "vi": "Tôi bán trái cây.",
-                "judgment": "different-meaning",
-                "comment": "Người nói trở thành bên bán.",
-                "practiceAllowed": false
+                "zh": "我买了一本书。",
+                "pinyin": "Wǒ mǎi le yì běn shū.",
+                "vi": "Tôi đã mua một quyển sách.",
+                "note": "一本书 là vật được mua."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 买 bằng 卖 tạo câu đúng nhưng đảo vai giao dịch. Muốn nói khách mua, giữ 买."
-            },
-            "boundary": "Một người có thể vừa mua vừa bán ở các giao dịch khác nhau; hãy nhìn vai trong sự việc đang nói.",
-            "tip": "Mình trả tiền để nhận món: 买; mình bán món cho khách: 卖.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Dùng 不买 thay cho việc chưa mua",
-            "scene": "Bạn được hỏi đã mua quyển sách này chưa và muốn báo chưa mua.",
-            "possibleConfusion": "Bạn có thể dễ nhầm cả 不 và 没 đều dịch không nên dùng bất kỳ từ nào.",
-            "difference": "不买 thường nói lựa chọn hoặc thói quen không mua; 没买 nói việc mua không/chưa xảy ra.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我没买这本书。",
-                "vi": "Tôi chưa/đã không mua quyển sách này.",
-                "judgment": "correct",
-                "comment": "Phù hợp báo sự việc chưa xảy ra.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我不买这本书。",
-                "vi": "Tôi không mua quyển sách này.",
-                "judgment": "different-meaning",
-                "comment": "Nghiêng về quyết định hoặc thói quen không mua, không chỉ trả lời tình trạng đã/chưa.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 没 bằng 不 chuyển sang lựa chọn không mua. Muốn chỉ báo chưa mua thì giữ 没买."
-            },
-            "boundary": "Nếu quyết định không mua nên giao dịch chưa xảy ra, cả hai thông tin có thể đúng; nhưng hai câu vẫn tập trung hai điều khác nhau.",
-            "tip": "Chưa mua xét sự việc: 没买; không mua xét lựa chọn: 不买.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
+            ]
           }
         ],
-        "checks": [
+        "confusions": [],
+        "guidedExercises": [
           {
-            "id": "q01",
-            "question": "Bạn là khách muốn mua sách. Chọn câu đúng ý.",
-            "choices": [
-              "我想卖书。",
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi muốn mua sách.",
+            "tokens": [
+              "我",
+              "想",
+              "买",
+              "书",
+              "。"
+            ],
+            "accepted": [
               "我想买书。"
-            ]
-          },
+            ],
+            "model": "我想买书。",
+            "explanation": "买 đứng trước tân ngữ 书.",
+            "wrongFeedback": "Đặt vật muốn mua sau 买."
+          }
+        ],
+        "discriminationExercises": [
           {
-            "id": "q02",
-            "question": "Muốn chỉ báo việc mua chưa xảy ra, chọn câu.",
+            "id": "d1",
+            "senseId": "buy",
+            "type": "meaning",
+            "prompt": "Chọn động từ nghĩa là mua.",
             "choices": [
-              "我没买这本书。",
-              "我不买这本书。"
+              "买",
+              "有"
+            ],
+            "correctIndex": 0,
+            "model": "买",
+            "explanation": "买 là mua; 有 là có.",
+            "wrongFeedback": "Phân biệt hành động mua với trạng thái sở hữu."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn muốn mua sách.",
+            "hints": [
+              "Nêu ý: tôi muốn.",
+              "Dùng 买 trước 书.",
+              "Mẫu: 我想买书。"
+            ],
+            "model": "我想买书。",
+            "vi": "Tôi muốn mua sách.",
+            "criteria": [
+              "Dùng đúng 买."
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "买 là mua; 卖 là bán."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là mua?",
+            "hiddenAnswer": "买",
+            "model": "买"
           },
-          "q02": {
-            "correctIndex": 0,
-            "explanation": "没买 trả lời về sự xảy ra của việc mua."
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我想__书。",
+            "hiddenAnswer": "买",
+            "model": "我想买书。"
           }
-        },
-        "pronunciation": {
-          "text": "买 mang thanh ba. Trong 想买, cả hai âm có thanh gốc ba; khi nối thông thường, 想 đọc thành thanh hai, 买 vẫn thuộc thanh ba. Nếu 买 còn đứng trước thành phần khác, thanh ba có thể chỉ ở vùng thấp; không bắt buộc luôn hạ rồi nâng đầy đủ."
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi muốn mua sách.",
+            "choices": [
+              "我",
+              "想",
+              "买",
+              "书",
+              "。"
+            ],
+            "correct": [
+              "我想买书。"
+            ],
+            "explanation": "买 đứng trước 书."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn động từ nghĩa là mua.",
+            "choices": [
+              "买",
+              "有"
+            ],
+            "correctIndex": 0,
+            "explanation": "买 là mua."
+          }
         }
       }
     },
@@ -10402,65 +9787,30 @@
       "meaning": "việc",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 03; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
       "examples": [
         {
-          "zh": "我有事，先走了。",
-          "vi": "Tôi có việc, tôi đi trước nhé.",
-          "scene": "Bạn xin rời cuộc gặp.",
-          "why": "有事 nêu lý do bận; 先走了 báo đi trước và chuyển sang việc rời đi.",
-          "position": "事 sau 有; phần 先走了 là thông báo tiếp theo.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Báo có việc nên đi trước.",
-            "choice": "Chọn 有事 để nói có việc và 先走了 để thông báo rời đi.",
-            "order": "Nói 我有事 trước, rồi 先走了.",
-            "result": "我有事，先走了。"
-          },
-          "id": "e01"
+          "id": "e1",
+          "zh": "我有一件事。",
+          "pinyin": "Wǒ yǒu yí jiàn shì.",
+          "vi": "Tôi có một việc.",
+          "analysis": "事 là việc/sự việc; 件 là lượng từ thường dùng cho việc.",
+          "practiceAllowed": true
         },
         {
-          "zh": "他有事，先走了。",
-          "vi": "Anh ấy có việc nên đã đi trước rồi.",
-          "scene": "Bạn giải thích vì sao người kia vắng mặt.",
-          "why": "Cùng mẫu 有事, nhưng ngữ cảnh kể lại làm phần đi trước được hiểu là đã xảy ra.",
-          "position": "他 thay 我; 事 vẫn sau 有.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "你有什么事？",
-          "vi": "Bạn có việc gì?",
-          "scene": "Bạn hỏi người tới gặp mình cần chuyện gì.",
-          "why": "什么事 hỏi nội dung việc, không hỏi nghề.",
-          "position": "什么 trước 事; cả cụm sau 有.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "我今天没事。",
-          "vi": "Hôm nay tôi không có việc bận.",
-          "scene": "Bạn nói mình rảnh hôm nay.",
-          "why": "没事 trong ngữ cảnh lịch hẹn là không có việc cần làm, không phải báo đã khỏi bệnh.",
-          "position": "今天 trước 没事; 没 phủ định 有 nên không giữ 有 sau 没 trong mẫu này.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
+          "id": "e2",
           "zh": "这件事很重要。",
-          "vi": "Chuyện này rất quan trọng.",
-          "scene": "Bạn nhấn mạnh một việc cụ thể.",
-          "why": "件 dùng đếm/chỉ chuyện; 重要 là quan trọng.",
-          "position": "这件事 làm chủ thể; 很重要 nhận xét phía sau.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "pinyin": "Zhè jiàn shì hěn zhòngyào.",
+          "vi": "Việc này rất quan trọng.",
+          "analysis": "这件事 chỉ một sự việc cụ thể đã được xác định.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 4,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Báo mình có việc và hỏi người kia cần chuyện gì.",
-      "model": "我有事，先走了。你有什么事？",
+      "task": "Nói bạn có một việc cần làm.",
+      "model": "我有一件事。",
       "quiz": {
         "question": "Chỉ muốn báo có việc riêng nên phải đi, cách nào bao quát hơn?",
         "choices": [
@@ -10485,239 +9835,196 @@
       },
       "more": [],
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 28,
+        "difficulty": "medium",
+        "difficultyReason": "事 có nghĩa rộng là việc/sự việc và thường đi với 件; cần phân biệt với 事情 là cách nói đầy đủ hơn trong một số câu.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Things_and_matters"
+        ],
         "introduction": {
-          "partOfSpeech": "Danh từ chỉ việc hoặc chuyện.",
-          "scope": "Trọng tâm là có việc cần làm và nói chuyện gì đó; không đồng nhất mọi 事 với công việc nghề nghiệp."
-        },
-        "meaning": {
-          "scene": "Bạn cần rời một cuộc gặp vì có việc riêng phải giải quyết.",
-          "explanation": "事 chỉ một việc, chuyện hoặc điều cần xử lý tùy tình huống. 我有事 thường là tôi có việc bận/cần làm, không tự nêu công việc làm thuê hay nghề nghiệp.",
-          "boundary": "事 là việc/chuyện rộng hơn một nhiệm vụ trong nghề. 工作 dùng khi nói công việc hoặc việc làm. 我有事 chưa cho biết việc đó tốt, xấu hay nghiêm trọng.",
-          "conditions": [
-            "Có việc: 有事; không có việc bận hoặc không sao tùy ngữ cảnh: 没事.",
-            "Đếm hoặc chỉ một chuyện dùng 件 trong 一件事、这件事; hỏi chuyện gì dùng 什么事."
-          ],
-          "takeaway": "Khi muốn nói có một việc cần xử lý hoặc nói về một chuyện cụ thể, bạn có thể dùng 事 với ngữ cảnh rõ.",
-          "alternatives": [
-            {
-              "zh": "我有工作。",
-              "vi": "Tôi có việc làm.",
-              "purpose": "工作 trong câu này nói có việc làm/công việc, không chỉ bận một việc riêng."
-            }
-          ]
+          "scope": "事 nghĩa là việc hoặc sự việc, thường dùng trong các cụm nói về một việc cụ thể hay vấn đề cần xử lý."
         },
         "examples": [
           {
-            "zh": "我有事，先走了。",
-            "vi": "Tôi có việc, tôi đi trước nhé.",
-            "scene": "Bạn xin rời cuộc gặp.",
-            "why": "有事 nêu lý do bận; 先走了 báo đi trước và chuyển sang việc rời đi.",
-            "position": "事 sau 有; phần 先走了 là thông báo tiếp theo.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Báo có việc nên đi trước.",
-              "choice": "Chọn 有事 để nói có việc và 先走了 để thông báo rời đi.",
-              "order": "Nói 我有事 trước, rồi 先走了.",
-              "result": "我有事，先走了。"
-            },
-            "id": "e01"
+            "id": "e1",
+            "zh": "我有一件事。",
+            "pinyin": "Wǒ yǒu yí jiàn shì.",
+            "vi": "Tôi có một việc.",
+            "analysis": "事 là việc/sự việc; 件 là lượng từ thường dùng cho việc.",
+            "practiceAllowed": true
           },
           {
-            "zh": "他有事，先走了。",
-            "vi": "Anh ấy có việc nên đã đi trước rồi.",
-            "scene": "Bạn giải thích vì sao người kia vắng mặt.",
-            "why": "Cùng mẫu 有事, nhưng ngữ cảnh kể lại làm phần đi trước được hiểu là đã xảy ra.",
-            "position": "他 thay 我; 事 vẫn sau 有.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "你有什么事？",
-            "vi": "Bạn có việc gì?",
-            "scene": "Bạn hỏi người tới gặp mình cần chuyện gì.",
-            "why": "什么事 hỏi nội dung việc, không hỏi nghề.",
-            "position": "什么 trước 事; cả cụm sau 有.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "我今天没事。",
-            "vi": "Hôm nay tôi không có việc bận.",
-            "scene": "Bạn nói mình rảnh hôm nay.",
-            "why": "没事 trong ngữ cảnh lịch hẹn là không có việc cần làm, không phải báo đã khỏi bệnh.",
-            "position": "今天 trước 没事; 没 phủ định 有 nên không giữ 有 sau 没 trong mẫu này.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
+            "id": "e2",
             "zh": "这件事很重要。",
-            "vi": "Chuyện này rất quan trọng.",
-            "scene": "Bạn nhấn mạnh một việc cụ thể.",
-            "why": "件 dùng đếm/chỉ chuyện; 重要 là quan trọng.",
-            "position": "这件事 làm chủ thể; 很重要 nhận xét phía sau.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "pinyin": "Zhè jiàn shì hěn zhòngyào.",
+            "vi": "Việc này rất quan trọng.",
+            "analysis": "这件事 chỉ một sự việc cụ thể đã được xác định.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Báo có việc, rảnh hoặc hỏi việc gì.",
-            "frame": "Người + 有事; người + 没事; người + 有 + 什么事？",
-            "position": "事 sau 有; 没事 là cụm phủ định không có việc trong ngữ cảnh lịch.",
-            "required": "Muốn nêu chính xác việc nào thì nói thêm; 有事 tự nó không cung cấp nội dung.",
-            "omission": "Khi được hỏi có rảnh không, có thể đáp 没事 nếu ngữ cảnh rõ; không mặc định câu này ở mọi nơi đều là tôi rảnh.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi người có việc thành người nam đã rời trước.",
-              "exampleId": "e02",
-              "limit": "Giữ nghĩa có việc; phần thời điểm rời đi dựa vào ngữ cảnh toàn câu."
-            },
-            "caution": "Không dùng 有事 để mặc định giới thiệu mình có một nghề hay việc làm ổn định.",
-            "forms": [
-              {
-                "type": "Hỏi việc gì",
-                "exampleId": "e03",
-                "why": "什么事 hỏi nội dung việc."
-              },
-              {
-                "type": "Nói không bận hôm nay",
-                "exampleId": "e04",
-                "why": "今天 giới hạn thời gian, 没事 nói không có việc bận."
-              }
-            ],
-            "collocations": [],
-            "id": "u01"
-          },
-          {
-            "intent": "Chỉ một chuyện để nhận xét.",
-            "frame": "这 + 件 + 事 + lời nhận xét.",
-            "position": "件 giữa 这 và 事; cả cụm đứng trước 很重要.",
-            "required": "Trong cụm chỉ chuyện cụ thể này dùng 件, không ghép 这事件.",
-            "omission": "这事 cũng gặp tự nhiên trong hội thoại; 这件事 là mẫu đầy đủ đang học.",
-            "exampleId": "e05",
-            "transform": {
-              "change": "Chuyển từ nhận xét chuyện cụ thể sang hỏi người kia có chuyện gì.",
-              "exampleId": "e03",
-              "limit": "Hỏi nội dung dùng 什么事, không thêm 件 máy móc vào mọi câu hỏi."
-            },
-            "caution": "事 không mặc định là chuyện xấu; phải dựa từ nhận xét và tình huống.",
-            "forms": [],
+            "id": "matter",
+            "title": "Việc, sự việc",
+            "when": "Nói về một việc hoặc vấn đề cụ thể.",
+            "meaning": "việc; sự việc",
+            "grammar": "Thường đi sau 件 khi đếm hoặc chỉ định một sự việc.",
+            "pattern": "一/这+件+事",
             "collocations": [
               {
-                "zh": "一件事",
-                "vi": "một việc/chuyện",
-                "purpose": "Đếm một chuyện."
-              },
-              {
-                "zh": "这件事",
-                "vi": "chuyện này",
-                "purpose": "Chỉ điều cụ thể."
+                "zh": "有一件事",
+                "pinyin": "yǒu yí jiàn shì",
+                "vi": "có một việc"
               }
             ],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Có việc bận khác với có việc làm",
-            "scene": "Bạn đã có một cuộc hẹn riêng và muốn xin về trước.",
-            "possibleConfusion": "Bạn có thể dễ nhầm có việc trong tiếng Việt luôn nói cùng một điều.",
-            "difference": "有事 thường báo bận việc cần giải quyết; 有工作 có thể nói có việc làm hoặc công việc. Hai câu không tự thay nhau cho mọi ý.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "我有事。",
-                "vi": "Tôi có việc cần làm.",
-                "judgment": "correct",
-                "comment": "Phù hợp nêu mình bận việc riêng.",
-                "practiceAllowed": false
+                "zh": "我有一件事。",
+                "pinyin": "Wǒ yǒu yí jiàn shì.",
+                "vi": "Tôi có một việc.",
+                "note": "件 là lượng từ của 事."
               },
               {
-                "id": "case-2",
-                "zh": "我有工作。",
-                "vi": "Tôi có việc làm/công việc.",
-                "judgment": "different-meaning",
-                "comment": "Chuyển trọng tâm sang công việc; trong ngữ cảnh khác có thể là có việc nghề nghiệp cần làm.",
-                "practiceAllowed": false
+                "zh": "这件事很重要。",
+                "pinyin": "Zhè jiàn shì hěn zhòngyào.",
+                "vi": "Việc này rất quan trọng.",
+                "note": "这件事 là sự việc cụ thể."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 事 bằng 工作 làm thông tin nghiêng về công việc, không còn chỉ một việc riêng bất kỳ. Giữ 有事 để báo bận chung."
-            },
-            "boundary": "Một việc bận có thể chính là việc công ty; khi ấy hai mô tả có thể cùng đúng nhưng mức cụ thể khác nhau.",
-            "tip": "Việc/chuyện cần xử lý nói chung: 事; công việc nghề nghiệp: 工作.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Gán 没事 một nghĩa cố định trong mọi tình huống",
-            "scene": "Bạn nghe 没事 trong câu trả lời về lịch hẹn và trong lời trấn an.",
-            "possibleConfusion": "Bạn có thể dễ nhầm vì đã học 没事 là không sao nên lần nào cũng dịch vậy.",
-            "difference": "没事 có thể nói không có việc bận hoặc không có vấn đề, tùy câu hỏi và tình huống.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我今天没事。",
-                "vi": "Hôm nay tôi không có việc bận.",
-                "judgment": "correct",
-                "comment": "Có 今天 và ngữ cảnh hẹn lịch nên nói về độ rảnh.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "没事，别担心。",
-                "vi": "Không sao đâu, đừng lo.",
-                "judgment": "correct",
-                "comment": "别担心 là đừng lo; câu này trấn an, không báo lịch rảnh.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Chuyển sang tình huống trấn an sẽ đổi cách hiểu 没事. Không bê nguyên bản dịch tôi rảnh vào câu đừng lo."
-            },
-            "boundary": "Có thể cần nghe câu trước để biết nghĩa; một câu 没事 đứng riêng chưa đủ để khẳng định người nói đang rảnh hay đang trấn an.",
-            "tip": "Nghe người ta đang hỏi lịch hay lo một vấn đề rồi mới chọn nghĩa.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
-          }
-        ],
-        "checks": [
-          {
-            "id": "q01",
-            "question": "Chỉ muốn báo có việc riêng nên phải đi, cách nào bao quát hơn?",
-            "choices": [
-              "我有事。",
-              "我有工作。"
-            ]
-          },
-          {
-            "id": "q02",
-            "question": "Khi bàn lịch hẹn, 我今天没事 thường muốn nói gì?",
-            "choices": [
-              "Hôm nay tôi không có việc bận.",
-              "Tôi chắc chắn vừa bị bệnh rồi khỏi."
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 0,
-            "explanation": "有事 phù hợp báo bận việc nói chung mà không gán đó là công việc nghề nghiệp."
-          },
-          "q02": {
-            "correctIndex": 0,
-            "explanation": "Trong bối cảnh lịch hẹn, câu này nói rảnh hôm nay, không tự nói về bệnh."
+        "confusions": [
+          {
+            "id": "thing",
+            "afterSense": "matter",
+            "title": "事 và 事情 gần nghĩa",
+            "explanation": "Cả hai đều có thể chỉ việc/sự việc; 事情 thường là dạng đầy đủ và dễ dùng khi nói về một tình huống, còn 事 thường xuất hiện trong cụm ngắn hoặc văn phong cô đọng.",
+            "contrasts": [
+              {
+                "zh": "这件事很重要。",
+                "pinyin": "Zhè jiàn shì hěn zhòngyào.",
+                "vi": "Việc này rất quan trọng.",
+                "note": "事 đi với 件 rất tự nhiên."
+              },
+              {
+                "zh": "这件事情很重要。",
+                "pinyin": "Zhè jiàn shìqing hěn zhòngyào.",
+                "vi": "Sự việc này rất quan trọng.",
+                "note": "事情 cũng dùng được trong cùng khung."
+              }
+            ],
+            "tip": "Ở trình độ cơ bản, nhớ cụm 一件事/这件事; không coi 事情 là đáp án bắt buộc duy nhất."
           }
-        },
-        "pronunciation": {
-          "text": "事 mang thanh bốn. Âm này giống âm đọc của 是 trong tiếng phổ thông nhưng chữ và vai trò khác nhau. Không dựa vào nghe một âm đứng riêng để quyết định viết 是 hay 事; hãy nghe cả cụm như 有事 hoặc 是老师."
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi có một việc.",
+            "tokens": [
+              "我",
+              "有",
+              "一件事",
+              "。"
+            ],
+            "accepted": [
+              "我有一件事。"
+            ],
+            "model": "我有一件事。",
+            "explanation": "一件事 là một việc.",
+            "wrongFeedback": "Dùng 件 trước 事 khi đếm một việc."
+          },
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 这件____很重要。",
+            "accepted": [
+              "事"
+            ],
+            "model": "这件事很重要。",
+            "explanation": "事 đứng sau 件.",
+            "wrongFeedback": "Chọn danh từ nghĩa là việc."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "thing",
+            "type": "choice",
+            "prompt": "Cụm nào tự nhiên để nói việc này?",
+            "choices": [
+              "这件事",
+              "这件书"
+            ],
+            "correctIndex": 0,
+            "model": "这件事",
+            "explanation": "件 có thể dùng với 事 trong cụm này.",
+            "wrongFeedback": "书 thường dùng 本, còn 事 thường dùng 件."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn có một việc.",
+            "hints": [
+              "Nêu ý: tôi có.",
+              "Dùng 一件事.",
+              "Mẫu: 我有一件事。"
+            ],
+            "model": "我有一件事。",
+            "vi": "Tôi có một việc.",
+            "criteria": [
+              "Dùng đúng 事.",
+              "Dùng lượng từ 件 phù hợp."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là việc/sự việc?",
+            "hiddenAnswer": "事",
+            "model": "事"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 一件____。",
+            "hiddenAnswer": "事",
+            "model": "一件事。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi có một việc.",
+            "choices": [
+              "我",
+              "有",
+              "一件事",
+              "。"
+            ],
+            "correct": [
+              "我有一件事。"
+            ],
+            "explanation": "一件事 là một việc."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Cụm nào tự nhiên để nói việc này?",
+            "choices": [
+              "这件事",
+              "这件书"
+            ],
+            "correctIndex": 0,
+            "explanation": "事 thường đi với 件."
+          }
         }
       }
     },
