@@ -63,8 +63,8 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "b18e8f6d658ac91bf2ec28b952db600b81adba58",
-  "priorVerificationNote": "Review-021 đã đọc, phân loại và kiểm tra 345–362; giữ nguyên nội dung sau khi kiểm tra công thức, ví dụ, bẫy, bài tập, đáp án và audio; 18 nguồn MDBG đã phản hồi HTTP 200. Chờ commit và Pages verification của đợt này; chưa xác minh bố cục mobile, TTS Android hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "171b6b46d73b5fd0f5cfdfacf0180fdcacdab306",
+  "priorVerificationNote": "Review-021 đã phát hành: đã đọc, phân loại và kiểm tra 345–362; giữ nguyên nội dung sau khi kiểm tra công thức, ví dụ, bẫy, bài tập, đáp án và audio; 18 nguồn MDBG phản hồi HTTP 200. Pages run 40144226816 thành công; live checkpoint/review-checkpoint đạt 362/377. Chưa xác minh bố cục mobile, TTS Android hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[367:]",
@@ -468,9 +468,9 @@
     ],
     "reviewedCount": 362,
     "reviewTotal": 377,
-    "releaseState": "pending-pages-verification",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null,
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40144226816,
+    "verifiedPagesCommit": "171b6b46d73b5fd0f5cfdfacf0180fdcacdab306",
     "liveCourseSha256": "3d6813113f18b0522c890ff1750103f71e885d72e2464c3772e29ada024cd30e"
   }
 }
