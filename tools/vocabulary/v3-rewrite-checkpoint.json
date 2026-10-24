@@ -141,10 +141,10 @@
     "revalidateAtOrdinal": 495
   },
   "engineStatus": "generalized",
-  "testStatus": "passed-local",
+  "testStatus": "passed-local-and-live-verified",
   "lastBatch": "v3-batch-022",
-  "lastVerifiedRemoteCommit": "065a46fc32e854232c452dcd0564c40f83a48da6",
-  "lastVerifiedRemoteAt": "2026-10-24T06:17:02Z",
+  "lastVerifiedRemoteCommit": "49e50a7c7308087c7cabf2908b7383a1d3bdc59f",
+  "lastVerifiedRemoteAt": "2026-10-24",
   "currentBatch": {
     "id": "v3-batch-022",
     "status": "verified-pending-publish",
@@ -159,10 +159,12 @@
     "baseline": "3f0d5c83a26a0fcc229e6b400014d27be00b2615235b93413bc0ba01effc6394"
   },
   "deployment": {
-    "pagesRunId": 40071991717,
-    "status": "pending-publish",
-    "liveCourseDigestSha256": "43327fcfee197e82debc60e05102de4878dbb50375fd5d060b46d4dd954a4a96",
-    "lastVerifiedPreviousStatus": "success"
+    "pagesRunId": 40087407751,
+    "status": "success",
+    "liveCourseDigestSha256": "5b9373edf9a888390927584b67d6bdeb2f6b524cf6ab44c4af8f683b7b59dda4",
+    "lastVerifiedPreviousStatus": "success",
+    "pagesHeadSha": "49e50a7c7308087c7cabf2908b7383a1d3bdc59f",
+    "pagesStatus": "success"
   },
   "commitTrackingNote": "lastVerifiedRemoteCommit là commit nội dung đã được xác minh trên cả hai remote ref và Pages; không phải SHA tự tham chiếu của commit checkpoint-only chứa file này.",
   "outsideBaselineCorrections": [
