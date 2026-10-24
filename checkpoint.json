@@ -66,8 +66,8 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": null,
-  "priorVerificationNote": "Review-011 đang chờ kiểm tra và phát hành Pages; đã đọc 182/377 bài, nhóm 165–182 sửa 子、姐姐、小姐 và kiểm tra 15 bài giữ nguyên. Chưa xác minh bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "8a6b1de73f97e2d75ac3d5b2bcd8d8f09fa13d1e",
+  "priorVerificationNote": "Review-011 đã qua process-batch verify, verify-review và test-dom; đã đọc 182/377 bài. Nhóm 165–182 sửa 子 (cặp 子女 bị lặp), 姐姐 (câu biên tập còn sót) và 小姐 (câu hỏi lệch đáp án), xác nhận 15 bài còn lại không cần sửa. Pages run 40103752586 thành công đúng SHA 8a6b1de73f97e2d75ac3d5b2bcd8d8f09fa13d1e; dữ liệu live khớp byte, course 4.889.619 bytes. Chưa xác minh bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[367:]",
@@ -291,9 +291,9 @@
     ],
     "reviewedCount": 182,
     "reviewTotal": 377,
-    "releaseState": "pending-pages-verification",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null,
-    "liveCourseSha256": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40103752586,
+    "verifiedPagesCommit": "8a6b1de73f97e2d75ac3d5b2bcd8d8f09fa13d1e",
+    "liveCourseSha256": "b93798b2c22e8d34963b8a0005496da0d0273db2275d105c45869599c213147d"
   }
 }
