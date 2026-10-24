@@ -7,16 +7,16 @@
   "standardPath": "docs/CONTENT_STANDARD_V3.md",
   "historyCheckpointPath": "tools/vocabulary/v3-rewrite-checkpoint.json",
   "scopeTotal": 2224,
-  "reviewedThroughOrdinal": 14,
-  "nextOrdinal": 15,
-  "pendingReviewCount": 2210,
-  "passedCount": 14,
+  "reviewedThroughOrdinal": 24,
+  "nextOrdinal": 25,
+  "pendingReviewCount": 2200,
+  "passedCount": 24,
   "retainedCount": 0,
-  "rewrittenCount": 14,
+  "rewrittenCount": 24,
   "needsRevisionCount": 0,
   "difficultyCountsReviewed": {
-    "easy": 7,
-    "medium": 7,
+    "easy": 13,
+    "medium": 11,
     "hard": 0
   },
   "reviewedIds": [
@@ -33,7 +33,17 @@
     "hz-h1-15b6a3af5e33",
     "hz-h1-b71f4cfff8c9",
     "hz-h1-dadf7ffde866",
-    "hz-h1-d869fcbf074b"
+    "hz-h1-d869fcbf074b",
+    "hz-h1-628ff5c3507e",
+    "hz-h1-4247545ee5f9",
+    "hz-h1-b05b84230588",
+    "hz-h1-4789a966f565",
+    "hz-h1-277c140499d4",
+    "hz-h1-ac895f18b59d",
+    "hz-h1-fdbb78c8e725",
+    "hz-h1-22357796d4e3",
+    "hz-h1-58837eebf47f",
+    "hz-h1-8de2a5b77843"
   ],
   "passedIds": [
     "hz-h1-64d354d405bb",
@@ -49,7 +59,17 @@
     "hz-h1-15b6a3af5e33",
     "hz-h1-b71f4cfff8c9",
     "hz-h1-dadf7ffde866",
-    "hz-h1-d869fcbf074b"
+    "hz-h1-d869fcbf074b",
+    "hz-h1-628ff5c3507e",
+    "hz-h1-4247545ee5f9",
+    "hz-h1-b05b84230588",
+    "hz-h1-4789a966f565",
+    "hz-h1-277c140499d4",
+    "hz-h1-ac895f18b59d",
+    "hz-h1-fdbb78c8e725",
+    "hz-h1-22357796d4e3",
+    "hz-h1-58837eebf47f",
+    "hz-h1-8de2a5b77843"
   ],
   "retainedIds": [],
   "rewrittenIds": [
@@ -66,7 +86,17 @@
     "hz-h1-15b6a3af5e33",
     "hz-h1-b71f4cfff8c9",
     "hz-h1-dadf7ffde866",
-    "hz-h1-d869fcbf074b"
+    "hz-h1-d869fcbf074b",
+    "hz-h1-628ff5c3507e",
+    "hz-h1-4247545ee5f9",
+    "hz-h1-b05b84230588",
+    "hz-h1-4789a966f565",
+    "hz-h1-277c140499d4",
+    "hz-h1-ac895f18b59d",
+    "hz-h1-fdbb78c8e725",
+    "hz-h1-22357796d4e3",
+    "hz-h1-58837eebf47f",
+    "hz-h1-8de2a5b77843"
   ],
   "needsRevisionIds": [],
   "reviewRecords": [
@@ -171,6 +201,76 @@
       "result": "passed-after-rewrite",
       "difficulty": "medium",
       "reason": "是 có vai trò động từ nối và dễ bị dùng thừa trước tính từ khi người học dịch từng chữ từ tiếng Việt."
+    },
+    {
+      "ordinal": 15,
+      "id": "hz-h1-628ff5c3507e",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "叫 dùng để nói tên trong mẫu 我叫… và còn có chức năng gọi/bảo ai làm gì; người học phải phân biệt nó với 是 khi giới thiệu tên."
+    },
+    {
+      "ordinal": 16,
+      "id": "hz-h1-4247545ee5f9",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "名字 là danh từ quen thuộc với mẫu hỏi và trả lời trực tiếp."
+    },
+    {
+      "ordinal": 17,
+      "id": "hz-h1-b05b84230588",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "Tên quốc gia có nghĩa trực tiếp và dùng trong mẫu câu quen thuộc."
+    },
+    {
+      "ordinal": 18,
+      "id": "hz-h1-4789a966f565",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "中文 là tên gọi thông dụng của tiếng Trung nhưng cần phân biệt với 汉语 và 中国, là tên nước."
+    },
+    {
+      "ordinal": 19,
+      "id": "hz-h1-277c140499d4",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "汉语 và 中文 đều có thể dịch là tiếng Trung nhưng sắc thái và ngữ cảnh dùng hơi khác nhau."
+    },
+    {
+      "ordinal": 20,
+      "id": "hz-h1-ac895f18b59d",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "人 là danh từ cơ bản với các mẫu chỉ người và quốc tịch rõ ràng."
+    },
+    {
+      "ordinal": 21,
+      "id": "hz-h1-fdbb78c8e725",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "老师 là danh từ chỉ nghề/vai trò quen thuộc và có mẫu xưng hô rõ."
+    },
+    {
+      "ordinal": 22,
+      "id": "hz-h1-22357796d4e3",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "学生 là danh từ chỉ người học, nhưng tiếng Việt phải chọn học sinh hay sinh viên theo bối cảnh thay vì gắn cứng một nghĩa."
+    },
+    {
+      "ordinal": 23,
+      "id": "hz-h1-58837eebf47f",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "同学 là danh từ chỉ người cùng học, có mẫu kết hợp trực tiếp và rõ."
+    },
+    {
+      "ordinal": 24,
+      "id": "hz-h1-8de2a5b77843",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "朋友 là danh từ quan hệ quen thuộc, dùng trực tiếp trong giới thiệu và hoạt động cùng nhau."
     }
   ],
   "previousDigests": {
@@ -192,11 +292,21 @@
     "hz-h1-15b6a3af5e33": "8696341ea289a5f33836f7a3d7b106085e2905a47c2de99f3696611c6b796d09",
     "hz-h1-b71f4cfff8c9": "1b24f858e0ff5826788c1b986bca05fa94f61063bb181b17e58e783a0de416e6",
     "hz-h1-dadf7ffde866": "ce9d2cf1b3024159ae38df6bdb6a18fb9d703561e7d68e3047341b45330cf2ed",
-    "hz-h1-d869fcbf074b": "c0f99a61921877e6b4d608d80022482124960d33103b7aa4be457517f52c4ea7"
+    "hz-h1-d869fcbf074b": "c0f99a61921877e6b4d608d80022482124960d33103b7aa4be457517f52c4ea7",
+    "hz-h1-628ff5c3507e": "1bedb846601f00ada84d408e0a3d7553795c9d271c1593aa0185e22b219a23fc",
+    "hz-h1-4247545ee5f9": "abc26aa2ff838ed11ca77153330c6fefc5ac5e9df68dc9401a91b44d287d1863",
+    "hz-h1-b05b84230588": "80e2e4ef30e58d1d8dac05f66e05ab7fa6ad01d8c6551e47c5dc41f6586785ec",
+    "hz-h1-4789a966f565": "e44ab63512e4c867017e45cce3d745a6b0c162782bff7399dc7378802c946e06",
+    "hz-h1-277c140499d4": "ccca2ca73d11746f8b0e2dc28a6fa62b4c5073c2c20ca902484351dc2ab75eeb",
+    "hz-h1-ac895f18b59d": "e679b64ba6280988caa01af3815f5b31d15a2305561290db70c52387e5b0408c",
+    "hz-h1-fdbb78c8e725": "06201ffb45197dba5838ef4edc715a4828d81a89506bf9cd2c87219f0402ab5a",
+    "hz-h1-22357796d4e3": "7da4bcb18cf90cd7e7f1ca5fadf29bff4633cf0dadab708ea74312909f8a2a89",
+    "hz-h1-58837eebf47f": "3b89d3b3e54cd475382b8ec0bd1dcc05ac8153be7047afd44b396c42ba16b1c6",
+    "hz-h1-8de2a5b77843": "85b4a6f58461877d785c21a46db940b369480784c1b639e87ee4e9d53b2bedf4"
   },
   "sourceDigests": {
     "algorithm": "sha256",
-    "courseFile": "502517b34be998799134f56716e13a1f9959651b56dc5c939cbd43dc2783406e",
+    "courseFile": "49f6a53ea880eb487145f6a0ed99bd22a5fee8d514112dcd39626d28e85159bb",
     "baselineFile": "253370b4136e5935982390cc472b1f577e992417c84d93cec82fad2cc1bec925",
     "standardFile": "59e0d0afad07989b9d14923cc33d0ad7639c912c9ed095d87764f9be4bb5c133",
     "agentsFile": "4db177889bc96362673db9f10388b9cf48e64262c0c2f7816344be7afe99fa83",
@@ -204,7 +314,7 @@
     "vocabularyScriptFile": "c1964505c084959aaa6ef403532408e341d8e41c92e3b89ed284f0d38f8a3ec4",
     "vocabularyHtmlFile": "38da4dea2a335e191b6d2a157f999f9f5305b04dce0e1b64f6fd24ca1bef9dd6",
     "domTestFile": "f1437324b917e1df0c273cd67926315c00f8c155adef03ccfdcf698b96530321",
-    "progressFile": "45541f6e77b7df4b4368527cea867d64c058fb743f258d8ec1fd9ef0474236fb"
+    "progressFile": "51efae8e5198a56194f8712604c5d07216b58888d77bc5b99aeb9984ed5fa702"
   },
   "baselineIntegrity": {
     "completedPrefixLength": 91,
@@ -225,7 +335,7 @@
     "qualityRevision": "passed-internal"
   },
   "status": "validated-worktree",
-  "lastVerifiedRemoteCommit": "8f40c371971b7c324c34e514c4111a419e5cb96c",
+  "lastVerifiedRemoteCommit": "5f4ba5d607207af584c8819f1decf20be49e7846",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
     "pagesRunId": 40082625813,
@@ -240,5 +350,5 @@
     ]
   },
   "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
-  "lastBatch": "quality-revision-006"
+  "lastBatch": "quality-revision-007"
 }

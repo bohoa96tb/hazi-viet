@@ -7118,7 +7118,7 @@
       "meaning": "tên là",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 005",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 15",
       "examples": [
         {
           "id": "e1",
@@ -7141,7 +7141,7 @@
       "when": "叫 dùng để giới thiệu tên trong bài này. Chủ thể đứng trước; tên đứng ngay sau.",
       "pattern": "người + 叫 + tên; người + 叫什么名字",
       "trap": "Không thêm 是 vào mẫu 我叫小明 để thành 我是叫小明. Chọn 我叫小明 hoặc 我是小明 trong tình huống phù hợp.",
-      "task": "Nói tên của bạn.",
+      "task": "Nói tên của bạn và hiểu 叫 trong câu hỏi tên.",
       "model": "我叫安娜。",
       "phrases": [
         "我叫小明。"
@@ -7189,10 +7189,10 @@
         "contentVersion": 3,
         "cohortOrdinal": 15,
         "difficulty": "medium",
-        "difficultyReason": "叫 vừa dùng để nói tên vừa xuất hiện trong câu hỏi tên, cần phân biệt với 是 và cách hỏi 什么.",
+        "difficultyReason": "叫 dùng để nói tên trong mẫu 我叫… và còn có chức năng gọi/bảo ai làm gì; người học phải phân biệt nó với 是 khi giới thiệu tên.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Introducing_names"
         ],
@@ -7251,24 +7251,53 @@
         "confusions": [
           {
             "id": "is",
+            "category": "C",
             "afterSense": "name",
-            "title": "叫 và 是 trong giới thiệu tên",
-            "explanation": "我叫安娜 tập trung vào tên gọi; 我是安娜 xác định người nói là Anna trong một tình huống nhận diện.",
+            "title": "叫 và 是 khi giới thiệu tên",
+            "possibleConfusion": "Tiếng Việt dùng cả ‘tôi tên là’ và ‘tôi là’ nên người học dễ coi hai câu là cùng một khung.",
+            "explanation": "我叫安娜 nói tên gọi của tôi là Anna. 我是安娜 xác định tôi là người tên Anna trong một tình huống nhận diện; hai câu có thể gần nghĩa nhưng trọng tâm khác.",
+            "difference": "叫 tập trung vào tên được gọi; 是 nối chủ thể với danh tính hoặc thân phận.",
+            "boundary": "Hỏi tên thường dùng 你叫什么名字？; xác định người/vai trò mới dùng 是.",
             "contrasts": [
               {
                 "zh": "我叫安娜。",
                 "pinyin": "Wǒ jiào Ānnà.",
                 "vi": "Tôi tên là Anna.",
-                "note": "Cách tự giới thiệu tên tự nhiên."
+                "note": "Giới thiệu tên gọi."
               },
               {
                 "zh": "我是安娜。",
                 "pinyin": "Wǒ shì Ānnà.",
                 "vi": "Tôi là Anna.",
-                "note": "Xác nhận danh tính, không phải mẫu hỏi tên cơ bản."
+                "note": "Xác định danh tính; câu đúng nhưng khác trọng tâm."
               }
             ],
-            "tip": "Khi chủ động giới thiệu tên, ưu tiên 我叫 + tên."
+            "tip": "Tên gọi dùng 叫; xác định ‘là ai/là gì’ dùng 是."
+          },
+          {
+            "id": "call",
+            "category": "A2",
+            "afterSense": "name",
+            "title": "叫 trong ‘tên là’ và ‘gọi/bảo’",
+            "possibleConfusion": "Người học chỉ nhớ nghĩa tên là nên không nhận ra 叫 trong câu gọi ai hoặc bảo ai làm gì.",
+            "explanation": "Ngoài mẫu nói tên, 叫 còn có thể là gọi một người hoặc bảo ai làm việc gì. Nghĩa được quyết định bởi thành phần đi sau.",
+            "difference": "我叫安娜 có 我 là người mang tên; 叫他进来 có 他 là người được gọi và 进来 là việc được bảo làm.",
+            "boundary": "Ở bài cơ bản ưu tiên mẫu nói tên; khi gặp 叫 + người + động từ, đừng dịch máy móc là tên là.",
+            "contrasts": [
+              {
+                "zh": "我叫安娜。",
+                "pinyin": "Wǒ jiào Ānnà.",
+                "vi": "Tôi tên là Anna.",
+                "note": "叫 nối chủ thể với tên."
+              },
+              {
+                "zh": "请叫他进来。",
+                "pinyin": "Qǐng jiào tā jìnlái.",
+                "vi": "Hãy mời/bảo anh ấy vào.",
+                "note": "叫 tác động đến người được gọi, không nói về tên."
+              }
+            ],
+            "tip": "Sau 叫 là tên của chủ thể: ‘tên là’; sau 叫 + người, thường là ‘gọi/bảo’."
           }
         ],
         "guidedExercises": [
@@ -7375,6 +7404,29 @@
             "correctIndex": 0,
             "explanation": "我叫 là mẫu giới thiệu tên."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "叫 có cách đọc thông dụng jiào; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã kiểm tra hai chức năng thông dụng: nói tên trong 我叫… và gọi/bảo ai làm gì trong 叫他进来."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 叫 cố định thành ‘tên là’ sẽ sai trong 叫他进来; cần nhìn thành phần sau 叫."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 叫 với 是 khi giới thiệu tên và với 叫 + người + động từ bằng ví dụ Hanzi, Pinyin và nghĩa Việt."
+          }
         }
       }
     },
@@ -7392,7 +7444,7 @@
       "meaning": "tên",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 005",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 16",
       "examples": [
         {
           "id": "e1",
@@ -7465,8 +7517,8 @@
         "difficulty": "easy",
         "difficultyReason": "名字 là danh từ quen thuộc với mẫu hỏi và trả lời trực tiếp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Introducing_names"
         ],
@@ -7617,6 +7669,30 @@
             "correctIndex": 0,
             "explanation": "Câu thứ nhất hỏi tên."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "名字 có cách đọc thông dụng míngzi; âm tiết cuối thường nhẹ trong khẩu ngữ, không tạo nghĩa khác cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "名字 có một nghĩa trọng tâm là tên của người hoặc vật; sắc thái tên người/tên vật do danh từ đi kèm quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần nhớ 名字 là danh từ ‘tên’, không tự mang nghĩa ‘người có tên’."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 叫 và 姓; chưa thấy bẫy thông dụng cần lưu ý ở mức học này."
+          }
         }
       }
     },
@@ -7634,7 +7710,7 @@
       "meaning": "Trung Quốc",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 006",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 17",
       "examples": [
         {
           "id": "e1",
@@ -7657,7 +7733,7 @@
       "when": "中国 là tên nước Trung Quốc. Để nói người Trung Quốc, thêm 人.",
       "pattern": "去 + 中国; 中国 + 人",
       "trap": "中国 là tên nước; 中文 hoặc 汉语 là ngôn ngữ. Không dùng 学中国 để nói học tiếng Trung.",
-      "task": "Nói bạn đến từ Trung Quốc.",
+      "task": "Nói bạn đến từ Trung Quốc hoặc đang ở Trung Quốc.",
       "model": "我来自中国。",
       "phrases": [
         "我想去中国。"
@@ -7707,8 +7783,8 @@
         "difficulty": "easy",
         "difficultyReason": "Tên quốc gia có nghĩa trực tiếp và dùng trong mẫu câu quen thuộc.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Expressing_nationality"
         ],
@@ -7851,6 +7927,30 @@
             "correctIndex": 0,
             "explanation": "中国 là tên quốc gia."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "中国 có cách đọc thông dụng Zhōngguó; không có cách đọc phổ biến thứ hai theo ngữ cảnh ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "中国 là tên riêng của một quốc gia; khác biệt đến từ giới từ hoặc động từ đi kèm, không phải nhiều nghĩa của bản thân từ."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không dịch 中国 thành ‘tiếng Trung’; 中国 là tên nước, còn ngôn ngữ là 中文 hoặc 汉语."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 中文 và 汉语; chưa thấy bẫy cần thêm vào bài vì các bài ngôn ngữ kế tiếp sẽ dạy đối chiếu riêng."
+          }
         }
       }
     },
@@ -7868,7 +7968,7 @@
       "meaning": "tiếng Trung",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 006",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 18",
       "examples": [
         {
           "id": "e1",
@@ -7891,7 +7991,7 @@
       "when": "中文 chỉ tiếng Trung; có thể dùng cho cả nói và viết trong giao tiếp thông thường.",
       "pattern": "学中文; 说中文; 用中文 + hoạt động",
       "trap": "Không giới hạn 中文 chỉ là chữ viết. Nói 说中文 là tự nhiên.",
-      "task": "Nói bạn đang học tiếng Trung.",
+      "task": "Nói bạn học hoặc sử dụng tiếng Trung và phân biệt với tên nước.",
       "model": "我学习中文。",
       "phrases": [
         "我会说一点儿中文。"
@@ -7941,8 +8041,8 @@
         "difficulty": "medium",
         "difficultyReason": "中文 là tên gọi thông dụng của tiếng Trung nhưng cần phân biệt với 汉语 và 中国, là tên nước.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Language_names"
         ],
@@ -8001,24 +8101,28 @@
         "confusions": [
           {
             "id": "country",
+            "category": "C",
             "afterSense": "language",
-            "title": "中文 không phải 中国",
-            "explanation": "中文 là ngôn ngữ; 中国 là tên quốc gia.",
+            "title": "中文 và 中国: ngôn ngữ hay tên nước",
+            "possibleConfusion": "Tiếng Việt đều có từ ‘Trung’ trong cách nói tiếng Trung và Trung Quốc nên người học dễ bỏ qua 文 và 国.",
+            "explanation": "中文 là tiếng/chữ Trung Quốc trong cách nói thông dụng; 中国 là tên quốc gia Trung Quốc.",
+            "difference": "我学习中文 nói đối tượng học là ngôn ngữ; 我来自中国 nói nơi xuất phát là quốc gia.",
+            "boundary": "Sau 学习, 说, 写 thường có từ chỉ ngôn ngữ/chữ; sau 来自, 在 có thể là địa điểm/quốc gia.",
             "contrasts": [
               {
                 "zh": "我学习中文。",
                 "pinyin": "Wǒ xuéxí Zhōngwén.",
                 "vi": "Tôi học tiếng Trung.",
-                "note": "Học một ngôn ngữ."
+                "note": "中文 là ngôn ngữ/chữ viết."
               },
               {
                 "zh": "我来自中国。",
                 "pinyin": "Wǒ láizì Zhōngguó.",
                 "vi": "Tôi đến từ Trung Quốc.",
-                "note": "Nói về quốc gia."
+                "note": "中国 là tên nước."
               }
             ],
-            "tip": "Sau 学习 hoặc 说 thường chọn 中文; sau 来自 chọn 中国."
+            "tip": "文 gợi ngôn ngữ/chữ viết; 国 gợi quốc gia."
           }
         ],
         "guidedExercises": [
@@ -8124,6 +8228,29 @@
             "correctIndex": 0,
             "explanation": "来自 cần tên nước 中国."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "中文 có cách đọc thông dụng Zhōngwén; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "中文 có chức năng trọng tâm là chỉ tiếng/chữ Trung Quốc trong giao tiếp; khác biệt văn nói/văn viết sẽ được xử lý qua so sánh với 汉语, không tạo nghĩa độc lập ở bài này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã kiểm tra bẫy dịch 中文 thành 中国; 文 là ngôn ngữ/chữ viết, 国 là quốc gia."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 中文 với 中国 bằng hai câu đúng, Pinyin, nghĩa Việt và vị trí kết hợp."
+          }
         }
       }
     },
@@ -8140,7 +8267,7 @@
       "meaning": "tiếng Trung",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 006",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 19",
       "examples": [
         {
           "id": "e1",
@@ -8163,7 +8290,7 @@
       "when": "汉语 chỉ tiếng Hán; dùng tự nhiên khi nói học, nói hoặc dạy tiếng Trung.",
       "pattern": "学习 + 汉语; 汉语 + 课",
       "trap": "汉语 không có nghĩa một chữ Hán. Khi chỉ chữ viết riêng lẻ, dùng 汉字.",
-      "task": "Nói bạn đang học tiếng Hán.",
+      "task": "Nói về việc học hoặc sử dụng tiếng Hán và phân biệt với 中文.",
       "model": "我学习汉语。",
       "phrases": [
         "我每天学习汉语。"
@@ -8213,8 +8340,8 @@
         "difficulty": "medium",
         "difficultyReason": "汉语 và 中文 đều có thể dịch là tiếng Trung nhưng sắc thái và ngữ cảnh dùng hơi khác nhau.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Language_names"
         ],
@@ -8273,24 +8400,28 @@
         "confusions": [
           {
             "id": "spoken",
+            "category": "C",
             "afterSense": "language",
-            "title": "汉语 và 中文 gần nghĩa nhưng không hoàn toàn cùng sắc thái",
-            "explanation": "Hai từ đều chỉ tiếng Trung; 中文 thường tự nhiên trong giao tiếp và nói về văn bản, còn 汉语 thường xuất hiện trong tên môn học hoặc mô tả ngôn ngữ.",
+            "title": "汉语 và 中文: gần nghĩa nhưng khác sắc thái dùng",
+            "possibleConfusion": "Cả hai đều dịch là tiếng Trung nên người học tưởng lúc nào cũng phải chọn một từ duy nhất.",
+            "explanation": "汉语 là tên ngôn ngữ tiếng Hán, thường gặp trong ngữ cảnh học thuật, môn học hoặc mô tả ngôn ngữ. 中文 thông dụng hơn trong giao tiếp và có thể nhấn vào ngôn ngữ/chữ viết Trung Quốc.",
+            "difference": "Trong nhiều câu hai từ thay thế được mà không đổi ý lớn; khác biệt chủ yếu là sắc thái và cụm đi kèm, không phải một từ đúng còn từ kia sai.",
+            "boundary": "Nói về môn/ngôn ngữ có thể dùng 汉语; giao tiếp đời thường như nói, đọc, viết tiếng Trung thường 中文 rất tự nhiên.",
             "contrasts": [
               {
                 "zh": "你会说中文吗？",
                 "pinyin": "Nǐ huì shuō Zhōngwén ma?",
                 "vi": "Bạn biết nói tiếng Trung không?",
-                "note": "Cách hỏi giao tiếp tự nhiên."
+                "note": "中文 tự nhiên trong hội thoại."
               },
               {
                 "zh": "汉语很有意思。",
-                "pinyin": "Hànyǔ hěn yǒu yìsi.",
+                "pinyin": "Hànyǔ hěn yǒuyìsi.",
                 "vi": "Tiếng Hán rất thú vị.",
-                "note": "Cách gọi trung tính/trang trọng hơn."
+                "note": "汉语 phù hợp khi nói về ngôn ngữ/môn học."
               }
             ],
-            "tip": "Không cần coi một từ là sai tuyệt đối; chọn 中文 cho giao tiếp thường ngày, 汉语 khi nói về môn/ngôn ngữ."
+            "tip": "中文 thường khẩu ngữ và rộng; 汉语 thường mang sắc thái tên ngôn ngữ/môn học. Nhiều câu có thể dùng cả hai."
           }
         ],
         "guidedExercises": [
@@ -8396,6 +8527,29 @@
             "correctIndex": 0,
             "explanation": "中国 là tên nước, không phải ngôn ngữ."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "汉语 có cách đọc thông dụng Hànyǔ; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "汉语 có một chức năng chính là chỉ tiếng Hán; khác biệt với 中文 chủ yếu là sắc thái và kết hợp, không phải hai nghĩa tách biệt."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Không nên dịch từng chữ 汉语 thành một tên nước; đây là ngôn ngữ, còn 中国 là quốc gia và 汉字 là chữ viết."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 汉语 với 中文, đồng thời đặt ranh giới với 中国 và 汉字 trong giải thích cách dùng."
+          }
         }
       }
     },
@@ -8412,7 +8566,7 @@
       "meaning": "người",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 006",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 20",
       "examples": [
         {
           "id": "e1",
@@ -8435,8 +8589,8 @@
       "when": "人 chỉ người. Đếm người thường có số và lượng từ, như 一个人.",
       "pattern": "số + 个 + 人; nơi chốn + 人 + 很多",
       "trap": "Nói 三个人 trong cách đếm thông thường. 三口人 dùng tự nhiên khi đếm thành viên gia đình, không thay thế ở mọi nơi.",
-      "task": "Nói bạn là người Việt Nam.",
-      "model": "我是越南人。",
+      "task": "Nói một người hoặc hỏi có bao nhiêu người.",
+      "model": "这里有三个人。",
       "phrases": [
         "这里有三个人。"
       ],
@@ -8485,8 +8639,8 @@
         "difficulty": "easy",
         "difficultyReason": "人 là danh từ cơ bản với các mẫu chỉ người và quốc tịch rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, lượng từ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/People_and_nationality"
         ],
@@ -8629,6 +8783,30 @@
             "correctIndex": 0,
             "explanation": "人 nghĩa là người."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "人 có cách đọc thông dụng rén; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "人 có nghĩa trọng tâm là người; số ít hay số nhiều được xác định bởi số lượng và ngữ cảnh, không phải do một nghĩa thứ hai của từ."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; khi đếm người cần nhớ lượng từ 个 trong khung số + 个 + 人."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 大家 và 人们; chưa thấy bẫy cần đưa vào bài cơ bản này."
+          }
         }
       }
     },
@@ -8645,7 +8823,7 @@
       "meaning": "giáo viên",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 006",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 21",
       "examples": [
         {
           "id": "e1",
@@ -8668,8 +8846,8 @@
       "when": "老师 là giáo viên; cũng dùng để gọi giáo viên trực tiếp. Có thể đặt họ trước 老师.",
       "pattern": "người + 是 + 老师; họ + 老师",
       "trap": "老师 không chỉ thầy nam. Có thể dùng cho cả giáo viên nam và nữ; không cần đổi 老 thành một chữ chỉ giới tính.",
-      "task": "Giới thiệu giáo viên của bạn.",
-      "model": "这是我的老师。",
+      "task": "Nói hoặc hỏi ai đó có phải là giáo viên không.",
+      "model": "他是老师。",
       "phrases": [
         "王老师，您好。"
       ],
@@ -8718,8 +8896,8 @@
         "difficulty": "easy",
         "difficultyReason": "老师 là danh từ chỉ nghề/vai trò quen thuộc và có mẫu xưng hô rõ.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Teacher"
         ],
@@ -8864,6 +9042,30 @@
             "correctIndex": 0,
             "explanation": "老师 nghĩa là giáo viên."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "老师 có cách đọc thông dụng lǎoshī; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "老师 có nghĩa trọng tâm là giáo viên; cách dịch thầy, cô hay giáo viên tùy ngữ cảnh tiếng Việt."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không nên suy 老师 thành chỉ người lớn tuổi; đây là cách gọi giáo viên/lời xưng hô lịch sự trong bối cảnh phù hợp."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 学生 và 同学; chưa thấy bẫy cần thêm ngoài mức đối chiếu vai trò cơ bản."
+          }
         }
       }
     },
@@ -8881,7 +9083,7 @@
       "meaning": "học sinh; sinh viên tùy ngữ cảnh",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 006",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 22",
       "examples": [
         {
           "id": "e1",
@@ -8904,7 +9106,7 @@
       "when": "学生 chỉ người học, thường là học sinh hoặc sinh viên trong ngữ cảnh trường lớp.",
       "pattern": "người + 是 + 学生; số + 个 + 学生",
       "trap": "学生 không có nghĩa là trường học. Người học là 学生; nơi học là 学校.",
-      "task": "Nói bạn là sinh viên.",
+      "task": "Nói một người là học sinh/sinh viên và phân biệt với bạn học.",
       "model": "我是学生。",
       "phrases": [
         "我是这所学校的学生。"
@@ -8954,8 +9156,8 @@
         "difficulty": "medium",
         "difficultyReason": "学生 là danh từ chỉ người học, nhưng tiếng Việt phải chọn học sinh hay sinh viên theo bối cảnh thay vì gắn cứng một nghĩa.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Student"
         ],
@@ -9014,24 +9216,28 @@
         "confusions": [
           {
             "id": "school",
+            "category": "C",
             "afterSense": "learner",
-            "title": "学生 có thể là học sinh hoặc sinh viên",
-            "explanation": "学生 nói chung là người học; bối cảnh trường phổ thông hay đại học quyết định cách dịch tự nhiên sang tiếng Việt.",
+            "title": "学生 và 同学: người học hay bạn học",
+            "possibleConfusion": "Cả hai đều xuất hiện trong môi trường trường lớp; tiếng Việt đôi khi gọi một người là học sinh và cũng là bạn học.",
+            "explanation": "学生 nhấn vào tư cách người học, có thể là học sinh hoặc sinh viên. 同学 nhấn vào người học cùng lớp/trường hoặc cách gọi bạn học.",
+            "difference": "大学生是学生 nói một sinh viên là người học; 他是我的同学 nói anh ấy là bạn học của tôi. Hai câu đúng nhưng trọng tâm khác.",
+            "boundary": "Nói thân phận học tập dùng 学生; nói quan hệ cùng học với mình dùng 同学.",
             "contrasts": [
               {
-                "zh": "小学生是学生。",
-                "pinyin": "Xiǎoxuéshēng shì xuésheng.",
-                "vi": "Học sinh tiểu học là người học.",
-                "note": "Bối cảnh phổ thông."
+                "zh": "他是大学生。",
+                "pinyin": "Tā shì dàxuéshēng.",
+                "vi": "Anh ấy là sinh viên đại học.",
+                "note": "学生 là thân phận người học."
               },
               {
-                "zh": "大学生也是学生。",
-                "pinyin": "Dàxuéshēng yě shì xuésheng.",
-                "vi": "Sinh viên đại học cũng là người học.",
-                "note": "Bối cảnh đại học."
+                "zh": "他是我的同学。",
+                "pinyin": "Tā shì wǒ de tóngxué.",
+                "vi": "Anh ấy là bạn học của tôi.",
+                "note": "同学 là quan hệ cùng học."
               }
             ],
-            "tip": "Đừng ép 学生 chỉ là học sinh hoặc chỉ là sinh viên nếu câu không cho biết bậc học."
+            "tip": "Hỏi ‘người này là học sinh/sinh viên gì?’ dùng 学生; nói ‘bạn học của tôi’ dùng 同学."
           }
         ],
         "guidedExercises": [
@@ -9138,6 +9344,29 @@
             "correctIndex": 0,
             "explanation": "学生 là từ chung cho người học."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "学生 có cách đọc thông dụng xuésheng; âm tiết cuối thường nhẹ trong khẩu ngữ, không tạo nghĩa khác cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "学生 có chức năng trọng tâm là chỉ người học; học sinh hay sinh viên là cách dịch theo bối cảnh giáo dục, không phải hai nghĩa tách biệt."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 学生 chỉ thành ‘học sinh’ sẽ bỏ sót sinh viên; cần hiểu là người học nói chung rồi chọn cách dịch theo bối cảnh."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 学生 với 同学 theo thân phận người học và quan hệ bạn học."
+          }
         }
       }
     },
@@ -9154,7 +9383,7 @@
       "meaning": "bạn học",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 23",
       "examples": [
         {
           "id": "e1",
@@ -9177,7 +9406,7 @@
       "when": "同学 chỉ bạn học; có thể là cùng lớp hoặc cùng trường tùy ngữ cảnh.",
       "pattern": "người + 是 + người + 的 + 同学",
       "trap": "Một đồng nghiệp không tự trở thành 同学. Nếu cùng làm việc nhưng chưa từng học cùng, chọn 同事.",
-      "task": "Nói người ngồi cạnh là bạn học của bạn.",
+      "task": "Nói ai đó là bạn học của bạn hoặc gọi bạn học.",
       "model": "他是我的同学。",
       "phrases": [
         "他是我的同学。"
@@ -9227,8 +9456,8 @@
         "difficulty": "easy",
         "difficultyReason": "同学 là danh từ chỉ người cùng học, có mẫu kết hợp trực tiếp và rõ.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Expressing_relationships"
         ],
@@ -9373,6 +9602,30 @@
             "correctIndex": 0,
             "explanation": "同学 là bạn học."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "同学 có cách đọc thông dụng tóngxué; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "同学 chủ yếu chỉ bạn học hoặc cách gọi người cùng học; sắc thái danh từ hay lời gọi do vị trí câu quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không nên dịch 同学 thành mọi ‘học sinh’; 同学 nhấn vào quan hệ cùng học, khác trọng tâm với 学生."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 学生; ở mức học này chưa thấy bẫy cần thêm ngoài phân biệt quan hệ bạn học và thân phận người học."
+          }
         }
       }
     },
@@ -9389,7 +9642,7 @@
       "meaning": "bạn; bạn bè",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 007",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 24",
       "examples": [
         {
           "id": "e1",
@@ -9412,8 +9665,8 @@
       "when": "朋友 chỉ người có quan hệ bạn bè. Khi cần nêu quan hệ cụ thể như bạn học, có thể chọn từ cụ thể hơn.",
       "pattern": "người + 的 + 朋友; 和朋友 + hoạt động",
       "trap": "朋友 không tự mang nghĩa người yêu. 男朋友 và 女朋友 thường có nghĩa bạn trai và bạn gái trong quan hệ tình cảm.",
-      "task": "Giới thiệu một người bạn.",
-      "model": "她是我的朋友。",
+      "task": "Giới thiệu một người là bạn của bạn.",
+      "model": "他是我的朋友。",
       "phrases": [
         "他是我的朋友。"
       ],
@@ -9462,8 +9715,8 @@
         "difficulty": "easy",
         "difficultyReason": "朋友 là danh từ quan hệ quen thuộc, dùng trực tiếp trong giới thiệu và hoạt động cùng nhau.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Expressing_relationships"
         ],
@@ -9607,6 +9860,30 @@
             ],
             "correctIndex": 0,
             "explanation": "朋友 là bạn."
+          }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "朋友 có cách đọc thông dụng péngyou; âm tiết cuối thường nhẹ trong khẩu ngữ, không tạo nghĩa khác cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "朋友 có nghĩa trọng tâm là bạn/bạn bè; số ít hay số nhiều do ngữ cảnh và lượng từ quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; không nên suy quan hệ thân thiết chỉ từ bản dịch ‘bạn’ mà bỏ qua ngữ cảnh."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 同学 và 人; chưa thấy bẫy thông dụng cần thêm ở mức bài này."
           }
         }
       }
