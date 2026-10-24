@@ -20945,16 +20945,18 @@
       "examples": [
         {
           "id": "e1",
-          "zh": "我喜欢白色的衣服。",
-          "vi": "Tôi thích quần áo màu trắng.",
-          "analysis": "白色 đứng trước 的衣服.",
+          "zh": "纸是白的。",
+          "pinyin": "Zhǐ shì bái de.",
+          "vi": "Giấy màu trắng.",
+          "analysis": "白 là tính từ chỉ màu trắng.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "这件白衣服很干净。",
-          "vi": "Chiếc áo trắng này rất sạch.",
-          "analysis": "白 đứng trước 衣服 để tả màu.",
+          "zh": "我白看了一场电影。",
+          "pinyin": "Wǒ bái kàn le yì chǎng diànyǐng.",
+          "vi": "Tôi xem một bộ phim vô ích.",
+          "analysis": "白 đứng trước động từ có thể mang nghĩa làm uổng công, nhưng bài này ưu tiên nghĩa màu sắc và cần nhận diện nghĩa phụ.",
           "practiceAllowed": true
         }
       ],
@@ -20965,155 +20967,209 @@
       "sourceIndex": 56,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn thích áo trắng.",
-      "model": "我喜欢白色的衣服。",
+      "task": "Nói tờ giấy màu trắng.",
+      "model": "纸是白的。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 77,
+        "difficulty": "medium",
+        "difficultyReason": "白 có nghĩa màu trắng và một số cách dùng phó từ như uổng công; cần phân biệt theo vị trí/cụm.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Colors"
+        ],
         "introduction": {
-          "scope": "白/白色 diễn tả màu trắng; 白天 là từ ghép chỉ ban ngày."
-        },
-        "meaning": {
-          "scene": "Bạn chọn áo trắng trong cửa hàng.",
-          "explanation": "Đặt 白 hoặc 白色 trước vật để nói màu. 白天 chỉ khoảng thời gian ban ngày, không tách 白 ra để nói thời gian.",
-          "boundary": "白色的衣服 và 白衣服 đều đúng; cách thứ nhất nêu màu rõ hơn.",
-          "conditions": [
-            "Nêu vật sau 白 hoặc 白色."
-          ],
-          "takeaway": "Đặt 白 hoặc 白色 trước vật để nói màu. 白天 chỉ khoảng thời gian ban ngày, không tách 白 ra để nói thời gian."
+          "scope": "白 thường nghĩa là trắng; khi đứng trước động từ trong một số cụm có thể mang nghĩa uổng công.",
+          "examples": [
+            {
+              "zh": "纸是白的。",
+              "pinyin": "Zhǐ shì bái de.",
+              "vi": "Giấy màu trắng.",
+              "note": "Nghĩa màu sắc."
+            },
+            {
+              "zh": "我白看了一场电影。",
+              "pinyin": "Wǒ bái kàn le yì chǎng diànyǐng.",
+              "vi": "Tôi xem một bộ phim vô ích.",
+              "note": "Nghĩa uổng công."
+            }
+          ]
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "我喜欢白色的衣服。",
-            "vi": "Tôi thích quần áo màu trắng.",
-            "analysis": "白色 đứng trước 的衣服.",
+            "zh": "纸是白的。",
+            "pinyin": "Zhǐ shì bái de.",
+            "vi": "Giấy màu trắng.",
+            "analysis": "白 là tính từ chỉ màu trắng.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "这件白衣服很干净。",
-            "vi": "Chiếc áo trắng này rất sạch.",
-            "analysis": "白 đứng trước 衣服 để tả màu.",
+            "zh": "我白看了一场电影。",
+            "pinyin": "Wǒ bái kàn le yì chǎng diànyǐng.",
+            "vi": "Tôi xem một bộ phim vô ích.",
+            "analysis": "白 đứng trước động từ có thể mang nghĩa làm uổng công, nhưng bài này ưu tiên nghĩa màu sắc và cần nhận diện nghĩa phụ.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "白/白色 + danh từ",
-            "position": "Từ chỉ màu đứng trước vật.",
-            "required": "Nêu vật sau 白 hoặc 白色.",
-            "omission": "Có thể bỏ danh từ nếu vật đang chọn đã rõ.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "白 và 白天: màu sắc hay thời gian",
-            "scene": "Bạn chọn áo trắng trong cửa hàng.",
-            "possibleConfusion": "白色、白衣服 nói màu trắng; 白天 là cụm chỉ ban ngày.",
-            "difference": "白色、白衣服 nói màu trắng; 白天 là cụm chỉ ban ngày.",
-            "cases": [
+            "id": "white",
+            "title": "Màu trắng",
+            "when": "Mô tả màu của giấy, đồ vật hoặc người.",
+            "meaning": "trắng",
+            "grammar": "Có thể làm vị ngữ với 是…的 hoặc đứng trước danh từ.",
+            "pattern": "是+白+的；白+đồ vật",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "我买了白色的衣服。",
-                "vi": "Tôi mua quần áo màu trắng.",
-                "comment": "白色 miêu tả màu.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "纸是白的。",
+                "pinyin": "Zhǐ shì bái de.",
+                "vi": "Giấy màu trắng.",
+                "note": "白 làm vị ngữ màu sắc."
               },
               {
-                "id": "c2",
-                "zh": "我白天上班。",
-                "vi": "Ban ngày tôi đi làm.",
-                "comment": "白天 là cụm thời gian.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "白衣服很容易脏。",
+                "pinyin": "Bái yīfu hěn róngyì zāng.",
+                "vi": "Quần áo trắng rất dễ bẩn.",
+                "note": "白 đứng trước danh từ."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "waste",
+            "afterSense": "white",
+            "title": "白 không phải lúc nào cũng là màu trắng",
+            "explanation": "Trong 白看、白等, 白 đứng trước động từ và thường nghĩa là uổng công/làm không có kết quả; sau 是 hoặc trước danh từ đồ vật thường là màu trắng.",
+            "contrasts": [
+              {
+                "zh": "纸是白的。",
+                "pinyin": "Zhǐ shì bái de.",
+                "vi": "Giấy màu trắng.",
+                "note": "Mô tả màu."
+              },
+              {
+                "zh": "我白等了。",
+                "pinyin": "Wǒ bái děng le.",
+                "vi": "Tôi đã đợi uổng công.",
+                "note": "Đứng trước động từ, nghĩa uổng công."
               }
             ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Đổi 白色 thành 白天 trong câu mua quần áo không còn chỉ màu; giữ 白色."
-            },
-            "boundary": "白色的衣服 và 白衣服 đều đúng; cách thứ nhất nêu màu rõ hơn.",
-            "tip": "Màu trắng: 白/白色; thời gian: nhớ nguyên cụm 白天."
+            "tip": "Xem 白 bổ nghĩa cho vật hay đứng trước hành động để chọn nghĩa."
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "Đã rà nghĩa và cách đọc thông dụng; không thêm nghĩa hiếm không cần thiết cho bài.",
-          "literalTranslation": "Không suy nghĩa bằng cách dịch từng chữ; chọn nghĩa theo cách kết hợp và tình huống.",
-          "confusables": "白色、白衣服 nói màu trắng; 白天 là cụm chỉ ban ngày."
-        },
-        "pronunciation": {
-          "text": "白 là thanh hai, giọng đi lên; giữ vần ai. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Điền màu: 我喜欢___的衣服。 (白色/白天)"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Xếp câu: 上班 / 我 / 白天。"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "白色"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Giấy màu trắng.",
+            "tokens": [
+              "纸",
+              "是",
+              "白的",
+              "。"
             ],
-            "explanation": "Đang nói màu áo."
-          },
-          "q2": {
             "accepted": [
-              "我白天上班。"
+              "纸是白的。"
             ],
-            "explanation": "白天 là thời gian, đứng trước hành động."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói bạn thích áo trắng."
+            "model": "纸是白的。",
+            "explanation": "白的 mô tả màu của giấy.",
+            "wrongFeedback": "Dùng 白的 sau 是 để mô tả màu."
           },
           {
-            "id": "s2",
-            "prompt": "Nói ban ngày bạn đi làm."
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 白____很容易脏。",
+            "accepted": [
+              "衣服"
+            ],
+            "model": "白衣服很容易脏。",
+            "explanation": "白 đứng trước danh từ 衣服.",
+            "wrongFeedback": "Đặt danh từ sau tính từ màu."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我喜欢白色的衣服。",
-            "model": "我喜欢白色的衣服。",
-            "vi": "Tôi thích quần áo màu trắng.",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "waste",
+            "type": "choice",
+            "prompt": "Câu nào nói về màu trắng?",
+            "choices": [
+              "纸是白的。",
+              "我白等了。"
+            ],
+            "correctIndex": 0,
+            "model": "纸是白的。",
+            "explanation": "Câu thứ nhất mô tả màu; câu thứ hai nói đợi uổng công.",
+            "wrongFeedback": "Nhìn xem 白 mô tả vật hay đứng trước hành động."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói tờ giấy màu trắng.",
+            "hints": [
+              "Nêu chủ thể: 纸.",
+              "Dùng 是白的.",
+              "Mẫu: 纸是白的。"
+            ],
+            "model": "纸是白的。",
+            "vi": "Giấy màu trắng.",
             "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我白天上班。",
-            "model": "我白天上班。",
-            "vi": "Ban ngày tôi đi làm.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
+              "Dùng đúng 白 ở nghĩa màu sắc."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=253&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là trắng?",
+            "hiddenAnswer": "白",
+            "model": "白"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 纸是__的。",
+            "hiddenAnswer": "白",
+            "model": "纸是白的。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Giấy màu trắng.",
+            "choices": [
+              "纸",
+              "是",
+              "白的",
+              "。"
+            ],
+            "correct": [
+              "纸是白的。"
+            ],
+            "explanation": "白的 mô tả màu."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Câu nào nói về màu trắng?",
+            "choices": [
+              "纸是白的。",
+              "我白等了。"
+            ],
+            "correctIndex": 0,
+            "explanation": "白 trong câu đầu là màu trắng."
+          }
+        }
       }
     },
     {
@@ -21129,173 +21185,182 @@
       "meaning": "cười",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
       "examples": [
         {
           "id": "e1",
-          "zh": "大家都笑了。",
-          "vi": "Mọi người đều bật cười.",
-          "analysis": "笑 đứng sau người cười; 了 báo việc đã xảy ra.",
+          "zh": "我笑了。",
+          "pinyin": "Wǒ xiào le.",
+          "vi": "Tôi cười rồi.",
+          "analysis": "笑 là cười, có thể đứng một mình.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "这个笑话很好笑。",
-          "vi": "Câu chuyện cười này rất buồn cười.",
-          "analysis": "笑话 là chuyện; 好笑 miêu tả.",
+          "zh": "她笑得很开心。",
+          "pinyin": "Tā xiào de hěn kāixīn.",
+          "vi": "Cô ấy cười rất vui vẻ.",
+          "analysis": "笑得 nối động từ với mức độ/trạng thái biểu hiện.",
           "practiceAllowed": true
         }
       ],
       "sourceIndex": 57,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Kể mọi người đã bật cười.",
-      "model": "大家都笑了。",
+      "task": "Nói bạn cười.",
+      "model": "我笑了。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 78,
+        "difficulty": "easy",
+        "difficultyReason": "笑 là động từ cơ bản, dùng độc lập hoặc với 得 để mô tả cách cười.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Laughing"
+        ],
         "introduction": {
-          "scope": "笑 là hành động cười; 笑话 là chuyện đùa, 好笑 miêu tả điều buồn cười."
-        },
-        "meaning": {
-          "scene": "Đồng nghiệp kể chuyện vui và mọi người bật cười.",
-          "explanation": "笑 đứng sau người cười. Phân biệt hành động 笑, danh từ 笑话 và đặc điểm 好笑.",
-          "boundary": "笑话 có thể là một câu đùa; 好笑 không khẳng định ai đã cười.",
-          "conditions": [
-            "Dùng 笑 cho hành động, 笑话 cho chuyện đùa."
-          ],
-          "takeaway": "笑 đứng sau người cười. Phân biệt hành động 笑, danh từ 笑话 và đặc điểm 好笑."
+          "scope": "笑 nghĩa là cười hoặc mỉm cười trong phản ứng vui vẻ."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "大家都笑了。",
-            "vi": "Mọi người đều bật cười.",
-            "analysis": "笑 đứng sau người cười; 了 báo việc đã xảy ra.",
+            "zh": "我笑了。",
+            "pinyin": "Wǒ xiào le.",
+            "vi": "Tôi cười rồi.",
+            "analysis": "笑 là cười, có thể đứng một mình.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "这个笑话很好笑。",
-            "vi": "Câu chuyện cười này rất buồn cười.",
-            "analysis": "笑话 là chuyện; 好笑 miêu tả.",
+            "zh": "她笑得很开心。",
+            "pinyin": "Tā xiào de hěn kāixīn.",
+            "vi": "Cô ấy cười rất vui vẻ.",
+            "analysis": "笑得 nối động từ với mức độ/trạng thái biểu hiện.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Người + 笑(了); 笑话 + 很 + 好笑",
-            "position": "笑 theo sau người cười; 好笑 theo sau 很.",
-            "required": "Dùng 笑 cho hành động, 笑话 cho chuyện đùa.",
-            "omission": "Có thể lược chủ ngữ khi người cười đã rõ.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "笑, 笑话, 好笑: hành động, chuyện, đặc điểm",
-            "scene": "Đồng nghiệp kể chuyện vui và mọi người bật cười.",
-            "possibleConfusion": "笑 là hành động; 笑话 là chuyện/lời đùa; 好笑 là điều khiến người ta cười.",
-            "difference": "笑 là hành động; 笑话 là chuyện/lời đùa; 好笑 là điều khiến người ta cười.",
-            "cases": [
+            "id": "laugh",
+            "title": "Cười",
+            "when": "Biểu lộ vui vẻ hoặc phản ứng bằng nụ cười.",
+            "meaning": "cười",
+            "grammar": "Có thể đứng độc lập hoặc dùng 笑得 + trạng thái.",
+            "pattern": "笑了；笑得+trạng thái",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "大家都笑了。",
-                "vi": "Mọi người đều bật cười.",
-                "comment": "笑了 chỉ hành động.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我笑了。",
+                "pinyin": "Wǒ xiào le.",
+                "vi": "Tôi cười rồi.",
+                "note": "笑 có thể đứng một mình."
               },
               {
-                "id": "c2",
-                "zh": "这个笑话很好笑。",
-                "vi": "Câu chuyện này rất buồn cười.",
-                "comment": "好笑 miêu tả chuyện.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "她笑得很开心。",
+                "pinyin": "Tā xiào de hěn kāixīn.",
+                "vi": "Cô ấy cười rất vui vẻ.",
+                "note": "得 nối cười với trạng thái."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi 笑 thành 笑话 trong 他笑了 không còn vị ngữ chỉ hành động cười."
-            },
-            "boundary": "笑话 có thể là một câu đùa; 好笑 không khẳng định ai đã cười.",
-            "tip": "Ai cười: 笑; chuyện đùa: 笑话; điều buồn cười: 好笑."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "Đã rà nghĩa và cách đọc thông dụng; không thêm nghĩa hiếm không cần thiết cho bài.",
-          "literalTranslation": "Không suy nghĩa bằng cách dịch từng chữ; chọn nghĩa theo cách kết hợp và tình huống.",
-          "confusables": "笑 là hành động; 笑话 là chuyện/lời đùa; 好笑 là điều khiến người ta cười."
-        },
-        "pronunciation": {
-          "text": "笑 là thanh bốn, đọc xuống gọn; âm đầu x nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Mọi người bật cười: 大家都___了。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Điền hai từ: 这个___很___。 (chuyện cười rất buồn cười)"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "笑"
-            ],
-            "explanation": "Chỗ trống là hành động."
-          },
-          "q2": {
-            "accepted": [
-              "笑话，好笑"
-            ],
-            "explanation": "Danh từ trước 很, đặc điểm sau 很."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Kể mọi người đã bật cười."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói câu chuyện đó buồn cười."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "大家都笑了。",
-            "model": "大家都笑了。",
-            "vi": "Mọi người đều bật cười.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "这个笑话很好笑。",
-            "model": "这个笑话很好笑。",
-            "vi": "Câu chuyện này rất buồn cười.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=27132&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi cười rồi.",
+            "tokens": [
+              "我",
+              "笑",
+              "了",
+              "。"
+            ],
+            "accepted": [
+              "我笑了。"
+            ],
+            "model": "我笑了。",
+            "explanation": "笑 là động từ chính.",
+            "wrongFeedback": "Đặt 了 sau động từ."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "laugh",
+            "type": "meaning",
+            "prompt": "Chọn động từ nghĩa là cười.",
+            "choices": [
+              "笑",
+              "哭"
+            ],
+            "correctIndex": 0,
+            "model": "笑",
+            "explanation": "笑 là cười; 哭 là khóc.",
+            "wrongFeedback": "Phân biệt cười với khóc."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn cười rồi.",
+            "hints": [
+              "Nêu chủ thể: 我.",
+              "Thêm 了 sau 笑.",
+              "Mẫu: 我笑了。"
+            ],
+            "model": "我笑了。",
+            "vi": "Tôi cười rồi.",
+            "criteria": [
+              "Dùng đúng 笑."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là cười?",
+            "hiddenAnswer": "笑",
+            "model": "笑"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我笑__。",
+            "hiddenAnswer": "了",
+            "model": "我笑了。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi cười rồi.",
+            "choices": [
+              "我",
+              "笑",
+              "了",
+              "。"
+            ],
+            "correct": [
+              "我笑了。"
+            ],
+            "explanation": "了 đứng sau 笑."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn động từ nghĩa là cười.",
+            "choices": [
+              "笑",
+              "哭"
+            ],
+            "correctIndex": 0,
+            "explanation": "笑 là cười."
+          }
+        }
       }
     },
     {
@@ -21311,173 +21376,182 @@
       "meaning": "thịt",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
       "examples": [
         {
           "id": "e1",
-          "zh": "我买了一斤肉。",
-          "vi": "Tôi mua một cân thịt.",
-          "analysis": "一斤 là lượng, 肉 đứng sau đơn vị.",
+          "zh": "我不吃肉。",
+          "pinyin": "Wǒ bù chī ròu.",
+          "vi": "Tôi không ăn thịt.",
+          "analysis": "肉 là thịt, đứng sau 吃 làm thức ăn.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "我不吃肉。",
-          "vi": "Tôi không ăn thịt.",
-          "analysis": "不 đứng trước 吃 để phủ định.",
+          "zh": "桌子上有一盘肉。",
+          "pinyin": "Zhuōzi shàng yǒu yì pán ròu.",
+          "vi": "Trên bàn có một đĩa thịt.",
+          "analysis": "肉 có thể đi với lượng từ 盘 khi nói một đĩa.",
           "practiceAllowed": true
         }
       ],
       "sourceIndex": 58,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn mua một cân thịt.",
-      "model": "我买了一斤肉。",
+      "task": "Nói bạn không ăn thịt.",
+      "model": "我不吃肉。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 79,
+        "difficulty": "easy",
+        "difficultyReason": "肉 là danh từ thực phẩm cơ bản với mẫu ăn và lượng từ 盘 rõ ràng.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Meat"
+        ],
         "introduction": {
-          "scope": "肉 là thịt dùng làm thức ăn; nói lượng thường dùng đơn vị như 斤."
-        },
-        "meaning": {
-          "scene": "Bạn đi chợ mua thịt nấu bữa tối.",
-          "explanation": "Lượng đo đứng trước 肉. Thêm 猪、牛、鸡 trước 肉 để nêu rõ loại thịt.",
-          "boundary": "肉 không mặc định chỉ thịt heo.",
-          "conditions": [
-            "Nêu cân lượng trước 肉; loại thịt đứng trước 肉."
-          ],
-          "takeaway": "Lượng đo đứng trước 肉. Thêm 猪、牛、鸡 trước 肉 để nêu rõ loại thịt."
+          "scope": "肉 nghĩa là thịt, thực phẩm từ động vật dùng làm món ăn."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "我买了一斤肉。",
-            "vi": "Tôi mua một cân thịt.",
-            "analysis": "一斤 là lượng, 肉 đứng sau đơn vị.",
+            "zh": "我不吃肉。",
+            "pinyin": "Wǒ bù chī ròu.",
+            "vi": "Tôi không ăn thịt.",
+            "analysis": "肉 là thịt, đứng sau 吃 làm thức ăn.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "我不吃肉。",
-            "vi": "Tôi không ăn thịt.",
-            "analysis": "不 đứng trước 吃 để phủ định.",
+            "zh": "桌子上有一盘肉。",
+            "pinyin": "Zhuōzi shàng yǒu yì pán ròu.",
+            "vi": "Trên bàn có một đĩa thịt.",
+            "analysis": "肉 có thể đi với lượng từ 盘 khi nói một đĩa.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Số + đơn vị + 肉; 不 + 吃 + 肉",
-            "position": "Đơn vị đứng trước 肉; 不 đứng trước hành động 吃.",
-            "required": "Nêu cân lượng trước 肉; loại thịt đứng trước 肉.",
-            "omission": "Có thể bỏ chủ ngữ khi ngữ cảnh rõ.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "肉 và 菜: thịt hay món ăn/rau",
-            "scene": "Bạn đi chợ mua thịt nấu bữa tối.",
-            "possibleConfusion": "肉 nói riêng về thịt; 菜 có thể là rau hoặc món ăn, kể cả món có thịt.",
-            "difference": "肉 nói riêng về thịt; 菜 có thể là rau hoặc món ăn, kể cả món có thịt.",
-            "cases": [
+            "id": "meat",
+            "title": "Thịt",
+            "when": "Nói về thịt dùng làm thực phẩm.",
+            "meaning": "thịt",
+            "grammar": "Có thể đứng sau 吃 hoặc sau lượng từ chỉ món/đĩa.",
+            "pattern": "吃+肉；一+盘+肉",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
                 "zh": "我不吃肉。",
+                "pinyin": "Wǒ bù chī ròu.",
                 "vi": "Tôi không ăn thịt.",
-                "comment": "Nói riêng về thịt.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "note": "肉 là thức ăn."
               },
               {
-                "id": "c2",
-                "zh": "我想吃这个菜。",
-                "vi": "Tôi muốn ăn món này.",
-                "comment": "菜 là món ăn, có thể có thịt.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "桌子上有一盘肉。",
+                "pinyin": "Zhuōzi shàng yǒu yì pán ròu.",
+                "vi": "Trên bàn có một đĩa thịt.",
+                "note": "一盘肉 là một đĩa thịt."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi 肉 thành 菜 làm ý rộng hơn “không ăn món/rau”, không còn khẳng định tránh thịt."
-            },
-            "boundary": "肉 không mặc định chỉ thịt heo.",
-            "tip": "Thịt: 肉; món trên bàn: 菜."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "Đã rà nghĩa và cách đọc thông dụng; không thêm nghĩa hiếm không cần thiết cho bài.",
-          "literalTranslation": "Không suy nghĩa bằng cách dịch từng chữ; chọn nghĩa theo cách kết hợp và tình huống.",
-          "confusables": "肉 nói riêng về thịt; 菜 có thể là rau hoặc món ăn, kể cả món có thịt."
-        },
-        "pronunciation": {
-          "text": "肉 là thanh bốn; giữ âm cuối u. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "“Một cân thịt”: 我买了一___肉。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Muốn nói không ăn thịt: 我不吃___。"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "斤"
-            ],
-            "explanation": "斤 là đơn vị cân."
-          },
-          "q2": {
-            "accepted": [
-              "肉"
-            ],
-            "explanation": "Nói riêng về thịt."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói bạn mua một cân thịt."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói bạn không ăn thịt."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我买了一斤肉。",
-            "model": "我买了一斤肉。",
-            "vi": "Tôi mua một cân thịt.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
             ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我不吃肉。",
+          }
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi không ăn thịt.",
+            "tokens": [
+              "我",
+              "不吃",
+              "肉",
+              "。"
+            ],
+            "accepted": [
+              "我不吃肉。"
+            ],
+            "model": "我不吃肉。",
+            "explanation": "肉 đứng sau 吃.",
+            "wrongFeedback": "Đặt thức ăn sau động từ 吃."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "meat",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là thịt.",
+            "choices": [
+              "肉",
+              "水"
+            ],
+            "correctIndex": 0,
+            "model": "肉",
+            "explanation": "肉 là thịt.",
+            "wrongFeedback": "水 là nước."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn không ăn thịt.",
+            "hints": [
+              "Nêu phủ định: 我不吃.",
+              "Thêm 肉.",
+              "Mẫu: 我不吃肉。"
+            ],
             "model": "我不吃肉。",
             "vi": "Tôi không ăn thịt.",
             "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
+              "Dùng đúng 肉."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=36009&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là thịt?",
+            "hiddenAnswer": "肉",
+            "model": "肉"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我不吃__。",
+            "hiddenAnswer": "肉",
+            "model": "我不吃肉。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi không ăn thịt.",
+            "choices": [
+              "我",
+              "不吃",
+              "肉",
+              "。"
+            ],
+            "correct": [
+              "我不吃肉。"
+            ],
+            "explanation": "肉 đứng sau 吃."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là thịt.",
+            "choices": [
+              "肉",
+              "水"
+            ],
+            "correctIndex": 0,
+            "explanation": "肉 là thịt."
+          }
+        }
       }
     },
     {
@@ -21493,173 +21567,180 @@
       "meaning": "hoa",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
       "examples": [
         {
           "id": "e1",
-          "zh": "我买了一朵花。",
-          "vi": "Tôi mua một bông hoa.",
-          "analysis": "一朵 là lượng từ thường dùng cho hoa.",
+          "zh": "桌子上有一朵花。",
+          "pinyin": "Zhuōzi shàng yǒu yì duǒ huā.",
+          "vi": "Trên bàn có một bông hoa.",
+          "analysis": "花 là hoa; 朵 là lượng từ cho hoa.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "我花一个小时学中文。",
-          "vi": "Tôi dành một giờ học tiếng Trung.",
-          "analysis": "花 đứng trước khoảng thời gian.",
+          "zh": "我喜欢花。",
+          "pinyin": "Wǒ xǐhuan huā.",
+          "vi": "Tôi thích hoa.",
+          "analysis": "花 có thể nói chung về hoa như một loại thực vật/quà tặng.",
           "practiceAllowed": true
         }
       ],
       "sourceIndex": 59,
       "meaningOrigin": "biên soạn bổ sung",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn mua một bông hoa.",
-      "model": "我买了一朵花。",
+      "task": "Nói trên bàn có một bông hoa.",
+      "model": "桌子上有一朵花。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 80,
+        "difficulty": "easy",
+        "difficultyReason": "花 là danh từ cơ bản với lượng từ 朵 và mẫu tồn tại rõ.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Flowers"
+        ],
         "introduction": {
-          "scope": "花 là hoa của cây; 花钱、花时间 là cách dùng động từ tiêu/dành."
-        },
-        "meaning": {
-          "scene": "Bạn mua một bông hoa tặng người nhà.",
-          "explanation": "Đếm hoa dùng 朵. Khi 花 đứng trước 钱 hoặc 时间, nghĩa là tiêu hoặc dành.",
-          "boundary": "Nhìn lượng từ và từ đứng sau để phân biệt danh từ hoa với động từ 花.",
-          "conditions": [
-            "Dùng 朵 để đếm bông; 花时间/花钱 nói tiêu tốn."
-          ],
-          "takeaway": "Đếm hoa dùng 朵. Khi 花 đứng trước 钱 hoặc 时间, nghĩa là tiêu hoặc dành."
+          "scope": "花 nghĩa là hoa, bông hoa hoặc cây hoa tùy ngữ cảnh."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "我买了一朵花。",
-            "vi": "Tôi mua một bông hoa.",
-            "analysis": "一朵 là lượng từ thường dùng cho hoa.",
+            "zh": "桌子上有一朵花。",
+            "pinyin": "Zhuōzi shàng yǒu yì duǒ huā.",
+            "vi": "Trên bàn có một bông hoa.",
+            "analysis": "花 là hoa; 朵 là lượng từ cho hoa.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "我花一个小时学中文。",
-            "vi": "Tôi dành một giờ học tiếng Trung.",
-            "analysis": "花 đứng trước khoảng thời gian.",
+            "zh": "我喜欢花。",
+            "pinyin": "Wǒ xǐhuan huā.",
+            "vi": "Tôi thích hoa.",
+            "analysis": "花 có thể nói chung về hoa như một loại thực vật/quà tặng.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Số + 朵 + 花; 花 + tiền/thời gian",
-            "position": "朵 giữa số và 花; 花 đứng trước 钱/时间 khi là động từ.",
-            "required": "Dùng 朵 để đếm bông; 花时间/花钱 nói tiêu tốn.",
-            "omission": "Không nêu số bông thì có thể nói 买花.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "花 là bông hoa hay tiêu/dành",
-            "scene": "Bạn mua một bông hoa tặng người nhà.",
-            "possibleConfusion": "一朵花 dùng 花 làm danh từ; 花钱、花时间 dùng 花 làm động từ.",
-            "difference": "一朵花 dùng 花 làm danh từ; 花钱、花时间 dùng 花 làm động từ.",
-            "cases": [
+            "id": "flower",
+            "title": "Hoa",
+            "when": "Nói về một bông hoa hoặc hoa nói chung.",
+            "meaning": "hoa",
+            "grammar": "Có thể dùng sau lượng từ 朵 hoặc làm tân ngữ.",
+            "pattern": "一/这+朵+花；喜欢+花",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "桌上有一朵花。",
+                "zh": "桌子上有一朵花。",
+                "pinyin": "Zhuōzi shàng yǒu yì duǒ huā.",
                 "vi": "Trên bàn có một bông hoa.",
-                "comment": "朵 cho thấy 花 là danh từ.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "note": "一朵花 là một bông hoa."
               },
               {
-                "id": "c2",
-                "zh": "我花一个小时做饭。",
-                "vi": "Tôi dành một giờ nấu ăn.",
-                "comment": "花 đứng trước thời lượng.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我喜欢花。",
+                "pinyin": "Wǒ xǐhuan huā.",
+                "vi": "Tôi thích hoa.",
+                "note": "Nói chung về hoa."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Trong 花一个小时, 花 là động từ; dịch là bông hoa sẽ không phù hợp cấu trúc thời lượng."
-            },
-            "boundary": "Nhìn lượng từ và từ đứng sau để phân biệt danh từ hoa với động từ 花.",
-            "tip": "Có 朵: bông hoa; theo sau là tiền/thời gian: tiêu hoặc dành."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "Đã rà nghĩa và cách đọc thông dụng; không thêm nghĩa hiếm không cần thiết cho bài.",
-          "literalTranslation": "Không suy nghĩa bằng cách dịch từng chữ; chọn nghĩa theo cách kết hợp và tình huống.",
-          "confusables": "一朵花 dùng 花 làm danh từ; 花钱、花时间 dùng 花 làm động từ."
-        },
-        "pronunciation": {
-          "text": "花 là thanh một, giữ giọng cao ngang. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Điền lượng từ: 一___花。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Trong 我花两个小时学习, 花 nghĩa là gì?"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "朵"
-            ],
-            "explanation": "朵 đếm hoa."
-          },
-          "q2": {
-            "accepted": [
-              "Dành thời gian"
-            ],
-            "explanation": "花 đứng trước thời lượng."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói bạn mua một bông hoa."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói bạn dành một giờ học tiếng Trung."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我买了一朵花。",
-            "model": "我买了一朵花。",
-            "vi": "Tôi mua một bông hoa.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我花一个小时学中文。",
-            "model": "我花一个小时学中文。",
-            "vi": "Tôi dành một giờ học tiếng Trung.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20030&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Một bông hoa.",
+            "tokens": [
+              "一朵",
+              "花",
+              "。"
+            ],
+            "accepted": [
+              "一朵花。"
+            ],
+            "model": "一朵花。",
+            "explanation": "朵 đứng trước 花.",
+            "wrongFeedback": "Dùng lượng từ 朵 cho hoa."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "flower",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là hoa.",
+            "choices": [
+              "花",
+              "树"
+            ],
+            "correctIndex": 0,
+            "model": "花",
+            "explanation": "花 là hoa; 树 là cây.",
+            "wrongFeedback": "Phân biệt hoa với cây."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói trên bàn có một bông hoa.",
+            "hints": [
+              "Nêu vị trí: 桌子上.",
+              "Dùng 有一朵花.",
+              "Mẫu: 桌子上有一朵花。"
+            ],
+            "model": "桌子上有一朵花。",
+            "vi": "Trên bàn có một bông hoa.",
+            "criteria": [
+              "Dùng đúng 花 và 朵."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là hoa?",
+            "hiddenAnswer": "花",
+            "model": "花"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 一朵__。",
+            "hiddenAnswer": "花",
+            "model": "一朵花。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Một bông hoa.",
+            "choices": [
+              "一朵",
+              "花",
+              "。"
+            ],
+            "correct": [
+              "一朵花。"
+            ],
+            "explanation": "朵 đứng trước 花."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là hoa.",
+            "choices": [
+              "花",
+              "树"
+            ],
+            "correctIndex": 0,
+            "explanation": "花 là hoa."
+          }
+        }
       }
     },
     {
@@ -21675,173 +21756,180 @@
       "meaning": "trà; nước trà",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
       "examples": [
         {
           "id": "e1",
-          "zh": "我想喝茶。",
-          "vi": "Tôi muốn uống trà.",
-          "analysis": "茶 đứng sau động từ 喝.",
+          "zh": "请喝茶。",
+          "pinyin": "Qǐng hē chá.",
+          "vi": "Mời uống trà.",
+          "analysis": "请 đứng trước 喝 để tạo lời mời lịch sự.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "请给我一杯茶。",
-          "vi": "Làm ơn cho tôi một tách trà.",
-          "analysis": "一杯茶 là lượng + đồ uống.",
+          "zh": "我喜欢喝茶。",
+          "pinyin": "Wǒ xǐhuan hē chá.",
+          "vi": "Tôi thích uống trà.",
+          "analysis": "茶 là đồ uống sau 喝.",
           "practiceAllowed": true
         }
       ],
       "sourceIndex": 60,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Gọi một tách trà.",
-      "model": "请给我一杯茶。",
+      "task": "Mời bạn uống trà.",
+      "model": "请喝茶。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 81,
+        "difficulty": "easy",
+        "difficultyReason": "茶 là danh từ đồ uống cơ bản, với mẫu 喝茶 và lời mời 请喝茶 rõ ràng.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Tea"
+        ],
         "introduction": {
-          "scope": "茶 chỉ lá trà hoặc đồ uống pha từ trà; gọi tách trà dùng 杯."
-        },
-        "meaning": {
-          "scene": "Bạn gọi một tách trà ở quán.",
-          "explanation": "Uống trà nói 喝茶. Đếm tách dùng 杯; nước lọc là 水, cà phê là 咖啡.",
-          "boundary": "茶 không phải từ chung chỉ mọi đồ uống.",
-          "conditions": [
-            "Dùng 杯 cho tách trà."
-          ],
-          "takeaway": "Uống trà nói 喝茶. Đếm tách dùng 杯; nước lọc là 水, cà phê là 咖啡."
+          "scope": "茶 nghĩa là trà, đồ uống làm từ lá trà hoặc chỉ việc uống trà."
         },
         "examples": [
           {
             "id": "e1",
-            "zh": "我想喝茶。",
-            "vi": "Tôi muốn uống trà.",
-            "analysis": "茶 đứng sau động từ 喝.",
+            "zh": "请喝茶。",
+            "pinyin": "Qǐng hē chá.",
+            "vi": "Mời uống trà.",
+            "analysis": "请 đứng trước 喝 để tạo lời mời lịch sự.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "请给我一杯茶。",
-            "vi": "Làm ơn cho tôi một tách trà.",
-            "analysis": "一杯茶 là lượng + đồ uống.",
+            "zh": "我喜欢喝茶。",
+            "pinyin": "Wǒ xǐhuan hē chá.",
+            "vi": "Tôi thích uống trà.",
+            "analysis": "茶 là đồ uống sau 喝.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "喝 + 茶; số + 杯 + 茶",
-            "position": "茶 sau 喝; 杯 đứng trước 茶 khi đếm.",
-            "required": "Dùng 杯 cho tách trà.",
-            "omission": "Có thể gọi 茶 khi quán đã rõ.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "茶 và 水: gọi đúng đồ uống",
-            "scene": "Bạn gọi một tách trà ở quán.",
-            "possibleConfusion": "Cùng có thể gọi sau 喝, nhưng 茶 là trà, 水 là nước thường; thay từ sẽ đổi món.",
-            "difference": "Cùng dùng 喝 nhưng 茶 là trà, 水 là nước, 咖啡 là cà phê.",
-            "cases": [
+            "id": "tea",
+            "title": "Trà",
+            "when": "Nói về trà hoặc việc uống trà.",
+            "meaning": "trà",
+            "grammar": "茶 đứng sau 喝 hoặc làm tân ngữ của 喜欢.",
+            "pattern": "喝+茶；喜欢+喝茶",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
-                "zh": "我想喝茶。",
-                "vi": "Tôi muốn uống trà.",
-                "comment": "茶 là trà.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "请喝茶。",
+                "pinyin": "Qǐng hē chá.",
+                "vi": "Mời uống trà.",
+                "note": "Lời mời lịch sự."
               },
               {
-                "id": "c2",
-                "zh": "我想喝水。",
-                "vi": "Tôi muốn uống nước.",
-                "comment": "水 không nói đến trà.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我喜欢喝茶。",
+                "pinyin": "Wǒ xǐhuan hē chá.",
+                "vi": "Tôi thích uống trà.",
+                "note": "喜欢喝茶 là thích uống trà."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi 茶 thành 水 vẫn đúng ngữ pháp nhưng đổi món gọi."
-            },
-            "boundary": "茶 không phải từ chung chỉ mọi đồ uống.",
-            "tip": "Giữ 喝, chọn 茶、水、咖啡 theo món."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "茶 đọc theo phần giới thiệu; chưa thấy đa âm/đa nghĩa thông dụng cần nêu ở mức này.",
-          "literalTranslation": "Không dịch 茶 theo từng chữ Hán Việt; dùng 茶 cho trà, 水 cho nước thường.",
-          "confusables": "Cùng dùng với 喝; phân biệt theo món người nói muốn gọi."
-        },
-        "pronunciation": {
-          "text": "茶 là thanh hai; âm đầu ch bật hơi nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Điền lượng từ: 一___茶。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Muốn gọi trà, chọn 茶 hay 水: 请给我一杯___。"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "杯"
-            ],
-            "explanation": "杯 đếm tách/cốc."
-          },
-          "q2": {
-            "accepted": [
-              "茶"
-            ],
-            "explanation": "Món gọi là trà."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Gọi một tách trà."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói sau giờ làm bạn muốn uống trà."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "请给我一杯茶。",
-            "model": "请给我一杯茶。",
-            "vi": "Làm ơn cho tôi một tách trà.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "下班后我想喝茶。",
-            "model": "下班后我想喝茶。",
-            "vi": "Sau giờ làm tôi muốn uống trà.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31581&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Mời uống trà.",
+            "tokens": [
+              "请",
+              "喝茶",
+              "。"
+            ],
+            "accepted": [
+              "请喝茶。"
+            ],
+            "model": "请喝茶。",
+            "explanation": "请 đứng trước cụm 喝茶.",
+            "wrongFeedback": "Dùng 请 để mở đầu lời mời."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "tea",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là trà.",
+            "choices": [
+              "茶",
+              "水"
+            ],
+            "correctIndex": 0,
+            "model": "茶",
+            "explanation": "茶 là trà; 水 là nước.",
+            "wrongFeedback": "Phân biệt trà với nước."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Mời bạn uống trà.",
+            "hints": [
+              "Mở đầu bằng 请.",
+              "Dùng 喝茶.",
+              "Mẫu: 请喝茶。"
+            ],
+            "model": "请喝茶。",
+            "vi": "Mời uống trà.",
+            "criteria": [
+              "Dùng đúng 茶."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là trà?",
+            "hiddenAnswer": "茶",
+            "model": "茶"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 请喝__。",
+            "hiddenAnswer": "茶",
+            "model": "请喝茶。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Mời uống trà.",
+            "choices": [
+              "请",
+              "喝茶",
+              "。"
+            ],
+            "correct": [
+              "请喝茶。"
+            ],
+            "explanation": "请 đứng trước 喝茶."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là trà.",
+            "choices": [
+              "茶",
+              "水"
+            ],
+            "correctIndex": 0,
+            "explanation": "茶 là trà."
+          }
+        }
       }
     },
     {
@@ -21857,173 +21945,213 @@
       "meaning": "món ăn; rau",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-007",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 016",
       "examples": [
         {
           "id": "e1",
           "zh": "这个菜很好吃。",
+          "pinyin": "Zhège cài hěn hǎochī.",
           "vi": "Món này rất ngon.",
-          "analysis": "这个菜 là món được chỉ; 很好吃 miêu tả vị.",
+          "analysis": "菜 có thể là món ăn cụ thể.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "下班后我去买菜。",
-          "vi": "Tan ca tôi đi mua rau/thực phẩm.",
-          "analysis": "买菜 là cụm quen thuộc chỉ mua đồ ăn để nấu.",
+          "zh": "我不喜欢吃菜。",
+          "pinyin": "Wǒ bù xǐhuan chī cài.",
+          "vi": "Tôi không thích ăn rau.",
+          "analysis": "菜 cũng có thể chỉ rau/thức ăn thực vật tùy ngữ cảnh.",
           "practiceAllowed": true
         }
       ],
       "sourceIndex": 61,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Khen món đang ăn.",
+      "task": "Nói món ăn này ngon.",
       "model": "这个菜很好吃。",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 82,
+        "difficulty": "medium",
+        "difficultyReason": "菜 có thể là món ăn hoặc rau/thức ăn thực vật; cần dựa vào động từ và ngữ cảnh để dịch tự nhiên.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Food_and_vegetables"
+        ],
         "introduction": {
-          "scope": "菜 có thể là món đã nấu hoặc rau; ngữ cảnh bữa ăn hay đi chợ quyết định."
-        },
-        "meaning": {
-          "scene": "Bạn khen món ăn ở quán.",
-          "explanation": "这个菜 ở bàn ăn thường là món này; 买菜 thường là mua rau/thực phẩm để nấu. 蔬菜 nói rõ rau củ.",
-          "boundary": "Món 菜 có thể làm từ rau hoặc có thịt; 菜 và 肉 không loại trừ nhau.",
-          "conditions": [
-            "Ở bàn ăn 菜 thường là món; trong 买菜 thường là rau/thực phẩm."
-          ],
-          "takeaway": "这个菜 ở bàn ăn thường là món này; 买菜 thường là mua rau/thực phẩm để nấu. 蔬菜 nói rõ rau củ."
+          "scope": "菜 nghĩa là món ăn đã nấu hoặc rau/thức ăn thực vật trong bữa ăn tùy ngữ cảnh."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "这个菜很好吃。",
+            "pinyin": "Zhège cài hěn hǎochī.",
             "vi": "Món này rất ngon.",
-            "analysis": "这个菜 là món được chỉ; 很好吃 miêu tả vị.",
+            "analysis": "菜 có thể là món ăn cụ thể.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "下班后我去买菜。",
-            "vi": "Tan ca tôi đi mua rau/thực phẩm.",
-            "analysis": "买菜 là cụm quen thuộc chỉ mua đồ ăn để nấu.",
+            "zh": "我不喜欢吃菜。",
+            "pinyin": "Wǒ bù xǐhuan chī cài.",
+            "vi": "Tôi không thích ăn rau.",
+            "analysis": "菜 cũng có thể chỉ rau/thức ăn thực vật tùy ngữ cảnh.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "这个/那个 + 菜; 去 + 买菜",
-            "position": "菜 sau từ chỉ định; 买菜 theo sau 去.",
-            "required": "Ở bàn ăn 菜 thường là món; trong 买菜 thường là rau/thực phẩm.",
-            "omission": "Có thể bỏ 菜 khi đã chỉ rõ món.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "菜: món ăn hay rau",
-            "scene": "Bạn khen món ăn ở quán.",
-            "possibleConfusion": "菜 có thể chỉ món ăn cụ thể hoặc rau/thực phẩm khi nói 买菜; phải nhìn cụm và tình huống.",
-            "difference": "这个菜 thường là món đang được nói tới; 买菜 thường là đi mua rau/thực phẩm để nấu. Muốn nói rõ rau củ có thể dùng 蔬菜.",
-            "cases": [
+            "id": "food",
+            "title": "Món ăn; rau",
+            "when": "Nói về món đã nấu hoặc rau/thức ăn thực vật trên bàn ăn.",
+            "meaning": "món ăn; rau",
+            "grammar": "菜 đứng sau 这个 để chỉ món; sau 吃 có thể hiểu là rau/thức ăn.",
+            "pattern": "这个+菜；吃+菜",
+            "collocations": [],
+            "examples": [
               {
-                "id": "c1",
                 "zh": "这个菜很好吃。",
+                "pinyin": "Zhège cài hěn hǎochī.",
                 "vi": "Món này rất ngon.",
-                "comment": "这个菜 chỉ món ăn cụ thể trong bữa.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "note": "这个菜 là món này."
               },
               {
-                "id": "c2",
-                "zh": "我下班后去买菜。",
-                "vi": "Tan làm tôi đi mua rau/thực phẩm.",
-                "comment": "买菜 là cụm thông dụng chỉ đi mua đồ ăn để nấu.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "我不喜欢吃菜。",
+                "pinyin": "Wǒ bù xǐhuan chī cài.",
+                "vi": "Tôi không thích ăn rau.",
+                "note": "吃菜 trong ngữ cảnh này là ăn rau."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "dish",
+            "afterSense": "food",
+            "title": "菜 không chỉ có nghĩa rau",
+            "explanation": "Khi nói 这个菜 hoặc 菜很好吃, 菜 thường là món ăn; trong ngữ cảnh ăn uống nói chung, 吃菜 có thể được hiểu là ăn rau.",
+            "contrasts": [
+              {
+                "zh": "这个菜很好吃。",
+                "pinyin": "Zhège cài hěn hǎochī.",
+                "vi": "Món này rất ngon.",
+                "note": "菜 là món ăn."
+              },
+              {
+                "zh": "多吃菜。",
+                "pinyin": "Duō chī cài.",
+                "vi": "Ăn nhiều rau nhé.",
+                "note": "菜 được hiểu là rau/thức ăn thực vật."
               }
             ],
-            "replacement": {
-              "result": "context-needed",
-              "explanation": "我买了菜 có thể chỉ mua rau/thực phẩm; muốn chắc là món ăn đã nấu thì cần ngữ cảnh hoặc nói rõ."
-            },
-            "boundary": "菜 không luôn chỉ riêng rau; cách hiểu “món” hay “rau/thực phẩm” phụ thuộc kết hợp và tình huống.",
-            "tip": "这个菜 thường là món; 买菜 thường là đi mua đồ ăn để nấu."
+            "tip": "Xem 菜 đang được chỉ ra như một món hay được khuyên ăn trong nhóm rau."
           }
         ],
-        "trapReview": {
-          "readingsAndMeanings": "菜 đọc theo phần giới thiệu; chưa thấy cách đọc thông dụng khác cần dạy.",
-          "literalTranslation": "Không dịch 菜 cố định thành 'rau' hay 'món'; xem đang nói bàn ăn hay mua đồ.",
-          "confusables": "这个菜 thường là món trong bữa; 买菜 thường là đi mua rau/thực phẩm."
-        },
-        "pronunciation": {
-          "text": "菜 là thanh bốn, đọc gọn xuống giọng. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Muốn nói rõ rau củ, chọn 菜 hay 蔬菜?"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "“Món này ngon”: 这个___很好吃。"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "蔬菜"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Món này rất ngon.",
+            "tokens": [
+              "这个菜",
+              "很好吃",
+              "。"
             ],
-            "explanation": "蔬菜 nói rõ rau củ."
+            "accepted": [
+              "这个菜很好吃。"
+            ],
+            "model": "这个菜很好吃。",
+            "explanation": "这个菜 là món này.",
+            "wrongFeedback": "Giữ 菜 sau 这个 để chỉ món ăn."
           },
-          "q2": {
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 多吃____。",
             "accepted": [
               "菜"
             ],
-            "explanation": "Đang chỉ món đã nấu."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Khen món đang ăn."
-          },
-          {
-            "id": "s2",
-            "prompt": "Kể tan ca bạn đi mua rau."
+            "model": "多吃菜。",
+            "explanation": "Trong lời khuyên ăn uống, 菜 có thể là rau.",
+            "wrongFeedback": "Điền từ chỉ rau/thức ăn thực vật."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "这个菜很好吃。",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "dish",
+            "type": "choice",
+            "prompt": "Trong câu 这个菜很好吃, dịch 菜 tự nhiên là gì?",
+            "choices": [
+              "món ăn",
+              "cái cây"
+            ],
+            "correctIndex": 0,
+            "model": "món ăn",
+            "explanation": "Có 这个 và 很好吃 nên 菜 là món ăn.",
+            "wrongFeedback": "Dựa vào ngữ cảnh món được nếm."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói món này rất ngon.",
+            "hints": [
+              "Chỉ món: 这个菜.",
+              "Thêm 很好吃.",
+              "Mẫu: 这个菜很好吃。"
+            ],
             "model": "这个菜很好吃。",
             "vi": "Món này rất ngon.",
             "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "下班后我去买菜。",
-            "model": "下班后我去买菜。",
-            "vi": "Tan ca tôi đi mua rau.",
-            "criteria": [
-              "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
-              "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
+              "Dịch 菜 theo ngữ cảnh là món ăn."
             ]
           }
-        },
-        "authorship": "Biên soạn V2; tự rà soát ngôn ngữ, chưa phản biện giáo viên độc lập.",
-        "sources": [
-          "https://dict.concised.moe.edu.tw/dictView.jsp?ID=38024&la=0&powerMode=0",
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào có thể nghĩa là món ăn hoặc rau?",
+            "hiddenAnswer": "菜",
+            "model": "菜"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 这个菜很好__。",
+            "hiddenAnswer": "吃",
+            "model": "这个菜很好吃。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Món này rất ngon.",
+            "choices": [
+              "这个菜",
+              "很好吃",
+              "。"
+            ],
+            "correct": [
+              "这个菜很好吃。"
+            ],
+            "explanation": "这个菜 là món này."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Trong câu 这个菜很好吃, dịch 菜 tự nhiên là gì?",
+            "choices": [
+              "món ăn",
+              "cái cây"
+            ],
+            "correctIndex": 0,
+            "explanation": "菜 là món ăn trong ngữ cảnh này."
+          }
+        }
       }
     },
     {
