@@ -1,0 +1,179 @@
+{
+  "id": "quality-revision-006",
+  "authorship": "Rà soát nội bộ theo chuẩn V3 nâng cao; chưa có phản biện độc lập của giáo viên thứ hai.",
+  "entries": [
+    {
+      "id": "hz-h1-15b6a3af5e33",
+      "hanzi": "对不起",
+      "cohortOrdinal": 11,
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "wordEdits": {"editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 11", "task": "Xin lỗi vì đã đến muộn hoặc làm người khác bất tiện.", "model": "对不起，我来晚了。"},
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, vai giao tiếp, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "confusions": [
+          {
+            "id": "reply",
+            "category": "C",
+            "afterSense": "apology",
+            "title": "对不起 và 没关系: xin lỗi hay đáp lời xin lỗi",
+            "possibleConfusion": "Hai cụm thường đi thành một cặp nên người học dễ chọn nhầm vai người nói.",
+            "explanation": "对不起 là lời của người gây lỗi hoặc bất tiện. 没关系 là lời của người nghe để nói rằng không sao.",
+            "difference": "Đổi từ không làm câu vô nghĩa về mặt hình thức nhưng đổi hoàn toàn vai giao tiếp: người nhận lỗi và người đáp lại.",
+            "boundary": "Nếu mình vừa đến muộn hoặc làm phiền, nói 对不起; nếu người kia xin lỗi mình, có thể đáp 没关系.",
+            "contrasts": [
+              {"zh": "对不起，我来晚了。", "pinyin": "Duìbuqǐ, wǒ lái wǎn le.", "vi": "Xin lỗi, tôi đến muộn.", "note": "Người đến muộn nhận lỗi."},
+              {"zh": "没关系。", "pinyin": "Méi guānxi.", "vi": "Không sao.", "note": "Người bị làm phiền đáp lại lời xin lỗi."}
+            ],
+            "tip": "Mình có lỗi: 对不起; người kia xin lỗi mình: 没关系."
+          },
+          {
+            "id": "apology-buka",
+            "category": "C",
+            "afterSense": "apology",
+            "title": "对不起 và 不好意思: mức xin lỗi và lời mở đầu",
+            "possibleConfusion": "Cả hai đều thường dịch là xin lỗi nên người học có thể thay máy móc trong mọi tình huống.",
+            "explanation": "对不起 thường là lời nhận lỗi rõ hơn. 不好意思 có thể là lời xin lỗi nhẹ, ngại ngùng hoặc lời mở đầu khi muốn làm phiền/hỏi điều gì.",
+            "difference": "Câu 对不起，我来晚了 nhận lỗi vì đến muộn; 不好意思，请问医院在哪儿？ chủ yếu làm lời mở đầu lịch sự khi hỏi đường.",
+            "boundary": "Khi đã gây lỗi rõ và cần nhận trách nhiệm, ưu tiên 对不起; khi chỉ ngại làm phiền hoặc xin phép hỏi, 不好意思 thường tự nhiên.",
+            "contrasts": [
+              {"zh": "对不起，我来晚了。", "pinyin": "Duìbuqǐ, wǒ lái wǎn le.", "vi": "Xin lỗi, tôi đến muộn.", "note": "Xin lỗi vì lỗi cụ thể."},
+              {"zh": "不好意思，请问医院在哪儿？", "pinyin": "Bù hǎoyìsi, qǐngwèn yīyuàn zài nǎr?", "vi": "Xin lỗi/làm phiền cho hỏi bệnh viện ở đâu ạ?", "note": "Lời mở đầu khi làm phiền để hỏi."}
+            ],
+            "tip": "Lỗi rõ cần nhận: 对不起; ngại làm phiền hoặc mở lời hỏi: 不好意思."
+          }
+        ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "对不起 có cách đọc thông dụng duìbuqǐ; không có cách đọc theo ngữ cảnh cần tách ở mức học này."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "Trong phạm vi giao tiếp cơ bản, 对不起 có chức năng chính là xin lỗi; các bản dịch xin lỗi, xin lỗi nhé thay đổi theo mức độ chứ không tạo nghĩa độc lập."},
+          "bLiteralTranslation": {"checked": true, "found": true, "summary": "Không nên dịch từng chữ để suy ra vai hội thoại; lỗi thực tế là dùng 对不起 như lời đáp ‘không sao’ hoặc dùng cho mọi lần mở lời, đã đối chiếu 没关系 và 不好意思."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã so sánh 对不起 với 没关系 và 不好意思 bằng các câu đúng, Pinyin, nghĩa Việt và ranh giới tình huống."}
+        }
+      }
+    },
+    {
+      "id": "hz-h1-b71f4cfff8c9",
+      "hanzi": "没关系",
+      "cohortOrdinal": 12,
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "wordEdits": {"editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 12", "task": "Đáp rằng không sao khi người khác xin lỗi hoặc lo đã gây phiền.", "model": "没关系。"},
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, vai giao tiếp, cấu trúc, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "confusions": [
+          {
+            "id": "thanks",
+            "category": "C",
+            "afterSense": "reassure",
+            "title": "没关系 và 不客气: đáp xin lỗi hay đáp cảm ơn",
+            "possibleConfusion": "Cả hai có thể được dịch là không sao/không có gì trong tiếng Việt.",
+            "explanation": "没关系 thường đáp 对不起 hoặc lời lo lắng; 不客气 đáp 谢谢 khi người kia cảm ơn.",
+            "difference": "Hai cụm đều đúng ngữ pháp nhưng gắn với hai lượt nói trước khác nhau.",
+            "boundary": "Nhìn từ ngay trước: 对不起 → 没关系; 谢谢 → 不客气.",
+            "contrasts": [
+              {"zh": "对不起。—没关系。", "pinyin": "Duìbuqǐ. — Méi guānxi.", "vi": "Xin lỗi. — Không sao.", "note": "Đáp lời xin lỗi."},
+              {"zh": "谢谢你。—不客气。", "pinyin": "Xièxie nǐ. — Bú kèqi.", "vi": "Cảm ơn bạn. — Không có gì.", "note": "Đáp lời cảm ơn."}
+            ],
+            "tip": "Xin lỗi thì 没关系; cảm ơn thì 不客气."
+          },
+          {
+            "id": "relation",
+            "category": "A2",
+            "afterSense": "reassure",
+            "title": "没关系 đứng riêng và 没关系 với …: không sao hay không liên quan",
+            "possibleConfusion": "Người học chỉ nhớ nghĩa ‘không sao’ nên bỏ qua cấu trúc nói một việc không liên quan đến ai.",
+            "explanation": "Đứng riêng, 没关系 thường trấn an người xin lỗi. Trong 我跟这件事没关系, cụm này nói người nói không liên quan đến việc đó.",
+            "difference": "Câu 没关系。là một lượt đáp xã giao; câu 这跟我没关系。có chủ thể và 这跟我, mô tả quan hệ giữa người/vật với sự việc.",
+            "boundary": "Đừng dùng câu đứng riêng để dịch mọi câu ‘không liên quan’; khi nêu quan hệ, cần khung 跟/和 + người + 没关系.",
+            "contrasts": [
+              {"zh": "对不起。—没关系。", "pinyin": "Duìbuqǐ. — Méi guānxi.", "vi": "Xin lỗi. — Không sao.", "note": "Lời đáp trấn an, không nêu đối tượng quan hệ."},
+              {"zh": "这跟我没关系。", "pinyin": "Zhè gēn wǒ méi guānxi.", "vi": "Việc này không liên quan đến tôi.", "note": "跟我 nêu rõ quan hệ ‘với tôi’."}
+            ],
+            "tip": "Đáp xin lỗi: 没关系; nói ‘không liên quan đến…’: …跟/和…没关系."
+          }
+        ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "没关系 có cách đọc thông dụng méi guānxi; 关系 thường đọc nhẹ ở âm tiết cuối trong cụm khẩu ngữ này, không tạo cách đọc/ nghĩa khác cần tách."},
+          "a2Meanings": {"checked": true, "found": true, "summary": "Đã kiểm tra hai chức năng thông dụng: đứng riêng để trấn an ‘không sao’ và nằm trong khung 跟/和 + người + 没关系 để nói ‘không liên quan’."},
+          "bLiteralTranslation": {"checked": true, "found": true, "summary": "Dịch ‘không có quan hệ’ máy móc sẽ sai khi đây là lời đáp xin lỗi; ngược lại dịch mọi câu thành ‘không sao’ sẽ sai khi có khung 跟/和 nêu quan hệ."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 没关系 với 不客气 theo lời trước và với cấu trúc 跟/和…没关系 theo chức năng."}
+        }
+      }
+    },
+    {
+      "id": "hz-h1-dadf7ffde866",
+      "hanzi": "再见",
+      "cohortOrdinal": 13,
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "wordEdits": {"editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 13", "task": "Chào tạm biệt trước khi rời đi.", "model": "再见。"},
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "再见 có cách đọc thông dụng zàijiàn; không có cách đọc phổ biến thứ hai theo ngữ cảnh ở mức học này."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "再见 có một chức năng lời chào tạm biệt; ‘hẹn gặp lại’ chỉ là cách dịch tự nhiên theo tình huống, không phải nghĩa độc lập cần tách."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không nên hiểu 再见 như lời hứa chắc chắn sẽ gặp lại; đây là công thức tạm biệt lịch sự, có thể dùng khi chưa biết lần gặp sau."},
+          "cConfusables": {"checked": true, "found": false, "summary": "Đã kiểm tra với 你好 và 谢谢; chưa thấy bẫy thông dụng cần lưu ý ở mức học này."}
+        }
+      }
+    },
+    {
+      "id": "hz-h1-d869fcbf074b",
+      "hanzi": "是",
+      "cohortOrdinal": 14,
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "wordEdits": {"editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 14", "task": "Nói bạn là học sinh/sinh viên và xác định một người hoặc vật.", "model": "我是学生。"},
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí nối danh từ, cấu trúc, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "confusions": [
+          {
+            "id": "adjective",
+            "category": "C",
+            "afterSense": "link",
+            "title": "是 đứng trước danh từ, không đứng trước tính từ thông thường",
+            "possibleConfusion": "Tiếng Việt dùng ‘là’ trong nhiều câu nên người học dễ dịch từng chữ ‘tôi là bận’.",
+            "explanation": "是 nối chủ thể với danh từ/cụm danh từ để xác định thân phận hoặc vật. Tính từ như 忙, 好 thường làm vị ngữ trực tiếp, có thể thêm 很, không thêm 是.",
+            "difference": "我是学生。đúng vì 学生 là danh từ; 我很忙。đúng vì 忙 là tính từ. 我是忙。không tự nhiên ở mức câu cơ bản.",
+            "boundary": "Sau 是 hãy kiểm tra thành phần là danh từ hay cụm danh từ; nếu là tính từ, dùng tính từ trực tiếp.",
+            "contrasts": [
+              {"zh": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "vi": "Tôi là học sinh/sinh viên.", "note": "是 nối 我 với danh từ 学生."},
+              {"zh": "我很忙。", "pinyin": "Wǒ hěn máng.", "vi": "Tôi rất bận.", "note": "忙 là tính từ, không cần 是."}
+            ],
+            "tip": "Danh từ sau chủ thể: dùng 是; tính từ làm vị ngữ: dùng tính từ trực tiếp, thường có 很."
+          },
+          {
+            "id": "affirmative",
+            "category": "A2",
+            "afterSense": "link",
+            "title": "是 trong câu xác định và 是的 trong câu đáp",
+            "possibleConfusion": "Người học chỉ nhớ 是 là ‘là’ nên không nhận ra 是的 có thể đáp ‘đúng/vâng’.",
+            "explanation": "Trong 我是学生, 是 là động từ nối. Trong 是的, nó là lời xác nhận ngắn, thường đứng riêng để đáp một nhận định hoặc câu hỏi.",
+            "difference": "Cả hai đều đúng nhưng chức năng khác: một cái nằm giữa chủ thể và danh từ, một cái là lượt đáp xác nhận.",
+            "boundary": "Không dùng 是的 thay cho 是 trong câu giới thiệu danh tính; không dùng 是 một mình nếu muốn nói trọn câu xác nhận lịch sự.",
+            "contrasts": [
+              {"zh": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "vi": "Tôi là sinh viên.", "note": "是 nối chủ thể với danh từ."},
+              {"zh": "是的。", "pinyin": "Shì de.", "vi": "Đúng vậy/vâng.", "note": "是的 là câu đáp xác nhận."}
+            ],
+            "tip": "Có chủ thể + danh từ thì 是 là ‘là’; đứng riêng trong lượt đáp, 是的 thường là ‘đúng/vâng’."
+          }
+        ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "是 có cách đọc thông dụng shì; không có cách đọc phổ biến thứ hai cần tách ở mức học này."},
+          "a2Meanings": {"checked": true, "found": true, "summary": "Đã kiểm tra hai chức năng thông dụng: 是 làm động từ nối trước danh từ và 是的 làm lời xác nhận trong lượt đáp."},
+          "bLiteralTranslation": {"checked": true, "found": true, "summary": "Bẫy dịch ‘là’ trước mọi vị ngữ khiến người học nói 我是忙; đã sửa bằng đối chiếu 我是学生 và 我很忙."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 是 với tính từ làm vị ngữ và với 是的 trong câu đáp; phân biệt câu sai/kém tự nhiên với câu đúng nhưng khác chức năng."}
+        }
+      }
+    }
+  ]
+}

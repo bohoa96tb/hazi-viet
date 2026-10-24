@@ -7,16 +7,16 @@
   "standardPath": "docs/CONTENT_STANDARD_V3.md",
   "historyCheckpointPath": "tools/vocabulary/v3-rewrite-checkpoint.json",
   "scopeTotal": 2224,
-  "reviewedThroughOrdinal": 10,
-  "nextOrdinal": 11,
-  "pendingReviewCount": 2214,
-  "passedCount": 10,
+  "reviewedThroughOrdinal": 14,
+  "nextOrdinal": 15,
+  "pendingReviewCount": 2210,
+  "passedCount": 14,
   "retainedCount": 0,
-  "rewrittenCount": 10,
+  "rewrittenCount": 14,
   "needsRevisionCount": 0,
   "difficultyCountsReviewed": {
-    "easy": 6,
-    "medium": 4,
+    "easy": 7,
+    "medium": 7,
     "hard": 0
   },
   "reviewedIds": [
@@ -29,7 +29,11 @@
     "hz-h1-84d9b4b03d4f",
     "hz-h1-0e7703e395dc",
     "hz-h1-722d36ebd9c0",
-    "hz-h1-3f50a387a499"
+    "hz-h1-3f50a387a499",
+    "hz-h1-15b6a3af5e33",
+    "hz-h1-b71f4cfff8c9",
+    "hz-h1-dadf7ffde866",
+    "hz-h1-d869fcbf074b"
   ],
   "passedIds": [
     "hz-h1-64d354d405bb",
@@ -41,7 +45,11 @@
     "hz-h1-84d9b4b03d4f",
     "hz-h1-0e7703e395dc",
     "hz-h1-722d36ebd9c0",
-    "hz-h1-3f50a387a499"
+    "hz-h1-3f50a387a499",
+    "hz-h1-15b6a3af5e33",
+    "hz-h1-b71f4cfff8c9",
+    "hz-h1-dadf7ffde866",
+    "hz-h1-d869fcbf074b"
   ],
   "retainedIds": [],
   "rewrittenIds": [
@@ -54,7 +62,11 @@
     "hz-h1-84d9b4b03d4f",
     "hz-h1-0e7703e395dc",
     "hz-h1-722d36ebd9c0",
-    "hz-h1-3f50a387a499"
+    "hz-h1-3f50a387a499",
+    "hz-h1-15b6a3af5e33",
+    "hz-h1-b71f4cfff8c9",
+    "hz-h1-dadf7ffde866",
+    "hz-h1-d869fcbf074b"
   ],
   "needsRevisionIds": [],
   "reviewRecords": [
@@ -131,6 +143,34 @@
       "result": "passed-after-rewrite",
       "difficulty": "medium",
       "reason": "Cụm đáp xã giao có vai giao tiếp rõ nhưng dễ nhầm với 没关系 và 对不起 khi dịch đều là không sao/không có gì."
+    },
+    {
+      "ordinal": 11,
+      "id": "hz-h1-15b6a3af5e33",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "Lời xin lỗi có cấu trúc trực tiếp nhưng cần phân biệt với 不好意思 và lời đáp 没关系."
+    },
+    {
+      "ordinal": 12,
+      "id": "hz-h1-b71f4cfff8c9",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "Cụm đáp có thể dịch là không sao nhưng phải phân biệt với 不客气, vốn đáp lời cảm ơn."
+    },
+    {
+      "ordinal": 13,
+      "id": "hz-h1-dadf7ffde866",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "Lời chào tạm biệt trực tiếp, cấu trúc và tình huống dùng rõ."
+    },
+    {
+      "ordinal": 14,
+      "id": "hz-h1-d869fcbf074b",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "是 có vai trò động từ nối và dễ bị dùng thừa trước tính từ khi người học dịch từng chữ từ tiếng Việt."
     }
   ],
   "previousDigests": {
@@ -148,11 +188,15 @@
     "hz-h1-84d9b4b03d4f": "112640e00568686e277a4226133ea1dfba0abe72ed34fb24ae19e5da48649e44",
     "hz-h1-0e7703e395dc": "f99563dffb14de5aa5c520edee3e090fe8381267c267b194997f84819c4aa9a0",
     "hz-h1-722d36ebd9c0": "90034a780921210ae7799c197e71ff397d4b4ffb98476c3772a0ff8f3fb71902",
-    "hz-h1-3f50a387a499": "580e9b3e62dcf25cbebdb694adff5c2ee93609a03fb449bba8eb872d4e9f8775"
+    "hz-h1-3f50a387a499": "580e9b3e62dcf25cbebdb694adff5c2ee93609a03fb449bba8eb872d4e9f8775",
+    "hz-h1-15b6a3af5e33": "8696341ea289a5f33836f7a3d7b106085e2905a47c2de99f3696611c6b796d09",
+    "hz-h1-b71f4cfff8c9": "1b24f858e0ff5826788c1b986bca05fa94f61063bb181b17e58e783a0de416e6",
+    "hz-h1-dadf7ffde866": "ce9d2cf1b3024159ae38df6bdb6a18fb9d703561e7d68e3047341b45330cf2ed",
+    "hz-h1-d869fcbf074b": "c0f99a61921877e6b4d608d80022482124960d33103b7aa4be457517f52c4ea7"
   },
   "sourceDigests": {
     "algorithm": "sha256",
-    "courseFile": "05c9d530fb7b8750a0e0161cfbc08b5474635b2b646a641a13bea3f6deb337e0",
+    "courseFile": "502517b34be998799134f56716e13a1f9959651b56dc5c939cbd43dc2783406e",
     "baselineFile": "253370b4136e5935982390cc472b1f577e992417c84d93cec82fad2cc1bec925",
     "standardFile": "59e0d0afad07989b9d14923cc33d0ad7639c912c9ed095d87764f9be4bb5c133",
     "agentsFile": "4db177889bc96362673db9f10388b9cf48e64262c0c2f7816344be7afe99fa83",
@@ -160,7 +204,7 @@
     "vocabularyScriptFile": "c1964505c084959aaa6ef403532408e341d8e41c92e3b89ed284f0d38f8a3ec4",
     "vocabularyHtmlFile": "38da4dea2a335e191b6d2a157f999f9f5305b04dce0e1b64f6fd24ca1bef9dd6",
     "domTestFile": "f1437324b917e1df0c273cd67926315c00f8c155adef03ccfdcf698b96530321",
-    "progressFile": "201a7524181f34148ab4838d3a72cc17ea65f7b7cb4e9fd337dd291dbd298bad"
+    "progressFile": "45541f6e77b7df4b4368527cea867d64c058fb743f258d8ec1fd9ef0474236fb"
   },
   "baselineIntegrity": {
     "completedPrefixLength": 91,
@@ -181,7 +225,7 @@
     "qualityRevision": "passed-internal"
   },
   "status": "validated-worktree",
-  "lastVerifiedRemoteCommit": "8f8aa17c911e2f2f57ff34abf5ac10fa59e237c2",
+  "lastVerifiedRemoteCommit": "8f40c371971b7c324c34e514c4111a419e5cb96c",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
     "pagesRunId": 40082625813,
@@ -196,5 +240,5 @@
     ]
   },
   "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
-  "lastBatch": "quality-revision-005"
+  "lastBatch": "quality-revision-006"
 }
