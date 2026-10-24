@@ -31,7 +31,7 @@ click('[data-action="favorite"]');assert.equal($('[data-action="favorite"]').get
 click('[data-action="close"]');assert(!$('#wordDialog').open);
 click('[data-level="1"]');
 $('#wordSearch').value='不用';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));assert(document.querySelector('[data-start="hz-h1-b51cd2090a80"]'));
-click('[data-start="hz-h1-b51cd2090a80"]');assert(body().includes('bù yòng'));click('[data-step="2"]');assert(body().includes('不用 / 不要'));click('[data-lesson-page="trap"][data-delta="1"]');assert(body().includes('不用 / 没用'));
+click('[data-start="hz-h1-b51cd2090a80"]');assert(body().includes('bù yòng'));click('[data-step="2"]');assert(body().includes('不用')&&body().includes('不要'));const trapNext=$('[data-lesson-page="trap"][data-delta="1"]');if(trapNext){trapNext.click();assert(body().includes('不用')&&body().includes('不要'));}
 click('[data-action="close"]');$('#wordSearch').value='';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
 // A protected V1 word can still be opened through the same application.
 const old=p.completedIds.find(id=>[1,2].includes(d.words.find(w=>w.id===id)?.lesson?.version));$('#wordSearch').value=d.words.find(w=>w.id===old).hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-start="'+old+'"]');assert($('#lessonBody'));click('[data-step="1"]');assert($('#lessonBody'));
