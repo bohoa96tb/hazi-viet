@@ -1,4 +1,4 @@
-# HAZI-VIET — chế độ tiếp tục nhanh
+# HAZI-VIET — quy trình biên soạn và kiểm định V3
 
 ## Nguồn và quyền
 GitHub `bohoa96tb/hazi-viet` là nguồn chính. Biên soạn trên `content/vocabulary-2224`, phát hành từ `main`.
@@ -7,7 +7,7 @@ Người dùng đã cho phép biên soạn, sửa dữ liệu/code cần thiết
 ## Mỗi khi người dùng nhắn “Tiếp tục”
 1. Đọc HEAD mới nhất của hai nhánh, file này và `checkpoint.json`. Ghim mọi lần đọc của đợt vào SHA đã quan sát. Không đọc lịch sử commit, toàn bộ mã nguồn, toàn bộ từ vựng hoặc phân tích lại kiến trúc thường lệ.
 2. Checkpoint gọn chỉ là chỉ mục dẫn đường; `progress.json` và baseline cố định `tools/vocabulary/baseline.json` vẫn là nguồn tiến độ. Đối chiếu sourceBlobs với blob SHA tại HEAD. Nếu khớp, dùng nextIds/nextOrdinal để đọc đúng dữ liệu cần làm. Nếu lệch, đọc lại các nguồn tiến độ và tái tạo checkpoint; không tin số cũ. Không dùng sourceSnapshotCommit làm HEAD hiện tại.
-3. Với V3, đọc `docs/CONTENT_STANDARD_V3.md`, schema V3 trong `docs/CONTENT_SCHEMA_V2.md` và chỉ các file liên quan đến đợt. V2 tiếp tục dùng `docs/CONTENT_STANDARD.md`. Trong cùng phiên chỉ đọc lại file nếu SHA đổi. Prompt/handoff/release là tài liệu tham khảo, không thay tiến độ hiện hành.
+3. Với V3, `docs/CONTENT_STANDARD_V3.md` là nguồn quy tắc nội dung duy nhất; schema chỉ mô tả hợp đồng dữ liệu, còn file này mô tả vận hành. Chỉ đọc các file liên quan đến đợt và không đọc lại khi SHA không đổi. Prompt/handoff/release là tài liệu tham khảo, không thay tiến độ hiện hành.
 4. Trong đợt kiểm định chất lượng, ưu tiên liên tục từ ordinal 1 theo `tools/vocabulary/v3-quality-revision-checkpoint.json` cho đến khi bắt kịp tiến độ cũ; không tiếp tục từ 92 chỉ vì checkpoint lịch sử đã ghi 91. Sau khi đợt kiểm định hoàn tất, dùng `tools/vocabulary/v3-rewrite-checkpoint.json` để tiếp tục biên soạn ID V3 chưa hoàn thành. Không dùng tiến độ V2 để nhảy tới 513. 10 mục ngoài baseline được quản lý riêng; toàn khóa 2.234 mục. Không nhầm ordinal với sourceIndex. Tự đánh giá DỄ/TRUNG BÌNH/KHÓ theo năm yếu tố trong chuẩn V3 và lưu lý do. Cỡ batch linh hoạt theo chất lượng; không bỏ qua ID, rút bài khó hay kéo dài bài dễ để đạt số lượng.
 5. V3 giữ đúng năm bước Hiểu → Ghép câu → Phân biệt → Tự dùng → Ôn nhớ; độ sâu theo từ, không theo khuôn `下`. Giữ ID, thứ tự, audio, nhấn Hanzi, dữ liệu và tiến độ trình duyệt. Không thêm bài phát âm/cấu tạo chữ riêng. Sửa bài đã đạt không tính là mục mới.
 6. Chạy kiểm thử cần thiết cho thay đổi và phần phụ thuộc. Dùng `node tools/vocabulary/process-batch.mjs apply <batch-path>` theo cú pháp công cụ hiện hành và `node tools/vocabulary/process-batch.mjs verify` khi thay nội dung/tiến độ: kiểm tra máy trên dữ liệu toàn khóa để bảo vệ hash/ID không phải yêu cầu đọc lại toàn bộ nội dung bằng mô hình. Kiểm schema/ngôn ngữ từng bài mới; kiểm renderer/audio/đáp án liên quan bằng công cụ hiện có. Chỉ kiểm cú pháp JS khi JS thay đổi; `git diff --check` cho diff. Thay tài liệu đơn thuần chỉ cần kiểm tài liệu/đường dẫn/checkpoint liên quan. Không chạy lại cùng kiểm thử đã đạt nếu không có thay đổi hoặc nghi vấn mới. Không gọi schema validation là phản biện giáo viên.
@@ -33,9 +33,9 @@ Mỗi lượt phải đọc HEAD mới nhất của hai nhánh, file này và ch
 
 Mỗi lượt “Tiếp tục” phải đọc `v3-quality-revision-checkpoint.json` và xử lý ordinal kế tiếp từ đầu baseline; không dùng số lượng batch trước làm giới hạn và không rút ngắn bài để tăng số lượng.
 
-## Đợt kiểm định chất lượng V3
+## Trách nhiệm kiểm định chất lượng V3
 
-Mỗi lượt “Tiếp tục” phải đọc `v3-quality-revision-checkpoint.json` và xử lý ordinal kế tiếp từ đầu baseline cho đến khi bắt kịp tiến độ cũ. Một bài đã đạt validator vẫn phải được rà nghĩa, từ loại, cấu trúc, Pinyin có dấu, bản dịch, độ tự nhiên, bẫy, đáp án, audio và cả năm bước hiển thị. Bài đạt chuẩn có thể giữ nguyên byte nội dung nhưng phải ghi bằng chứng trong checkpoint; sửa bài không tính thành mục mới. Không xóa hoặc đặt lại checkpoint biên soạn lịch sử.
+Mỗi lượt xử lý ordinal kế tiếp trong `v3-quality-revision-checkpoint.json` cho đến khi bắt kịp tiến độ biên soạn cũ. Theo chuẩn nội dung, phải rà nghĩa, từ loại, cấu trúc, Pinyin có dấu, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và cả năm bước hiển thị. Bài đạt có thể giữ nguyên nội dung nhưng phải ghi bằng chứng; sửa bài không tính là từ mới. Không xóa hoặc đặt lại checkpoint biên soạn lịch sử.
 
 ## Cổng an toàn trước cập nhật main
 
@@ -48,9 +48,7 @@ Mỗi lượt “Tiếp tục” phải đọc `v3-quality-revision-checkpoint.j
 
 ## Chuẩn chất lượng theo độ khó
 
-Bài 下 (ordinal 495) là chuẩn tham khảo vàng về chất lượng sư phạm và trải nghiệm, không phải khuôn cố định về độ dài, số nghĩa hay số câu. V3 không bị ràng buộc bởi số câu hoặc độ dài cũ của V2. Giữ đủ schema V3 và mức sàn luyện tập theo độ khó; chỉ thêm nội dung khi cần để người học hiểu và tự dùng đúng. Validator PASS chỉ xác nhận hợp đồng dữ liệu, không đồng nghĩa bài đã được kiểm định tốt về ngôn ngữ và giảng dạy.
-
-Mọi bài V3 phải ghi kết quả quét A1–A2–B–C trong `lesson.trapReview`: đã kiểm tra cách đọc, nhiều nghĩa, bẫy Hán Việt/dịch từng chữ và từ/cấu trúc gần nghĩa. Chỉ đưa bẫy thật vào `confusions[]`; nếu không có bẫy hữu ích, renderer hiện câu trạng thái chuẩn thay vì tạo mục rỗng.
+Áp dụng `docs/CONTENT_STANDARD_V3.md` cho toàn bộ tiêu chí nội dung. Bài 下 (ordinal 495) chỉ là chuẩn tham khảo về chất lượng sư phạm và trải nghiệm, không phải khuôn cố định về độ dài, số nghĩa hay số câu. Validator PASS chỉ xác nhận hợp đồng dữ liệu, không đồng nghĩa bài đã được kiểm định tốt về ngôn ngữ và giảng dạy. Quy tắc quét A1–A2–B–C, cách lưu `trapReview` và nguyên tắc chỉ đưa bẫy thật vào `confusions[]` được định nghĩa tại tài liệu chuẩn, không sao chép lại ở đây.
 
 ## Giải thích linh hoạt theo độ khó
 

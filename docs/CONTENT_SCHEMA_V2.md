@@ -2,7 +2,7 @@
 
 ## Hợp đồng V3 tổng quát
 
-`word.lesson.version === 3` dùng cho quá trình tái biên soạn từ đầu baseline; `hz-h2-b68721647e72` (下) là mẫu định hướng, không phải khuôn độ dài. Bộ nạp vẫn giữ nguyên đường V1/V2. V3 bỏ trường giảng riêng `pronunciation` và không render `shape` trong bài từ vựng; audio từ/câu và liên kết từng Hanzi sang trang phân tích độc lập vẫn giữ. Chuẩn biên tập đầy đủ nằm ở `CONTENT_STANDARD_V3.md`.
+`word.lesson.version === 3` dùng cho quá trình tái biên soạn từ đầu baseline; `hz-h2-b68721647e72` (下) là mẫu định hướng, không phải khuôn độ dài. Bộ nạp vẫn giữ nguyên đường V1/V2. V3 bỏ trường giảng riêng `pronunciation` và không render `shape` trong bài từ vựng; audio từ/câu và liên kết từng Hanzi sang trang phân tích độc lập vẫn giữ. Quy tắc biên tập, độ khó, bẫy và năm bước chỉ lấy từ `docs/CONTENT_STANDARD_V3.md`; phần này chỉ ghi hợp đồng dữ liệu và điểm phụ thuộc kỹ thuật.
 
 V3 tổ chức trực tiếp theo năm bước:
 
@@ -24,7 +24,7 @@ Validator V3 nằm ở `js/lesson-v3.js`, renderer ở `js/lesson-v3-view.js`, k
 - `examples[]`: đúng hai câu chính khác nhau; `id`, `zh`, `vi`, `analysis`, `practiceAllowed:true`. Tùy chọn `pinyin` ở câu minh họa khung; `targetParts` khi từ bị tách trong câu. Không có tab ví dụ lặp.
 - `traps[]`: `id`, `title`, `scene`, `possibleConfusion`, `difference`, `cases[]`, `replacement:{result,explanation}`, `boundary`, `tip`. Mỗi case có `id`, `zh`, `vi`, `comment`, `judgment`, `practiceAllowed:false`; có thể thêm `pinyin` để hiển thị cách đọc của câu đối chiếu. Pinyin này không được đưa vào TTS. Nhãn đúng/ngữ pháp sai/đổi nghĩa/không hợp ý/kém tự nhiên/gần nghĩa/cần ngữ cảnh được phân biệt. Case sai cần `corrections[]` có `caseId,zh,vi,reason`; cảnh báo trước khi TTS đọc. Không đưa case vào immersion/nhắc lại.
 - `traps: []` hợp lệ khi không có bẫy hữu ích; giữ `noTrapReason: "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này."` và đủ kết quả rà soát. Độ dài giải thích thay đổi theo độ khó, số thành phần bắt buộc không đổi.
-- `trapReview`: ghi kết quả quét bắt buộc với `status:'complete'` và bốn mục `a1Readings`, `a2Meanings`, `bLiteralTranslation`, `cConfusables`; mỗi mục có `checked:true`, `found:boolean`, `summary`. Nếu `confusions[]` rỗng, renderer phải hiện đúng `noTrapReason: "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này."`; không tạo confusion giả.
+- `trapReview`: object kết quả quét với `status:'complete'` và bốn mục `a1Readings`, `a2Meanings`, `bLiteralTranslation`, `cConfusables`; mỗi mục có `checked:true`, `found:boolean`, `summary`. Ý nghĩa sư phạm của bốn nhóm và điều kiện đưa vào `confusions[]` theo `docs/CONTENT_STANDARD_V3.md`; renderer dùng câu trạng thái chuẩn khi danh sách bẫy rỗng.
 - `pronunciation.text`: ngắn, kết bằng nhiệm vụ đọc; có thể thêm `pronunciation.pinyin` riêng. TTS không nhận trường Pinyin.
 - `checks[]`: 2–4 câu mở, `id,type:'open',question`. `answers[id]` riêng chứa `accepted[]` và `explanation`; có thể thêm `audioText` khi đáp án hiển thị chứa Pinyin hoặc ký hiệu không nên được TTS đọc nguyên văn. Không chấm tự động theo chuỗi; người học tự đối chiếu, chấp nhận cách khác có lý.
 - `selfUse[]`: đúng hai tình huống `id,prompt`. `selfAnswers[id]` riêng chứa `idea,frame,model,vi,criteria[]`. Mở lần lượt ý → khung → mẫu; F mở sau khi đã mở lời giải E hoặc chủ động yêu cầu.

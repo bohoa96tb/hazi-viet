@@ -12,7 +12,7 @@ Mỗi bài có năm bước **Hiểu → Ghép câu → Phân biệt → Tự d�
 
 ## Quét bẫy A1–A2–B–C bắt buộc
 
-Trước khi hoàn tất mọi bài, ghi `lesson.trapReview` với `status: "complete"` và kết quả riêng cho A1 nhiều cách đọc, A2 nhiều nghĩa, B bẫy Hán Việt/dịch từng chữ và C từ hoặc cấu trúc dễ nhầm. Mỗi mục phải có `checked: true`, `found: true|false` và `summary` trung thực. `confusions[]` chỉ chứa bẫy thực sự phát hiện được; bẫy có thể gắn `category` để renderer nhóm đúng.
+Trước khi hoàn tất mọi bài, ghi `lesson.trapReview` với `status: "complete"` và kết quả riêng cho A1 nhiều cách đọc, A2 nhiều nghĩa, B bẫy Hán Việt/dịch từng chữ và C từ hoặc cấu trúc dễ nhầm. Mỗi mục phải có `checked: true`, `found: true|false` và `summary` trung thực. `confusions[]` chỉ chứa bẫy thực sự phát hiện được; bẫy có thể gắn `category` để renderer nhóm đúng. Chỉ đánh dấu C khi phần giải thích thật sự đối chiếu một từ/cấu trúc khác; hai nghĩa của cùng một từ thuộc A2 (và có thể ghi thêm B nếu liên quan dịch từng chữ), không được tính lẫn sang C.
 
 Nếu không có bẫy thông dụng đáng chú ý, giữ `confusions: []` và hiển thị đúng câu: “Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.” Không dùng câu này khi chưa kiểm tra. Với bài trung bình/khó, mọi bẫy thông dụng đã phát hiện phải được giải thích bằng ví dụ Hanzi, Pinyin có dấu, nghĩa Việt, khác biệt và mẹo nhớ; không chỉ ghi tên từ cần phân biệt.
 

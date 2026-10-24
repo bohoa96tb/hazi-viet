@@ -3201,7 +3201,8 @@
         ],
         "confusions": [
           {
-            "id": "wo-women",
+        "id": "wo-women",
+        "category": "C",
             "afterSense": "speaker",
             "title": "我 và 我们 khác số lượng",
             "explanation": "我 chỉ một người đang nói. 我们 chỉ một nhóm có người nói.",
@@ -3220,9 +3221,16 @@
               }
             ],
             "tip": "Chỉ riêng mình dùng 我; nói cả nhóm có mình dùng 我们."
-          }
-        ],
-        "guidedExercises": [
+      }
+    ],
+    "trapReview": {
+      "status": "complete",
+      "a1Readings": {"checked": true, "found": false, "summary": "我 có cách đọc thông dụng wǒ; không có cách đọc phổ biến thứ hai cần tách."},
+      "a2Meanings": {"checked": true, "found": false, "summary": "我 có một chức năng trọng tâm là đại từ chỉ người đang nói; cách dịch tôi, mình, em hoặc anh/chị do ngữ cảnh tiếng Việt quyết định."},
+      "bLiteralTranslation": {"checked": true, "found": false, "summary": "Âm Hán Việt ‘ngã’ không giúp người mới suy ra cách dùng hiện đại; bẫy thực tế là số lượng 我/我们, đã được dạy ở nhóm C."},
+      "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 我 với 我们 về số lượng: 我 chỉ người nói, 我们 chỉ nhóm có người nói."}
+    },
+    "guidedExercises": [
           {
             "id": "g1",
             "level": "Cơ bản · chạm sắp xếp",
@@ -3445,7 +3453,8 @@
         ],
         "confusions": [
           {
-            "id": "contrast",
+        "id": "contrast",
+        "category": "C",
             "afterSense": "main",
             "title": "你 chỉ một người nghe",
             "explanation": "Khi nói với nhiều người, dùng 你们 thay cho 你.",
@@ -3464,9 +3473,16 @@
               }
             ],
             "tip": "Một người nghe dùng 你; nhiều người nghe dùng 你们."
-          }
-        ],
-        "guidedExercises": [
+      }
+    ],
+    "trapReview": {
+      "status": "complete",
+      "a1Readings": {"checked": true, "found": false, "summary": "你 có cách đọc thông dụng nǐ; không có cách đọc phổ biến thứ hai cần tách."},
+      "a2Meanings": {"checked": true, "found": false, "summary": "你 có một chức năng trọng tâm là chỉ một người đang nghe; cách dịch bạn, cậu, anh hoặc chị tùy quan hệ giao tiếp."},
+      "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không có bẫy Hán Việt đáng kể; cần nhớ 你 là người nghe, không phải người đang được nói về."},
+      "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 你 với 你们 về số lượng người nghe: một người so với nhiều người."}
+    },
+    "guidedExercises": [
           {
             "id": "g1",
             "level": "Cơ bản · chạm sắp xếp",
@@ -3690,7 +3706,8 @@
         ],
         "confusions": [
           {
-            "id": "contrast",
+        "id": "contrast",
+        "category": "C",
             "afterSense": "main",
             "title": "您 trang trọng hơn 你",
             "explanation": "Cả hai đều chỉ một người nghe; chọn 您 khi muốn thể hiện sự kính trọng.",
@@ -3709,9 +3726,16 @@
               }
             ],
             "tip": "Không phải lúc nào cũng cần 您; dùng theo quan hệ và hoàn cảnh."
-          }
-        ],
-        "guidedExercises": [
+      }
+    ],
+    "trapReview": {
+      "status": "complete",
+      "a1Readings": {"checked": true, "found": false, "summary": "您 có cách đọc thông dụng nín; không có cách đọc phổ biến thứ hai cần tách."},
+      "a2Meanings": {"checked": true, "found": false, "summary": "您 có một chức năng trọng tâm là đại từ chỉ người nghe với sắc thái kính trọng; không phải một nghĩa hoàn toàn khác của 你."},
+      "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không dịch 您 theo từng chữ hay suy từ âm Hán Việt; cần nhớ đây là lựa chọn xưng hô lịch sự trong giao tiếp."},
+      "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 您 với 你: cùng chỉ một người nghe nhưng khác sắc thái lịch sự; hai câu có thể đều đúng tùy quan hệ."}
+    },
+    "guidedExercises": [
           {
             "id": "g1",
             "level": "Cơ bản · chạm sắp xếp",
@@ -24416,8 +24440,8 @@
           },
           "cConfusables": {
             "checked": true,
-            "found": true,
-            "summary": "Đã đối chiếu 菜 theo hai nghĩa bằng câu ăn rau và câu nói về món ăn."
+            "found": false,
+            "summary": "Đã kiểm tra các từ/cấu trúc gần nghĩa; bài chỉ đối chiếu hai nghĩa của chính 菜 nên không ghi nhận bẫy C riêng. Phần phân biệt rau và món ăn thuộc A2, đã được giải thích ở mục bẫy tương ứng."
           }
         }
       }
@@ -24466,8 +24490,8 @@
         "difficulty": "easy",
         "difficultyReason": "雨 là danh từ cơ bản chỉ mưa, dùng trực tiếp trong câu có và nghe mưa.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà lại nghĩa, cấu trúc, Pinyin, bản dịch, bẫy A1–A2–B–C, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Weather"
         ],
@@ -24517,7 +24541,30 @@
             ]
           }
         ],
-        "confusions": [],
+        "confusions": [
+          {
+            "id": "rain-noun-verb",
+            "category": "C",
+            "afterSense": "rain",
+            "title": "雨 và 下雨 khác vai trò",
+            "explanation": "雨 là danh từ ‘mưa/cơn mưa’, có thể đứng sau 有 hoặc 听; 下雨 là cụm động từ ‘trời mưa’. Không nói 外面雨了 để diễn đạt trời đang mưa.",
+            "contrasts": [
+              {
+                "zh": "今天有雨。",
+                "pinyin": "Jīntiān yǒu yǔ.",
+                "vi": "Hôm nay có mưa.",
+                "note": "雨 là danh từ chỉ hiện tượng."
+              },
+              {
+                "zh": "外面下雨了。",
+                "pinyin": "Wàimiàn xià yǔ le.",
+                "vi": "Bên ngoài mưa rồi.",
+                "note": "下雨 là cụm động từ."
+              }
+            ],
+            "tip": "Nói có mưa như một hiện tượng dùng 有雨; nói trời đang mưa dùng 下雨."
+          }
+        ],
         "guidedExercises": [
           {
             "id": "g1",
@@ -24539,17 +24586,17 @@
         "discriminationExercises": [
           {
             "id": "d1",
-            "senseId": "rain",
-            "type": "meaning",
-            "prompt": "Chọn từ nghĩa là mưa.",
+            "trapId": "rain-noun-verb",
+            "type": "choice",
+            "prompt": "Muốn nói hôm nay có mưa như một hiện tượng, chọn câu phù hợp.",
             "choices": [
-              "雨",
-              "风"
+              "今天有雨。",
+              "今天雨了。"
             ],
             "correctIndex": 0,
-            "model": "雨",
-            "explanation": "雨 là mưa; 风 là gió.",
-            "wrongFeedback": "Phân biệt mưa với gió."
+            "model": "今天有雨。",
+            "explanation": "雨 là danh từ nên đứng sau 有; 今天雨了 không phải cách nói đúng cho ‘hôm nay trời mưa’.",
+            "wrongFeedback": "Khi muốn nói trời mưa, cần dùng 下雨; khi nói có mưa như danh từ, dùng 有雨."
           }
         ],
         "productionExercises": [
@@ -24608,6 +24655,29 @@
             "correctIndex": 0,
             "explanation": "雨 là mưa."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "雨 có cách đọc thông dụng yǔ; không có cách đọc phổ biến thứ hai cần tách trong bài này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "雨 có nghĩa trọng tâm là mưa hoặc cơn mưa như danh từ; cách nói ‘trời mưa’ được diễn đạt bằng 下雨 và đã được phân biệt ở nhóm C."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt hoặc dịch từng chữ đáng kể ở mức này; không gán ‘mưa’ như động từ trực tiếp cho 雨 trong mọi câu."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 雨 với 下雨: 雨 là danh từ chỉ mưa/cơn mưa, còn 下雨 là cụm nói trời đang mưa."
+          }
         }
       }
     },
@@ -24655,7 +24725,7 @@
         "difficulty": "easy",
         "difficultyReason": "风 là danh từ thời tiết trực tiếp, với mẫu có gió và gió mạnh rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
+        "qualityStatus": "quality-revision-passed",
         "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Weather"
@@ -24706,7 +24776,30 @@
             ]
           }
         ],
-        "confusions": [],
+        "confusions": [
+          {
+            "id": "wind-noun-verb",
+            "category": "C",
+            "afterSense": "wind",
+            "title": "风 và 刮风 khác cách dùng",
+            "explanation": "风 là danh từ ‘gió’, có thể đứng sau 有 hoặc làm chủ thể; 刮风 là cụm động từ nói hiện tượng gió thổi.",
+            "contrasts": [
+              {
+                "zh": "今天有风。",
+                "pinyin": "Jīntiān yǒu fēng.",
+                "vi": "Hôm nay có gió.",
+                "note": "风 là danh từ sau 有."
+              },
+              {
+                "zh": "今天刮风了。",
+                "pinyin": "Jīntiān guā fēng le.",
+                "vi": "Hôm nay gió thổi rồi.",
+                "note": "刮风 là cụm động từ."
+              }
+            ],
+            "tip": "Nói ‘có gió’ dùng 有风; nói hiện tượng gió thổi dùng 刮风."
+          }
+        ],
         "guidedExercises": [
           {
             "id": "g1",
@@ -24728,17 +24821,17 @@
         "discriminationExercises": [
           {
             "id": "d1",
-            "senseId": "wind",
-            "type": "meaning",
-            "prompt": "Chọn từ nghĩa là gió.",
+            "trapId": "wind-noun-verb",
+            "type": "choice",
+            "prompt": "Muốn nói hôm nay có gió, chọn câu đúng.",
             "choices": [
-              "风",
-              "雨"
+              "今天有风。",
+              "今天风了。"
             ],
             "correctIndex": 0,
-            "model": "风",
-            "explanation": "风 là gió; 雨 là mưa.",
-            "wrongFeedback": "Phân biệt gió với mưa."
+            "model": "今天有风。",
+            "explanation": "风 là danh từ đứng sau 有; 今天风了 thiếu cụm động từ 刮风.",
+            "wrongFeedback": "Đừng dùng 风 một mình như động từ; chọn 有风 hoặc 刮风 theo ý muốn nói."
           }
         ],
         "productionExercises": [
@@ -24797,6 +24890,29 @@
             "correctIndex": 0,
             "explanation": "风 là gió."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "风 có cách đọc thông dụng fēng; không có cách đọc phổ biến thứ hai cần tách trong bài này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "风 có nghĩa trọng tâm là gió; mức độ gió do ngữ cảnh hoặc tính từ như 大 mô tả."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt hoặc dịch từng chữ đáng kể; 风 trong các ví dụ là gió tự nhiên, không suy thành ‘phong cách’ ở bài cơ bản."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 风 với 刮风: 风 là danh từ gió, còn 刮风 là cụm nói gió đang thổi/có gió."
+          }
         }
       }
     },
@@ -24842,7 +24958,7 @@
         "difficulty": "medium",
         "difficultyReason": "下雨 là động từ/cụm hiện tượng khác với 雨 là danh từ mưa; cần dạy chủ thể ngầm và cách dùng trong mệnh đề thời gian.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
+        "qualityStatus": "quality-revision-passed",
         "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Raining"
@@ -24896,6 +25012,7 @@
         "confusions": [
           {
             "id": "noun",
+            "category": "C",
             "afterSense": "rainverb",
             "title": "下雨 và 雨 khác vai",
             "explanation": "下雨 là cụm nói trời đang mưa; 雨 là danh từ mưa/cơn mưa, có thể đứng sau 有 hoặc 听.",
@@ -24904,7 +25021,7 @@
                 "zh": "外面下雨了。",
                 "pinyin": "Wàimiàn xià yǔ le.",
                 "vi": "Bên ngoài mưa rồi.",
-                "note": "Cụm hiện tượng."
+                "note": "Cụm chỉ hiện tượng đang xảy ra."
               },
               {
                 "zh": "今天有雨。",
@@ -24913,7 +25030,7 @@
                 "note": "雨 là danh từ."
               }
             ],
-            "tip": "Muốn nói đang xảy ra, dùng 下雨; muốn nói có mưa như một hiện tượng/dự báo, có thể dùng 有雨."
+            "tip": "Muốn nói đang xảy ra dùng 下雨; muốn nói có mưa như một hiện tượng/dự báo có thể dùng 有雨."
           }
         ],
         "guidedExercises": [
@@ -25017,6 +25134,29 @@
             "correctIndex": 0,
             "explanation": "下雨 là cụm động từ."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "下雨 đọc xiàyǔ trong cụm này; không có cách đọc khác cần tách. 下 có nhiều cách đọc ở từ khác nhưng không phải cách đọc thứ hai của cụm 下雨."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "下雨 có một chức năng thông dụng là nói trời mưa; sắc thái bắt đầu/đã xảy ra do 了 hoặc ngữ cảnh, không phải nghĩa từ vựng riêng của cụm."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Dịch từng chữ thành ‘mưa xuống’ dễ gây câu tiếng Việt cứng, nhưng không tạo lỗi tiếng Trung nếu nhớ 下雨 là cụm cố định chỉ trời mưa."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 下雨 với 雨: 下雨 là cụm động từ, còn 雨 là danh từ; hai cách có thể cùng xuất hiện trong nói về mưa nhưng không thay thế tự do."
+          }
         }
       },
       "task": "Nói ngoài trời đang mưa.",
@@ -25064,7 +25204,7 @@
         "difficulty": "medium",
         "difficultyReason": "天气 là khái niệm thời tiết nói chung, cần phân biệt với 下雨/雨 là một hiện tượng cụ thể và dùng đúng 怎么样.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
+        "qualityStatus": "quality-revision-passed",
         "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Weather"
@@ -25118,6 +25258,7 @@
         "confusions": [
           {
             "id": "phenomenon",
+            "category": "C",
             "afterSense": "weather",
             "title": "天气 rộng hơn 雨 và 下雨",
             "explanation": "天气 nói tổng thể thời tiết; 雨 và 下雨 chỉ mưa, một hiện tượng cụ thể trong thời tiết.",
@@ -25239,6 +25380,29 @@
             "correctIndex": 0,
             "explanation": "天气怎么样 hỏi toàn cảnh."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "天气 có cách đọc thông dụng tiānqì; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "天气 có nghĩa trọng tâm là thời tiết nói chung; không tách thành nghĩa ‘trời’ và ‘khí’ khi dùng trong câu hiện đại."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch từng chữ 天气 thành ‘trời khí’ là sai; cần nhớ 天气 là danh từ cố định nghĩa là thời tiết."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 天气 với 下雨 và 雨: 天气 nói toàn cảnh thời tiết, còn hai từ kia chỉ hiện tượng mưa cụ thể."
+          }
         }
       },
       "task": "Hỏi hôm nay thời tiết thế nào.",
@@ -25286,7 +25450,7 @@
         "difficulty": "easy",
         "difficultyReason": "奶奶 là từ thân thuộc chỉ bà nội, dùng trực tiếp trong câu sở hữu/người thân.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
+        "qualityStatus": "quality-revision-passed",
         "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Family_terms"
@@ -25337,7 +25501,30 @@
             ]
           }
         ],
-        "confusions": [],
+        "confusions": [
+          {
+            "id": "grandmother-side",
+            "category": "C",
+            "afterSense": "paternalgrandma",
+            "title": "奶奶 và 外婆 khác bên gia đình",
+            "explanation": "奶奶 là mẹ của bố (bà nội); 外婆 là mẹ của mẹ (bà ngoại). Cả hai đều có thể dịch là ‘bà’ nếu không nói rõ bên nào.",
+            "contrasts": [
+              {
+                "zh": "我奶奶在家。",
+                "pinyin": "Wǒ nǎinai zài jiā.",
+                "vi": "Bà nội tôi ở nhà.",
+                "note": "Mẹ của bố."
+              },
+              {
+                "zh": "我外婆在家。",
+                "pinyin": "Wǒ wàipó zài jiā.",
+                "vi": "Bà ngoại tôi ở nhà.",
+                "note": "Mẹ của mẹ."
+              }
+            ],
+            "tip": "奶奶 = bà nội; 外婆 = bà ngoại."
+          }
+        ],
         "guidedExercises": [
           {
             "id": "g1",
@@ -25359,17 +25546,17 @@
         "discriminationExercises": [
           {
             "id": "d1",
-            "senseId": "paternalgrandma",
-            "type": "meaning",
-            "prompt": "Chọn từ nghĩa là bà nội.",
+            "trapId": "grandmother-side",
+            "type": "choice",
+            "prompt": "Muốn nói mẹ của bố, chọn từ đúng.",
             "choices": [
               "奶奶",
-              "老师"
+              "外婆"
             ],
             "correctIndex": 0,
             "model": "奶奶",
-            "explanation": "奶奶 là bà nội.",
-            "wrongFeedback": "老师 là giáo viên."
+            "explanation": "奶奶 là bà nội; 外婆 là bà ngoại.",
+            "wrongFeedback": "Hãy xác định bà là mẹ của bố hay mẹ của mẹ."
           }
         ],
         "productionExercises": [
@@ -25428,6 +25615,29 @@
             "correctIndex": 0,
             "explanation": "奶奶 là bà nội."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "奶奶 có cách đọc thông dụng nǎinai; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "奶奶 có nghĩa trọng tâm là bà nội hoặc cách gọi thân mật bà; quan hệ bên nội được xác định trong cách dùng bài này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không suy nghĩa từ 奶 (sữa) + 奶; 奶奶 là từ thân tộc cố định, không có nghĩa ‘sữa sữa’."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 奶奶 với 外婆: 奶奶 là mẹ của bố, còn 外婆 là mẹ của mẹ; đây là khác biệt quan trọng với cách gọi nội/ngoại của tiếng Việt."
+          }
         }
       },
       "task": "Nói bà nội của bạn ở nhà.",
@@ -25475,7 +25685,7 @@
         "difficulty": "easy",
         "difficultyReason": "水果 là danh từ ghép quen thuộc, dùng trực tiếp cho ăn và số lượng nhiều.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
+        "qualityStatus": "quality-revision-passed",
         "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Fruit"
@@ -25619,6 +25829,29 @@
             "correctIndex": 0,
             "explanation": "水果 là trái cây."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "水果 có cách đọc thông dụng shuǐguǒ; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "水果 có nghĩa trọng tâm là trái cây nói chung; loại quả cụ thể do từ riêng hoặc ngữ cảnh nêu ra."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không dịch 水果 thành ‘quả nước’; đây là từ ghép cố định nghĩa là trái cây."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra các từ gần nghĩa trong phạm vi bài cơ bản; chưa thấy bẫy ngữ pháp hoặc từ/cấu trúc dễ nhầm cần thêm vào bài."
+          }
         }
       },
       "task": "Nói bạn thích ăn trái cây.",
@@ -25666,7 +25899,7 @@
         "difficulty": "easy",
         "difficultyReason": "Nghĩa trực tiếp và cách dùng quen thuộc với 喝; chỉ cần làm rõ 牛奶 khác 奶茶.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
+        "qualityStatus": "quality-revision-passed",
         "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://dict.revised.moe.edu.tw/"
@@ -25726,6 +25959,7 @@
         "confusions": [
           {
             "id": "tea",
+            "category": "C",
             "afterSense": "milk",
             "title": "牛奶 khác 奶茶",
             "explanation": "牛奶 là sữa bò; 奶茶 là trà sữa, một đồ uống khác.",
@@ -25740,7 +25974,7 @@
                 "zh": "我想喝奶茶。",
                 "pinyin": "Wǒ xiǎng hē nǎichá.",
                 "vi": "Tôi muốn uống trà sữa.",
-                "note": "Có trà."
+                "note": "Có 茶, nghĩa là trà sữa."
               }
             ],
             "tip": "Gọi đúng 牛奶 hoặc 奶茶 theo món muốn uống."
@@ -25838,6 +26072,29 @@
             "correctIndex": 0,
             "explanation": "牛奶 là sữa bò."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "牛奶 có cách đọc thông dụng niúnǎi; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "牛奶 có nghĩa trọng tâm là sữa bò, dùng làm đồ uống hoặc thực phẩm; không mở rộng sang các loại sữa khác trong bài cơ bản."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Dịch từng chữ thành ‘sữa bò’ là phù hợp ở bài này; không có bẫy Hán Việt đáng kể cần tách."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 牛奶 với 奶茶: 牛奶 là sữa bò, còn 奶茶 là trà sữa có thành phần trà."
+          }
         }
       },
       "task": "Nói bạn uống sữa bò.",
@@ -25885,7 +26142,7 @@
         "difficulty": "easy",
         "difficultyReason": "Nghĩa trực tiếp; nhớ 个 đếm quả trứng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
+        "qualityStatus": "quality-revision-passed",
         "authorship": "Đã tự rà nội bộ; chưa có phản biện độc lập.",
         "sources": [
           "https://dict.revised.moe.edu.tw/"
@@ -25939,6 +26196,7 @@
         "confusions": [
           {
             "id": "chicken",
+            "category": "C",
             "afterSense": "egg",
             "title": "鸡蛋 và 鸡",
             "explanation": "鸡蛋 là quả trứng; 鸡 là con gà.",
@@ -26053,6 +26311,29 @@
             "correctIndex": 0,
             "explanation": "个 đếm quả trứng."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "鸡蛋 có cách đọc thông dụng jīdàn; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "鸡蛋 có nghĩa trọng tâm là trứng gà dùng làm thực phẩm; không cần tách thêm nghĩa thông dụng ở mức bài này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Dịch từng chữ ‘trứng gà’ phù hợp; bẫy chính của người mới là nhầm 鸡蛋 với 鸡, đã được dạy ở nhóm C."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 鸡蛋 với 鸡: 鸡蛋 là quả trứng, dùng 个 khi đếm; 鸡 là con gà, dùng 只 khi đếm."
+          }
         }
       },
       "task": "Nói bạn ăn một quả trứng buổi sáng.",
@@ -26088,6 +26369,14 @@
           "vi": "Quả táo này hỏng rồi, đừng ăn.",
           "analysis": "坏了 cũng nói thức ăn bị hư.",
           "practiceAllowed": true
+        },
+        {
+          "id": "e3",
+          "zh": "他不是坏人。",
+          "pinyin": "Tā bú shì huài rén.",
+          "vi": "Anh ấy không phải người xấu.",
+          "analysis": "Trong 坏人, 坏 đứng trước danh từ và nghĩa là xấu về tính cách.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 70,
@@ -26098,15 +26387,15 @@
         "contentVersion": 3,
         "cohortOrdinal": 91,
         "difficulty": "medium",
-        "difficultyReason": "坏了 chỉ tình trạng hỏng; cần phân biệt với 不好用, vốn chỉ dùng không tiện.",
+        "difficultyReason": "坏 có hai nghĩa thông dụng cần tách: đồ vật/thức ăn bị hỏng trong 坏了 và người, việc hoặc tính chất xấu trong 坏人/坏事; người học Việt dễ dùng lẫn hai phạm vi.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
+        "qualityStatus": "quality-revision-passed",
         "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập.",
         "sources": [
           "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "坏 thường chỉ đồ vật hoặc thức ăn bị hỏng."
+          "scope": "坏 có thể chỉ tình trạng hỏng/hư hoặc tính chất xấu, tệ. Trong bài này cần nhìn vị trí và danh từ đi kèm để phân biệt."
         },
         "examples": [
           {
@@ -26124,6 +26413,14 @@
             "vi": "Quả táo này hỏng rồi, đừng ăn.",
             "analysis": "坏了 cũng nói thức ăn bị hư.",
             "practiceAllowed": true
+          },
+          {
+            "id": "e3",
+            "zh": "他不是坏人。",
+            "pinyin": "Tā bú shì huài rén.",
+            "vi": "Anh ấy không phải người xấu.",
+            "analysis": "Trong 坏人, 坏 đứng trước danh từ và nghĩa là xấu về tính cách.",
+            "practiceAllowed": true
           }
         ],
         "senses": [
@@ -26132,7 +26429,7 @@
             "title": "Hỏng, hư",
             "when": "Nói đồ vật không hoạt động hoặc thức ăn không dùng được.",
             "meaning": "hỏng; hư",
-            "grammar": "坏了 thường đứng sau vật.",
+            "grammar": "坏了 thường đứng sau vật để báo tình trạng đã hỏng.",
             "pattern": "手机/苹果+坏了",
             "collocations": [],
             "examples": [
@@ -26149,14 +26446,49 @@
                 "note": "Thức ăn bị hư."
               }
             ]
+          },
+          {
+            "id": "bad",
+            "title": "Xấu, tệ",
+            "when": "Nói người, việc hoặc tính chất có tính xấu, không tốt.",
+            "meaning": "xấu; tệ",
+            "grammar": "坏 đứng trước danh từ như 人, 事 để bổ nghĩa; không có 了 thì không tự động mang nghĩa ‘hỏng rồi’.",
+            "pattern": "坏人/坏事；不是+坏人",
+            "collocations": [
+              {
+                "zh": "坏人",
+                "pinyin": "huài rén",
+                "vi": "người xấu"
+              },
+              {
+                "zh": "坏事",
+                "pinyin": "huài shì",
+                "vi": "chuyện xấu"
+              }
+            ],
+            "examples": [
+              {
+                "zh": "他不是坏人。",
+                "pinyin": "Tā bú shì huài rén.",
+                "vi": "Anh ấy không phải người xấu.",
+                "note": "坏 đứng trước 人 để nói tính cách."
+              },
+              {
+                "zh": "别做坏事。",
+                "pinyin": "Bié zuò huài shì.",
+                "vi": "Đừng làm chuyện xấu.",
+                "note": "坏 đứng trước 事 để nói việc xấu."
+              }
+            ]
           }
         ],
         "confusions": [
           {
             "id": "quality",
+            "category": "C",
             "afterSense": "broken",
             "title": "坏了 và 不好用",
-            "explanation": "坏了 khẳng định vật hỏng; 不好用 chỉ trải nghiệm sử dụng kém.",
+            "explanation": "坏了 khẳng định vật hỏng; 不好用 chỉ trải nghiệm sử dụng kém hoặc bất tiện, vật vẫn có thể hoạt động.",
             "contrasts": [
               {
                 "zh": "手机坏了，开不了机。",
@@ -26171,7 +26503,7 @@
                 "note": "Vẫn hoạt động."
               }
             ],
-            "tip": "Không hoạt động: 坏了; dùng bất tiện: 不好用."
+            "tip": "Không hoạt động: 坏了; dùng bất tiện hoặc chất lượng kém: 不好用."
           }
         ],
         "guidedExercises": [
@@ -26201,6 +26533,23 @@
             "model": "这个苹果坏了，别吃。",
             "explanation": "坏了 báo quả táo đã hư.",
             "wrongFeedback": "Dùng 坏了 để báo thức ăn hỏng."
+          },
+          {
+            "id": "g3",
+            "type": "order",
+            "prompt": "Sắp xếp: Đừng làm chuyện xấu.",
+            "tokens": [
+              "别",
+              "做",
+              "坏事",
+              "。"
+            ],
+            "accepted": [
+              "别做坏事。"
+            ],
+            "model": "别做坏事。",
+            "explanation": "坏 đứng trước 事 để tạo cụm 坏事, nghĩa là chuyện xấu.",
+            "wrongFeedback": "Đặt 坏 trước 事 và 别 trước động từ."
           }
         ],
         "discriminationExercises": [
@@ -26215,8 +26564,22 @@
             ],
             "correctIndex": 0,
             "model": "手机坏了",
-            "explanation": "Không bật được là dấu hiệu hỏng.",
-            "wrongFeedback": "不好用 chưa khẳng định máy hỏng."
+            "explanation": "Không bật được là dấu hiệu hỏng; 不好用 chưa khẳng định máy hỏng.",
+            "wrongFeedback": "不好用 có thể chỉ khó dùng, trong khi tình huống đã cho dấu hiệu không hoạt động."
+          },
+          {
+            "id": "d2",
+            "senseId": "bad",
+            "type": "meaning",
+            "prompt": "Trong 坏人, 坏 nghĩa là gì?",
+            "choices": [
+              "xấu về tính cách",
+              "bị hỏng"
+            ],
+            "correctIndex": 0,
+            "model": "xấu về tính cách",
+            "explanation": "坏 đứng trước 人 và nghĩa là xấu; nghĩa hỏng thường thấy trong 坏了 sau tên vật.",
+            "wrongFeedback": "Nhìn danh từ đứng sau: 坏人 nói người xấu, không phải người bị hỏng."
           }
         ],
         "productionExercises": [
@@ -26233,6 +26596,20 @@
             "criteria": [
               "Đặt 坏了 sau vật."
             ]
+          },
+          {
+            "id": "p2",
+            "prompt": "Nói một người không phải người xấu.",
+            "hints": [
+              "Dùng 他 hoặc 她.",
+              "Đặt 坏 trước 人.",
+              "Mẫu: 他不是坏人。"
+            ],
+            "model": "他不是坏人。",
+            "vi": "Anh ấy không phải người xấu.",
+            "criteria": [
+              "Dùng 坏人 với nghĩa xấu về tính cách."
+            ]
           }
         ],
         "reviewExercises": [
@@ -26246,7 +26623,14 @@
             "id": "r2",
             "prompt": "坏了 báo tình trạng gì?",
             "hiddenAnswer": "hỏng hoặc hư",
-            "model": "坏了"
+            "model": "我的手机坏了。"
+          },
+          {
+            "id": "r3",
+            "prompt": "Nhớ cụm chỉ người xấu.",
+            "hiddenAnswer": "坏人",
+            "model": "他不是坏人。",
+            "vi": "Anh ấy không phải người xấu."
           }
         ],
         "checks": {
@@ -26275,6 +26659,29 @@
             "correctIndex": 0,
             "explanation": "Không bật được là dấu hiệu hỏng."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "坏 có cách đọc thông dụng huài; không có cách đọc phổ biến thứ hai cần tách trong các nghĩa của bài."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã dạy hai nghĩa thông dụng: 坏了 là hỏng/hư; 坏人, 坏事 là xấu hoặc tệ. Vị trí sau vật với 了 và trước danh từ giúp nhận ra nghĩa."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt cần thêm ở mức này; không dịch mọi 坏 thành ‘hỏng’ khi nó đứng trước 人 hoặc 事."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 坏了 với 不好用: 坏了 khẳng định vật hỏng, còn 不好用 chỉ việc dùng không tiện và vật vẫn có thể hoạt động."
+          }
         }
       },
       "task": "Nói điện thoại của bạn hỏng rồi.",
@@ -26298,15 +26705,25 @@
         {
           "id": "e1",
           "zh": "这里人很多。",
+          "pinyin": "Zhèlǐ rén hěn duō.",
           "vi": "Ở đây có rất đông người.",
-          "analysis": "这里 nêu nơi; 人 là thứ được nhận xét; 很多 đứng sau để nói số lượng.",
+          "analysis": "很多 đứng sau chủ thể để nói số lượng nhiều.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "我买了很多水果。",
+          "pinyin": "Wǒ mǎi le hěn duō shuǐguǒ.",
           "vi": "Tôi đã mua nhiều trái cây.",
-          "analysis": "很多 đứng trước danh từ 水果 sau động từ 买了; không cần lặp 个 khi nói chung.",
+          "analysis": "很多 đứng trước danh từ, không cần thêm lượng từ khi nói số lượng không xác định.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e3",
+          "zh": "你有多少本书？",
+          "pinyin": "Nǐ yǒu duōshao běn shū?",
+          "vi": "Bạn có bao nhiêu quyển sách?",
+          "analysis": "多少 dùng để hỏi số lượng; 多 nằm trong từ hỏi này chứ không tự đứng một mình để hỏi ‘bao nhiêu’.",
           "practiceAllowed": true
         }
       ],
@@ -26314,151 +26731,236 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 92,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "medium",
+        "difficultyReason": "多 vừa mô tả số lượng nhiều, vừa xuất hiện trong 多少 để hỏi số lượng; người Việt cần đặt đúng vị trí trước danh từ hoặc sau chủ thể.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, cấu trúc, Pinyin, bản dịch, bẫy và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 多 để nói số lượng nhiều; chú ý vị trí khác nhau trong 有很多人 và 人很多."
-        },
-        "meaning": {
-          "scene": "Bạn bước vào cửa hàng đông khách và muốn nhận xét có nhiều người.",
-          "explanation": "多 nói số lượng lớn. Có thể nói 有很多人 (có nhiều người) hoặc 人很多 (người rất đông); vị trí phụ thuộc cấu trúc câu.",
-          "boundary": "多 nói số lượng; 大 nói kích thước/độ lớn. “Nhiều” trong tiếng Việt không phải lúc nào cũng đứng cùng một vị trí trong tiếng Trung.",
-          "conditions": [
-            "有很多 + danh từ: 很多 đứng trước vật/người.",
-            "Danh từ + 很多: dùng khi danh từ đã được nêu hoặc làm chủ đề, như 这里人很多."
-          ],
-          "takeaway": "Rất nhiều thứ: 很多 + danh từ; nhận xét số lượng: danh từ + 很多."
+          "scope": "多 dùng để nói số lượng nhiều; trong 多少, nó tham gia tạo từ hỏi ‘bao nhiêu’."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "这里人很多。",
+            "pinyin": "Zhèlǐ rén hěn duō.",
             "vi": "Ở đây có rất đông người.",
-            "analysis": "这里 nêu nơi; 人 là thứ được nhận xét; 很多 đứng sau để nói số lượng.",
+            "analysis": "很多 đứng sau chủ thể để nói số lượng nhiều.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "我买了很多水果。",
+            "pinyin": "Wǒ mǎi le hěn duō shuǐguǒ.",
             "vi": "Tôi đã mua nhiều trái cây.",
-            "analysis": "很多 đứng trước danh từ 水果 sau động từ 买了; không cần lặp 个 khi nói chung.",
+            "analysis": "很多 đứng trước danh từ, không cần thêm lượng từ khi nói số lượng không xác định.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e3",
+            "zh": "你有多少本书？",
+            "pinyin": "Nǐ yǒu duōshao běn shū?",
+            "vi": "Bạn có bao nhiêu quyển sách?",
+            "analysis": "多少 dùng để hỏi số lượng; 多 nằm trong từ hỏi này chứ không tự đứng một mình để hỏi ‘bao nhiêu’.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Nơi + danh từ + 很多; Người + động từ + 很多 + danh từ",
-            "position": "很多 đứng trước danh từ khi nói lượng trong cụm; danh từ có thể đứng trước 很多 trong mẫu nhận xét như 人很多.",
-            "required": "Chọn khung theo ý: giới thiệu lượng có/được mua hay nhận xét một nơi/nhóm đông.",
-            "omission": "Khi danh từ đã rõ, có thể chỉ đáp 很多。— Nhiều lắm.",
-            "exampleId": "e2"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Nhiều về số lượng hay lớn về kích thước",
-            "scene": "Bạn mô tả cửa hàng đông khách hoặc diện tích cửa hàng.",
-            "possibleConfusion": "Nhiều và lớn đều có thể đi cùng nơi chốn nhưng nói hai thuộc tính khác nhau.",
-            "difference": "人很多 nói số người đông; 店很大 nói cửa hàng rộng/lớn. Một cửa hàng có thể lớn nhưng vắng.",
-            "cases": [
+            "id": "many",
+            "title": "Nhiều",
+            "when": "Nói số lượng người hoặc vật lớn.",
+            "meaning": "nhiều; đông",
+            "grammar": "很多 thường đứng trước danh từ; khi làm vị ngữ, 多 đứng sau chủ thể, thường có 很.",
+            "pattern": "很多+người/vật；chủ thể+很+多",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "这家店人很多。",
-                "vi": "Cửa hàng này rất đông người.",
-                "comment": "很多 miêu tả số người.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "很多人",
+                "pinyin": "hěn duō rén",
+                "vi": "nhiều người"
               },
               {
-                "id": "c2",
-                "zh": "这家店很大。",
-                "vi": "Cửa hàng này rất rộng.",
-                "comment": "大 miêu tả quy mô/kích thước.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "很多水果",
+                "pinyin": "hěn duō shuǐguǒ",
+                "vi": "nhiều trái cây"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 多 bằng 大 trong 这家店人很多 không còn cùng khung; viết 这家店很大 thì đúng nhưng đổi từ số khách sang kích thước cửa hàng."
-            },
-            "boundary": "Cửa hàng lớn có thể đông khách, nhưng 大 và 多 không thay nhau để nói cùng một thuộc tính.",
-            "tip": "Đếm số lượng dùng 多; tả độ lớn dùng 大."
+            "examples": [
+              {
+                "zh": "这里人很多。",
+                "pinyin": "Zhèlǐ rén hěn duō.",
+                "vi": "Ở đây có rất đông người.",
+                "note": "多 đứng sau chủ thể 人."
+              },
+              {
+                "zh": "我买了很多水果。",
+                "pinyin": "Wǒ mǎi le hěn duō shuǐguǒ.",
+                "vi": "Tôi đã mua nhiều trái cây.",
+                "note": "很多 đứng trước danh từ."
+              }
+            ]
+          },
+          {
+            "id": "question",
+            "title": "Hỏi số lượng trong 多少",
+            "when": "Hỏi có bao nhiêu người hoặc vật.",
+            "meaning": "bao nhiêu, bao nhiêu lượng",
+            "grammar": "多少 đứng trước danh từ; danh từ có thể đi cùng lượng từ như 本, 个.",
+            "pattern": "多少+量 từ+danh từ",
+            "collocations": [
+              {
+                "zh": "多少本书",
+                "pinyin": "duōshao běn shū",
+                "vi": "bao nhiêu quyển sách"
+              }
+            ],
+            "examples": [
+              {
+                "zh": "你有多少本书？",
+                "pinyin": "Nǐ yǒu duōshao běn shū?",
+                "vi": "Bạn có bao nhiêu quyển sách?",
+                "note": "多少 hỏi số lượng, 本 là lượng từ của sách."
+              },
+              {
+                "zh": "你买了多少个鸡蛋？",
+                "pinyin": "Nǐ mǎi le duōshao gè jīdàn?",
+                "vi": "Bạn đã mua bao nhiêu quả trứng?",
+                "note": "多少 đứng trước lượng từ 个."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "many-few",
+            "category": "C",
+            "afterSense": "many",
+            "title": "多 và 少 là hai hướng số lượng",
+            "explanation": "多 nói số lượng nhiều; 少 nói số lượng ít. Cả hai có thể đứng trước danh từ hoặc sau chủ thể trong câu miêu tả.",
+            "contrasts": [
+              {
+                "zh": "桌子上有很多水果。",
+                "pinyin": "Zhuōzi shàng yǒu hěn duō shuǐguǒ.",
+                "vi": "Trên bàn có nhiều trái cây.",
+                "note": "多 = nhiều."
+              },
+              {
+                "zh": "桌子上的水果很少。",
+                "pinyin": "Zhuōzi shàng de shuǐguǒ hěn shǎo.",
+                "vi": "Trái cây trên bàn rất ít.",
+                "note": "少 = ít."
+              }
+            ],
+            "tip": "Nhiều dùng 多; ít dùng 少. Khi hỏi số lượng dùng 多少, không dùng 多 một mình."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "多在本课作“数量大”解，常用读法稳定；不展开高级的约数用法。",
-          "literalTranslation": "Không dịch máy móc “rất nhiều” thành 很多 ở mọi vị trí; theo khung câu mà đặt trước hay sau danh từ.",
-          "confusables": "Đã so với 大 về số lượng/kích thước; 有很多人 và 人很多 đều đúng trong khung riêng."
-        },
-        "pronunciation": {
-          "text": "多 mang thanh một; giữ giọng ngang ổn định, không đọc thành thanh nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn nhận xét ở đây có nhiều người. Xếp: 很多 / 这里 / 人。"
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "多 có cách đọc thông dụng duō trong các cách dùng của bài; không có cách đọc phổ biến thứ hai cần tách."
           },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn đã mua nhiều trái cây. Điền 很多水果 sau động từ: 我买了____。"
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã kiểm tra cách dùng mô tả nhiều và cách dùng trong 多少 để hỏi số lượng; hai cách được tách bằng vị trí và cấu trúc."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 多 luôn thành ‘nhiều’ sẽ sai khi gặp 多少, nghĩa là ‘bao nhiêu’; bài đã nói rõ 多 không tự đứng một mình để hỏi."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 多 với 少 về hướng số lượng và với cấu trúc 多少 về chức năng hỏi."
           }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "这里人很多。",
-              "这里有很多人。"
+        },
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi mua nhiều trái cây.",
+            "tokens": [
+              "我",
+              "买了",
+              "很多水果",
+              "。"
             ],
-            "explanation": "Cả 人很多 và 有很多人 đều đúng; câu thứ hai thêm 有 và đổi khung."
-          },
-          "q2": {
             "accepted": [
               "我买了很多水果。"
             ],
-            "explanation": "很多 đứng trước danh từ 水果."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói cửa hàng hôm nay có nhiều khách."
+            "model": "我买了很多水果。",
+            "explanation": "很多 đứng trước danh từ 水果.",
+            "wrongFeedback": "Đặt cụm chỉ số lượng 很多 trước danh từ."
           },
           {
-            "id": "s2",
-            "prompt": "Nói bạn đã mua nhiều trái cây."
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 你有____本书？",
+            "accepted": [
+              "多少"
+            ],
+            "model": "你有多少本书？",
+            "explanation": "多少 dùng để hỏi số lượng và đứng trước lượng từ 本.",
+            "wrongFeedback": "Câu hỏi ‘bao nhiêu’ dùng 多少, không dùng 多 một mình."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu cửa hàng và lượng khách.",
-            "frame": "今天 + 店里 + 人 + 很多。",
-            "model": "今天店里人很多。",
-            "vi": "Hôm nay trong cửa hàng rất đông người.",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "many-few",
+            "type": "choice",
+            "prompt": "Muốn nói trên bàn có nhiều trái cây, chọn từ đúng.",
+            "choices": [
+              "很多",
+              "很少"
+            ],
+            "correctIndex": 0,
+            "model": "很多",
+            "explanation": "Nhiều trái cây dùng 很多; 很少 nghĩa là rất ít.",
+            "wrongFeedback": "Xác định số lượng là nhiều hay ít trước khi chọn."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn có bao nhiêu quyển sách.",
+            "hints": [
+              "Mở đầu 你有 hoặc 我有.",
+              "Dùng 多少 + 本 + 书 để hỏi, hoặc số lượng thật để trả lời.",
+              "Mẫu hỏi: 你有多少本书？"
+            ],
+            "model": "你有多少本书？",
+            "vi": "Bạn có bao nhiêu quyển sách?",
             "criteria": [
-              "很多 miêu tả số người.",
-              "Có thể dùng 有很多客人 theo khung khác."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu việc mua và số lượng trái cây.",
-            "frame": "我 + 买了 + 很多 + 水果。",
-            "model": "我买了很多水果。",
-            "vi": "Tôi đã mua nhiều trái cây.",
-            "criteria": [
-              "很多 đứng trước danh từ.",
-              "Không cần lượng từ khi nói chung."
+              "Dùng đúng 多少 trước lượng từ 本."
             ]
           }
-        }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhớ cụm chỉ số lượng nhiều.",
+            "hiddenAnswer": "很多",
+            "model": "我买了很多水果。",
+            "vi": "Tôi đã mua nhiều trái cây."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách hỏi số lượng.",
+            "hiddenAnswer": "多少",
+            "model": "你有多少本书？",
+            "vi": "Bạn có bao nhiêu quyển sách?"
+          }
+        ]
       }
     },
     {
@@ -26479,15 +26981,25 @@
         {
           "id": "e1",
           "zh": "这个房间很大。",
+          "pinyin": "Zhège fángjiān hěn dà.",
           "vi": "Căn phòng này rất rộng.",
-          "analysis": "很 đứng trước tính từ 大; với 房间, dịch là rộng tự nhiên hơn “to”.",
+          "analysis": "大 mô tả kích thước hoặc không gian.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "这家超市很大。",
-          "vi": "Siêu thị này rất lớn.",
-          "analysis": "大 nhận xét quy mô của siêu thị, không phải số lượng người trong đó.",
+          "zh": "你多大？",
+          "pinyin": "Nǐ duō dà?",
+          "vi": "Bạn bao nhiêu tuổi?",
+          "analysis": "多大 là cách hỏi tuổi thường dùng trong giao tiếp thân mật, nhất là với trẻ em hoặc người ngang hàng.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e3",
+          "zh": "我弟弟比我大两岁。",
+          "pinyin": "Wǒ dìdi bǐ wǒ dà liǎng suì.",
+          "vi": "Em trai tôi lớn hơn tôi hai tuổi.",
+          "analysis": "Trong so sánh tuổi, 大 có thể nghĩa là lớn tuổi hơn.",
           "practiceAllowed": true
         }
       ],
@@ -26495,158 +27007,230 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 93,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "medium",
+        "difficultyReason": "大 không chỉ nói kích thước mà còn dùng trong hỏi và so sánh tuổi; người Việt cần nhìn danh từ và cấu trúc 比 để hiểu đúng nghĩa.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, cấu trúc, Pinyin, bản dịch, bẫy và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 大 để miêu tả kích thước hoặc quy mô lớn; phân biệt với 高 (cao) và 多 (nhiều)."
-        },
-        "meaning": {
-          "scene": "Bạn bước vào một căn phòng rộng và muốn khen phòng lớn.",
-          "explanation": "大 là tính từ nói vật hoặc không gian có kích thước/quy mô lớn. Với phòng, tiếng Việt thường dịch tự nhiên là “rộng”.",
-          "boundary": "大 không tự nói chiều cao hay số lượng. Nhà cao dùng 高; có đông người dùng 多.",
-          "conditions": [
-            "Tính từ có thể đứng sau 很: 房间很大.",
-            "Khi so tuổi, 大 còn có thể nói ai lớn tuổi hơn, nhưng bài này tập trung nghĩa kích thước; nói tuổi cần khung so sánh."
-          ],
-          "takeaway": "大 tả độ lớn/diện tích; 高 tả chiều cao; 多 tả số lượng."
+          "scope": "大 nghĩa là to/lớn; tùy ngữ cảnh có thể nói kích thước hoặc tuổi lớn hơn."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "这个房间很大。",
+            "pinyin": "Zhège fángjiān hěn dà.",
             "vi": "Căn phòng này rất rộng.",
-            "analysis": "很 đứng trước tính từ 大; với 房间, dịch là rộng tự nhiên hơn “to”.",
+            "analysis": "大 mô tả kích thước hoặc không gian.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "这家超市很大。",
-            "vi": "Siêu thị này rất lớn.",
-            "analysis": "大 nhận xét quy mô của siêu thị, không phải số lượng người trong đó.",
+            "zh": "你多大？",
+            "pinyin": "Nǐ duō dà?",
+            "vi": "Bạn bao nhiêu tuổi?",
+            "analysis": "多大 là cách hỏi tuổi thường dùng trong giao tiếp thân mật, nhất là với trẻ em hoặc người ngang hàng.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e3",
+            "zh": "我弟弟比我大两岁。",
+            "pinyin": "Wǒ dìdi bǐ wǒ dà liǎng suì.",
+            "vi": "Em trai tôi lớn hơn tôi hai tuổi.",
+            "analysis": "Trong so sánh tuổi, 大 có thể nghĩa là lớn tuổi hơn.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Đồ vật/địa điểm + 很 + 大",
-            "position": "大 đứng sau danh từ làm chủ đề; 很 thường nối danh từ với tính từ trong câu nhận xét.",
-            "required": "Chọn 大 cho độ lớn/quy mô; nếu muốn nói cao hay đông thì đổi tính từ.",
-            "omission": "Trong câu trả lời ngắn, có thể bỏ 很: 很大/大 đều có thể xuất hiện tùy ngữ cảnh.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Lớn, cao hay nhiều",
-            "scene": "Bạn mô tả một tòa nhà và số người bên trong.",
-            "possibleConfusion": "Tiếng Việt có thể dùng “lớn” cho cả kích thước chung lẫn độ cao, còn số người là lượng.",
-            "difference": "大 nói kích thước/quy mô chung; 高 nói cao theo chiều đứng; 多 nói số lượng. Một tòa nhà có thể vừa cao vừa lớn.",
-            "cases": [
+            "id": "size",
+            "title": "To, lớn về kích thước",
+            "when": "Mô tả đồ vật, phòng hoặc không gian có kích thước lớn.",
+            "meaning": "to; lớn; rộng",
+            "grammar": "大 thường làm vị ngữ với 很 hoặc đứng trước danh từ khi bổ nghĩa.",
+            "pattern": "chủ thể+很大；大+danh từ",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "这座楼很高。",
-                "vi": "Tòa nhà này rất cao.",
-                "comment": "高 nhấn chiều cao.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "这座楼很大。",
-                "vi": "Tòa nhà này rất lớn.",
-                "comment": "大 nhận xét quy mô chung.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c3",
-                "zh": "这座楼里人很多。",
-                "vi": "Trong tòa nhà này có rất đông người.",
-                "comment": "很多 nói số người, không nói kích thước tòa nhà.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "房间很大",
+                "pinyin": "fángjiān hěn dà",
+                "vi": "phòng rất rộng"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 大 bằng 高 vẫn có thể đúng với tòa nhà nhưng chuyển sang chiều cao; dùng 很多 thì cần danh từ 人 và đổi sang lượng người."
-            },
-            "boundary": "Đại lượng có thể cùng tồn tại: một tòa nhà có thể vừa cao vừa rộng và bên trong đông người; hãy chọn theo thuộc tính muốn nói.",
-            "tip": "Kích thước chung 大; chiều cao 高; số lượng 多."
+            "examples": [
+              {
+                "zh": "这个房间很大。",
+                "pinyin": "Zhège fángjiān hěn dà.",
+                "vi": "Căn phòng này rất rộng.",
+                "note": "很大 mô tả kích thước."
+              },
+              {
+                "zh": "我想买一个大杯子。",
+                "pinyin": "Wǒ xiǎng mǎi yí gè dà bēizi.",
+                "vi": "Tôi muốn mua một chiếc cốc to.",
+                "note": "大 đứng trước danh từ 杯子."
+              }
+            ]
+          },
+          {
+            "id": "age",
+            "title": "Lớn tuổi hơn",
+            "when": "Hỏi tuổi hoặc so sánh tuổi của người.",
+            "meaning": "bao nhiêu tuổi trong 多大; lớn tuổi hơn trong 比较",
+            "grammar": "Hỏi tuổi dùng 多大; so sánh tuổi dùng A 比 B 大 + số tuổi.",
+            "pattern": "你多大；A+比+B+大+两岁",
+            "collocations": [
+              {
+                "zh": "多大",
+                "pinyin": "duō dà",
+                "vi": "bao nhiêu tuổi"
+              }
+            ],
+            "examples": [
+              {
+                "zh": "你多大？",
+                "pinyin": "Nǐ duō dà?",
+                "vi": "Bạn bao nhiêu tuổi?",
+                "note": "多大 hỏi tuổi."
+              },
+              {
+                "zh": "我弟弟比我大两岁。",
+                "pinyin": "Wǒ dìdi bǐ wǒ dà liǎng suì.",
+                "vi": "Em trai tôi lớn hơn tôi hai tuổi.",
+                "note": "大 biểu thị hơn tuổi."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "big-small",
+            "category": "C",
+            "afterSense": "size",
+            "title": "大 và 小 là hai hướng kích thước",
+            "explanation": "大 nói to/lớn; 小 nói nhỏ. Đây là hai tính từ đối lập, không tự đổi nghĩa chỉ vì đứng sau 很.",
+            "contrasts": [
+              {
+                "zh": "这个房间很大。",
+                "pinyin": "Zhège fángjiān hěn dà.",
+                "vi": "Căn phòng này rất rộng.",
+                "note": "大 = lớn."
+              },
+              {
+                "zh": "这个房间很小。",
+                "pinyin": "Zhège fángjiān hěn xiǎo.",
+                "vi": "Căn phòng này rất nhỏ.",
+                "note": "小 = nhỏ."
+              }
+            ],
+            "tip": "Nhìn kích thước: 大 là lớn, 小 là nhỏ; hỏi tuổi lại dùng 多大."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "大 đọc dà trong nghĩa đang học; cách dùng chỉ tuổi lớn hơn là phổ biến nhưng cần khung so sánh riêng.",
-          "literalTranslation": "Không luôn dịch 大 là “to”; với phòng/địa điểm, “rộng/lớn” tự nhiên hơn theo danh từ.",
-          "confusables": "Đã so 大 với 高 và 多 theo thuộc tính; các từ có thể cùng đúng nếu mô tả những mặt khác nhau."
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "大 có cách đọc thông dụng dà trong bài; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã kiểm tra nghĩa kích thước và nghĩa liên quan tuổi trong 多大/比…大; ngữ cảnh quyết định phạm vi."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 大 luôn thành ‘to’ sẽ không tự nhiên trong 多大, nơi cả cụm hỏi tuổi; bài đã dạy theo cấu trúc."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 大 với 小 về kích thước và làm rõ 多大 không phải ‘nhiều to’ mà là cách hỏi tuổi."
+          }
         },
-        "pronunciation": {
-          "text": "大 mang thanh bốn; đọc gọn, giọng rơi rõ. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn muốn nói căn phòng rất rộng. Điền 大: 房间很____。"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Căn phòng này rất rộng.",
+            "tokens": [
+              "这个房间",
+              "很大",
+              "。"
+            ],
+            "accepted": [
+              "这个房间很大。"
+            ],
+            "model": "这个房间很大。",
+            "explanation": "很大 đứng sau chủ thể để mô tả kích thước.",
+            "wrongFeedback": "Đặt chủ thể trước 很大."
           },
           {
-            "id": "q2",
-            "type": "open",
-            "question": "Muốn nói tòa nhà cao, chọn 高 hay 大: 这座楼很____。"
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 你____？",
+            "accepted": [
+              "多大"
+            ],
+            "model": "你多大？",
+            "explanation": "多大 là cách hỏi tuổi trong giao tiếp.",
+            "wrongFeedback": "Hỏi tuổi bằng cụm 多大."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "房间很大。"
-            ],
-            "explanation": "大 tả kích thước chung; với phòng có thể dịch là rộng."
-          },
-          "q2": {
-            "accepted": [
-              "这座楼很高。"
-            ],
-            "explanation": "高 nêu chiều cao; 大 sẽ nhận xét quy mô chung."
-          }
-        },
-        "selfUse": [
+        "discriminationExercises": [
           {
-            "id": "s1",
-            "prompt": "Nói siêu thị gần nhà bạn rất lớn."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói căn phòng của bạn rất rộng."
+            "id": "d1",
+            "trapId": "big-small",
+            "type": "choice",
+            "prompt": "Căn phòng rộng, chọn từ đúng.",
+            "choices": [
+              "大",
+              "小"
+            ],
+            "correctIndex": 0,
+            "model": "大",
+            "explanation": "大 nghĩa là to/lớn; 小 nghĩa là nhỏ.",
+            "wrongFeedback": "Đối chiếu kích thước của căn phòng với hai từ trái nghĩa."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu địa điểm và kích thước.",
-            "frame": "我家附近的超市 + 很 + 大。",
-            "model": "我家附近的超市很大。",
-            "vi": "Siêu thị gần nhà tôi rất lớn.",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Hỏi tuổi một người bạn.",
+            "hints": [
+              "Dùng đại từ người nghe: 你.",
+              "Dùng cụm hỏi tuổi 多大.",
+              "Mẫu: 你多大？"
+            ],
+            "model": "你多大？",
+            "vi": "Bạn bao nhiêu tuổi?",
             "criteria": [
-              "Đặt 大 sau 很.",
-              "Có thể thay địa điểm thực tế."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu phòng của mình và kích thước.",
-            "frame": "我的房间 + 很 + 大。",
-            "model": "我的房间很大。",
-            "vi": "Phòng của tôi rất rộng.",
-            "criteria": [
-              "Có danh từ 房间 và tính từ 大.",
-              "Rộng là cách dịch tự nhiên theo ngữ cảnh."
+              "Dùng đúng cụm 多大."
             ]
           }
-        }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhớ câu mô tả kích thước.",
+            "hiddenAnswer": "这个房间很大。",
+            "model": "这个房间很大。",
+            "vi": "Căn phòng này rất rộng."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách hỏi tuổi.",
+            "hiddenAnswer": "多大",
+            "model": "你多大？",
+            "vi": "Bạn bao nhiêu tuổi?"
+          }
+        ]
       }
     },
     {
@@ -26667,15 +27251,17 @@
         {
           "id": "e1",
           "zh": "这个太贵了。",
+          "pinyin": "Zhège tài guì le.",
           "vi": "Cái này đắt quá.",
-          "analysis": "太 đứng trước 贵 và 了 ở cuối để nhấn giá vượt mức người nói muốn.",
+          "analysis": "太 đứng trước tính từ và thường đi với 了 để bộc lộ mức độ vượt mong đợi.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "今天的菜太好吃了！",
+          "pinyin": "Jīntiān de cài tài hǎochī le!",
           "vi": "Món hôm nay ngon quá!",
-          "analysis": "太…了 cũng dùng để khen mạnh; không phải lúc nào cũng là lời phàn nàn.",
+          "analysis": "太…了 cũng dùng cho cảm xúc tích cực mạnh, không chỉ lời phàn nàn.",
           "practiceAllowed": true
         }
       ],
@@ -26683,151 +27269,198 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 94,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "medium",
+        "difficultyReason": "太 là phó từ mức độ trong 太+ tính từ +了, vừa có thể là ‘quá’ vừa là lời cảm thán; cần phân biệt với 很 là mức độ trung tính hơn.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, cấu trúc, Pinyin, bản dịch, bẫy và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 太 + tính từ + 了 để nhấn mức độ cao hoặc cảm xúc; 太 không chỉ dùng để chê."
-        },
-        "meaning": {
-          "scene": "Bạn thử món ăn rất ngon và muốn bày tỏ cảm xúc.",
-          "explanation": "太 đứng trước tính từ, thường tạo mẫu 太 + tính từ + 了 để nhấn mức độ cao. Với điều không mong muốn, tiếng Việt thường dịch “quá”; với lời khen, thường dịch “rất/quá…!”.",
-          "boundary": "太…了 không luôn mang nghĩa tiêu cực. 太贵了 thường là đắt quá; 太好了! là tuyệt quá/rất tốt.",
-          "conditions": [
-            "Thường đặt 了 ở cuối câu cảm thán: 太好了！",
-            "很 + tính từ thường là nhận xét trung tính hơn; 太 nhấn mạnh phản ứng hoặc mức độ cao."
-          ],
-          "takeaway": "太…了 nhấn mạnh; sắc thái tốt/xấu do tính từ và tình huống quyết định."
+          "scope": "太 đặt trước tính từ để nhấn mạnh mức độ, thường trong mẫu 太+ tính từ +了; sắc thái do tình huống quyết định."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "这个太贵了。",
+            "pinyin": "Zhège tài guì le.",
             "vi": "Cái này đắt quá.",
-            "analysis": "太 đứng trước 贵 và 了 ở cuối để nhấn giá vượt mức người nói muốn.",
+            "analysis": "太 đứng trước tính từ và thường đi với 了 để bộc lộ mức độ vượt mong đợi.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "今天的菜太好吃了！",
+            "pinyin": "Jīntiān de cài tài hǎochī le!",
             "vi": "Món hôm nay ngon quá!",
-            "analysis": "太…了 cũng dùng để khen mạnh; không phải lúc nào cũng là lời phàn nàn.",
+            "analysis": "太…了 cũng dùng cho cảm xúc tích cực mạnh, không chỉ lời phàn nàn.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Chủ đề + 太 + tính từ + 了",
-            "position": "太 đứng ngay trước tính từ; 了 thường ở cuối câu.",
-            "required": "Dùng cả mẫu để nhấn cảm xúc/mức độ; chọn tính từ phù hợp tình huống.",
-            "omission": "Trong lời nói, có thể lược chủ đề nếu người nghe biết đang nói về vật nào: 太贵了。— Đắt quá.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "太 nhấn mạnh nhưng không luôn chê",
-            "scene": "Bạn nghe người khác nói 太好了 hoặc 太贵了.",
-            "possibleConfusion": "Dịch 太 thành “quá” khiến người mới tưởng câu nào cũng mang ý tiêu cực.",
-            "difference": "太贵了 thường phàn nàn giá cao; 太好了 là lời khen mạnh. Tính từ và ngữ cảnh quyết định thái độ.",
-            "cases": [
+            "id": "degree",
+            "title": "Quá, rất ở mức cảm thán",
+            "when": "Bộc lộ mức độ mạnh, thường vượt điều người nói mong đợi.",
+            "meaning": "quá; rất, theo cảm xúc của người nói",
+            "grammar": "太 đứng trước tính từ; mẫu 太+ tính từ +了 rất thường gặp trong lời cảm thán.",
+            "pattern": "太+形容词+了",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "这个太贵了。",
-                "vi": "Cái này đắt quá.",
-                "comment": "贵 kết hợp với 太…了 để than giá vượt mong muốn.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "太贵了",
+                "pinyin": "tài guì le",
+                "vi": "đắt quá"
               },
               {
-                "id": "c2",
-                "zh": "这个办法太好了！",
-                "vi": "Cách này hay quá!",
-                "comment": "好 là đánh giá tích cực, câu thể hiện lời khen.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "太好了",
+                "pinyin": "tài hǎo le",
+                "vi": "tốt quá"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "太…了 có thể giữ khung nhưng đổi tính từ sẽ đổi đánh giá từ chê giá sang khen cách làm; bản thân 太 không có sắc thái xấu cố định."
-            },
-            "boundary": "很贵 cũng đúng và gần nghĩa với 太贵了, nhưng thường nhẹ và trung tính hơn; 太 thường nhấn cảm xúc mạnh hơn.",
-            "tip": "Nhìn tính từ và tình huống: 太…了 có thể chê hoặc khen."
+            "examples": [
+              {
+                "zh": "这个太贵了。",
+                "pinyin": "Zhège tài guì le.",
+                "vi": "Cái này đắt quá.",
+                "note": "太贵了 diễn tả giá vượt mức người nói muốn trả."
+              },
+              {
+                "zh": "今天的菜太好吃了！",
+                "pinyin": "Jīntiān de cài tài hǎochī le!",
+                "vi": "Món hôm nay ngon quá!",
+                "note": "Sắc thái có thể tích cực."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "degree-contrast",
+            "category": "C",
+            "afterSense": "degree",
+            "title": "太 và 很 khác sắc thái mức độ",
+            "explanation": "很 thường chỉ là mức độ ‘rất’ hoặc thành phần tự nhiên trước tính từ; 太 nhấn mạnh cảm xúc, thường có 了 và gợi ý mức độ quá cao hoặc đáng kể.",
+            "contrasts": [
+              {
+                "zh": "这个菜很好吃。",
+                "pinyin": "Zhège cài hěn hǎochī.",
+                "vi": "Món này rất ngon.",
+                "note": "Nhận xét tương đối trung tính."
+              },
+              {
+                "zh": "这个菜太好吃了！",
+                "pinyin": "Zhège cài tài hǎochī le!",
+                "vi": "Món này ngon quá!",
+                "note": "Cảm thán mạnh."
+              }
+            ],
+            "tip": "Nhận xét thông thường dùng 很; cảm thán mạnh dùng 太…了. Hai câu có thể cùng đúng nhưng khác sắc thái."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "太 đọc tài, không có biến điệu thông dụng trong các mẫu này.",
-          "literalTranslation": "Không dịch 太 thành “quá mức” theo nghĩa tiêu cực trong mọi câu; 太好了 là lời khen phổ biến.",
-          "confusables": "Đối chiếu 很 + tính từ (nhận xét thường hơn) với 太 + tính từ + 了 (nhấn mạnh); hai mẫu có vùng gần nghĩa."
-        },
-        "pronunciation": {
-          "text": "太 mang thanh bốn; đọc liền 太贵了 và giữ rõ từng tiếng, không cần đổi thanh. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn than “Cái này đắt quá”. Xếp: 了 / 太 / 贵 / 这个。"
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "太 có cách đọc thông dụng tài; không có cách đọc phổ biến thứ hai cần tách."
           },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn khen “Cách này hay quá”. Điền 太…了: 这个办法____好____！"
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "太 giữ chức năng phó từ mức độ; khác nhau giữa ‘quá’ và ‘rất’ chủ yếu do sắc thái câu, không phải hai từ vựng riêng."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 太 luôn thành ‘quá’ có thể làm mất sắc thái cảm thán tích cực trong 太好了/太好吃了; cần dịch theo cảm xúc và ngữ cảnh."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 太 với 很 về cường độ, sắc thái và mẫu 太…了; hai câu có thể đều đúng nhưng không hoàn toàn tương đương."
           }
-        ],
-        "answers": {
-          "q1": {
+        },
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Cái này đắt quá.",
+            "tokens": [
+              "这个",
+              "太贵了",
+              "。"
+            ],
             "accepted": [
               "这个太贵了。"
             ],
-            "explanation": "太 đứng trước 贵; 了 thường đứng cuối."
+            "model": "这个太贵了。",
+            "explanation": "太 đứng trước tính từ 贵 và 了 ở cuối câu cảm thán.",
+            "wrongFeedback": "Đặt 太 trước tính từ, rồi giữ 了 ở cuối."
           },
-          "q2": {
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 今天的菜____好吃了！",
             "accepted": [
-              "这个办法太好了！",
-              "这个办法太好！"
+              "太"
             ],
-            "explanation": "Mẫu 太好了 rất thường dùng; trong khẩu ngữ có thể lược 了, nhưng thêm 了 là cách học cơ bản."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói món ăn hôm nay ngon quá."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói món đồ này đắt quá."
+            "model": "今天的菜太好吃了！",
+            "explanation": "Mẫu cảm thán là 太+好吃+了.",
+            "wrongFeedback": "Câu cảm thán mạnh dùng 太 trước tính từ."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu món ăn và cảm xúc khen mạnh.",
-            "frame": "今天的菜 + 太 + 好吃 + 了！",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "degree-contrast",
+            "type": "choice",
+            "prompt": "Bạn chỉ nhận xét món ăn rất ngon một cách bình thường, chọn câu phù hợp.",
+            "choices": [
+              "这个菜很好吃。",
+              "这个菜太好吃了！"
+            ],
+            "correctIndex": 0,
+            "model": "这个菜很好吃。",
+            "explanation": "很 phù hợp với nhận xét trung tính; 太…了 thể hiện cảm thán mạnh.",
+            "wrongFeedback": "Xác định người nói chỉ nhận xét hay đang cảm thán mạnh."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Cảm thán rằng món hôm nay ngon quá.",
+            "hints": [
+              "Nêu món hôm nay: 今天的菜.",
+              "Dùng 太 + 好吃 + 了.",
+              "Mẫu: 今天的菜太好吃了！"
+            ],
             "model": "今天的菜太好吃了！",
             "vi": "Món hôm nay ngon quá!",
             "criteria": [
-              "太 đứng trước 好吃.",
-              "Câu khen vẫn dùng 太…了."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu món đồ và giá vượt mong muốn.",
-            "frame": "这个 + 太 + 贵 + 了。",
-            "model": "这个太贵了。",
-            "vi": "Cái này đắt quá.",
-            "criteria": [
-              "太 đứng trước tính từ.",
-              "Có thể thay 这个 bằng tên món đồ."
+              "Dùng đúng mẫu 太+ tính từ +了."
             ]
           }
-        }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhớ mẫu cảm thán về giá.",
+            "hiddenAnswer": "太贵了",
+            "model": "这个太贵了。",
+            "vi": "Cái này đắt quá."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ sắc thái của 太…了.",
+            "hiddenAnswer": "Nhấn mạnh cảm xúc, thường dịch ‘quá’ hoặc ‘rất’ theo ngữ cảnh.",
+            "model": "今天的菜太好吃了！",
+            "vi": "Món hôm nay ngon quá!"
+          }
+        ]
       }
     },
     {
@@ -26848,15 +27481,17 @@
         {
           "id": "e1",
           "zh": "这个办法很好。",
+          "pinyin": "Zhège bànfǎ hěn hǎo.",
           "vi": "Cách này rất hay.",
-          "analysis": "这个办法 là điều được nhận xét; 很 đặt trước tính từ 好.",
+          "analysis": "好 làm tính từ nhận xét chất lượng hoặc mức độ phù hợp.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "这个菜很好吃。",
+          "pinyin": "Zhège cài hěn hǎochī.",
           "vi": "Món này rất ngon.",
-          "analysis": "好吃 là cách nói quen thuộc để khen vị món ăn; không dịch từng chữ là “tốt ăn”.",
+          "analysis": "好 đứng trước 吃 trong từ ghép 好吃, nghĩa là ngon.",
           "practiceAllowed": true
         }
       ],
@@ -26864,182 +27499,227 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 95,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "medium",
+        "difficultyReason": "好 có nghĩa đánh giá ‘tốt/ổn’ và xuất hiện trong các từ ghép quen thuộc như 好吃; người Việt dễ nhầm lời đánh giá tốt với 对 là đúng.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, cấu trúc, Pinyin, bản dịch, bẫy và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=4797&ver=4"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 好 như tính từ khen chất lượng; trong khẩu ngữ cũng dùng 太好了 để khen mạnh."
-        },
-        "meaning": {
-          "scene": "Bạn nhận xét một món ăn hoặc một cách làm.",
-          "explanation": "好 là tính từ nói điều gì đó tốt/ổn theo đánh giá của người nói. Có thể nói 好吃 (ngon), 很好 (rất tốt), hoặc 好办法 (cách hay).",
-          "boundary": "好 đánh giá chất lượng; 可以 thường nghiêng về “được/có thể chấp nhận” hoặc “làm được”. Trong một số tình huống, cả hai cùng thể hiện đồng ý.",
-          "conditions": [
-            "Khi nói câu nhận xét, có thể đặt 很 trước 好: 这个办法很好.",
-            "Trong 好吃, 好 đứng trước động từ/cảm nhận 吃 để tạo nghĩa “ngon”; không tách dịch thành tốt + ăn."
-          ],
-          "takeaway": "好 khen chất lượng; 可以 thiên về chấp nhận hoặc khả thi."
+          "scope": "好 dùng để nhận xét tốt, ổn hoặc phù hợp; trong 好吃, 好 góp phần tạo nghĩa ‘ngon’."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "这个办法很好。",
+            "pinyin": "Zhège bànfǎ hěn hǎo.",
             "vi": "Cách này rất hay.",
-            "analysis": "这个办法 là điều được nhận xét; 很 đặt trước tính từ 好.",
+            "analysis": "好 làm tính từ nhận xét chất lượng hoặc mức độ phù hợp.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "这个菜很好吃。",
+            "pinyin": "Zhège cài hěn hǎochī.",
             "vi": "Món này rất ngon.",
-            "analysis": "好吃 là cách nói quen thuộc để khen vị món ăn; không dịch từng chữ là “tốt ăn”.",
+            "analysis": "好 đứng trước 吃 trong từ ghép 好吃, nghĩa là ngon.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Danh từ + 很 + 好; món ăn + 很 + 好吃",
-            "position": "好 đứng sau 很 khi nhận xét; trong 好吃, 好 đứng trước 吃.",
-            "required": "Chọn 好 để khen chất lượng; ghép 好吃 khi nhận xét vị món ăn.",
-            "omission": "Trong đáp ngắn có thể nói 很好/好吃 mà không nhắc lại món đã rõ.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Khen tốt hay nói là dùng được",
-            "scene": "Bạn góp ý một kế hoạch làm việc.",
-            "possibleConfusion": "好 và 可以 đều có thể dùng để tán thành một phương án.",
-            "difference": "这个办法很好 khen cách làm là hay; 这个办法可以 nói cách này được/khả thi. Có vùng giao nhau nhưng mức đánh giá khác.",
-            "cases": [
+            "id": "good",
+            "title": "Tốt, ổn",
+            "when": "Đánh giá chất lượng, tình trạng hoặc cách làm.",
+            "meaning": "tốt; ổn; hay",
+            "grammar": "好 thường đứng sau 很 hoặc làm vị ngữ; có thể đứng trước danh từ trong 好办法.",
+            "pattern": "很+好；好+的+事物",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "这个办法很好。",
-                "vi": "Cách này rất hay.",
-                "comment": "好 đánh giá chất lượng tích cực.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "很好",
+                "pinyin": "hěn hǎo",
+                "vi": "rất tốt/ổn"
               },
               {
-                "id": "c2",
-                "zh": "这个办法可以。",
-                "vi": "Cách này được/khả thi.",
-                "comment": "可以 thể hiện chấp nhận hoặc làm được, mức khen nhẹ hơn.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "好办法",
+                "pinyin": "hǎo bànfǎ",
+                "vi": "cách hay"
               }
             ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Thay 好 bằng 可以 thì câu vẫn đúng và cùng có thể đồng ý với kế hoạch; sắc thái chuyển từ khen hay sang chấp nhận/khả thi."
-            },
-            "boundary": "Trong giao tiếp, 可以 đôi khi cũng là lời tán thành khá tích cực; chỉ dựa ngữ cảnh để biết người nói đang khen hay xác nhận có thể làm.",
-            "tip": "好 khen chất lượng; 可以 thường nói được/ổn."
+            "examples": [
+              {
+                "zh": "这个办法很好。",
+                "pinyin": "Zhège bànfǎ hěn hǎo.",
+                "vi": "Cách này rất hay.",
+                "note": "Nhận xét một cách làm."
+              },
+              {
+                "zh": "你今天好吗？",
+                "pinyin": "Nǐ jīntiān hǎo ma?",
+                "vi": "Hôm nay bạn ổn không?",
+                "note": "好 có thể hỏi tình trạng."
+              }
+            ]
           },
           {
-            "id": "t2",
-            "title": "好 trong 好 và trong 爱好 có thanh khác",
-            "scene": "Bạn nhận xét một cách làm tốt rồi nói về sở thích của mình.",
-            "possibleConfusion": "Cùng chữ 好 có nghĩa tốt với thanh ba; trong từ 爱好 nghĩa là sở thích và đọc thanh bốn.",
-            "difference": "这个办法很好 dùng 好 để khen cách làm. 我的爱好是听音乐 dùng 爱好 để nói sở thích; thanh đọc thay theo từ, không phải biến điệu của 很好.",
-            "cases": [
+            "id": "tasty",
+            "title": "Ngon trong 好吃",
+            "when": "Nói món ăn có vị ngon.",
+            "meaning": "ngon",
+            "grammar": "好 đứng trước 吃 tạo từ ghép 好吃; không tách thành ‘ăn tốt’ trong câu này.",
+            "pattern": "好吃；不好吃",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "这个办法很好。",
-                "vi": "Cách này rất hay.",
-                "comment": "好 là tính từ nghĩa tốt, đọc thanh ba.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "我的爱好是听音乐。",
-                "vi": "Sở thích của tôi là nghe nhạc.",
-                "comment": "好 nằm trong từ 爱好, đọc thanh bốn và tạo nghĩa sở thích.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "很好吃",
+                "pinyin": "hěn hǎochī",
+                "vi": "rất ngon"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Không thể thay 好 bằng 爱好 trong 这个办法很好 mà giữ cùng cấu trúc: 爱好 là cả một từ nghĩa sở thích. Đây là cách đọc từ vựng khác, không phải đổi thanh do thanh điệu liền nhau."
-            },
-            "boundary": "好 có hai cách đọc thông dụng tùy từ: thanh ba nghĩa là tốt; trong 爱好, thanh bốn mang nghĩa sở thích. Bài chính dùng nghĩa “tốt”; chỉ cần nhận ra 爱好 khi gặp.",
-            "tip": "Nghĩa tốt: 好 thanh ba; sở thích: 爱好, chữ 好 thanh bốn."
+            "examples": [
+              {
+                "zh": "这个菜很好吃。",
+                "pinyin": "Zhège cài hěn hǎochī.",
+                "vi": "Món này rất ngon.",
+                "note": "好吃 là từ ghép chỉ vị ngon."
+              },
+              {
+                "zh": "这个不好吃。",
+                "pinyin": "Zhège bù hǎochī.",
+                "vi": "Cái này không ngon.",
+                "note": "不 đứng trước cả 好吃."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "good-correct",
+            "category": "C",
+            "afterSense": "good",
+            "title": "好 và 对 không cùng nghĩa",
+            "explanation": "好 đánh giá tốt, ổn hoặc phù hợp; 对 xác nhận đúng, không sai. Một việc có thể đúng nhưng chưa chắc hay, hoặc hay nhưng không phải câu trả lời đúng.",
+            "contrasts": [
+              {
+                "zh": "这个办法很好。",
+                "pinyin": "Zhège bànfǎ hěn hǎo.",
+                "vi": "Cách này rất hay.",
+                "note": "Đánh giá chất lượng."
+              },
+              {
+                "zh": "你的答案对。",
+                "pinyin": "Nǐ de dá'àn duì.",
+                "vi": "Đáp án của bạn đúng.",
+                "note": "Xác nhận đúng/sai."
+              }
+            ],
+            "tip": "Đánh giá tốt dùng 好; xác nhận đúng dùng 对."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "好 đọc thanh ba khi nghĩa là tốt; trong từ 爱好, 好 đọc thanh bốn và cả từ nghĩa là sở thích. Đây là cách đọc khác theo từ vựng, không phải biến điệu.",
-          "literalTranslation": "Không dịch 好吃 thành “tốt ăn”; cả cụm có nghĩa là ngon.",
-          "confusables": "Đã phân biệt 好 với 可以 và ghi rõ vùng giao nhau; 好吃 là kết hợp quen thuộc để khen vị."
-        },
-        "pronunciation": {
-          "text": "好 đọc thanh ba trong nghĩa “tốt”; trong từ 爱好, 好 đọc thanh bốn. Hai cách đọc thuộc hai từ/cách dùng khác nhau. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn muốn khen “Cách này rất hay”. Điền 好: 这个办法很____。"
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "好 có cách đọc thông dụng hǎo trong các nghĩa của bài; không có cách đọc phổ biến thứ hai cần tách."
           },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn nói món này rất ngon. Điền 好吃: 这个菜很____。"
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã tách nghĩa đánh giá tốt/ổn và cách dùng trong từ ghép 好吃 là ngon; không dịch 好吃 thành ‘ăn tốt’."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch từng chữ 好吃 thành ‘ăn tốt’ là bẫy rõ với người Việt; bài giải thích 好吃 là từ ghép nghĩa là ngon."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 好 với 对: 好 là tốt/ổn, 对 là đúng; khác nhau về tiêu chuẩn đánh giá."
           }
-        ],
-        "answers": {
-          "q1": {
+        },
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Cách này rất hay.",
+            "tokens": [
+              "这个办法",
+              "很好",
+              "。"
+            ],
             "accepted": [
               "这个办法很好。"
             ],
-            "explanation": "很 đứng trước 好 để nhận xét tích cực."
+            "model": "这个办法很好。",
+            "explanation": "很好 đứng sau chủ thể để nhận xét.",
+            "wrongFeedback": "Đặt chủ thể trước cụm nhận xét 很好."
           },
-          "q2": {
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 这个菜很____。",
             "accepted": [
-              "这个菜很好吃。"
+              "好吃"
             ],
-            "explanation": "好吃 là cụm quen thuộc nghĩa là ngon."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Khen món ăn bạn vừa thử là ngon."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói cách làm này rất hay."
+            "model": "这个菜很好吃。",
+            "explanation": "好吃 là từ ghép nghĩa là ngon.",
+            "wrongFeedback": "Món ngon dùng 好吃, không dịch từng chữ thành ‘ăn tốt’."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu món ăn và đánh giá vị.",
-            "frame": "这个菜 + 很 + 好吃。",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "good-correct",
+            "type": "choice",
+            "prompt": "Muốn nói đáp án đúng, chọn từ phù hợp.",
+            "choices": [
+              "对",
+              "好"
+            ],
+            "correctIndex": 0,
+            "model": "对",
+            "explanation": "Đúng/sai của đáp án dùng 对; 好 đánh giá tốt hoặc hay.",
+            "wrongFeedback": "Tình huống hỏi đúng hay sai, không hỏi chất lượng tốt hay xấu."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói món ăn này rất ngon.",
+            "hints": [
+              "Nêu món: 这个菜.",
+              "Dùng 很好吃.",
+              "Mẫu: 这个菜很好吃。"
+            ],
             "model": "这个菜很好吃。",
             "vi": "Món này rất ngon.",
             "criteria": [
-              "Dùng 好吃 để nói ngon.",
-              "Có thể thay món ăn."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu cách làm và khen.",
-            "frame": "这个办法 + 很 + 好。",
-            "model": "这个办法很好。",
-            "vi": "Cách này rất hay.",
-            "criteria": [
-              "好 đứng sau 很.",
-              "Có thể dùng 可以 nếu ý chỉ chấp nhận/khả thi."
+              "Dùng 好吃 như một từ ghép."
             ]
           }
-        }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhớ câu đánh giá một cách làm.",
+            "hiddenAnswer": "很好",
+            "model": "这个办法很好。",
+            "vi": "Cách này rất hay."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ từ ghép chỉ món ngon.",
+            "hiddenAnswer": "好吃",
+            "model": "这个菜很好吃。",
+            "vi": "Món này rất ngon."
+          }
+        ]
       }
     },
     {
@@ -27060,15 +27740,17 @@
         {
           "id": "e1",
           "zh": "这个杯子很小。",
+          "pinyin": "Zhège bēizi hěn xiǎo.",
           "vi": "Cốc này nhỏ.",
-          "analysis": "这个杯子 là vật được nhận xét; 很小 nêu kích thước.",
+          "analysis": "小 mô tả kích thước nhỏ.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "我想买一个小杯子。",
+          "pinyin": "Wǒ xiǎng mǎi yí gè xiǎo bēizi.",
           "vi": "Tôi muốn mua một chiếc cốc nhỏ.",
-          "analysis": "小 đứng trước 杯子 để bổ nghĩa; 一个 đếm một chiếc cốc.",
+          "analysis": "小 đứng trước danh từ 杯子 để bổ nghĩa.",
           "practiceAllowed": true
         }
       ],
@@ -27076,150 +27758,182 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 96,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "easy",
+        "difficultyReason": "小 có nghĩa kích thước trực tiếp, vị trí rõ và chỉ cần phân biệt với 大 khi mô tả to–nhỏ.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, cấu trúc, Pinyin, bản dịch, bẫy và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 小 để tả kích thước nhỏ; phân biệt với 少 nói số lượng ít."
-        },
-        "meaning": {
-          "scene": "Bạn chọn một chiếc cốc nhỏ để uống trà.",
-          "explanation": "小 là tính từ nói vật hoặc không gian có kích thước nhỏ. Với cốc, có thể nói 小杯子 hoặc 杯子很小.",
-          "boundary": "小 nói kích thước; 少 nói số lượng ít. Một chiếc cốc có thể nhỏ nhưng vẫn có nhiều nước hoặc ít nước.",
-          "conditions": [
-            "Tính từ thường đứng trước danh từ như 小杯子, hoặc sau danh từ với 很: 杯子很小.",
-            "Muốn nói lượng nước trong cốc ít, dùng 少, không dùng 小."
-          ],
-          "takeaway": "小 tả kích thước; 少 tả số lượng."
+          "scope": "小 dùng để nói kích thước nhỏ; có thể đứng sau 很 hoặc trước danh từ."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "这个杯子很小。",
+            "pinyin": "Zhège bēizi hěn xiǎo.",
             "vi": "Cốc này nhỏ.",
-            "analysis": "这个杯子 là vật được nhận xét; 很小 nêu kích thước.",
+            "analysis": "小 mô tả kích thước nhỏ.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "我想买一个小杯子。",
+            "pinyin": "Wǒ xiǎng mǎi yí gè xiǎo bēizi.",
             "vi": "Tôi muốn mua một chiếc cốc nhỏ.",
-            "analysis": "小 đứng trước 杯子 để bổ nghĩa; 一个 đếm một chiếc cốc.",
+            "analysis": "小 đứng trước danh từ 杯子 để bổ nghĩa.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Danh từ + 很 + 小; 一个 + 小 + danh từ",
-            "position": "小 đứng sau 很 trong nhận xét, hoặc đứng trước danh từ để bổ nghĩa.",
-            "required": "Dùng 小 cho kích thước; khi đếm cốc dùng 个 trước 小杯子.",
-            "omission": "Khi vật đã rõ, có thể nói 很小。— Nhỏ lắm.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Kích thước nhỏ hay số lượng ít",
-            "scene": "Bạn chọn cốc và nhìn lượng nước trong cốc.",
-            "possibleConfusion": "Trong tiếng Việt, “nhỏ” và “ít” có thể cùng mô tả một phần nhỏ, nhưng tiếng Trung dùng hai từ khác nhau.",
-            "difference": "杯子很小 nói chiếc cốc có kích thước nhỏ; 水很少 nói lượng nước ít.",
-            "cases": [
+            "id": "size",
+            "title": "Nhỏ về kích thước",
+            "when": "Mô tả đồ vật hoặc không gian có kích thước nhỏ.",
+            "meaning": "nhỏ",
+            "grammar": "小 làm vị ngữ với 很 hoặc đứng trước danh từ để bổ nghĩa.",
+            "pattern": "chủ thể+很小；小+danh từ",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "这个杯子很小。",
-                "vi": "Cốc này nhỏ.",
-                "comment": "小 miêu tả kích thước của cốc.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "杯子里的水很少。",
-                "vi": "Nước trong cốc rất ít.",
-                "comment": "少 miêu tả lượng nước.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "小杯子",
+                "pinyin": "xiǎo bēizi",
+                "vi": "cốc nhỏ"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi 小 thành 少 trong câu về chiếc cốc sẽ chuyển sang lượng; muốn nói lượng nước, cần nêu 水 làm chủ thể hoặc phần được miêu tả."
-            },
-            "boundary": "Cốc nhỏ thường chứa được ít hơn nhưng không nhất thiết lúc nào cũng ít nước; hai thuộc tính có thể cùng đúng.",
-            "tip": "Vật nhỏ dùng 小; lượng ít dùng 少."
+            "examples": [
+              {
+                "zh": "这个杯子很小。",
+                "pinyin": "Zhège bēizi hěn xiǎo.",
+                "vi": "Cốc này nhỏ.",
+                "note": "很小 mô tả kích thước."
+              },
+              {
+                "zh": "我想买一个小杯子。",
+                "pinyin": "Wǒ xiǎng mǎi yí gè xiǎo bēizi.",
+                "vi": "Tôi muốn mua một chiếc cốc nhỏ.",
+                "note": "小 đứng trước danh từ."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "small-big",
+            "category": "C",
+            "afterSense": "size",
+            "title": "小 và 大 là hai hướng kích thước",
+            "explanation": "小 nói nhỏ; 大 nói to/lớn. Cả hai có thể làm vị ngữ sau 很 hoặc đứng trước danh từ.",
+            "contrasts": [
+              {
+                "zh": "这个杯子很小。",
+                "pinyin": "Zhège bēizi hěn xiǎo.",
+                "vi": "Cốc này nhỏ.",
+                "note": "小 = nhỏ."
+              },
+              {
+                "zh": "这个杯子很大。",
+                "pinyin": "Zhège bēizi hěn dà.",
+                "vi": "Cốc này to.",
+                "note": "大 = to."
+              }
+            ],
+            "tip": "Nhỏ dùng 小, to dùng 大; vị trí trong câu giống nhau."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "小 có một cách đọc thông dụng trong nghĩa này; không cần dạy các nghĩa mở rộng như ít tuổi ở bài này.",
-          "literalTranslation": "Không đồng nhất “nhỏ” với “ít”; kiểm tra đang nói kích thước hay lượng.",
-          "confusables": "Đã so 小 với 少; cùng một vật có thể nhỏ nhưng lượng bên trong nhiều hoặc ít."
-        },
-        "pronunciation": {
-          "text": "小 mang thanh gốc thanh ba; trong các câu mẫu không có hai thanh ba liền nhau, nên không cần nêu biến điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn mô tả chiếc cốc có kích thước nhỏ. Điền 小: 这个杯子很____。"
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "小 có cách đọc thông dụng xiǎo; không có cách đọc phổ biến thứ hai cần tách."
           },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn mô tả nước trong cốc có lượng ít. Chọn 小 hay 少: 杯子里的水很____。"
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "Bài tập trung vào nghĩa kích thước nhỏ; không mở rộng sang nghĩa khác ở mức học này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt hoặc dịch từng chữ đáng kể; 小 trong bài là tính từ kích thước."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 小 với 大 về hướng kích thước và vị trí trong câu."
           }
-        ],
-        "answers": {
-          "q1": {
+        },
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Cốc này nhỏ.",
+            "tokens": [
+              "这个杯子",
+              "很小",
+              "。"
+            ],
             "accepted": [
               "这个杯子很小。"
             ],
-            "explanation": "小 tả kích thước chiếc cốc."
-          },
-          "q2": {
-            "accepted": [
-              "杯子里的水很少。"
-            ],
-            "explanation": "少 tả lượng nước."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói chiếc cốc này nhỏ."
-          },
-          {
-            "id": "s2",
-            "prompt": "Nói trong cốc có ít nước."
+            "model": "这个杯子很小。",
+            "explanation": "很小 đứng sau chủ thể để mô tả kích thước.",
+            "wrongFeedback": "Đặt chủ thể trước 很小."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Chỉ chiếc cốc và kích thước.",
-            "frame": "这个杯子 + 很 + 小。",
-            "model": "这个杯子很小。",
-            "vi": "Cốc này nhỏ.",
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "small-big",
+            "type": "choice",
+            "prompt": "Cốc có kích thước nhỏ, chọn từ đúng.",
+            "choices": [
+              "小",
+              "大"
+            ],
+            "correctIndex": 0,
+            "model": "小",
+            "explanation": "小 nghĩa là nhỏ; 大 nghĩa là to.",
+            "wrongFeedback": "Xét kích thước cốc rồi chọn tính từ tương ứng."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn muốn mua một chiếc cốc nhỏ.",
+            "hints": [
+              "Nêu chủ thể: 我想买.",
+              "Đặt 小 trước 杯子.",
+              "Mẫu: 我想买一个小杯子。"
+            ],
+            "model": "我想买一个小杯子。",
+            "vi": "Tôi muốn mua một chiếc cốc nhỏ.",
             "criteria": [
-              "Dùng 小 cho kích thước.",
-              "Có thể thay đồ vật."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu nước trong cốc và lượng ít.",
-            "frame": "杯子里的水 + 很 + 少。",
-            "model": "杯子里的水很少。",
-            "vi": "Nước trong cốc rất ít.",
-            "criteria": [
-              "Dùng 少 cho lượng.",
-              "Có thể nói 杯子里水很少 khi ngữ cảnh rõ."
+              "Đặt 小 trước danh từ 杯子."
             ]
           }
-        }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhớ nghĩa và vị trí của 小.",
+            "hiddenAnswer": "nhỏ; đứng trước danh từ khi bổ nghĩa",
+            "model": "我想买一个小杯子。",
+            "vi": "Tôi muốn mua một chiếc cốc nhỏ."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ câu mô tả kích thước.",
+            "hiddenAnswer": "很小",
+            "model": "这个杯子很小。",
+            "vi": "Cốc này nhỏ."
+          }
+        ]
       }
     },
     {
@@ -27240,15 +27954,17 @@
         {
           "id": "e1",
           "zh": "我今天吃得很少。",
+          "pinyin": "Wǒ jīntiān chī de hěn shǎo.",
           "vi": "Hôm nay tôi ăn rất ít.",
-          "analysis": "得 nối hành động 吃 với phần nói mức độ; 少 đứng cuối cụm bổ nghĩa cho lượng ăn.",
+          "analysis": "少 đứng sau 得 để mô tả mức độ ăn ít.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "请少放一点儿盐。",
+          "pinyin": "Qǐng shǎo fàng yìdiǎnr yán.",
           "vi": "Làm ơn cho ít muối hơn một chút.",
-          "analysis": "少 đứng trước động từ 放 để yêu cầu giảm lượng muối.",
+          "analysis": "少 đứng trước động từ để yêu cầu giảm số lượng hành động hoặc vật được thêm vào.",
           "practiceAllowed": true
         }
       ],
@@ -27256,182 +27972,227 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 97,
+        "difficulty": "medium",
+        "difficultyReason": "少 vừa nói số lượng ít, vừa đứng trước động từ để yêu cầu làm ít hơn; người Việt cần phân biệt vị trí trước danh từ, sau 得 và trước động từ.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, cấu trúc, Pinyin, bản dịch, bẫy và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8899&la=0&powerMode=0"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 少 để nói số lượng hoặc mức độ ít; lưu ý chữ này còn một cách đọc khác trong từ quen thuộc 少年."
-        },
-        "meaning": {
-          "scene": "Bạn đang chia phần ăn và thấy còn rất ít cơm.",
-          "explanation": "少 nói số lượng không nhiều hoặc mức độ giảm. Có thể làm vị ngữ sau 很, hoặc đứng trước động từ để nói làm ít đi.",
-          "boundary": "少 nói lượng; 小 nói kích thước. Khi nói tuổi trẻ trong 少年, chữ 少 đọc cách khác, không mang nghĩa “ít”.",
-          "conditions": [
-            "少可以放在名词前表示数量少，也可以放在 很 后面作谓语，如 人很少。若要报确数，用 数词 + 量词 + 名词。",
-            "Trong 少年, cách đọc là thanh bốn và nghĩa là tuổi trẻ; đó là cách đọc của từ ghép quen thuộc."
-          ],
-          "takeaway": "少 nói lượng; 小 nói kích thước. Khi nói tuổi trẻ trong 少年, chữ 少 đọc cách khác, không mang nghĩa “ít”."
+          "scope": "少 nói số lượng ít hoặc mức độ thấp; vị trí trong câu cho biết nó đang bổ nghĩa cho danh từ, động từ hay kết quả hành động."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "我今天吃得很少。",
+            "pinyin": "Wǒ jīntiān chī de hěn shǎo.",
             "vi": "Hôm nay tôi ăn rất ít.",
-            "analysis": "得 nối hành động 吃 với phần nói mức độ; 少 đứng cuối cụm bổ nghĩa cho lượng ăn.",
+            "analysis": "少 đứng sau 得 để mô tả mức độ ăn ít.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "请少放一点儿盐。",
+            "pinyin": "Qǐng shǎo fàng yìdiǎnr yán.",
             "vi": "Làm ơn cho ít muối hơn một chút.",
-            "analysis": "少 đứng trước động từ 放 để yêu cầu giảm lượng muối.",
+            "analysis": "少 đứng trước động từ để yêu cầu giảm số lượng hành động hoặc vật được thêm vào.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Người + hành động + 得 + 很 + 少; 请 + 少 + động từ + ...",
-            "position": "少 đứng sau 很 trong nhận xét về lượng, hoặc đứng trước động từ để yêu cầu giảm lượng.",
-            "required": "Muốn nói ít, nêu rõ việc hoặc vật được tính; 少 không tự cho biết thứ gì ít.",
-            "omission": "Khi việc đã rõ, có thể đáp 我吃得很少。— Tôi ăn rất ít.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "少 chỉ lượng ít, 小 chỉ kích thước nhỏ",
-            "scene": "Bạn đang nói về một chiếc bát và lượng cơm trong đó.",
-            "possibleConfusion": "Tiếng Việt đôi khi dùng “ít” và “nhỏ” cho một phần không lớn.",
-            "difference": "少 nói lượng; 小 nói kích thước của đồ vật.",
-            "cases": [
+            "id": "few",
+            "title": "Ít về số lượng",
+            "when": "Nói có ít người hoặc vật.",
+            "meaning": "ít; không nhiều",
+            "grammar": "少 có thể đứng trước danh từ hoặc làm vị ngữ sau chủ thể.",
+            "pattern": "少+一物；chủ thể+很少",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "碗里的饭很少。",
-                "vi": "Cơm trong bát rất ít.",
-                "comment": "少 miêu tả lượng cơm.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "这个碗很小。",
-                "vi": "Cái bát này nhỏ.",
-                "comment": "小 miêu tả kích thước bát.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "很少人",
+                "pinyin": "hěn shǎo rén",
+                "vi": "rất ít người"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Nếu thay 少 bằng 小 trong câu đầu, câu chuyển sang nói cơm có kích thước nhỏ, không phải lượng ít."
-            },
-            "boundary": "Một cái bát nhỏ có thể đựng ít hoặc nhiều cơm; hai ý không đồng nhất.",
-            "tip": "Đếm lượng dùng 少; tả cỡ đồ vật dùng 小."
+            "examples": [
+              {
+                "zh": "这里人很少。",
+                "pinyin": "Zhèlǐ rén hěn shǎo.",
+                "vi": "Ở đây có rất ít người.",
+                "note": "很少 đứng sau chủ thể 人."
+              },
+              {
+                "zh": "我只买了两个，太少了。",
+                "pinyin": "Wǒ zhǐ mǎi le liǎng ge, tài shǎo le.",
+                "vi": "Tôi chỉ mua hai cái, ít quá.",
+                "note": "少 làm vị ngữ đánh giá số lượng."
+              }
+            ]
           },
           {
-            "id": "t2",
-            "title": "少 có cách đọc khác trong 少年",
-            "scene": "Bạn gặp chữ 少 trong một câu nói về người trẻ.",
-            "possibleConfusion": "Thấy cùng chữ nên có thể giữ nguyên cách đọc và nghĩa “ít”.",
-            "difference": "Trong 少量, 少 đọc thanh ba, nghĩa là ít; trong 少年, 少 đọc thanh bốn, chỉ tuổi trẻ.",
-            "cases": [
+            "id": "reduce",
+            "title": "Làm ít hơn",
+            "when": "Yêu cầu giảm lượng hoặc tần suất của hành động.",
+            "meaning": "ít hơn; bớt",
+            "grammar": "少 đứng trước động từ, thường trong lời nhắc hoặc yêu cầu như 少吃, 少说.",
+            "pattern": "少+động từ+…",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "这家店的客人很少。",
-                "vi": "Khách của cửa hàng này rất ít.",
-                "comment": "少 nói số lượng khách.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "少吃一点儿",
+                "pinyin": "shǎo chī yìdiǎnr",
+                "vi": "ăn ít hơn một chút"
               },
               {
-                "id": "c2",
-                "zh": "那个少年喜欢打篮球。",
-                "vi": "Cậu thiếu niên đó thích chơi bóng rổ.",
-                "comment": "Trong từ 少年, 少 mang nghĩa tuổi trẻ và đọc thanh bốn.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "少说话",
+                "pinyin": "shǎo shuōhuà",
+                "vi": "nói ít thôi"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Không thể đổi cách đọc của 少 trong 少量 sang 少年. Đây là cách đọc từ vựng khác của chữ, không phải biến điệu."
-            },
-            "boundary": "Cách đọc thanh bốn chủ yếu học qua các từ ghép quen thuộc như 少年; nghĩa ít trong bài này dùng thanh ba.",
-            "tip": "Nhớ theo cả từ: 少量 là ít; 少年 là thiếu niên."
+            "examples": [
+              {
+                "zh": "请少放一点儿盐。",
+                "pinyin": "Qǐng shǎo fàng yìdiǎnr yán.",
+                "vi": "Làm ơn cho ít muối hơn một chút.",
+                "note": "少 đứng trước 放."
+              },
+              {
+                "zh": "你应该少喝咖啡。",
+                "pinyin": "Nǐ yīnggāi shǎo hē kāfēi.",
+                "vi": "Bạn nên uống ít cà phê hơn.",
+                "note": "少 đứng trước động từ 喝."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "few-many",
+            "category": "C",
+            "afterSense": "few",
+            "title": "少 và 多 là hai hướng số lượng",
+            "explanation": "少 nói ít; 多 nói nhiều. Khi 少 đứng trước động từ, nó còn mang ý giảm hành động, không chỉ là một danh từ có số lượng ít.",
+            "contrasts": [
+              {
+                "zh": "这里人很少。",
+                "pinyin": "Zhèlǐ rén hěn shǎo.",
+                "vi": "Ở đây có rất ít người.",
+                "note": "少 mô tả số lượng."
+              },
+              {
+                "zh": "这里人很多。",
+                "pinyin": "Zhèlǐ rén hěn duō.",
+                "vi": "Ở đây có rất nhiều người.",
+                "note": "多 mô tả số lượng nhiều."
+              }
+            ],
+            "tip": "Ít dùng 少, nhiều dùng 多; 少吃 nghĩa là ăn ít/bớt ăn, không phải ‘ít món ăn’."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "Đã rà đa âm: thanh ba mang nghĩa ít; thanh bốn xuất hiện trong 少年, chỉ tuổi trẻ. Không coi đây là thanh nhẹ hay biến điệu.",
-          "literalTranslation": "Không suy từ chữ Hán Việt; chọn theo lượng đang nói.",
-          "confusables": "Đối chiếu 小 về kích thước và 少年 về cách đọc từ vựng khác."
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "少 có cách đọc thông dụng shǎo trong bài; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã tách nghĩa số lượng ít và chức năng đứng trước động từ để giảm hành động; vị trí giúp phân biệt."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 少 luôn thành ‘ít’ có thể làm sai 少放/少喝, vốn tự nhiên hơn là ‘cho/uống ít hơn’ hoặc ‘bớt’."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 少 với 多 về số lượng và giải thích vị trí đặc biệt của 少 trước động từ."
+          }
         },
-        "pronunciation": {
-          "text": "少 có thanh gốc thanh ba trong nghĩa ít; riêng từ 少年 đọc khác. Câu mẫu có 得 nhưng không tạo chuỗi hai thanh ba cần giải thích. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn muốn nói lượng rau trong tủ lạnh rất ít. Hoàn thành: 冰箱里的菜很____。"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Ở đây có rất ít người.",
+            "tokens": [
+              "这里",
+              "人很少",
+              "。"
+            ],
+            "accepted": [
+              "这里人很少。"
+            ],
+            "model": "这里人很少。",
+            "explanation": "很少 đứng sau chủ thể 人.",
+            "wrongFeedback": "Đặt nơi chốn trước, rồi đến chủ thể và 很少."
           },
           {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn muốn nhờ người bán cho ít đường hơn. Hoàn thành: 请____放糖。"
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 请____放一点儿盐。",
+            "accepted": [
+              "少"
+            ],
+            "model": "请少放一点儿盐。",
+            "explanation": "少 đứng trước động từ 放 để yêu cầu cho ít hơn.",
+            "wrongFeedback": "Muốn giảm lượng cho vào, đặt 少 trước 放."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "冰箱里的菜很少。"
-            ],
-            "explanation": "少 nói lượng rau."
-          },
-          "q2": {
-            "accepted": [
-              "请少放糖。"
-            ],
-            "explanation": "少 đứng trước 放 để yêu cầu giảm lượng."
-          }
-        },
-        "selfUse": [
+        "discriminationExercises": [
           {
-            "id": "s1",
-            "prompt": "Bạn nhận xét mình ăn ít vào buổi sáng."
-          },
-          {
-            "id": "s2",
-            "prompt": "Bạn nhờ quán cho ít cay hơn."
+            "id": "d1",
+            "trapId": "few-many",
+            "type": "choice",
+            "prompt": "Muốn nói số người ở đây rất ít, chọn từ đúng.",
+            "choices": [
+              "很少",
+              "很多"
+            ],
+            "correctIndex": 0,
+            "model": "很少",
+            "explanation": "很少 nghĩa là rất ít; 很多 nghĩa là rất nhiều.",
+            "wrongFeedback": "Xác định tình huống là ít hay nhiều."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nói về lượng ăn của bản thân.",
-            "frame": "我 + 吃 + 得 + 很 + 少。",
-            "model": "我早上吃得很少。",
-            "vi": "Buổi sáng tôi ăn rất ít.",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nhắc ai đó uống ít cà phê hơn.",
+            "hints": [
+              "Nêu người nghe: 你.",
+              "Đặt 少 trước 喝.",
+              "Mẫu: 你应该少喝咖啡。"
+            ],
+            "model": "你应该少喝咖啡。",
+            "vi": "Bạn nên uống ít cà phê hơn.",
             "criteria": [
-              "少 nói lượng ăn, không nói kích thước món ăn.",
-              "Có thể đổi thời gian hoặc hành động nếu câu vẫn tự nhiên."
-            ]
-          },
-          "s2": {
-            "idea": "Yêu cầu giảm lượng gia vị cay.",
-            "frame": "请 + 少 + 放 + 一点儿 + 辣椒。",
-            "model": "请少放一点儿辣椒。",
-            "vi": "Làm ơn cho ít ớt hơn một chút.",
-            "criteria": [
-              "少 đứng trước hành động 放.",
-              "Nêu rõ thứ cần giảm."
+              "Đặt 少 trước động từ 喝."
             ]
           }
-        },
-        "cohortOrdinal": 97
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhớ câu mô tả số lượng ít.",
+            "hiddenAnswer": "很少",
+            "model": "这里人很少。",
+            "vi": "Ở đây có rất ít người."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách dùng 少 trước động từ.",
+            "hiddenAnswer": "少放",
+            "model": "请少放一点儿盐。",
+            "vi": "Làm ơn cho ít muối hơn một chút."
+          }
+        ]
       }
     },
     {
@@ -27452,15 +28213,17 @@
         {
           "id": "e1",
           "zh": "这家店的服务很差。",
+          "pinyin": "Zhè jiā diàn de fúwù hěn chà.",
           "vi": "Dịch vụ của cửa hàng này rất kém.",
-          "analysis": "差 đứng sau 很 để đánh giá chất lượng dịch vụ.",
+          "analysis": "差 đứng sau 很 để đánh giá chất lượng thấp.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "我的考试成绩比上次差一点儿。",
+          "pinyin": "Wǒ de kǎoshì chéngjì bǐ shàng cì chà yìdiǎnr.",
           "vi": "Kết quả thi của tôi kém hơn lần trước một chút.",
-          "analysis": "差 đứng sau chủ thể; 比上次 nêu mốc so sánh.",
+          "analysis": "差 có thể đứng sau 比 để so sánh kết quả kém hơn.",
           "practiceAllowed": true
         }
       ],
@@ -27468,150 +28231,198 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 98,
+        "difficulty": "medium",
+        "difficultyReason": "差 đánh giá chất lượng kém và dùng trong so sánh; người Việt dễ gộp 差 với 坏 hoặc 不好 dù phạm vi và sắc thái không giống nhau.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, cấu trúc, Pinyin, bản dịch, bẫy và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=9712&q=1&word=%E5%B7%AE"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 差 để nhận xét kết quả hoặc chất lượng không tốt; không dùng thay cho “sai” trong mọi trường hợp."
-        },
-        "meaning": {
-          "scene": "Bạn vừa thử một món ăn và thấy chất lượng không tốt.",
-          "explanation": "差 nói chất lượng, năng lực hoặc kết quả ở mức thấp. Có thể nói món ăn 差, hoặc kết quả học tập 差.",
-          "boundary": "差 nói kém về chất lượng/mức độ; 错 nói có lỗi hoặc không đúng.",
-          "conditions": [
-            "Khi nhận xét chất lượng hoặc kết quả, 差 đứng sau chủ thể hoặc 很."
-          ],
-          "takeaway": "差 nói kém về chất lượng/mức độ; 错 nói có lỗi hoặc không đúng."
+          "scope": "差 nghĩa là kém, chất lượng thấp hoặc kém hơn trong so sánh; nó không tự động có nghĩa đồ vật bị hỏng."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "这家店的服务很差。",
+            "pinyin": "Zhè jiā diàn de fúwù hěn chà.",
             "vi": "Dịch vụ của cửa hàng này rất kém.",
-            "analysis": "差 đứng sau 很 để đánh giá chất lượng dịch vụ.",
+            "analysis": "差 đứng sau 很 để đánh giá chất lượng thấp.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "我的考试成绩比上次差一点儿。",
+            "pinyin": "Wǒ de kǎoshì chéngjì bǐ shàng cì chà yìdiǎnr.",
             "vi": "Kết quả thi của tôi kém hơn lần trước một chút.",
-            "analysis": "差 đứng sau chủ thể; 比上次 nêu mốc so sánh.",
+            "analysis": "差 có thể đứng sau 比 để so sánh kết quả kém hơn.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Danh từ/chủ thể + 很 + 差; A + 比 + B + 差",
-            "position": "差 đứng sau 很 hoặc sau chủ thể so sánh; 比 đứng trước mốc so sánh.",
-            "required": "Muốn nói một đáp án không đúng, dùng 错 hoặc 不对, không chỉ 差.",
-            "omission": "Có thể lược mốc so sánh khi người nghe đã biết đang so với lần nào.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "差 là kém, 错 là sai",
-            "scene": "Bạn góp ý bài làm: chất lượng chưa tốt hay có câu trả lời sai?",
-            "possibleConfusion": "Tiếng Việt có thể dùng “làm dở” cho cả kết quả thấp và lỗi cụ thể.",
-            "difference": "差 đánh giá chất lượng/mức độ; 错 chỉ lỗi hoặc điều không đúng.",
-            "cases": [
+            "id": "poor",
+            "title": "Kém, chất lượng thấp",
+            "when": "Đánh giá dịch vụ, kết quả hoặc chất lượng không tốt.",
+            "meaning": "kém; tệ",
+            "grammar": "差 thường làm vị ngữ sau 很 hoặc đứng sau 比 trong so sánh.",
+            "pattern": "很差；A+比+B+差+一点儿",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "这次考试成绩很差。",
-                "vi": "Kết quả kỳ thi lần này rất kém.",
-                "comment": "Đánh giá chung về kết quả.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "服务很差",
+                "pinyin": "fúwù hěn chà",
+                "vi": "dịch vụ rất kém"
               },
               {
-                "id": "c2",
-                "zh": "我写错了一个字。",
-                "vi": "Tôi viết sai một chữ.",
-                "comment": "错 nêu lỗi cụ thể trong chữ đã viết.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "差一点儿",
+                "pinyin": "chà yìdiǎnr",
+                "vi": "kém hơn một chút"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 差 bằng 错 trong câu nói về điểm thi sẽ đổi ý thành “kết quả sai”, không tự nhiên nếu muốn đánh giá thấp."
-            },
-            "boundary": "Một bài có thể làm kém và đồng thời có lỗi; nhưng từ được chọn tùy điều muốn nhận xét.",
-            "tip": "Chất lượng kém dùng 差; có lỗi dùng 错."
+            "examples": [
+              {
+                "zh": "这家店的服务很差。",
+                "pinyin": "Zhè jiā diàn de fúwù hěn chà.",
+                "vi": "Dịch vụ của cửa hàng này rất kém.",
+                "note": "差 đánh giá chất lượng dịch vụ."
+              },
+              {
+                "zh": "我的考试成绩比上次差一点儿。",
+                "pinyin": "Wǒ de kǎoshì chéngjì bǐ shàng cì chà yìdiǎnr.",
+                "vi": "Kết quả thi của tôi kém hơn lần trước một chút.",
+                "note": "差 đứng sau 比 để so sánh."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "poor-broken",
+            "category": "C",
+            "afterSense": "poor",
+            "title": "差 khác 坏了 và 不好",
+            "explanation": "差 thường đánh giá chất lượng hoặc kết quả kém; 坏了 nói vật hỏng không hoạt động; 不好 rộng hơn, có thể chỉ không tốt nhưng không nêu rõ mức kém hay tình trạng hỏng.",
+            "contrasts": [
+              {
+                "zh": "这家店的服务很差。",
+                "pinyin": "Zhè jiā diàn de fúwù hěn chà.",
+                "vi": "Dịch vụ của cửa hàng này rất kém.",
+                "note": "Chất lượng thấp."
+              },
+              {
+                "zh": "我的手机坏了。",
+                "pinyin": "Wǒ de shǒujī huài le.",
+                "vi": "Điện thoại của tôi hỏng rồi.",
+                "note": "Thiết bị không hoạt động."
+              }
+            ],
+            "tip": "Kém về chất lượng dùng 差; hỏng vật dùng 坏了. Không thay thế máy móc."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "差 có nhiều cách đọc theo từ ghép. Trong nghĩa kém, 差 đọc thanh bốn; trong 差别 đọc thanh một; trong 差事 cũng đọc thanh một.",
-          "literalTranslation": "Không dịch như một từ mang nghĩa duy nhất; học cách đọc cùng từ ghép.",
-          "confusables": "So 差 với 错: chất lượng thấp so với có lỗi cụ thể."
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "差 có cách đọc thông dụng chà trong nghĩa kém của bài; không có cách đọc phổ biến thứ hai cần tách ở mức này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "Bài tập trung vào nghĩa kém; các nghĩa khác của 差 không cần dạy ở mức này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt hoặc dịch từng chữ đáng kể; 差 trong bài là tính từ đánh giá chất lượng."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 差 với 坏了 và 不好 về chất lượng kém so với tình trạng hỏng hoặc đánh giá không tốt chung."
+          }
         },
-        "pronunciation": {
-          "text": "差 trong nghĩa kém đọc thanh bốn. Chữ này còn có cách đọc khác trong từ ghép; đọc theo cả từ, không suy đoán theo riêng chữ. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn nhận xét chất lượng món ăn của quán rất kém. Hoàn thành: 这家店的菜很____。"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Dịch vụ của cửa hàng này rất kém.",
+            "tokens": [
+              "这家店的服务",
+              "很差",
+              "。"
+            ],
+            "accepted": [
+              "这家店的服务很差。"
+            ],
+            "model": "这家店的服务很差。",
+            "explanation": "很差 đứng sau chủ thể để đánh giá chất lượng.",
+            "wrongFeedback": "Đặt đối tượng trước cụm 很差."
           },
           {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn viết sai một chữ trong tên. Hoàn thành: 我写____了一个字。"
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 我的考试成绩比上次____一点儿。",
+            "accepted": [
+              "差"
+            ],
+            "model": "我的考试成绩比上次差一点儿。",
+            "explanation": "比…差一点儿 nghĩa là kém hơn một chút.",
+            "wrongFeedback": "Sau 比上次 điền tính từ so sánh 差."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "这家店的菜很差。"
-            ],
-            "explanation": "差 đánh giá chất lượng món ăn."
-          },
-          "q2": {
-            "accepted": [
-              "我写错了一个字。"
-            ],
-            "explanation": "错 chỉ lỗi cụ thể."
-          }
-        },
-        "selfUse": [
+        "discriminationExercises": [
           {
-            "id": "s1",
-            "prompt": "Bạn nói kết quả bài kiểm tra lần này kém."
-          },
-          {
-            "id": "s2",
-            "prompt": "Bạn góp ý rằng dịch vụ khách sạn này kém."
+            "id": "d1",
+            "trapId": "poor-broken",
+            "type": "choice",
+            "prompt": "Điện thoại không hoạt động, chọn câu phù hợp.",
+            "choices": [
+              "手机坏了",
+              "手机很差"
+            ],
+            "correctIndex": 0,
+            "model": "手机坏了",
+            "explanation": "Không hoạt động là hỏng, dùng 坏了; 很差 thường đánh giá chất lượng, không khẳng định máy đã hỏng.",
+            "wrongFeedback": "Tình huống nói thiết bị không hoạt động, không chỉ nói chất lượng kém."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Đánh giá kết quả thi.",
-            "frame": "这次考试成绩 + 很 + 差。",
-            "model": "这次考试成绩很差。",
-            "vi": "Kết quả bài thi lần này rất kém.",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói dịch vụ của cửa hàng này rất kém.",
+            "hints": [
+              "Nêu đối tượng: 这家店的服务.",
+              "Dùng 很差.",
+              "Mẫu: 这家店的服务很差。"
+            ],
+            "model": "这家店的服务很差。",
+            "vi": "Dịch vụ của cửa hàng này rất kém.",
             "criteria": [
-              "差 đánh giá chất lượng/kết quả.",
-              "Nếu nói một đáp án sai, chuyển sang 错."
-            ]
-          },
-          "s2": {
-            "idea": "Đánh giá chất lượng dịch vụ.",
-            "frame": "这家酒店的服务 + 很 + 差。",
-            "model": "这家酒店的服务很差。",
-            "vi": "Dịch vụ của khách sạn này rất kém.",
-            "criteria": [
-              "Chủ thể được nhận xét đứng trước 很差.",
-              "Có thể thay bằng dịch vụ/quán ăn khác."
+              "Dùng 差 để đánh giá chất lượng."
             ]
           }
-        },
-        "cohortOrdinal": 98
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhớ câu đánh giá chất lượng.",
+            "hiddenAnswer": "很差",
+            "model": "这家店的服务很差。",
+            "vi": "Dịch vụ của cửa hàng này rất kém."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ cách so sánh kém hơn.",
+            "hiddenAnswer": "比上次差一点儿",
+            "model": "我的考试成绩比上次差一点儿。",
+            "vi": "Kết quả thi của tôi kém hơn lần trước một chút."
+          }
+        ]
       }
     },
     {
@@ -27632,15 +28443,17 @@
         {
           "id": "e1",
           "zh": "今天很热。",
+          "pinyin": "Jīntiān hěn rè.",
           "vi": "Hôm nay trời nóng.",
-          "analysis": "很 đứng trước tính từ 热; câu có thể chỉ là nhận xét trung tính.",
+          "analysis": "很 đứng trước tính từ 热 trong câu miêu tả.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "这件衣服很贵。",
+          "pinyin": "Zhè jiàn yīfu hěn guì.",
           "vi": "Bộ quần áo này đắt.",
-          "analysis": "很 đứng trước tính từ 贵 để nhận xét giá; không nhất thiết nhấn mạnh “rất đắt”.",
+          "analysis": "Trong câu khẳng định với tính từ, 很 tạo nhịp câu tự nhiên; không nhất thiết phải nhấn ‘rất’ mạnh.",
           "practiceAllowed": true
         }
       ],
@@ -27648,150 +28461,198 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 99,
+        "difficulty": "medium",
+        "difficultyReason": "很 là phó từ đứng trước tính từ; khác biệt giữa cấu trúc tự nhiên và mức độ ‘rất’ khiến người Việt dễ dịch máy móc hoặc bỏ 很.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, cấu trúc, Pinyin, bản dịch, bẫy và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 很 để nối chủ thể với tính từ trong nhận xét đơn giản; trong câu khẳng định, từ này thường không nhấn mạnh “rất” mạnh như tiếng Việt."
-        },
-        "meaning": {
-          "scene": "Bạn nhận xét hôm nay trời nóng.",
-          "explanation": "很 thường đứng trước tính từ làm vị ngữ. Trong câu khẳng định trung tính, 很 thường giúp câu tự nhiên và không nhất thiết nhấn mạnh mức độ cao.",
-          "boundary": "Nếu muốn nhấn mạnh “quá … rồi”, thường dùng 太…了; không phải câu nào có 很 cũng mang sắc thái “rất” rõ.",
-          "conditions": [
-            "很 đứng trước tính từ; không đặt sau tính từ trong mẫu nhận xét này.",
-            "Muốn phủ định, thường đặt 不 trước tính từ: 不热."
-          ],
-          "takeaway": "Nếu muốn nhấn mạnh “quá … rồi”, thường dùng 太…了; không phải câu nào có 很 cũng mang sắc thái “rất” rõ."
+          "scope": "很 đứng trước tính từ để tạo câu miêu tả tự nhiên; tùy ngữ cảnh có thể dịch là rất hoặc không cần dịch thành một từ riêng."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "今天很热。",
+            "pinyin": "Jīntiān hěn rè.",
             "vi": "Hôm nay trời nóng.",
-            "analysis": "很 đứng trước tính từ 热; câu có thể chỉ là nhận xét trung tính.",
+            "analysis": "很 đứng trước tính từ 热 trong câu miêu tả.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "这件衣服很贵。",
+            "pinyin": "Zhè jiàn yīfu hěn guì.",
             "vi": "Bộ quần áo này đắt.",
-            "analysis": "很 đứng trước tính từ 贵 để nhận xét giá; không nhất thiết nhấn mạnh “rất đắt”.",
+            "analysis": "Trong câu khẳng định với tính từ, 很 tạo nhịp câu tự nhiên; không nhất thiết phải nhấn ‘rất’ mạnh.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Chủ thể + 很 + tính từ; phủ định: 不 + tính từ",
-            "position": "很 đặt ngay trước tính từ và sau chủ thể.",
-            "required": "Dùng câu khẳng định đơn giản; không cần thêm 是 trước tính từ.",
-            "omission": "Trong hội thoại, nếu chủ thể đã rõ, có thể chỉ đáp 很热。— Nóng.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "很 là nhận xét trung tính; 太…了 nhấn mạnh quá mức",
-            "scene": "Bạn nói trời nóng bình thường hay than nóng quá?",
-            "possibleConfusion": "Cả hai cấu trúc đứng quanh tính từ và có thể dịch gần nhau tùy giọng nói.",
-            "difference": "很 + tính từ thường dùng để nhận xét; 太 + tính từ + 了 thường nhấn mạnh mức độ vượt mong muốn.",
-            "cases": [
+            "id": "adverb",
+            "title": "Đứng trước tính từ",
+            "when": "Miêu tả nhiệt độ, giá cả hoặc đặc điểm của người/vật.",
+            "meaning": "rất; hoặc tạo cấu trúc miêu tả tự nhiên",
+            "grammar": "很 đứng trước tính từ: chủ thể+很+tính từ. Khi phủ định, thường dùng 不 thay cho 很.",
+            "pattern": "chủ thể+很+形容词",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "今天很热。",
-                "vi": "Hôm nay trời nóng.",
-                "comment": "Nhận xét thông thường.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "很热",
+                "pinyin": "hěn rè",
+                "vi": "nóng/rất nóng"
               },
               {
-                "id": "c2",
-                "zh": "今天太热了。",
-                "vi": "Hôm nay nóng quá.",
-                "comment": "太…了 thể hiện mức độ quá cao, thường có sắc thái than hoặc cảm thán.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "很贵",
+                "pinyin": "hěn guì",
+                "vi": "đắt/rất đắt"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 很 bằng 太 rồi thêm 了 vẫn đúng ngữ pháp nhưng làm lời nói mạnh hơn, như “nóng quá”."
-            },
-            "boundary": "Khi ngữ cảnh và giọng phù hợp, 很 và 太…了 đều có thể miêu tả cùng một ngày nóng; khác ở sắc thái.",
-            "tip": "Nhận xét nhẹ dùng 很; than “quá” dùng 太…了."
+            "examples": [
+              {
+                "zh": "今天很热。",
+                "pinyin": "Jīntiān hěn rè.",
+                "vi": "Hôm nay trời nóng.",
+                "note": "很 đứng trước 热."
+              },
+              {
+                "zh": "这件衣服很贵。",
+                "pinyin": "Zhè jiàn yīfu hěn guì.",
+                "vi": "Bộ quần áo này đắt.",
+                "note": "Dịch tự nhiên không nhất thiết phải thêm ‘rất’."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "degree-neutral",
+            "category": "C",
+            "afterSense": "adverb",
+            "title": "很 và 太 khác sắc thái",
+            "explanation": "很 thường tạo câu miêu tả hoặc nêu mức độ; 太 nhấn mạnh cảm xúc, thường đi với 了 trong 太…了. Hai câu có thể cùng đúng nhưng không cùng sắc thái.",
+            "contrasts": [
+              {
+                "zh": "这件衣服很贵。",
+                "pinyin": "Zhè jiàn yīfu hěn guì.",
+                "vi": "Bộ quần áo này đắt.",
+                "note": "Nhận xét tương đối trung tính."
+              },
+              {
+                "zh": "这件衣服太贵了！",
+                "pinyin": "Zhè jiàn yīfu tài guì le!",
+                "vi": "Bộ quần áo này đắt quá!",
+                "note": "Cảm thán, thường hàm ý vượt mức chấp nhận."
+              }
+            ],
+            "tip": "Câu miêu tả thông thường dùng 很; cảm thán mạnh dùng 太…了."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "很 trong bài có một cách đọc thông dụng; không có biến điệu cần dạy.",
-          "literalTranslation": "Đừng luôn dịch 很 thành “rất” với độ nhấn mạnh cao; câu khẳng định tính từ thường dùng 很 làm cầu nối.",
-          "confusables": "Đã đối chiếu 很 với 太…了 theo sắc thái."
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "很 có cách đọc thông dụng hěn; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "很 giữ một chức năng chính là phó từ trước tính từ; dịch là ‘rất’ hay lược trong tiếng Việt tùy ngữ cảnh."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 很 thành ‘rất’ trong mọi câu có thể làm tiếng Việt nặng hoặc sai sắc thái; câu 很贵 có thể dịch tự nhiên là ‘đắt’."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 很 với 太 về sắc thái trung tính và cảm thán, đồng thời nêu mẫu 太…了."
+          }
         },
-        "pronunciation": {
-          "text": "很 đọc thanh ba. Trong câu mẫu không có hai thanh ba liền nhau; không cần kéo dài phần phát âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn nhận xét cà phê hôm nay đắng. Hoàn thành: 今天的咖啡____苦。"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Hôm nay trời nóng.",
+            "tokens": [
+              "今天",
+              "很热",
+              "。"
+            ],
+            "accepted": [
+              "今天很热。"
+            ],
+            "model": "今天很热。",
+            "explanation": "很 đứng trước tính từ 热.",
+            "wrongFeedback": "Trong câu miêu tả, đặt 很 trước tính từ."
           },
           {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn muốn than rằng hôm nay nóng quá. Dùng 太…了: 今天____热____。"
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 这件衣服____贵。",
+            "accepted": [
+              "很"
+            ],
+            "model": "这件衣服很贵。",
+            "explanation": "很 đứng trước 贵 để tạo câu miêu tả tự nhiên.",
+            "wrongFeedback": "Điền phó từ đứng trước tính từ 贵."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "今天的咖啡很苦。"
-            ],
-            "explanation": "很 đứng trước tính từ 苦."
-          },
-          "q2": {
-            "accepted": [
-              "今天太热了。"
-            ],
-            "explanation": "太 đứng trước tính từ và 了 ở cuối cụm cảm thán."
-          }
-        },
-        "selfUse": [
+        "discriminationExercises": [
           {
-            "id": "s1",
-            "prompt": "Bạn nhận xét đường về nhà hôm nay đông."
-          },
-          {
-            "id": "s2",
-            "prompt": "Bạn nói trà này ngọt."
+            "id": "d1",
+            "trapId": "degree-neutral",
+            "type": "choice",
+            "prompt": "Chỉ nhận xét giá cao, không cảm thán ‘đắt quá’, chọn câu phù hợp.",
+            "choices": [
+              "这件衣服很贵。",
+              "这件衣服太贵了！"
+            ],
+            "correctIndex": 0,
+            "model": "这件衣服很贵。",
+            "explanation": "很 phù hợp với nhận xét; 太…了 nhấn mạnh cảm xúc mạnh.",
+            "wrongFeedback": "Phân biệt nhận xét thông thường với lời cảm thán."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu chủ thể rồi dùng 很 trước tính từ.",
-            "frame": "今天 + 回家的路 + 很 + 堵。",
-            "model": "今天回家的路很堵。",
-            "vi": "Hôm nay đường về nhà rất đông/tắc.",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói hôm nay trời nóng.",
+            "hints": [
+              "Nêu thời gian 今天.",
+              "Đặt 很 trước 热.",
+              "Mẫu: 今天很热。"
+            ],
+            "model": "今天很热。",
+            "vi": "Hôm nay trời nóng.",
             "criteria": [
-              "很 đứng trước tính từ 堵.",
-              "Có thể thay chủ thể bằng một điều bạn đang nhận xét."
-            ]
-          },
-          "s2": {
-            "idea": "Nhận xét vị trà bằng tính từ.",
-            "frame": "这个茶 + 很 + 甜。",
-            "model": "这个茶很甜。",
-            "vi": "Trà này ngọt.",
-            "criteria": [
-              "很 đứng trước 甜.",
-              "Trong câu trung tính, 很 không nhất thiết nhấn mạnh mức độ."
+              "Đặt 很 trước tính từ 热."
             ]
           }
-        },
-        "cohortOrdinal": 99
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhớ vị trí của 很.",
+            "hiddenAnswer": "很 đứng trước tính từ",
+            "model": "今天很热。",
+            "vi": "Hôm nay trời nóng."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ sắc thái khác với 太.",
+            "hiddenAnswer": "很 thường dùng cho nhận xét; 太…了 dùng cho cảm thán mạnh.",
+            "model": "这件衣服很贵。",
+            "vi": "Bộ quần áo này đắt."
+          }
+        ]
       }
     },
     {
@@ -27812,15 +28673,25 @@
         {
           "id": "e1",
           "zh": "他走得很快。",
+          "pinyin": "Tā zǒu de hěn kuài.",
           "vi": "Anh ấy đi rất nhanh.",
-          "analysis": "得 nối 走 với mức độ 快, nói tốc độ đi.",
+          "analysis": "快 mô tả tốc độ của hành động trong mẫu động từ + 得 + 快.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "快点儿，我们要迟到了。",
+          "pinyin": "Kuài diǎnr, wǒmen yào chídào le.",
           "vi": "Nhanh lên, chúng ta sắp muộn rồi.",
-          "analysis": "快点儿 đứng trước lời giục; câu sau nêu lý do cần nhanh.",
+          "analysis": "快点儿 là lời giục ai đó làm nhanh lên.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e3",
+          "zh": "火车快到了。",
+          "pinyin": "Huǒchē kuài dào le.",
+          "vi": "Tàu hỏa sắp đến rồi.",
+          "analysis": "快…了 nói một sự việc sắp xảy ra.",
           "practiceAllowed": true
         }
       ],
@@ -27828,150 +28699,332 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 100,
+        "difficulty": "hard",
+        "difficultyReason": "快 có ít nhất ba chức năng giao tiếp: tốc độ nhanh, lời giục ‘mau lên’ và sự việc sắp xảy ra; mỗi chức năng có cấu trúc khác nhau và dễ bị dịch một chữ máy móc.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, cấu trúc, Pinyin, bản dịch, bẫy và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 快 để nói tốc độ nhanh; với 要, 快要 có thể báo việc sắp xảy ra."
-        },
-        "meaning": {
-          "scene": "Bạn đi cùng đồng nghiệp và người đó đi bộ rất nhanh.",
-          "explanation": "快 thường làm tính từ chỉ tốc độ. Có thể đứng sau 很, hoặc dùng 快点儿 để giục ai làm nhanh hơn.",
-          "boundary": "快要 + động từ nói việc sắp xảy ra, không phải ai đó làm việc nhanh.",
-          "conditions": [
-            "Tốc độ: chủ thể + 很 + 快; yêu cầu giục: 快点儿 + hành động.",
-            "Sắp xảy ra: 快要 + động từ; thời gian thường cho biết việc gì sắp đến."
-          ],
-          "takeaway": "快要 + động từ nói việc sắp xảy ra, không phải ai đó làm việc nhanh."
+          "scope": "快 có thể nói tốc độ, giục làm nhanh hoặc báo một việc sắp xảy ra; cần nhìn cấu trúc đi kèm."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "他走得很快。",
+            "pinyin": "Tā zǒu de hěn kuài.",
             "vi": "Anh ấy đi rất nhanh.",
-            "analysis": "得 nối 走 với mức độ 快, nói tốc độ đi.",
+            "analysis": "快 mô tả tốc độ của hành động trong mẫu động từ + 得 + 快.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "快点儿，我们要迟到了。",
+            "pinyin": "Kuài diǎnr, wǒmen yào chídào le.",
             "vi": "Nhanh lên, chúng ta sắp muộn rồi.",
-            "analysis": "快点儿 đứng trước lời giục; câu sau nêu lý do cần nhanh.",
+            "analysis": "快点儿 là lời giục ai đó làm nhanh lên.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e3",
+            "zh": "火车快到了。",
+            "pinyin": "Huǒchē kuài dào le.",
+            "vi": "Tàu hỏa sắp đến rồi.",
+            "analysis": "快…了 nói một sự việc sắp xảy ra.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Chủ thể + động từ + 得 + 很 + 快; 快点儿 + hành động",
-            "position": "快 có thể đứng cuối phần mô tả sau 得, hoặc thành 快点儿 trước hành động cần giục.",
-            "required": "Muốn nói “sắp”, dùng 快要 + động từ, không nhầm với tốc độ.",
-            "omission": "Khi hành động đã rõ, có thể chỉ nói 快点儿。— Nhanh lên.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Tốc độ nhanh hay việc sắp xảy ra",
-            "scene": "Bạn nói người đó chạy nhanh hay xe sắp đến?",
-            "possibleConfusion": "Cả hai ý có liên quan đến thời gian ngắn nên dễ dịch gần nhau.",
-            "difference": "快 miêu tả tốc độ; 快要 + động từ báo một việc sắp xảy ra.",
-            "cases": [
+            "id": "speed",
+            "title": "Nhanh về tốc độ",
+            "when": "Mô tả người hoặc phương tiện di chuyển nhanh.",
+            "meaning": "nhanh",
+            "grammar": "快 có thể đứng sau 很 hoặc sau 得 trong bổ ngữ mức độ.",
+            "pattern": "很快；动词+得+快",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "他跑得很快。",
-                "vi": "Anh ấy chạy rất nhanh.",
-                "comment": "得很快 nói tốc độ chạy.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "火车快要到了。",
-                "vi": "Tàu sắp đến rồi.",
-                "comment": "快要 đứng trước 到, báo sự việc sắp xảy ra.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "走得很快",
+                "pinyin": "zǒu de hěn kuài",
+                "vi": "đi rất nhanh"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi 跑得很快 thành 快要跑 sẽ thành “sắp chạy”, không còn nói chạy nhanh."
-            },
-            "boundary": "Người sắp chạy cũng có thể chạy nhanh, nhưng phải dựa vào cấu trúc để biết ý nào được nói.",
-            "tip": "Sau 得 là tốc độ; trước động từ với 要 là “sắp”."
+            "examples": [
+              {
+                "zh": "他走得很快。",
+                "pinyin": "Tā zǒu de hěn kuài.",
+                "vi": "Anh ấy đi rất nhanh.",
+                "note": "得 nối động từ 走 với 快."
+              },
+              {
+                "zh": "这辆车开得很快。",
+                "pinyin": "Zhè liàng chē kāi de hěn kuài.",
+                "vi": "Chiếc xe này chạy rất nhanh.",
+                "note": "快 mô tả tốc độ chạy."
+              }
+            ]
+          },
+          {
+            "id": "hurry",
+            "title": "Mau lên",
+            "when": "Giục ai đó làm nhanh hơn.",
+            "meaning": "mau lên; nhanh lên",
+            "grammar": "快点儿 đứng trước động từ hoặc đứng riêng như một lời giục.",
+            "pattern": "快点儿+động từ",
+            "collocations": [
+              {
+                "zh": "快点儿走",
+                "pinyin": "kuài diǎnr zǒu",
+                "vi": "mau đi"
+              }
+            ],
+            "examples": [
+              {
+                "zh": "快点儿，我们要迟到了。",
+                "pinyin": "Kuài diǎnr, wǒmen yào chídào le.",
+                "vi": "Nhanh lên, chúng ta sắp muộn rồi.",
+                "note": "快点儿 là lời giục."
+              },
+              {
+                "zh": "快点儿吃饭！",
+                "pinyin": "Kuài diǎnr chīfàn!",
+                "vi": "Ăn nhanh lên!",
+                "note": "快点儿 đứng trước động từ."
+              }
+            ]
+          },
+          {
+            "id": "soon",
+            "title": "Sắp xảy ra",
+            "when": "Báo một sự việc sắp diễn ra trong thời gian gần.",
+            "meaning": "sắp; sắp sửa",
+            "grammar": "快…了 hoặc 快要+động từ+了 đặt 快 trước phần sự việc và 了 ở cuối.",
+            "pattern": "快+động từ+了；快要+động từ+了",
+            "collocations": [
+              {
+                "zh": "快到了",
+                "pinyin": "kuài dào le",
+                "vi": "sắp đến rồi"
+              },
+              {
+                "zh": "快要下雨了",
+                "pinyin": "kuài yào xià yǔ le",
+                "vi": "sắp mưa rồi"
+              }
+            ],
+            "examples": [
+              {
+                "zh": "火车快到了。",
+                "pinyin": "Huǒchē kuài dào le.",
+                "vi": "Tàu hỏa sắp đến rồi.",
+                "note": "Sự việc sắp xảy ra."
+              },
+              {
+                "zh": "天快黑了。",
+                "pinyin": "Tiān kuài hēi le.",
+                "vi": "Trời sắp tối rồi.",
+                "note": "快…了 báo chuyển biến gần xảy ra."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "speed-slow",
+            "category": "C",
+            "afterSense": "speed",
+            "title": "快 và 慢 là hai hướng tốc độ",
+            "explanation": "快 nói tốc độ cao; 慢 nói tốc độ thấp. Cấu trúc đi kèm có thể giống nhau, như 很快/很慢 hoặc 走得快/走得慢.",
+            "contrasts": [
+              {
+                "zh": "他走得很快。",
+                "pinyin": "Tā zǒu de hěn kuài.",
+                "vi": "Anh ấy đi rất nhanh.",
+                "note": "快 = nhanh."
+              },
+              {
+                "zh": "他走得很慢。",
+                "pinyin": "Tā zǒu de hěn màn.",
+                "vi": "Anh ấy đi rất chậm.",
+                "note": "慢 = chậm."
+              }
+            ],
+            "tip": "Tốc độ cao dùng 快, tốc độ thấp dùng 慢; hãy nhìn hướng mô tả."
+          },
+          {
+            "id": "soon-immediate",
+            "category": "C",
+            "afterSense": "soon",
+            "title": "快…了 và 马上 không hoàn toàn giống nhau",
+            "explanation": "快…了 nhấn rằng sự việc sắp xảy ra hoặc đang đến gần; 马上 nhấn sẽ làm/xảy ra ngay lập tức. Trong một số tình huống hai cách có thể gần nghĩa nhưng sắc thái khác.",
+            "contrasts": [
+              {
+                "zh": "火车快到了。",
+                "pinyin": "Huǒchē kuài dào le.",
+                "vi": "Tàu hỏa sắp đến rồi.",
+                "note": "Tập trung vào việc sắp đến."
+              },
+              {
+                "zh": "我马上回来。",
+                "pinyin": "Wǒ mǎshàng huílái.",
+                "vi": "Tôi sẽ quay lại ngay.",
+                "note": "Tập trung vào hành động ngay lập tức."
+              }
+            ],
+            "tip": "Sắp xảy ra dùng 快…了; ngay lập tức dùng 马上 khi muốn nhấn thời điểm hành động."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "快 trong nghĩa nhanh có một cách đọc thông dụng; 快要 không tạo cách đọc từ vựng mới.",
-          "literalTranslation": "Không dịch từng chữ của 快要; cả cụm chỉ việc sắp xảy ra.",
-          "confusables": "Phân biệt 快 là tốc độ và 快要 là mốc sắp xảy ra."
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "快 có cách đọc thông dụng kuài trong các cách dùng của bài; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã tách ba chức năng: tốc độ nhanh, lời giục và sự việc sắp xảy ra; cấu trúc đi kèm khác nhau."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 快 luôn thành ‘nhanh’ sẽ sai trong 快点儿 ‘mau lên’ và 快到了 ‘sắp đến’; bài đã giải thích theo cụm."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 快 với 慢 về tốc độ và với 马上 về sắp xảy ra/ngay lập tức; các câu đối chiếu đều đúng nhưng khác sắc thái."
+          }
         },
-        "pronunciation": {
-          "text": "快 đọc thanh bốn; trong các câu mẫu không có biến điệu đặc biệt cần nhắc. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn nói bạn cùng phòng ăn rất nhanh. Hoàn thành: 室友吃饭吃得很____。"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Anh ấy đi rất nhanh.",
+            "tokens": [
+              "他",
+              "走得很快",
+              "。"
+            ],
+            "accepted": [
+              "他走得很快。"
+            ],
+            "model": "他走得很快。",
+            "explanation": "得 nối 走 với bổ ngữ mức độ 很快.",
+            "wrongFeedback": "Giữ cụm 走得很快 sau chủ thể."
           },
           {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn báo xe buýt sắp đến. Hoàn thành: 公共汽车____到了。"
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: ____，我们要迟到了。",
+            "accepted": [
+              "快点儿"
+            ],
+            "model": "快点儿，我们要迟到了。",
+            "explanation": "快点儿 là lời giục ‘nhanh lên’.",
+            "wrongFeedback": "Câu đang giục người khác làm nhanh."
+          },
+          {
+            "id": "g3",
+            "type": "complete",
+            "prompt": "Hoàn thành: 火车____了。",
+            "accepted": [
+              "快到"
+            ],
+            "model": "火车快到了。",
+            "explanation": "快到了 nghĩa là sắp đến rồi.",
+            "wrongFeedback": "Dùng 快 trước 到 và giữ 了 ở cuối."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "室友吃饭吃得很快。"
-            ],
-            "explanation": "得很快 nói tốc độ ăn."
-          },
-          "q2": {
-            "accepted": [
-              "公共汽车快要到了。"
-            ],
-            "explanation": "快要 đứng trước động từ 到, báo sắp xảy ra."
-          }
-        },
-        "selfUse": [
+        "discriminationExercises": [
           {
-            "id": "s1",
-            "prompt": "Bạn giục bạn mình đi nhanh lên vì sắp trễ."
+            "id": "d1",
+            "trapId": "speed-slow",
+            "type": "choice",
+            "prompt": "Muốn nói xe chạy rất nhanh, chọn câu đúng.",
+            "choices": [
+              "车开得很快。",
+              "车开得很慢。"
+            ],
+            "correctIndex": 0,
+            "model": "车开得很快。",
+            "explanation": "很快 mô tả tốc độ cao; 很慢 là tốc độ thấp.",
+            "wrongFeedback": "Chọn theo hướng tốc độ trong tình huống."
           },
           {
-            "id": "s2",
-            "prompt": "Bạn nói chuyến bay sắp cất cánh."
+            "id": "d2",
+            "trapId": "soon-immediate",
+            "type": "choice",
+            "prompt": "Muốn nói tàu sắp đến, chọn câu phù hợp.",
+            "choices": [
+              "火车快到了。",
+              "我马上回来。"
+            ],
+            "correctIndex": 0,
+            "model": "火车快到了。",
+            "explanation": "快到了 nói tàu sắp đến; 马上 dùng khi người nói sẽ hành động ngay.",
+            "wrongFeedback": "Tình huống cần cấu trúc báo một sự việc sắp đến."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Giục nhanh và nêu lý do.",
-            "frame": "快点儿，+ lý do.",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Giục bạn đi nhanh lên vì sắp muộn.",
+            "hints": [
+              "Dùng 快点儿 ở đầu câu.",
+              "Nêu lý do: 我们要迟到了.",
+              "Mẫu: 快点儿，我们要迟到了。"
+            ],
             "model": "快点儿，我们要迟到了。",
             "vi": "Nhanh lên, chúng ta sắp muộn rồi.",
             "criteria": [
-              "快点儿 là lời giục.",
-              "Có thể nêu một lý do thực tế khác."
+              "Dùng 快点儿 như lời giục."
             ]
           },
-          "s2": {
-            "idea": "Dùng 快要 trước hành động sắp xảy ra.",
-            "frame": "飞机 + 快要 + 起飞 + 了。",
-            "model": "飞机快要起飞了。",
-            "vi": "Máy bay sắp cất cánh rồi.",
+          {
+            "id": "p2",
+            "prompt": "Nói tàu hỏa sắp đến.",
+            "hints": [
+              "Nêu chủ thể: 火车.",
+              "Dùng 快到 + 了.",
+              "Mẫu: 火车快到了。"
+            ],
+            "model": "火车快到了。",
+            "vi": "Tàu hỏa sắp đến rồi.",
             "criteria": [
-              "快要 đứng trước động từ.",
-              "Câu nói về sự việc sắp xảy ra, không phải tốc độ."
+              "Dùng đúng mẫu 快+động từ+了."
             ]
           }
-        },
-        "cohortOrdinal": 100
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhớ cách nói tốc độ nhanh.",
+            "hiddenAnswer": "走得很快",
+            "model": "他走得很快。",
+            "vi": "Anh ấy đi rất nhanh."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ lời giục.",
+            "hiddenAnswer": "快点儿",
+            "model": "快点儿，我们要迟到了。",
+            "vi": "Nhanh lên, chúng ta sắp muộn rồi."
+          },
+          {
+            "id": "r3",
+            "prompt": "Nhớ mẫu nói sắp xảy ra.",
+            "hiddenAnswer": "快到了",
+            "model": "火车快到了。",
+            "vi": "Tàu hỏa sắp đến rồi."
+          }
+        ]
       }
     },
     {
@@ -27992,15 +29045,17 @@
         {
           "id": "e1",
           "zh": "他说得很慢。",
+          "pinyin": "Tā shuō de hěn màn.",
           "vi": "Anh ấy nói rất chậm.",
-          "analysis": "得 nối 说 với mức độ 慢, mô tả tốc độ nói.",
+          "analysis": "慢 đứng sau 得 để mô tả tốc độ nói.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "请说慢一点儿，我要记下来。",
+          "pinyin": "Qǐng shuō màn yìdiǎnr, wǒ yào jì xiàlái.",
           "vi": "Làm ơn nói chậm hơn một chút, tôi cần ghi lại.",
-          "analysis": "慢一点儿 theo sau động từ 说 để đề nghị giảm tốc độ nói.",
+          "analysis": "慢一点儿 là yêu cầu giảm tốc độ của hành động nói.",
           "practiceAllowed": true
         }
       ],
@@ -28008,150 +29063,193 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 101,
+        "difficulty": "medium",
+        "difficultyReason": "慢 mô tả tốc độ thấp và thường đi với 得 hoặc 一点儿; người Việt cần phân biệt tính từ này với lời yêu cầu nói chậm hơn.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, cấu trúc, Pinyin, bản dịch, bẫy và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 慢 để nói tốc độ chậm hoặc yêu cầu ai làm chậm lại; phân biệt âm đầu của nó với 晚 “muộn”."
-        },
-        "meaning": {
-          "scene": "Bạn nhờ nhân viên nói chậm hơn để kịp ghi chú.",
-          "explanation": "慢 là tính từ chỉ tốc độ chậm; đứng sau 很 hoặc dùng 慢一点儿 để đề nghị giảm tốc độ.",
-          "boundary": "慢 nói tốc độ; 晚 nói thời gian muộn. Hai từ có âm đầu gần nhau nhưng thanh và nghĩa khác.",
-          "conditions": [
-            "Tốc độ: chủ thể + 很 + 慢; lời đề nghị: động từ + 慢一点儿.",
-            "Không dùng 慢 để nói giờ giấc đến muộn; khi đó dùng 晚."
-          ],
-          "takeaway": "慢 nói tốc độ; 晚 nói thời gian muộn. Hai từ có âm đầu gần nhau nhưng thanh và nghĩa khác."
+          "scope": "慢 nghĩa là chậm; có thể mô tả tốc độ hoặc dùng trong lời nhắc giảm tốc độ."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "他说得很慢。",
+            "pinyin": "Tā shuō de hěn màn.",
             "vi": "Anh ấy nói rất chậm.",
-            "analysis": "得 nối 说 với mức độ 慢, mô tả tốc độ nói.",
+            "analysis": "慢 đứng sau 得 để mô tả tốc độ nói.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "请说慢一点儿，我要记下来。",
+            "pinyin": "Qǐng shuō màn yìdiǎnr, wǒ yào jì xiàlái.",
             "vi": "Làm ơn nói chậm hơn một chút, tôi cần ghi lại.",
-            "analysis": "慢一点儿 theo sau động từ 说 để đề nghị giảm tốc độ nói.",
+            "analysis": "慢一点儿 là yêu cầu giảm tốc độ của hành động nói.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Chủ thể + động từ + 得 + 很 + 慢; động từ + 慢一点儿",
-            "position": "慢 có thể đứng sau 得 để tả tốc độ, hoặc sau động từ trong lời yêu cầu.",
-            "required": "Nêu hành động cần giảm tốc độ; nếu nói đến muộn thì chọn 晚.",
-            "omission": "Khi việc đã rõ, có thể nói 慢一点儿。— Chậm hơn một chút.",
-            "exampleId": "e1"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "慢 là chậm, 晚 là muộn",
-            "scene": "Bạn nhận xét xe đi chậm hay người đến trễ?",
-            "possibleConfusion": "Hai từ gần âm, dễ lẫn khi nghe hoặc nói nhanh.",
-            "difference": "慢 nói tốc độ; 晚 nói thời điểm muộn.",
-            "cases": [
+            "id": "speed",
+            "title": "Chậm về tốc độ",
+            "when": "Mô tả người hoặc hành động diễn ra với tốc độ thấp.",
+            "meaning": "chậm",
+            "grammar": "慢 có thể đứng sau 很 hoặc sau 得 trong bổ ngữ mức độ.",
+            "pattern": "很慢；动词+得+慢",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "今天公交车开得很慢。",
-                "vi": "Hôm nay xe buýt chạy rất chậm.",
-                "comment": "慢 mô tả tốc độ xe.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "他今天来得很晚。",
-                "vi": "Hôm nay anh ấy đến rất muộn.",
-                "comment": "晚 mô tả thời điểm đến.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "说得很慢",
+                "pinyin": "shuō de hěn màn",
+                "vi": "nói rất chậm"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi 慢 thành 晚 trong câu đầu sẽ không còn nói tốc độ xe; cần thay cả cấu trúc để nói xe đến muộn."
-            },
-            "boundary": "Một chuyến xe vừa chậm vừa đến muộn vẫn có thể dùng cả hai câu ở hai ý khác nhau.",
-            "tip": "Chuyển động chậm dùng 慢; thời điểm muộn dùng 晚."
+            "examples": [
+              {
+                "zh": "他说得很慢。",
+                "pinyin": "Tā shuō de hěn màn.",
+                "vi": "Anh ấy nói rất chậm.",
+                "note": "得 nối 说 với 很慢."
+              },
+              {
+                "zh": "这辆车开得很慢。",
+                "pinyin": "Zhè liàng chē kāi de hěn màn.",
+                "vi": "Chiếc xe này chạy rất chậm.",
+                "note": "慢 mô tả tốc độ xe."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "slow-fast",
+            "category": "C",
+            "afterSense": "speed",
+            "title": "慢 và 快 là hai hướng tốc độ",
+            "explanation": "慢 nói tốc độ thấp; 快 nói tốc độ cao. Hai từ dùng trong cấu trúc tương tự như 很慢/很快 và 说得慢/说得快.",
+            "contrasts": [
+              {
+                "zh": "他说得很慢。",
+                "pinyin": "Tā shuō de hěn màn.",
+                "vi": "Anh ấy nói rất chậm.",
+                "note": "慢 = chậm."
+              },
+              {
+                "zh": "他说得很快。",
+                "pinyin": "Tā shuō de hěn kuài.",
+                "vi": "Anh ấy nói rất nhanh.",
+                "note": "快 = nhanh."
+              }
+            ],
+            "tip": "Tốc độ thấp dùng 慢; tốc độ cao dùng 快."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "慢 trong bài có một cách đọc thông dụng; không có nghĩa phụ đa âm cần dạy ở mức này.",
-          "literalTranslation": "Không lẫn âm với 晚; hai từ khác thanh và nghĩa.",
-          "confusables": "So 慢 với 晚 trong cùng tình huống xe/đến nơi."
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "慢 có cách đọc thông dụng màn; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "慢 có một nghĩa trọng tâm là chậm; 慢一点儿 chỉ mức độ chậm hơn trong cùng chức năng, không phải nghĩa riêng."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần dịch 慢一点儿 tự nhiên là ‘chậm hơn một chút’ hoặc ‘nói chậm lại’."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 慢 với 快 về hướng tốc độ trong cùng cấu trúc."
+          }
         },
-        "pronunciation": {
-          "text": "慢 đọc thanh bốn; chú ý phân biệt thanh với 晚, không đổi cách đọc theo âm Việt. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn nói mạng hôm nay chậm. Hoàn thành: 今天网速很____。"
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Anh ấy nói rất chậm.",
+            "tokens": [
+              "他",
+              "说得很慢",
+              "。"
+            ],
+            "accepted": [
+              "他说得很慢。"
+            ],
+            "model": "他说得很慢。",
+            "explanation": "得 nối 说 với bổ ngữ 很慢.",
+            "wrongFeedback": "Đặt chủ thể trước cụm 说得很慢."
           },
           {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn nói hôm nay đồng nghiệp đến muộn. Hoàn thành: 同事今天来得很____。"
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 请说____一点儿。",
+            "accepted": [
+              "慢"
+            ],
+            "model": "请说慢一点儿。",
+            "explanation": "慢一点儿 yêu cầu nói chậm hơn một chút.",
+            "wrongFeedback": "Điền tính từ chỉ tốc độ thấp trước 一点儿."
           }
         ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "今天网速很慢。"
-            ],
-            "explanation": "慢 chỉ tốc độ mạng."
-          },
-          "q2": {
-            "accepted": [
-              "同事今天来得很晚。"
-            ],
-            "explanation": "晚 chỉ thời điểm đến muộn."
-          }
-        },
-        "selfUse": [
+        "discriminationExercises": [
           {
-            "id": "s1",
-            "prompt": "Bạn nhờ người đối diện nói chậm hơn."
-          },
-          {
-            "id": "s2",
-            "prompt": "Bạn nhận xét xe đạp đi chậm."
+            "id": "d1",
+            "trapId": "slow-fast",
+            "type": "choice",
+            "prompt": "Muốn nói người đó nói rất chậm, chọn từ đúng.",
+            "choices": [
+              "慢",
+              "快"
+            ],
+            "correctIndex": 0,
+            "model": "慢",
+            "explanation": "慢 nghĩa là chậm; 快 nghĩa là nhanh.",
+            "wrongFeedback": "Chọn theo tốc độ trong tình huống."
           }
         ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Yêu cầu giảm tốc độ nói.",
-            "frame": "请 + 说 + 慢一点儿。",
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nhờ người khác nói chậm hơn một chút.",
+            "hints": [
+              "Mở đầu bằng 请说.",
+              "Đặt 慢 trước 一点儿.",
+              "Mẫu: 请说慢一点儿。"
+            ],
             "model": "请说慢一点儿。",
             "vi": "Làm ơn nói chậm hơn một chút.",
             "criteria": [
-              "慢一点儿 theo sau hành động nói.",
-              "Nếu muốn nêu lý do, có thể thêm ở sau."
-            ]
-          },
-          "s2": {
-            "idea": "Nêu xe đạp và tốc độ di chuyển.",
-            "frame": "自行车 + 骑 + 得 + 很 + 慢。",
-            "model": "自行车骑得很慢。",
-            "vi": "Xe đạp đi rất chậm.",
-            "criteria": [
-              "慢 nói tốc độ, không nói thời điểm.",
-              "Có thể đổi thành phương tiện khác."
+              "Dùng đúng 慢一点儿."
             ]
           }
-        },
-        "cohortOrdinal": 101
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Nhớ cấu trúc mô tả tốc độ.",
+            "hiddenAnswer": "说得很慢",
+            "model": "他说得很慢。",
+            "vi": "Anh ấy nói rất chậm."
+          },
+          {
+            "id": "r2",
+            "prompt": "Nhớ lời yêu cầu nói chậm.",
+            "hiddenAnswer": "慢一点儿",
+            "model": "请说慢一点儿。",
+            "vi": "Làm ơn nói chậm hơn một chút."
+          }
+        ]
       }
     },
     {
@@ -104453,6 +105551,7 @@
         "confusions": [
           {
             "id": "up-down",
+            "category": "C",
             "afterSense": "movement",
             "title": "上 và 下: lên/xuống, trước/sau",
             "explanation": "Với phương tiện, 上车 là lên xe và 下车 là xuống xe. Với tháng, 上个月 là tháng trước và 下个月 là tháng sau.",
@@ -104486,6 +105585,7 @@
           },
           {
             "id": "xia-xiamian",
+            "category": "C",
             "afterSense": "location",
             "title": "下 và 下面 khi chỉ vị trí",
             "explanation": "Sau một vật làm mốc, 桌子下 và 桌子下面 đều có thể chỉ phía dưới. 下面 đầy đủ và rõ hơn khi dùng như một nơi chốn; không được thêm 面 vào các từ như 下车 hoặc 下班.",
@@ -104507,6 +105607,7 @@
           },
           {
             "id": "homophone",
+            "category": "C",
             "afterSense": "next-time",
             "title": "下 và 夏: đồng âm nhưng khác từ",
             "explanation": "下 và 夏 đọc giống nhau, nhưng 下 nói xuống/dưới/tiếp theo còn 夏 nói mùa hè. Đây là hai chữ khác nghĩa và khác cách viết.",
@@ -104528,6 +105629,7 @@
           },
           {
             "id": "literal",
+            "category": "B",
             "afterSense": "fixed-words",
             "title": "Không dịch từng chữ 下 thành xuống",
             "explanation": "Trong 下班, 下雨 và 下个月, nghĩa tự nhiên đến từ cả cụm. Dịch từng chữ sẽ tạo những cách hiểu sai như xuống ca, xuống mưa hoặc xuống tháng.",
@@ -104554,6 +105656,13 @@
             "tip": "Gặp 下, nhìn từ bên cạnh rồi chọn nghĩa của cả cụm."
           }
         ],
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "下 có cách đọc xià trong các cách dùng của bài; 夏 đọc giống xià nhưng là chữ khác và được dạy ở nhóm C, không phải cách đọc thứ hai của 下."},
+          "a2Meanings": {"checked": true, "found": true, "summary": "Đã kiểm tra các nghĩa thông dụng của 下 trong bài: xuống/rời phương tiện, bên dưới, thời gian tiếp theo và các từ quen thuộc như 下班, 下雨."},
+          "bLiteralTranslation": {"checked": true, "found": true, "summary": "Đã dạy bẫy dịch từng chữ trong 下班, 下雨 và 下个月; nghĩa tự nhiên phải hiểu theo cả cụm, không ghép máy móc thành ‘xuống ca’, ‘xuống mưa’ hoặc ‘xuống tháng’."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 下 với 上, 下面 và 夏; các đối chiếu này khác từ/chữ hoặc cấu trúc, không chỉ là hai nghĩa của riêng 下."}
+        },
         "guidedExercises": [
           {
             "id": "g1",

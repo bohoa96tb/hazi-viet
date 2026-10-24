@@ -7,16 +7,16 @@
   "standardPath": "docs/CONTENT_STANDARD_V3.md",
   "historyCheckpointPath": "tools/vocabulary/v3-rewrite-checkpoint.json",
   "scopeTotal": 2224,
-  "reviewedThroughOrdinal": 82,
-  "nextOrdinal": 83,
-  "pendingReviewCount": 2142,
-  "passedCount": 82,
+  "reviewedThroughOrdinal": 91,
+  "nextOrdinal": 92,
+  "pendingReviewCount": 2133,
+  "passedCount": 91,
   "retainedCount": 0,
-  "rewrittenCount": 82,
+  "rewrittenCount": 91,
   "needsRevisionCount": 0,
   "difficultyCountsReviewed": {
-    "easy": 43,
-    "medium": 39,
+    "easy": 49,
+    "medium": 42,
     "hard": 0
   },
   "reviewedIds": [
@@ -101,7 +101,16 @@
     "hz-h1-a9e42039a465",
     "hz-h1-26973a46f060",
     "hz-h1-4f06d6f3c19f",
-    "hz-h1-678ba85d28e7"
+    "hz-h1-678ba85d28e7",
+    "hz-h1-8a6b33eeca73",
+    "hz-h1-4b9b99367126",
+    "hz-h1-efc5a07d3d4f",
+    "hz-h1-c4bc9119c0ea",
+    "hz-h1-4b01c12e2fb5",
+    "hz-h1-91011160c68e",
+    "hz-h1-3f18a484d148",
+    "hz-h1-4823c87cc791",
+    "hz-h1-30c9c5791947"
   ],
   "passedIds": [
     "hz-h1-64d354d405bb",
@@ -185,7 +194,16 @@
     "hz-h1-a9e42039a465",
     "hz-h1-26973a46f060",
     "hz-h1-4f06d6f3c19f",
-    "hz-h1-678ba85d28e7"
+    "hz-h1-678ba85d28e7",
+    "hz-h1-8a6b33eeca73",
+    "hz-h1-4b9b99367126",
+    "hz-h1-efc5a07d3d4f",
+    "hz-h1-c4bc9119c0ea",
+    "hz-h1-4b01c12e2fb5",
+    "hz-h1-91011160c68e",
+    "hz-h1-3f18a484d148",
+    "hz-h1-4823c87cc791",
+    "hz-h1-30c9c5791947"
   ],
   "retainedIds": [],
   "rewrittenIds": [
@@ -270,7 +288,16 @@
     "hz-h1-a9e42039a465",
     "hz-h1-26973a46f060",
     "hz-h1-4f06d6f3c19f",
-    "hz-h1-678ba85d28e7"
+    "hz-h1-678ba85d28e7",
+    "hz-h1-8a6b33eeca73",
+    "hz-h1-4b9b99367126",
+    "hz-h1-efc5a07d3d4f",
+    "hz-h1-c4bc9119c0ea",
+    "hz-h1-4b01c12e2fb5",
+    "hz-h1-91011160c68e",
+    "hz-h1-3f18a484d148",
+    "hz-h1-4823c87cc791",
+    "hz-h1-30c9c5791947"
   ],
   "needsRevisionIds": [],
   "reviewRecords": [
@@ -851,6 +878,69 @@
       "result": "passed-after-rewrite",
       "difficulty": "medium",
       "reason": "菜 có thể là món ăn hoặc rau/thức ăn thực vật; cần dựa vào động từ và ngữ cảnh để dịch tự nhiên."
+    },
+    {
+      "ordinal": 83,
+      "id": "hz-h1-8a6b33eeca73",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "雨 là danh từ cơ bản chỉ mưa, dùng trực tiếp trong câu có và nghe mưa."
+    },
+    {
+      "ordinal": 84,
+      "id": "hz-h1-4b9b99367126",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "风 là danh từ thời tiết trực tiếp, với mẫu có gió và gió mạnh rõ ràng."
+    },
+    {
+      "ordinal": 85,
+      "id": "hz-h1-efc5a07d3d4f",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "下雨 là động từ/cụm hiện tượng khác với 雨 là danh từ mưa; cần dạy chủ thể ngầm và cách dùng trong mệnh đề thời gian."
+    },
+    {
+      "ordinal": 86,
+      "id": "hz-h1-c4bc9119c0ea",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "天气 là khái niệm thời tiết nói chung, cần phân biệt với 下雨/雨 là một hiện tượng cụ thể và dùng đúng 怎么样."
+    },
+    {
+      "ordinal": 87,
+      "id": "hz-h1-4b01c12e2fb5",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "奶奶 là từ thân thuộc chỉ bà nội, dùng trực tiếp trong câu sở hữu/người thân."
+    },
+    {
+      "ordinal": 88,
+      "id": "hz-h1-91011160c68e",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "水果 là danh từ ghép quen thuộc, dùng trực tiếp cho ăn và số lượng nhiều."
+    },
+    {
+      "ordinal": 89,
+      "id": "hz-h1-3f18a484d148",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "Nghĩa trực tiếp và cách dùng quen thuộc với 喝; chỉ cần làm rõ 牛奶 khác 奶茶."
+    },
+    {
+      "ordinal": 90,
+      "id": "hz-h1-4823c87cc791",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "Nghĩa trực tiếp; nhớ 个 đếm quả trứng."
+    },
+    {
+      "ordinal": 91,
+      "id": "hz-h1-30c9c5791947",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "坏 có hai nghĩa thông dụng cần tách: đồ vật/thức ăn bị hỏng trong 坏了 và người, việc hoặc tính chất xấu trong 坏人/坏事; người học Việt dễ dùng lẫn hai phạm vi."
     }
   ],
   "previousDigests": {
@@ -859,9 +949,9 @@
     "hz-h1-1ac411c12450": "e37a88062d071eb6d7b39b8380b17426d2903de14194935a277f9cd28b917ca8"
   },
   "currentDigests": {
-    "hz-h1-64d354d405bb": "ae9206c928e461934b11bcae105dd34eae61d348b71d725251d049f576ab5c93",
-    "hz-h1-0a3f1c936624": "b926467c87131711c467d4776b66423d0353794eed5794dc76b8a82bd229bb49",
-    "hz-h1-1ac411c12450": "8624f43cb7a8cdccf8f44a4c88818cf85c55f475c3e13f0cacaf901d7998e779",
+    "hz-h1-64d354d405bb": "dc001320b43858a4449066650119c0d330aea793cab71c0de10e6f40667e36bd",
+    "hz-h1-0a3f1c936624": "35ea5f125ea6bebe9768bcc3b290531204956a33ddabe760ef370a41ba2ec5e0",
+    "hz-h1-1ac411c12450": "9af21950de1272bbe78fb3e582f7be3d6383d3291bb7348f0a7d11098a1491fe",
     "hz-h1-fb76fb22fed2": "3f186b94d6164fcc7d2447f0f1f085e7141209c2b1f64d515ffae506f900f66f",
     "hz-h1-489f35fdb6de": "fed26ac5353cefc9e04ae414cfe77de2e82efa9704430adaec146adca6936cad",
     "hz-h1-14cd68fb49a8": "26dc7b4091a99b6e689a475a21fdb398fbe1751392a059361e2de331411a8e42",
@@ -940,19 +1030,29 @@
     "hz-h1-a9e42039a465": "403ede4b65f3805b757034ef14aec442e4f0b82a2d26acaefb3d045d0b5ab17c",
     "hz-h1-26973a46f060": "0b456187c586d44cada7e64f4bc44bc0a0db7b721aa171a980d7f022d2cb4cbc",
     "hz-h1-4f06d6f3c19f": "74f39d1d36d15a0f2536bc6ec4892f0f5056a27fc72b381afa5333d505779f71",
-    "hz-h1-678ba85d28e7": "627c1fe00582ba95fc11d33fb9f7797ff5408872480e1fddf46ca2409eb4db11"
+    "hz-h1-678ba85d28e7": "0013f2d6f81e239212bb4806bcc440bf760e11030ae65e56c2c7c3687789fe43",
+    "hz-h1-8a6b33eeca73": "07fe00a873e2bf7083f1b7191a25dc083c455e155bc0da9c55b02609ae8bfc81",
+    "hz-h1-4b9b99367126": "182caf65bef693a580c52cf7597a9a927487f01d814fd5b1a16f7e5b140816b4",
+    "hz-h1-efc5a07d3d4f": "33d188bcb91c651b69f176f293fc8e31f82bf583a95931c2029b8a728b38f9e7",
+    "hz-h1-c4bc9119c0ea": "1a551272527549d12870c6a1c52bc88f246a9dc3b4000603303db6de3d3cde1b",
+    "hz-h1-4b01c12e2fb5": "50800b6bbc7a8bd9b904cc61d41b8f1a61161ad2dfaea3a293335be0b0f504bd",
+    "hz-h1-91011160c68e": "46b47bd00b3883136cf225a11170487c61aefc72fa5ec41520b7e2a03ea1a9e9",
+    "hz-h1-3f18a484d148": "27ab978967d18016c4a62a7658311c6f5388ab43bc1230ca4800e33e14ad7834",
+    "hz-h1-4823c87cc791": "1b840f1355ae68b20cabc05891accdf4b8ae6a7b4e652795f085a1e7e02ac649",
+    "hz-h1-30c9c5791947": "0ae699afc5440a163b257376771b31d534f5835fea594c05189b9cc1218c5e76"
   },
   "sourceDigests": {
     "algorithm": "sha256",
-    "courseFile": "dda50ffdc8b30be101f31ad9b29ebd89f841dc0109372313db98af302db78c16",
-    "baselineFile": "253370b4136e5935982390cc472b1f577e992417c84d93cec82fad2cc1bec925",
-    "standardFile": "59e0d0afad07989b9d14923cc33d0ad7639c912c9ed095d87764f9be4bb5c133",
-    "agentsFile": "4db177889bc96362673db9f10388b9cf48e64262c0c2f7816344be7afe99fa83",
+    "courseFile": "5b9373edf9a888390927584b67d6bdeb2f6b524cf6ab44c4af8f683b7b59dda4",
+    "baselineFile": "3f0d5c83a26a0fcc229e6b400014d27be00b2615235b93413bc0ba01effc6394",
+    "standardFile": "6a9dcecab1b29e930737e9d65fe60b6d71ecc8ce1ed9f0773edd7b16a6283d60",
+    "agentsFile": "595947c076f563fec1f5b312cc1f35a8200c0f834099237a594c37ba5f3906d8",
     "rendererFile": "2a83719403bd54560062340d878190b5cea836984338b67cfab35044cd595c2e",
     "vocabularyScriptFile": "c1964505c084959aaa6ef403532408e341d8e41c92e3b89ed284f0d38f8a3ec4",
     "vocabularyHtmlFile": "38da4dea2a335e191b6d2a157f999f9f5305b04dce0e1b64f6fd24ca1bef9dd6",
     "domTestFile": "f1437324b917e1df0c273cd67926315c00f8c155adef03ccfdcf698b96530321",
-    "progressFile": "45437ca6d526ff7aa490bb18808ca4cbe9482f0df73e553936f6569aad9b10e6"
+    "progressFile": "4180397775ab6d4300dfb5576761eaf6ffa46efa65db741409fb44b5ffecb44f",
+    "validatorFile": "a8c9373c38ae9c5a965f30689404193b687faf60fbc50c2e92d6be2d16e2d1c5"
   },
   "baselineIntegrity": {
     "completedPrefixLength": 91,
@@ -961,6 +1061,43 @@
     "baselineIdSetChanged": false,
     "courseIdSetChanged": false
   },
+  "correctionRecords": [
+    {
+      "ordinal": 82,
+      "id": "hz-h1-678ba85d28e7",
+      "type": "metadata-correction",
+      "result": "corrected-after-review",
+      "reason": "cConfusables chỉ so sánh hai nghĩa của chính 菜; chuyển found từ true thành false vì nội dung đó thuộc A2/B, không phải bẫy C."
+    },
+    {
+      "ordinal": 1,
+      "id": "hz-h1-64d354d405bb",
+      "type": "content-correction",
+      "result": "corrected-after-review",
+      "reason": "Bổ sung trapReview A1–A2–B–C bắt buộc; bẫy C đã được gắn đúng với đối chiếu đại từ số ít/số nhiều hoặc sắc thái lịch sự."
+    },
+    {
+      "ordinal": 2,
+      "id": "hz-h1-0a3f1c936624",
+      "type": "content-correction",
+      "result": "corrected-after-review",
+      "reason": "Bổ sung trapReview A1–A2–B–C bắt buộc; bẫy C đã được gắn đúng với đối chiếu đại từ số ít/số nhiều hoặc sắc thái lịch sự."
+    },
+    {
+      "ordinal": 3,
+      "id": "hz-h1-1ac411c12450",
+      "type": "content-correction",
+      "result": "corrected-after-review",
+      "reason": "Bổ sung trapReview A1–A2–B–C bắt buộc; bẫy C đã được gắn đúng với đối chiếu đại từ số ít/số nhiều hoặc sắc thái lịch sự."
+    },
+    {
+      "ordinal": 495,
+      "id": "hz-h2-b68721647e72",
+      "type": "pilot-correction",
+      "result": "trap-review-completed",
+      "reason": "Bổ sung trapReview bắt buộc cho bài mẫu 下; phân loại bẫy theo A2, B và C, không tính vào baseline."
+    }
+  ],
   "validation": {
     "processBatchVerify": "passed",
     "v3LevelTests": "passed",
@@ -972,7 +1109,7 @@
     "browserVisualLayout": "dom-simulation-only",
     "qualityRevision": "passed-internal"
   },
-  "status": "deployed-and-live-verified",
+  "status": "worktree-prepared",
   "lastVerifiedRemoteCommit": "f8c2ac88e321617ec7274f5c1c76d303db1514bf",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
@@ -994,6 +1131,6 @@
       "hz-h1-678ba85d28e7"
     ]
   },
-  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline. Pages run đúng head_sha và dữ liệu live đã đối chiếu byte với file đã kiểm.",
-  "lastBatch": "quality-revision-013"
+  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
+  "lastBatch": "quality-revision-014"
 }

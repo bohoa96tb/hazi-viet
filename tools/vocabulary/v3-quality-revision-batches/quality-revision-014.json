@@ -1,0 +1,221 @@
+{
+  "id": "quality-revision-014",
+  "authorship": "Kiểm định nội bộ V3 theo CONTENT_STANDARD_V3; rà riêng nghĩa, cấu trúc, Pinyin, ví dụ, bẫy A1–A2–B–C, bài tập và luồng hiển thị. Chưa có phản biện độc lập của giáo viên thứ hai.",
+  "entries": [
+    {
+      "id": "hz-h1-8a6b33eeca73",
+      "hanzi": "雨",
+      "cohortOrdinal": 83,
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà lại nghĩa, cấu trúc, Pinyin, bản dịch, bẫy A1–A2–B–C, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "雨 có cách đọc thông dụng yǔ; không có cách đọc phổ biến thứ hai cần tách trong bài này."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "雨 có nghĩa trọng tâm là mưa hoặc cơn mưa như danh từ; cách nói ‘trời mưa’ được diễn đạt bằng 下雨 và đã được phân biệt ở nhóm C."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không có bẫy Hán Việt hoặc dịch từng chữ đáng kể ở mức này; không gán ‘mưa’ như động từ trực tiếp cho 雨 trong mọi câu."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 雨 với 下雨: 雨 là danh từ chỉ mưa/cơn mưa, còn 下雨 là cụm nói trời đang mưa."}
+        },
+        "confusions": [
+          {"id": "rain-noun-verb", "category": "C", "afterSense": "rain", "title": "雨 và 下雨 khác vai trò", "explanation": "雨 là danh từ ‘mưa/cơn mưa’, có thể đứng sau 有 hoặc 听; 下雨 là cụm động từ ‘trời mưa’. Không nói 外面雨了 để diễn đạt trời đang mưa.", "contrasts": [{"zh": "今天有雨。", "pinyin": "Jīntiān yǒu yǔ.", "vi": "Hôm nay có mưa.", "note": "雨 là danh từ chỉ hiện tượng."}, {"zh": "外面下雨了。", "pinyin": "Wàimiàn xià yǔ le.", "vi": "Bên ngoài mưa rồi.", "note": "下雨 là cụm động từ."}], "tip": "Nói có mưa như một hiện tượng dùng 有雨; nói trời đang mưa dùng 下雨."}
+        ],
+        "discriminationExercises": [
+          {"id": "d1", "trapId": "rain-noun-verb", "type": "choice", "prompt": "Muốn nói hôm nay có mưa như một hiện tượng, chọn câu phù hợp.", "choices": ["今天有雨。", "今天雨了。"], "correctIndex": 0, "model": "今天有雨。", "explanation": "雨 là danh từ nên đứng sau 有; 今天雨了 không phải cách nói đúng cho ‘hôm nay trời mưa’.", "wrongFeedback": "Khi muốn nói trời mưa, cần dùng 下雨; khi nói có mưa như danh từ, dùng 有雨."}
+        ]
+      }
+    },
+    {
+      "id": "hz-h1-4b9b99367126",
+      "hanzi": "风",
+      "cohortOrdinal": 84,
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "风 có cách đọc thông dụng fēng; không có cách đọc phổ biến thứ hai cần tách trong bài này."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "风 có nghĩa trọng tâm là gió; mức độ gió do ngữ cảnh hoặc tính từ như 大 mô tả."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không có bẫy Hán Việt hoặc dịch từng chữ đáng kể; 风 trong các ví dụ là gió tự nhiên, không suy thành ‘phong cách’ ở bài cơ bản."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 风 với 刮风: 风 là danh từ gió, còn 刮风 là cụm nói gió đang thổi/có gió."}
+        },
+        "confusions": [
+          {"id": "wind-noun-verb", "category": "C", "afterSense": "wind", "title": "风 và 刮风 khác cách dùng", "explanation": "风 là danh từ ‘gió’, có thể đứng sau 有 hoặc làm chủ thể; 刮风 là cụm động từ nói hiện tượng gió thổi.", "contrasts": [{"zh": "今天有风。", "pinyin": "Jīntiān yǒu fēng.", "vi": "Hôm nay có gió.", "note": "风 là danh từ sau 有."}, {"zh": "今天刮风了。", "pinyin": "Jīntiān guā fēng le.", "vi": "Hôm nay gió thổi rồi.", "note": "刮风 là cụm động từ."}], "tip": "Nói ‘có gió’ dùng 有风; nói hiện tượng gió thổi dùng 刮风."}
+        ],
+        "discriminationExercises": [
+          {"id": "d1", "trapId": "wind-noun-verb", "type": "choice", "prompt": "Muốn nói hôm nay có gió, chọn câu đúng.", "choices": ["今天有风。", "今天风了。"], "correctIndex": 0, "model": "今天有风。", "explanation": "风 là danh từ đứng sau 有; 今天风了 thiếu cụm động từ 刮风.", "wrongFeedback": "Đừng dùng 风 một mình như động từ; chọn 有风 hoặc 刮风 theo ý muốn nói."}
+        ]
+      }
+    },
+    {
+      "id": "hz-h1-efc5a07d3d4f",
+      "hanzi": "下雨",
+      "cohortOrdinal": 85,
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "下雨 đọc xiàyǔ trong cụm này; không có cách đọc khác cần tách. 下 có nhiều cách đọc ở từ khác nhưng không phải cách đọc thứ hai của cụm 下雨."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "下雨 có một chức năng thông dụng là nói trời mưa; sắc thái bắt đầu/đã xảy ra do 了 hoặc ngữ cảnh, không phải nghĩa từ vựng riêng của cụm."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Dịch từng chữ thành ‘mưa xuống’ dễ gây câu tiếng Việt cứng, nhưng không tạo lỗi tiếng Trung nếu nhớ 下雨 là cụm cố định chỉ trời mưa."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 下雨 với 雨: 下雨 là cụm động từ, còn 雨 là danh từ; hai cách có thể cùng xuất hiện trong nói về mưa nhưng không thay thế tự do."}
+        },
+        "confusions": [
+          {"id": "noun", "category": "C", "afterSense": "rainverb", "title": "下雨 và 雨 khác vai", "explanation": "下雨 là cụm nói trời đang mưa; 雨 là danh từ mưa/cơn mưa, có thể đứng sau 有 hoặc 听.", "contrasts": [{"zh": "外面下雨了。", "pinyin": "Wàimiàn xià yǔ le.", "vi": "Bên ngoài mưa rồi.", "note": "Cụm chỉ hiện tượng đang xảy ra."}, {"zh": "今天有雨。", "pinyin": "Jīntiān yǒu yǔ.", "vi": "Hôm nay có mưa.", "note": "雨 là danh từ."}], "tip": "Muốn nói đang xảy ra dùng 下雨; muốn nói có mưa như một hiện tượng/dự báo có thể dùng 有雨."}
+        ]
+      }
+    },
+    {
+      "id": "hz-h1-c4bc9119c0ea",
+      "hanzi": "天气",
+      "cohortOrdinal": 86,
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "天气 có cách đọc thông dụng tiānqì; không có cách đọc phổ biến thứ hai cần tách."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "天气 có nghĩa trọng tâm là thời tiết nói chung; không tách thành nghĩa ‘trời’ và ‘khí’ khi dùng trong câu hiện đại."},
+          "bLiteralTranslation": {"checked": true, "found": true, "summary": "Dịch từng chữ 天气 thành ‘trời khí’ là sai; cần nhớ 天气 là danh từ cố định nghĩa là thời tiết."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 天气 với 下雨 và 雨: 天气 nói toàn cảnh thời tiết, còn hai từ kia chỉ hiện tượng mưa cụ thể."}
+        },
+        "confusions": [
+          {"id": "phenomenon", "category": "C", "afterSense": "weather", "title": "天气 rộng hơn 雨 và 下雨", "explanation": "天气 nói tổng thể thời tiết; 雨 và 下雨 chỉ mưa, một hiện tượng cụ thể trong thời tiết.", "contrasts": [{"zh": "今天天气怎么样？", "pinyin": "Jīntiān tiānqì zěnmeyàng?", "vi": "Hôm nay thời tiết thế nào?", "note": "Hỏi tổng thể."}, {"zh": "今天下雨了。", "pinyin": "Jīntiān xià yǔ le.", "vi": "Hôm nay trời mưa rồi.", "note": "Nói một hiện tượng."}], "tip": "Hỏi toàn cảnh dùng 天气怎么样; nói hiện tượng mưa dùng 下雨."}
+        ]
+      }
+    },
+    {
+      "id": "hz-h1-4b01c12e2fb5",
+      "hanzi": "奶奶",
+      "cohortOrdinal": 87,
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "奶奶 có cách đọc thông dụng nǎinai; không có cách đọc phổ biến thứ hai cần tách."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "奶奶 có nghĩa trọng tâm là bà nội hoặc cách gọi thân mật bà; quan hệ bên nội được xác định trong cách dùng bài này."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không suy nghĩa từ 奶 (sữa) + 奶; 奶奶 là từ thân tộc cố định, không có nghĩa ‘sữa sữa’."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 奶奶 với 外婆: 奶奶 là mẹ của bố, còn 外婆 là mẹ của mẹ; đây là khác biệt quan trọng với cách gọi nội/ngoại của tiếng Việt."}
+        },
+        "confusions": [
+          {"id": "grandmother-side", "category": "C", "afterSense": "paternalgrandma", "title": "奶奶 và 外婆 khác bên gia đình", "explanation": "奶奶 là mẹ của bố (bà nội); 外婆 là mẹ của mẹ (bà ngoại). Cả hai đều có thể dịch là ‘bà’ nếu không nói rõ bên nào.", "contrasts": [{"zh": "我奶奶在家。", "pinyin": "Wǒ nǎinai zài jiā.", "vi": "Bà nội tôi ở nhà.", "note": "Mẹ của bố."}, {"zh": "我外婆在家。", "pinyin": "Wǒ wàipó zài jiā.", "vi": "Bà ngoại tôi ở nhà.", "note": "Mẹ của mẹ."}], "tip": "奶奶 = bà nội; 外婆 = bà ngoại."}
+        ],
+        "discriminationExercises": [
+          {"id": "d1", "trapId": "grandmother-side", "type": "choice", "prompt": "Muốn nói mẹ của bố, chọn từ đúng.", "choices": ["奶奶", "外婆"], "correctIndex": 0, "model": "奶奶", "explanation": "奶奶 là bà nội; 外婆 là bà ngoại.", "wrongFeedback": "Hãy xác định bà là mẹ của bố hay mẹ của mẹ."}
+        ]
+      }
+    },
+    {
+      "id": "hz-h1-91011160c68e",
+      "hanzi": "水果",
+      "cohortOrdinal": 88,
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "水果 có cách đọc thông dụng shuǐguǒ; không có cách đọc phổ biến thứ hai cần tách."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "水果 có nghĩa trọng tâm là trái cây nói chung; loại quả cụ thể do từ riêng hoặc ngữ cảnh nêu ra."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không dịch 水果 thành ‘quả nước’; đây là từ ghép cố định nghĩa là trái cây."},
+          "cConfusables": {"checked": true, "found": false, "summary": "Đã kiểm tra các từ gần nghĩa trong phạm vi bài cơ bản; chưa thấy bẫy ngữ pháp hoặc từ/cấu trúc dễ nhầm cần thêm vào bài."}
+        }
+      }
+    },
+    {
+      "id": "hz-h1-3f18a484d148",
+      "hanzi": "牛奶",
+      "cohortOrdinal": 89,
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "牛奶 có cách đọc thông dụng niúnǎi; không có cách đọc phổ biến thứ hai cần tách."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "牛奶 có nghĩa trọng tâm là sữa bò, dùng làm đồ uống hoặc thực phẩm; không mở rộng sang các loại sữa khác trong bài cơ bản."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Dịch từng chữ thành ‘sữa bò’ là phù hợp ở bài này; không có bẫy Hán Việt đáng kể cần tách."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 牛奶 với 奶茶: 牛奶 là sữa bò, còn 奶茶 là trà sữa có thành phần trà."}
+        },
+        "confusions": [{"id": "tea", "category": "C", "afterSense": "milk", "title": "牛奶 khác 奶茶", "explanation": "牛奶 là sữa bò; 奶茶 là trà sữa, một đồ uống khác.", "contrasts": [{"zh": "我想喝牛奶。", "pinyin": "Wǒ xiǎng hē niúnǎi.", "vi": "Tôi muốn uống sữa bò.", "note": "Không có trà."}, {"zh": "我想喝奶茶。", "pinyin": "Wǒ xiǎng hē nǎichá.", "vi": "Tôi muốn uống trà sữa.", "note": "Có 茶, nghĩa là trà sữa."}], "tip": "Gọi đúng 牛奶 hoặc 奶茶 theo món muốn uống."}]
+      }
+    },
+    {
+      "id": "hz-h1-4823c87cc791",
+      "hanzi": "鸡蛋",
+      "cohortOrdinal": 90,
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "鸡蛋 có cách đọc thông dụng jīdàn; không có cách đọc phổ biến thứ hai cần tách."},
+          "a2Meanings": {"checked": true, "found": false, "summary": "鸡蛋 có nghĩa trọng tâm là trứng gà dùng làm thực phẩm; không cần tách thêm nghĩa thông dụng ở mức bài này."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Dịch từng chữ ‘trứng gà’ phù hợp; bẫy chính của người mới là nhầm 鸡蛋 với 鸡, đã được dạy ở nhóm C."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 鸡蛋 với 鸡: 鸡蛋 là quả trứng, dùng 个 khi đếm; 鸡 là con gà, dùng 只 khi đếm."}
+        },
+        "confusions": [{"id": "chicken", "category": "C", "afterSense": "egg", "title": "鸡蛋 và 鸡", "explanation": "鸡蛋 là quả trứng; 鸡 là con gà.", "contrasts": [{"zh": "一个鸡蛋", "pinyin": "yí gè jīdàn", "vi": "một quả trứng", "note": "个 đếm trứng."}, {"zh": "一只鸡", "pinyin": "yì zhī jī", "vi": "một con gà", "note": "只 đếm con vật."}], "tip": "Nhớ 个+鸡蛋, 只+鸡."}]
+      }
+    },
+    {
+      "id": "hz-h1-30c9c5791947",
+      "hanzi": "坏",
+      "cohortOrdinal": 91,
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "examples": [
+        {"id": "e1", "zh": "我的手机坏了。", "pinyin": "Wǒ de shǒujī huài le.", "vi": "Điện thoại của tôi hỏng rồi.", "analysis": "坏了 đứng sau vật để báo tình trạng hỏng.", "practiceAllowed": true},
+        {"id": "e2", "zh": "这个苹果坏了，别吃。", "pinyin": "Zhège píngguǒ huài le, bié chī.", "vi": "Quả táo này hỏng rồi, đừng ăn.", "analysis": "坏了 cũng nói thức ăn bị hư.", "practiceAllowed": true},
+        {"id": "e3", "zh": "他不是坏人。", "pinyin": "Tā bú shì huài rén.", "vi": "Anh ấy không phải người xấu.", "analysis": "Trong 坏人, 坏 đứng trước danh từ và nghĩa là xấu về tính cách.", "practiceAllowed": true}
+      ],
+      "lessonPatch": {
+        "qualityStatus": "quality-revision-passed",
+        "examples": [
+          {"id": "e1", "zh": "我的手机坏了。", "pinyin": "Wǒ de shǒujī huài le.", "vi": "Điện thoại của tôi hỏng rồi.", "analysis": "坏了 đứng sau vật để báo tình trạng hỏng.", "practiceAllowed": true},
+          {"id": "e2", "zh": "这个苹果坏了，别吃。", "pinyin": "Zhège píngguǒ huài le, bié chī.", "vi": "Quả táo này hỏng rồi, đừng ăn.", "analysis": "坏了 cũng nói thức ăn bị hư.", "practiceAllowed": true},
+          {"id": "e3", "zh": "他不是坏人。", "pinyin": "Tā bú shì huài rén.", "vi": "Anh ấy không phải người xấu.", "analysis": "Trong 坏人, 坏 đứng trước danh từ và nghĩa là xấu về tính cách.", "practiceAllowed": true}
+        ],
+        "difficultyReason": "坏 có hai nghĩa thông dụng cần tách: đồ vật/thức ăn bị hỏng trong 坏了 và người, việc hoặc tính chất xấu trong 坏人/坏事; người học Việt dễ dùng lẫn hai phạm vi.",
+        "introduction": {"scope": "坏 có thể chỉ tình trạng hỏng/hư hoặc tính chất xấu, tệ. Trong bài này cần nhìn vị trí và danh từ đi kèm để phân biệt."},
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {"checked": true, "found": false, "summary": "坏 có cách đọc thông dụng huài; không có cách đọc phổ biến thứ hai cần tách trong các nghĩa của bài."},
+          "a2Meanings": {"checked": true, "found": true, "summary": "Đã dạy hai nghĩa thông dụng: 坏了 là hỏng/hư; 坏人, 坏事 là xấu hoặc tệ. Vị trí sau vật với 了 và trước danh từ giúp nhận ra nghĩa."},
+          "bLiteralTranslation": {"checked": true, "found": false, "summary": "Không có bẫy Hán Việt cần thêm ở mức này; không dịch mọi 坏 thành ‘hỏng’ khi nó đứng trước 人 hoặc 事."},
+          "cConfusables": {"checked": true, "found": true, "summary": "Đã đối chiếu 坏了 với 不好用: 坏了 khẳng định vật hỏng, còn 不好用 chỉ việc dùng không tiện và vật vẫn có thể hoạt động."}
+        },
+        "senses": [
+          {"id": "broken", "title": "Hỏng, hư", "when": "Nói đồ vật không hoạt động hoặc thức ăn không dùng được.", "meaning": "hỏng; hư", "grammar": "坏了 thường đứng sau vật để báo tình trạng đã hỏng.", "pattern": "手机/苹果+坏了", "collocations": [], "examples": [{"zh": "我的手机坏了。", "pinyin": "Wǒ de shǒujī huài le.", "vi": "Điện thoại của tôi hỏng rồi.", "note": "Đồ vật bị hỏng."}, {"zh": "这个苹果坏了。", "pinyin": "Zhège píngguǒ huài le.", "vi": "Quả táo này hỏng rồi.", "note": "Thức ăn bị hư."}]},
+          {"id": "bad", "title": "Xấu, tệ", "when": "Nói người, việc hoặc tính chất có tính xấu, không tốt.", "meaning": "xấu; tệ", "grammar": "坏 đứng trước danh từ như 人, 事 để bổ nghĩa; không có 了 thì không tự động mang nghĩa ‘hỏng rồi’.", "pattern": "坏人/坏事；不是+坏人", "collocations": [{"zh": "坏人", "pinyin": "huài rén", "vi": "người xấu"}, {"zh": "坏事", "pinyin": "huài shì", "vi": "chuyện xấu"}], "examples": [{"zh": "他不是坏人。", "pinyin": "Tā bú shì huài rén.", "vi": "Anh ấy không phải người xấu.", "note": "坏 đứng trước 人 để nói tính cách."}, {"zh": "别做坏事。", "pinyin": "Bié zuò huài shì.", "vi": "Đừng làm chuyện xấu.", "note": "坏 đứng trước 事 để nói việc xấu."}]}
+        ],
+        "confusions": [{"id": "quality", "category": "C", "afterSense": "broken", "title": "坏了 và 不好用", "explanation": "坏了 khẳng định vật hỏng; 不好用 chỉ trải nghiệm sử dụng kém hoặc bất tiện, vật vẫn có thể hoạt động.", "contrasts": [{"zh": "手机坏了，开不了机。", "pinyin": "Shǒujī huài le, kāi bù liǎo jī.", "vi": "Điện thoại hỏng, không bật được.", "note": "Có dấu hiệu hỏng."}, {"zh": "手机不好用，但是还能开机。", "pinyin": "Shǒujī bù hǎo yòng, dànshì hái néng kāijī.", "vi": "Điện thoại khó dùng nhưng vẫn bật được.", "note": "Vẫn hoạt động."}], "tip": "Không hoạt động: 坏了; dùng bất tiện hoặc chất lượng kém: 不好用."}],
+        "guidedExercises": [
+          {"id": "g1", "type": "order", "prompt": "Sắp xếp: Điện thoại của tôi hỏng rồi.", "tokens": ["我的手机", "坏了", "。"], "accepted": ["我的手机坏了。"], "model": "我的手机坏了。", "explanation": "坏了 đứng sau vật.", "wrongFeedback": "Đặt vật trước 坏了."},
+          {"id": "g2", "type": "complete", "prompt": "Hoàn thành: 这个苹果____，别吃。", "accepted": ["坏了"], "model": "这个苹果坏了，别吃。", "explanation": "坏了 báo quả táo đã hư.", "wrongFeedback": "Dùng 坏了 để báo thức ăn hỏng."},
+          {"id": "g3", "type": "order", "prompt": "Sắp xếp: Đừng làm chuyện xấu.", "tokens": ["别", "做", "坏事", "。"], "accepted": ["别做坏事。"], "model": "别做坏事。", "explanation": "坏 đứng trước 事 để tạo cụm 坏事, nghĩa là chuyện xấu.", "wrongFeedback": "Đặt 坏 trước 事 và 别 trước động từ."}
+        ],
+        "discriminationExercises": [
+          {"id": "d1", "trapId": "quality", "type": "choice", "prompt": "Điện thoại không bật được, chọn câu phù hợp.", "choices": ["手机坏了", "手机不好用"], "correctIndex": 0, "model": "手机坏了", "explanation": "Không bật được là dấu hiệu hỏng; 不好用 chưa khẳng định máy hỏng.", "wrongFeedback": "不好用 có thể chỉ khó dùng, trong khi tình huống đã cho dấu hiệu không hoạt động."},
+          {"id": "d2", "senseId": "bad", "type": "meaning", "prompt": "Trong 坏人, 坏 nghĩa là gì?", "choices": ["xấu về tính cách", "bị hỏng"], "correctIndex": 0, "model": "xấu về tính cách", "explanation": "坏 đứng trước 人 và nghĩa là xấu; nghĩa hỏng thường thấy trong 坏了 sau tên vật.", "wrongFeedback": "Nhìn danh từ đứng sau: 坏人 nói người xấu, không phải người bị hỏng."}
+        ],
+        "productionExercises": [
+          {"id": "p1", "prompt": "Nói điện thoại của bạn hỏng rồi.", "hints": ["Nêu vật: 我的手机.", "Dùng 坏了.", "Mẫu: 我的手机坏了。"], "model": "我的手机坏了。", "vi": "Điện thoại của tôi hỏng rồi.", "criteria": ["Đặt 坏了 sau vật."]},
+          {"id": "p2", "prompt": "Nói một người không phải người xấu.", "hints": ["Dùng 他 hoặc 她.", "Đặt 坏 trước 人.", "Mẫu: 他不是坏人。"], "model": "他不是坏人。", "vi": "Anh ấy không phải người xấu.", "criteria": ["Dùng 坏人 với nghĩa xấu về tính cách."]}
+        ],
+        "reviewExercises": [
+          {"id": "r1", "prompt": "Điền từ: 我的手机____。", "hiddenAnswer": "坏了", "model": "我的手机坏了。"},
+          {"id": "r2", "prompt": "坏了 báo tình trạng gì?", "hiddenAnswer": "hỏng hoặc hư", "model": "我的手机坏了。"},
+          {"id": "r3", "prompt": "Nhớ cụm chỉ người xấu.", "hiddenAnswer": "坏人", "model": "他不是坏人。", "vi": "Anh ấy không phải người xấu."}
+        ]
+      }
+    }
+  ]
+}
