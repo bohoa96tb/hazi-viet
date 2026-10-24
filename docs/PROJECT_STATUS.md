@@ -5,10 +5,10 @@ Cập nhật: 2026-10-24. Chế độ hiện hành: `review-existing-first`.
 ## Rà soát bài đã có
 
 - Phạm vi: 377 bài đang đủ cấu trúc trong thứ tự `data/vocabulary/hanzii-course.json`, gồm 10 bài ngoài baseline.
-- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 146/377 bài.
-- Đã rà trong các đợt `review-001` đến `review-009`: các nhóm trước đây và nhóm review-009 gồm 动作、学习、工作、干什么、开会、打球、爱好、考试、请假、包、吧、杯、门、东西、书店、医院、商场、商店.
-- Bài có sửa nội dung trong review-009: 动作、学习、工作、干什么、开会 (tách usage, sửa bẫy placeholder và selfUse), 打球 (sửa câu mẫu/dịch), 请假 (sửa câu mẫu/dịch), 杯 (sửa ghi chú kỹ thuật). 10 bài còn lại được đọc và giữ nguyên sau kiểm tra.
-- Còn rà: 231 bài. Tiếp theo: 图书馆 (`hz-h1-a397ab7fa248`), 杯子, 洗手间 và các ID trong `tools/vocabulary/review-checkpoint.json`.
+- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 164/377 bài.
+- Đã rà trong các đợt `review-001` đến `review-010`; đợt review-010 gồm 图书馆、杯子、洗手间、电影、电影院、电脑、电视、电视机、看病、衣服、身体、钱包、门口、饭店、五、哥、妈、妹.
+- Bài có sửa nội dung trong review-010: 杯子 (tách usage trùng lặp và đổi ví dụ thứ hai sang 一杯茶 để công thức 杯 + đồ uống khớp ví dụ). 17 bài còn lại được đọc và giữ nguyên sau kiểm tra; 饭店 được xếp khó vì nghĩa thay đổi theo vùng/ngữ cảnh.
+- Còn rà: 213 bài. Tiếp theo: 姐 (`hz-h1-c0d309a81ef0`), 子, 常 và các ID trong `tools/vocabulary/review-checkpoint.json`.
 - Chưa được coi là phản biện giáo viên độc lập; chưa kiểm bố cục mobile hoặc TTS Android thật.
 
 ## Bổ sung bài còn thiếu
