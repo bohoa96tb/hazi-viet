@@ -9,7 +9,7 @@ export function verifyV2(w){
  for(const stage of [0,1,2,3])assert(render(w,stage)?.length);
  assert(!render(w,1).includes('data-lesson-view'));
  for(const e of w.lesson.examples)assert.equal(render(w,1).split(esc(e.zh)).length-1,1,'Main example displayed exactly once');
- for(let i=0;i<w.lesson.traps.length;i++)assert(render(w,2,new Map(),{trapIndex:i}).includes(esc(w.lesson.traps[i].title)));
+ for(let i=0;i<w.lesson.traps.length;i++){const trap=w.lesson.traps[i],html=render(w,2,new Map(),{trapIndex:i});assert(html.includes(esc(trap.title)));for(const c of trap.cases.filter(c=>c.pinyin)){assert(html.includes(esc(c.pinyin)),'Trap Pinyin must be visible');assert(!lessonAudio(w,'traps',i).some(s=>s.text.includes(c.pinyin)),'Trap Pinyin must stay out of TTS')}}
  const full=lessonAudio(w);assert(full.length&&full.every(s=>['vi-VN','zh-CN'].includes(s.lang)&&!/[\*_`#]/.test(s.text)));
  for(let i=0;i<2;i++)assert.deepEqual(lessonAudio(w,'example-only',i).map(s=>[s.lang,s.text]),[['zh-CN',w.lesson.examples[i].zh]]);
  for(const e of w.lesson.examples){assert.equal(full.filter(s=>s.label==='Câu mẫu'&&s.text===e.zh).length,1);if(e.pinyin)assert(full.every(s=>!s.text.includes(e.pinyin)))}
@@ -20,6 +20,7 @@ export function verifyV2(w){
  const state=new Map([[w.id+':'+c.id,'requested'],[w.id+':self-unlocked',true]]);assert(show(state).includes('ANSWER_SENTINEL'));assert(!/MODEL_SENTINEL|IDEA_SENTINEL/.test(show(state)));
  state.set(w.id+':hint:s1',1);assert(show(state).includes('IDEA_SENTINEL'));assert(!show(state).includes('MODEL_SENTINEL'));state.set(w.id+':hint:s1',3);assert(show(state).includes('MODEL_SENTINEL'));
  assert.throws(()=>checkAudio(tagged,c.id,'answer'));assert(checkAudio(tagged,c.id,'answer',{revealed:true}).some(s=>s.text.includes('ANSWER')));assert(!lessonAudio(tagged).some(s=>/SENTINEL/.test(s.text)));assert(!checkAudio(tagged,c.id,'question').some(s=>/ANSWER|EXPLANATION/.test(s.text)));
+ for(const check of w.lesson.checks){const answer=w.lesson.answers[check.id];if(answer.audioText){const audio=checkAudio(w,check.id,'answer',{revealed:true});assert(audio.length&&audio.map(s=>s.text).join(' ').includes(answer.audioText.split(/[。？！]/u)[0]),'Custom answer audio must be used');assert(!audio.some(s=>answer.accepted.some(a=>s.text.includes(a))),'Displayed answer with Pinyin/symbols must stay out of custom TTS')}}
  // Trap-path negative tests use a separate fixture so real no-trap lessons stay valid.
  const trapFixture=structuredClone(w);
  if(!trapFixture.lesson.traps.length){

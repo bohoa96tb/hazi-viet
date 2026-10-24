@@ -1,4 +1,4 @@
-import {auditV2,v2Audio,splitSpeech} from './lesson-v2.js?v=v2-batch-005';
+import {auditV2,v2Audio,splitSpeech} from './lesson-v2.js?v=v2-word-495';
 // The 5.1–5.6 contract checks content coverage; it does not certify linguistic accuracy.
 export const sections=[['introduction','5.1 · Giới thiệu từ mới'],['meaning','5.2 · Hiểu nghĩa và khi nào dùng'],['usages','5.3 · Cách sử dụng'],['examples','5.4 · Ví dụ có phân tích'],['traps','5.5 · Bẫy và phân biệt'],['pronunciation','5.6 · Đọc đúng']];
 export const judgments={correct:'Đúng và phù hợp', 'wrong-grammar':'Câu sai ngữ pháp','different-meaning':'Đúng nhưng đổi nghĩa','wrong-intent':'Đúng nhưng không phù hợp ý định','unnatural':'Hiểu được nhưng kém tự nhiên trong ngữ cảnh này','overlap':'Vẫn đúng và gần nghĩa','context-needed':'Chưa đủ ngữ cảnh để kết luận'};
@@ -50,6 +50,6 @@ export function checkAudio(word,id,kind,{revealed=false}={}){
  const check=word.lesson?.checks.find(c=>c.id===id);if(!check)return [];
  if(kind==='question')return mixed(check.question).map((s,i)=>({...s,id:word.id+'-'+id+'-q'+i,label:'Câu tự kiểm tra'}));
  if(kind!=='answer'||!revealed)throw Error('Chỉ mở audio lời giải sau khi trả lời hoặc yêu cầu xem đáp án.');
- const answer=word.lesson.answers[id];if(word.lesson.version===2)return splitSpeech('Đáp án tham khảo: '+answer.accepted.join(' / ')+'. '+answer.explanation).map((s,i)=>({...s,id:word.id+'-'+id+'-answer'+i,label:'Lời giải riêng'}));return mixed('Đáp án: '+check.choices[answer.correctIndex]+'. '+answer.explanation).map((s,i)=>({...s,id:word.id+'-'+id+'-answer'+i,label:'Lời giải riêng'}));
+ const answer=word.lesson.answers[id];if(word.lesson.version===2)return splitSpeech(answer.audioText||'Đáp án tham khảo: '+answer.accepted.join(' / ')+'. '+answer.explanation).map((s,i)=>({...s,id:word.id+'-'+id+'-answer'+i,label:'Lời giải riêng'}));return mixed('Đáp án: '+check.choices[answer.correctIndex]+'. '+answer.explanation).map((s,i)=>({...s,id:word.id+'-'+id+'-answer'+i,label:'Lời giải riêng'}));
 }
 

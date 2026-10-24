@@ -1,4 +1,4 @@
-import {auditLesson} from './lesson-standard.js?v=v2-batch-005';
+import {auditLesson} from './lesson-standard.js?v=v2-word-495';
 export const statusLabels={deep:'Bài học đầy đủ',editing:'Bài đang bổ sung',example:'Thẻ có ví dụ',catalog:'Thẻ tra cứu'};
 export function studySteps(word){return ['deep','editing'].includes(word?.status)?[0,1,2,3,4]:[0,3,4]}
 export function moveStep(word,stage,direction){const steps=studySteps(word),i=steps.indexOf(stage);return steps[Math.max(0,Math.min(steps.length-1,i+direction))]}

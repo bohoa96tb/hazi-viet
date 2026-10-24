@@ -107100,20 +107100,22 @@
       "meaning": "xuống; bên dưới",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-036 · trung bình",
+      "editorialStatus": "Biên soạn V2 · thử nghiệm nâng cấp từ 495 · phức tạp",
       "examples": [
         {
           "id": "e1",
-          "zh": "他下楼了。",
-          "vi": "Anh ấy đã xuống lầu.",
-          "analysis": "下楼 diễn tả đi từ tầng trên xuống.",
+          "zh": "我下午五点下班。",
+          "pinyin": "Wǒ xiàwǔ wǔ diǎn xiàbān.",
+          "vi": "Tôi tan làm lúc 5 giờ chiều.",
+          "analysis": "Chủ ngữ 我 đứng đầu; 下午五点 là thời gian và đứng trước động từ 下班. 下班 là cả từ ‘tan làm’, không hiểu máy móc là ‘đi xuống ca làm’.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
-          "zh": "书在桌子下。",
-          "vi": "Quyển sách ở dưới bàn.",
-          "analysis": "桌子下 là cụm vị trí, không diễn tả chuyển động.",
+          "zh": "我们在下一站下车。",
+          "pinyin": "Wǒmen zài xià yí zhàn xiàchē.",
+          "vi": "Chúng ta xuống xe ở trạm tiếp theo.",
+          "analysis": "在下一站 nêu địa điểm; 下车 là hành động rời khỏi xe. Trong 下一站, 下 mang nghĩa ‘tiếp theo’; trong 下车, 下 mang nghĩa ‘xuống/rời phương tiện’.",
           "practiceAllowed": true
         }
       ],
@@ -107123,155 +107125,348 @@
       "lesson": {
         "version": 2,
         "cohortOrdinal": 495,
-        "authorship": "Biên soạn mới V2; tự rà ngôn ngữ, chưa phản biện giáo viên độc lập.",
+        "authorship": "Nâng cấp thử nghiệm V2 cho riêng từ 495; tự rà ngôn ngữ và chức năng giao diện, chưa phản biện độc lập bởi giáo viên thứ hai.",
         "sources": [
-          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E4%B8%8B"
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdqb=%E4%B8%8B",
+          "https://resources.allsetlearning.com/chinese/grammar/Localizers"
         ],
         "introduction": {
-          "scope": "Có nhiều chức năng chỉ hướng, vị trí và thời điểm; bài tập trung vào hướng xuống và vị trí dưới."
+          "scope": "下 có nhiều cách dùng thông dụng nên được xếp mức phức tạp: chỉ hướng đi xuống, tham gia cụm vị trí, chỉ thời gian tiếp theo và nằm trong các từ quen thuộc như 下车, 下班, 下雨. Bài dạy cách nhận ra từng nghĩa qua từ đứng cạnh, không coi tất cả là một quy tắc."
         },
         "meaning": {
-          "scene": "Bạn mô tả một người đi từ tầng trên xuống.",
-          "explanation": "下 chỉ chuyển động từ cao xuống thấp hoặc vị trí ở phía dưới; khi làm động từ có thể đi một mình hoặc theo sau nơi xuất phát.",
-          "boundary": "Bài này chưa dạy các nghĩa lượng từ hay “lần sau” trong 下次.",
+          "scene": "Bạn xuống xe, nói quyển sách ở dưới bàn, hẹn gặp vào tháng sau hoặc báo mình tan làm lúc năm giờ: cả bốn tình huống đều có thể gặp chữ 下.",
+          "explanation": "Khi chỉ chuyển động, 下 là động từ hoặc thành phần chỉ hướng ‘xuống’: 下楼 là xuống lầu, 下车 là xuống xe. Khi chỉ vị trí, 下 là từ chỉ phương vị và thường đứng sau vật làm mốc; trong lời nói của người mới học, 桌子下面 ‘phía dưới bàn’ rõ và tự nhiên hơn khi dùng như một nơi chốn. Khi đứng trước từ chỉ thời gian, 下 mang nghĩa ‘tiếp theo’: 下个月 là tháng sau. Trong 下班 ‘tan làm’ và 下雨 ‘mưa’, cần học cả cụm: không thể dịch từng chữ 下 theo đúng một nghĩa ‘xuống’ trong mọi trường hợp.",
+          "boundary": "下 chỉ có một cách đọc thông dụng trong các cách dùng của bài này. 下面 là từ ghép chỉ ‘phía dưới/bên dưới’ và có thể làm cụm nơi chốn; không nên đánh đồng 下面 với riêng chữ 下 trong mọi câu. Bài chưa mở rộng sang lượng từ như 看一下 hoặc các nghĩa nâng cao khác.",
           "conditions": [
-            "Dùng khi chuyển động theo hướng thấp xuống."
+            "Rời một phương tiện: 下 + phương tiện, ví dụ 下车; người thực hiện đứng trước cụm khi cần nêu rõ.",
+            "Chỉ nơi chốn: vật làm mốc + 下面, ví dụ 桌子下面; nếu nói một vật đang ở đó, dùng vật + 在 + mốc + 下面.",
+            "Chỉ thời gian tiếp theo: 下 + đơn vị thời gian, ví dụ 下个月; cụm này có thể đứng đầu câu hoặc sau chủ ngữ.",
+            "下班 và 下雨 là các cụm quen dùng: 下班 nói kết thúc giờ làm, còn 下雨 nói trời mưa; hãy nhận nghĩa theo cả cụm.",
+            "Đừng nhầm chữ đồng âm 夏 ‘mùa hè’: âm đọc giống nhau nhưng hình chữ và nghĩa khác nhau.",
+            "上 là từ đối lập cần nhớ trong hai cặp cơ bản: 上车/下车 là lên xe/xuống xe; 上个月/下个月 là tháng trước/tháng sau."
           ],
-          "takeaway": "下 chỉ chuyển động từ cao xuống thấp hoặc vị trí ở phía dưới; khi làm động từ có thể đi một mình hoặc theo sau nơi xuất phát."
+          "takeaway": "Nhìn từ đi cùng 下: phương tiện gợi ý ‘xuống xe’, vật làm mốc gợi ý ‘bên dưới’, đơn vị thời gian gợi ý ‘tiếp theo’; 下班 và 下雨 được nhớ theo cả cụm."
         },
         "usages": [
           {
             "id": "u1",
-            "frame": "Chủ ngữ + 下 + nơi chốn",
-            "position": "下 đứng trước nơi đến hoặc sau nơi xuất phát.",
-            "required": "Dùng khi chuyển động theo hướng thấp xuống.",
-            "omission": "Có thể lược nơi chốn nếu ngữ cảnh đã rõ.",
+            "frame": "Chủ ngữ + thời gian + 下班 / Chủ ngữ + 在 + địa điểm + 下车",
+            "position": "Người thực hiện đứng trước; thời gian thường đứng sau chủ ngữ và trước 下班. Với 下车, địa điểm xuống xe có thể đặt trong cụm 在 + địa điểm trước 下车.",
+            "required": "下班 dùng khi kết thúc giờ làm; 下车 dùng khi rời xe. Đây là hai cụm khác nghĩa, dù đều có 下.",
+            "omission": "Có thể bỏ chủ ngữ hoặc thời gian/địa điểm khi ngữ cảnh đã rõ, nhưng không bỏ 下 trong hai từ này.",
             "exampleId": "e1"
           },
           {
             "id": "u2",
-            "frame": "Cách dùng khác của 下 theo ngữ cảnh",
-            "position": "Xác định chức năng từ vị trí và các thành phần đứng cạnh.",
-            "required": "Câu phải giữ đúng nghĩa được nêu trong bản dịch.",
-            "omission": "Không lược từ mục tiêu vì đây là trọng tâm của câu.",
+            "frame": "Vật + 在 + mốc + 下面 / 下 + đơn vị thời gian",
+            "position": "Trong cụm vị trí, mốc đứng trước 下面: 桌子下面. Trong cụm thời gian, 下 đứng trước đơn vị: 下个月, không đảo thành 个月下.",
+            "required": "Dùng 下面 để nêu rõ ‘phía dưới’ như một nơi chốn; dùng 下 trước đơn vị thời gian để nói kỳ tiếp theo.",
+            "omission": "Trong khẩu ngữ, đôi khi có thể gặp 桌子下, nhưng 下面 là mẫu rõ ràng nên người mới học ưu tiên. Không bỏ 月 khỏi 下个月 khi muốn nói ‘tháng sau’.",
             "exampleId": "e2"
           }
         ],
         "examples": [
           {
             "id": "e1",
-            "zh": "他下楼了。",
-            "vi": "Anh ấy đã xuống lầu.",
-            "analysis": "下楼 diễn tả đi từ tầng trên xuống.",
+            "zh": "我下午五点下班。",
+            "pinyin": "Wǒ xiàwǔ wǔ diǎn xiàbān.",
+            "vi": "Tôi tan làm lúc 5 giờ chiều.",
+            "analysis": "Chủ ngữ 我 đứng đầu; 下午五点 là thời gian và đứng trước động từ 下班. 下班 là cả từ ‘tan làm’, không hiểu máy móc là ‘đi xuống ca làm’.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
-            "zh": "书在桌子下。",
-            "vi": "Quyển sách ở dưới bàn.",
-            "analysis": "桌子下 là cụm vị trí, không diễn tả chuyển động.",
+            "zh": "我们在下一站下车。",
+            "pinyin": "Wǒmen zài xià yí zhàn xiàchē.",
+            "vi": "Chúng ta xuống xe ở trạm tiếp theo.",
+            "analysis": "在下一站 nêu địa điểm; 下车 là hành động rời khỏi xe. Trong 下一站, 下 mang nghĩa ‘tiếp theo’; trong 下车, 下 mang nghĩa ‘xuống/rời phương tiện’.",
             "practiceAllowed": true
           }
         ],
         "traps": [
           {
             "id": "t1",
-            "title": "Hướng xuống và vị trí dưới",
-            "scene": "Khi chọn cách hiểu hoặc từ gần nghĩa của 下.",
-            "possibleConfusion": "Dịch cùng một từ tiếng Việt có thể che mất khác biệt về vị trí và ngữ cảnh.",
-            "difference": "Hai câu dưới cho thấy ranh giới dùng 下 trong ngữ cảnh thực.",
+            "title": "Tắc kè hoa: một chữ, nhiều nghĩa theo từ đi cùng",
+            "scene": "Bạn gặp 下 trong câu mới và cần biết đang nói chuyển động, vị trí, thời gian hay một từ ghép quen thuộc.",
+            "possibleConfusion": "Nếu luôn dịch 下 là ‘xuống’, người học sẽ hiểu sai 下个月, 下班 hoặc 下雨.",
+            "difference": "Hãy đọc cả cụm: phương tiện cho nghĩa xuống/rời xe; mốc + 下面 cho vị trí; đơn vị thời gian cho kỳ tiếp theo; 下班 và 下雨 có nghĩa của cả từ.",
             "cases": [
               {
                 "id": "c1",
-                "zh": "他下楼了。",
-                "vi": "Anh ấy xuống lầu.",
-                "comment": "下 diễn tả chuyển động.",
+                "zh": "请在这里下车。",
+                "pinyin": "Qǐng zài zhèlǐ xiàchē.",
+                "vi": "Vui lòng xuống xe ở đây.",
+                "comment": "下车 là rời khỏi phương tiện; 在这里 cho biết nơi xuống.",
                 "judgment": "correct",
                 "practiceAllowed": false
               },
               {
                 "id": "c2",
-                "zh": "书在桌子下。",
-                "vi": "Sách ở dưới bàn.",
-                "comment": "下 nằm trong cụm vị trí.",
+                "zh": "猫在桌子下面。",
+                "pinyin": "Māo zài zhuōzi xiàmiàn.",
+                "vi": "Con mèo ở dưới bàn.",
+                "comment": "桌子 là vật làm mốc, 下面 là phía dưới mốc đó; đây là vị trí, không phải chuyển động.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "我下个月去北京。",
+                "pinyin": "Wǒ xià ge yuè qù Běijīng.",
+                "vi": "Tháng sau tôi đi Bắc Kinh.",
+                "comment": "下 đứng trước 个月 và mang nghĩa ‘tiếp theo’; cả cụm 下个月 là ‘tháng sau’.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c4",
+                "zh": "爸爸六点下班。",
+                "pinyin": "Bàba liù diǎn xiàbān.",
+                "vi": "Bố tan làm lúc 6 giờ.",
+                "comment": "下班 là ‘tan làm’, được dùng như một động từ; thời gian đứng trước nó.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c5",
+                "zh": "今天下雨。",
+                "pinyin": "Jīntiān xiàyǔ.",
+                "vi": "Hôm nay trời mưa.",
+                "comment": "下雨 là ‘mưa/trời mưa’. Ở mức này, hãy nhớ cả cụm thay vì dịch 下 và 雨 riêng rồi ghép lại.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
             ],
             "replacement": {
               "result": "context-needed",
-              "explanation": "Không thể thay máy móc nếu chức năng hoặc đối tượng trong câu thay đổi."
+              "explanation": "Không thể chọn một bản dịch duy nhất cho 下 nếu chưa nhìn từ đứng cạnh và vai trò của cả cụm."
             },
-            "boundary": "Có vùng gần nghĩa, nhưng cần giữ đúng loại đối tượng và ý định của câu.",
-            "tip": "Nhìn từ đứng trước và sau rồi xác định câu đang nói số lượng, vị trí, trạng thái hay hành động."
+            "boundary": "Các nghĩa có liên hệ với ý ‘ở phía thấp/sau’, nhưng chức năng ngữ pháp khác nhau; không dùng một khung câu cho tất cả.",
+            "tip": "Nhìn bên phải 下 trước: 车 → xuống xe; 面 → phía dưới; 个月 → tháng sau; 班 → tan làm; 雨 → mưa."
+          },
+          {
+            "id": "t2",
+            "title": "下 và 下面: chữ chỉ phương hướng khác từ ghép chỉ nơi chốn",
+            "scene": "Bạn muốn nói ‘con mèo ở dưới bàn’ hoặc mô tả một vật nằm phía dưới một mốc.",
+            "possibleConfusion": "Tiếng Việt đều có thể dịch là ‘dưới’, nên người học dễ tưởng 下 và 下面 luôn thay được cho nhau.",
+            "difference": "下 có nhiều chức năng. 下面 chuyên dùng rõ ràng hơn cho vùng/phía bên dưới và thường đứng sau vật làm mốc: 桌子下面. Mẫu đầy đủ dễ dùng là vật + 在 + mốc + 下面.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "书在桌子下面。",
+                "pinyin": "Shū zài zhuōzi xiàmiàn.",
+                "vi": "Quyển sách ở dưới bàn.",
+                "comment": "下面 làm cụm nơi chốn rõ ràng sau mốc 桌子; đây là mẫu người mới học nên ưu tiên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "书在桌子下。",
+                "pinyin": "Shū zài zhuōzi xià.",
+                "vi": "Quyển sách ở dưới bàn.",
+                "comment": "Câu này cũng dùng được trong khẩu ngữ. So với 下面, 下 ngắn hơn; bài dùng 下面 để người mới nhận rõ cụm vị trí.",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Sau một mốc rõ ràng, 桌子下 và 桌子下面 có thể cùng chỉ phía dưới; 下面 đầy đủ và dễ nhận ra hơn với người mới học."
+            },
+            "boundary": "Không thay 下面 vào các từ cố định: 下车 không đổi thành 下面车, 下班 không đổi thành 下面班.",
+            "tip": "Muốn nêu một nơi ‘phía dưới mốc nào đó’, ưu tiên mốc + 下面; gặp 下车, 下班 thì nhớ theo cả từ."
+          },
+          {
+            "id": "t3",
+            "title": "Cú lừa đồng âm: 下 không phải 夏",
+            "scene": "Bạn nghe hai từ cùng âm nhưng chưa nhìn chữ và phải chọn nghĩa ‘xuống’ hay ‘mùa hè’.",
+            "possibleConfusion": "下 và 夏 có cùng cách đọc và đều mang thanh 4, nhưng là hai chữ khác hình và khác nghĩa; âm giống nhau không làm chúng thay thế được.",
+            "difference": "下 là ‘xuống/bên dưới/tiếp theo’ tùy cụm. 夏 là ‘mùa hè’, thường gặp trong 夏天. Khi nghe, dựa vào từ đi cùng; khi đọc, nhìn hình chữ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我下车。",
+                "pinyin": "Wǒ xiàchē.",
+                "vi": "Tôi xuống xe.",
+                "comment": "下 kết hợp với 车 để tạo 下车 ‘xuống xe’.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我喜欢夏天。",
+                "pinyin": "Wǒ xǐhuan xiàtiān.",
+                "vi": "Tôi thích mùa hè.",
+                "comment": "夏 nằm trong 夏天 ‘mùa hè’; không liên quan đến hướng đi xuống.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 下 thành 夏 tạo chữ và nghĩa khác; cùng cách đọc không có nghĩa là cùng từ."
+            },
+            "boundary": "Đây là đồng âm, không phải nhiều cách đọc của cùng một chữ. Trong bài này, 下 không có cách đọc thứ hai cần học.",
+            "tip": "Xe và hướng: 下车. Mùa và trời: 夏天."
+          },
+          {
+            "id": "t4",
+            "title": "Anh em đối lập: 上 và 下",
+            "scene": "Bạn cần chọn lên hay xuống xe, tháng trước hay tháng sau.",
+            "possibleConfusion": "上 và 下 vừa chỉ hướng/vị trí, vừa đứng trước đơn vị thời gian; dịch thiếu cả cụm sẽ dễ chọn ngược.",
+            "difference": "Với phương tiện, 上车 là lên xe còn 下车 là xuống xe. Với thời gian, 上个月 là tháng trước còn 下个月 là tháng sau.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们在学校门口上车。",
+                "pinyin": "Wǒmen zài xuéxiào ménkǒu shàngchē.",
+                "vi": "Chúng tôi lên xe ở cổng trường.",
+                "comment": "上车 là bước/lên phương tiện.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们在下一站下车。",
+                "pinyin": "Wǒmen zài xià yí zhàn xiàchē.",
+                "vi": "Chúng tôi xuống xe ở trạm tiếp theo.",
+                "comment": "下车 là rời phương tiện; đừng chọn 上车 nếu ý là bước ra khỏi xe.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "他上个月来了。",
+                "pinyin": "Tā shàng ge yuè lái le.",
+                "vi": "Anh ấy đã đến vào tháng trước.",
+                "comment": "上个月 nhìn về tháng trước thời điểm hiện tại.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c4",
+                "zh": "他下个月来。",
+                "pinyin": "Tā xià ge yuè lái.",
+                "vi": "Anh ấy sẽ đến vào tháng sau.",
+                "comment": "下个月 nhìn tới tháng tiếp theo.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 上 và 下 trong các cặp này tạo nghĩa đối lập: lên/xuống hoặc trước/sau."
+            },
+            "boundary": "Không phải mọi từ chứa 上 và 下 đều là cặp đối lập hoàn toàn; bài chỉ yêu cầu nhớ hai cặp thông dụng 上车/下车 và 上个月/下个月.",
+            "tip": "上 hướng lên hoặc lùi về kỳ trước; 下 hướng xuống hoặc tiến tới kỳ sau."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "Có nhiều chức năng chỉ hướng, vị trí và thời điểm; bài tập trung vào hướng xuống và vị trí dưới.",
-          "literalTranslation": "Bài này chưa dạy các nghĩa lượng từ hay “lần sau” trong 下次.",
-          "confusables": "Đã rà vị trí, nghĩa và các từ gần nghĩa; cần chọn theo ngữ cảnh của 下."
+          "readingsAndMeanings": "Đã rà: 下 trong bài chỉ có một cách đọc nhưng có nhiều nghĩa/chức năng thông dụng; từng nghĩa được nhận qua cụm và có ví dụ riêng.",
+          "literalTranslation": "Đã rà bẫy dịch từng chữ: 下班 và 下雨 phải hiểu theo cả từ/cụm; không ép nghĩa ‘xuống’ vào mọi trường hợp.",
+          "confusables": "Đã phân biệt 下 với 下面, chữ đồng âm 夏 và từ đối lập 上 qua các cặp câu có ngữ cảnh."
         },
         "pronunciation": {
-          "text": "Đọc rõ 下, không nuốt âm tiết trong cụm từ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "下 mang thanh 4: bắt đầu cao rồi hạ giọng nhanh, dứt khoát. Âm đầu nhẹ, không bật mạnh; vần đi liền trong một âm tiết. Trong 下一个, 一 thường đổi thành thanh 2 khi nói liền trước thanh 4, nhưng thanh gốc của 一 vẫn là thanh 1. Tự đọc 下, 下车, 下个月; sau đó đọc câu 我下午五点下班。 Đọc từ một lần, rồi đọc câu mẫu một lần.",
+          "pinyin": "xià · xiàchē · xià ge yuè · Wǒ xiàwǔ wǔ diǎn xiàbān."
         },
         "checks": [
           {
             "id": "q1",
             "type": "open",
-            "question": "Nói bằng tiếng Trung: Anh ấy đã xuống lầu."
+            "question": "Ghép thành câu tự nhiên: 五点 / 我 / 下午 / 下班。"
           },
           {
             "id": "q2",
             "type": "open",
-            "question": "Dùng 下 để diễn đạt: Đi từ trên xuống tầng dưới."
+            "question": "Điền 下 hoặc 上: Chúng ta xuống xe ở trạm tiếp theo → 我们在___一站___车。"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Viết câu ‘Con mèo ở dưới bàn’, dùng 下面 và đúng thứ tự vật + 在 + mốc + 下面."
+          },
+          {
+            "id": "q4",
+            "type": "open",
+            "question": "Không nhìn tiêu đề: viết chữ Hán và Pinyin có dấu cho từ ‘xuống; bên dưới’, rồi nêu một từ đồng âm nghĩa là ‘mùa hè’."
           }
         ],
         "answers": {
           "q1": {
             "accepted": [
-              "他下楼了。"
+              "我下午五点下班。",
+              "下午五点我下班。"
             ],
-            "explanation": "下楼 diễn tả đi từ tầng trên xuống."
+            "explanation": "Cả hai câu đều tự nhiên. Thời gian đứng trước 下班; đặt sau chủ ngữ là mẫu trung tính, đưa lên đầu câu để làm chủ đề thời gian cũng được."
           },
           "q2": {
             "accepted": [
-              "下楼"
+              "我们在下一站下车。"
             ],
-            "explanation": "Mẫu dùng 下 đúng vị trí; chấp nhận cách khác tự nhiên và cùng nghĩa."
+            "explanation": "Cả hai chỗ đều là 下: 下一站 là trạm tiếp theo, 下车 là xuống xe. Nếu dùng 上车, câu đổi thành ‘lên xe’, không còn đúng ý đề."
+          },
+          "q3": {
+            "accepted": [
+              "猫在桌子下面。",
+              "小猫在桌子下面。"
+            ],
+            "explanation": "猫 hoặc 小猫 đứng trước 在; 桌子 là mốc và 下面 đứng sau mốc. Cách nói 桌子下 cũng có thể đúng, nhưng đề yêu cầu luyện 下面."
+          },
+          "q4": {
+            "accepted": [
+              "下 — xià；夏 — xià — mùa hè",
+              "下，xià；夏，xià，mùa hè"
+            ],
+            "explanation": "下 và 夏 cùng cách đọc, cùng thanh 4, nhưng khác chữ và nghĩa. Bài văn bản chỉ kiểm tra bạn viết đúng; không đánh giá phát âm thực tế.",
+            "audioText": "下 là xuống hoặc bên dưới. 夏 là mùa hè. Hai chữ cùng cách đọc và cùng thanh 4, nhưng khác hình và khác nghĩa."
           }
         },
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Tạo một câu trong tình huống: Bạn mô tả một người đi từ tầng trên xuống."
+            "prompt": "Bạn nhắn cho bạn bè giờ mình tan làm hôm nay. Hãy viết một câu có thời gian + 下班."
           },
           {
             "id": "s2",
-            "prompt": "Tự đặt câu khác với 下 trong sinh hoạt hằng ngày."
+            "prompt": "Tạo hội thoại hai lượt: hỏi xuống xe ở đâu, rồi trả lời ‘xuống ở trạm tiếp theo’."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Đi từ trên xuống tầng dưới.",
-            "frame": "走下楼",
-            "model": "下楼",
-            "vi": "Câu mẫu dùng 下 đúng trọng tâm.",
+            "idea": "Nói một giờ cụ thể rồi cho biết bạn tan làm.",
+            "frame": "我 + thời gian + 下班。",
+            "model": "我今天六点下班。",
+            "vi": "Hôm nay tôi tan làm lúc 6 giờ.",
             "criteria": [
-              "Đặt 下 đúng vị trí.",
-              "Câu tự nhiên và phù hợp ngữ cảnh."
+              "Thời gian đứng trước 下班.",
+              "Dùng 下班 theo nghĩa ‘tan làm’, không tách nghĩa từng chữ.",
+              "Giờ khác với câu mẫu vẫn đúng nếu câu tự nhiên."
             ]
           },
           "s2": {
-            "idea": "Chọn một người hoặc vật cụ thể rồi dùng 下.",
-            "frame": "Chủ đề + khung có 下",
-            "model": "书在桌子下。",
-            "vi": "Quyển sách ở dưới bàn.",
+            "idea": "Một người hỏi địa điểm xuống; người kia dùng 下一站 và 下车 để trả lời.",
+            "frame": "A: 在哪儿下车？ B: 在 + địa điểm + 下车。",
+            "model": "A：我们在哪儿下车？B：我们在下一站下车。",
+            "vi": "A: Chúng ta xuống xe ở đâu? B: Chúng ta xuống ở trạm tiếp theo.",
             "criteria": [
-              "Giữ đúng nghĩa của 下.",
-              "Chấp nhận câu khác hợp lý; app không tự chấm câu mở."
+              "Có đủ câu hỏi và câu trả lời.",
+              "Dùng 下车 cho hành động rời xe.",
+              "Đặt 在下一站 trước 下车; địa điểm khác phù hợp cũng được chấp nhận."
             ]
           }
         }
+      },
+      "task": "Không nhìn mẫu: đọc 下, nói nghĩa phù hợp, rồi đặt một câu với 下车, 下班, vị trí bên dưới hoặc thời gian tiếp theo.",
+      "model": "我下午五点下班。",
+      "shape": {
+        "pair": "上 / 下",
+        "difference": "下 có nét ngang dài ở trên và nét ngắn nằm phía dưới; 上 có nét ngang dài ở dưới và nét ngắn nằm phía trên. 下 là một chữ Hán. Hãy nhìn chữ, che mẫu, tự viết vào ô luyện nét rồi so lại vị trí hai nét ngang. Đây là mẹo nhận mặt chữ, không phải giải thích nguồn gốc lịch sử của chữ.",
+        "examples": [
+          "上车 — lên xe ↔ 下车 — xuống xe",
+          "上个月 — tháng trước ↔ 下个月 — tháng sau"
+        ]
       }
     },
     {
