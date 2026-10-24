@@ -23369,20 +23369,22 @@
       "meaning": "sữa bò",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-008",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 018",
       "examples": [
         {
           "id": "e1",
           "zh": "我每天喝牛奶。",
+          "pinyin": "Wǒ měitiān hē niúnǎi.",
           "vi": "Ngày nào tôi cũng uống sữa bò.",
-          "analysis": "每天 nêu thói quen; 喝 là uống, 牛奶 là đồ uống.",
+          "analysis": "喝 là uống; 牛奶 là đồ uống.",
           "practiceAllowed": true
         },
         {
           "id": "e2",
           "zh": "我想要一杯牛奶。",
+          "pinyin": "Wǒ xiǎng yào yì bēi niúnǎi.",
           "vi": "Tôi muốn một cốc sữa bò.",
-          "analysis": "一杯 là lượng từ cho đồ uống; 牛奶 đứng sau lượng từ.",
+          "analysis": "一杯 là một cốc, đặt trước 牛奶.",
           "practiceAllowed": true
         }
       ],
@@ -23390,152 +23392,188 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 2,
+        "version": 3,
+        "contentVersion": 3,
         "cohortOrdinal": 89,
-        "authorship": "Biên soạn riêng theo chuẩn V2; tự rà soát ngôn ngữ và ngữ cảnh; chưa phản biện giáo viên độc lập.",
+        "difficulty": "easy",
+        "difficultyReason": "Nghĩa trực tiếp và cách dùng quen thuộc với 喝; chỉ cần làm rõ 牛奶 khác 奶茶.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
-          "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=57825&la=1&powerMode=0"
+          "https://dict.revised.moe.edu.tw/"
         ],
         "introduction": {
-          "scope": "Học 牛奶 là sữa bò, thường dùng trong bữa sáng; phân biệt với sữa từ loài vật khác và đồ uống pha sữa."
-        },
-        "meaning": {
-          "scene": "Bạn gọi đồ uống và muốn một ly sữa bò.",
-          "explanation": "牛奶 là sữa bò. Đây là danh từ; có thể nói 喝牛奶 (uống sữa bò) hoặc 一杯牛奶 (một cốc sữa bò).",
-          "boundary": "牛奶 cụ thể là sữa bò; 奶茶 là trà pha sữa. 牛奶 có thể là nguyên liệu trong món khác nhưng không đồng nghĩa với mọi đồ uống có sữa.",
-          "conditions": [
-            "Khi gọi lượng sữa, 一杯 là một cốc; khi nói chung không cần lượng từ.",
-            "牛奶 thường kết hợp với 喝, không phải 吃 trong tình huống uống bình thường."
-          ],
-          "takeaway": "牛奶 là sữa bò; thêm loại đồ uống khác thì tên gọi có thể đổi."
+          "scope": "牛奶 là sữa bò, dùng như đồ uống hoặc nguyên liệu."
         },
         "examples": [
           {
             "id": "e1",
             "zh": "我每天喝牛奶。",
+            "pinyin": "Wǒ měitiān hē niúnǎi.",
             "vi": "Ngày nào tôi cũng uống sữa bò.",
-            "analysis": "每天 nêu thói quen; 喝 là uống, 牛奶 là đồ uống.",
+            "analysis": "喝 là uống; 牛奶 là đồ uống.",
             "practiceAllowed": true
           },
           {
             "id": "e2",
             "zh": "我想要一杯牛奶。",
+            "pinyin": "Wǒ xiǎng yào yì bēi niúnǎi.",
             "vi": "Tôi muốn một cốc sữa bò.",
-            "analysis": "一杯 là lượng từ cho đồ uống; 牛奶 đứng sau lượng từ.",
+            "analysis": "一杯 là một cốc, đặt trước 牛奶.",
             "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "id": "u1",
-            "frame": "Người + 喝 + 牛奶; 一杯 + 牛奶",
-            "position": "牛奶 đứng sau 喝 hoặc sau lượng từ 杯.",
-            "required": "Dùng 喝 trong tình huống uống; khi gọi cốc, đặt 杯 sau số lượng trước 牛奶.",
-            "omission": "Khi món đã rõ, có thể gọi 一杯就好。— Một cốc là được.",
-            "exampleId": "e2"
-          }
-        ],
-        "traps": [
-          {
-            "id": "t1",
-            "title": "Sữa bò hay trà sữa",
-            "scene": "Bạn chọn đồ uống trong quán.",
-            "possibleConfusion": "Cả 牛奶 và 奶茶 có thể là đồ uống chứa sữa, nhưng một bên là sữa bò, bên kia là trà pha sữa.",
-            "difference": "牛奶 là sữa bò; 奶茶 là trà sữa. Cả hai thường uống, nhưng không thể đổi tên nếu muốn gọi đúng món.",
-            "cases": [
+            "id": "milk",
+            "title": "Sữa bò",
+            "when": "Nói về sữa bò để uống hoặc dùng làm thực phẩm.",
+            "meaning": "sữa bò",
+            "grammar": "牛奶 đứng sau 喝 hoặc lượng từ 杯.",
+            "pattern": "喝+牛奶；一杯+牛奶",
+            "collocations": [
               {
-                "id": "c1",
-                "zh": "我想喝牛奶。",
-                "vi": "Tôi muốn uống sữa bò.",
-                "comment": "Đồ uống là sữa bò.",
-                "judgment": "correct",
-                "practiceAllowed": false
-              },
-              {
-                "id": "c2",
-                "zh": "我想喝奶茶。",
-                "vi": "Tôi muốn uống trà sữa.",
-                "comment": "Đồ uống là trà pha sữa.",
-                "judgment": "correct",
-                "practiceAllowed": false
+                "zh": "喝牛奶",
+                "pinyin": "hē niúnǎi",
+                "vi": "uống sữa bò"
               }
             ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 牛奶 bằng 奶茶 thì câu vẫn đúng ngữ pháp nhưng bạn gọi món khác."
-            },
-            "boundary": "牛奶 có thể dùng làm nguyên liệu cho trà sữa; hai tên gọi chỉ hai món khác nhau, không loại trừ nhau trong cùng một đồ uống.",
-            "tip": "Muốn sữa bò: 牛奶; muốn trà sữa: 奶茶."
-          }
-        ],
-        "trapReview": {
-          "readingsAndMeanings": "牛奶两个音节分别带声调；奶在这个词里不是轻声，也没有需特别讲的其他读音。",
-          "literalTranslation": "Không dịch 牛奶 thành “sữa bò cái” theo từng chữ; từ này tự nhiên nghĩa là sữa bò.",
-          "confusables": "Đối chiếu 奶茶 ở quán; cũng nhớ 牛奶 khác 羊奶 (sữa dê) khi cần nêu nguồn sữa."
-        },
-        "pronunciation": {
-          "text": "牛奶 có hai âm tiết, lần lượt mang thanh hai và thanh ba; tiếng cuối không phải thanh nhẹ. Đọc liền hai tiếng, giữ rõ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
-        },
-        "checks": [
-          {
-            "id": "q1",
-            "type": "open",
-            "question": "Bạn muốn nói “Tôi uống sữa bò mỗi ngày”. Điền 牛奶 vào câu: 我每天喝____。"
-          },
-          {
-            "id": "q2",
-            "type": "open",
-            "question": "Bạn gọi một cốc sữa bò. Xếp: 牛奶 / 一杯 / 我 / 想要。"
-          }
-        ],
-        "answers": {
-          "q1": {
-            "accepted": [
-              "我每天喝牛奶。"
-            ],
-            "explanation": "牛奶 đứng sau động từ 喝."
-          },
-          "q2": {
-            "accepted": [
-              "我想要一杯牛奶。"
-            ],
-            "explanation": "一杯 đặt trước 牛奶; 想要 đứng trước món muốn gọi."
-          }
-        },
-        "selfUse": [
-          {
-            "id": "s1",
-            "prompt": "Nói bạn uống sữa bò vào buổi sáng."
-          },
-          {
-            "id": "s2",
-            "prompt": "Gọi một cốc sữa bò."
-          }
-        ],
-        "selfAnswers": {
-          "s1": {
-            "idea": "Nêu thời điểm, thói quen uống và món.",
-            "frame": "我早上 + 喝 + 牛奶。",
-            "model": "我早上喝牛奶。",
-            "vi": "Buổi sáng tôi uống sữa bò.",
-            "criteria": [
-              "Dùng 喝 với 牛奶.",
-              "Có thể thêm 每天 nếu muốn nói hằng ngày."
+            "examples": [
+              {
+                "zh": "我每天喝牛奶。",
+                "pinyin": "Wǒ měitiān hē niúnǎi.",
+                "vi": "Ngày nào tôi cũng uống sữa bò.",
+                "note": "Nói thói quen uống."
+              },
+              {
+                "zh": "一杯牛奶",
+                "pinyin": "yì bēi niúnǎi",
+                "vi": "một cốc sữa bò",
+                "note": "杯 là lượng từ cho đồ uống."
+              }
             ]
-          },
-          "s2": {
-            "idea": "Lịch sự gọi món và số cốc.",
-            "frame": "我想要 + 一杯 + 牛奶。",
-            "model": "我想要一杯牛奶。",
-            "vi": "Tôi muốn một cốc sữa bò.",
+          }
+        ],
+        "confusions": [
+          {
+            "id": "tea",
+            "afterSense": "milk",
+            "title": "牛奶 khác 奶茶",
+            "explanation": "牛奶 là sữa bò; 奶茶 là trà sữa, một đồ uống khác.",
+            "contrasts": [
+              {
+                "zh": "我想喝牛奶。",
+                "pinyin": "Wǒ xiǎng hē niúnǎi.",
+                "vi": "Tôi muốn uống sữa bò.",
+                "note": "Không có trà."
+              },
+              {
+                "zh": "我想喝奶茶。",
+                "pinyin": "Wǒ xiǎng hē nǎichá.",
+                "vi": "Tôi muốn uống trà sữa.",
+                "note": "Có trà."
+              }
+            ],
+            "tip": "Gọi đúng 牛奶 hoặc 奶茶 theo món muốn uống."
+          }
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi uống sữa bò.",
+            "tokens": [
+              "我",
+              "喝",
+              "牛奶",
+              "。"
+            ],
+            "accepted": [
+              "我喝牛奶。"
+            ],
+            "model": "我喝牛奶。",
+            "explanation": "牛奶 đứng sau 喝.",
+            "wrongFeedback": "Đặt đồ uống sau động từ 喝."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "tea",
+            "type": "choice",
+            "prompt": "Chọn từ chỉ sữa bò.",
+            "choices": [
+              "牛奶",
+              "奶茶"
+            ],
+            "correctIndex": 0,
+            "model": "牛奶",
+            "explanation": "牛奶 là sữa bò; 奶茶 là trà sữa.",
+            "wrongFeedback": "奶茶 có 茶, nghĩa là trà sữa."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn uống sữa bò mỗi ngày.",
+            "hints": [
+              "Nêu chủ thể và thói quen: 我每天.",
+              "Dùng 喝牛奶.",
+              "Mẫu: 我每天喝牛奶。"
+            ],
+            "model": "我每天喝牛奶。",
+            "vi": "Ngày nào tôi cũng uống sữa bò.",
             "criteria": [
-              "杯 đặt giữa số lượng và 牛奶.",
-              "Có thể dùng 请给我 để gọi người bán."
+              "Dùng 喝 với 牛奶."
             ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là sữa bò?",
+            "hiddenAnswer": "牛奶",
+            "model": "牛奶"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我每天喝____。",
+            "hiddenAnswer": "牛奶",
+            "model": "我每天喝牛奶。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi uống sữa bò.",
+            "choices": [
+              "我",
+              "喝",
+              "牛奶",
+              "。"
+            ],
+            "correct": [
+              "我喝牛奶。"
+            ],
+            "explanation": "牛奶 đứng sau 喝."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ chỉ sữa bò.",
+            "choices": [
+              "牛奶",
+              "奶茶"
+            ],
+            "correctIndex": 0,
+            "explanation": "牛奶 là sữa bò."
           }
         }
-      }
+      },
+      "task": "Nói bạn uống sữa bò.",
+      "model": "我每天喝牛奶。"
     },
     {
       "id": "hz-h1-4823c87cc791",
