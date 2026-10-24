@@ -23,6 +23,7 @@ click('[data-step="4"]');click('[data-action="revealReview"]');assert(document.q
 // Favorite and progress storage still operate; no grade is automatically assigned.
 click('[data-action="favorite"]');assert.equal($('[data-action="favorite"]').getAttribute('aria-pressed'),'true');
 click('[data-action="close"]');assert(!$('#wordDialog').open);
+click('[data-level="1"]');
 $('#wordSearch').value='不用';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));assert(document.querySelector('[data-start="hz-h1-b51cd2090a80"]'));
 click('[data-start="hz-h1-b51cd2090a80"]');assert(body().includes('bù yòng'));click('[data-step="2"]');assert(body().includes('不用 / 不要'));click('[data-lesson-page="trap"][data-delta="1"]');assert(body().includes('不用 / 没用'));
 click('[data-action="close"]');$('#wordSearch').value='';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
@@ -31,7 +32,7 @@ const old=p.completedIds[0];$('#wordSearch').value=d.words.find(w=>w.id===old).h
 // Exercise every new lesson through the real entry point, including empty traps.
 for(const id of p.batches.at(-1).wordIds){
  const word=d.words.find(w=>w.id===id);
- click('[data-action="close"]');$('#wordSearch').value=word.hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
+ click('[data-action="close"]');click('[data-level="'+word.level+'"]');$('#wordSearch').value=word.hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
  const target='[data-start="'+id+'"]';
  for(let page=0;!$(target)&&page<d.lessons.length;page++){assert(!$('[data-lesson="1"]').disabled,'Target must be reachable in filtered pages: '+id);click('[data-lesson="1"]');}
  click(target);
