@@ -10041,65 +10041,30 @@
       "meaning": "đơn vị tiền; nhân dân tệ trong bối cảnh bài",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 03; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
       "examples": [
         {
-          "zh": "这个杯子十元。",
-          "vi": "Chiếc cốc này giá mười nhân dân tệ.",
-          "scene": "Bạn đọc giá trên nhãn tại Trung Quốc.",
-          "why": "十元 nêu giá, giả định nhãn dùng nhân dân tệ.",
-          "position": "Số 十 đứng ngay trước 元; 这个杯子 là món được nói giá.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói giá cốc là mười nhân dân tệ.",
-            "choice": "Chọn 这个杯子 cho cốc này, 十元 cho số tiền trong bối cảnh nhân dân tệ.",
-            "order": "Nêu món rồi nêu số tiền, không chen 个 trước 元.",
-            "result": "这个杯子十元。"
-          },
-          "id": "e01"
+          "id": "e1",
+          "zh": "这个十元。",
+          "pinyin": "Zhège shí yuán.",
+          "vi": "Cái này mười tệ.",
+          "analysis": "元 đứng sau số để nói giá tiền, thường thấy trong cách ghi hoặc nói rõ ràng.",
+          "practiceAllowed": true
         },
         {
-          "zh": "这个杯子十二元。",
-          "vi": "Chiếc cốc này giá mười hai nhân dân tệ.",
-          "scene": "Bạn đọc giá của chiếc cốc khác.",
-          "why": "十二 thay số mười bằng mười hai, đơn vị vẫn giữ nguyên.",
-          "position": "十二 trước 元; cả số tiền sau món hàng.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "这本书多少元？",
-          "vi": "Quyển sách này giá bao nhiêu nhân dân tệ?",
-          "scene": "Bạn hỏi giá sách.",
-          "why": "多少 thay số tiền chưa biết; 元 nêu đơn vị trong bối cảnh giá.",
-          "position": "多少 đứng ngay trước 元; không thêm 吗 ở cuối mẫu hỏi giá này.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "这本书二十元。",
-          "vi": "Quyển sách này giá hai mươi nhân dân tệ.",
-          "scene": "Người bán trả lời giá sách.",
-          "why": "二十 là hai mươi; không đổi thành 两十 trước đơn vị tiền.",
-          "position": "二十 trước 元, 这本书 nêu món hàng.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "这本书两元。",
-          "vi": "Quyển sách này giá hai nhân dân tệ.",
-          "scene": "Bạn nói giá của một quyển sách cũ.",
-          "why": "两元 là cách nói hai đơn vị tiền trong hội thoại; 二元 cũng gặp trong cách ghi/đọc giá.",
-          "position": "两 gắn trực tiếp trước 元, không thêm 个.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "id": "e2",
+          "zh": "我有十元。",
+          "pinyin": "Wǒ yǒu shí yuán.",
+          "vi": "Tôi có mười tệ.",
+          "analysis": "元 làm danh từ chỉ số tiền đang có.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 5,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Hỏi giá một quyển sách rồi trả lời bằng hai mươi nhân dân tệ.",
-      "model": "这本书多少元？这本书二十元。",
+      "task": "Nói món đồ có giá mười tệ.",
+      "model": "十元。",
       "quiz": {
         "question": "Chọn cách ghi mười đơn vị tiền trong mẫu giá đang học.",
         "choices": [
@@ -10129,246 +10094,187 @@
         ]
       },
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 29,
+        "difficulty": "medium",
+        "difficultyReason": "元 là đơn vị tiền tệ nhưng trong khẩu ngữ thường gặp 块; cần giữ đúng vị trí sau số và sắc thái tương đối chuẩn.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Money"
+        ],
         "introduction": {
-          "partOfSpeech": "Danh từ đơn vị tiền.",
-          "scope": "Trọng tâm là đơn vị nguyên trong giá bằng nhân dân tệ ở Trung Quốc; không xem 元 đứng riêng là tên riêng của mọi đồng tiền."
-        },
-        "meaning": {
-          "scene": "Bạn nhìn một bảng giá ghi một chiếc cốc mười nhân dân tệ và muốn đọc giá đó.",
-          "explanation": "元 là đơn vị tiền dùng trong cách ghi giá tương đối chuẩn hoặc trang trọng. Trong bối cảnh giá bằng nhân dân tệ ở bài này, 十元 là mười nhân dân tệ. Số tiền đứng ngay trước 元, không thêm 个.",
-          "boundary": "元 không tự xác định mọi loại tiền nếu tách khỏi bối cảnh. 美元 là đô la Mỹ, 日元 là yên Nhật; đây là tên gọi tiền khác nhau. Không suy 十元 lúc nào cũng bằng mười yên hoặc mười đồng Việt Nam.",
-          "conditions": [
-            "Bài này giả định bảng giá bằng nhân dân tệ; không dạy đổi tỷ giá.",
-            "Có thể nói giá bằng số + 元, hoặc hỏi 多少元; 块钱 là cách nói thông dụng trong hội thoại với cùng đơn vị trong ngữ cảnh này."
-          ],
-          "takeaway": "Khi muốn nêu một giá tiền bằng nhân dân tệ trong bối cảnh đã rõ loại tiền, bạn có thể dùng số + 元.",
-          "alternatives": [
-            {
-              "zh": "这个杯子十块钱。",
-              "vi": "Chiếc cốc này giá mười nhân dân tệ.",
-              "purpose": "块钱 là cách nói giá thông dụng trong hội thoại ở bối cảnh nhân dân tệ, không làm đổi số tiền."
-            },
-            {
-              "zh": "这个杯子一千日元。",
-              "vi": "Chiếc cốc này giá một nghìn yên Nhật.",
-              "purpose": "日元 là yên Nhật; phải giữ tên loại tiền khi bối cảnh có thể gây nhầm."
-            }
-          ]
+          "scope": "元 là đơn vị tiền tệ nhân dân tệ, thường dùng trong cách nói hoặc ghi giá rõ ràng."
         },
         "examples": [
           {
-            "zh": "这个杯子十元。",
-            "vi": "Chiếc cốc này giá mười nhân dân tệ.",
-            "scene": "Bạn đọc giá trên nhãn tại Trung Quốc.",
-            "why": "十元 nêu giá, giả định nhãn dùng nhân dân tệ.",
-            "position": "Số 十 đứng ngay trước 元; 这个杯子 là món được nói giá.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói giá cốc là mười nhân dân tệ.",
-              "choice": "Chọn 这个杯子 cho cốc này, 十元 cho số tiền trong bối cảnh nhân dân tệ.",
-              "order": "Nêu món rồi nêu số tiền, không chen 个 trước 元.",
-              "result": "这个杯子十元。"
-            },
-            "id": "e01"
+            "id": "e1",
+            "zh": "这个十元。",
+            "pinyin": "Zhège shí yuán.",
+            "vi": "Cái này mười tệ.",
+            "analysis": "元 đứng sau số để nói giá tiền, thường thấy trong cách ghi hoặc nói rõ ràng.",
+            "practiceAllowed": true
           },
           {
-            "zh": "这个杯子十二元。",
-            "vi": "Chiếc cốc này giá mười hai nhân dân tệ.",
-            "scene": "Bạn đọc giá của chiếc cốc khác.",
-            "why": "十二 thay số mười bằng mười hai, đơn vị vẫn giữ nguyên.",
-            "position": "十二 trước 元; cả số tiền sau món hàng.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "这本书多少元？",
-            "vi": "Quyển sách này giá bao nhiêu nhân dân tệ?",
-            "scene": "Bạn hỏi giá sách.",
-            "why": "多少 thay số tiền chưa biết; 元 nêu đơn vị trong bối cảnh giá.",
-            "position": "多少 đứng ngay trước 元; không thêm 吗 ở cuối mẫu hỏi giá này.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "这本书二十元。",
-            "vi": "Quyển sách này giá hai mươi nhân dân tệ.",
-            "scene": "Người bán trả lời giá sách.",
-            "why": "二十 là hai mươi; không đổi thành 两十 trước đơn vị tiền.",
-            "position": "二十 trước 元, 这本书 nêu món hàng.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "这本书两元。",
-            "vi": "Quyển sách này giá hai nhân dân tệ.",
-            "scene": "Bạn nói giá của một quyển sách cũ.",
-            "why": "两元 là cách nói hai đơn vị tiền trong hội thoại; 二元 cũng gặp trong cách ghi/đọc giá.",
-            "position": "两 gắn trực tiếp trước 元, không thêm 个.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "id": "e2",
+            "zh": "我有十元。",
+            "pinyin": "Wǒ yǒu shí yuán.",
+            "vi": "Tôi có mười tệ.",
+            "analysis": "元 làm danh từ chỉ số tiền đang có.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Nêu giá một món hàng.",
-            "frame": "Món hàng + số tiền + 元.",
-            "position": "Số đứng ngay trước 元; cụm số tiền đứng sau món hàng.",
-            "required": "Cần rõ loại tiền theo bối cảnh; câu này không cần 是 để nêu giá trung tính.",
-            "omission": "Nếu người bán vừa được hỏi giá món cụ thể, có thể chỉ đáp 十元.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi giá mười thành mười hai.",
-              "exampleId": "e02",
-              "limit": "Chỉ thay số; tên đơn vị phải theo loại tiền thực tế, không đổi tùy ý."
-            },
-            "caution": "Không thêm 个 giữa số và 元; 元 đã là đơn vị của số tiền.",
-            "forms": [],
-            "collocations": [
-              {
-                "zh": "十元",
-                "vi": "mười nhân dân tệ trong ngữ cảnh bài",
-                "purpose": "Đọc một giá tròn."
-              },
-              {
-                "zh": "二十元",
-                "vi": "hai mươi nhân dân tệ trong ngữ cảnh bài",
-                "purpose": "Đọc số có hàng chục."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Hỏi và trả lời giá sách.",
-            "frame": "这本书 + 多少元？; 这本书 + số + 元.",
-            "position": "多少 trước 元 ở đúng vị trí số chưa biết.",
-            "required": "多少 hỏi lượng tiền; 元 giữ đơn vị đã biết.",
-            "omission": "Có thể hỏi 多少元 khi món đang được chỉ rõ; 多少钱 cũng là cách hỏi giá thông dụng.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Trả lời bằng giá hai mươi.",
-              "exampleId": "e04",
-              "limit": "Dùng 二十 cho hai mươi; 两元 dùng được cho hai đơn vị nhưng không suy ra 两十元."
-            },
-            "caution": "Không gộp 多少 với 吗 trong mẫu hỏi giá cơ bản.",
-            "forms": [
-              {
-                "type": "Trả lời giá hai đơn vị",
-                "exampleId": "e05",
-                "why": "两元 hoặc 二元 tùy lối nói/ghi, không đổi giá trị của số hai."
-              }
-            ],
+            "id": "currency",
+            "title": "Tệ, đơn vị tiền",
+            "when": "Nói số tiền hoặc giá bằng nhân dân tệ.",
+            "meaning": "tệ; nhân dân tệ",
+            "grammar": "Đứng sau số tiền.",
+            "pattern": "số+元",
             "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Thêm 个 vào đơn vị tiền",
-            "scene": "Bạn muốn nói giá một chiếc cốc là mười nhân dân tệ.",
-            "possibleConfusion": "Bạn có thể dễ nhầm mọi số trước danh từ đều cần 个, nên đặt nó trước 元.",
-            "difference": "元 tự làm đơn vị tiền; số tiền đi trực tiếp với 元.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "这个杯子十元。",
-                "vi": "Chiếc cốc này giá mười nhân dân tệ.",
-                "judgment": "correct",
-                "comment": "Số và đơn vị nối trực tiếp.",
-                "practiceAllowed": false
+                "zh": "这个十元。",
+                "pinyin": "Zhège shí yuán.",
+                "vi": "Cái này mười tệ.",
+                "note": "元 đứng sau số giá."
               },
               {
-                "id": "case-2",
-                "zh": "这个杯子十个元。",
-                "vi": "Ý định: cốc này giá mười nhân dân tệ.",
-                "judgment": "wrong-grammar",
-                "comment": "个 chen sai vào cụm giá tiền theo mẫu này.",
-                "practiceAllowed": false
+                "zh": "我有十元。",
+                "pinyin": "Wǒ yǒu shí yuán.",
+                "vi": "Tôi có mười tệ.",
+                "note": "Chỉ số tiền đang có."
               }
-            ],
-            "replacement": {
-              "result": "wrong-grammar",
-              "explanation": "Thêm 个 làm hỏng cụm số tiền; bỏ 个 để thành 十元."
-            },
-            "boundary": "Muốn đếm tờ tiền hay đồng xu cần danh từ và lượng từ cho vật tiền cụ thể; đó khác với nói giá trị mười đơn vị.",
-            "tip": "Nói giá trị tiền: số rồi 元, không chen 个.",
-            "corrections": [
-              {
-                "caseId": "case-2",
-                "zh": "这个杯子十元。",
-                "vi": "Chiếc cốc này giá mười nhân dân tệ.",
-                "reason": "Bỏ 个 giữa số 十 và đơn vị 元."
-              }
-            ],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Nghe 元 là tự đoán mọi loại tiền giống nhau",
-            "scene": "Bạn so giá từ một cửa hàng Trung Quốc và một cửa hàng Nhật.",
-            "possibleConfusion": "Bạn có thể dễ nhầm 元 cứ xuất hiện là cùng một đồng tiền, bỏ mất phần tên phía trước.",
-            "difference": "Bối cảnh và tên tiền quyết định đơn vị. 人民币 là nhân dân tệ; 日元 là yên Nhật. Cùng số mười không làm hai giá tiền đồng nhất.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "这个杯子十元。",
-                "vi": "Chiếc cốc này giá mười nhân dân tệ, trong ngữ cảnh bảng giá Trung Quốc.",
-                "judgment": "correct",
-                "comment": "Loại tiền được xác định bởi bối cảnh bài.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "这个杯子十日元。",
-                "vi": "Chiếc cốc này giá mười yên Nhật.",
-                "judgment": "different-meaning",
-                "comment": "Có 日元 nên là yên Nhật, không còn số tiền bằng nhân dân tệ.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 元 trong bối cảnh nhân dân tệ bằng 日元 đổi loại tiền. Không được bỏ 日 khi đang cần phân biệt hai bảng giá."
-            },
-            "boundary": "Một giá 十元 đứng riêng ngoài bối cảnh có thể cần hỏi lại loại tiền; bài không cung cấp tỷ giá hay suy ra sức mua.",
-            "tip": "Trước khi hiểu giá, xác định đang nói tiền nước nào.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
-          }
-        ],
-        "checks": [
-          {
-            "id": "q01",
-            "question": "Chọn cách ghi mười đơn vị tiền trong mẫu giá đang học.",
-            "choices": [
-              "十个元",
-              "十元"
-            ]
-          },
-          {
-            "id": "q02",
-            "question": "日元 là tên gọi loại tiền nào?",
-            "choices": [
-              "Yên Nhật.",
-              "Mọi đồng tiền có chữ 元 đều là nhân dân tệ."
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "元 là đơn vị tiền, không thêm 个."
+        "confusions": [
+          {
+            "id": "spoken",
+            "afterSense": "currency",
+            "title": "元 và 块",
+            "explanation": "元 và 块 đều có thể chỉ đơn vị tiền; 元 trung tính hoặc chuẩn hơn, còn 块 rất thường gặp trong khẩu ngữ.",
+            "contrasts": [
+              {
+                "zh": "十元。",
+                "pinyin": "Shí yuán.",
+                "vi": "Mười tệ.",
+                "note": "Cách gọi đơn vị rõ ràng."
+              },
+              {
+                "zh": "十块。",
+                "pinyin": "Shí kuài.",
+                "vi": "Mười đồng/mười tệ.",
+                "note": "Cách nói khẩu ngữ."
+              }
+            ],
+            "tip": "Không hiểu 块 là loại tiền khác; đây chủ yếu là khác biệt sắc thái."
+          }
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: mười tệ.",
+            "tokens": [
+              "十",
+              "元",
+              "。"
+            ],
+            "accepted": [
+              "十元。"
+            ],
+            "model": "十元。",
+            "explanation": "元 đứng sau số.",
+            "wrongFeedback": "Đặt đơn vị tiền sau số."
           },
-          "q02": {
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 我有十____。",
+            "accepted": [
+              "元"
+            ],
+            "model": "我有十元。",
+            "explanation": "元 là đơn vị tiền.",
+            "wrongFeedback": "Chọn đơn vị đứng sau số tiền."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "spoken",
+            "type": "choice",
+            "prompt": "Trong cách nói khẩu ngữ mười tệ, chọn từ tự nhiên hơn.",
+            "choices": [
+              "十块。",
+              "十中国。"
+            ],
             "correctIndex": 0,
-            "explanation": "日元 chỉ yên Nhật; không bỏ phần tên tiền khi cần phân biệt."
+            "model": "十块。",
+            "explanation": "块 là cách nói khẩu ngữ cho đơn vị tiền.",
+            "wrongFeedback": "中国 là tên nước, không phải đơn vị tiền."
           }
-        },
-        "pronunciation": {
-          "text": "元 mang thanh hai, đọc lên giọng. Đây là một âm tiết liền, không tách phần đầu và phần cuối thành hai tiếng. Trong 两元, 两 thanh ba thường được đọc thấp trước 元 thanh hai; không áp quy tắc hai thanh ba cho cụm này."
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói món đồ có giá mười tệ.",
+            "hints": [
+              "Nêu số tiền: mười.",
+              "Thêm 元 sau số.",
+              "Mẫu: 十元。"
+            ],
+            "model": "十元。",
+            "vi": "Mười tệ.",
+            "criteria": [
+              "Dùng đúng 元 sau số."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Đơn vị tiền tệ trong cách nói rõ ràng là gì?",
+            "hiddenAnswer": "元",
+            "model": "十元。"
+          },
+          {
+            "id": "r2",
+            "prompt": "Cách khẩu ngữ gần nghĩa với 十元 là gì?",
+            "hiddenAnswer": "十块",
+            "model": "十块。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: mười tệ.",
+            "choices": [
+              "十",
+              "元",
+              "。"
+            ],
+            "correct": [
+              "十元。"
+            ],
+            "explanation": "元 đứng sau số."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Trong cách nói khẩu ngữ mười tệ, chọn từ tự nhiên hơn.",
+            "choices": [
+              "十块。",
+              "十中国。"
+            ],
+            "correctIndex": 0,
+            "explanation": "块 là cách nói khẩu ngữ cho tiền."
+          }
         }
       }
     },
@@ -10385,74 +10291,30 @@
       "meaning": "viết",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 03; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
       "examples": [
         {
+          "id": "e1",
+          "zh": "我写汉字。",
+          "pinyin": "Wǒ xiě Hànzì.",
+          "vi": "Tôi viết chữ Hán.",
+          "analysis": "写 đứng trước nội dung được viết.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
           "zh": "请写你的名字。",
+          "pinyin": "Qǐng xiě nǐ de míngzi.",
           "vi": "Hãy viết tên của bạn.",
-          "scene": "Bạn hướng dẫn điền tên.",
-          "why": "请 làm lời yêu cầu lịch sự; 写 nhận 你的名字 là nội dung viết.",
-          "position": "请 trước 写, nội dung sau 写.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Yêu cầu người kia viết tên.",
-            "choice": "Chọn 请写 để yêu cầu lịch sự và 你的名字 làm nội dung.",
-            "order": "Xếp 请, 写, rồi 你的名字.",
-            "result": "请写你的名字。"
-          },
-          "id": "e01"
-        },
-        {
-          "zh": "请写你的地址。",
-          "vi": "Hãy viết địa chỉ của bạn.",
-          "scene": "Bạn hướng dẫn điền địa chỉ.",
-          "why": "地址 là địa chỉ; đổi nội dung cần viết nhưng giữ hành động.",
-          "position": "你的地址 thay cho 你的名字 sau 写.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "你写什么？",
-          "vi": "Bạn viết gì?",
-          "scene": "Bạn hỏi nội dung người kia đang hoặc định viết theo ngữ cảnh.",
-          "why": "什么 thay cho nội dung chưa biết, không hỏi người viết là ai.",
-          "position": "什么 sau 写, không thêm 吗 trong mẫu hỏi nội dung.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "我没写这个字。",
-          "vi": "Tôi chưa/đã không viết chữ này.",
-          "scene": "Bạn báo chữ đó chưa được mình viết.",
-          "why": "没写 phủ định sự xảy ra của việc viết.",
-          "position": "没 trước 写, 这个字 sau 写.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "我不会写这个字。",
-          "vi": "Tôi không biết viết chữ này.",
-          "scene": "Bạn nhận ra chữ nhưng chưa biết cách viết.",
-          "why": "不会写 nói về thiếu khả năng, khác chưa làm hành động.",
-          "position": "不 trước 会, 会 trước 写.",
-          "practiceAllowed": true,
-          "id": "e05"
-        },
-        {
-          "zh": "请用中文写你的名字。",
-          "vi": "Hãy viết tên của bạn bằng tiếng Trung.",
-          "scene": "Giáo viên yêu cầu dùng tiếng Trung trong bài tập.",
-          "why": "用中文 nêu ngôn ngữ; 写 vẫn là hành động chính.",
-          "position": "请 ở đầu; 用中文 trước 写; tên cần viết sau 写.",
-          "practiceAllowed": true,
-          "id": "e06"
+          "analysis": "请 làm câu yêu cầu lịch sự; 写 nhận tân ngữ là tên.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 6,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Yêu cầu viết tên bằng tiếng Trung rồi báo chưa viết chữ này.",
-      "model": "请用中文写你的名字。我没写这个字。",
+      "task": "Nói bạn viết chữ Hán.",
+      "model": "我写汉字。",
       "quiz": {
         "question": "Bạn biết viết nhưng chưa viết vào vở. Chọn câu đúng ý.",
         "choices": [
@@ -10477,254 +10339,156 @@
       },
       "more": [],
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 30,
+        "difficulty": "easy",
+        "difficultyReason": "写 là động từ cơ bản, tân ngữ đứng sau và mẫu dùng trực tiếp.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Writing"
+        ],
         "introduction": {
-          "partOfSpeech": "Động từ chỉ viết.",
-          "scope": "Trọng tâm là viết tên, chữ và nội dung ngắn; phân biệt không viết với chưa viết."
-        },
-        "meaning": {
-          "scene": "Bạn giúp người mới điền biểu mẫu và hướng dẫn họ viết tên.",
-          "explanation": "写 chỉ tạo nội dung bằng chữ viết. Trong câu cơ bản, người viết trước 写 và nội dung cần viết theo sau. Khi yêu cầu lịch sự có thể thêm 请 trước hành động.",
-          "boundary": "写 là viết, khác 读 là đọc và 说 là nói. Biết đọc một chữ không tự có nghĩa biết viết chữ đó. 写 trong câu học này chưa nêu dùng tay hay gõ máy nếu không có ngữ cảnh thêm.",
-          "conditions": [
-            "Nội dung sau 写 có thể là 名字, 汉字 hoặc cụm tên/chữ cụ thể.",
-            "用中文 nêu viết bằng tiếng Trung và đứng trước 写; 没写 phủ định việc viết chưa/không xảy ra."
-          ],
-          "takeaway": "Khi muốn yêu cầu hoặc kể việc viết chữ, bạn có thể dùng 写 trước nội dung cần viết.",
-          "alternatives": [
-            {
-              "zh": "请读你的名字。",
-              "vi": "Hãy đọc tên của bạn.",
-              "purpose": "读 yêu cầu đọc thành lời, không yêu cầu viết ra."
-            },
-            {
-              "zh": "我会说中文。",
-              "vi": "Tôi biết nói tiếng Trung.",
-              "purpose": "说 nói về khả năng nói, không khẳng định biết viết."
-            }
-          ]
+          "scope": "写 nghĩa là viết chữ, từ hoặc nội dung bằng tay hay phương tiện viết."
         },
         "examples": [
           {
+            "id": "e1",
+            "zh": "我写汉字。",
+            "pinyin": "Wǒ xiě Hànzì.",
+            "vi": "Tôi viết chữ Hán.",
+            "analysis": "写 đứng trước nội dung được viết.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
             "zh": "请写你的名字。",
+            "pinyin": "Qǐng xiě nǐ de míngzi.",
             "vi": "Hãy viết tên của bạn.",
-            "scene": "Bạn hướng dẫn điền tên.",
-            "why": "请 làm lời yêu cầu lịch sự; 写 nhận 你的名字 là nội dung viết.",
-            "position": "请 trước 写, nội dung sau 写.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Yêu cầu người kia viết tên.",
-              "choice": "Chọn 请写 để yêu cầu lịch sự và 你的名字 làm nội dung.",
-              "order": "Xếp 请, 写, rồi 你的名字.",
-              "result": "请写你的名字。"
-            },
-            "id": "e01"
-          },
-          {
-            "zh": "请写你的地址。",
-            "vi": "Hãy viết địa chỉ của bạn.",
-            "scene": "Bạn hướng dẫn điền địa chỉ.",
-            "why": "地址 là địa chỉ; đổi nội dung cần viết nhưng giữ hành động.",
-            "position": "你的地址 thay cho 你的名字 sau 写.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "你写什么？",
-            "vi": "Bạn viết gì?",
-            "scene": "Bạn hỏi nội dung người kia đang hoặc định viết theo ngữ cảnh.",
-            "why": "什么 thay cho nội dung chưa biết, không hỏi người viết là ai.",
-            "position": "什么 sau 写, không thêm 吗 trong mẫu hỏi nội dung.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "我没写这个字。",
-            "vi": "Tôi chưa/đã không viết chữ này.",
-            "scene": "Bạn báo chữ đó chưa được mình viết.",
-            "why": "没写 phủ định sự xảy ra của việc viết.",
-            "position": "没 trước 写, 这个字 sau 写.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "我不会写这个字。",
-            "vi": "Tôi không biết viết chữ này.",
-            "scene": "Bạn nhận ra chữ nhưng chưa biết cách viết.",
-            "why": "不会写 nói về thiếu khả năng, khác chưa làm hành động.",
-            "position": "不 trước 会, 会 trước 写.",
-            "practiceAllowed": true,
-            "id": "e05"
-          },
-          {
-            "zh": "请用中文写你的名字。",
-            "vi": "Hãy viết tên của bạn bằng tiếng Trung.",
-            "scene": "Giáo viên yêu cầu dùng tiếng Trung trong bài tập.",
-            "why": "用中文 nêu ngôn ngữ; 写 vẫn là hành động chính.",
-            "position": "请 ở đầu; 用中文 trước 写; tên cần viết sau 写.",
-            "practiceAllowed": true,
-            "id": "e06"
+            "analysis": "请 làm câu yêu cầu lịch sự; 写 nhận tân ngữ là tên.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Yêu cầu viết một thông tin.",
-            "frame": "请 + 写 + nội dung cần viết.",
-            "position": "写 sau 请, trước nội dung như 名字 hoặc 地址.",
-            "required": "Cần nội dung nếu người nghe chưa biết phải viết gì; không cần thêm 是 trước 写.",
-            "omission": "Khi phiếu đang mở đúng ô tên, 请写 có thể đủ; câu đầy đủ giúp tránh hiểu nhầm.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi từ tên sang địa chỉ.",
-              "exampleId": "e02",
-              "limit": "Thay bằng thông tin có thể viết; không đổi sang đồ vật không thể làm nội dung nếu chưa có nghĩa thích hợp."
-            },
-            "caution": "Đừng đổi 写 thành 读 nếu vẫn muốn người nghe viết ra.",
-            "forms": [
-              {
-                "type": "Hỏi nội dung",
-                "exampleId": "e03",
-                "why": "什么 đứng ở chỗ nội dung chưa biết."
-              }
-            ],
-            "collocations": [
-              {
-                "zh": "写名字",
-                "vi": "viết tên",
-                "purpose": "Điền tên."
-              },
-              {
-                "zh": "写汉字",
-                "vi": "viết chữ Hán",
-                "purpose": "Luyện chữ."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Nêu việc chưa viết, chưa biết viết và ngôn ngữ viết.",
-            "frame": "没写 + nội dung; 不会写 + nội dung; 用中文 + 写 + nội dung.",
-            "position": "没 trước 写; 不 trước 会 trong 不会写; 用中文 trước hành động.",
-            "required": "Chọn phủ định theo sự việc hay khả năng; muốn rõ dùng ngôn ngữ nào thì nêu 用中文.",
-            "omission": "Đã rõ chữ nào có thể nói 没写 hoặc 不会写; giữ khác biệt ý nghĩa dù lược nội dung.",
-            "exampleId": "e04",
-            "transform": {
-              "change": "Chuyển từ chưa viết chữ này sang không biết viết chữ này.",
-              "exampleId": "e05",
-              "limit": "Hai câu không đồng nghĩa: người chưa viết có thể hoàn toàn biết viết."
-            },
-            "caution": "不写 thường là không định hoặc không thường viết; không thay cả 没写 và 不会写.",
-            "forms": [
-              {
-                "type": "Yêu cầu bằng một ngôn ngữ",
-                "exampleId": "e06",
-                "why": "用中文 phải đứng trước 写 trong mẫu đang học."
-              }
-            ],
+            "id": "write",
+            "title": "Viết",
+            "when": "Tạo chữ hoặc nội dung bằng hành động viết.",
+            "meaning": "viết",
+            "grammar": "写 đứng trước tân ngữ.",
+            "pattern": "写+chữ/từ/nội dung",
             "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Chưa viết không đồng nghĩa không biết viết",
-            "scene": "Bạn biết cách viết chữ nhưng chưa làm bài.",
-            "possibleConfusion": "Bạn có thể dễ nhầm chưa làm được dịch luôn thành không có khả năng.",
-            "difference": "没写 nói hành động chưa/không xảy ra; 不会写 nói thiếu kỹ năng viết chữ đó.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "我没写这个字。",
-                "vi": "Tôi chưa/đã không viết chữ này.",
-                "judgment": "correct",
-                "comment": "Phù hợp khi chưa thực hiện bài viết.",
-                "practiceAllowed": false
+                "zh": "我写汉字。",
+                "pinyin": "Wǒ xiě Hànzì.",
+                "vi": "Tôi viết chữ Hán.",
+                "note": "汉字 là tân ngữ."
               },
               {
-                "id": "case-2",
-                "zh": "我不会写这个字。",
-                "vi": "Tôi không biết viết chữ này.",
-                "judgment": "different-meaning",
-                "comment": "Chuyển thành thông tin thiếu khả năng.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thêm 不会 thay 没 làm ý chuyển từ sự việc sang khả năng. Nếu biết viết nhưng chưa làm, dùng 没写."
-            },
-            "boundary": "Một người có thể vừa chưa viết vừa chưa biết viết, nhưng câu này không tự suy ra câu kia.",
-            "tip": "Hỏi đã viết chưa: 没写; hỏi biết viết không: 不会写.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Đổi viết thành đọc làm thay yêu cầu",
-            "scene": "Bạn cần người nghe ghi tên lên phiếu.",
-            "possibleConfusion": "Bạn có thể dễ nhầm cả 写 và 读 đều liên quan chữ nên thay nhau.",
-            "difference": "写 tạo chữ viết; 读 đọc nội dung đã có, thường có thể đọc thành lời trong yêu cầu này.",
-            "cases": [
-              {
-                "id": "case-1",
                 "zh": "请写你的名字。",
+                "pinyin": "Qǐng xiě nǐ de míngzi.",
                 "vi": "Hãy viết tên của bạn.",
-                "judgment": "correct",
-                "comment": "Yêu cầu ghi tên ra.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "请读你的名字。",
-                "vi": "Hãy đọc tên của bạn.",
-                "judgment": "different-meaning",
-                "comment": "Yêu cầu đọc tên, không yêu cầu ghi ra.",
-                "practiceAllowed": false
+                "note": "你的名字 là nội dung cần viết."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 写 bằng 读 tạo câu đúng nhưng đổi hành động. Muốn có tên trên phiếu giữ 写."
-            },
-            "boundary": "Có thể yêu cầu vừa viết vừa đọc trong một bài học; khi đó phải nói cả hai việc, không gán một từ chứa đủ hai hành động.",
-            "tip": "Cần chữ xuất hiện trên giấy/màn hình: 写; cần đọc nội dung: 读.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
+            ]
           }
         ],
-        "checks": [
+        "confusions": [],
+        "guidedExercises": [
           {
-            "id": "q01",
-            "question": "Bạn biết viết nhưng chưa viết vào vở. Chọn câu đúng ý.",
-            "choices": [
-              "我不会写这个字。",
-              "我没写这个字。"
-            ]
-          },
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi viết chữ Hán.",
+            "tokens": [
+              "我",
+              "写",
+              "汉字",
+              "。"
+            ],
+            "accepted": [
+              "我写汉字。"
+            ],
+            "model": "我写汉字。",
+            "explanation": "写 đứng trước 汉字.",
+            "wrongFeedback": "Đặt nội dung được viết sau 写."
+          }
+        ],
+        "discriminationExercises": [
           {
-            "id": "q02",
-            "question": "Muốn người kia ghi tên ra giấy, chọn động từ.",
+            "id": "d1",
+            "senseId": "write",
+            "type": "meaning",
+            "prompt": "Chọn động từ nghĩa là viết.",
             "choices": [
               "写",
-              "读"
+              "买"
+            ],
+            "correctIndex": 0,
+            "model": "写",
+            "explanation": "写 là viết; 买 là mua.",
+            "wrongFeedback": "Phân biệt hành động viết với mua."
+          }
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn viết chữ Hán.",
+            "hints": [
+              "Nêu chủ thể: 我.",
+              "Dùng 写 trước 汉字.",
+              "Mẫu: 我写汉字。"
+            ],
+            "model": "我写汉字。",
+            "vi": "Tôi viết chữ Hán.",
+            "criteria": [
+              "Dùng đúng 写."
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "没写 nói chưa thực hiện, không phủ nhận kỹ năng."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là viết?",
+            "hiddenAnswer": "写",
+            "model": "写"
           },
-          "q02": {
-            "correctIndex": 0,
-            "explanation": "写 là viết; 读 là đọc."
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我__汉字。",
+            "hiddenAnswer": "写",
+            "model": "我写汉字。"
           }
-        },
-        "pronunciation": {
-          "text": "写 mang thanh ba. Khi ở cuối một cụm có thể nghe phần nâng lên, nhưng trước nội dung khác thường đọc thấp. Trong 请写, hai âm có thanh gốc ba nên 请 thường đọc thành thanh hai khi nối liền; không đổi chữ hoặc nghĩa vì biến điệu này."
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi viết chữ Hán.",
+            "choices": [
+              "我",
+              "写",
+              "汉字",
+              "。"
+            ],
+            "correct": [
+              "我写汉字。"
+            ],
+            "explanation": "写 đứng trước 汉字."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn động từ nghĩa là viết.",
+            "choices": [
+              "写",
+              "买"
+            ],
+            "correctIndex": 0,
+            "explanation": "写 là viết."
+          }
         }
       }
     },
@@ -10745,56 +10509,30 @@
       "meaning": "phút trong cách đọc giờ",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 03; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
       "examples": [
         {
-          "zh": "现在九点十分。",
-          "vi": "Bây giờ là chín giờ mười phút.",
-          "scene": "Bạn đọc giờ trên đồng hồ.",
-          "why": "点 nêu giờ, 分 nêu phút trong thời điểm.",
-          "position": "十分 sau 九点; 现在 nêu bây giờ ở đầu câu.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Đọc thời điểm chín giờ mười phút hiện tại.",
-            "choice": "Chọn 九点 cho giờ và 十分 cho phút.",
-            "order": "Xếp 现在, 九点, 十分.",
-            "result": "现在九点十分。"
-          },
-          "id": "e01"
+          "id": "e1",
+          "zh": "现在八点十分。",
+          "pinyin": "Xiànzài bā diǎn shí fēn.",
+          "vi": "Bây giờ là tám giờ mười phút.",
+          "analysis": "分 đứng sau số phút trong cách nói giờ.",
+          "practiceAllowed": true
         },
         {
-          "zh": "现在九点二十分。",
-          "vi": "Bây giờ là chín giờ hai mươi phút.",
-          "scene": "Bạn xem đồng hồ sau đó.",
-          "why": "二十分 thay 十分, giờ vẫn là chín.",
-          "position": "Số 二十 ngay trước 分, sau 九点.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "现在九点几分？",
-          "vi": "Bây giờ là chín giờ mấy phút?",
-          "scene": "Bạn đã biết giờ chín nhưng chưa rõ phút.",
-          "why": "几 thay số phút chưa biết; không hỏi lại giờ đã biết.",
-          "position": "几 trước 分 và sau 九点; không thêm 吗.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "现在九点零五分。",
-          "vi": "Bây giờ là chín giờ linh năm phút.",
-          "scene": "Bạn đọc giờ có số phút dưới mười.",
-          "why": "零 trước 五 báo phần phút chưa tới mười trong cách đọc rõ này.",
-          "position": "零五分 đi sau 九点; số phút đứng trước 分.",
-          "practiceAllowed": true,
-          "id": "e04"
+          "id": "e2",
+          "zh": "我等你五分钟。",
+          "pinyin": "Wǒ děng nǐ wǔ fēnzhōng.",
+          "vi": "Tôi đợi bạn năm phút.",
+          "analysis": "分钟 là khoảng thời gian năm phút; 分 trong bài này xuất hiện trong đơn vị đó.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 7,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Đọc giờ chín giờ mười và hỏi chín giờ mấy phút.",
-      "model": "现在九点十分。现在九点几分？",
+      "task": "Nói bây giờ là tám giờ mười phút.",
+      "model": "现在八点十分。",
       "quiz": {
         "question": "Câu 我学习十分钟 trả lời loại thông tin nào?",
         "choices": [
@@ -10828,224 +10566,195 @@
         ]
       },
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 31,
+        "difficulty": "medium",
+        "difficultyReason": "分 có thể là phút trong cách nói giờ và còn xuất hiện trong 分钟; cần giữ đúng vị trí sau số phút.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Time"
+        ],
         "introduction": {
-          "partOfSpeech": "Danh từ đơn vị thời gian trong cách đọc giờ.",
-          "scope": "Nghĩa trọng tâm là phút khi đọc giờ, như chín giờ mười phút. Thời lượng, tiền lẻ, chia và cách đọc trong từ ghép để ở Học thêm."
-        },
-        "meaning": {
-          "scene": "Bạn nhìn đồng hồ chín giờ mười và muốn đọc giờ cho bạn học nghe.",
-          "explanation": "分 sau phần giờ có 点 để đọc số phút trong một thời điểm. 九点十分 là chín giờ mười phút; đây là thời điểm trên đồng hồ, không phải khoảng thời gian kéo dài chín giờ mười phút.",
-          "boundary": "Khi nói một khoảng mười phút cần 十分钟 trong mẫu cơ bản. 分 còn có nghĩa điểm số, tiền lẻ hoặc chia tùy câu; các nghĩa đó không làm mỗi ví dụ giờ đổi nghĩa.",
-          "conditions": [
-            "Phần phút đặt sau phần giờ: 九点 rồi 十分.",
-            "Hỏi phút trong một giờ đã biết có thể dùng 几分; nói toàn bộ thời điểm có thể dùng 几点几分."
-          ],
-          "takeaway": "Khi muốn đọc số phút của một thời điểm trên đồng hồ, bạn đặt số phút + 分 sau phần giờ có 点.",
-          "alternatives": [
-            {
-              "zh": "我学习十分钟。",
-              "vi": "Tôi học trong mười phút.",
-              "purpose": "分钟 nói thời lượng; không dùng một thời điểm 九点十分 để thay khoảng học."
-            },
-            {
-              "zh": "我有五分钱。",
-              "vi": "Tôi có năm phân tiền.",
-              "purpose": "分 trong câu này là tiền lẻ, trong ngữ cảnh nhân dân tệ là một phần trăm nguyên, không phải phút."
-            }
-          ]
+          "scope": "Trong phạm vi này, 分 chỉ phút khi nói giờ hoặc nằm trong 分钟 để nói khoảng thời gian."
         },
         "examples": [
           {
-            "zh": "现在九点十分。",
-            "vi": "Bây giờ là chín giờ mười phút.",
-            "scene": "Bạn đọc giờ trên đồng hồ.",
-            "why": "点 nêu giờ, 分 nêu phút trong thời điểm.",
-            "position": "十分 sau 九点; 现在 nêu bây giờ ở đầu câu.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Đọc thời điểm chín giờ mười phút hiện tại.",
-              "choice": "Chọn 九点 cho giờ và 十分 cho phút.",
-              "order": "Xếp 现在, 九点, 十分.",
-              "result": "现在九点十分。"
-            },
-            "id": "e01"
+            "id": "e1",
+            "zh": "现在八点十分。",
+            "pinyin": "Xiànzài bā diǎn shí fēn.",
+            "vi": "Bây giờ là tám giờ mười phút.",
+            "analysis": "分 đứng sau số phút trong cách nói giờ.",
+            "practiceAllowed": true
           },
           {
-            "zh": "现在九点二十分。",
-            "vi": "Bây giờ là chín giờ hai mươi phút.",
-            "scene": "Bạn xem đồng hồ sau đó.",
-            "why": "二十分 thay 十分, giờ vẫn là chín.",
-            "position": "Số 二十 ngay trước 分, sau 九点.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "现在九点几分？",
-            "vi": "Bây giờ là chín giờ mấy phút?",
-            "scene": "Bạn đã biết giờ chín nhưng chưa rõ phút.",
-            "why": "几 thay số phút chưa biết; không hỏi lại giờ đã biết.",
-            "position": "几 trước 分 và sau 九点; không thêm 吗.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "现在九点零五分。",
-            "vi": "Bây giờ là chín giờ linh năm phút.",
-            "scene": "Bạn đọc giờ có số phút dưới mười.",
-            "why": "零 trước 五 báo phần phút chưa tới mười trong cách đọc rõ này.",
-            "position": "零五分 đi sau 九点; số phút đứng trước 分.",
-            "practiceAllowed": true,
-            "id": "e04"
+            "id": "e2",
+            "zh": "我等你五分钟。",
+            "pinyin": "Wǒ děng nǐ wǔ fēnzhōng.",
+            "vi": "Tôi đợi bạn năm phút.",
+            "analysis": "分钟 là khoảng thời gian năm phút; 分 trong bài này xuất hiện trong đơn vị đó.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Đọc phần phút của một thời điểm.",
-            "frame": "现在 + số giờ + 点 + số phút + 分.",
-            "position": "分 sau số phút; toàn bộ cụm phút sau số giờ có 点.",
-            "required": "Muốn đọc rõ thời điểm đầy đủ cần phân biệt số giờ và số phút; không thêm 个 trước 分.",
-            "omission": "Khi đọc giờ trong hội thoại, 九点十 có thể được hiểu là chín giờ mười; bài giữ 分 để người mới học thấy rõ đơn vị.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi mười phút sang hai mươi phút của cùng giờ chín.",
-              "exampleId": "e02",
-              "limit": "Chỉ đổi số phút; không đổi 分 thành 分钟 để đọc thời điểm theo mẫu này."
-            },
-            "caution": "九点十分 không diễn tả học trong mười phút.",
-            "forms": [],
+            "id": "minute",
+            "title": "Phút",
+            "when": "Nói số phút trên đồng hồ hoặc thời lượng phút.",
+            "meaning": "phút",
+            "grammar": "Đứng sau số, trực tiếp sau giờ hoặc trong 分钟.",
+            "pattern": "giờ+点+số+分；số+分钟",
             "collocations": [
               {
-                "zh": "九点十分",
-                "vi": "chín giờ mười phút",
-                "purpose": "Đọc một thời điểm."
-              },
-              {
-                "zh": "九点零五分",
-                "vi": "chín giờ linh năm phút",
-                "purpose": "Đọc rõ phút dưới mười."
+                "zh": "五分钟",
+                "pinyin": "wǔ fēnzhōng",
+                "vi": "năm phút"
               }
             ],
-            "id": "u01"
-          },
-          {
-            "intent": "Hỏi phút khi đã biết giờ và đọc phút dưới mười.",
-            "frame": "Số giờ + 点 + 几分？; số giờ + 点 + 零 + số phút + 分.",
-            "position": "几 ở chỗ số phút; 零 trước số phút một chữ số khi đọc rõ kiểu giờ linh phút.",
-            "required": "几 dùng để hỏi, không giữ khi đã trả lời bằng số cụ thể.",
-            "omission": "Nếu đang nhìn cùng đồng hồ, có thể chỉ hỏi 几分, nhưng nêu giờ giúp tránh mơ hồ.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Đáp phút linh năm của giờ chín.",
-              "exampleId": "e04",
-              "limit": "Mẫu 零五 là năm phút sau giờ, không phải năm mươi phút."
-            },
-            "caution": "Không thêm 吗 vào mẫu hỏi dùng 几分.",
-            "forms": [],
-            "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Lẫn thời điểm với thời lượng",
-            "scene": "Bạn muốn nói mình học trong mười phút, không nói bắt đầu lúc chín giờ mười.",
-            "possibleConfusion": "Bạn có thể dễ nhầm đều có nghĩa phút nên mọi cụm có 分 đều thay được nhau.",
-            "difference": "九点十分 chỉ một thời điểm; 十分钟 chỉ khoảng kéo dài mười phút.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "我九点十分学习。",
-                "vi": "Tôi học lúc chín giờ mười phút.",
-                "judgment": "different-meaning",
-                "comment": "Cụm giờ trước 学习 nêu thời điểm học.",
-                "practiceAllowed": false
+                "zh": "现在八点十分。",
+                "pinyin": "Xiànzài bā diǎn shí fēn.",
+                "vi": "Bây giờ là tám giờ mười phút.",
+                "note": "十分 là mười phút sau giờ."
               },
               {
-                "id": "case-2",
-                "zh": "我学习十分钟。",
-                "vi": "Tôi học trong mười phút.",
-                "judgment": "correct",
-                "comment": "Cụm thời lượng sau 学习 nêu học bao lâu.",
-                "practiceAllowed": false
+                "zh": "我等你五分钟。",
+                "pinyin": "Wǒ děng nǐ wǔ fēnzhōng.",
+                "vi": "Tôi đợi bạn năm phút.",
+                "note": "分钟 chỉ thời lượng."
               }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi thời lượng 十分钟 thành thời điểm 九点十分 sẽ đổi câu hỏi được trả lời. Muốn nói bao lâu, dùng 我学习十分钟。"
-            },
-            "boundary": "Một buổi học có cả thời điểm bắt đầu và thời lượng; phải nói đúng phần thông tin đang cần, không đoán từ một chữ 分.",
-            "tip": "Mấy giờ: số giờ + 点 + số phút + 分; bao lâu: số + 分钟.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Coi 分 luôn nghĩa là phút",
-            "scene": "Bạn so một câu đọc giờ với một câu nói tiền lẻ.",
-            "possibleConfusion": "Bạn có thể dễ nhầm nhớ nghĩa đầu tiên rồi dịch 五分钱 là năm phút tiền.",
-            "difference": "点 trong câu giờ dẫn tới nghĩa phút; 钱 trong câu tiền dẫn tới đơn vị tiền lẻ. Cách đọc đang dùng vẫn giống nhau nhưng nghĩa dựa cụm.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "现在九点五十分。",
-                "vi": "Bây giờ là chín giờ năm mươi phút.",
-                "judgment": "correct",
-                "comment": "点 và ngữ cảnh đồng hồ xác định 分 là phút.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我有五分钱。",
-                "vi": "Tôi có năm phân tiền.",
-                "judgment": "correct",
-                "comment": "钱 là tiền; 分 là đơn vị tiền lẻ, không phải thời gian.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi từ cụm giờ sang cụm tiền làm 分 đổi nghĩa theo ngữ cảnh. Không dịch cố định một nghĩa vào cả hai câu."
-            },
-            "boundary": "Phần giới thiệu có nêu cách đọc khác của 分 khi nằm trong từ ghép; không áp cách đọc đó vào 九点十分.",
-            "tip": "Nhìn cả cụm: sau phần giờ nghĩ tới phút; trước 钱 nghĩ tới tiền lẻ.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
-          }
-        ],
-        "checks": [
-          {
-            "id": "q01",
-            "question": "Câu 我学习十分钟 trả lời loại thông tin nào?",
-            "choices": [
-              "Học trong bao lâu.",
-              "Bắt đầu đúng mấy giờ."
-            ]
-          },
-          {
-            "id": "q02",
-            "question": "Trong 九点十分, 分 đang chỉ gì?",
-            "choices": [
-              "Một đơn vị tiền lẻ.",
-              "Phút trong thời điểm trên đồng hồ."
             ]
           }
         ],
-        "answers": {
-          "q01": {
+        "confusions": [
+          {
+            "id": "time",
+            "afterSense": "minute",
+            "title": "分 và 分钟 trong thời gian",
+            "explanation": "分 thường dùng trong cách đọc giờ; 分钟 thường nói một khoảng thời gian kéo dài bao lâu.",
+            "contrasts": [
+              {
+                "zh": "八点十分。",
+                "pinyin": "Bā diǎn shí fēn.",
+                "vi": "Tám giờ mười phút.",
+                "note": "Đọc thời điểm trên đồng hồ."
+              },
+              {
+                "zh": "十分钟。",
+                "pinyin": "Shí fēnzhōng.",
+                "vi": "Mười phút.",
+                "note": "Nói thời lượng."
+              }
+            ],
+            "tip": "Có 点 phía trước thì 分 thường là phần phút của thời điểm; nói kéo dài bao lâu thì dùng 分钟."
+          }
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: tám giờ mười phút.",
+            "tokens": [
+              "八点",
+              "十",
+              "分",
+              "。"
+            ],
+            "accepted": [
+              "八点十分。"
+            ],
+            "model": "八点十分。",
+            "explanation": "分 đứng sau số phút.",
+            "wrongFeedback": "Giữ khung giờ + 点 + số phút + 分."
+          },
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 我等你五____钟。",
+            "accepted": [
+              "分"
+            ],
+            "model": "我等你五分钟。",
+            "explanation": "分钟 chỉ thời lượng phút.",
+            "wrongFeedback": "Trong 分钟, 分 đứng trước 钟."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "time",
+            "type": "choice",
+            "prompt": "Muốn nói thời lượng mười phút, chọn câu đúng.",
+            "choices": [
+              "十分钟。",
+              "十点分。"
+            ],
             "correctIndex": 0,
-            "explanation": "十分钟 là thời lượng mười phút, chưa xác định giờ bắt đầu."
-          },
-          "q02": {
-            "correctIndex": 1,
-            "explanation": "Cụm có 九点 xác định đang đọc giờ; 分 là phút."
+            "model": "十分钟。",
+            "explanation": "Thời lượng dùng 分钟.",
+            "wrongFeedback": "Phân biệt thời điểm với thời lượng."
           }
-        },
-        "pronunciation": {
-          "text": "分 trong các ví dụ giờ và tiền ở bài mang thanh một. Giữ giọng tương đối cao và đều, không đổi thành thanh bốn. Cách đọc khác của chữ trong từ ghép đã nêu riêng ở giới thiệu; đó không phải biến điệu khi đọc giờ."
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bây giờ là tám giờ mười phút.",
+            "hints": [
+              "Nêu giờ: 八点.",
+              "Thêm mười phút: 十分.",
+              "Mẫu: 现在八点十分。"
+            ],
+            "model": "现在八点十分。",
+            "vi": "Bây giờ là tám giờ mười phút.",
+            "criteria": [
+              "Dùng đúng 分 sau số phút."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Điền phần phút: 八点十__。",
+            "hiddenAnswer": "分",
+            "model": "八点十分。"
+          },
+          {
+            "id": "r2",
+            "prompt": "Nói thời lượng mười phút.",
+            "hiddenAnswer": "十分钟",
+            "model": "十分钟。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: tám giờ mười phút.",
+            "choices": [
+              "八点",
+              "十",
+              "分",
+              "。"
+            ],
+            "correct": [
+              "八点十分。"
+            ],
+            "explanation": "分 đứng sau số phút."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Muốn nói thời lượng mười phút, chọn câu đúng.",
+            "choices": [
+              "十分钟。",
+              "十点分。"
+            ],
+            "correctIndex": 0,
+            "explanation": "Thời lượng dùng 分钟."
+          }
         }
       }
     },
@@ -11062,65 +10771,30 @@
       "meaning": "đơn vị tiền trong lời nói; nhân dân tệ trong bối cảnh bài",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 03; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
       "examples": [
         {
-          "zh": "这个杯子十块钱。",
-          "vi": "Chiếc cốc này giá mười nhân dân tệ.",
-          "scene": "Bạn nhắc lại giá người bán báo.",
-          "why": "块钱 diễn đạt tiền trong hội thoại; loại tiền đã rõ từ bối cảnh.",
-          "position": "十 trước 块, 钱 sau 块; món hàng trước giá.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói giá cốc là mười nhân dân tệ theo lời nói thông thường.",
-            "choice": "Chọn 十块钱 cho số tiền khi đang ở bối cảnh nhân dân tệ.",
-            "order": "Nêu 这个杯子 rồi 十块钱.",
-            "result": "这个杯子十块钱。"
-          },
-          "id": "e01"
+          "id": "e1",
+          "zh": "这个十块。",
+          "pinyin": "Zhège shí kuài.",
+          "vi": "Cái này mười đồng.",
+          "analysis": "块 đứng sau số trong cách nói khẩu ngữ về tiền.",
+          "practiceAllowed": true
         },
         {
-          "zh": "这个杯子十二块钱。",
-          "vi": "Chiếc cốc này giá mười hai nhân dân tệ.",
-          "scene": "Bạn đọc giá cốc khác.",
-          "why": "十二 thay số nhưng đơn vị và loại tiền giữ nguyên.",
-          "position": "十二 đứng ngay trước 块钱.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "这本书几块钱？",
-          "vi": "Quyển sách này giá mấy nhân dân tệ?",
-          "scene": "Bạn hỏi giá một quyển sách nhỏ và dự kiến giá không cao.",
-          "why": "几块钱 hỏi số đơn vị tiền trong lời nói khi dự kiến số không lớn; 多少钱 hỏi giá bao nhiêu nói chung.",
-          "position": "几 đứng trước 块钱, cả cụm sau món hàng; không thêm 吗.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "这本书二十块钱。",
-          "vi": "Quyển sách này giá hai mươi nhân dân tệ.",
-          "scene": "Người bán trả lời câu hỏi giá.",
-          "why": "二十块钱 là giá hai mươi đơn vị trong ngữ cảnh nhân dân tệ.",
-          "position": "二十 trước 块钱; không dùng 两十.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "这个苹果两块钱。",
-          "vi": "Quả táo này giá hai nhân dân tệ.",
-          "scene": "Bạn hỏi riêng giá một quả táo.",
-          "why": "两块钱 là cách nói thông thường cho hai đơn vị tiền.",
-          "position": "两 trước 块; 钱 làm rõ tiền.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "id": "e2",
+          "zh": "我有五块钱。",
+          "pinyin": "Wǒ yǒu wǔ kuài qián.",
+          "vi": "Tôi có năm đồng tiền.",
+          "analysis": "块钱 nói rõ đây là tiền; 块 vẫn đứng sau số.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 8,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Hỏi giá sách và trả lời bằng hai mươi nhân dân tệ trong hội thoại.",
-      "model": "这本书多少钱？这本书二十块钱。",
+      "task": "Nói món đồ giá mười đồng theo cách khẩu ngữ.",
+      "model": "十块。",
       "quiz": {
         "question": "Trong cùng bối cảnh nhân dân tệ, 十块钱 và 十元 có cùng số tiền không?",
         "choices": [
@@ -11150,239 +10824,193 @@
         ]
       },
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 32,
+        "difficulty": "medium",
+        "difficultyReason": "块 vừa là từ khẩu ngữ chỉ đơn vị tiền, vừa có nghĩa gốc là mảnh/khối; bài này giới hạn ở nghĩa tiền và phân biệt với 元.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Money"
+        ],
         "introduction": {
-          "partOfSpeech": "Đơn vị tiền trong lời nói; cũng có nghĩa khác khi đếm miếng, khối.",
-          "scope": "Trọng tâm là nói giá bằng 块钱 trong ngữ cảnh nhân dân tệ tại Trung Quốc; nghĩa miếng/khối để Học thêm."
-        },
-        "meaning": {
-          "scene": "Bạn hỏi mua một cốc nước ở Trung Quốc và nghe người bán nói mười nhân dân tệ bằng cách nói thân mật.",
-          "explanation": "块 trong giá tiền là cách nói thông dụng tương ứng 元 trong cùng bối cảnh nhân dân tệ. 十块钱 là mười nhân dân tệ; 钱 giúp rõ đang nói tiền. Không dịch chữ đồng rồi mặc định là đồng Việt Nam.",
-          "boundary": "块 không tự xác định loại tiền trong mọi quốc gia. Trong bài này loại tiền đã được xác định là nhân dân tệ. Khi nói 一块蛋糕, 块 lại là miếng, không phải giá một đồng.",
-          "conditions": [
-            "Trong giá tiền, số đứng ngay trước 块, có thể thêm 钱 sau 块.",
-            "Không thêm 个 trước 块; khi nói số hai trong hội thoại thường dùng 两块钱."
-          ],
-          "takeaway": "Khi muốn nói một giá tiền trong hội thoại mà bối cảnh nhân dân tệ đã rõ, bạn có thể dùng số + 块钱.",
-          "alternatives": [
-            {
-              "zh": "这个杯子十元。",
-              "vi": "Chiếc cốc này giá mười nhân dân tệ.",
-              "purpose": "元 là cách ghi/nói tương đối chuẩn, cùng giá trị với 十块钱 trong ngữ cảnh này."
-            },
-            {
-              "zh": "我买一块蛋糕。",
-              "vi": "Tôi mua một miếng bánh ngọt.",
-              "purpose": "蛋糕 là bánh ngọt; 块 đếm miếng bánh, chưa nêu giá."
-            }
-          ]
+          "scope": "块 trong bài này là cách nói khẩu ngữ cho một đơn vị tiền, thường tương đương 元 trong giao tiếp."
         },
         "examples": [
           {
-            "zh": "这个杯子十块钱。",
-            "vi": "Chiếc cốc này giá mười nhân dân tệ.",
-            "scene": "Bạn nhắc lại giá người bán báo.",
-            "why": "块钱 diễn đạt tiền trong hội thoại; loại tiền đã rõ từ bối cảnh.",
-            "position": "十 trước 块, 钱 sau 块; món hàng trước giá.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói giá cốc là mười nhân dân tệ theo lời nói thông thường.",
-              "choice": "Chọn 十块钱 cho số tiền khi đang ở bối cảnh nhân dân tệ.",
-              "order": "Nêu 这个杯子 rồi 十块钱.",
-              "result": "这个杯子十块钱。"
-            },
-            "id": "e01"
+            "id": "e1",
+            "zh": "这个十块。",
+            "pinyin": "Zhège shí kuài.",
+            "vi": "Cái này mười đồng.",
+            "analysis": "块 đứng sau số trong cách nói khẩu ngữ về tiền.",
+            "practiceAllowed": true
           },
           {
-            "zh": "这个杯子十二块钱。",
-            "vi": "Chiếc cốc này giá mười hai nhân dân tệ.",
-            "scene": "Bạn đọc giá cốc khác.",
-            "why": "十二 thay số nhưng đơn vị và loại tiền giữ nguyên.",
-            "position": "十二 đứng ngay trước 块钱.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "这本书几块钱？",
-            "vi": "Quyển sách này giá mấy nhân dân tệ?",
-            "scene": "Bạn hỏi giá một quyển sách nhỏ và dự kiến giá không cao.",
-            "why": "几块钱 hỏi số đơn vị tiền trong lời nói khi dự kiến số không lớn; 多少钱 hỏi giá bao nhiêu nói chung.",
-            "position": "几 đứng trước 块钱, cả cụm sau món hàng; không thêm 吗.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "这本书二十块钱。",
-            "vi": "Quyển sách này giá hai mươi nhân dân tệ.",
-            "scene": "Người bán trả lời câu hỏi giá.",
-            "why": "二十块钱 là giá hai mươi đơn vị trong ngữ cảnh nhân dân tệ.",
-            "position": "二十 trước 块钱; không dùng 两十.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "这个苹果两块钱。",
-            "vi": "Quả táo này giá hai nhân dân tệ.",
-            "scene": "Bạn hỏi riêng giá một quả táo.",
-            "why": "两块钱 là cách nói thông thường cho hai đơn vị tiền.",
-            "position": "两 trước 块; 钱 làm rõ tiền.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "id": "e2",
+            "zh": "我有五块钱。",
+            "pinyin": "Wǒ yǒu wǔ kuài qián.",
+            "vi": "Tôi có năm đồng tiền.",
+            "analysis": "块钱 nói rõ đây là tiền; 块 vẫn đứng sau số.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Nêu giá tiền bằng cách nói thông thường.",
-            "frame": "Món hàng + số + 块钱.",
-            "position": "Số trước 块, 钱 ngay sau 块.",
-            "required": "Cần loại tiền rõ từ bối cảnh; 块 không phải tên riêng của đồng Việt Nam.",
-            "omission": "Khi đang nói giá, 十块 có thể đủ vì 钱 đã rõ; không lược danh từ sau 块 khi đang đếm miếng mà người nghe chưa biết vật gì.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi giá mười thành mười hai.",
-              "exampleId": "e02",
-              "limit": "Chỉ thay số tiền; không tự đổi loại tiền của tình huống."
-            },
-            "caution": "Không thêm 个 trước 块 trong cụm giá trị tiền.",
-            "forms": [],
+            "id": "money",
+            "title": "Đồng, tệ trong khẩu ngữ",
+            "when": "Nói số tiền trong giao tiếp thường ngày.",
+            "meaning": "đồng/tệ; đơn vị tiền khẩu ngữ",
+            "grammar": "Đứng sau số, có thể thêm 钱 sau 块.",
+            "pattern": "số+块（钱）",
             "collocations": [
               {
-                "zh": "两块钱",
-                "vi": "hai nhân dân tệ trong bối cảnh bài",
-                "purpose": "Nói giá hai đơn vị."
+                "zh": "五块钱",
+                "pinyin": "wǔ kuài qián",
+                "vi": "năm đồng tiền"
+              }
+            ],
+            "examples": [
+              {
+                "zh": "这个十块。",
+                "pinyin": "Zhège shí kuài.",
+                "vi": "Cái này mười đồng.",
+                "note": "Cách nói khẩu ngữ."
               },
               {
-                "zh": "十块钱",
-                "vi": "mười nhân dân tệ trong bối cảnh bài",
-                "purpose": "Nói giá tròn."
+                "zh": "我有五块钱。",
+                "pinyin": "Wǒ yǒu wǔ kuài qián.",
+                "vi": "Tôi có năm đồng tiền.",
+                "note": "钱 làm rõ nghĩa tiền."
               }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Hỏi giá rồi trả lời bằng số tiền.",
-            "frame": "Món hàng + 几块钱？; món hàng + số + 块钱.",
-            "position": "几 ở chỗ số chưa biết trước 块钱; câu trả lời thay 几 bằng số cụ thể.",
-            "required": "几块钱 thường hỏi khi dự kiến số tiền không lớn; hỏi giá nói chung dùng 多少钱. Không thêm 吗 vào hai mẫu này.",
-            "omission": "Người bán có thể chỉ đáp 二十块钱 khi món hàng đã rõ.",
-            "exampleId": "e03",
-            "transform": {
-              "change": "Trả lời giá hai mươi.",
-              "exampleId": "e04",
-              "limit": "Hai mươi dùng 二十; hai đơn vị có thể nói 两块钱 như ví dụ quả táo."
-            },
-            "caution": "Không lấy 两 trong 两块钱 rồi tạo 两十块钱.",
-            "forms": [
-              {
-                "type": "Nói giá hai đơn vị",
-                "exampleId": "e05",
-                "why": "两 trước đơn vị tiền là cách thông dụng trong lời nói."
-              }
-            ],
-            "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Đổi 块 sang 元 không tự đổi số tiền",
-            "scene": "Bạn so hai cách nói cùng một giá ở Trung Quốc.",
-            "possibleConfusion": "Bạn có thể dễ nhầm hai chữ khác nhau là hai loại tiền hoặc hai mệnh giá khác nhau.",
-            "difference": "Trong cùng ngữ cảnh nhân dân tệ, 十块钱 và 十元 cùng giá trị; khác chủ yếu ở cách nói hội thoại và cách ghi/đọc chuẩn hơn.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "这个杯子十块钱。",
-                "vi": "Chiếc cốc này giá mười nhân dân tệ.",
-                "judgment": "correct",
-                "comment": "Cách nói hội thoại thông dụng.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "这个杯子十元。",
-                "vi": "Chiếc cốc này giá mười nhân dân tệ.",
-                "judgment": "overlap",
-                "comment": "Giữ nguyên số tiền, cách diễn đạt chuẩn hơn về đơn vị.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Thay 十块钱 bằng 十元 trong cùng bảng giá vẫn chỉ mười nhân dân tệ. Không cần đổi số."
-            },
-            "boundary": "Ngoài bối cảnh này, phải xác định loại tiền trước. Không dùng sự tương đương ở đây để suy mọi giá trên thế giới cùng đơn vị.",
-            "tip": "Cùng bối cảnh nhân dân tệ: số + 块钱 và số + 元 thường cùng giá trị.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "块 trong miếng bánh không phải giá tiền",
-            "scene": "Bạn nghe câu mua một miếng bánh rồi cần biết đã có giá chưa.",
-            "possibleConfusion": "Bạn có thể dễ nhầm mới học 块钱 nên thấy 块 ở đâu cũng dịch là tiền.",
-            "difference": "块钱 nêu tiền; 一块蛋糕 đếm một miếng bánh. Phần sau 块 và toàn bộ tình huống quyết định nghĩa.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我买一块蛋糕。",
-                "vi": "Tôi mua một miếng bánh ngọt.",
-                "judgment": "correct",
-                "comment": "Đếm miếng, chưa báo giá.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "这块蛋糕十块钱。",
-                "vi": "Miếng bánh ngọt này giá mười nhân dân tệ.",
-                "judgment": "correct",
-                "comment": "块 đầu trong 这块蛋糕 đếm miếng; 块 trong 十块钱 là tiền.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay một cụm miếng bánh bằng cụm số tiền làm đổi loại thông tin. Muốn nói mua một miếng, giữ 一块蛋糕; muốn nêu giá phải thêm giá riêng."
-            },
-            "boundary": "Một câu có thể chứa cả hai nghĩa của 块 như ví dụ sau; không gán mọi lần xuất hiện trong câu cùng một nghĩa.",
-            "tip": "Nhìn sau 块: tên món có thể là miếng/khối; 钱 và ngữ cảnh giá là tiền.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
-          }
-        ],
-        "checks": [
-          {
-            "id": "q01",
-            "question": "Trong cùng bối cảnh nhân dân tệ, 十块钱 và 十元 có cùng số tiền không?",
-            "choices": [
-              "Có.",
-              "Không, luôn là hai loại tiền khác nhau."
-            ]
-          },
-          {
-            "id": "q02",
-            "question": "Câu 我买一块蛋糕 đã nêu giá chiếc bánh chưa?",
-            "choices": [
-              "Rồi, giá luôn là một nhân dân tệ.",
-              "Chưa, 一块 ở đây đếm một miếng."
             ]
           }
         ],
-        "answers": {
-          "q01": {
+        "confusions": [
+          {
+            "id": "formal",
+            "afterSense": "money",
+            "title": "块 và 元 khác sắc thái",
+            "explanation": "块 là cách nói thân mật trong khẩu ngữ; 元 trung tính hoặc chuẩn hơn khi ghi giá và nói rõ đơn vị.",
+            "contrasts": [
+              {
+                "zh": "十块。",
+                "pinyin": "Shí kuài.",
+                "vi": "Mười đồng.",
+                "note": "Khẩu ngữ."
+              },
+              {
+                "zh": "十元。",
+                "pinyin": "Shí yuán.",
+                "vi": "Mười tệ.",
+                "note": "Cách gọi đơn vị rõ ràng."
+              }
+            ],
+            "tip": "Hai từ không nhất thiết chỉ hai loại tiền khác nhau; chọn theo tình huống giao tiếp."
+          }
+        ],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: mười đồng.",
+            "tokens": [
+              "十",
+              "块",
+              "。"
+            ],
+            "accepted": [
+              "十块。"
+            ],
+            "model": "十块。",
+            "explanation": "块 đứng sau số.",
+            "wrongFeedback": "Đặt 块 sau số tiền."
+          },
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 五____钱。",
+            "accepted": [
+              "块"
+            ],
+            "model": "五块钱。",
+            "explanation": "块钱 là cách nói năm đồng tiền.",
+            "wrongFeedback": "Chọn từ chỉ đơn vị tiền khẩu ngữ."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "formal",
+            "type": "choice",
+            "prompt": "Cách nói khẩu ngữ mười tệ là gì?",
+            "choices": [
+              "十块。",
+              "十老师。"
+            ],
             "correctIndex": 0,
-            "explanation": "Đây là hai cách diễn đạt cùng mười nhân dân tệ trong tình huống bài."
-          },
-          "q02": {
-            "correctIndex": 1,
-            "explanation": "一块蛋糕 chỉ một miếng bánh, chưa nói giá."
+            "model": "十块。",
+            "explanation": "块 là đơn vị tiền khẩu ngữ.",
+            "wrongFeedback": "Chọn từ chỉ tiền, không phải người."
           }
-        },
-        "pronunciation": {
-          "text": "块 mang thanh bốn, đọc một âm tiết gọn. Trong 一块, 一 đứng trước thanh bốn nên thường đọc thành thanh hai. Nếu sau đó có 钱 thì 块 vẫn mang thanh bốn, 钱 mang thanh hai; không bỏ âm 钱 khi đang luyện mẫu đầy đủ."
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói món đồ giá mười đồng theo cách khẩu ngữ.",
+            "hints": [
+              "Nêu số: 十.",
+              "Thêm 块 sau số.",
+              "Mẫu: 十块。"
+            ],
+            "model": "十块。",
+            "vi": "Mười đồng.",
+            "criteria": [
+              "Dùng đúng 块 trong nghĩa tiền."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Cách khẩu ngữ của mười tệ là gì?",
+            "hiddenAnswer": "十块",
+            "model": "十块。"
+          },
+          {
+            "id": "r2",
+            "prompt": "Từ nào trang trọng/trung tính hơn 块 khi ghi đơn vị tiền?",
+            "hiddenAnswer": "元",
+            "model": "十元。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: mười đồng.",
+            "choices": [
+              "十",
+              "块",
+              "。"
+            ],
+            "correct": [
+              "十块。"
+            ],
+            "explanation": "块 đứng sau số."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Cách nói khẩu ngữ mười tệ là gì?",
+            "choices": [
+              "十块。",
+              "十老师。"
+            ],
+            "correctIndex": 0,
+            "explanation": "块 là đơn vị tiền khẩu ngữ."
+          }
         }
       }
     },
@@ -11399,74 +11027,30 @@
       "meaning": "chữ",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 03; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
       "examples": [
         {
-          "zh": "我会写这个字。",
-          "vi": "Tôi biết viết chữ này.",
-          "scene": "Bạn được hỏi có biết cách viết chữ đang nhìn không.",
-          "why": "会写 nói khả năng viết; 这个字 chỉ một chữ cụ thể.",
-          "position": "会 trước 写; 这个字 sau 写.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói mình biết viết chữ đang chỉ.",
-            "choice": "Chọn 会写 cho kỹ năng viết và 这个字 để chỉ chữ này.",
-            "order": "Xếp 我, 会, 写, rồi 这个字.",
-            "result": "我会写这个字。"
-          },
-          "id": "e01"
+          "id": "e1",
+          "zh": "这个字怎么读？",
+          "pinyin": "Zhège zì zěnme dú?",
+          "vi": "Chữ này đọc thế nào?",
+          "analysis": "字 chỉ một chữ viết riêng lẻ.",
+          "practiceAllowed": true
         },
         {
-          "zh": "我不会写这个字。",
-          "vi": "Tôi không biết viết chữ này.",
-          "scene": "Bạn nhận ra mình chưa có kỹ năng viết chữ đó.",
-          "why": "不会 phủ định khả năng, không có nghĩa bạn chưa cầm bút trong hôm nay.",
-          "position": "不 trước 会, giữ 这个字 sau 写.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "你会写这个字吗？",
-          "vi": "Bạn có biết viết chữ này không?",
-          "scene": "Bạn hỏi khả năng viết của bạn học.",
-          "why": "吗 hỏi có/không về 会写.",
-          "position": "吗 ở cuối toàn câu sau 字.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "这个字很难写。",
-          "vi": "Chữ này khó viết.",
-          "scene": "Bạn nhận xét một chữ nhiều nét.",
-          "why": "难写 là khó viết, nhận xét việc viết chữ chứ không nhất thiết nói khó đọc.",
-          "position": "这个字 là chủ thể, 很难写 đứng sau.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "这个词有两个字。",
-          "vi": "Từ này có hai chữ.",
-          "scene": "Bạn phân tích một từ hai chữ như 汉语.",
-          "why": "词 chỉ từ, 字 chỉ từng đơn vị chữ viết.",
-          "position": "两个 trước 字; cụm 两个字 sau 有.",
-          "practiceAllowed": true,
-          "id": "e05"
-        },
-        {
-          "zh": "这个词有三个字。",
-          "vi": "Từ này có ba chữ.",
-          "scene": "Bạn đếm một từ ba chữ như 图书馆.",
-          "why": "图书馆 là thư viện; ba chữ hợp thành một từ trong ví dụ đang xét.",
-          "position": "三个 thay 两个 trước 字; 词 vẫn chỉ một từ.",
-          "practiceAllowed": true,
-          "id": "e06"
+          "id": "e2",
+          "zh": "我的名字有三个字。",
+          "pinyin": "Wǒ de míngzi yǒu sān ge zì.",
+          "vi": "Tên tôi có ba chữ.",
+          "analysis": "字 dùng để đếm số chữ trong một tên hoặc từ viết.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 9,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn biết viết chữ này và mô tả một từ có hai chữ.",
-      "model": "我会写这个字。这个词有两个字。",
+      "task": "Hỏi người khác tên viết bằng mấy chữ.",
+      "model": "你的名字有几个字？",
       "quiz": {
         "question": "Trong mục từ 汉语, cách mô tả nào đúng?",
         "choices": [
@@ -11491,248 +11075,156 @@
       },
       "more": [],
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 33,
+        "difficulty": "easy",
+        "difficultyReason": "字 là danh từ cơ bản chỉ chữ viết, với mẫu hỏi cách đọc và đếm chữ rõ ràng.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Chinese_characters"
+        ],
         "introduction": {
-          "partOfSpeech": "Danh từ chỉ chữ viết.",
-          "scope": "Trọng tâm là từng chữ viết, nhất là chữ Hán trong bài học; phân biệt một chữ với một từ."
-        },
-        "meaning": {
-          "scene": "Bạn nhìn chữ 汉 và muốn nói mình biết viết chữ này.",
-          "explanation": "字 trong bài là một đơn vị chữ viết. 这个字 chỉ chữ đang được nhìn hoặc nhắc tới. Một chữ Hán không phải lúc nào cũng là một từ dùng độc lập; một từ có thể gồm nhiều chữ.",
-          "boundary": "字 không tự có nghĩa một từ vựng đầy đủ. 汉语 có hai chữ 汉 và 语 nhưng là một từ chỉ ngôn ngữ. Muốn gọi từ trong đối chiếu này dùng 词.",
-          "conditions": [
-            "Đếm chữ thường dùng số + 个 + 字; chỉ chữ cụ thể dùng 这个字.",
-            "字 có thể là nội dung sau 写 hoặc 认识; 会写 nói biết viết, 认识 nói nhận biết/biết chữ trong tình huống này."
-          ],
-          "takeaway": "Khi muốn nói hoặc đếm từng chữ viết trong bài học, bạn có thể dùng 字 với 个 khi đếm hoặc chỉ định.",
-          "alternatives": [
-            {
-              "zh": "这是一个词。",
-              "vi": "Đây là một từ.",
-              "purpose": "词 là từ, khác đơn vị chữ viết 字; một từ có thể gồm một hay nhiều chữ."
-            },
-            {
-              "zh": "这个词有两个字。",
-              "vi": "Từ này có hai chữ.",
-              "purpose": "词 là từ đang xét, 两个字 là hai đơn vị chữ cấu tạo nên nó."
-            }
-          ]
+          "scope": "字 nghĩa là chữ viết hoặc ký tự, thường dùng khi nói một chữ cụ thể hoặc số chữ trong tên/từ."
         },
         "examples": [
           {
-            "zh": "我会写这个字。",
-            "vi": "Tôi biết viết chữ này.",
-            "scene": "Bạn được hỏi có biết cách viết chữ đang nhìn không.",
-            "why": "会写 nói khả năng viết; 这个字 chỉ một chữ cụ thể.",
-            "position": "会 trước 写; 这个字 sau 写.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói mình biết viết chữ đang chỉ.",
-              "choice": "Chọn 会写 cho kỹ năng viết và 这个字 để chỉ chữ này.",
-              "order": "Xếp 我, 会, 写, rồi 这个字.",
-              "result": "我会写这个字。"
-            },
-            "id": "e01"
+            "id": "e1",
+            "zh": "这个字怎么读？",
+            "pinyin": "Zhège zì zěnme dú?",
+            "vi": "Chữ này đọc thế nào?",
+            "analysis": "字 chỉ một chữ viết riêng lẻ.",
+            "practiceAllowed": true
           },
           {
-            "zh": "我不会写这个字。",
-            "vi": "Tôi không biết viết chữ này.",
-            "scene": "Bạn nhận ra mình chưa có kỹ năng viết chữ đó.",
-            "why": "不会 phủ định khả năng, không có nghĩa bạn chưa cầm bút trong hôm nay.",
-            "position": "不 trước 会, giữ 这个字 sau 写.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "你会写这个字吗？",
-            "vi": "Bạn có biết viết chữ này không?",
-            "scene": "Bạn hỏi khả năng viết của bạn học.",
-            "why": "吗 hỏi có/không về 会写.",
-            "position": "吗 ở cuối toàn câu sau 字.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "这个字很难写。",
-            "vi": "Chữ này khó viết.",
-            "scene": "Bạn nhận xét một chữ nhiều nét.",
-            "why": "难写 là khó viết, nhận xét việc viết chữ chứ không nhất thiết nói khó đọc.",
-            "position": "这个字 là chủ thể, 很难写 đứng sau.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "这个词有两个字。",
-            "vi": "Từ này có hai chữ.",
-            "scene": "Bạn phân tích một từ hai chữ như 汉语.",
-            "why": "词 chỉ từ, 字 chỉ từng đơn vị chữ viết.",
-            "position": "两个 trước 字; cụm 两个字 sau 有.",
-            "practiceAllowed": true,
-            "id": "e05"
-          },
-          {
-            "zh": "这个词有三个字。",
-            "vi": "Từ này có ba chữ.",
-            "scene": "Bạn đếm một từ ba chữ như 图书馆.",
-            "why": "图书馆 là thư viện; ba chữ hợp thành một từ trong ví dụ đang xét.",
-            "position": "三个 thay 两个 trước 字; 词 vẫn chỉ một từ.",
-            "practiceAllowed": true,
-            "id": "e06"
+            "id": "e2",
+            "zh": "我的名字有三个字。",
+            "pinyin": "Wǒ de míngzi yǒu sān ge zì.",
+            "vi": "Tên tôi có ba chữ.",
+            "analysis": "字 dùng để đếm số chữ trong một tên hoặc từ viết.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Nói hoặc hỏi biết viết một chữ.",
-            "frame": "Người + 会写 + 这个字; người + 会写 + 这个字 + 吗.",
-            "position": "这个字 đứng sau 写; 会 trước 写 nêu khả năng.",
-            "required": "这 + 个 + 字 chỉ một chữ cụ thể; không thêm 本 để đếm chữ.",
-            "omission": "Khi chữ đã hiện rõ, có thể chỉ đáp 会写 hoặc 不会写.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi sang không biết viết bằng 不会写.",
-              "exampleId": "e02",
-              "limit": "Đổi khả năng được khẳng định thành phủ định; không suy người không biết viết cũng không biết đọc."
-            },
-            "caution": "认识这个字 là biết/nhận ra chữ này, chưa tự khẳng định biết viết.",
-            "forms": [
-              {
-                "type": "Hỏi khả năng",
-                "exampleId": "e03",
-                "why": "Giữ 会写 và thêm 吗 cuối câu."
-              }
-            ],
-            "collocations": [
-              {
-                "zh": "这个字",
-                "vi": "chữ này",
-                "purpose": "Chỉ một chữ cụ thể."
-              },
-              {
-                "zh": "写字",
-                "vi": "viết chữ",
-                "purpose": "Nói hoạt động viết."
-              }
-            ],
-            "id": "u01"
-          },
-          {
-            "intent": "Đếm số chữ trong một từ.",
-            "frame": "这个词 + 有 + số + 个 + 字.",
-            "position": "词 là đối tượng đang xét; số + 个 + 字 là số chữ sau 有.",
-            "required": "Cần 个 trong mẫu đếm chữ thông thường; không đồng nhất số chữ với số từ.",
-            "omission": "Khi đã hỏi một từ có mấy chữ, có thể đáp 两个字 mà không lặp 这个词有.",
-            "exampleId": "e05",
-            "transform": {
-              "change": "Đổi hai chữ thành ba chữ của từ khác.",
-              "exampleId": "e06",
-              "limit": "Phải theo chữ thực tế của từ đang xét; không đổi số tùy thích trên cùng một từ cố định."
-            },
-            "caution": "汉语 gồm hai chữ nhưng ở đây là một từ; đếm chữ không biến nó thành hai từ.",
-            "forms": [],
+            "id": "character",
+            "title": "Chữ, ký tự",
+            "when": "Nói về một chữ riêng lẻ hoặc số chữ của một tên/từ.",
+            "meaning": "chữ; ký tự",
+            "grammar": "Có thể đứng sau 个 khi đếm.",
+            "pattern": "这个+字；số+个+字",
             "collocations": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Đếm hai chữ thành hai từ",
-            "scene": "Bạn đang nhìn 汉语 và cần nói số chữ cấu tạo.",
-            "possibleConfusion": "Bạn có thể dễ nhầm mỗi khối chữ Hán đều là một từ độc lập trong câu.",
-            "difference": "字 đếm đơn vị chữ viết; 词 đếm từ. 汉语 có hai chữ nhưng là một từ ngôn ngữ trong cách dùng này.",
-            "cases": [
+            "examples": [
               {
-                "id": "case-1",
-                "zh": "汉语有两个字。",
-                "vi": "汉语 có hai chữ.",
-                "judgment": "correct",
-                "comment": "Đếm 汉 và 语 là hai chữ viết.",
-                "practiceAllowed": false
+                "zh": "这个字怎么读？",
+                "pinyin": "Zhège zì zěnme dú?",
+                "vi": "Chữ này đọc thế nào?",
+                "note": "Hỏi cách đọc chữ cụ thể."
               },
               {
-                "id": "case-2",
-                "zh": "汉语是两个词。",
-                "vi": "汉语 là hai từ.",
-                "judgment": "wrong-intent",
-                "comment": "Câu gán cả từ 汉语 thành hai từ, không đúng phân tích mục từ đang học.",
-                "practiceAllowed": false
+                "zh": "我的名字有三个字。",
+                "pinyin": "Wǒ de míngzi yǒu sān ge zì.",
+                "vi": "Tên tôi có ba chữ.",
+                "note": "三个字 là ba chữ."
               }
-            ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Đổi nhận định hai chữ thành hai từ làm nội dung sai trong tình huống này; nói 汉语有两个字。"
-            },
-            "boundary": "Một số từ chỉ có một chữ và nhiều từ có nhiều chữ; không dùng số chữ để tự quyết định mọi ranh giới từ.",
-            "tip": "Đếm hình chữ: 字; nói từ vựng: 词.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Biết chữ chưa chắc biết viết",
-            "scene": "Bạn nhận ra chữ khi đọc nhưng không nhớ nét để viết.",
-            "possibleConfusion": "Bạn có thể dễ nhầm biết một chữ là biết trọn mọi kỹ năng với chữ đó.",
-            "difference": "认识这个字 nói nhận biết chữ; 会写这个字 nói biết cách viết chữ. Hai khả năng liên quan nhưng không đồng nhất.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我认识这个字。",
-                "vi": "Tôi biết/nhận ra chữ này.",
-                "judgment": "correct",
-                "comment": "Có thể nói khi nhận ra chữ đang nhìn.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我会写这个字。",
-                "vi": "Tôi biết viết chữ này.",
-                "judgment": "different-meaning",
-                "comment": "Khẳng định thêm kỹ năng viết, không chỉ nhận biết.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 认识 bằng 会写 đổi kỹ năng đang được báo. Nếu chỉ nhận ra mà chưa viết được, giữ 我认识这个字。"
-            },
-            "boundary": "Có thể nhận ra nhưng không đọc chắc hoặc không viết được; nếu cần nói rõ từng khả năng thì dùng câu riêng.",
-            "tip": "Người ta hỏi nhận ra hay viết được? Chọn 认识 hoặc 会写 theo đúng kỹ năng.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "q02"
-          }
-        ],
-        "checks": [
-          {
-            "id": "q01",
-            "question": "Trong mục từ 汉语, cách mô tả nào đúng?",
-            "choices": [
-              "Một từ gồm hai chữ.",
-              "Luôn là hai từ chỉ vì có hai chữ."
-            ]
-          },
-          {
-            "id": "q02",
-            "question": "Bạn nhận ra chữ nhưng không biết viết. Câu nào nêu đúng phần bạn làm được?",
-            "choices": [
-              "我会写这个字。",
-              "我认识这个字。"
             ]
           }
         ],
-        "answers": {
-          "q01": {
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Chữ này đọc thế nào?",
+            "tokens": [
+              "这个字",
+              "怎么",
+              "读",
+              "？"
+            ],
+            "accepted": [
+              "这个字怎么读？"
+            ],
+            "model": "这个字怎么读？",
+            "explanation": "这个字 là chữ này.",
+            "wrongFeedback": "Đặt cụm 这个字 trước câu hỏi cách đọc."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "character",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là chữ viết.",
+            "choices": [
+              "字",
+              "人"
+            ],
             "correctIndex": 0,
-            "explanation": "汉语 là một từ có hai chữ 汉 và 语 trong bài này."
-          },
-          "q02": {
-            "correctIndex": 1,
-            "explanation": "认识 nói nhận biết; không tự khẳng định khả năng viết."
+            "model": "字",
+            "explanation": "字 là chữ; 人 là người.",
+            "wrongFeedback": "Phân biệt chữ với người."
           }
-        },
-        "pronunciation": {
-          "text": "字 mang thanh bốn. Âm đầu ở vị trí trước trong miệng hơn âm đầu của 事; không uốn lưỡi giống 事. Đọc một âm tiết gọn, không thêm một nguyên âm riêng ở cuối. Trong 一个字, 个 có thể đọc nhẹ khi nói liền, nhưng 字 vẫn giữ thanh bốn."
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Hỏi chữ này đọc thế nào.",
+            "hints": [
+              "Chỉ vào chữ: 这个字.",
+              "Thêm 怎么读 để hỏi cách đọc.",
+              "Mẫu: 这个字怎么读？"
+            ],
+            "model": "这个字怎么读？",
+            "vi": "Chữ này đọc thế nào?",
+            "criteria": [
+              "Dùng đúng 字."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là chữ?",
+            "hiddenAnswer": "字",
+            "model": "字"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 三个__。",
+            "hiddenAnswer": "字",
+            "model": "三个字。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Chữ này đọc thế nào?",
+            "choices": [
+              "这个字",
+              "怎么",
+              "读",
+              "？"
+            ],
+            "correct": [
+              "这个字怎么读？"
+            ],
+            "explanation": "这个字 là chữ này."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là chữ viết.",
+            "choices": [
+              "字",
+              "人"
+            ],
+            "correctIndex": 0,
+            "explanation": "字 là chữ."
+          }
         }
       }
     },
@@ -11749,65 +11241,30 @@
       "meaning": "nhất",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 03; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 008",
       "examples": [
         {
-          "zh": "我最喜欢茶。",
-          "vi": "Tôi thích trà nhất.",
-          "scene": "Bạn chọn đồ uống yêu thích nhất trong nhóm đang bàn.",
-          "why": "最 xếp mức thích trà đứng đầu trong phạm vi liên quan.",
-          "position": "最 trước 喜欢, 茶 sau 喜欢.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Nói trà là đồ uống mình thích nhất.",
-            "choice": "Chọn 最喜欢 cho mức thích đứng đầu và 茶 làm thứ được thích.",
-            "order": "Xếp 我, 最, 喜欢, rồi 茶.",
-            "result": "我最喜欢茶。"
-          },
-          "id": "e01"
+          "id": "e1",
+          "zh": "我最喜欢这个。",
+          "pinyin": "Wǒ zuì xǐhuan zhège.",
+          "vi": "Tôi thích cái này nhất.",
+          "analysis": "最 đứng trước động từ hoặc tính từ để biểu thị mức độ cao nhất.",
+          "practiceAllowed": true
         },
         {
-          "zh": "我最喜欢咖啡。",
-          "vi": "Tôi thích cà phê nhất.",
-          "scene": "Bạn nói lựa chọn đứng đầu của riêng mình.",
-          "why": "Thay 茶 bằng 咖啡 thay đồ uống đứng đầu, không chỉ thêm mức độ rất.",
-          "position": "最 vẫn trước 喜欢; 咖啡 sau 喜欢.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "你最喜欢什么？",
-          "vi": "Bạn thích gì nhất?",
-          "scene": "Bạn hỏi lựa chọn yêu thích nhất của người đối diện.",
-          "why": "什么 hỏi đối tượng được thích nhất, giữ 最 để hỏi thứ đứng đầu.",
-          "position": "最 trước 喜欢, 什么 ở vị trí đối tượng; không thêm 吗.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "我最不喜欢咖啡。",
-          "vi": "Cà phê là thứ tôi không thích nhất trong nhóm đang nói.",
-          "scene": "Bạn chỉ ra đồ uống ít được mình ưa thích nhất.",
-          "why": "最 tác động tới 不喜欢, nêu mức không thích nổi bật nhất trong phạm vi.",
-          "position": "最 trước cả cụm 不喜欢; 不 trước 喜欢.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "这三本书里，这本最好。",
-          "vi": "Trong ba quyển sách này, quyển này tốt nhất.",
-          "scene": "Bạn so chất lượng ba quyển sách.",
-          "why": "这三本书里 nêu phạm vi; 最好 xếp quyển được chỉ đứng đầu.",
-          "position": "最 trước 好; không đặt 很 trước 最好.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "id": "e2",
+          "zh": "今天最冷。",
+          "pinyin": "Jīntiān zuì lěng.",
+          "vi": "Hôm nay lạnh nhất.",
+          "analysis": "最 đứng trước tính từ 冷.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 10,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn thích trà nhất rồi hỏi người đối diện thích gì nhất.",
-      "model": "我最喜欢茶。你最喜欢什么？",
+      "task": "Nói bạn thích món này nhất.",
+      "model": "我最喜欢这个。",
       "quiz": {
         "question": "Câu nào nói rõ trà là lựa chọn được thích nhất?",
         "choices": [
@@ -11832,251 +11289,158 @@
       },
       "more": [],
       "lesson": {
-        "version": 1,
-        "authorship": "Biên soạn riêng cho người Việt mới học; tự rà soát, chưa phản biện giáo viên độc lập.",
-        "sources": [],
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 34,
+        "difficulty": "easy",
+        "difficultyReason": "最 là phó từ mức độ cao nhất, vị trí trước động từ/tính từ ổn định.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Superlative_adverbs"
+        ],
         "introduction": {
-          "partOfSpeech": "Phó từ chỉ mức cao nhất hoặc lựa chọn đứng đầu trong một phạm vi.",
-          "scope": "Trọng tâm là nhất khi so trong một nhóm hoặc theo sở thích; không đồng nhất với rất."
-        },
-        "meaning": {
-          "scene": "Bạn có vài món đồ uống và muốn nói mình thích trà nhất.",
-          "explanation": "最 đặt trước tính chất hoặc cụm chỉ cảm nhận như 喜欢 để nói đứng đầu về một mặt trong phạm vi đang xét. 我最喜欢茶 nói trà là thứ mình thích nhất trong nhóm hoặc mạch nói liên quan.",
-          "boundary": "最 khác 很: rất tốt không tự có nghĩa tốt nhất. Phạm vi so sánh có thể đã rõ trong hội thoại, không bắt buộc lần nào cũng nêu ra, nhưng không suy thành đứng đầu mọi người và mọi thời điểm.",
-          "conditions": [
-            "最 đứng trước tính chất hoặc cụm như 喜欢; không đặt sau danh từ trà theo thứ tự dịch tiếng Việt.",
-            "Mẫu cơ bản dùng 最好, không ghép 很最好 để tăng mức độ; 最不喜欢 nói ít thích/không thích nhất trong một nhóm."
-          ],
-          "takeaway": "Khi muốn nói điều đứng đầu về mức độ hoặc sở thích trong phạm vi liên quan, bạn có thể đặt 最 trước phần chỉ mức đó.",
-          "alternatives": [
-            {
-              "zh": "我很喜欢茶。",
-              "vi": "Tôi rất thích trà.",
-              "purpose": "很 nêu mức thích cao, chưa xếp trà đứng đầu."
-            },
-            {
-              "zh": "这本书很好。",
-              "vi": "Quyển sách này rất tốt/hay.",
-              "purpose": "很好 là lời khen, không tự khẳng định sách đứng đầu nhóm."
-            }
-          ]
+          "scope": "最 nghĩa là nhất, dùng để nêu mức độ cao nhất trong một phạm vi so sánh."
         },
         "examples": [
           {
-            "zh": "我最喜欢茶。",
-            "vi": "Tôi thích trà nhất.",
-            "scene": "Bạn chọn đồ uống yêu thích nhất trong nhóm đang bàn.",
-            "why": "最 xếp mức thích trà đứng đầu trong phạm vi liên quan.",
-            "position": "最 trước 喜欢, 茶 sau 喜欢.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Nói trà là đồ uống mình thích nhất.",
-              "choice": "Chọn 最喜欢 cho mức thích đứng đầu và 茶 làm thứ được thích.",
-              "order": "Xếp 我, 最, 喜欢, rồi 茶.",
-              "result": "我最喜欢茶。"
-            },
-            "id": "e01"
+            "id": "e1",
+            "zh": "我最喜欢这个。",
+            "pinyin": "Wǒ zuì xǐhuan zhège.",
+            "vi": "Tôi thích cái này nhất.",
+            "analysis": "最 đứng trước động từ hoặc tính từ để biểu thị mức độ cao nhất.",
+            "practiceAllowed": true
           },
           {
-            "zh": "我最喜欢咖啡。",
-            "vi": "Tôi thích cà phê nhất.",
-            "scene": "Bạn nói lựa chọn đứng đầu của riêng mình.",
-            "why": "Thay 茶 bằng 咖啡 thay đồ uống đứng đầu, không chỉ thêm mức độ rất.",
-            "position": "最 vẫn trước 喜欢; 咖啡 sau 喜欢.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "你最喜欢什么？",
-            "vi": "Bạn thích gì nhất?",
-            "scene": "Bạn hỏi lựa chọn yêu thích nhất của người đối diện.",
-            "why": "什么 hỏi đối tượng được thích nhất, giữ 最 để hỏi thứ đứng đầu.",
-            "position": "最 trước 喜欢, 什么 ở vị trí đối tượng; không thêm 吗.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "我最不喜欢咖啡。",
-            "vi": "Cà phê là thứ tôi không thích nhất trong nhóm đang nói.",
-            "scene": "Bạn chỉ ra đồ uống ít được mình ưa thích nhất.",
-            "why": "最 tác động tới 不喜欢, nêu mức không thích nổi bật nhất trong phạm vi.",
-            "position": "最 trước cả cụm 不喜欢; 不 trước 喜欢.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "这三本书里，这本最好。",
-            "vi": "Trong ba quyển sách này, quyển này tốt nhất.",
-            "scene": "Bạn so chất lượng ba quyển sách.",
-            "why": "这三本书里 nêu phạm vi; 最好 xếp quyển được chỉ đứng đầu.",
-            "position": "最 trước 好; không đặt 很 trước 最好.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "id": "e2",
+            "zh": "今天最冷。",
+            "pinyin": "Jīntiān zuì lěng.",
+            "vi": "Hôm nay lạnh nhất.",
+            "analysis": "最 đứng trước tính từ 冷.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Nói hoặc hỏi thứ mình thích nhất.",
-            "frame": "Người + 最喜欢 + đối tượng; người + 最喜欢 + 什么？",
-            "position": "最 đứng trước 喜欢, không đứng sau đối tượng.",
-            "required": "Cần đối tượng nếu chưa rõ thích gì; phạm vi có thể hiểu theo nhóm đang nói.",
-            "omission": "Khi đang chọn giữa vài đồ uống, có thể chỉ đáp 茶 hoặc 我最喜欢茶; không bắt buộc nhắc lại cả danh sách.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Đổi thứ thích nhất từ trà sang cà phê.",
-              "exampleId": "e02",
-              "limit": "Chỉ đổi đối tượng theo sở thích thật; câu vẫn nói đứng đầu, không phải đơn thuần rất thích."
-            },
-            "caution": "Không đặt 最 cuối câu thành 我喜欢茶最 trong mẫu này.",
-            "forms": [
-              {
-                "type": "Hỏi sở thích đứng đầu",
-                "exampleId": "e03",
-                "why": "什么 ở chỗ đối tượng chưa biết."
-              },
-              {
-                "type": "Nói thứ ít thích nhất",
-                "exampleId": "e04",
-                "why": "最 đứng trước 不喜欢, không tự đổi thành phủ định của câu thích nhất."
-              }
-            ],
+            "id": "most",
+            "title": "Nhất",
+            "when": "So sánh từ ba đối tượng hoặc trong một phạm vi đã biết.",
+            "meaning": "nhất",
+            "grammar": "最 đứng trước động từ chỉ sở thích hoặc tính từ.",
+            "pattern": "最+động từ/tính từ",
             "collocations": [],
-            "id": "u01"
-          },
-          {
-            "intent": "So điều tốt nhất trong một nhóm xác định.",
-            "frame": "Phạm vi + 里, đối tượng + 最好.",
-            "position": "最 trước 好; phạm vi như 这三本书里 đặt trước lời nhận xét.",
-            "required": "Cần nhóm so sánh hiểu được theo lời nói hoặc tình huống; không cần 很 để tạo câu với 最.",
-            "omission": "Nếu đang nhìn ba quyển đã được nhắc, có thể nói 这本最好 mà không lặp phạm vi.",
-            "exampleId": "e05",
-            "transform": {
-              "change": "Đổi từ so sách sang nói món đồ uống được thích nhất.",
-              "exampleId": "e01",
-              "limit": "最好 nhận xét tốt nhất, 最喜欢 nêu sở thích cá nhân; không dùng chúng như mọi đánh giá giống nhau."
-            },
-            "caution": "Không suy 好 nhất trong ba quyển thành tốt nhất trên toàn thế giới.",
-            "forms": [],
-            "collocations": [
+            "examples": [
               {
-                "zh": "最喜欢",
-                "vi": "thích nhất",
-                "purpose": "Xếp lựa chọn theo sở thích."
+                "zh": "我最喜欢这个。",
+                "pinyin": "Wǒ zuì xǐhuan zhège.",
+                "vi": "Tôi thích cái này nhất.",
+                "note": "最 đứng trước 喜欢."
               },
               {
-                "zh": "最好",
-                "vi": "tốt nhất",
-                "purpose": "So chất lượng trong phạm vi."
+                "zh": "今天最冷。",
+                "pinyin": "Jīntiān zuì lěng.",
+                "vi": "Hôm nay lạnh nhất.",
+                "note": "最 đứng trước 冷."
               }
-            ],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Rất thích chưa khẳng định thích nhất",
-            "scene": "Bạn chỉ muốn nói trà đứng đầu các đồ uống mình thích.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rất và nhất đều làm mức cao nên thay nhau.",
-            "difference": "很喜欢 nói thích nhiều; 最喜欢 còn xếp đối tượng đứng đầu trong phạm vi đang xét.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我最喜欢茶。",
-                "vi": "Tôi thích trà nhất.",
-                "judgment": "correct",
-                "comment": "Có xếp hạng sở thích.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我很喜欢茶。",
-                "vi": "Tôi rất thích trà.",
-                "judgment": "different-meaning",
-                "comment": "Mức thích cao nhưng chưa nói trà đứng đầu.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "different-meaning",
-              "explanation": "Thay 最 bằng 很 bỏ thông tin xếp đứng đầu. Nếu muốn nói thích nhất, giữ 最喜欢."
-            },
-            "boundary": "Một người thích trà nhất có thể đồng thời rất thích trà, nhưng hai câu không cung cấp đúng cùng lượng thông tin.",
-            "tip": "Chỉ mức cao: 很; có đứng đầu trong nhóm: 最.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "q01"
-          },
-          {
-            "title": "Đặt 最 sau đối tượng theo tiếng Việt",
-            "scene": "Bạn muốn nói tôi thích trà nhất.",
-            "possibleConfusion": "Bạn có thể dễ nhầm thứ tự tiếng Việt thích trà nhất rồi chuyển từng phần sang tiếng Trung.",
-            "difference": "Trong mẫu này 最 phải đứng trước 喜欢, không đặt cuối sau 茶.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "我最喜欢茶。",
-                "vi": "Tôi thích trà nhất.",
-                "judgment": "correct",
-                "comment": "最 trước cụm cảm nhận 喜欢.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "我喜欢茶最。",
-                "vi": "Ý định: tôi thích trà nhất.",
-                "judgment": "wrong-grammar",
-                "comment": "最 đứng cuối câu không đúng vị trí trong mẫu sở thích này.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "wrong-grammar",
-              "explanation": "Đưa 最 về trước 喜欢: 我最喜欢茶。"
-            },
-            "boundary": "Không suy mọi từ mức độ đều có cùng mọi vị trí; bài chỉ tập trung mẫu 最喜欢 và 最好.",
-            "tip": "Muốn ráp thích nhất, giữ 最喜欢 liền nhau trước đối tượng.",
-            "corrections": [
-              {
-                "caseId": "case-2",
-                "zh": "我最喜欢茶。",
-                "vi": "Tôi thích trà nhất.",
-                "reason": "Chuyển 最 từ cuối câu lên trước 喜欢."
-              }
-            ],
-            "id": "t02",
-            "checkId": "q02"
-          }
-        ],
-        "checks": [
-          {
-            "id": "q01",
-            "question": "Câu nào nói rõ trà là lựa chọn được thích nhất?",
-            "choices": [
-              "我很喜欢茶。",
-              "我最喜欢茶。"
-            ]
-          },
-          {
-            "id": "q02",
-            "question": "Điền vị trí đúng của 最 để nói thích trà nhất.",
-            "choices": [
-              "我最喜欢茶。",
-              "我喜欢茶最。"
             ]
           }
         ],
-        "answers": {
-          "q01": {
-            "correctIndex": 1,
-            "explanation": "最喜欢 nêu đứng đầu; 很喜欢 không tự xếp hạng."
-          },
-          "q02": {
+        "confusions": [],
+        "guidedExercises": [
+          {
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp: Tôi thích cái này nhất.",
+            "tokens": [
+              "我",
+              "最",
+              "喜欢",
+              "这个",
+              "。"
+            ],
+            "accepted": [
+              "我最喜欢这个。"
+            ],
+            "model": "我最喜欢这个。",
+            "explanation": "最 đứng trước 喜欢.",
+            "wrongFeedback": "Đặt 最 trước từ chỉ sở thích."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "senseId": "most",
+            "type": "meaning",
+            "prompt": "Chọn từ nghĩa là nhất.",
+            "choices": [
+              "最",
+              "很"
+            ],
             "correctIndex": 0,
-            "explanation": "最 đứng trước 喜欢 trong mẫu này."
+            "model": "最",
+            "explanation": "最 biểu thị mức cao nhất; 很 nghĩa là rất.",
+            "wrongFeedback": "Phân biệt nhất với rất."
           }
-        },
-        "pronunciation": {
-          "text": "最 mang thanh bốn, đọc một âm tiết gọn và hạ giọng. Không tách phần cuối thành một tiếng riêng. Trong 最喜欢, 最 đứng trước 喜 có thanh gốc ba; không có quy tắc đổi 最 thành thanh hai vì vị trí đó."
+        ],
+        "productionExercises": [
+          {
+            "id": "p1",
+            "prompt": "Nói bạn thích món này nhất.",
+            "hints": [
+              "Nêu chủ thể: 我.",
+              "Đặt 最 trước 喜欢.",
+              "Mẫu: 我最喜欢这个。"
+            ],
+            "model": "我最喜欢这个。",
+            "vi": "Tôi thích cái này nhất.",
+            "criteria": [
+              "Dùng đúng vị trí 最."
+            ]
+          }
+        ],
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Từ nào nghĩa là nhất?",
+            "hiddenAnswer": "最",
+            "model": "最"
+          },
+          {
+            "id": "r2",
+            "prompt": "Hoàn thành: 我__喜欢这个。",
+            "hiddenAnswer": "最",
+            "model": "我最喜欢这个。"
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Tôi thích cái này nhất.",
+            "choices": [
+              "我",
+              "最",
+              "喜欢",
+              "这个",
+              "。"
+            ],
+            "correct": [
+              "我最喜欢这个。"
+            ],
+            "explanation": "最 đứng trước 喜欢."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Chọn từ nghĩa là nhất.",
+            "choices": [
+              "最",
+              "很"
+            ],
+            "correctIndex": 0,
+            "explanation": "最 biểu thị mức cao nhất."
+          }
         }
       }
     },
