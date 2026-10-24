@@ -1,28 +1,3 @@
-import fs from 'node:fs';
-import assert from 'node:assert/strict';
-import {auditLesson,lessonAudio} from '../../js/lesson-standard.js';
-
-const read=f=>JSON.parse(fs.readFileSync(new URL('../../'+f,import.meta.url),'utf8'));
-const course=read('data/vocabulary/hanzii-course.json');
-const checkpoint=read('tools/vocabulary/review-checkpoint.json');
-const batches=['review-001','review-002','review-003','review-004','review-005','review-006','review-007','review-008','review-009','review-010','review-011','review-012','review-013','review-014','review-015','review-016'].map(id=>read(`tools/vocabulary/reviews/${id}.json`));
-const entries=batches.flatMap(batch=>batch.entries);
-const byId=new Map(course.words.map(w=>[w.id,w]));
-const ready=course.words.filter(w=>auditLesson(w).ready);
-assert.equal(ready.length,checkpoint.scope.total,'Review scope must match structured lessons.');
-assert.equal(checkpoint.reviewedIds.length,checkpoint.reviewedCount);
-assert.deepEqual(checkpoint.reviewedIds,ready.slice(0,checkpoint.reviewedCount).map(w=>w.id),'Reviewed IDs must be a course-order prefix.');
-assert.deepEqual(entries.map(e=>e.id),checkpoint.reviewedIds,'Review batch and checkpoint IDs differ.');
-for(const entry of entries){
-  const w=byId.get(entry.id);assert(w,`Missing review ID ${entry.id}`);assert.equal(auditLesson(w).ready,true,`${entry.hanzi} is not structurally ready`);
-  assert.match(entry.difficulty,/^(dá»…|trung bÃ¬nh|khÃ³)$/);assert(entry.reason.length>10);assert.match(entry.status,/^reviewed$/);
-  assert(lessonAudio(w).length>0,`${entry.hanzi} has no lesson audio plan`);
-}
-const you=byId.get('hz-h1-0a3f1c936624');
-assert.equal(you.scene,'Báº¡n há»i ngÆ°á»i Ä‘ang nÃ³i chuyá»‡n cÃ³ pháº£i lÃ  giÃ¡o viÃªn khÃ´ng.');
-assert.equal(you.pattern,'ä½  + thá»i gian + hoáº¡t Ä‘á»™ng; ä½  + æ˜¯ + ngÆ°á»i hoáº·c vai trÃ² + å—');
-assert.equal(you.lesson.usages[0].intent,'XÃ¡c nháº­n ngÆ°á»i Ä‘ang nÃ³i chuyá»‡n cÃ³ pháº£i lÃ  má»™t ngÆ°á»i hoáº·c vai trÃ² nÃ o Ä‘Ã³.');
-assert(!JSON.stringify(you).includes('Há»i ngÆ°á»i Ä‘ang nÃ³i chuyá»‡n lÃ  ai.'));
-assert(!JSON.stringify(you).includes('ä½  + æ˜¯ + danh tÃ­nh + å—'));
-assert.equal(checkpoint.supplementation.status,'paused-until-review-complete');
-console.log(`PASS review: ${checkpoint.reviewedCount}/${checkpoint.scope.total} reviewed; batch IDs, difficulty metadata, lesson/audio checks, and ä½  correction verified; supplementation remains paused.`);
+zö¥Öšèqë,²×hºÜ+Š×«z«¢­çì­æ)^K)Ü¶Š%³ûèq¦î•ªòş÷«‰ü«zøÂhì¶„­®)àm«ë„^}êŞÇ„®º+¶Š%²+'¢×^~)Şu«^½©uãÖ­®éÒr¸©´‰Ó†+¢{^ÆÙèuè§µêçj_ï›m}×F­‡^Š{^®v¥şšèqë,ıì^rëb¢~9×]šµëÚ—
+Ú¦—«ën¶»§IÊâ¦Ò'
+‰í{g¡×¢×«©¦ºzË?{œºØ¨Ÿ=ëF­zö¥éÜ¶*'‡^Š{^®v¥şšèqë,ıì^rëb¢}¼ß}µëÚ•<©y'+Š›g¡×¢×«©¦ºzË?{œºØ¨Ÿoyİ«g¡×¢×«©™¨§ıëÚ–ËkŠx;×shuèì¿n5÷
