@@ -1233,15 +1233,17 @@
     "browserVisualLayout": "dom-simulation-only",
     "qualityRevision": "passed-internal"
   },
-  "status": "verified-pending-publish",
-  "lastVerifiedRemoteCommit": "49e50a7c7308087c7cabf2908b7383a1d3bdc59f",
+  "status": "deployed-and-live-verified",
+  "lastVerifiedRemoteCommit": "68f338fe74dc481b592933d71ae617317d1272c2",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
-    "status": "pending-current-batch",
-    "pagesRunId": 40087407751,
-    "pagesHeadSha": "49e50a7c7308087c7cabf2908b7383a1d3bdc59f",
-    "pagesStatus": "previous-commit-verified",
-    "liveCourseDigestSha256": "5b9373edf9a888390927584b67d6bdeb2f6b524cf6ab44c4af8f683b7b59dda4",
+    "status": "success",
+    "pagesRunId": 40090190300,
+    "pagesHeadSha": "68f338fe74dc481b592933d71ae617317d1272c2",
+    "pagesStatus": "success",
+    "localCourseDigestSha256": "481e562f1b5639034163145c87c2605fdde49c1b1e34cc97db4bf36ee2c48e5d",
+    "liveCourseDigestSha256": "a215805db2f5f38c1af33115bb247fa2c82cf5b329832cded1fa884df01fb364",
+    "liveSemanticEqual": true,
     "liveLessonsVerified": [
       "hz-h1-64d354d405bb",
       "hz-h1-0a3f1c936624",
@@ -1275,7 +1277,7 @@
       "hz-h1-eca0ce94b683"
     ]
   },
-  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
+  "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline. Pages deployment 7298012150/run 40090190300 success; dữ liệu live semantic deep-equal với course local, byte digest khác do Pages serialization.",
   "lastBatch": "quality-revision-015",
   "currentBatch": {
     "id": "quality-revision-015",
@@ -1283,7 +1285,7 @@
     "ordinalTo": 101,
     "entryCount": 10,
     "batchFileSha256": "276650d4d5345496be8bc90e7734e19b3b83d46d571711aee923d607a7e50ed5",
-    "status": "verified-pending-publish",
+    "status": "deployed-and-live-verified",
     "baselineCompletionDelta": 0
   }
 }
