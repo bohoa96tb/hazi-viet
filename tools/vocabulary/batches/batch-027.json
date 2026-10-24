@@ -1,0 +1,155 @@
+{
+  "id": "batch-027",
+  "authorship": "2 mục baseline 366–367; tự biên soạn, đối chiếu MDBG, tự rà ngôn ngữ; chưa phản biện giáo viên độc lập.",
+  "editorialPlan": {
+    "policy": "Giữ schema V2; biên soạn nối tiếp baseline theo thứ tự ID.",
+    "difficultyAssessment": [
+      {
+        "id": "hz-h1-a3527d0310fc",
+        "ordinal": 366,
+        "hanzi": "放学",
+        "difficulty": "trung bình",
+        "reason": "Cần phân biệt tan cả buổi học với hết một tiết 下课 và dùng đúng trong câu nói về học sinh."
+      },
+      {
+        "id": "hz-h1-56730712e191",
+        "ordinal": 367,
+        "hanzi": "最后",
+        "difficulty": "trung bình",
+        "reason": "Vừa chỉ vị trí cuối vừa làm trạng ngữ; dễ nhầm với 终于 khi tiếng Việt đều có thể dịch là cuối cùng."
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": "hz-h1-a3527d0310fc",
+      "hanzi": "放学",
+      "wordEdits": {
+        "meaning": "tan học",
+        "intro": [{"pinyin": "fàngxué", "meaning": "tan học"}],
+        "editorialStatus": "Biên soạn V2 · batch-027 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 366,
+        "authorship": "Tự biên soạn, đối chiếu MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": ["https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E6%94%BE%E5%AD%A6"],
+        "introduction": {"scope": "tan học"},
+        "meaning": {
+          "scene": "Học sinh kết thúc cả buổi học và có thể rời trường.",
+          "explanation": "放学 nói về lúc buổi học kết thúc, thường gắn với học sinh tan trường; không có nghĩa là bỏ học.",
+          "boundary": "下课 thường là hết một tiết, còn 放学 là hết buổi học để tan trường.",
+          "conditions": ["Dùng khi nói về thời điểm hoặc việc học sinh tan học; giờ tan học có thể đứng trước từ."],
+          "takeaway": "放学 là tan cả buổi học, không phải bỏ học."
+        },
+        "usages": [
+          {"id": "u1", "frame": "chủ thể + thời gian + 放学", "position": "Thời gian có thể đứng trước 放学; chủ thể thường là học sinh hoặc người đi học.", "required": "Cần có ngữ cảnh buổi học kết thúc.", "omission": "Trong hội thoại, chủ thể hoặc thời gian có thể lược nếu đã rõ.", "exampleId": "e1"},
+          {"id": "u2", "frame": "放学 + rồi / về nhà", "position": "Có thể nối với 了 hoặc hành động về nhà để nói kết quả sau khi tan học.", "required": "Phần sau phải phù hợp với việc buổi học đã kết thúc.", "omission": "Có thể chỉ nói 放学了 khi người nghe đã biết ai tan học.", "exampleId": "e2"}
+        ],
+        "examples": [
+          {"id": "e1", "zh": "妹妹下午四点放学。", "vi": "Em gái tan học lúc bốn giờ chiều.", "analysis": "下午四点 là thời gian đặt trước 放学; chủ thể là 妹妹.", "practiceAllowed": true},
+          {"id": "e2", "zh": "放学以后，我们一起回家。", "vi": "Sau khi tan học, chúng tôi cùng về nhà.", "analysis": "放学以后 tạo mốc thời gian cho hành động 回家; đây là hết buổi học, không chỉ hết một tiết.", "practiceAllowed": true}
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "放学 và 下课",
+            "scene": "Muốn nói hết một tiết hay tan cả buổi học.",
+            "possibleConfusion": "Cả hai đều liên quan đến việc học kết thúc, nhưng phạm vi thời gian khác nhau.",
+            "difference": "下课 nhấn hết một tiết và giáo viên có thể cho học sinh nghỉ giữa các tiết; 放学 nhấn kết thúc buổi học và thường là lúc học sinh rời trường.",
+            "cases": [
+              {"id": "c1", "zh": "老师说下课了。", "vi": "Giáo viên nói hết tiết rồi.", "comment": "Chỉ nói một tiết đã kết thúc.", "judgment": "correct", "practiceAllowed": false},
+              {"id": "c2", "zh": "下午四点放学以后，孩子回家了。", "vi": "Sau khi tan học lúc bốn giờ chiều, đứa trẻ về nhà.", "comment": "Nói về tan cả buổi và rời trường.", "judgment": "correct", "practiceAllowed": false}
+            ],
+            "replacement": {"result": "different-meaning", "explanation": "Đổi 放学 và 下课 có thể làm đổi từ tan cả buổi sang hết một tiết hoặc ngược lại."},
+            "boundary": "Một tiết cuối có thể vừa 下课 vừa gần với lúc 放学, nhưng hai từ vẫn không cùng phạm vi.",
+            "tip": "Hết một tiết dùng 下课; tan cả buổi dùng 放学."
+          }
+        ],
+        "trapReview": {"readingsAndMeanings": "Đã rà cách đọc và nghĩa thông dụng.", "literalTranslation": "Đã rà bẫy dịch từng chữ; 放学 không phải bỏ học.", "confusables": "Đã rà 下课 và phạm vi tan học."},
+        "pronunciation": {"text": "Đọc rõ hai âm tiết và giữ đủ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."},
+        "checks": [
+          {"id": "q1", "type": "open", "question": "Điền từ: 妹妹下午四点___。"},
+          {"id": "q2", "type": "open", "question": "Hết một tiết nhưng chưa tan trường thì dùng 下课 hay 放学?"}
+        ],
+        "answers": {
+          "q1": {"accepted": ["放学"], "explanation": "Câu nói về giờ em gái tan cả buổi học nên dùng 放学."},
+          "q2": {"accepted": ["下课"], "explanation": "下课 dùng cho việc hết một tiết; 放学 dùng cho việc kết thúc cả buổi học."}
+        },
+        "selfUse": [
+          {"id": "s1", "prompt": "Nói em gái tan học lúc năm giờ chiều."},
+          {"id": "s2", "prompt": "Nói sau khi tan học, bạn cùng bạn về nhà."}
+        ],
+        "selfAnswers": {
+          "s1": {"idea": "Nêu chủ thể và giờ tan học.", "frame": "chủ thể + thời gian + 放学", "model": "妹妹下午五点放学。", "vi": "Em gái tan học lúc năm giờ chiều.", "criteria": ["Có chủ thể và thời gian phù hợp.", "Dùng 放学 cho việc tan cả buổi học."]},
+          "s2": {"idea": "Nêu mốc sau khi tan học rồi nói cùng về nhà.", "frame": "放学以后 + chủ thể + cùng về nhà", "model": "放学以后，我和朋友一起回家。", "vi": "Sau khi tan học, tôi cùng bạn về nhà.", "criteria": ["Dùng 放学以后 làm mốc thời gian.", "Câu sau diễn đạt được hành động về nhà."]}
+        }
+      }
+    },
+    {
+      "id": "hz-h1-56730712e191",
+      "hanzi": "最后",
+      "wordEdits": {
+        "meaning": "cuối cùng; sau cùng",
+        "intro": [{"pinyin": "zuìhòu", "meaning": "cuối cùng; sau cùng"}],
+        "editorialStatus": "Biên soạn V2 · batch-027 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 367,
+        "authorship": "Tự biên soạn, đối chiếu MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": ["https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E6%9C%80%E5%90%8E"],
+        "introduction": {"scope": "cuối cùng; sau cùng"},
+        "meaning": {
+          "scene": "Kể các bước theo thứ tự và nói đến bước ở cuối, hoặc xác định vật đứng cuối một nhóm.",
+          "explanation": "最后 chỉ vị trí hoặc thời điểm sau cùng trong một chuỗi. Nó không tự cho biết người nói đã phải chờ đợi lâu.",
+          "boundary": "终于 nhấn kết quả đạt được sau chờ đợi hoặc khó khăn; 最后 chỉ thứ tự cuối, dù có thể không hề chờ đợi.",
+          "conditions": ["Đặt trước động tác để nêu bước cuối, hoặc trước danh từ với 的 để chỉ vật ở cuối."],
+          "takeaway": "最后 trả lời câu hỏi ‘ở bước cuối/lúc sau cùng là gì’, không nhất thiết là ‘cuối cùng cũng đạt được’."
+        },
+        "usages": [
+          {"id": "u1", "frame": "最后 + động tác / sự việc", "position": "Đặt đầu câu hoặc trước động tác để đánh dấu bước sau cùng.", "required": "Chuỗi sự việc hoặc thứ tự phải được hiểu từ ngữ cảnh.", "omission": "Có thể bỏ phần liệt kê các bước trước nếu người nghe đã biết.", "exampleId": "e1"},
+          {"id": "u2", "frame": "最后的 + danh từ", "position": "Đặt trước danh từ; 的 nối 最后 với danh từ được bổ nghĩa.", "required": "Cần danh từ hoặc cụm danh từ sau 最后的.", "omission": "Trong khẩu ngữ có thể nói 最后一个 thay cho việc lặp danh từ đã rõ.", "exampleId": "e2"}
+        ],
+        "examples": [
+          {"id": "e1", "zh": "最后，我们一起回家。", "vi": "Cuối cùng, chúng tôi cùng về nhà.", "analysis": "最后 đánh dấu bước sau cùng trong lịch trình; câu không nói rằng trước đó đã chờ đợi hay gặp khó khăn.", "practiceAllowed": true},
+          {"id": "e2", "zh": "这是最后一本书。", "vi": "Đây là quyển sách cuối cùng.", "analysis": "最后的 + danh từ có thể rút gọn thành 最后一本; 一本 là lượng từ của sách.", "practiceAllowed": true}
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "最后 và 终于",
+            "scene": "Tiếng Việt đều có thể dịch là ‘cuối cùng’, nhưng trọng tâm khác nhau.",
+            "possibleConfusion": "最后 nói về thứ tự sau cùng; 终于 nói về kết quả đạt được sau chờ đợi hoặc khó khăn.",
+            "difference": "Chọn 最后 khi cần đánh dấu bước cuối hoặc vật cuối; chọn 终于 khi muốn nhấn mạnh ‘rốt cuộc cũng’ đạt được kết quả.",
+            "cases": [
+              {"id": "c1", "zh": "最后，我们回家了。", "vi": "Cuối cùng, chúng tôi về nhà.", "comment": "Nêu bước cuối của lịch trình.", "judgment": "correct", "practiceAllowed": false},
+              {"id": "c2", "zh": "我终于找到钥匙了。", "vi": "Cuối cùng tôi cũng tìm thấy chìa khóa.", "comment": "Nhấn mạnh đã tìm sau một thời gian hoặc khó khăn.", "judgment": "correct", "practiceAllowed": false}
+            ],
+            "replacement": {"result": "different-meaning", "explanation": "Đổi 终于 thành 最后 sẽ làm mất sắc thái chờ đợi; đổi 最后 thành 终于 sẽ thêm sắc thái ‘mãi mới’ không phải lúc nào cũng có."},
+            "boundary": "Một câu có thể vừa là bước cuối vừa xảy ra sau chờ đợi, nhưng muốn nhấn sắc thái nào thì chọn từ tương ứng.",
+            "tip": "Thứ tự cuối dùng 最后; rốt cuộc cũng đạt được dùng 终于."
+          }
+        ],
+        "trapReview": {"readingsAndMeanings": "Đã rà nghĩa chỉ thứ tự và nghĩa chỉ phần sau cùng.", "literalTranslation": "Đã rà bẫy dịch máy móc ‘cuối cùng’ thành một từ duy nhất.", "confusables": "Đã rà 终于 và cấu trúc 最后的 + danh từ."},
+        "pronunciation": {"text": "Đọc rõ hai âm tiết với thanh gốc. Đọc từ một lần, rồi đọc câu mẫu một lần."},
+        "checks": [
+          {"id": "q1", "type": "open", "question": "Điền từ để kể bước sau cùng: ___，我们一起回家。"},
+          {"id": "q2", "type": "open", "question": "Muốn nhấn mạnh ‘mãi mới tìm thấy chìa khóa’ thì chọn 最后 hay 终于?"}
+        ],
+        "answers": {
+          "q1": {"accepted": ["最后"], "explanation": "最后 đánh dấu bước sau cùng của lịch trình."},
+          "q2": {"accepted": ["终于"], "explanation": "终于 nhấn mạnh kết quả đạt được sau chờ đợi hoặc khó khăn."}
+        },
+        "selfUse": [
+          {"id": "s1", "prompt": "Kể bước cuối của lịch trình là cùng về nhà."},
+          {"id": "s2", "prompt": "Nói đây là quyển sách cuối cùng."}
+        ],
+        "selfAnswers": {
+          "s1": {"idea": "Đánh dấu bước sau cùng rồi nói cùng về nhà.", "frame": "最后 + chủ thể + hành động", "model": "最后，我们一起回家。", "vi": "Cuối cùng, chúng tôi cùng về nhà.", "criteria": ["Dùng 最后 cho thứ tự sau cùng.", "Câu có hành động rõ ràng."]},
+          "s2": {"idea": "Xác định một quyển sách ở vị trí cuối.", "frame": "这是最后一本书", "model": "这是最后一本书。", "vi": "Đây là quyển sách cuối cùng.", "criteria": ["Dùng 最后一本 để bổ nghĩa cho sách.", "Không thêm sắc thái chờ đợi nếu không có trong ý muốn nói."]}
+        }
+      }
+    }
+  ]
+}

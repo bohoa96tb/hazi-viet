@@ -1,24 +1,23 @@
 {
   "schemaVersion": 1,
   "repository": "bohoa96tb/hazi-viet",
-  "sourceSnapshotCommit": "3ba530395ef6e70c5f6412b5047f6c54ad0573eb",
-  "note": "Batch-026: 20 bài mới (346–365), gồm 8 phức tạp, 10 trung bình và 2 đơn giản; tự rà ngôn ngữ, apply/verify và DOM đạt. Xác minh workflow đúng SHA và live sau phát hành.",
+  "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-22",
+  "note": "Batch-027: 2 bài mới (366–367), đều trung bình; đã biên soạn, tự rà nội dung, apply/verify và DOM đạt trên cây main Release 378. Chưa commit/push/phát hành lượt này.",
   "sourceBlobs": {
-    "progress.json": "2c422fbe5e71030d9390aa74aba4a0e9d133f328",
+    "progress.json": "58eaf59d6e82d9fc5fbd5e8fe340f458515b7c71",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
-    "data/vocabulary/hanzii-course.json": "9ff976d5f2bcb33fecd73f36097d266c6fae6765",
-    "data/vocabulary/content-audit.json": "74811fb1f4ef2383bccf19fa092bf0af495ad42b"
+    "data/vocabulary/hanzii-course.json": "0055186180b93dcabaf13d56878e4fc94d8d36b9",
+    "data/vocabulary/content-audit.json": "057b69316808b8f764c78afaccc125800a529efe"
   },
   "scopeTotal": 2224,
-  "completedCount": 365,
-  "remaining": 1859,
+  "completedCount": 367,
+  "remaining": 1857,
   "initialCompleteOutsideScope": 10,
-  "lastBatch": "batch-026",
-  "lastCompletedId": "hz-h1-b5878c9ef355",
-  "nextOrdinal": 366,
+  "lastBatch": "batch-027",
+  "lastCompletedId": "hz-h1-56730712e191",
+  "nextOrdinal": 368,
   "nextIds": [
-    "hz-h1-a3527d0310fc",
-    "hz-h1-56730712e191",
     "hz-h1-c910353bf22d",
     "hz-h1-c0d13131ada7",
     "hz-h1-a92ba3f9c7e1",
@@ -39,6 +38,39 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "3ba530395ef6e70c5f6412b5047f6c54ad0573eb",
-  "priorVerificationNote": "Batch-025: Pages run 39931692866 success đúng SHA, live khớp byte và 17 bài. Batch-026: apply/verify và DOM 20/20 route mới đạt; chưa xác minh triển khai commit sắp tạo, bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập."
+  "lastVerifiedContentCommit": "1246046c73e329e41902d096403d91a870b60045",
+  "priorVerificationNote": "Đã kiểm HEAD main và nhánh content hiện có; không hợp nhất hướng V3 cũ. Batch-027 đã qua process-batch verify và test-dom. Chưa xác minh commit/phát hành của lượt này, bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
+  "progressIndex": {
+    "completedIdsSource": "progress.json:completedIds",
+    "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[367:]",
+    "nextBatchIds": [
+      "hz-h1-c910353bf22d",
+      "hz-h1-c0d13131ada7",
+      "hz-h1-a92ba3f9c7e1",
+      "hz-h1-b30add7c80a3",
+      "hz-h1-839fbdffecad",
+      "hz-h1-970979ecbbcd",
+      "hz-h1-ae83e1176961",
+      "hz-h1-89b0b8fb11e9",
+      "hz-h1-54c7d57cb14d",
+      "hz-h1-ebd9a11fea6c",
+      "hz-h1-7157f25a3af2",
+      "hz-h1-f41cca533f28",
+      "hz-h1-29d32239d810",
+      "hz-h1-ef0aa57ebb30",
+      "hz-h1-c54fef729488",
+      "hz-h1-080d8c21847d",
+      "hz-h1-6031de8385a6",
+      "hz-h1-bdbafb4843da"
+    ]
+  },
+  "batchStatus": {
+    "batch": "batch-027",
+    "authoredIds": ["hz-h1-a3527d0310fc", "hz-h1-56730712e191"],
+    "automatedVerifiedIds": ["hz-h1-a3527d0310fc", "hz-h1-56730712e191"],
+    "editorialReviewedIds": ["hz-h1-a3527d0310fc", "hz-h1-56730712e191"],
+    "publishedIds": [],
+    "teacherReviewedIds": [],
+    "releaseState": "local-verified-pending-commit"
+  }
 }
