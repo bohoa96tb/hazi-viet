@@ -5030,66 +5030,31 @@
       "meaning": "cảm ơn",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 003",
       "examples": [
         {
+          "id": "e1",
           "zh": "谢谢。",
+          "pinyin": "Xièxie.",
           "vi": "Cảm ơn.",
-          "scene": "Một người giữ cửa giúp bạn.",
-          "why": "Lời cảm ơn đứng riêng đã phù hợp vì người nhận và lý do rõ.",
-          "position": "Cả cụm tự làm một lượt nói; không cần chủ thể 我.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Muốn cảm ơn người vừa giữ cửa.",
-            "choice": "Chọn lời cảm ơn 谢谢, không chọn lời đáp của người giúp.",
-            "order": "Trong tình huống đã rõ, chỉ nói cả cụm 谢谢.",
-            "result": "谢谢。"
-          },
-          "id": "e01"
+          "analysis": "谢谢 có thể đứng riêng khi người nghe đã biết mình đang cảm ơn.",
+          "practiceAllowed": true
         },
         {
-          "zh": "谢谢你。",
-          "vi": "Cảm ơn bạn.",
-          "scene": "Bạn cảm ơn người đối diện.",
-          "why": "你 nêu rõ người nhận.",
-          "position": "你 sau 谢谢; không đặt 的 giữa hai từ này.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "谢谢你们。",
-          "vi": "Cảm ơn các bạn.",
-          "scene": "Bạn cảm ơn một nhóm.",
-          "why": "你们 thay 你 để chỉ nhiều người.",
-          "position": "Người nhận lời cảm ơn vẫn sau 谢谢.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "谢谢您的帮助。",
-          "vi": "Cảm ơn sự giúp đỡ của bác.",
-          "scene": "Bạn muốn nói cụ thể điều được cảm ơn.",
-          "why": "帮助 là sự giúp đỡ; 您的帮助 là sự giúp đỡ của người nghe được kính trọng.",
-          "position": "Cả cụm 您的帮助 sau 谢谢; 的 nối người sở hữu với danh từ 帮助.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "谢谢你帮我学习中文。",
-          "vi": "Cảm ơn bạn đã giúp tôi học tiếng Trung.",
-          "scene": "Bạn cảm ơn một việc cụ thể người kia làm.",
-          "why": "帮我学习中文 nói việc giúp tôi học tiếng Trung; tiếng Trung không bắt buộc thêm từ tương đương đã ở đây.",
-          "position": "你 sau 谢谢, rồi đến việc 你 làm: 帮我学习中文.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "id": "e2",
+          "zh": "谢谢你的帮助。",
+          "pinyin": "Xièxie nǐ de bāngzhù.",
+          "vi": "Cảm ơn sự giúp đỡ của bạn.",
+          "analysis": "谢谢 đứng trước người hoặc việc được cảm ơn; 的 nối 你 với 帮助.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Một người vừa giúp bạn giải quyết việc.",
       "when": "Dùng 谢谢 để cảm ơn. Có thể thêm người nhận hoặc việc được giúp.",
       "pattern": "谢谢 + người; 谢谢 + người + hoạt động giúp đỡ",
       "trap": "Đáp lời cảm ơn thường dùng 不客气 hoặc 不用谢. 没关系 chủ yếu đáp lời xin lỗi hoặc trấn an.",
-      "task": "Cảm ơn người vừa giúp bạn.",
-      "model": "谢谢。",
+      "task": "Cảm ơn một người vừa giúp bạn.",
+      "model": "谢谢你。",
       "phrases": [
         "谢谢你帮我。"
       ],
@@ -5127,242 +5092,203 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 9,
+        "difficulty": "easy",
+        "difficultyReason": "Nghĩa chính trực tiếp là lời cảm ơn; cấu trúc cơ bản rõ và chỉ cần phân biệt với lời đáp 不客气.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Thanking_people"
+        ],
         "introduction": {
-          "partOfSpeech": "Lời cảm ơn; cũng dùng như động từ cảm ơn.",
-          "scope": "Nghĩa trọng tâm là bày tỏ cảm ơn sau sự giúp đỡ hoặc thiện ý."
-        },
-        "meaning": {
-          "scene": "Một người giữ cửa giúp bạn khi tay đang xách đồ.",
-          "explanation": "谢谢 thể hiện bạn ghi nhận điều tốt người khác làm cho mình. Có thể đứng riêng như một lời đáp hoặc thêm người được cảm ơn.",
-          "boundary": "谢谢 là lời cảm ơn của người nhận thiện ý, không phải lời xin lỗi và không phải câu đáp không có gì của người giúp.",
-          "conditions": [
-            "Dùng khi ghi nhận sự giúp đỡ, món quà hoặc thiện ý.",
-            "Nói lời cảm ơn không bắt buộc kể rõ lý do nếu tình huống đã cho thấy."
-          ],
-          "takeaway": "Khi muốn ghi nhận sự giúp đỡ hoặc thiện ý, trong tình huống bày tỏ lòng cảm ơn, bạn có thể dùng 谢谢.",
-          "alternatives": [
-            {
-              "zh": "不客气。",
-              "vi": "Không có gì.",
-              "purpose": "不客气 thường là lời người giúp đáp lại lời cảm ơn, khác vai với người nói 谢谢."
-            }
-          ]
+          "scope": "谢谢 dùng để bày tỏ lời cảm ơn khi người khác giúp đỡ hoặc thể hiện thiện ý."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "谢谢。",
+            "pinyin": "Xièxie.",
             "vi": "Cảm ơn.",
-            "scene": "Một người giữ cửa giúp bạn.",
-            "why": "Lời cảm ơn đứng riêng đã phù hợp vì người nhận và lý do rõ.",
-            "position": "Cả cụm tự làm một lượt nói; không cần chủ thể 我.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Muốn cảm ơn người vừa giữ cửa.",
-              "choice": "Chọn lời cảm ơn 谢谢, không chọn lời đáp của người giúp.",
-              "order": "Trong tình huống đã rõ, chỉ nói cả cụm 谢谢.",
-              "result": "谢谢。"
-            },
-            "id": "e01"
+            "analysis": "谢谢 có thể đứng riêng khi người nghe đã biết mình đang cảm ơn.",
+            "practiceAllowed": true
           },
           {
-            "zh": "谢谢你。",
-            "vi": "Cảm ơn bạn.",
-            "scene": "Bạn cảm ơn người đối diện.",
-            "why": "你 nêu rõ người nhận.",
-            "position": "你 sau 谢谢; không đặt 的 giữa hai từ này.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "谢谢你们。",
-            "vi": "Cảm ơn các bạn.",
-            "scene": "Bạn cảm ơn một nhóm.",
-            "why": "你们 thay 你 để chỉ nhiều người.",
-            "position": "Người nhận lời cảm ơn vẫn sau 谢谢.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "谢谢您的帮助。",
-            "vi": "Cảm ơn sự giúp đỡ của bác.",
-            "scene": "Bạn muốn nói cụ thể điều được cảm ơn.",
-            "why": "帮助 là sự giúp đỡ; 您的帮助 là sự giúp đỡ của người nghe được kính trọng.",
-            "position": "Cả cụm 您的帮助 sau 谢谢; 的 nối người sở hữu với danh từ 帮助.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "谢谢你帮我学习中文。",
-            "vi": "Cảm ơn bạn đã giúp tôi học tiếng Trung.",
-            "scene": "Bạn cảm ơn một việc cụ thể người kia làm.",
-            "why": "帮我学习中文 nói việc giúp tôi học tiếng Trung; tiếng Trung không bắt buộc thêm từ tương đương đã ở đây.",
-            "position": "你 sau 谢谢, rồi đến việc 你 làm: 帮我学习中文.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "id": "e2",
+            "zh": "谢谢你的帮助。",
+            "pinyin": "Xièxie nǐ de bāngzhù.",
+            "vi": "Cảm ơn sự giúp đỡ của bạn.",
+            "analysis": "谢谢 đứng trước người hoặc việc được cảm ơn; 的 nối 你 với 帮助.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Cảm ơn ngắn và xác định người nhận.",
-            "frame": "谢谢; 谢谢 + người được cảm ơn",
-            "position": "Người nhận theo sau 谢谢.",
-            "required": "谢谢 đứng riêng đã đủ; người nhận không bắt buộc khi rõ.",
-            "omission": "Không cần 我 đầu câu; thêm 我 trong câu kể 我谢谢你 cần mục đích riêng, không phải lời cảm ơn ngắn mặc định.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Thêm người nhận hoặc đổi người nhận thành cả nhóm.",
-              "exampleId": "e03",
-              "limit": "Có thể nói 谢谢你 hoặc 谢谢你们; chọn theo số người thực sự được cảm ơn."
-            },
-            "caution": "Không thêm 吗 để biến lời cảm ơn thành câu hỏi một cách máy móc.",
+            "id": "main",
+            "title": "Lời cảm ơn",
+            "when": "Dùng khi muốn ghi nhận sự giúp đỡ hoặc thiện ý của người khác.",
+            "meaning": "cảm ơn",
+            "grammar": "谢谢 có thể đứng riêng hoặc theo sau là người/việc được cảm ơn.",
+            "pattern": "谢谢（+ người/việc được cảm ơn）",
             "collocations": [
               {
                 "zh": "谢谢你",
-                "vi": "cảm ơn bạn",
-                "purpose": "Nêu người nhận trực tiếp."
+                "pinyin": "xièxie nǐ",
+                "vi": "cảm ơn bạn"
               },
               {
-                "zh": "谢谢你们",
-                "vi": "cảm ơn các bạn",
-                "purpose": "Ghi nhận sự giúp đỡ của nhóm."
+                "zh": "谢谢你的帮助",
+                "pinyin": "xièxie nǐ de bāngzhù",
+                "vi": "cảm ơn sự giúp đỡ của bạn"
               }
             ],
-            "forms": [],
-            "id": "u01"
-          },
-          {
-            "intent": "Nói rõ mình cảm ơn điều gì.",
-            "frame": "谢谢 + cụm chỉ sự giúp đỡ; 谢谢 + người + việc người đó làm",
-            "position": "Có thể theo sau bằng danh từ 您的帮助 hoặc cụm kể việc 你帮我学习中文.",
-            "required": "Trong 您的帮助, 的 nối 您 với 帮助; không bỏ 帮助 rồi giữ lại cùng nghĩa.",
-            "omission": "Nếu lý do đã rõ, trở về 谢谢 hoặc 谢谢你; phần lý do không bắt buộc cho mọi lời cảm ơn.",
-            "exampleId": "e04",
-            "transform": {
-              "change": "Đổi từ cảm ơn sự giúp đỡ nói chung sang nêu việc giúp học.",
-              "exampleId": "e05",
-              "limit": "Việc sau người nhận phải hợp ý cảm ơn, không tự ghép mọi danh từ rời sau 你."
-            },
-            "caution": "Không dịch chữ đã thành 了 bắt buộc trong mọi lời cảm ơn.",
-            "collocations": [
+            "examples": [
               {
-                "zh": "谢谢您的帮助",
-                "vi": "cảm ơn sự giúp đỡ của bác",
-                "purpose": "Nêu lý do bằng danh từ."
-              },
-              {
-                "zh": "谢谢你帮我",
-                "vi": "cảm ơn bạn giúp tôi",
-                "purpose": "Nêu người và việc giúp; thêm việc cụ thể nếu cần."
-              }
-            ],
-            "forms": [],
-            "id": "u02"
-          }
-        ],
-        "traps": [
-          {
-            "title": "Cảm ơn và đáp lời cảm ơn là hai vai khác nhau",
-            "scene": "Bạn vừa được người khác giúp giữ cửa.",
-            "possibleConfusion": "Bạn có thể dễ nhầm hai câu lịch sự vì đều thấy trong cùng một cuộc trao đổi.",
-            "difference": "谢谢 là người được giúp ghi nhận thiện ý; 不客气 thường là người giúp đáp rằng không cần khách sáo.",
-            "cases": [
-              {
-                "id": "case-1",
                 "zh": "谢谢。",
+                "pinyin": "Xièxie.",
                 "vi": "Cảm ơn.",
-                "judgment": "correct",
-                "comment": "Phù hợp người vừa được giúp.",
-                "practiceAllowed": false
+                "note": "Dùng riêng khi đối tượng đã rõ."
               },
               {
-                "id": "case-2",
+                "zh": "谢谢你的帮助。",
+                "pinyin": "Xièxie nǐ de bāngzhù.",
+                "vi": "Cảm ơn sự giúp đỡ của bạn.",
+                "note": "谢谢 đứng trước người hoặc việc được cảm ơn."
+              }
+            ]
+          }
+        ],
+        "confusions": [
+          {
+            "id": "contrast",
+            "afterSense": "main",
+            "title": "谢谢 và 不客气 khác vai",
+            "explanation": "谢谢 là lời của người nhận sự giúp đỡ; 不客气 thường là lời đáp của người vừa được cảm ơn.",
+            "contrasts": [
+              {
+                "zh": "谢谢你。",
+                "pinyin": "Xièxie nǐ.",
+                "vi": "Cảm ơn bạn.",
+                "note": "Người nhận nói lời cảm ơn."
+              },
+              {
                 "zh": "不客气。",
+                "pinyin": "Bú kèqi.",
                 "vi": "Không có gì.",
-                "judgment": "wrong-intent",
-                "comment": "Câu đúng, nhưng thường là lời đáp của người giúp, không phải lời cảm ơn trong cảnh này.",
-                "practiceAllowed": false
+                "note": "Người giúp đáp lại."
               }
             ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Nếu người được giúp thay 谢谢 bằng 不客气, lượt nói không thực hiện đúng ý cảm ơn."
-            },
-            "boundary": "Hai bên có thể đều giúp nhau và đều nói 谢谢; không coi lặp lời cảm ơn là luôn sai khi mỗi bên có lý do riêng.",
-            "tip": "Mình nhận giúp đỡ thì cảm ơn bằng 谢谢; đáp lời người kia cảm ơn thì dùng 不客气.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "谢谢 và 感谢 không phải một từ thân mật và một từ chỉ được dùng trang trọng",
-            "scene": "Bạn muốn cảm ơn sự giúp đỡ bằng một tin nhắn.",
-            "possibleConfusion": "Bạn có thể dễ nhầm rằng 感谢 không được dùng khi trò chuyện, hoặc hai từ lúc nào cũng thay được trong mọi cụm.",
-            "difference": "感谢 cũng là cảm ơn, thường có cảm giác nhấn mạnh hoặc đầy đủ hơn; 谢谢 rất tự nhiên cho lời cảm ơn ngắn. Với lý do 您的帮助, cả hai có thể phù hợp.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "谢谢您的帮助。",
-                "vi": "Cảm ơn sự giúp đỡ của bác.",
-                "judgment": "correct",
-                "comment": "Tự nhiên trong tin nhắn cảm ơn.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "感谢您的帮助。",
-                "vi": "Xin cảm ơn sự giúp đỡ của bác.",
-                "judgment": "correct",
-                "comment": "Cũng đúng; có thể nghe trang trọng hoặc nhấn mạnh hơn tùy ngữ cảnh.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "overlap",
-              "explanation": "Thay 谢谢 bằng 感谢 trong câu này vẫn đúng và gần nghĩa; khác biệt không đủ để chấm một câu sai."
-            },
-            "boundary": "Trong lời đáp rất ngắn sau khi được giữ cửa, 谢谢 là lựa chọn cơ bản gọn. Không suy từ đó rằng 感谢 sai ngữ pháp.",
-            "tip": "Cảm ơn ngắn thường chọn 谢谢; khi nhấn sự ghi nhận, 感谢 cũng dùng được với lý do phù hợp.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
+            "tip": "Chọn 谢谢 khi mình cảm ơn; chọn 不客气 khi mình đáp lời cảm ơn."
           }
         ],
-        "pronunciation": {
-          "text": "Âm 谢 đầu là thanh bốn; âm 谢 sau thường đọc thanh nhẹ khi nói lời cảm ơn. Âm sau ngắn và nhẹ hơn nhưng vẫn phát ra; không đọc thành tên chữ cái hay bỏ hẳn âm thứ hai."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "check-01",
-            "question": "Bạn vừa được giúp và muốn cảm ơn. Chọn lời.",
+            "id": "g1",
+            "level": "Cơ bản · chạm sắp xếp",
+            "type": "order",
+            "prompt": "Chạm các mảnh để tạo câu: Cảm ơn bạn.",
+            "tokens": [
+              "谢谢",
+              "你",
+              "。"
+            ],
+            "accepted": [
+              "谢谢你。"
+            ],
+            "model": "谢谢你。",
+            "explanation": "谢谢 đứng trước người được cảm ơn.",
+            "wrongFeedback": "Đặt 谢谢 trước người nhận lời cảm ơn."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "contrast",
+            "type": "choice",
+            "prompt": "Bạn vừa được giúp đỡ. Chọn câu phù hợp.",
             "choices": [
-              "谢谢。",
+              "谢谢你。",
               "不客气。"
-            ]
-          },
+            ],
+            "correctIndex": 0,
+            "model": "谢谢你。",
+            "explanation": "Người nhận sự giúp đỡ nói 谢谢.",
+            "wrongFeedback": "Xác định bạn là người cảm ơn hay người đáp lời."
+          }
+        ],
+        "productionExercises": [
           {
-            "id": "check-02",
-            "question": "Trong tin nhắn cảm ơn sự giúp đỡ, hai câu vừa học có thể cùng đúng không?",
-            "choices": [
-              "Có.",
-              "Không, chỉ một câu đúng."
+            "id": "p1",
+            "prompt": "Nói lời cảm ơn một người vừa giúp bạn.",
+            "hints": [
+              "Nêu ý: cảm ơn người đó.",
+              "Dùng 谢谢 + người được cảm ơn."
+            ],
+            "model": "谢谢你。",
+            "vi": "Cảm ơn bạn.",
+            "criteria": [
+              "Dùng đúng 谢谢.",
+              "Câu phù hợp với tình huống."
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 0,
-            "explanation": "Bạn đang là người nhận sự giúp đỡ."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Bạn nói gì khi muốn cảm ơn?",
+            "hiddenAnswer": "谢谢",
+            "model": "谢谢。",
+            "vi": "Cảm ơn."
           },
-          "check-02": {
+          {
+            "id": "r2",
+            "prompt": "Chọn từ để đáp lại lời cảm ơn của người khác.",
+            "hiddenAnswer": "不客气",
+            "model": "不客气。",
+            "vi": "Không có gì."
+          }
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Cảm ơn bạn.",
+            "choices": [
+              "谢谢",
+              "你",
+              "。"
+            ],
+            "correct": [
+              "谢谢你。"
+            ],
+            "explanation": "谢谢 đứng trước người được cảm ơn."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Bạn vừa được giúp đỡ. Chọn câu phù hợp.",
+            "choices": [
+              "谢谢你。",
+              "不客气。"
+            ],
             "correctIndex": 0,
-            "explanation": "Cả 谢谢您的帮助 và 感谢您的帮助 đều phù hợp; khác mức nhấn hoặc phong cách."
+            "explanation": "Người nhận sự giúp đỡ nói 谢谢."
           }
         },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": [
-          "https://chinese.lec.u-tokai.ac.jp/apps/p.13_aisatsu_daigakumei_read.html"
-        ]
+        "answers": {
+          "g1": {
+            "accepted": [
+              "谢谢你。"
+            ],
+            "explanation": "谢谢 đứng trước người được cảm ơn."
+          },
+          "d1": {
+            "correctIndex": 0,
+            "explanation": "Bạn là người đang cảm ơn."
+          }
+        }
       }
     },
     {

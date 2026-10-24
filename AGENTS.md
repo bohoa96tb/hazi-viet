@@ -18,6 +18,9 @@ Người dùng đã cho phép biên soạn, sửa dữ liệu/code cần thiết
 ## Khi nào rà soát sâu
 Chỉ mở rộng phạm vi khi xung đột commit, checkpoint sai, baseline/hash/ID lệch, cấu trúc thay đổi hoặc kiểm thử lỗi. Điều tra đúng phần gây lỗi trước. Không init lại baseline hay sửa hash để che lỗi. Không hạ chuẩn hoặc bỏ kiểm tính toàn vẹn để tăng tốc.
 
+## Dependency và phạm vi kiểm thử
+Thiếu dependency kiểm thử có thể cài đặt phải được xử lý trước khi coi là blocker; tái tạo môi trường theo workflow của repository và ghi rõ kết quả. Không đưa dependency chỉ dùng cho test vào bundle production. Không lặp lại phân tích kiến trúc khi hệ thống đã ổn định; migration V3 là tối ưu tùy chọn, không phải điều kiện để biên soạn. V2 chỉ áp dụng cho nội dung V2, không áp số câu hay độ dài V2 lên bài V3. Khi chỉ thêm học liệu, ưu tiên validator, rà ngôn ngữ, kiểm tra dữ liệu và hồi quy liên quan; test engine/renderer chỉ bắt buộc khi code đổi hoặc có nghi vấn hồi quy. Nếu test bắt buộc chưa chạy được, không báo PASS hay phát hành thành công; vẫn có thể lưu công việc đã đạt chuẩn lên nhánh biên soạn sau khi ghi rõ giới hạn.
+
 ## Checkpoint
 `checkpoint.json` là cache gọn có dấu vân tay nguồn, đợt cuối và nhóm tiếp theo; phải cập nhật mỗi đợt. Nếu thiếu hoặc cũ, tái tạo từ progress/baseline hiện hành. Không cần append dài vào handoff hay tạo commit chỉ để ghi SHA của chính nó.
 Yêu cầu chỉ sửa/lưu quy trình hoặc bản thử thì hoàn thành đúng phạm vi; không tự tạo thêm đợt từ vựng.
