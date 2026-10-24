@@ -7,16 +7,16 @@
   "standardPath": "docs/CONTENT_STANDARD_V3.md",
   "historyCheckpointPath": "tools/vocabulary/v3-rewrite-checkpoint.json",
   "scopeTotal": 2224,
-  "reviewedThroughOrdinal": 42,
-  "nextOrdinal": 43,
-  "pendingReviewCount": 2182,
-  "passedCount": 42,
+  "reviewedThroughOrdinal": 52,
+  "nextOrdinal": 53,
+  "pendingReviewCount": 2172,
+  "passedCount": 52,
   "retainedCount": 0,
-  "rewrittenCount": 42,
+  "rewrittenCount": 52,
   "needsRevisionCount": 0,
   "difficultyCountsReviewed": {
-    "easy": 21,
-    "medium": 21,
+    "easy": 25,
+    "medium": 27,
     "hard": 0
   },
   "reviewedIds": [
@@ -61,7 +61,17 @@
     "hz-h1-25df03347164",
     "hz-h1-aa55b84f0942",
     "hz-h1-34f4e78c6dd4",
-    "hz-h1-e39c1ac44813"
+    "hz-h1-e39c1ac44813",
+    "hz-h1-b2b95e16c805",
+    "hz-h1-a26f922599a7",
+    "hz-h1-76031b9d7454",
+    "hz-h1-e42e37d397a5",
+    "hz-h1-f7df735cca45",
+    "hz-h1-26cb9beeaffd",
+    "hz-h1-9e4bde0a04dc",
+    "hz-h1-d86eabd20c2e",
+    "hz-h1-2add50cf6301",
+    "hz-h1-4c504e514484"
   ],
   "passedIds": [
     "hz-h1-64d354d405bb",
@@ -105,7 +115,17 @@
     "hz-h1-25df03347164",
     "hz-h1-aa55b84f0942",
     "hz-h1-34f4e78c6dd4",
-    "hz-h1-e39c1ac44813"
+    "hz-h1-e39c1ac44813",
+    "hz-h1-b2b95e16c805",
+    "hz-h1-a26f922599a7",
+    "hz-h1-76031b9d7454",
+    "hz-h1-e42e37d397a5",
+    "hz-h1-f7df735cca45",
+    "hz-h1-26cb9beeaffd",
+    "hz-h1-9e4bde0a04dc",
+    "hz-h1-d86eabd20c2e",
+    "hz-h1-2add50cf6301",
+    "hz-h1-4c504e514484"
   ],
   "retainedIds": [],
   "rewrittenIds": [
@@ -150,7 +170,17 @@
     "hz-h1-25df03347164",
     "hz-h1-aa55b84f0942",
     "hz-h1-34f4e78c6dd4",
-    "hz-h1-e39c1ac44813"
+    "hz-h1-e39c1ac44813",
+    "hz-h1-b2b95e16c805",
+    "hz-h1-a26f922599a7",
+    "hz-h1-76031b9d7454",
+    "hz-h1-e42e37d397a5",
+    "hz-h1-f7df735cca45",
+    "hz-h1-26cb9beeaffd",
+    "hz-h1-9e4bde0a04dc",
+    "hz-h1-d86eabd20c2e",
+    "hz-h1-2add50cf6301",
+    "hz-h1-4c504e514484"
   ],
   "needsRevisionIds": [],
   "reviewRecords": [
@@ -451,6 +481,76 @@
       "result": "passed-after-rewrite",
       "difficulty": "medium",
       "reason": "课 có thể chỉ tiết học, môn học hoặc xuất hiện trong cụm 上课; cần dạy cụm thay vì dịch cứng một nghĩa."
+    },
+    {
+      "ordinal": 43,
+      "id": "hz-h1-b2b95e16c805",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "钱 là danh từ tiền và xuất hiện trong mẫu hỏi giá 多少钱; cần phân biệt với đơn vị 元/块."
+    },
+    {
+      "ordinal": 44,
+      "id": "hz-h1-a26f922599a7",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "页 là danh từ/lượng từ chỉ trang sách với vị trí trực tiếp sau số."
+    },
+    {
+      "ordinal": 45,
+      "id": "hz-h1-76031b9d7454",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "本子 là vở/sổ ghi chép, dễ nhầm với 书 là sách và 本 là lượng từ; cần tách rõ từ vựng với lượng từ."
+    },
+    {
+      "ordinal": 46,
+      "id": "hz-h1-e42e37d397a5",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "课本 là từ ghép dễ hiểu nhưng cần phân biệt với 书 nói chung và 本子 là vở; cấu trúc dùng trong lớp cũng cần dạy."
+    },
+    {
+      "ordinal": 47,
+      "id": "hz-h1-f7df735cca45",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "号 có mẫu hỏi và trả lời ngày trong tháng trực tiếp."
+    },
+    {
+      "ordinal": 48,
+      "id": "hz-h1-26cb9beeaffd",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "呢 là trợ từ cuối câu có nhiều chức năng; bài này giới hạn vào hỏi lại cùng chủ đề, tránh dùng như từ nghĩa độc lập."
+    },
+    {
+      "ordinal": 49,
+      "id": "hz-h1-9e4bde0a04dc",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "回 có nghĩa trở về và kết hợp với 来/去; cần dạy hướng chuyển động thay vì dịch cứng là quay lại."
+    },
+    {
+      "ordinal": 50,
+      "id": "hz-h1-d86eabd20c2e",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "帮 là động từ cơ bản, người được giúp đứng sau và mẫu dùng trực tiếp."
+    },
+    {
+      "ordinal": 51,
+      "id": "hz-h1-2add50cf6301",
+      "result": "passed-after-rewrite",
+      "difficulty": "medium",
+      "reason": "打 có nhiều nghĩa; bài này tập trung vào cụm 打电话 và đối chiếu với nghĩa đánh để tránh dịch máy móc."
+    },
+    {
+      "ordinal": 52,
+      "id": "hz-h1-4c504e514484",
+      "result": "passed-after-rewrite",
+      "difficulty": "easy",
+      "reason": "找 là động từ cơ bản, tân ngữ đứng sau và có mẫu đang tìm rõ ràng."
     }
   ],
   "previousDigests": {
@@ -500,11 +600,21 @@
     "hz-h1-25df03347164": "587f91def7c4f71f8633ab8730127c7c11fc9607319bf50c9ebe5d4b0ca4dd1a",
     "hz-h1-aa55b84f0942": "d6206b60a9c4df4a12240464ef6349d63f707a63489662695be24087d346aee5",
     "hz-h1-34f4e78c6dd4": "79ddb7483fdbfc796f19d2d872b64bcbcc15f292b7a63e65f1c0cf06b8a15e37",
-    "hz-h1-e39c1ac44813": "680a00262459f0f9bcc26f55717694bf58b11ce2914e6589c830013b110cca73"
+    "hz-h1-e39c1ac44813": "680a00262459f0f9bcc26f55717694bf58b11ce2914e6589c830013b110cca73",
+    "hz-h1-b2b95e16c805": "d33d702092842f8376c0114c52951007bb825f7a4d752135362b183d140d859c",
+    "hz-h1-a26f922599a7": "d11191a981ff6779e41c79685c6a02c5ff641cb61735dbb79277839ae5897b24",
+    "hz-h1-76031b9d7454": "a7e2166448a73b0f2df974eacae1a4a8b6018ddebee4d71ba51adaa0c56cf1e7",
+    "hz-h1-e42e37d397a5": "63e2a255a39793b073d25bf5f92f1becd311c09665e05fa394b789db394404fa",
+    "hz-h1-f7df735cca45": "027daff6b59b7ddd084084e3d67a2102181fe980d03bb40dd7a96ad704da76e8",
+    "hz-h1-26cb9beeaffd": "a3987ed47ca92e1c298ff5a5d6b1ac40e9e27c2c1f8b60f38f4b4531c04fec14",
+    "hz-h1-9e4bde0a04dc": "ab6e59028d00a401d23b03be52710293725d30f9ac31c7b900df1afbe374de9a",
+    "hz-h1-d86eabd20c2e": "a3dac6b9d4506b8ce8790863d719c02fc8dce21ff13de0a777233ff771a0fe38",
+    "hz-h1-2add50cf6301": "7ff1343945301086c39300f068454db9921302226cf70cbec6cd75b721ac37f5",
+    "hz-h1-4c504e514484": "d64a6094abc4dbda7d2d8368cd5d4c2bf206fc8f7dfdd46f3b0aef75babbc358"
   },
   "sourceDigests": {
     "algorithm": "sha256",
-    "courseFile": "21de47837908cab695e3304a49789aca85231233a4c227c43da90198773e747b",
+    "courseFile": "5bacb93a840c28f3afa32ccf5c7f932440a0ec71ba697e2be9d5ecf235681df8",
     "baselineFile": "253370b4136e5935982390cc472b1f577e992417c84d93cec82fad2cc1bec925",
     "standardFile": "59e0d0afad07989b9d14923cc33d0ad7639c912c9ed095d87764f9be4bb5c133",
     "agentsFile": "4db177889bc96362673db9f10388b9cf48e64262c0c2f7816344be7afe99fa83",
@@ -512,7 +622,7 @@
     "vocabularyScriptFile": "c1964505c084959aaa6ef403532408e341d8e41c92e3b89ed284f0d38f8a3ec4",
     "vocabularyHtmlFile": "38da4dea2a335e191b6d2a157f999f9f5305b04dce0e1b64f6fd24ca1bef9dd6",
     "domTestFile": "f1437324b917e1df0c273cd67926315c00f8c155adef03ccfdcf698b96530321",
-    "progressFile": "949b6fcb1bc56309f8c80d3c5e2b9e95c7657fb3c8a348c5fae9ceb4342729da"
+    "progressFile": "65cfd5be0a5e7ba9fde7af5ba16aadac66d02e9eb2bbc1b06439ea6f4c9536c2"
   },
   "baselineIntegrity": {
     "completedPrefixLength": 91,
@@ -533,7 +643,7 @@
     "qualityRevision": "passed-internal"
   },
   "status": "validated-worktree",
-  "lastVerifiedRemoteCommit": "629c27f61c7151966b49d3c8f83001406b67b0ce",
+  "lastVerifiedRemoteCommit": "ebbb6dbf67c6bd10b8127acb5b0563bc5f79a99c",
   "lastVerifiedRemoteAt": "2026-10-24",
   "deployment": {
     "pagesRunId": 40082625813,
@@ -548,5 +658,5 @@
     ]
   },
   "note": "Checkpoint kiểm định chất lượng riêng; nội dung được sửa không làm tăng số mục hoàn thành baseline.",
-  "lastBatch": "quality-revision-009"
+  "lastBatch": "quality-revision-010"
 }

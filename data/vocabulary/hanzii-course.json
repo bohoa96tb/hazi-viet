@@ -14610,7 +14610,7 @@
       "meaning": "tiền",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 010",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 43",
       "examples": [
         {
           "id": "e1",
@@ -14632,8 +14632,8 @@
       "sourceIndex": 19,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Hỏi món đồ này giá bao nhiêu tiền.",
-      "model": "这个多少钱？",
+      "task": "Hỏi giá hoặc nói mình có bao nhiêu tiền.",
+      "model": "多少钱？",
       "quiz": {
         "question": "Bạn có tiền ở nhà nhưng không mang theo hôm nay. Chọn câu rõ nhất.",
         "choices": [
@@ -14664,8 +14664,8 @@
         "difficulty": "medium",
         "difficultyReason": "钱 là danh từ tiền và xuất hiện trong mẫu hỏi giá 多少钱; cần phân biệt với đơn vị 元/块.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí trong mẫu hỏi giá, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Money"
         ],
@@ -14724,24 +14724,28 @@
         "confusions": [
           {
             "id": "unit",
+            "category": "C",
             "afterSense": "money",
-            "title": "钱 và 元/块 khác vai",
-            "explanation": "钱 là tiền nói chung; 元 và 块 là đơn vị đứng sau một con số tiền.",
+            "title": "钱 và 元/块: tiền hay đơn vị tiền",
+            "possibleConfusion": "Người học thấy cả ba đều xuất hiện sau số nên dễ coi 钱, 元, 块 là cùng một từ.",
+            "explanation": "钱 là danh từ ‘tiền’ và thường đi trong 多少钱, 有钱. 元 là đơn vị chuẩn; 块 là cách nói khẩu ngữ cho một đơn vị tiền.",
+            "difference": "多少钱？hỏi giá bao nhiêu tiền; 十元/十块 nói số tiền cụ thể. Không thay 钱 vào sau số theo cùng khung.",
+            "boundary": "Hỏi giá dùng 多少钱; nói giá cụ thể dùng số + 元/块, có thể thêm 钱 trong khẩu ngữ như 十块钱.",
             "contrasts": [
               {
-                "zh": "多少钱？",
-                "pinyin": "Duōshao qián?",
-                "vi": "Bao nhiêu tiền?",
-                "note": "Hỏi số tiền nói chung."
+                "zh": "这本书多少钱？",
+                "pinyin": "Zhè běn shū duōshao qián?",
+                "vi": "Quyển sách này bao nhiêu tiền?",
+                "note": "钱 là danh từ trong mẫu hỏi giá."
               },
               {
-                "zh": "十元。",
-                "pinyin": "Shí yuán.",
-                "vi": "Mười tệ.",
-                "note": "Nêu số tiền kèm đơn vị."
+                "zh": "这本书十元。",
+                "pinyin": "Zhè běn shū shí yuán.",
+                "vi": "Quyển sách này mười tệ.",
+                "note": "元 là đơn vị sau số."
               }
             ],
-            "tip": "Hỏi giá dùng 多少钱; trả lời có thể dùng số + 元 hoặc 块."
+            "tip": "Hỏi ‘bao nhiêu tiền’: 多少钱; nêu số cụ thể: số + 元/块."
           }
         ],
         "guidedExercises": [
@@ -14845,6 +14849,29 @@
             "correctIndex": 0,
             "explanation": "多少钱 là mẫu hỏi giá cơ bản."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "钱 có cách đọc thông dụng qián; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "钱 có chức năng trọng tâm là danh từ tiền; số lượng cụ thể và đơn vị tiền do 元/块 đảm nhiệm."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 钱 thành một đơn vị cố định sẽ làm sai mẫu 多少钱; cần phân biệt danh từ tiền với đơn vị sau số."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 钱 với 元 và 块 theo mẫu hỏi giá và câu nêu giá."
+          }
         }
       }
     },
@@ -14861,7 +14888,7 @@
       "meaning": "trang",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 010",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 44",
       "examples": [
         {
           "id": "e1",
@@ -14883,8 +14910,8 @@
       "sourceIndex": 20,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói quyển sách có một trăm trang.",
-      "model": "这本书有一百页。",
+      "task": "Nói đang đọc đến trang nào hoặc đếm số trang.",
+      "model": "我读第二页。",
       "quiz": {
         "question": "Cụm 第三页 chỉ điều nào?",
         "choices": [
@@ -14915,8 +14942,8 @@
         "difficulty": "easy",
         "difficultyReason": "页 là danh từ/lượng từ chỉ trang sách với vị trí trực tiếp sau số.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại/lượng từ, vị trí, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Pages"
         ],
@@ -15057,6 +15084,30 @@
             "correctIndex": 0,
             "explanation": "页 là trang."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "页 có cách đọc thông dụng yè; không có cách đọc phổ biến thứ hai ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "页 chỉ trang của sách/tài liệu trong bài này; số trang được đặt trước 页."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; cần nhớ 页 vừa là danh từ vừa làm lượng từ cho trang theo khung số + 页."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 本 và 张; chưa thấy bẫy thông dụng cần thêm ở mức bài này."
+          }
         }
       }
     },
@@ -15073,7 +15124,7 @@
       "meaning": "vở; sổ ghi chép",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 010",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 45",
       "examples": [
         {
           "id": "e1",
@@ -15095,8 +15146,8 @@
       "sourceIndex": 21,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn có một quyển vở.",
-      "model": "我有一个本子。",
+      "task": "Nói về quyển vở/sổ dùng để viết.",
+      "model": "这是我的本子。",
       "quiz": {
         "question": "Bạn cần vở để ghi từ mới. Chọn từ rõ nhất trong bài.",
         "choices": [
@@ -15127,8 +15178,8 @@
         "difficulty": "medium",
         "difficultyReason": "本子 là vở/sổ ghi chép, dễ nhầm với 书 là sách và 本 là lượng từ; cần tách rõ từ vựng với lượng từ.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, vị trí, lượng từ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Notebooks"
         ],
@@ -15181,24 +15232,28 @@
         "confusions": [
           {
             "id": "book",
+            "category": "C",
             "afterSense": "notebook",
-            "title": "本子, 书 và 本 khác nhau",
-            "explanation": "本子 là vở/sổ để viết; 书 là sách để đọc; 本 có thể là lượng từ cho sách.",
+            "title": "本子, 书 và 本: vở/sách và lượng từ",
+            "possibleConfusion": "Cùng có 本 nên người học dễ nhầm 本子 là ‘một quyển sách’ hoặc coi 本 luôn là danh từ sách.",
+            "explanation": "本子 là quyển vở/sổ để viết. 书 là sách; 本 còn là lượng từ cho sách trong 一本书.",
+            "difference": "我写在本子上 nói viết vào vở; 我看书 nói đọc sách; 一本书 dùng 本 để đếm sách.",
+            "boundary": "Nhìn hậu tố và vị trí: 本子 là danh từ vật; 本 đứng trước 书 khi làm lượng từ.",
             "contrasts": [
               {
-                "zh": "我写在本子上。",
-                "pinyin": "Wǒ xiě zài běnzi shàng.",
-                "vi": "Tôi viết lên vở.",
-                "note": "本子 là vật để viết."
+                "zh": "这是我的本子。",
+                "pinyin": "Zhè shì wǒ de běnzi.",
+                "vi": "Đây là quyển vở của tôi.",
+                "note": "本子 là vật dùng để viết."
               },
               {
-                "zh": "我读这本书。",
-                "pinyin": "Wǒ dú zhè běn shū.",
-                "vi": "Tôi đọc quyển sách này.",
-                "note": "本 là lượng từ, 书 là sách."
+                "zh": "这是一本书。",
+                "pinyin": "Zhè shì yì běn shū.",
+                "vi": "Đây là một quyển sách.",
+                "note": "本 là lượng từ, 书 là danh từ."
               }
             ],
-            "tip": "Nhìn vai trò: 本子 là danh từ một vật; 本 đứng trước 书 để đếm."
+            "tip": "本子 = vở/sổ; 一本书 = một quyển sách. Đừng tách 本子 thành 本 + 子 để đoán sai."
           }
         ],
         "guidedExercises": [
@@ -15306,6 +15361,29 @@
             "correctIndex": 0,
             "explanation": "本子 là vở/sổ."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "本子 có cách đọc thông dụng běnzi; âm tiết cuối thường nhẹ, không tạo nghĩa khác cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "本子 được giới hạn ở nghĩa vở/sổ ghi chép trong bài; cách dùng khác không cần mở rộng ở mức này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch từng chữ 本子 thành ‘gốc + con’ không có ích; cần học cả từ là vở/sổ, không nhầm với 本 làm lượng từ."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 本子 với 书 và 本 bằng ví dụ về vở, sách và lượng từ."
+          }
         }
       }
     },
@@ -15322,7 +15400,7 @@
       "meaning": "sách giáo khoa; sách học theo môn/khóa",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 010",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 46",
       "examples": [
         {
           "id": "e1",
@@ -15344,8 +15422,8 @@
       "sourceIndex": 23,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn mở sách giáo khoa.",
-      "model": "我打开课本。",
+      "task": "Nói về sách giáo khoa hoặc sách dùng cho môn học.",
+      "model": "这是我的课本。",
       "quiz": {
         "question": "课本 trong bài này chỉ vật nào?",
         "choices": [
@@ -15376,8 +15454,8 @@
         "difficulty": "medium",
         "difficultyReason": "课本 là từ ghép dễ hiểu nhưng cần phân biệt với 书 nói chung và 本子 là vở; cấu trúc dùng trong lớp cũng cần dạy.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, từ loại, phạm vi danh từ ghép, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Textbooks"
         ],
@@ -15430,24 +15508,28 @@
         "confusions": [
           {
             "id": "notebook",
+            "category": "C",
             "afterSense": "textbook",
-            "title": "课本 và 本子 khác vật",
-            "explanation": "课本 là sách để học/đọc nội dung môn học; 本子 là vở để viết ghi chép.",
+            "title": "课本 và 本子: sách giáo khoa hay vở ghi",
+            "possibleConfusion": "Cả hai đều có 本 và đều liên quan đến việc học nên dễ gọi nhầm vở ghi là 课本.",
+            "explanation": "课本 là sách giáo khoa/tài liệu học theo môn. 本子 là vở hoặc sổ để viết ghi chép.",
+            "difference": "老师发课本 nói giáo viên phát sách giáo khoa; 我写在本子上 nói tôi viết vào vở. Hai vật có công dụng khác.",
+            "boundary": "Có nội dung môn học để đọc theo giáo trình: 课本; có trang để tự ghi: 本子.",
             "contrasts": [
               {
-                "zh": "请打开课本。",
-                "pinyin": "Qǐng dǎkāi kèběn.",
-                "vi": "Hãy mở sách giáo khoa.",
-                "note": "Đọc nội dung bài học."
+                "zh": "这是我的课本。",
+                "pinyin": "Zhè shì wǒ de kèběn.",
+                "vi": "Đây là sách giáo khoa của tôi.",
+                "note": "课本 là sách học theo môn."
               },
               {
-                "zh": "请打开本子。",
-                "pinyin": "Qǐng dǎkāi běnzi.",
-                "vi": "Hãy mở vở.",
-                "note": "Mở sổ để viết hoặc xem ghi chép."
+                "zh": "这是我的本子。",
+                "pinyin": "Zhè shì wǒ de běnzi.",
+                "vi": "Đây là quyển vở của tôi.",
+                "note": "本子 là vở/sổ ghi."
               }
             ],
-            "tip": "Đọc bài thì dùng 课本; viết bài thì dùng 本子."
+            "tip": "课本 để học theo môn; 本子 để ghi chép."
           }
         ],
         "guidedExercises": [
@@ -15553,6 +15635,29 @@
             "correctIndex": 0,
             "explanation": "课本 là sách học."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "课本 có cách đọc thông dụng kèběn; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "课本 là danh từ ghép chỉ sách giáo khoa/tài liệu học; không tách thành ‘tiết + quyển’ khi dịch."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch từng chữ 课本 thành ‘quyển tiết học’ sẽ sai; cả từ chỉ sách dùng cho môn học."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 课本 với 本子 theo công dụng sách giáo khoa và vở ghi."
+          }
         }
       }
     },
@@ -15573,7 +15678,7 @@
       "meaning": "ngày bao nhiêu trong tháng, dùng trong lời nói",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 011",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 47",
       "examples": [
         {
           "id": "e1",
@@ -15595,7 +15700,7 @@
       "sourceIndex": 24,
       "meaningOrigin": "biên soạn bổ sung",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Hỏi hôm nay là ngày mấy.",
+      "task": "Hỏi hoặc nói ngày bao nhiêu trong tháng theo cách nói đời thường.",
       "model": "今天几号？",
       "quiz": {
         "question": "Câu 今天几号 muốn nhận loại câu trả lời nào?",
@@ -15632,8 +15737,8 @@
         "difficulty": "easy",
         "difficultyReason": "号 có mẫu hỏi và trả lời ngày trong tháng trực tiếp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nghĩa, vị trí trong ngày tháng, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Dates"
         ],
@@ -15774,6 +15879,30 @@
             "correctIndex": 0,
             "explanation": "几号 hỏi ngày."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "号 có cách đọc thông dụng hào trong câu hỏi ngày; không có cách đọc phổ biến thứ hai cần tách ở mức học này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "Bài giới hạn 号 ở ngày trong tháng trong mẫu 几号; các nghĩa số hiệu/ngày hiệu không đưa vào mục tiêu này."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không dịch 号 trong 几号 thành ‘số mấy’ một cách tách rời; cả cụm hỏi ngày bao nhiêu."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 日 và 星期; chưa thấy bẫy cần thêm vào bài cơ bản này."
+          }
         }
       }
     },
@@ -15794,7 +15923,7 @@
       "meaning": "còn… thì sao",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 011",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 48",
       "examples": [
         {
           "id": "e1",
@@ -15816,8 +15945,8 @@
       "sourceIndex": 25,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Hỏi lại người khác sau khi nói mình ổn.",
-      "model": "我很好，你呢？",
+      "task": "Hỏi lại thông tin của người khác bằng 呢.",
+      "model": "你呢？",
       "quiz": {
         "question": "Sau 我今天有课, câu 你呢 hỏi tiếp điều gì rõ nhất?",
         "choices": [
@@ -15857,8 +15986,8 @@
         "difficulty": "medium",
         "difficultyReason": "呢 là trợ từ cuối câu có nhiều chức năng; bài này giới hạn vào hỏi lại cùng chủ đề, tránh dùng như từ nghĩa độc lập.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại/trợ từ, vị trí cuối câu, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Questions_with_ne"
         ],
@@ -15911,24 +16040,28 @@
         "confusions": [
           {
             "id": "position",
+            "category": "C",
             "afterSense": "returnquestion",
-            "title": "呢 đứng cuối câu hỏi hỏi lại",
-            "explanation": "Trong mẫu này, 呢 là trợ từ cuối câu; không dịch thành một danh từ hay đặt trước vị ngữ.",
+            "title": "呢 ở cuối câu hỏi lại",
+            "possibleConfusion": "Người học muốn dịch từng chữ nên cố gán 呢 thành ‘là’ hoặc đặt giữa câu như danh từ.",
+            "explanation": "Trong 你呢？, 呢 đứng cuối để hỏi ‘còn bạn thì sao?’ sau khi thông tin về người nói đã rõ. Nó là trợ từ ngữ khí, không phải danh từ hay động từ độc lập.",
+            "difference": "我很好。—你呢？ là hỏi lại cùng chủ đề; 你是什么？ là câu hỏi có 什么, không thay 呢 vào vị trí đó.",
+            "boundary": "呢 thường đứng cuối câu hỏi tiếp nối; ý cụ thể do câu trước và chủ đề quyết định.",
             "contrasts": [
               {
-                "zh": "我很好，你呢？",
-                "pinyin": "Wǒ hěn hǎo, nǐ ne?",
-                "vi": "Tôi khỏe, còn bạn thì sao?",
-                "note": "Vị trí đúng ở cuối câu hỏi."
+                "zh": "我很好。你呢？",
+                "pinyin": "Wǒ hěn hǎo. Nǐ ne?",
+                "vi": "Tôi khỏe. Còn bạn thì sao?",
+                "note": "呢 hỏi lại cùng chủ đề."
               },
               {
-                "zh": "你呢？",
-                "pinyin": "Nǐ ne?",
-                "vi": "Còn bạn thì sao?",
-                "note": "Có thể rút gọn cả câu."
+                "zh": "你叫什么名字？",
+                "pinyin": "Nǐ jiào shénme míngzi?",
+                "vi": "Bạn tên là gì?",
+                "note": "Câu hỏi thông tin dùng 什么, không dùng 呢 thay thế."
               }
             ],
-            "tip": "Nghe người kia nói gì trước, rồi lặp chủ đề/người cần hỏi và thêm 呢 ở cuối."
+            "tip": "Sau khi nói phần của mình, dùng 你呢？ để hỏi lại ‘còn bạn thì sao?’"
           }
         ],
         "guidedExercises": [
@@ -16034,6 +16167,29 @@
             "correctIndex": 0,
             "explanation": "呢 đứng cuối."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "呢 có cách đọc thông dụng ne trong trợ từ cuối câu; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "呢 được dạy ở chức năng hỏi tiếp ‘còn… thì sao’; sắc thái do ngữ cảnh, không phải nghĩa từ vựng độc lập."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch 呢 thành một từ tiếng Việt cố định sẽ làm câu sai; cần hiểu chức năng ngữ khí và câu trước."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 呢 với câu hỏi dùng 什么, làm rõ vị trí cuối câu và ý hỏi lại."
+          }
         }
       }
     },
@@ -16050,7 +16206,7 @@
       "meaning": "về; trở lại",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 011",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 49",
       "examples": [
         {
           "id": "e1",
@@ -16072,7 +16228,7 @@
       "sourceIndex": 26,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn về nhà.",
+      "task": "Nói mình trở về và phân biệt hướng về đây hay rời khỏi đây.",
       "model": "我回家。",
       "lesson": {
         "version": 3,
@@ -16081,8 +16237,8 @@
         "difficulty": "medium",
         "difficultyReason": "回 có nghĩa trở về và kết hợp với 来/去; cần dạy hướng chuyển động thay vì dịch cứng là quay lại.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà động từ, hướng di chuyển, vị trí tân ngữ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Returning"
         ],
@@ -16135,24 +16291,28 @@
         "confusions": [
           {
             "id": "direction",
+            "category": "C",
             "afterSense": "return",
-            "title": "回来 và 回去 khác hướng",
-            "explanation": "回来 là trở về phía người nói hoặc điểm quy chiếu; 回去 là trở về phía nơi khác, rời xa điểm nói.",
+            "title": "回来 và 回去: trở về phía người nói hay đi về phía khác",
+            "possibleConfusion": "Tiếng Việt thường nói ‘về’ mà không đánh dấu hướng, còn tiếng Trung cần xét điểm quy chiếu.",
+            "explanation": "回来 là trở lại về phía nơi/người đang làm mốc nói. 回去 là trở về phía nơi khác, rời khỏi mốc hiện tại.",
+            "difference": "你什么时候回来？hỏi khi nào bạn quay lại đây; 你什么时候回去？hỏi khi nào bạn quay về nơi kia.",
+            "boundary": "Nếu hướng đi về phía người nói/nơi đang nói: 来; hướng rời khỏi đó: 去.",
             "contrasts": [
               {
-                "zh": "我回来了。",
-                "pinyin": "Wǒ huílái le.",
-                "vi": "Tôi về rồi.",
-                "note": "Trở về phía người nói."
+                "zh": "你什么时候回来？",
+                "pinyin": "Nǐ shénme shíhou huílái?",
+                "vi": "Khi nào bạn quay lại đây?",
+                "note": "Hướng về mốc người nói."
               },
               {
-                "zh": "你回去吧。",
-                "pinyin": "Nǐ huíqù ba.",
-                "vi": "Bạn về đi.",
-                "note": "Rời điểm nói để về nơi khác."
+                "zh": "你什么时候回去？",
+                "pinyin": "Nǐ shénme shíhou huíqù?",
+                "vi": "Khi nào bạn quay về bên đó?",
+                "note": "Hướng rời mốc hiện tại."
               }
             ],
-            "tip": "Chọn 来 nếu hướng về điểm nói, 去 nếu hướng ra xa điểm nói."
+            "tip": "Về phía mốc nói: 回来; về phía nơi khác: 回去. Nếu chỉ nói 回家, chưa cần nêu hướng so với người nói."
           }
         ],
         "guidedExercises": [
@@ -16258,6 +16418,29 @@
             "correctIndex": 0,
             "explanation": "回来 hướng về điểm nói."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "回 có cách đọc thông dụng huí trong động từ trở về; không có cách đọc phổ biến thứ hai cần tách ở bài này."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "回 trong bài là trở về/quay lại; hướng cụ thể do 来 hoặc 去 đi kèm, không phải hai nghĩa độc lập của 回."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Dịch ‘về’ mà bỏ hướng 来/去 sẽ mất thông tin quan trọng; cần xét điểm quy chiếu."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 回来 và 回去 bằng hai câu đúng, giải thích hướng và trường hợp 回家 trung tính."
+          }
         }
       }
     },
@@ -16274,7 +16457,7 @@
       "meaning": "giúp",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 011",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 50",
       "examples": [
         {
           "id": "e1",
@@ -16296,8 +16479,8 @@
       "sourceIndex": 27,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn giúp bạn học.",
-      "model": "我帮同学。",
+      "task": "Nói bạn giúp một người làm việc gì.",
+      "model": "我帮你。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -16305,8 +16488,8 @@
         "difficulty": "easy",
         "difficultyReason": "帮 là động từ cơ bản, người được giúp đứng sau và mẫu dùng trực tiếp.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí người nhận giúp, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Helping"
         ],
@@ -16449,6 +16632,30 @@
             "correctIndex": 0,
             "explanation": "帮 là giúp."
           }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "帮 có cách đọc thông dụng bāng; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "帮 có nghĩa trọng tâm là giúp; người được giúp đứng sau 帮 hoặc trong khung 帮 + người + động từ."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt nghiêm trọng; cần nhớ 帮 không tự động có nghĩa ‘giúp đỡ’ theo mọi cấu trúc tiếng Việt."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 帮助 và 给; chưa thấy bẫy cần thêm ở mức bài cơ bản này."
+          }
         }
       }
     },
@@ -16465,7 +16672,7 @@
       "meaning": "đánh; thực hiện việc trong cụm quen thuộc",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 011",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 51",
       "examples": [
         {
           "id": "e1",
@@ -16487,8 +16694,8 @@
       "sourceIndex": 29,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn gọi điện cho bạn.",
-      "model": "我给朋友打电话。",
+      "task": "Nói về gọi điện hoặc hiểu 打 trong cụm quen thuộc.",
+      "model": "我打电话。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -16496,8 +16703,8 @@
         "difficulty": "medium",
         "difficultyReason": "打 có nhiều nghĩa; bài này tập trung vào cụm 打电话 và đối chiếu với nghĩa đánh để tránh dịch máy móc.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà nhiều chức năng, kết hợp, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Calling_by_phone"
         ],
@@ -16556,24 +16763,28 @@
         "confusions": [
           {
             "id": "meaning",
+            "category": "A2",
             "afterSense": "hitandcall",
-            "title": "打电话 không phải đánh điện thoại",
-            "explanation": "Trong 打电话, 打 là động từ tạo cụm gọi điện; chỉ khi tân ngữ là người/vật trong ngữ cảnh bạo lực mới hiểu là đánh.",
+            "title": "打电话 không phải ‘đánh điện thoại’",
+            "possibleConfusion": "Nghĩa gốc ‘đánh’ khiến người học dịch từng chữ cụm 打电话 và hiểu sai hành động gọi điện.",
+            "explanation": "打 có nhiều cách kết hợp. Trong 打电话, cả cụm nghĩa là gọi điện; trong 打人, 打 mang nghĩa đánh người.",
+            "difference": "我打电话 là tôi gọi điện; 他打人 là anh ấy đánh người. Tân ngữ quyết định cách hiểu cụm.",
+            "boundary": "Không tách nghĩa của 打 khỏi cụm cố định; học cả 打电话, 打球, 打人 theo ngữ cảnh.",
             "contrasts": [
               {
-                "zh": "给朋友打电话。",
-                "pinyin": "Gěi péngyou dǎ diànhuà.",
-                "vi": "Gọi điện cho bạn.",
-                "note": "Cụm liên lạc."
+                "zh": "我打电话。",
+                "pinyin": "Wǒ dǎ diànhuà.",
+                "vi": "Tôi gọi điện.",
+                "note": "打电话 là cụm gọi điện."
               },
               {
-                "zh": "别打我。",
-                "pinyin": "Bié dǎ wǒ.",
-                "vi": "Đừng đánh tôi.",
-                "note": "Tác động thân thể."
+                "zh": "他打人。",
+                "pinyin": "Tā dǎ rén.",
+                "vi": "Anh ấy đánh người.",
+                "note": "打 + 人 mang nghĩa đánh."
               }
             ],
-            "tip": "Nhìn tân ngữ: 电话 báo hiệu gọi điện; người bị tác động có thể là đánh."
+            "tip": "Với 打, nhìn tân ngữ: 电话 → gọi điện; 人 → đánh người. Không dịch từng chữ máy móc."
           }
         ],
         "guidedExercises": [
@@ -16679,6 +16890,29 @@
             "correctIndex": 0,
             "explanation": "打电话 là gọi điện."
           }
+        },
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "打 có cách đọc thông dụng dǎ trong các cụm bài này; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã kiểm tra chức năng ‘đánh’ và các cụm mở rộng như 打电话 = gọi điện; nghĩa do kết hợp sau 打 quyết định."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": true,
+            "summary": "Bẫy dịch từng chữ rõ ở 打电话; phải học cả cụm là gọi điện, không phải đánh điện thoại."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": true,
+            "summary": "Đã đối chiếu 打电话 và 打人, phân biệt câu theo tân ngữ bằng Pinyin và nghĩa Việt."
+          }
         }
       }
     },
@@ -16695,7 +16929,7 @@
       "meaning": "tìm",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 011",
+      "editorialStatus": "V3 · đạt kiểm định chất lượng nội bộ · rà soát ordinal 52",
       "examples": [
         {
           "id": "e1",
@@ -16717,8 +16951,8 @@
       "sourceIndex": 30,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
-      "task": "Nói bạn đang tìm sách.",
-      "model": "我在找书。",
+      "task": "Nói bạn đang tìm một người hoặc đồ vật.",
+      "model": "我找朋友。",
       "lesson": {
         "version": 3,
         "contentVersion": 3,
@@ -16726,8 +16960,8 @@
         "difficulty": "easy",
         "difficultyReason": "找 là động từ cơ bản, tân ngữ đứng sau và có mẫu đang tìm rõ ràng.",
         "reviewedAt": "2026-10-24",
-        "qualityStatus": "internally-reviewed",
-        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "qualityStatus": "quality-revision-passed",
+        "authorship": "Đã rà từ loại, vị trí tân ngữ, Pinyin, bản dịch, độ tự nhiên, bẫy A1–A2–B–C, đáp án, audio và năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
         "sources": [
           "https://resources.allsetlearning.com/chinese/grammar/Finding"
         ],
@@ -16869,6 +17103,30 @@
             ],
             "correctIndex": 0,
             "explanation": "找 là tìm."
+          }
+        },
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "status": "complete",
+          "a1Readings": {
+            "checked": true,
+            "found": false,
+            "summary": "找 có cách đọc thông dụng zhǎo; không có cách đọc phổ biến thứ hai cần tách."
+          },
+          "a2Meanings": {
+            "checked": true,
+            "found": false,
+            "summary": "找 có nghĩa trọng tâm là tìm, với người hoặc vật làm tân ngữ; không có chức năng khác cần dạy trong bài cơ bản."
+          },
+          "bLiteralTranslation": {
+            "checked": true,
+            "found": false,
+            "summary": "Không có bẫy Hán Việt đáng kể; phân biệt tìm 找 với tìm thấy 找到 là bước kết quả mở rộng, không gán vào mọi câu."
+          },
+          "cConfusables": {
+            "checked": true,
+            "found": false,
+            "summary": "Đã kiểm tra với 找到 và 看; chưa thấy bẫy cần thêm vào bài cơ bản này."
           }
         }
       }
