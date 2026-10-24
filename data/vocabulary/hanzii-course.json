@@ -5304,58 +5304,23 @@
       "meaning": "không có gì — đáp lời cảm ơn",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "đủ mẫu dữ liệu 5.1–5.6; biên soạn đợt 01; chưa phản biện độc lập",
+      "editorialStatus": "V3 · đạt kiểm định nội bộ · đợt 004",
       "examples": [
         {
+          "id": "e1",
           "zh": "不客气。",
+          "pinyin": "Bú kèqi.",
           "vi": "Không có gì.",
-          "scene": "Người được bạn chỉ đường vừa nói cảm ơn.",
-          "why": "Cụm này thực hiện lời đáp lịch sự sau cảm ơn.",
-          "position": "Đứng riêng là đủ; không cần 我 ở đầu.",
-          "practiceAllowed": true,
-          "translationSteps": {
-            "intention": "Muốn đáp không có gì khi người kia cảm ơn.",
-            "choice": "Chọn 不客气 cho vai người vừa giúp.",
-            "order": "Dùng cả cụm thành một lượt đáp, không dịch từng chữ.",
-            "result": "不客气。"
-          },
-          "id": "e01"
+          "analysis": "Đứng riêng để đáp lời cảm ơn khi người nói vừa giúp đối phương.",
+          "practiceAllowed": true
         },
         {
+          "id": "e2",
           "zh": "不客气，请坐。",
+          "pinyin": "Bú kèqi, qǐng zuò.",
           "vi": "Không có gì, mời ngồi.",
-          "scene": "Khách cảm ơn bạn đã mở cửa; bạn mời họ ngồi.",
-          "why": "不客气 đáp lời cảm ơn, 请坐 thêm lời mời riêng.",
-          "position": "Có chỗ ngắt giữa hai hành động giao tiếp.",
-          "practiceAllowed": true,
-          "id": "e02"
-        },
-        {
-          "zh": "不客气，请进。",
-          "vi": "Không có gì, mời vào.",
-          "scene": "Khách cảm ơn bạn mở cửa trước khi vào.",
-          "why": "Đổi lời mời ngồi thành mời vào nhưng giữ vai đáp cảm ơn.",
-          "position": "请 đứng trước 进, không chen vào trong 不客气.",
-          "practiceAllowed": true,
-          "id": "e03"
-        },
-        {
-          "zh": "不客气，我们是朋友。",
-          "vi": "Không có gì, chúng ta là bạn mà.",
-          "scene": "Bạn đáp lời cảm ơn của người bạn vừa giúp.",
-          "why": "Phần sau nêu quan hệ để lời đáp gần gũi hơn.",
-          "position": "我们是朋友 là câu danh tính sau lời đáp; 朋友 là bạn bè.",
-          "practiceAllowed": true,
-          "id": "e04"
-        },
-        {
-          "zh": "不客气，我来帮你。",
-          "vi": "Không có gì, để tôi giúp bạn.",
-          "scene": "Người kia cảm ơn trước khi bạn tiếp tục giúp.",
-          "why": "不客气 đáp lời cảm ơn trước; 我来帮你 nhận làm việc giúp.",
-          "position": "我 là người giúp, 你 sau 帮 là người được giúp; 来 trong cụm này gợi người nói nhận việc.",
-          "practiceAllowed": true,
-          "id": "e05"
+          "analysis": "不客气 đáp lời cảm ơn; 请坐 là lời mời tiếp theo, tách bằng dấu phẩy.",
+          "practiceAllowed": true
         }
       ],
       "scene": "Người kia nói cảm ơn sau khi bạn giúp họ.",
@@ -5401,235 +5366,194 @@
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
       "lesson": {
-        "version": 1,
+        "version": 3,
+        "contentVersion": 3,
+        "cohortOrdinal": 10,
+        "difficulty": "medium",
+        "difficultyReason": "Cụm đáp xã giao có vai giao tiếp rõ nhưng dễ nhầm với 没关系 và 对不起 khi dịch đều là không sao/không có gì.",
+        "reviewedAt": "2026-10-24",
+        "qualityStatus": "internally-reviewed",
+        "authorship": "Đã tự rà nghĩa, ngữ pháp, Pinyin, bản dịch, ví dụ, đáp án và luồng năm bước; chưa có phản biện độc lập của giáo viên thứ hai.",
+        "sources": [
+          "https://resources.allsetlearning.com/chinese/grammar/Thanking_people"
+        ],
         "introduction": {
-          "partOfSpeech": "Lời đáp xã giao sau lời cảm ơn.",
-          "scope": "Học nghĩa không có gì khi đáp lời cảm ơn; nghĩa khác đặt ở Học thêm."
-        },
-        "meaning": {
-          "scene": "Bạn chỉ đường giúp một người và người đó nói cảm ơn.",
-          "explanation": "不客气 cho biết bạn không muốn người kia phải khách sáo vì sự giúp đỡ vừa nhận. Trong lượt đáp này, tiếng Việt thường nói không có gì.",
-          "boundary": "Không phải mọi câu không sao trong tiếng Việt đều dùng 不客气. Khi người khác xin lỗi vì gây phiền, 没关系 thường phù hợp hơn.",
-          "conditions": [
-            "Dùng trong vai người nhận lời cảm ơn sau khi giúp hoặc thể hiện thiện ý.",
-            "Không cần nêu người nhận; thường đứng thành một lượt nói ngắn."
-          ],
-          "takeaway": "Khi muốn đáp lại lời cảm ơn, trong tình huống người kia ghi nhận sự giúp đỡ của mình, bạn có thể dùng 不客气.",
-          "alternatives": [
-            {
-              "zh": "没关系。",
-              "vi": "Không sao.",
-              "purpose": "没关系 thường dùng để trấn an hoặc đáp lời xin lỗi; khác tình huống cảm ơn đang học."
-            }
-          ]
+          "scope": "不客气 dùng để đáp lại lời cảm ơn, thường sau khi mình vừa giúp hoặc phục vụ người khác."
         },
         "examples": [
           {
+            "id": "e1",
             "zh": "不客气。",
+            "pinyin": "Bú kèqi.",
             "vi": "Không có gì.",
-            "scene": "Người được bạn chỉ đường vừa nói cảm ơn.",
-            "why": "Cụm này thực hiện lời đáp lịch sự sau cảm ơn.",
-            "position": "Đứng riêng là đủ; không cần 我 ở đầu.",
-            "practiceAllowed": true,
-            "translationSteps": {
-              "intention": "Muốn đáp không có gì khi người kia cảm ơn.",
-              "choice": "Chọn 不客气 cho vai người vừa giúp.",
-              "order": "Dùng cả cụm thành một lượt đáp, không dịch từng chữ.",
-              "result": "不客气。"
-            },
-            "id": "e01"
+            "analysis": "Đứng riêng để đáp lời cảm ơn khi người nói vừa giúp đối phương.",
+            "practiceAllowed": true
           },
           {
+            "id": "e2",
             "zh": "不客气，请坐。",
+            "pinyin": "Bú kèqi, qǐng zuò.",
             "vi": "Không có gì, mời ngồi.",
-            "scene": "Khách cảm ơn bạn đã mở cửa; bạn mời họ ngồi.",
-            "why": "不客气 đáp lời cảm ơn, 请坐 thêm lời mời riêng.",
-            "position": "Có chỗ ngắt giữa hai hành động giao tiếp.",
-            "practiceAllowed": true,
-            "id": "e02"
-          },
-          {
-            "zh": "不客气，请进。",
-            "vi": "Không có gì, mời vào.",
-            "scene": "Khách cảm ơn bạn mở cửa trước khi vào.",
-            "why": "Đổi lời mời ngồi thành mời vào nhưng giữ vai đáp cảm ơn.",
-            "position": "请 đứng trước 进, không chen vào trong 不客气.",
-            "practiceAllowed": true,
-            "id": "e03"
-          },
-          {
-            "zh": "不客气，我们是朋友。",
-            "vi": "Không có gì, chúng ta là bạn mà.",
-            "scene": "Bạn đáp lời cảm ơn của người bạn vừa giúp.",
-            "why": "Phần sau nêu quan hệ để lời đáp gần gũi hơn.",
-            "position": "我们是朋友 là câu danh tính sau lời đáp; 朋友 là bạn bè.",
-            "practiceAllowed": true,
-            "id": "e04"
-          },
-          {
-            "zh": "不客气，我来帮你。",
-            "vi": "Không có gì, để tôi giúp bạn.",
-            "scene": "Người kia cảm ơn trước khi bạn tiếp tục giúp.",
-            "why": "不客气 đáp lời cảm ơn trước; 我来帮你 nhận làm việc giúp.",
-            "position": "我 là người giúp, 你 sau 帮 là người được giúp; 来 trong cụm này gợi người nói nhận việc.",
-            "practiceAllowed": true,
-            "id": "e05"
+            "analysis": "不客气 đáp lời cảm ơn; 请坐 là lời mời tiếp theo, tách bằng dấu phẩy.",
+            "practiceAllowed": true
           }
         ],
-        "usages": [
+        "senses": [
           {
-            "intent": "Đáp lời cảm ơn thật gọn.",
-            "frame": "Lời cảm ơn của người kia → 不客气",
-            "position": "Đây là lượt đáp sau lời cảm ơn, không cần đặt trong khung chủ thể và hành động.",
-            "required": "Giữ cả cụm như một lời đáp ở nghĩa đang học.",
-            "omission": "Người nhận và việc giúp thường không cần lặp; không coi thiếu chủ thể là sai.",
-            "exampleId": "e01",
-            "transform": {
-              "change": "Thêm lý do gần gũi: chúng ta là bạn.",
-              "exampleId": "e04",
-              "limit": "Chỉ thêm lý do đúng thực tế; không phải lần nào cũng cần giải thích vì sao giúp."
-            },
-            "caution": "Không gắn 吗 cuối cụm để hỏi người kia có cảm ơn không.",
+            "id": "reply",
+            "title": "Đáp lời cảm ơn",
+            "when": "Người kia vừa nói 谢谢 vì sự giúp đỡ hoặc thiện ý của bạn.",
+            "meaning": "không có gì; đừng khách sáo",
+            "grammar": "不客气 thường đứng riêng như một lượt đáp; có thể nối với lời nói tiếp theo bằng dấu phẩy.",
+            "pattern": "A：谢谢（你）。 B：不客气。",
             "collocations": [
               {
-                "zh": "不客气",
-                "vi": "không có gì",
-                "purpose": "Đáp lời cảm ơn trong một lượt ngắn."
+                "zh": "谢谢你。—不客气。",
+                "pinyin": "Xièxie nǐ. — Bú kèqi.",
+                "vi": "Cảm ơn bạn. — Không có gì."
               }
             ],
-            "forms": [],
-            "id": "u01"
-          },
-          {
-            "intent": "Đáp cảm ơn rồi tiếp tục mời hoặc giúp.",
-            "frame": "不客气 + một câu mời hoặc câu giúp phù hợp",
-            "position": "Ngắt sau lời đáp, rồi nói câu thứ hai.",
-            "required": "请 cần đứng trước hành động nếu dùng mẫu lời mời 请坐 hoặc 请进.",
-            "omission": "Chỉ cần đáp 不客气 nếu không có việc tiếp theo; phần mời không bắt buộc.",
-            "exampleId": "e02",
-            "transform": {
-              "change": "Đổi lời mời ngồi thành mời vào.",
-              "exampleId": "e03",
-              "limit": "Thay hành động sao cho phù hợp nơi chốn và tình huống, không ghép từ chỉ vật vào chỗ hành động."
-            },
-            "caution": "Không phân tích 不 thành công thức phủ định tùy đổi thành 没 trong lời đáp cố định.",
-            "collocations": [
+            "examples": [
               {
-                "zh": "不客气，请坐",
-                "vi": "không có gì, mời ngồi",
-                "purpose": "Vừa đáp vừa tiếp khách."
+                "zh": "不客气。",
+                "pinyin": "Bú kèqi.",
+                "vi": "Không có gì.",
+                "note": "Dùng ngay sau lời cảm ơn."
               },
               {
-                "zh": "不客气，我来帮你",
-                "vi": "không có gì, để tôi giúp",
-                "purpose": "Đáp rồi nhận tiếp việc giúp."
+                "zh": "不客气，请坐。",
+                "pinyin": "Bú kèqi, qǐng zuò.",
+                "vi": "Không có gì, mời ngồi.",
+                "note": "Sau lời đáp có thể thêm lời mời phù hợp."
               }
-            ],
-            "forms": [],
-            "id": "u02"
+            ]
           }
         ],
-        "traps": [
+        "confusions": [
           {
-            "title": "Lời xin lỗi không phải lời cảm ơn",
-            "scene": "Người kia vô ý làm phiền rồi nói 对不起.",
-            "possibleConfusion": "Bạn có thể dễ nhầm không có gì và không sao trong tiếng Việt nên đều dùng 不客气.",
-            "difference": "不客气 thường đáp cảm ơn; 没关系 trấn an sau lỗi hoặc sự bất tiện.",
-            "cases": [
+            "id": "apology",
+            "afterSense": "reply",
+            "title": "不客气 không đáp lời xin lỗi",
+            "explanation": "不客气 đáp 谢谢; khi người kia xin lỗi vì gây phiền, 没关系 thường mới là lời đáp phù hợp.",
+            "contrasts": [
               {
-                "id": "case-1",
-                "zh": "没关系。",
-                "vi": "Không sao.",
-                "judgment": "correct",
-                "comment": "Đáp lời xin lỗi nhẹ nhàng.",
-                "practiceAllowed": false
+                "zh": "谢谢你。—不客气。",
+                "pinyin": "Xièxie nǐ. — Bú kèqi.",
+                "vi": "Cảm ơn bạn. — Không có gì.",
+                "note": "Đây là cặp cảm ơn và đáp cảm ơn."
               },
               {
-                "id": "case-2",
-                "zh": "不客气。",
-                "vi": "Không có gì.",
-                "judgment": "wrong-intent",
-                "comment": "Đúng như lời đáp cảm ơn, nhưng không hợp lượt xin lỗi đang xét.",
-                "practiceAllowed": false
+                "zh": "对不起。—没关系。",
+                "pinyin": "Duìbuqǐ. — Méi guānxi.",
+                "vi": "Xin lỗi. — Không sao.",
+                "note": "Đây là cặp xin lỗi và đáp lời xin lỗi."
               }
             ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Thay 没关系 bằng 不客气 trong lượt đáp xin lỗi này làm lệch ý định; không phải câu sai ngữ pháp."
-            },
-            "boundary": "Nếu người kia vừa xin lỗi vì gây phiền vừa cảm ơn vì được giúp, chọn lời đáp theo phần bạn muốn trả lời; có thể cần nói rõ hơn.",
-            "tip": "Nghe lời cảm ơn thì nghĩ đến 不客气; nghe xin lỗi và muốn trấn an thì nghĩ đến 没关系.",
-            "corrections": [],
-            "id": "t01",
-            "checkId": "check-01"
-          },
-          {
-            "title": "不客气 không dùng để tự cảm ơn người giúp mình",
-            "scene": "Bạn vừa nhận một cốc nước từ người khác.",
-            "possibleConfusion": "Bạn có thể dễ nhầm dùng lời lịch sự nào cũng được khi nhận giúp đỡ.",
-            "difference": "谢谢 bày tỏ biết ơn của người nhận; 不客气 là lời đáp thường của người cho hoặc giúp.",
-            "cases": [
-              {
-                "id": "case-1",
-                "zh": "谢谢。",
-                "vi": "Cảm ơn.",
-                "judgment": "correct",
-                "comment": "Bạn nhận nước và ghi nhận thiện ý.",
-                "practiceAllowed": false
-              },
-              {
-                "id": "case-2",
-                "zh": "不客气。",
-                "vi": "Không có gì.",
-                "judgment": "wrong-intent",
-                "comment": "Không thực hiện lời cảm ơn cần nói trong cảnh này.",
-                "practiceAllowed": false
-              }
-            ],
-            "replacement": {
-              "result": "wrong-intent",
-              "explanation": "Nếu đổi 谢谢 thành 不客气, bạn đã dùng lời ở lượt đáp khác vai."
-            },
-            "boundary": "Không phán xét chỉ từ câu đứng riêng khi chưa biết ai vừa giúp ai; cùng một người có thể đổi vai trong cuộc nói chuyện.",
-            "tip": "Nhận giúp thì nói 谢谢; được người kia cảm ơn thì đáp 不客气.",
-            "corrections": [],
-            "id": "t02",
-            "checkId": "check-02"
+            "tip": "Xác định lượt trước là cảm ơn hay xin lỗi rồi chọn 不客气 hay 没关系."
           }
         ],
-        "pronunciation": {
-          "text": "不 có thanh gốc là thanh bốn. Trước 客 mang thanh bốn, khi nói liền 不 thường đọc thành thanh hai; đó là biến điệu, không phải nghĩa mới. 气 thường đọc thanh nhẹ trong cụm này: vẫn phát âm nhưng ngắn và nhẹ hơn. Cách ghi thanh gốc nằm ở phần giới thiệu."
-        },
-        "checks": [
+        "guidedExercises": [
           {
-            "id": "check-01",
-            "question": "Người kia nói cảm ơn vì bạn chỉ đường. Chọn đáp lời.",
+            "id": "g1",
+            "type": "order",
+            "prompt": "Sắp xếp câu đáp: Không có gì.",
+            "tokens": [
+              "不客气",
+              "。"
+            ],
+            "accepted": [
+              "不客气。"
+            ],
+            "model": "不客气。",
+            "explanation": "Giữ nguyên cả cụm 不客气 rồi thêm dấu câu.",
+            "wrongFeedback": "Đây là một cụm đáp hoàn chỉnh, không cần thêm 我."
+          },
+          {
+            "id": "g2",
+            "type": "complete",
+            "prompt": "Hoàn thành: 谢谢你。—____。",
+            "accepted": [
+              "不客气。",
+              "不客气"
+            ],
+            "model": "不客气。",
+            "explanation": "Sau lời cảm ơn, người vừa giúp đáp 不客气.",
+            "wrongFeedback": "Chọn cụm dùng để đáp lời cảm ơn."
+          }
+        ],
+        "discriminationExercises": [
+          {
+            "id": "d1",
+            "trapId": "apology",
+            "type": "choice",
+            "prompt": "Bạn vừa được cảm ơn vì đã chỉ đường. Chọn câu đáp.",
             "choices": [
               "不客气。",
-              "对不起。"
-            ]
-          },
+              "没关系。"
+            ],
+            "correctIndex": 0,
+            "model": "不客气。",
+            "explanation": "Đây là tình huống cảm ơn, không phải xin lỗi.",
+            "wrongFeedback": "Nhận diện lượt nói trước là 谢谢 hay 对不起."
+          }
+        ],
+        "productionExercises": [
           {
-            "id": "check-02",
-            "question": "Bạn được cảm ơn sau khi giúp. Chọn lời của mình.",
-            "choices": [
-              "谢谢你帮我。",
-              "不客气。"
+            "id": "p1",
+            "prompt": "Đáp lời một người vừa cảm ơn bạn đã giúp họ.",
+            "hints": [
+              "Ý: người kia nói cảm ơn.",
+              "Khung: dùng cụm đáp lời cảm ơn.",
+              "Mẫu: 不客气。"
+            ],
+            "model": "不客气。",
+            "vi": "Không có gì.",
+            "criteria": [
+              "Dùng đúng 不客气.",
+              "Câu phù hợp sau lời cảm ơn."
             ]
           }
         ],
-        "answers": {
-          "check-01": {
-            "correctIndex": 0,
-            "explanation": "Đây là lượt cảm ơn, không phải bạn đang nhận lỗi."
+        "reviewExercises": [
+          {
+            "id": "r1",
+            "prompt": "Bạn đáp gì sau 谢谢?",
+            "hiddenAnswer": "不客气",
+            "model": "不客气。"
           },
-          "check-02": {
-            "correctIndex": 1,
-            "explanation": "Bạn là người giúp và đang đáp lại, nên dùng 不客气."
+          {
+            "id": "r2",
+            "prompt": "Từ nào thường đáp lời xin lỗi, không phải lời cảm ơn?",
+            "hiddenAnswer": "没关系",
+            "model": "没关系。"
           }
-        },
-        "authorship": "Biên soạn mới bằng tiếng Việt cho Hanzi Việt; chưa được giáo viên phản biện độc lập.",
-        "sources": []
+        ],
+        "checks": {
+          "g1": {
+            "id": "g1",
+            "type": "order",
+            "question": "Sắp xếp: Không có gì.",
+            "choices": [
+              "不客气",
+              "。"
+            ],
+            "correct": [
+              "不客气。"
+            ],
+            "explanation": "不客气 là cụm đáp hoàn chỉnh."
+          },
+          "d1": {
+            "id": "d1",
+            "type": "choice",
+            "question": "Bạn vừa được cảm ơn vì đã chỉ đường. Chọn câu đáp.",
+            "choices": [
+              "不客气。",
+              "没关系。"
+            ],
+            "correctIndex": 0,
+            "explanation": "不客气 đáp lời cảm ơn."
+          }
+        }
       }
     },
     {
