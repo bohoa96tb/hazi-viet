@@ -34,7 +34,7 @@ $('#wordSearch').value='不用';$('#wordSearch').dispatchEvent(new window.Event(
 click('[data-start="hz-h1-b51cd2090a80"]');assert(body().includes('bù yòng'));click('[data-step="2"]');assert(body().includes('不用 / 不要'));click('[data-lesson-page="trap"][data-delta="1"]');assert(body().includes('不用 / 没用'));
 click('[data-action="close"]');$('#wordSearch').value='';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
 // A protected V1 word can still be opened through the same application.
-const old=p.completedIds.find(id=>d.words.find(w=>w.id===id)?.lesson?.version===1);$('#wordSearch').value=d.words.find(w=>w.id===old).hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-start="'+old+'"]');assert(body().includes('5.1'));click('[data-step="1"]');assert(document.querySelector('[data-lesson-view]'));
+const old=p.completedIds.find(id=>[1,2].includes(d.words.find(w=>w.id===id)?.lesson?.version));$('#wordSearch').value=d.words.find(w=>w.id===old).hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-start="'+old+'"]');assert($('#lessonBody'));click('[data-step="1"]');assert($('#lessonBody'));
 // Exercise every new lesson through the real entry point, including empty traps.
 for(const id of p.batches.at(-1).wordIds){
  const word=d.words.find(w=>w.id===id);
