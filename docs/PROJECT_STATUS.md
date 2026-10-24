@@ -5,10 +5,10 @@ Cập nhật: 2026-10-24. Chế độ hiện hành: `review-existing-first`.
 ## Rà soát bài đã có
 
 - Phạm vi: 377 bài đang đủ cấu trúc trong thứ tự `data/vocabulary/hanzii-course.json`, gồm 10 bài ngoài baseline.
-- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 344/377 bài.
-- Đã rà trong các đợt `review-001` đến `review-020`; review-020 gồm 忘记、明白、看到、看见、知道、觉得、认真、认识、记住、记得、高兴、别、到、去、开、拿、来、给.
-- Review-020 đọc và kiểm tra toàn bộ 18 bài, phân loại 14 trung bình, 4 khó; giữ nguyên nội dung sau khi đối chiếu công thức, ví dụ, bẫy, bài tập, đáp án, audio và 18 nguồn MDBG đều HTTP 200.
-- Còn rà: 33 bài. Tiếp theo: bài 345 (`hz-h1-58d854ede27a`, 行) và các ID trong `tools/vocabulary/review-checkpoint.json`.
+- Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 362/377 bài.
+- Đã rà trong các đợt `review-001` đến `review-021`; review-021 gồm 行、跟、进、送、一起、出去、出来、回到、回去、回来、得到、打开、找到、来到、进去、进来、下、关.
+- Review-021 đọc và kiểm tra toàn bộ 18 bài, phân loại 1 dễ, 7 trung bình, 10 khó; giữ nguyên nội dung sau khi đối chiếu công thức, ví dụ, bẫy, bài tập, đáp án, audio và 18 nguồn MDBG đều HTTP 200.
+- Còn rà: 15 bài. Tiếp theo: bài 363 (`zai-again`, 再) và các ID trong `tools/vocabulary/review-checkpoint.json`.
 - Chưa được coi là phản biện giáo viên độc lập; chưa kiểm bố cục mobile hoặc TTS Android thật.
 
 ## Bổ sung bài còn thiếu
