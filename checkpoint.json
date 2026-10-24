@@ -29,7 +29,7 @@
   "supplementationStatus": "paused-until-review-complete",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-22",
-  "note": "Review-001: rà 10 bài đầu theo chuẩn mới, gồm sửa 你; process verify, verify-review và DOM đạt. Bài bổ sung giữ nguyên; thay đổi rà soát hiện đang chờ commit/push.",
+  "note": "Review-001: rà 10 bài đầu theo chuẩn mới, gồm sửa 你; process verify, verify-review và DOM đạt. Commit 9bc5b9c đã push và Pages run 40094707502 success; bổ sung vẫn tạm dừng.",
   "sourceBlobs": {
     "progress.json": "1cc95c63ce88e322c996b376140ed57728c1e6cc",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
@@ -66,8 +66,8 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "859714a1489df7357461c3dfa656008bd1192457",
-  "priorVerificationNote": "Đã kiểm HEAD main và nhánh content hiện có; không hợp nhất hướng V3 cũ. Batch-027 đã phát hành trước đó. Review-001 đã qua process-batch verify, verify-review và test-dom; hiện chưa xác minh commit/phát hành lượt rà soát này, bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "9bc5b9c27082c11a48882a12fbe93a364b233166",
+  "priorVerificationNote": "Đã kiểm HEAD main và nhánh content hiện có; không hợp nhất hướng V3 cũ. Review-001 đã qua process-batch verify, verify-review và test-dom; Pages run 40094707502 success đúng SHA, course live khớp byte. Chưa xác minh bố cục thiết bị, Android TTS hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[367:]",
@@ -102,5 +102,26 @@
     "releaseState": "published-pages-verified",
     "verifiedPagesRun": 40093701329,
     "verifiedPagesCommit": "859714a1489df7357461c3dfa656008bd1192457"
+  },
+  "reviewStatus": {
+    "batch": "review-001",
+    "reviewedIds": [
+      "hz-h1-64d354d405bb",
+      "hz-h1-0a3f1c936624",
+      "hz-h1-1ac411c12450",
+      "hz-h1-fb76fb22fed2",
+      "hz-h1-489f35fdb6de",
+      "hz-h1-14cd68fb49a8",
+      "hz-h1-84d9b4b03d4f",
+      "hz-h1-0e7703e395dc",
+      "hz-h1-722d36ebd9c0",
+      "hz-h1-3f50a387a499"
+    ],
+    "reviewedCount": 10,
+    "reviewTotal": 377,
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40094707502,
+    "verifiedPagesCommit": "9bc5b9c27082c11a48882a12fbe93a364b233166",
+    "liveCourseSha256": "c4a57f66321c9cb7f2baf56b4258c00e02776fb14b2c909e1629b90f11ab3bb7"
   }
 }
