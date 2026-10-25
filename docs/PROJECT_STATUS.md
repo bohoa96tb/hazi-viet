@@ -15,7 +15,7 @@ Cập nhật: 2026-10-25. Chế độ hiện hành: `supplementation` (đã qua 
 
 - Phạm vi baseline: 2.224 mục; 377 mục đã có nội dung bổ sung; còn 1.847 mục.
 - Tiến độ này độc lập với tiến độ rà soát ở trên và không được dùng để tuyên bố đã rà 367 bài.
-- Trạng thái: `in-progress`, batch-028 đã commit và đang chờ Pages/live. Đợt kế tiếp bắt đầu từ ordinal 378 theo ID trong checkpoint sau khi batch-028 phát hành.
+- Trạng thái: `ready-to-start`, batch-028 đã commit, push và xác minh Pages/live. Đợt kế tiếp bắt đầu từ ordinal 378 theo ID trong checkpoint.
 
 ## Giao diện và chức năng
 

@@ -7,12 +7,12 @@
   "reviewTotal": 377,
   "nextReviewOrdinal": null,
   "nextReviewIds": [],
-  "supplementationStatus": "in-progress",
+  "supplementationStatus": "ready-to-start",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-24-review-first",
-  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Batch-028 đã biên soạn và kiểm tra cục bộ 10 mục baseline 368–377; tiến độ supplementation là 377/2.224, còn 1.847. Tiến độ supplementation không đại diện cho tiến độ rà soát.",
+  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Batch-028 đã bổ sung, kiểm tra và phát hành 10 mục baseline 368–377; tiến độ supplementation là 377/2.224, còn 1.847. Tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "b190b6989477a38f98a709192093953257fb0209",
+    "progress.json": "0035c34b2db2c8ae00452baf5d43cf549a95fc11",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "072caf61a1f6f99e1eda546ac1a51499e6c45ff3",
     "data/vocabulary/content-audit.json": "1cddb52f344065951d3eaf837e25ff62a553abb6"
@@ -81,11 +81,11 @@
     "authoredIds": ["hz-h1-c910353bf22d", "hz-h1-c0d13131ada7", "hz-h1-a92ba3f9c7e1", "hz-h1-b30add7c80a3", "hz-h1-839fbdffecad", "hz-h1-970979ecbbcd", "hz-h1-ae83e1176961", "hz-h1-89b0b8fb11e9", "hz-h1-54c7d57cb14d", "hz-h1-ebd9a11fea6c"],
     "automatedVerifiedIds": ["hz-h1-c910353bf22d", "hz-h1-c0d13131ada7", "hz-h1-a92ba3f9c7e1", "hz-h1-b30add7c80a3", "hz-h1-839fbdffecad", "hz-h1-970979ecbbcd", "hz-h1-ae83e1176961", "hz-h1-89b0b8fb11e9", "hz-h1-54c7d57cb14d", "hz-h1-ebd9a11fea6c"],
     "editorialReviewedIds": ["hz-h1-c910353bf22d", "hz-h1-c0d13131ada7", "hz-h1-a92ba3f9c7e1", "hz-h1-b30add7c80a3", "hz-h1-839fbdffecad", "hz-h1-970979ecbbcd", "hz-h1-ae83e1176961", "hz-h1-89b0b8fb11e9", "hz-h1-54c7d57cb14d", "hz-h1-ebd9a11fea6c"],
-    "publishedIds": [],
+    "publishedIds": ["hz-h1-c910353bf22d", "hz-h1-c0d13131ada7", "hz-h1-a92ba3f9c7e1", "hz-h1-b30add7c80a3", "hz-h1-839fbdffecad", "hz-h1-970979ecbbcd", "hz-h1-ae83e1176961", "hz-h1-89b0b8fb11e9", "hz-h1-54c7d57cb14d", "hz-h1-ebd9a11fea6c"],
     "teacherReviewedIds": [],
-    "releaseState": "pending-pages",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40147845898,
+    "verifiedPagesCommit": "85076fa680686976709eec88a632514c2a0042c4"
   },
   "reviewStatus": {
     "batch": "review-022",
