@@ -12,7 +12,7 @@
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
   "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 và correction-004 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–411; batch-034 đến batch-037 đã bổ sung, tự phản biện. Tiến độ supplementation là 427/2.224, còn 1.797. Commit nội dung c70938f8 đã push content; tracker/main/Pages/live còn chờ cập nhật và xác minh; tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "2b9c75e8cb5d07c4d207b98e4e6dff7861c4c547",
+    "progress.json": "161ddd1777fc208c01a229818d6644f8aeee79de",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "97fa015505d3c6283d93226a1ad80d7fa07f2429",
     "data/vocabulary/content-audit.json": "64635edeb9d9c1ae89e36b2503e750c40b077856"
@@ -75,10 +75,10 @@
       "hz-h1-2a53b8190d1b",
       "hz-h1-3ae826b4f4a7"
     ],
-    "releaseState": "pending-pages-verification",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null,
-    "liveCourseSha256": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40156085909,
+    "verifiedPagesCommit": "5d3b4a48843f976e6ae716d251c2ea37dca92bfe",
+    "liveCourseSha256": "33de48652e5f882bb4c454a649c5e9c196617c9c457022c42b3678edc35b0e15"
   },
   "batchStatus": {
     "batch": "batch-037",
@@ -114,9 +114,9 @@
       "hz-h1-10154770a9fc"
     ],
     "teacherReviewedIds": [],
-    "releaseState": "pending-pages-verification",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40156085909,
+    "verifiedPagesCommit": "5d3b4a48843f976e6ae716d251c2ea37dca92bfe"
   },
   "reviewStatus": {
     "batch": "review-022",
@@ -502,9 +502,9 @@
     "reviewedCount": 377,
     "reviewTotal": 377,
     "releaseState": "published-pages-verified",
-    "verifiedPagesRun": 40155717136,
-    "verifiedPagesCommit": "b58001ab42f6d515c70573905742e47cd958dfae",
-    "liveCourseSha256": "1e7dfb2bad6340ede73f61e4e5a09dd742a55f0a2b6a2d95223332045fe3a2ea"
+    "verifiedPagesRun": 40156085909,
+    "verifiedPagesCommit": "5d3b4a48843f976e6ae716d251c2ea37dca92bfe",
+    "liveCourseSha256": "33de48652e5f882bb4c454a649c5e9c196617c9c457022c42b3678edc35b0e15"
   },
   "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/fd6307b"
 }
