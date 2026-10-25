@@ -10,9 +10,9 @@
   "supplementationStatus": "in-progress",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
-  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-008 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–462; batch-034 đến batch-046 đã bổ sung, tự phản biện. Tiến độ supplementation là 481/2.224, còn 1.743; batch-046 đang chờ commit và Pages. Tiến độ supplementation không đại diện cho tiến độ rà soát.",
+  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-008 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–462; batch-034 đến batch-046 đã bổ sung, tự phản biện. Tiến độ supplementation là 481/2.224, còn 1.743; batch-046 đã commit trên content và đang chờ Pages. Tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "91632ba33855a2480556289f75b4ed60a3e4580a3c28038d918cb0ccd531defc",
+    "progress.json": "4cea44c19c1982a14d096f7e67e20d68bf665d5151fb37b58c872c30420b582d",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "501bd122c8fb4b16030159ca0124b62c5675cb1f7ab61518526a5c6dec3ce0fc",
     "data/vocabulary/content-audit.json": "f910e814e82fc7079abc5986105f858a67376717def3b3bd1807737e46c3a025"
@@ -50,7 +50,7 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "ca2852874e8dc6b10fbbe65fcea8704968137198",
+  "lastVerifiedContentCommit": "9cf3355ea08d47f65a9d36966af94a84bf061f5b",
   "priorVerificationNote": "Correction-007 cho 教 và batch-045 (中学生、书包、医生、大学、大学生、学校、学院、小学、小学生、工人; ordinal 457 và 460–469) đã qua kiểm tra cục bộ trên content commit 80d1c7f và Pages run 40168023790 success trên tracker ca28528; live course 5.622.943 bytes khớp SHA-256 788651592fc30c337797e62dcabb6160bd6029224546bd0fa077033f66c15158. Chưa xác minh TTS Android thật, bố cục trực quan hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
@@ -479,5 +479,5 @@
     "verifiedPagesCommit": "5d3b4a48843f976e6ae716d251c2ea37dca92bfe",
     "liveCourseSha256": "33de48652e5f882bb4c454a649c5e9c196617c9c457022c42b3678edc35b0e15"
   },
-  "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/ca2852874e8dc6b10fbbe65fcea8704968137198"
+  "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/9cf3355ea08d47f65a9d36966af94a84bf061f5b"
 }
