@@ -1,0 +1,89 @@
+{
+  "id": "batch-030",
+  "authorship": "1 mục baseline 380; tự biên soạn, đọc MDBG và Chinese Grammar Wiki, tự phản biện hai lượt; chưa phản biện giáo viên độc lập.",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-24-review-first",
+  "entries": [
+    {
+      "id": "hz-h1-29d32239d810",
+      "hanzi": "着",
+      "wordEdits": {
+        "meaning": "trợ từ chỉ trạng thái đang duy trì; đạt trạng thái",
+        "intro": [
+          {"pinyin":"zhe","meaning":"trợ từ chỉ trạng thái đang duy trì hoặc hành động kèm theo"},
+          {"pinyin":"zháo","meaning":"đạt được trạng thái/kết quả, như trong 睡着"}
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-030 · khó"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 380,
+        "authorship": "Tự biên soạn, đọc MDBG và Chinese Grammar Wiki; bài chỉ dạy hai cách đọc/chức năng trong phạm vi đã nêu, chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=着",
+          "https://resources.allsetlearning.com/chinese/grammar/Aspect_particle_%22zhe%22"
+        ],
+        "introduction": {"scope":"着 trong trạng thái duy trì/hành động kèm theo; cách đọc khác trong 睡着"},
+        "meaning": {
+          "scene":"Mô tả một trạng thái đang được giữ, hoặc một hành động làm nền cho hành động khác.",
+          "explanation":"Trong các mẫu cơ bản như 门开着 và 笑着说, 着 đọc nhẹ và cho biết trạng thái mở/cười được duy trì trong tình huống. Trong 睡着, 着 đọc khác và nhấn kết quả đã ngủ được; đây không phải cùng một cách đọc với trợ từ trên.",
+          "boundary":"着 không phải bản dịch cố định của ‘đang’. Với hành động đang diễn ra như ‘đang mặc áo’, 在 + động từ có thể phù hợp hơn; 穿着 lại mô tả trạng thái đang mặc trên người.",
+          "conditions":[
+            "Dùng động từ + 着 để nói trạng thái được duy trì: 门开着.",
+            "Dùng động từ 1 + 着 + động từ 2 khi hành động 1 là trạng thái/cách thức của hành động 2: 笑着说.",
+            "Trong 睡着, 着 là phần của cách dùng chỉ đạt trạng thái ngủ, không đọc như trợ từ trạng thái ở 门开着."
+          ],
+          "takeaway":"Hãy nhìn cả cấu trúc và từ đi kèm: 着 trong 门开着/笑着说 giữ trạng thái; 着 trong 睡着 nhấn kết quả."
+        },
+        "usages":[
+          {"id":"u1","frame":"động từ + 着","position":"着 đứng sau động từ để mô tả trạng thái đang được giữ.","required":"Động từ trước 着 phải tạo được trạng thái như mở, đóng, mặc hoặc ngồi.","omission":"Có thể bỏ 着 nếu chỉ nói hành động mở/đóng xảy ra; bỏ nó sẽ đổi trọng tâm khỏi trạng thái đang duy trì.","exampleId":"e1"},
+          {"id":"u2","frame":"động từ 1 + 着 + động từ 2","position":"着 đứng sau động từ chỉ cách thức/trạng thái, trước hành động chính.","required":"Động từ 1 phải mô tả trạng thái hoặc cách thức đi kèm, không chỉ là một hành động độc lập nối tiếp.","omission":"Nếu hai hành động cùng diễn ra độc lập, không tự động dùng 着; cần xét cấu trúc khác như 一边……一边…….","exampleId":"e2"}
+        ],
+        "examples":[
+          {"id":"e1","zh":"门开着。","vi":"Cửa đang mở.","analysis":"开着 mô tả trạng thái cửa được giữ ở trạng thái mở, không chỉ thông báo việc mở cửa vừa xảy ra.","practiceAllowed":true},
+          {"id":"e2","zh":"她笑着说：“谢谢。”","vi":"Cô ấy vừa cười vừa nói: ‘Cảm ơn.’","analysis":"笑着 mô tả cách thức/trạng thái đi kèm với 说; hành động chính là nói.","practiceAllowed":true}
+        ],
+        "traps":[
+          {
+            "id":"t1",
+            "title":"着 và 在: trạng thái hay quá trình đang làm",
+            "scene":"Nói một người đang mặc áo hay đang ở trạng thái mặc áo.",
+            "possibleConfusion":"Cả 穿着 và 在穿 đều có thể liên quan đến ‘đang mặc’, nhưng một mẫu nhấn trạng thái, mẫu kia nhấn quá trình.",
+            "difference":"穿着一件外套 nói người đó đang mặc áo khoác trên người; 正在穿外套 nói hành động mặc áo đang diễn ra.",
+            "cases":[
+              {"id":"c1","zh":"他穿着一件外套。","vi":"Anh ấy đang mặc một chiếc áo khoác.","comment":"着 giữ trạng thái chiếc áo đang ở trên người.","judgment":"correct","practiceAllowed":false},
+              {"id":"c2","zh":"他正在穿外套。","vi":"Anh ấy đang mặc áo khoác.","comment":"正在 nhấn quá trình mặc áo; câu không nói rõ sau đó áo đã mặc xong hay chưa.","judgment":"correct","practiceAllowed":false}
+            ],
+            "replacement":{"result":"different-meaning","explanation":"Đổi 穿着 thành 正在穿 làm trọng tâm chuyển từ trạng thái đã mặc sang quá trình đang mặc; đổi ngược lại cũng không giữ nguyên điểm nhấn. Không phải cứ dịch là ‘đang’ thì hai mẫu thay thế tự do."},
+            "boundary":"Trong một tình huống ngắn, người nghe có thể hiểu gần nhau; khi cần nói áo đã ở trên người hay hành động còn đang diễn ra, sự khác biệt trở nên quan trọng.",
+            "tip":"Trạng thái trên người dùng 穿着; quá trình đang thực hiện dùng 正在穿."
+          },
+          {
+            "id":"t2",
+            "title":"着 trong 开着 và 睡着: cùng chữ, khác cách đọc/chức năng",
+            "scene":"Phân biệt trợ từ chỉ trạng thái với 着 trong từ chỉ đạt kết quả.",
+            "possibleConfusion":"Người học thấy cùng một chữ nên đọc và hiểu 着 trong mọi từ như nhau.",
+            "difference":"开着 mô tả cửa đang ở trạng thái mở; 睡着 nói đã ngủ được/đã chìm vào giấc ngủ, với cách đọc khác.",
+            "cases":[
+              {"id":"c1","zh":"门开着。","vi":"Cửa đang mở.","comment":"着 là trợ từ sau 开, gắn với trạng thái được duy trì.","judgment":"correct","practiceAllowed":false},
+              {"id":"c2","zh":"孩子睡着了。","vi":"Đứa trẻ đã ngủ rồi.","comment":"着 nằm trong 睡着 và nhấn kết quả ngủ được; không đọc như 着 trong 开着.","judgment":"correct","practiceAllowed":false}
+            ],
+            "replacement":{"result":"context-needed","explanation":"Không thể đổi cách đọc chỉ bằng cách nhìn mặt chữ. Phải nhìn từ/cấu trúc: 开着 là động từ + trợ từ trạng thái, còn 睡着 là cách dùng chỉ đạt kết quả; đổi chữ hoặc đọc theo mẫu kia sẽ làm sai câu hoặc sai nghĩa."},
+            "boundary":"Bài chỉ giới thiệu hai cách đọc thông dụng trong các ví dụ này; các từ ghép khác của 着 có thể có cách đọc/chức năng riêng và nằm ngoài phạm vi.",
+            "tip":"Nhìn cả cụm trước khi đọc: 开着 là trạng thái; 睡着 là đạt trạng thái ngủ."
+          }
+        ],
+        "trapReview":{"readingsAndMeanings":"Đã rà cách đọc/chức năng của 着 trong trợ từ trạng thái và 睡着; MDBG còn ghi các cách đọc khác ngoài phạm vi bài.","literalTranslation":"Đã rà bẫy dịch mọi 着 thành ‘đang’ hoặc xem nó luôn là hậu tố giống nhau.","confusables":"Đã đối chiếu 着 với 在/正在 và 了 ở mức cần thiết; không mở rộng toàn bộ các từ ghép có 着."},
+        "pronunciation":{"text":"着 trong mẫu trạng thái thường đọc nhẹ; 着 trong 睡着 có cách đọc khác và không phải chỉ là đọc nhẹ hơn. Đọc từ một lần, rồi đọc câu mẫu một lần.","contexts":[{"introIndex":0,"text":"门开着。","meaning":"cửa đang mở"},{"introIndex":1,"text":"孩子睡着了。","meaning":"đứa trẻ đã ngủ rồi"}]},
+        "checks":[
+          {"id":"q1","type":"open","question":"Điền chữ: 门开___。"},
+          {"id":"q2","type":"open","question":"Muốn nhấn quá trình đang mặc áo, chọn 穿着 hay 正在穿?"},
+          {"id":"q3","type":"open","question":"Trong 睡着, 着 có cùng cách đọc với 着 trong 开着 không?"},
+          {"id":"q4","type":"open","question":"笑着说 nghĩa là gì: nói trong khi cười hay đã nói xong?"}
+        ],
+        "answers":{"q1":{"accepted":["着"],"explanation":"开着 mô tả cửa đang ở trạng thái mở."},"q2":{"accepted":["正在穿"],"explanation":"正在穿 nhấn quá trình mặc áo đang diễn ra; 穿着 nhấn trạng thái áo đang ở trên người."},"q3":{"accepted":["不相同","不同"],"explanation":"着 trong 睡着 có cách đọc khác với trợ từ 着 trong 开着."},"q4":{"accepted":["nói trong khi cười","vừa cười vừa nói"],"explanation":"笑着 mô tả trạng thái/cách thức đi kèm với 说; không tự nói rằng việc nói đã xong."}},
+        "selfUse":[{"id":"s1","prompt":"Nói cửa đang mở."},{"id":"s2","prompt":"Nói một người vừa cười vừa nói cảm ơn."}],
+        "selfAnswers":{"s1":{"idea":"Dùng động từ 开 sau đó là 着.","frame":"门 + 开着","model":"门开着。","vi":"Cửa đang mở.","criteria":["Có 开着.","Câu mô tả trạng thái cửa, không chỉ việc mở cửa."]},"s2":{"idea":"Dùng 笑着 làm trạng thái/cách thức trước 说.","frame":"chủ thể + 笑着说 + lời nói","model":"她笑着说：“谢谢。”","vi":"Cô ấy vừa cười vừa nói: ‘Cảm ơn.’","criteria":["Có 笑着 đứng trước 说.","Lời nói phía sau phù hợp với tình huống."]}}
+      }
+    }
+  ]
+}

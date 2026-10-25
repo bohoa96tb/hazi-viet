@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 379/2224. Còn: 1845. Toàn khóa đủ cấu trúc: 389/2234.
+Đã bổ sung: 380/2224. Còn: 1844. Toàn khóa đủ cấu trúc: 390/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -35,10 +35,10 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-027 · mục 366–367 · 放学、最后
 - batch-028 · mục 368–377 · 睡觉、请坐、起床、起来、住、先、地、天、家、山
 - batch-029 · mục 378–379 · 床、楼
+- batch-030 · mục 380–380 · 着
 
 ## 18 mục tiếp theo
 
-- 着 · hz-h1-29d32239d810
 - 见 · hz-h1-ef0aa57ebb30
 - 都 · hz-h1-c54fef729488
 - 里 · hz-h1-080d8c21847d
@@ -56,5 +56,6 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 谁 · hz-h1-8ef23bce6545
 - 介绍 · hz-h1-90616b6a5c89
 - 他们 · hz-h1-6f1714d8acb1
+- 先生 · hz-h1-5473007caaeb
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
