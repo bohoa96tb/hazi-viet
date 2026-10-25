@@ -1,5 +1,12 @@
 
 
+# Batch-046 — đã phát hành và xác minh Pages
+
+- Content commit: `9cf3355ea08d47f65a9d36966af94a84bf061f5b`; bổ sung 12 mục ordinal 470–481: 教学楼、知识、网友、读书、课文、零、一下儿、一会儿、一半、一块儿、一点儿、女孩儿. Tiến độ: 481/2.224, còn 1.743.
+- Phân loại: dễ gồm 课文、零、一半、女孩儿; trung bình gồm 教学楼、知识、网友、读书、一下儿、一会儿、一块儿、一点儿. Correction-008 sửa bản dịch 我今天去看医生 thành “Hôm nay tôi đi khám bệnh”, không tăng completedCount. Quality validator được điều chỉnh để chấp nhận 读书 và 看书 khi đề tiếng Việt là “đọc sách”, đồng thời batch-046 đã sửa các tình huống tự dùng gần-trùng và lệch chủ thể.
+- Đã chạy `process-batch verify`, `verify-v2`, quality audit self-test, quality audit phạm vi 457–481, `test-dom.mjs`, kiểm tra cú pháp và `git diff --check`. Pages run [40168948234](https://github.com/bohoa96tb/hazi-viet/actions/runs/40168948234) completed/success đúng HEAD `7881183`.
+- Tệp khóa học live có 2.234 mục, 5.710.137 bytes, SHA-256 `501bd122c8fb4b16030159ca0124b62c5675cb1f7ab61518526a5c6dec3ce0fc`; đủ 12 ID batch-046 đúng ordinal 470–481 và bản dịch 医生 đã sửa. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
+
 # Batch-045 — đã phát hành và xác minh Pages
 
 - Content commit: `80d1c7fe35ee04d02c9724196dc3f792f9b33fa3`; bổ sung 10 mục ordinal 460–469: 中学生、书包、医生、大学、大学生、学校、学院、小学、小学生、工人. Tiến độ cục bộ: 469/2.224, còn 1.755.
