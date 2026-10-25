@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 509/2224. Còn: 1715. Toàn khóa đủ cấu trúc: 519/2234.
+Đã bổ sung: 517/2224. Còn: 1707. Toàn khóa đủ cấu trúc: 527/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -55,17 +55,10 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-047 · mục 482–493 · 好听、好玩儿、好看、小孩儿、小朋友、常常、开玩笑、有时候、没事儿、没什么、玩儿、男孩儿
 - batch-048 · mục 494–501 · 非常、下、两、低、克、卡、小、平
 - batch-049 · mục 502–509 · 当、得、懂、成、掉、满、熟、省
+- batch-050 · mục 510–517 · 短、表、该、越、轻、过、近、长
 
 ## 18 mục tiếp theo
 
-- 短 · hz-h2-6bb2d25a9b8f
-- 表 · hz-h2-634dac7281ef
-- 该 · hz-h2-404a3008879b
-- 越 · hz-h2-73efaeb69e0e
-- 轻 · hz-h2-56182766a957
-- 过 · hz-h2-9dac1ef58f36
-- 近 · hz-h2-c4fbe1d113a8
-- 长 · hz-h2-247a5ebcff44
 - 超过 · hz-h2-e550a1e24b05
 - 倒 · hz-h2-412a47f400eb
 - 刻 · hz-h2-47c9223ccdd6
@@ -76,5 +69,13 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 带 · hz-h2-f4711b59c336
 - 弄 · hz-h2-5130fcf7b45e
 - 拉 · hz-h2-0f1e8f65ab90
+- 换 · hz-h2-ea93e0896bd2
+- 排 · hz-h2-8574b36512d1
+- 推 · hz-h2-f264c0b04346
+- 提 · hz-h2-ac92c5617564
+- 改 · hz-h2-9e695feae903
+- 更 · hz-h2-5a06218074bf
+- 背 · hz-h2-55abbbf5cd39
+- 装 · hz-h2-ccdd76bac6cf
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
