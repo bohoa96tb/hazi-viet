@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "repository": "bohoa96tb/hazi-viet",
-  "workMode": "review-existing-first",
+  "workMode": "supplementation",
   "reviewCheckpointPath": "tools/vocabulary/review-checkpoint.json",
   "reviewedCount": 377,
   "reviewTotal": 377,
   "nextReviewOrdinal": null,
   "nextReviewIds": [],
-  "supplementationStatus": "ready-after-review",
+  "supplementationStatus": "ready-to-start",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-24-review-first",
-  "note": "Review-016: đã rà 272/377 bài theo chuẩn mới; nhóm 255–272 đã đọc, phân loại và kiểm tra, giữ nguyên nội dung sau đối chiếu. Bổ sung vẫn tạm dừng và không dùng tiến độ 367/2.224 để đại diện cho rà soát.",
+  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Chuyển sang supplementation; chưa bổ sung bài mới trong lượt này. Tiến độ 367/2.224 là tiến độ bổ sung riêng, không đại diện cho rà soát.",
   "sourceBlobs": {
-    "progress.json": "eb2e255567e92d11c33fe3ccdd39041d3d90347f",
+    "progress.json": "7fca1852b9bd4dadb7e4b6c6b85c3d06034f2af1",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
-    "data/vocabulary/hanzii-course.json": "7c485919c802a0514b698311b761570734bf7fe5",
+    "data/vocabulary/hanzii-course.json": "6b0b394088536f09d4411cc039ec38f535343768",
     "data/vocabulary/content-audit.json": "057b69316808b8f764c78afaccc125800a529efe"
   },
   "scopeTotal": 2224,
@@ -26,6 +26,7 @@
   "lastReviewedId": "hz-h1-56730712e191",
   "lastCompletedId": "hz-h1-56730712e191",
   "nextOrdinal": 368,
+  "nextSupplementBatch": "batch-028",
   "nextIds": [
     "hz-h1-c910353bf22d",
     "hz-h1-c0d13131ada7",
@@ -48,7 +49,7 @@
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
   "lastVerifiedContentCommit": "be511c93091786ff5180f2fb43c9eac249bbbfe7",
-  "priorVerificationNote": "Review-022 đã phát hành: đã đọc, phân loại và kiểm tra 363–377; sửa công thức bài 最后 để khớp ví dụ 最后一本书 và 最后的书; 15 nguồn MDBG phản hồi HTTP 200. Pages run 40144700694 thành công; live checkpoint/review-checkpoint đạt 377/377. Chưa xác minh bố cục mobile, TTS Android hoặc phản biện giáo viên độc lập.",
+  "priorVerificationNote": "Review-022 đã đọc và phân loại 363–377; bài 最后 đã làm rõ 最后一本书 và 最后的书, cùng các cách dùng thông dụng và phân biệt 终于. Đã hoàn tất 377/377, chuyển sang supplementation từ batch-028/ordinal 368. Lượt này bổ sung giao diện số thứ tự, đồng bộ số liệu, thu gọn đầu bài mobile; logic audio đã kiểm tra nhưng TTS Android thật chưa xác minh.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[367:]",

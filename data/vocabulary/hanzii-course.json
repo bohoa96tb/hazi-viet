@@ -84399,7 +84399,7 @@
           "id": "e2",
           "zh": "这是最后一本书。",
           "vi": "Đây là quyển sách cuối cùng.",
-          "analysis": "最后的 + danh từ có thể rút gọn thành 最后一本; 一本 là lượng từ của sách.",
+          "analysis": "最后一本书 dùng lượng từ 一本 để chọn quyển đứng cuối trong một chuỗi sách; trong mẫu này không đặt 的 giữa 一本 và 书.",
           "practiceAllowed": true
         }
       ],
@@ -84421,7 +84421,7 @@
           "explanation": "最后 chỉ vị trí hoặc thời điểm sau cùng trong một chuỗi. Nó không tự cho biết người nói đã phải chờ đợi lâu.",
           "boundary": "终于 nhấn kết quả đạt được sau chờ đợi hoặc khó khăn; 最后 chỉ thứ tự cuối, dù có thể không hề chờ đợi.",
           "conditions": [
-        "Đặt trước động tác để nêu bước cuối; trước danh từ có thể dùng 最后+lượng từ+danh từ hoặc 最后的+danh từ."
+        "Đặt trước động tác để nêu bước cuối; khi bổ nghĩa cho danh từ, chọn mẫu có lượng từ hoặc mẫu có 的 theo cách dựng cụm danh từ."
           ],
           "takeaway": "最后 trả lời câu hỏi ‘ở bước cuối/lúc sau cùng là gì’, không nhất thiết là ‘cuối cùng cũng đạt được’."
         },
@@ -84436,10 +84436,10 @@
           },
           {
             "id": "u2",
-        "frame": "最后（的）+ danh từ",
-        "position": "Đặt trước danh từ; có thể dùng 最后+lượng từ+danh từ như 最后一本书, hoặc dùng 的 trước danh từ khi phù hợp.",
-        "required": "Cần danh từ hoặc cụm danh từ sau 最后; nếu dùng 的 thì danh từ đứng sau 最后的.",
-            "omission": "Trong khẩu ngữ có thể nói 最后一个 thay cho việc lặp danh từ đã rõ.",
+            "frame": "Cụm danh từ: 最后 + số từ + lượng từ + danh từ / 最后的 + danh từ",
+            "position": "Nếu chọn một vật có đơn vị đếm rõ, đặt 最后 trước cụm số-lượng từ-danh từ, như 最后一本书; nếu nối 最后 trực tiếp với danh từ, dùng 的 như 最后的书.",
+            "required": "Chọn cấu trúc theo ý muốn nói: số từ và lượng từ nêu một đơn vị trong chuỗi; 的 nối 最后 trực tiếp với danh từ.",
+            "omission": "Không thêm hoặc bỏ 的 máy móc. Với mẫu đếm được có thể rút gọn 最后一本/最后一个 khi danh từ đã rõ; mẫu còn lại giữ 最后的 + danh từ.",
             "exampleId": "e2"
           }
         ],
@@ -84455,7 +84455,7 @@
             "id": "e2",
             "zh": "这是最后一本书。",
             "vi": "Đây là quyển sách cuối cùng.",
-            "analysis": "最后的 + danh từ có thể rút gọn thành 最后一本; 一本 là lượng từ của sách.",
+            "analysis": "最后一本书 dùng lượng từ 一本 để chọn quyển đứng cuối trong một chuỗi sách; trong mẫu này không đặt 的 giữa 一本 và 书.",
             "practiceAllowed": true
           }
         ],
@@ -84490,12 +84490,46 @@
             },
             "boundary": "Một câu có thể vừa là bước cuối vừa xảy ra sau chờ đợi, nhưng muốn nhấn sắc thái nào thì chọn từ tương ứng.",
             "tip": "Thứ tự cuối dùng 最后; rốt cuộc cũng đạt được dùng 终于."
+          },
+          {
+            "id": "t2",
+            "title": "最后一本书 và 最后的书 không phải hai quy tắc tùy ý",
+            "scene": "Bạn muốn nói về quyển sách đứng cuối trong một chuỗi sách.",
+            "possibleConfusion": "Có thể tưởng chỉ cần thêm hoặc bỏ 的 giữa 最后 và danh từ là luôn như nhau.",
+            "difference": "最后一本书 dùng số từ 一 và lượng từ 本 để chọn một quyển trong chuỗi đếm được; 最后的书 dùng 的 để nối 最后 trực tiếp với danh từ và phù hợp với cụm danh từ mô tả vật ở vị trí cuối.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这是最后一本书。",
+                "vi": "Đây là quyển sách cuối cùng.",
+                "comment": "Có lượng từ 本, nhấn một quyển được chọn trong chuỗi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "最后的书在桌子上。",
+                "vi": "Quyển sách cuối cùng ở trên bàn.",
+                "comment": "的 nối 最后 trực tiếp với 书; câu không nêu số từ/lượng từ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Không sửa bằng cách thêm hoặc bỏ 的 máy móc; trước hết xác định câu đang chọn một đơn vị có thể đếm hay đang dựng cụm danh từ với 最后.",
+              "corrected": "最后一本书 / 最后的书 đều có thể đúng trong ngữ cảnh phù hợp, nhưng không cùng một công thức cú pháp."
+            },
+            "boundary": "Trong nhiều ngữ cảnh cả hai có thể quy về cùng quyển sách cuối; khác biệt cần học là cấu trúc và điểm nhấn, không phải luôn là hai vật khác nhau.",
+            "tip": "Có số từ+lượng từ: 最后一本书; nối trực tiếp với danh từ: 最后的书.",
+            "corrections": [],
+            "checkId": "q3"
           }
         ],
         "trapReview": {
           "readingsAndMeanings": "Đã rà nghĩa chỉ thứ tự và nghĩa chỉ phần sau cùng.",
           "literalTranslation": "Đã rà bẫy dịch máy móc ‘cuối cùng’ thành một từ duy nhất.",
-          "confusables": "Đã rà 终于 và cấu trúc 最后的 + danh từ."
+          "confusables": "Đã rà 终于 và phân biệt 最后+ số từ+ lượng từ+ danh từ với 最后的+ danh từ."
         },
         "pronunciation": {
           "text": "Đọc rõ hai âm tiết với thanh gốc. Đọc từ một lần, rồi đọc câu mẫu một lần."
@@ -84510,6 +84544,11 @@
             "id": "q2",
             "type": "open",
             "question": "Muốn nhấn mạnh ‘mãi mới tìm thấy chìa khóa’ thì chọn 最后 hay 终于?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Chọn cấu trúc phù hợp để nói ‘đây là quyển sách đứng cuối trong chuỗi’: 最后一本书 hay 最后的书? Nêu ngắn lý do."
           }
         ],
         "answers": {
@@ -84524,6 +84563,13 @@
               "终于"
             ],
             "explanation": "终于 nhấn mạnh kết quả đạt được sau chờ đợi hoặc khó khăn."
+          },
+          "q3": {
+            "accepted": [
+              "最后一本书。",
+              "最后一本书"
+            ],
+            "explanation": "Câu đang chọn một quyển trong chuỗi nên dùng số từ 一 và lượng từ 本. 最后的书 cũng có thể đúng trong ngữ cảnh khác, nhưng không phải cách thay thế tùy ý cho mẫu đang hỏi."
           }
         },
         "selfUse": [

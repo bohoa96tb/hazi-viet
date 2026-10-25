@@ -24,5 +24,5 @@ assert.equal(you.pattern,'你 + thời gian + hoạt động; 你 + 是 + ngư�
 assert.equal(you.lesson.usages[0].intent,'Xác nhận người đang nói chuyện có phải là một người hoặc vai trò nào đó.');
 assert(!JSON.stringify(you).includes('Hỏi người đang nói chuyện là ai.'));
 assert(!JSON.stringify(you).includes('你 + 是 + danh tính + 吗'));
-assert.match(checkpoint.supplementation.status,/^(paused-until-review-complete|ready-after-review)$/);
+assert.match(checkpoint.supplementation.status,/^(paused-until-review-complete|ready-after-review|ready-to-start|in-progress)$/);
 console.log(`PASS review: ${checkpoint.reviewedCount}/${checkpoint.scope.total} reviewed; batch IDs, difficulty metadata, lesson/audio checks, and 你 correction verified; supplementation status: ${checkpoint.supplementation.status}.`);

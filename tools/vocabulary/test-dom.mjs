@@ -19,7 +19,7 @@ click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,samp
 click('[data-step="3"]');assert(!document.querySelector('.feedback'));assert(!document.querySelector('[data-v2-hint]'));
 const input=$('[data-v2-draft="q1"]');input.value=sampleAnswer;input.dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-reveal-check="q1"]');assert(body().includes('Đáp án tham khảo'));assert.equal($('[data-v2-draft="q1"]').value,sampleAnswer);
 click('[data-v2-unlock]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(body().includes(selfTranslation));
-click('[data-step="4"]');click('[data-action="revealReview"]');assert(document.querySelector('[data-grade="good"]'));
+click('[data-step="4"]');assert.equal(document.querySelectorAll('[data-grade]').length,3);assert(!document.querySelector('.feedback'));click('[data-action="revealReview"]');assert(document.querySelector('[data-grade="good"]'));assert(document.querySelector('.feedback'));
 // Favorite and progress storage still operate; no grade is automatically assigned.
 click('[data-action="favorite"]');assert.equal($('[data-action="favorite"]').getAttribute('aria-pressed'),'true');
 click('[data-action="close"]');assert(!$('#wordDialog').open);
