@@ -15,7 +15,7 @@ Cập nhật: 2026-10-25. Chế độ hiện hành: `supplementation` (đã qua 
 
 - Phạm vi baseline: 2.224 mục; 459 mục đã có nội dung bổ sung; còn 1.765 mục.
 - Tiến độ này độc lập với tiến độ rà soát ở trên và không được dùng để tuyên bố đã rà 367 bài.
-- Trạng thái: batch-044 trên content commit `3fe0902`; tracker `3e50f58` đã fast-forward cả `content/vocabulary-2224` và `main`. Pages run `40166784342` success, live course khớp SHA `c6df285ef12f0ba2f2d901ebd007481d0d4ff91ff6bb0598087d22d67f5f9d8c`. CompletedCount là 459/2.224, còn 1.765; đợt kế tiếp bắt đầu từ ordinal 460 theo ID trong checkpoint. Batch-044 gồm 4 dễ, 3 trung bình, 1 khó; 教 được tách hai cách đọc trong phạm vi bài. Tiến độ supplementation độc lập với cổng rà soát 377/377.
+- Trạng thái: batch-044 trên content commit `3fe0902`; tracker `d156683` đã fast-forward cả `content/vocabulary-2224` và `main`. Pages run `40166924555` success, live course khớp SHA `c6df285ef12f0ba2f2d901ebd007481d0d4ff91ff6bb0598087d22d67f5f9d8c`. CompletedCount là 459/2.224, còn 1.765; đợt kế tiếp bắt đầu từ ordinal 460 theo ID trong checkpoint. Batch-044 gồm 4 dễ, 3 trung bình, 1 khó; 教 được tách hai cách đọc trong phạm vi bài. Tiến độ supplementation độc lập với cổng rà soát 377/377.
 
 ## Giao diện và chức năng
 
