@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 457 mục đủ cấu trúc V1/V2; còn 1777. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 447 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 461 mục đủ cấu trúc V1/V2; còn 1773. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 451 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -99754,55 +99754,561 @@
       "intro": [
         {
           "pinyin": "lùkǒu",
-          "meaning": "ngã đường"
+          "meaning": "ngã tư; chỗ giao đường"
         }
       ],
-      "meaning": "ngã đường",
-      "status": "catalog",
+      "meaning": "ngã tư; chỗ giao đường",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-043 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我们在路口等你。",
+          "vi": "Chúng tôi đợi bạn ở ngã tư.",
+          "analysis": "在路口 nêu điểm chờ; 等你 nói người được đợi.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "过了这个路口就到了。",
+          "vi": "Qua ngã tư này là sẽ đến nơi.",
+          "analysis": "过了这个路口 nêu mốc đã đi qua; 就到了 nói sau đó sẽ tới.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 452,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 448,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/路口"
+        ],
+        "introduction": {
+          "scope": "điểm giao nhau hoặc lối vào của các con đường"
+        },
+        "meaning": {
+          "scene": "路口 là một điểm nơi các đường gặp nhau, thường dùng để định vị, chờ người hoặc rẽ.",
+          "explanation": "路口 nói một điểm trên mạng lưới đường, không phải toàn bộ con đường. Có thể dùng 在路口 để nói vị trí hoặc 过了路口 để nói đã đi qua điểm đó.",
+          "boundary": "路口 là chỗ giao đường; 路上 là trên đường hoặc trong hành trình.",
+          "conditions": [
+            "Dùng 在路口 khi nêu vị trí; dùng 过了这个路口 khi nói đã đi qua điểm giao."
+          ],
+          "takeaway": "路口 là chỗ giao đường, một mốc cụ thể để định vị hoặc rẽ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + 路口 + động tác",
+            "position": "路口 đứng sau 在.",
+            "required": "Dùng khi nói người hoặc hành động ở chỗ giao đường.",
+            "omission": "Có thể bỏ 在 trong câu mệnh lệnh ngắn như 到路口右转.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "过了 + 路口 + 就 + kết quả",
+            "position": "路口 đứng sau 过了.",
+            "required": "Dùng khi nói sau khi đi qua một điểm giao.",
+            "omission": "Có thể thay bằng mốc đường khác.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们在路口等你。",
+            "vi": "Chúng tôi đợi bạn ở ngã tư.",
+            "analysis": "在路口 nêu điểm chờ; 等你 nói người được đợi.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "过了这个路口就到了。",
+            "vi": "Qua ngã tư này là sẽ đến nơi.",
+            "analysis": "过了这个路口 nêu mốc đã đi qua; 就到了 nói sau đó sẽ tới.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "路口 và 路上: chỗ giao đường hay trên đường",
+            "scene": "Phân biệt một điểm cụ thể với vùng hoặc hành trình trên đường.",
+            "possibleConfusion": "Cả hai đều có chữ 路 và đều dùng trong bối cảnh giao thông.",
+            "difference": "路口 là điểm giao đường; 路上 là trên đường hoặc trong hành trình.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们在路口等你。",
+                "vi": "Chúng tôi đợi bạn ở ngã tư.",
+                "comment": "路口 là điểm định vị cụ thể.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我在路上买了水。",
+                "vi": "Tôi đã mua nước trên đường đi.",
+                "comment": "路上 chỉ bối cảnh hoặc vị trí trong hành trình.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 路口 thành 路上 sẽ đổi một điểm giao cụ thể thành cả đoạn đường hoặc hành trình; câu mới cần ngữ cảnh khác."
+            },
+            "boundary": "Không dùng 路口 để chỉ toàn bộ đoạn đường.",
+            "tip": "路口 là chỗ giao đường, 路上 là trên đường."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa điểm giao đường của 路口.",
+          "literalTranslation": "Đã rà bẫy dịch 路口 thành đường nói chung.",
+          "confusables": "Đã đối chiếu 路口/路上 bằng câu có đúng chức năng."
+        },
+        "pronunciation": {
+          "text": "路口 gồm 路 thanh 4 và 口 thanh 3; đọc rõ hai âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我们在___等你。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói chỗ giao đường, chọn 路口 hay 路上?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "路口"
+            ],
+            "explanation": "路口 là chỗ giao đường."
+          },
+          "q2": {
+            "accepted": [
+              "路口"
+            ],
+            "explanation": "路口 chỉ điểm giao đường."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói rẽ phải ở ngã tư."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi nhà ga cách ngã tư có xa không."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 在路口右转 để nêu mốc và hướng rẽ.",
+            "frame": "在 + 路口 + 右转",
+            "model": "在路口右转。",
+            "vi": "Rẽ phải ở ngã tư.",
+            "criteria": [
+              "Có 路口 làm mốc.",
+              "右转 chỉ hành động rẽ phải."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 车站离路口远吗 để hỏi khoảng cách giữa nhà ga và ngã tư.",
+            "frame": "địa điểm + 离 + 路口 + 远吗",
+            "model": "车站离路口远吗？",
+            "vi": "Nhà ga cách ngã tư có xa không?",
+            "criteria": [
+              "Có 路口 làm mốc khoảng cách.",
+              "远吗 hỏi xa hay không."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "trên xe",
+      "meaning": "trên xe; trong xe",
       "intro": [
         {
           "pinyin": "chē shàng",
-          "meaning": "trên xe"
+          "meaning": "trên xe; trong xe"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我在车上。",
+          "vi": "Tôi đang ở trên xe.",
+          "analysis": "在车上 nói vị trí hiện tại, không nói hành động lên xe.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "车上有很多人。",
+          "vi": "Trên xe có rất nhiều người.",
+          "analysis": "车上 làm nơi chốn; 有很多人 nói những người có mặt trên xe.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-b37f01b392ea",
       "hanzi": "车上",
       "level": 1,
       "sourceIndex": 453,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "biên soạn bổ sung",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-043 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 449,
+        "authorship": "Tự biên soạn, đối chiếu mục 车/上; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/车",
+          "https://www.zdic.net/hans/上"
+        ],
+        "introduction": {
+          "scope": "vị trí ở trên hoặc bên trong một phương tiện"
+        },
+        "meaning": {
+          "scene": "车上 dùng để nói người hoặc vật đang ở trên xe, trong bối cảnh phương tiện đang chở họ.",
+          "explanation": "车上 thường đứng sau 在 hoặc 有 để nói vị trí và những gì có trên xe. Khi muốn nhấn không gian bên trong một chiếc xe, 车里 có thể cụ thể hơn; bài này tập trung vào cách nói thông dụng 车上.",
+          "boundary": "车上 là vị trí trên xe; 上车 là hành động lên xe, không phải trạng thái đang ở trên xe.",
+          "conditions": [
+            "Dùng 在车上 khi nói ai hoặc vật đang ở trên xe; dùng 车上有 khi nói trên xe có gì."
+          ],
+          "takeaway": "车上 nói vị trí trên xe; phân biệt với hành động 上车."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + 在车上",
+            "position": "车上 đứng sau 在.",
+            "required": "Dùng khi nói người hoặc vật đang ở trên xe.",
+            "omission": "Có thể bỏ chủ thể khi câu trả lời đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "车上 + 有 + người/vật",
+            "position": "车上 làm nơi chốn trước 有.",
+            "required": "Dùng khi nói trên xe có gì hoặc có ai.",
+            "omission": "Có thể thay 有 bằng động từ phù hợp.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我在车上。",
+            "vi": "Tôi đang ở trên xe.",
+            "analysis": "在车上 nói vị trí hiện tại, không nói hành động lên xe.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "车上有很多人。",
+            "vi": "Trên xe có rất nhiều người.",
+            "analysis": "车上 làm nơi chốn; 有很多人 nói những người có mặt trên xe.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "车上 và 上车: ở trên xe hay lên xe",
+            "scene": "Phân biệt vị trí với hành động chuyển vào xe.",
+            "possibleConfusion": "Hai cụm cùng có 车 và 上 nên dễ bị dịch giống nhau.",
+            "difference": "车上 là vị trí trên xe; 上车 là hành động lên xe.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我在车上。",
+                "vi": "Tôi đang ở trên xe.",
+                "comment": "车上 chỉ vị trí hiện tại.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "请上车。",
+                "vi": "Mời lên xe.",
+                "comment": "上车 chỉ hành động bước vào xe.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 车上 thành 上车 sẽ biến trạng thái đang ở trên xe thành lời mời hoặc hành động lên xe; không phải phép thay cùng nghĩa."
+            },
+            "boundary": "车上 nói nơi chốn, 上车 nói chuyển động.",
+            "tip": "在车上 là ở trên xe, 上车 là lên xe."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cụm vị trí 车上 và đối chiếu hành động 上车.",
+          "literalTranslation": "Đã rà bẫy dịch 车上 thành lên xe.",
+          "confusables": "Đã đối chiếu 车上/上车 bằng hai câu có chức năng khác nhau."
+        },
+        "pronunciation": {
+          "text": "车上 gồm 车 thanh 1 và 上 thanh 4; đọc rõ hai âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我在___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn mời ai lên xe, chọn 车上 hay 上车?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "车上"
+            ],
+            "explanation": "在车上 là đang ở trên xe."
+          },
+          "q2": {
+            "accepted": [
+              "上车"
+            ],
+            "explanation": "上车 là hành động lên xe."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói điện thoại của tôi ở trên xe."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi trên xe có ai không."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我的手机在车上 để nêu vật và vị trí.",
+            "frame": "我的手机 + 在车上",
+            "model": "我的手机在车上。",
+            "vi": "Điện thoại của tôi ở trên xe.",
+            "criteria": [
+              "Có 车上 sau 在.",
+              "我的手机 là vật được nêu vị trí."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 车上有人吗 để hỏi trên xe có người hay không.",
+            "frame": "车上 + 有人 + 吗",
+            "model": "车上有人吗？",
+            "vi": "Trên xe có ai không?",
+            "criteria": [
+              "Có 车上 làm nơi chốn.",
+              "有人吗 hỏi có người hay không."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "vé",
+      "meaning": "vé xe; vé tàu",
       "intro": [
         {
           "pinyin": "chēpiào",
-          "meaning": "vé"
+          "meaning": "vé xe; vé tàu"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我买了两张车票。",
+          "vi": "Tôi đã mua hai vé xe.",
+          "analysis": "两张车票 là hai vé; 张 là lượng từ của vé.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请把车票给我。",
+          "vi": "Hãy đưa vé xe cho tôi.",
+          "analysis": "车票 là vật được đưa; 把 đưa tân ngữ lên trước 给我.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-842fc9e24059",
       "hanzi": "车票",
       "level": 1,
       "sourceIndex": 454,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-043 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 450,
+        "authorship": "Tự biên soạn, đọc 汉典 và MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/车票",
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=%E8%BD%A6%E7%A5%A8"
+        ],
+        "introduction": {
+          "scope": "vé dùng để đi xe hoặc tàu hỏa"
+        },
+        "meaning": {
+          "scene": "车票 là vé cho một chuyến xe hoặc tàu hỏa, không phải vé máy bay.",
+          "explanation": "车票 thường đi với 买, 订 hoặc 给 để nói mua, đặt hoặc đưa vé. Khi đếm vé, dùng 张; loại phương tiện cụ thể có thể nói rõ bằng 火车票 hoặc 汽车票.",
+          "boundary": "车票 có phạm vi là vé xe hoặc vé tàu; 机票 là vé máy bay.",
+          "conditions": [
+            "Dùng 一张/两张车票 khi đếm vé; thêm 火车 hoặc 汽车 nếu cần nói loại vé."
+          ],
+          "takeaway": "车票 là vé xe hoặc vé tàu; dùng 张 và phân biệt với 机票."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "买/订 + số lượng + 张 + 车票",
+            "position": "车票 đứng sau lượng từ 张.",
+            "required": "Dùng khi mua hoặc đặt vé.",
+            "omission": "Có thể bỏ số lượng khi không cần nêu.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "火车票/汽车票",
+            "position": "车票 đứng sau từ chỉ loại phương tiện.",
+            "required": "Dùng khi cần nói rõ vé tàu hay vé ô tô.",
+            "omission": "Dùng 车票 nếu ngữ cảnh đã rõ phương tiện.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我买了两张车票。",
+            "vi": "Tôi đã mua hai vé xe.",
+            "analysis": "两张车票 là hai vé; 张 là lượng từ của vé.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请把车票给我。",
+            "vi": "Hãy đưa vé xe cho tôi.",
+            "analysis": "车票 là vật được đưa; 把 đưa tân ngữ lên trước 给我.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "车票 và 机票: vé xe hay vé máy bay",
+            "scene": "Phân biệt loại vé theo phương tiện.",
+            "possibleConfusion": "Cả hai đều là vé và đều thường đi với 买 hoặc 张.",
+            "difference": "车票 dùng cho xe hoặc tàu hỏa; 机票 dùng cho máy bay.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我买了两张车票。",
+                "vi": "Tôi đã mua hai vé xe.",
+                "comment": "车票 là vé xe hoặc tàu hỏa.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我买了两张机票。",
+                "vi": "Tôi đã mua hai vé máy bay.",
+                "comment": "机票 xác định phương tiện là máy bay.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 车票 thành 机票 sẽ đổi phương tiện của chuyến đi; cấu trúc mua vé vẫn đúng nhưng nghĩa thay đổi."
+            },
+            "boundary": "Không suy ra loại phương tiện chỉ từ việc câu có lượng từ 张.",
+            "tip": "车票 là vé xe hoặc tàu, 机票 là vé máy bay."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa 车票 và các từ ghép 火车票/汽车票.",
+          "literalTranslation": "Đã rà bẫy dịch 车票 thành mọi loại vé.",
+          "confusables": "Đã đối chiếu 车票/机票 bằng câu có cùng cấu trúc nhưng khác phương tiện."
+        },
+        "pronunciation": {
+          "text": "车票 gồm 车 thanh 1 và 票 thanh 4; đọc rõ hai âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我买了两张___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói vé máy bay, chọn 车票 hay 机票?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "车票"
+            ],
+            "explanation": "车票 là vé xe hoặc vé tàu."
+          },
+          "q2": {
+            "accepted": [
+              "机票"
+            ],
+            "explanation": "机票 là vé máy bay."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi đã mua vé tàu."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi vé xe ở đâu."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我买了火车票 để nói đã mua vé tàu.",
+            "frame": "我 + 买了 + 火车票",
+            "model": "我买了火车票。",
+            "vi": "Tôi đã mua vé tàu.",
+            "criteria": [
+              "Có 车票 trong từ ghép 火车票.",
+              "买了 nói việc mua đã xảy ra."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 车票在哪儿 để hỏi vị trí của vé xe.",
+            "frame": "车票 + 在哪儿",
+            "model": "车票在哪儿？",
+            "vi": "Vé xe ở đâu?",
+            "criteria": [
+              "Có 车票 làm chủ thể.",
+              "在哪儿 hỏi vị trí."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-1ee7b5f8677b",
@@ -99811,17 +100317,185 @@
       "intro": [
         {
           "pinyin": "chēzhàn",
-          "meaning": "nhà ga"
+          "meaning": "nhà ga; trạm xe"
         }
       ],
-      "meaning": "nhà ga",
-      "status": "catalog",
+      "meaning": "nhà ga; trạm xe",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-043 · dễ",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我们在车站等车。",
+          "vi": "Chúng tôi đợi xe ở nhà ga.",
+          "analysis": "在车站 nêu địa điểm; 等车 nói chờ xe.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "车站离这里不远。",
+          "vi": "Nhà ga cách đây không xa.",
+          "analysis": "车站 là mốc được đo; 离这里不远 nói khoảng cách gần.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 455,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 451,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/车站"
+        ],
+        "introduction": {
+          "scope": "nhà ga hoặc trạm để đón, đợi xe hay tàu"
+        },
+        "meaning": {
+          "scene": "车站 là địa điểm hành khách đợi hoặc lên xe, tàu.",
+          "explanation": "车站 thường đi với 在 để nêu vị trí, với 到 hoặc 去 để nêu điểm đến. Nghĩa cụ thể là trạm xe hay nhà ga tùy loại phương tiện và ngữ cảnh.",
+          "boundary": "车站 là địa điểm giao thông; 机场 là sân bay và không thể thay thế trong cùng nghĩa.",
+          "conditions": [
+            "Dùng 在车站等车 khi nói đợi xe ở nhà ga hoặc trạm."
+          ],
+          "takeaway": "车站 là trạm hoặc nhà ga; dùng như một địa điểm trong câu."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + 车站 + động tác",
+            "position": "车站 đứng sau 在.",
+            "required": "Dùng khi nói vị trí hoặc hoạt động tại nhà ga.",
+            "omission": "Có thể bỏ 在 nếu 车站 làm điểm đến sau 到/去.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "车站 + 离 + mốc + 远/近",
+            "position": "车站 làm chủ thể trước 离.",
+            "required": "Dùng khi nói khoảng cách từ nhà ga.",
+            "omission": "Có thể thay bằng câu hỏi 车站在哪儿.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们在车站等车。",
+            "vi": "Chúng tôi đợi xe ở nhà ga.",
+            "analysis": "在车站 nêu địa điểm; 等车 nói chờ xe.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "车站离这里不远。",
+            "vi": "Nhà ga cách đây không xa.",
+            "analysis": "车站 là mốc được đo; 离这里不远 nói khoảng cách gần.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "车站 và 机场: nhà ga hay sân bay",
+            "scene": "Phân biệt địa điểm giao thông theo phương tiện.",
+            "possibleConfusion": "Cả hai đều là nơi hành khách chờ phương tiện và đều đi với 在 hoặc 到.",
+            "difference": "车站 là trạm hoặc nhà ga của xe, tàu; 机场 là sân bay.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们在车站等车。",
+                "vi": "Chúng tôi đợi xe ở nhà ga.",
+                "comment": "车站 là nơi đợi xe hoặc tàu.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们到机场了。",
+                "vi": "Chúng tôi đã đến sân bay.",
+                "comment": "机场 là nơi máy bay hoạt động.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 车站 thành 机场 sẽ đổi loại địa điểm và phương tiện; câu mới chỉ đúng nếu nói về chuyến bay."
+            },
+            "boundary": "Không dùng 机场 để gọi mọi nơi đợi phương tiện.",
+            "tip": "车站 là nhà ga hoặc trạm xe, 机场 là sân bay."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa địa điểm của 车站.",
+          "literalTranslation": "Đã rà bẫy dịch 车站 thành xe đứng.",
+          "confusables": "Đã đối chiếu 车站/机场 bằng câu có phương tiện phù hợp."
+        },
+        "pronunciation": {
+          "text": "车站 gồm 车 thanh 1 và 站 thanh 4; đọc rõ hai âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我们在___等车。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói sân bay, chọn 车站 hay 机场?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "车站"
+            ],
+            "explanation": "车站 là nhà ga hoặc trạm xe."
+          },
+          "q2": {
+            "accepted": [
+              "机场"
+            ],
+            "explanation": "机场 là sân bay."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói chúng ta gặp nhau ở nhà ga."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi nhà ga ở đâu."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我们在车站见面 để nêu địa điểm gặp nhau.",
+            "frame": "我们 + 在车站 + 见面",
+            "model": "我们在车站见面。",
+            "vi": "Chúng ta gặp nhau ở nhà ga.",
+            "criteria": [
+              "Có 车站 sau 在.",
+              "见面 nói hành động gặp nhau."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 车站在哪儿 để hỏi vị trí nhà ga.",
+            "frame": "车站 + 在哪儿",
+            "model": "车站在哪儿？",
+            "vi": "Nhà ga ở đâu?",
+            "criteria": [
+              "Có 车站 làm chủ thể.",
+              "在哪儿 hỏi vị trí."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-7707793dd93a",
@@ -134046,13 +134720,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 457,
-    "pending": 1777,
+    "ready": 461,
+    "pending": 1773,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 457
+        "ready": 461
       },
       {
         "level": 2,
