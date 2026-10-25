@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 387 mục đủ cấu trúc V1/V2; còn 1847. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 377 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 389 mục đủ cấu trúc V1/V2; còn 1845. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 379 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -84630,9 +84630,9 @@
         },
         {
           "id": "e2",
-          "zh": "孩子已经睡觉了，别叫他。",
-          "vi": "Đứa trẻ đã đi ngủ rồi, đừng gọi em ấy.",
-          "analysis": "睡觉了 nói việc đi ngủ đã xảy ra; câu không cần dùng 睡着 để nhấn trạng thái ngủ hẳn.",
+          "zh": "我睡觉了，你也早点睡。",
+          "vi": "Tôi đi ngủ đây, bạn cũng ngủ sớm nhé.",
+          "analysis": "Trong lời báo này, 睡觉了 kết thúc lời nói và báo người nói chuyển sang đi ngủ; không nên máy móc dịch 了 thành một chữ ‘đã’ trong mọi câu.",
           "practiceAllowed": true
         }
       ],
@@ -84651,10 +84651,11 @@
         },
         "meaning": {
           "scene": "Nói về việc đi ngủ hoặc dành thời gian để ngủ.",
-          "explanation": "睡觉 là hành động ngủ/đi ngủ. Có thể nói giờ đi ngủ, đang ngủ hoặc việc ngủ xảy ra sau một hành động khác.",
+          "explanation": "睡觉 là hành động ngủ hoặc đi ngủ. Có thể nói giờ đi ngủ, hoặc dùng nó trong lời báo đi ngủ như 我睡觉了，你也早点睡。",
           "boundary": "睡着 nhấn trạng thái đã ngủ hẳn; 睡觉 nói về hành động hoặc hoạt động ngủ, chưa cần khẳng định đã ngủ.",
           "conditions": [
-            "Dùng 睡觉 sau chủ thể hoặc sau mốc thời gian; thêm 了/以后 khi nói việc đã xảy ra hoặc làm mốc cho việc sau."
+            "Dùng 睡觉 sau chủ thể hoặc sau mốc thời gian; thêm 了 để báo một việc đã xảy ra hoặc một quyết định/chuyển sang việc đi ngủ trong ngữ cảnh.",
+            "睡觉以后 là một khung thời gian khác, nghĩa là ‘sau khi đi ngủ’; nó cần một hành động hoặc kết quả được nói tiếp."
           ],
           "takeaway": "睡觉 là ngủ hoặc đi ngủ, không tự nhấn mạnh trạng thái đã ngủ hẳn."
         },
@@ -84669,9 +84670,9 @@
           },
           {
             "id": "u2",
-            "frame": "睡觉 + 了 / 以后",
-            "position": "了 nói việc đã đi ngủ; 以后 biến việc ngủ thành mốc cho hành động sau.",
-            "required": "Phần sau phải phù hợp với thứ tự thời gian.",
+            "frame": "睡觉 + 了",
+            "position": "了 đứng sau 睡觉 để báo việc đi ngủ đã xảy ra hoặc lời nói chuyển sang việc đi ngủ.",
+            "required": "Ngữ cảnh cần cho biết ai đi ngủ; câu sau có thể là lời nhắn như 你也早点睡.",
             "omission": "Có thể chỉ nói 睡觉了 khi người nghe đã biết ai đi ngủ.",
             "exampleId": "e2"
           }
@@ -84686,9 +84687,9 @@
           },
           {
             "id": "e2",
-            "zh": "孩子已经睡觉了，别叫他。",
-            "vi": "Đứa trẻ đã đi ngủ rồi, đừng gọi em ấy.",
-            "analysis": "睡觉了 nói việc đi ngủ đã xảy ra; câu không cần dùng 睡着 để nhấn trạng thái ngủ hẳn.",
+            "zh": "我睡觉了，你也早点睡。",
+            "vi": "Tôi đi ngủ đây, bạn cũng ngủ sớm nhé.",
+            "analysis": "Trong lời báo này, 睡觉了 kết thúc lời nói và báo người nói chuyển sang đi ngủ; không nên máy móc dịch 了 thành một chữ ‘đã’ trong mọi câu.",
             "practiceAllowed": true
           }
         ],
@@ -84723,6 +84724,37 @@
             },
             "boundary": "Một người có thể nói 睡觉 rồi mới 睡着; hai từ có thể cùng xuất hiện trong cùng câu chuyện nhưng không cùng điểm nhấn.",
             "tip": "Nói giờ hoặc việc đi ngủ dùng 睡觉; nhấn đã ngủ được dùng 睡着."
+          },
+          {
+            "id": "t2",
+            "title": "了 và 以后: báo việc hay nối mốc thời gian",
+            "scene": "Nói mình đi ngủ rồi hay nói một việc xảy ra sau khi đi ngủ.",
+            "possibleConfusion": "Cả hai đều có thể đứng sau 睡觉 nên người học dễ xem 了 và 以后 là hai cách nói thay thế.",
+            "difference": "了 đứng sau 睡觉 để báo việc/chuyển trạng thái trong ngữ cảnh; 以后 tạo cụm ‘sau khi đi ngủ’ và thường cần mệnh đề tiếp theo.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我睡觉了，你也早点睡。",
+                "vi": "Tôi đi ngủ đây, bạn cũng ngủ sớm nhé.",
+                "comment": "了 báo người nói kết thúc cuộc trò chuyện để đi ngủ; không phải đang lập một mốc cho mệnh đề sau.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "睡觉以后，我不看手机。",
+                "vi": "Sau khi đi ngủ, tôi không xem điện thoại.",
+                "comment": "以后 nối việc ngủ với hành động sau; đây là quan hệ thời gian, không phải lời báo ‘đi ngủ rồi’.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 了 thành 以后 trong câu báo đi ngủ sẽ biến lời báo thành một cụm thời gian và cần mệnh đề tiếp theo; đổi ngược lại sẽ làm mất quan hệ ‘sau khi’. Không thể thay hai từ máy móc."
+            },
+            "boundary": "Dạy 了 theo ngữ cảnh cụ thể, không đồng nhất nó với một nghĩa Việt cố định; 以后 luôn hướng người nghe tới phần thời gian/hành động sau.",
+            "tip": "Báo ‘tôi đi ngủ đây/rồi’ dùng 睡觉了; nói ‘sau khi đi ngủ’ dùng 睡觉以后 + hành động."
           }
         ],
         "trapReview": {
@@ -84731,7 +84763,7 @@
           "confusables": "Đã rà 睡着 ở mức cần thiết cho người mới học."
         },
         "pronunciation": {
-          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "Đọc rõ hai âm tiết với thanh gốc; trong 睡觉, 觉 dùng cách đọc của từ này, không suy ra một cách đọc cho mọi từ có chữ 觉. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -84743,6 +84775,11 @@
             "id": "q2",
             "type": "open",
             "question": "Muốn nhấn mạnh ‘đã ngủ hẳn’ thì chọn 睡觉 hay 睡着?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Muốn nói ‘sau khi đi ngủ, tôi không xem điện thoại’ thì dùng 睡觉了 hay 睡觉以后?"
           }
         ],
         "answers": {
@@ -84757,6 +84794,12 @@
               "睡着"
             ],
             "explanation": "睡着 nhấn trạng thái đã ngủ hẳn; 睡觉 chỉ hoạt động ngủ hoặc đi ngủ."
+          },
+          "q3": {
+            "accepted": [
+              "睡觉以后"
+            ],
+            "explanation": "睡觉以后 tạo mốc ‘sau khi đi ngủ’ cho hành động phía sau; 睡觉了 không làm chức năng nối mốc này."
           }
         },
         "selfUse": [
@@ -84766,7 +84809,7 @@
           },
           {
             "id": "s2",
-            "prompt": "Nói em bé đã đi ngủ nên đừng gọi em bé."
+            "prompt": "Báo bạn đi ngủ đây và nhắn người kia cũng ngủ sớm nhé."
           }
         ],
         "selfAnswers": {
@@ -84781,13 +84824,13 @@
             ]
           },
           "s2": {
-            "idea": "Nói việc đi ngủ đã xảy ra rồi yêu cầu người khác không gọi.",
-            "frame": "chủ thể + 睡觉了，别 + hành động",
-            "model": "孩子已经睡觉了，别叫他。",
-            "vi": "Đứa trẻ đã đi ngủ rồi, đừng gọi em ấy.",
+            "idea": "Dùng 睡觉了 trong lời báo rồi thêm lời nhắn phía sau.",
+            "frame": "我睡觉了，你也 + lời nhắn",
+            "model": "我睡觉了，你也早点睡。",
+            "vi": "Tôi đi ngủ đây, bạn cũng ngủ sớm nhé.",
             "criteria": [
-              "Có 了 sau 睡觉 để nói việc đã xảy ra.",
-              "Lời nhắc phía sau phù hợp với ngữ cảnh."
+              "Có 了 sau 睡觉 trong lời báo.",
+              "Lời nhắn phía sau phù hợp với ngữ cảnh."
             ]
           }
         }
@@ -85276,11 +85319,19 @@
                 "comment": "Nêu lịch rời giường, nên dùng 起床.",
                 "judgment": "correct",
                 "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "请起床。",
+                "vi": "Mời thức dậy/rời giường.",
+                "comment": "Câu này có thể đúng nếu người nghe đang ở trên giường, nhưng không thay được 请站起来 khi mục đích là mời người đang ngồi đứng lên.",
+                "judgment": "wrong-intent",
+                "practiceAllowed": false
               }
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "Đổi 起来 và 起床 có thể biến một chuyển động tư thế thành việc rời giường hoặc ngược lại."
+              "explanation": "Xét từng câu: trong 请站起来, đổi thành 请起床 không sai ngữ pháp nhưng đổi ý từ ‘đứng lên’ thành ‘rời giường’; trong câu nói giờ rời giường, 起床 là lựa chọn rõ hơn. Không gán một kết luận chung cho mọi phép thay."
             },
             "boundary": "Buổi sáng có thể nói 快起来 để gọi ai dậy; khi nói rõ giờ rời giường dùng 起床 sẽ chính xác hơn.",
             "tip": "Có 站/坐 + 起来 là chuyển tư thế; nói rời giường dùng 起床."
@@ -85292,7 +85343,7 @@
           "confusables": "Đã rà 起床, 站起来 và 坐起来; chưa mở rộng các nghĩa bổ ngữ khác."
         },
         "pronunciation": {
-          "text": "Đọc rõ hai âm tiết và giữ âm thứ hai nhẹ tự nhiên khi phù hợp. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "起来 có thể được ghi với âm của 来 đầy đủ hoặc nhẹ tùy cách dùng; đây là khác biệt cần gắn với chức năng, không đồng nhất mọi trường hợp với ‘đọc nhẹ hơn’. Bài này chỉ dạy chuyển tư thế và lời gọi dậy. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -85762,7 +85813,6 @@
           "practiceAllowed": true
         }
       ],
-      "audioText": "土地",
       "sourceIndex": 370,
       "meaningOrigin": "biên soạn mới",
       "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
@@ -85842,12 +85892,42 @@
                 "comment": "地 nối 认真 với động từ 学习 để tạo cách thức.",
                 "judgment": "correct",
                 "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "的上有一本书。",
+                "vi": "Câu sai: 的 không thể thay 地 trong cụm chỉ mặt đất.",
+                "comment": "Đổi chữ sang 的 làm hỏng cụm 地上; đây không phải cách đổi sang ‘chức năng trợ từ’.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c4",
+                "zh": "他认真的学习。",
+                "vi": "Câu sai: ở đây cần 地 để nối cách thức với động từ.",
+                "comment": "Đổi 地 sang 的 trong mẫu 认真地学习 là sai ngữ pháp; không thể lấy 的 thay cho trợ từ này.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
               }
             ],
             "replacement": {
-              "result": "different-meaning",
-              "explanation": "Đổi chức năng của 地 sẽ làm câu về mặt đất thành câu chỉ cách thức hoặc ngược lại."
+              "result": "wrong-grammar",
+              "explanation": "Không có phép thay cơ học biến 地 trong 地上 thành trợ từ hoặc ngược lại. Thay 地 bằng 的 tạo 的上有一本书 và 认真地学习, đều sai trong các câu này; hãy xác định chức năng theo vị trí và ngữ cảnh."
             },
+            "corrections": [
+              {
+                "caseId": "c3",
+                "zh": "地上有一本书。",
+                "vi": "Trên mặt đất có một quyển sách.",
+                "reason": "Cụm chỉ mặt đất là 地上, không thay 地 bằng 的."
+              },
+              {
+                "caseId": "c4",
+                "zh": "他认真地学习。",
+                "vi": "Cậu ấy học một cách nghiêm túc.",
+                "reason": "Mẫu nối cách thức với động từ dùng 地; 的 không thay được ở vị trí này."
+              }
+            ],
             "boundary": "Không phải mọi trạng từ đều bắt buộc có 地; điểm bắt buộc ở bài này là nhận ra 地 trong hai mẫu thông dụng và không hiểu trợ từ như danh từ đất.",
             "tip": "Sau 地 là địa điểm như 地上 thì hiểu đất; trước động từ như 认真地学习 thì hiểu trợ từ cách thức."
           }
@@ -85858,32 +85938,56 @@
           "confusables": "Đã rà 地 với 的 ở mức vị trí cơ bản; không mở rộng toàn bộ bộ ba 的/地/得."
         },
         "pronunciation": {
-          "text": "Phân biệt cách đọc trong phần giới thiệu và đọc trợ từ nhẹ trong câu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "地 trong 地上 và 地 trong 认真地学习 có cách đọc khác nhau; trợ từ trong câu thường đọc nhẹ, không phải ‘đọc nhẹ hơn’ là biến thanh tùy ý. Đọc từ một lần, rồi đọc câu mẫu một lần.",
+          "contexts": [
+            {
+              "introIndex": 0,
+              "text": "地上",
+              "meaning": "trên mặt đất"
+            },
+            {
+              "introIndex": 1,
+              "text": "认真地学习",
+              "meaning": "học một cách nghiêm túc"
+            }
+          ]
         },
         "checks": [
           {
             "id": "q1",
             "type": "open",
-            "question": "Điền chữ: ___上有一本书。"
+            "question": "Trong 地上, chữ 地 là danh từ hay trợ từ?"
           },
           {
             "id": "q2",
             "type": "open",
-            "question": "Điền chữ: 他认真___学习。"
+            "question": "Trong 认真地学习, chữ 地 là danh từ hay trợ từ?"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "Cách đọc của 地 trong 地上 và 认真地学习 có giống nhau không?"
           }
         ],
         "answers": {
           "q1": {
             "accepted": [
-              "地"
+              "名词"
             ],
-            "explanation": "地上 là cụm chỉ trên mặt đất."
+            "explanation": "Trong 地上, 地 là danh từ chỉ đất/mặt đất."
           },
           "q2": {
             "accepted": [
-              "地"
+              "助词"
             ],
-            "explanation": "地 nối 认真 với động từ 学习 để chỉ cách thức."
+            "explanation": "Trong 认真地学习, 地 nối phần chỉ cách thức với động từ 学习."
+          },
+          "q3": {
+            "accepted": [
+              "不相同",
+              "不同"
+            ],
+            "explanation": "地 trong 地上 đọc theo nghĩa ‘đất’, còn 地 trong 认真地学习 là trợ từ với cách đọc nhẹ khác."
           }
         },
         "selfUse": [
@@ -86461,13 +86565,189 @@
         }
       ],
       "meaning": "giường",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-029 · dễ",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我在床上看书。",
+          "vi": "Tôi đọc sách trên giường.",
+          "analysis": "在床上 nêu vị trí của hành động đọc sách; 床上 không phải tên một chiếc giường.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "孩子已经上床睡觉了。",
+          "vi": "Đứa trẻ đã lên giường đi ngủ rồi.",
+          "analysis": "上床 nói chuyển lên giường, còn 睡觉 nói mục đích đi ngủ.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 374,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 378,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=床"
+        ],
+        "introduction": {
+          "scope": "giường; đồ nội thất để nằm hoặc ngủ"
+        },
+        "meaning": {
+          "scene": "Nói về chiếc giường hoặc vị trí trên giường trong sinh hoạt hằng ngày.",
+          "explanation": "床 là giường. Khi nói đang ở trên giường, dùng cụm 床上; khi nói đi lên giường, thường gặp 上床.",
+          "boundary": "床 gọi đồ vật; 床上 gọi vị trí trên giường. Không bỏ 上 trong 床上 nếu muốn nói rõ vị trí.",
+          "conditions": [
+            "Dùng 床 sau lượng từ 张 khi đếm một chiếc giường; dùng 床上 để nêu nơi hành động xảy ra."
+          ],
+          "takeaway": "Nhớ 床 là đồ vật, còn 床上 là vị trí trên giường."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + 床上 + hành động",
+            "position": "床上 đứng sau 在 để chỉ vị trí trên giường.",
+            "required": "Cần một hành động hoặc trạng thái xảy ra ở vị trí đó.",
+            "omission": "Có thể bỏ 在 trong câu ngắn nếu vị trí đã rõ, nhưng người mới nên giữ 在床上.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "上床 + hành động tiếp theo",
+            "position": "上床 là cụm chỉ việc lên giường; hành động ngủ có thể đứng sau.",
+            "required": "Dùng khi nói chuyển lên giường, không chỉ mô tả chiếc giường.",
+            "omission": "Có thể nói 上床了 khi người nghe đã biết mục đích lên giường.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我在床上看书。",
+            "vi": "Tôi đọc sách trên giường.",
+            "analysis": "在床上 nêu vị trí của hành động đọc sách; 床上 không phải tên một chiếc giường.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "孩子已经上床睡觉了。",
+            "vi": "Đứa trẻ đã lên giường đi ngủ rồi.",
+            "analysis": "上床 nói chuyển lên giường, còn 睡觉 nói mục đích đi ngủ.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "床 và 床上: đồ vật hay vị trí",
+            "scene": "Nói chiếc giường hay nói hành động diễn ra trên giường.",
+            "possibleConfusion": "Tiếng Việt đều có thể dịch ngắn là ‘trên giường/giường’, nên người học dễ bỏ 上.",
+            "difference": "床 là đồ vật; 床上 là vị trí trên bề mặt giường.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我买了一张床。",
+                "vi": "Tôi mua một chiếc giường.",
+                "comment": "张 là lượng từ của chiếc giường; câu nói về đồ vật.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我在床上看书。",
+                "vi": "Tôi đọc sách trên giường.",
+                "comment": "床上 là vị trí của hành động đọc sách.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c3",
+                "zh": "我在床看书。",
+                "vi": "Câu kém tự nhiên: khi nêu vị trí trên giường nên dùng 床上.",
+                "comment": "Bỏ 上 làm mất dấu hiệu vị trí; câu không phải lựa chọn tự nhiên trong ngữ cảnh này.",
+                "judgment": "unnatural",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 床 và 床上 không chỉ đổi một chữ cho đẹp: 我买了一张床 nói mua đồ vật, còn 我在床上看书 nói vị trí. Trong câu vị trí, thêm 上 giúp câu tự nhiên và rõ nghĩa."
+            },
+            "boundary": "Trong một số khẩu ngữ, 床 sau 在 có thể được hiểu theo ngữ cảnh, nhưng bài này giữ 床上 để người mới nói rõ vị trí.",
+            "tip": "Đếm đồ vật dùng 张床; nói ở trên giường dùng 在床上。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa giường và cụm vị trí 床上.",
+          "literalTranslation": "Đã rà bẫy bỏ 上 khi dịch ngắn ‘ở giường’.",
+          "confusables": "Đã rà 床/床上 và 上床; không mở rộng nghĩa ít gặp của 床."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ một âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền cụm vị trí: 我在___看书。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘đã lên giường đi ngủ’ thì chọn 床 hay 上床?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "床上"
+            ],
+            "explanation": "床上 chỉ vị trí trên giường sau 在."
+          },
+          "q2": {
+            "accepted": [
+              "上床"
+            ],
+            "explanation": "上床 nói việc lên giường; 床 chỉ gọi đồ vật."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn đọc sách trên giường."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói em bé đã lên giường đi ngủ rồi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 在床上 cho vị trí.",
+            "frame": "我在床上 + hành động",
+            "model": "我在床上看书。",
+            "vi": "Tôi đọc sách trên giường.",
+            "criteria": [
+              "Có 在床上.",
+              "Hành động đứng sau vị trí."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 上床 rồi nói mục đích ngủ.",
+            "frame": "chủ thể + 已经 + 上床睡觉了",
+            "model": "孩子已经上床睡觉了。",
+            "vi": "Đứa trẻ đã lên giường đi ngủ rồi.",
+            "criteria": [
+              "Có 上床.",
+              "Câu thể hiện việc đã xảy ra."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-f41cca533f28",
@@ -86476,17 +86756,185 @@
       "intro": [
         {
           "pinyin": "lóu",
-          "meaning": "tòa nhà"
+          "meaning": "tòa nhà; tầng"
         }
       ],
-      "meaning": "tòa nhà",
-      "status": "catalog",
+      "meaning": "tòa nhà; tầng",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-029 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我住在三楼。",
+          "vi": "Tôi sống ở tầng ba.",
+          "analysis": "三楼 là tầng cụ thể; 在 nối nơi ở với vị trí đó.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "楼上有一间教室。",
+          "vi": "Tầng trên có một phòng học.",
+          "analysis": "楼上 chỉ tầng phía trên theo điểm nhìn hiện tại, không cho biết số tầng cụ thể.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 375,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 379,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=楼"
+        ],
+        "introduction": {
+          "scope": "tòa nhà nhiều tầng; tầng trong tòa nhà"
+        },
+        "meaning": {
+          "scene": "Nói nơi ở, nơi học hoặc vị trí theo tầng trong một tòa nhà.",
+          "explanation": "楼 có thể chỉ tòa nhà nhiều tầng hoặc một tầng khi đứng sau số, như 三楼. Cụm 楼上/楼下 lần lượt chỉ tầng trên/tầng dưới theo điểm nhìn.",
+          "boundary": "三楼 là tầng ba, không nhất thiết là tên cả tòa nhà. Khi nói căn phòng cụ thể, dùng 房间; khi nói vị trí theo tầng, dùng 楼.",
+          "conditions": [
+            "Số từ đứng trước 楼 khi chỉ tầng; 楼上 và 楼下 thường dùng khi người nghe đã biết tòa nhà hoặc điểm nhìn."
+          ],
+          "takeaway": "Nhìn từ đi kèm: số + 楼 là tầng cụ thể, còn 楼上/楼下 là vị trí tương đối trong tòa nhà."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + số + 楼",
+            "position": "Số đứng trước 楼 để nêu tầng.",
+            "required": "Cần số tầng nếu muốn chỉ vị trí chính xác.",
+            "omission": "Có thể bỏ 在 trong câu trả lời ngắn khi câu hỏi đã hỏi vị trí.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "楼上 + sự vật/người",
+            "position": "楼上 đứng đầu hoặc sau 在 để chỉ tầng phía trên.",
+            "required": "Điểm nhìn hoặc tòa nhà phải rõ trong ngữ cảnh.",
+            "omission": "Có thể dùng 楼下 khi nói tầng phía dưới; không cần nêu số nếu không biết hoặc không cần số.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我住在三楼。",
+            "vi": "Tôi sống ở tầng ba.",
+            "analysis": "三楼 là tầng cụ thể; 在 nối nơi ở với vị trí đó.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "楼上有一间教室。",
+            "vi": "Tầng trên có một phòng học.",
+            "analysis": "楼上 chỉ tầng phía trên theo điểm nhìn hiện tại, không cho biết số tầng cụ thể.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "三楼 và 楼上: số tầng hay vị trí tương đối",
+            "scene": "Nói tầng chính xác hay nói phía trên theo điểm nhìn.",
+            "possibleConfusion": "Cả hai đều có thể dịch liên quan đến ‘tầng trên’, nhưng một cụm có số cụ thể còn một cụm phụ thuộc điểm nhìn.",
+            "difference": "三楼 xác định tầng ba; 楼上 chỉ tầng phía trên, có thể không biết số.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我住在三楼。",
+                "vi": "Tôi sống ở tầng ba.",
+                "comment": "Nêu tầng chính xác bằng số + 楼.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他在楼上等你。",
+                "vi": "Anh ấy đang đợi bạn ở tầng trên.",
+                "comment": "楼上 chỉ vị trí phía trên theo ngữ cảnh, không tự nói đó là tầng ba.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 三楼 thành 楼上 làm mất số tầng cụ thể; đổi 楼上 thành 三楼 chỉ đúng khi ngữ cảnh xác nhận tầng trên là tầng ba."
+            },
+            "boundary": "Nếu người nói và người nghe cùng biết tầng trên là tầng ba, hai cách có thể cùng phù hợp nhưng không mang cùng lượng thông tin.",
+            "tip": "Cần số chính xác dùng số + 楼; chỉ vị trí tương đối dùng 楼上/楼下。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa tòa nhà, tầng và vị trí tương đối.",
+          "literalTranslation": "Đã rà bẫy coi 楼上 luôn là một số tầng cố định.",
+          "confusables": "Đã rà 三楼 với 楼上; chưa mở rộng phân biệt 楼/层 theo vùng và ngữ cảnh."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ một âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền từ: 我住在三___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘ở tầng phía trên’ mà không nêu số tầng, dùng 三楼 hay 楼上?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "楼"
+            ],
+            "explanation": "楼 đứng sau số để chỉ tầng."
+          },
+          "q2": {
+            "accepted": [
+              "楼上"
+            ],
+            "explanation": "楼上 chỉ tầng phía trên theo điểm nhìn, không nêu số cụ thể."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn sống ở tầng ba."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tầng trên có một phòng học."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng số + 楼 sau 在.",
+            "frame": "我住在 + số + 楼",
+            "model": "我住在三楼。",
+            "vi": "Tôi sống ở tầng ba.",
+            "criteria": [
+              "Có số 三 trước 楼.",
+              "在 nối động từ với nơi ở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 楼上 làm vị trí tương đối.",
+            "frame": "楼上有 + sự vật",
+            "model": "楼上有一间教室。",
+            "vi": "Tầng trên có một phòng học.",
+            "criteria": [
+              "Có 楼上.",
+              "Sau 有 là sự vật ở tầng trên."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-29d32239d810",
@@ -122179,13 +122627,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 387,
-    "pending": 1847,
+    "ready": 389,
+    "pending": 1845,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 387
+        "ready": 389
       },
       {
         "level": 2,

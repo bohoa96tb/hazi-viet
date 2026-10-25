@@ -8,14 +8,14 @@ Cập nhật: 2026-10-25. Chế độ hiện hành: `supplementation` (đã qua 
 - Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 377/377 bài.
 - Đã rà trong các đợt `review-001` đến `review-022`; review-022 gồm 再、坐、放、累、走、起、下次、下班、下课、下车、休息、坐下、放假、放学、最后.
 - Review-022 đọc và kiểm tra toàn bộ 15 bài, phân loại 4 dễ, 8 trung bình, 3 khó. Bài 最后 được chỉnh rõ hai mẫu `最后 + số từ + lượng từ + danh từ` (最后一本书) và `最后的 + danh từ` (最后的书), cùng cách dùng 最后 làm trạng ngữ và phân biệt với 终于. MDBG được đọc để kiểm tra mục từ/cách đọc/nghĩa; không coi HTTP 200 là bằng chứng ngữ pháp.
-- Đã hoàn tất rà soát toàn bộ 377 bài đủ cấu trúc. Cổng review đã đóng; giai đoạn hiện hành là supplementation. Batch-028 đã bổ sung và kiểm tra 10 mục ordinal 368–377; mục tiếp theo là ordinal 378.
+- Đã hoàn tất rà soát toàn bộ 377 bài đủ cấu trúc. Cổng review đã đóng; giai đoạn hiện hành là supplementation. Đã sửa correction-002 cho 睡觉、起来、地: tách 了/以后, đánh giá phép thay 起床 theo từng câu, tách hai cách đọc/chức năng của 地 và bổ sung audio ngữ cảnh. Batch-029 đã bổ sung và kiểm tra 床、楼 ở ordinal 378–379; mục tiếp theo là ordinal 380.
 - Chưa được coi là phản biện giáo viên độc lập; TTS Android thật vẫn chưa xác minh.
 
 ## Bổ sung bài còn thiếu
 
-- Phạm vi baseline: 2.224 mục; 377 mục đã có nội dung bổ sung; còn 1.847 mục.
+- Phạm vi baseline: 2.224 mục; 379 mục đã có nội dung bổ sung; còn 1.845 mục.
 - Tiến độ này độc lập với tiến độ rà soát ở trên và không được dùng để tuyên bố đã rà 367 bài.
-- Trạng thái: `ready-to-start`, batch-028 đã commit, push và xác minh Pages/live. Đợt kế tiếp bắt đầu từ ordinal 378 theo ID trong checkpoint.
+- Trạng thái: `in-progress`, batch-029 đã qua kiểm tra cục bộ và đang chờ commit/push/Pages. Đợt kế tiếp bắt đầu từ ordinal 380 theo ID trong checkpoint.
 
 ## Giao diện và chức năng
 
@@ -27,5 +27,6 @@ Cập nhật: 2026-10-25. Chế độ hiện hành: `supplementation` (đã qua 
 | Thu gọn đầu trang khi cuộn trên điện thoại | Đã phát hành | Cao | Đầu bài thu gọn sau khi cuộn vùng nội dung; footer giữ safe-area và nội dung có khoảng đệm |
 | Đồng bộ số liệu và nhãn trang chủ | Đã phát hành | Cao | Trang chủ đọc `lessonTotal/courseTotal` từ `data/vocabulary/release.json`, không còn nhãn “10 bài mẫu” |
 | Dừng audio cũ khi chuyển/đóng bài | Đã kiểm tra logic/DOM; còn giới hạn thiết bị | Trung bình | `route`, chuyển bước, chuyển từ và đóng bài đều gọi stop; chưa xác minh phát âm thật trên Android |
+| Hiển thị đủ cách đọc và audio ngữ cảnh V2 | Đã kiểm tra cục bộ; chưa phát hành lượt này | Cao | Bài đa âm `地` hiện hiển thị cả hai cách đọc và đọc `地上`/`认真地学习`; chưa xác minh TTS thiết bị thật |
 
 Chi tiết batch rà soát nằm trong `tools/vocabulary/reviews/`; checkpoint điều hướng nằm trong `tools/vocabulary/review-checkpoint.json`.

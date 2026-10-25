@@ -1,0 +1,69 @@
+{
+  "id": "correction-002",
+  "date": "2026-10-25",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-24-review-first",
+  "status": "completed",
+  "authorship": "Tự biên soạn và tự phản biện; chưa phản biện giáo viên độc lập.",
+  "entries": [
+    {
+      "id": "hz-h1-ae83e1176961",
+      "hanzi": "地",
+      "difficulty": "khó",
+      "reason": "Có hai cách đọc/chức năng thông dụng và dễ nhầm với 的; cần audio ngữ cảnh để không đọc một chữ tách rời cho cả hai nghĩa.",
+      "changes": "Tách rõ dì nghĩa đất và de trợ từ; thay kết luận thay thế chung bằng các câu thử thay 的 có nhãn sai ngữ pháp và câu sửa; đổi bài tập sang nhận diện chức năng/cách đọc; thêm hai ngữ cảnh audio.",
+      "sources": [
+        "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=地"
+      ],
+      "sourceUse": "Đối chiếu mục từ, hai cách đọc và các nghĩa đất/trợ từ; cấu trúc câu và phép thay được tự biên soạn, không suy ra chỉ từ từ điển.",
+      "statuses": {
+        "editorial": "completed",
+        "technical": "completed",
+        "selfReview": "completed"
+      },
+      "uncertainties": [
+        "Chưa xác minh TTS thực tế trên thiết bị Android; audio kiểm bằng chuỗi segment và DOM.",
+        "Chưa phản biện giáo viên độc lập."
+      ]
+    },
+    {
+      "id": "hz-h1-b30add7c80a3",
+      "hanzi": "起来",
+      "difficulty": "khó",
+      "reason": "Cần phân biệt bổ ngữ chuyển tư thế với lời gọi dậy và đối chiếu riêng với 起床 theo từng ngữ cảnh.",
+      "changes": "Thêm câu 请起床 để gắn nhãn không hợp ý định khi thay cho 请站起来; viết lại kết luận thay thế theo từng câu và làm rõ rằng cách đọc của 来 phải gắn với chức năng, không quy giản thành ‘đọc nhẹ hơn’.",
+      "sources": [
+        "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=起来"
+      ],
+      "sourceUse": "Đối chiếu mục từ và nghĩa/cách dùng cơ bản; phân tích cấu trúc và phép thay được tự biên soạn.",
+      "statuses": {
+        "editorial": "completed",
+        "technical": "completed",
+        "selfReview": "completed"
+      },
+      "uncertainties": [
+        "Bài chỉ dạy chuyển tư thế/lời gọi dậy, chưa bao quát toàn bộ nghĩa bổ ngữ của 起来.",
+        "Chưa phản biện giáo viên độc lập."
+      ]
+    },
+    {
+      "id": "hz-h1-c910353bf22d",
+      "hanzi": "睡觉",
+      "difficulty": "trung bình",
+      "reason": "Cần tách hoạt động đi ngủ, trạng thái 睡着, lời báo với 了 và mốc thời gian với 以后.",
+      "changes": "Dùng câu 我睡觉了，你也早点睡 để giải thích 了 theo ngữ cảnh; tách khung 睡觉 + 了 khỏi 睡觉以后; thêm bài luyện phân biệt hai chức năng.",
+      "sources": [
+        "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=睡觉"
+      ],
+      "sourceUse": "Đối chiếu mục từ và phân biệt với 睡着; giải thích 了/以后 theo câu cụ thể, không coi từ điển nghĩa là bằng chứng cho mọi quy tắc ngữ pháp.",
+      "statuses": {
+        "editorial": "completed",
+        "technical": "completed",
+        "selfReview": "completed"
+      },
+      "uncertainties": [
+        "Sắc thái 了 trong lời báo phụ thuộc ngữ cảnh hội thoại; bài không khẳng định một bản dịch cố định.",
+        "Chưa phản biện giáo viên độc lập."
+      ]
+    }
+  ]
+}
