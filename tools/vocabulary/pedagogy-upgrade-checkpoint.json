@@ -1,1 +1,88 @@
-{"entries":[{"changes":"Viết lại lesson theo mẫu V3: 2 khung (V + 得 + bổ ngữ; V + tân ngữ + V + 得 + bổ ngữ), 2 câu mẫu (giữ 他说得很快, đổi câu 2 thành 我吃饭吃得很快), 5 bẫy (ba cách đọc; 的/地/得; mức độ/khả năng; tân ngữ; 得/要), 4 câu luyện mở, 2 tình huống tự dùng (giữ s2, đổi mẫu s1 thành 你做作业做得很快), phát âm thêm 3 ngữ cảnh audio cho ba cách đọc. Thêm trường pinyin tùy chọn cho câu đối chiếu và câu sửa trong bẫy, render bằng details hiện/ẩn, audit kiểm tra hợp lệ và loại trừ khi kiểm tra Pinyin trong lời giảng, audio không đọc Pinyin.","cohortOrdinal":503,"difficulty":"khó","difficultyReason":"Một chữ ba cách đọc ba chức năng; bổ ngữ mức độ và bổ ngữ khả năng trùng hình thức; quy tắc tân ngữ phức tạp; đồng âm với 的/地.","hanzi":"得","id":"hz-h2-8ac3a59c0ef6","keptFromV2":"Câu mẫu 他说得很快, bẫy 得/地 (mở rộng thành 的/地/得), tình huống tự dùng s2 (我今天得早点回家).","problemsFound":["Bài V2 chỉ dạy kỹ de trong bổ ngữ mức độ; chưa dạy děi (phải) và dé (được) ngoài phần giới thiệu.","Chưa có quy tắc tân ngữ: không nói cách xử lý khi động từ có tân ngữ (lặp động từ hoặc đưa tân ngữ lên trước).","Chưa phân biệt mức độ với khả năng (说得很快 so với 听得懂/听不懂) và phủ định bằng 没 so với 不.","Chỉ có một bẫy (得/地); chưa có bẫy đa âm, mức độ/khả năng, tân ngữ, 得 so với 要.","Chưa có Pinyin dưới câu đối chiếu trong bẫy; renderer không hiển thị Pinyin ở đó.","Bài luyện chỉ có 2 câu, chưa có câu sửa lỗi và câu phân biệt 听不懂 với 没听懂."],"sourceUse":"Đối chiếu mục từ, ba cách đọc và các quy tắc bổ ngữ; cấu trúc câu và phép thay tự biên soạn, không sao chép nguyên văn nguồn.","sources":["https://www.zdic.net/hans/得","https://en.wiktionary.org/wiki/得","https://resources.allsetlearning.com/gramwiki/?title=Degree_complement","https://resources.allsetlearning.com/gramwiki/?title=Potential_complements","https://goeastmandarin.com/how-to-use-three-de-in-chinese/"],"status":"pilot-deployed-for-review","tests":{"diffCheck":"clean","nodeSyntax":"PASS","processBatchVerify":"PASS","qualityAuditSelfTest":"PASS","qualityWarningsForWord":0,"testDom":"PASS"},"uncertainties":["děi là HSK 4 theo MDBG, dạy như mở rộng có chủ ý ngoài HSK 2; không tuyên bố děi là từ HSK 2.","Hai ví dụ suy ra từ quy tắc chung (tân ngữ là đại từ, tân ngữ sau bổ ngữ khả năng) đã loại khỏi bài vì chưa có nguồn nguyên văn.","Tân Hoa chưa tra trực tiếp; chưa phản biện giáo viên độc lập; chưa thử TTS thực tế trên thiết bị Android và giao diện di động."]}],"note":"Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.","repository":"bohoa96tb/hazi-viet","schemaVersion":1,"standard":"V3-pilot"}
+{
+  "entries": [
+    {
+      "changes": "Viết lại lesson theo mẫu V3: 2 khung (V + 得 + bổ ngữ; V + tân ngữ + V + 得 + bổ ngữ), 2 câu mẫu (giữ 他说得很快, đổi câu 2 thành 我吃饭吃得很快), 5 bẫy (ba cách đọc; 的/地/得; mức độ/khả năng; tân ngữ; 得/要), 4 câu luyện mở, 2 tình huống tự dùng (giữ s2, đổi mẫu s1 thành 你做作业做得很快), phát âm thêm 3 ngữ cảnh audio cho ba cách đọc. Thêm trường pinyin tùy chọn cho câu đối chiếu và câu sửa trong bẫy, render bằng details hiện/ẩn, audit kiểm tra hợp lệ và loại trừ khi kiểm tra Pinyin trong lời giảng, audio không đọc Pinyin.",
+      "cohortOrdinal": 503,
+      "difficulty": "khó",
+      "difficultyReason": "Một chữ ba cách đọc ba chức năng; bổ ngữ mức độ và bổ ngữ khả năng trùng hình thức; quy tắc tân ngữ phức tạp; đồng âm với 的/地.",
+      "hanzi": "得",
+      "id": "hz-h2-8ac3a59c0ef6",
+      "keptFromV2": "Câu mẫu 他说得很快, bẫy 得/地 (mở rộng thành 的/地/得), tình huống tự dùng s2 (我今天得早点回家).",
+      "problemsFound": [
+        "Bài V2 chỉ dạy kỹ de trong bổ ngữ mức độ; chưa dạy děi (phải) và dé (được) ngoài phần giới thiệu.",
+        "Chưa có quy tắc tân ngữ: không nói cách xử lý khi động từ có tân ngữ (lặp động từ hoặc đưa tân ngữ lên trước).",
+        "Chưa phân biệt mức độ với khả năng (说得很快 so với 听得懂/听不懂) và phủ định bằng 没 so với 不.",
+        "Chỉ có một bẫy (得/地); chưa có bẫy đa âm, mức độ/khả năng, tân ngữ, 得 so với 要.",
+        "Chưa có Pinyin dưới câu đối chiếu trong bẫy; renderer không hiển thị Pinyin ở đó.",
+        "Bài luyện chỉ có 2 câu, chưa có câu sửa lỗi và câu phân biệt 听不懂 với 没听懂."
+      ],
+      "sourceUse": "Đối chiếu mục từ, ba cách đọc và các quy tắc bổ ngữ; cấu trúc câu và phép thay tự biên soạn, không sao chép nguyên văn nguồn.",
+      "sources": [
+        "https://www.zdic.net/hans/得",
+        "https://en.wiktionary.org/wiki/得",
+        "https://resources.allsetlearning.com/gramwiki/?title=Degree_complement",
+        "https://resources.allsetlearning.com/gramwiki/?title=Potential_complements",
+        "https://goeastmandarin.com/how-to-use-three-de-in-chinese/"
+      ],
+      "status": "pilot-deployed-for-review",
+      "tests": {
+        "diffCheck": "clean",
+        "nodeSyntax": "PASS",
+        "processBatchVerify": "PASS",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsForWord": 0,
+        "testDom": "PASS"
+      },
+      "uncertainties": [
+        "děi là HSK 4 theo MDBG, dạy như mở rộng có chủ ý ngoài HSK 2; không tuyên bố děi là từ HSK 2.",
+        "Hai ví dụ suy ra từ quy tắc chung (tân ngữ là đại từ, tân ngữ sau bổ ngữ khả năng) đã loại khỏi bài vì chưa có nguồn nguyên văn.",
+        "Tân Hoa chưa tra trực tiếp; chưa phản biện giáo viên độc lập; chưa thử TTS thực tế trên thiết bị Android và giao diện di động."
+      ]
+    },
+    {
+      "id": "hz-h2-8ac3a59c0ef6",
+      "hanzi": "得",
+      "cohortOrdinal": 503,
+      "difficulty": "khó",
+      "difficultyReason": "Một chữ ba cách đọc ba chức năng; bổ ngữ mức độ và bổ ngữ khả năng trùng hình thức; quy tắc tân ngữ phức tạp; đồng âm với 的/地.",
+      "round": 2,
+      "problemsFound": [
+        "q2: đề hỏi 他说中文得很好 nhưng đáp án chấp nhận dùng 你, đổi sai chủ thể.",
+        "q4: ép chọn 得 duy nhất trong ngữ cảnh mà 要 cũng tự nhiên; giải thích 得 chỉ là bắt buộc còn 要 chỉ là muốn quá tuyệt đối.",
+        "t4: giải thích nói đừng đặt tân ngữ sau 得, trong khi câu sai thực tế đặt tân ngữ giữa động từ và 得.",
+        "t3: giải thích 听不懂 như thiếu khả năng vĩnh viễn, nói hai mẫu tuyệt đối không thay nhau được, và mô tả bổ ngữ mức độ như chỉ nói việc đã xảy ra.",
+        "t1: xác định cách đọc chỉ bằng công thức vị trí, chưa nhắc 觉得 và 得到 trong câu đối chiếu.",
+        "t2: ba câu đối chiếu ở ba bối cảnh khác nhau, chưa nói rõ hai cách diễn đạt cùng đúng và gần nghĩa.",
+        "s1: đề nói bạn làm bài tập nhưng không rõ nói về bản thân, với người đối diện hay về người thứ ba.",
+        "audioText 得到 (dé) đại diện cho cách đọc trọng tâm de trong các chế độ nghe nhanh/ngữ cảnh/tắm ngôn ngữ."
+      ],
+      "changes": "q2 giữ chủ thể 他 ở cả hai đáp án chấp nhận; q4 hỏi rõ cách nhấn mạnh bắt buộc và thừa nhận 要 cũng có thể dùng; t4 sửa giải thích khớp câu sai (tân ngữ chen vào giữa động từ và 得) và giới hạn quy tắc trong mẫu mức độ; t3 thêm cặp 听不懂/没听懂 cùng bối cảnh, bỏ tuyên bố tuyệt đối, bổ ngữ mức độ nói cả thói quen và việc đang làm; t1 thêm 觉得 (thanh nhẹ) và 得到 (thanh 2) làm câu đối chiếu, cách đọc theo từ ghép/chức năng/ngữ cảnh; t2 đổi thành ba câu cùng bối cảnh học nghiêm túc và nói rõ hai câu cùng ý; s1 đổi thành nói về anh ấy (他做作业做得很快); audioText đổi thành 说得很快; thêm nút HIỆN/ẨN Pinyin chung cho cả bài, Pinyin ở bẫy hiện trực tiếp thay vì từng nút riêng, câu sai có cảnh báo rõ và nền riêng.",
+      "keptFromV2": "Hai khung, hai câu mẫu, 4 bài luyện, tình huống s2, ba ngữ cảnh phát âm cho ba cách đọc.",
+      "sources": [
+        "https://www.zdic.net/hans/得",
+        "https://en.wiktionary.org/wiki/得",
+        "https://resources.allsetlearning.com/gramwiki/?title=Degree_complement",
+        "https://resources.allsetlearning.com/gramwiki/?title=Potential_complements",
+        "https://goeastmandarin.com/how-to-use-three-de-in-chinese/"
+      ],
+      "status": "pilot-fix-2-tests-passed",
+      "tests": {
+        "processBatchVerify": "PASS (2234 IDs, 517/2224, 527 structured, 15 wrong contrast warned/corrected)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityAudit": "PASS (total 910 warnings unchanged, 0 for 得)",
+        "testDom": "PASS",
+        "regressionDePilot": "PASS (36 assertions)",
+        "renderChecks": "PASS (Pinyin toggle on/off, plain trap Pinyin, wrong-case warning, only 得 changed in course, completedCount 517 unchanged)",
+        "nodeSyntax": "PASS (vocabulary.js, lesson-v2-view.js, lesson-standard-view.js, lesson-standard.js)",
+        "diffCheck": "clean",
+        "courseSha256": "c36bebfbe3b806da207393adce3a36987f25db12ede3c27e6abe3e895cfc8a02",
+        "courseBytes": 6004555
+      },
+      "uncertainties": "Chưa có phản biện giáo viên độc lập; chưa kiểm tra phát âm TTS trên Android thật; chưa kiểm tra bố cục mobile bằng mắt thật (sẽ kiểm tra sau khi triển khai)."
+    }
+  ],
+  "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
+  "repository": "bohoa96tb/hazi-viet",
+  "schemaVersion": 1,
+  "standard": "V3-pilot"
+}

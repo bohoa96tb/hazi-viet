@@ -15,7 +15,7 @@ Chuẩn mới do người dùng yêu cầu ngày 22/10/2026, dựa trên bản t
 ## Ngôn ngữ và độ dài
 
 - Chữ giản thể, tiếng Trung phổ thông; tiếng Việt dễ hiểu, không lời dẫn dài. Một nghĩa chính; nghĩa phụ thường gặp dễ nhầm ở bẫy/Học thêm, không liệt kê nghĩa hiếm.
-- Pinyin có dấu ở giới thiệu, 1–2 khung/câu minh họa khung và phần đọc đúng khi cần. Không Pinyin ở lời giảng dài, bẫy, bài tập hoặc đáp án. Thanh nhẹ không dấu; mặc định thanh gốc, ghi biến điệu phải chú thích. Không dùng phiên âm tiếng Việt. Audio không đọc Pinyin thành tên chữ cái.
+- Pinyin có dấu ở giới thiệu, 1–2 khung/câu minh họa khung và phần đọc đúng khi cần. Không Pinyin ở lời giảng dài, bẫy, bài tập hoặc đáp án. Thanh nhẹ không dấu; mặc định thanh gốc, ghi biến điệu phải chú thích. Không dùng phiên âm tiếng Việt. Audio không đọc Pinyin thành tên chữ cái. Pilot V3 (chưa phải chuẩn V2, đang chờ duyệt mẫu): câu đối chiếu và câu sửa trong bẫy của bài pilot có thể mang Pinyin tùy chọn, hiển thị trực tiếp và điều khiển bằng tùy chọn HIỆN/ẨN PINYIN chung; người học không phải mở từng nút Pinyin riêng lẻ.
 - Hai ví dụ chính là mục tiêu biên tập, không phải giới hạn cấm cặp đối chiếu cần thiết trong bẫy. Không thêm câu giống hệt chỉ đổi đại từ/số để đủ trường.
 - Không tạo ranh giới giả: đúng nhưng đổi nghĩa, không hợp ý định, kém tự nhiên, gần nghĩa và thiếu ngữ cảnh phải có nhãn khác sai ngữ pháp. Câu sai có nhãn trước và câu sửa sau. Không gán lỗi cho người học chưa làm bài.
 - Không bắt mọi từ có đủ ba loại bẫy. Không thấy bẫy thì ghi: “Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.” Từ đã giải thích vẫn nhắc ngắn đủ hiểu độc lập.

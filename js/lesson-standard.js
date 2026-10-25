@@ -1,4 +1,4 @@
-import {auditV2,v2Audio,splitSpeech,isPinyinText} from './lesson-v2.js?v=v2-pilot-de';
+import {auditV2,v2Audio,splitSpeech,isPinyinText} from './lesson-v2.js?v=v2-pilot-de2';
 // The 5.1–5.6 contract checks content coverage; it does not certify linguistic accuracy.
 export const sections=[['introduction','5.1 · Giới thiệu từ mới'],['meaning','5.2 · Hiểu nghĩa và khi nào dùng'],['usages','5.3 · Cách sử dụng'],['examples','5.4 · Ví dụ có phân tích'],['traps','5.5 · Bẫy và phân biệt'],['pronunciation','5.6 · Đọc đúng']];
 export const judgments={correct:'Đúng và phù hợp', 'wrong-grammar':'Câu sai ngữ pháp','different-meaning':'Đúng nhưng đổi nghĩa','wrong-intent':'Đúng nhưng không phù hợp ý định','unnatural':'Hiểu được nhưng kém tự nhiên trong ngữ cảnh này','overlap':'Vẫn đúng và gần nghĩa','context-needed':'Chưa đủ ngữ cảnh để kết luận'};
