@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 390 mục đủ cấu trúc V1/V2; còn 1844. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 380 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 403 mục đủ cấu trúc V1/V2; còn 1831. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 393 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -87204,22 +87204,185 @@
       "intro": [
         {
           "pinyin": "jiàn",
-          "meaning": "gặp"
+          "meaning": "thấy; gặp"
         }
       ],
-      "meaning": "gặp",
-      "status": "example",
+      "meaning": "thấy; gặp",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-031 · trung bình",
       "examples": [
         {
-          "zh": "明天见。",
-          "vi": "Hẹn gặp ngày mai."
+          "id": "e1",
+          "zh": "我看见他了。",
+          "vi": "Tôi nhìn thấy anh ấy rồi.",
+          "analysis": "看见 nhấn kết quả đã nhìn thấy người đó; 他 là đối tượng sau 看见.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "明天我们见面。",
+          "vi": "Ngày mai chúng ta gặp nhau.",
+          "analysis": "见面 nói hai bên gặp nhau, không chỉ một người nhìn thấy người kia.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 377,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 381,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=见"
+        ],
+        "introduction": {
+          "scope": "thấy hoặc gặp; bài tập trung vào 看见 và 见面"
+        },
+        "meaning": {
+          "scene": "Nói về việc nhìn thấy ai/vật hoặc gặp một người.",
+          "explanation": "见 có thể chỉ thấy và có thể xuất hiện trong 见面 để nói hai người gặp nhau. Khi muốn nhấn việc nhìn thấy bằng mắt, 看见 là mẫu rõ và thường dùng.",
+          "boundary": "看见 nhấn kết quả nhìn thấy; 见面 nhấn hai người gặp nhau. Không dùng một cách dịch ‘thấy’ để thay cả hai trong mọi câu.",
+          "conditions": [
+            "Dùng 看见 + người/vật khi nói đã nhìn thấy; dùng 跟/和 + người + 见面 khi nói gặp nhau."
+          ],
+          "takeaway": "Nhìn cả cụm: 看见 là thấy bằng mắt, 见面 là gặp người."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + 看见 + người/vật",
+            "position": "看见 đứng trước đối tượng được nhìn thấy.",
+            "required": "Cần người hoặc vật làm đối tượng nếu câu chưa có ngữ cảnh.",
+            "omission": "Có thể bỏ đối tượng khi người nghe đã biết đang nói về ai/vật nào.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "跟/和 + người + 见面",
+            "position": "Người gặp đứng sau 跟/和 và trước 见面.",
+            "required": "Cần nêu người gặp hoặc để ngữ cảnh cung cấp.",
+            "omission": "Có thể nói 见面 khi cả hai bên đã rõ người gặp là ai.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我看见他了。",
+            "vi": "Tôi nhìn thấy anh ấy rồi.",
+            "analysis": "看见 nhấn kết quả đã nhìn thấy người đó; 他 là đối tượng sau 看见.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "明天我们见面。",
+            "vi": "Ngày mai chúng ta gặp nhau.",
+            "analysis": "见面 nói hai bên gặp nhau, không chỉ một người nhìn thấy người kia.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "看见 và 见面: thấy hay gặp",
+            "scene": "Nói đã nhìn thấy ai hay có cuộc gặp với ai.",
+            "possibleConfusion": "Cả hai đều có thể liên quan đến một người xuất hiện trước mắt, nhưng mục đích câu khác nhau.",
+            "difference": "看见 nhấn việc nhìn thấy; 见面 nhấn cuộc gặp giữa người với người.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我看见他了。",
+                "vi": "Tôi nhìn thấy anh ấy rồi.",
+                "comment": "Không nói hai người đã hẹn hoặc nói chuyện với nhau.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我跟他见面了。",
+                "vi": "Tôi đã gặp anh ấy.",
+                "comment": "跟他见面 nói có cuộc gặp giữa hai người.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 看见 thành 见面 sẽ thêm ý cuộc gặp; đổi 见面 thành 看见 sẽ chỉ còn ý nhìn thấy, không giữ nguyên quan hệ giữa hai người."
+            },
+            "boundary": "Trong một cuộc gặp, người nói có thể vừa 看见 vừa 见面, nhưng hai từ trả lời hai câu hỏi khác nhau.",
+            "tip": "Nhìn thấy dùng 看见; gặp nhau dùng 见面."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa thấy/gặp và cụm 见面.",
+          "literalTranslation": "Đã rà bẫy dịch 见面 từng chữ thành ‘thấy mặt’ mà bỏ nghĩa gặp nhau.",
+          "confusables": "Đã đối chiếu 看见 và 见面; chưa mở rộng nghĩa ‘ý kiến’ của 见 trong văn viết."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ một âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền cụm: 我___他了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói hai người gặp nhau, chọn 看见 hay 见面?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "看见"
+            ],
+            "explanation": "看见 đứng trước người được nhìn thấy."
+          },
+          "q2": {
+            "accepted": [
+              "见面"
+            ],
+            "explanation": "见面 nói cuộc gặp giữa người với người."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn đã nhìn thấy bạn mình rồi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói ngày mai bạn gặp một người bạn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 看见 cho kết quả nhìn thấy.",
+            "frame": "我看见 + người + 了",
+            "model": "我看见朋友了。",
+            "vi": "Tôi nhìn thấy bạn mình rồi.",
+            "criteria": [
+              "Có 看见.",
+              "Người/vật đứng sau 看见."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 见面 cho cuộc gặp.",
+            "frame": "明天我跟 + người + 见面",
+            "model": "明天我跟朋友见面。",
+            "vi": "Ngày mai tôi gặp bạn.",
+            "criteria": [
+              "Có người gặp sau 跟.",
+              "Dùng 见面, không chỉ 看见."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-c54fef729488",
@@ -87228,22 +87391,193 @@
       "intro": [
         {
           "pinyin": "dōu",
-          "meaning": "đều"
+          "meaning": "đều; tất cả"
         }
       ],
-      "meaning": "đều",
-      "status": "example",
+      "meaning": "đều; tất cả",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-031 · trung bình",
       "examples": [
         {
+          "id": "e1",
           "zh": "我们都是学生。",
-          "vi": "Chúng tôi đều là học sinh."
+          "vi": "Chúng tôi đều là học sinh.",
+          "analysis": "我们 là nhóm; 都 đứng trước 是 để áp dụng nhận định 学生 cho cả nhóm.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他们都喜欢中文。",
+          "vi": "Họ đều thích tiếng Trung.",
+          "analysis": "都 đứng trước 喜欢, cho biết sở thích này đúng với tất cả người trong 他们.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 378,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 382,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=都"
+        ],
+        "introduction": {
+          "scope": "đều; tất cả trong một nhóm đã xác định"
+        },
+        "meaning": {
+          "scene": "Nói một hành động hoặc đặc điểm đúng với toàn bộ người/vật trong nhóm.",
+          "explanation": "都 thường đứng sau chủ thể số nhiều hoặc nhóm đã nêu, trước 是/động từ/tính từ. Nó gom các thành viên trong nhóm vào cùng một nhận định.",
+          "boundary": "都 không tự tạo nghĩa ‘rất’ và không nhất thiết đứng ngay trước danh từ. Khi chỉ một người/vật, không dùng 都 nếu không có nhóm được hiểu.",
+          "conditions": [
+            "Chủ thể hoặc nhóm phải có từ hai thành viên hoặc được hiểu là một tập hợp; 都 đứng trước phần nhận định chung."
+          ],
+          "takeaway": "Nhớ 都 đứng trước hành động/đặc điểm để nói tất cả thành viên trong nhóm đều như vậy."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể số nhiều + 都 + 是 + danh từ",
+            "position": "都 đứng sau chủ thể và trước 是.",
+            "required": "Chủ thể phải là nhóm người/vật.",
+            "omission": "Có thể bỏ 都 nếu chỉ nói một thành viên, nhưng khi đó mất ý toàn nhóm.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ thể số nhiều + 都 + động từ",
+            "position": "都 đứng trước động từ chính.",
+            "required": "Hành động phải được áp dụng cho toàn bộ nhóm theo ngữ cảnh.",
+            "omission": "Không đặt 都 sau động từ trong mẫu cơ bản này.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们都是学生。",
+            "vi": "Chúng tôi đều là học sinh.",
+            "analysis": "我们 là nhóm; 都 đứng trước 是 để áp dụng nhận định 学生 cho cả nhóm.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他们都喜欢中文。",
+            "vi": "Họ đều thích tiếng Trung.",
+            "analysis": "都 đứng trước 喜欢, cho biết sở thích này đúng với tất cả người trong 他们.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Vị trí của 都",
+            "scene": "Nói cả nhóm cùng có một đặc điểm hoặc cùng làm một việc.",
+            "possibleConfusion": "Người học có thể đặt 都 sau động từ hoặc dùng nó như một từ đứng trước danh từ.",
+            "difference": "Trong mẫu cơ bản, 都 đứng sau chủ thể nhóm và trước 是/động từ/tính từ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们都是学生。",
+                "vi": "Chúng tôi đều là học sinh.",
+                "comment": "都 đứng trước 是.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们喜欢都中文。",
+                "vi": "Câu sai: 都 không đứng giữa động từ 喜欢 và tân ngữ trong mẫu này.",
+                "comment": "Muốn nói cả nhóm thích tiếng Trung, đặt 都 trước 喜欢.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "corrections": [
+              {
+                "caseId": "c2",
+                "zh": "我们都喜欢中文。",
+                "vi": "Chúng tôi đều thích tiếng Trung.",
+                "reason": "都 đứng sau chủ thể và trước động từ 喜欢."
+              }
+            ],
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Đổi vị trí 都 trong câu không chỉ đổi sắc thái; đặt sau động từ như 我们喜欢都中文 làm câu sai. Mẫu cơ bản là chủ thể + 都 + phần nhận định."
+            },
+            "boundary": "Trong câu dài có thể có vị trí khác do cấu trúc phức tạp, nhưng người mới nên giữ 都 trước 是/động từ/tính từ.",
+            "tip": "Tìm nhóm trước, rồi đặt 都 ngay trước phần nhận định chung."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa đều/tất cả và vị trí cơ bản.",
+          "literalTranslation": "Đã rà bẫy dịch 都 thành một từ đứng trước danh từ hoặc hiểu thành ‘rất’.",
+          "confusables": "Đã rà vị trí 都; chưa mở rộng các cấu trúc nhượng bộ có 都."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ một âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Xếp vị trí: 我们 / 是 / 都 / 学生。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Điền: 他们___喜欢中文。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我们都是学生。"
+            ],
+            "explanation": "都 đứng sau 我们 và trước 是."
+          },
+          "q2": {
+            "accepted": [
+              "都"
+            ],
+            "explanation": "都 đứng trước 喜欢 để áp dụng hành động cho cả nhóm."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn và bạn bè đều là học sinh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói họ đều thích tiếng Trung."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我们都 + 是.",
+            "frame": "我们都是 + danh từ",
+            "model": "我们都是学生。",
+            "vi": "Chúng tôi đều là học sinh.",
+            "criteria": [
+              "Có chủ thể nhóm.",
+              "都 đứng trước 是."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 他们都 trước động từ.",
+            "frame": "他们都 + động từ",
+            "model": "他们都喜欢中文。",
+            "vi": "Họ đều thích tiếng Trung.",
+            "criteria": [
+              "都 đứng trước 喜欢.",
+              "Ý nghĩa áp dụng cho cả nhóm."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-080d8c21847d",
@@ -87252,98 +87586,933 @@
       "intro": [
         {
           "pinyin": "lǐ",
-          "meaning": "trong"
+          "meaning": "bên trong; trong"
         }
       ],
-      "meaning": "trong",
-      "status": "example",
+      "meaning": "bên trong; trong",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-031 · trung bình",
       "examples": [
         {
-          "zh": "手机在包里。",
-          "vi": "Điện thoại ở trong túi."
+          "id": "e1",
+          "zh": "书包里有一本书。",
+          "vi": "Trong cặp có một quyển sách.",
+          "analysis": "书包里 là vị trí bên trong chiếc cặp; 有 giới thiệu vật ở đó.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我在房间里学习。",
+          "vi": "Tôi học trong phòng.",
+          "analysis": "在房间里 nêu nơi xảy ra hành động 学习.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 379,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 383,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=里"
+        ],
+        "introduction": {
+          "scope": "bên trong một nơi/vật; bài tập trung vào cụm địa điểm"
+        },
+        "meaning": {
+          "scene": "Nói một vật/người ở bên trong một không gian hoặc đồ vật.",
+          "explanation": "里 thường đứng sau danh từ địa điểm/vật để tạo cụm ‘bên trong’, như 房间里, 书包里. Có thể đặt cụm này sau 在 để nêu nơi hành động xảy ra.",
+          "boundary": "里 nhấn phía bên trong; nó không phải một động từ có nghĩa ‘vào’. Muốn nói đi vào cần dùng 进/进去 tùy cấu trúc.",
+          "conditions": [
+            "Danh từ địa điểm/vật + 里 tạo cụm vị trí; 在 có thể đứng trước cụm này khi nói đang ở đâu."
+          ],
+          "takeaway": "Dùng 里 sau nơi/vật để chỉ bên trong, không dịch 里 thành động từ ‘đi vào’."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "danh từ + 里 + 有 + sự vật",
+            "position": "里 đứng sau nơi/vật và trước 有.",
+            "required": "Nơi/vật phải có phần bên trong được nói đến.",
+            "omission": "Có thể bỏ 里 nếu danh từ địa điểm đã đủ rõ trong ngữ cảnh, nhưng thêm 里 làm rõ ‘bên trong’.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "在 + danh từ + 里 + động từ",
+            "position": "在 đứng trước cụm vị trí; động từ đứng sau cụm đó.",
+            "required": "Cần hành động xảy ra bên trong nơi được nêu.",
+            "omission": "Có thể bỏ 在 trong một số câu trả lời ngắn khi vị trí đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "书包里有一本书。",
+            "vi": "Trong cặp có một quyển sách.",
+            "analysis": "书包里 là vị trí bên trong chiếc cặp; 有 giới thiệu vật ở đó.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我在房间里学习。",
+            "vi": "Tôi học trong phòng.",
+            "analysis": "在房间里 nêu nơi xảy ra hành động 学习.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "里 và 里面: đều chỉ bên trong",
+            "scene": "Chọn cách nói vị trí bên trong cho người mới học.",
+            "possibleConfusion": "里 và 里面 đều có thể dịch là ‘bên trong’, nên người học nghĩ một dạng luôn đúng còn dạng kia luôn sai.",
+            "difference": "Cả hai đều có thể chỉ bên trong; 里面 dài hơn và nhấn rõ ‘phía trong’, còn 里 thường gọn trong các cụm địa điểm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "书包里有一本书。",
+                "vi": "Trong cặp có một quyển sách.",
+                "comment": "里 đứng sau 书包 tạo cụm vị trí tự nhiên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "书包里面有一本书。",
+                "vi": "Bên trong cặp có một quyển sách.",
+                "comment": "里面 cũng đúng; câu nhấn rõ phía bên trong hơn, không phải lỗi ngữ pháp.",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Đổi 里 thành 里面 thường vẫn giữ nghĩa vị trí bên trong, nhưng câu dài hơn và có thể nhấn không gian bên trong rõ hơn. Không tạo ranh giới sai giả giữa hai dạng."
+            },
+            "boundary": "Với các cụm cố định như 这里/那里, không tách máy móc thành mọi công thức danh từ + 里.",
+            "tip": "里 là dạng gọn; 里面 là dạng đầy đủ hơn khi muốn nhấn phía bên trong."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa bên trong và vị trí trong cụm địa điểm.",
+          "literalTranslation": "Đã rà bẫy hiểu 里 là động từ ‘vào’.",
+          "confusables": "Đã đối chiếu 里 và 里面; không mở rộng nghĩa đơn vị khoảng cách ít liên quan."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ một âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 书包___有一本书。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói ‘Tôi học trong phòng’: cụm vị trí nào đứng sau 在?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "里"
+            ],
+            "explanation": "书包里 chỉ vị trí bên trong cặp."
+          },
+          "q2": {
+            "accepted": [
+              "房间里"
+            ],
+            "explanation": "在房间里 nêu nơi học."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trong cặp có một quyển sách."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn học trong phòng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng danh từ + 里 trước 有.",
+            "frame": "书包里有 + đồ vật",
+            "model": "书包里有一本书。",
+            "vi": "Trong cặp có một quyển sách.",
+            "criteria": [
+              "Có 书包里.",
+              "Vật được giới thiệu sau 有."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 在 + nơi + 里 trước động từ.",
+            "frame": "我在房间里 + động từ",
+            "model": "我在房间里学习。",
+            "vi": "Tôi học trong phòng.",
+            "criteria": [
+              "Có 房间里.",
+              "Động từ đứng sau cụm vị trí."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "trở về nhà",
+      "meaning": "về nhà",
       "intro": [
         {
           "pinyin": "huí jiā",
-          "meaning": "trở về nhà"
+          "meaning": "về nhà"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我晚上回家。",
+          "vi": "Buổi tối tôi về nhà.",
+          "analysis": "晚上 nêu thời gian; 回家 là hành động trở về.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "你什么时候回家？",
+          "vi": "Khi nào bạn về nhà?",
+          "analysis": "什么时候 hỏi thời điểm của 回家, không hỏi vị trí hiện tại.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-6031de8385a6",
       "hanzi": "回家",
       "level": 1,
       "sourceIndex": 380,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-031 · dễ",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 384,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=回家"
+        ],
+        "introduction": {
+          "scope": "trở về nhà"
+        },
+        "meaning": {
+          "scene": "Nói một người trở về nơi ở quen thuộc của mình hoặc gia đình.",
+          "explanation": "回家 là cụm động từ ‘về nhà’. 家 ở đây là đích đến quen thuộc sau 回, không cần thêm 在.",
+          "boundary": "回家 nói hướng trở về nhà; 在家 chỉ đang ở nhà. Hai cụm có thể xuất hiện trong cùng câu chuyện nhưng không cùng chức năng.",
+          "conditions": [
+            "Dùng 回家 khi người nói đang trở về nhà; thời gian có thể đứng đầu câu."
+          ],
+          "takeaway": "Nhớ 回家 là hành động về nhà, không phải trạng thái đang ở nhà."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "thời gian + chủ thể + 回家",
+            "position": "Thời gian có thể đứng đầu; 回家 đứng sau chủ thể.",
+            "required": "Chủ thể phải là người có nhà/nơi ở được hiểu.",
+            "omission": "Có thể bỏ chủ thể khi ngữ cảnh đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "什么时候 + 回家",
+            "position": "什么时候 hỏi thời điểm của hành động 回家.",
+            "required": "Câu hỏi cần người nghe biết đang hỏi ai.",
+            "omission": "Có thể hỏi 回家吗 khi chỉ cần hỏi có về nhà hay không.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我晚上回家。",
+            "vi": "Buổi tối tôi về nhà.",
+            "analysis": "晚上 nêu thời gian; 回家 là hành động trở về.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "你什么时候回家？",
+            "vi": "Khi nào bạn về nhà?",
+            "analysis": "什么时候 hỏi thời điểm của 回家, không hỏi vị trí hiện tại.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "回家 và 在家: về hay đang ở",
+            "scene": "Nói hướng trở về hoặc vị trí hiện tại.",
+            "possibleConfusion": "Cả hai đều có chữ 家 nên người học dễ dùng lẫn khi dịch ‘ở/về nhà’.",
+            "difference": "回家 là hành động trở về; 在家 là trạng thái đang ở nhà.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我晚上回家。",
+                "vi": "Buổi tối tôi về nhà.",
+                "comment": "Nói hành động hướng về nhà.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我晚上在家。",
+                "vi": "Buổi tối tôi ở nhà.",
+                "comment": "Nói vị trí/trạng thái, không nói đang di chuyển về nhà.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 回家 thành 在家 làm mất hành động trở về và đổi thành trạng thái ở nhà; đổi ngược lại cũng thêm hướng chuyển động không có trong câu gốc."
+            },
+            "boundary": "Có thể nói 回家以后在家休息, vì một cụm nói hành động về và cụm kia nói trạng thái sau đó.",
+            "tip": "Về nhà dùng 回家; đang ở nhà dùng 在家."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa về nhà và phân biệt với 在家.",
+          "literalTranslation": "Đã rà bẫy dịch 回家 thành ‘quay nhà’ từng chữ.",
+          "confusables": "Đã đối chiếu 回家/在家 theo hành động và vị trí."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我晚上___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói ‘Tôi buổi tối ở nhà’: chọn 回家 hay 在家?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "回家"
+            ],
+            "explanation": "回家 là hành động về nhà."
+          },
+          "q2": {
+            "accepted": [
+              "在家"
+            ],
+            "explanation": "在家 nói trạng thái đang ở nhà."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói buổi tối bạn về nhà."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi bạn khi nào về nhà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt thời gian trước 回家.",
+            "frame": "我 + thời gian + 回家",
+            "model": "我晚上回家。",
+            "vi": "Buổi tối tôi về nhà.",
+            "criteria": [
+              "Có 回家.",
+              "Thời gian phù hợp."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 什么时候 hỏi thời điểm.",
+            "frame": "你什么时候回家？",
+            "model": "你什么时候回家？",
+            "vi": "Khi nào bạn về nhà?",
+            "criteria": [
+              "Có 什么时候.",
+              "Hỏi thời điểm của 回家."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "ở nhà",
       "intro": [
         {
-          "pinyin": "zàijiā",
+          "pinyin": "zài jiā",
           "meaning": "ở nhà"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我今天在家。",
+          "vi": "Hôm nay tôi ở nhà.",
+          "analysis": "在家 mô tả vị trí của người nói trong ngày hôm nay.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "在家学习很方便。",
+          "vi": "Học ở nhà rất tiện.",
+          "analysis": "在家 đứng đầu làm bối cảnh cho 学习; câu không nói hành động về nhà.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-bdbafb4843da",
       "hanzi": "在家",
       "level": 1,
       "sourceIndex": 381,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-031 · dễ",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 385,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=在家"
+        ],
+        "introduction": {
+          "scope": "đang ở nhà"
+        },
+        "meaning": {
+          "scene": "Nói một người hiện đang ở nhà thay vì ở nơi khác.",
+          "explanation": "在家 là cụm chỉ vị trí/trạng thái ở nhà. Nó có thể làm vị trí sau 在 hoặc đứng sau chủ thể như một cụm hoàn chỉnh.",
+          "boundary": "在家 không tự nói người đó đang về nhà; hành động trở về dùng 回家.",
+          "conditions": [
+            "Dùng 在家 để trả lời đang ở đâu hoặc nói hoạt động diễn ra ở nhà."
+          ],
+          "takeaway": "在家 trả lời ‘đang ở đâu’; 回家 trả lời ‘đang về đâu’ hoặc nói hành động trở về."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + 在家",
+            "position": "在家 đứng sau chủ thể để nói vị trí.",
+            "required": "Chủ thể và địa điểm nhà phải được hiểu.",
+            "omission": "Có thể chỉ nói 在家 khi chủ thể đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "在家 + động từ",
+            "position": "在家 đứng đầu câu làm bối cảnh cho hành động.",
+            "required": "Hành động phía sau cần phù hợp với việc ở nhà.",
+            "omission": "Có thể đưa 在家 sau chủ thể nếu muốn câu trực tiếp hơn.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我今天在家。",
+            "vi": "Hôm nay tôi ở nhà.",
+            "analysis": "在家 mô tả vị trí của người nói trong ngày hôm nay.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "在家学习很方便。",
+            "vi": "Học ở nhà rất tiện.",
+            "analysis": "在家 đứng đầu làm bối cảnh cho 学习; câu không nói hành động về nhà.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "在家 và 回家: vị trí hay hướng về",
+            "scene": "Trả lời đang ở đâu hay nói hành động trở về.",
+            "possibleConfusion": "Cùng có 家 nhưng 在 và 回 tạo chức năng khác nhau.",
+            "difference": "在家 chỉ vị trí ở nhà; 回家 chỉ hành động trở về nhà.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我今天在家。",
+                "vi": "Hôm nay tôi ở nhà.",
+                "comment": "Trả lời vị trí/trạng thái.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我晚上回家。",
+                "vi": "Buổi tối tôi về nhà.",
+                "comment": "Nói hướng trở về vào buổi tối.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 在家 và 回家 làm câu chuyển từ trạng thái ở nhà sang hành động trở về; không phải hai cách nói tương đương."
+            },
+            "boundary": "Một người có thể tối 回家 rồi sau đó 在家, nhưng hai cụm diễn tả hai giai đoạn khác nhau.",
+            "tip": "Hỏi ‘ở đâu’ dùng 在家; nói ‘về nhà’ dùng 回家."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa ở nhà và phân biệt với 回家.",
+          "literalTranslation": "Đã rà bẫy hiểu 在家 là ‘tại quay về nhà’.",
+          "confusables": "Đã đối chiếu 在家/回家 theo trạng thái và hướng."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我今天___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘Buổi tối tôi về nhà’, chọn 在家 hay 回家?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "在家"
+            ],
+            "explanation": "在家 nói vị trí ở nhà."
+          },
+          "q2": {
+            "accepted": [
+              "回家"
+            ],
+            "explanation": "回家 nói hành động trở về nhà."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói hôm nay bạn ở nhà."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói học ở nhà rất tiện."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng thời gian + 在家.",
+            "frame": "我 + thời gian + 在家",
+            "model": "我今天在家。",
+            "vi": "Hôm nay tôi ở nhà.",
+            "criteria": [
+              "Có 在家.",
+              "Câu nói về vị trí."
+            ]
+          },
+          "s2": {
+            "idea": "Đặt 在家 làm bối cảnh trước hành động.",
+            "frame": "在家 + động từ + tính từ",
+            "model": "在家学习很方便。",
+            "vi": "Học ở nhà rất tiện.",
+            "criteria": [
+              "Có 在家学习.",
+              "Tính từ đánh giá hành động phía sau."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "trên mặt đất",
+      "meaning": "trên mặt đất; trên sàn",
       "intro": [
         {
-          "pinyin": "dìshàng",
-          "meaning": "trên mặt đất"
+          "pinyin": "dì shàng",
+          "meaning": "trên mặt đất; trên sàn"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "孩子坐在地上。",
+          "vi": "Đứa trẻ ngồi trên sàn.",
+          "analysis": "坐在地上 nói tư thế và vị trí; 地上 đứng sau 在.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "地上有很多水。",
+          "vi": "Trên sàn có rất nhiều nước.",
+          "analysis": "地上 làm vị trí trước 有 để giới thiệu nước ở đó.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-00f1ad22ad66",
       "hanzi": "地上",
       "level": 1,
       "sourceIndex": 382,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-031 · dễ",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 386,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=地上"
+        ],
+        "introduction": {
+          "scope": "vị trí trên mặt đất hoặc mặt sàn"
+        },
+        "meaning": {
+          "scene": "Nói vật/người đang ở trên đất hoặc trên sàn.",
+          "explanation": "地上 là cụm vị trí: 地 chỉ đất/mặt sàn, 上 chỉ phía trên. Nó thường đứng sau 在 hoặc làm nơi chứa trong câu 有.",
+          "boundary": "地上 nói ở phía trên bề mặt; 地下 nói ở bên dưới. Không dùng 地上 để nói trợ từ cách thức 地.",
+          "conditions": [
+            "Dùng 在地上 khi nói hành động/vật ở trên mặt đất; dùng 地上有 khi giới thiệu vật ở đó."
+          ],
+          "takeaway": "地上 là vị trí trên đất/sàn, không phải cách đọc trợ từ 地 trong 认真地学习."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在地上 + động từ",
+            "position": "在地上 đứng trước hành động để nêu nơi.",
+            "required": "Hành động có thể xảy ra trên mặt đất/sàn.",
+            "omission": "Có thể bỏ 在 trong 地上有 vì 地上 khi đó làm vị trí tồn tại.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "地上有 + sự vật",
+            "position": "地上 đứng trước 有 để giới thiệu vật ở trên sàn/đất.",
+            "required": "Cần sự vật phía sau 有.",
+            "omission": "Có thể bỏ 地上 khi nơi đã rõ, nhưng sẽ mất thông tin vị trí.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "孩子坐在地上。",
+            "vi": "Đứa trẻ ngồi trên sàn.",
+            "analysis": "坐在地上 nói tư thế và vị trí; 地上 đứng sau 在.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "地上有很多水。",
+            "vi": "Trên sàn có rất nhiều nước.",
+            "analysis": "地上 làm vị trí trước 有 để giới thiệu nước ở đó.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "地上 và 地下: trên hay dưới bề mặt",
+            "scene": "Nói vị trí của vật/người so với mặt đất hoặc sàn.",
+            "possibleConfusion": "Hai cụm chỉ vị trí đối lập nhưng chỉ khác một chữ phương hướng.",
+            "difference": "地上 là phía trên mặt đất/sàn; 地下 là phía dưới mặt đất hoặc dưới sàn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "孩子坐在地上。",
+                "vi": "Đứa trẻ ngồi trên sàn.",
+                "comment": "Vị trí ở phía trên bề mặt.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "地下一层有停车场。",
+                "vi": "Tầng hầm dưới đất có bãi đỗ xe.",
+                "comment": "地下 nói phía dưới mặt đất; không thể đổi thành 地上 nếu giữ vị trí.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 上 thành 下 làm vị trí chuyển từ trên bề mặt sang dưới đất; câu có thể vẫn đúng ngữ pháp nhưng đổi hoàn toàn nghĩa không gian."
+            },
+            "boundary": "地下 còn có thể chỉ tầng hầm trong tòa nhà; cách hiểu cụ thể phụ thuộc nơi được nói đến.",
+            "tip": "上 là phía trên, 下 là phía dưới: 地上 đối lập với 地下."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cụm vị trí trên đất/sàn và đối chiếu 地下.",
+          "literalTranslation": "Đã rà bẫy dịch 地上 thành ‘đất ở trên’ thay vì vị trí trên bề mặt.",
+          "confusables": "Đã đối chiếu 地上/地下; cách đọc của 地 lấy theo cụm danh từ này."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết; âm sau trong cụm chỉ vị trí có thể nhẹ tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 孩子坐在___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói vị trí dưới mặt đất: chọn 地上 hay 地下?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "地上"
+            ],
+            "explanation": "坐在地上 là ngồi trên sàn/đất."
+          },
+          "q2": {
+            "accepted": [
+              "地下"
+            ],
+            "explanation": "地下 chỉ phía dưới mặt đất."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói đứa trẻ ngồi trên sàn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói trên sàn có rất nhiều nước."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 坐在地上.",
+            "frame": "chủ thể + 坐在地上",
+            "model": "孩子坐在地上。",
+            "vi": "Đứa trẻ ngồi trên sàn.",
+            "criteria": [
+              "Có 地上.",
+              "Vị trí đứng sau 在."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 地上有 để giới thiệu sự vật.",
+            "frame": "地上有 + sự vật",
+            "model": "地上有很多水。",
+            "vi": "Trên sàn có rất nhiều nước.",
+            "criteria": [
+              "Có 地上有.",
+              "Sự vật đứng sau 有."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "nhà",
+      "meaning": "trong nhà; ở nhà",
       "intro": [
         {
-          "pinyin": "jiālǐ",
-          "meaning": "nhà"
+          "pinyin": "jiā lǐ",
+          "meaning": "trong nhà; ở nhà"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "家里有三个人。",
+          "vi": "Trong nhà có ba người.",
+          "analysis": "家里有 giới thiệu số người thuộc không gian/gia đình đó.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我在家里做饭。",
+          "vi": "Tôi nấu cơm ở nhà.",
+          "analysis": "在家里 nêu nơi hành động 做饭 xảy ra.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-7d0adf7c6dd0",
       "hanzi": "家里",
       "level": 1,
       "sourceIndex": 383,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-031 · dễ",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 387,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=家里"
+        ],
+        "introduction": {
+          "scope": "bên trong nhà hoặc trong gia đình"
+        },
+        "meaning": {
+          "scene": "Nói người/vật ở trong nhà hoặc sự việc xảy ra trong phạm vi gia đình.",
+          "explanation": "家里 gồm 家 và 里, nhấn phía trong nhà/gia đình. Nó có thể làm nơi sau 在 hoặc đứng trước 有 để nói trong nhà có gì.",
+          "boundary": "家里 gần với 在家 nhưng 家里 nhấn ‘trong nhà’ như một không gian; 在家 nhấn trạng thái ở nhà của người. Nhiều câu dùng được cả hai tùy trọng tâm.",
+          "conditions": [
+            "Dùng 家里有 khi giới thiệu người/vật trong nhà; dùng 在家里 + động từ khi nói hành động diễn ra trong nhà."
+          ],
+          "takeaway": "家里 là không gian/phạm vi trong nhà; 在家 là trạng thái ở nhà."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "家里有 + người/vật",
+            "position": "家里 đứng trước 有.",
+            "required": "Phía sau 有 là người/vật được giới thiệu.",
+            "omission": "Có thể nói 家有 trong văn phong ngắn hơn, nhưng người mới dùng 家里有 sẽ rõ nghĩa hơn.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "在家里 + động từ",
+            "position": "在家里 đứng trước hành động.",
+            "required": "Hành động xảy ra trong nhà.",
+            "omission": "Có thể rút thành 在家 khi chỉ cần nói ở nhà và không nhấn không gian bên trong.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "家里有三个人。",
+            "vi": "Trong nhà có ba người.",
+            "analysis": "家里有 giới thiệu số người thuộc không gian/gia đình đó.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我在家里做饭。",
+            "vi": "Tôi nấu cơm ở nhà.",
+            "analysis": "在家里 nêu nơi hành động 做饭 xảy ra.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "家里 và 在家: không gian hay trạng thái",
+            "scene": "Nói trong nhà có ai hay nói một người đang ở nhà.",
+            "possibleConfusion": "Cả hai đều có thể dịch liên quan đến ‘ở nhà’, nhưng trọng tâm câu khác nhau.",
+            "difference": "家里 nhấn không gian/gia đình; 在家 nhấn trạng thái một người đang ở nhà.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "家里有三个人。",
+                "vi": "Trong nhà có ba người.",
+                "comment": "Câu giới thiệu những người ở trong phạm vi nhà/gia đình.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我今天在家。",
+                "vi": "Hôm nay tôi ở nhà.",
+                "comment": "Câu nói vị trí của người nói, không cần nêu bên trong có những ai.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 家里有三个人 thành 在家 có thể bỏ mất thông tin số người; đổi 在家 thành 家里 cũng cần đổi cấu trúc và chủ thể, vì hai cụm không cùng vai trò trong câu."
+            },
+            "boundary": "Trong 我在家里 và 我在家, cả hai có thể đúng; 家里 nhấn không gian hơn, còn 在家 là cách nói gọn về vị trí.",
+            "tip": "Giới thiệu người/vật trong nhà dùng 家里有; nói mình đang ở nhà dùng 在家."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa trong nhà và phạm vi gia đình.",
+          "literalTranslation": "Đã rà bẫy tách 家里 thành ‘nhà ở bên trong’.",
+          "confusables": "Đã đối chiếu 家里 với 在家 theo trọng tâm không gian/trạng thái."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: ___有三个人。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói ‘Hôm nay tôi ở nhà’: chọn 家里有 hay 在家?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "家里"
+            ],
+            "explanation": "家里有 giới thiệu người trong nhà."
+          },
+          "q2": {
+            "accepted": [
+              "在家"
+            ],
+            "explanation": "在家 nói trạng thái của người nói."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trong nhà có ba người."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn nấu cơm ở nhà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 家里有.",
+            "frame": "家里有 + số + người",
+            "model": "家里有三个人。",
+            "vi": "Trong nhà có ba người.",
+            "criteria": [
+              "Có 家里有.",
+              "Số người đứng sau 有."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 在家里 trước hành động.",
+            "frame": "我在家里 + động từ",
+            "model": "我在家里做饭。",
+            "vi": "Tôi nấu cơm ở nhà.",
+            "criteria": [
+              "Có 在家里.",
+              "Động từ đứng sau cụm vị trí."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-794438ea5df3",
@@ -87351,18 +88520,186 @@
       "hanzi": "房子",
       "intro": [
         {
-          "pinyin": "fángzi",
-          "meaning": "nhà"
+          "pinyin": "fáng zi",
+          "meaning": "căn nhà; nhà ở"
         }
       ],
-      "meaning": "nhà",
-      "status": "catalog",
+      "meaning": "căn nhà; nhà ở",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-031 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "这座房子很大。",
+          "vi": "Căn nhà này rất lớn.",
+          "analysis": "这座房子 là căn nhà cụ thể; 很大 mô tả kích thước toàn bộ căn nhà.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我租了一套房子。",
+          "vi": "Tôi thuê một căn nhà/căn hộ.",
+          "analysis": "一套 là lượng từ phù hợp cho một căn nhà/căn hộ theo gói hoàn chỉnh.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 384,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 388,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=房子"
+        ],
+        "introduction": {
+          "scope": "căn nhà/căn hộ như nơi ở hoặc công trình"
+        },
+        "meaning": {
+          "scene": "Nói về căn nhà, căn hộ hoặc công trình dùng để ở.",
+          "explanation": "房子 nhấn bản thân căn nhà/căn hộ như một vật thể hoặc nơi ở. Có thể dùng lượng từ phù hợp khi đếm, hoặc mô tả kích thước/trạng thái của căn nhà.",
+          "boundary": "房子 là toàn bộ căn nhà/căn hộ; 房间 là một phòng bên trong. 家 nhấn nơi thuộc về người/gia đình, không chỉ vật thể.",
+          "conditions": [
+            "Dùng 房子 khi mô tả căn nhà, mua/thuê hoặc nói kích thước; dùng 房间 khi chỉ một phòng cụ thể bên trong."
+          ],
+          "takeaway": "房子 là căn nhà/căn hộ; 房间 là một phòng trong đó, còn 家 nhấn nơi thuộc về gia đình."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "这/那 + căn nhà + tính từ",
+            "position": "房子 đứng sau từ chỉ căn nhà và trước tính từ mô tả.",
+            "required": "Tính từ cần mô tả đặc điểm của căn nhà.",
+            "omission": "Có thể bỏ 这/那 khi căn nhà đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "động từ + một căn + 房子",
+            "position": "房子 đứng sau lượng từ/cụm số lượng khi nói mua/thuê một căn.",
+            "required": "Cần ngữ cảnh về nhà ở hoặc công trình.",
+            "omission": "Có thể nói 房子 không kèm số khi không đếm.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这座房子很大。",
+            "vi": "Căn nhà này rất lớn.",
+            "analysis": "这座房子 là căn nhà cụ thể; 很大 mô tả kích thước toàn bộ căn nhà.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我租了一套房子。",
+            "vi": "Tôi thuê một căn nhà/căn hộ.",
+            "analysis": "一套 là lượng từ phù hợp cho một căn nhà/căn hộ theo gói hoàn chỉnh.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "房子 và 房间: nhà hay phòng",
+            "scene": "Nói toàn bộ nơi ở hay một không gian bên trong.",
+            "possibleConfusion": "Tiếng Việt đều có thể gọi là ‘nhà/phòng’, khiến người học dùng 房间 khi nói kích thước cả căn.",
+            "difference": "房子 là căn nhà/căn hộ; 房间 là một phòng bên trong hoặc một không gian riêng.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这座房子很大。",
+                "vi": "Căn nhà này rất lớn.",
+                "comment": "Đang mô tả toàn bộ căn nhà.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我的房间不大。",
+                "vi": "Phòng của tôi không lớn.",
+                "comment": "房间 chỉ một phòng cụ thể thuộc nơi ở.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 房子 thành 房间 sẽ thu hẹp đối tượng từ cả căn nhà xuống một phòng; đổi ngược lại có thể làm câu nói quá rộng so với ý định."
+            },
+            "boundary": "Một căn 房子 có nhiều 房间; hai từ có quan hệ bộ phận–toàn thể chứ không phải hai cách gọi ngang nhau.",
+            "tip": "Cả căn nhà/căn hộ dùng 房子; một phòng bên trong dùng 房间."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa căn nhà/căn hộ và đối chiếu 房间.",
+          "literalTranslation": "Đã rà bẫy dịch 房子 thành ‘phòng’ theo tiếng Việt địa phương.",
+          "confusables": "Đã đối chiếu 房子/房间 và nhắc ngắn 家 trong phạm vi cần thiết."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết; âm sau trong 房子 thường nhẹ tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这座___很大。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘phòng của tôi không lớn’, chọn 房子 hay 房间?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "房子"
+            ],
+            "explanation": "房子 chỉ toàn bộ căn nhà được mô tả."
+          },
+          "q2": {
+            "accepted": [
+              "房间"
+            ],
+            "explanation": "房间 chỉ một phòng cụ thể."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói căn nhà này rất lớn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn thuê một căn hộ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 这座房子 và tính từ.",
+            "frame": "这座房子 + tính từ",
+            "model": "这座房子很大。",
+            "vi": "Căn nhà này rất lớn.",
+            "criteria": [
+              "Có 房子.",
+              "Tính từ mô tả cả căn."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 一套房子 sau 租.",
+            "frame": "我租了一套房子",
+            "model": "我租了一套房子。",
+            "vi": "Tôi thuê một căn hộ.",
+            "criteria": [
+              "Có 一套房子.",
+              "租 nói hành động thuê."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-e226931c0051",
@@ -87375,18 +88712,181 @@
         }
       ],
       "meaning": "phòng",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-032 · dễ",
       "examples": [
         {
-          "zh": "我的房间不大。",
-          "vi": "Phòng của tôi không rộng."
+          "id": "e1",
+          "zh": "我的房间很小。",
+          "vi": "Phòng của tôi rất nhỏ.",
+          "analysis": "我的房间 chỉ một phòng thuộc về người nói; 很小 mô tả diện tích phòng.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这个房间很安静。",
+          "vi": "Phòng này rất yên tĩnh.",
+          "analysis": "这个房间 là phòng cụ thể; 很安静 mô tả không gian đó.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 385,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 389,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=房间"
+        ],
+        "introduction": {
+          "scope": "phòng, một không gian riêng trong nhà hoặc tòa nhà"
+        },
+        "meaning": {
+          "scene": "Nói về một phòng cụ thể, thường là một không gian bên trong nơi ở hoặc tòa nhà.",
+          "explanation": "房间 chỉ một phòng riêng, không phải toàn bộ căn nhà. Có thể nói phòng thuộc về ai hoặc mô tả phòng lớn, nhỏ, sạch, sáng.",
+          "boundary": "房间 là phần không gian bên trong; 房子 là cả căn nhà/căn hộ. Khi nói đang ở nhà nói 在家, không dùng 房间 thay cho 家.",
+          "conditions": [
+            "Dùng 房间 khi người nghe có thể xác định một phòng hoặc khi đang mô tả không gian đó."
+          ],
+          "takeaway": "房间 là một phòng cụ thể bên trong nơi ở hoặc tòa nhà."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "người + 的 + 房间",
+            "position": "房间 đứng sau 的 để chỉ phòng thuộc về người đó.",
+            "required": "Cần người sở hữu hoặc ngữ cảnh xác định phòng.",
+            "omission": "Có thể bỏ 的 khi không nói quan hệ sở hữu.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "房间 + tính từ",
+            "position": "Tính từ đứng sau 房间 để mô tả căn phòng.",
+            "required": "Tính từ phải mô tả không gian phòng.",
+            "omission": "Có thể chỉ nói 房间 khi không cần mô tả thêm.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我的房间很小。",
+            "vi": "Phòng của tôi rất nhỏ.",
+            "analysis": "我的房间 chỉ một phòng thuộc về người nói; 很小 mô tả diện tích phòng.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这个房间很安静。",
+            "vi": "Phòng này rất yên tĩnh.",
+            "analysis": "这个房间 là phòng cụ thể; 很安静 mô tả không gian đó.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "房间 và 房子: phòng hay cả căn nhà",
+            "scene": "Nói một không gian bên trong hay toàn bộ nơi ở.",
+            "possibleConfusion": "Cả hai đều có thể được dịch liên quan đến ‘nhà’ trong một số ngữ cảnh tiếng Việt.",
+            "difference": "房间 chỉ một phòng; 房子 chỉ cả căn nhà hoặc căn hộ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我的房间很小。",
+                "vi": "Phòng của tôi rất nhỏ.",
+                "comment": "Đang nói một phòng cụ thể.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这座房子很大。",
+                "vi": "Căn nhà này rất lớn.",
+                "comment": "Đang nói toàn bộ căn nhà.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 房间 thành 房子 sẽ mở rộng đối tượng từ một phòng thành cả căn nhà; đổi ngược lại sẽ thu hẹp nghĩa."
+            },
+            "boundary": "Một 房子 có thể gồm nhiều 房间; hai từ không thay thế ngang nhau khi mô tả kích thước.",
+            "tip": "Một phòng dùng 房间; cả căn nhà hoặc căn hộ dùng 房子."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa phòng và phạm vi chỉ một không gian bên trong.",
+          "literalTranslation": "Đã rà bẫy gộp 房间 với 房子 vì đều liên quan nơi ở.",
+          "confusables": "Đã đối chiếu 房间/房子; chưa mở rộng các loại phòng chuyên biệt."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我的___很小。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘căn nhà này rất lớn’, chọn 房间 hay 房子?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "房间"
+            ],
+            "explanation": "房间 chỉ căn phòng thuộc về người nói."
+          },
+          "q2": {
+            "accepted": [
+              "房子"
+            ],
+            "explanation": "房子 chỉ toàn bộ căn nhà."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói phòng của bạn rất nhỏ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói căn phòng này rất yên tĩnh."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我的房间 và tính từ.",
+            "frame": "我的房间 + tính từ",
+            "model": "我的房间很小。",
+            "vi": "Phòng của tôi rất nhỏ.",
+            "criteria": [
+              "Có 房间.",
+              "Tính từ mô tả căn phòng."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这个房间 và tính từ.",
+            "frame": "这个房间 + tính từ",
+            "model": "这个房间很安静。",
+            "vi": "Phòng này rất yên tĩnh.",
+            "criteria": [
+              "Có 这个房间.",
+              "Tính từ đứng sau 房间."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-f9eb50c86520",
@@ -87399,75 +88899,742 @@
         }
       ],
       "meaning": "bàn",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-032 · dễ",
       "examples": [
         {
-          "zh": "桌子上有一杯水。",
-          "vi": "Trên bàn có một cốc nước."
+          "id": "e1",
+          "zh": "房间里有一张桌子。",
+          "vi": "Trong phòng có một cái bàn.",
+          "analysis": "一张桌子 dùng 张 để đếm một cái bàn.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "书在桌子上。",
+          "vi": "Quyển sách ở trên bàn.",
+          "analysis": "桌子上 chỉ bề mặt phía trên bàn, sau 在 để nêu vị trí của sách.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 386,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 390,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=桌子"
+        ],
+        "introduction": {
+          "scope": "cái bàn dùng để đặt đồ hoặc làm việc"
+        },
+        "meaning": {
+          "scene": "Nói về một cái bàn hoặc vị trí trên bàn.",
+          "explanation": "桌子 là đồ vật có mặt bàn, dùng để ăn, học, làm việc hoặc đặt đồ. Khi nói vật ở trên bàn, dùng cụm 在桌子上.",
+          "boundary": "桌子 là cái bàn, còn 桌面 là mặt bàn. Không dịch 桌子 thành ‘bàn’ trong nghĩa cuộc họp hay người làm việc như tiếng Việt nếu câu không nói về đồ vật.",
+          "conditions": [
+            "Dùng lượng từ 张 khi đếm bàn trong cách nói cơ bản; dùng 在桌子上 để nói vị trí trên bàn."
+          ],
+          "takeaway": "桌子 là cái bàn; 在桌子上 là ở trên bàn."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一张/这张 + 桌子",
+            "position": "Lượng từ 张 đứng trước 桌子 khi đếm hoặc chỉ một cái bàn.",
+            "required": "Cần 张 khi nói một cái bàn theo mẫu đếm cơ bản.",
+            "omission": "Có thể bỏ lượng từ khi chỉ nói chung về 桌子.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "đồ vật + 在 + 桌子上",
+            "position": "桌子上 đứng sau 在 để chỉ vị trí trên bàn.",
+            "required": "Cần vật hoặc người được định vị.",
+            "omission": "Có thể bỏ 在 khi câu không nói vị trí.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "房间里有一张桌子。",
+            "vi": "Trong phòng có một cái bàn.",
+            "analysis": "一张桌子 dùng 张 để đếm một cái bàn.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "书在桌子上。",
+            "vi": "Quyển sách ở trên bàn.",
+            "analysis": "桌子上 chỉ bề mặt phía trên bàn, sau 在 để nêu vị trí của sách.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "桌子 và 桌面: bàn hay mặt bàn",
+            "scene": "Nói cả đồ vật hay chỉ bề mặt của nó.",
+            "possibleConfusion": "Tiếng Việt thường dùng ‘mặt bàn’ khi ngữ cảnh đã rõ, nên người học có thể bỏ qua phạm vi của từ.",
+            "difference": "桌子 là cả cái bàn; 桌面 là mặt phẳng phía trên của bàn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "房间里有一张桌子。",
+                "vi": "Trong phòng có một cái bàn.",
+                "comment": "Đang đếm cả cái bàn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "书在桌子上。",
+                "vi": "Quyển sách ở trên bàn.",
+                "comment": "桌子上 là cụm vị trí trên bề mặt bàn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 桌子 thành 桌面 trong câu đếm sẽ đổi cả đồ vật thành riêng mặt bàn; trong cụm vị trí, 桌面上 có thể nói rõ mặt bàn nhưng không phải cùng từ."
+            },
+            "boundary": "Khi chỉ vị trí thông thường, 桌子上 tự nhiên; chỉ dùng 桌面 khi cần nhấn bề mặt.",
+            "tip": "Đếm hoặc nói cái bàn dùng 桌子; nhấn mặt phẳng của bàn dùng 桌面."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa cái bàn và cụm vị trí 桌子上.",
+          "literalTranslation": "Đã rà bẫy đồng nhất 桌子 với 桌面.",
+          "confusables": "Đã đối chiếu 桌子/桌面; chưa mở rộng các nghĩa ẩn dụ của ‘bàn’."
+        },
+        "pronunciation": {
+          "text": "Đọc hai âm tiết; âm sau trong 桌子 thường nhẹ tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền lượng từ: 房间里有一___桌子。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Điền: 书在___上。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "张"
+            ],
+            "explanation": "张 là lượng từ cơ bản cho một cái bàn trong câu này."
+          },
+          "q2": {
+            "accepted": [
+              "桌子"
+            ],
+            "explanation": "桌子上 chỉ vị trí trên bàn."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trong phòng có một cái bàn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói quyển sách ở trên bàn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 一张桌子.",
+            "frame": "房间里有一张桌子",
+            "model": "房间里有一张桌子。",
+            "vi": "Trong phòng có một cái bàn.",
+            "criteria": [
+              "Có 张 trước 桌子.",
+              "Dùng 有 để nói có."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 在桌子上.",
+            "frame": "书在桌子上",
+            "model": "书在桌子上。",
+            "vi": "Quyển sách ở trên bàn.",
+            "criteria": [
+              "Có 桌子上.",
+              "Nêu đúng vị trí của sách."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "tầng trên",
+      "meaning": "tầng trên; trên lầu",
       "intro": [
         {
-          "pinyin": "lóu shàng",
-          "meaning": "tầng trên"
+          "pinyin": "lóushàng",
+          "meaning": "tầng trên; trên lầu"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "他在楼上学习。",
+          "vi": "Anh ấy học ở trên lầu.",
+          "analysis": "在楼上 là nơi diễn ra việc học; câu không nói anh ấy đang đi lên.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我去楼上找他。",
+          "vi": "Tôi lên lầu tìm anh ấy.",
+          "analysis": "去楼上 nói đi đến tầng trên; 找他 nêu mục đích tìm anh ấy.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-fab3cf7ece90",
       "hanzi": "楼上",
       "level": 1,
       "sourceIndex": 387,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-032 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 391,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=楼上"
+        ],
+        "introduction": {
+          "scope": "tầng ở phía trên hoặc khu vực trên lầu"
+        },
+        "meaning": {
+          "scene": "Nói về vị trí hoặc người/vật ở tầng trên so với vị trí hiện tại.",
+          "explanation": "楼上 là cụm chỉ vị trí, có thể làm nơi chốn sau 在 hoặc làm hướng đến sau động từ như 去. Nó không tự nói người đang di chuyển lên nếu không có động từ chỉ chuyển động.",
+          "boundary": "楼上 chỉ khu vực ở phía trên; 楼下 chỉ khu vực ở phía dưới. Muốn nói đang đi lên dùng động từ phù hợp, không chỉ nói 楼上.",
+          "conditions": [
+            "Dùng 在楼上 để nói đang ở tầng trên; dùng 去楼上 khi nói đi lên khu vực đó."
+          ],
+          "takeaway": "楼上 là trên lầu/tầng trên, còn động từ quyết định là đang ở đó hay đi đến đó."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + 在楼上",
+            "position": "在 đứng trước 楼上 để làm cụm vị trí.",
+            "required": "Cần chủ thể đang ở vị trí đó.",
+            "omission": "Có thể nói 楼上 khi địa điểm đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ thể + 去楼上",
+            "position": "去 đứng trước 楼上 để nói đi đến tầng trên.",
+            "required": "Cần động từ chuyển động nếu muốn nói di chuyển.",
+            "omission": "Không bỏ 去 nếu muốn giữ nghĩa đi đến.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他在楼上学习。",
+            "vi": "Anh ấy học ở trên lầu.",
+            "analysis": "在楼上 là nơi diễn ra việc học; câu không nói anh ấy đang đi lên.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我去楼上找他。",
+            "vi": "Tôi lên lầu tìm anh ấy.",
+            "analysis": "去楼上 nói đi đến tầng trên; 找他 nêu mục đích tìm anh ấy.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "楼上 và 楼下: trên hay dưới",
+            "scene": "Xác định tầng ở phía trên hoặc phía dưới.",
+            "possibleConfusion": "Hai cụm có cấu tạo giống nhau và chỉ khác hướng không gian.",
+            "difference": "楼上 là tầng trên; 楼下 là tầng dưới.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他在楼上学习。",
+                "vi": "Anh ấy học ở trên lầu.",
+                "comment": "Vị trí nằm ở tầng trên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他在楼下等我。",
+                "vi": "Anh ấy đợi tôi ở tầng dưới.",
+                "comment": "Câu đúng nhưng đổi vị trí sang tầng dưới.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 楼上 thành 楼下 sẽ chuyển vị trí từ tầng trên xuống tầng dưới; câu vẫn đúng ngữ pháp nhưng không còn cùng thông tin."
+            },
+            "boundary": "Nếu tòa nhà không có tầng theo cách gọi này, cần dựa vào ngữ cảnh thực tế; không suy ra số tầng cụ thể chỉ từ 楼上.",
+            "tip": "上 là trên, 下 là dưới; nhìn phần sau để phân biệt hai cụm."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa vị trí tầng trên và cách dùng với 在/去.",
+          "literalTranslation": "Đã rà bẫy hiểu 楼上 như hành động ‘đi lên’ mà thiếu động từ.",
+          "confusables": "Đã đối chiếu 楼上 với 楼下; chưa mở rộng các cụm phương vị khác."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 他在___学习。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘tôi lên lầu tìm anh ấy’, chọn 在楼上 hay 去楼上?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "楼上"
+            ],
+            "explanation": "楼上 làm cụm nơi chốn sau 在."
+          },
+          "q2": {
+            "accepted": [
+              "去楼上"
+            ],
+            "explanation": "去楼上 nói di chuyển đến tầng trên."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói anh ấy học ở trên lầu."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn lên lầu tìm anh ấy."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 在楼上 cho nơi chốn.",
+            "frame": "他在楼上 + động từ",
+            "model": "他在楼上学习。",
+            "vi": "Anh ấy học ở trên lầu.",
+            "criteria": [
+              "Có 在楼上.",
+              "楼上 làm nơi diễn ra hành động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 去楼上 cho hướng đi.",
+            "frame": "我去楼上 + động từ",
+            "model": "我去楼上找他。",
+            "vi": "Tôi lên lầu tìm anh ấy.",
+            "criteria": [
+              "Có 去楼上.",
+              "Có hành động sau cụm nơi chốn."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "tầng dưới",
+      "meaning": "tầng dưới; dưới lầu",
       "intro": [
         {
-          "pinyin": "lóu xià",
-          "meaning": "tầng dưới"
+          "pinyin": "lóuxià",
+          "meaning": "tầng dưới; dưới lầu"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "妈妈在楼下等我。",
+          "vi": "Mẹ đang đợi tôi ở dưới lầu.",
+          "analysis": "在楼下 chỉ nơi mẹ đang đợi; không nhất thiết nói mẹ đi xuống lúc nào.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我们去楼下吃饭。",
+          "vi": "Chúng tôi đi xuống lầu ăn cơm.",
+          "analysis": "去楼下 nói đi đến tầng dưới để ăn cơm.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-28beda763d50",
       "hanzi": "楼下",
       "level": 1,
       "sourceIndex": 388,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-032 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 392,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=楼下"
+        ],
+        "introduction": {
+          "scope": "tầng ở phía dưới hoặc khu vực dưới lầu"
+        },
+        "meaning": {
+          "scene": "Nói về vị trí hoặc người/vật ở tầng dưới so với vị trí hiện tại.",
+          "explanation": "楼下 là cụm chỉ khu vực ở phía dưới. Dùng 在楼下 để nói đang ở đó và dùng 去楼下 để nói đi đến đó.",
+          "boundary": "楼下 chỉ vị trí phía dưới, không phải mọi nghĩa của ‘bên dưới’. 楼上 là phía trên, còn 楼下 không tự cho biết người nói có đang di chuyển hay không.",
+          "conditions": [
+            "Cần nhìn động từ đi kèm để biết là ở tầng dưới, đi xuống đó hay làm việc tại đó."
+          ],
+          "takeaway": "楼下 là dưới lầu/tầng dưới; 在 và 去 tạo hai cách dùng khác nhau."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + 在楼下",
+            "position": "在 đứng trước 楼下 để làm cụm vị trí.",
+            "required": "Cần chủ thể đang ở tầng dưới.",
+            "omission": "Có thể nói 楼下 khi địa điểm đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ thể + 去楼下",
+            "position": "去 đứng trước 楼下 để nói đi đến tầng dưới.",
+            "required": "Cần động từ chuyển động 去.",
+            "omission": "Không bỏ 去 nếu muốn nói hướng đi.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "妈妈在楼下等我。",
+            "vi": "Mẹ đang đợi tôi ở dưới lầu.",
+            "analysis": "在楼下 chỉ nơi mẹ đang đợi; không nhất thiết nói mẹ đi xuống lúc nào.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我们去楼下吃饭。",
+            "vi": "Chúng tôi đi xuống lầu ăn cơm.",
+            "analysis": "去楼下 nói đi đến tầng dưới để ăn cơm.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "楼下 và 下楼: vị trí hay hướng đi",
+            "scene": "Nói đang ở dưới lầu hay đang đi xuống.",
+            "possibleConfusion": "Hai cụm đều liên quan đến phía dưới nhưng một cụm là nơi chốn, một cụm là hướng di chuyển.",
+            "difference": "楼下 là khu vực tầng dưới; 下楼 là đi xuống lầu.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "妈妈在楼下等我。",
+                "vi": "Mẹ đang đợi tôi ở dưới lầu.",
+                "comment": "在楼下 chỉ nơi chốn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我下楼找他。",
+                "vi": "Tôi xuống lầu tìm anh ấy.",
+                "comment": "下楼 là hành động đi xuống; không thay trực tiếp bằng 楼下.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 楼下 thành 下楼 sẽ biến nơi chốn thành hành động đi xuống; đổi ngược lại có thể làm mất hướng di chuyển."
+            },
+            "boundary": "Muốn nói đang ở dưới lầu dùng 在楼下; muốn nói đi xuống dùng 下楼 hoặc 去楼下 tùy cấu trúc.",
+            "tip": "楼下 là ‘ở đâu’, 下楼 là ‘đi như thế nào’ xuống lầu."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa tầng dưới và cách dùng vị trí.",
+          "literalTranslation": "Đã rà bẫy dịch từng chữ làm lẫn 楼下 với 下楼.",
+          "confusables": "Đã đối chiếu 楼下/下楼; câu ví dụ phụ được đánh dấu không dùng vì lặp ý."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 妈妈在___等我。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘tôi xuống lầu tìm anh ấy’, chọn 楼下 hay 下楼?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "楼下"
+            ],
+            "explanation": "楼下 làm cụm nơi chốn sau 在."
+          },
+          "q2": {
+            "accepted": [
+              "下楼"
+            ],
+            "explanation": "下楼 nói hành động đi xuống lầu."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói mẹ đợi bạn ở dưới lầu."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn xuống lầu tìm anh ấy."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 在楼下 cho địa điểm.",
+            "frame": "妈妈在楼下 + động từ",
+            "model": "妈妈在楼下等我。",
+            "vi": "Mẹ đang đợi tôi ở dưới lầu.",
+            "criteria": [
+              "Có 在楼下.",
+              "楼下 làm nơi chốn."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 下楼 cho hành động đi xuống.",
+            "frame": "我下楼 + động từ",
+            "model": "我下楼找他。",
+            "vi": "Tôi xuống lầu tìm anh ấy.",
+            "criteria": [
+              "Có 下楼.",
+              "Có hành động sau cụm động từ."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "trên cơ thể",
+      "meaning": "trên người; trên cơ thể",
       "intro": [
         {
           "pinyin": "shēnshang",
-          "meaning": "trên cơ thể"
+          "meaning": "trên người; trên cơ thể"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "他身上没有钱。",
+          "vi": "Trên người anh ấy không có tiền.",
+          "analysis": "身上 giới hạn phạm vi ‘trên người’ khi nói không có tiền mang theo.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我身上有一把钥匙。",
+          "vi": "Trên người tôi có một chiếc chìa khóa.",
+          "analysis": "身上有 nói người nói đang mang một chiếc chìa khóa trên người.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-fd90b1393fe0",
       "hanzi": "身上",
       "level": 1,
       "sourceIndex": 389,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-032 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 393,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=身上"
+        ],
+        "introduction": {
+          "scope": "trên người hoặc ở trên cơ thể của ai đó"
+        },
+        "meaning": {
+          "scene": "Nói một đồ vật, dấu vết hoặc cảm giác ở trên cơ thể hoặc thuộc về người đó.",
+          "explanation": "身上 đặt trọng tâm vào bề mặt cơ thể hoặc những gì người đó đang mang theo trên người. Cụm này thường đi sau 在 hoặc xuất hiện trong 在身上.",
+          "boundary": "身上 không đơn giản là 身体. 身体 là cơ thể như một danh từ; 身上 nhấn vị trí trên người hoặc điều gắn với người đó.",
+          "conditions": [
+            "Dùng 在身上 khi nói đồ vật/vết bẩn ở trên người; dùng 身上有 khi nói trên người có thứ gì."
+          ],
+          "takeaway": "身上 nhấn ‘trên người’, còn 身体 là ‘cơ thể’ nói chung."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + 身上 + có/không có + vật",
+            "position": "身上 đứng sau chủ thể để chỉ trên người chủ thể.",
+            "required": "Cần chủ thể là người hoặc sinh vật có cơ thể.",
+            "omission": "Có thể bỏ 身上 khi vị trí đã rõ, nhưng sẽ mất trọng tâm ‘trên người’.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "vật + 在 + người + 身上",
+            "position": "身上 đứng sau người trong cụm chỉ vị trí.",
+            "required": "Cần vật hoặc dấu vết được định vị.",
+            "omission": "Không nên bỏ 身上 nếu muốn phân biệt với trong túi hoặc ở cạnh người.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他身上没有钱。",
+            "vi": "Trên người anh ấy không có tiền.",
+            "analysis": "身上 giới hạn phạm vi ‘trên người’ khi nói không có tiền mang theo.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我身上有一把钥匙。",
+            "vi": "Trên người tôi có một chiếc chìa khóa.",
+            "analysis": "身上有 nói người nói đang mang một chiếc chìa khóa trên người.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "身上 và 身体: trên người hay cơ thể",
+            "scene": "Nói vị trí của đồ vật hay nói cơ thể như một đối tượng.",
+            "possibleConfusion": "Tiếng Việt có thể dùng ‘trên người’ và ‘cơ thể’ gần nhau trong một số câu.",
+            "difference": "身上 nhấn thứ ở trên người hoặc người đang mang; 身体 nhấn bản thân cơ thể.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他身上没有钱。",
+                "vi": "Trên người anh ấy không có tiền.",
+                "comment": "Nói tiền có được mang theo trên người hay không.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他的身体很健康。",
+                "vi": "Cơ thể anh ấy rất khỏe mạnh.",
+                "comment": "身体 là cơ thể được mô tả về sức khỏe.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 身上 thành 身体 trong câu nói tiền sẽ chuyển trọng tâm sang cơ thể và không còn tự nhiên; đổi 身体 thành 身上 trong câu sức khỏe cũng đổi từ cơ thể sang những gì ở trên người."
+            },
+            "boundary": "Không dùng 身上 để thay mọi chỗ có 身体; hãy hỏi câu đang nói về vị trí trên người hay tình trạng cơ thể.",
+            "tip": "Đồ vật/vết trên người dùng 身上; sức khỏe và cơ thể nói chung dùng 身体."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa vị trí trên người và đối chiếu với 身体.",
+          "literalTranslation": "Đã rà bẫy dịch 身上 thành ‘thân trên’ thay vì cụm chỉ vị trí.",
+          "confusables": "Đã đối chiếu 身上/身体; chưa mở rộng 身边 và 身后."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết; âm sau trong 身上 thường nhẹ tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 他___没有钱。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘cơ thể anh ấy rất khỏe mạnh’, chọn 身上 hay 身体?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "身上"
+            ],
+            "explanation": "身上 chỉ phạm vi những gì đang ở trên người anh ấy."
+          },
+          "q2": {
+            "accepted": [
+              "身体"
+            ],
+            "explanation": "身体 là cơ thể được mô tả về sức khỏe."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trên người bạn không có tiền."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói trên người bạn có một chiếc chìa khóa."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 身上没有钱.",
+            "frame": "我身上没有 + danh từ",
+            "model": "我身上没有钱。",
+            "vi": "Trên người tôi không có tiền.",
+            "criteria": [
+              "Có 身上.",
+              "没有 phủ định vật mang theo."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 身上有 và vật.",
+            "frame": "我身上有 + vật",
+            "model": "我身上有一把钥匙。",
+            "vi": "Trên người tôi có một chiếc chìa khóa.",
+            "criteria": [
+              "Có 身上有.",
+              "Nêu đúng vật đang mang."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-53b165a47cb8",
@@ -122869,13 +125036,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 390,
-    "pending": 1844,
+    "ready": 403,
+    "pending": 1831,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 390
+        "ready": 403
       },
       {
         "level": 2,
