@@ -12,7 +12,7 @@
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
   "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 và correction-004 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–411; batch-034 đến batch-036 đã bổ sung, tự phản biện. Tiến độ supplementation là 419/2.224, còn 1.805. Commit nội dung c1b87a3 đã push content; tracker/main/Pages/live còn chờ cập nhật và xác minh; tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "af3a4594d875411d4fbc6b57e208bb3fe02b1fa8",
+    "progress.json": "19cdbed5b34ed5c04afb827e566535fe66417023",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "318d2098630f509b226876a21b84ad77361ad202",
     "data/vocabulary/content-audit.json": "1a370e0dcc773cad179352bfc8f6de141408f307"
@@ -50,8 +50,8 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "c1b87a3",
-  "priorVerificationNote": "Batch-036 đã qua process-batch apply/verify, verify-v2, quality-audit self-test, test-dom.mjs, kiểm tra cú pháp JavaScript và diff check. Chưa xác minh live/Pages, TTS Android thật, bố cục trực quan riêng của lượt này hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "c1b87a37eab4e0927f36e7e97ed42348ddd84c5b",
+  "priorVerificationNote": "Batch-036 đã qua process-batch apply/verify, verify-v2, quality-audit self-test, test-dom.mjs, kiểm tra cú pháp JavaScript và diff check. Pages run 40155717136 thành công trên tracker b58001ab; live course 5.280.571 bytes khớp SHA 1e7dfb2bad6340ede73f61e4e5a09dd742a55f0a2b6a2d95223332045fe3a2ea. Chưa chạy Chromium trực quan riêng lượt này; TTS Android và phản biện giáo viên độc lập chưa thực hiện.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[419:]",
@@ -75,10 +75,10 @@
       "hz-h1-fc9be1e83197",
       "hz-h1-94b7a883cbe9"
     ],
-    "releaseState": "pending-pages-verification",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null,
-    "liveCourseSha256": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40155717136,
+    "verifiedPagesCommit": "b58001ab42f6d515c70573905742e47cd958dfae",
+    "liveCourseSha256": "1e7dfb2bad6340ede73f61e4e5a09dd742a55f0a2b6a2d95223332045fe3a2ea"
   },
   "batchStatus": {
     "batch": "batch-036",
@@ -114,9 +114,9 @@
       "hz-h1-10154770a9fc"
     ],
     "teacherReviewedIds": [],
-    "releaseState": "pending-pages-verification",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40155717136,
+    "verifiedPagesCommit": "b58001ab42f6d515c70573905742e47cd958dfae"
   },
   "reviewStatus": {
     "batch": "review-022",
@@ -502,9 +502,9 @@
     "reviewedCount": 377,
     "reviewTotal": 377,
     "releaseState": "published-pages-verified",
-    "verifiedPagesRun": 40154353838,
-    "verifiedPagesCommit": "fd6307b63c8ea04ab66e2ce00664e04f8fb56a55",
-    "liveCourseSha256": "c25cf6f17f91ef10db3960b3f3608b392aa647cf8259a9225c750e09ae9e619c"
+    "verifiedPagesRun": 40155717136,
+    "verifiedPagesCommit": "b58001ab42f6d515c70573905742e47cd958dfae",
+    "liveCourseSha256": "1e7dfb2bad6340ede73f61e4e5a09dd742a55f0a2b6a2d95223332045fe3a2ea"
   },
   "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/fd6307b"
 }
