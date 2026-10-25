@@ -1,5 +1,16 @@
 
 
+# Batch-033 — đã phát hành và xác minh Pages
+
+- Commit nội dung: `82634a222d56b0f197f9d1a0edf34e6f908f4dec`; đã fast-forward cả `content/vocabulary-2224` và `main`.
+- Bổ sung 5 mục ordinal 394–398: 们、谁、介绍、他们、先生. Tiến độ: 398/2.224, còn 1.826; toàn khóa 408/2.234 bài đủ cấu trúc.
+- Phân loại: dễ gồm 他们; trung bình gồm 们、谁、介绍、先生. Đã tự phản biện hai lượt; bài 谁 giữ hai cách đọc ở phần giới thiệu, không rải Pinyin vào lời giảng; chưa phản biện giáo viên độc lập.
+- Nguồn đã đọc để xác minh mục từ, cách đọc và nghĩa: MDBG cho từng mục; các nhận định cấu trúc được viết và tự kiểm tra theo ngữ cảnh, không coi HTTP 200 là bằng chứng ngữ pháp.
+- `process-batch apply`, `process-batch verify`, `verify-v2`, `test-dom.mjs`, kiểm tra cú pháp JavaScript và `git diff --check` đều đạt. DOM simulation không chứng nhận bố cục trực quan hoặc phát âm trên thiết bị.
+- GitHub Pages run [40152291174](https://github.com/bohoa96tb/hazi-viet/actions/runs/40152291174) completed/success đúng `head_sha=82634a222d56b0f197f9d1a0edf34e6f908f4dec`.
+- Dữ liệu khóa học live có 2.234 mục, 408 bài đủ cấu trúc, 5.131.318 bytes, SHA-256 `05c92a6f79dec3619c70a0741283d5aea7de05d678feedf9ff4ee7eaa0b3fb3d`, khớp byte với bản đã kiểm; cache `vocabulary.js?v=batch-033`.
+- Chưa xác minh TTS Android/phát âm thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
+
 # Batch-031 và batch-032 — đã phát hành và xác minh Pages
 
 - Commit nội dung: `78c3bb3378c8e3c2b6d1f0ea1edbb08a8f86cb19`; đã fast-forward cả `content/vocabulary-2224` và `main`.
