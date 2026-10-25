@@ -1,5 +1,11 @@
 
 
+# Correction-006 — đang chờ phát hành Pages
+
+- Content commit: `52ef9688c3b4206f0d58fd2fa8db64c7d09bffbe`; sửa bài 430 那边 để đề, gợi ý, khung, đáp án, bản dịch và criteria cùng nghĩa “bên kia”.
+- Sửa ownership nguồn: `batch-038.json` đúng 4 mục 428–431; `batch-039.json` đúng 4 mục 432–435, không trùng ID. Đồng bộ editorialStatus 432–435 về batch-039; completedCount vẫn 435/2.224.
+- Quality audit thêm kiểm cặp đối lập 这边/那边, 左/右, 上/下, 前/后, 里/外, 有/没有; nhóm 428–435 đã qua semantic audit không cảnh báo. Pages/live sẽ ghi sau tracker mới.
+
 # Correction-005 và batch-038/039 — đã phát hành và xác minh Pages
 
 - Commit nội dung: `0281429d4eabce14d65712875b88f56fea41ad7e`; tracker cuối: `778128c8b681ef64e9b552f8a877372556675764`; cả `content/vocabulary-2224` và `main` đã fast-forward.
