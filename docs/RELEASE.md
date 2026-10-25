@@ -1,5 +1,12 @@
 
 
+# Batch-044 — đang chờ phát hành Pages
+
+- Content commit: `3fe09028849d7bb270f4cc185cc810aac7ae6e2a`; bổ sung 8 mục ordinal 452–459: 门票、飞机、马路、从、四、教、班、中学. Tiến độ cục bộ: 459/2.224, còn 1.765.
+- Phân loại: dễ gồm 门票、飞机、马路、四; trung bình gồm 从、班、中学; khó gồm 教 vì có hai cách đọc thông dụng. Bài 教 chỉ dạy sâu nghĩa dạy và nhận diện cách đọc trong 教育.
+- Đã chạy `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 452–459, `test-dom.mjs`, `node --check` và `git diff --check`. Chưa xác minh live Pages, TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
+- Tracker/main và trạng thái Pages đang chờ cập nhật sau khi ghi nhận commit nội dung.
+
 # Batch-043 — đã phát hành và xác minh Pages
 
 - Content commit: `2061eda667a6d30f0afa37005f0bd76f004f5597`; bổ sung 4 mục ordinal 448–451: 路口、车上、车票、车站. Tiến độ cục bộ: 451/2.224, còn 1.773.
