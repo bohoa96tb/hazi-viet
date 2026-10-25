@@ -1,11 +1,12 @@
 
 
-# Batch-042 — đang chờ phát hành Pages
+# Batch-042 — đã phát hành và xác minh Pages
 
 - Content commit: `27bd49cb85f0a60c760bc8b5159d87cafd7ef330`; bổ sung 4 mục ordinal 444–447: 汽车、火车、走路、路上. Tiến độ cục bộ: 447/2.224, còn 1.777.
 - Phân loại batch-042: dễ gồm 火车; trung bình gồm 汽车、走路、路上. Đã kiểm lại batch-040/041: mỗi batch 1 dễ và 3 trung bình, tổng 2 dễ và 6 trung bình.
 - Đã chạy `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 444–447, `test-dom.mjs`, `node --check` và `git diff --check`. Chưa xác minh live Pages, TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
-- Tracker/main và trạng thái Pages đang chờ cập nhật sau khi ghi nhận commit nội dung.
+- Tracker cuối: `24f6a994c0e5e3d91e356ca46fd779b40fce6102`; cả `content/vocabulary-2224` và `main` đã fast-forward. Pages run [40163436856](https://github.com/bohoa96tb/hazi-viet/actions/runs/40163436856) completed/success đúng HEAD.
+- Tệp khóa học live có 2.234 mục, 5.468.598 bytes, SHA-256 `833a3bc84de1f5fb79b7c3c2ed6ab878cb1fdd482679e779d1309fa29bcab5ab`, khớp byte với bản đã kiểm; đủ 4 ID batch-042 đúng ordinal 444–447. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
 
 # Batch-041 — đã phát hành và xác minh Pages
 
