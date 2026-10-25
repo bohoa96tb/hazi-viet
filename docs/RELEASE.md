@@ -1,8 +1,10 @@
-# Pilot V3 — 得 — đang triển khai để xem trước trên web
+# Pilot V3 — 得 — đã phát hành và xác minh Pages
 
-- Nâng cấp bài 得 (id `hz-h2-8ac3a59c0ef6`, ordinal 503) từ V2 batch-049 lên mẫu V3: 2 khung (V + 得 + bổ ngữ; V + tân ngữ + V + 得 + bổ ngữ), 2 câu mẫu, 5 bẫy (ba cách đọc; 的/地/得; mức độ/khả năng; tân ngữ; 得/要), 4 câu luyện mở, 2 tình huống tự dùng, phát âm thêm 3 ngữ cảnh audio. Không tăng completedCount (vẫn 517/2.224).
+- Merge commit: 945e16c17b377a3e5d70cc5557a27ee3b4766492 (nhánh main, PR #4); nhánh biên soạn: `2edfc43` (file nhỏ) + `ceb507f` (file khóa học). Nâng cấp bài 得 (id `hz-h2-8ac3a59c0ef6`, ordinal 503) từ V2 batch-049 lên mẫu V3: 2 khung, 2 câu mẫu, 5 bẫy, 4 câu luyện mở, 2 tình huống tự dùng, 3 ngữ cảnh audio. Không tăng completedCount (vẫn 517/2.224).
 - Thêm trường Pinyin tùy chọn cho câu đối chiếu và câu sửa trong bẫy, render bằng chi tiết hiện/ẩn, audit kiểm tra Pinyin hợp lệ và loại trừ khi kiểm tra Pinyin trong lời giảng, audio không đọc Pinyin. Đổi cache-buster dữ liệu và JS sang `pilot-de`.
-- Đã chạy process-batch verify, verify-v2, quality audit self-test, quality audit cho 得 (0 cảnh báo), DOM simulation, kiểm tra cú pháp và git diff --check. File khóa học phải đẩy riêng qua trình duyệt vì API từ chối 413 với file gần 6 MB. Chưa xác minh TTS Android, bố cục trực quan trên điện thoại hoặc phản biện giáo viên độc lập.
+- Đã chạy process-batch verify, verify-v2, quality audit self-test, quality audit cho 得 (0 cảnh báo), DOM simulation, kiểm tra cú pháp và git diff --check. File khóa học phải đẩy riêng qua trình duyệt vì API từ chối 413 với file gần 6 MB.
+- Pages run [40196929322](https://github.com/bohoa96tb/hazi-viet/actions/runs/40196929322) completed/success đúng HEAD 945e16c17b377a3e5d70cc5557a27ee3b4766492.
+- Tệp khóa học live có 2.234 mục, 5.999.590 bytes, SHA-256 d52b9dc2aebdff3d94332dfc1ad8295fe340215d8a379f1b61a1b5297b3f9280, khớp byte với bản đã kiểm; bài 得 có 5 bẫy, 4 câu luyện, 2 câu mẫu và Pinyin đối chiếu. Chưa xác minh TTS Android, bố cục trực quan trên điện thoại hoặc phản biện giáo viên độc lập.
 
 # Batch-050 — đã phát hành và xác minh Pages
 
