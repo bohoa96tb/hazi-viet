@@ -1,5 +1,11 @@
 
 
+# Batch-041 — đang chờ phát hành Pages
+
+- Content commit: `4b2894bf846593ee90d71dfae6597c82277ca4aa`; bổ sung 4 mục ordinal 440–443: 开车、打车、机场、机票. Tiến độ cục bộ: 443/2.224, còn 1.781; không thay đổi tiến độ rà soát 377/377.
+- Đã chạy `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 440–443, `test-dom.mjs`, `node --check` và `git diff --check`. Chưa xác minh live Pages, TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
+- Tracker/main và trạng thái Pages đang chờ cập nhật sau khi ghi nhận commit nội dung.
+
 # Batch-040 — đã phát hành và xác minh Pages
 
 - Content commit: `b84c9ce05eac86535bafda79f89905442679b26f`; bổ sung 4 mục ordinal 436–439: 车、飞、上车、地图. Tiến độ cục bộ: 439/2.224, còn 1.785; không thay đổi tiến độ rà soát 377/377.

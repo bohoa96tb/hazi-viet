@@ -12,26 +12,22 @@
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
   "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-006 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–430; batch-034 đến batch-040 đã bổ sung, tự phản biện. Tiến độ supplementation là 439/2.224, còn 1.785. Tracker phát hành ecc30ee đã push main; Pages run 40162418592 success và live course đã khớp hash; tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "0fbbcb9888ac0846891cfb2dad7f762a5667f6f51739f7c7ad60caa474200160",
+    "progress.json": "f8b507fbecfa6cab15aa99f4ee4e47ac364882c5199bbae193bcbd0ab5c2c8a3",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
-    "data/vocabulary/hanzii-course.json": "389beb478a7eb0ecd84523abbc75ccfebbc657128688c6efd469ec166eaa60b0",
-    "data/vocabulary/content-audit.json": "d4c77385d0a919d76030cf2115e6870b0492e170fd3d0b47776229791bd5a176"
+    "data/vocabulary/hanzii-course.json": "5aca97bcb4cbb89656e5b027c64012f4190c6c25b259ee18c3f5e8ce2054cc31",
+    "data/vocabulary/content-audit.json": "cec5dee4f5c6c1a046a55ba6189c1ddfdafe06110e732e7d96c4534eefcac2ed"
   },
   "scopeTotal": 2224,
-  "completedCount": 439,
-  "remaining": 1785,
+  "completedCount": 443,
+  "remaining": 1781,
   "initialCompleteOutsideScope": 10,
-  "lastBatch": "batch-040",
+  "lastBatch": "batch-041",
   "lastReviewBatch": "review-022",
   "lastReviewedId": "hz-h1-56730712e191",
-  "lastCompletedId": "hz-h1-96cd4a079f59",
-  "nextOrdinal": 440,
-  "nextSupplementBatch": "batch-041",
+  "lastCompletedId": "hz-h1-70c28006d532",
+  "nextOrdinal": 444,
+  "nextSupplementBatch": "batch-042",
   "nextIds": [
-    "hz-h1-0fa672e0cf41",
-    "hz-h1-dc4fd18c5eca",
-    "hz-h1-0b27ab004680",
-    "hz-h1-70c28006d532",
     "hz-h1-2a53b8190d1b",
     "hz-h1-3ae826b4f4a7",
     "hz-h1-60ab04a03dbe",
@@ -45,21 +41,21 @@
     "hz-h1-e310526bf2db",
     "hz-h1-833cfba5397f",
     "hz-h1-b1d95ca8d2a7",
-    "hz-h1-885bea78c7a0"
+    "hz-h1-885bea78c7a0",
+    "hz-h1-6652d57fbe64",
+    "hz-h1-a9ca6d4d9e45",
+    "hz-h1-a55dd2db14fc",
+    "hz-h1-ce7a0879d5c8"
   ],
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "ecc30ee1a25ba9aff07445bcd8d1f6edd379a726",
-  "priorVerificationNote": "Batch-040 (车、飞、上车、地图; ordinal 436–439) đã qua kiểm tra cục bộ trên content commit b84c9ce và Pages run 40162418592 success trên tracker ecc30ee; live course 5.413.703 bytes khớp SHA-256 389beb478a7eb0ecd84523abbc75ccfebbc657128688c6efd469ec166eaa60b0. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "4b2894bf846593ee90d71dfae6597c82277ca4aa",
+  "priorVerificationNote": "Batch-041 (开车、打车、机场、机票; ordinal 440–443) đã qua kiểm tra cục bộ trên content commit 4b2894b; chưa có xác minh Pages. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
-    "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[439:]",
+    "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[443:]",
     "nextBatchIds": [
-      "hz-h1-0fa672e0cf41",
-      "hz-h1-dc4fd18c5eca",
-      "hz-h1-0b27ab004680",
-      "hz-h1-70c28006d532",
       "hz-h1-2a53b8190d1b",
       "hz-h1-3ae826b4f4a7",
       "hz-h1-60ab04a03dbe",
@@ -73,43 +69,42 @@
       "hz-h1-e310526bf2db",
       "hz-h1-833cfba5397f",
       "hz-h1-b1d95ca8d2a7",
-      "hz-h1-885bea78c7a0"
+      "hz-h1-885bea78c7a0",
+      "hz-h1-6652d57fbe64",
+      "hz-h1-a9ca6d4d9e45",
+      "hz-h1-a55dd2db14fc",
+      "hz-h1-ce7a0879d5c8"
     ],
-    "releaseState": "published-pages-verified",
-    "verifiedPagesRun": 40162418592,
-    "verifiedPagesCommit": "ecc30ee1a25ba9aff07445bcd8d1f6edd379a726",
-    "liveCourseSha256": "389beb478a7eb0ecd84523abbc75ccfebbc657128688c6efd469ec166eaa60b0"
+    "releaseState": "content-commit-pushed-awaiting-pages",
+    "verifiedPagesRun": null,
+    "verifiedPagesCommit": null,
+    "liveCourseSha256": null
   },
   "batchStatus": {
-    "batch": "batch-040",
+    "batch": "batch-041",
     "authoredIds": [
-      "hz-h1-fc9be1e83197",
-      "hz-h1-94b7a883cbe9",
-      "hz-h1-81c2d35e787c",
-      "hz-h1-96cd4a079f59"
+      "hz-h1-0fa672e0cf41",
+      "hz-h1-dc4fd18c5eca",
+      "hz-h1-0b27ab004680",
+      "hz-h1-70c28006d532"
     ],
     "automatedVerifiedIds": [
-      "hz-h1-fc9be1e83197",
-      "hz-h1-94b7a883cbe9",
-      "hz-h1-81c2d35e787c",
-      "hz-h1-96cd4a079f59"
+      "hz-h1-0fa672e0cf41",
+      "hz-h1-dc4fd18c5eca",
+      "hz-h1-0b27ab004680",
+      "hz-h1-70c28006d532"
     ],
     "editorialReviewedIds": [
-      "hz-h1-fc9be1e83197",
-      "hz-h1-94b7a883cbe9",
-      "hz-h1-81c2d35e787c",
-      "hz-h1-96cd4a079f59"
+      "hz-h1-0fa672e0cf41",
+      "hz-h1-dc4fd18c5eca",
+      "hz-h1-0b27ab004680",
+      "hz-h1-70c28006d532"
     ],
-    "publishedIds": [
-      "hz-h1-fc9be1e83197",
-      "hz-h1-94b7a883cbe9",
-      "hz-h1-81c2d35e787c",
-      "hz-h1-96cd4a079f59"
-    ],
+    "publishedIds": [],
     "teacherReviewedIds": [],
-    "releaseState": "published-pages-verified",
-    "verifiedPagesRun": 40162418592,
-    "verifiedPagesCommit": "ecc30ee1a25ba9aff07445bcd8d1f6edd379a726"
+    "releaseState": "content-commit-pushed-awaiting-pages",
+    "verifiedPagesRun": null,
+    "verifiedPagesCommit": null
   },
   "reviewStatus": {
     "batch": "review-022",
