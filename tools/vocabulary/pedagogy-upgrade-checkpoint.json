@@ -167,6 +167,918 @@
         "TTS Android thật, phản biện giáo viên độc lập, bố cục mobile 360/390/430px chưa xác minh riêng từng mốc.",
         "Quirk còn tồn tại: mở đáp án làm phần Học thêm đóng lại (re-render đặt lại <details>); chưa sửa trong đợt này."
       ]
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-64d354d405bb",
+      "hanzi": "我",
+      "cohortOrdinal": 1,
+      "difficulty": "dễ",
+      "difficultyReason": "Đại từ ngôi thứ nhất, nghĩa cụ thể, cách dùng trực tiếp.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 29 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-0a3f1c936624",
+      "hanzi": "你",
+      "cohortOrdinal": 2,
+      "difficulty": "dễ",
+      "difficultyReason": "Đại từ chỉ người nghe, một nghĩa, ít điểm dễ nhầm.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 28 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-1ac411c12450",
+      "hanzi": "您",
+      "cohortOrdinal": 3,
+      "difficulty": "dễ",
+      "difficultyReason": "Đại từ kính trọng, một chức năng chính; phân biệt 您/他 đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 37 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-fb76fb22fed2",
+      "hanzi": "他",
+      "cohortOrdinal": 4,
+      "difficulty": "dễ",
+      "difficultyReason": "Đại từ người thứ ba, nghĩa cụ thể; phân biệt chữ viết với 她.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 32 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-489f35fdb6de",
+      "hanzi": "她",
+      "cohortOrdinal": 5,
+      "difficulty": "dễ",
+      "difficultyReason": "Như 他; phân biệt chữ viết theo giới tính người được nhắc.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 28 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-14cd68fb49a8",
+      "hanzi": "我们",
+      "cohortOrdinal": 6,
+      "difficulty": "dễ",
+      "difficultyReason": "Số nhiều gồm người nói, nghĩa cụ thể.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 27 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-84d9b4b03d4f",
+      "hanzi": "你们",
+      "cohortOrdinal": 7,
+      "difficulty": "dễ",
+      "difficultyReason": "Số nhiều chỉ nhóm người nghe, nghĩa cụ thể.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 35 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-0e7703e395dc",
+      "hanzi": "汉字",
+      "cohortOrdinal": 8,
+      "difficulty": "dễ",
+      "difficultyReason": "Danh từ cụ thể chỉ chữ viết; đếm bằng 个.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 30 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-722d36ebd9c0",
+      "hanzi": "谢谢",
+      "cohortOrdinal": 9,
+      "difficulty": "dễ",
+      "difficultyReason": "Lời cảm ơn cố định, một chức năng.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 27 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-3f50a387a499",
+      "hanzi": "不客气",
+      "cohortOrdinal": 10,
+      "difficulty": "dễ",
+      "difficultyReason": "Lời đáp cảm ơn cố định, một chức năng.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 28 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-15b6a3af5e33",
+      "hanzi": "对不起",
+      "cohortOrdinal": 11,
+      "difficulty": "dễ",
+      "difficultyReason": "Lời xin lỗi cố định, một chức năng.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 26 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-b71f4cfff8c9",
+      "hanzi": "没关系",
+      "cohortOrdinal": 12,
+      "difficulty": "dễ",
+      "difficultyReason": "Lời trấn an cố định, một chức năng.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 30 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-dadf7ffde866",
+      "hanzi": "再见",
+      "cohortOrdinal": 13,
+      "difficulty": "dễ",
+      "difficultyReason": "Lời tạm biệt cố định, một chức năng.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 29 từ, trong khoảng bài dễ; 4 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-d869fcbf074b",
+      "hanzi": "是",
+      "cohortOrdinal": 14,
+      "difficulty": "trung bình",
+      "difficultyReason": "Nối danh tính cần vị trí cố định; dễ nhầm với mẫu kể trạng thái (很忙) và phủ định bằng 没.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 31 từ, trong khoảng bài trung bình; 4 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-628ff5c3507e",
+      "hanzi": "叫",
+      "cohortOrdinal": 15,
+      "difficulty": "trung bình",
+      "difficultyReason": "Tên gọi sau 叫 cần vị trí đúng; phân biệt với nghề (是) và câu hỏi tên không thêm 吗.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 30 từ, trong khoảng bài trung bình; 4 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-4247545ee5f9",
+      "hanzi": "名字",
+      "cohortOrdinal": 16,
+      "difficulty": "dễ",
+      "difficultyReason": "Danh từ cụ thể chỉ tên gọi; hỏi tên bằng 什么名字.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 29 từ, trong khoảng bài dễ; 4 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-b05b84230588",
+      "hanzi": "中国",
+      "cohortOrdinal": 17,
+      "difficulty": "dễ",
+      "difficultyReason": "Tên nước cụ thể; phân biệt nước/ngôn ngữ/người đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 28 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-4789a966f565",
+      "hanzi": "中文",
+      "cohortOrdinal": 18,
+      "difficulty": "dễ",
+      "difficultyReason": "Tên ngôn ngữ cụ thể; phân biệt với 中国/汉字 đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 34 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-277c140499d4",
+      "hanzi": "汉语",
+      "cohortOrdinal": 19,
+      "difficulty": "dễ",
+      "difficultyReason": "Như 中文; phân biệt ngôn ngữ với chữ viết đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 35 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-ac895f18b59d",
+      "hanzi": "人",
+      "cohortOrdinal": 20,
+      "difficulty": "dễ",
+      "difficultyReason": "Danh từ cụ thể chỉ người; đếm bằng 个 trực tiếp.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 31 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-fdbb78c8e725",
+      "hanzi": "老师",
+      "cohortOrdinal": 21,
+      "difficulty": "dễ",
+      "difficultyReason": "Nghề cụ thể; cách gọi họ + 老师 trực tiếp.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 35 từ, trong khoảng bài dễ; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-22357796d4e3",
+      "hanzi": "学生",
+      "cohortOrdinal": 22,
+      "difficulty": "dễ",
+      "difficultyReason": "Người học cụ thể; giới thiệu bằng 是学生.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 37 từ, trong khoảng bài dễ; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-58837eebf47f",
+      "hanzi": "同学",
+      "cohortOrdinal": 23,
+      "difficulty": "dễ",
+      "difficultyReason": "Quan hệ học cùng cụ thể; phân biệt với 同事/朋友 đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 29 từ, trong khoảng bài dễ; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-8de2a5b77843",
+      "hanzi": "朋友",
+      "cohortOrdinal": 24,
+      "difficulty": "dễ",
+      "difficultyReason": "Quan hệ bạn bè cụ thể; phân biệt với 男朋友 đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 30 từ, trong khoảng bài dễ; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-f05455e3c9c0",
+      "hanzi": "个",
+      "cohortOrdinal": 25,
+      "difficulty": "trung bình",
+      "difficultyReason": "Lượng từ thông dụng: chọn 个 hay 本 theo danh từ, dùng 两, chỉ định 这个/那个.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 39 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-f41783418fc4",
+      "hanzi": "书",
+      "cohortOrdinal": 26,
+      "difficulty": "dễ",
+      "difficultyReason": "Danh từ cụ thể chỉ sách; đọc/mua bằng 看书/买书.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 25 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-8341aa4cbe2d",
+      "hanzi": "买",
+      "cohortOrdinal": 27,
+      "difficulty": "trung bình",
+      "difficultyReason": "Động từ mua: phân biệt 卖, 想买, và 不买/没买/买了.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 33 từ, trong khoảng bài trung bình; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-f122294ca48f",
+      "hanzi": "事",
+      "cohortOrdinal": 28,
+      "difficulty": "trung bình",
+      "difficultyReason": "Việc/chuyện đa nghĩa theo ngữ cảnh; 有事/没事 cần xem tình huống.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 31 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-ae27e66d8546",
+      "hanzi": "元",
+      "cohortOrdinal": 29,
+      "difficulty": "trung bình",
+      "difficultyReason": "Đơn vị tiền: số + 元, phân biệt loại tiền theo bối cảnh, hai dùng 两元.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 42 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-b7fe1500b898",
+      "hanzi": "写",
+      "cohortOrdinal": 30,
+      "difficulty": "dễ",
+      "difficultyReason": "Động từ viết cụ thể; nội dung sau 写, phân biệt 没写/不会写 đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 35 từ, trong khoảng bài dễ; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-53aaf4b1dcee",
+      "hanzi": "分",
+      "cohortOrdinal": 31,
+      "difficulty": "trung bình",
+      "difficultyReason": "Nhiều nghĩa (phút/điểm/tiền lẻ); thời điểm khác thời lượng, cần nhìn cả cụm.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 38 từ, trong khoảng bài trung bình; 4 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-0753b94f1793",
+      "hanzi": "块",
+      "cohortOrdinal": 32,
+      "difficulty": "trung bình",
+      "difficultyReason": "Hai nghĩa thường gặp (tiền trong lời nói; miếng/khối) và cách nói giá 块钱.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 42 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-d91434e9824e",
+      "hanzi": "字",
+      "cohortOrdinal": 33,
+      "difficulty": "dễ",
+      "difficultyReason": "Đơn vị chữ viết cụ thể; phân biệt chữ với từ (词) đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 39 từ, trong khoảng bài dễ; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount. Đã kiểm tra e06: scene nêu rõ ví dụ 图书馆 nên lời giải thích nhắc 图书馆 là khớp, giữ nguyên.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-938eb8eaef5d",
+      "hanzi": "最",
+      "cohortOrdinal": 34,
+      "difficulty": "trung bình",
+      "difficultyReason": "So sánh nhất: vị trí 最 trước tính chất/cụm, phạm vi so sánh, phân biệt với 很.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 39 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-4cdf3a52edbb",
+      "hanzi": "本",
+      "cohortOrdinal": 35,
+      "difficulty": "trung bình",
+      "difficultyReason": "Lượng từ quyển: chọn 本 theo vật đóng quyển, lược danh từ khi đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 33 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-392c29368f51",
+      "hanzi": "次",
+      "cohortOrdinal": 36,
+      "difficulty": "trung bình",
+      "difficultyReason": "Đếm số lần: phân biệt số lần với thời lượng, 一次 với 第一次.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 40 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-358bbf2d8cd9",
+      "hanzi": "点",
+      "cohortOrdinal": 37,
+      "difficulty": "trung bình",
+      "difficultyReason": "Giờ trên đồng hồ: cụm thời điểm đặt trước hành động, phân biệt với thời lượng 小时.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 35 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount. Đã kiểm tra điều kiện 两点: bài chọn 两点 làm mẫu, không có khẳng định sai về 二点, giữ nguyên.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-e9193fa5f583",
+      "hanzi": "百",
+      "cohortOrdinal": 38,
+      "difficulty": "trung bình",
+      "difficultyReason": "Số hàng trăm: đọc rõ 105/150, không chen 个 vào số.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 31 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-25df03347164",
+      "hanzi": "票",
+      "cohortOrdinal": 39,
+      "difficulty": "dễ",
+      "difficultyReason": "Danh từ cụ thể chỉ vé; đếm bằng 张, phân biệt vé với tiền.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 37 từ, trong khoảng bài dễ; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-aa55b84f0942",
+      "hanzi": "记",
+      "cohortOrdinal": 40,
+      "difficulty": "trung bình",
+      "difficultyReason": "Ghi nhớ: phân biệt 记住/记得/记不住/不记得 và ghi ra (记下).",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 42 từ, trong khoảng bài trung bình; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-34f4e78c6dd4",
+      "hanzi": "读",
+      "cohortOrdinal": 41,
+      "difficulty": "dễ",
+      "difficultyReason": "Động từ đọc cụ thể; phân biệt đọc/viết và 还没读/不会读 đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 40 từ, trong khoảng bài dễ; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-e39c1ac44813",
+      "hanzi": "课",
+      "cohortOrdinal": 42,
+      "difficulty": "trung bình",
+      "difficultyReason": "Buổi/tiết học: 上课/没有课/不上课, đếm tiết bằng 节, phân biệt với 第一课.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 33 từ, trong khoảng bài trung bình; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-b2b95e16c805",
+      "hanzi": "钱",
+      "cohortOrdinal": 43,
+      "difficulty": "dễ",
+      "difficultyReason": "Danh từ cụ thể chỉ tiền; phân biệt có tiền với mang tiền theo.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 39 từ, trong khoảng bài dễ; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-a26f922599a7",
+      "hanzi": "页",
+      "cohortOrdinal": 44,
+      "difficulty": "trung bình",
+      "difficultyReason": "Trang: phân biệt số lượng (三页) với thứ tự (第三页) và tờ giấy (张纸).",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 35 từ, trong khoảng bài trung bình; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-76031b9d7454",
+      "hanzi": "本子",
+      "cohortOrdinal": 45,
+      "difficulty": "dễ",
+      "difficultyReason": "Danh từ cụ thể chỉ vở ghi chép; phân biệt với 课本 đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 34 từ, trong khoảng bài dễ; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-e42e37d397a5",
+      "hanzi": "课本",
+      "cohortOrdinal": 46,
+      "difficulty": "dễ",
+      "difficultyReason": "Danh từ cụ thể chỉ sách giáo khoa; phân biệt với 书/课文 đã rõ.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 38 từ, trong khoảng bài dễ; 6 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-f7df735cca45",
+      "hanzi": "号",
+      "cohortOrdinal": 47,
+      "difficulty": "trung bình",
+      "difficultyReason": "Ngày trong tháng: phân biệt ngày với thứ (星期几) và 号/日 theo phong cách.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 35 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-001",
+      "id": "hz-h1-26cb9beeaffd",
+      "hanzi": "呢",
+      "cohortOrdinal": 48,
+      "difficulty": "trung bình",
+      "difficultyReason": "Trợ từ hỏi tiếp nối: nghĩa theo câu trước, vị trí cuối phần hỏi.",
+      "problemsFound": [],
+      "changes": "Rà soát theo chuẩn 3-2-1 (đợt B-001, Giai đoạn B): giải thích 46 từ, trong khoảng bài trung bình; 5 ví dụ ngắn, tự nhiên, đúng vị trí; 2 bẫy phân biệt rõ đúng/đổi nghĩa/không hợp ý; đáp án kiểm tra nhất quán với đề. Không phát hiện lỗi kiến thức nên giữ nguyên nội dung; không đổi digest, không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 910,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
     }
   ],
   "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
@@ -175,10 +1087,11 @@
   "standard": "V3-pilot",
   "twoTier": {
     "standard": "two-tier-v1 + 3-2-1 (hard words)",
-    "phase": "A",
+    "phase": "B",
     "pilotId": "hz-h2-8ac3a59c0ef6",
-    "pilotApproved": false,
-    "standardizedCount": 1,
-    "nextStep": "Chờ Bui duyệt pilot mẫu 3-2-1; nếu duyệt thì bắt đầu Giai đoạn B (sửa bài trung bình/khó), không tự bắt đầu."
+    "pilotApproved": true,
+    "approvedBy": "Bui, prompt chuẩn hóa toàn bộ 2026-10-26 (mẫu 3-2-1 đã phê duyệt, áp dụng từ ordinal 1, không cần duyệt lại mẫu)",
+    "standardizedCount": 49,
+    "nextStep": "Giai đoạn B đợt B-002: ordinal 49 (回) trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
   }
 }
