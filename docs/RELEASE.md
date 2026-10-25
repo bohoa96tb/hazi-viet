@@ -1,5 +1,12 @@
 
 
+# Batch-043 — đang chờ phát hành Pages
+
+- Content commit: `2061eda667a6d30f0afa37005f0bd76f004f5597`; bổ sung 4 mục ordinal 448–451: 路口、车上、车票、车站. Tiến độ cục bộ: 451/2.224, còn 1.773.
+- Phân loại batch-043: dễ gồm 车站; trung bình gồm 路口、车上、车票.
+- Đã chạy `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 448–451, `test-dom.mjs`, `node --check` và `git diff --check`. Chưa xác minh live Pages, TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
+- Tracker/main và trạng thái Pages đang chờ cập nhật sau khi ghi nhận commit nội dung.
+
 # Batch-042 — đã phát hành và xác minh Pages
 
 - Content commit: `27bd49cb85f0a60c760bc8b5159d87cafd7ef330`; bổ sung 4 mục ordinal 444–447: 汽车、火车、走路、路上. Tiến độ cục bộ: 447/2.224, còn 1.777.
