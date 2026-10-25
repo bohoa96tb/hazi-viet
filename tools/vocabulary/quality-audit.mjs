@@ -76,6 +76,20 @@ const semanticRules=[
   {kind:'direction',id:'below',prompt:/phía dưới/iu,forms:['下']},
   {kind:'direction',id:'beside',prompt:/bên cạnh/iu,forms:['旁边']}
 ];
+const semanticOpposites=[
+  {id:'this-that',prompt:/\b(?:bên này|phía này)\b/iu,expected:['这边'],opposite:['那边']},
+  {id:'that-this',prompt:/\b(?:bên kia|phía kia)\b/iu,expected:['那边'],opposite:['这边']},
+  {id:'left-right',prompt:/\bbên trái\b/iu,expected:['左','左边'],opposite:['右','右边']},
+  {id:'right-left',prompt:/\bbên phải\b/iu,expected:['右','右边'],opposite:['左','左边']},
+  {id:'above-below',prompt:/\b(?:phía trên|bên trên)\b/iu,expected:['上','上边','上面'],opposite:['下','下边','下面']},
+  {id:'below-above',prompt:/\b(?:phía dưới|bên dưới)\b/iu,expected:['下','下边','下面'],opposite:['上','上边','上面']},
+  {id:'front-back',prompt:/\b(?:phía trước|bên trước)\b/iu,expected:['前','前边','前面'],opposite:['后','后边','后面']},
+  {id:'back-front',prompt:/\b(?:phía sau|bên sau)\b/iu,expected:['后','后边','后面'],opposite:['前','前边','前面']},
+  {id:'inside-outside',prompt:/\b(?:bên trong|phía trong)\b/iu,expected:['里','里边','里面'],opposite:['外','外边','外面']},
+  {id:'outside-inside',prompt:/\b(?:bên ngoài|phía ngoài)\b/iu,expected:['外','外边','外面'],opposite:['里','里边','里面']},
+  {id:'presence-absence',prompt:/\bcó\b/iu,expected:['有'],opposite:['没','没有']},
+  {id:'absence-presence',prompt:/\bkhông có\b/iu,expected:['没','没有'],opposite:['有']}
+];
 
 export function qualityWarnings(words,{nearThreshold=0.78}={}) {
   const warnings=[];
@@ -100,6 +114,10 @@ export function qualityWarnings(words,{nearThreshold=0.78}={}) {
         if(token.length>0&&!evidence.includes(token)) warnings.push({kind:'self-criteria-token-missing',id:word.id,ordinal:word.lesson.cohortOrdinal,hanzi:word.hanzi,selfId:use.id,criterion,token,model:answer.model});
       }
       for(const rule of semanticRules) if(rule.prompt.test(use.prompt)&&!rule.forms.some(form=>String(answer.model??'').includes(form))) warnings.push({kind:'self-prompt-model-anchor-missing',anchorKind:rule.kind,anchorId:rule.id,id:word.id,ordinal:word.lesson.cohortOrdinal,hanzi:word.hanzi,selfId:use.id,prompt:use.prompt,model:answer.model,expected:rule.forms});
+      for(const rule of semanticOpposites) if(rule.prompt.test(use.prompt)){
+        const model=String(answer.model??'');
+        if(!rule.expected.some(form=>model.includes(form))) warnings.push({kind:rule.opposite.some(form=>model.includes(form))?'self-semantic-antonym-mismatch':'self-semantic-anchor-missing',anchorKind:'opposite',anchorId:rule.id,id:word.id,ordinal:word.lesson.cohortOrdinal,hanzi:word.hanzi,selfId:use.id,prompt:use.prompt,model:answer.model,expected:rule.expected,opposite:rule.opposite});
+      }
     }
     for(const trap of word.lesson.traps??[]){
       const terms=pairTerms(trap.title);
@@ -118,7 +136,7 @@ export function qualityWarnings(words,{nearThreshold=0.78}={}) {
 
 export function assertFreshV2(words) {
   const warnings=qualityWarnings(words);
-  const blocking=warnings.filter(x=>['self-example-exact','self-target-missing','self-sync-missing-answer','self-sync-missing-field','self-criteria-token-missing','self-prompt-model-anchor-missing','trap-pair-missing-case-example','wrong-grammar-missing-correction'].includes(x.kind));
+  const blocking=warnings.filter(x=>['self-example-exact','self-target-missing','self-sync-missing-answer','self-sync-missing-field','self-criteria-token-missing','self-prompt-model-anchor-missing','self-semantic-antonym-mismatch','self-semantic-anchor-missing','trap-pair-missing-case-example','wrong-grammar-missing-correction'].includes(x.kind));
   assert.equal(blocking.length,0,'New V2 quality warnings: '+JSON.stringify(blocking));
   return warnings;
 }
@@ -132,6 +150,8 @@ function selfTest(){
   const valid=structuredClone(base);valid.lesson.selfAnswers.s1={idea:'Dùng 词 trong câu mới.',frame:'...词...',model:'Tôi dùng 词 trong câu mới.',vi:'Tôi dùng từ này trong câu mới.',criteria:['Có 词.'],targetForms:['词']};valid.lesson.traps=[];assert.equal(qualityWarnings([valid]).filter(x=>x.kind==='self-example-exact'||x.kind==='self-target-missing'||x.kind.startsWith('self-sync-')||x.kind==='self-criteria-token-missing').length,0);
   assert.doesNotThrow(()=>assertFreshV2([valid]));
   const mismatch=structuredClone(valid);mismatch.lesson.selfUse[0].prompt='Nói tôi đứng ở bệnh viện đợi bạn.';mismatch.lesson.selfAnswers.s1.model='他在公园用词。';assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='first-person'));assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='stand'));assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='hospital'));assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='wait-for-you'));assert.throws(()=>assertFreshV2([mismatch]));
+  const antonym=structuredClone(valid);antonym.lesson.selfUse[0].prompt='Nói bên này có một chỗ trống.';antonym.lesson.selfAnswers.s1={...antonym.lesson.selfAnswers.s1,model:'那边有一个词。',targetForms:['词']};assert(qualityWarnings([antonym]).some(x=>x.kind==='self-semantic-antonym-mismatch'&&x.anchorId==='this-that'));assert.throws(()=>assertFreshV2([antonym]));
+  const contextual=structuredClone(valid);contextual.lesson.selfUse[0].prompt='Nói có thể ngồi bên này hoặc bên kia.';contextual.lesson.selfAnswers.s1={...contextual.lesson.selfAnswers.s1,model:'这边或那边都可以用词。',targetForms:['词']};assert(!qualityWarnings([contextual]).some(x=>x.kind.startsWith('self-semantic-')));
   console.log('PASS quality-audit self-tests: exact/near/target/trap/correction paths.');
 }
 if(process.argv.includes('--self-test')) selfTest();

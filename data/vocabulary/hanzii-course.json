@@ -96349,7 +96349,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Mời bạn ngồi bên này."
+            "prompt": "Mời bạn sang bên này ngồi vì ở đây còn chỗ."
           },
           {
             "id": "s2",
@@ -96358,13 +96358,13 @@
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 请你坐这边 để mời người nghe ngồi phía này.",
-            "frame": "请你 + 坐 + 这边",
-            "model": "请你坐这边。",
-            "vi": "Mời bạn ngồi bên này.",
+            "idea": "Dùng 这边还有座位 để giới thiệu chỗ, rồi mời người nghe ngồi.",
+            "frame": "这边 + 有 + chỗ ngồi，你 + 坐 + 这儿",
+            "model": "这边还有座位，你坐这儿吧。",
+            "vi": "Bên này còn chỗ, bạn ngồi đây đi.",
             "criteria": [
               "Có 这边.",
-              "你 là người được mời và 这边 là nơi ngồi."
+              "还有座位 nêu lý do mời ngồi; 你坐这儿 là lời mời dành cho bạn."
             ]
           },
           "s2": {
@@ -96536,7 +96536,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói bên này còn hai chỗ trống."
+            "prompt": "Nói bên kia còn hai chỗ trống."
           },
           {
             "id": "s2",
@@ -96767,7 +96767,7 @@
       "meaning": "chín",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-038 · dễ",
+      "editorialStatus": "Biên soạn V2 · batch-039 · dễ",
       "examples": [
         {
           "id": "e1",
@@ -96954,7 +96954,7 @@
       "meaning": "đứng; trạm/ga",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-038 · khó",
+      "editorialStatus": "Biên soạn V2 · batch-039 · khó",
       "examples": [
         {
           "id": "e1",
@@ -97142,7 +97142,7 @@
       "meaning": "chạy",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-038 · dễ",
+      "editorialStatus": "Biên soạn V2 · batch-039 · dễ",
       "examples": [
         {
           "id": "e1",
@@ -97285,7 +97285,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói tôi chạy bộ mỗi tối."
+            "prompt": "Bảo em trai chạy ra sân."
           },
           {
             "id": "s2",
@@ -97294,13 +97294,13 @@
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 我每天晚上跑步 để nói hoạt động chạy bộ.",
-            "frame": "我 + thời gian + 跑步",
-            "model": "我每天晚上跑步。",
-            "vi": "Tối nào tôi cũng chạy bộ.",
+            "idea": "Dùng 让 + em trai + 跑到 để nói lời bảo và nơi chạy đến.",
+            "frame": "让 + người + 跑到 + địa điểm",
+            "model": "让弟弟跑到院子里。",
+            "vi": "Bảo em trai chạy ra sân.",
             "criteria": [
-              "Có 跑步.",
-              "每天晚上 là thời gian của hoạt động."
+              "Có 跑到.",
+              "院子里 là nơi đến của hành động chạy."
             ]
           },
           "s2": {
@@ -97329,7 +97329,7 @@
       "meaning": "đường; con đường; cách đi",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-038 · trung bình",
+      "editorialStatus": "Biên soạn V2 · batch-039 · trung bình",
       "examples": [
         {
           "id": "e1",

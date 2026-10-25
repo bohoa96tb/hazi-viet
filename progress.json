@@ -876,13 +876,13 @@
     "hz-h1-5c67650185e3": "a3d15d3e91e8951170b174612a82070ecbfb95670d3a230430c86d0918f8da89",
     "hz-h1-117df9943874": "ee86bca0827925fe1c3b7fe873b8fa2f675b62926b06d942cbfebe8fabec0900",
     "hz-h1-b63a94e4101d": "d4cf4c2c89b5ec90f1df889ca41a3f28597bdfb8fda8603eb45a5fa0bc4cc378",
-    "hz-h1-41f3c53014e6": "81b425a5ad9103c3af27480ec457fdc85cc2de3176dc0416fe1ef26673c8cb81",
-    "hz-h1-923c93e0c1f4": "7adf92d62d1cf4a911a5fab42955a1e68ec1b09564b28672b0415403b9edbbd9",
+    "hz-h1-41f3c53014e6": "8cfe653b71b7e079d4a4675c3002f565eac9f1dc9b29637b85bfab063a15ddc5",
+    "hz-h1-923c93e0c1f4": "b33cb25f6fb99d1eba078c0952550bd7abf779d8ff45500288a69dc91feee1df",
     "hz-h1-3aae8e430def": "13f8b299780c05d7607c6be1fd1749662f6e3bc7eacd107928fa7304f6a58aeb",
-    "hz-h1-2e9645bd89d5": "8053303bf7d5399309cd749e72f60450ccfd49abf426a7fb83145aa72fdafb35",
-    "hz-h1-18a966b92e35": "2424c7e93a3e1b94dee33b5f5a11658f73d7cfee74a7ac8b574f9f14528f3375",
-    "hz-h1-68a5d7b2023a": "b72d29da987ca02551c5d1e37566ba91f69dc0a07e57f7cd98ae37aca2295a61",
-    "hz-h1-e62037d83670": "e61bea6c78c9685805574aca648895b1245d3f78d45677e609790609f25d065e"
+    "hz-h1-2e9645bd89d5": "2a93ee12d79b7cb3e85384a3cd8a4a6caa0683fe34cced7cf0f16cc97cfcb662",
+    "hz-h1-18a966b92e35": "2d8e1f3c6e9f527181f91f61ee17504af61e0fdeb4798c228ae901c45c354202",
+    "hz-h1-68a5d7b2023a": "fbb9a6209665906644dbb74a9c2e655d1ad191db12acdbae7389d20ab8c30518",
+    "hz-h1-e62037d83670": "af004790de2e5774f9b40ccd2c54a2174e144606734c917d86d31ebb4455ad9a"
   },
   "nextIds": [
     "hz-h1-fc9be1e83197",
@@ -1733,7 +1733,7 @@
   ],
   "lastVerifiedContentCommit": "0281429d4eabce14d65712875b88f56fea41ad7e",
   "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/0281429d4eabce14d65712875b88f56fea41ad7e",
-  "verificationNote": "Correction-005 và batch-038/039 đã qua process-batch verify, verify-v2, quality-audit self-test, quality audit nhóm 412–435, test-dom.mjs, kiểm tra cú pháp JavaScript và diff check trên content commit 0281429d. Pages run 40160760047 success đúng tracker b416dd2; live course 5.387.857 bytes khớp SHA-256 bf7af0bbee789047bcf2cf586682f5ead32a6f042625eca4a26ad64d72620e89. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
+  "verificationNote": "Correction-006 đang được kiểm tra cục bộ: sửa semantic 那边, đồng bộ nguồn batch-038/039 và metadata ordinal 432–435; completedCount giữ 435. Pages/live sẽ được xác minh lại sau commit.",
   "editorialCorrections": [
     {
       "id": "correction-001",
@@ -1814,6 +1814,18 @@
         "hz-h1-c14f74be3d43"
       ],
       "reason": "Rà đồng bộ semantic prompt–ý tưởng–khung–đáp án–bản dịch–criteria cho batch-036/037; sửa lệch chủ thể, hành động và địa điểm ở 左, 下边, 外边; không tăng completedCount.",
+      "date": "2026-10-25"
+    },
+    {
+      "id": "correction-006",
+      "wordIds": [
+        "hz-h1-923c93e0c1f4",
+        "hz-h1-2e9645bd89d5",
+        "hz-h1-18a966b92e35",
+        "hz-h1-68a5d7b2023a",
+        "hz-h1-e62037d83670"
+      ],
+      "reason": "Sửa 那边 s1 để đề yêu cầu bên kia khớp đáp án; đồng bộ metadata batch-039 cho ordinal 432–435; sửa nguồn batch-038 về đúng 428–431; không tăng completedCount.",
       "date": "2026-10-25"
     }
   ]

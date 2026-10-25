@@ -1,0 +1,56 @@
+{
+  "id": "correction-006",
+  "date": "2026-10-25",
+  "standard": "CONTENT_STANDARD_V2-2026-10-25-review-first",
+  "wordIds": ["hz-h1-923c93e0c1f4", "hz-h1-2e9645bd89d5", "hz-h1-18a966b92e35", "hz-h1-68a5d7b2023a", "hz-h1-e62037d83670"],
+  "scope": "Sửa semantic prompt–mẫu của 那边 và đồng bộ metadata batch-038/039; không thay đổi thứ tự hoặc số mục hoàn thành.",
+  "changes": [
+    {
+      "wordId": "hz-h1-923c93e0c1f4",
+      "ordinal": 430,
+      "issue": "Tình huống s1 nói bên này nhưng đáp án dùng 那边, tức bên kia.",
+      "resolution": "Đổi đề thành bên kia; gợi ý, khung, mẫu, bản dịch và tiêu chí đều giữ 那边."
+    },
+    {
+      "wordId": "hz-h1-2e9645bd89d5",
+      "ordinal": 432,
+      "issue": "editorialStatus của bài đã hoàn thành ghi batch-038 dù progress ghi bài thuộc batch-039.",
+      "resolution": "Đồng bộ metadata bài và batch-039 về batch-039."
+    },
+    {
+      "wordId": "hz-h1-18a966b92e35",
+      "ordinal": 433,
+      "issue": "editorialStatus ghi nhầm batch-038.",
+      "resolution": "Đồng bộ về batch-039."
+    },
+    {
+      "wordId": "hz-h1-68a5d7b2023a",
+      "ordinal": 434,
+      "issue": "editorialStatus ghi nhầm batch-038.",
+      "resolution": "Đồng bộ về batch-039."
+    },
+    {
+      "wordId": "hz-h1-e62037d83670",
+      "ordinal": 435,
+      "issue": "editorialStatus ghi nhầm batch-038.",
+      "resolution": "Đồng bộ về batch-039."
+    }
+  ],
+  "batchSourceRepair": {
+    "file": "tools/vocabulary/batches/batch-038.json",
+    "before": "8 entries 428–435, trong khi progress đã apply 428–431 và batch-039 giữ 432–435.",
+    "after": "4 entries 428–431; batch-039 là nguồn duy nhất của 432–435.",
+    "dataLoss": false
+  },
+  "verification": {
+    "authorship": "Tự biên soạn và tự phản biện; chưa phản biện giáo viên độc lập.",
+    "sourcesRead": [
+      "data/vocabulary/hanzii-course.json",
+      "progress.json",
+      "tools/vocabulary/batches/batch-038.json",
+      "tools/vocabulary/batches/batch-039.json"
+    ],
+    "notVerified": ["TTS Android trên thiết bị thật", "Phản biện giáo viên độc lập"]
+  },
+  "completedCountChange": 0
+}
