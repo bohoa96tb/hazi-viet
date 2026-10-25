@@ -1,5 +1,15 @@
 
 
+# Batch-035 — đã phát hành và xác minh Pages
+
+- Commit nội dung: `fd6307b63c8ea04ab66e2ce00664e04f8fb56a55`; đã fast-forward cả `content/vocabulary-2224` và `main`.
+- Bổ sung 5 mục ordinal 407–411: 病人、老人、东、前、北. Tiến độ: 411/2.224, còn 1.813; toàn khóa 421/2.234 bài đủ cấu trúc.
+- Phân loại: dễ gồm 病人、北; trung bình gồm 老人、东、前. Đã tự phản biện hai lượt; nguồn MDBG đã đọc cho từng mục, chưa phản biện giáo viên độc lập.
+- `process-batch verify`, `verify-v2`, `quality-audit --self-test`, `test-dom.mjs`, kiểm tra cú pháp JavaScript và `git diff --check` đều đạt. DOM simulation không chứng nhận bố cục trực quan hoặc phát âm trên thiết bị.
+- GitHub Pages run [40154353838](https://github.com/bohoa96tb/hazi-viet/actions/runs/40154353838) completed/success đúng `head_sha=fd6307b63c8ea04ab66e2ce00664e04f8fb56a55`.
+- Dữ liệu khóa học live có 2.234 mục, 421 bài đủ cấu trúc, 5.225.715 bytes, SHA-256 `c25cf6f17f91ef10db3960b3f3608b392aa647cf8259a9225c750e09ae9e619c`, khớp byte với bản đã kiểm; cache `vocabulary.js?v=batch-035`.
+- Chưa xác minh TTS Android/phát âm thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
+
 # Correction-003 và batch-034 — đã phát hành và xác minh Pages
 
 - Commit nội dung: `a1dccdd753c48e99a36e286a54d4f83b0a4ddf4a`; đã fast-forward cả `content/vocabulary-2224` và `main`.
