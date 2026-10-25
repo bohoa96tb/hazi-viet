@@ -119,6 +119,54 @@
         "Bố cục mobile 360/390/430px chưa xác minh riêng từng mốc",
         "Chúng ta phải đi rồi (我们得走了) là câu mẫu chuẩn trong sách dạy tiếng Trung, không lấy nguyên văn từ một nguồn cụ thể"
       ]
+    },
+    {
+      "id": "hz-h2-8ac3a59c0ef6",
+      "hanzi": "得",
+      "cohortOrdinal": 503,
+      "difficulty": "khó",
+      "difficultyReason": "Một chữ, ba cách đọc/chức năng phân biệt bằng vị trí và ngữ cảnh; bẫy tân ngữ và phân biệt mức độ/khả năng phức tạp.",
+      "round": 4,
+      "status": "pilot-321-tests-passed",
+      "problemsFound": [
+        "Bản hai tầng tách phần giải thích và ví dụ: người học đọc nhiều đoạn về thuật ngữ/quy tắc trước khi thấy câu mẫu.",
+        "Tầng 1 hiển thị bẫy 'Ba cách đọc' với 5 câu đối chiếu, trong khi điểm dễ nhầm quan trọng nhất với người mới học là 的 hay 得.",
+        "Chỉ có 2 câu mẫu cho 3 cách đọc; cách đọc dé (được/đạt được) không có câu mẫu chính.",
+        "Câu mẫu děi 我今天得早点回家 dài hơn mức cần cho một ví dụ trọng tâm."
+      ],
+      "changes": [
+        "Áp dụng nguyên tắc 3-2-1 do Bui đề xuất: 3 ý chính (mỗi cách đọc một khối: giải thích ngắn + câu mẫu ngay dưới), 2 câu mẫu trọng tâm + 1 câu ngắn, 1-2 câu tự luyện.",
+        "Thêm lesson.readingBlocks (3 khối de/děi/dé); ví dụ thành 3: 他说得很快。/ 我得去上班。/ 他得到了礼物。; bước Ghép câu chỉ hiện khung mẫu, không lặp ví dụ.",
+        "Bẫy chính mới t0 '的 hay 得' (我的书。/ 他跑得很快。); t1 (ba cách đọc) chuyển vào Học thêm, câu c1 đổi thành 你做得不错。 để không lặp câu trong t0.",
+        "Câu luyện chính mới q6 'Điền 的 hay 得: 她唱___很好。'; Tầng 1 còn q6 + tự dùng s2 (děi); q1-q5 và s1 chuyển vào Học thêm.",
+        "Meaning rút gọn thành tóm tắt ngắn (dùng cho audio); renderer, audit (ví dụ 2-3, readingBlocks) và verify cập nhật theo; kiểm thử hồi quy mở rộng lên 107 khẳng định."
+      ],
+      "keptFromV2": [
+        "Các phân biệt chính xác đã sửa ở đợt 2: 得/要 không tuyệt đối, 听不懂/没听懂, vị trí tân ngữ, 觉得/得到.",
+        "Toàn bộ 5 bẫy cũ và các câu luyện cũ giữ nguyên trong Học thêm, không xóa.",
+        "audioText 说得很快, pronunciation contexts, tự dùng s1/s2, nguồn zdic/Wiktionary/CGW/GoEast."
+      ],
+      "sources": [
+        "https://www.zdic.net/hans/得",
+        "https://en.wiktionary.org/wiki/得",
+        "https://resources.allsetlearning.com/chinese/grammar/Expressing_degree_with_%22de%22",
+        "https://resources.allsetlearning.com/chinese/grammar/Potential_complement",
+        "https://goeastmandarin.com/the-three-de-in-chinese/"
+      ],
+      "tests": {
+        "processBatchVerify": "PASS (2234 IDs, 517/2224, 527 structured)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityAuditTotal": 910,
+        "qualityAuditForDe": 0,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS",
+        "renderChecks": "7 checks PASS (reading blocks, Pinyin toggle on/off, no example repeat in stage 1)",
+        "verifyV2": "PASS (exit 0)"
+      },
+      "uncertainties": [
+        "TTS Android thật, phản biện giáo viên độc lập, bố cục mobile 360/390/430px chưa xác minh riêng từng mốc.",
+        "Quirk còn tồn tại: mở đáp án làm phần Học thêm đóng lại (re-render đặt lại <details>); chưa sửa trong đợt này."
+      ]
     }
   ],
   "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
@@ -126,11 +174,11 @@
   "schemaVersion": 1,
   "standard": "V3-pilot",
   "twoTier": {
-    "standard": "two-tier-v1",
+    "standard": "two-tier-v1 + 3-2-1 (hard words)",
     "phase": "A",
     "pilotId": "hz-h2-8ac3a59c0ef6",
     "pilotApproved": false,
     "standardizedCount": 1,
-    "nextStep": "Chờ Bui duyệt pilot hai tầng; nếu duyệt thì bắt đầu Giai đoạn B (sửa bài trung bình/khó), không tự bắt đầu."
+    "nextStep": "Chờ Bui duyệt pilot mẫu 3-2-1; nếu duyệt thì bắt đầu Giai đoạn B (sửa bài trung bình/khó), không tự bắt đầu."
   }
 }

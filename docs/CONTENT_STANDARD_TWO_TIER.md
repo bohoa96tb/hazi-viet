@@ -21,6 +21,22 @@ dạy kỹ chức năng cần dùng trước, chức năng thông dụng khác c
 khi cần, phần giải thích sâu chuyển sang Học thêm. Không để người học hiểu lầm rằng
 từ chỉ có một cách đọc/nghĩa.
 
+### Nguyên tắc 3–2–1 cho bài từ khó (áp dụng từ pilot 得, 2026-10-26)
+
+Điểm khác biệt lớn nhất so với cách trình bày cũ: người học thấy câu ví dụ ngay dưới
+cách giải thích, không phải đọc nhiều đoạn về thuật ngữ và quy tắc ngữ pháp trước.
+
+- **3 ý chính tối đa** cần biết ngay, nếu từ có nhiều cách đọc hoặc chức năng.
+  Mỗi ý là một khối: cách đọc + một câu giải thích ngắn + câu mẫu ngay dưới
+  (chữ Hán, Pinyin, nghĩa Việt, phân tích ngắn). Từ có ba cách đọc phổ biến
+  như 得 thì cần ba ví dụ ngắn.
+- **2 câu mẫu trọng tâm**, thêm một câu ngắn nếu cần minh họa một cách đọc khác.
+- **1–2 câu tự luyện** trước khi người học chuyển sang kiến thức nâng cao.
+- Tầng 1 chỉ giữ **một điểm dễ nhầm quan trọng nhất** (ví dụ 的 hay 得);
+  các bẫy còn lại và hàng chục câu đối chiếu giữ trong Học thêm, không xóa.
+- Bước Ghép câu chỉ hiện khung mẫu để dùng lại, không lặp lại câu mẫu đã
+  hiện ở bước Hiểu.
+
 **Tầng 2 — Học thêm (sau nút hoặc vùng đóng/mở "Học thêm"):**
 
 - Nghĩa/cách đọc phụ hữu ích, cấu trúc phức tạp hơn, từ gần nghĩa hoặc dễ nhầm khác,
