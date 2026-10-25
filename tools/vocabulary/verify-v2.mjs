@@ -1,9 +1,11 @@
 import assert from 'node:assert/strict';
 import {auditLesson,lessonAudio,checkAudio} from '../../js/lesson-standard.js';
+import {isPinyinText} from '../../js/lesson-v2.js';
 import {renderStandardLesson} from '../../js/lesson-standard-view.js';
 import {buildPlaylist} from '../../js/vocabulary-audio.js';
 export function verifyV2(w){
  assert(auditLesson(w).ready,JSON.stringify(auditLesson(w).issues));
+ for(const reading of w.intro)assert(isPinyinText(reading.pinyin),w.id+': invalid learner-facing Pinyin: '+reading.pinyin);
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const render=(word,stage,state=new Map(),extra={})=>renderStandardLesson(word,{stage,checkState:state,esc,hanzi:esc,rich:esc,...extra});
  for(const stage of [0,1,2,3])assert(render(w,stage)?.length);

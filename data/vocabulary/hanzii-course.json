@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 469 mục đủ cấu trúc V1/V2; còn 1765. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 459 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 479 mục đủ cấu trúc V1/V2; còn 1755. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 469 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -101438,12 +101438,12 @@
       "hanzi": "教",
       "intro": [
         {
-          "pinyin": "cách đọc dạy",
-          "meaning": "dạy"
+          "pinyin": "jiāo",
+          "meaning": "dạy; truyền đạt kiến thức hoặc kỹ năng"
         },
         {
-          "pinyin": "cách đọc trong 教育",
-          "meaning": "giáo dục; dùng trong một số từ ghép"
+          "pinyin": "jiào",
+          "meaning": "giáo dục; cách đọc trong một số từ ghép như 教育"
         }
       ],
       "meaning": "dạy; giáo dục",
@@ -101455,7 +101455,7 @@
           "id": "e1",
           "zh": "老师教我们汉语。",
           "vi": "Giáo viên dạy chúng tôi tiếng Trung.",
-          "analysis": "教 đọc cách đọc dạy, đứng trước người học 我们 và nội dung 汉语.",
+          "analysis": "教 dùng cách đọc thanh 1, đứng trước người học 我们 và nội dung 汉语.",
           "practiceAllowed": true
         },
         {
@@ -101477,16 +101477,16 @@
           "https://www.zdic.net/hans/教"
         ],
         "introduction": {
-          "scope": "tập trung vào 教 đọc cách đọc dạy với nghĩa dạy; giới thiệu thêm cách đọc trong 教育 trong một số từ ghép thông dụng"
+          "scope": "tập trung vào cách đọc thanh 1 của 教 với nghĩa dạy; giới thiệu thêm cách đọc thanh 4 trong một số từ ghép như 教育"
         },
         "meaning": {
-          "scene": "教 có hai cách đọc thông dụng: cách đọc dạy khi là động từ dạy ai điều gì, và cách đọc trong 教育 trong một số từ ghép như 教育.",
+          "scene": "教 có hai cách đọc thông dụng: thanh 1 khi là động từ dạy ai điều gì, và thanh 4 trong một số từ ghép như 教育.",
           "explanation": "Ở nghĩa dạy, 教 thường đi với người học và nội dung: 教 + người + nội dung. Không gắn một pinyin với cả hai cách dùng; hãy nhìn vị trí và từ ghép.",
-          "boundary": "Bài này tập trung luyện 教 đọc cách đọc dạy trong động từ dạy; cách đọc cách đọc trong 教育 chỉ được nhận diện qua từ ghép 教育, chưa bao quát mọi nghĩa của chữ.",
+          "boundary": "Bài này tập trung luyện cách đọc thanh 1 của 教 trong động từ dạy; thanh 4 chỉ được nhận diện qua từ ghép 教育, chưa bao quát mọi nghĩa của chữ.",
           "conditions": [
             "Khi nói dạy ai điều gì, dùng 教 + người + nội dung."
           ],
-          "takeaway": "教 đọc cách đọc dạy khi nói dạy; trong 教育 đọc cách đọc trong 教育. Cần xét cả cấu trúc và từ ghép."
+          "takeaway": "教 đọc thanh 1 khi nói dạy; trong 教育 đọc thanh 4. Cần xét cả cấu trúc và từ ghép."
         },
         "usages": [
           {
@@ -101511,7 +101511,7 @@
             "id": "e1",
             "zh": "老师教我们汉语。",
             "vi": "Giáo viên dạy chúng tôi tiếng Trung.",
-            "analysis": "教 đọc cách đọc dạy, đứng trước người học 我们 và nội dung 汉语.",
+            "analysis": "教 dùng cách đọc thanh 1, đứng trước người học 我们 và nội dung 汉语.",
             "practiceAllowed": true
           },
           {
@@ -101534,7 +101534,7 @@
                 "id": "c1",
                 "zh": "老师教我们汉语。",
                 "vi": "Giáo viên dạy chúng tôi tiếng Trung.",
-                "comment": "老师 là người truyền đạt; 教 đọc cách đọc dạy.",
+                "comment": "老师 là người truyền đạt; 教 đọc thanh 1 trong nghĩa dạy.",
                 "judgment": "correct",
                 "practiceAllowed": false
               },
@@ -101551,17 +101551,17 @@
               "result": "different-meaning",
               "explanation": "Đổi 教 thành 学 sẽ đổi vai trò từ dạy sang học; câu vẫn có thể đúng nhưng chủ thể và hành động thay đổi."
             },
-            "boundary": "Cặp này chỉ đối chiếu nghĩa động từ dạy/học, không giải thích cách đọc cách đọc trong 教育 của mọi từ ghép.",
+            "boundary": "Cặp này chỉ đối chiếu nghĩa động từ dạy/học; không dùng để giải thích cách đọc thanh 4 trong mọi từ ghép.",
             "tip": "教人是 dạy người khác, 学是 tự học."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "Đã rà hai cách đọc: cách đọc dạy trong nghĩa dạy và cách đọc trong 教育 trong 教育.",
+          "readingsAndMeanings": "Đã rà cách đọc thanh 1 trong nghĩa dạy và thanh 4 trong 教育.",
           "literalTranslation": "Đã rà bẫy gắn một pinyin với mọi chức năng của 教.",
           "confusables": "Đã đối chiếu 教/学 ở nghĩa động từ; chưa mở rộng mọi từ ghép chứa 教."
         },
         "pronunciation": {
-          "text": "Trong 教我们 và 教弟弟, 教 dùng cách đọc của nghĩa dạy. Trong 教育, 教 dùng cách đọc khác; không coi đây là chỉ đọc nhẹ hơn. Đọc từ một lần, rồi đọc câu mẫu một lần.",
+          "text": "Trong 教我们 và 教弟弟, 教 đọc thanh 1: giọng cao và đều. Trong 教育, 教 đọc thanh 4: giọng hạ mạnh từ cao xuống thấp; đây là cách đọc khác, không phải đọc nhẹ hơn. Đọc từ một lần, rồi đọc câu mẫu một lần.",
           "contexts": [
             {
               "introIndex": 0,
@@ -101579,27 +101579,26 @@
           {
             "id": "q1",
             "type": "open",
-            "question": "Điền: 老师___我们汉语。"
+            "question": "Trong 老师教我们汉语, 教 đọc thanh 1 hay thanh 4?"
           },
           {
             "id": "q2",
             "type": "open",
-            "question": "Trong 教育, 教 thuộc cách đọc dạy hay cách đọc trong 教育?"
+            "question": "Trong 教育, 教 đọc thanh 1 hay thanh 4?"
           }
         ],
         "answers": {
           "q1": {
             "accepted": [
-              "教"
+              "thanh 1"
             ],
-            "explanation": "教我们汉语 là dạy chúng tôi tiếng Trung."
+            "explanation": "Trong 教我们汉语, 教 là động từ dạy nên dùng cách đọc thanh 1."
           },
           "q2": {
             "accepted": [
-              "cách đọc trong 教育",
-              "cách đọc trong 教育 (thanh 4)"
+              "thanh 4"
             ],
-            "explanation": "Trong 教育, 教 đọc cách đọc trong 教育."
+            "explanation": "Trong 教育, 教 dùng cách đọc thanh 4; đây là cách đọc của 教 trong từ ghép này."
           }
         },
         "selfUse": [
@@ -102021,18 +102020,181 @@
         }
       ],
       "meaning": "học sinh trung học",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-045 · dễ",
       "examples": [
         {
+          "id": "e1",
           "zh": "我弟弟是中学生。",
-          "vi": "Em trai tôi là học sinh trung học."
+          "vi": "Em trai tôi là học sinh trung học.",
+          "analysis": "中学生 làm vị ngữ sau 是, nói về thân phận của em trai.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "中学生在学校学习。",
+          "vi": "Học sinh trung học học ở trường.",
+          "analysis": "中学生 là chủ thể; 在学校 nêu nơi học và 学习 là hành động học.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 464,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 460,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/中学生"
+        ],
+        "introduction": {
+          "scope": "người đang học ở bậc trung học"
+        },
+        "meaning": {
+          "scene": "中学生 là học sinh trung học, nói về người chứ không phải tên trường.",
+          "explanation": "中学生 thường làm chủ thể với 是, 在学校学习 hoặc 上学. Thành phần 中学 cho biết bậc học, 生 chỉ người học.",
+          "boundary": "中学生 là học sinh; 中学 là trường hoặc bậc trung học, không phải người.",
+          "conditions": [
+            "Dùng 中学生 khi muốn nói một người học trung học; dùng 中学生们 khi nói nhiều học sinh."
+          ],
+          "takeaway": "中学生 chỉ người học trung học; đừng nhầm với 中学 là trường hoặc bậc học."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "主语 + 是 + 中学生",
+            "position": "中学生 đứng sau 是 để nói thân phận hoặc bậc học của một người.",
+            "required": "Cần có người hoặc đại từ làm chủ thể.",
+            "omission": "Có thể bỏ 是 khi 中学生 làm chủ thể của một hành động khác.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "中学生 + 在学校 + 学习",
+            "position": "中学生 đứng trước cụm hành động.",
+            "required": "Dùng khi nói học sinh trung học đang học ở trường.",
+            "omission": "Có thể đổi địa điểm theo ngữ cảnh.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我弟弟是中学生。",
+            "vi": "Em trai tôi là học sinh trung học.",
+            "analysis": "中学生 làm vị ngữ sau 是, nói về thân phận của em trai.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "中学生在学校学习。",
+            "vi": "Học sinh trung học học ở trường.",
+            "analysis": "中学生 là chủ thể; 在学校 nêu nơi học và 学习 là hành động học.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "中学生 và 中学: người học hay bậc học",
+            "scene": "Phân biệt người học với trường hoặc bậc học.",
+            "possibleConfusion": "Hai từ cùng có 中学 nên dễ bị dịch đều là trung học.",
+            "difference": "中学生 chỉ học sinh; 中学 chỉ trường hoặc bậc trung học.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我弟弟是中学生。",
+                "vi": "Em trai tôi là học sinh trung học.",
+                "comment": "中学生 chỉ người.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这所中学很大。",
+                "vi": "Trường trung học này rất lớn.",
+                "comment": "中学 chỉ trường, không chỉ học sinh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 中学生 thành 中学 sẽ biến người học thành trường hoặc bậc học; câu cần đổi thành phần đi kèm."
+            },
+            "boundary": "Không dùng 中学 để gọi một học sinh.",
+            "tip": "Có 生 thì nghĩ đến người học; 中学 là trường hoặc bậc học."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa người học của 中学生.",
+          "literalTranslation": "Đã rà bẫy dịch 中学生 thành tên trường.",
+          "confusables": "Đã đối chiếu 中学生 với 中学 bằng câu chỉ người và trường."
+        },
+        "pronunciation": {
+          "text": "中学生 gồm các âm thanh 1, 2 và thanh 1; đọc liền nhưng giữ rõ từng âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我弟弟是___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói trường trung học, chọn 中学生 hay 中学?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "中学生"
+            ],
+            "explanation": "中学生 là học sinh trung học."
+          },
+          "q2": {
+            "accepted": [
+              "中学"
+            ],
+            "explanation": "中学 chỉ trường hoặc bậc trung học."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói chị gái là học sinh trung học."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói các học sinh trung học đi xe buýt đến trường."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 姐姐是中学生 để nói thân phận của chị gái.",
+            "frame": "姐姐 + 是 + 中学生",
+            "model": "我姐姐是中学生。",
+            "vi": "Chị gái tôi là học sinh trung học.",
+            "criteria": [
+              "Có 中学生 sau 是.",
+              "姐姐 là người được nói đến."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 中学生坐公交车去学校 để nói phương tiện và hướng đi học.",
+            "frame": "中学生 + 坐公交车 + 去学校",
+            "model": "中学生坐公交车去学校。",
+            "vi": "Các học sinh trung học đi xe buýt đến trường.",
+            "criteria": [
+              "Có 中学生 làm chủ thể.",
+              "中学生坐公交车去学校 nói học sinh đi xe buýt đến trường."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-ce7a0879d5c8",
@@ -102041,17 +102203,185 @@
       "intro": [
         {
           "pinyin": "shūbāo",
-          "meaning": "cặp sách"
+          "meaning": "cặp sách; ba lô đi học"
         }
       ],
-      "meaning": "cặp sách",
-      "status": "catalog",
+      "meaning": "cặp sách; ba lô đi học",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-045 · dễ",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我每天背书包上学。",
+          "vi": "Mỗi ngày tôi đeo cặp đi học.",
+          "analysis": "背书包 là đeo cặp; 上学 nêu mục đích đi học.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "书包里有两本书。",
+          "vi": "Trong cặp có hai quyển sách.",
+          "analysis": "书包里 nêu nơi chứa; 两本书 là đồ vật ở trong cặp.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 465,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 461,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/书包"
+        ],
+        "introduction": {
+          "scope": "túi hoặc ba lô dùng để đựng sách vở"
+        },
+        "meaning": {
+          "scene": "书包 là cặp hoặc ba lô dùng chủ yếu để mang sách vở đi học.",
+          "explanation": "书包 có thể làm chủ thể với 有 hoặc đứng sau 背, 放进 để nói mang và cất đồ. Khi đếm, thường dùng 个 hoặc một chiếc cặp cụ thể.",
+          "boundary": "书包 là cặp sách; 包 rộng hơn, có thể là túi hoặc bao nói chung.",
+          "conditions": [
+            "Dùng 背书包 khi nói đeo cặp; dùng 书包里有书 khi nói trong cặp có sách."
+          ],
+          "takeaway": "书包 là cặp sách; nhìn động từ đi kèm để biết đang nói đeo, mở hay chứa đồ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "背 + 书包",
+            "position": "书包 đứng sau 背 làm vật được đeo hoặc mang.",
+            "required": "Dùng khi nói mang cặp trên lưng.",
+            "omission": "Có thể thêm 上学 để nêu mục đích đi học.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "书包里 + 有 + đồ vật",
+            "position": "书包里 đứng trước 有 để nêu nơi chứa.",
+            "required": "Cần có đồ vật muốn nói là ở trong cặp.",
+            "omission": "Có thể bỏ 里 nếu dùng 书包有... trong ngữ cảnh đơn giản, nhưng 书包里 rõ hơn khi nói vị trí.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我每天背书包上学。",
+            "vi": "Mỗi ngày tôi đeo cặp đi học.",
+            "analysis": "背书包 là đeo cặp; 上学 nêu mục đích đi học.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "书包里有两本书。",
+            "vi": "Trong cặp có hai quyển sách.",
+            "analysis": "书包里 nêu nơi chứa; 两本书 là đồ vật ở trong cặp.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "书包 và 包: cặp sách hay túi nói chung",
+            "scene": "Phân biệt chiếc cặp dùng đi học với loại túi rộng hơn.",
+            "possibleConfusion": "书包 chứa 包 và đều có thể được mang theo.",
+            "difference": "书包 gắn với sách vở và đi học; 包 có thể chỉ nhiều loại túi hoặc bao.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我每天背书包上学。",
+                "vi": "Mỗi ngày tôi đeo cặp đi học.",
+                "comment": "书包 phù hợp với ngữ cảnh đi học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这个包里没有书。",
+                "vi": "Trong chiếc túi này không có sách.",
+                "comment": "包 chỉ túi nói chung, không khẳng định là cặp đi học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 书包 thành 包 sẽ làm mất thông tin chiếc túi dùng cho sách vở; câu có thể vẫn đúng nhưng rộng nghĩa hơn."
+            },
+            "boundary": "Không phải mọi 包 đều là 书包.",
+            "tip": "Nói cặp đi học thì dùng 书包; nói túi nói chung thì dùng 包."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa cặp sách và cách dùng với 背, 里.",
+          "literalTranslation": "Đã rà bẫy dịch 书包 thành mọi loại túi.",
+          "confusables": "Đã đối chiếu 书包/包 bằng ngữ cảnh đi học và túi nói chung."
+        },
+        "pronunciation": {
+          "text": "书包 gồm thanh 1 và thanh 1; giữ giọng cao, đều ở cả hai âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我每天背___上学。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói cặp sách, chọn 书包 hay 包?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "书包"
+            ],
+            "explanation": "背书包 là đeo cặp đi học."
+          },
+          "q2": {
+            "accepted": [
+              "书包"
+            ],
+            "explanation": "书包 chỉ cặp hoặc ba lô đi học."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trong cặp của tôi có một quyển vở."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi mở cặp lấy một quyển sách."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 书包里有一本本子 để nói đồ vật ở trong cặp.",
+            "frame": "书包里 + 有 + 一本本子",
+            "model": "我的书包里有一本本子。",
+            "vi": "Trong cặp của tôi có một quyển vở.",
+            "criteria": [
+              "Có 书包 làm nơi chứa.",
+              "书包里有一本本子 nói trong cặp có một quyển vở."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 打开书包拿出一本书 để nói mở cặp và lấy sách ra.",
+            "frame": "我 + 打开书包 + 拿出一本书",
+            "model": "我打开书包拿出一本书。",
+            "vi": "Tôi mở cặp lấy một quyển sách.",
+            "criteria": [
+              "Có 书包 trong 打开书包.",
+              "打开书包拿出一本书 nói mở cặp và lấy sách ra."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-b3007167e541",
@@ -102064,18 +102394,181 @@
         }
       ],
       "meaning": "bác sĩ",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-045 · dễ",
       "examples": [
         {
-          "zh": "我妈妈是医生。",
-          "vi": "Mẹ tôi là bác sĩ."
+          "id": "e1",
+          "zh": "我今天去看医生。",
+          "vi": "Hôm nay tôi đi khám bác sĩ.",
+          "analysis": "看医生 là đi khám bác sĩ; 去 và 今天 nêu đi đâu, khi nào.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "医生说我需要休息。",
+          "vi": "Bác sĩ nói tôi cần nghỉ ngơi.",
+          "analysis": "医生 là người nói; nội dung sau 说 là lời khuyên cần nghỉ.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 466,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 462,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/医生"
+        ],
+        "introduction": {
+          "scope": "người khám, chẩn đoán và điều trị bệnh"
+        },
+        "meaning": {
+          "scene": "医生 là bác sĩ, người làm công việc khám và chữa bệnh.",
+          "explanation": "医生 thường đi với 看, 找, 问 hoặc làm chủ thể của 说. Từ này chỉ nghề hoặc người làm nghề, không chỉ bệnh viện hay người bệnh.",
+          "boundary": "医生 là bác sĩ; 病人 là bệnh nhân; 医院 là bệnh viện.",
+          "conditions": [
+            "Dùng 看医生 khi đi khám bác sĩ; dùng 找医生 khi cần tìm hoặc hỏi bác sĩ."
+          ],
+          "takeaway": "医生 chỉ người chữa bệnh; phân biệt với 病人 là người bệnh và 医院 là nơi khám chữa."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "看 + 医生",
+            "position": "医生 đứng sau 看 làm đối tượng của việc đi khám.",
+            "required": "Dùng khi nói đi khám bác sĩ.",
+            "omission": "Có thể thêm bệnh hoặc địa điểm nếu cần.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "医生 + 说 + nội dung",
+            "position": "医生 làm chủ thể trước lời nói hoặc nhận định.",
+            "required": "Dùng khi thuật lại lời bác sĩ.",
+            "omission": "Có thể bỏ 说 khi ngữ cảnh đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我今天去看医生。",
+            "vi": "Hôm nay tôi đi khám bác sĩ.",
+            "analysis": "看医生 là đi khám bác sĩ; 去 và 今天 nêu đi đâu, khi nào.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "医生说我需要休息。",
+            "vi": "Bác sĩ nói tôi cần nghỉ ngơi.",
+            "analysis": "医生 là người nói; nội dung sau 说 là lời khuyên cần nghỉ.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "医生 và 病人: bác sĩ hay bệnh nhân",
+            "scene": "Phân biệt người chữa bệnh với người nhận điều trị.",
+            "possibleConfusion": "Cả hai đều xuất hiện trong cuộc hẹn ở bệnh viện.",
+            "difference": "医生 khám chữa bệnh; 病人 là người bị bệnh hoặc đang điều trị.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "医生给病人看病。",
+                "vi": "Bác sĩ khám bệnh cho bệnh nhân.",
+                "comment": "医生 là người khám; 病人 là người được khám.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "病人需要休息。",
+                "vi": "Bệnh nhân cần nghỉ ngơi.",
+                "comment": "病人 chỉ người bệnh, không phải bác sĩ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 医生 thành 病人 sẽ đổi vai trò trong tình huống khám bệnh; câu cần xét ai đang khám và ai được khám."
+            },
+            "boundary": "Không gọi người đang được điều trị là 医生 nếu không có thông tin họ là bác sĩ.",
+            "tip": "医生 chữa bệnh, 病人 nhận điều trị."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa nghề bác sĩ và vai trò trong 看医生.",
+          "literalTranslation": "Đã rà bẫy dịch 医生 thành người bệnh vì cùng xuất hiện ở bệnh viện.",
+          "confusables": "Đã đối chiếu 医生/病人 bằng vai trò khám và được khám."
+        },
+        "pronunciation": {
+          "text": "医生 gồm thanh 1 và thanh 1; đọc hai âm cao và đều, không hạ giọng ở cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我今天去看___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Ai là người khám bệnh: 医生 hay 病人?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "医生"
+            ],
+            "explanation": "看医生 là đi khám bác sĩ."
+          },
+          "q2": {
+            "accepted": [
+              "医生"
+            ],
+            "explanation": "医生 là người khám và chữa bệnh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bác sĩ bảo tôi uống nhiều nước."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói ngày mai mẹ đi khám bác sĩ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 医生说我多喝水 để thuật lại lời bác sĩ.",
+            "frame": "医生 + 说 + 我 + hành động",
+            "model": "医生说我多喝水。",
+            "vi": "Bác sĩ bảo tôi uống nhiều nước.",
+            "criteria": [
+              "Có 医生 làm người nói.",
+              "医生说我多喝水 nêu lời khuyên."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 妈妈明天去看医生 để nói mẹ đi khám vào ngày mai.",
+            "frame": "妈妈 + 明天 + 去看医生",
+            "model": "妈妈明天去看医生。",
+            "vi": "Ngày mai mẹ đi khám bác sĩ.",
+            "criteria": [
+              "Có 看医生.",
+              "妈妈 là người đi khám vào 明天."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-1705fb006de3",
@@ -102084,22 +102577,185 @@
       "intro": [
         {
           "pinyin": "dàxué",
-          "meaning": "trường đại học"
+          "meaning": "đại học; trường đại học"
         }
       ],
-      "meaning": "trường đại học",
-      "status": "example",
+      "meaning": "đại học; trường đại học",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-045 · trung bình",
       "examples": [
         {
-          "zh": "我在这所大学学习。",
-          "vi": "Tôi học ở trường đại học này."
+          "id": "e1",
+          "zh": "我姐姐明年上大学。",
+          "vi": "Năm sau chị gái tôi học đại học.",
+          "analysis": "上大学 nói bước vào bậc đại học; 明年 nêu thời điểm.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他在北京的大学学习。",
+          "vi": "Cậu ấy học tại một trường đại học ở Bắc Kinh.",
+          "analysis": "在北京的大学 nêu nơi học; ở đây 大学 được hiểu là trường đại học.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 468,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 463,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/大学"
+        ],
+        "introduction": {
+          "scope": "bậc học đại học hoặc trường đại học, tùy cấu trúc"
+        },
+        "meaning": {
+          "scene": "大学 có thể chỉ bậc đại học hoặc một trường đại học; cấu trúc đi kèm cho biết cách hiểu.",
+          "explanation": "上大学 nói học bậc đại học, còn 在大学学习 hoặc 这所大学 nói ở một trường cụ thể. Không mặc định 大学 luôn là địa điểm.",
+          "boundary": "大学 là bậc hoặc trường đại học; 大学生 là người học ở bậc đó.",
+          "conditions": [
+            "Dùng 上大学 khi nói học đại học; dùng 在大学 khi nói học hoặc làm việc tại một trường cụ thể."
+          ],
+          "takeaway": "大学 có hai cách hiểu thông dụng: bậc học và trường đại học; nhìn khung câu để phân biệt."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "上 + 大学",
+            "position": "大学 đứng sau 上 để chỉ học bậc đại học.",
+            "required": "Dùng khi nói bắt đầu hoặc đang học đại học.",
+            "omission": "Có thể thêm 明年, 已经 hoặc 还没.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "在 + 大学 + 学习/工作",
+            "position": "大学 đứng sau 在 để nêu nơi học hoặc làm việc.",
+            "required": "Dùng khi nhấn địa điểm trường.",
+            "omission": "Có thể thêm tên hoặc 这所 để chỉ rõ trường.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我姐姐明年上大学。",
+            "vi": "Năm sau chị gái tôi học đại học.",
+            "analysis": "上大学 nói bước vào bậc đại học; 明年 nêu thời điểm.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他在北京的大学学习。",
+            "vi": "Cậu ấy học tại một trường đại học ở Bắc Kinh.",
+            "analysis": "在北京的大学 nêu nơi học; ở đây 大学 được hiểu là trường đại học.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "大学 và 大学生: trường/bậc hay người học",
+            "scene": "Phân biệt nơi hoặc bậc học với người đang học.",
+            "possibleConfusion": "Hai từ chỉ khác ở âm tiết cuối nên dễ bị lẫn khi nghe nhanh.",
+            "difference": "大学 là đại học hoặc trường đại học; 大学生 là sinh viên.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我明年上大学。",
+                "vi": "Năm sau tôi học đại học.",
+                "comment": "大学 chỉ bậc học trong 上大学.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我是大学生。",
+                "vi": "Tôi là sinh viên.",
+                "comment": "大学生 chỉ người học đại học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 大学 thành 大学生 sẽ đổi bậc hoặc trường thành người học, nên cấu trúc cũng phải đổi."
+            },
+            "boundary": "Không dùng 大学 để gọi một sinh viên.",
+            "tip": "大学 là nơi/bậc học, 大学生 là người học."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà hai cách hiểu của 大学 trong 上大学 và 在大学.",
+          "literalTranslation": "Đã rà bẫy thu hẹp 大学 chỉ còn tên trường.",
+          "confusables": "Đã đối chiếu 大学/大学生 bằng câu chỉ bậc học và người học."
+        },
+        "pronunciation": {
+          "text": "大学 gồm thanh 4 và thanh 2; âm đầu hạ mạnh, âm sau đi lên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我明年上___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói sinh viên, chọn 大学 hay 大学生?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "大学"
+            ],
+            "explanation": "上大学 là học đại học."
+          },
+          "q2": {
+            "accepted": [
+              "大学生"
+            ],
+            "explanation": "大学生 là sinh viên."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi muốn học đại học ở Bắc Kinh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bố tôi làm việc tại một trường đại học."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我想在北京上大学 để nói mong muốn học đại học ở Bắc Kinh.",
+            "frame": "我 + 想 + 在北京 + 上大学",
+            "model": "我想在北京上大学。",
+            "vi": "Tôi muốn học đại học ở Bắc Kinh.",
+            "criteria": [
+              "Có 上大学 để nói học bậc đại học.",
+              "在北京 nêu nơi học."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 爸爸在大学工作 để nói bố làm việc ở trường đại học.",
+            "frame": "爸爸 + 在大学 + 工作",
+            "model": "我爸爸在大学工作。",
+            "vi": "Bố tôi làm việc tại một trường đại học.",
+            "criteria": [
+              "Có 大学 sau 在.",
+              "在大学工作 nói làm việc tại trường đại học."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-62109943e158",
@@ -102108,22 +102764,185 @@
       "intro": [
         {
           "pinyin": "dàxuéshēng",
-          "meaning": "sinh viên đại học"
+          "meaning": "sinh viên"
         }
       ],
-      "meaning": "sinh viên đại học",
-      "status": "example",
+      "meaning": "sinh viên",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-045 · dễ",
       "examples": [
         {
-          "zh": "我姐姐是大学生。",
-          "vi": "Chị gái tôi là sinh viên đại học."
+          "id": "e1",
+          "zh": "我哥哥是大学生。",
+          "vi": "Anh trai tôi là sinh viên.",
+          "analysis": "大学生 làm vị ngữ sau 是, chỉ thân phận của anh trai.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "大学生住在学校附近。",
+          "vi": "Sinh viên sống gần trường.",
+          "analysis": "大学生 làm chủ thể; 住在学校附近 nêu nơi ở.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 469,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 464,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/大学生"
+        ],
+        "introduction": {
+          "scope": "người đang học ở bậc đại học"
+        },
+        "meaning": {
+          "scene": "大学生 là sinh viên, tức người học tại trường hoặc bậc đại học.",
+          "explanation": "大学生 thường làm chủ thể với 是, 学习, 住 hoặc 做. Từ này chỉ người, không chỉ trường đại học.",
+          "boundary": "大学生 là sinh viên; 大学 là bậc hoặc trường đại học; 学生 rộng hơn, có thể là học sinh ở nhiều bậc.",
+          "conditions": [
+            "Dùng 大学生 khi cần nói rõ người học đại học, không chỉ nói 学生 chung chung."
+          ],
+          "takeaway": "大学生 chỉ sinh viên; thành phần 大学 làm rõ bậc học của 学生."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "主语 + 是 + 大学生",
+            "position": "大学生 đứng sau 是 để nói thân phận.",
+            "required": "Cần chủ thể là người.",
+            "omission": "Có thể dùng 大学生 làm chủ thể của hành động.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "大学生 + 学习/住在 + nơi",
+            "position": "大学生 đứng trước hành động hoặc trạng thái.",
+            "required": "Dùng để nói hoạt động của sinh viên.",
+            "omission": "Có thể bỏ nơi nếu không cần nêu.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我哥哥是大学生。",
+            "vi": "Anh trai tôi là sinh viên.",
+            "analysis": "大学生 làm vị ngữ sau 是, chỉ thân phận của anh trai.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "大学生住在学校附近。",
+            "vi": "Sinh viên sống gần trường.",
+            "analysis": "大学生 làm chủ thể; 住在学校附近 nêu nơi ở.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "大学生 và 学生: sinh viên hay học sinh nói chung",
+            "scene": "Nói rõ bậc học của người học.",
+            "possibleConfusion": "学生 có thể chỉ người học ở nhiều cấp, còn 大学生 hẹp hơn.",
+            "difference": "大学生 là sinh viên; 学生 có thể là học sinh hoặc sinh viên tùy ngữ cảnh.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我哥哥是大学生。",
+                "vi": "Anh trai tôi là sinh viên.",
+                "comment": "大学生 xác định bậc đại học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "她是学生。",
+                "vi": "Cô ấy là học sinh/sinh viên.",
+                "comment": "学生 không tự nói rõ bậc học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 大学生 thành 学生 sẽ làm nghĩa rộng hơn và bỏ thông tin bậc đại học; câu vẫn có thể đúng nếu không cần nói rõ."
+            },
+            "boundary": "Không suy ra người dùng 学生 chắc chắn là sinh viên.",
+            "tip": "大学生 = 大学 + 学生, tức người học đại học."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa người học đại học.",
+          "literalTranslation": "Đã rà bẫy coi 学生 luôn là sinh viên.",
+          "confusables": "Đã đối chiếu 大学生/学生 theo độ rộng của bậc học."
+        },
+        "pronunciation": {
+          "text": "大学生 gồm thanh 4, thanh 2 và thanh 1; đọc rõ phần 大学 rồi kết thúc bằng âm thanh 1 của 生. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我哥哥是___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Từ nào nói rõ người học đại học: 学生 hay 大学生?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "大学生"
+            ],
+            "explanation": "大学生 là sinh viên."
+          },
+          "q2": {
+            "accepted": [
+              "大学生"
+            ],
+            "explanation": "大学生 nói rõ người học đại học."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói chị gái tôi là sinh viên và sống gần trường."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói nhiều sinh viên đang học trong thư viện."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我姐姐是大学生 và 住在学校附近 để nối hai thông tin.",
+            "frame": "我姐姐 + 是大学生 + 住在学校附近",
+            "model": "我姐姐是大学生，住在学校附近。",
+            "vi": "Chị gái tôi là sinh viên và sống gần trường.",
+            "criteria": [
+              "Có 大学生 chỉ thân phận.",
+              "大学生 là người được nói đến."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 大学生在图书馆学习 để nói hoạt động của nhiều sinh viên.",
+            "frame": "大学生 + 在图书馆 + 学习",
+            "model": "大学生在图书馆学习。",
+            "vi": "Sinh viên đang học trong thư viện.",
+            "criteria": [
+              "Có 大学生 làm chủ thể.",
+              "大学生在图书馆学习 nói sinh viên học trong thư viện."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-da8df807ec54",
@@ -102136,37 +102955,368 @@
         }
       ],
       "meaning": "trường học",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-045 · dễ",
       "examples": [
         {
-          "zh": "我们学校很大。",
-          "vi": "Trường chúng tôi rộng."
+          "id": "e1",
+          "zh": "我每天去学校。",
+          "vi": "Mỗi ngày tôi đi đến trường.",
+          "analysis": "去学校 nói hướng đi đến trường; 每天 nêu tần suất.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "学校离我家不远。",
+          "vi": "Trường học cách nhà tôi không xa.",
+          "analysis": "学校 là mốc được so sánh; 离我家不远 nói khoảng cách.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 470,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 465,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/学校"
+        ],
+        "introduction": {
+          "scope": "nơi tổ chức việc dạy và học"
+        },
+        "meaning": {
+          "scene": "学校 là trường học, có thể chỉ cơ sở hoặc tổ chức nơi người ta học.",
+          "explanation": "学校 thường đi với 在, 去, 回 hoặc 离 để nói vị trí, hướng đến và khoảng cách. Đây là danh từ chỉ nơi hoặc tổ chức, không phải người học.",
+          "boundary": "学校 là trường học nói chung; 大学, 中学 và 小学 là những bậc hoặc loại trường cụ thể hơn.",
+          "conditions": [
+            "Dùng 去学校 khi nói đi đến trường; dùng 在学校 khi nói đang ở hoặc học tại trường."
+          ],
+          "takeaway": "学校 là trường học nói chung; giới từ hoặc động từ đi kèm cho biết quan hệ với trường."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "去/在 + 学校",
+            "position": "学校 đứng sau 去 hoặc 在 để chỉ nơi đến hoặc nơi đang ở.",
+            "required": "Cần động từ hoặc giới từ chỉ quan hệ với địa điểm.",
+            "omission": "Có thể thêm tên trường hoặc 这所 để cụ thể hóa.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "学校 + 离 + địa điểm + gần/xa",
+            "position": "学校 làm chủ thể trong câu nói khoảng cách.",
+            "required": "Cần địa điểm mốc sau 离.",
+            "omission": "Có thể bỏ địa điểm mốc nếu ngữ cảnh đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我每天去学校。",
+            "vi": "Mỗi ngày tôi đi đến trường.",
+            "analysis": "去学校 nói hướng đi đến trường; 每天 nêu tần suất.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "学校离我家不远。",
+            "vi": "Trường học cách nhà tôi không xa.",
+            "analysis": "学校 là mốc được so sánh; 离我家不远 nói khoảng cách.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "学校 và 教室: trường hay phòng học",
+            "scene": "Phân biệt toàn bộ trường với một phòng học.",
+            "possibleConfusion": "Cả hai đều là địa điểm trong việc học.",
+            "difference": "学校 là trường học hoặc tổ chức; 教室 là phòng học bên trong trường.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我每天去学校。",
+                "vi": "Mỗi ngày tôi đi đến trường.",
+                "comment": "学校 là nơi đến rộng hơn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "学生在教室里上课。",
+                "vi": "Học sinh học trong phòng học.",
+                "comment": "教室 là phòng cụ thể nơi diễn ra tiết học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 学校 thành 教室 sẽ đổi địa điểm từ toàn trường sang một phòng học; câu có thể đúng nhưng phạm vi hẹp hơn."
+            },
+            "boundary": "Không dùng 教室 khi muốn nói đến cả trường.",
+            "tip": "学校 là trường, 教室 là phòng học."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa địa điểm/tổ chức của 学校.",
+          "literalTranslation": "Đã rà bẫy thu hẹp 学校 thành phòng học.",
+          "confusables": "Đã đối chiếu 学校/教室 theo phạm vi địa điểm."
+        },
+        "pronunciation": {
+          "text": "学校 gồm thanh 2 và thanh 4; âm đầu đi lên, âm sau hạ mạnh. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我每天去___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Phòng học là 学校 hay 教室?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "学校"
+            ],
+            "explanation": "去学校 là đi đến trường."
+          },
+          "q2": {
+            "accepted": [
+              "教室"
+            ],
+            "explanation": "教室 là phòng học; 学校 là trường học."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trường học của tôi cách nhà rất gần."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói chiều nay tôi ở trường học."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我的学校离我家很近 để nói khoảng cách.",
+            "frame": "我的学校 + 离我家 + 很近",
+            "model": "我的学校离我家很近。",
+            "vi": "Trường học của tôi cách nhà rất gần.",
+            "criteria": [
+              "Có 学校 làm chủ thể.",
+              "离我家很近 nói khoảng cách đến nhà."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 今天下午我在学校 để nói địa điểm vào buổi chiều.",
+            "frame": "今天下午 + 我 + 在学校",
+            "model": "今天下午我在学校。",
+            "vi": "Chiều nay tôi ở trường học.",
+            "criteria": [
+              "Có 学校 sau 在.",
+              "今天下午 nêu thời gian."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "trường cao đẳng",
+      "meaning": "học viện; khoa/trường chuyên ngành",
       "intro": [
         {
           "pinyin": "xuéyuàn",
-          "meaning": "trường cao đẳng"
+          "meaning": "học viện; khoa/trường chuyên ngành"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "她在艺术学院学习。",
+          "vi": "Cô ấy học tại học viện nghệ thuật.",
+          "analysis": "艺术学院 là học viện chuyên ngành; 在...学习 nói học tại đó.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这个学院有很多学生。",
+          "vi": "Học viện này có nhiều sinh viên.",
+          "analysis": "学院 làm chủ thể của 有; 很多学生 là người thuộc đơn vị đó.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-a67b156302ec",
       "hanzi": "学院",
       "level": 1,
       "sourceIndex": 472,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-045 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 466,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/学院"
+        ],
+        "introduction": {
+          "scope": "đơn vị hoặc cơ sở đào tạo chuyên một lĩnh vực, thường trong hệ thống đại học"
+        },
+        "meaning": {
+          "scene": "学院 có thể là học viện độc lập hoặc một khoa/trường chuyên ngành thuộc đại học, tùy hệ thống và tên gọi.",
+          "explanation": "学院 thường đi với 在, 进入, 毕业 hoặc tên ngành. Không nên dịch máy móc mọi 学院 thành một cấp học riêng; cần nhìn tên và cơ cấu của nơi đó.",
+          "boundary": "学院 là đơn vị/cơ sở đào tạo chuyên ngành; 学校 là trường học nói chung, 大学 là đại học hoặc trường đại học.",
+          "conditions": [
+            "Dùng 在学院学习 khi nói học tại học viện hoặc đơn vị chuyên ngành; tên cụ thể có thể đứng trước 学院."
+          ],
+          "takeaway": "学院 thường gợi một đơn vị đào tạo chuyên ngành; nghĩa chính xác rộng hay hẹp tùy cơ cấu của nơi được nói đến."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + 学院 + 学习",
+            "position": "学院 đứng sau 在 để nêu nơi học.",
+            "required": "Dùng khi nói học tại học viện hoặc đơn vị chuyên ngành.",
+            "omission": "Có thể thêm tên ngành hoặc tên riêng phía trước.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "学院 + 有 + chuyên ngành/学生",
+            "position": "学院 làm chủ thể của thông tin về đơn vị đào tạo.",
+            "required": "Cần nội dung tồn tại hoặc thuộc về học viện.",
+            "omission": "Có thể đổi 有 thành 开设 khi nói mở ngành, nếu đã học từ này.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她在艺术学院学习。",
+            "vi": "Cô ấy học tại học viện nghệ thuật.",
+            "analysis": "艺术学院 là học viện chuyên ngành; 在...学习 nói học tại đó.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这个学院有很多学生。",
+            "vi": "Học viện này có nhiều sinh viên.",
+            "analysis": "学院 làm chủ thể của 有; 很多学生 là người thuộc đơn vị đó.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "学院 và 学校: đơn vị chuyên ngành hay trường nói chung",
+            "scene": "Phân biệt tên gọi theo phạm vi cơ sở đào tạo.",
+            "possibleConfusion": "Cả hai đều có thể dịch là trường trong tiếng Việt.",
+            "difference": "学院 nhấn đơn vị hoặc cơ sở chuyên ngành; 学校 là cách gọi rộng cho trường học.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她在艺术学院学习。",
+                "vi": "Cô ấy học tại học viện nghệ thuật.",
+                "comment": "学院 gắn với lĩnh vực nghệ thuật trong tên gọi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "孩子们在学校上课。",
+                "vi": "Bọn trẻ học ở trường.",
+                "comment": "学校 chỉ trường học nói chung.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 学院 thành 学校 sẽ bỏ sắc thái đơn vị chuyên ngành; câu vẫn có thể đúng nếu chỉ cần nói trường nói chung."
+            },
+            "boundary": "Không khẳng định mọi 学院 là một trường đại học độc lập.",
+            "tip": "学院 thường gắn với chuyên ngành hoặc một đơn vị trong trường; 学校 rộng hơn."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa học viện/đơn vị chuyên ngành của 学院.",
+          "literalTranslation": "Đã rà bẫy dịch mọi 学院 thành một loại trường cố định.",
+          "confusables": "Đã đối chiếu 学院/学校 theo phạm vi và chuyên ngành."
+        },
+        "pronunciation": {
+          "text": "学院 gồm thanh 2 và thanh 4; âm đầu đi lên, âm sau hạ mạnh. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 她在艺术___学习。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Từ nào gợi một đơn vị hoặc cơ sở đào tạo chuyên ngành: 学院 hay 学校?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "学院"
+            ],
+            "explanation": "艺术学院 là học viện nghệ thuật."
+          },
+          "q2": {
+            "accepted": [
+              "学院"
+            ],
+            "explanation": "学院 thường gợi đơn vị hoặc cơ sở đào tạo chuyên ngành."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói anh trai tôi học tại học viện âm nhạc."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói học viện này có nhiều sinh viên."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 哥哥在音乐学院学习 để nêu nơi học chuyên ngành.",
+            "frame": "哥哥 + 在 + 音乐学院 + 学习",
+            "model": "我哥哥在音乐学院学习。",
+            "vi": "Anh trai tôi học tại học viện âm nhạc.",
+            "criteria": [
+              "Có 学院 trong 音乐学院.",
+              "在音乐学院学习 nói học tại học viện."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这个学院今年有三十个学生 để nói số người học thuộc học viện.",
+            "frame": "这个学院 + 今年 + 有 + 三十个学生",
+            "model": "这个学院今年有三十个学生。",
+            "vi": "Năm nay học viện này có ba mươi sinh viên.",
+            "criteria": [
+              "Có 学院 làm chủ thể.",
+              "学院今年有三十个学生 nói học viện có ba mươi sinh viên năm nay."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-fc651f6913ad",
@@ -102175,22 +103325,185 @@
       "intro": [
         {
           "pinyin": "xiǎoxué",
-          "meaning": "trường tiểu học"
+          "meaning": "tiểu học; trường tiểu học"
         }
       ],
-      "meaning": "trường tiểu học",
-      "status": "example",
+      "meaning": "tiểu học; trường tiểu học",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-045 · dễ",
       "examples": [
         {
-          "zh": "我女儿在这所小学上学。",
-          "vi": "Con gái tôi học ở trường tiểu học này."
+          "id": "e1",
+          "zh": "弟弟明年上小学。",
+          "vi": "Năm sau em trai tôi học tiểu học.",
+          "analysis": "上小学 nói bước vào bậc tiểu học; 明年 nêu thời điểm.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "妹妹在小学上学。",
+          "vi": "Em gái tôi học ở trường tiểu học.",
+          "analysis": "在小学 nêu nơi học; 上学 nói đi học.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 473,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 467,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/小学"
+        ],
+        "introduction": {
+          "scope": "bậc học đầu tiên của giáo dục phổ thông hoặc trường thuộc bậc đó"
+        },
+        "meaning": {
+          "scene": "小学 chỉ bậc tiểu học hoặc trường tiểu học, tùy cấu trúc câu.",
+          "explanation": "上小学 nói học bậc tiểu học; 在小学上学 nói học ở trường tiểu học. 小学 đối lập về bậc học với 中学, không phải tên gọi của học sinh.",
+          "boundary": "小学 là bậc/trường; 小学生 là học sinh tiểu học.",
+          "conditions": [
+            "Dùng 上小学 khi nói học bậc tiểu học; dùng 小学的学生 khi cần nói học sinh của trường."
+          ],
+          "takeaway": "小学 là tiểu học hoặc trường tiểu học; thêm 生 mới thành người học: 小学生."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "上 + 小学",
+            "position": "小学 đứng sau 上 để chỉ bậc học.",
+            "required": "Dùng khi nói đang hoặc bắt đầu học tiểu học.",
+            "omission": "Có thể thêm 明年, 还没 hoặc 已经.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "在 + 小学 + 上学",
+            "position": "小学 đứng sau 在 để chỉ trường hoặc nơi học.",
+            "required": "Dùng khi nhấn địa điểm học.",
+            "omission": "Có thể thêm tên riêng hoặc 这所.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "弟弟明年上小学。",
+            "vi": "Năm sau em trai tôi học tiểu học.",
+            "analysis": "上小学 nói bước vào bậc tiểu học; 明年 nêu thời điểm.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "妹妹在小学上学。",
+            "vi": "Em gái tôi học ở trường tiểu học.",
+            "analysis": "在小学 nêu nơi học; 上学 nói đi học.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "小学 và 小学生: bậc học hay người học",
+            "scene": "Phân biệt trường/bậc tiểu học với học sinh tiểu học.",
+            "possibleConfusion": "Hai từ cùng bắt đầu bằng 小学.",
+            "difference": "小学 là tiểu học hoặc trường tiểu học; 小学生 là học sinh tiểu học.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "弟弟明年上小学。",
+                "vi": "Năm sau em trai tôi học tiểu học.",
+                "comment": "小学 chỉ bậc học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "弟弟是小学生。",
+                "vi": "Em trai tôi là học sinh tiểu học.",
+                "comment": "小学生 chỉ người học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 小学 thành 小学生 sẽ đổi bậc học thành người học, nên khung câu cũng cần đổi."
+            },
+            "boundary": "Không dùng 小学 để gọi một em học sinh.",
+            "tip": "小学 là bậc/trường, 小学生 là người học."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa bậc/trường tiểu học.",
+          "literalTranslation": "Đã rà bẫy bỏ thành phần 生 khi nói người học.",
+          "confusables": "Đã đối chiếu 小学/小学生 theo địa điểm và người."
+        },
+        "pronunciation": {
+          "text": "小学 gồm thanh 3 và thanh 2; âm đầu hạ rồi nâng, âm sau đi lên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 弟弟明年上___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói học sinh tiểu học, chọn 小学 hay 小学生?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "小学"
+            ],
+            "explanation": "上小学 là học tiểu học."
+          },
+          "q2": {
+            "accepted": [
+              "小学生"
+            ],
+            "explanation": "小学生 là học sinh tiểu học."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trường tiểu học của em trai cách nhà không xa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi đã học tiểu học ở trường này."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 弟弟的小学离家不远 để nói khoảng cách của trường.",
+            "frame": "弟弟的小学 + 离家 + 不远",
+            "model": "弟弟的小学离家不远。",
+            "vi": "Trường tiểu học của em trai cách nhà không xa.",
+            "criteria": [
+              "Có 小学 trong 弟弟的小学.",
+              "小学离家不远 nói trường tiểu học cách nhà không xa."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我在这所小学上过学 để nói nơi từng học.",
+            "frame": "我 + 在这所小学 + 上过学",
+            "model": "我在这所小学上过学。",
+            "vi": "Tôi đã học tiểu học ở trường này.",
+            "criteria": [
+              "Có 小学 trong 这所小学.",
+              "在这所小学上过学 nói đã từng học ở trường này."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-1acb3aeb34b4",
@@ -102203,37 +103516,368 @@
         }
       ],
       "meaning": "học sinh tiểu học",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-045 · dễ",
       "examples": [
         {
-          "zh": "他是小学生。",
-          "vi": "Em ấy là học sinh tiểu học."
+          "id": "e1",
+          "zh": "她是小学生。",
+          "vi": "Cô bé là học sinh tiểu học.",
+          "analysis": "小学生 làm vị ngữ sau 是, chỉ người học tiểu học.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "小学生在学校学习。",
+          "vi": "Học sinh tiểu học học ở trường.",
+          "analysis": "小学生 làm chủ thể; 在学校学习 nêu nơi và hoạt động.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 474,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 468,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/小学生"
+        ],
+        "introduction": {
+          "scope": "người đang học ở bậc tiểu học"
+        },
+        "meaning": {
+          "scene": "小学生 là học sinh tiểu học, chỉ người chứ không chỉ trường.",
+          "explanation": "小学生 có thể làm chủ thể với 是, 在学校学习 hoặc 放学. Thành phần 小学 cho biết bậc học, 生 chỉ người.",
+          "boundary": "小学生 là người học tiểu học; 小学 là trường hoặc bậc tiểu học.",
+          "conditions": [
+            "Dùng 小学生 khi muốn gọi rõ người học tiểu học; không dùng 小学 một mình cho người."
+          ],
+          "takeaway": "小学生 chỉ học sinh tiểu học; 小学 không có 生 nên chỉ bậc hoặc trường."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "主语 + 是 + 小学生",
+            "position": "小学生 đứng sau 是 để nói thân phận.",
+            "required": "Cần chủ thể là người.",
+            "omission": "Có thể dùng 小学生 trực tiếp làm chủ thể.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "小学生 + 在学校 + 学习",
+            "position": "小学生 đứng trước hành động học.",
+            "required": "Dùng khi nói hoạt động của học sinh.",
+            "omission": "Có thể thay địa điểm hoặc nội dung học.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她是小学生。",
+            "vi": "Cô bé là học sinh tiểu học.",
+            "analysis": "小学生 làm vị ngữ sau 是, chỉ người học tiểu học.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "小学生在学校学习。",
+            "vi": "Học sinh tiểu học học ở trường.",
+            "analysis": "小学生 làm chủ thể; 在学校学习 nêu nơi và hoạt động.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "小学生 và 中学生: học sinh tiểu học hay trung học",
+            "scene": "Phân biệt bậc học của người học.",
+            "possibleConfusion": "Cả hai đều kết thúc bằng 学生.",
+            "difference": "小学生 học tiểu học; 中学生 học trung học.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她是小学生。",
+                "vi": "Cô bé là học sinh tiểu học.",
+                "comment": "小学生 chỉ người học tiểu học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他是中学生。",
+                "vi": "Cậu ấy là học sinh trung học.",
+                "comment": "中学生 chỉ người học trung học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 小学生 thành 中学生 sẽ đổi bậc học của người được nói đến; cả hai cấu trúc đều đúng nhưng nghĩa khác."
+            },
+            "boundary": "Không dùng hai từ này thay nhau khi bậc học đã rõ.",
+            "tip": "Nhìn 小学 hay 中学 để xác định bậc học của 学生."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa học sinh tiểu học.",
+          "literalTranslation": "Đã rà bẫy nhầm 小学 với người học.",
+          "confusables": "Đã đối chiếu 小学生/中学生 theo bậc học."
+        },
+        "pronunciation": {
+          "text": "小学生 gồm thanh 3, thanh 2 và thanh 1; đọc rõ âm đầu hạ rồi nâng, sau đó đi lên và giữ cao ở âm cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 她是___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Học sinh trung học là 小学生 hay 中学生?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "小学生"
+            ],
+            "explanation": "小学生 là học sinh tiểu học."
+          },
+          "q2": {
+            "accepted": [
+              "中学生"
+            ],
+            "explanation": "中学生 là học sinh trung học."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói con gái tôi là học sinh tiểu học."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói học sinh tiểu học đang chơi ở sân trường."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 女儿是小学生 để nói bậc học của con gái.",
+            "frame": "女儿 + 是 + 小学生",
+            "model": "我女儿是小学生。",
+            "vi": "Con gái tôi là học sinh tiểu học.",
+            "criteria": [
+              "Có 小学生 sau 是.",
+              "女儿 là người được nói đến."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 小学生在操场上玩 để nói hoạt động và địa điểm.",
+            "frame": "小学生 + 在操场上 + 玩",
+            "model": "小学生在操场上玩。",
+            "vi": "Học sinh tiểu học đang chơi ở sân trường.",
+            "criteria": [
+              "Có 小学生 làm chủ thể.",
+              "小学生在操场上玩 nói học sinh chơi ở sân."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "công nhân",
+      "meaning": "công nhân; người lao động làm công việc tay chân/kỹ thuật",
       "intro": [
         {
           "pinyin": "gōngrén",
-          "meaning": "công nhân"
+          "meaning": "công nhân; người lao động làm công việc tay chân/kỹ thuật"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "这个工人在工厂工作。",
+          "vi": "Công nhân này làm việc ở nhà máy.",
+          "analysis": "工人 là người làm việc; 在工厂 nêu nơi làm việc.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "工人们正在修路。",
+          "vi": "Các công nhân đang sửa đường.",
+          "analysis": "工人们 chỉ nhiều công nhân; 正在 cho biết hành động đang diễn ra.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-0583391cd4f4",
       "hanzi": "工人",
       "level": 1,
       "sourceIndex": 475,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-045 · dễ",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 469,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/工人"
+        ],
+        "introduction": {
+          "scope": "người làm việc trong sản xuất, xây dựng hoặc công việc kỹ thuật/tay chân"
+        },
+        "meaning": {
+          "scene": "工人 là công nhân hoặc người lao động trực tiếp làm một công việc sản xuất, xây dựng hay kỹ thuật.",
+          "explanation": "工人 thường đi với 在工厂工作, 干活 hoặc 一名/很多 để nói người lao động. Từ này chỉ người, không phải động từ làm việc.",
+          "boundary": "工人 là công nhân; 工作 là công việc hoặc làm việc; 工厂 là nhà máy.",
+          "conditions": [
+            "Dùng 工人 khi nói người làm nghề; dùng 工作 khi nói hành động hoặc công việc nói chung."
+          ],
+          "takeaway": "工人 chỉ người lao động trực tiếp; phân biệt với 工作 là làm việc/công việc và 工厂 là nhà máy."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "工人 + 在工厂 + 工作",
+            "position": "工人 làm chủ thể; 在工厂 nêu nơi làm việc.",
+            "required": "Dùng khi nói công nhân làm việc ở nhà máy.",
+            "omission": "Có thể bỏ 工厂 nếu nơi làm việc đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一名/很多 + 工人",
+            "position": "工人 đứng sau số lượng hoặc từ chỉ số nhiều.",
+            "required": "Dùng khi đếm hoặc nói số người.",
+            "omission": "Có thể bỏ lượng từ trong câu khái quát.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这个工人在工厂工作。",
+            "vi": "Công nhân này làm việc ở nhà máy.",
+            "analysis": "工人 là người làm việc; 在工厂 nêu nơi làm việc.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "工人们正在修路。",
+            "vi": "Các công nhân đang sửa đường.",
+            "analysis": "工人们 chỉ nhiều công nhân; 正在 cho biết hành động đang diễn ra.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "工人 và 工作: người hay công việc",
+            "scene": "Phân biệt người làm việc với hành động/công việc.",
+            "possibleConfusion": "Hai từ cùng có 工 và đều liên quan đến lao động.",
+            "difference": "工人 là người; 工作 là làm việc hoặc công việc.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个工人在工厂工作。",
+                "vi": "Công nhân này làm việc ở nhà máy.",
+                "comment": "工人 là chủ thể, 工作 là hành động.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我的工作很忙。",
+                "vi": "Công việc của tôi rất bận.",
+                "comment": "工作 ở đây là công việc, không phải người.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 工人 thành 工作 sẽ đổi người lao động thành công việc/hành động; vị trí và thành phần câu cũng thay đổi."
+            },
+            "boundary": "Không dùng 工作 để gọi một người công nhân.",
+            "tip": "Có 人 thì chỉ người; 工作 chỉ làm việc hoặc công việc."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa người lao động của 工人.",
+          "literalTranslation": "Đã rà bẫy dịch 工人 thành công việc vì cùng có 工.",
+          "confusables": "Đã đối chiếu 工人/工作 theo từ loại và vai trò trong câu."
+        },
+        "pronunciation": {
+          "text": "工人 gồm thanh 1 và thanh 2; âm đầu cao đều, âm sau đi lên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这个___在工厂工作。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Từ nào chỉ công việc: 工人 hay 工作?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "工人"
+            ],
+            "explanation": "工人 là công nhân, làm chủ thể của câu."
+          },
+          "q2": {
+            "accepted": [
+              "工作"
+            ],
+            "explanation": "工作 có thể chỉ công việc hoặc hành động làm việc."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói chú tôi là công nhân và làm việc ở nhà máy."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói các công nhân đang xây một ngôi nhà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 叔叔是工人 và 在工厂工作 để nói nghề và nơi làm.",
+            "frame": "叔叔 + 是工人 + 在工厂工作",
+            "model": "我叔叔是工人，在工厂工作。",
+            "vi": "Chú tôi là công nhân và làm việc ở nhà máy.",
+            "criteria": [
+              "Có 工人 chỉ nghề của chú.",
+              "Có 工人; 在工厂工作 nói nghề và nơi làm việc."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 工人们正在盖房子 để nói nhiều công nhân đang xây nhà.",
+            "frame": "工人们 + 正在 + 盖房子",
+            "model": "工人们正在盖房子。",
+            "vi": "Các công nhân đang xây một ngôi nhà.",
+            "criteria": [
+              "Có 工人们 làm chủ thể.",
+              "工人们正在盖房子 nói công nhân đang xây nhà."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "tòa nhà trường học",
@@ -136062,13 +137706,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 469,
-    "pending": 1765,
+    "ready": 479,
+    "pending": 1755,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 469
+        "ready": 479
       },
       {
         "level": 2,

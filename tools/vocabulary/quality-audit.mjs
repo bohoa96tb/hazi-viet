@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {isPinyinText} from '../../js/lesson-v2.js';
 
 const strip = value => String(value ?? '').replace(/[\\s。！？!?，,、；;：:“”"'‘’（）()]/gu, '');
 const wordsOf = value => strip(value).split('');
@@ -94,6 +95,7 @@ const semanticOpposites=[
 export function qualityWarnings(words,{nearThreshold=0.78}={}) {
   const warnings=[];
   for(const word of words.filter(w=>w.lesson?.version===2)){
+    for(const reading of word.intro??[]) if(!isPinyinText(reading.pinyin)) warnings.push({kind:'invalid-pinyin',id:word.id,ordinal:word.lesson.cohortOrdinal,hanzi:word.hanzi,pinyin:reading.pinyin});
     const examples=word.lesson.examples??[];
     const exampleText=examples.map(e=>strip(e.zh));
     for(const use of word.lesson.selfUse??[]){
@@ -136,7 +138,7 @@ export function qualityWarnings(words,{nearThreshold=0.78}={}) {
 
 export function assertFreshV2(words) {
   const warnings=qualityWarnings(words);
-  const blocking=warnings.filter(x=>['self-example-exact','self-target-missing','self-sync-missing-answer','self-sync-missing-field','self-criteria-token-missing','self-prompt-model-anchor-missing','self-semantic-antonym-mismatch','self-semantic-anchor-missing','trap-pair-missing-case-example','wrong-grammar-missing-correction'].includes(x.kind));
+  const blocking=warnings.filter(x=>['invalid-pinyin','self-example-exact','self-target-missing','self-sync-missing-answer','self-sync-missing-field','self-criteria-token-missing','self-prompt-model-anchor-missing','self-semantic-antonym-mismatch','self-semantic-anchor-missing','trap-pair-missing-case-example','wrong-grammar-missing-correction'].includes(x.kind));
   assert.equal(blocking.length,0,'New V2 quality warnings: '+JSON.stringify(blocking));
   return warnings;
 }
@@ -149,6 +151,7 @@ function selfTest(){
   assert.throws(()=>assertFreshV2([base]));
   const valid=structuredClone(base);valid.lesson.selfAnswers.s1={idea:'Dùng 词 trong câu mới.',frame:'...词...',model:'Tôi dùng 词 trong câu mới.',vi:'Tôi dùng từ này trong câu mới.',criteria:['Có 词.'],targetForms:['词']};valid.lesson.traps=[];assert.equal(qualityWarnings([valid]).filter(x=>x.kind==='self-example-exact'||x.kind==='self-target-missing'||x.kind.startsWith('self-sync-')||x.kind==='self-criteria-token-missing').length,0);
   assert.doesNotThrow(()=>assertFreshV2([valid]));
+  const invalidPinyin=structuredClone(valid);invalidPinyin.intro=[{pinyin:'cách đọc dạy',meaning:'mô tả giả'}];assert(!isPinyinText(invalidPinyin.intro[0].pinyin));assert(qualityWarnings([invalidPinyin]).some(x=>x.kind==='invalid-pinyin'));assert.throws(()=>assertFreshV2([invalidPinyin]));
   const mismatch=structuredClone(valid);mismatch.lesson.selfUse[0].prompt='Nói tôi đứng ở bệnh viện đợi bạn.';mismatch.lesson.selfAnswers.s1.model='他在公园用词。';assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='first-person'));assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='stand'));assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='hospital'));assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='wait-for-you'));assert.throws(()=>assertFreshV2([mismatch]));
   const antonym=structuredClone(valid);antonym.lesson.selfUse[0].prompt='Nói bên này có một chỗ trống.';antonym.lesson.selfAnswers.s1={...antonym.lesson.selfAnswers.s1,model:'那边有一个词。',targetForms:['词']};assert(qualityWarnings([antonym]).some(x=>x.kind==='self-semantic-antonym-mismatch'&&x.anchorId==='this-that'));assert.throws(()=>assertFreshV2([antonym]));
   const contextual=structuredClone(valid);contextual.lesson.selfUse[0].prompt='Nói có thể ngồi bên này hoặc bên kia.';contextual.lesson.selfAnswers.s1={...contextual.lesson.selfAnswers.s1,model:'这边或那边都可以用词。',targetForms:['词']};assert(!qualityWarnings([contextual]).some(x=>x.kind.startsWith('self-semantic-')));

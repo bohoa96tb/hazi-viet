@@ -1,5 +1,12 @@
 
 
+# Batch-045 — đang chờ phát hành Pages
+
+- Bổ sung 10 mục ordinal 460–469: 中学生、书包、医生、大学、大学生、学校、学院、小学、小学生、工人. Tiến độ cục bộ: 469/2.224, còn 1.755.
+- Phân loại: dễ gồm 中学生、书包、医生、大学生、学校、小学、小学生、工人; trung bình gồm 大学、学院.
+- Correction-007 sửa 教 (ordinal 457): intro dùng `jiāo`/`jiào`, phần phát âm phân biệt thanh 1 và thanh 4, câu hỏi/đáp án đã đồng bộ. Validator mới kiểm tra Pinyin bằng tập âm tiết hợp lệ và từ chối nhãn mô tả.
+- Đã chạy `process-batch verify`, `verify-v2`, quality audit self-test, quality audit nhóm 457–469, `test-dom.mjs`, kiểm tra cú pháp và `git diff --check`. Chưa phát hành Pages cho batch-045.
+
 # Batch-044 — đã phát hành và xác minh Pages
 
 - Content commit: `3fe09028849d7bb270f4cc185cc810aac7ae6e2a`; bổ sung 8 mục ordinal 452–459: 门票、飞机、马路、从、四、教、班、中学. Tiến độ cục bộ: 459/2.224, còn 1.765.

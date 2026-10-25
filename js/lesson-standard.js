@@ -1,4 +1,4 @@
-import {auditV2,v2Audio,splitSpeech} from './lesson-v2.js?v=v2-batch-029';
+import {auditV2,v2Audio,splitSpeech,isPinyinText} from './lesson-v2.js?v=v2-batch-029';
 // The 5.1–5.6 contract checks content coverage; it does not certify linguistic accuracy.
 export const sections=[['introduction','5.1 · Giới thiệu từ mới'],['meaning','5.2 · Hiểu nghĩa và khi nào dùng'],['usages','5.3 · Cách sử dụng'],['examples','5.4 · Ví dụ có phân tích'],['traps','5.5 · Bẫy và phân biệt'],['pronunciation','5.6 · Đọc đúng']];
 export const judgments={correct:'Đúng và phù hợp', 'wrong-grammar':'Câu sai ngữ pháp','different-meaning':'Đúng nhưng đổi nghĩa','wrong-intent':'Đúng nhưng không phù hợp ý định','unnatural':'Hiểu được nhưng kém tự nhiên trong ngữ cảnh này','overlap':'Vẫn đúng và gần nghĩa','context-needed':'Chưa đủ ngữ cảnh để kết luận'};
@@ -10,7 +10,7 @@ export function auditLesson(word){
  if(!l||l.version!==1){for(const [key,label]of sections)add(key,'Chưa biên soạn theo mẫu '+label);return {ready:false,issues,completeSections:0,totalSections:6};}
  const need=(o,keys,path)=>{for(const key of keys)if(!text(o?.[key]))add(path+'.'+key,'Thiếu nội dung '+key);};
  need(l.introduction,['scope'],'introduction');
- if(!list(word.intro)||!word.intro.length||word.intro.some(i=>!text(i.pinyin)||!text(i.meaning)))add('introduction.readings','Thiếu chữ, cách đọc hoặc nghĩa giới thiệu');
+ if(!list(word.intro)||!word.intro.length||word.intro.some(i=>!isPinyinText(i.pinyin)||!text(i.meaning)))add('introduction.readings','Thiếu Pinyin hợp lệ hoặc nghĩa giới thiệu');
  need(l.meaning,['scene','explanation','boundary','takeaway'],'meaning');
  if(!list(l.meaning?.conditions)||!l.meaning.conditions.length||l.meaning.conditions.some(x=>!text(x)))add('meaning.conditions','Thiếu điều kiện dùng cụ thể');
  for(const a of l.meaning?.alternatives||[])need(a,['zh','vi','purpose'],'meaning.alternatives');
