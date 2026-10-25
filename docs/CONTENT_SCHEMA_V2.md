@@ -34,7 +34,7 @@ Từ batch-006, verify còn đối chiếu cohortOrdinal với baseline và exam
 
 Verify V1 giữ nguyên tiêu chí cũ. Verify V2 kiểm tra hai ví dụ, hash, liên kết, ẩn lời giải/gợi ý khỏi HTML, tách câu hỏi/audio lời giải, loại Pinyin/Markdown khỏi TTS, câu sai giả lập phải cảnh báo và sửa, mẫu sai cấu trúc dữ liệu phải bị từ chối. DOM chạy entry point thật với API giọng giả lập để kiểm tra sự kiện và trạng thái; không chứng nhận bố cục trực quan hay TTS thiết bị.
 
-`quality-audit.mjs` là cổng cảnh báo biên tập riêng: tìm tự dùng trùng hoặc gần giống máy móc với ví dụ, đáp án không chứa từ/cấu trúc mục tiêu (kể cả dạng tách được), tiêu đề đối chiếu A/B thiếu câu minh họa một phía và câu sai thiếu correction. Cảnh báo cũ cần đọc lại, không tự động kết luận câu sai; batch mới bị chặn nếu có lỗi trùng nguyên văn, thiếu từ mục tiêu hoặc bẫy A/B thiếu ví dụ. `--self-test` bao phủ dữ liệu đúng, sai và ngoại lệ `targetForms`/`targetOptional`.
+`quality-audit.mjs` là cổng cảnh báo biên tập riêng: tìm tự dùng trùng hoặc gần giống máy móc với ví dụ, đáp án không chứa từ/cấu trúc mục tiêu (kể cả dạng tách được), thiếu một trong các trường đồng bộ `idea/frame/model/vi/criteria`, token tiếng Trung trong tiêu chí không có bằng chứng trong prompt/ý tưởng/khung/đáp án, tiêu đề đối chiếu A/B thiếu chính A hoặc B trong câu case tiếng Trung thật và câu sai thiếu correction. Cảnh báo cũ cần đọc lại, không tự động kết luận câu sai; batch mới bị chặn nếu có lỗi trùng nguyên văn, thiếu từ mục tiêu, đồng bộ trường không đủ, tiêu chí không có bằng chứng hoặc bẫy A/B thiếu ví dụ thật. `--self-test` bao phủ dữ liệu đúng, sai và ngoại lệ `targetForms`/`targetOptional`.
 
 ## Phát hành
 

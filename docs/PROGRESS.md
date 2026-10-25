@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 411/2224. Còn: 1813. Toàn khóa đủ cấu trúc: 421/2234.
+Đã bổ sung: 419/2224. Còn: 1805. Toàn khóa đủ cấu trúc: 429/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -41,17 +41,10 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-033 · mục 394–398 · 们、谁、介绍、他们、先生
 - batch-034 · mục 399–406 · 别人、女人、女生、她们、孩子、男人、男朋友、男生
 - batch-035 · mục 407–411 · 病人、老人、东、前、北
+- batch-036 · mục 412–419 · 南、右、左、西、一边、上边、下边、东边
 
 ## 18 mục tiếp theo
 
-- 南 · hz-h1-4d2b7224fe51
-- 右 · hz-h1-977cb3aa645d
-- 左 · hz-h1-3fcbee5efe81
-- 西 · hz-h1-cc0f255de687
-- 一边 · hz-h1-7d9a48f953e3
-- 上边 · hz-h1-8bede3b2b4f5
-- 下边 · hz-h1-a52ea19058bc
-- 东边 · hz-h1-b7fa06b6bd0b
 - 前边 · hz-h1-11e7aab403ec
 - 北边 · hz-h1-abf9fa23bc2d
 - 南边 · hz-h1-bd57f7a97a41
@@ -62,5 +55,13 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 旁边 · hz-h1-117df9943874
 - 西边 · hz-h1-b63a94e4101d
 - 这边 · hz-h1-41f3c53014e6
+- 那边 · hz-h1-923c93e0c1f4
+- 里边 · hz-h1-3aae8e430def
+- 九 · hz-h1-2e9645bd89d5
+- 站 · hz-h1-18a966b92e35
+- 跑 · hz-h1-68a5d7b2023a
+- 路 · hz-h1-e62037d83670
+- 车 · hz-h1-fc9be1e83197
+- 飞 · hz-h1-94b7a883cbe9
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
