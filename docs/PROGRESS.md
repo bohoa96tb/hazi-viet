@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 451/2224. Còn: 1773. Toàn khóa đủ cấu trúc: 461/2234.
+Đã bổ sung: 459/2224. Còn: 1765. Toàn khóa đủ cấu trúc: 469/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -49,17 +49,10 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-041 · mục 440–443 · 开车、打车、机场、机票
 - batch-042 · mục 444–447 · 汽车、火车、走路、路上
 - batch-043 · mục 448–451 · 路口、车上、车票、车站
+- batch-044 · mục 452–459 · 门票、飞机、马路、从、四、教、班、中学
 
 ## 18 mục tiếp theo
 
-- 门票 · hz-h1-7707793dd93a
-- 飞机 · hz-h1-a3fa19a2d979
-- 马路 · hz-h1-e310526bf2db
-- 从 · hz-h1-833cfba5397f
-- 四 · hz-h1-b1d95ca8d2a7
-- 教 · hz-h1-885bea78c7a0
-- 班 · hz-h1-6652d57fbe64
-- 中学 · hz-h1-a9ca6d4d9e45
 - 中学生 · hz-h1-a55dd2db14fc
 - 书包 · hz-h1-ce7a0879d5c8
 - 医生 · hz-h1-b3007167e541
@@ -70,5 +63,13 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 小学 · hz-h1-fc651f6913ad
 - 小学生 · hz-h1-1acb3aeb34b4
 - 工人 · hz-h1-0583391cd4f4
+- 教学楼 · hz-h1-542f6b71d047
+- 知识 · hz-h1-ff27472359fb
+- 网友 · hz-h1-57373f72f356
+- 读书 · hz-h1-f3da64b922cc
+- 课文 · hz-h1-6b3b6bebd907
+- 零 · hz-h1-d790ee92a345
+- 一下儿 · hz-h1-351dc62f50f1
+- 一会儿 · hz-h1-b0cef3baa976
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
