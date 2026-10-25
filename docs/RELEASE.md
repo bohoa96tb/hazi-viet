@@ -1,11 +1,11 @@
 
 
-# Batch-047 — đã phát hành và xác minh Pages
+# Batch-048 — đã phát hành và xác minh Pages
 
-- Content commit: `10996461ff7cd918a2de14803ea2e00c8b830056`; bổ sung 12 mục ordinal 482–493: 好听、好玩儿、好看、小孩儿、小朋友、常常、开玩笑、有时候、没事儿、没什么、玩儿、男孩儿. Tiến độ: 493/2.224, còn 1.731.
-- Phân loại: dễ gồm 小朋友、常常、有时候、没什么、玩儿、男孩儿; trung bình gồm 好听、好玩儿、好看、小孩儿、开玩笑、没事儿. Correction-008 sửa bản dịch 我今天去看医生 thành “Hôm nay tôi đi khám bệnh”, không tăng completedCount. Batch-047 có hai ví dụ chính và hai tình huống tự dùng; các câu gần/trùng đã được tự phản biện và sửa trước khi áp dụng.
-- Đã chạy `process-batch verify`, `verify-v2`, quality audit self-test, quality audit phạm vi 482–493 (không có cảnh báo mới), `test-dom.mjs`, kiểm tra cú pháp và `git diff --check`. Pages run [40169791825](https://github.com/bohoa96tb/hazi-viet/actions/runs/40169791825) completed/success đúng HEAD `dcc4285`.
-- Tệp khóa học live có 2.234 mục, 5.794.874 bytes, SHA-256 `02f963b284743fac5db72f958105a90bff2c868c86eae3d8498011a85a77e24b`; đủ 12 ID batch-047 đúng ordinal 482–493 và bản dịch 医生 đã sửa. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
+- Content commit: `da7ce9cd9519a6b1a7ff4b861df6d5bb6171d56f`; bổ sung 8 mục ordinal 494–501: 非常、下、两、低、克、卡、小、平. Tiến độ: 501/2.224, còn 1.723.
+- Phân loại: dễ gồm 非常、两、克; trung bình gồm 下、低、卡、小、平. Batch-048 giải thích riêng các bẫy mức độ/tần suất, hướng đối lập, 两/二, đơn vị khối lượng, thẻ/vé, kích thước/cách gọi và phẳng/thấp.
+- Đã chạy `process-batch verify`, `verify-v2`, quality audit self-test, quality audit phạm vi 494–501 (không có cảnh báo mới), `test-dom.mjs` với kiểm tra chuyển cấp HSK, kiểm tra cú pháp và `git diff --check`. Pages run [40170220256](https://github.com/bohoa96tb/hazi-viet/actions/runs/40170220256) completed/success đúng HEAD `7f5133b`.
+- Tệp khóa học live có 2.234 mục, 5.850.289 bytes, SHA-256 `24a835c6fb4fd2778331c180c320f943cc56cd55ff4c678e3d20218b96e726d9`; đủ 8 ID batch-048 đúng ordinal 494–501. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
 
 # Batch-045 — đã phát hành và xác minh Pages
 
