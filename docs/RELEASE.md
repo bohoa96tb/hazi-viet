@@ -1,5 +1,15 @@
 
 
+# Batch-036 và correction-004 — chờ phát hành Pages
+
+- Commit nội dung cục bộ: `c1b87a3`; đã push nhánh `content/vocabulary-2224`, chưa fast-forward `main` ở thời điểm ghi mục này.
+- Sửa 18 bài cũ ở ordinal 382–419 về đồng bộ đề bài–gợi ý–khung–đáp án–bản dịch–criteria; sửa cụ thể 400 女人, 402 她们 và 404 男人. `completedCount` chỉ tăng do bài mới.
+- Bổ sung 8 mục ordinal 412–419: 南、右、左、西、一边、上边、下边、东边. Tiến độ: 419/2.224, còn 1.805; toàn khóa 429/2.234 bài đủ cấu trúc.
+- Phân loại: dễ gồm 南、右、左、西、上边、下边、东边; trung bình gồm 一边 vì có mẫu 一边…一边… và đối chiếu với 旁边. Đã tự phản biện hai lượt.
+- Nguồn đã đọc: 汉典 cho pinyin/nghĩa từng mục; MDBG bị chặn tự động trong lượt này và không được ghi là nguồn đã đọc cho batch-036. Chưa phản biện giáo viên độc lập.
+- Validator mới kiểm đồng bộ self-use và yêu cầu bẫy A/B có A và B trong câu case tiếng Trung thật; quality-audit lịch sử vẫn có cảnh báo cần biên tập thủ công.
+- Kiểm cục bộ: `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 382–419, `test-dom.mjs`, `node --check`, `git diff --check` đều đạt. Chưa xác minh live/Pages, TTS Android hoặc bố cục trực quan.
+
 # Batch-035 — đã phát hành và xác minh Pages
 
 - Commit nội dung: `fd6307b63c8ea04ab66e2ce00664e04f8fb56a55`; đã fast-forward cả `content/vocabulary-2224` và `main`.
