@@ -15,7 +15,7 @@ Cập nhật: 2026-10-25. Chế độ hiện hành: `supplementation` (đã qua 
 
 - Phạm vi baseline: 2.224 mục; 435 mục đã có nội dung bổ sung; còn 1.789 mục.
 - Tiến độ này độc lập với tiến độ rà soát ở trên và không được dùng để tuyên bố đã rà 367 bài.
-- Trạng thái local: correction-006 trên content commit `52ef968` sửa 那边, rà 428–435, sửa ownership batch-038/039 và nâng semantic validator; completedCount giữ 435/2.224, còn 1.789. Tracker/main/Pages của correction này đang chờ cập nhật và xác minh. Đợt kế tiếp bắt đầu từ ordinal 436 theo ID trong checkpoint.
+- Trạng thái: correction-006 trên content commit `52ef968`, tracker `033e25f` đã fast-forward cả `content/vocabulary-2224` và `main`; Pages run `40161612498` success, live course khớp SHA `cb94aa73e46928ec0d326b7b1760fd1e961bbffc985ee6e167f6f59a5f621337`. CompletedCount giữ 435/2.224, còn 1.789; đợt kế tiếp bắt đầu từ ordinal 436 theo ID trong checkpoint.
 
 ## Giao diện và chức năng
 

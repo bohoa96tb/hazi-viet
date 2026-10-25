@@ -10,9 +10,9 @@
   "supplementationStatus": "in-progress",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
-  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-006 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–430; batch-034 đến batch-039 đã bổ sung, tự phản biện. Tiến độ supplementation là 435/2.224, còn 1.789. Content commit 52ef968 đã push content; tracker/main/Pages/live đang chờ cập nhật và xác minh; tiến độ supplementation không đại diện cho tiến độ rà soát.",
+  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-006 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–430; batch-034 đến batch-039 đã bổ sung, tự phản biện. Tiến độ supplementation là 435/2.224, còn 1.789. Tracker 033e25f đã push main; Pages run 40161612498 success và live course đã khớp hash; tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "f64bba223fa9b10133bea005aae7437b7ecdcd08fd67a91b5dfef31986fa28f5",
+    "progress.json": "029b9166e7e2bad2369022d8938373085217f14bbc79935f6f84f8eaf9430631",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "cb94aa73e46928ec0d326b7b1760fd1e961bbffc985ee6e167f6f59a5f621337",
     "data/vocabulary/content-audit.json": "ee506b30fb8b181356210a4c9c04731523fc5f6e6bbead00cbb92a06ab3a44df"
@@ -51,7 +51,7 @@
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
   "lastVerifiedContentCommit": "52ef9688c3b4206f0d58fd2fa8db64c7d09bffbe",
-  "priorVerificationNote": "Correction-006 và semantic audit nhóm 428–435 đã qua verify cục bộ trên content commit 52ef968; đang chờ tracker/main/Pages/live mới. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
+  "priorVerificationNote": "Correction-006 và semantic audit nhóm 428–435 đã qua verify cục bộ trên content commit 52ef968. Pages run 40161612498 success đúng tracker 033e25f; live course 5.389.793 bytes khớp SHA-256 cb94aa73e46928ec0d326b7b1760fd1e961bbffc985ee6e167f6f59a5f621337. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[435:]",
@@ -75,10 +75,10 @@
       "hz-h1-7707793dd93a",
       "hz-h1-a3fa19a2d979"
     ],
-    "releaseState": "pending-pages-verification",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null,
-    "liveCourseSha256": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40161612498,
+    "verifiedPagesCommit": "033e25f489aeb7633f08c1c211e1174eff0be713",
+    "liveCourseSha256": "cb94aa73e46928ec0d326b7b1760fd1e961bbffc985ee6e167f6f59a5f621337"
   },
   "batchStatus": {
     "batch": "batch-039",
@@ -102,9 +102,9 @@
     ],
     "publishedIds": [],
     "teacherReviewedIds": [],
-    "releaseState": "pending-pages-verification",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40161612498,
+    "verifiedPagesCommit": "033e25f489aeb7633f08c1c211e1174eff0be713"
   },
   "reviewStatus": {
     "batch": "review-022",

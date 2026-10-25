@@ -1,10 +1,10 @@
 
 
-# Correction-006 — đang chờ phát hành Pages
+# Correction-006 — đã phát hành và xác minh Pages
 
 - Content commit: `52ef9688c3b4206f0d58fd2fa8db64c7d09bffbe`; sửa bài 430 那边 để đề, gợi ý, khung, đáp án, bản dịch và criteria cùng nghĩa “bên kia”.
 - Sửa ownership nguồn: `batch-038.json` đúng 4 mục 428–431; `batch-039.json` đúng 4 mục 432–435, không trùng ID. Đồng bộ editorialStatus 432–435 về batch-039; completedCount vẫn 435/2.224.
-- Quality audit thêm kiểm cặp đối lập 这边/那边, 左/右, 上/下, 前/后, 里/外, 有/没有; nhóm 428–435 đã qua semantic audit không cảnh báo. Pages/live sẽ ghi sau tracker mới.
+- Quality audit thêm kiểm cặp đối lập 这边/那边, 左/右, 上/下, 前/后, 里/外, 有/没有; nhóm 428–435 đã qua semantic audit không cảnh báo. Pages run `40161612498` success đúng tracker `033e25f`; live course 5.389.793 bytes khớp SHA-256 `cb94aa73e46928ec0d326b7b1760fd1e961bbffc985ee6e167f6f59a5f621337`.
 
 # Correction-005 và batch-038/039 — đã phát hành và xác minh Pages
 
