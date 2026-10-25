@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 427/2224. Còn: 1797. Toàn khóa đủ cấu trúc: 437/2234.
+Đã bổ sung: 435/2224. Còn: 1789. Toàn khóa đủ cấu trúc: 445/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -43,17 +43,11 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-035 · mục 407–411 · 病人、老人、东、前、北
 - batch-036 · mục 412–419 · 南、右、左、西、一边、上边、下边、东边
 - batch-037 · mục 420–427 · 前边、北边、南边、右边、后边、外边、左边、旁边
+- batch-038 · mục 428–431 · 西边、这边、那边、里边
+- batch-039 · mục 432–435 · 九、站、跑、路
 
 ## 18 mục tiếp theo
 
-- 西边 · hz-h1-b63a94e4101d
-- 这边 · hz-h1-41f3c53014e6
-- 那边 · hz-h1-923c93e0c1f4
-- 里边 · hz-h1-3aae8e430def
-- 九 · hz-h1-2e9645bd89d5
-- 站 · hz-h1-18a966b92e35
-- 跑 · hz-h1-68a5d7b2023a
-- 路 · hz-h1-e62037d83670
 - 车 · hz-h1-fc9be1e83197
 - 飞 · hz-h1-94b7a883cbe9
 - 上车 · hz-h1-81c2d35e787c
@@ -64,5 +58,13 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 机票 · hz-h1-70c28006d532
 - 汽车 · hz-h1-2a53b8190d1b
 - 火车 · hz-h1-3ae826b4f4a7
+- 走路 · hz-h1-60ab04a03dbe
+- 路上 · hz-h1-92908d005e8b
+- 路口 · hz-h1-e7f73ac1c516
+- 车上 · hz-h1-b37f01b392ea
+- 车票 · hz-h1-842fc9e24059
+- 车站 · hz-h1-1ee7b5f8677b
+- 门票 · hz-h1-7707793dd93a
+- 飞机 · hz-h1-a3fa19a2d979
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.

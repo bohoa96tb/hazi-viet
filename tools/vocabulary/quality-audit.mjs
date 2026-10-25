@@ -22,6 +22,60 @@ const pairTerms = title => {
 };
 const targetForms = (word,answer) => answer.targetForms?.length ? answer.targetForms : word.lesson.targetForms?.length ? word.lesson.targetForms : [word.hanzi];
 const targetSatisfied = (model,forms) => forms.some(form=>String(form)&&model.includes(form)) || forms.some(form=>String(form).length>1&&[...form].every(char=>model.includes(char)));
+const semanticRules=[
+  {kind:'role',id:'first-person',prompt:/\btôi\b/iu,forms:['我']},
+  {kind:'role',id:'listener',prompt:/\bbạn\b(?!\s*(?:trai|gái|bè|của))/iu,forms:['你']},
+  {kind:'role',id:'we',prompt:/\bchúng ta\b/iu,forms:['我们']},
+  {kind:'role',id:'he',prompt:/\banh ấy\b/iu,forms:['他']},
+  {kind:'role',id:'she',prompt:/\bcô ấy\b/iu,forms:['她']},
+  {kind:'role',id:'older-sister',prompt:/\bchị gái\b/iu,forms:['姐姐']},
+  {kind:'role',id:'younger-sister',prompt:/\bem gái\b/iu,forms:['妹妹']},
+  {kind:'action',id:'stand',prompt:/đứng/iu,forms:['站']},
+  {kind:'action',id:'sit',prompt:/ngồi/iu,forms:['坐']},
+  {kind:'action',id:'turn-right',prompt:/rẽ phải/iu,forms:['转','右']},
+  {kind:'action',id:'left-hand',prompt:/tay trái/iu,forms:['左手']},
+  {kind:'action',id:'open-door',prompt:/mở cửa/iu,forms:['开门']},
+  {kind:'action',id:'wait',prompt:/đợi/iu,forms:['等']},
+  {kind:'object',id:'wait-for-you',prompt:/đợi bạn/iu,forms:['你']},
+  {kind:'object',id:'wait-for-customer',prompt:/đợi khách/iu,forms:['客人']},
+  {kind:'object',id:'introduce-your-friend',prompt:/giới thiệu bạn của mình/iu,forms:['朋友']},
+  {kind:'action',id:'do-not-enter',prompt:/đừng vào/iu,forms:['别进']},
+  {kind:'action',id:'write-comment',prompt:/viết nhận xét/iu,forms:['写','评论']},
+  {kind:'action',id:'drink-coffee',prompt:/uống cà phê/iu,forms:['喝咖啡']},
+  {kind:'action',id:'read-book',prompt:/đọc sách/iu,forms:['看书']},
+  {kind:'action',id:'walk-and-call',prompt:/đi bộ/iu,forms:['走路','走']},
+  {kind:'action',id:'call',prompt:/gọi điện thoại/iu,forms:['打电话']},
+  {kind:'action',id:'go-home',prompt:/về nhà/iu,forms:['回家']},
+  {kind:'place',id:'hospital',prompt:/bệnh viện/iu,forms:['医院']},
+  {kind:'place',id:'station',prompt:/nhà ga/iu,forms:['车站']},
+  {kind:'place',id:'school',prompt:/trường học/iu,forms:['学校']},
+  {kind:'place',id:'classroom',prompt:/lớp học/iu,forms:['教室']},
+  {kind:'place',id:'shop',prompt:/cửa hàng/iu,forms:['商店']},
+  {kind:'place',id:'park',prompt:/công viên/iu,forms:['公园']},
+  {kind:'place',id:'restaurant',prompt:/nhà hàng/iu,forms:['饭店']},
+  {kind:'place',id:'cafe',prompt:/quán cà phê/iu,forms:['咖啡店']},
+  {kind:'place',id:'bookshop',prompt:/hiệu sách/iu,forms:['书店']},
+  {kind:'place',id:'post-office',prompt:/bưu điện/iu,forms:['邮局']},
+  {kind:'place',id:'crossroads',prompt:/ngã tư/iu,forms:['路口']},
+  {kind:'place',id:'door-at-home',prompt:/cửa nhà/iu,forms:['家门','门']},
+  {kind:'place',id:'door',prompt:/\bcửa\b(?!\s*(?:hàng|sổ|nhà))/iu,forms:['门']},
+  {kind:'place',id:'cabinet',prompt:/tủ/iu,forms:['柜子']},
+  {kind:'place',id:'window',prompt:/cửa sổ/iu,forms:['窗户']},
+  {kind:'place',id:'bed',prompt:/giường/iu,forms:['床']},
+  {kind:'place',id:'post',prompt:/bài đăng/iu,forms:['文章']},
+  {kind:'place',id:'bag',prompt:/\btúi\b/iu,forms:['包']},
+  {kind:'place',id:'bicycle',prompt:/xe đạp/iu,forms:['自行车']},
+  {kind:'place',id:'car',prompt:/chiếc xe/iu,forms:['车']},
+  {kind:'direction',id:'south',prompt:/(?:phía|hướng) nam/iu,forms:['南']},
+  {kind:'direction',id:'north',prompt:/(?:phía|hướng) bắc/iu,forms:['北']},
+  {kind:'direction',id:'east',prompt:/(?:phía|hướng) đông/iu,forms:['东']},
+  {kind:'direction',id:'west',prompt:/(?:phía|hướng) tây/iu,forms:['西']},
+  {kind:'direction',id:'right',prompt:/bên phải/iu,forms:['右']},
+  {kind:'direction',id:'left',prompt:/bên trái/iu,forms:['左']},
+  {kind:'direction',id:'above',prompt:/phía trên/iu,forms:['上']},
+  {kind:'direction',id:'below',prompt:/phía dưới/iu,forms:['下']},
+  {kind:'direction',id:'beside',prompt:/bên cạnh/iu,forms:['旁边']}
+];
 
 export function qualityWarnings(words,{nearThreshold=0.78}={}) {
   const warnings=[];
@@ -45,6 +99,7 @@ export function qualityWarnings(words,{nearThreshold=0.78}={}) {
       for(const criterion of answer.criteria??[]) for(const token of String(criterion).match(/[\p{Script=Han}]+/gu)??[]){
         if(token.length>0&&!evidence.includes(token)) warnings.push({kind:'self-criteria-token-missing',id:word.id,ordinal:word.lesson.cohortOrdinal,hanzi:word.hanzi,selfId:use.id,criterion,token,model:answer.model});
       }
+      for(const rule of semanticRules) if(rule.prompt.test(use.prompt)&&!rule.forms.some(form=>String(answer.model??'').includes(form))) warnings.push({kind:'self-prompt-model-anchor-missing',anchorKind:rule.kind,anchorId:rule.id,id:word.id,ordinal:word.lesson.cohortOrdinal,hanzi:word.hanzi,selfId:use.id,prompt:use.prompt,model:answer.model,expected:rule.forms});
     }
     for(const trap of word.lesson.traps??[]){
       const terms=pairTerms(trap.title);
@@ -63,7 +118,7 @@ export function qualityWarnings(words,{nearThreshold=0.78}={}) {
 
 export function assertFreshV2(words) {
   const warnings=qualityWarnings(words);
-  const blocking=warnings.filter(x=>['self-example-exact','self-target-missing','self-sync-missing-answer','self-sync-missing-field','self-criteria-token-missing','trap-pair-missing-case-example','wrong-grammar-missing-correction'].includes(x.kind));
+  const blocking=warnings.filter(x=>['self-example-exact','self-target-missing','self-sync-missing-answer','self-sync-missing-field','self-criteria-token-missing','self-prompt-model-anchor-missing','trap-pair-missing-case-example','wrong-grammar-missing-correction'].includes(x.kind));
   assert.equal(blocking.length,0,'New V2 quality warnings: '+JSON.stringify(blocking));
   return warnings;
 }
@@ -76,6 +131,7 @@ function selfTest(){
   assert.throws(()=>assertFreshV2([base]));
   const valid=structuredClone(base);valid.lesson.selfAnswers.s1={idea:'Dùng 词 trong câu mới.',frame:'...词...',model:'Tôi dùng 词 trong câu mới.',vi:'Tôi dùng từ này trong câu mới.',criteria:['Có 词.'],targetForms:['词']};valid.lesson.traps=[];assert.equal(qualityWarnings([valid]).filter(x=>x.kind==='self-example-exact'||x.kind==='self-target-missing'||x.kind.startsWith('self-sync-')||x.kind==='self-criteria-token-missing').length,0);
   assert.doesNotThrow(()=>assertFreshV2([valid]));
+  const mismatch=structuredClone(valid);mismatch.lesson.selfUse[0].prompt='Nói tôi đứng ở bệnh viện đợi bạn.';mismatch.lesson.selfAnswers.s1.model='他在公园用词。';assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='first-person'));assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='stand'));assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='hospital'));assert(qualityWarnings([mismatch]).some(x=>x.kind==='self-prompt-model-anchor-missing'&&x.anchorId==='wait-for-you'));assert.throws(()=>assertFreshV2([mismatch]));
   console.log('PASS quality-audit self-tests: exact/near/target/trap/correction paths.');
 }
 if(process.argv.includes('--self-test')) selfTest();

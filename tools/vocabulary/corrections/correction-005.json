@@ -1,0 +1,47 @@
+{
+  "id": "correction-005",
+  "date": "2026-10-25",
+  "standard": "CONTENT_STANDARD_V2-2026-10-25-review-first",
+  "wordIds": [
+    "hz-h1-3fcbee5efe81",
+    "hz-h1-a52ea19058bc",
+    "hz-h1-c14f74be3d43"
+  ],
+  "scope": "Rà đồng bộ semantic prompt–idea–frame–model–vi–criteria cho các tình huống tự dùng của batch-036 và batch-037.",
+  "changes": [
+    {
+      "wordId": "hz-h1-3fcbee5efe81",
+      "ordinal": 414,
+      "issue": "Đề yêu cầu người nghe nói về bạn dùng tay trái, nhưng mẫu cũ dùng 我.",
+      "resolution": "Đổi prompt, gợi ý, khung, mẫu và bản dịch sang chủ thể 你; giữ mục tiêu 左手 và hành động 开门."
+    },
+    {
+      "wordId": "hz-h1-a52ea19058bc",
+      "ordinal": 418,
+      "issue": "Đề yêu cầu bạn viết nhận xét, nhưng mẫu cũ dùng 我.",
+      "resolution": "Đổi prompt, gợi ý, khung, mẫu và bản dịch sang chủ thể 你; giữ mốc 文章下边."
+    },
+    {
+      "wordId": "hz-h1-c14f74be3d43",
+      "ordinal": 425,
+      "issue": "Đề yêu cầu tôi đứng ngoài cửa đợi bạn, nhưng mẫu cũ nói bảo vệ đợi khách và không giữ đủ hành động/người tham gia.",
+      "resolution": "Viết lại tình huống thành tôi đứng ngoài cửa nhà đợi bạn và nhắc bạn chưa vào; mẫu dùng 我、站在、家门外边、等你、别进来."
+    }
+  ],
+  "verification": {
+    "authorship": "Tự biên soạn và tự phản biện; chưa phản biện giáo viên độc lập.",
+    "sourcesRead": [
+      "data/vocabulary/hanzii-course.json",
+      "tools/vocabulary/batches/batch-036.json",
+      "tools/vocabulary/batches/batch-037.json",
+      "https://www.zdic.net/hans/左",
+      "https://www.zdic.net/hans/下边",
+      "https://www.zdic.net/hans/外边"
+    ],
+    "notVerified": [
+      "TTS Android trên thiết bị thật",
+      "Phản biện giáo viên độc lập"
+    ]
+  },
+  "completedCountChange": 0
+}
