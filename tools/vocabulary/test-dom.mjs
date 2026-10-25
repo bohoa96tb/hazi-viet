@@ -31,7 +31,7 @@ const old=p.completedIds[0];$('#wordSearch').value=d.words.find(w=>w.id===old).h
 // Exercise every new lesson through the real entry point, including empty traps.
 for(const id of p.batches.at(-1).wordIds){
  const word=d.words.find(w=>w.id===id);
- click('[data-action="close"]');$('#wordSearch').value=word.hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
+ click('[data-action="close"]');click('[data-level="'+word.level+'"]');$('#wordSearch').value=word.hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
  const target='[data-start="'+id+'"]';
  for(let page=0;!$(target)&&page<d.lessons.length;page++){assert(!$('[data-lesson="1"]').disabled,'Target must be reachable in filtered pages: '+id);click('[data-lesson="1"]');}
  click(target);
