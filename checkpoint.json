@@ -10,12 +10,12 @@
   "supplementationStatus": "in-progress",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
-  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-008 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–462; batch-034 đến batch-047 đã bổ sung, tự phản biện. Tiến độ supplementation là 493/2.224, còn 1.731; batch-047 đang chờ commit và xác minh Pages. Tiến độ supplementation không đại diện cho tiến độ rà soát.",
+  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-008 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–462; batch-034 đến batch-047 đã bổ sung, tự phản biện. Tiến độ supplementation là 493/2.224, còn 1.731; batch-047 đã commit và xác minh Pages run 40169791825 đúng HEAD dcc4285. Tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "7f6bce7883dddfec53af9653b99a7065afc993acd00dc40e9165937dd3cfcde6",
+    "progress.json": "2f75538d6eab323f48433d6f0e7013bc48cdee8985fe8cf8f0e6078d1308c862",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
-    "data/vocabulary/hanzii-course.json": "501bd122c8fb4b16030159ca0124b62c5675cb1f7ab61518526a5c6dec3ce0fc",
-    "data/vocabulary/content-audit.json": "f910e814e82fc7079abc5986105f858a67376717def3b3bd1807737e46c3a025"
+    "data/vocabulary/hanzii-course.json": "02f963b284743fac5db72f958105a90bff2c868c86eae3d8498011a85a77e24b",
+    "data/vocabulary/content-audit.json": "868f6b82891b672953b0cffd6a22c4f9e89d7921f595c6bbfffc15874ded2596"
   },
   "scopeTotal": 2224,
   "completedCount": 493,
@@ -63,21 +63,21 @@
       "hz-h2-eefe7f470909",
       "hz-h2-2bdabe19c71c"
     ],
-    "releaseState": "pending-pages",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null,
-    "liveCourseSha256": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40169791825,
+    "verifiedPagesCommit": "dcc4285cabe23bb5503f842310b27a36bc5ea1ff",
+    "liveCourseSha256": "02f963b284743fac5db72f958105a90bff2c868c86eae3d8498011a85a77e24b"
   },
   "batchStatus": {
     "batch": "batch-047",
     "authoredIds": ["hz-h1-341ca6659178", "hz-h1-a43b25f0c825", "hz-h1-881f345b6126", "hz-h1-1fe9f5395906", "hz-h1-af7ba840a323", "hz-h1-74b2bd2425de", "hz-h1-f3c61ec69d2c", "hz-h1-1588acfb3631", "hz-h1-c7c0315f63cf", "hz-h1-d2d2c346c745", "hz-h1-bc3b6c328ee7", "hz-h1-12cdf7d590f3"],
     "automatedVerifiedIds": ["hz-h1-341ca6659178", "hz-h1-a43b25f0c825", "hz-h1-881f345b6126", "hz-h1-1fe9f5395906", "hz-h1-af7ba840a323", "hz-h1-74b2bd2425de", "hz-h1-f3c61ec69d2c", "hz-h1-1588acfb3631", "hz-h1-c7c0315f63cf", "hz-h1-d2d2c346c745", "hz-h1-bc3b6c328ee7", "hz-h1-12cdf7d590f3"],
     "editorialReviewedIds": ["hz-h1-341ca6659178", "hz-h1-a43b25f0c825", "hz-h1-881f345b6126", "hz-h1-1fe9f5395906", "hz-h1-af7ba840a323", "hz-h1-74b2bd2425de", "hz-h1-f3c61ec69d2c", "hz-h1-1588acfb3631", "hz-h1-c7c0315f63cf", "hz-h1-d2d2c346c745", "hz-h1-bc3b6c328ee7", "hz-h1-12cdf7d590f3"],
-    "publishedIds": [],
+    "publishedIds": ["hz-h1-341ca6659178", "hz-h1-a43b25f0c825", "hz-h1-881f345b6126", "hz-h1-1fe9f5395906", "hz-h1-af7ba840a323", "hz-h1-74b2bd2425de", "hz-h1-f3c61ec69d2c", "hz-h1-1588acfb3631", "hz-h1-c7c0315f63cf", "hz-h1-d2d2c346c745", "hz-h1-bc3b6c328ee7", "hz-h1-12cdf7d590f3"],
     "teacherReviewedIds": [],
-    "releaseState": "pending-pages",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40169791825,
+    "verifiedPagesCommit": "dcc4285cabe23bb5503f842310b27a36bc5ea1ff"
   },
   "reviewStatus": {
     "batch": "review-022",
