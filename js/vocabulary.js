@@ -1,5 +1,5 @@
-import {auditLesson,sections as standardSections,lessonAudio,checkAudio} from './lesson-standard.js?v=v2-pilot-de2';
-import {renderStandardLesson} from './lesson-standard-view.js?v=v2-pilot-de2';
+import {auditLesson,sections as standardSections,lessonAudio,checkAudio,tierSplit} from './lesson-standard.js?v=v2-two-tier-de';
+import {renderStandardLesson} from './lesson-standard-view.js?v=v2-two-tier-de';
 import {statusLabels,studySteps,moveStep,coursePages,validateCourse,meaningQuiz} from './vocabulary-course.js?v=v2-batch-007';
 import {audioModes,lessonsOf,columnsOf,selectAudioWords,buildPlaylist,createAudioPlayer,chooseVoice,voiceMatches,speechErrorMessage} from './vocabulary-audio.js?v=v2-batch-007';
 import {createProgress,intervals} from './vocabulary-progress.js?v=4.0.0';
@@ -112,7 +112,7 @@ document.addEventListener('click',e=>{
  if(d.v2Hint){const key=selected.id+':hint:'+d.v2Hint;checkState.set(key,Math.min(3,(checkState.get(key)||0)+1));redrawBody();return}
  if(d.v2Unlock){checkState.set(selected.id+':self-unlocked',true);redrawBody();return}
  if(d.lessonView){lessonView=d.lessonView;redrawBody();return}
- if(d.lessonPage){const key=d.lessonPage,total=key==='usage'?selected.lesson.usages.length:key==='example'?selected.lesson.examples.length:selected.lesson.traps.length,delta=Number(d.delta);if(key==='usage')usageIndex=Math.max(0,Math.min(total-1,usageIndex+delta));else if(key==='example')standardExampleIndex=Math.max(0,Math.min(total-1,standardExampleIndex+delta));else trapIndex=Math.max(0,Math.min(total-1,trapIndex+delta));redrawBody();return}
+ if(d.lessonPage){const key=d.lessonPage,total=key==='usage'?selected.lesson.usages.length:key==='example'?selected.lesson.examples.length:tierSplit(selected).tier1Traps.length,delta=Number(d.delta);if(key==='usage')usageIndex=Math.max(0,Math.min(total-1,usageIndex+delta));else if(key==='example')standardExampleIndex=Math.max(0,Math.min(total-1,standardExampleIndex+delta));else trapIndex=Math.max(0,Math.min(total-1,trapIndex+delta));redrawBody();return}
  if(d.lessonStop){stop();return}
  if(d.lessonAudio){playLessonSegments(lessonAudio(selected,d.lessonAudio,Number(d.lessonIndex||0)));return}
  if(d.standardCheck){checkState.set(selected.id+':'+d.standardCheck,Number(d.checkChoice));redrawBody();return}
@@ -197,6 +197,6 @@ function handlePlayer(action){
 window.speechSynthesis?.addEventListener('voiceschanged',showVoices);
 document.addEventListener('change',e=>{const key=e.target.dataset.display;if(!key)return;display[key]=e.target.checked;if(!Object.values(display).some(Boolean)){display[key]=true;e.target.checked=true;notify('Giữ ít nhất một mục hiển thị để chọn được từ.');return}saveDisplay();renderList()});
 
-async function boot(){try{const r=await fetch('./data/vocabulary/hanzii-course.json?v=pilot-de2');if(!r.ok)throw Error('Thiếu file data/vocabulary/hanzii-course.json.');dataset=validateCourse(await r.json());words=dataset.words;audioOptions.to=words.length;const p=new URLSearchParams(location.search),id=p.get('word'),saved=words.find(w=>w.id===id),step=Number(p.get('step')||0);if(saved)courseLevel=saved.level;route();if(saved){lessonPage=coursePages(dataset,filtered()).findIndex(l=>l.wordIds.includes(saved.id));openWord(saved.id,{stage:step,queue:lessonWords().map(w=>w.id)})}else if(id)notify('Từ được liên kết chưa có trong khóa học.')}catch(err){main.innerHTML=`<section class="panel"><h1>Chưa mở được bài học</h1><p>${esc(err.message)}</p><p>Hãy mở qua địa chỉ GitHub Pages, không mở file HTML trực tiếp.</p><button class="primary" id="retryLoad">Thử lại</button></section>`;$('#retryLoad').onclick=()=>location.reload()}}
+async function boot(){try{const r=await fetch('./data/vocabulary/hanzii-course.json?v=two-tier-de');if(!r.ok)throw Error('Thiếu file data/vocabulary/hanzii-course.json.');dataset=validateCourse(await r.json());words=dataset.words;audioOptions.to=words.length;const p=new URLSearchParams(location.search),id=p.get('word'),saved=words.find(w=>w.id===id),step=Number(p.get('step')||0);if(saved)courseLevel=saved.level;route();if(saved){lessonPage=coursePages(dataset,filtered()).findIndex(l=>l.wordIds.includes(saved.id));openWord(saved.id,{stage:step,queue:lessonWords().map(w=>w.id)})}else if(id)notify('Từ được liên kết chưa có trong khóa học.')}catch(err){main.innerHTML=`<section class="panel"><h1>Chưa mở được bài học</h1><p>${esc(err.message)}</p><p>Hãy mở qua địa chỉ GitHub Pages, không mở file HTML trực tiếp.</p><button class="primary" id="retryLoad">Thử lại</button></section>`;$('#retryLoad').onclick=()=>location.reload()}}
 boot();
 
