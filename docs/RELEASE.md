@@ -1,5 +1,13 @@
 
 
+# Batch-037 — chờ phát hành Pages
+
+- Commit nội dung cục bộ: `c70938f8ab5a21b8d45856fe060aec54e336f959`; đã push nhánh `content/vocabulary-2224`, chưa fast-forward `main` ở thời điểm ghi mục này.
+- Bổ sung 8 mục ordinal 420–427: 前边、北边、南边、右边、后边、外边、左边、旁边. Tiến độ: 427/2.224, còn 1.797; toàn khóa 437/2.234 bài đủ cấu trúc.
+- Phân loại: dễ gồm 前边、北边、南边、右边、后边、左边; trung bình gồm 外边、旁边 vì cần phân biệt mốc/vùng hoặc đối chiếu chức năng. Đã tự phản biện hai lượt.
+- Nguồn đã đọc: 汉典 cho pinyin/nghĩa từng mục; MDBG bị chặn tự động trong lượt này và không được ghi là nguồn đã đọc cho batch-037. Chưa phản biện giáo viên độc lập.
+- Kiểm cục bộ: `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 382–427, `test-dom.mjs`, `node --check`, `git diff --check` đều đạt. Chưa xác minh live/Pages, TTS Android hoặc bố cục trực quan.
+
 # Batch-036 và correction-004 — đã phát hành và xác minh Pages
 
 - Commit nội dung: `c1b87a37eab4e0927f36e7e97ed42348ddd84c5b`; tracker cuối: `b58001ab42f6d515c70573905742e47cd958dfae`; cả `content/vocabulary-2224` và `main` đã fast-forward.
