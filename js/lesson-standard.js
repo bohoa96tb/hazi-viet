@@ -1,4 +1,4 @@
-import {auditV2,v2Audio,splitSpeech,isPinyinText,tierSplit} from './lesson-v2.js?v=v2-two-tier-de';
+import {auditV2,v2Audio,splitSpeech,isPinyinText,tierSplit} from './lesson-v2.js?v=v2-321-de';
 export {tierSplit};
 // The 5.1–5.6 contract checks content coverage; it does not certify linguistic accuracy.
 export const sections=[['introduction','5.1 · Giới thiệu từ mới'],['meaning','5.2 · Hiểu nghĩa và khi nào dùng'],['usages','5.3 · Cách sử dụng'],['examples','5.4 · Ví dụ có phân tích'],['traps','5.5 · Bẫy và phân biệt'],['pronunciation','5.6 · Đọc đúng']];

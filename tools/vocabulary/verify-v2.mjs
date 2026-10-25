@@ -10,10 +10,15 @@ export function verifyV2(w){
  const render=(word,stage,state=new Map(),extra={})=>renderStandardLesson(word,{stage,checkState:state,esc,hanzi:esc,rich:esc,...extra});
  for(const stage of [0,1,2,3])assert(render(w,stage)?.length);
  assert(!render(w,1).includes('data-lesson-view'));
- for(const e of w.lesson.examples)assert.equal(render(w,1).split(esc(e.zh)).length-1,1,'Main example displayed exactly once');
+ const exampleStage=w.lesson.readingBlocks?0:1;
+ for(const e of w.lesson.examples)assert.equal(render(w,exampleStage).split(esc(e.zh)).length-1,1,'Main example displayed exactly once');
+ if(w.lesson.readingBlocks){
+  for(const b of w.lesson.readingBlocks)assert(render(w,0).includes(esc(b.heading)),'Reading block heading shown');
+  for(const e of w.lesson.examples)assert(!render(w,1).includes(esc(e.zh)),'Reading-block example not repeated in stage 1');
+ }
  for(let i=0;i<w.lesson.traps.length;i++)assert(render(w,2,new Map(),{trapIndex:i}).includes(esc(w.lesson.traps[i].title)));
  const full=lessonAudio(w);assert(full.length&&full.every(s=>['vi-VN','zh-CN'].includes(s.lang)&&!/[\*_`#]/.test(s.text)));
- for(let i=0;i<2;i++)assert.deepEqual(lessonAudio(w,'example-only',i).map(s=>[s.lang,s.text]),[['zh-CN',w.lesson.examples[i].zh]]);
+ for(let i=0;i<w.lesson.examples.length;i++)assert.deepEqual(lessonAudio(w,'example-only',i).map(s=>[s.lang,s.text]),[['zh-CN',w.lesson.examples[i].zh]]);
  for(const e of w.lesson.examples){assert.equal(full.filter(s=>s.label==='Câu mẫu'&&s.text===e.zh).length,1);if(e.pinyin)assert(full.every(s=>!s.text.includes(e.pinyin)))}
  assert(full.every(s=>!w.intro.some(i=>s.text.split(/[^\p{L}\p{M}]+/u).includes(i.pinyin))));
  for(const t of w.lesson.traps)for(const c of t.cases.filter(c=>c.judgment==='wrong-grammar')){const a=lessonAudio(w,'traps',w.lesson.traps.indexOf(t)),i=a.findIndex(s=>s.text===c.zh);assert.equal(a[i-1].text,'Đây là câu sai để phân tích.');assert(!buildPlaylist([w],'immersion').some(s=>s.text===c.zh));assert(a.some(s=>s.text===t.corrections.find(r=>r.caseId===c.id).zh))}
@@ -32,7 +37,7 @@ export function verifyV2(w){
   l.traps=[{id:'test-trap',title:'Nhóm đối chiếu giả lập cho kiểm thử',scene:'Tình huống kiểm thử.',possibleConfusion:'Giả lập đường đi của nhãn và audio.',difference:'Chỉ dùng trong bộ nhớ kiểm thử, không phải nội dung biên soạn.',cases:l.examples.map((e,i)=>({id:'c'+(i+1),zh:e.zh,vi:e.vi,comment:'Câu đúng trong fixture.',judgment:'correct',practiceAllowed:false})),replacement:{result:'context-needed',explanation:'Fixture kiểm đường đi nhãn.'},boundary:'Không ghi fixture vào học liệu.',tip:'Chỉ phục vụ kiểm thử.'}];
  }
  assert(auditLesson(trapFixture).ready);
- for(const mutate of [x=>x.lesson.examples.pop(),x=>delete x.lesson.meaning.boundary,x=>x.lesson.examples[0].practiceAllowed=false,x=>x.lesson.checks[0].answer='leak',x=>x.lesson.selfUse.pop(),x=>delete x.lesson.answers[x.lesson.checks[0].id],x=>x.lesson.usages[0].exampleId='missing',x=>x.lesson.traps[0].replacement.result='unknown',x=>x.lesson.meaning.scene='pinyin dǎ']){const b=structuredClone(trapFixture);mutate(b);assert(!auditLesson(b).ready,'Malformed V2 accepted')}
+ for(const mutate of [x=>{x.lesson.examples.pop();x.lesson.examples.pop();},x=>delete x.lesson.meaning.boundary,x=>x.lesson.examples[0].practiceAllowed=false,x=>x.lesson.checks[0].answer='leak',x=>x.lesson.selfUse.pop(),x=>delete x.lesson.answers[x.lesson.checks[0].id],x=>x.lesson.usages[0].exampleId='missing',x=>x.lesson.traps[0].replacement.result='unknown',x=>x.lesson.meaning.scene='pinyin dǎ']){const b=structuredClone(trapFixture);mutate(b);assert(!auditLesson(b).ready,'Malformed V2 accepted')}
  // A synthetic wrong contrast verifies the warning and correction path even when
  // the authored batch avoids wrong example sentences.
  const wrong=structuredClone(trapFixture);wrong.lesson.traps[0].cases[0].judgment='wrong-grammar';wrong.lesson.traps[0].cases[0].zh='错句测试';wrong.lesson.traps[0].corrections=[...(wrong.lesson.traps[0].corrections||[]).filter(r=>r.caseId!=='c1'),{caseId:'c1',zh:'正确句测试',vi:'Câu sửa thử nghiệm.',reason:'Lý do sửa thử nghiệm.'}];assert(auditLesson(wrong).ready);const a=lessonAudio(wrong,'traps',0),i=a.findIndex(s=>s.text==='错句测试');assert.equal(a[i-1].text,'Đây là câu sai để phân tích.');assert(a.some(s=>s.text==='正确句测试'));assert(!buildPlaylist([wrong],'immersion').some(s=>s.text==='错句测试'));
