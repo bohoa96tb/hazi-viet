@@ -1,3 +1,9 @@
+# Pilot V3 — 得 — đang triển khai để xem trước trên web
+
+- Nâng cấp bài 得 (id `hz-h2-8ac3a59c0ef6`, ordinal 503) từ V2 batch-049 lên mẫu V3: 2 khung (V + 得 + bổ ngữ; V + tân ngữ + V + 得 + bổ ngữ), 2 câu mẫu, 5 bẫy (ba cách đọc; 的/地/得; mức độ/khả năng; tân ngữ; 得/要), 4 câu luyện mở, 2 tình huống tự dùng, phát âm thêm 3 ngữ cảnh audio. Không tăng completedCount (vẫn 517/2.224).
+- Thêm trường Pinyin tùy chọn cho câu đối chiếu và câu sửa trong bẫy, render bằng chi tiết hiện/ẩn, audit kiểm tra Pinyin hợp lệ và loại trừ khi kiểm tra Pinyin trong lời giảng, audio không đọc Pinyin. Đổi cache-buster dữ liệu và JS sang `pilot-de`.
+- Đã chạy process-batch verify, verify-v2, quality audit self-test, quality audit cho 得 (0 cảnh báo), DOM simulation, kiểm tra cú pháp và git diff --check. File khóa học phải đẩy riêng qua trình duyệt vì API từ chối 413 với file gần 6 MB. Chưa xác minh TTS Android, bố cục trực quan trên điện thoại hoặc phản biện giáo viên độc lập.
+
 # Batch-050 — đã phát hành và xác minh Pages
 
 - Content commit: 1390bb1ebff458d3e87b051db77e4474022006f0 (nhánh main; cùng nội dung với commit 48c45a00b3bd6fab968d87ed158d308e3bce5093 trên nhánh biên soạn, khác mã do merge rebase); bổ sung 8 mục ordinal 510–517: 短、表、该、越、轻、过、近、长. Tiến độ: 517/2.224, còn 1.707.

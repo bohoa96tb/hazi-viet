@@ -110003,21 +110003,23 @@
       "meaning": "trợ từ bổ ngữ; phải; được, đạt được",
       "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "Biên soạn V2 · batch-049 · khó",
+      "editorialStatus": "Nâng cấp V3 · pilot 得 · khó",
       "examples": [
         {
           "id": "e1",
           "zh": "他说得很快。",
           "vi": "Anh ấy nói rất nhanh.",
           "analysis": "得 nối 说 với 很快, nhận xét tốc độ nói.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Tā shuō de hěn kuài."
         },
         {
           "id": "e2",
-          "zh": "我唱得不太好。",
-          "vi": "Tôi hát không được hay lắm.",
-          "analysis": "唱得不太好 đánh giá chất lượng của việc hát; 得 vẫn đứng sau 唱.",
-          "practiceAllowed": true
+          "zh": "我吃饭吃得很快。",
+          "vi": "Tôi ăn cơm rất nhanh.",
+          "analysis": "吃饭 có tân ngữ 饭 nên phải lặp lại 吃 trước 得; không viết câu đặt 饭 sau 得.",
+          "practiceAllowed": true,
+          "pinyin": "Wǒ chīfàn chī de hěn kuài."
         }
       ],
       "audioText": "得到",
@@ -110027,38 +110029,43 @@
       "lesson": {
         "version": 2,
         "cohortOrdinal": 503,
-        "authorship": "Tự biên soạn, đọc mục 汉典 và Chinese Grammar Wiki về bổ ngữ mức độ; chưa phản biện giáo viên độc lập.",
+        "authorship": "Tự biên soạn, đối chiếu MDBG, Wiktionary và Chinese Grammar Wiki về bổ ngữ mức độ và bổ ngữ khả năng; tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Cách đọc mang nghĩa phải là HSK 4 theo MDBG, dạy như mở rộng có chủ ý ngoài HSK 2.",
         "sources": [
           "https://www.zdic.net/hans/得",
-          "https://resources.allsetlearning.com/chinese/grammar/Expressing_degree_with_%22de%22"
+          "https://en.wiktionary.org/wiki/得",
+          "https://resources.allsetlearning.com/gramwiki/?title=Degree_complement",
+          "https://resources.allsetlearning.com/gramwiki/?title=Potential_complements",
+          "https://goeastmandarin.com/how-to-use-three-de-in-chinese/"
         ],
         "introduction": {
-          "scope": "bài chính tập trung cách đọc nhẹ của 得 trong V + 得 + bổ ngữ mức độ; các cách đọc và chức năng khác cần nhận diện"
+          "scope": "Bài chính tập trung cách đọc nhẹ của chữ này trong mẫu động từ nối bổ ngữ mức độ; hai cách đọc còn lại, nghĩa phải và nghĩa được, cần nhận diện qua vị trí trong câu."
         },
         "meaning": {
-          "scene": "得 sau động từ nối hành động với nhận xét về mức độ hoặc cách thực hiện.",
-          "explanation": "Trong 他说得很快, 得 đứng sau 说 và trước 很快. Không dùng 得 thay cho 地 trước động từ, cũng không gán cách đọc của mẫu này cho mọi từ có chữ này.",
-          "boundary": "得 là trợ từ trong mẫu chính; một cách đọc khác mang nghĩa phải, còn trong 得到 mang nghĩa được hoặc đạt được. Cách đọc và vị trí quyết định nghĩa.",
+          "scene": "Bạn muốn nhận xét ai đó làm việc gì đó thế nào, ví dụ nói nhanh, ăn nhanh hay học tốt, thì dùng động từ rồi nối phần nhận xét bằng chữ này.",
+          "explanation": "Cùng một chữ, đọc khác thì nghĩa khác. Cách đọc chính trong bài đọc thanh nhẹ, đứng sau động từ và nối bổ ngữ mức độ. Một cách đọc khác mang nghĩa phải, đứng trước cụm động từ. Một cách đọc khác mang nghĩa được hoặc đạt được, đứng trước tân ngữ như động từ thường.",
+          "boundary": "Chữ này không thay cho 很. Tính từ đứng một mình làm vị ngữ thì không cần chữ này; chỉ khi tính từ là bổ ngữ sau động từ mới cần. Trong 觉得, chữ này đọc thanh nhẹ; trong 得到, chữ này đọc thanh 2 đầy đủ.",
           "conditions": [
-            "Mẫu V + 得 + bổ ngữ cần một động từ đứng trước 得; phần sau đánh giá cách hoặc mức độ của hành động."
+            "Mẫu động từ nối bổ ngữ cần một động từ đứng trước chữ này; phần sau đánh giá cách hoặc mức độ của hành động.",
+            "Phủ định mức độ đặt 不 sau chữ này, ví dụ câu viết không đẹp; không dùng 没 cho nghĩa mức độ.",
+            "Khả năng khẳng định dùng chữ này, phủ định thay chữ này bằng 不: nghe hiểu được và nghe không hiểu."
           ],
-          "takeaway": "Muốn nhận xét hành động diễn ra thế nào, dùng động từ + 得 + phần nhận xét."
+          "takeaway": "Muốn nhận xét hành động diễn ra thế nào, dùng động từ rồi nối phần nhận xét bằng chữ này; muốn nói làm được hay không, phủ định bằng cách thay chữ này thành 不."
         },
         "usages": [
           {
             "id": "u1",
             "frame": "chủ thể + động từ + 得 + bổ ngữ",
             "position": "得 đứng ngay sau động từ được đánh giá.",
-            "required": "Động từ phải đứng trước 得; bổ ngữ mức độ đứng sau.",
-            "omission": "Không bỏ 得 nếu vẫn giữ mẫu V + bổ ngữ này.",
+            "required": "Động từ phải đứng trước 得; bổ ngữ mức độ đứng sau, thường là tính từ có 很, 太, 非常 hoặc 不 và tính từ.",
+            "omission": "Không bỏ 得 nếu vẫn giữ mẫu này; nếu không nhận xét mức độ nữa thì bỏ cả cụm 得 và bổ ngữ.",
             "exampleId": "e1"
           },
           {
             "id": "u2",
-            "frame": "phủ định + động từ + 得 + bổ ngữ",
-            "position": "不 thường đứng trước động từ, còn 得 vẫn sau động từ.",
-            "required": "Dùng khi phủ định mức độ/cách thực hiện.",
-            "omission": "Có thể đổi ý sang 不 + động từ nếu không còn nhận xét mức độ bằng mẫu 得.",
+            "frame": "động từ + tân ngữ + động từ + 得 + bổ ngữ",
+            "position": "Lặp lại động từ sau tân ngữ; 得 đứng sau động từ lặp.",
+            "required": "Khi động từ có tân ngữ thì phải lặp động từ hoặc đưa tân ngữ lên trước động từ.",
+            "omission": "Nếu bỏ tân ngữ vì ngữ cảnh đã rõ thì chỉ còn khung thứ nhất: tôi ăn rất nhanh.",
             "exampleId": "e2"
           }
         ],
@@ -110068,31 +110075,76 @@
             "zh": "他说得很快。",
             "vi": "Anh ấy nói rất nhanh.",
             "analysis": "得 nối 说 với 很快, nhận xét tốc độ nói.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Tā shuō de hěn kuài."
           },
           {
             "id": "e2",
-            "zh": "我唱得不太好。",
-            "vi": "Tôi hát không được hay lắm.",
-            "analysis": "唱得不太好 đánh giá chất lượng của việc hát; 得 vẫn đứng sau 唱.",
-            "practiceAllowed": true
+            "zh": "我吃饭吃得很快。",
+            "vi": "Tôi ăn cơm rất nhanh.",
+            "analysis": "吃饭 có tân ngữ 饭 nên phải lặp lại 吃 trước 得; không viết câu đặt 饭 sau 得.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ chīfàn chī de hěn kuài."
           }
         ],
         "traps": [
           {
             "id": "t1",
-            "title": "得 và 地: trợ từ sau động từ hay trước động từ",
-            "scene": "Phân biệt hai chữ đọc gần giống trong câu.",
-            "possibleConfusion": "Cả hai đều xuất hiện khi bổ sung thông tin cho hành động.",
-            "difference": "得 đứng sau động từ để nối bổ ngữ; 地 đứng sau trạng ngữ mô tả cách thức và trước động từ.",
+            "title": "Ba cách đọc của 得",
+            "scene": "Cùng một chữ, đọc khác thì nghĩa khác, vị trí khác.",
+            "possibleConfusion": "Người học dễ đọc một cách cho mọi câu có chữ này.",
+            "difference": "Cách đọc quyết định bởi vị trí và chức năng: sau động từ là thanh nhẹ, trước cụm động từ là thanh 3, trước tân ngữ như động từ thường là thanh 2.",
             "cases": [
               {
                 "id": "c1",
                 "zh": "他说得很快。",
                 "vi": "Anh ấy nói rất nhanh.",
-                "comment": "得 đứng sau 说 và nối với 很快.",
+                "comment": "得 đứng sau 说 và nối với 很快; đây là cách đọc thanh nhẹ.",
                 "judgment": "correct",
-                "practiceAllowed": false
+                "practiceAllowed": false,
+                "pinyin": "Tā shuō de hěn kuài."
+              },
+              {
+                "id": "c2",
+                "zh": "我今天得早点回家。",
+                "vi": "Hôm nay tôi phải về nhà sớm.",
+                "comment": "得 đứng trước cụm động từ, mang nghĩa phải; đây là cách đọc thanh 3.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Wǒ jīntiān děi zǎo diǎn huí jiā."
+              },
+              {
+                "id": "c3",
+                "zh": "我得了亚军。",
+                "vi": "Tôi được giải nhì.",
+                "comment": "得 đứng trước tân ngữ như động từ thường, mang nghĩa được; đây là cách đọc thanh 2.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Wǒ dé le yàjùn."
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đọc chữ này trong câu tôi phải về nhà thành thanh nhẹ thì câu mất nghĩa phải."
+            },
+            "boundary": "Ba cách đọc không thay nhau được; cách đọc quyết định bởi vị trí và chức năng.",
+            "tip": "Nhìn vị trí: sau động từ là thanh nhẹ, trước động từ là thanh 3, trước tân ngữ như động từ thường là thanh 2."
+          },
+          {
+            "id": "t2",
+            "title": "的, 地, 得: ba chữ cùng đọc thanh nhẹ",
+            "scene": "Ba chữ khác nhau nhưng đọc giống nhau trong khẩu ngữ, chỉ phân biệt bằng chữ viết và vị trí.",
+            "possibleConfusion": "Người học dễ viết nhầm chữ này thay cho chữ kia.",
+            "difference": "的 nối định ngữ với danh từ; 地 đứng sau trạng ngữ chỉ cách thức và trước động từ; 得 đứng sau động từ để nối bổ ngữ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我的姐姐。",
+                "vi": "Chị tôi.",
+                "comment": "的 nối định ngữ với danh từ.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Wǒ de jiějiě."
               },
               {
                 "id": "c2",
@@ -110100,43 +110152,217 @@
                 "vi": "Anh ấy học một cách nghiêm túc.",
                 "comment": "地 đứng sau 认真 và trước 学习.",
                 "judgment": "correct",
-                "practiceAllowed": false
+                "practiceAllowed": false,
+                "pinyin": "Tā rènzhēn de xuéxí."
+              },
+              {
+                "id": "c3",
+                "zh": "他说得很快。",
+                "vi": "Anh ấy nói rất nhanh.",
+                "comment": "得 đứng sau 说 và nối với 很快.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Tā shuō de hěn kuài."
               }
             ],
             "replacement": {
               "result": "wrong-grammar",
-              "explanation": "Đổi 得 vào vị trí của 地 trong 他认真得学习 hoặc đổi 地 vào sau 说 sẽ làm sai cấu trúc; hai trợ từ không cùng vị trí."
+              "explanation": "Đổi chỗ ba chữ này thì sai cấu trúc, vì mỗi chữ chỉ đứng đúng một vị trí đã dạy."
             },
+            "boundary": "认真地学习 và 学得很认真 cùng nói học chăm chỉ, nhưng 地 đứng trước động từ còn 得 đứng sau động từ, không đổi chỗ cho nhau.",
+            "tip": "的 trước danh từ, 地 trước động từ, 得 sau động từ."
+          },
+          {
+            "id": "t3",
+            "title": "Mức độ hay khả năng: 听得懂",
+            "scene": "Cùng hình thức động từ nối bổ ngữ, nhưng nghĩa khác nhau theo ngữ cảnh.",
+            "possibleConfusion": "Người học dễ tưởng mọi câu có chữ này đều nói mức độ, hoặc ngược lại.",
+            "difference": "Mức độ miêu tả hành động đã diễn ra tốt hay xấu thế nào; khả năng nói làm được hay không. Phủ định khả năng thay chữ này bằng 不; phủ định chuyện đã xảy ra dùng 没.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他说得很快。",
+                "vi": "Anh ấy nói rất nhanh.",
+                "comment": "Mức độ: đã nói nhanh thật.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Tā shuō de hěn kuài."
+              },
+              {
+                "id": "c2",
+                "zh": "我听得懂。",
+                "vi": "Tôi nghe hiểu được.",
+                "comment": "Khả năng: nghe hiểu được.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Wǒ tīng de dǒng."
+              },
+              {
+                "id": "c3",
+                "zh": "我听不懂。",
+                "vi": "Tôi nghe không hiểu.",
+                "comment": "Phủ định khả năng: thay chữ này bằng 不.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Wǒ tīng bù dǒng."
+              },
+              {
+                "id": "c4",
+                "zh": "我没听懂。",
+                "vi": "Tôi đã không nghe hiểu (lần đó).",
+                "comment": "Phủ định kết quả đã xảy ra: dùng 没 trước động từ.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Wǒ méi tīng dǒng."
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nghe không hiểu là không có khả năng nghe hiểu; đã không nghe hiểu là lần đó không hiểu."
+            },
+            "boundary": "Bốn câu trên là bốn ý khác nhau, không thay nhau được.",
+            "tip": "Hỏi đã thế nào thì là mức độ; hỏi làm được không thì là khả năng; phủ định khả năng dùng 不, phủ định chuyện đã xảy ra dùng 没."
+          },
+          {
+            "id": "t4",
+            "title": "Tân ngữ đi đâu khi có 得",
+            "scene": "Một động từ không theo sau bởi cả tân ngữ lẫn bổ ngữ.",
+            "possibleConfusion": "Người học dễ đặt tân ngữ ngay sau chữ này, như cách đặt tân ngữ sau động từ thường.",
+            "difference": "Có tân ngữ thì lặp động từ sau tân ngữ, hoặc đưa tân ngữ lên trước động từ; đừng đặt tân ngữ sau chữ này.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你说中文得很好。",
+                "vi": "Bạn nói tiếng Trung rất tốt.",
+                "comment": "Sai cấu trúc: tân ngữ và bổ ngữ cùng đứng sau một động từ.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false,
+                "pinyin": "Nǐ shuō Zhōngwén de hěn hǎo."
+              },
+              {
+                "id": "c2",
+                "zh": "你说中文说得很好。",
+                "vi": "Bạn nói tiếng Trung rất tốt.",
+                "comment": "Đúng: lặp động từ sau tân ngữ.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Nǐ shuō Zhōngwén shuō de hěn hǎo."
+              },
+              {
+                "id": "c3",
+                "zh": "你中文说得很好。",
+                "vi": "Tiếng Trung của bạn nói rất tốt.",
+                "comment": "Đúng: đưa tân ngữ lên trước động từ.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Nǐ Zhōngwén shuō de hěn hǎo."
+              }
+            ],
             "corrections": [
               {
                 "caseId": "c1",
-                "zh": "他说得很快。",
-                "vi": "Anh ấy nói rất nhanh.",
-                "reason": "Câu c1 đã đúng; không thay 得 bằng 地."
+                "zh": "你说中文说得很好。",
+                "vi": "Bạn nói tiếng Trung rất tốt.",
+                "reason": "Lặp lại động từ sau tân ngữ, chữ này đứng sau động từ lặp.",
+                "pinyin": "Nǐ shuō Zhōngwén shuō de hěn hǎo."
               }
             ],
-            "boundary": "Chọn theo vị trí: sau động từ là 得; trước động từ sau trạng ngữ là 地.",
-            "tip": "Động từ + 得 + nhận xét; cách thức + 地 + động từ."
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Đặt tân ngữ sau chữ này là sai cấu trúc, không chỉ kém tự nhiên."
+            },
+            "boundary": "Hai cách sửa đều đúng và cùng nghĩa, chọn cách nào cũng được.",
+            "tip": "Có tân ngữ thì lặp động từ, hoặc đưa tân ngữ lên trước; đừng đặt tân ngữ sau chữ này."
+          },
+          {
+            "id": "t5",
+            "title": "得 hay 要: bắt buộc hay muốn",
+            "scene": "Cả hai đều nói về việc cần làm, nhưng sắc thái bắt buộc khác nhau.",
+            "possibleConfusion": "Người học dễ dùng hai từ này thay nhau.",
+            "difference": "得 là phải vì hoàn cảnh hoặc quy tắc bên ngoài bắt buộc; 要 là muốn, cần theo ý mình, hoặc dự định.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "明天你得去医院看医生。",
+                "vi": "Ngày mai bạn phải đi bệnh viện khám.",
+                "comment": "Bắt buộc do hoàn cảnh.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Míngtiān nǐ děi qù yīyuàn kàn yīshēng."
+              },
+              {
+                "id": "c2",
+                "zh": "我要学中文。",
+                "vi": "Tôi muốn học tiếng Trung.",
+                "comment": "Ý muốn của chính người nói.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Wǒ yào xué Zhōngwén."
+              },
+              {
+                "id": "c3",
+                "zh": "我明天不用早起。",
+                "vi": "Ngày mai tôi không cần dậy sớm.",
+                "comment": "Phủ định phải là 不用, không phải 不得.",
+                "judgment": "correct",
+                "practiceAllowed": false,
+                "pinyin": "Wǒ míngtiān bùyòng zǎo qǐ."
+              }
+            ],
+            "replacement": {
+              "result": "wrong-intent",
+              "explanation": "Dùng 要 khi ý là bắt buộc thì yếu đi; dùng 得 khi chỉ là muốn thì thành bắt buộc."
+            },
+            "boundary": "Hai từ khác sắc thái bắt buộc, không thay nhau tự do.",
+            "tip": "得 là phải vì hoàn cảnh bắt buộc; 要 là muốn hoặc dự định; không phải làm thì nói 不用, cấm làm mới nói 不得."
           }
         ],
         "trapReview": {
-          "readingsAndMeanings": "Đã tách các cách đọc theo chức năng; bài chính dạy trợ từ đọc nhẹ.",
-          "literalTranslation": "Đã rà không dịch trợ từ 得 thành được trong mọi câu.",
-          "confusables": "Đã đối chiếu 得/地 bằng vị trí trong câu và có câu sửa."
+          "readingsAndMeanings": "Đã tách ba cách đọc theo chức năng và vị trí; bài chính dạy cách đọc thanh nhẹ trong bổ ngữ mức độ.",
+          "literalTranslation": "Đã rà không dịch chữ này thành được trong mọi câu; nghĩa được chỉ dùng khi chữ này đứng như động từ.",
+          "confusables": "Đã đối chiếu ba chữ cùng đọc, mức độ với khả năng, vị trí tân ngữ và nghĩa phải với ý muốn."
         },
         "pronunciation": {
-          "text": "得 trong mẫu bổ ngữ của bài đọc nhẹ; trong nghĩa “phải” đọc thanh 3, còn trong 得到 đọc thanh 2. Không đổi âm chỉ vì đổi thanh theo cảm tính. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "得 trong mẫu chính đọc thanh nhẹ: ngắn, nhẹ, không có dấu thanh. Nghĩa phải đọc thanh 3, nghĩa được đọc thanh 2. Trong 觉得, chữ này đọc thanh nhẹ; trong 得到, chữ này đọc thanh 2 đầy đủ. Thanh nhẹ vẫn phát ra, không bỏ. Đọc từ một lần, rồi đọc câu mẫu một lần.",
+          "pinyin": "de · děi · dé",
+          "contexts": [
+            {
+              "introIndex": 0,
+              "text": "他说得很快。",
+              "vi": "Anh ấy nói rất nhanh."
+            },
+            {
+              "introIndex": 1,
+              "text": "我今天得早点回家。",
+              "vi": "Hôm nay tôi phải về sớm."
+            },
+            {
+              "introIndex": 2,
+              "text": "我得了亚军。",
+              "vi": "Tôi được giải nhì."
+            }
+          ]
         },
         "checks": [
           {
             "id": "q1",
             "type": "open",
-            "question": "Điền: 他跑___很快。"
+            "question": "Điền chữ đúng (得, 的 hoặc 地): 他跑___很快。"
           },
           {
             "id": "q2",
             "type": "open",
-            "question": "Trong 他认真地学习, vị trí đúng là 得 hay 地?"
+            "question": "Câu sau có vấn đề gì? Viết lại cho đúng: 他说中文得很好。"
+          },
+          {
+            "id": "q3",
+            "type": "open",
+            "question": "我听不懂 và 我没听懂 khác nhau ở điểm nào?"
+          },
+          {
+            "id": "q4",
+            "type": "open",
+            "question": "Chọn 得 hay 要 và giải thích: 明天早上六点，我___起床去上班，因为公司八点开会。"
           }
         ],
         "answers": {
@@ -110144,44 +110370,60 @@
             "accepted": [
               "得"
             ],
-            "explanation": "跑得很快 dùng 得 sau động từ 跑."
+            "explanation": "跑得很快 dùng 得 sau động từ 跑 để nối bổ ngữ mức độ."
           },
           "q2": {
             "accepted": [
-              "地"
+              "你说中文说得很好。",
+              "你中文说得很好。"
             ],
-            "explanation": "地 đứng sau 认真 và trước 学习; 得 đứng sau động từ khi nối bổ ngữ."
+            "explanation": "Một động từ không theo sau bởi cả tân ngữ và bổ ngữ; lặp động từ hoặc đưa tân ngữ lên trước."
+          },
+          "q3": {
+            "accepted": [
+              "听不懂 là không có khả năng nghe hiểu, 没听懂 là lần đó đã không nghe hiểu.",
+              "听不懂 nói khả năng, 没听懂 nói kết quả đã xảy ra."
+            ],
+            "explanation": "Phủ định khả năng thay 得 bằng 不; phủ định chuyện đã xảy ra dùng 没."
+          },
+          "q4": {
+            "accepted": [
+              "得"
+            ],
+            "explanation": "Bắt buộc vì công ty họp 8 giờ, không phải chỉ muốn; dùng 要 sẽ thành ý muốn hoặc dự định."
           }
         },
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói bạn nói tiếng Trung rất rõ."
+            "prompt": "Nói bạn làm bài tập rất nhanh."
           },
           {
             "id": "s2",
-            "prompt": "Nói tôi hôm nay phải về sớm."
+            "prompt": "Nói ngày mai tôi phải đi làm sớm."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 你说中文说得很清楚 để vừa nêu đối tượng vừa giữ động từ trước 得.",
-            "frame": "你 + 说中文 + 说得 + 很清楚",
-            "model": "你说中文说得很清楚。",
-            "vi": "Bạn nói tiếng Trung rất rõ.",
+            "idea": "Dùng 做作业做得很快 để vừa nêu việc vừa nhận xét tốc độ.",
+            "frame": "你 + 做作业 + 做得 + 很快",
+            "model": "你做作业做得很快。",
+            "vi": "Bạn làm bài tập rất nhanh.",
             "criteria": [
-              "Có 说得很清楚.",
-              "得 đứng sau động từ 说 và trước bổ ngữ."
+              "Có 做作业做得很快.",
+              "得 đứng sau động từ lặp lại và trước bổ ngữ.",
+              "Không đặt 作业 sau 得."
             ]
           },
           "s2": {
-            "idea": "Dùng 我今天得早点回家; ở đây 得 đọc theo nghĩa phải, không phải trợ từ bổ ngữ.",
-            "frame": "我 + 今天 + 得 + 早点回家",
-            "model": "我今天得早点回家。",
-            "vi": "Hôm nay tôi phải về nhà sớm.",
+            "idea": "Dùng 明天得早点去上班, không dùng 要; 得 ở đây nghĩa phải, không phải trợ từ bổ ngữ.",
+            "frame": "我 + 明天 + 得 + 早点去上班",
+            "model": "我明天得早点去上班。",
+            "vi": "Ngày mai tôi phải đi làm sớm.",
             "criteria": [
-              "Có 得早点回家.",
-              "得 trong câu này mang nghĩa phải; đây không phải trợ từ nối bổ ngữ."
+              "Có 得早点去上班.",
+              "得 mang nghĩa phải.",
+              "Không dùng 要 nếu ý là bắt buộc."
             ]
           }
         }
