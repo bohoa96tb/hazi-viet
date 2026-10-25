@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 403 mục đủ cấu trúc V1/V2; còn 1831. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 393 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 408 mục đủ cấu trúc V1/V2; còn 1826. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 398 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -89643,41 +89643,384 @@
       "intro": [
         {
           "pinyin": "men",
-          "meaning": "hậu tố chỉ số nhiều cho một số từ chỉ người"
+          "meaning": "hậu tố chỉ số nhiều cho đại từ hoặc danh từ chỉ người"
         }
       ],
       "meaning": "hậu tố chỉ số nhiều cho một số từ chỉ người",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-033 · trung bình",
       "examples": [
         {
-          "zh": "你们明天有课吗？",
-          "vi": "Ngày mai các bạn có buổi học không?"
+          "id": "e1",
+          "zh": "我们是学生。",
+          "vi": "Chúng tôi là học sinh.",
+          "analysis": "们 gắn sau 我 để tạo nhóm người nói; câu chưa cần 都 vì chỉ đang xác định nhóm là học sinh.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "老师们都来了。",
+          "vi": "Các thầy cô đều đến rồi.",
+          "analysis": "老师们 tạo nhóm giáo viên, còn 都 nói việc đến đúng với cả nhóm.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 392,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 394,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=们"
+        ],
+        "introduction": {
+          "scope": "hậu tố số nhiều trong 我们、他们 và một số danh từ chỉ người"
+        },
+        "meaning": {
+          "scene": "Nói về một nhóm người thay vì một người, thường gắn sau đại từ hoặc danh từ chỉ người.",
+          "explanation": "们 gắn sau 我、你、他、她 hoặc một số cách gọi người để tạo nghĩa số nhiều. Nó cho biết nhóm người, còn 都 mới là từ nói tất cả thành viên cùng có hành động hoặc đặc điểm.",
+          "boundary": "Không gắn 们 tùy ý sau mọi danh từ, không dùng sau con số/lượng từ trong mẫu cơ bản, và không dùng 们 để thay cho 都. Có thể nói 我们都喜欢中文 vì hai từ làm hai việc khác nhau.",
+          "conditions": [
+            "Dùng với đại từ hoặc danh từ chỉ người khi muốn nói một nhóm; không dùng cho đồ vật trong cách học cơ bản."
+          ],
+          "takeaway": "们 tạo nhóm người; 都 nói nhận định áp dụng cho toàn bộ nhóm."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "đại từ + 们",
+            "position": "们 đứng ngay sau đại từ chỉ người.",
+            "required": "Phần trước phải là đại từ hoặc cách gọi người phù hợp.",
+            "omission": "Bỏ 们 thì đại từ trở về nghĩa số ít, trừ khi ngữ cảnh đã cung cấp nhóm.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "danh từ chỉ người + 们 + 都/động từ",
+            "position": "们 tạo danh ngữ số nhiều; 都 hoặc động từ đứng sau nhóm.",
+            "required": "Danh từ phải chỉ người và ngữ cảnh phải cho phép nói cả nhóm.",
+            "omission": "Có thể dùng danh từ số nhiều không có 们 trong một số cấu trúc khác, nhưng bài này tập trung mẫu với 们.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们是学生。",
+            "vi": "Chúng tôi là học sinh.",
+            "analysis": "们 gắn sau 我 để tạo nhóm người nói; câu chưa cần 都 vì chỉ đang xác định nhóm là học sinh.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "老师们都来了。",
+            "vi": "Các thầy cô đều đến rồi.",
+            "analysis": "老师们 tạo nhóm giáo viên, còn 都 nói việc đến đúng với cả nhóm.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "们 và 都: tạo nhóm hay nói tất cả",
+            "scene": "Nói về nhiều người và muốn nhấn toàn bộ nhóm cùng có một đặc điểm.",
+            "possibleConfusion": "Người học có thể dùng một từ thay cho từ kia vì cả hai đều xuất hiện trong câu về nhiều người.",
+            "difference": "们 gắn vào danh từ/đại từ để tạo số nhiều; 都 đứng trong câu để áp dụng nhận định cho toàn bộ nhóm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们都喜欢中文。",
+                "vi": "Chúng tôi đều thích tiếng Trung.",
+                "comment": "我们 tạo nhóm, 都 nói sở thích đúng với cả nhóm.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我喜欢们中文。",
+                "vi": "Câu sai: 们 không đứng sau 我 để chen vào giữa động từ và tân ngữ.",
+                "comment": "Muốn nói ‘chúng tôi thích tiếng Trung’, dùng 我们喜欢中文.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "corrections": [
+              {
+                "caseId": "c2",
+                "zh": "我们喜欢中文。",
+                "vi": "Chúng tôi thích tiếng Trung.",
+                "reason": "们 phải gắn ngay sau 我 để tạo đại từ số nhiều."
+              }
+            ],
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Đổi vị trí 们 trong câu không tạo một sắc thái mới; đặt nó sau động từ như 我喜欢们中文 làm câu sai. 们 phải gắn với đại từ hoặc danh từ chỉ người."
+            },
+            "boundary": "Có thể dùng 们 và 都 cùng lúc; không coi hai từ là hai cách nói thay thế nhau.",
+            "tip": "Hỏi ‘nhóm nào?’ thì dùng 们; hỏi ‘tất cả nhóm có cùng vậy không?’ thì dùng 都."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà chức năng hậu tố số nhiều cho đại từ và danh từ chỉ người.",
+          "literalTranslation": "Đã rà bẫy dịch 们 thành một từ độc lập đứng giữa câu.",
+          "confusables": "Đã đối chiếu 们 với 都; chưa mở rộng các giới hạn nâng cao của danh từ gắn 们."
+        },
+        "pronunciation": {
+          "text": "们 thường đọc âm nhẹ sau âm tiết trước, không đọc thành một âm tiết mang thanh chính riêng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: ___是学生。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong câu ‘Chúng tôi đều thích tiếng Trung’, điền đủ: 我___都喜欢中文。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我们"
+            ],
+            "explanation": "们 gắn sau 我 để tạo nhóm người nói."
+          },
+          "q2": {
+            "accepted": [
+              "们"
+            ],
+            "explanation": "我 + 们 tạo chủ thể số nhiều; 都 mới là từ áp dụng hành động cho cả nhóm."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói chúng tôi là học sinh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói các thầy cô đều đến rồi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我们.",
+            "frame": "我们是 + danh từ",
+            "model": "我们是学生。",
+            "vi": "Chúng tôi là học sinh.",
+            "criteria": [
+              "们 đứng sau 我.",
+              "Chủ thể mang nghĩa số nhiều."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 老师们 và 都.",
+            "frame": "老师们都 + động từ",
+            "model": "老师们都来了。",
+            "vi": "Các thầy cô đều đến rồi.",
+            "criteria": [
+              "们 gắn sau 老师.",
+              "都 đứng trước 来了."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "ai",
       "intro": [
         {
           "pinyin": "shéi",
-          "meaning": "ai"
+          "meaning": "ai; cách đọc thông dụng"
+        },
+        {
+          "pinyin": "shuí",
+          "meaning": "ai; biến thể phát âm cũng gặp"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "谁来了？",
+          "vi": "Ai đến vậy?",
+          "analysis": "谁 làm chủ thể của 来了, hỏi người đã đến.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这是谁的书？",
+          "vi": "Đây là sách của ai?",
+          "analysis": "谁的 đứng trước 书 để hỏi người sở hữu quyển sách.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-8ef23bce6545",
       "hanzi": "谁",
       "level": 1,
       "sourceIndex": 396,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-033 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 395,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=谁"
+        ],
+        "introduction": {
+          "scope": "đại từ hỏi người: ai; bài giới thiệu cách đọc thông dụng và một biến thể"
+        },
+        "meaning": {
+          "scene": "Hỏi người nào hoặc xác định người chưa biết.",
+          "explanation": "谁 thay cho tên hoặc danh từ chỉ người chưa biết. Nó có thể làm chủ thể hoặc đứng sau 的 để hỏi người sở hữu.",
+          "boundary": "谁 hỏi người; 什么 hỏi sự vật hoặc nội dung. Trong giao tiếp, 谁 có một cách đọc thông dụng và cũng có biến thể; bài tập dùng một cách nhất quán.",
+          "conditions": [
+            "Đặt 谁 ở vị trí của người cần hỏi; vị trí trong câu quyết định đang hỏi ai làm gì, gặp ai hoặc của ai."
+          ],
+          "takeaway": "Dùng 谁 ở chỗ của người chưa biết; giữ một cách đọc nhất quán trong bài."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "谁 + động từ",
+            "position": "谁 đứng trước động từ khi hỏi ai làm việc đó.",
+            "required": "Động từ phải cho biết hành động cần hỏi người thực hiện.",
+            "omission": "Không bỏ 谁 nếu câu còn cần hỏi người.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "谁的 + danh từ",
+            "position": "谁 đứng trước 的 để hỏi người sở hữu.",
+            "required": "Sau 的 cần danh từ hoặc vật thuộc về người được hỏi.",
+            "omission": "Có thể chỉ nói 谁的 khi vật đã rõ trong ngữ cảnh.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "谁来了？",
+            "vi": "Ai đến vậy?",
+            "analysis": "谁 làm chủ thể của 来了, hỏi người đã đến.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这是谁的书？",
+            "vi": "Đây là sách của ai?",
+            "analysis": "谁的 đứng trước 书 để hỏi người sở hữu quyển sách.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "谁 và 什么: ai hay cái gì",
+            "scene": "Hỏi thông tin chưa biết.",
+            "possibleConfusion": "Người học có thể dịch cả hai thành ‘gì’ theo thói quen tiếng Việt hoặc dùng 什么 để hỏi người.",
+            "difference": "谁 hỏi người; 什么 hỏi sự vật, nội dung hoặc loại việc.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "谁来了？",
+                "vi": "Ai đến vậy?",
+                "comment": "Đối tượng cần xác định là người.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你想吃什么？",
+                "vi": "Bạn muốn ăn gì?",
+                "comment": "Đối tượng được hỏi là món/vật, nên dùng 什么.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 谁 thành 什么 trong 谁来了 sẽ chuyển câu hỏi từ người sang sự vật/nội dung và không còn đúng mục tiêu hỏi. Đổi 什么 trong câu hỏi món ăn thành 谁 cũng làm đối tượng thành người, không phù hợp."
+            },
+            "boundary": "Có thể gặp 谁 trong nhiều vị trí, nhưng tiêu chí cơ bản vẫn là người hay sự vật được hỏi.",
+            "tip": "Người dùng 谁; vật hoặc nội dung dùng 什么."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa hỏi người và các cách đọc thông dụng.",
+          "literalTranslation": "Đã rà bẫy dịch 谁 thành ‘gì’ trong mọi câu.",
+          "confusables": "Đã đối chiếu 谁 với 什么; chưa mở rộng các mẫu hỏi lựa chọn."
+        },
+        "pronunciation": {
+          "text": "Giữ một cách đọc nhất quán trong bài; biến thể chỉ được ghi ở phần giới thiệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: ___来了？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn hỏi ‘Bạn muốn ăn gì?’, chọn 谁 hay 什么?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "谁"
+            ],
+            "explanation": "谁 đứng ở vị trí chủ thể để hỏi ai đến."
+          },
+          "q2": {
+            "accepted": [
+              "什么"
+            ],
+            "explanation": "什么 hỏi sự vật hoặc nội dung được ăn, không hỏi người."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Hỏi ai đã đến."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi đây là sách của ai."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Đặt 谁 trước 来了.",
+            "frame": "谁 + động từ",
+            "model": "谁来了？",
+            "vi": "Ai đến vậy?",
+            "criteria": [
+              "Dùng 谁 để hỏi người.",
+              "谁 đứng trước 来了."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 谁的 trước danh từ.",
+            "frame": "这是谁的 + danh từ",
+            "model": "这是谁的书？",
+            "vi": "Đây là sách của ai?",
+            "criteria": [
+              "Có 谁的.",
+              "Danh từ đứng sau 的."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-90616b6a5c89",
@@ -89690,13 +90033,181 @@
         }
       ],
       "meaning": "giới thiệu",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-033 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请你介绍一下自己。",
+          "vi": "Bạn hãy giới thiệu một chút về bản thân nhé.",
+          "analysis": "自己 là đối tượng được giới thiệu; 一下 làm lời yêu cầu nhẹ hơn.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我给你介绍我的朋友。",
+          "vi": "Tôi giới thiệu bạn của tôi với bạn.",
+          "analysis": "给你 nêu người nghe; 我的朋友 là người được giới thiệu.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 397,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 396,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=介绍"
+        ],
+        "introduction": {
+          "scope": "giới thiệu bản thân hoặc giới thiệu một người với người khác"
+        },
+        "meaning": {
+          "scene": "Cung cấp tên, thân phận hoặc thông tin cơ bản để người khác biết một người/vật.",
+          "explanation": "介绍 có thể dùng với 自己 khi tự giới thiệu, hoặc dùng mẫu 给 + người + 介绍 + người/vật khi giới thiệu một đối tượng cho ai. 一下 thường làm lời nói mềm và gọn hơn trong lời mời giới thiệu.",
+          "boundary": "介绍 là hành động làm cho người khác biết; 认识 là đã quen/biết một người, không phải hai cách nói thay nhau trong mọi câu.",
+          "conditions": [
+            "Xác định rõ ai được giới thiệu và, khi cần, giới thiệu cho ai bằng 给 + người."
+          ],
+          "takeaway": "介绍 nói hành động giới thiệu; 介绍自己 là tự giới thiệu, 给你介绍朋友 là giới thiệu bạn với bạn."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "介绍 + 自己/人/事物",
+            "position": "Đối tượng được giới thiệu đứng sau 介绍.",
+            "required": "Cần đối tượng hoặc ngữ cảnh đã rõ.",
+            "omission": "Có thể nói 介绍一下 khi đối tượng sẽ được nói ngay sau đó hoặc đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "给 + người + 介绍 + đối tượng",
+            "position": "Người nghe đứng sau 给; đối tượng đứng sau 介绍.",
+            "required": "Dùng khi muốn nêu rõ giới thiệu cho ai.",
+            "omission": "Có thể bỏ 给 + người nếu người nghe đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请你介绍一下自己。",
+            "vi": "Bạn hãy giới thiệu một chút về bản thân nhé.",
+            "analysis": "自己 là đối tượng được giới thiệu; 一下 làm lời yêu cầu nhẹ hơn.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我给你介绍我的朋友。",
+            "vi": "Tôi giới thiệu bạn của tôi với bạn.",
+            "analysis": "给你 nêu người nghe; 我的朋友 là người được giới thiệu.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "介绍 và 认识: giới thiệu hay quen biết",
+            "scene": "Nói về việc làm quen với một người.",
+            "possibleConfusion": "Một lần giới thiệu có thể dẫn đến quen biết, nhưng hai từ không mô tả cùng một hành động.",
+            "difference": "介绍 là đưa thông tin hoặc đưa người này làm quen với người kia; 认识 là biết/quen một người.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我给你介绍我的朋友。",
+                "vi": "Tôi giới thiệu bạn của tôi với bạn.",
+                "comment": "Người nói đang thực hiện hành động giới thiệu.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我认识他。",
+                "vi": "Tôi quen/biết anh ấy.",
+                "comment": "认识 nói trạng thái đã biết người đó.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 介绍 thành 认识 sẽ biến hành động giới thiệu thành trạng thái quen biết; đổi ngược lại không nói được rằng người nghe đã biết người đó."
+            },
+            "boundary": "Có thể nói 介绍 rồi mới 认识, nhưng thứ tự sự việc không làm hai từ đồng nghĩa.",
+            "tip": "Đang đưa người/thông tin ra cho người khác biết dùng 介绍; đã biết/quen dùng 认识."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa giới thiệu bản thân và giới thiệu người cho người khác.",
+          "literalTranslation": "Đã rà bẫy dịch 介绍 thành ‘giới thiệu’ nhưng bỏ người nhận sau 给.",
+          "confusables": "Đã đối chiếu 介绍 với 认识; chưa mở rộng các mẫu giới thiệu sự vật dài."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 请你介绍一下___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong câu ‘Tôi giới thiệu bạn của tôi với bạn’, điền: 我___你介绍我的朋友。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "自己"
+            ],
+            "explanation": "介绍自己 là tự giới thiệu."
+          },
+          "q2": {
+            "accepted": [
+              "给"
+            ],
+            "explanation": "给你 nêu người nhận lời giới thiệu."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhờ một người giới thiệu bản thân."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn giới thiệu bạn của mình với tôi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 请你介绍一下自己.",
+            "frame": "请你介绍一下 + đối tượng",
+            "model": "请你介绍一下自己。",
+            "vi": "Bạn hãy giới thiệu một chút về bản thân nhé.",
+            "criteria": [
+              "Có 介绍.",
+              "自己 là đối tượng được giới thiệu."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 给 + người nghe + 介绍.",
+            "frame": "我给你介绍 + người",
+            "model": "我给你介绍我的朋友。",
+            "vi": "Tôi giới thiệu bạn của tôi với bạn.",
+            "criteria": [
+              "Có 给你.",
+              "Người được giới thiệu đứng sau 介绍."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-6f1714d8acb1",
@@ -89705,22 +90216,185 @@
       "intro": [
         {
           "pinyin": "tāmen",
-          "meaning": "họ"
+          "meaning": "họ; bọn họ, thường chỉ nhóm nam hoặc nhóm có cả nam và nữ"
         }
       ],
-      "meaning": "họ",
-      "status": "example",
+      "meaning": "họ; bọn họ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-033 · dễ",
       "examples": [
         {
-          "zh": "他们都在公司。",
-          "vi": "Họ đều ở công ty."
+          "id": "e1",
+          "zh": "他们都是学生。",
+          "vi": "Họ đều là học sinh.",
+          "analysis": "他们 làm chủ thể số nhiều; 都 áp dụng nhận định 学生 cho toàn bộ nhóm.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我认识他们。",
+          "vi": "Tôi quen họ.",
+          "analysis": "他们 đứng sau 认识, làm đối tượng mà người nói quen biết.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 398,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 397,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=他们"
+        ],
+        "introduction": {
+          "scope": "đại từ ngôi ba số nhiều, thường dùng cho nhóm nam hoặc nhóm hỗn hợp"
+        },
+        "meaning": {
+          "scene": "Thay cho một nhóm người đã biết trong đoạn nói.",
+          "explanation": "他们 có thể làm chủ thể hoặc tân ngữ. Chữ 他 trong cụm này thường dùng cho nhóm nam hoặc nhóm có cả nam và nữ; nhóm chỉ nữ thường dùng 她们.",
+          "boundary": "们 đã nằm trong 他们, không thêm một lần nữa. 他们 không nhất thiết chỉ ‘những người đàn ông’ nếu nhóm có cả nam và nữ.",
+          "conditions": [
+            "Cần có nhóm người đã được nói tới hoặc dễ xác định trong ngữ cảnh."
+          ],
+          "takeaway": "他们 là ‘họ’ cho nhóm nam hoặc nhóm hỗn hợp; 她们 thường dành cho nhóm chỉ nữ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "他们 + 是/động từ",
+            "position": "他们 đứng trước vị ngữ khi làm chủ thể.",
+            "required": "Nhóm người phải được xác định.",
+            "omission": "Có thể bỏ chủ thể khi ngữ cảnh đã rõ, nhưng không đổi 他们 thành 他 nếu vẫn nói cả nhóm.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "động từ + 他们",
+            "position": "他们 đứng sau động từ khi làm đối tượng.",
+            "required": "Động từ phải tác động đến nhóm người.",
+            "omission": "Có thể lược nếu người nghe đã biết đối tượng.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他们都是学生。",
+            "vi": "Họ đều là học sinh.",
+            "analysis": "他们 làm chủ thể số nhiều; 都 áp dụng nhận định 学生 cho toàn bộ nhóm.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我认识他们。",
+            "vi": "Tôi quen họ.",
+            "analysis": "他们 đứng sau 认识, làm đối tượng mà người nói quen biết.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "他们 và 她们: nhóm nam/hỗn hợp hay nhóm chỉ nữ",
+            "scene": "Chọn đại từ ‘họ’ khi nói về một nhóm người.",
+            "possibleConfusion": "Cả hai đều thường dịch là ‘họ’ trong tiếng Việt.",
+            "difference": "他们 thường chỉ nhóm nam hoặc nhóm có cả nam và nữ; 她们 dùng cho nhóm chỉ nữ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他们都是学生。",
+                "vi": "Họ đều là học sinh.",
+                "comment": "Câu không nói nhóm chỉ toàn nữ; 他们 là cách chọn phù hợp cho nhóm nam hoặc hỗn hợp.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "她们都是学生。",
+                "vi": "Họ đều là học sinh nữ.",
+                "comment": "她们 xác định nhóm chỉ gồm nữ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 他们 thành 她们 sẽ thu hẹp nhóm thành chỉ nữ; đổi ngược lại có thể làm mất thông tin nhóm chỉ nữ, dù bản dịch tiếng Việt vẫn là ‘họ’."
+            },
+            "boundary": "Khi không cần nêu giới tính hoặc nhóm có cả nam nữ, 他们 thường là lựa chọn cơ bản; không suy ra giới tính từng người ngoài ngữ cảnh.",
+            "tip": "Nhóm chỉ nữ dùng 她们; nhóm nam hoặc hỗn hợp thường dùng 他们."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà đại từ số nhiều và phạm vi nhóm nam/hỗn hợp.",
+          "literalTranslation": "Đã rà bẫy dịch cả 他们 và 她们 thành ‘họ’ rồi bỏ khác biệt khi chữ Hán cần thể hiện.",
+          "confusables": "Đã đối chiếu 他们 với 她们; chưa mở rộng các cách viết trung tính hiện đại."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết; 们 thường nhẹ sau 他. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: ___都是学生。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nhóm chỉ gồm nữ thường dùng 他们 hay 她们?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "他们"
+            ],
+            "explanation": "他们 làm chủ thể chỉ nhóm nam hoặc nhóm hỗn hợp."
+          },
+          "q2": {
+            "accepted": [
+              "她们"
+            ],
+            "explanation": "她们 dùng cho nhóm chỉ nữ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói họ đều là học sinh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn quen họ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 他们都是学生.",
+            "frame": "他们都 + vị ngữ",
+            "model": "他们都是学生。",
+            "vi": "Họ đều là học sinh.",
+            "criteria": [
+              "Có 他们.",
+              "都 đứng trước 是."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 认识他们.",
+            "frame": "我认识 + 他们",
+            "model": "我认识他们。",
+            "vi": "Tôi quen họ.",
+            "criteria": [
+              "他们 đứng sau động từ.",
+              "Không thêm 们 lần nữa."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-5473007caaeb",
@@ -89729,22 +90403,185 @@
       "intro": [
         {
           "pinyin": "xiānsheng",
-          "meaning": "ông"
+          "meaning": "ông/ngài; cách xưng hô lịch sự với nam giới"
         }
       ],
-      "meaning": "ông",
-      "status": "example",
+      "meaning": "ông; ngài; cách xưng hô lịch sự với nam giới",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-033 · trung bình",
       "examples": [
         {
-          "zh": "李先生，您好。",
-          "vi": "Chào ông Lý."
+          "id": "e1",
+          "zh": "王先生是老师。",
+          "vi": "Ông Vương là giáo viên.",
+          "analysis": "先生 đứng sau họ 王 để xưng hô; 老师 mới nói nghề nghiệp giáo viên.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "先生，请问洗手间在哪儿？",
+          "vi": "Thưa ông, cho hỏi nhà vệ sinh ở đâu ạ?",
+          "analysis": "先生 là cách gọi lịch sự trực tiếp một nam giới trước câu hỏi.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 400,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 398,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=先生"
+        ],
+        "introduction": {
+          "scope": "cách gọi lịch sự với nam giới, thường sau họ; cũng có thể là cách gọi trực tiếp"
+        },
+        "meaning": {
+          "scene": "Gọi hoặc nhắc đến một người đàn ông một cách lịch sự.",
+          "explanation": "先生 thường đứng sau họ như 王先生, tương đương ‘ông/ngài’. Khi gọi trực tiếp người đàn ông chưa rõ tên, có thể dùng 先生 trong lời nói lịch sự; không mặc định đồng nghĩa với 老师.",
+          "boundary": "老师 nhấn vai trò giáo viên; 先生 nhấn cách xưng hô lịch sự với nam giới. Không gọi mọi nam giới là 先生 nếu ngữ cảnh thân mật hoặc cách xưng hô không phù hợp.",
+          "conditions": [
+            "Đặt sau họ khi nói ‘ông + họ’; khi gọi trực tiếp cần ngữ cảnh lịch sự và người được gọi là nam."
+          ],
+          "takeaway": "先生 là cách gọi lịch sự với nam giới; giáo viên dùng 老师 khi nhấn nghề nghiệp."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "họ + 先生",
+            "position": "先生 đứng sau họ của người được gọi.",
+            "required": "Cần họ hoặc tên gọi đã xác định nếu dùng như danh xưng.",
+            "omission": "Có thể bỏ họ khi gọi trực tiếp nếu ngữ cảnh đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "先生 + câu hỏi/lời gọi lịch sự",
+            "position": "先生 có thể đứng độc lập khi gọi một nam giới.",
+            "required": "Cần tình huống lịch sự phù hợp.",
+            "omission": "Có thể dùng cách gọi khác nếu biết tên hoặc quan hệ thân mật.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "王先生是老师。",
+            "vi": "Ông Vương là giáo viên.",
+            "analysis": "先生 đứng sau họ 王 để xưng hô; 老师 mới nói nghề nghiệp giáo viên.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "先生，请问洗手间在哪儿？",
+            "vi": "Thưa ông, cho hỏi nhà vệ sinh ở đâu ạ?",
+            "analysis": "先生 là cách gọi lịch sự trực tiếp một nam giới trước câu hỏi.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "先生 và 老师: danh xưng hay nghề nghiệp",
+            "scene": "Gọi một người đàn ông hoặc nói người đó là giáo viên.",
+            "possibleConfusion": "Trong một số ngữ cảnh, giáo viên nam có thể được gọi là 先生, khiến người học tưởng hai từ luôn thay thế nhau.",
+            "difference": "先生 là danh xưng lịch sự với nam giới; 老师 là cách gọi nhấn vai trò giáo viên.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "王先生是老师。",
+                "vi": "Ông Vương là giáo viên.",
+                "comment": "Một câu dùng cả danh xưng và nghề nghiệp với hai chức năng khác nhau.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "老师，请进。",
+                "vi": "Thầy/cô mời vào ạ.",
+                "comment": "老师 gọi người với tư cách giáo viên; không suy ra người đó phải là nam.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 先生 thành 老师 trong 王先生 sẽ đổi danh xưng thành cách gọi theo nghề nghiệp; không phải người đàn ông nào cũng là giáo viên. Đổi 老师 thành 先生 trong lời gọi giáo viên sẽ bỏ trọng tâm nghề nghiệp và thêm điều kiện nam giới."
+            },
+            "boundary": "Một thầy giáo nam có thể vừa là 先生 vừa là 老师 trong ngữ cảnh khác nhau; đó là giao nhau theo người, không phải đồng nghĩa.",
+            "tip": "Hỏi ‘ông/ngài nào?’ dùng 先生; gọi theo nghề dạy học dùng 老师."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách gọi nam giới lịch sự và đối chiếu nghĩa giáo viên.",
+          "literalTranslation": "Đã rà bẫy coi 先生 luôn là ‘thầy’ chỉ vì có thể dùng cho nam giáo viên.",
+          "confusables": "Đã đối chiếu 先生 với 老师; chưa mở rộng nghĩa lịch sử hoặc văn viết của 先生."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết; âm sau trong 先生 thường nhẹ tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền danh xưng: 王___是老师。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn gọi người với tư cách giáo viên, chọn 先生 hay 老师?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "先生"
+            ],
+            "explanation": "先生 đứng sau họ 王 để tạo danh xưng lịch sự."
+          },
+          "q2": {
+            "accepted": [
+              "老师"
+            ],
+            "explanation": "老师 nhấn vai trò giáo viên."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói ông Vương là giáo viên."
+          },
+          {
+            "id": "s2",
+            "prompt": "Lịch sự hỏi một ông nhà vệ sinh ở đâu."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 王先生 và 老师.",
+            "frame": "王先生是老师",
+            "model": "王先生是老师。",
+            "vi": "Ông Vương là giáo viên.",
+            "criteria": [
+              "先生 đứng sau họ.",
+              "老师 nói nghề nghiệp."
+            ]
+          },
+          "s2": {
+            "idea": "Gọi 先生 trước câu hỏi.",
+            "frame": "先生，请问 + câu hỏi",
+            "model": "先生，请问洗手间在哪儿？",
+            "vi": "Thưa ông, cho hỏi nhà vệ sinh ở đâu ạ?",
+            "criteria": [
+              "Dùng 先生 như lời gọi.",
+              "Câu hỏi giữ sắc thái lịch sự."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-39026e93e158",
@@ -125036,13 +125873,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 403,
-    "pending": 1831,
+    "ready": 408,
+    "pending": 1826,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 403
+        "ready": 408
       },
       {
         "level": 2,
