@@ -1,5 +1,15 @@
 
 
+# Batch-029 và correction-002 — đã phát hành và xác minh Pages
+
+- Commit nội dung: `86fce7351739d783c42a0c7794daf09d74c964b7`; đã fast-forward cả `content/vocabulary-2224` và `main`.
+- Sửa ba bài đã xác nhận: 睡觉, 起来, 地. Bổ sung hai mục baseline 378–379: 床、楼. Tiến độ: 379/2.224, còn 1.845; toàn khóa 389/2.234 bài đủ cấu trúc.
+- `process-batch verify`, `verify-v2`, `test-dom.mjs`, kiểm tra cú pháp JavaScript, `git diff --check` và kiểm segment audio đều đạt. DOM không chứng nhận bố cục trực quan hoặc phát âm trên thiết bị.
+- GitHub Pages run [40150094286](https://github.com/bohoa96tb/hazi-viet/actions/runs/40150094286) completed/success đúng `head_sha=86fce7351739d783c42a0c7794daf09d74c964b7`.
+- Dữ liệu khóa học live tải từ Pages có 2.234 mục, 389 bài đủ cấu trúc, 4.986.544 bytes, SHA-256 `6fc883516a28ccb360fa6a7d9c7b26e4acd3515fee63e1d9da2e70a27dfda3a0`, khớp byte với bản đã kiểm. Đã kiểm trực tiếp các ID sửa/bổ sung và cache `vocabulary.js?v=batch-029`.
+- Chưa xác minh TTS Android/phát âm thật, chưa chạy Chromium trực quan riêng cho lượt này và chưa có phản biện giáo viên độc lập.
+
+
 # Batch-019 · đã phát hành và xác minh Pages
 
 Mục baseline 217–234: 生气、米饭、面包、面条儿、中、也、六、出、国、外、女、新、比、男、病、中间、别的、北京. Candidate có 18 bài V2; tiến độ candidate 234/2.224, còn 1.990; toàn khóa đủ cấu trúc 244/2.234.

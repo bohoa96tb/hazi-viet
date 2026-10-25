@@ -1334,7 +1334,7 @@
       ],
       "contentFile": "tools/vocabulary/batches/batch-023.json",
       "authorship": "25 mục baseline 289–313; đánh giá độ khó trước khi viết, giải thích linh hoạt, tự rà ngôn ngữ; chưa phản biện giáo viên độc lập.",
-      "contentCommit": null
+      "contentCommit": "86fce7351739d783c42a0c7794daf09d74c964b7"
     },
     {
       "id": "batch-024",
@@ -1460,12 +1460,12 @@
       ],
       "contentFile": "tools/vocabulary/batches/batch-029.json",
       "authorship": "2 mục baseline 378–379; tự biên soạn, đọc mục MDBG và tự phản biện hai lượt; chưa phản biện giáo viên độc lập.",
-      "contentCommit": null
+      "contentCommit": "86fce7351739d783c42a0c7794daf09d74c964b7"
     }
   ],
-  "lastVerifiedContentCommit": "143a354584a63af4e0b0e2e0096e275ea123e9e2",
-  "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/143a354584a63af4e0b0e2e0096e275ea123e9e2",
-  "verificationNote": "Batch-028 đã qua apply/verify, verify-review, DOM, cú pháp JavaScript, Chromium cục bộ và Chromium live mobile/desktop; Pages run 40147845898 thành công đúng HEAD 85076fa, live course khớp SHA 7ac1a2b87872c81a522b5f5323dadd3d3e668cdd9a2dcef4aa600b48f5e0b75f. TTS Android và phản biện giáo viên độc lập chưa thực hiện.",
+  "lastVerifiedContentCommit": "86fce7351739d783c42a0c7794daf09d74c964b7",
+  "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/86fce7351739d783c42a0c7794daf09d74c964b7",
+  "verificationNote": "Correction-002 và batch-029 đã qua apply/verify, verify-v2, DOM, cú pháp JavaScript, diff check và kiểm segment audio; Pages run 40150094286 thành công đúng HEAD 86fce73, live course 4.986.544 bytes khớp SHA 6fc883516a28ccb360fa6a7d9c7b26e4acd3515fee63e1d9da2e70a27dfda3a0. Chưa chạy Chromium trực quan riêng cho lượt này; TTS Android và phản biện giáo viên độc lập chưa thực hiện.",
   "editorialCorrections": [
     {
       "id": "correction-001",
@@ -1478,6 +1478,12 @@
       "wordId": "hz-h1-0a3f1c936624",
       "reason": "Rà soát theo chuẩn mới: sửa tình huống đầu bài, công thức hỏi xác nhận và lời giải thích vị trí; không tăng completedCount.",
       "date": "2026-10-24"
+    },
+    {
+      "id": "correction-002",
+      "wordIds": ["hz-h1-c910353bf22d", "hz-h1-b30add7c80a3", "hz-h1-ae83e1176961"],
+      "reason": "Tách 了/以后, đánh giá thay 起床 theo từng ngữ cảnh, tách hai cách đọc/chức năng của 地 và thêm audio ngữ cảnh; không tăng completedCount.",
+      "date": "2026-10-25"
     }
   ]
 }
