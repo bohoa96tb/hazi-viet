@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 408 mục đủ cấu trúc V1/V2; còn 1826. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 398 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 416 mục đủ cấu trúc V1/V2; còn 1818. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 406 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -87548,29 +87548,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói bạn và bạn bè đều là học sinh."
+            "prompt": "Nói bạn và em bạn đều học tiếng Trung."
           },
           {
             "id": "s2",
-            "prompt": "Nói họ đều thích tiếng Trung."
+            "prompt": "Nói mọi người trong lớp đều đến rồi."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 我们都 + 是.",
-            "frame": "我们都是 + danh từ",
-            "model": "我们都是学生。",
-            "vi": "Chúng tôi đều là học sinh.",
+            "idea": "Dùng hai chủ thể nối với 和, rồi đặt 都 trước động từ.",
+            "frame": "我和 + người + 都 + động từ",
+            "model": "我和弟弟都学习中文。",
+            "vi": "Tôi và em trai đều học tiếng Trung.",
             "criteria": [
               "Có chủ thể nhóm.",
               "都 đứng trước 是."
             ]
           },
           "s2": {
-            "idea": "Dùng 他们都 trước động từ.",
-            "frame": "他们都 + động từ",
-            "model": "他们都喜欢中文。",
-            "vi": "Họ đều thích tiếng Trung.",
+            "idea": "Dùng danh ngữ chỉ nhóm + 都 + 来了.",
+            "frame": "班里的同学都来了",
+            "model": "班里的同学都来了。",
+            "vi": "Các bạn trong lớp đều đến rồi.",
             "criteria": [
               "都 đứng trước 喜欢.",
               "Ý nghĩa áp dụng cho cả nhóm."
@@ -87735,29 +87735,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói trong cặp có một quyển sách."
+            "prompt": "Nói điện thoại ở trong túi."
           },
           {
             "id": "s2",
-            "prompt": "Nói bạn học trong phòng."
+            "prompt": "Nói bạn học tiếng Trung trong phòng."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng danh từ + 里 trước 有.",
-            "frame": "书包里有 + đồ vật",
-            "model": "书包里有一本书。",
-            "vi": "Trong cặp có một quyển sách.",
+            "idea": "Đặt tên vật trước 在, rồi dùng danh từ + 里 làm nơi chốn.",
+            "frame": "手机在 + nơi + 里",
+            "model": "手机在包里。",
+            "vi": "Điện thoại ở trong túi.",
             "criteria": [
               "Có 书包里.",
               "Vật được giới thiệu sau 有."
             ]
           },
           "s2": {
-            "idea": "Dùng 在 + nơi + 里 trước động từ.",
-            "frame": "我在房间里 + động từ",
-            "model": "我在房间里学习。",
-            "vi": "Tôi học trong phòng.",
+            "idea": "Đặt 在 + nơi + 里 trước hành động và thêm đối tượng.",
+            "frame": "我在房间里 + động từ + tân ngữ",
+            "model": "我在房间里学中文。",
+            "vi": "Tôi học tiếng Trung trong phòng.",
             "criteria": [
               "Có 房间里.",
               "Động từ đứng sau cụm vị trí."
@@ -87922,29 +87922,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói buổi tối bạn về nhà."
+            "prompt": "Nói bạn về nhà sau khi tan học."
           },
           {
             "id": "s2",
-            "prompt": "Hỏi bạn khi nào về nhà."
+            "prompt": "Hỏi bạn thường về nhà lúc mấy giờ."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Đặt thời gian trước 回家.",
-            "frame": "我 + thời gian + 回家",
-            "model": "我晚上回家。",
-            "vi": "Buổi tối tôi về nhà.",
+            "idea": "Dùng mốc 放学以后 trước 回家.",
+            "frame": "我放学以后回家",
+            "model": "我放学以后回家。",
+            "vi": "Tôi về nhà sau khi tan học.",
             "criteria": [
               "Có 回家.",
               "Thời gian phù hợp."
             ]
           },
           "s2": {
-            "idea": "Dùng 什么时候 hỏi thời điểm.",
-            "frame": "你什么时候回家？",
-            "model": "你什么时候回家？",
-            "vi": "Khi nào bạn về nhà?",
+            "idea": "Dùng 通常 và 几点 để hỏi giờ về nhà.",
+            "frame": "你通常几点回家？",
+            "model": "你通常几点回家？",
+            "vi": "Bạn thường về nhà lúc mấy giờ?",
             "criteria": [
               "Có 什么时候.",
               "Hỏi thời điểm của 回家."
@@ -88109,29 +88109,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói hôm nay bạn ở nhà."
+            "prompt": "Nói hôm nay bạn ở nhà làm bài tập."
           },
           {
             "id": "s2",
-            "prompt": "Nói học ở nhà rất tiện."
+            "prompt": "Nói bạn ở nhà học tiếng Trung rất tiện."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng thời gian + 在家.",
-            "frame": "我 + thời gian + 在家",
-            "model": "我今天在家。",
-            "vi": "Hôm nay tôi ở nhà.",
+            "idea": "Đặt 在家 sau thời gian và trước hành động.",
+            "frame": "我今天在家 + động từ",
+            "model": "我今天在家做作业。",
+            "vi": "Hôm nay tôi ở nhà làm bài tập.",
             "criteria": [
               "Có 在家.",
               "Câu nói về vị trí."
             ]
           },
           "s2": {
-            "idea": "Đặt 在家 làm bối cảnh trước hành động.",
-            "frame": "在家 + động từ + tính từ",
-            "model": "在家学习很方便。",
-            "vi": "Học ở nhà rất tiện.",
+            "idea": "Dùng 在家 làm bối cảnh và đổi hành động thành học tiếng Trung.",
+            "frame": "在家学中文很方便",
+            "model": "在家学中文很方便。",
+            "vi": "Học tiếng Trung ở nhà rất tiện.",
             "criteria": [
               "Có 在家学习.",
               "Tính từ đánh giá hành động phía sau."
@@ -88296,29 +88296,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói đứa trẻ ngồi trên sàn."
+            "prompt": "Nói con mèo nằm trên sàn."
           },
           {
             "id": "s2",
-            "prompt": "Nói trên sàn có rất nhiều nước."
+            "prompt": "Nói trên sàn có một chiếc cốc."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 坐在地上.",
-            "frame": "chủ thể + 坐在地上",
-            "model": "孩子坐在地上。",
-            "vi": "Đứa trẻ ngồi trên sàn.",
+            "idea": "Dùng động từ chỉ tư thế + 在地上.",
+            "frame": "猫 + động từ + 在地上",
+            "model": "猫躺在地上。",
+            "vi": "Con mèo nằm trên sàn.",
             "criteria": [
               "Có 地上.",
               "Vị trí đứng sau 在."
             ]
           },
           "s2": {
-            "idea": "Dùng 地上有 để giới thiệu sự vật.",
-            "frame": "地上有 + sự vật",
-            "model": "地上有很多水。",
-            "vi": "Trên sàn có rất nhiều nước.",
+            "idea": "Dùng 地上有 để giới thiệu vật ở trên sàn.",
+            "frame": "地上有 + lượng từ + vật",
+            "model": "地上有一个杯子。",
+            "vi": "Trên sàn có một chiếc cốc.",
             "criteria": [
               "Có 地上有.",
               "Sự vật đứng sau 有."
@@ -88483,29 +88483,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói trong nhà có ba người."
+            "prompt": "Nói trong nhà có một con mèo."
           },
           {
             "id": "s2",
-            "prompt": "Nói bạn nấu cơm ở nhà."
+            "prompt": "Nói bạn đọc sách ở nhà."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 家里有.",
-            "frame": "家里有 + số + người",
-            "model": "家里有三个人。",
-            "vi": "Trong nhà có ba người.",
+            "idea": "Dùng 家里有 và lượng từ cho con vật.",
+            "frame": "家里有一只猫",
+            "model": "家里有一只猫。",
+            "vi": "Trong nhà có một con mèo.",
             "criteria": [
               "Có 家里有.",
               "Số người đứng sau 有."
             ]
           },
           "s2": {
-            "idea": "Dùng 在家里 trước hành động.",
+            "idea": "Dùng 在家里 trước hành động đọc sách.",
             "frame": "我在家里 + động từ",
-            "model": "我在家里做饭。",
-            "vi": "Tôi nấu cơm ở nhà.",
+            "model": "我在家里看书。",
+            "vi": "Tôi đọc sách ở nhà.",
             "criteria": [
               "Có 在家里.",
               "Động từ đứng sau cụm vị trí."
@@ -88670,29 +88670,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói căn nhà này rất lớn."
+            "prompt": "Nói căn nhà bên cạnh rất cũ."
           },
           {
             "id": "s2",
-            "prompt": "Nói bạn thuê một căn hộ."
+            "prompt": "Nói bạn thuê một căn nhà gần trường."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 这座房子 và tính từ.",
-            "frame": "这座房子 + tính từ",
-            "model": "这座房子很大。",
-            "vi": "Căn nhà này rất lớn.",
+            "idea": "Dùng cụm chỉ vị trí + 的 + 房子 để nói về căn nhà cụ thể.",
+            "frame": "旁边的房子 + tính từ",
+            "model": "旁边的房子很旧。",
+            "vi": "Căn nhà bên cạnh rất cũ.",
             "criteria": [
               "Có 房子.",
               "Tính từ mô tả cả căn."
             ]
           },
           "s2": {
-            "idea": "Dùng 一套房子 sau 租.",
-            "frame": "我租了一套房子",
-            "model": "我租了一套房子。",
-            "vi": "Tôi thuê một căn hộ.",
+            "idea": "Dùng 一套房子 và thêm nơi chốn để câu có thông tin cụ thể.",
+            "frame": "我租了一套 + nơi chốn + 的房子",
+            "model": "我租了一套学校附近的房子。",
+            "vi": "Tôi thuê một căn nhà gần trường.",
             "criteria": [
               "Có 一套房子.",
               "租 nói hành động thuê."
@@ -88857,29 +88857,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói phòng của bạn rất nhỏ."
+            "prompt": "Nói phòng của em gái bạn rất sáng."
           },
           {
             "id": "s2",
-            "prompt": "Nói căn phòng này rất yên tĩnh."
+            "prompt": "Nói phòng này có một cái bàn."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 我的房间 và tính từ.",
-            "frame": "我的房间 + tính từ",
-            "model": "我的房间很小。",
-            "vi": "Phòng của tôi rất nhỏ.",
+            "idea": "Dùng quan hệ sở hữu trước 房间 rồi mô tả căn phòng.",
+            "frame": "我妹妹的房间 + tính từ",
+            "model": "我妹妹的房间很亮。",
+            "vi": "Phòng của em gái tôi rất sáng.",
             "criteria": [
               "Có 房间.",
               "Tính từ mô tả căn phòng."
             ]
           },
           "s2": {
-            "idea": "Dùng 这个房间 và tính từ.",
-            "frame": "这个房间 + tính từ",
-            "model": "这个房间很安静。",
-            "vi": "Phòng này rất yên tĩnh.",
+            "idea": "Dùng 房间里有 để giới thiệu đồ vật trong phòng.",
+            "frame": "这个房间里有 + lượng từ + đồ vật",
+            "model": "这个房间里有一张桌子。",
+            "vi": "Phòng này có một cái bàn.",
             "criteria": [
               "Có 这个房间.",
               "Tính từ đứng sau 房间."
@@ -88992,9 +88992,9 @@
               },
               {
                 "id": "c2",
-                "zh": "书在桌子上。",
-                "vi": "Quyển sách ở trên bàn.",
-                "comment": "桌子上 là cụm vị trí trên bề mặt bàn.",
+                "zh": "桌面上有水。",
+                "vi": "Trên mặt bàn có nước.",
+                "comment": "桌面 chỉ riêng mặt phẳng phía trên của bàn.",
                 "judgment": "correct",
                 "practiceAllowed": false
               }
@@ -89044,29 +89044,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói trong phòng có một cái bàn."
+            "prompt": "Nói bạn viết bài bên cạnh cái bàn."
           },
           {
             "id": "s2",
-            "prompt": "Nói quyển sách ở trên bàn."
+            "prompt": "Nói trên bàn có nước."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 一张桌子.",
-            "frame": "房间里有一张桌子",
-            "model": "房间里有一张桌子。",
-            "vi": "Trong phòng có một cái bàn.",
+            "idea": "Dùng 在桌子旁边 để nói vị trí cạnh cái bàn.",
+            "frame": "我在桌子旁边 + động từ",
+            "model": "我在桌子旁边写作业。",
+            "vi": "Tôi viết bài bên cạnh cái bàn.",
             "criteria": [
               "Có 张 trước 桌子.",
               "Dùng 有 để nói có."
             ]
           },
           "s2": {
-            "idea": "Dùng 在桌子上.",
-            "frame": "书在桌子上",
-            "model": "书在桌子上。",
-            "vi": "Quyển sách ở trên bàn.",
+            "idea": "Dùng 桌子上 để chỉ vị trí của nước.",
+            "frame": "桌子上有 + vật",
+            "model": "桌子上有水。",
+            "vi": "Trên bàn có nước.",
             "criteria": [
               "Có 桌子上.",
               "Nêu đúng vị trí của sách."
@@ -89231,29 +89231,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói anh ấy học ở trên lầu."
+            "prompt": "Nói cô giáo ở trên lầu."
           },
           {
             "id": "s2",
-            "prompt": "Nói bạn lên lầu tìm anh ấy."
+            "prompt": "Nói bạn lên lầu lấy sách."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 在楼上 cho nơi chốn.",
-            "frame": "他在楼上 + động từ",
-            "model": "他在楼上学习。",
-            "vi": "Anh ấy học ở trên lầu.",
+            "idea": "Dùng 在楼上 để nói người đang ở tầng trên.",
+            "frame": "老师在楼上",
+            "model": "老师在楼上。",
+            "vi": "Cô giáo ở trên lầu.",
             "criteria": [
               "Có 在楼上.",
               "楼上 làm nơi diễn ra hành động."
             ]
           },
           "s2": {
-            "idea": "Dùng 去楼上 cho hướng đi.",
+            "idea": "Dùng 去楼上 rồi thêm hành động lấy sách.",
             "frame": "我去楼上 + động từ",
-            "model": "我去楼上找他。",
-            "vi": "Tôi lên lầu tìm anh ấy.",
+            "model": "我去楼上拿书。",
+            "vi": "Tôi lên lầu lấy sách.",
             "criteria": [
               "Có 去楼上.",
               "Có hành động sau cụm nơi chốn."
@@ -89418,29 +89418,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói mẹ đợi bạn ở dưới lầu."
+            "prompt": "Nói cửa hàng ở dưới lầu."
           },
           {
             "id": "s2",
-            "prompt": "Nói bạn xuống lầu tìm anh ấy."
+            "prompt": "Nói bạn đi xuống lầu tìm anh ấy."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 在楼下 cho địa điểm.",
-            "frame": "妈妈在楼下 + động từ",
-            "model": "妈妈在楼下等我。",
-            "vi": "Mẹ đang đợi tôi ở dưới lầu.",
+            "idea": "Dùng 在楼下 để xác định địa điểm.",
+            "frame": "商店在楼下",
+            "model": "商店在楼下。",
+            "vi": "Cửa hàng ở dưới lầu.",
             "criteria": [
               "Có 在楼下.",
               "楼下 làm nơi chốn."
             ]
           },
           "s2": {
-            "idea": "Dùng 下楼 cho hành động đi xuống.",
-            "frame": "我下楼 + động từ",
-            "model": "我下楼找他。",
-            "vi": "Tôi xuống lầu tìm anh ấy.",
+            "idea": "Dùng 去楼下 để giữ trọng tâm ở địa điểm đang học.",
+            "frame": "我去楼下 + động từ",
+            "model": "我去楼下找他。",
+            "vi": "Tôi đi xuống lầu tìm anh ấy.",
             "criteria": [
               "Có 下楼.",
               "Có hành động sau cụm động từ."
@@ -89605,29 +89605,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói trên người bạn không có tiền."
+            "prompt": "Nói trên người anh ấy không có điện thoại."
           },
           {
             "id": "s2",
-            "prompt": "Nói trên người bạn có một chiếc chìa khóa."
+            "prompt": "Nói trên người tôi có một chiếc vé."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 身上没有钱.",
-            "frame": "我身上没有 + danh từ",
-            "model": "我身上没有钱。",
-            "vi": "Trên người tôi không có tiền.",
+            "idea": "Dùng 身上没有 để nói vật không mang trên người.",
+            "frame": "他身上没有 + vật",
+            "model": "他身上没有手机。",
+            "vi": "Trên người anh ấy không có điện thoại.",
             "criteria": [
               "Có 身上.",
               "没有 phủ định vật mang theo."
             ]
           },
           "s2": {
-            "idea": "Dùng 身上有 và vật.",
-            "frame": "我身上有 + vật",
-            "model": "我身上有一把钥匙。",
-            "vi": "Trên người tôi có một chiếc chìa khóa.",
+            "idea": "Dùng 身上有 và lượng từ 张 cho vé.",
+            "frame": "我身上有一张票",
+            "model": "我身上有一张票。",
+            "vi": "Trên người tôi có một chiếc vé.",
             "criteria": [
               "Có 身上有.",
               "Nêu đúng vật đang mang."
@@ -89800,29 +89800,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói chúng tôi là học sinh."
+            "prompt": "Nói bạn và bạn bè đều là học sinh."
           },
           {
             "id": "s2",
-            "prompt": "Nói các thầy cô đều đến rồi."
+            "prompt": "Nói các bạn của tôi đang học tiếng Trung."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 我们.",
-            "frame": "我们是 + danh từ",
-            "model": "我们是学生。",
-            "vi": "Chúng tôi là học sinh.",
+            "idea": "Dùng hai chủ thể nối với 和, rồi dùng 们 và 都.",
+            "frame": "我和朋友们都是 + danh từ",
+            "model": "我和朋友们都是学生。",
+            "vi": "Tôi và các bạn đều là học sinh.",
             "criteria": [
               "们 đứng sau 我.",
               "Chủ thể mang nghĩa số nhiều."
             ]
           },
           "s2": {
-            "idea": "Dùng 老师们 và 都.",
-            "frame": "老师们都 + động từ",
-            "model": "老师们都来了。",
-            "vi": "Các thầy cô đều đến rồi.",
+            "idea": "Dùng danh từ chỉ người + 们 làm chủ thể số nhiều.",
+            "frame": "我的朋友们 + động từ",
+            "model": "我的朋友们在学习中文。",
+            "vi": "Các bạn của tôi đang học tiếng Trung.",
             "criteria": [
               "们 gắn sau 老师.",
               "都 đứng trước 来了."
@@ -89991,29 +89991,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Hỏi ai đã đến."
+            "prompt": "Hỏi ai là giáo viên."
           },
           {
             "id": "s2",
-            "prompt": "Hỏi đây là sách của ai."
+            "prompt": "Hỏi đây là điện thoại của ai."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Đặt 谁 trước 来了.",
-            "frame": "谁 + động từ",
-            "model": "谁来了？",
-            "vi": "Ai đến vậy?",
+            "idea": "Dùng 谁 ở vị trí chủ thể trước 是.",
+            "frame": "谁是 + danh từ chỉ người？",
+            "model": "谁是老师？",
+            "vi": "Ai là giáo viên?",
             "criteria": [
               "Dùng 谁 để hỏi người.",
               "谁 đứng trước 来了."
             ]
           },
           "s2": {
-            "idea": "Dùng 谁的 trước danh từ.",
-            "frame": "这是谁的 + danh từ",
-            "model": "这是谁的书？",
-            "vi": "Đây là sách của ai?",
+            "idea": "Dùng 谁的 trước danh từ cần hỏi sở hữu.",
+            "frame": "这是谁的 + danh từ？",
+            "model": "这是谁的手机？",
+            "vi": "Đây là điện thoại của ai?",
             "criteria": [
               "Có 谁的.",
               "Danh từ đứng sau 的."
@@ -90178,7 +90178,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nhờ một người giới thiệu bản thân."
+            "prompt": "Nhờ bạn giới thiệu người bạn mới với tôi."
           },
           {
             "id": "s2",
@@ -90187,20 +90187,20 @@
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 请你介绍一下自己.",
-            "frame": "请你介绍一下 + đối tượng",
-            "model": "请你介绍一下自己。",
-            "vi": "Bạn hãy giới thiệu một chút về bản thân nhé.",
+            "idea": "Dùng 给 + người nhận + 介绍 + người được giới thiệu.",
+            "frame": "请你给我介绍一下 + người",
+            "model": "请你给我介绍一下你的新朋友。",
+            "vi": "Bạn hãy giới thiệu người bạn mới của bạn với tôi nhé.",
             "criteria": [
               "Có 介绍.",
               "自己 là đối tượng được giới thiệu."
             ]
           },
           "s2": {
-            "idea": "Dùng 给 + người nghe + 介绍.",
-            "frame": "我给你介绍 + người",
-            "model": "我给你介绍我的朋友。",
-            "vi": "Tôi giới thiệu bạn của tôi với bạn.",
+            "idea": "Đặt 给我 để nêu người nhận, rồi đặt 你的朋友 sau 介绍.",
+            "frame": "你给我介绍 + người",
+            "model": "你给我介绍你的朋友。",
+            "vi": "Bạn giới thiệu bạn của bạn với tôi.",
             "criteria": [
               "Có 给你.",
               "Người được giới thiệu đứng sau 介绍."
@@ -90365,29 +90365,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói họ đều là học sinh."
+            "prompt": "Nói họ đang ở trên lầu."
           },
           {
             "id": "s2",
-            "prompt": "Nói bạn quen họ."
+            "prompt": "Nói tôi mời họ uống trà."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 他们都是学生.",
-            "frame": "他们都 + vị ngữ",
-            "model": "他们都是学生。",
-            "vi": "Họ đều là học sinh.",
+            "idea": "Dùng 他们 làm chủ thể và 在楼上 làm nơi chốn.",
+            "frame": "他们在楼上",
+            "model": "他们在楼上。",
+            "vi": "Họ đang ở trên lầu.",
             "criteria": [
               "Có 他们.",
               "都 đứng trước 是."
             ]
           },
           "s2": {
-            "idea": "Dùng 认识他们.",
-            "frame": "我认识 + 他们",
-            "model": "我认识他们。",
-            "vi": "Tôi quen họ.",
+            "idea": "Đặt 他们 sau động từ 请 làm người được mời.",
+            "frame": "我请他们 + động từ",
+            "model": "我请他们喝茶。",
+            "vi": "Tôi mời họ uống trà.",
             "criteria": [
               "他们 đứng sau động từ.",
               "Không thêm 们 lần nữa."
@@ -90552,29 +90552,29 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói ông Vương là giáo viên."
+            "prompt": "Nói ông Vương là giáo viên tiếng Trung."
           },
           {
             "id": "s2",
-            "prompt": "Lịch sự hỏi một ông nhà vệ sinh ở đâu."
+            "prompt": "Lịch sự hỏi ông nhà ga ở đâu."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Dùng 王先生 và 老师.",
-            "frame": "王先生是老师",
-            "model": "王先生是老师。",
-            "vi": "Ông Vương là giáo viên.",
+            "idea": "Dùng 先生 sau họ và thêm 中文 để nói rõ nghề dạy.",
+            "frame": "王先生是中文老师",
+            "model": "王先生是中文老师。",
+            "vi": "Ông Vương là giáo viên tiếng Trung.",
             "criteria": [
               "先生 đứng sau họ.",
               "老师 nói nghề nghiệp."
             ]
           },
           "s2": {
-            "idea": "Gọi 先生 trước câu hỏi.",
-            "frame": "先生，请问 + câu hỏi",
-            "model": "先生，请问洗手间在哪儿？",
-            "vi": "Thưa ông, cho hỏi nhà vệ sinh ở đâu ạ?",
+            "idea": "Dùng 先生 làm lời gọi trước câu hỏi địa điểm.",
+            "frame": "先生，请问 + địa điểm + 在哪儿？",
+            "model": "先生，请问车站在哪儿？",
+            "vi": "Thưa ông, cho hỏi nhà ga ở đâu ạ.",
             "criteria": [
               "Dùng 先生 như lời gọi.",
               "Câu hỏi giữ sắc thái lịch sự."
@@ -90594,13 +90594,181 @@
         }
       ],
       "meaning": "người khác",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-034 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我应该尊重别人。",
+          "vi": "Tôi nên tôn trọng người khác.",
+          "analysis": "别人 là đối tượng của 尊重, không phải người nói.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "不要拿别人的东西。",
+          "vi": "Đừng lấy đồ của người khác.",
+          "analysis": "别人的 đứng trước 东西 để nói đồ thuộc về người khác.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 401,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 399,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=别人"
+        ],
+        "introduction": {
+          "scope": "người khác, không phải bản thân hoặc nhóm đang nói"
+        },
+        "meaning": {
+          "scene": "Nói về một người hoặc những người không phải mình và không nhất thiết là người nghe.",
+          "explanation": "别人 làm danh từ chỉ người khác, thường đứng sau động từ hoặc làm thành phần sở hữu với 的. Nó đối lập theo ngữ cảnh với 自己 hoặc 我们.",
+          "boundary": "别人 chỉ người khác nói chung; không tự có nghĩa ‘người lạ’. Khi nói người cụ thể, có thể cần thêm 的 hoặc danh từ sau 别人的.",
+          "conditions": [
+            "Dùng 别人 khi đối tượng không phải người nói; xem ngữ cảnh để biết là một người hay nhiều người."
+          ],
+          "takeaway": "别人 là người khác, đặt trọng tâm vào người không phải mình."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "động từ + 别人",
+            "position": "别人 đứng sau động từ khi làm đối tượng.",
+            "required": "Động từ phải tác động đến người khác.",
+            "omission": "Có thể bỏ 别人 nếu đối tượng đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "别人的 + danh từ",
+            "position": "别人 đứng trước 的 để chỉ đồ/người thuộc về người khác.",
+            "required": "Sau 的 cần danh từ hoặc thành phần đã rõ.",
+            "omission": "Có thể nói 别人的 khi danh từ đã được nhắc.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我应该尊重别人。",
+            "vi": "Tôi nên tôn trọng người khác.",
+            "analysis": "别人 là đối tượng của 尊重, không phải người nói.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "不要拿别人的东西。",
+            "vi": "Đừng lấy đồ của người khác.",
+            "analysis": "别人的 đứng trước 东西 để nói đồ thuộc về người khác.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "别人 và 自己: người khác hay bản thân",
+            "scene": "Nói hành động hướng đến người ngoài bản thân hay hướng về chính mình.",
+            "possibleConfusion": "Cả hai đều là danh từ chỉ người và có thể đứng sau động từ.",
+            "difference": "别人 chỉ người khác; 自己 chỉ chính người đang được nói đến.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我应该帮助别人。",
+                "vi": "Tôi nên giúp đỡ người khác.",
+                "comment": "Hành động hướng đến người khác.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我先介绍自己。",
+                "vi": "Trước hết tôi tự giới thiệu bản thân.",
+                "comment": "自己 quay lại chính chủ thể 我.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 别人 thành 自己 sẽ đổi đối tượng từ người khác sang bản thân; câu có thể vẫn đúng ngữ pháp nhưng không còn cùng ý."
+            },
+            "boundary": "Một câu có thể chứa cả hai, như 我应该先照顾自己，再帮助别人.",
+            "tip": "Không phải mình thì dùng 别人; quay lại chính chủ thể thì dùng 自己."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa người khác và đối chiếu 自己.",
+          "literalTranslation": "Đã rà bẫy hiểu 别人 luôn là người lạ.",
+          "confusables": "Đã đối chiếu 别人/自己; chưa mở rộng 他人 trong văn viết."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我应该尊重___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘đồ của người khác’, điền: ___的东西。"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "别人"
+            ],
+            "explanation": "别人 là đối tượng không phải người nói."
+          },
+          "q2": {
+            "accepted": [
+              "别人"
+            ],
+            "explanation": "别人 đứng trước 的 để chỉ đồ thuộc về người khác."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn nên giúp đỡ người khác."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhắc ai đó đừng lấy điện thoại của người khác."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 应该帮助别人.",
+            "frame": "我应该帮助 + 别人",
+            "model": "我应该帮助别人。",
+            "vi": "Tôi nên giúp đỡ người khác.",
+            "criteria": [
+              "Có 别人 làm đối tượng.",
+              "应该 đứng trước động từ."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 别人的 trước 手机.",
+            "frame": "不要拿别人的 + đồ vật",
+            "model": "不要拿别人的手机。",
+            "vi": "Đừng lấy điện thoại của người khác.",
+            "criteria": [
+              "Có 别人的.",
+              "Đồ vật đứng sau 的."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-f425afa54f49",
@@ -90609,17 +90777,185 @@
       "intro": [
         {
           "pinyin": "nǚrén",
-          "meaning": "phụ nữ"
+          "meaning": "phụ nữ; người phụ nữ"
         }
       ],
-      "meaning": "phụ nữ",
-      "status": "catalog",
+      "meaning": "phụ nữ; người phụ nữ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-034 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "那个女人在医院工作。",
+          "vi": "Người phụ nữ kia làm việc ở bệnh viện.",
+          "analysis": "那个女人 chỉ một phụ nữ cụ thể; 在医院工作 nói nơi làm việc.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "她是一个很勇敢的女人。",
+          "vi": "Cô ấy là một người phụ nữ rất dũng cảm.",
+          "analysis": "女人 đứng sau 的 để mô tả người trưởng thành thuộc giới tính nữ.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 402,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 400,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=女人"
+        ],
+        "introduction": {
+          "scope": "phụ nữ hoặc một người phụ nữ, nhấn giới tính nữ và người trưởng thành"
+        },
+        "meaning": {
+          "scene": "Gọi hoặc mô tả một người trưởng thành thuộc giới tính nữ.",
+          "explanation": "女人 là danh từ chỉ phụ nữ. Khi xưng hô lịch sự hoặc cần nhấn vai trò, nghề nghiệp, có thể dùng từ cụ thể hơn như 女士 hoặc 女医生.",
+          "boundary": "女人 không có nghĩa là mọi người nữ ở mọi độ tuổi; trẻ em gái thường gọi 女孩, học sinh/sinh viên nữ có thể gọi 女生.",
+          "conditions": [
+            "Dùng 女人 khi đang nói về người phụ nữ như một danh từ, không dùng thay cho danh xưng lịch sự trong mọi tình huống."
+          ],
+          "takeaway": "女人 là phụ nữ/người phụ nữ trưởng thành; chọn 女生 hoặc 女孩 khi ngữ cảnh là học sinh hay trẻ em."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "那个/这个 + 女人",
+            "position": "Từ chỉ định đứng trước 女人 để chỉ một phụ nữ cụ thể.",
+            "required": "Cần ngữ cảnh nhận diện người được nói đến.",
+            "omission": "Có thể bỏ từ chỉ định khi đối tượng đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "女人 + 是/在 + vị ngữ",
+            "position": "女人 làm chủ thể trước vị ngữ.",
+            "required": "Vị ngữ phải mô tả người phụ nữ hoặc hành động của cô ấy.",
+            "omission": "Có thể thay bằng đại từ 她 khi người nghe đã biết người đó.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "那个女人在医院工作。",
+            "vi": "Người phụ nữ kia làm việc ở bệnh viện.",
+            "analysis": "那个女人 chỉ một phụ nữ cụ thể; 在医院工作 nói nơi làm việc.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "她是一个很勇敢的女人。",
+            "vi": "Cô ấy là một người phụ nữ rất dũng cảm.",
+            "analysis": "女人 đứng sau 的 để mô tả người trưởng thành thuộc giới tính nữ.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "女人 và 男人: phụ nữ hay đàn ông",
+            "scene": "Mô tả người trưởng thành theo giới tính.",
+            "possibleConfusion": "Hai từ có cùng cấu tạo và chỉ khác thành phần đầu.",
+            "difference": "女人 chỉ phụ nữ; 男人 chỉ đàn ông.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "那个女人是医生。",
+                "vi": "Người phụ nữ kia là bác sĩ.",
+                "comment": "Danh từ trung tâm là 女人.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "那个男人是医生。",
+                "vi": "Người đàn ông kia là bác sĩ.",
+                "comment": "Đổi sang nhóm nam, cấu trúc vẫn đúng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 女人 thành 男人 sẽ đổi giới tính của người được nói đến; câu vẫn đúng ngữ pháp nhưng nghĩa thay đổi."
+            },
+            "boundary": "Nếu không cần nêu giới tính, dùng tên hoặc đại từ có thể tự nhiên hơn; không ép chọn 女人/男人 khi ngữ cảnh không cần.",
+            "tip": "女 chỉ nữ, 男 chỉ nam; cả hai từ đều nói người trưởng thành."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa phụ nữ và giới hạn với 女生/女孩.",
+          "literalTranslation": "Đã rà bẫy dùng 女人 cho mọi người nữ không phân biệt tuổi.",
+          "confusables": "Đã đối chiếu 女人/男人; chưa mở rộng danh xưng 女士."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và chú ý âm đầu của 女. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 那个___在医院工作。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘người đàn ông kia là bác sĩ’, chọn 女人 hay 男人?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "女人"
+            ],
+            "explanation": "女人 chỉ người phụ nữ được nói đến."
+          },
+          "q2": {
+            "accepted": [
+              "男人"
+            ],
+            "explanation": "男人 chỉ người đàn ông."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói người phụ nữ kia làm việc ở bệnh viện."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói nhiều phụ nữ muốn có sự nghiệp riêng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 那个女人 làm chủ thể.",
+            "frame": "那个女人在 + nơi + 工作",
+            "model": "那个女人在商店工作。",
+            "vi": "Người phụ nữ kia làm việc ở cửa hàng.",
+            "criteria": [
+              "Có 女人.",
+              "在 đứng trước nơi làm việc."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 很多女人 làm chủ thể và 希望 nói mong muốn.",
+            "frame": "很多女人希望 + cụm",
+            "model": "很多女人希望有自己的事业。",
+            "vi": "Nhiều phụ nữ mong có sự nghiệp riêng.",
+            "criteria": [
+              "Có 女人 sau 的.",
+              "Tính từ mô tả người phụ nữ."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-176a4ead3971",
@@ -90628,17 +90964,185 @@
       "intro": [
         {
           "pinyin": "nǚshēng",
-          "meaning": "học sinh hoặc sinh viên nữ"
+          "meaning": "học sinh hoặc sinh viên nữ; nữ sinh"
         }
       ],
-      "meaning": "học sinh hoặc sinh viên nữ",
-      "status": "catalog",
+      "meaning": "học sinh hoặc sinh viên nữ; nữ sinh",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-034 · dễ",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "那个女生是我的同学。",
+          "vi": "Nữ sinh kia là bạn cùng lớp của tôi.",
+          "analysis": "那个女生 chỉ một nữ sinh cụ thể trong bối cảnh học tập.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "班里有三个女生。",
+          "vi": "Trong lớp có ba nữ sinh.",
+          "analysis": "三个女生 dùng 个 để đếm ba học sinh nữ.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 403,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 401,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=女生"
+        ],
+        "introduction": {
+          "scope": "nữ sinh, thường là học sinh hoặc sinh viên nữ trong môi trường học tập"
+        },
+        "meaning": {
+          "scene": "Nói về một học sinh hoặc sinh viên nữ.",
+          "explanation": "女生 dùng trong bối cảnh trường lớp hoặc nhóm bạn trẻ để chỉ người nữ đang đi học. Có thể dùng với số lượng hoặc làm chủ thể.",
+          "boundary": "女生 không phải cách gọi chung cho mọi phụ nữ trưởng thành; 女人 rộng hơn về vai trò nhưng không nhấn môi trường học tập.",
+          "conditions": [
+            "Dùng 女生 khi ngữ cảnh trường lớp, lớp học hoặc nhóm học sinh/sinh viên là quan trọng."
+          ],
+          "takeaway": "女生 là nữ sinh/học sinh hoặc sinh viên nữ, không phải từ chung cho mọi phụ nữ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "那个/这个 + 女生 + 是 + danh từ",
+            "position": "女生 làm chủ thể được chỉ định.",
+            "required": "Cần người được nhận diện trong nhóm học tập hoặc nhóm trẻ.",
+            "omission": "Có thể dùng 她 sau khi người nghe đã biết người đó.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "số lượng + 个 + 女生",
+            "position": "女生 đứng sau lượng từ 个 khi đếm nữ sinh.",
+            "required": "Cần số lượng cụ thể hoặc ý nói có bao nhiêu người.",
+            "omission": "Có thể nói 女生 không kèm số khi nói chung.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "那个女生是我的同学。",
+            "vi": "Nữ sinh kia là bạn cùng lớp của tôi.",
+            "analysis": "那个女生 chỉ một nữ sinh cụ thể trong bối cảnh học tập.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "班里有三个女生。",
+            "vi": "Trong lớp có ba nữ sinh.",
+            "analysis": "三个女生 dùng 个 để đếm ba học sinh nữ.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "女生 và 男生: nữ sinh hay nam sinh",
+            "scene": "Nói về học sinh hoặc sinh viên trong một nhóm.",
+            "possibleConfusion": "Hai từ đều chỉ người đi học và chỉ khác giới tính.",
+            "difference": "女生 là học sinh/sinh viên nữ; 男生 là học sinh/sinh viên nam.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "那个女生是我的同学。",
+                "vi": "Nữ sinh kia là bạn cùng lớp của tôi.",
+                "comment": "Người được nói đến là nữ sinh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "那个男生是我的同学。",
+                "vi": "Nam sinh kia là bạn cùng lớp của tôi.",
+                "comment": "Đổi sang học sinh nam.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 女生 thành 男生 sẽ đổi giới tính của học sinh; cấu trúc vẫn đúng nhưng thông tin thay đổi."
+            },
+            "boundary": "Cả hai đều gắn với môi trường học tập; không dùng 女生 thay cho 女人 khi chỉ phụ nữ trưởng thành nói chung.",
+            "tip": "女/男 chỉ giới tính, 生 ở đây gợi người đi học."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa nữ sinh và bối cảnh trường lớp.",
+          "literalTranslation": "Đã rà bẫy dịch 生 thành ‘sinh ra’ thay vì người đi học.",
+          "confusables": "Đã đối chiếu 女生/男生 và giới hạn với 女人."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 那个___是我的同学。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong lớp có ba nữ sinh: điền số và lượng từ trước 女生."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "女生"
+            ],
+            "explanation": "女生 chỉ nữ sinh cụ thể."
+          },
+          "q2": {
+            "accepted": [
+              "三个"
+            ],
+            "explanation": "三个女生 là ba nữ sinh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn học cùng một nữ sinh kia."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói trường này có nhiều nữ sinh."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我和那个女生一起学习.",
+            "frame": "我和那个女生一起 + động từ",
+            "model": "我和那个女生一起学习。",
+            "vi": "Tôi học cùng nữ sinh kia.",
+            "criteria": [
+              "Có 女生.",
+              "一起 đứng trước hành động chung."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 很多女生 sau 有.",
+            "frame": "这所学校有很多女生",
+            "model": "这所学校有很多女生。",
+            "vi": "Trường này có nhiều nữ sinh.",
+            "criteria": [
+              "Có 女生.",
+              "很多 đứng trước danh từ số nhiều."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-5c193225748e",
@@ -90647,22 +91151,185 @@
       "intro": [
         {
           "pinyin": "tāmen",
-          "meaning": "họ"
+          "meaning": "họ; nhóm người nữ"
         }
       ],
-      "meaning": "họ",
-      "status": "example",
+      "meaning": "họ; họ (toàn nữ)",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-034 · dễ",
       "examples": [
         {
+          "id": "e1",
           "zh": "她们都是老师。",
-          "vi": "Họ đều là giáo viên; nhóm này toàn nữ."
+          "vi": "Họ đều là giáo viên nữ.",
+          "analysis": "她们 làm chủ thể; 都 áp dụng nhận định cho cả nhóm nữ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我认识她们。",
+          "vi": "Tôi quen họ.",
+          "analysis": "她们 đứng sau 认识 làm đối tượng, và ngữ cảnh xác định nhóm là nữ.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 404,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 402,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=她们"
+        ],
+        "introduction": {
+          "scope": "đại từ ngôi ba số nhiều cho nhóm chỉ gồm nữ"
+        },
+        "meaning": {
+          "scene": "Thay cho một nhóm phụ nữ hoặc nữ sinh đã được xác định.",
+          "explanation": "她们 có thể làm chủ thể hoặc tân ngữ. Chữ 她 cho biết nhóm được nói đến là nữ; 们 tạo số nhiều.",
+          "boundary": "她们 dành cho nhóm chỉ nữ; nhóm nam hoặc nhóm có cả nam nữ thường dùng 他们 trong cách viết cơ bản.",
+          "conditions": [
+            "Cần có nhóm nữ đã được nhắc tới hoặc dễ xác định trong ngữ cảnh."
+          ],
+          "takeaway": "她们 là ‘họ’ cho nhóm chỉ nữ, khác với 他们 ở thông tin giới tính."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "她们 + 是/động từ",
+            "position": "她们 đứng trước vị ngữ làm chủ thể.",
+            "required": "Nhóm nữ phải được xác định.",
+            "omission": "Có thể bỏ chủ thể nếu ngữ cảnh đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "động từ + 她们",
+            "position": "她们 đứng sau động từ làm đối tượng.",
+            "required": "Động từ phải tác động đến nhóm nữ.",
+            "omission": "Có thể lược đối tượng khi người nghe biết nhóm nào.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她们都是老师。",
+            "vi": "Họ đều là giáo viên nữ.",
+            "analysis": "她们 làm chủ thể; 都 áp dụng nhận định cho cả nhóm nữ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我认识她们。",
+            "vi": "Tôi quen họ.",
+            "analysis": "她们 đứng sau 认识 làm đối tượng, và ngữ cảnh xác định nhóm là nữ.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "她们 và 他们: nhóm nữ hay nhóm nam/hỗn hợp",
+            "scene": "Chọn đại từ ngôi ba số nhiều trong một câu.",
+            "possibleConfusion": "Cả hai đều thường dịch là ‘họ’ trong tiếng Việt.",
+            "difference": "她们 chỉ nhóm nữ; 他们 thường chỉ nhóm nam hoặc nhóm có cả nam và nữ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她们都是老师。",
+                "vi": "Họ đều là giáo viên nữ.",
+                "comment": "Nhóm được xác định là nữ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他们都是老师。",
+                "vi": "Họ đều là giáo viên nam hoặc nhóm hỗn hợp.",
+                "comment": "Đại từ thay đổi phạm vi giới tính của nhóm.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 她们 thành 他们 sẽ bỏ thông tin nhóm chỉ nữ hoặc mở rộng sang nhóm nam/hỗn hợp; câu vẫn đúng ngữ pháp nhưng khác phạm vi."
+            },
+            "boundary": "Tiếng Việt thường không thể hiện khác biệt này trong đại từ ‘họ’, nên cần nhìn chữ Hán và ngữ cảnh.",
+            "tip": "Nhóm chỉ nữ dùng 她们; nhóm nam/hỗn hợp thường dùng 他们."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà đại từ số nhiều chỉ nữ và đối chiếu 他们.",
+          "literalTranslation": "Đã rà bẫy dịch cả hai thành ‘họ’ rồi bỏ thông tin giới tính trong chữ Hán.",
+          "confusables": "Đã đối chiếu 她们/他们; chưa mở rộng cách viết trung tính."
+        },
+        "pronunciation": {
+          "text": "Đọc hai âm tiết; 们 thường nhẹ sau 她. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: ___都是老师。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nhóm chỉ gồm nữ dùng 她们 hay 他们?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "她们"
+            ],
+            "explanation": "她们 chỉ nhóm nữ làm chủ thể."
+          },
+          "q2": {
+            "accepted": [
+              "她们"
+            ],
+            "explanation": "她们 dùng cho nhóm chỉ nữ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói họ đang đợi bạn ở dưới lầu (nhóm nữ)."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hôm qua bạn đã gặp họ (nhóm nữ)."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 她们 làm chủ thể và 在楼下等朋友.",
+            "frame": "她们在 + nơi + 等 + người",
+            "model": "她们在楼下等朋友。",
+            "vi": "Họ đang đợi bạn ở dưới lầu.",
+            "criteria": [
+              "Có 她们.",
+              "Động từ và nơi chốn đứng sau chủ thể."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 见过她们 làm đối tượng đã gặp.",
+            "frame": "我昨天见过 + 她们",
+            "model": "我昨天见过她们。",
+            "vi": "Hôm qua tôi đã gặp họ.",
+            "criteria": [
+              "她们 đứng sau động từ.",
+              "Ngữ cảnh là nhóm nữ."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-26b2763767cb",
@@ -90671,22 +91338,185 @@
       "intro": [
         {
           "pinyin": "háizi",
-          "meaning": "trẻ em"
+          "meaning": "trẻ em; con"
         }
       ],
-      "meaning": "trẻ em",
-      "status": "example",
+      "meaning": "trẻ em; con",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-034 · dễ",
       "examples": [
         {
-          "zh": "孩子在房间里睡觉。",
-          "vi": "Đứa trẻ đang ngủ trong phòng."
+          "id": "e1",
+          "zh": "这个孩子很可爱。",
+          "vi": "Đứa trẻ này rất đáng yêu.",
+          "analysis": "这个孩子 chỉ một đứa trẻ cụ thể; 很可爱 mô tả em bé/trẻ đó.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "孩子们在公园里玩。",
+          "vi": "Bọn trẻ chơi trong công viên.",
+          "analysis": "孩子们 chỉ một nhóm trẻ; 在公园里 làm nơi chốn của 玩.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 405,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 403,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=孩子"
+        ],
+        "introduction": {
+          "scope": "trẻ em hoặc con của ai đó, tùy ngữ cảnh"
+        },
+        "meaning": {
+          "scene": "Nói về một đứa trẻ hoặc con trong quan hệ gia đình.",
+          "explanation": "孩子 có thể chỉ trẻ em nói chung hoặc con của một người. Thêm 的 hoặc đại từ sở hữu để nói con của ai; thêm 们 khi nói một nhóm trẻ.",
+          "boundary": "孩子 không chỉ riêng con ruột nếu ngữ cảnh không nói; cũng không mặc định chỉ trẻ rất nhỏ.",
+          "conditions": [
+            "Dựa vào ngữ cảnh để hiểu 孩子 là trẻ em nói chung hay con của người được nhắc đến."
+          ],
+          "takeaway": "孩子 có thể là ‘trẻ em’ hoặc ‘con’; ngữ cảnh gia đình quyết định cách dịch tự nhiên."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "这个/那个 + 孩子 + tính từ",
+            "position": "孩子 làm chủ thể được chỉ định.",
+            "required": "Cần đứa trẻ cụ thể trong ngữ cảnh.",
+            "omission": "Có thể bỏ từ chỉ định khi đã rõ trẻ nào.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "孩子们 + động từ",
+            "position": "们 đứng sau 孩子 để nói nhiều trẻ.",
+            "required": "Cần nhóm trẻ và hành động áp dụng cho nhóm.",
+            "omission": "Bỏ 们 khi chỉ một đứa trẻ hoặc nói chung không đếm.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这个孩子很可爱。",
+            "vi": "Đứa trẻ này rất đáng yêu.",
+            "analysis": "这个孩子 chỉ một đứa trẻ cụ thể; 很可爱 mô tả em bé/trẻ đó.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "孩子们在公园里玩。",
+            "vi": "Bọn trẻ chơi trong công viên.",
+            "analysis": "孩子们 chỉ một nhóm trẻ; 在公园里 làm nơi chốn của 玩.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "孩子 và 大人: trẻ em hay người lớn",
+            "scene": "Phân biệt người còn nhỏ với người trưởng thành trong cùng tình huống.",
+            "possibleConfusion": "Cả hai đều có thể làm chủ thể và đứng trước động từ.",
+            "difference": "孩子 là trẻ em/con; 大人 là người lớn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "孩子们在公园里玩。",
+                "vi": "Bọn trẻ chơi trong công viên.",
+                "comment": "Chủ thể là nhóm trẻ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "大人们在旁边休息。",
+                "vi": "Người lớn nghỉ ở bên cạnh.",
+                "comment": "Chủ thể đổi thành người trưởng thành.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 孩子 thành 大人 sẽ đổi độ tuổi của chủ thể; cấu trúc vẫn đúng nhưng không còn nói về trẻ em."
+            },
+            "boundary": "Một đứa trẻ có thể được gọi là con trong quan hệ gia đình; không dịch máy móc thành ‘trẻ em’ trong mọi câu.",
+            "tip": "Nhìn độ tuổi trong ngữ cảnh: 孩子 là trẻ, 大人 là người lớn."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà hai nghĩa trẻ em/con và đối chiếu 大人.",
+          "literalTranslation": "Đã rà bẫy coi 孩子 luôn chỉ con ruột.",
+          "confusables": "Đã đối chiếu 孩子/大人; chưa mở rộng 儿童 trong văn viết."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết; âm sau trong 孩子 thường nhẹ tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这个___很可爱。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘bọn trẻ’, điền hậu tố sau 孩子."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "孩子"
+            ],
+            "explanation": "孩子 chỉ đứa trẻ cụ thể."
+          },
+          "q2": {
+            "accepted": [
+              "们"
+            ],
+            "explanation": "孩子们 chỉ một nhóm trẻ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói con của bạn năm nay năm tuổi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói trong công viên có rất nhiều trẻ em."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我的孩子 và số tuổi.",
+            "frame": "我的孩子今年 + số + 岁",
+            "model": "我的孩子今年五岁。",
+            "vi": "Con tôi năm nay năm tuổi.",
+            "criteria": [
+              "Có 孩子.",
+              "年龄 đứng sau 今年."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 有很多孩子 để nói có nhiều trẻ.",
+            "frame": "公园里有很多孩子",
+            "model": "公园里有很多孩子。",
+            "vi": "Trong công viên có rất nhiều trẻ em.",
+            "criteria": [
+              "Có 孩子.",
+              "很多 đứng trước danh từ."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-c1cc3f3bd0a8",
@@ -90695,17 +91525,185 @@
       "intro": [
         {
           "pinyin": "nánrén",
-          "meaning": "đàn ông"
+          "meaning": "đàn ông; người đàn ông"
         }
       ],
-      "meaning": "đàn ông",
-      "status": "catalog",
+      "meaning": "đàn ông; người đàn ông",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-034 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我看见一个男人在门口。",
+          "vi": "Tôi nhìn thấy một người đàn ông ở cửa.",
+          "analysis": "一个男人 là một người đàn ông cụ thể được nhìn thấy; 在门口 chỉ vị trí.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "那个男人正在工作。",
+          "vi": "Người đàn ông kia đang làm việc.",
+          "analysis": "那个男人 làm chủ thể của 正在工作.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 408,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 404,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=男人"
+        ],
+        "introduction": {
+          "scope": "đàn ông hoặc một người đàn ông trưởng thành"
+        },
+        "meaning": {
+          "scene": "Gọi hoặc mô tả một người trưởng thành thuộc giới tính nam.",
+          "explanation": "男人 là danh từ chỉ đàn ông. Khi cần cách gọi lịch sự hoặc vai trò cụ thể, có thể dùng 先生 hoặc nghề nghiệp phù hợp.",
+          "boundary": "男人 không phải cách gọi chung cho mọi người nam ở mọi độ tuổi; nam sinh thường gọi 男生, trẻ em trai gọi 男孩.",
+          "conditions": [
+            "Dùng 男人 khi giới tính nam và người trưởng thành là thông tin cần nói."
+          ],
+          "takeaway": "男人 là đàn ông/người đàn ông trưởng thành; 男生 nhấn bối cảnh đi học."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "một/那个 + 男人",
+            "position": "Từ chỉ số lượng hoặc chỉ định đứng trước 男人.",
+            "required": "Cần người đàn ông cụ thể hoặc số lượng.",
+            "omission": "Có thể bỏ thành phần trước khi ngữ cảnh đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "男人 + 在/正在 + động từ",
+            "position": "男人 làm chủ thể trước hành động.",
+            "required": "Hành động phải mô tả người đàn ông.",
+            "omission": "Có thể thay bằng 他 khi người nghe biết người đó.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我看见一个男人在门口。",
+            "vi": "Tôi nhìn thấy một người đàn ông ở cửa.",
+            "analysis": "一个男人 là một người đàn ông cụ thể được nhìn thấy; 在门口 chỉ vị trí.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "那个男人正在工作。",
+            "vi": "Người đàn ông kia đang làm việc.",
+            "analysis": "那个男人 làm chủ thể của 正在工作.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "男人 và 女人: đàn ông hay phụ nữ",
+            "scene": "Mô tả người trưởng thành theo giới tính.",
+            "possibleConfusion": "Hai từ cùng chỉ người trưởng thành và dễ bị lẫn khi chỉ nhìn phần sau 人.",
+            "difference": "男人 chỉ đàn ông; 女人 chỉ phụ nữ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "那个男人正在工作。",
+                "vi": "Người đàn ông kia đang làm việc.",
+                "comment": "Chủ thể là nam giới trưởng thành.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "那个女人正在工作。",
+                "vi": "Người phụ nữ kia đang làm việc.",
+                "comment": "Đổi sang nữ giới trưởng thành.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 男人 thành 女人 sẽ đổi giới tính của chủ thể, còn cấu trúc câu vẫn đúng."
+            },
+            "boundary": "Nếu không cần nêu giới tính, tên riêng hoặc 他/她 theo ngữ cảnh có thể phù hợp hơn.",
+            "tip": "男 là nam, 女 là nữ; 人 chỉ người."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa đàn ông và giới hạn với 男生/男孩.",
+          "literalTranslation": "Đã rà bẫy hiểu 男人 là mọi người nam không xét tuổi.",
+          "confusables": "Đã đối chiếu 男人/女人; chưa mở rộng 男士."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我看见一个___在门口。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘người phụ nữ kia đang làm việc’, chọn 男人 hay 女人?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "男人"
+            ],
+            "explanation": "男人 là người đàn ông được nhìn thấy."
+          },
+          "q2": {
+            "accepted": [
+              "女人"
+            ],
+            "explanation": "女人 chỉ người phụ nữ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói ở cửa có một người đàn ông đang đứng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói những người đàn ông này đang làm việc."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 门口有 để giới thiệu người đang ở cửa.",
+            "frame": "门口有一个男人",
+            "model": "门口有一个男人。",
+            "vi": "Ở cửa có một người đàn ông.",
+            "criteria": [
+              "Có 男人.",
+              "一个 đứng trước danh từ."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 男人们 làm chủ thể số nhiều.",
+            "frame": "这些男人正在 + động từ",
+            "model": "这些男人正在工作。",
+            "vi": "Những người đàn ông này đang làm việc.",
+            "criteria": [
+              "Có 男人们 hoặc 这些男人.",
+              "正在 đứng trước động từ."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-fa309d40d3dc",
@@ -90714,23 +91712,185 @@
       "intro": [
         {
           "pinyin": "nánpéngyou",
-          "meaning": "bạn trai",
-          "sourcePinyin": "nán péngyou"
+          "meaning": "bạn trai"
         }
       ],
       "meaning": "bạn trai",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-034 · trung bình",
       "examples": [
         {
-          "zh": "她男朋友在这里工作。",
-          "vi": "Bạn trai cô ấy làm việc ở đây."
+          "id": "e1",
+          "zh": "她的男朋友在北京工作。",
+          "vi": "Bạn trai của cô ấy làm việc ở Bắc Kinh.",
+          "analysis": "她的 xác định người có mối quan hệ; 男朋友 là người nam đó.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我没有男朋友。",
+          "vi": "Tôi không có bạn trai.",
+          "analysis": "没有 phủ định việc có bạn trai, không phải phủ định có bạn nam nói chung.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 409,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 405,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=男朋友"
+        ],
+        "introduction": {
+          "scope": "bạn trai, người yêu nam trong quan hệ tình cảm"
+        },
+        "meaning": {
+          "scene": "Nói về người nam đang có quan hệ yêu đương với ai đó.",
+          "explanation": "男朋友 là danh từ chỉ bạn trai/người yêu nam. Có thể đứng sau 的 để nói bạn trai của ai hoặc làm đối tượng của động từ.",
+          "boundary": "朋友 chỉ bạn bè nói chung; thêm 男 cho biết quan hệ tình cảm và giới tính nam. Không dùng 男朋友 chỉ một người bạn nam bình thường.",
+          "conditions": [
+            "Dựa vào 的 hoặc đại từ trước đó để xác định bạn trai của ai."
+          ],
+          "takeaway": "男朋友 là bạn trai/người yêu nam, khác với 朋友 là bạn nói chung."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "đại từ + 的 + 男朋友",
+            "position": "男朋友 đứng sau 的 để chỉ quan hệ thuộc về một người.",
+            "required": "Cần người có bạn trai hoặc ngữ cảnh xác định.",
+            "omission": "Có thể bỏ đại từ sở hữu khi người nghe đã biết người đó.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "有/没有 + 男朋友",
+            "position": "男朋友 đứng sau 有 hoặc 没有 để nói có hay không có bạn trai.",
+            "required": "Câu hỏi hoặc lời nói phải liên quan quan hệ tình cảm.",
+            "omission": "Có thể nói 男朋友 khi câu hỏi đã rõ chủ thể.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她的男朋友在北京工作。",
+            "vi": "Bạn trai của cô ấy làm việc ở Bắc Kinh.",
+            "analysis": "她的 xác định người có mối quan hệ; 男朋友 là người nam đó.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我没有男朋友。",
+            "vi": "Tôi không có bạn trai.",
+            "analysis": "没有 phủ định việc có bạn trai, không phải phủ định có bạn nam nói chung.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "男朋友 và 朋友: bạn trai hay bạn",
+            "scene": "Nói về một người nam có quan hệ tình cảm hay một người bạn.",
+            "possibleConfusion": "男朋友 chứa 朋友 nên người học có thể dịch cả hai như ‘bạn’.",
+            "difference": "男朋友 là bạn trai/người yêu nam; 朋友 là bạn nói chung.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她的男朋友在北京工作。",
+                "vi": "Bạn trai của cô ấy làm việc ở Bắc Kinh.",
+                "comment": "的 xác định quan hệ tình cảm với cô ấy.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我的朋友在北京工作。",
+                "vi": "Bạn của tôi làm việc ở Bắc Kinh.",
+                "comment": "朋友 không cho biết quan hệ tình cảm hoặc giới tính.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 男朋友 thành 朋友 sẽ bỏ thông tin quan hệ tình cảm và giới tính; đổi ngược lại sẽ thêm thông tin không có trong câu gốc."
+            },
+            "boundary": "Một người có thể vừa là 朋友 vừa là 男朋友, nhưng hai từ nhấn thông tin khác nhau.",
+            "tip": "Có 男 thì là bạn trai; chỉ 朋友 thì chưa nói quan hệ yêu đương."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa bạn trai và phân biệt với bạn nói chung.",
+          "literalTranslation": "Đã rà bẫy dịch 男朋友 thành ‘bạn nam’ trong mọi ngữ cảnh.",
+          "confusables": "Đã đối chiếu 男朋友/朋友; chưa mở rộng 女朋友."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ ba âm tiết; âm sau trong 朋友 thường nhẹ tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 她的___在北京工作。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘bạn của tôi’ mà không khẳng định quan hệ yêu đương, chọn 男朋友 hay 朋友?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "男朋友"
+            ],
+            "explanation": "男朋友 là bạn trai của cô ấy."
+          },
+          "q2": {
+            "accepted": [
+              "朋友"
+            ],
+            "explanation": "朋友 chỉ bạn nói chung, không thêm ý bạn trai."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói hôm qua tôi đi xem phim với bạn trai."
+          },
+          {
+            "id": "s2",
+            "prompt": "Hỏi một người bạn có bạn trai không."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我和男朋友 và thêm thời gian hôm qua.",
+            "frame": "我昨天和男朋友 + động từ",
+            "model": "我昨天和男朋友去看电影。",
+            "vi": "Hôm qua tôi đi xem phim với bạn trai.",
+            "criteria": [
+              "Có 男朋友.",
+              "的 xác định người có quan hệ."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng câu hỏi 有男朋友吗.",
+            "frame": "你有男朋友吗？",
+            "model": "你有男朋友吗？",
+            "vi": "Bạn có bạn trai không?",
+            "criteria": [
+              "Có 男朋友.",
+              "吗 tạo câu hỏi có/không."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-e2b6de021112",
@@ -90739,17 +91899,185 @@
       "intro": [
         {
           "pinyin": "nánshēng",
-          "meaning": "học sinh hoặc sinh viên nam"
+          "meaning": "học sinh hoặc sinh viên nam; nam sinh"
         }
       ],
-      "meaning": "học sinh hoặc sinh viên nam",
-      "status": "catalog",
+      "meaning": "học sinh hoặc sinh viên nam; nam sinh",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-034 · dễ",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "班里有十个男生。",
+          "vi": "Trong lớp có mười nam sinh.",
+          "analysis": "十个男生 dùng 个 để đếm nam sinh trong lớp.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "那个男生喜欢踢足球。",
+          "vi": "Nam sinh kia thích đá bóng.",
+          "analysis": "那个男生 làm chủ thể của 喜欢踢足球.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 410,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 406,
+        "authorship": "Tự biên soạn, đọc mục MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb=男生"
+        ],
+        "introduction": {
+          "scope": "nam sinh, thường là học sinh hoặc sinh viên nam"
+        },
+        "meaning": {
+          "scene": "Nói về một học sinh hoặc sinh viên nam trong bối cảnh học tập.",
+          "explanation": "男生 dùng trong lớp học, trường học hoặc nhóm bạn trẻ để chỉ người nam đang đi học. Có thể dùng với 个 hoặc 们.",
+          "boundary": "男生 không phải cách gọi chung cho mọi đàn ông trưởng thành; 男人 rộng hơn về người trưởng thành nhưng không nhấn trường lớp.",
+          "conditions": [
+            "Dùng 男生 khi bối cảnh học tập hoặc nhóm học sinh/sinh viên là trọng tâm."
+          ],
+          "takeaway": "男生 là nam sinh; đối ứng nữ sinh là 女生."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "số lượng + 个 + 男生",
+            "position": "男生 đứng sau lượng từ khi đếm nam sinh.",
+            "required": "Cần số lượng hoặc ngữ cảnh nhóm học tập.",
+            "omission": "Có thể nói 男生 không kèm số khi nói chung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "那个 + 男生 + động từ",
+            "position": "男生 làm chủ thể được chỉ định.",
+            "required": "Cần người nam cụ thể trong nhóm học sinh/sinh viên.",
+            "omission": "Có thể thay bằng 他 khi đã xác định người đó.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "班里有十个男生。",
+            "vi": "Trong lớp có mười nam sinh.",
+            "analysis": "十个男生 dùng 个 để đếm nam sinh trong lớp.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "那个男生喜欢踢足球。",
+            "vi": "Nam sinh kia thích đá bóng.",
+            "analysis": "那个男生 làm chủ thể của 喜欢踢足球.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "男生 và 女生: nam sinh hay nữ sinh",
+            "scene": "Nói về người đi học trong lớp hoặc trường.",
+            "possibleConfusion": "Hai từ đều chỉ học sinh/sinh viên và khác nhau chủ yếu ở giới tính.",
+            "difference": "男生 là nam sinh; 女生 là nữ sinh.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "那个男生喜欢踢足球。",
+                "vi": "Nam sinh kia thích đá bóng.",
+                "comment": "Người được nói đến là nam sinh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "那个女生喜欢踢足球。",
+                "vi": "Nữ sinh kia thích đá bóng.",
+                "comment": "Đổi sang nữ sinh, cấu trúc vẫn đúng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 男生 thành 女生 sẽ đổi giới tính của học sinh; câu vẫn đúng nhưng thông tin thay đổi."
+            },
+            "boundary": "Nếu người đó đã trưởng thành và không nói bối cảnh trường lớp, 男人 có thể phù hợp hơn.",
+            "tip": "男/女 chỉ giới tính, 生 ở đây gợi người đang đi học."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa nam sinh và đối chiếu 女生.",
+          "literalTranslation": "Đã rà bẫy dịch 生 theo nghĩa ‘sinh’ thay vì người đi học.",
+          "confusables": "Đã đối chiếu 男生/女生 và giới hạn với 男人."
+        },
+        "pronunciation": {
+          "text": "Đọc rõ hai âm tiết và giữ thanh điệu. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 班里有十个___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘nữ sinh kia thích đá bóng’, chọn 男生 hay 女生?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "男生"
+            ],
+            "explanation": "男生 là nam sinh được đếm trong lớp."
+          },
+          "q2": {
+            "accepted": [
+              "女生"
+            ],
+            "explanation": "女生 chỉ nữ sinh."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói nam sinh kia ngồi cạnh bạn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói các nam sinh đều thích đá bóng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 那个男生 và 在我旁边.",
+            "frame": "那个男生坐在我旁边",
+            "model": "那个男生坐在我旁边。",
+            "vi": "Nam sinh kia ngồi cạnh tôi.",
+            "criteria": [
+              "Có 男生.",
+              "在我旁边 chỉ vị trí."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 男生们 và 都.",
+            "frame": "男生们都 + động từ",
+            "model": "男生们都喜欢踢足球。",
+            "vi": "Các nam sinh đều thích đá bóng.",
+            "criteria": [
+              "Có 男生们.",
+              "都 áp dụng sở thích cho cả nhóm."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-babc88a86428",
@@ -125873,13 +127201,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 408,
-    "pending": 1826,
+    "ready": 416,
+    "pending": 1818,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 408
+        "ready": 416
       },
       {
         "level": 2,

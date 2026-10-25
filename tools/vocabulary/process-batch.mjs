@@ -10,6 +10,7 @@ import {verifyV2} from './verify-v2.mjs';
 import {validateCourse} from '../../js/vocabulary-course.js';
 import {buildPlaylist} from '../../js/vocabulary-audio.js';
 import {renderStandardLesson} from '../../js/lesson-standard-view.js';
+import {assertFreshV2} from './quality-audit.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const read=f=>JSON.parse(fs.readFileSync(path.join(root,f),'utf8'));
 const write=(f,x)=>fs.writeFileSync(path.join(root,f),JSON.stringify(x,null,2)+'\n');
@@ -82,6 +83,7 @@ if(command==='init'){
    const a=auditLesson(w);assert(a.ready,w.id+': '+JSON.stringify(a.issues));
    return w;
   });
+  assertFreshV2(drafts);
   for(const w of drafts){data.words[data.words.findIndex(x=>x.id===w.id)]=w;byId.set(w.id,w);p.completedIds.push(w.id);p.completedDigests[w.id]=digest(w);}
   const from=p.completedCount+1;p.completedCount+=drafts.length;p.remaining=b.scopeTotal-p.completedCount;
   p.lastCompletedOrdinal=p.completedCount;p.lastCompletedId=p.completedIds.at(-1);p.nextIds=b.orderedIds.slice(p.completedCount,p.completedCount+18);

@@ -24,6 +24,8 @@ Chạy trên nhánh content/vocabulary-2224:
 ```
 node tools/vocabulary/process-batch.mjs verify
 node tools/vocabulary/test-dom.mjs
+node tools/vocabulary/quality-audit.mjs --self-test
+node tools/vocabulary/quality-audit.mjs
 ```
 
 Lệnh DOM cần Happy DOM: `npm install --prefix /tmp/hazi-test-env happy-dom --no-audit --no-fund`; hoặc đặt `HAPPY_DOM_MODULE` tới file module có sẵn. Đây là phụ thuộc kiểm thử tùy chọn, không thêm vào website. Verify chính không cần npm.
@@ -31,6 +33,8 @@ Lệnh DOM cần Happy DOM: `npm install --prefix /tmp/hazi-test-env happy-dom -
 Từ batch-006, verify còn đối chiếu cohortOrdinal với baseline và examples ở word/lesson; DOM test tự lấy bài mới nhất, giữ hồi quy V1/不用.
 
 Verify V1 giữ nguyên tiêu chí cũ. Verify V2 kiểm tra hai ví dụ, hash, liên kết, ẩn lời giải/gợi ý khỏi HTML, tách câu hỏi/audio lời giải, loại Pinyin/Markdown khỏi TTS, câu sai giả lập phải cảnh báo và sửa, mẫu sai cấu trúc dữ liệu phải bị từ chối. DOM chạy entry point thật với API giọng giả lập để kiểm tra sự kiện và trạng thái; không chứng nhận bố cục trực quan hay TTS thiết bị.
+
+`quality-audit.mjs` là cổng cảnh báo biên tập riêng: tìm tự dùng trùng hoặc gần giống máy móc với ví dụ, đáp án không chứa từ/cấu trúc mục tiêu (kể cả dạng tách được), tiêu đề đối chiếu A/B thiếu câu minh họa một phía và câu sai thiếu correction. Cảnh báo cũ cần đọc lại, không tự động kết luận câu sai; batch mới bị chặn nếu có lỗi trùng nguyên văn, thiếu từ mục tiêu hoặc bẫy A/B thiếu ví dụ. `--self-test` bao phủ dữ liệu đúng, sai và ngoại lệ `targetForms`/`targetOptional`.
 
 ## Phát hành
 
