@@ -12,7 +12,7 @@
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
   "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-007 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–457; batch-034 đến batch-045 đã bổ sung, tự phản biện. Tiến độ supplementation là 469/2.224, còn 1.755. Batch-045 đang chờ commit tracker/main và Pages; tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "602dbd204c3a4e7cb3de4b08cb3fa41a72af4b8a1be712bb8851063b4545e9ec",
+    "progress.json": "cd2d1186d1f6cf6e0345baf921531e07d1325cc444ba81a2ecf5e680ad77283e",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "788651592fc30c337797e62dcabb6160bd6029224546bd0fa077033f66c15158",
     "data/vocabulary/content-audit.json": "72d9339baa168e1980c8ed2afd00ac0c0630ea40f08ab08b7082b79cb09ea022"
@@ -50,8 +50,8 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "d15668330937c4ffd9cc3a24757af01b7d395766",
-  "priorVerificationNote": "Batch-044 (门票、飞机、马路、从、四、教、班、中学; ordinal 452–459) đã qua kiểm tra cục bộ trên content commit 3fe0902 và Pages run 40166924555 success trên tracker d156683; live course 5.551.676 bytes khớp SHA-256 c6df285ef12f0ba2f2d901ebd007481d0d4ff91ff6bb0598087d22d67f5f9d8c. Phân loại 4 dễ, 3 trung bình, 1 khó. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "80d1c7fe35ee04d02c9724196dc3f792f9b33fa3",
+  "priorVerificationNote": "Correction-007 cho 教 và batch-045 (中学生、书包、医生、大学、大学生、学校、学院、小学、小学生、工人; ordinal 457 và 460–469) đã qua kiểm tra cục bộ trên content commit 80d1c7f; đang chờ tracker/main và Pages. Chưa xác minh TTS Android thật, bố cục trực quan hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[469:]",
