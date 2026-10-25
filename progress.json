@@ -1012,7 +1012,7 @@
     "hz-h2-9c4c64bf48ef": "6dbb464ce526e218ef74724d6191f87d996542e5e566527ad462775388465ca6",
     "hz-h2-ebe1da60c988": "eab0956fda3c7a93bc20b7f9e1e1f88984805b929741441287ac9a1de4007c58",
     "hz-h2-eefe7f470909": "306be4feb2c339653038cd3bb056f5be61b405694f828ef7a6950c7b206036fe",
-    "hz-h2-2bdabe19c71c": "c71b0104c993f3a499cee93ad22417719c3cf1e7aba8965798d128e0bb58f0e1",
+    "hz-h2-2bdabe19c71c": "5a1294cfcb328c335ab48856fa24d254a476547fd01d987e65490038a5bf89ff",
     "hz-h2-2bafadee60b3": "2544af972fb38fb8665af1d5d78bb3d13d9932025928eaf95b5d3735478b4a0f",
     "hz-h2-bf92799613ca": "0bff28f641ece8aa0e7b190f26b3151c102d051b3662729dff92b6ca6204be8b"
   },
@@ -2019,7 +2019,7 @@
   ],
   "lastVerifiedContentCommit": "1099646d6d50c183873ac1f4e25d2d2094d95c9d",
   "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/1099646d6d50c183873ac1f4e25d2d2094d95c9d",
-  "verificationNote": "Batch-048 (ordinal 494–501) đã qua verify, verify-v2, quality-audit self-test, quality audit phạm vi mới, DOM simulation sau khi bổ sung kiểm tra chuyển cấp HSK, kiểm tra cú pháp và git diff --check trên content commit da7ce9c; Pages run 40170220256 đã success đúng HEAD 7f5133b. Chưa xác minh TTS Android thật, bố cục trực quan hoặc phản biện giáo viên độc lập.",
+  "verificationNote": "Batch-048 (ordinal 494–501) và Correction-009 cho 卡 đã qua verify, verify-v2, quality-audit self-test, quality audit phạm vi mới, DOM simulation sau khi bổ sung kiểm tra chuyển cấp HSK, kiểm tra cú pháp và git diff --check; Pages run 40170494061 đã success đúng HEAD 8432075. Chưa xác minh TTS Android thật, bố cục trực quan hoặc phản biện giáo viên độc lập.",
   "editorialCorrections": [
     {
       "id": "correction-001",
@@ -2128,6 +2128,14 @@
         "hz-h1-b3007167e541"
       ],
       "reason": "Sửa bản dịch 我今天去看医生 thành “Hôm nay tôi đi khám bệnh”, tự nhiên và không thu hẹp 看医生 thành gặp riêng bác sĩ; không tăng completedCount.",
+      "date": "2026-10-25"
+    },
+    {
+      "id": "correction-009",
+      "wordIds": [
+        "hz-h2-2bdabe19c71c"
+      ],
+      "reason": "Bổ sung cách đọc qiǎ của 卡 với nghĩa kẹt/bị chặn bên cạnh kǎ trong thẻ; đồng bộ intro, lời giảng và phát âm, không tăng completedCount.",
       "date": "2026-10-25"
     }
   ]

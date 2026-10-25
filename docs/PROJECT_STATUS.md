@@ -15,7 +15,7 @@ Cập nhật: 2026-10-25. Chế độ hiện hành: `supplementation` (đã qua 
 
 - Phạm vi baseline: 2.224 mục; 493 mục đã có nội dung bổ sung; còn 1.731 mục.
 - Tiến độ này độc lập với tiến độ rà soát ở trên và không được dùng để tuyên bố đã rà 367 bài.
-- Trạng thái: batch-048 đã biên soạn, kiểm tra cục bộ và phát hành Pages thành công ở run `40170220256` theo tracker HEAD `7f5133b`. CompletedCount là 501/2.224, còn 1.723; đợt kế tiếp bắt đầu từ ordinal 502 theo ID trong checkpoint. Batch-048 gồm 3 bài dễ và 5 bài trung bình; các bài mới có hai ví dụ, bẫy đối chiếu thật và hai tình huống tự dùng. Tiến độ supplementation độc lập với cổng rà soát 377/377.
+- Trạng thái: batch-048 và Correction-009 (卡: bổ sung cách đọc qiǎ bên cạnh kǎ) đã kiểm tra cục bộ và phát hành Pages thành công ở run `40170494061` theo tracker HEAD `8432075`. CompletedCount là 501/2.224, còn 1.723; đợt kế tiếp bắt đầu từ ordinal 502 theo ID trong checkpoint. Batch-048 gồm 3 bài dễ và 5 bài trung bình; các bài mới có hai ví dụ, bẫy đối chiếu thật và hai tình huống tự dùng. Correction-009 không tăng completedCount. Tiến độ supplementation độc lập với cổng rà soát 377/377.
 
 ## Giao diện và chức năng
 
