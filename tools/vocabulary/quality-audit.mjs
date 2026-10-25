@@ -43,7 +43,7 @@ const semanticRules=[
   {kind:'action',id:'do-not-enter',prompt:/đừng vào/iu,forms:['别进']},
   {kind:'action',id:'write-comment',prompt:/viết nhận xét/iu,forms:['写','评论']},
   {kind:'action',id:'drink-coffee',prompt:/uống cà phê/iu,forms:['喝咖啡']},
-  {kind:'action',id:'read-book',prompt:/đọc sách/iu,forms:['看书']},
+  {kind:'action',id:'read-book',prompt:/đọc sách/iu,forms:['看书','读书']},
   {kind:'action',id:'walk-and-call',prompt:/đi bộ/iu,forms:['走路','走']},
   {kind:'action',id:'call',prompt:/gọi điện thoại/iu,forms:['打电话']},
   {kind:'action',id:'go-home',prompt:/về nhà/iu,forms:['回家']},

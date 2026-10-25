@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 479 mục đủ cấu trúc V1/V2; còn 1755. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 469 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 491 mục đủ cấu trúc V1/V2; còn 1743. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 481 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -102401,7 +102401,7 @@
         {
           "id": "e1",
           "zh": "我今天去看医生。",
-          "vi": "Hôm nay tôi đi khám bác sĩ.",
+          "vi": "Hôm nay tôi đi khám bệnh.",
           "analysis": "看医生 là đi khám bác sĩ; 去 và 今天 nêu đi đâu, khi nào.",
           "practiceAllowed": true
         },
@@ -102457,7 +102457,7 @@
           {
             "id": "e1",
             "zh": "我今天去看医生。",
-            "vi": "Hôm nay tôi đi khám bác sĩ.",
+            "vi": "Hôm nay tôi đi khám bệnh.",
             "analysis": "看医生 là đi khám bác sĩ; 去 và 今天 nêu đi đâu, khi nào.",
             "practiceAllowed": true
           },
@@ -103880,23 +103880,192 @@
       }
     },
     {
-      "meaning": "tòa nhà trường học",
+      "meaning": "tòa nhà giảng dạy; khu nhà học",
       "intro": [
         {
           "pinyin": "jiàoxué lóu",
-          "meaning": "tòa nhà trường học"
+          "meaning": "tòa nhà giảng dạy; khu nhà học"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我们的教室在教学楼里。",
+          "vi": "Phòng học của chúng tôi ở trong tòa nhà giảng dạy.",
+          "analysis": "教学楼里 là nơi chứa phòng học; 在...里 nêu vị trí bên trong.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这座教学楼有五层。",
+          "vi": "Tòa nhà giảng dạy này có năm tầng.",
+          "analysis": "教学楼 làm chủ thể; 五层 nói số tầng của tòa nhà.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-542f6b71d047",
       "hanzi": "教学楼",
       "level": 1,
       "sourceIndex": 476,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-046 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 470,
+        "authorship": "Tự biên soạn, đọc mục 汉典 về 教学 và 楼; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/教学",
+          "https://www.zdic.net/hans/楼"
+        ],
+        "introduction": {
+          "scope": "tòa nhà hoặc khu nhà dành cho việc dạy và học"
+        },
+        "meaning": {
+          "scene": "教学楼 là tòa nhà trong trường có các phòng học, phòng bộ môn hoặc không gian giảng dạy.",
+          "explanation": "教学楼 thường đi với 在, 进, 出 hoặc 里 để nói vị trí và di chuyển trong tòa nhà. Thành phần 教学 nói việc dạy học, 楼 nói tòa nhà.",
+          "boundary": "教学楼 là cả tòa nhà/khu nhà; 教室 là một phòng học bên trong đó, 学校 là toàn trường.",
+          "conditions": [
+            "Dùng 在教学楼里 khi nói đang ở trong tòa nhà giảng dạy; dùng 教室 khi chỉ một phòng cụ thể."
+          ],
+          "takeaway": "教学楼 là tòa nhà dạy học, không phải một phòng học riêng."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在 + 教学楼 + 里",
+            "position": "教学楼 đứng sau 在 và trước 里 để nêu vị trí.",
+            "required": "Dùng khi nói người hoặc vật ở trong tòa nhà.",
+            "omission": "Có thể bỏ 里 nếu ngữ cảnh chỉ cần nói ở tòa nhà.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "教学楼 + 有 + số tầng",
+            "position": "教学楼 làm chủ thể của thông tin về tòa nhà.",
+            "required": "Cần số tầng hoặc đặc điểm muốn mô tả.",
+            "omission": "Có thể thay số tầng bằng phòng học hoặc người.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们的教室在教学楼里。",
+            "vi": "Phòng học của chúng tôi ở trong tòa nhà giảng dạy.",
+            "analysis": "教学楼里 là nơi chứa phòng học; 在...里 nêu vị trí bên trong.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这座教学楼有五层。",
+            "vi": "Tòa nhà giảng dạy này có năm tầng.",
+            "analysis": "教学楼 làm chủ thể; 五层 nói số tầng của tòa nhà.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "教学楼 và 教室: tòa nhà hay phòng học",
+            "scene": "Phân biệt phạm vi của địa điểm trong trường.",
+            "possibleConfusion": "Cả hai đều liên quan trực tiếp đến việc học.",
+            "difference": "教学楼 là tòa nhà/khu nhà; 教室 là một phòng học.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们的教室在教学楼里。",
+                "vi": "Phòng học của chúng tôi ở trong tòa nhà giảng dạy.",
+                "comment": "教室 nằm bên trong 教学楼.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "学生在教室里上课。",
+                "vi": "Học sinh học trong phòng học.",
+                "comment": "教室 chỉ căn phòng nơi học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 教学楼 thành 教室 sẽ thu hẹp địa điểm từ cả tòa nhà xuống một phòng học; câu có thể đúng nhưng không còn cùng phạm vi."
+            },
+            "boundary": "Không gọi một phòng học riêng là 教学楼.",
+            "tip": "楼 là tòa nhà, 室 là phòng."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà 教学楼 theo nghĩa tòa nhà dạy học.",
+          "literalTranslation": "Đã rà bẫy dịch 楼 thành phòng học.",
+          "confusables": "Đã đối chiếu 教学楼/教室 theo phạm vi địa điểm."
+        },
+        "pronunciation": {
+          "text": "教学楼 gồm ba phần âm; giữ rõ thanh 4 của âm đầu, thanh 2 của âm giữa và thanh 2 của 楼. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我们的教室在___里。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Phòng học là 教学楼 hay 教室?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "教学楼"
+            ],
+            "explanation": "教学楼里 là trong tòa nhà dạy học."
+          },
+          "q2": {
+            "accepted": [
+              "教室"
+            ],
+            "explanation": "教室 là phòng học; 教学楼 là tòa nhà."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói thư viện ở trong tòa nhà giảng dạy."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói sau giờ học, học sinh đi ra khỏi tòa nhà giảng dạy."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 图书馆在教学楼里 để nêu vị trí.",
+            "frame": "图书馆 + 在教学楼里",
+            "model": "图书馆在教学楼里。",
+            "vi": "Thư viện ở trong tòa nhà giảng dạy.",
+            "criteria": [
+              "Có 教学楼里.",
+              "教学楼里 nêu nơi chứa thư viện."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 下课后，学生从教学楼出来 để nói học sinh đi ra sau giờ học.",
+            "frame": "下课后 + 学生 + 从教学楼 + 出来",
+            "model": "下课后，学生从教学楼出来。",
+            "vi": "Sau giờ học, học sinh đi ra khỏi tòa nhà giảng dạy.",
+            "criteria": [
+              "Có 教学楼 sau 从.",
+              "从教学楼出来 nêu nơi học sinh đi ra."
+            ]
+          }
+        }
+      }
     },
     {
       "meaning": "kiến thức",
@@ -103906,35 +104075,371 @@
           "meaning": "kiến thức"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我们要学习很多知识。",
+          "vi": "Chúng ta cần học nhiều kiến thức.",
+          "analysis": "学习知识 nói tiếp thu kiến thức; 很多 nêu số lượng khái quát.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "老师有很多历史知识。",
+          "vi": "Giáo viên có nhiều kiến thức lịch sử.",
+          "analysis": "历史 đứng trước 知识 để giới hạn lĩnh vực; 有很多 nói có nhiều kiến thức.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-ff27472359fb",
       "hanzi": "知识",
       "level": 1,
       "sourceIndex": 477,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-046 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 471,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/知识"
+        ],
+        "introduction": {
+          "scope": "điều hoặc thông tin một người biết và có thể học được"
+        },
+        "meaning": {
+          "scene": "知识 là kiến thức, tức những điều được biết về một lĩnh vực hoặc chủ đề.",
+          "explanation": "知识 thường đi với 学习, 掌握, 增加 hoặc 有 để nói quá trình có và học kiến thức. Đây là danh từ khái niệm, không chỉ một quyển sách cụ thể.",
+          "boundary": "知识 là kiến thức; 经验 là kinh nghiệm do trải qua và thực hành, có thể liên quan nhưng không đồng nhất.",
+          "conditions": [
+            "Dùng 学习知识 khi nói tiếp thu kiến thức; có thể thêm lĩnh vực trước 知识 để nói rõ nội dung."
+          ],
+          "takeaway": "知识 là điều được biết và học; không dịch thành kinh nghiệm nếu câu nhấn điều đã trải qua."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "学习/掌握 + 知识",
+            "position": "知识 đứng sau động từ học hoặc nắm vững.",
+            "required": "Cần động từ chỉ việc tiếp thu hoặc sử dụng kiến thức.",
+            "omission": "Có thể thêm lĩnh vực trước 知识.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "有 + 很多 + 知识",
+            "position": "知识 đứng sau 有 và lượng từ khái quát.",
+            "required": "Dùng khi nói ai đó có nhiều kiến thức.",
+            "omission": "Có thể bỏ 很多 nếu chỉ nói có kiến thức.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们要学习很多知识。",
+            "vi": "Chúng ta cần học nhiều kiến thức.",
+            "analysis": "学习知识 nói tiếp thu kiến thức; 很多 nêu số lượng khái quát.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "老师有很多历史知识。",
+            "vi": "Giáo viên có nhiều kiến thức lịch sử.",
+            "analysis": "历史 đứng trước 知识 để giới hạn lĩnh vực; 有很多 nói có nhiều kiến thức.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "知识 và 经验: kiến thức hay kinh nghiệm",
+            "scene": "Phân biệt điều học được với hiểu biết tích lũy qua trải nghiệm.",
+            "possibleConfusion": "Cả hai đều có thể giúp một người làm việc tốt hơn.",
+            "difference": "知识 là thông tin/hiểu biết được học; 经验 là kinh nghiệm do trải qua và thực hành.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们要学习很多知识。",
+                "vi": "Chúng ta cần học nhiều kiến thức.",
+                "comment": "学习 gắn với kiến thức được tiếp thu.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他有丰富的工作经验。",
+                "vi": "Anh ấy có kinh nghiệm làm việc phong phú.",
+                "comment": "工作经验 nhấn điều tích lũy qua công việc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 知识 thành 经验 sẽ chuyển trọng tâm từ điều học được sang trải nghiệm thực tế; hai câu đều có thể đúng nhưng không cùng nghĩa."
+            },
+            "boundary": "Không phải mọi kiến thức đều là kinh nghiệm cá nhân.",
+            "tip": "Học được là 知识, trải qua rồi rút ra là 经验."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà danh từ khái niệm 知识.",
+          "literalTranslation": "Đã rà bẫy dịch 知识 thành kinh nghiệm.",
+          "confusables": "Đã đối chiếu 知识/经验 theo nguồn hình thành hiểu biết."
+        },
+        "pronunciation": {
+          "text": "知识 gồm thanh 1 và âm nhẹ; âm đầu cao đều, âm sau đọc nhẹ và ngắn hơn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我们要学习很多___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Kinh nghiệm làm việc là 知识 hay 经验?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "知识"
+            ],
+            "explanation": "学习很多知识 là học nhiều kiến thức."
+          },
+          "q2": {
+            "accepted": [
+              "经验"
+            ],
+            "explanation": "工作经验 là kinh nghiệm làm việc."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi muốn học thêm kiến thức tiếng Trung."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô ấy có nhiều kiến thức về lịch sử."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我想学习更多汉语知识 để nói muốn học thêm kiến thức.",
+            "frame": "我 + 想 + 学习 + 更多 + 汉语知识",
+            "model": "我想学习更多汉语知识。",
+            "vi": "Tôi muốn học thêm kiến thức tiếng Trung.",
+            "criteria": [
+              "Có 知识 trong 汉语知识.",
+              "学习更多汉语知识 nói học thêm kiến thức."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 她有很多历史知识 để giới hạn lĩnh vực.",
+            "frame": "她 + 有 + 很多 + 历史知识",
+            "model": "她有很多历史知识。",
+            "vi": "Cô ấy có nhiều kiến thức về lịch sử.",
+            "criteria": [
+              "Có 知识 trong 历史知识.",
+              "历史知识 nói kiến thức lịch sử."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "bạn online",
+      "meaning": "bạn quen trên mạng; cư dân mạng",
       "intro": [
         {
           "pinyin": "wǎngyǒu",
-          "meaning": "bạn online"
+          "meaning": "bạn quen trên mạng; cư dân mạng"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我在网上认识了一个网友。",
+          "vi": "Tôi quen một người bạn trên mạng.",
+          "analysis": "在网上 nêu nơi kết nối; 一个网友 là một người quen qua mạng.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我的网友给我留言了。",
+          "vi": "Người bạn trên mạng của tôi đã để lại lời nhắn cho tôi.",
+          "analysis": "网友 là chủ thể; 给我 nêu người nhận lời nhắn.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-57373f72f356",
       "hanzi": "网友",
       "level": 1,
       "sourceIndex": 478,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-046 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 472,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/网友"
+        ],
+        "introduction": {
+          "scope": "người quen hoặc kết nối với mình qua internet"
+        },
+        "meaning": {
+          "scene": "网友 thường chỉ người quen trên mạng; trong một số ngữ cảnh cũng chỉ người dùng mạng nói chung.",
+          "explanation": "网友 thường đi với 认识, 聊天, 见面 hoặc 给我留言. Từ này nhấn nguồn quen biết là internet, chưa tự khẳng định đã gặp trực tiếp.",
+          "boundary": "网友 là bạn quen trên mạng; 朋友 rộng hơn và không nói rõ quen qua mạng.",
+          "conditions": [
+            "Dùng 我的网友 khi muốn nhấn người bạn quen trên mạng; nếu đã thành bạn ngoài đời, vẫn có thể gọi là 朋友 tùy ý định."
+          ],
+          "takeaway": "网友 nhấn mối liên hệ qua mạng, không tự động đồng nghĩa với bạn thân ngoài đời."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "在网上 + 认识 + 网友",
+            "position": "网友 đứng sau 认识 làm người được quen biết.",
+            "required": "Dùng khi nói quen ai qua internet.",
+            "omission": "Có thể bỏ 在网上 nếu từ 网友 đã đủ làm rõ nguồn quen biết.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "网友 + 给 + người + 留言",
+            "position": "网友 làm chủ thể trước hành động để lại lời nhắn.",
+            "required": "Dùng khi nói hoạt động của người quen trên mạng.",
+            "omission": "Có thể đổi 留言 thành 聊天 hoặc 联系.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我在网上认识了一个网友。",
+            "vi": "Tôi quen một người bạn trên mạng.",
+            "analysis": "在网上 nêu nơi kết nối; 一个网友 là một người quen qua mạng.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我的网友给我留言了。",
+            "vi": "Người bạn trên mạng của tôi đã để lại lời nhắn cho tôi.",
+            "analysis": "网友 là chủ thể; 给我 nêu người nhận lời nhắn.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "网友 và 朋友: bạn trên mạng hay bạn nói chung",
+            "scene": "Nói nguồn gốc của mối quan hệ.",
+            "possibleConfusion": "Một 网友 cũng có thể trở thành 朋友 sau khi quen lâu hoặc gặp ngoài đời.",
+            "difference": "网友 nhấn quen qua mạng; 朋友 không giới hạn cách quen.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我在网上认识了一个网友。",
+                "vi": "Tôi quen một người bạn trên mạng.",
+                "comment": "网友 làm rõ nguồn quen biết là internet.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他是我的好朋友。",
+                "vi": "Anh ấy là bạn tốt của tôi.",
+                "comment": "朋友 nói quan hệ bạn bè, không nói họ quen qua mạng hay ngoài đời.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 网友 thành 朋友 sẽ làm mất thông tin quen qua mạng; nếu ngữ cảnh không cần thông tin đó, câu vẫn có thể phù hợp."
+            },
+            "boundary": "Không suy ra 网友 chắc chắn là bạn thân hoặc đã gặp trực tiếp.",
+            "tip": "网友 nói nguồn quen biết, 朋友 nói quan hệ bạn bè rộng hơn."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa người quen qua mạng và nghĩa rộng hơn của 网友.",
+          "literalTranslation": "Đã rà bẫy dịch 网友 thành bạn thân.",
+          "confusables": "Đã đối chiếu 网友/朋友 theo nguồn gốc quan hệ."
+        },
+        "pronunciation": {
+          "text": "网友 gồm thanh 3 và thanh 3; khi đọc liền, âm đầu thường chuyển thành thanh 2 trong lời nói tự nhiên, nhưng vẫn ghi thanh gốc ở Pinyin. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我在网上认识了一个___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Từ nào nhấn người quen qua mạng: 网友 hay 朋友?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "网友"
+            ],
+            "explanation": "网友 là người quen trên mạng."
+          },
+          "q2": {
+            "accepted": [
+              "网友"
+            ],
+            "explanation": "网友 nhấn nguồn quen biết là internet."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi thường trò chuyện với một người quen trên mạng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói một người quen trên mạng gửi cho tôi một tin nhắn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我和一个网友聊天 để nói trò chuyện với người quen trên mạng.",
+            "frame": "我 + 和一个网友 + 聊天",
+            "model": "我常常和一个网友聊天。",
+            "vi": "Tôi thường trò chuyện với một người quen trên mạng.",
+            "criteria": [
+              "Có 网友 làm người cùng trò chuyện.",
+              "网友 nhấn mối quan hệ trên mạng."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 网友给我发了一条消息 để nêu người gửi và tin nhắn.",
+            "frame": "网友 + 给我 + 发了一条消息",
+            "model": "网友给我发了一条消息。",
+            "vi": "Một người quen trên mạng gửi cho tôi một tin nhắn.",
+            "criteria": [
+              "Có 网友 làm người gửi.",
+              "给我 và 发了一条消息 nêu người nhận và vật được gửi."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-f3da64b922cc",
@@ -103943,22 +104448,185 @@
       "intro": [
         {
           "pinyin": "dúshū",
-          "meaning": "đọc sách"
+          "meaning": "đọc sách; học"
         }
       ],
-      "meaning": "đọc sách",
-      "status": "example",
+      "meaning": "đọc sách; học",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-046 · trung bình",
       "examples": [
         {
+          "id": "e1",
           "zh": "我晚上喜欢读书。",
-          "vi": "Buổi tối tôi thích đọc sách."
+          "vi": "Buổi tối tôi thích đọc sách.",
+          "analysis": "喜欢读书 nói sở thích; 晚上 nêu thời gian.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "他在图书馆读书。",
+          "vi": "Cậu ấy đọc sách ở thư viện.",
+          "analysis": "在图书馆 nêu nơi; 读书 là hoạt động đọc/học.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 480,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 473,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/读书"
+        ],
+        "introduction": {
+          "scope": "đọc sách hoặc dành thời gian học qua sách vở"
+        },
+        "meaning": {
+          "scene": "读书 có thể nói hành động đọc sách, và trong một số ngữ cảnh nói việc học nói chung.",
+          "explanation": "读书 thường làm động từ sau 喜欢, 正在 hoặc 每天. Khi chỉ nhìn hoặc đọc một tài liệu cụ thể, 看书 có thể phù hợp hơn; 读书 nhấn hoạt động đọc/học.",
+          "boundary": "读书 là đọc sách hoặc học; 读课文 là đọc bài khóa cụ thể, 看书 nhấn xem/đọc một cuốn sách.",
+          "conditions": [
+            "Dùng 每天读书 khi nói thói quen; dùng 读一本书 khi nêu một cuốn sách cụ thể."
+          ],
+          "takeaway": "读书 nhấn hoạt động đọc sách/học, không chỉ động tác nhìn vào sách."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "喜欢/每天 + 读书",
+            "position": "读书 đứng sau từ chỉ sở thích hoặc tần suất.",
+            "required": "Dùng khi nói thói quen đọc hoặc học.",
+            "omission": "Có thể thêm thời gian hoặc địa điểm.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "在 + địa điểm + 读书",
+            "position": "读书 đứng sau cụm địa điểm.",
+            "required": "Dùng khi nói đọc sách ở đâu.",
+            "omission": "Có thể bỏ địa điểm nếu đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我晚上喜欢读书。",
+            "vi": "Buổi tối tôi thích đọc sách.",
+            "analysis": "喜欢读书 nói sở thích; 晚上 nêu thời gian.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他在图书馆读书。",
+            "vi": "Cậu ấy đọc sách ở thư viện.",
+            "analysis": "在图书馆 nêu nơi; 读书 là hoạt động đọc/học.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "读书 và 看书: đọc/học hay xem sách",
+            "scene": "Phân biệt hoạt động đọc sách nói chung với việc xem một cuốn sách.",
+            "possibleConfusion": "Hai từ đều có thể dịch là đọc sách trong tiếng Việt.",
+            "difference": "读书 nhấn hoạt động đọc hoặc học; 看书 nhấn xem/đọc một cuốn sách hay tài liệu.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我晚上喜欢读书。",
+                "vi": "Buổi tối tôi thích đọc sách.",
+                "comment": "读书 nói thói quen đọc/học nói chung.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我在看书。",
+                "vi": "Tôi đang đọc sách.",
+                "comment": "看书 nói hành động xem/đọc sách, thường có thể gắn với một cuốn cụ thể.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 读书 thành 看书 có thể vẫn đúng, nhưng chuyển từ thói quen/hoạt động học nói chung sang việc xem hoặc đọc sách trong ngữ cảnh cụ thể."
+            },
+            "boundary": "Không coi hai từ luôn thay thế được trong mọi khung câu.",
+            "tip": "Hoạt động đọc/học nói chung dùng 读书; xem hoặc đọc sách trong ngữ cảnh cụ thể thường dùng 看书."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa đọc sách và nghĩa học của 读书.",
+          "literalTranslation": "Đã rà bẫy dịch máy móc 读书 và 看书 như nhau.",
+          "confusables": "Đã đối chiếu 读书/看书 theo phạm vi hoạt động và đối tượng cụ thể."
+        },
+        "pronunciation": {
+          "text": "读书 gồm thanh 2 và thanh 1; âm đầu đi lên, âm sau cao đều. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我晚上喜欢___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói đang đọc một cuốn sách cụ thể, chọn 读书 hay 看这本书?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "读书"
+            ],
+            "explanation": "喜欢读书 là thích đọc sách/học."
+          },
+          "q2": {
+            "accepted": [
+              "看这本书"
+            ],
+            "explanation": "看这本书 gắn với cuốn sách cụ thể."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi mỗi ngày đọc sách ở thư viện."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói em trai bạn không thích đọc sách."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我每天在图书馆读书 để kết hợp tần suất và địa điểm.",
+            "frame": "我 + 每天 + 在图书馆 + 读书",
+            "model": "我每天在图书馆读书。",
+            "vi": "Mỗi ngày tôi đọc sách ở thư viện.",
+            "criteria": [
+              "Có 读书 làm hoạt động.",
+              "每天在图书馆读书 nói tần suất và nơi đọc."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 你弟弟不喜欢读书 để nói sở thích của em trai người nghe.",
+            "frame": "你弟弟 + 不喜欢 + 读书",
+            "model": "你弟弟不喜欢读书。",
+            "vi": "Em trai bạn không thích đọc sách.",
+            "criteria": [
+              "Có 读书 sau 喜欢.",
+              "你弟弟 là em trai của người nghe và 不喜欢读书 nói không thích hoạt động đọc sách."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-6b3b6bebd907",
@@ -103967,17 +104635,185 @@
       "intro": [
         {
           "pinyin": "kèwén",
-          "meaning": "bài khóa"
+          "meaning": "bài khóa; bài đọc trong giáo trình"
         }
       ],
-      "meaning": "bài khóa",
-      "status": "catalog",
+      "meaning": "bài khóa; bài đọc trong giáo trình",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-046 · dễ",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "老师让我们读课文。",
+          "vi": "Giáo viên bảo chúng tôi đọc bài khóa.",
+          "analysis": "读课文 là đọc nội dung bài học; 让 nêu yêu cầu của giáo viên.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这篇课文不难。",
+          "vi": "Bài khóa này không khó.",
+          "analysis": "这篇 giới hạn một bài cụ thể; 不难 nhận xét độ khó.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 481,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 474,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/课文"
+        ],
+        "introduction": {
+          "scope": "bài đọc hoặc văn bản được dùng trong một tiết học/giáo trình"
+        },
+        "meaning": {
+          "scene": "课文 là bài khóa, tức văn bản học sinh đọc và học trong sách hoặc tiết học.",
+          "explanation": "课文 thường đi với 读, 学, 背 hoặc 这篇 để nói bài cụ thể. Nó là nội dung bài học, không phải toàn bộ quyển sách.",
+          "boundary": "课文 là bài khóa; 课本 là sách giáo khoa chứa các bài khóa; 课 là tiết hoặc môn học.",
+          "conditions": [
+            "Dùng 这篇课文 khi nói một bài đọc cụ thể; dùng 课本 khi nói cả quyển sách."
+          ],
+          "takeaway": "课文 là một bài trong giáo trình, không phải cả quyển sách giáo khoa."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "读/学 + 课文",
+            "position": "课文 đứng sau động từ học hoặc đọc.",
+            "required": "Dùng khi nói nội dung bài học.",
+            "omission": "Có thể thêm 这篇/那篇 để chỉ bài cụ thể.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "这篇 + 课文 + tính từ",
+            "position": "课文 đứng sau lượng từ 篇.",
+            "required": "Dùng khi nhận xét một bài đọc.",
+            "omission": "Có thể bỏ 这篇 nếu bài đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "老师让我们读课文。",
+            "vi": "Giáo viên bảo chúng tôi đọc bài khóa.",
+            "analysis": "读课文 là đọc nội dung bài học; 让 nêu yêu cầu của giáo viên.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这篇课文不难。",
+            "vi": "Bài khóa này không khó.",
+            "analysis": "这篇 giới hạn một bài cụ thể; 不难 nhận xét độ khó.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "课文 và 课本: bài khóa hay cả quyển sách",
+            "scene": "Phân biệt một văn bản học với vật chứa các bài học.",
+            "possibleConfusion": "Cả hai đều xuất hiện khi học trong sách giáo khoa.",
+            "difference": "课文 là bài đọc; 课本 là quyển sách giáo khoa.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "老师让我们读课文。",
+                "vi": "Giáo viên bảo chúng tôi đọc bài khóa.",
+                "comment": "课文 là nội dung được đọc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我的课本在桌子上。",
+                "vi": "Sách giáo khoa của tôi ở trên bàn.",
+                "comment": "课本 là quyển sách chứa bài học.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 课文 thành 课本 sẽ đổi nội dung bài đọc thành cả quyển sách; vị trí trong câu có thể vẫn đúng nhưng vật được nói đến khác."
+            },
+            "boundary": "Không dùng 课文 để chỉ quyển sách vật lý.",
+            "tip": "文 là văn bản/bài, 本 là quyển sách."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa bài khóa trong giáo trình.",
+          "literalTranslation": "Đã rà bẫy lẫn bài khóa với sách giáo khoa.",
+          "confusables": "Đã đối chiếu 课文/课本 theo nội dung và vật chứa."
+        },
+        "pronunciation": {
+          "text": "课文 gồm thanh 4 và thanh 2; âm đầu hạ mạnh, âm sau đi lên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 老师让我们读___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Quyển sách giáo khoa là 课文 hay 课本?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "课文"
+            ],
+            "explanation": "读课文 là đọc bài khóa."
+          },
+          "q2": {
+            "accepted": [
+              "课本"
+            ],
+            "explanation": "课本 là quyển sách giáo khoa."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bài khóa hôm nay rất thú vị."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi quên đọc bài khóa hôm nay."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 今天的课文很有意思 để nhận xét bài học hôm nay.",
+            "frame": "今天的课文 + 很有意思",
+            "model": "今天的课文很有意思。",
+            "vi": "Bài khóa hôm nay rất thú vị.",
+            "criteria": [
+              "Có 课文 làm chủ thể.",
+              "今天的课文 chỉ bài khóa hôm nay."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我忘了读今天的课文 để nói quên đọc bài khóa hôm nay.",
+            "frame": "我 + 忘了 + 读 + 今天的课文",
+            "model": "我忘了读今天的课文。",
+            "vi": "Tôi quên đọc bài khóa hôm nay.",
+            "criteria": [
+              "Có 课文 làm nội dung được đọc.",
+              "读今天的课文 nêu hành động đọc bài khóa hôm nay."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-d790ee92a345",
@@ -103986,41 +104822,342 @@
       "intro": [
         {
           "pinyin": "líng",
-          "meaning": "không"
+          "meaning": "số không; không có gì"
         }
       ],
-      "meaning": "không",
-      "status": "example",
+      "meaning": "số không; không có gì",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-046 · dễ",
       "examples": [
         {
-          "zh": "我的电话号码里有三个零。",
-          "vi": "Số điện thoại của tôi có ba số không."
+          "id": "e1",
+          "zh": "今天最低温度是零度。",
+          "vi": "Nhiệt độ thấp nhất hôm nay là 0 độ.",
+          "analysis": "零度 là 0 độ; 零 đứng trước đơn vị nhiệt độ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这道题的答案是零。",
+          "vi": "Đáp án của câu này là 0.",
+          "analysis": "零 làm giá trị của đáp án, không phải phủ định có câu hỏi.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 482,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 475,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/零"
+        ],
+        "introduction": {
+          "scope": "số 0 hoặc số lượng bằng không"
+        },
+        "meaning": {
+          "scene": "零 là số không, dùng trong số đếm, nhiệt độ, điểm số hoặc số lượng bằng không.",
+          "explanation": "零 đứng trước đơn vị khi đọc một con số như 零度, hoặc làm số lượng trong câu. Trong khẩu ngữ, 没有 thường tự nhiên hơn khi nói không có đồ vật.",
+          "boundary": "零 là số 0; 没有 là cấu trúc nói không có/không tồn tại, không phải lúc nào cũng thay được cho nhau.",
+          "conditions": [
+            "Dùng 零 khi đọc số hoặc nêu giá trị bằng 0; dùng 没有 khi phủ định sự tồn tại hay sở hữu."
+          ],
+          "takeaway": "零 là số 0; chọn 没有 khi ý chính là không có người hoặc vật."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "零 + đơn vị",
+            "position": "零 đứng trước đơn vị đo hoặc danh từ số lượng.",
+            "required": "Cần đơn vị hoặc loại giá trị muốn nói.",
+            "omission": "Có thể dùng riêng 零 khi trả lời về số 0.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "答案/分数 + 是 + 零",
+            "position": "零 đứng sau 是 làm giá trị.",
+            "required": "Dùng khi nói kết quả bằng 0.",
+            "omission": "Có thể đổi chủ thể như 温度.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "今天最低温度是零度。",
+            "vi": "Nhiệt độ thấp nhất hôm nay là 0 độ.",
+            "analysis": "零度 là 0 độ; 零 đứng trước đơn vị nhiệt độ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这道题的答案是零。",
+            "vi": "Đáp án của câu này là 0.",
+            "analysis": "零 làm giá trị của đáp án, không phải phủ định có câu hỏi.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [],
+        "noTrapReason": "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.",
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà số 0 và giá trị bằng không.",
+          "literalTranslation": "Đã rà ranh giới giữa số 零 và cấu trúc 没有.",
+          "confusables": "Không thấy cặp đối chiếu cần thêm ở mức học này."
+        },
+        "pronunciation": {
+          "text": "零 đọc thanh 2, giọng đi lên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 温度是___度。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói số 0 dùng 零 hay 没有?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "零"
+            ],
+            "explanation": "零度 là 0 độ."
+          },
+          "q2": {
+            "accepted": [
+              "零"
+            ],
+            "explanation": "零 là số 0; 没有 dùng để nói không có."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói hôm nay nhiệt độ là 0 độ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói điểm của tôi là 0."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 今天是零度 để nêu nhiệt độ.",
+            "frame": "今天 + 是 + 零度",
+            "model": "今天是零度。",
+            "vi": "Hôm nay là 0 độ.",
+            "criteria": [
+              "Có 零度.",
+              "零度 chỉ giá trị nhiệt độ bằng 0."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我的分数是零 để nêu điểm số.",
+            "frame": "我的分数 + 是 + 零",
+            "model": "我的分数是零。",
+            "vi": "Điểm của tôi là 0.",
+            "criteria": [
+              "Có 零 làm giá trị.",
+              "分数是零 nói điểm bằng 0."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "một chút",
+      "meaning": "một chút; trong chốc lát",
       "intro": [
         {
           "pinyin": "yīxiàr",
-          "meaning": "một chút"
+          "meaning": "một chút; trong chốc lát"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请让我看一下儿。",
+          "vi": "Hãy cho tôi xem một chút.",
+          "analysis": "看一下儿 làm lời đề nghị xem trong chốc lát, sắc thái nhẹ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请等我一下儿。",
+          "vi": "Hãy chờ tôi một chút.",
+          "analysis": "等一下儿 là lời nhờ chờ trong thời gian ngắn.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-351dc62f50f1",
       "hanzi": "一下儿",
       "level": 1,
       "sourceIndex": 483,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "biên soạn bổ sung",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-046 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 476,
+        "authorship": "Tự biên soạn, đọc mục 汉典 về 一下 và 儿; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/一下",
+          "https://www.zdic.net/hans/儿"
+        ],
+        "introduction": {
+          "scope": "lượng thời gian rất ngắn hoặc sắc thái làm một hành động nhẹ/nhanh"
+        },
+        "meaning": {
+          "scene": "一下儿 thường đặt sau động từ để nói làm việc đó một chút hoặc trong thời gian ngắn.",
+          "explanation": "一下儿 không nhất thiết đếm chính xác một lần; nó làm lời nhờ hoặc đề nghị nhẹ hơn, như 等一下儿, 看一下儿. Có thể dùng sau động từ để giới hạn hành động.",
+          "boundary": "一下儿 nhấn hành động ngắn hoặc nhẹ; 一会儿 nhấn một khoảng thời gian, có thể dài hơn và thường dùng khi chờ hoặc hẹn.",
+          "conditions": [
+            "Dùng 动词 + 一下儿 khi muốn nói làm một chút; dùng 一会儿 khi nói chờ hoặc khoảng thời gian ngắn."
+          ],
+          "takeaway": "一下儿 thường đi sau động từ và làm hành động ngắn/nhẹ; đừng coi nó luôn là một lần đếm."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "động từ + 一下儿",
+            "position": "一下儿 đứng sau động từ.",
+            "required": "Cần một động từ làm hành động được giới hạn.",
+            "omission": "Có thể bỏ 一下儿 nếu không cần sắc thái ngắn/nhẹ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "等 + 一下儿",
+            "position": "一下儿 đứng sau 等 trong lời yêu cầu chờ ngắn.",
+            "required": "Dùng khi đề nghị người khác chờ.",
+            "omission": "Có thể dùng 等一会儿 nếu nhấn khoảng thời gian chờ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请让我看一下儿。",
+            "vi": "Hãy cho tôi xem một chút.",
+            "analysis": "看一下儿 làm lời đề nghị xem trong chốc lát, sắc thái nhẹ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请等我一下儿。",
+            "vi": "Hãy chờ tôi một chút.",
+            "analysis": "等一下儿 là lời nhờ chờ trong thời gian ngắn.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "一下儿 và 一会儿: hành động ngắn hay khoảng chờ",
+            "scene": "Phân biệt sắc thái thời lượng trong lời nói.",
+            "possibleConfusion": "Cả hai đều có thể dịch là một chút hoặc một lát.",
+            "difference": "一下儿 thường sau động từ và giới hạn hành động; 一会儿 là một khoảng thời gian, thường dùng với chờ hoặc quay lại.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请让我看一下儿。",
+                "vi": "Hãy cho tôi xem một chút.",
+                "comment": "一下儿 đứng sau 看 để giới hạn hành động xem.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我一会儿回来。",
+                "vi": "Lát nữa tôi sẽ quay lại.",
+                "comment": "一会儿 chỉ khoảng thời gian trước khi quay lại.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 一下儿 và 一会儿 có thể vẫn hiểu được trong vài câu, nhưng sẽ đổi từ thời lượng của hành động sang khoảng thời gian và sắc thái lời nói."
+            },
+            "boundary": "Không dùng một kết luận duy nhất cho mọi động từ; vị trí và ý định quyết định lựa chọn.",
+            "tip": "Sau động từ để làm nhẹ/ngắn hành động: 一下儿; nói lát nữa hoặc chờ một khoảng: 一会儿."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà chức năng sau động từ và sắc thái lời nhờ của 一下儿.",
+          "literalTranslation": "Đã rà bẫy dịch 一下儿 thành đúng một lần.",
+          "confusables": "Đã đối chiếu 一下儿/一会儿 theo vị trí và ý định."
+        },
+        "pronunciation": {
+          "text": "一下儿 trong cách đọc từ điển có thanh 1 ở 一; trong câu 一 thường đổi theo âm sau, còn 儿 tạo âm cuốn lưỡi ở cuối. Không đọc phần 儿 như một âm tiết tách rời. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 请让我看___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói làm một hành động một chút, dùng 一下儿 hay 一会儿?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "一下儿"
+            ],
+            "explanation": "看一下儿 nói xem một chút, hành động ngắn và nhẹ."
+          },
+          "q2": {
+            "accepted": [
+              "一下儿"
+            ],
+            "explanation": "一下儿 thường đứng sau động từ để giới hạn hành động."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Lịch sự nhờ người nghe chờ tôi một chút."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi muốn thử món ăn này một chút."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 麻烦你等我一下儿 để nhờ người nghe chờ ngắn.",
+            "frame": "麻烦你 + 等我一下儿",
+            "model": "麻烦你等我一下儿。",
+            "vi": "Phiền bạn chờ tôi một chút.",
+            "criteria": [
+              "Có 一下儿 sau 等我.",
+              "麻烦你等我一下儿 là lời nhờ chờ lịch sự."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我想尝一下儿这个菜 để nói muốn nếm thử một chút.",
+            "frame": "我 + 想 + 尝一下儿 + 这个菜",
+            "model": "我想尝一下儿这个菜。",
+            "vi": "Tôi muốn nếm thử món ăn này một chút.",
+            "criteria": [
+              "Có 一下儿 sau động từ 尝.",
+              "尝一下儿 giới hạn việc nếm ở một chút."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-b0cef3baa976",
@@ -104029,18 +105166,186 @@
       "intro": [
         {
           "pinyin": "yíhuìr",
-          "meaning": "một lát",
-          "sourcePinyin": "yīhuìr"
+          "meaning": "một lát; một lúc nữa"
         }
       ],
-      "meaning": "một lát",
-      "status": "catalog",
+      "meaning": "một lát; một lúc nữa",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-046 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我一会儿回来。",
+          "vi": "Lát nữa tôi sẽ quay lại.",
+          "analysis": "一会儿 đứng trước 回来, chỉ thời điểm ngắn sau hiện tại.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请等我一会儿。",
+          "vi": "Hãy chờ tôi một lát.",
+          "analysis": "等一会儿 nói chờ trong một khoảng thời gian ngắn.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 484,
       "meaningOrigin": "biên soạn bổ sung",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 477,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/一会儿"
+        ],
+        "introduction": {
+          "scope": "một khoảng thời gian ngắn, hoặc một lúc nữa tùy vị trí trong câu"
+        },
+        "meaning": {
+          "scene": "一会儿 nói một khoảng thời gian ngắn; với hành động tương lai, nó thường có nghĩa là một lát nữa.",
+          "explanation": "一会儿 có thể đứng đầu câu như 一会儿回来, hoặc sau động từ 等 để nói chờ một lúc. Nó nói khoảng thời gian chứ không trực tiếp làm nhẹ một động từ như 一下儿.",
+          "boundary": "一会儿 là khoảng thời gian; 一下儿 thường đứng sau động từ để giới hạn hành động ngắn/nhẹ.",
+          "conditions": [
+            "Dùng 一会儿回来 khi nói lát nữa quay lại; dùng 等一会儿 khi yêu cầu chờ một khoảng."
+          ],
+          "takeaway": "一会儿 nói một khoảng thời gian ngắn hoặc lát nữa; nhìn vị trí để hiểu thời điểm."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一会儿 + động từ",
+            "position": "一会儿 đứng trước hành động để nói lát nữa sẽ làm.",
+            "required": "Cần hành động xảy ra sau đó.",
+            "omission": "Có thể dùng 一会儿 riêng khi ngữ cảnh đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "động từ + 一会儿",
+            "position": "一会儿 đứng sau động từ để chỉ thời gian kéo dài ngắn.",
+            "required": "Dùng với hành động có thể kéo dài.",
+            "omission": "Có thể thay động từ theo tình huống.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我一会儿回来。",
+            "vi": "Lát nữa tôi sẽ quay lại.",
+            "analysis": "一会儿 đứng trước 回来, chỉ thời điểm ngắn sau hiện tại.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请等我一会儿。",
+            "vi": "Hãy chờ tôi một lát.",
+            "analysis": "等一会儿 nói chờ trong một khoảng thời gian ngắn.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "一会儿 và 一下儿: khoảng thời gian hay hành động ngắn",
+            "scene": "Chọn từ cho lời hẹn hoặc lời nhờ.",
+            "possibleConfusion": "Cả hai đều có thể dịch là một chút trong tiếng Việt.",
+            "difference": "一会儿 chỉ khoảng thời gian; 一下儿 thường đi sau động từ và làm hành động ngắn hoặc nhẹ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我一会儿回来。",
+                "vi": "Lát nữa tôi sẽ quay lại.",
+                "comment": "一会儿 chỉ thời điểm quay lại.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "请看一下儿。",
+                "vi": "Hãy xem một chút.",
+                "comment": "一下儿 đứng sau 看 để giới hạn hành động.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Thay từ có thể làm đổi ý từ thời điểm/khoảng chờ sang sắc thái ngắn nhẹ của hành động; không nên chọn chỉ theo bản dịch một chút."
+            },
+            "boundary": "Cần xét vị trí và động từ đi kèm.",
+            "tip": "Lát nữa/chờ một lúc: 一会儿; xem/nghe/làm một chút: 一下儿."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa khoảng thời gian và vị trí trước/sau động từ.",
+          "literalTranslation": "Đã rà bẫy dịch 一会儿 thành một lần.",
+          "confusables": "Đã đối chiếu 一会儿/一下儿 theo thời gian và hành động."
+        },
+        "pronunciation": {
+          "text": "一会儿 thường đọc 一 theo biến điệu trước âm thanh 3 của 会; 儿 tạo âm cuốn lưỡi ở cuối. Hãy nghe cả cụm, không tách 儿 thành âm tiết riêng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我___回来。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói chờ một lát, dùng 等一下儿 hay 等一会儿? Cả hai có thể đúng nhưng sắc thái nào rộng hơn?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "一会儿"
+            ],
+            "explanation": "一会儿回来 là lát nữa quay lại."
+          },
+          "q2": {
+            "accepted": [
+              "等一会儿",
+              "等一下儿"
+            ],
+            "explanation": "Cả hai có thể dùng; 等一会儿 nhấn khoảng chờ, 等一下儿 thường gợi chờ ngắn và lời nhờ nhẹ hơn."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói lát nữa tôi gọi lại cho bạn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhờ người nghe chờ một lát vì tôi sắp xong."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我一会儿给你打电话 để hẹn hành động sắp tới.",
+            "frame": "我 + 一会儿 + 给你打电话",
+            "model": "我一会儿给你打电话。",
+            "vi": "Lát nữa tôi sẽ gọi lại cho bạn.",
+            "criteria": [
+              "Có 一会儿 trước hành động.",
+              "一会儿给你打电话 nói thời điểm gọi sau đó."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 请等我一会儿 để nhờ chờ một khoảng ngắn.",
+            "frame": "请 + 等我 + 一会儿",
+            "model": "请等我一会儿，我快好了。",
+            "vi": "Hãy chờ tôi một lát, tôi sắp xong rồi.",
+            "criteria": [
+              "Có 一会儿 sau 等我.",
+              "等我一会儿 nói khoảng chờ."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-213e4444c12b",
@@ -104049,23 +105354,185 @@
       "intro": [
         {
           "pinyin": "yíbàn",
-          "meaning": "một nửa",
-          "sourcePinyin": "yībàn"
+          "meaning": "một nửa"
         }
       ],
       "meaning": "một nửa",
-      "status": "example",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-046 · dễ",
       "examples": [
         {
-          "zh": "我吃了一半。",
-          "vi": "Tôi đã ăn một nửa."
+          "id": "e1",
+          "zh": "我吃了一半面包。",
+          "vi": "Tôi đã ăn một nửa ổ bánh mì.",
+          "analysis": "一半面包 là một nửa lượng bánh mì; 了 cho biết việc ăn đã xảy ra.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "一半学生已经到了。",
+          "vi": "Một nửa số học sinh đã đến.",
+          "analysis": "一半学生 nói 50% học sinh; 已经到了 nói trạng thái đã đến.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 485,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 478,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/一半"
+        ],
+        "introduction": {
+          "scope": "một trong hai phần bằng nhau của một vật, lượng hoặc khoảng thời gian"
+        },
+        "meaning": {
+          "scene": "一半 là một nửa, dùng khi một tổng thể được chia thành hai phần tương đương.",
+          "explanation": "一半 đứng sau danh từ hoặc làm chủ thể với 有, 是, 吃了. Nó nói tỷ lệ 50%, không chỉ một lượng nhỏ.",
+          "boundary": "一半 là 50%; 一点儿 chỉ một lượng nhỏ không xác định, không nhất thiết bằng một nửa.",
+          "conditions": [
+            "Dùng 一半 + danh từ hoặc danh từ + 一半 tùy cấu trúc, như 一半面包 và 吃了一半面包."
+          ],
+          "takeaway": "一半 luôn gợi hai phần bằng nhau; đừng dùng cho nghĩa một ít."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "吃/用 + 了 + 一半 + danh từ",
+            "position": "一半 đứng trước danh từ sau động từ.",
+            "required": "Dùng khi nói đã dùng một nửa lượng vật.",
+            "omission": "Có thể đặt danh từ trước 一半 trong một số câu.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一半 + danh từ + động từ",
+            "position": "一半 đứng trước danh từ làm chủ thể hoặc bộ phận.",
+            "required": "Dùng khi nói một nửa số người/vật làm gì.",
+            "omission": "Có thể đổi danh từ theo ngữ cảnh.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我吃了一半面包。",
+            "vi": "Tôi đã ăn một nửa ổ bánh mì.",
+            "analysis": "一半面包 là một nửa lượng bánh mì; 了 cho biết việc ăn đã xảy ra.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "一半学生已经到了。",
+            "vi": "Một nửa số học sinh đã đến.",
+            "analysis": "一半学生 nói 50% học sinh; 已经到了 nói trạng thái đã đến.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "一半 và 一点儿: một nửa hay một ít",
+            "scene": "Phân biệt tỷ lệ xác định với lượng nhỏ không xác định.",
+            "possibleConfusion": "Cả hai đều có thể đứng trước danh từ chỉ lượng.",
+            "difference": "一半 là 50% của tổng thể; 一点儿 là một lượng nhỏ, không nói tỷ lệ cụ thể.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我吃了一半面包。",
+                "vi": "Tôi đã ăn một nửa ổ bánh mì.",
+                "comment": "一半 xác định tỷ lệ một trong hai phần.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "请给我一点儿水。",
+                "vi": "Hãy cho tôi một ít nước.",
+                "comment": "一点儿 chỉ lượng nhỏ, không phải 50%.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 一半 thành 一点儿 sẽ đổi tỷ lệ xác định thành lượng nhỏ không xác định; câu có thể vẫn đúng nhưng ý lượng khác hẳn."
+            },
+            "boundary": "Chỉ dùng 一半 khi có ý chia đôi hoặc 50%.",
+            "tip": "50% là 一半; lượng nhỏ là 一点儿."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà tỷ lệ 50% của 一半.",
+          "literalTranslation": "Đã rà bẫy dùng 一半 cho nghĩa một ít.",
+          "confusables": "Đã đối chiếu 一半/一点儿 theo tỷ lệ."
+        },
+        "pronunciation": {
+          "text": "一半 thường đọc 一 theo biến điệu trước thanh 4 của 半; 半 đọc thanh 4, hạ mạnh. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我吃了___面包。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói 50% của tổng thể, chọn 一半 hay 一点儿?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "一半"
+            ],
+            "explanation": "吃了一半面包 là ăn một nửa bánh mì."
+          },
+          "q2": {
+            "accepted": [
+              "一半"
+            ],
+            "explanation": "一半 chỉ một trong hai phần bằng nhau, tức 50%."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi chỉ uống một nửa cốc trà."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói một nửa số học sinh đã về nhà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我只喝了一半茶 để nêu lượng đã uống.",
+            "frame": "我 + 只 + 喝了 + 一半茶",
+            "model": "我只喝了一半茶。",
+            "vi": "Tôi chỉ uống một nửa cốc trà.",
+            "criteria": [
+              "Có 一半 trước 茶.",
+              "一半茶 chỉ 50% lượng trà."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 一半学生已经回家了 để nói một nửa số học sinh đã về.",
+            "frame": "一半学生 + 已经 + 回家了",
+            "model": "一半学生已经回家了。",
+            "vi": "Một nửa số học sinh đã về nhà.",
+            "criteria": [
+              "Có 一半学生.",
+              "一半学生 nói 50% học sinh."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-bd76b676f886",
@@ -104074,18 +105541,189 @@
       "intro": [
         {
           "pinyin": "yíkuàir",
-          "meaning": "cùng nhau",
-          "sourcePinyin": "yīkuàir"
+          "meaning": "cùng nhau; cùng một chỗ"
         }
       ],
-      "meaning": "cùng nhau",
-      "status": "catalog",
+      "meaning": "cùng nhau; cùng một chỗ",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-046 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我们一块儿去学校。",
+          "vi": "Chúng ta cùng nhau đi đến trường.",
+          "analysis": "一块儿 đứng trước 去, nói người nói và người nghe cùng đi.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我想和你一块儿学习。",
+          "vi": "Tôi muốn cùng bạn học.",
+          "analysis": "和你 nêu người cùng tham gia; 一块儿学习 là học cùng nhau.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 486,
       "meaningOrigin": "biên soạn bổ sung",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 479,
+        "authorship": "Tự biên soạn, đọc mục 汉典 về 一块 và 儿; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/一块",
+          "https://www.zdic.net/hans/儿"
+        ],
+        "introduction": {
+          "scope": "cùng làm một việc hoặc ở cùng một nơi; bài này tập trung vào nghĩa cùng nhau"
+        },
+        "meaning": {
+          "scene": "一块儿 là cách nói khẩu ngữ của cùng nhau, thường dùng trước hoặc sau hành động chung.",
+          "explanation": "一块儿 thường đi với 和, 跟 hoặc đứng trước 去, 吃饭, 学习. Trong một số câu 一块儿 còn có thể nghĩa là một miếng/một khối, nhưng bài này luyện nghĩa cùng nhau.",
+          "boundary": "一块儿 nghĩa cùng nhau; 一块 + danh từ có thể là một miếng/một khối, cần nhìn danh từ và ngữ cảnh.",
+          "conditions": [
+            "Dùng 和/跟 + người + 一块儿 + động từ khi nói cùng ai làm việc gì."
+          ],
+          "takeaway": "Trong bài này, 一块儿 = cùng nhau; nếu đứng trước danh từ vật chất, có thể là một miếng/một khối."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "和/跟 + người + 一块儿 + động từ",
+            "position": "一块儿 đứng trước động từ chung.",
+            "required": "Cần người cùng tham gia và hành động.",
+            "omission": "Có thể bỏ 和/跟 nếu chủ thể đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "一块儿 + 去/吃/学习",
+            "position": "一块儿 đứng trước động từ.",
+            "required": "Dùng khi đề nghị hoặc kể cùng làm.",
+            "omission": "Có thể thay động từ theo hoạt động.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们一块儿去学校。",
+            "vi": "Chúng ta cùng nhau đi đến trường.",
+            "analysis": "一块儿 đứng trước 去, nói người nói và người nghe cùng đi.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我想和你一块儿学习。",
+            "vi": "Tôi muốn cùng bạn học.",
+            "analysis": "和你 nêu người cùng tham gia; 一块儿学习 là học cùng nhau.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "一块儿 và 一起: cùng nhau",
+            "scene": "Hai cách nói phổ biến về hành động chung.",
+            "possibleConfusion": "Cả hai đều thường dịch là cùng nhau và nhiều câu có thể thay thế.",
+            "difference": "一块儿 là cách nói khẩu ngữ, thường gặp trong hội thoại; 一起 trung tính và dùng rộng hơn trong văn nói cũng như văn viết.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们一块儿去学校。",
+                "vi": "Chúng ta cùng nhau đi đến trường.",
+                "comment": "一块儿 là cách nói khẩu ngữ tự nhiên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们一起去学校。",
+                "vi": "Chúng ta cùng nhau đi đến trường.",
+                "comment": "一起 cũng đúng và trung tính hơn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Trong câu nói cùng đi học, 一块儿 và 一起 gần nghĩa và thường thay được; khác biệt chính là sắc thái khẩu ngữ và mức độ trung tính."
+            },
+            "boundary": "Không ép phân biệt nghĩa hoàn toàn khác khi hai từ cùng phù hợp.",
+            "tip": "Hội thoại thân mật có thể dùng 一块儿; 一起 là lựa chọn trung tính."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa cùng nhau và nghĩa vật chất có thể có của 一块.",
+          "literalTranslation": "Đã rà bẫy dịch 一块儿 thành một miếng trong câu chỉ người cùng làm.",
+          "confusables": "Đã đối chiếu 一块儿/一起 và ghi rõ vùng giao nhau."
+        },
+        "pronunciation": {
+          "text": "一块儿 thường đọc 一 theo biến điệu trước thanh 4 của 块; 儿 tạo âm cuốn lưỡi ở cuối. Đọc cả cụm liền, không tách 儿 thành âm tiết riêng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我们___去学校。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong câu cùng đi học, 一起 có thể thay 一块儿 không?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "一块儿",
+              "一起"
+            ],
+            "explanation": "Cả 一块儿 và 一起 đều có thể nói cùng nhau trong câu này."
+          },
+          "q2": {
+            "accepted": [
+              "可以",
+              "có thể",
+              "Có thể"
+            ],
+            "explanation": "一起 là cách nói trung tính và gần nghĩa với 一块儿 trong ngữ cảnh cùng đi."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói chúng ta cùng nhau ăn cơm."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi và em gái cùng nhau xem phim."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我们一块儿吃饭吧 để rủ cùng ăn.",
+            "frame": "我们 + 一块儿 + 吃饭 + 吧",
+            "model": "我们一块儿吃饭吧。",
+            "vi": "Chúng ta cùng nhau ăn cơm nhé.",
+            "criteria": [
+              "Có 一块儿 trước 吃饭.",
+              "吧 làm lời rủ nhẹ."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我和妹妹一块儿看电影 để nêu người cùng xem.",
+            "frame": "我和妹妹 + 一块儿 + 看电影",
+            "model": "我和妹妹一块儿看电影。",
+            "vi": "Tôi và em gái cùng nhau xem phim.",
+            "criteria": [
+              "Có 一块儿 làm trạng thái cùng làm.",
+              "我和妹妹 là hai người cùng xem."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-c96b2433111e",
@@ -104094,23 +105732,186 @@
       "intro": [
         {
           "pinyin": "yìdiǎnr",
-          "meaning": "một ít",
-          "sourcePinyin": "yīdiǎnr"
+          "meaning": "một ít; hơi một chút"
         }
       ],
-      "meaning": "một ít",
-      "status": "example",
+      "meaning": "một ít; hơi một chút",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-046 · trung bình",
       "examples": [
         {
-          "zh": "我想喝一点儿水。",
-          "vi": "Tôi muốn uống một ít nước."
+          "id": "e1",
+          "zh": "请给我一点儿水。",
+          "vi": "Hãy cho tôi một ít nước.",
+          "analysis": "一点儿 đứng trước 水, chỉ lượng nước nhỏ không xác định.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我今天有一点儿累。",
+          "vi": "Hôm nay tôi hơi mệt.",
+          "analysis": "一点儿 đứng trước tính từ 累 trong cụm 有一点儿累, làm mức độ mệt nhẹ hơn.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 487,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 480,
+        "authorship": "Tự biên soạn, đọc mục 汉典 về 一点 và 儿; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/一点",
+          "https://www.zdic.net/hans/儿"
+        ],
+        "introduction": {
+          "scope": "một lượng nhỏ hoặc mức độ hơi nhẹ"
+        },
+        "meaning": {
+          "scene": "一点儿 chỉ một lượng nhỏ của vật hoặc mức độ nhẹ của tính chất/trạng thái.",
+          "explanation": "一点儿 đứng trước danh từ không đếm cụ thể như 一点儿水, hoặc sau tính từ như 累一点儿. Nó không xác định chính xác số lượng và không đồng nghĩa với 一半.",
+          "boundary": "一点儿 là một ít/hơi một chút; 一下儿 thường đi sau động từ để giới hạn hành động, còn 一半 là 50%.",
+          "conditions": [
+            "Dùng 一点儿 + danh từ khi xin hoặc lấy lượng nhỏ; dùng tính từ + 一点儿 khi muốn mức độ nhẹ hơn."
+          ],
+          "takeaway": "一点儿 nói lượng nhỏ hoặc mức độ hơi; vị trí trước danh từ và sau tính từ rất quan trọng."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一点儿 + danh từ",
+            "position": "一点儿 đứng trước vật hoặc chất không nêu số cụ thể.",
+            "required": "Cần danh từ muốn lấy hoặc nói đến.",
+            "omission": "Có thể đổi danh từ và thêm 请给我.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "tính từ + 一点儿",
+            "position": "一点儿 đứng sau tính từ để giảm hoặc so sánh mức độ.",
+            "required": "Cần tính từ chỉ trạng thái.",
+            "omission": "Có thể bỏ nếu chỉ nói tính từ đơn thuần.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请给我一点儿水。",
+            "vi": "Hãy cho tôi một ít nước.",
+            "analysis": "一点儿 đứng trước 水, chỉ lượng nước nhỏ không xác định.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我今天有一点儿累。",
+            "vi": "Hôm nay tôi hơi mệt.",
+            "analysis": "一点儿 đứng trước tính từ 累 trong cụm 有一点儿累, làm mức độ mệt nhẹ hơn.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "一点儿 và 一半: một ít hay một nửa",
+            "scene": "Phân biệt lượng nhỏ không xác định với tỷ lệ 50%.",
+            "possibleConfusion": "Cả hai đều có thể đứng trước danh từ chỉ lượng.",
+            "difference": "一点儿 không nói tỷ lệ cụ thể; 一半 xác định một trong hai phần bằng nhau.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请给我一点儿水。",
+                "vi": "Hãy cho tôi một ít nước.",
+                "comment": "一点儿 chỉ lượng nhỏ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我喝了一半水。",
+                "vi": "Tôi đã uống một nửa số nước.",
+                "comment": "一半 chỉ 50% lượng nước trong ngữ cảnh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 一点儿 thành 一半 sẽ đổi lượng nhỏ không xác định thành 50%; câu có thể vẫn đúng nhưng lượng khác."
+            },
+            "boundary": "Không dùng 一点儿 khi muốn khẳng định chính xác là một nửa.",
+            "tip": "Một ít là 一点儿, một nửa là 一半."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà hai chức năng lượng nhỏ và mức độ nhẹ.",
+          "literalTranslation": "Đã rà bẫy dịch 一点儿 thành một điểm cố định.",
+          "confusables": "Đã đối chiếu 一点儿/一半 theo lượng và tỷ lệ."
+        },
+        "pronunciation": {
+          "text": "一点儿 thường đọc 一 theo biến điệu trước thanh 3 của 点; 儿 tạo âm cuốn lưỡi ở cuối. Đọc liền cả cụm, không tách 儿 thành âm tiết riêng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 请给我___水。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói 50% lượng nước, chọn 一点儿 hay 一半?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "一点儿"
+            ],
+            "explanation": "一点儿水 là một ít nước."
+          },
+          "q2": {
+            "accepted": [
+              "一半"
+            ],
+            "explanation": "一半 chỉ một trong hai phần bằng nhau, tức 50%."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nhờ người nghe cho tôi một ít cơm."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hôm nay tôi hơi buồn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 请给我一点儿米饭 để xin một lượng nhỏ cơm.",
+            "frame": "请 + 给我 + 一点儿米饭",
+            "model": "请给我一点儿米饭。",
+            "vi": "Hãy cho tôi một ít cơm.",
+            "criteria": [
+              "Có 一点儿 trước 米饭.",
+              "一点儿米饭 nói lượng cơm nhỏ."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我今天有一点儿难过 để nói mức độ buồn nhẹ.",
+            "frame": "我今天 + 有一点儿 + 难过",
+            "model": "我今天有一点儿难过。",
+            "vi": "Hôm nay tôi hơi buồn.",
+            "criteria": [
+              "Có 一点儿 trước 难过.",
+              "有一点儿难过 nói hơi buồn."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-94a9380b80dd",
@@ -104119,17 +105920,186 @@
       "intro": [
         {
           "pinyin": "nǚháir",
-          "meaning": "bé gái"
+          "meaning": "bé gái; cô gái"
         }
       ],
-      "meaning": "bé gái",
-      "status": "catalog",
+      "meaning": "bé gái; cô gái",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-046 · dễ",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "那个女孩儿在唱歌。",
+          "vi": "Cô bé/cô gái kia đang hát.",
+          "analysis": "那个女孩儿 chỉ một cô gái trẻ cụ thể; 在唱歌 nói hành động đang diễn ra.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "她是个聪明的女孩儿。",
+          "vi": "Cô ấy là một cô gái thông minh.",
+          "analysis": "个 là lượng từ trong 是个...; 聪明的 bổ nghĩa cho 女孩儿.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 489,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 481,
+        "authorship": "Tự biên soạn, đọc mục 汉典 về 女孩 và 儿; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/女孩",
+          "https://www.zdic.net/hans/儿"
+        ],
+        "introduction": {
+          "scope": "bé gái hoặc cô gái trẻ, tùy ngữ cảnh"
+        },
+        "meaning": {
+          "scene": "女孩儿 là cách gọi một bé gái hoặc cô gái trẻ, nhấn giới tính và độ tuổi còn trẻ.",
+          "explanation": "女孩儿 làm chủ thể hoặc đứng sau 个, 这个/那个. Từ này không tự nói người đó là học sinh; nếu nhấn nữ sinh, 女生 phù hợp hơn.",
+          "boundary": "女孩儿 là bé/cô gái trẻ; 女生 thường là nữ sinh hoặc cô gái trong bối cảnh trường học/nhóm nam nữ.",
+          "conditions": [
+            "Dùng 女孩儿 khi nói một cô bé/cô gái trẻ; dùng 女生 khi thông tin chính là người học hoặc thành viên nữ."
+          ],
+          "takeaway": "女孩儿 nhấn cô bé/cô gái trẻ; không tự động có nghĩa là nữ sinh."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "这个/那个 + 女孩儿",
+            "position": "女孩儿 đứng sau từ chỉ định.",
+            "required": "Dùng khi chỉ một cô bé/cô gái cụ thể.",
+            "omission": "Có thể bỏ từ chỉ định nếu ngữ cảnh đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "是 + 个 + 女孩儿",
+            "position": "女孩儿 đứng sau 个 trong câu nhận diện.",
+            "required": "Dùng khi mô tả một người là cô gái.",
+            "omission": "Có thể thay 个 bằng lượng từ phù hợp trong ngữ cảnh.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "那个女孩儿在唱歌。",
+            "vi": "Cô bé/cô gái kia đang hát.",
+            "analysis": "那个女孩儿 chỉ một cô gái trẻ cụ thể; 在唱歌 nói hành động đang diễn ra.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "她是个聪明的女孩儿。",
+            "vi": "Cô ấy là một cô gái thông minh.",
+            "analysis": "个 là lượng từ trong 是个...; 聪明的 bổ nghĩa cho 女孩儿.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "女孩儿 và 女生: cô gái hay nữ sinh",
+            "scene": "Phân biệt độ tuổi/ngữ cảnh với tư cách người học hoặc thành viên nữ.",
+            "possibleConfusion": "Một 女生 có thể cũng là 女孩儿, nhưng hai từ nhấn thông tin khác nhau.",
+            "difference": "女孩儿 nhấn cô bé/cô gái trẻ; 女生 thường nhấn nữ sinh hoặc cô gái trong bối cảnh trường học/nhóm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "那个女孩儿在唱歌。",
+                "vi": "Cô bé/cô gái kia đang hát.",
+                "comment": "Câu chỉ cô gái trẻ, không nói cô ấy có phải học sinh hay không.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们班有三个女生。",
+                "vi": "Lớp chúng tôi có ba nữ sinh.",
+                "comment": "女生 phù hợp khi nói thành viên nữ của lớp.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 女孩儿 thành 女生 sẽ chuyển trọng tâm từ cô gái trẻ sang tư cách nữ sinh/thành viên nữ; chỉ một số ngữ cảnh hai từ mới gần nhau."
+            },
+            "boundary": "Không suy ra 女孩儿 là học sinh nếu câu không nói về trường lớp.",
+            "tip": "Nhấn tuổi trẻ và hình ảnh cô gái: 女孩儿; nhấn vai trò nữ sinh: 女生."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa bé/cô gái trẻ của 女孩儿.",
+          "literalTranslation": "Đã rà bẫy dịch 女孩儿 thành nữ sinh trong mọi câu.",
+          "confusables": "Đã đối chiếu 女孩儿/女生 theo thông tin được nhấn."
+        },
+        "pronunciation": {
+          "text": "女孩儿 gồm thanh 3, thanh 2 và âm cuốn lưỡi ở cuối; 儿 không đọc thành một âm tiết tách riêng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 那个___在唱歌。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói nữ sinh trong lớp, chọn 女孩儿 hay 女生?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "女孩儿"
+            ],
+            "explanation": "那个女孩儿 là cô gái trẻ kia."
+          },
+          "q2": {
+            "accepted": [
+              "女生"
+            ],
+            "explanation": "女生 phù hợp khi nhấn nữ sinh trong lớp."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói cô gái kia đang đọc sách."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói lớp tôi có hai cô gái."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 那个女孩儿在读书 để mô tả cô gái trẻ.",
+            "frame": "那个女孩儿 + 在 + 读书",
+            "model": "那个女孩儿在读书。",
+            "vi": "Cô gái kia đang đọc sách.",
+            "criteria": [
+              "Có 女孩儿 sau 那个.",
+              "女孩儿 là người đang đọc sách."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我们班有两个女孩儿 để nói trong lớp có hai cô gái.",
+            "frame": "我们班 + 有 + 两个女孩儿",
+            "model": "我们班有两个女孩儿。",
+            "vi": "Lớp tôi có hai cô gái.",
+            "criteria": [
+              "Có 女孩儿 sau số lượng 两个.",
+              "两个女孩儿 chỉ hai cô gái trong lớp."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-341ca6659178",
@@ -137706,13 +139676,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 479,
-    "pending": 1755,
+    "ready": 491,
+    "pending": 1743,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 479
+        "ready": 491
       },
       {
         "level": 2,

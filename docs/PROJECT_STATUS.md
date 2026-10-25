@@ -13,9 +13,9 @@ Cập nhật: 2026-10-25. Chế độ hiện hành: `supplementation` (đã qua 
 
 ## Bổ sung bài còn thiếu
 
-- Phạm vi baseline: 2.224 mục; 469 mục đã có nội dung bổ sung; còn 1.755 mục.
+- Phạm vi baseline: 2.224 mục; 481 mục đã có nội dung bổ sung; còn 1.743 mục.
 - Tiến độ này độc lập với tiến độ rà soát ở trên và không được dùng để tuyên bố đã rà 367 bài.
-- Trạng thái: batch-045 trên content commit `80d1c7f` đã fast-forward tới `ca28528` trên cả hai nhánh; Pages run `40168023790` success và live course khớp SHA `788651592fc30c337797e62dcabb6160bd6029224546bd0fa077033f66c15158`. CompletedCount là 469/2.224, còn 1.755; đợt kế tiếp bắt đầu từ ordinal 470 theo ID trong checkpoint. Batch-045 gồm 8 dễ, 2 trung bình; các bài mới có hai ví dụ, bẫy đối chiếu thật và hai tình huống tự dùng. Correction-007 đã sửa 教 và bổ sung validator Pinyin. Tiến độ supplementation độc lập với cổng rà soát 377/377.
+- Trạng thái: batch-046 đã biên soạn và kiểm tra cục bộ trên content, đang chờ commit và phát hành Pages. CompletedCount là 481/2.224, còn 1.743; đợt kế tiếp bắt đầu từ ordinal 482 theo ID trong checkpoint. Batch-046 gồm 4 bài dễ và 8 bài trung bình; các bài mới có hai ví dụ, bẫy đối chiếu thật và hai tình huống tự dùng. Correction-008 sửa bản dịch 我今天去看医生 thành “Hôm nay tôi đi khám bệnh”, không tăng completedCount. Tiến độ supplementation độc lập với cổng rà soát 377/377.
 
 ## Giao diện và chức năng
 

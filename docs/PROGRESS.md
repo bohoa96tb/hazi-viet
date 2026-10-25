@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 469/2224. Còn: 1755. Toàn khóa đủ cấu trúc: 479/2234.
+Đã bổ sung: 481/2224. Còn: 1743. Toàn khóa đủ cấu trúc: 491/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -51,26 +51,27 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-043 · mục 448–451 · 路口、车上、车票、车站
 - batch-044 · mục 452–459 · 门票、飞机、马路、从、四、教、班、中学
 - batch-045 · mục 460–469 · 中学生、书包、医生、大学、大学生、学校、学院、小学、小学生、工人
+- batch-046 · mục 470–481 · 教学楼、知识、网友、读书、课文、零、一下儿、一会儿、一半、一块儿、一点儿、女孩儿
 
 ## 18 mục tiếp theo
 
-- 教学楼 · hz-h1-542f6b71d047
-- 知识 · hz-h1-ff27472359fb
-- 网友 · hz-h1-57373f72f356
-- 读书 · hz-h1-f3da64b922cc
-- 课文 · hz-h1-6b3b6bebd907
-- 零 · hz-h1-d790ee92a345
-- 一下儿 · hz-h1-351dc62f50f1
-- 一会儿 · hz-h1-b0cef3baa976
-- 一半 · hz-h1-213e4444c12b
-- 一块儿 · hz-h1-bd76b676f886
-- 一点儿 · hz-h1-c96b2433111e
-- 女孩儿 · hz-h1-94a9380b80dd
 - 好听 · hz-h1-341ca6659178
 - 好玩儿 · hz-h1-a43b25f0c825
 - 好看 · hz-h1-881f345b6126
 - 小孩儿 · hz-h1-1fe9f5395906
 - 小朋友 · hz-h1-af7ba840a323
 - 常常 · hz-h1-74b2bd2425de
+- 开玩笑 · hz-h1-f3c61ec69d2c
+- 有时候 · hz-h1-1588acfb3631
+- 没事儿 · hz-h1-c7c0315f63cf
+- 没什么 · hz-h1-d2d2c346c745
+- 玩儿 · hz-h1-bc3b6c328ee7
+- 男孩儿 · hz-h1-12cdf7d590f3
+- 非常 · hz-h1-07ebf75bb164
+- 下 · hz-h2-b68721647e72
+- 两 · hz-h2-9c4c64bf48ef
+- 低 · hz-h2-ebe1da60c988
+- 克 · hz-h2-eefe7f470909
+- 卡 · hz-h2-2bdabe19c71c
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
