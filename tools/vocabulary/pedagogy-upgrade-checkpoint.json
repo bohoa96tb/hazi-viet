@@ -79,10 +79,58 @@
         "courseBytes": 6004555
       },
       "uncertainties": "Chưa có phản biện giáo viên độc lập; chưa kiểm tra phát âm TTS trên Android thật; chưa kiểm tra bố cục mobile bằng mắt thật (sẽ kiểm tra sau khi triển khai)."
+    },
+    {
+      "id": "hz-h2-8ac3a59c0ef6",
+      "hanzi": "得",
+      "cohortOrdinal": 503,
+      "difficulty": "khó",
+      "difficultyReason": "Một chữ, ba cách đọc/chức năng (de/děi/dé) phân biệt bằng từ ghép, chức năng và ngữ cảnh; bổ ngữ mức độ và bổ ngữ khả năng cùng dạng; quy tắc tân ngữ phức tạp; đồng âm với 的/地.",
+      "round": 3,
+      "problemsFound": [
+        "Phần giải thích dùng thuật ngữ khó (trợ từ, bổ ngữ mức độ, vị ngữ) và lặp ý giữa các trường; ví dụ chính thứ hai dạy quy tắc tân ngữ (thuộc Học thêm) thay vì dạy děi; câu đối chiếu trong bẫy t1 lặp nguyên hai câu mẫu chính; bài luyện q1 hỏi cả ba chữ 得/的/地 trong khi phân biệt đó thuộc Học thêm; chỉ có 4 câu luyện, thiếu bài kiểm tra riêng cho 的/地/地."
+      ],
+      "changes": [
+        "Viết lại phần A bằng tiếng Việt đơn giản (169 từ giải thích Tầng 1, trong khoảng 150-230 cho bài khó), bỏ thuật ngữ trợ từ/bổ ngữ/vị ngữ; ví dụ e2 đổi thành câu děi đơn giản (我今天得早点回家), khung u2 thành khung 得 + việc cần làm; ví dụ cũ về tân ngữ chuyển thành câu đúng c4 trong bẫy t4; câu đối chiếu t1 đổi thành 他跑得很快 và 我们得走了 để không lặp câu mẫu; q1 thành câu điền đơn giản, thêm q5 kiểm tra 的/地/得 trong Học thêm; thêm tier1 {traps:[t1], checks:[q1], selfUse:[s1,s2]}; renderer mới: Tầng 1 hiển thị mặc định, Tầng 2 trong chi tiết Học thêm, tự dùng mở sau khi mở lời giải bài Tầng 1; giới hạn checks nới từ 2-4 thành 2-6 để có cả bài chính và bài mở rộng; cache-buster two-tier-de."
+      ],
+      "keptFromV2": [
+        "e1 他说得很快; 5 bẫy với mọi phân biệt chính xác từ đợt sửa 2 (ba cách đọc; 的/地/得 cùng bối cảnh; mức độ/khả năng; tân ngữ; 得/要); 4 câu luyện cũ; 2 tình huống tự dùng; 3 ngữ cảnh phát âm; audioText 说得很快; nút HIỆN/ẨN PINYIN; cảnh báo câu sai."
+      ],
+      "sources": [
+        "https://www.zdic.net/hans/得",
+        "https://en.wiktionary.org/wiki/得",
+        "https://resources.allsetlearning.com/gramwiki/?title=Degree_complement",
+        "https://resources.allsetlearning.com/gramwiki/?title=Potential_complements",
+        "https://goeastmandarin.com/how-to-use-three-de-in-chinese/"
+      ],
+      "status": "pilot-two-tier-tests-passed",
+      "tests": [
+        "process-batch verify PASS",
+        "quality-audit self-test PASS",
+        "quality audit tổng 910 không đổi, 0 cho 得",
+        "test-dom PASS",
+        "regression-de-pilot 78 khẳng định PASS (36 cũ + 42 hai tầng)",
+        "node --check các file JS đã sửa PASS",
+        "git diff --check sạch"
+      ],
+      "uncertainties": [
+        "TTS Android thật chưa kiểm thử",
+        "Phản biện giáo viên độc lập chưa có",
+        "Bố cục mobile 360/390/430px chưa xác minh riêng từng mốc",
+        "Chúng ta phải đi rồi (我们得走了) là câu mẫu chuẩn trong sách dạy tiếng Trung, không lấy nguyên văn từ một nguồn cụ thể"
+      ]
     }
   ],
   "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
   "repository": "bohoa96tb/hazi-viet",
   "schemaVersion": 1,
-  "standard": "V3-pilot"
+  "standard": "V3-pilot",
+  "twoTier": {
+    "standard": "two-tier-v1",
+    "phase": "A",
+    "pilotId": "hz-h2-8ac3a59c0ef6",
+    "pilotApproved": false,
+    "standardizedCount": 1,
+    "nextStep": "Chờ Bui duyệt pilot hai tầng; nếu duyệt thì bắt đầu Giai đoạn B (sửa bài trung bình/khó), không tự bắt đầu."
+  }
 }

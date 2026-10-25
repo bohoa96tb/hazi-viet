@@ -11,8 +11,9 @@
 - `traps: []` hợp lệ khi không có bẫy hữu ích; giữ `noTrapReason: "Chưa thấy bẫy thông dụng cần lưu ý ở mức học này."` và đủ kết quả rà soát. Độ dài giải thích thay đổi theo độ khó, số thành phần bắt buộc không đổi.
 - `trapReview`: ghi nội bộ kết quả rà `readingsAndMeanings`, `literalTranslation`, `confusables`; không ép đủ ba loại bẫy hiển thị. Nếu không có bẫy, ghi đúng `noTrapReason` theo chuẩn.
 - `pronunciation.text`: ngắn, kết bằng nhiệm vụ đọc; có thể thêm `pronunciation.pinyin` riêng. Với từ có nhiều cách đọc, có thể thêm `pronunciation.contexts[]` gồm `introIndex`, câu chữ Hán có chứa từ và nghĩa Việt ngắn; TTS đọc các câu ngữ cảnh này để gắn từng cách đọc với cách dùng. TTS không nhận trường Pinyin.
-- `checks[]`: 2–4 câu mở, `id,type:'open',question`. `answers[id]` riêng chứa `accepted[]` và `explanation`. Không chấm tự động theo chuỗi; người học tự đối chiếu, chấp nhận cách khác có lý.
+- `checks[]`: 2–6 câu mở (chính + mở rộng theo chuẩn hai tầng), `id,type:'open',question`. `answers[id]` riêng chứa `accepted[]` và `explanation`. Không chấm tự động theo chuỗi; người học tự đối chiếu, chấp nhận cách khác có lý.
 - `selfUse[]`: đúng hai tình huống `id,prompt`. `selfAnswers[id]` riêng chứa `idea,frame,model,vi,criteria[]`. Mở lần lượt ý → khung → mẫu; F mở sau khi đã mở lời giải E hoặc chủ động yêu cầu.
+- `tier1` (tùy chọn, chuẩn hai tầng): `{traps:[id], checks:[id], selfUse:[id]}` liệt kê các mục hiển thị mặc định (Tầng 1); các mục còn lại vào "Học thêm" (Tầng 2). Không có `tier1` thì mọi mục đều là Tầng 1 — bài cũ hiển thị đúng như trước. Xem `docs/CONTENT_STANDARD_TWO_TIER.md`.
 - `authorship`, `sources[]`: ghi nguồn đối chiếu và giới hạn phản biện.
 
 Bài V2 không cần tạo `quiz`, `near` V1 giả để qua validator; đã có bài mở và đối chiếu thật ở lesson. `shape` nếu có vẫn hiển thị; liên kết từng chữ sang index.html giữ nguyên. `word.task/model` dùng cho bước ôn chủ động mở gợi ý, không phát trong bài giảng tự động.

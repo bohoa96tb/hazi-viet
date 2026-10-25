@@ -1,16 +1,23 @@
-// Regression test for the V3 pilot lesson 得 (hz-h2-8ac3a59c0ef6), fix round 2.
+// Regression test for the V3 pilot lesson 得 (hz-h2-8ac3a59c0ef6), fix round 2
+// and the two-tier pilot (Phase A, 2026-10-25).
 // Catches the teaching errors reported by the user on 2026-10-25:
 //  - q2 accepted answers switching the subject (你 instead of 他)
 //  - q4 forcing a single 得/要 answer where both are natural
 //  - selfUse prompts not saying who speaks about whom
 //  - absolute claims about 得/要, 听不懂/没听懂 and object position
 //  - audioText 得到 (dé) standing for the main reading de
+// Two-tier checks (Phase A):
+//  - tier1 metadata is valid; Tier 1 teaches de + děi, Tier 2 holds the rest
+//  - Tier-1 Vietnamese explanation is 150-230 words (hard) and simple
+//  - the old object example is preserved as a t4 case, not dropped
+//  - the renderer shows Tier 1 by default and Tier 2 behind "Học thêm"
 // Run: node tools/vocabulary/regression-de-pilot.mjs
 // Exit 0 on pass; assertion failure on any regression.
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {auditLesson} from '../..//js/lesson-standard.js';
+import {auditLesson,tierSplit} from '../..//js/lesson-standard.js';
+import {renderStandardLesson} from '../..//js/lesson-standard-view.js';
 import {buildPlaylist} from '../..//js/vocabulary-audio.js';
 
 const root = new URL('../..', import.meta.url).pathname;
@@ -136,6 +143,81 @@ for (const c of l.checks) {
 {
   const digest = createHash('sha256').update(JSON.stringify(w)).digest('hex');
   ok(progress.completedDigests[w.id] === digest, 'progress.json digest matches the word');
+}
+
+// 13. Two-tier metadata: tier1 lists valid ids; Tier 1 is de + děi only.
+{
+  const split = tierSplit(w);
+  ok(Array.isArray(l.tier1?.traps) && Array.isArray(l.tier1?.checks) && Array.isArray(l.tier1?.selfUse), 'tier1 metadata exists');
+  for (const [list, ids] of [['traps', l.tier1.traps], ['checks', l.tier1.checks], ['selfUse', l.tier1.selfUse]])
+    for (const id of ids) ok(l[list].some(x => x.id === id), `tier1 ${list} id ${id} exists`);
+  ok(JSON.stringify(split.tier1Traps.map(t => t.id)) === '["t1"]', 'Tier 1 traps are only t1 (three readings)');
+  ok(JSON.stringify(split.tier2Traps.map(t => t.id)) === '["t2","t3","t4","t5"]', 'Tier 2 traps are t2-t5 (的/地/得, ability, object, 得/要)');
+  ok(JSON.stringify(split.tier1Checks.map(c => c.id)) === '["q1"]', 'Tier 1 check is only q1');
+  ok(JSON.stringify(split.tier2Checks.map(c => c.id)) === '["q2","q3","q4","q5"]', 'Tier 2 checks are q2-q5');
+  ok(JSON.stringify(split.tier1SelfUse.map(s => s.id)) === '["s1","s2"]', 'Tier 1 self-use is s1 + s2');
+  ok(split.tier2SelfUse.length === 0, 'no Tier 2 self-use for this lesson');
+}
+
+// 14. Tier-1 Vietnamese explanation is short and simple (hard: 150-230 words,
+//     counting only Latin/Vietnamese-letter tokens, not Han/Pinyin/numbers).
+{
+  const text = [l.meaning.scene, l.meaning.explanation, l.meaning.boundary, ...l.meaning.conditions, l.meaning.takeaway].join(' ');
+  const count = text.split(/\s+/).filter(t => /[a-zA-Zà-ỹÀ-Ỹ]/.test(t)).length;
+  ok(count >= 150 && count <= 230, `Tier-1 explanation is ${count} Vietnamese words (150-230 for hard)`);
+  for (const term of ['trợ từ', 'bổ ngữ', 'vị ngữ', 'bổ ngữ mức độ'])
+    ok(!text.includes(term), `Tier-1 explanation avoids the jargon "${term}"`);
+}
+
+// 15. Main examples teach de and děi; the old object example is kept as a t4 case.
+{
+  const e1 = l.examples.find(e => e.id === 'e1');
+  const e2 = l.examples.find(e => e.id === 'e2');
+  ok(e1.zh === '他说得很快。', 'e1 is the de example 他说得很快');
+  ok(e2.zh === '我今天得早点回家。', 'e2 is the simple děi example 我今天得早点回家');
+  const u2 = l.usages.find(u => u.id === 'u2');
+  ok(u2.exampleId === 'e2' && u2.frame.includes('việc cần làm'), 'u2 is the děi frame linked to e2');
+  ok(trap('t4').cases.some(c => c.zh === '我吃饭吃得很快。' && c.judgment === 'correct'), 'old object example is kept as a correct t4 case');
+  ok(JSON.stringify(w.examples) === JSON.stringify(l.examples), 'top-level examples match lesson examples');
+  ok(!l.examples.some(e => e.zh === '我吃饭吃得很快。'), 'the object example is no longer a main example');
+}
+
+// 16. q1 is the simple Tier-1 fill-in; q5 is the Tier-2 的/地/得 check.
+{
+  const q1 = l.checks.find(c => c.id === 'q1');
+  ok(q1.question.includes('他跑___很快') && !q1.question.includes('的 hoặc 地'), 'q1 is a simple fill-in without the three-way choice');
+  ok(l.answers.q1.accepted.includes('得'), 'q1 accepts 得');
+  const q5 = l.checks.find(c => c.id === 'q5');
+  ok(q5 && q5.question.includes('他认真___学习'), 'q5 asks the 的/地/得 fill-in');
+  ok(l.answers.q5.accepted.includes('地'), 'q5 accepts 地');
+}
+
+// 17. Renderer: Tier 1 by default, Tier 2 behind "Học thêm", unlock by Tier-1 checks.
+{
+  const esc = s => String(s ?? '').replace(/[&<>\"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+  const render = (word, stage, state = new Map()) => renderStandardLesson(word, {stage, checkState: state, esc, hanzi: esc, rich: esc});
+  const s2 = render(w, 2);
+  ok(s2.includes('Ba cách đọc của 得'), 'stage 2 shows the Tier-1 trap t1 by default');
+  ok(!s2.includes('card-pager'), 'stage 2 has no pager when there is only one Tier-1 trap');
+  ok(s2.includes('Học thêm · 4 bẫy nữa'), 'stage 2 has the Học thêm section for 4 more traps');
+  for (const t of ['的, 地, 得: ba chữ cùng đọc thanh nhẹ', 'Mức độ hay khả năng: 听得懂', 'Tân ngữ đi đâu khi có 得', '得 hay 要: mức bắt buộc khác nhau'])
+    ok(s2.includes(esc(t)), `stage 2 Học thêm contains trap "${t}"`);
+  const s3 = render(w, 3);
+  ok(s3.includes('Học thêm · 4 câu luyện nữa'), 'stage 3 has the Học thêm section for 4 more checks');
+  ok(s3.indexOf(esc(l.checks.find(c => c.id === 'q1').question)) < s3.indexOf('Học thêm · 4 câu luyện nữa'), 'q1 renders before the Học thêm section');
+  ok(s3.indexOf('Học thêm · 4 câu luyện nữa') < s3.indexOf(esc(l.checks.find(c => c.id === 'q2').question)), 'q2 renders inside the Học thêm section');
+  const onlyTier1 = new Map([[w.id + ':q1', 'requested']]);
+  const unlocked = render(w, 3, onlyTier1);
+  ok(unlocked.includes('Nói anh ấy làm bài tập rất nhanh.'), 'self-use opens after only the Tier-1 check is revealed');
+  ok(!unlocked.includes('Hãy thử các bài trên'), 'no "try the exercises first" gate once Tier-1 checks are done');
+  ok(render(w, 3).includes('Hãy thử các bài trên'), 'self-use stays gated until the Tier-1 check is tried');
+  // Fallback: a lesson without tier1 renders everything as before.
+  const plain = structuredClone(w);
+  delete plain.lesson.tier1;
+  const p2 = render(plain, 2);
+  ok(p2.includes('card-pager') && p2.includes('1/5'), 'no-tier1 lesson still pages all 5 traps');
+  ok(!p2.includes('Học thêm'), 'no-tier1 lesson has no Học thêm section');
+  ok(!render(plain, 3).includes('Học thêm'), 'no-tier1 lesson stage 3 has no Học thêm section');
 }
 
 console.log(`regression-de-pilot: ${passed} assertions passed`);

@@ -1,5 +1,5 @@
-import {renderV2} from './lesson-v2-view.js?v=v2-pilot-de2';
-import {judgments,exampleById} from './lesson-standard.js?v=v2-pilot-de2';
+import {renderV2} from './lesson-v2-view.js?v=v2-two-tier-de';
+import {judgments,exampleById} from './lesson-standard.js?v=v2-two-tier-de';
 export function renderStandardLesson(w,{stage,view='usages',usageIndex=0,exampleIndex=0,trapIndex=0,checkState,esc,hanzi,rich,pinyinShown=true}){
  if(w.lesson?.version===2)return renderV2(w,{stage,trapIndex,checkState,esc,hanzi,rich,pinyinShown});
  const l=w.lesson;

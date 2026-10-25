@@ -42,12 +42,27 @@ export function auditV2(w){
  for(const t of l.traps||[]){need(t,['title','scene','possibleConfusion','difference','boundary','tip'],'traps');unique(t.cases,'traps.cases');if((t.cases||[]).length<2)bad('traps.cases','Thiếu cặp đối chiếu');need(t.replacement,['result','explanation'],'traps.replacement');if(!judgmentsV2[t.replacement?.result])bad('traps.replacement','Nhãn không hợp lệ');for(const c of t.cases||[]){need(c,['zh','vi','comment'],'traps.cases');if(!judgmentsV2[c.judgment]||c.practiceAllowed!==false)bad('traps.cases','Nhãn/luyện sai');if(c.judgment==='wrong-grammar')need(t.corrections?.find(r=>r.caseId===c.id),['zh','vi','reason'],'traps.correction')}}
  const pinyinOk=v=>isPinyinText(String(v).replace(/[.!?。？！]+$/u,''));
  for(const t of l.traps||[]){for(const c of t.cases||[])if(c.pinyin&&!pinyinOk(c.pinyin))bad('traps.cases.pinyin','Pinyin đối chiếu không hợp lệ');for(const r of t.corrections||[])if(r.pinyin&&!pinyinOk(r.pinyin))bad('traps.correction.pinyin','Pinyin câu sửa không hợp lệ');}
- unique(l.checks,'checks');if((l.checks||[]).length<2||(l.checks||[]).length>4)bad('checks','Cần 2–4 bài luyện');for(const c of l.checks||[]){need(c,['question'],'checks');if(c.type!=='open'||'answer'in c||'explanation'in c)bad('checks','Phải tách đáp án');const a=l.answers?.[c.id];need(a,['explanation'],'checks.answer');if(!Array.isArray(a?.accepted)||!a.accepted.length||a.accepted.some(x=>!filled(x)))bad('checks.answer','Thiếu đáp án chấp nhận')}
+ unique(l.checks,'checks');if((l.checks||[]).length<2||(l.checks||[]).length>6)bad('checks','Cần 2–6 bài luyện');for(const c of l.checks||[]){need(c,['question'],'checks');if(c.type!=='open'||'answer'in c||'explanation'in c)bad('checks','Phải tách đáp án');const a=l.answers?.[c.id];need(a,['explanation'],'checks.answer');if(!Array.isArray(a?.accepted)||!a.accepted.length||a.accepted.some(x=>!filled(x)))bad('checks.answer','Thiếu đáp án chấp nhận')}
  unique(l.selfUse,'selfUse');if(l.selfUse?.length!==2)bad('selfUse','Cần hai tình huống');for(const s of l.selfUse||[]){need(s,['prompt'],'selfUse');if('model'in s||'hints'in s)bad('selfUse','Phải tách gợi ý');const a=l.selfAnswers?.[s.id];need(a,['idea','frame','model','vi'],'selfUse.answer');if(!Array.isArray(a?.criteria)||!a.criteria.length||a.criteria.some(x=>!filled(x)))bad('selfUse.criteria','Thiếu tiêu chí tự đối chiếu')}
  if(Object.keys(l.answers||{}).some(id=>!l.checks?.some(c=>c.id===id)))bad('checks.answers','Đáp án mồ côi');if(Object.keys(l.selfAnswers||{}).some(id=>!l.selfUse?.some(s=>s.id===id)))bad('selfUse.answers','Mẫu mồ côi');
  need(l.pronunciation,['text'],'pronunciation');if(!l.pronunciation?.text?.endsWith('Đọc từ một lần, rồi đọc câu mẫu một lần.'))bad('pronunciation','Thiếu nhiệm vụ đọc');if(l.pronunciation?.contexts&&(!Array.isArray(l.pronunciation.contexts)||!l.pronunciation.contexts.length||l.pronunciation.contexts.some(c=>!Number.isInteger(c.introIndex)||c.introIndex<0||c.introIndex>=w.intro.length||!filled(c.text)||!c.text.includes(w.hanzi))))bad('pronunciation.contexts','Ngữ cảnh cách đọc không hợp lệ');
  const raw=structuredClone(l);for(const e of raw.examples||[])delete e.pinyin;if(raw.pronunciation)delete raw.pronunciation.pinyin;for(const t of raw.traps||[]){for(const c of t.cases||[])delete c.pinyin;for(const r of t.corrections||[])delete r.pinyin;}if(/"(?:pinyin|numeric|sourcePinyin)"\s*:/.test(JSON.stringify(raw))||/[āǎēěīǐōǒūǔǖǘǚǜ]/iu.test(JSON.stringify(raw)))bad('introduction.pinyin','Pinyin ngoài phạm vi');
  return {ready:!issues.length,issues,completeSections:Math.max(0,6-new Set(issues.map(i=>i.path.split('.')[0])).size),totalSections:6};
+}
+// Two-tier split (chuẩn hai tầng): lesson.tier1 lists the ids shown by default
+// (Tier 1 — học ngay); the rest goes behind "Học thêm" (Tier 2). When tier1 is
+// absent or a list is empty, everything is Tier 1, so older lessons render
+// exactly as before. Unknown ids are ignored.
+export function tierSplit(w){
+ const l=w.lesson||{},t=l.tier1||{};
+ const split=(list,ids)=>{
+  const chosen=Array.isArray(ids)&&ids.length?list.filter(x=>ids.includes(x.id)):list;
+  return [chosen,list.filter(x=>!chosen.includes(x))];
+ };
+ const [tier1Traps,tier2Traps]=split(l.traps||[],t.traps);
+ const [tier1Checks,tier2Checks]=split(l.checks||[],t.checks);
+ const [tier1SelfUse,tier2SelfUse]=split(l.selfUse||[],t.selfUse);
+ return {tier1Traps,tier2Traps,tier1Checks,tier2Checks,tier1SelfUse,tier2SelfUse};
 }
 export function splitSpeech(s){return String(s||'').replace(/[*_`#]/g,'').split(/([\p{Script=Han}]+(?:[，。？！、；：…“”「」《》\s]*[\p{Script=Han}]+)*[，。？！、；：…]*)/u).filter(s=>/[\p{L}\p{N}]/u.test(s)).map(s=>({text:s.trim().replace(/[→/]/g,', '),lang:/\p{Script=Han}/u.test(s)?'zh-CN':'vi-VN'}))}
 export function v2Audio(w,part='full',index=0){
