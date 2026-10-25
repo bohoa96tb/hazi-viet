@@ -1,5 +1,17 @@
 
 
+# Correction-003 và batch-034 — đã phát hành và xác minh Pages
+
+- Commit nội dung: `a1dccdd753c48e99a36e286a54d4f83b0a4ddf4a`; đã fast-forward cả `content/vocabulary-2224` và `main`.
+- Sửa 32 trường hợp tự dùng trùng nguyên văn ở ordinal 382–398; sửa lệch chủ thể/người nhận ở 介绍, đáp án 楼下 dùng đúng từ mục tiêu, bẫy 桌子 có câu thật với 桌面, và bản dịch 房子 không thu hẹp nghĩa. `completedCount` không tăng vì correction.
+- Bổ sung 8 mục ordinal 399–406: 别人、女人、女生、她们、孩子、男人、男朋友、男生. Tiến độ: 406/2.224, còn 1.818; toàn khóa 416/2.234 bài đủ cấu trúc.
+- Phân loại batch-034: dễ gồm 女生、她们、孩子、男生; trung bình gồm 别人、女人、男人、男朋友. MDBG đã được đọc cho từng mục; tự phản biện hai lượt, chưa phản biện giáo viên độc lập.
+- Thêm `quality-audit.mjs`: cảnh báo tự dùng trùng/gần giống, thiếu từ mục tiêu, bẫy A/B thiếu ví dụ và correction thiếu; strict gate chặn lỗi trùng nguyên văn ở batch mới. Self-test có dữ liệu đúng, sai và ngoại lệ dạng tách được.
+- `process-batch verify`, `verify-v2`, `quality-audit --self-test`, `test-dom.mjs`, kiểm tra cú pháp JavaScript và `git diff --check` đều đạt. DOM simulation không chứng nhận bố cục trực quan hoặc phát âm trên thiết bị.
+- GitHub Pages run [40154116343](https://github.com/bohoa96tb/hazi-viet/actions/runs/40154116343) completed/success đúng `head_sha=a1dccdd753c48e99a36e286a54d4f83b0a4ddf4a`.
+- Dữ liệu khóa học live có 2.234 mục, 416 bài đủ cấu trúc, 5.190.399 bytes, SHA-256 `09db705dedbbf3929b489e4d998598c55620f91af493e8ab21dd18a6d24dcc3b`, khớp byte với bản đã kiểm; cache `vocabulary.js?v=batch-034`.
+- Quality audit toàn lịch sử còn cảnh báo cần biên tập thủ công (chủ yếu bài cũ: 220 exact, 43 near, 65 trap-pair, 12 target); nhóm 381–406 hiện không còn cảnh báo. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
+
 # Batch-033 — đã phát hành và xác minh Pages
 
 - Commit nội dung: `82634a222d56b0f197f9d1a0edf34e6f908f4dec`; đã fast-forward cả `content/vocabulary-2224` và `main`.
