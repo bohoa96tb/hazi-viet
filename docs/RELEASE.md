@@ -1,4 +1,11 @@
 
+# Batch-049 — đã phát hành và xác minh Pages
+
+- Content commit: fbd588b5f98cf802798d7cd230fd7066906aee16; bổ sung 8 mục ordinal 502–509: 当、得、懂、成、掉、满、熟、省. Tiến độ: 509/2.224, còn 1.715.
+- Phân loại: dễ gồm 满; trung bình gồm 懂、成、掉、熟、省; khó gồm 当、得 vì có nhiều chức năng/cách đọc và cấu trúc cần phân biệt. Correction-009 đồng bộ archive batch-048 với cách đọc kǎ/qiǎ của 卡 và không tăng completedCount.
+- Đã chạy process-batch verify, verify-v2, quality audit self-test, quality audit phạm vi 502–509 (không có cảnh báo mới), DOM simulation, kiểm tra cú pháp và git diff --check. Bộ kiểm tra archive mới đối chiếu id, meaning, intro giữa batch source và course để chặn mất correction khi tái tạo.
+- Pages run [40171593524](https://github.com/bohoa96tb/hazi-viet/actions/runs/40171593524) completed/success đúng HEAD fbd588b5f98cf802798d7cd230fd7066906aee16.
+- Tệp khóa học live có 2.234 mục, 5.910.364 bytes, SHA-256 d66a722b7ca9d83d080990f4be6872428a01831245503fff22b943c3a141b061, khớp byte với bản đã kiểm; đủ 8 ID batch-049 đúng ordinal 502–509. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
 
 # Batch-048 — đã phát hành và xác minh Pages
 
