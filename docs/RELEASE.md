@@ -1,10 +1,17 @@
 
 
+# Batch-042 — đang chờ phát hành Pages
+
+- Content commit: `27bd49cb85f0a60c760bc8b5159d87cafd7ef330`; bổ sung 4 mục ordinal 444–447: 汽车、火车、走路、路上. Tiến độ cục bộ: 447/2.224, còn 1.777.
+- Phân loại batch-042: dễ gồm 火车; trung bình gồm 汽车、走路、路上. Đã kiểm lại batch-040/041: mỗi batch 1 dễ và 3 trung bình, tổng 2 dễ và 6 trung bình.
+- Đã chạy `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 444–447, `test-dom.mjs`, `node --check` và `git diff --check`. Chưa xác minh live Pages, TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
+- Tracker/main và trạng thái Pages đang chờ cập nhật sau khi ghi nhận commit nội dung.
+
 # Batch-041 — đã phát hành và xác minh Pages
 
 - Content commit: `4b2894bf846593ee90d71dfae6597c82277ca4aa`; bổ sung 4 mục ordinal 440–443: 开车、打车、机场、机票. Tiến độ cục bộ: 443/2.224, còn 1.781; không thay đổi tiến độ rà soát 377/377.
-- Đã chạy `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 440–443, `test-dom.mjs`, `node --check` và `git diff --check`. Chưa xác minh live Pages, TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
-- Tracker cuối: `ddd6f1f9c46d8fa6fb6b721697a9db8f583efb31`; cả `content/vocabulary-2224` và `main` đã fast-forward. Pages run [40162745408](https://github.com/bohoa96tb/hazi-viet/actions/runs/40162745408) completed/success đúng HEAD.
+- Đã chạy `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 440–443, `test-dom.mjs`, `node --check` và `git diff --check`. Chưa xác minh TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
+- Tracker cuối: `1ad7898978d5c719c2a2a0b8d652bf0262cf8ac3`; cả `content/vocabulary-2224` và `main` đã fast-forward. Pages run [40162821428](https://github.com/bohoa96tb/hazi-viet/actions/runs/40162821428) completed/success đúng HEAD.
 - Tệp khóa học live có 2.234 mục, 5.441.227 bytes, SHA-256 `5aca97bcb4cbb89656e5b027c64012f4190c6c25b259ee18c3f5e8ce2054cc31`, khớp byte với bản đã kiểm; đủ 4 ID batch-041 đúng ordinal 440–443. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
 
 # Batch-040 — đã phát hành và xác minh Pages
