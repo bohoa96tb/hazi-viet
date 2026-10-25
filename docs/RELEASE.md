@@ -1,10 +1,10 @@
 
 
-# Correction-005 và batch-038/039 — đang chờ phát hành Pages
+# Correction-005 và batch-038/039 — đã phát hành và xác minh Pages
 
-- Commit nội dung: `0281429d4eabce14d65712875b88f56fea41ad7e`; đã push `content/vocabulary-2224`, chưa fast-forward tracker/main tại thời điểm ghi chú này.
+- Commit nội dung: `0281429d4eabce14d65712875b88f56fea41ad7e`; tracker cuối: `778128c8b681ef64e9b552f8a877372556675764`; cả `content/vocabulary-2224` và `main` đã fast-forward.
 - Sửa semantic prompt–ý tưởng–khung–đáp án–bản dịch–criteria ở 左, 下边, 外边; rà nhóm batch-036/037. Bổ sung 8 mục ordinal 428–435: 西边、这边、那边、里边、九、站、跑、路. Tiến độ: 435/2.224, còn 1.789; correction không tăng completedCount.
-- Cổng cục bộ: `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 412–435, `test-dom.mjs`, `node --check` và `git diff --check` đạt. Chưa xác minh Pages/live, TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
+- Cổng cục bộ: `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 412–435, `test-dom.mjs`, `node --check` và `git diff --check` đạt. Pages run `40160654611` success đúng tracker; live course 5.387.857 bytes khớp SHA-256 `bf7af0bbee789047bcf2cf586682f5ead32a6f042625eca4a26ad64d72620e89`. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
 
 # Batch-037 — đã phát hành và xác minh Pages
 

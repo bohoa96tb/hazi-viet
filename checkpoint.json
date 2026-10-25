@@ -10,9 +10,9 @@
   "supplementationStatus": "in-progress",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
-  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-005 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–425; batch-034 đến batch-039 đã bổ sung, tự phản biện. Tiến độ supplementation là 435/2.224, còn 1.789. Nội dung local đã qua cổng kỹ thuật; commit tracker/main/Pages/live còn chờ cập nhật và xác minh; tiến độ supplementation không đại diện cho tiến độ rà soát.",
+  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-005 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–425; batch-034 đến batch-039 đã bổ sung, tự phản biện. Tiến độ supplementation là 435/2.224, còn 1.789. Tracker 778128c8 đã push main; Pages run 40160654611 success và live course đã khớp hash; tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "4f530e9a55458fd3530a7fb244c3ec1281487b8fa1eb3bc438a5dd4779a985d1",
+    "progress.json": "139f705e6e8cb87d50f356ecaa6eba7fb5499d7b39cb3c491e03cb3dd25786de",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "bf7af0bbee789047bcf2cf586682f5ead32a6f042625eca4a26ad64d72620e89",
     "data/vocabulary/content-audit.json": "ee506b30fb8b181356210a4c9c04731523fc5f6e6bbead00cbb92a06ab3a44df"
@@ -51,7 +51,7 @@
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
   "lastVerifiedContentCommit": "0281429d4eabce14d65712875b88f56fea41ad7e",
-  "priorVerificationNote": "Correction-005 và batch-038/039 đã qua process-batch verify, verify-v2, quality-audit self-test, quality audit nhóm 412–435, test-dom.mjs, kiểm tra cú pháp JavaScript và diff check. Đang chờ commit/push và xác minh lại Pages/live; chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
+  "priorVerificationNote": "Correction-005 và batch-038/039 đã qua process-batch verify, verify-v2, quality-audit self-test, quality audit nhóm 412–435, test-dom.mjs, kiểm tra cú pháp JavaScript và diff check. Pages run 40160654611 success đúng tracker 778128c; live course 5.387.857 bytes khớp SHA-256 bf7af0bbee789047bcf2cf586682f5ead32a6f042625eca4a26ad64d72620e89. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[435:]",
@@ -75,10 +75,10 @@
       "hz-h1-7707793dd93a",
       "hz-h1-a3fa19a2d979"
     ],
-    "releaseState": "pending-pages-verification",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null,
-    "liveCourseSha256": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40160654611,
+    "verifiedPagesCommit": "778128c8b681ef64e9b552f8a877372556675764",
+    "liveCourseSha256": "bf7af0bbee789047bcf2cf586682f5ead32a6f042625eca4a26ad64d72620e89"
   },
   "batchStatus": {
     "batch": "batch-039",
@@ -100,11 +100,16 @@
       "hz-h1-68a5d7b2023a",
       "hz-h1-e62037d83670"
     ],
-    "publishedIds": [],
+    "publishedIds": [
+      "hz-h1-2e9645bd89d5",
+      "hz-h1-18a966b92e35",
+      "hz-h1-68a5d7b2023a",
+      "hz-h1-e62037d83670"
+    ],
     "teacherReviewedIds": [],
-    "releaseState": "pending-pages-verification",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40160654611,
+    "verifiedPagesCommit": "778128c8b681ef64e9b552f8a877372556675764"
   },
   "reviewStatus": {
     "batch": "review-022",
@@ -494,5 +499,5 @@
     "verifiedPagesCommit": "5d3b4a48843f976e6ae716d251c2ea37dca92bfe",
     "liveCourseSha256": "33de48652e5f882bb4c454a649c5e9c196617c9c457022c42b3678edc35b0e15"
   },
-  "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/fd6307b"
+  "lastVerifiedContentCommitUrl": "https://github.com/bohoa96tb/hazi-viet/commit/0281429d4eabce14d65712875b88f56fea41ad7e"
 }
