@@ -1,5 +1,16 @@
 
 
+# Batch-031 và batch-032 — đã phát hành và xác minh Pages
+
+- Commit nội dung: `78c3bb3378c8e3c2b6d1f0ea1edbb08a8f86cb19`; đã fast-forward cả `content/vocabulary-2224` và `main`.
+- Bổ sung 13 mục ordinal 381–393: 见、都、里、回家、在家、地上、家里、房子、房间、桌子、楼上、楼下、身上. Tiến độ: 393/2.224, còn 1.831; toàn khóa 403/2.234 bài đủ cấu trúc.
+- Phân loại: dễ gồm 房间、桌子; trung bình gồm 见、都、里、回家、在家、地上、家里、房子、楼上、楼下、身上. Đã tự phản biện hai lượt; chưa phản biện giáo viên độc lập.
+- Nguồn đã đọc để xác minh mục từ, cách đọc và nghĩa: MDBG cho từng mục; các nhận định cấu trúc được viết và tự kiểm tra theo ngữ cảnh, không coi HTTP 200 là bằng chứng ngữ pháp.
+- `process-batch apply`, `process-batch verify`, `verify-v2`, `test-dom.mjs`, kiểm tra cú pháp JavaScript và `git diff --check` đều đạt. DOM simulation không chứng nhận bố cục trực quan hoặc phát âm trên thiết bị.
+- GitHub Pages run [40151960281](https://github.com/bohoa96tb/hazi-viet/actions/runs/40151960281) completed/success đúng `head_sha=78c3bb3378c8e3c2b6d1f0ea1edbb08a8f86cb19`.
+- Dữ liệu khóa học live có 2.234 mục, 403 bài đủ cấu trúc, 5.092.739 bytes, SHA-256 `b7ebd505ae90283dc2abe52c72fb0699699fa1029c22cb5fed97cadfab87e941`, khớp byte với bản đã kiểm; cache `vocabulary.js?v=batch-032`.
+- Chưa xác minh TTS Android/phát âm thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
+
 # Batch-030 — đã phát hành và xác minh Pages
 
 - Commit nội dung: `86add34f55859a6bdac765b788c638fa1cbd84c9`; đã fast-forward cả `content/vocabulary-2224` và `main`.
