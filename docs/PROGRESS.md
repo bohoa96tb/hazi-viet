@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 443/2224. Còn: 1781. Toàn khóa đủ cấu trúc: 453/2234.
+Đã bổ sung: 447/2224. Còn: 1777. Toàn khóa đủ cấu trúc: 457/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -47,13 +47,10 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-039 · mục 432–435 · 九、站、跑、路
 - batch-040 · mục 436–439 · 车、飞、上车、地图
 - batch-041 · mục 440–443 · 开车、打车、机场、机票
+- batch-042 · mục 444–447 · 汽车、火车、走路、路上
 
 ## 18 mục tiếp theo
 
-- 汽车 · hz-h1-2a53b8190d1b
-- 火车 · hz-h1-3ae826b4f4a7
-- 走路 · hz-h1-60ab04a03dbe
-- 路上 · hz-h1-92908d005e8b
 - 路口 · hz-h1-e7f73ac1c516
 - 车上 · hz-h1-b37f01b392ea
 - 车票 · hz-h1-842fc9e24059
@@ -68,5 +65,9 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 中学 · hz-h1-a9ca6d4d9e45
 - 中学生 · hz-h1-a55dd2db14fc
 - 书包 · hz-h1-ce7a0879d5c8
+- 医生 · hz-h1-b3007167e541
+- 大学 · hz-h1-1705fb006de3
+- 大学生 · hz-h1-62109943e158
+- 学校 · hz-h1-da8df807ec54
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
