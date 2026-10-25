@@ -49,7 +49,7 @@
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
   "lastVerifiedContentCommit": "1bf138c0df31bd891dfb80f93af1461daada998b",
-  "priorVerificationNote": "Review-022 đã đọc và phân loại 363–377; bài 最后 đã làm rõ 最后一本书 và 最后的书, cùng các cách dùng thông dụng và phân biệt 终于. Đã hoàn tất 377/377, chuyển sang supplementation từ batch-028/ordinal 368. Lượt này bổ sung giao diện số thứ tự, đồng bộ số liệu, thu gọn đầu bài mobile; logic audio đã kiểm tra nhưng TTS Android thật chưa xác minh.",
+  "priorVerificationNote": "Review-022 đã đọc và phân loại 363–377; bài 最后 đã làm rõ 最后一本书 và 最后的书, cùng các cách dùng thông dụng và phân biệt 终于. Đã hoàn tất 377/377, chuyển sang supplementation từ batch-028/ordinal 368. Pages run 40146122215 thành công đúng HEAD 7db50f7; live manifest và course khớp SHA da076c91102829a532b7b960d68500a4f8dc81766efd591aad73bc7b4efebac1. TTS Android thật chưa xác minh.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[367:]",
@@ -81,9 +81,9 @@
     "editorialReviewedIds": ["hz-h1-a3527d0310fc", "hz-h1-56730712e191"],
     "publishedIds": ["hz-h1-a3527d0310fc", "hz-h1-56730712e191"],
     "teacherReviewedIds": [],
-    "releaseState": "pending-pages",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40146122215,
+    "verifiedPagesCommit": "7db50f72e3804e5d168f7cd8d7b513db6f77b752"
   },
   "reviewStatus": {
     "batch": "review-022",
@@ -468,9 +468,9 @@
     ],
     "reviewedCount": 377,
     "reviewTotal": 377,
-    "releaseState": "pending-pages",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null,
-    "liveCourseSha256": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40146122215,
+    "verifiedPagesCommit": "7db50f72e3804e5d168f7cd8d7b513db6f77b752",
+    "liveCourseSha256": "da076c91102829a532b7b960d68500a4f8dc81766efd591aad73bc7b4efebac1"
   }
 }
