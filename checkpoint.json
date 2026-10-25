@@ -10,9 +10,9 @@
   "supplementationStatus": "in-progress",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
-  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-006 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–430; batch-034 đến batch-042 đã bổ sung, tự phản biện. Tiến độ supplementation là 447/2.224, còn 1.777. Tracker phát hành 24f6a99 đã push main; Pages run 40163436856 success và live course đã khớp hash; tiến độ supplementation không đại diện cho tiến độ rà soát.",
+  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-006 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–430; batch-034 đến batch-043 đã bổ sung, tự phản biện. Tiến độ supplementation là 451/2.224, còn 1.773. Tracker phát hành 762a9e5 đã push main; Pages run 40165723821 success và live course đã khớp hash; tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "777a0ed3f36cca768343a5eea6acf81c98d774c6df0fe55587208c4f27fbecd5",
+    "progress.json": "95f367164a4584fb1b7421e990ba3b668746a152338a0da7e5b78cb0ee7255d6",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "86f987386e867998e096c61a0a3b5e8644b6561867749cf13bc08b194bb68ac0",
     "data/vocabulary/content-audit.json": "b97f8824178ddbfd3c2cfd348b53d8e263dcbffe1986705915a57a107cd54958"
@@ -50,8 +50,8 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "2061eda667a6d30f0afa37005f0bd76f004f5597",
-  "priorVerificationNote": "Batch-043 (路口、车上、车票、车站; ordinal 448–451) đã qua kiểm tra cục bộ trên content commit 2061eda; chưa có xác minh Pages. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "762a9e5f501cebf41da5083c9d7e2569264b2dbc",
+  "priorVerificationNote": "Batch-043 (路口、车上、车票、车站; ordinal 448–451) đã qua kiểm tra cục bộ trên content commit 2061eda và Pages run 40165723821 success trên tracker 762a9e5; live course 5.495.934 bytes khớp SHA-256 86f987386e867998e096c61a0a3b5e8644b6561867749cf13bc08b194bb68ac0. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[451:]",
@@ -75,10 +75,10 @@
       "hz-h1-1acb3aeb34b4",
       "hz-h1-0583391cd4f4"
     ],
-    "releaseState": "content-commit-pushed-awaiting-pages",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null,
-    "liveCourseSha256": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40165723821,
+    "verifiedPagesCommit": "762a9e5f501cebf41da5083c9d7e2569264b2dbc",
+    "liveCourseSha256": "86f987386e867998e096c61a0a3b5e8644b6561867749cf13bc08b194bb68ac0"
   },
   "batchStatus": {
     "batch": "batch-043",
@@ -100,11 +100,16 @@
       "hz-h1-842fc9e24059",
       "hz-h1-1ee7b5f8677b"
     ],
-    "publishedIds": [],
+    "publishedIds": [
+      "hz-h1-e7f73ac1c516",
+      "hz-h1-b37f01b392ea",
+      "hz-h1-842fc9e24059",
+      "hz-h1-1ee7b5f8677b"
+    ],
     "teacherReviewedIds": [],
-    "releaseState": "content-commit-pushed-awaiting-pages",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40165723821,
+    "verifiedPagesCommit": "762a9e5f501cebf41da5083c9d7e2569264b2dbc"
   },
   "reviewStatus": {
     "batch": "review-022",
