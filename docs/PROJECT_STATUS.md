@@ -13,9 +13,9 @@ Cập nhật: 2026-10-25. Chế độ hiện hành: `supplementation` (đã qua 
 
 ## Bổ sung bài còn thiếu
 
-- Phạm vi baseline: 2.224 mục; 427 mục đã có nội dung bổ sung; còn 1.797 mục.
+- Phạm vi baseline: 2.224 mục; 435 mục đã có nội dung bổ sung; còn 1.789 mục.
 - Tiến độ này độc lập với tiến độ rà soát ở trên và không được dùng để tuyên bố đã rà 367 bài.
-- Trạng thái: batch-037 đã commit nội dung `c70938f8`, tracker cuối `5d3b4a4` đã fast-forward cả `content/vocabulary-2224` và `main`; Pages run `40156085909` thành công, dữ liệu live khớp SHA. Gồm 前边、北边、南边、右边、后边、外边、左边、旁边, ordinal 420–427. Đợt kế tiếp bắt đầu từ ordinal 428 theo ID trong checkpoint.
+- Trạng thái local đã qua correction-005 và batch-038/039 trên content commit `0281429d`; gồm sửa 414 左, 418 下边, 425 外边 và bổ sung ordinal 428–435: 西边、这边、那边、里边、九、站、跑、路. Tiến độ mới 435/2.224, còn 1.789; tracker/main/Pages của commit này đang chờ cập nhật và xác minh. Đợt kế tiếp bắt đầu từ ordinal 436 theo ID trong checkpoint.
 
 ## Giao diện và chức năng
 

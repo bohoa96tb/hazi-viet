@@ -12,7 +12,7 @@
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
   "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-005 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–425; batch-034 đến batch-039 đã bổ sung, tự phản biện. Tiến độ supplementation là 435/2.224, còn 1.789. Nội dung local đã qua cổng kỹ thuật; commit tracker/main/Pages/live còn chờ cập nhật và xác minh; tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "bb0a39f21830331eb939d31355cfc25dd6c4b56c0d778e2038cfe5db39415bc8",
+    "progress.json": "4f530e9a55458fd3530a7fb244c3ec1281487b8fa1eb3bc438a5dd4779a985d1",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "bf7af0bbee789047bcf2cf586682f5ead32a6f042625eca4a26ad64d72620e89",
     "data/vocabulary/content-audit.json": "ee506b30fb8b181356210a4c9c04731523fc5f6e6bbead00cbb92a06ab3a44df"
@@ -50,7 +50,7 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "c70938f8ab5a21b8d45856fe060aec54e336f959",
+  "lastVerifiedContentCommit": "0281429d4eabce14d65712875b88f56fea41ad7e",
   "priorVerificationNote": "Correction-005 và batch-038/039 đã qua process-batch verify, verify-v2, quality-audit self-test, quality audit nhóm 412–435, test-dom.mjs, kiểm tra cú pháp JavaScript và diff check. Đang chờ commit/push và xác minh lại Pages/live; chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",

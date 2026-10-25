@@ -1,5 +1,11 @@
 
 
+# Correction-005 và batch-038/039 — đang chờ phát hành Pages
+
+- Commit nội dung: `0281429d4eabce14d65712875b88f56fea41ad7e`; đã push `content/vocabulary-2224`, chưa fast-forward tracker/main tại thời điểm ghi chú này.
+- Sửa semantic prompt–ý tưởng–khung–đáp án–bản dịch–criteria ở 左, 下边, 外边; rà nhóm batch-036/037. Bổ sung 8 mục ordinal 428–435: 西边、这边、那边、里边、九、站、跑、路. Tiến độ: 435/2.224, còn 1.789; correction không tăng completedCount.
+- Cổng cục bộ: `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 412–435, `test-dom.mjs`, `node --check` và `git diff --check` đạt. Chưa xác minh Pages/live, TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
+
 # Batch-037 — đã phát hành và xác minh Pages
 
 - Commit nội dung: `c70938f8ab5a21b8d45856fe060aec54e336f959`; tracker cuối: `5d3b4a48843f976e6ae716d251c2ea37dca92bfe`; cả `content/vocabulary-2224` và `main` đã fast-forward.
