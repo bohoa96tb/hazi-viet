@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 367/2224. Còn: 1857. Toàn khóa đủ cấu trúc: 377/2234.
+Đã bổ sung: 377/2224. Còn: 1847. Toàn khóa đủ cấu trúc: 387/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -33,19 +33,10 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-025 · mục 329–345 · 高兴、别、到、去、开、拿、来、行、跟、进、送、一起、出去、出来、回到、回去、回来
 - batch-026 · mục 346–365 · 得到、打开、找到、来到、进去、进来、下、关、坐、放、累、走、起、下次、下班、下课、下车、休息、坐下、放假
 - batch-027 · mục 366–367 · 放学、最后
+- batch-028 · mục 368–377 · 睡觉、请坐、起床、起来、住、先、地、天、家、山
 
 ## 18 mục tiếp theo
 
-- 睡觉 · hz-h1-c910353bf22d
-- 请坐 · hz-h1-c0d13131ada7
-- 起床 · hz-h1-a92ba3f9c7e1
-- 起来 · hz-h1-b30add7c80a3
-- 住 · hz-h1-839fbdffecad
-- 先 · hz-h1-970979ecbbcd
-- 地 · hz-h1-ae83e1176961
-- 天 · hz-h1-89b0b8fb11e9
-- 家 · hz-h1-54c7d57cb14d
-- 山 · hz-h1-ebd9a11fea6c
 - 床 · hz-h1-7157f25a3af2
 - 楼 · hz-h1-f41cca533f28
 - 着 · hz-h1-29d32239d810
@@ -54,5 +45,15 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 里 · hz-h1-080d8c21847d
 - 回家 · hz-h1-6031de8385a6
 - 在家 · hz-h1-bdbafb4843da
+- 地上 · hz-h1-00f1ad22ad66
+- 家里 · hz-h1-7d0adf7c6dd0
+- 房子 · hz-h1-794438ea5df3
+- 房间 · hz-h1-e226931c0051
+- 桌子 · hz-h1-f9eb50c86520
+- 楼上 · hz-h1-fab3cf7ece90
+- 楼下 · hz-h1-28beda763d50
+- 身上 · hz-h1-fd90b1393fe0
+- 们 · hz-h1-53b165a47cb8
+- 谁 · hz-h1-8ef23bce6545
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.

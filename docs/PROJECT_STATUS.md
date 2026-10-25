@@ -8,14 +8,14 @@ Cập nhật: 2026-10-25. Chế độ hiện hành: `supplementation` (đã qua 
 - Đã rà theo chuẩn `CONTENT_STANDARD_V2-2026-10-24-review-first`: 377/377 bài.
 - Đã rà trong các đợt `review-001` đến `review-022`; review-022 gồm 再、坐、放、累、走、起、下次、下班、下课、下车、休息、坐下、放假、放学、最后.
 - Review-022 đọc và kiểm tra toàn bộ 15 bài, phân loại 4 dễ, 8 trung bình, 3 khó. Bài 最后 được chỉnh rõ hai mẫu `最后 + số từ + lượng từ + danh từ` (最后一本书) và `最后的 + danh từ` (最后的书), cùng cách dùng 最后 làm trạng ngữ và phân biệt với 终于. MDBG được đọc để kiểm tra mục từ/cách đọc/nghĩa; không coi HTTP 200 là bằng chứng ngữ pháp.
-- Đã hoàn tất rà soát toàn bộ 377 bài đủ cấu trúc. Cổng review đã đóng; giai đoạn hiện hành là supplementation, chưa bổ sung bài mới trong lượt này, mục tiếp theo là ordinal 368.
+- Đã hoàn tất rà soát toàn bộ 377 bài đủ cấu trúc. Cổng review đã đóng; giai đoạn hiện hành là supplementation. Batch-028 đã bổ sung và kiểm tra 10 mục ordinal 368–377; mục tiếp theo là ordinal 378.
 - Chưa được coi là phản biện giáo viên độc lập; TTS Android thật vẫn chưa xác minh.
 
 ## Bổ sung bài còn thiếu
 
-- Phạm vi baseline: 2.224 mục; 367 mục đã có nội dung bổ sung; còn 1.857 mục.
+- Phạm vi baseline: 2.224 mục; 377 mục đã có nội dung bổ sung; còn 1.847 mục.
 - Tiến độ này độc lập với tiến độ rà soát ở trên và không được dùng để tuyên bố đã rà 367 bài.
-- Trạng thái: `ready-to-start`. Chưa bổ sung bài mới trong đợt này; đợt kế tiếp bắt đầu từ ordinal 368 theo ID trong checkpoint.
+- Trạng thái: `in-progress`, batch-028 đang chờ commit/Pages. Đợt kế tiếp bắt đầu từ ordinal 378 theo ID trong checkpoint sau khi batch-028 phát hành.
 
 ## Giao diện và chức năng
 

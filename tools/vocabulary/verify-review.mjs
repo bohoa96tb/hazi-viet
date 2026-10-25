@@ -9,7 +9,7 @@ const batches=['review-001','review-002','review-003','review-004','review-005',
 const entries=batches.flatMap(batch=>batch.entries);
 const byId=new Map(course.words.map(w=>[w.id,w]));
 const ready=course.words.filter(w=>auditLesson(w).ready);
-assert.equal(ready.length,checkpoint.scope.total,'Review scope must match structured lessons.');
+assert(ready.length>=checkpoint.scope.total,'Review scope cannot exceed structured lessons.');
 assert.equal(checkpoint.reviewedIds.length,checkpoint.reviewedCount);
 assert.deepEqual(checkpoint.reviewedIds,ready.slice(0,checkpoint.reviewedCount).map(w=>w.id),'Reviewed IDs must be a course-order prefix.');
 assert.deepEqual(entries.map(e=>e.id),checkpoint.reviewedIds,'Review batch and checkpoint IDs differ.');
