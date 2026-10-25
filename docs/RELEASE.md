@@ -1,11 +1,12 @@
 
 
-# Batch-044 — đang chờ phát hành Pages
+# Batch-044 — đã phát hành và xác minh Pages
 
 - Content commit: `3fe09028849d7bb270f4cc185cc810aac7ae6e2a`; bổ sung 8 mục ordinal 452–459: 门票、飞机、马路、从、四、教、班、中学. Tiến độ cục bộ: 459/2.224, còn 1.765.
 - Phân loại: dễ gồm 门票、飞机、马路、四; trung bình gồm 从、班、中学; khó gồm 教 vì có hai cách đọc thông dụng. Bài 教 chỉ dạy sâu nghĩa dạy và nhận diện cách đọc trong 教育.
-- Đã chạy `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 452–459, `test-dom.mjs`, `node --check` và `git diff --check`. Chưa xác minh live Pages, TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
-- Tracker/main và trạng thái Pages đang chờ cập nhật sau khi ghi nhận commit nội dung.
+- Đã chạy `process-batch verify`, `verify-v2`, `quality-audit --self-test`, quality audit nhóm 452–459, `test-dom.mjs`, `node --check` và `git diff --check`. Live Pages đã được xác minh ở bước phát hành; chưa xác minh TTS Android, bố cục trực quan hoặc phản biện giáo viên độc lập.
+- Tracker cuối: \`3e50f587446c2462859ff370a647b28aa84354f3\`; cả \`content/vocabulary-2224\` và \`main\` đã fast-forward. Pages run [40166784342](https://github.com/bohoa96tb/hazi-viet/actions/runs/40166784342) completed/success đúng HEAD.
+- Tệp khóa học live có 2.234 mục, 5.551.676 bytes, SHA-256 \`c6df285ef12f0ba2f2d901ebd007481d0d4ff91ff6bb0598087d22d67f5f9d8c\`, khớp byte với bản đã kiểm; đủ 8 ID batch-044 đúng ordinal 452–459. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
 
 # Batch-043 — đã phát hành và xác minh Pages
 
