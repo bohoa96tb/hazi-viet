@@ -1,3 +1,11 @@
+# Batch-050 — đã phát hành và xác minh Pages
+
+- Content commit: 1390bb1ebff458d3e87b051db77e4474022006f0 (nhánh main; cùng nội dung với commit 48c45a00b3bd6fab968d87ed158d308e3bce5093 trên nhánh biên soạn, khác mã do merge rebase); bổ sung 8 mục ordinal 510–517: 短、表、该、越、轻、过、近、长. Tiến độ: 517/2.224, còn 1.707.
+- Phân loại: dễ gồm 短、轻、近; trung bình gồm 表、该; khó gồm 越、过、长 vì đa âm và cấu trúc cần phân biệt.
+- Đã chạy process-batch verify, verify-v2, quality audit self-test, quality audit phạm vi 510–517 (không có cảnh báo mới), DOM simulation, kiểm tra cú pháp và git diff --check. File khóa học phải đẩy riêng qua trình duyệt vì API từ chối 413 với file gần 6 MB.
+- Pages run [40190327237](https://github.com/bohoa96tb/hazi-viet/actions/runs/40190327237) completed/success đúng HEAD 1390bb1ebff458d3e87b051db77e4474022006f0.
+- Tệp khóa học live có 2.234 mục, 5.985.728 bytes, SHA-256 2ff15d30b0e12c3b33de631e4aa0c6da2e7513ea23be1be671ac102b55ab4c53, khớp byte với bản đã kiểm; đủ 8 ID batch-050 đúng ordinal 510–517, đều deep và lesson version 2. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
+
 
 # Batch-049 — đã phát hành và xác minh Pages
 
