@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 445 mục đủ cấu trúc V1/V2; còn 1789. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 435 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 449 mục đủ cấu trúc V1/V2; còn 1785. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 439 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -97510,22 +97510,185 @@
       "intro": [
         {
           "pinyin": "chē",
-          "meaning": "xe"
+          "meaning": "xe; phương tiện"
         }
       ],
-      "meaning": "xe",
-      "status": "example",
+      "meaning": "xe; phương tiện",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
+      "editorialStatus": "Biên soạn V2 · batch-040 · trung bình",
       "examples": [
         {
-          "zh": "这是谁的车？",
-          "vi": "Đây là xe của ai?"
+          "id": "e1",
+          "zh": "门口有一辆车。",
+          "vi": "Trước cửa có một chiếc xe.",
+          "analysis": "一辆车 nói một chiếc xe; 辆 là lượng từ đếm xe.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我坐车去学校。",
+          "vi": "Tôi đi xe đến trường.",
+          "analysis": "坐车 nói đi bằng xe, 去学校 chỉ nơi đến.",
+          "practiceAllowed": true
         }
       ],
       "sourceIndex": 440,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 436,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/车"
+        ],
+        "introduction": {
+          "scope": "xe hoặc phương tiện nói chung"
+        },
+        "meaning": {
+          "scene": "车 dùng để nói một chiếc xe hoặc phương tiện được dùng để di chuyển.",
+          "explanation": "车 có thể chỉ xe nói chung, không nhất thiết là ô tô. Khi đếm một chiếc xe, thường dùng 辆; khi nói đi bằng xe, dùng 坐车.",
+          "boundary": "车 là cách gọi rộng; ô tô là 汽车, còn loại xe cụ thể cần xem theo từ đi kèm.",
+          "conditions": [
+            "Khi đếm xe, thường dùng 辆; khi nói đi bằng xe, dùng 坐车 hoặc 坐 + loại xe."
+          ],
+          "takeaway": "车 là xe nói chung; chọn lượng từ hoặc cấu trúc theo điều muốn nói."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一/这 + 辆 + 车",
+            "position": "车 đứng sau lượng từ 辆.",
+            "required": "Dùng 辆 khi đếm xe.",
+            "omission": "Có thể bỏ 辆 khi chỉ nói khái quát.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "坐车 + 去 + địa điểm",
+            "position": "车 đứng sau 坐.",
+            "required": "Dùng 坐车 khi nhấn phương tiện.",
+            "omission": "Có thể thay bằng loại xe cụ thể.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "门口有一辆车。",
+            "vi": "Trước cửa có một chiếc xe.",
+            "analysis": "一辆车 nói một chiếc xe; 辆 là lượng từ đếm xe.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我坐车去学校。",
+            "vi": "Tôi đi xe đến trường.",
+            "analysis": "坐车 nói đi bằng xe, 去学校 chỉ nơi đến.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "车 và 汽车: xe nói chung hay ô tô",
+            "scene": "Chọn từ khi nói phương tiện.",
+            "possibleConfusion": "Người học có thể coi 车 lúc nào cũng chỉ ô tô.",
+            "difference": "车 có phạm vi rộng hơn; 汽车 chỉ ô tô.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "门口有一辆车。",
+                "vi": "Trước cửa có một chiếc xe.",
+                "comment": "车 không cho biết loại xe.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我买了一辆汽车。",
+                "vi": "Tôi đã mua một chiếc ô tô.",
+                "comment": "汽车 nói rõ là ô tô.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 车 thành 汽车 sẽ thu hẹp nghĩa thành ô tô; câu có thể vẫn đúng nếu chiếc xe đúng là ô tô."
+            },
+            "boundary": "Không coi hai từ là đồng nghĩa hoàn toàn.",
+            "tip": "车 là xe nói chung, 汽车 là ô tô."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa danh từ xe và cấu trúc 坐车.",
+          "literalTranslation": "Đã rà khả năng dịch 车 thành ô tô trong mọi trường hợp.",
+          "confusables": "Đã đối chiếu phạm vi 车/汽车."
+        },
+        "pronunciation": {
+          "text": "车 đọc thanh 1; bài này không dạy cách đọc khác. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 门口有一___车。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói đi bằng xe đến trường, dùng 坐车 hay 看车?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "辆"
+            ],
+            "explanation": "辆 là lượng từ đếm xe."
+          },
+          "q2": {
+            "accepted": [
+              "坐车"
+            ],
+            "explanation": "坐车 nói đi bằng xe."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói xe của tôi ở dưới lầu."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hãy đỗ xe ở đây."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我的车 và 在楼下.",
+            "frame": "我的车 + 在 + địa điểm",
+            "model": "我的车在楼下。",
+            "vi": "Xe của tôi ở dưới lầu.",
+            "criteria": [
+              "Có 车 làm danh từ chỉ xe.",
+              "Có 在楼下 nêu vị trí."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 把车停在这里 để yêu cầu đỗ xe.",
+            "frame": "请 + 把 + 车 + 停在 + địa điểm",
+            "model": "请把车停在这里。",
+            "vi": "Hãy đỗ xe ở đây.",
+            "criteria": [
+              "Có 车 là tân ngữ của 停.",
+              "Có 停在这里 chỉ nơi đỗ."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-94b7a883cbe9",
@@ -97538,32 +97701,368 @@
         }
       ],
       "meaning": "bay",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-040 · dễ",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "小鸟在天上飞。",
+          "vi": "Con chim nhỏ đang bay trên trời.",
+          "analysis": "在天上 chỉ nơi diễn ra hành động bay.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "飞机飞到北京了。",
+          "vi": "Máy bay đã bay đến Bắc Kinh.",
+          "analysis": "飞到北京 chỉ nơi máy bay bay tới.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 441,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 437,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/飞"
+        ],
+        "introduction": {
+          "scope": "người, động vật hoặc phương tiện bay trên không"
+        },
+        "meaning": {
+          "scene": "飞 nói một vật hoặc người di chuyển trong không trung.",
+          "explanation": "飞 dùng cho chim, máy bay và vật thể bay khác. Muốn nói bay đến nơi nào, thêm 到 và địa điểm.",
+          "boundary": "飞 chỉ cách di chuyển trong không trung; không tự có nghĩa đến một nơi.",
+          "conditions": [
+            "Dùng 飞到 + địa điểm khi muốn nêu nơi đến."
+          ],
+          "takeaway": "飞 là bay; 飞到 thêm nơi mà người hoặc vật bay tới."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + 在 + nơi chốn + 飞",
+            "position": "飞 đứng sau cụm chỉ nơi diễn ra.",
+            "required": "Dùng khi chỉ mô tả hành động bay.",
+            "omission": "Có thể bỏ nơi chốn nếu đã rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ thể + 飞到 + địa điểm",
+            "position": "飞 đứng trước 到 và địa điểm.",
+            "required": "Cần 到 khi nêu nơi đến.",
+            "omission": "Không dùng 到 nếu chỉ nói đang bay.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "小鸟在天上飞。",
+            "vi": "Con chim nhỏ đang bay trên trời.",
+            "analysis": "在天上 chỉ nơi diễn ra hành động bay.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "飞机飞到北京了。",
+            "vi": "Máy bay đã bay đến Bắc Kinh.",
+            "analysis": "飞到北京 chỉ nơi máy bay bay tới.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "飞 và 走: bay hay đi",
+            "scene": "Phân biệt cách di chuyển.",
+            "possibleConfusion": "Cả hai có thể đi với địa điểm nhưng chỉ một từ mô tả chuyển động trong không trung.",
+            "difference": "飞 là bay; 走 thường là đi bộ hoặc rời đi.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "小鸟在天上飞。",
+                "vi": "Con chim nhỏ đang bay trên trời.",
+                "comment": "飞 phù hợp với chim trong không trung.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "孩子走到学校。",
+                "vi": "Đứa trẻ đi bộ đến trường.",
+                "comment": "走 nói đi bộ hoặc đi đến.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 飞 thành 走 trong cảnh chim trên trời sẽ đổi cách di chuyển và không còn phù hợp."
+            },
+            "boundary": "Bài này chỉ đối chiếu cách di chuyển.",
+            "tip": "飞 là bay, 走 là đi."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà nghĩa bay và cấu trúc 飞到.",
+          "literalTranslation": "Đã rà bẫy dịch 飞到 chỉ là đến.",
+          "confusables": "Đã đối chiếu 飞/走 theo cách di chuyển."
+        },
+        "pronunciation": {
+          "text": "飞 đọc thanh 1; giữ rõ âm đầu f. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 小鸟在天上___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói máy bay bay đến Bắc Kinh, dùng 飞到 hay 走到?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "飞"
+            ],
+            "explanation": "飞 là bay."
+          },
+          "q2": {
+            "accepted": [
+              "飞到"
+            ],
+            "explanation": "飞到 nói bay đến một nơi."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói máy bay đang bay trên trời."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói con chim bay đến cái cây."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 飞 để mô tả máy bay ở trên trời.",
+            "frame": "飞机 + 在 + 天上 + 飞",
+            "model": "飞机在天上飞。",
+            "vi": "Máy bay đang bay trên trời.",
+            "criteria": [
+              "Có 飞 làm động từ chỉ bay.",
+              "在天上 là nơi diễn ra hành động."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 飞到 và địa điểm.",
+            "frame": "小鸟 + 飞到 + địa điểm",
+            "model": "小鸟飞到树上。",
+            "vi": "Con chim bay đến trên cây.",
+            "criteria": [
+              "Có 飞到.",
+              "树上 là nơi con chim bay tới."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "lên",
+      "meaning": "lên xe",
       "intro": [
         {
           "pinyin": "shàng chē",
-          "meaning": "lên"
+          "meaning": "lên xe"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "请上车。",
+          "vi": "Mời lên xe.",
+          "analysis": "上车 là hành động lên xe; 请 tạo lời mời.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我在车站上车。",
+          "vi": "Tôi lên xe ở nhà ga.",
+          "analysis": "在车站 nêu nơi thực hiện hành động lên xe.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h1-81c2d35e787c",
       "hanzi": "上车",
       "level": 1,
       "sourceIndex": 442,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-040 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 438,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/上车"
+        ],
+        "introduction": {
+          "scope": "lên một phương tiện để bắt đầu đi"
+        },
+        "meaning": {
+          "scene": "上车 nói hành động bước lên hoặc vào xe.",
+          "explanation": "上车 chỉ việc lên xe; có thể dùng trong lời mời hoặc kể nơi lên xe. Khi đã ở trong xe, dùng 在车上 để nói vị trí.",
+          "boundary": "上车 nhấn chuyển từ ngoài vào trong xe; 下车 là xuống xe, 在车上 là đang ở trên xe.",
+          "conditions": [
+            "Khi nói lên xe ở đâu, có thể dùng 在 + địa điểm + 上车."
+          ],
+          "takeaway": "上车 là hành động lên xe; phân biệt với 下车 và 在车上."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "请/先 + 上车",
+            "position": "上车 đứng sau lời mời hoặc phó từ.",
+            "required": "Dùng để mời hoặc yêu cầu lên xe.",
+            "omission": "Có thể thêm chủ thể.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "chủ thể + 在 + địa điểm + 上车",
+            "position": "上车 đứng sau địa điểm.",
+            "required": "Dùng khi nêu nơi lên xe.",
+            "omission": "Bỏ địa điểm nếu không cần nói.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请上车。",
+            "vi": "Mời lên xe.",
+            "analysis": "上车 là hành động lên xe; 请 tạo lời mời.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我在车站上车。",
+            "vi": "Tôi lên xe ở nhà ga.",
+            "analysis": "在车站 nêu nơi thực hiện hành động lên xe.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "上车 và 下车: lên hay xuống xe",
+            "scene": "Phân biệt hướng di chuyển liên quan đến xe.",
+            "possibleConfusion": "Hai cụm cùng có 车 và đều dùng trong giao thông.",
+            "difference": "上车 là bước lên xe; 下车 là rời khỏi xe.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请上车。",
+                "vi": "Mời lên xe.",
+                "comment": "上车 yêu cầu bước vào xe.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "请下车。",
+                "vi": "Mời xuống xe.",
+                "comment": "下车 yêu cầu rời khỏi xe.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 上车 thành 下车 sẽ đảo hướng di chuyển; cả hai câu vẫn đúng nếu đúng tình huống."
+            },
+            "boundary": "Không dùng hai cụm thay thế cho nhau.",
+            "tip": "上车 là lên xe, 下车 là xuống xe; 在车上 là ở trên xe."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà hướng di chuyển trong 上车 và đối chiếu 下车.",
+          "literalTranslation": "Đã rà bẫy dịch 上车 thành đang ở trên xe.",
+          "confusables": "Đã đối chiếu 上车/下车 và 在车上."
+        },
+        "pronunciation": {
+          "text": "上车 gồm 上 thanh 4 và 车 thanh 1. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 请___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói đang ở trên xe, chọn 上车 hay 在车上?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "上车"
+            ],
+            "explanation": "上车 là lên xe."
+          },
+          "q2": {
+            "accepted": [
+              "在车上"
+            ],
+            "explanation": "在车上 nói vị trí đang ở trên xe."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Mời bạn lên xe trước."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói họ lên xe ở bến tiếp theo."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 你先上车吧.",
+            "frame": "你 + 先 + 上车 + 吧",
+            "model": "你先上车吧。",
+            "vi": "Bạn lên xe trước nhé.",
+            "criteria": [
+              "Có 上车 chỉ hành động lên xe.",
+              "先 cho biết người nghe lên trước."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 在下一站上车.",
+            "frame": "他们 + 在 + địa điểm + 上车",
+            "model": "他们在下一站上车。",
+            "vi": "Họ lên xe ở bến tiếp theo.",
+            "criteria": [
+              "Có 上车.",
+              "在下一站 nêu nơi lên xe."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-96cd4a079f59",
@@ -97576,13 +98075,181 @@
         }
       ],
       "meaning": "bản đồ",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-040 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我在看地图。",
+          "vi": "Tôi đang xem bản đồ.",
+          "analysis": "看地图 nói xem bản đồ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请在地图上找车站。",
+          "vi": "Hãy tìm nhà ga trên bản đồ.",
+          "analysis": "在地图上 chỉ nơi tìm; 车站 là thông tin cần tìm.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 443,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-7?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 439,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/地图"
+        ],
+        "introduction": {
+          "scope": "bản đồ dùng để xem vị trí hoặc đường đi"
+        },
+        "meaning": {
+          "scene": "地图 là hình hoặc ứng dụng thể hiện địa điểm, tuyến đường và vị trí.",
+          "explanation": "地图 thường đi với 看, 找 hoặc 在地图上 để xem và tìm thông tin trên bản đồ. Có thể dùng 一张地图 khi đếm một tấm bản đồ.",
+          "boundary": "地图 là bản đồ, không phải 地方 là địa điểm hay nơi chốn.",
+          "conditions": [
+            "Dùng 在地图上 khi nói thao tác tìm hoặc xem thông tin trên bản đồ."
+          ],
+          "takeaway": "地图 là bản đồ; 在地图上 nêu nơi thực hiện thao tác với bản đồ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "看/找 + 地图",
+            "position": "地图 làm tân ngữ sau động từ.",
+            "required": "Dùng khi nói xem hoặc tìm bản đồ.",
+            "omission": "Có thể thêm 一张 khi đếm.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "在地图上 + 看/找 + thông tin",
+            "position": "在地图上 đứng trước động từ.",
+            "required": "Dùng để chỉ thao tác trên bản đồ.",
+            "omission": "Có thể bỏ 上 khi chỉ nói xem bản đồ nói chung.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我在看地图。",
+            "vi": "Tôi đang xem bản đồ.",
+            "analysis": "看地图 nói xem bản đồ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请在地图上找车站。",
+            "vi": "Hãy tìm nhà ga trên bản đồ.",
+            "analysis": "在地图上 chỉ nơi tìm; 车站 là thông tin cần tìm.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "地图 và 地方: bản đồ hay địa điểm",
+            "scene": "Phân biệt vật dùng để xem vị trí với nơi chốn.",
+            "possibleConfusion": "Hai từ cùng có 地 nhưng chỉ hai khái niệm khác nhau.",
+            "difference": "地图 là bản đồ; 地方 là địa điểm hoặc nơi chốn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我在看地图。",
+                "vi": "Tôi đang xem bản đồ.",
+                "comment": "地图 là vật hoặc ứng dụng xem vị trí.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这是一个安静的地方。",
+                "vi": "Đây là một nơi yên tĩnh.",
+                "comment": "地方 chỉ nơi chốn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 地图 thành 地方 sẽ biến vật được xem thành một địa điểm; câu cần cấu trúc và nghĩa khác."
+            },
+            "boundary": "Không suy ra nghĩa của từ vì cùng có chữ 地.",
+            "tip": "地图 là bản đồ, 地方 là nơi chốn."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà danh từ 地图 và đối chiếu 地方.",
+          "literalTranslation": "Đã rà bẫy dịch 地图 thành địa điểm vì thấy chữ 地.",
+          "confusables": "Ví dụ đối chiếu dùng thật cả 地图 và 地方."
+        },
+        "pronunciation": {
+          "text": "地图 gồm 地 thanh 4 và 图 thanh 2; ở đây 地 là âm trong từ 地图, không phải trợ từ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我在看___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói một nơi yên tĩnh, chọn 地图 hay 地方?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "地图"
+            ],
+            "explanation": "地图 là bản đồ."
+          },
+          "q2": {
+            "accepted": [
+              "地方"
+            ],
+            "explanation": "地方 là địa điểm hoặc nơi chốn."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trong điện thoại có một bản đồ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nhờ bạn tìm sân bay trên bản đồ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 手机里有一张地图.",
+            "frame": "vật chứa + 里 + 有 + 一张地图",
+            "model": "手机里有一张地图。",
+            "vi": "Trong điện thoại có một bản đồ.",
+            "criteria": [
+              "Có 地图 làm danh từ chỉ bản đồ.",
+              "一张 là lượng từ cho một tấm bản đồ."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 在地图上找机场.",
+            "frame": "请 + 在地图上 + 找 + địa điểm",
+            "model": "请你在地图上找机场。",
+            "vi": "Nhờ bạn tìm sân bay trên bản đồ.",
+            "criteria": [
+              "Có 地图 trong 在地图上.",
+              "机场 là thông tin cần tìm, không thay cho từ mục tiêu."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h1-0fa672e0cf41",
@@ -132046,13 +132713,13 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 445,
-    "pending": 1789,
+    "ready": 449,
+    "pending": 1785,
     "byLevel": [
       {
         "level": 1,
         "total": 504,
-        "ready": 445
+        "ready": 449
       },
       {
         "level": 2,
