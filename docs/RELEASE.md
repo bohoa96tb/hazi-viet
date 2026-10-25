@@ -1,11 +1,12 @@
 
 
-# Batch-045 — đang chờ phát hành Pages
+# Batch-045 — đã phát hành và xác minh Pages
 
 - Content commit: `80d1c7fe35ee04d02c9724196dc3f792f9b33fa3`; bổ sung 10 mục ordinal 460–469: 中学生、书包、医生、大学、大学生、学校、学院、小学、小学生、工人. Tiến độ cục bộ: 469/2.224, còn 1.755.
 - Phân loại: dễ gồm 中学生、书包、医生、大学生、学校、小学、小学生、工人; trung bình gồm 大学、学院.
 - Correction-007 sửa 教 (ordinal 457): intro dùng `jiāo`/`jiào`, phần phát âm phân biệt thanh 1 và thanh 4, câu hỏi/đáp án đã đồng bộ. Validator mới kiểm tra Pinyin bằng tập âm tiết hợp lệ và từ chối nhãn mô tả.
-- Đã chạy `process-batch verify`, `verify-v2`, quality audit self-test, quality audit nhóm 457–469, `test-dom.mjs`, kiểm tra cú pháp và `git diff --check`. Chưa phát hành Pages cho batch-045.
+- Đã chạy `process-batch verify`, `verify-v2`, quality audit self-test, quality audit nhóm 457–469, `test-dom.mjs`, kiểm tra cú pháp và `git diff --check`. Pages run [40168023790](https://github.com/bohoa96tb/hazi-viet/actions/runs/40168023790) completed/success đúng HEAD `ca28528`.
+- Tệp khóa học live có 2.234 mục, 5.622.943 bytes, SHA-256 `788651592fc30c337797e62dcabb6160bd6029224546bd0fa077033f66c15158`; đủ `教` với `jiāo`/`jiào` và 10 ID batch-045 đúng ordinal 460–469. Chưa xác minh TTS Android, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
 
 # Batch-044 — đã phát hành và xác minh Pages
 
