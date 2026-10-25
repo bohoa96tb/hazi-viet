@@ -1,7 +1,7 @@
 {
-  "version": "v2-review-022",
+  "version": "v2-review-022-ui-2026-10-25",
   "batch": "review-022",
-  "contentCommit": "be511c93091786ff5180f2fb43c9eac249bbbfe7",
+  "contentCommit": "1bf138c0df31bd891dfb80f93af1461daada998b",
   "scopeCompleted": 367,
   "scopeTotal": 2224,
   "courseTotal": 2234,
@@ -13,14 +13,14 @@
     "schema": true,
     "protectedHashes": true,
     "domSimulation": true,
-    "visualBrowser": false,
+    "visualBrowser": true,
     "androidPlayback": false,
     "independentTeacherReview": false,
-    "visualScope": "process-batch verify, verify-review và test-dom.mjs đạt; đã rà 377/377 bài. Nhóm 363–377 được đọc toàn bộ, phân loại 4 dễ/8 trung bình/3 khó và kiểm tra công thức–ví dụ–bẫy–bài tập–đáp án–audio; sửa công thức bài 最后 để khớp 最后一本书 và 最后的书; đối chiếu 15 nguồn MDBG HTTP 200. Pages run 40144700694 thành công đúng SHA be511c93091786ff5180f2fb43c9eac249bbbfe7; checkpoint, review-022 và course live khớp, course 4.889.653 bytes. Chưa xác minh bố cục trên thiết bị, TTS Android hoặc phản biện giáo viên độc lập.",
-    "liveCourseVerified": true,
-    "liveCourseSha256": "0888dfc009fab0caa905366bf75deb58dab5dbe892511b95310e0dabf65e71da",
-    "liveCourseBytes": 4889653,
-    "verifiedPagesCommit": "be511c93091786ff5180f2fb43c9eac249bbbfe7",
-    "verifiedPagesRun": 40144700694
+    "visualScope": "process-batch verify, verify-review, test-dom.mjs và Chromium cục bộ desktop 1280px/mobile 390px đạt; đã rà 377/377 bài. Đã kiểm tra 15 bài review-022, phân loại 4 dễ/8 trung bình/3 khó; bài 最后 phân biệt 最后一本书 và 最后的书, đồng thời giữ cách dùng 最后 và 终于. Đã kiểm tra số thứ tự, ẩn ID/schema, số liệu động, chọn mức nhớ không mở gợi ý và thu gọn đầu bài mobile. TTS Android và phát âm thật chưa xác minh.",
+    "liveCourseVerified": false,
+    "liveCourseSha256": null,
+    "liveCourseBytes": null,
+    "verifiedPagesCommit": null,
+    "verifiedPagesRun": null
   }
 }
