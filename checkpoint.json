@@ -10,28 +10,24 @@
   "supplementationStatus": "in-progress",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
-  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-006 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–430; batch-034 đến batch-039 đã bổ sung, tự phản biện. Tiến độ supplementation là 435/2.224, còn 1.789. Tracker e8329164 đã push main; Pages run 40161692005 success và live course đã khớp hash; tiến độ supplementation không đại diện cho tiến độ rà soát.",
+  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Correction-003 đến correction-006 đã sửa lỗi nội dung/đồng bộ ở ordinal 382–430; batch-034 đến batch-040 đã bổ sung, tự phản biện. Tiến độ supplementation là 439/2.224, còn 1.785. Batch-040 đã push content commit b84c9ce; tracker/main và Pages đang chờ cập nhật; tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "029b9166e7e2bad2369022d8938373085217f14bbc79935f6f84f8eaf9430631",
+    "progress.json": "1c8e1a34605577e90b1b53d71b4c2089ab53e4985f486525d631ae85d613457d",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
-    "data/vocabulary/hanzii-course.json": "cb94aa73e46928ec0d326b7b1760fd1e961bbffc985ee6e167f6f59a5f621337",
-    "data/vocabulary/content-audit.json": "ee506b30fb8b181356210a4c9c04731523fc5f6e6bbead00cbb92a06ab3a44df"
+    "data/vocabulary/hanzii-course.json": "389beb478a7eb0ecd84523abbc75ccfebbc657128688c6efd469ec166eaa60b0",
+    "data/vocabulary/content-audit.json": "d4c77385d0a919d76030cf2115e6870b0492e170fd3d0b47776229791bd5a176"
   },
   "scopeTotal": 2224,
-  "completedCount": 435,
-  "remaining": 1789,
+  "completedCount": 439,
+  "remaining": 1785,
   "initialCompleteOutsideScope": 10,
-  "lastBatch": "batch-039",
+  "lastBatch": "batch-040",
   "lastReviewBatch": "review-022",
   "lastReviewedId": "hz-h1-56730712e191",
-  "lastCompletedId": "hz-h1-e62037d83670",
-  "nextOrdinal": 436,
-  "nextSupplementBatch": "batch-040",
+  "lastCompletedId": "hz-h1-96cd4a079f59",
+  "nextOrdinal": 440,
+  "nextSupplementBatch": "batch-041",
   "nextIds": [
-    "hz-h1-fc9be1e83197",
-    "hz-h1-94b7a883cbe9",
-    "hz-h1-81c2d35e787c",
-    "hz-h1-96cd4a079f59",
     "hz-h1-0fa672e0cf41",
     "hz-h1-dc4fd18c5eca",
     "hz-h1-0b27ab004680",
@@ -45,21 +41,21 @@
     "hz-h1-842fc9e24059",
     "hz-h1-1ee7b5f8677b",
     "hz-h1-7707793dd93a",
-    "hz-h1-a3fa19a2d979"
+    "hz-h1-a3fa19a2d979",
+    "hz-h1-e310526bf2db",
+    "hz-h1-833cfba5397f",
+    "hz-h1-b1d95ca8d2a7",
+    "hz-h1-885bea78c7a0"
   ],
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "52ef9688c3b4206f0d58fd2fa8db64c7d09bffbe",
-  "priorVerificationNote": "Correction-006 và semantic audit nhóm 428–435 đã qua verify cục bộ trên content commit 52ef968; Pages run 40161692005 success đúng tracker e8329164; live course 5.389.793 bytes khớp SHA-256 cb94aa73e46928ec0d326b7b1760fd1e961bbffc985ee6e167f6f59a5f621337. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "b84c9ce05eac86535bafda79f89905442679b26f",
+  "priorVerificationNote": "Batch-040 (车、飞、上车、地图; ordinal 436–439) đã qua kiểm tra cục bộ trên content commit b84c9ce; chưa có xác minh Pages. Chưa xác minh TTS Android thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
-    "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[435:]",
+    "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[439:]",
     "nextBatchIds": [
-      "hz-h1-fc9be1e83197",
-      "hz-h1-94b7a883cbe9",
-      "hz-h1-81c2d35e787c",
-      "hz-h1-96cd4a079f59",
       "hz-h1-0fa672e0cf41",
       "hz-h1-dc4fd18c5eca",
       "hz-h1-0b27ab004680",
@@ -73,43 +69,42 @@
       "hz-h1-842fc9e24059",
       "hz-h1-1ee7b5f8677b",
       "hz-h1-7707793dd93a",
-      "hz-h1-a3fa19a2d979"
+      "hz-h1-a3fa19a2d979",
+      "hz-h1-e310526bf2db",
+      "hz-h1-833cfba5397f",
+      "hz-h1-b1d95ca8d2a7",
+      "hz-h1-885bea78c7a0"
     ],
-    "releaseState": "published-pages-verified",
-    "verifiedPagesRun": 40161692005,
-    "verifiedPagesCommit": "e8329164df64a913cec6afe11f0db179e248353f",
-    "liveCourseSha256": "cb94aa73e46928ec0d326b7b1760fd1e961bbffc985ee6e167f6f59a5f621337"
+    "releaseState": "content-commit-pushed-awaiting-pages",
+    "verifiedPagesRun": null,
+    "verifiedPagesCommit": null,
+    "liveCourseSha256": null
   },
   "batchStatus": {
-    "batch": "batch-039",
+    "batch": "batch-040",
     "authoredIds": [
-      "hz-h1-2e9645bd89d5",
-      "hz-h1-18a966b92e35",
-      "hz-h1-68a5d7b2023a",
-      "hz-h1-e62037d83670"
+      "hz-h1-fc9be1e83197",
+      "hz-h1-94b7a883cbe9",
+      "hz-h1-81c2d35e787c",
+      "hz-h1-96cd4a079f59"
     ],
     "automatedVerifiedIds": [
-      "hz-h1-2e9645bd89d5",
-      "hz-h1-18a966b92e35",
-      "hz-h1-68a5d7b2023a",
-      "hz-h1-e62037d83670"
+      "hz-h1-fc9be1e83197",
+      "hz-h1-94b7a883cbe9",
+      "hz-h1-81c2d35e787c",
+      "hz-h1-96cd4a079f59"
     ],
     "editorialReviewedIds": [
-      "hz-h1-2e9645bd89d5",
-      "hz-h1-18a966b92e35",
-      "hz-h1-68a5d7b2023a",
-      "hz-h1-e62037d83670"
+      "hz-h1-fc9be1e83197",
+      "hz-h1-94b7a883cbe9",
+      "hz-h1-81c2d35e787c",
+      "hz-h1-96cd4a079f59"
     ],
-    "publishedIds": [
-      "hz-h1-2e9645bd89d5",
-      "hz-h1-18a966b92e35",
-      "hz-h1-68a5d7b2023a",
-      "hz-h1-e62037d83670"
-    ],
+    "publishedIds": [],
     "teacherReviewedIds": [],
-    "releaseState": "published-pages-verified",
-    "verifiedPagesRun": 40161692005,
-    "verifiedPagesCommit": "e8329164df64a913cec6afe11f0db179e248353f"
+    "releaseState": "content-commit-pushed-awaiting-pages",
+    "verifiedPagesRun": null,
+    "verifiedPagesCommit": null
   },
   "reviewStatus": {
     "batch": "review-022",
