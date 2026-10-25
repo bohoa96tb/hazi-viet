@@ -10,9 +10,9 @@
   "supplementationStatus": "in-progress",
   "sourceSnapshotCommit": "1246046c73e329e41902d096403d91a870b60045",
   "rulesVersion": "CONTENT_STANDARD_V2-2026-10-24-review-first",
-  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Batch-030 đã soạn và kiểm tra mục 着 ở ordinal 380; tiến độ supplementation là 380/2.224, còn 1.844. Bản tree mới đã qua kiểm tra cục bộ và đang chờ commit, push và Pages; tiến độ supplementation không đại diện cho tiến độ rà soát.",
+  "note": "Review-022 đã hoàn tất cổng rà soát 377/377. Batch-030 đã bổ sung và phát hành mục 着 ở ordinal 380; tiến độ supplementation là 380/2.224, còn 1.844. Commit 86add34 đã push main và Pages run 40150876963 thành công; tiến độ supplementation không đại diện cho tiến độ rà soát.",
   "sourceBlobs": {
-    "progress.json": "b841611e919816df1b97975b33923ef87ec0bff3",
+    "progress.json": "3aeab4f0441f6f2b5609f408a02d55847c907c42",
     "tools/vocabulary/baseline.json": "446b5e2e8849851e8e31ff5302440aa3d82f23be",
     "data/vocabulary/hanzii-course.json": "0a7865796acc898ecc9bad81195573221bbd54a0",
     "data/vocabulary/content-audit.json": "cd5727fe7d89a4d5a9890abfbfdf7fe6bd70d9f0"
@@ -50,8 +50,8 @@
   "coursePath": "data/vocabulary/hanzii-course.json",
   "standardPath": "docs/CONTENT_STANDARD.md",
   "schemaPath": "docs/CONTENT_SCHEMA_V2.md",
-  "lastVerifiedContentCommit": "86fce7351739d783c42a0c7794daf09d74c964b7",
-  "priorVerificationNote": "Review-022 đã đọc và phân loại 363–377; correction-002 và batch-029 đã qua process-batch verify, verify-v2, DOM, cú pháp JavaScript, diff check và kiểm segment audio. Pages run 40150094286 thành công đúng HEAD 86fce73; live course khớp SHA 6fc883516a28ccb360fa6a7d9c7b26e4acd3515fee63e1d9da2e70a27dfda3a0. Chưa xác minh TTS Android thật, bố cục trực quan riêng của lượt này hoặc phản biện giáo viên độc lập.",
+  "lastVerifiedContentCommit": "86add34f55859a6bdac765b788c638fa1cbd84c9",
+  "priorVerificationNote": "Review-022 đã đọc và phân loại 363–377; batch-030 đã qua process-batch verify, verify-v2, DOM, cú pháp JavaScript, diff check và kiểm segment audio. Pages run 40150876963 thành công đúng HEAD 86add34; live course khớp SHA 5692d836c7f70ba2bec8e6ee7ca2a2c70c546f12bd72bbb2d4245c18194b1dd5. Chưa xác minh TTS Android thật, bố cục trực quan riêng của lượt này hoặc phản biện giáo viên độc lập.",
   "progressIndex": {
     "completedIdsSource": "progress.json:completedIds",
     "remainingIdsSource": "tools/vocabulary/baseline.json:orderedIds[380:]",
@@ -81,11 +81,11 @@
     "authoredIds": ["hz-h1-29d32239d810"],
     "automatedVerifiedIds": ["hz-h1-29d32239d810"],
     "editorialReviewedIds": ["hz-h1-29d32239d810"],
-    "publishedIds": [],
+    "publishedIds": ["hz-h1-29d32239d810"],
     "teacherReviewedIds": [],
-    "releaseState": "awaiting-commit-and-pages",
-    "verifiedPagesRun": null,
-    "verifiedPagesCommit": null
+    "releaseState": "published-pages-verified",
+    "verifiedPagesRun": 40150876963,
+    "verifiedPagesCommit": "86add34f55859a6bdac765b788c638fa1cbd84c9"
   },
   "reviewStatus": {
     "batch": "review-022",

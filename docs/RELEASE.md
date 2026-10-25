@@ -1,5 +1,16 @@
 
 
+# Batch-030 — đã phát hành và xác minh Pages
+
+- Commit nội dung: `86add34f55859a6bdac765b788c638fa1cbd84c9`; đã fast-forward cả `content/vocabulary-2224` và `main`.
+- Bổ sung mục khó `着` ở ordinal 380. Tiến độ: 380/2.224, còn 1.844; toàn khóa 390/2.234 bài đủ cấu trúc.
+- Bài giới hạn vào `着` trong trạng thái/cách thức và cách đọc khác trong `睡着`; nguồn đã đọc gồm MDBG và Chinese Grammar Wiki.
+- `process-batch verify`, `verify-v2`, `test-dom.mjs`, kiểm tra cú pháp JavaScript, `git diff --check` và kiểm segment audio đều đạt.
+- GitHub Pages run [40150876963](https://github.com/bohoa96tb/hazi-viet/actions/runs/40150876963) completed/success đúng `head_sha=86add34f55859a6bdac765b788c638fa1cbd84c9`.
+- Dữ liệu khóa học live có 2.234 mục, 390 bài đủ cấu trúc, 4.999.134 bytes, SHA-256 `5692d836c7f70ba2bec8e6ee7ca2a2c70c546f12bd72bbb2d4245c18194b1dd5`, khớp byte với bản đã kiểm; cache `vocabulary.js?v=batch-030`.
+- Chưa xác minh TTS Android/phát âm thật, bố cục trực quan riêng lượt này hoặc phản biện giáo viên độc lập.
+
+
 # Batch-029 và correction-002 — đã phát hành và xác minh Pages
 
 - Commit nội dung: `86fce7351739d783c42a0c7794daf09d74c964b7`; đã fast-forward cả `content/vocabulary-2224` và `main`.
