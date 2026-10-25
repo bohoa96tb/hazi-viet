@@ -40,6 +40,16 @@ function assertProgress(b,p){
  assert.equal(actual,b.initialCompleteIds.length+p.completedCount);
  return actual;
 }
+function assertBatchArchiveIntegrity(p){
+ for(const batch of p.batches){
+  assert(typeof batch.id==='string'&&/^batch-\d+$/.test(batch.id),'Every progress batch must have a stable id.');
+  const archived=read(batch.contentFile);assert.equal(archived.id,batch.id,'Batch archive id mismatch: '+batch.contentFile);
+  for(const entry of archived.entries||[]){
+   const current=byId.get(entry.id);if(!current||!entry.wordEdits)continue;
+   for(const field of ['meaning','intro']) if(entry.wordEdits[field]!==undefined) assert.deepEqual(entry.wordEdits[field],current[field],`Archive drift in ${batch.id}/${entry.id}/${field}; update the batch source when correcting published data.`);
+  }
+ }
+}
 function refresh(b,p){
  const records=data.words.map(w=>({id:w.id,hanzi:w.hanzi,level:w.level,sourceIndex:w.sourceIndex,status:w.status,...auditLesson(w)}));
  const ready=records.filter(r=>r.ready).length;
@@ -88,12 +98,13 @@ if(command==='init'){
   const from=p.completedCount+1;p.completedCount+=drafts.length;p.remaining=b.scopeTotal-p.completedCount;
   p.lastCompletedOrdinal=p.completedCount;p.lastCompletedId=p.completedIds.at(-1);p.nextIds=b.orderedIds.slice(p.completedCount,p.completedCount+18);
   p.batches.push({id:batch.id,ordinalFrom:from,ordinalTo:p.completedCount,wordIds:drafts.map(w=>w.id),contentFile:argument,authorship:batch.authorship,contentCommit:null});
-  assertProgress(b,p);validateCourse(data);refresh(b,p);
+  assertProgress(b,p);assertBatchArchiveIntegrity(p);validateCourse(data);refresh(b,p);
   console.log(`Prepared ${from}–${p.completedCount}; ${p.completedCount}/${p.scopeTotal}; remaining ${p.remaining}. Remote confirmation still required.`);
  }else if(command==='refresh'){
-  assertProgress(b,p);refresh(b,p);console.log('Refreshed report and cache identifiers; content and completion count unchanged.');
+  assertProgress(b,p);assertBatchArchiveIntegrity(p);refresh(b,p);console.log('Refreshed report and cache identifiers; content and completion count unchanged.');
  }else if(command==='verify'){
   const actual=assertProgress(b,p),report=read(auditPath);
+  assertBatchArchiveIntegrity(p);
   assert.equal(report.records.length,data.words.length);assert.equal(report.summary.ready,actual);assert.equal(report.summary.pending,p.remaining);
   assert.deepEqual(data.contentAuditSummary,report.summary);
   for(const w of data.words){const a=auditLesson(w),r=report.records.find(x=>x.id===w.id);assert.equal(w.status==='deep',a.ready);assert.deepEqual(r,{id:w.id,hanzi:w.hanzi,level:w.level,sourceIndex:w.sourceIndex,status:w.status,...a});}

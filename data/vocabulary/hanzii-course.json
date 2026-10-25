@@ -4,7 +4,7 @@
   "status": "expanding",
   "hskAssignment": "Hanzii public notebook snapshot 2026-10-22",
   "description": "2.234 mục theo bộ Hanzii: HSK 1 có 504, HSK 2 có 764, HSK 3 có 966. Các cấp có thể lặp lại cùng mặt chữ hoặc có cách đọc khác; không gọi toàn bộ là từ mới độc lập.",
-  "editorial": "Đã rà soát 2234 mục. 511 mục đủ cấu trúc V1/V2; còn 1723. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 501 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
+  "editorial": "Đã rà soát 2234 mục. 519 mục đủ cấu trúc V1/V2; còn 1715. Trong đợt bổ sung ban đầu 2224 mục, đã lưu nội dung cho 509 mục trên nhánh content/vocabulary-2224. Đủ cấu trúc chưa đồng nghĩa được giáo viên phản biện.",
   "countNotice": "Bạn cung cấp 503 / 764 / 966. Nguồn công khai lúc nhập trả 504 / 764 / 966; app giữ nguyên 504 mục HSK 1, không tự bỏ một từ. Chưa xác định mục chênh với bản bạn đang xem.",
   "provenance": {
     "retrievedAt": "2026-10-22",
@@ -109788,23 +109788,199 @@
       }
     },
     {
-      "meaning": "làm",
+      "meaning": "khi; làm, giữ vai trò",
       "intro": [
         {
           "pinyin": "dāng",
-          "meaning": "làm"
+          "meaning": "khi; làm, giữ vai trò"
+        },
+        {
+          "pinyin": "dàng",
+          "meaning": "coi là; đem cầm, trong một số từ"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "当我到家的时候，他已经睡了。",
+          "vi": "Khi tôi về đến nhà thì anh ấy đã ngủ rồi.",
+          "analysis": "当我到家的时候 là mệnh đề thời gian làm mốc cho việc anh ấy đã ngủ.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "她想当一名医生。",
+          "vi": "Cô ấy muốn làm bác sĩ.",
+          "analysis": "当一名医生 nói đảm nhiệm vai trò bác sĩ, không phải mốc thời gian.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h2-04644d35132a",
       "hanzi": "当",
       "level": 2,
       "sourceIndex": 8,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "biên soạn bổ sung",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-049 · khó",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 502,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/当"
+        ],
+        "introduction": {
+          "scope": "bài tập trung vào cách đọc thanh 1 trong 当……的时候 và 当老师; cách đọc thanh 4 chỉ nêu để nhận diện trong từ/cụm mở rộng"
+        },
+        "meaning": {
+          "scene": "当 có cách đọc và chức năng khác nhau; trong bài chính dùng cách đọc thanh 1 để nói khi một việc xảy ra hoặc ai làm một vai trò.",
+          "explanation": "当……的时候 đặt 当 trước mệnh đề thời gian: 当我到家的时候，他已经睡了. 当老师 dùng 当 làm động từ, nghĩa là làm giáo viên. Cách đọc thanh 4 không được tự thay vào hai mẫu này.",
+          "boundary": "当 không phải lúc nào cũng dịch là khi; hãy nhìn cấu trúc sau nó và cách đọc của cụm.",
+          "conditions": [
+            "Trong 当……的时候, phần sau 当 là mệnh đề nêu thời điểm; trong 当 + vai trò, phần sau là vai trò được đảm nhiệm."
+          ],
+          "takeaway": "Đọc và hiểu 当 theo cả cụm, không gán một nghĩa cho mọi trường hợp."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "当 + mệnh đề + 的时候",
+            "position": "当 đứng đầu mệnh đề thời gian.",
+            "required": "Sau 当 cần một mệnh đề; 的时候 khép lại khoảng thời gian.",
+            "omission": "Có thể bỏ 当 nếu dùng chỉ mệnh đề + 的时候, nhưng không bỏ thành phần làm rõ thời điểm một cách tùy ý.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "当 + vai trò",
+            "position": "当 đứng trước vai trò làm động từ.",
+            "required": "Danh từ sau 当 là vai trò người đó đảm nhiệm.",
+            "omission": "Có thể thêm 过 để nói từng làm vai trò đó.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "当我到家的时候，他已经睡了。",
+            "vi": "Khi tôi về đến nhà thì anh ấy đã ngủ rồi.",
+            "analysis": "当我到家的时候 là mệnh đề thời gian làm mốc cho việc anh ấy đã ngủ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "她想当一名医生。",
+            "vi": "Cô ấy muốn làm bác sĩ.",
+            "analysis": "当一名医生 nói đảm nhiệm vai trò bác sĩ, không phải mốc thời gian.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "当 trong 当……的时候 và 当老师",
+            "scene": "Phân biệt 当 chỉ thời điểm với 当 chỉ vai trò.",
+            "possibleConfusion": "Cùng một chữ nhưng thành phần sau và nghĩa của cả cụm khác nhau.",
+            "difference": "当……的时候 là khi; 当 + vai trò là làm/giữ vai trò.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "当我到家的时候，他已经睡了。",
+                "vi": "Khi tôi về đến nhà thì anh ấy đã ngủ rồi.",
+                "comment": "当 mở đầu mệnh đề thời gian.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "她想当一名医生。",
+                "vi": "Cô ấy muốn làm bác sĩ.",
+                "comment": "当 đứng trước vai trò được đảm nhiệm.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Không thể đổi chỗ hai khung rồi giữ nguyên nghĩa: 当 trong mệnh đề thời gian và 当 trước vai trò có chức năng khác nhau."
+            },
+            "caseExampleTerms": [
+              "当我到家的时候",
+              "当一名医生"
+            ],
+            "boundary": "Nhìn thành phần ngay sau 当 trước khi dịch.",
+            "tip": "Có mệnh đề và 的时候: khi; có nghề/vai trò: làm."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã tách cách đọc thanh 1 trong hai cấu trúc chính và ghi nhận cách đọc thanh 4 ở phần mở rộng.",
+          "literalTranslation": "Đã rà không dịch mọi 当 thành khi.",
+          "confusables": "Đã đối chiếu hai cấu trúc có 当 nhưng khác chức năng."
+        },
+        "pronunciation": {
+          "text": "当 trong hai mẫu chính của bài đọc thanh 1; cách đọc mở rộng trong một số cụm đọc thanh 4. Không đổi cách đọc chỉ vì thấy cùng một chữ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: ___我到家的时候，他已经睡了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói ‘làm bác sĩ’, dùng 当一名医生 hay 当我到家?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "当"
+            ],
+            "explanation": "当我到家的时候 là khi tôi về đến nhà."
+          },
+          "q2": {
+            "accepted": [
+              "当一名医生"
+            ],
+            "explanation": "当 đứng trước vai trò bác sĩ để nói làm bác sĩ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói khi tôi tan học thì trời mưa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói anh trai bạn muốn làm giáo viên."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 当我下课的时候 để mở mệnh đề thời gian.",
+            "frame": "当 + 我下课 + 的时候，trời mưa",
+            "model": "当我下课的时候，天在下雨。",
+            "vi": "Khi tôi tan học thì trời đang mưa.",
+            "criteria": [
+              "Có 当我下课的时候.",
+              "当 mở mệnh đề chỉ thời điểm."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 你哥哥想当老师 để nói vai trò mong muốn.",
+            "frame": "你哥哥 + 想 + 当 + 老师",
+            "model": "你哥哥想当老师。",
+            "vi": "Anh trai bạn muốn làm giáo viên.",
+            "criteria": [
+              "Có 当老师.",
+              "当 đứng trước vai trò giáo viên, không phải mệnh đề thời gian."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h2-8ac3a59c0ef6",
@@ -109812,27 +109988,204 @@
       "hanzi": "得",
       "intro": [
         {
-          "pinyin": "dé",
-          "meaning": "đạt được"
-        },
-        {
           "pinyin": "de",
-          "meaning": "từ nối hoạt động với phần nhận xét phía sau"
+          "meaning": "trợ từ nối động từ với bổ ngữ"
         },
         {
           "pinyin": "děi",
           "meaning": "phải"
+        },
+        {
+          "pinyin": "dé",
+          "meaning": "được, đạt được; nhận được"
         }
       ],
-      "meaning": "đạt được",
-      "status": "catalog",
+      "meaning": "trợ từ bổ ngữ; phải; được, đạt được",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-049 · khó",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "他说得很快。",
+          "vi": "Anh ấy nói rất nhanh.",
+          "analysis": "得 nối 说 với 很快, nhận xét tốc độ nói.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我唱得不太好。",
+          "vi": "Tôi hát không được hay lắm.",
+          "analysis": "唱得不太好 đánh giá chất lượng của việc hát; 得 vẫn đứng sau 唱.",
+          "practiceAllowed": true
+        }
+      ],
       "audioText": "得到",
       "sourceIndex": 9,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 503,
+        "authorship": "Tự biên soạn, đọc mục 汉典 và Chinese Grammar Wiki về bổ ngữ mức độ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/得",
+          "https://resources.allsetlearning.com/chinese/grammar/Expressing_degree_with_%22de%22"
+        ],
+        "introduction": {
+          "scope": "bài chính tập trung cách đọc nhẹ của 得 trong V + 得 + bổ ngữ mức độ; các cách đọc và chức năng khác cần nhận diện"
+        },
+        "meaning": {
+          "scene": "得 sau động từ nối hành động với nhận xét về mức độ hoặc cách thực hiện.",
+          "explanation": "Trong 他说得很快, 得 đứng sau 说 và trước 很快. Không dùng 得 thay cho 地 trước động từ, cũng không gán cách đọc của mẫu này cho mọi từ có chữ này.",
+          "boundary": "得 là trợ từ trong mẫu chính; một cách đọc khác mang nghĩa phải, còn trong 得到 mang nghĩa được hoặc đạt được. Cách đọc và vị trí quyết định nghĩa.",
+          "conditions": [
+            "Mẫu V + 得 + bổ ngữ cần một động từ đứng trước 得; phần sau đánh giá cách hoặc mức độ của hành động."
+          ],
+          "takeaway": "Muốn nhận xét hành động diễn ra thế nào, dùng động từ + 得 + phần nhận xét."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + động từ + 得 + bổ ngữ",
+            "position": "得 đứng ngay sau động từ được đánh giá.",
+            "required": "Động từ phải đứng trước 得; bổ ngữ mức độ đứng sau.",
+            "omission": "Không bỏ 得 nếu vẫn giữ mẫu V + bổ ngữ này.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "phủ định + động từ + 得 + bổ ngữ",
+            "position": "不 thường đứng trước động từ, còn 得 vẫn sau động từ.",
+            "required": "Dùng khi phủ định mức độ/cách thực hiện.",
+            "omission": "Có thể đổi ý sang 不 + động từ nếu không còn nhận xét mức độ bằng mẫu 得.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他说得很快。",
+            "vi": "Anh ấy nói rất nhanh.",
+            "analysis": "得 nối 说 với 很快, nhận xét tốc độ nói.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我唱得不太好。",
+            "vi": "Tôi hát không được hay lắm.",
+            "analysis": "唱得不太好 đánh giá chất lượng của việc hát; 得 vẫn đứng sau 唱.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "得 và 地: trợ từ sau động từ hay trước động từ",
+            "scene": "Phân biệt hai chữ đọc gần giống trong câu.",
+            "possibleConfusion": "Cả hai đều xuất hiện khi bổ sung thông tin cho hành động.",
+            "difference": "得 đứng sau động từ để nối bổ ngữ; 地 đứng sau trạng ngữ mô tả cách thức và trước động từ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他说得很快。",
+                "vi": "Anh ấy nói rất nhanh.",
+                "comment": "得 đứng sau 说 và nối với 很快.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他认真地学习。",
+                "vi": "Anh ấy học một cách nghiêm túc.",
+                "comment": "地 đứng sau 认真 và trước 学习.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Đổi 得 vào vị trí của 地 trong 他认真得学习 hoặc đổi 地 vào sau 说 sẽ làm sai cấu trúc; hai trợ từ không cùng vị trí."
+            },
+            "corrections": [
+              {
+                "caseId": "c1",
+                "zh": "他说得很快。",
+                "vi": "Anh ấy nói rất nhanh.",
+                "reason": "Câu c1 đã đúng; không thay 得 bằng 地."
+              }
+            ],
+            "boundary": "Chọn theo vị trí: sau động từ là 得; trước động từ sau trạng ngữ là 地.",
+            "tip": "Động từ + 得 + nhận xét; cách thức + 地 + động từ."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã tách các cách đọc theo chức năng; bài chính dạy trợ từ đọc nhẹ.",
+          "literalTranslation": "Đã rà không dịch trợ từ 得 thành được trong mọi câu.",
+          "confusables": "Đã đối chiếu 得/地 bằng vị trí trong câu và có câu sửa."
+        },
+        "pronunciation": {
+          "text": "得 trong mẫu bổ ngữ của bài đọc nhẹ; trong nghĩa “phải” đọc thanh 3, còn trong 得到 đọc thanh 2. Không đổi âm chỉ vì đổi thanh theo cảm tính. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 他跑___很快。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong 他认真地学习, vị trí đúng là 得 hay 地?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "得"
+            ],
+            "explanation": "跑得很快 dùng 得 sau động từ 跑."
+          },
+          "q2": {
+            "accepted": [
+              "地"
+            ],
+            "explanation": "地 đứng sau 认真 và trước 学习; 得 đứng sau động từ khi nối bổ ngữ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bạn nói tiếng Trung rất rõ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi hôm nay phải về sớm."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 你说中文说得很清楚 để vừa nêu đối tượng vừa giữ động từ trước 得.",
+            "frame": "你 + 说中文 + 说得 + 很清楚",
+            "model": "你说中文说得很清楚。",
+            "vi": "Bạn nói tiếng Trung rất rõ.",
+            "criteria": [
+              "Có 说得很清楚.",
+              "得 đứng sau động từ 说 và trước bổ ngữ."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我今天得早点回家; ở đây 得 đọc theo nghĩa phải, không phải trợ từ bổ ngữ.",
+            "frame": "我 + 今天 + 得 + 早点回家",
+            "model": "我今天得早点回家。",
+            "vi": "Hôm nay tôi phải về nhà sớm.",
+            "criteria": [
+              "Có 得早点回家.",
+              "得 trong câu này mang nghĩa phải; đây không phải trợ từ nối bổ ngữ."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h2-ffd1033ea580",
@@ -109845,108 +110198,1128 @@
         }
       ],
       "meaning": "hiểu",
-      "status": "catalog",
+      "status": "deep",
       "sourceId": "hanzii-wordlist",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "examples": [],
+      "editorialStatus": "Biên soạn V2 · batch-049 · trung bình",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "我懂你的意思了。",
+          "vi": "Tôi hiểu ý của bạn rồi.",
+          "analysis": "懂你的意思 nói đã nắm được ý người nghe; 了 báo trạng thái đã thay đổi.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这道题我看懂了。",
+          "vi": "Tôi đã đọc và hiểu bài này.",
+          "analysis": "看懂 nhấn hiểu được sau khi xem/đọc đề.",
+          "practiceAllowed": true
+        }
+      ],
       "sourceIndex": 10,
       "meaningOrigin": "biên soạn mới",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi"
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 504,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/懂"
+        ],
+        "introduction": {
+          "scope": "hiểu nội dung, lời nói hoặc cách làm"
+        },
+        "meaning": {
+          "scene": "懂 nói người học đã hiểu điều được nói hoặc biết điều đó có ý nghĩa gì.",
+          "explanation": "懂 có thể làm động từ một mình trong 我懂了, hoặc đi sau 听/看 trong 听懂、看懂 để nói hiểu được thông qua nghe/đọc.",
+          "boundary": "懂 nhấn kết quả hiểu; 听见 chỉ nghe thấy âm thanh, không khẳng định đã hiểu.",
+          "conditions": [
+            "Dùng 懂了 khi muốn xác nhận đã hiểu; dùng 听懂/看懂 khi nêu kênh tiếp nhận."
+          ],
+          "takeaway": "Nghe thấy chưa chắc đã hiểu; 懂 nói kết quả hiểu."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + 懂 + tân ngữ",
+            "position": "懂 đứng sau chủ thể và trước điều được hiểu.",
+            "required": "Tân ngữ nêu nội dung hoặc vấn đề.",
+            "omission": "Có thể bỏ tân ngữ trong 我懂了 nếu ngữ cảnh rõ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "nghe/đọc + 懂",
+            "position": "懂 đứng sau động từ tiếp nhận.",
+            "required": "Động từ trước 懂 nêu cách hiểu được nội dung.",
+            "omission": "Có thể dùng 懂 một mình khi không cần nêu kênh.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我懂你的意思了。",
+            "vi": "Tôi hiểu ý của bạn rồi.",
+            "analysis": "懂你的意思 nói đã nắm được ý người nghe; 了 báo trạng thái đã thay đổi.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这道题我看懂了。",
+            "vi": "Tôi đã đọc và hiểu bài này.",
+            "analysis": "看懂 nhấn hiểu được sau khi xem/đọc đề.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "懂 và 听见: hiểu hay chỉ nghe thấy",
+            "scene": "Phân biệt kết quả hiểu với việc tai nhận được âm thanh.",
+            "possibleConfusion": "Một người có thể 听见 nhưng chưa 懂 nội dung.",
+            "difference": "懂 nói hiểu; 听见 nói nghe thấy.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我懂你的意思了。",
+                "vi": "Tôi hiểu ý của bạn rồi.",
+                "comment": "懂 nói đã nắm được nội dung.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我听见你说话了。",
+                "vi": "Tôi đã nghe thấy bạn nói.",
+                "comment": "听见 chỉ xác nhận nghe thấy lời nói, chưa khẳng định hiểu.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 懂 thành 听见 sẽ hạ ý từ hiểu nội dung xuống chỉ nghe thấy âm thanh."
+            },
+            "boundary": "Muốn nói đã hiểu lời nói dùng 懂; muốn nói chỉ nghe thấy dùng 听见.",
+            "tip": "Hiểu nội dung: 懂; nghe thấy âm thanh: 听见."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà 懂 và các dạng 听懂、看懂.",
+          "literalTranslation": "Đã rà không dịch 懂 thành chỉ nghe.",
+          "confusables": "Đã đối chiếu 懂/听见 theo kết quả nhận thức."
+        },
+        "pronunciation": {
+          "text": "懂 là thanh 3; hạ rồi nhấc giọng, không đọc thành thanh 2. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我___你的意思了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Chỉ nghe thấy, chưa nói đã hiểu, dùng 懂 hay 听见?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "懂"
+            ],
+            "explanation": "懂你的意思了 là đã hiểu ý của bạn."
+          },
+          "q2": {
+            "accepted": [
+              "听见"
+            ],
+            "explanation": "听见 chỉ nói nghe thấy; 懂 nói hiểu nội dung."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi không hiểu câu hỏi này."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bạn đã nghe và hiểu lời giải thích của giáo viên."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我不懂这个问题 để phủ định việc hiểu.",
+            "frame": "我 + 不懂 + 这个问题",
+            "model": "我不懂这个问题。",
+            "vi": "Tôi không hiểu câu hỏi này.",
+            "criteria": [
+              "Có 不懂这个问题.",
+              "不懂 phủ định kết quả hiểu."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 你听懂老师的解释了 để nói hiểu qua việc nghe.",
+            "frame": "你 + 听懂 + 老师的解释 + 了",
+            "model": "你听懂老师的解释了。",
+            "vi": "Bạn đã nghe và hiểu lời giải thích của giáo viên.",
+            "criteria": [
+              "Có 听懂.",
+              "懂 đứng sau 听, nói đã hiểu qua việc nghe."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "thành công",
+      "meaning": "trở thành; thành công; xong",
       "intro": [
         {
           "pinyin": "chéng",
-          "meaning": "thành công"
+          "meaning": "trở thành; thành công; xong"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "水变成冰了。",
+          "vi": "Nước đã biến thành băng.",
+          "analysis": "变成冰 nói kết quả thay đổi từ nước sang băng.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "这件事终于成了。",
+          "vi": "Việc này cuối cùng cũng thành công rồi.",
+          "analysis": "成了 ở đây nói việc được mong đợi đã đạt kết quả, không phải trở thành một vật cụ thể.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h2-53dbab177ecc",
       "hanzi": "成",
       "level": 2,
       "sourceIndex": 11,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-049 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 505,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/成"
+        ],
+        "introduction": {
+          "scope": "kết quả trở thành hoặc hoàn thành một việc trong các cụm thông dụng"
+        },
+        "meaning": {
+          "scene": "成 có thể nói sự vật trở thành dạng khác, hoặc một việc đạt kết quả.",
+          "explanation": "Trong 变成冰, 成 đứng sau 变 để chỉ kết quả trở thành băng. Trong 成了, 成 có thể nói việc đã thành/xong tùy ngữ cảnh; không gán một nghĩa cho mọi từ ghép có 成.",
+          "boundary": "成 không đồng nghĩa hoàn toàn với 是: 是 nối chủ thể với thân phận/trạng thái, còn 变成 nhấn sự thay đổi thành kết quả mới.",
+          "conditions": [
+            "Khi nói trở thành, thường cần 变/长等 trước 成 hoặc cấu trúc làm rõ kết quả sau 成."
+          ],
+          "takeaway": "Thấy 成 phải nhìn động từ đi trước và kết quả đi sau để biết là thành gì hay việc đã thành công."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "变 + 成 + danh từ",
+            "position": "成 đứng sau 变 và trước kết quả.",
+            "required": "Sau 成 cần kết quả mới.",
+            "omission": "Có thể dùng 是 khi chỉ trạng thái hiện tại, nhưng sẽ mất ý biến đổi.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "成了",
+            "position": "成 đứng trước 了 trong câu báo việc đã thành.",
+            "required": "Ngữ cảnh phải cho biết việc nào đã thành hoặc đạt kết quả.",
+            "omission": "Có thể nói 成功 khi muốn nhấn thành công rõ ràng.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "水变成冰了。",
+            "vi": "Nước đã biến thành băng.",
+            "analysis": "变成冰 nói kết quả thay đổi từ nước sang băng.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "这件事终于成了。",
+            "vi": "Việc này cuối cùng cũng thành công rồi.",
+            "analysis": "成了 ở đây nói việc được mong đợi đã đạt kết quả, không phải trở thành một vật cụ thể.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "成 và 是: trở thành hay là",
+            "scene": "Phân biệt thay đổi trạng thái với việc xác định thân phận.",
+            "possibleConfusion": "Cả hai đều có thể nối chủ thể với danh từ phía sau.",
+            "difference": "变成 nhấn quá trình/kết quả thay đổi; 是 chỉ quan hệ hoặc trạng thái được xác định.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "水变成冰了。",
+                "vi": "Nước đã biến thành băng.",
+                "comment": "变成 nói nước đổi thành băng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "水是冰。",
+                "vi": "Nước là băng.",
+                "comment": "Câu có thể đúng trong ngữ cảnh định nghĩa/trạng thái, nhưng không mô tả quá trình biến đổi.",
+                "judgment": "context-needed",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 变成 thành 是 sẽ bỏ ý thay đổi; câu còn lại chỉ xác định trạng thái hoặc quan hệ, không phải cùng một thông tin."
+            },
+            "boundary": "Nói biến đổi dùng 变成; nói là/thuộc về dùng 是.",
+            "tip": "Có quá trình đổi khác: 变成; chỉ xác định: 是."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà 成 trong 变成 và 成了.",
+          "literalTranslation": "Đã rà không dịch 成 mọi lúc thành thành công.",
+          "confusables": "Đã đối chiếu 变成/是 theo quá trình thay đổi."
+        },
+        "pronunciation": {
+          "text": "成 là thanh 2; bắt đầu thấp rồi lên giọng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 水变___冰了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói quá trình biến thành băng dùng 变成 hay 是?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "成"
+            ],
+            "explanation": "变成冰 nói nước biến thành băng."
+          },
+          "q2": {
+            "accepted": [
+              "变成"
+            ],
+            "explanation": "变成 nhấn sự thay đổi thành kết quả mới."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói lá cây đã biến thành màu vàng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói kế hoạch này cuối cùng cũng thành công."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 叶子变成黄色了 để nói kết quả biến đổi.",
+            "frame": "叶子 + 变成 + 黄色 + 了",
+            "model": "叶子变成黄色了。",
+            "vi": "Lá cây đã biến thành màu vàng.",
+            "criteria": [
+              "Có 变成黄色.",
+              "成 đứng trong cụm chỉ kết quả biến đổi."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这个计划终于成了 để báo kế hoạch đạt kết quả.",
+            "frame": "这个计划 + 终于 + 成了",
+            "model": "这个计划终于成了。",
+            "vi": "Kế hoạch này cuối cùng cũng thành công.",
+            "criteria": [
+              "Có 成了.",
+              "成了 nói kế hoạch đã đạt kết quả."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "rơi",
+      "meaning": "rơi; mất đi; bỏ đi",
       "intro": [
         {
           "pinyin": "diào",
-          "meaning": "rơi"
+          "meaning": "rơi; mất đi; bỏ đi"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "树叶掉下来了。",
+          "vi": "Lá cây rơi xuống rồi.",
+          "analysis": "掉下来 mô tả chuyển động rơi từ trên xuống phía người nói.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "请把这张纸扔掉。",
+          "vi": "Làm ơn vứt tờ giấy này đi.",
+          "analysis": "扔掉 nhấn kết quả tờ giấy bị vứt bỏ.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h2-5c5fc1c0f9cb",
       "hanzi": "掉",
       "level": 2,
       "sourceIndex": 12,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-049 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 506,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/掉"
+        ],
+        "introduction": {
+          "scope": "vật rơi xuống hoặc kết quả bị loại/mất đi trong các cụm thường dùng"
+        },
+        "meaning": {
+          "scene": "掉 có thể là động từ rơi, hoặc đứng sau động từ để nói vật/điều gì bị bỏ khỏi trạng thái ban đầu.",
+          "explanation": "叶子掉下来了 nói lá rơi xuống. 扔掉 nói vứt bỏ; 忘掉 nói quên mất. Các cụm này có chung ý kết quả rời khỏi vị trí/trạng thái nhưng không dịch máy móc một chữ.",
+          "boundary": "掉 không chỉ là rơi tự nhiên; trong bổ ngữ như 忘掉、扔掉, nó nói mất/bỏ đi.",
+          "conditions": [
+            "Nêu động từ trước 掉 để biết là rơi độc lập hay kết quả bị bỏ/mất."
+          ],
+          "takeaway": "Động từ + 掉 thường nhấn kết quả rời khỏi trạng thái ban đầu."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "chủ thể + 掉下来",
+            "position": "掉 đứng trong cụm chỉ vật rơi xuống.",
+            "required": "Chủ thể là vật có thể rơi.",
+            "omission": "Có thể dùng 掉了 nếu không cần nêu hướng xuống.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "động từ + 掉",
+            "position": "掉 đứng sau động từ làm bổ ngữ kết quả.",
+            "required": "Động từ trước nêu hành động khiến vật/điều bị bỏ hoặc mất.",
+            "omission": "Không phải động từ nào cũng ghép tự do với 掉.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "树叶掉下来了。",
+            "vi": "Lá cây rơi xuống rồi.",
+            "analysis": "掉下来 mô tả chuyển động rơi từ trên xuống phía người nói.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请把这张纸扔掉。",
+            "vi": "Làm ơn vứt tờ giấy này đi.",
+            "analysis": "扔掉 nhấn kết quả tờ giấy bị vứt bỏ.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "掉 và 下: rơi mất hay hướng xuống",
+            "scene": "Phân biệt bổ ngữ kết quả với chữ chỉ hướng.",
+            "possibleConfusion": "掉下来的 câu có cả 掉 và 下 nên người học dễ coi hai chữ là một nghĩa.",
+            "difference": "掉 nói rơi/bị loại khỏi trạng thái; 下 nói hướng xuống hoặc phía dưới.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "树叶掉下来了。",
+                "vi": "Lá cây rơi xuống rồi.",
+                "comment": "掉 là hành động rơi, 下来 nêu hướng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我下楼去拿书。",
+                "vi": "Tôi xuống tầng dưới để lấy sách.",
+                "comment": "下楼 chỉ hướng đi xuống, không nói vật bị rơi.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 掉 thành 下 trong câu về lá sẽ bỏ ý vật rơi; đổi 下 thành 掉 trong 下楼 cũng không còn là cách nói chỉ hướng đi xuống."
+            },
+            "boundary": "Vật rơi/bị bỏ: 掉; hướng xuống: 下.",
+            "tip": "Hỏi ‘có rơi hoặc mất khỏi chỗ không’ thì nghĩ đến 掉."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà 掉 độc lập và trong 扔掉、忘掉.",
+          "literalTranslation": "Đã rà không dịch mọi 掉 thành rơi xuống.",
+          "confusables": "Đã đối chiếu 掉 với 下 bằng câu thật."
+        },
+        "pronunciation": {
+          "text": "掉 là thanh 4; hạ giọng nhanh và dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 请把这张纸扔___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Câu chỉ hướng đi xuống dùng 掉楼 hay 下楼?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "掉"
+            ],
+            "explanation": "扔掉 là vứt bỏ đi."
+          },
+          "q2": {
+            "accepted": [
+              "下楼"
+            ],
+            "explanation": "下楼 chỉ đi xuống tầng dưới; 掉 không ghép vào đây."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói điện thoại của tôi bị rơi xuống đất."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi đã quên mất địa chỉ đó."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我的手机掉到地上了 để nói điện thoại rơi xuống đất.",
+            "frame": "我的手机 + 掉到 + 地上 + 了",
+            "model": "我的手机掉到地上了。",
+            "vi": "Điện thoại của tôi đã rơi xuống đất.",
+            "criteria": [
+              "Có 掉到地上.",
+              "掉 nói điện thoại rời vị trí ban đầu và rơi xuống."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我把那个地址忘掉了 để nói đã quên mất.",
+            "frame": "我 + 把 + 那个地址 + 忘掉 + 了",
+            "model": "我把那个地址忘掉了。",
+            "vi": "Tôi đã quên mất địa chỉ đó.",
+            "criteria": [
+              "Có 忘掉.",
+              "掉 làm rõ kết quả thông tin bị quên mất."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "đầy",
+      "meaning": "đầy; kín",
       "intro": [
         {
           "pinyin": "mǎn",
-          "meaning": "đầy"
+          "meaning": "đầy; kín"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "杯子里的水满了。",
+          "vi": "Nước trong cốc đầy rồi.",
+          "analysis": "满了 nói nước đã đầy đến sức chứa của cốc.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "教室里坐满了学生。",
+          "vi": "Trong lớp học kín học sinh.",
+          "analysis": "坐满了学生 nói học sinh ngồi kín không gian lớp.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h2-28138d2279de",
       "hanzi": "满",
       "level": 2,
       "sourceIndex": 13,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "biên soạn bổ sung",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-049 · dễ",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 507,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/满"
+        ],
+        "introduction": {
+          "scope": "đầy đến mức không còn chỗ trống hoặc kín người/vật"
+        },
+        "meaning": {
+          "scene": "满 mô tả vật chứa đã đầy hoặc một nơi kín người/vật.",
+          "explanation": "杯子满了 nói cốc đầy; 房间坐满了人 nói phòng kín người. 满 nhấn lượng đã đạt sức chứa, không chỉ nói có nhiều.",
+          "boundary": "满 là đầy/kín; 多 chỉ số lượng nhiều và không nhất thiết không còn chỗ.",
+          "conditions": [
+            "Nhìn vật chứa hoặc không gian để xác định cái gì đã đầy."
+          ],
+          "takeaway": "满 gắn với sức chứa hoặc không gian đã kín."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "vật chứa + 满了",
+            "position": "满 đứng sau vật chứa.",
+            "required": "Vật chứa phải có thể đầy.",
+            "omission": "Có thể bỏ 了 khi chỉ mô tả trạng thái.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "địa điểm + động từ + 满 + người/vật",
+            "position": "满 đứng sau động từ trạng thái như 坐.",
+            "required": "Sau 满 nêu thứ lấp kín không gian.",
+            "omission": "Có thể dùng 满是 + danh từ trong mẫu khác.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "杯子里的水满了。",
+            "vi": "Nước trong cốc đầy rồi.",
+            "analysis": "满了 nói nước đã đầy đến sức chứa của cốc.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "教室里坐满了学生。",
+            "vi": "Trong lớp học kín học sinh.",
+            "analysis": "坐满了学生 nói học sinh ngồi kín không gian lớp.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "满 và 多: đầy hay nhiều",
+            "scene": "Phân biệt sức chứa với số lượng.",
+            "possibleConfusion": "Một nơi đầy thường cũng có nhiều người/vật, nhưng hai từ nhấn khác nhau.",
+            "difference": "满 nói không gian/sức chứa đã kín; 多 chỉ nói số lượng lớn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "教室里坐满了学生。",
+                "vi": "Trong lớp học kín học sinh.",
+                "comment": "坐满 nhấn lớp không còn chỗ trống đáng kể.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "教室里有很多学生。",
+                "vi": "Trong lớp có rất nhiều học sinh.",
+                "comment": "很多 chỉ số lượng nhiều, chưa khẳng định lớp kín chỗ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 满 thành 多 sẽ giảm ý từ kín chỗ xuống chỉ nhiều; câu có thể vẫn đúng trong tình huống khác."
+            },
+            "boundary": "Kín sức chứa dùng 满; đếm nhiều dùng 多/很多.",
+            "tip": "Hỏi còn chỗ trống không để chọn 满 hay 多."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà 满 trong vật chứa và không gian kín.",
+          "literalTranslation": "Đã rà không dịch 满 mọi lúc thành rất nhiều.",
+          "confusables": "Đã đối chiếu 满/多 theo sức chứa và số lượng."
+        },
+        "pronunciation": {
+          "text": "满 là thanh 3; hạ rồi nhấc giọng, không đọc thành thanh 2. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 杯子里的水___了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói phòng kín người dùng 坐满了学生 hay 有很多学生?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "满"
+            ],
+            "explanation": "满了 nói cốc đã đầy."
+          },
+          "q2": {
+            "accepted": [
+              "坐满了学生"
+            ],
+            "explanation": "坐满 nhấn học sinh ngồi kín không gian."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói chiếc túi này đầy sách."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói xe buýt đã kín hành khách."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 这个包里装满了书 để nói sách lấp đầy túi.",
+            "frame": "这个包里 + 装满了 + 书",
+            "model": "这个包里装满了书。",
+            "vi": "Chiếc túi này đầy sách.",
+            "criteria": [
+              "Có 装满了书.",
+              "满 nói sách lấp đầy sức chứa của túi."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 公交车上坐满了乘客 để nói xe kín hành khách.",
+            "frame": "公交车上 + 坐满了 + 乘客",
+            "model": "公交车上坐满了乘客。",
+            "vi": "Xe buýt đã kín hành khách.",
+            "criteria": [
+              "Có 坐满了乘客.",
+              "满 nói hành khách đã lấp kín không gian xe."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "chín",
+      "meaning": "chín; quen thuộc",
       "intro": [
         {
           "pinyin": "shú",
-          "meaning": "chín"
+          "meaning": "chín; quen thuộc"
+        },
+        {
+          "pinyin": "shóu",
+          "meaning": "cách đọc khẩu ngữ của 熟 trong một số vùng/cụm"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "饭熟了，可以吃了。",
+          "vi": "Cơm chín rồi, có thể ăn rồi.",
+          "analysis": "熟了 nói cơm đạt trạng thái chín; 可以吃了 nói đã có thể ăn.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "我跟新同事还不熟。",
+          "vi": "Tôi vẫn chưa quen đồng nghiệp mới.",
+          "analysis": "跟新同事还不熟 nói quan hệ quen biết chưa sâu, không nói món ăn.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h2-5c57b490ae92",
       "hanzi": "熟",
       "level": 2,
       "sourceIndex": 14,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-049 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 508,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/熟"
+        ],
+        "introduction": {
+          "scope": "đồ ăn đã chín hoặc người đã quen thuộc; bài chính dùng cách đọc thông dụng"
+        },
+        "meaning": {
+          "scene": "熟 mô tả thức ăn đã chín hoặc mức độ quen giữa người với người.",
+          "explanation": "饭熟了 nói cơm đã chín; 我跟他很熟 nói tôi quen anh ấy. Hai nghĩa dựa vào danh từ/cấu trúc đi cùng, không phải cùng một bản dịch.",
+          "boundary": "熟 đối lập với 生 trong đồ ăn hoặc mức độ quen; 熟 không luôn có nghĩa là thành thạo mọi kỹ năng.",
+          "conditions": [
+            "Nhìn danh từ sau 熟 hoặc cấu trúc 跟 + người + 熟 để chọn nghĩa chín hay quen."
+          ],
+          "takeaway": "熟 có thể nói đồ ăn chín hoặc quan hệ đã quen."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "đồ ăn + 熟了",
+            "position": "熟 đứng sau đồ ăn.",
+            "required": "Chủ thể là thứ có thể nấu chín.",
+            "omission": "Có thể dùng 很熟 khi nói mức độ chín trong ngữ cảnh phù hợp.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "跟 + người + 很熟",
+            "position": "熟 đứng sau người được nói đến.",
+            "required": "Cần người hoặc nhóm người làm đối tượng quen biết.",
+            "omission": "Có thể bỏ 跟 + người nếu ngữ cảnh đã rõ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "饭熟了，可以吃了。",
+            "vi": "Cơm chín rồi, có thể ăn rồi.",
+            "analysis": "熟了 nói cơm đạt trạng thái chín; 可以吃了 nói đã có thể ăn.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我跟新同事还不熟。",
+            "vi": "Tôi vẫn chưa quen đồng nghiệp mới.",
+            "analysis": "跟新同事还不熟 nói quan hệ quen biết chưa sâu, không nói món ăn.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "熟 và 生: chín hay sống; quen hay lạ",
+            "scene": "Đối chiếu trạng thái đồ ăn hoặc mức độ quen biết.",
+            "possibleConfusion": "Cả hai đều có thể làm tính từ sau danh từ.",
+            "difference": "熟 nói đã chín hoặc đã quen; 生 nói sống/chưa chín hoặc chưa quen tùy cụm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "饭熟了，可以吃了。",
+                "vi": "Cơm chín rồi, có thể ăn rồi.",
+                "comment": "熟 nói trạng thái chín của cơm.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "肉还生，不能吃。",
+                "vi": "Thịt vẫn còn sống/chưa chín, không thể ăn.",
+                "comment": "生 đối lập với 熟 trong đồ ăn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 熟 thành 生 trong câu về cơm sẽ đảo trạng thái chín; trong câu về người, 生 còn có thể chỉ chưa quen."
+            },
+            "boundary": "Đồ ăn: chín/sống; quan hệ: quen/chưa quen.",
+            "tip": "Nhìn đối tượng là món ăn hay người để dịch 熟."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà hai nghĩa chín và quen; cách đọc khẩu ngữ khác chỉ ghi nhận.",
+          "literalTranslation": "Đã rà không dịch 熟人 thành người đã chín.",
+          "confusables": "Đã đối chiếu 熟/生 trong ngữ cảnh đồ ăn."
+        },
+        "pronunciation": {
+          "text": "熟 trong hai câu mẫu đọc thanh 2; cách đọc khẩu ngữ khác không tự dùng thay trong mọi cụm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 饭___了，可以吃了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói chưa quen đồng nghiệp dùng 很熟 hay 不熟?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "熟"
+            ],
+            "explanation": "饭熟了 là cơm chín rồi."
+          },
+          "q2": {
+            "accepted": [
+              "不熟"
+            ],
+            "explanation": "不熟 nói chưa quen; 很熟 nói rất quen."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói thịt này vẫn chưa chín."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi rất quen người hàng xóm mới chuyển đến."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 这块肉还不熟 để nói thịt chưa chín.",
+            "frame": "这块肉 + 还不熟",
+            "model": "这块肉还不熟。",
+            "vi": "Miếng thịt này vẫn chưa chín.",
+            "criteria": [
+              "Có 不熟.",
+              "熟 nói trạng thái chín của thịt."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我跟新邻居很熟 để nói quan hệ quen biết.",
+            "frame": "我 + 跟 + 新邻居 + 很熟",
+            "model": "我跟新邻居很熟。",
+            "vi": "Tôi rất quen người hàng xóm mới chuyển đến.",
+            "criteria": [
+              "Có 跟新邻居很熟.",
+              "熟 nói mức độ quen với người."
+            ]
+          }
+        }
+      }
     },
     {
-      "meaning": "tiết kiệm",
+      "meaning": "tiết kiệm; tỉnh",
       "intro": [
         {
           "pinyin": "shěng",
-          "meaning": "tiết kiệm"
+          "meaning": "tiết kiệm; tỉnh"
+        },
+        {
+          "pinyin": "xǐng",
+          "meaning": "tự kiểm điểm, trong 反省"
         }
       ],
-      "examples": [],
-      "status": "catalog",
+      "examples": [
+        {
+          "id": "e1",
+          "zh": "坐地铁可以省钱。",
+          "vi": "Đi tàu điện ngầm có thể tiết kiệm tiền.",
+          "analysis": "省钱 nói giảm chi phí phải trả.",
+          "practiceAllowed": true
+        },
+        {
+          "id": "e2",
+          "zh": "广东省在中国南方。",
+          "vi": "Tỉnh Quảng Đông ở miền nam Trung Quốc.",
+          "analysis": "省 đứng sau 广东 để tạo tên đơn vị hành chính; ở đây không có nghĩa tiết kiệm.",
+          "practiceAllowed": true
+        }
+      ],
+      "status": "deep",
       "id": "hz-h2-75f88f348be7",
       "hanzi": "省",
       "level": 2,
       "sourceIndex": 15,
       "sourceId": "hanzii-wordlist",
       "meaningOrigin": "cvdict",
-      "editorialStatus": "bài chi tiết do app biên soạn; thẻ từ điển chưa rà soát từng nghĩa",
-      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi"
+      "editorialStatus": "Biên soạn V2 · batch-049 · trung bình",
+      "membershipUrl": "https://hanzii.net/notebook/detail/hsk-8?hl=vi",
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 509,
+        "authorship": "Tự biên soạn, đọc mục 汉典; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.zdic.net/hans/省"
+        ],
+        "introduction": {
+          "scope": "bài chính dùng cách đọc của 省 trong nghĩa tiết kiệm; tỉnh là nghĩa danh từ theo địa danh, cách đọc khác chỉ nêu trong 反省"
+        },
+        "meaning": {
+          "scene": "省 có thể nói làm giảm chi phí/thời gian, hoặc là danh từ chỉ tỉnh trong tên địa phương.",
+          "explanation": "省钱 nghĩa là tiết kiệm tiền; 省时间 nghĩa là tiết kiệm thời gian. Khi đứng trong tên như 广东省, 省 là tỉnh và không dịch theo động từ tiết kiệm.",
+          "boundary": "省 trong 省钱 là động từ; 省 trong 广东省 là danh từ địa danh. 反省 có cách đọc khác và là phần mở rộng.",
+          "conditions": [
+            "Nhìn từ đứng sau hoặc cấu trúc tên địa phương để chọn nghĩa; không dùng 省钱 khi muốn nói một tỉnh."
+          ],
+          "takeaway": "Cùng chữ 省 có thể là tiết kiệm hoặc tỉnh; cấu trúc quyết định nghĩa."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "省 + tiền/thời gian",
+            "position": "省 đứng trước thứ được tiết kiệm.",
+            "required": "Sau 省 cần chi phí, thời gian hoặc nguồn lực.",
+            "omission": "Có thể nói 省下来 để nhấn phần được giữ lại.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "tên địa phương + 省",
+            "position": "省 đứng sau tên tỉnh.",
+            "required": "Tên trước 省 phải là địa danh theo cách gọi này.",
+            "omission": "Có thể dùng tên thành phố/tỉnh khác theo tên chính thức.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "坐地铁可以省钱。",
+            "vi": "Đi tàu điện ngầm có thể tiết kiệm tiền.",
+            "analysis": "省钱 nói giảm chi phí phải trả.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "广东省在中国南方。",
+            "vi": "Tỉnh Quảng Đông ở miền nam Trung Quốc.",
+            "analysis": "省 đứng sau 广东 để tạo tên đơn vị hành chính; ở đây không có nghĩa tiết kiệm.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "省 trong 省钱 và 广东省",
+            "scene": "Phân biệt động từ tiết kiệm với danh từ tỉnh.",
+            "possibleConfusion": "Cùng chữ 省 nhưng một bên đứng trước đối tượng, một bên đứng sau địa danh.",
+            "difference": "省钱 là tiết kiệm tiền; 广东省 là tỉnh Quảng Đông.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "坐地铁可以省钱。",
+                "vi": "Đi tàu điện ngầm có thể tiết kiệm tiền.",
+                "comment": "省 đứng trước 钱 làm động từ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "广东省在中国南方。",
+                "vi": "Tỉnh Quảng Đông ở miền nam Trung Quốc.",
+                "comment": "省 đứng sau tên địa danh.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Không thể đổi vị trí hoặc dịch chung hai trường hợp: một bên là hành động tiết kiệm, một bên là đơn vị hành chính."
+            },
+            "caseExampleTerms": [
+              "省钱",
+              "广东省"
+            ],
+            "boundary": "Trước tiền/thời gian: tiết kiệm; sau tên địa phương: tỉnh.",
+            "tip": "Nhìn chữ đứng cạnh 省 trước khi dịch."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã rà cách đọc của 省 trong tiết kiệm/tỉnh và cách đọc khác trong 反省.",
+          "literalTranslation": "Đã rà không dịch 广东省 thành Quảng Đông tiết kiệm.",
+          "confusables": "Đã đối chiếu hai vị trí của 省 bằng câu thật."
+        },
+        "pronunciation": {
+          "text": "省 trong 省钱 đọc thanh 3; trong tên tỉnh cũng dùng cách đọc này. 反省 có cách đọc khác, chỉ học thêm khi gặp nguyên cụm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 坐地铁可以___钱。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Trong 广东省, 省 nghĩa là tiết kiệm hay tỉnh?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "省"
+            ],
+            "explanation": "省钱 là tiết kiệm tiền."
+          },
+          "q2": {
+            "accepted": [
+              "tỉnh"
+            ],
+            "explanation": "广东省 là tỉnh Quảng Đông."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói đi xe đạp có thể tiết kiệm tiền."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tỉnh Tứ Xuyên ở phía tây nam Trung Quốc."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 骑自行车可以省钱 để nói giảm chi phí.",
+            "frame": "骑自行车 + 可以 + 省钱",
+            "model": "骑自行车可以省钱。",
+            "vi": "Đi xe đạp có thể tiết kiệm tiền.",
+            "criteria": [
+              "Có 省钱.",
+              "省 đứng trước 钱 và mang nghĩa tiết kiệm."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 四川省在中国西南部 để nói tên tỉnh.",
+            "frame": "四川省 + 在 + địa điểm",
+            "model": "四川省在中国西南部。",
+            "vi": "Tỉnh Tứ Xuyên ở phía tây nam Trung Quốc.",
+            "criteria": [
+              "Có 四川省.",
+              "省 đứng sau địa danh và mang nghĩa tỉnh."
+            ]
+          }
+        }
+      }
     },
     {
       "id": "hz-h2-6bb2d25a9b8f",
@@ -142946,8 +144319,8 @@
   "contentStandard": "5.1–5.6 / v8",
   "contentAuditSummary": {
     "total": 2234,
-    "ready": 511,
-    "pending": 1723,
+    "ready": 519,
+    "pending": 1715,
     "byLevel": [
       {
         "level": 1,
@@ -142957,7 +144330,7 @@
       {
         "level": 2,
         "total": 764,
-        "ready": 7
+        "ready": 15
       },
       {
         "level": 3,

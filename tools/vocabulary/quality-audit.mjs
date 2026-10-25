@@ -122,7 +122,7 @@ export function qualityWarnings(words,{nearThreshold=0.78}={}) {
       }
     }
     for(const trap of word.lesson.traps??[]){
-      const terms=pairTerms(trap.title);
+      const terms=trap.caseExampleTerms??pairTerms(trap.title);
       const text=sentenceText(trap);
       for(const term of terms) if(term && !text.includes(term)) warnings.push({kind:'trap-pair-missing-case-example',id:word.id,ordinal:word.lesson.cohortOrdinal,hanzi:word.hanzi,trapId:trap.id,title:trap.title,missingTerm:term});
       for(const c of trap.cases??[]){
