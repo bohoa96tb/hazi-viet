@@ -1,0 +1,1672 @@
+{
+  "id": "batch-050",
+  "authorship": "8 mục baseline 510–517; tự biên soạn, đối chiếu MDBG và nguồn ngữ pháp, tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Dễ gồm 短、轻、近; trung bình gồm 表、该; khó gồm 越、过、长.",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
+  "entries": [
+    {
+      "id": "hz-h2-6bb2d25a9b8f",
+      "hanzi": "短",
+      "wordEdits": {
+        "meaning": "ngắn",
+        "intro": [
+          {
+            "pinyin": "duǎn",
+            "meaning": "ngắn"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-050 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 510,
+        "authorship": "Tự biên soạn, đối chiếu MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E7%9F%A2",
+          "https://en.wiktionary.org/wiki/短"
+        ],
+        "introduction": {
+          "scope": "Bài tập trung vào 短 chỉ độ ngắn về chiều dài và thời gian, đối chiếu với 长."
+        },
+        "meaning": {
+          "scene": "Bạn nói một vật ngắn hơn bình thường, hoặc thời gian không đủ dài.",
+          "explanation": "短 là tính từ chỉ ngắn. Đứng trước danh từ để nói vật ngắn, hoặc làm vị ngữ sau chủ ngữ để nói vật hoặc thời gian ngắn. Trái nghĩa là 长.",
+          "boundary": "短 không dùng để nói người thấp. Người thấp dùng 矮. 短 cũng không dùng để nói số lượng ít, số lượng ít dùng 少.",
+          "conditions": [
+            "Khi nói độ dài hoặc thời gian, dùng 短; khi nói chiều cao của người, dùng 矮.",
+            "短 thường đi với 很, 太, 比较 để nói mức độ, hoặc đứng trước danh từ: 短发, 短时间."
+          ],
+          "takeaway": "Muốn nói ngắn về độ dài hoặc thời gian thì dùng 短; muốn nói thấp về chiều cao thì không dùng 短."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "短 + danh từ",
+            "position": "短 đứng trước danh từ chỉ vật hoặc thời gian.",
+            "required": "Sau 短 là danh từ chỉ vật có độ dài hoặc thời gian.",
+            "omission": "Có thể bỏ danh từ khi ngữ cảnh đã rõ, ví dụ nói về tóc.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ ngữ + 很/太 + 短",
+            "position": "短 làm vị ngữ, đứng sau chủ ngữ.",
+            "required": "Trước 短 thường có 很, 太 hoặc 比较 để nói mức độ.",
+            "omission": "Trong câu cảm thán có thể bỏ 很, ví dụ 太短了.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她的头发很短。",
+            "vi": "Tóc của cô ấy rất ngắn.",
+            "analysis": "头发很短 nói tóc ngắn; 短 làm vị ngữ sau tóc.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "时间很短，我们快一点儿吧。",
+            "vi": "Thời gian rất ngắn, chúng ta nhanh lên một chút nhé.",
+            "analysis": "时间很短 nói thời gian không đủ dài; 短 đứng sau thời gian.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "短 chỉ độ ngắn, không chỉ chiều cao thấp",
+            "scene": "Phân biệt nói vật ngắn với nói người thấp.",
+            "possibleConfusion": "Người Việt dễ dùng 短 cho cả người thấp, vì tiếng Việt đều nói ngắn và thấp gần nhau.",
+            "difference": "短 nói độ dài hoặc thời gian ngắn; 矮 nói chiều cao thấp.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她的头发很短。",
+                "vi": "Tóc của cô ấy rất ngắn.",
+                "comment": "短 nói tóc ngắn, dùng đúng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他很矮，不是很高。",
+                "vi": "Anh ấy rất thấp, không cao lắm.",
+                "comment": "Nói người thấp phải dùng 矮, không dùng 短.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 短 thành 矮 trong câu về tóc sẽ đổi nghĩa; đổi 矮 thành 短 trong câu về người sẽ không tự nhiên."
+            },
+            "boundary": "Nhìn xem đang nói độ dài hay chiều cao trước khi chọn từ.",
+            "tip": "Nói tóc, váy, thời gian ngắn: 短; nói người thấp: 矮."
+          },
+          {
+            "id": "t2",
+            "title": "短 nói thiếu về độ dài, 少 nói ít về số lượng",
+            "scene": "Phân biệt thiếu và ít.",
+            "possibleConfusion": "短 và 少 đều gợi ý không đủ, dễ lẫn khi nói thời gian và số lượng.",
+            "difference": "短 nói thời gian hoặc vật ngắn, thiếu; 少 nói số lượng ít.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "时间很短，我们快一点儿吧。",
+                "vi": "Thời gian rất ngắn, chúng ta nhanh lên một chút nhé.",
+                "comment": "短 nói thời gian ngắn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "今天来的人很少。",
+                "vi": "Hôm nay số người đến rất ít.",
+                "comment": "少 nói số người ít, không dùng 短.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 短 thành 少 trong câu về thời gian sẽ không đúng; đổi 少 thành 短 trong câu về số người cũng không đúng."
+            },
+            "boundary": "Hỏi về dài hay ngắn thì dùng 短; hỏi về nhiều hay ít thì dùng 少.",
+            "tip": "Thời gian ngắn: 时间短; người ít: 人少."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "短 chỉ có một cách đọc thông dụng; nghĩa chính là ngắn, nghĩa mở rộng là thiếu.",
+          "literalTranslation": "Đã rà không dịch mọi 短 thành thiếu; chỉ dùng thiếu khi nói thời gian hoặc vật không đủ dài.",
+          "confusables": "Đã đối chiếu 短 với 长, 矮 và 少."
+        },
+        "pronunciation": {
+          "text": "短 có một âm tiết, đọc rõ và dứt khoát, không nuốt âm cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 她的头发很___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói thời gian không đủ dài, dùng 时间很短 hay 时间很少?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "短"
+            ],
+            "explanation": "头发很短 nói tóc ngắn."
+          },
+          "q2": {
+            "accepted": [
+              "时间很短"
+            ],
+            "explanation": "Thời gian ngắn dùng 短; 很少 dùng cho số lượng ít."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi thích tóc ngắn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói thời gian nghỉ trưa rất ngắn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我喜欢短头发 để nói tôi thích tóc ngắn.",
+            "frame": "我喜欢 + 短头发",
+            "model": "我喜欢短头发。",
+            "vi": "Tôi thích tóc ngắn.",
+            "criteria": [
+              "Có 短.",
+              "短 đứng trước tóc."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 午休的时间很短 để nói thời gian nghỉ trưa ngắn.",
+            "frame": "午休的时间 + 很短",
+            "model": "午休的时间很短。",
+            "vi": "Thời gian nghỉ trưa rất ngắn.",
+            "criteria": [
+              "Có 短.",
+              "短 nói thời gian ngắn."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "hz-h2-634dac7281ef",
+      "hanzi": "表",
+      "wordEdits": {
+        "meaning": "bảng; đồng hồ",
+        "intro": [
+          {
+            "pinyin": "biǎo",
+            "meaning": "bảng; đồng hồ"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-050 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 511,
+        "authorship": "Tự biên soạn, đối chiếu MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?wdqchid=%E5%8F%91%E8%A1%A8",
+          "https://mandarinhq.com/2023/05/new-hsk-2/"
+        ],
+        "introduction": {
+          "scope": "Bài tập trung vào 表 làm danh từ chỉ bảng, biểu mẫu và đồng hồ; 表示 là cụm khác, chỉ nêu để nhận diện."
+        },
+        "meaning": {
+          "scene": "Bạn điền một biểu mẫu, xem thời gian biểu, hoặc nói đồng hồ của mình hỏng.",
+          "explanation": "表 là danh từ. 表 có thể chỉ một tờ bảng hoặc biểu mẫu cần điền, ví dụ 时间表, 表格; cũng chỉ đồng hồ đeo tay trong 手表. Khi muốn nói bày tỏ, dùng 表示, không dùng một mình 表 làm động từ bày tỏ.",
+          "boundary": "表 một mình không phải động từ bày tỏ. Muốn nói bày tỏ lòng biết ơn thì dùng 表示感谢, không nói 表感谢.",
+          "conditions": [
+            "Khi nói bảng hoặc biểu mẫu, dùng lượng từ 张: 一张表, 这张表.",
+            "Khi nói đồng hồ đeo tay, dùng 手表, lượng từ thường là 一块 hoặc 一只.",
+            "Khi muốn bày tỏ, dùng 表示 + danh từ hoặc mệnh đề."
+          ],
+          "takeaway": "Nhớ 表 là bảng hoặc đồng hồ; muốn bày tỏ thì dùng 表示."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一张表 / 这张表",
+            "position": "表 làm danh từ, đứng sau lượng từ 张.",
+            "required": "Trước 表 cần lượng từ khi nói một tờ bảng cụ thể.",
+            "omission": "Có thể bỏ 张 khi nói chung về bảng, ví dụ 时间表.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "手表 + 坏了 / 很好",
+            "position": "手表 làm chủ ngữ hoặc tân ngữ, 表 là phần sau của từ ghép.",
+            "required": "手表 chỉ đồng hồ đeo tay, không chỉ bảng.",
+            "omission": "Trong ngữ cảnh đã rõ, có thể chỉ nói 表 để chỉ đồng hồ, nhưng ở mức này nên nói đủ 手表.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请填这张表。",
+            "vi": "Hãy điền vào tờ biểu này.",
+            "analysis": "这张表 chỉ tờ biểu mẫu cần điền; 表 là danh từ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我的手表坏了。",
+            "vi": "Đồng hồ đeo tay của tôi hỏng rồi.",
+            "analysis": "手表坏了 nói đồng hồ hỏng; 表 ở đây là phần chỉ đồng hồ trong từ ghép.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "表 là bảng hoặc đồng hồ, 表示 mới là bày tỏ",
+            "scene": "Phân biệt danh từ 表 với động từ 表示.",
+            "possibleConfusion": "Cùng có chữ 表, dễ tưởng 表 một mình cũng có nghĩa bày tỏ.",
+            "difference": "表 là bảng hoặc đồng hồ; 表示 là bày tỏ một ý kiến hoặc tình cảm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请填这张表。",
+                "vi": "Hãy điền vào tờ biểu này.",
+                "comment": "表 chỉ tờ biểu.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我想表示感谢。",
+                "vi": "Tôi muốn bày tỏ lời cảm ơn.",
+                "comment": "表示感谢 nói bày tỏ lòng biết ơn.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Không thể thay 表示 bằng 表 trong 表示感谢 mà giữ nguyên nghĩa; 表感谢 không phải cách nói tự nhiên ở đây."
+            },
+            "boundary": "Thấy 表 đứng một mình sau lượng từ thì thường là bảng hoặc đồng hồ; thấy 表示 thì mới là bày tỏ.",
+            "tip": "Điền bảng: 填表; bày tỏ: 表示."
+          },
+          {
+            "id": "t2",
+            "title": "Lượng từ cho bảng khác với lượng từ cho đồng hồ",
+            "scene": "Phân biệt lượng từ cho bảng và đồng hồ.",
+            "possibleConfusion": "Cả hai đều có 表, dễ dùng chung một lượng từ.",
+            "difference": "Bảng dùng 张; đồng hồ đeo tay dùng 块 hoặc 只.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请填这张表。",
+                "vi": "Hãy điền vào tờ biểu này.",
+                "comment": "一张表 dùng lượng từ 张 cho tờ bảng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我买了一块手表。",
+                "vi": "Tôi đã mua một chiếc đồng hồ đeo tay.",
+                "comment": "一块手表 dùng lượng từ 块 cho đồng hồ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "unnatural",
+              "explanation": "Đổi 张 thành 块 trong câu về bảng sẽ không tự nhiên; đổi 块 thành 张 trong câu về đồng hồ cũng vậy."
+            },
+            "boundary": "Nhìn vật là tờ bảng hay đồng hồ trước khi chọn lượng từ.",
+            "tip": "Bảng: 一张表; đồng hồ: 一块手表."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "表 chỉ có một cách đọc thông dụng; nghĩa chính là bảng và đồng hồ, nghĩa bày tỏ nằm trong 表示.",
+          "literalTranslation": "Đã rà không dịch mọi 表 thành bày tỏ; chỉ dịch bày tỏ khi gặp 表示.",
+          "confusables": "Đã đối chiếu 表 với 表示, 表达 và 代表 ở mức nhận diện."
+        },
+        "pronunciation": {
+          "text": "表 có một âm tiết, đọc rõ và dứt khoát, không nuốt âm cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 请填这___表。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói bày tỏ lời cảm ơn, dùng 表示感谢 hay 表感谢?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "张"
+            ],
+            "explanation": "一张表 dùng lượng từ 张 cho tờ bảng."
+          },
+          "q2": {
+            "accepted": [
+              "表示感谢"
+            ],
+            "explanation": "Bày tỏ dùng 表示感谢, không dùng 表感谢."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi muốn xem thời gian biểu."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói đồng hồ đeo tay của tôi rất tốt."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我想看时间表 để nói tôi muốn xem thời gian biểu.",
+            "frame": "我想看 + 时间表",
+            "model": "我想看时间表。",
+            "vi": "Tôi muốn xem thời gian biểu.",
+            "criteria": [
+              "Có 表.",
+              "表 chỉ bảng thời gian."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我的手表很好 để nói đồng hồ của tôi rất tốt.",
+            "frame": "我的手表 + 很好",
+            "model": "我的手表很好。",
+            "vi": "Đồng hồ đeo tay của tôi rất tốt.",
+            "criteria": [
+              "Có 表.",
+              "手表 chỉ đồng hồ đeo tay."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "hz-h2-404a3008879b",
+      "hanzi": "该",
+      "wordEdits": {
+        "meaning": "nên; đến lượt",
+        "intro": [
+          {
+            "pinyin": "gāi",
+            "meaning": "nên; đến lượt"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-050 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 512,
+        "authorship": "Tự biên soạn, đối chiếu Collins và Chinese Grammar Wiki; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.collinsdictionary.com/dictionary/chinese_traditional-english/%E8%A9%B2",
+          "https://resources.allsetlearning.com/gramwiki/?title=Expressing_%22should%22_with_%22yinggai%22&diff=prev&oldid=44516"
+        ],
+        "introduction": {
+          "scope": "Bài tập trung vào 该 làm trợ động từ chỉ nên, và mẫu đến lượt ai."
+        },
+        "meaning": {
+          "scene": "Bạn nhắc ai nên làm một việc, hoặc nói đã đến lượt ai làm việc gì.",
+          "explanation": "该 đứng trước động từ để nói nên làm việc đó, gần với 应该 nhưng ngắn gọn hơn. 该 cũng dùng trong mẫu đến lượt: 该你了. Phủ định là 不该, không dùng 该不.",
+          "boundary": "该 không phải động từ chính chỉ một hành động; không dùng 该 với 了, 着 hoặc 过 sau nó, và không láy lại.",
+          "conditions": [
+            "该 + động từ: 该休息, 该回家.",
+            "该 + người: 该你了, 该他了, nói đến lượt.",
+            "Phủ định: 不该 + động từ; không dùng 该不."
+          ],
+          "takeaway": "Muốn nói nên làm gì thì dùng 该 + động từ; muốn nói đến lượt ai thì dùng 该 + người."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ + 该 + động từ",
+            "position": "该 đứng trước động từ, sau chủ ngữ.",
+            "required": "Sau 该 cần một động từ chỉ việc nên làm.",
+            "omission": "Có thể bỏ chủ ngữ khi ngữ cảnh đã rõ, ví dụ 该休息了.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "该 + người + 了",
+            "position": "该 đứng trước người được đến lượt, 了 ở cuối câu.",
+            "required": "Sau 该 là người đến lượt, không phải động từ.",
+            "omission": "Có thể bỏ 了 khi nói ngắn gọn, ví dụ 该你.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你该休息了。",
+            "vi": "Bạn nên nghỉ ngơi rồi.",
+            "analysis": "该休息 nói nên nghỉ ngơi; 该 đứng trước động từ 休息.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "该你了。",
+            "vi": "Đến lượt bạn rồi.",
+            "analysis": "该你了 nói đến lượt bạn; 该 đứng trước người được đến lượt.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "该 nói nên, không phải bắt buộc mạnh như 得",
+            "scene": "Phân biệt mức độ nên và phải.",
+            "possibleConfusion": "该, 应该 và 得 đều có thể dịch là nên hoặc phải trong tiếng Việt, dễ dùng lẫn mức độ.",
+            "difference": "该 và 应该 nói nên, là lời khuyên; 得 nói phải, bắt buộc hơn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你该休息了。",
+                "vi": "Bạn nên nghỉ ngơi rồi.",
+                "comment": "该休息 là lời khuyên nên nghỉ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你得快一点儿，不然就迟到了。",
+                "vi": "Bạn phải nhanh lên một chút, nếu không sẽ muộn.",
+                "comment": "得 nói phải nhanh, bắt buộc hơn 该.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 该 thành 得 trong câu khuyên nghỉ sẽ đổi từ lời khuyên thành yêu cầu bắt buộc; đổi 得 thành 该 trong câu giục nhanh sẽ làm nhẹ mức độ."
+            },
+            "boundary": "Muốn khuyên thì dùng 该; muốn yêu cầu bắt buộc thì dùng 得.",
+            "tip": "Nên: 该; phải: 得."
+          },
+          {
+            "id": "t2",
+            "title": "Phủ định của 该 là 不该, không phải 该不",
+            "scene": "Phân biệt vị trí của 不 với 该.",
+            "possibleConfusion": "Người học dễ đặt 不 sau 该, theo thói quen đặt phủ định sau động từ chính.",
+            "difference": "不 đứng trước 该: 不该; 该不 không phải mẫu phủ định của 该.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "你不该这么说。",
+                "vi": "Bạn không nên nói như vậy.",
+                "comment": "不该 nói không nên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "你该不这么说。",
+                "vi": "Câu này không dùng để phủ định 该.",
+                "comment": "该不 đặt 不 sau 该, không phải cách phủ định đúng.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "corrections": [
+              {
+                "caseId": "c2",
+                "zh": "你不该这么说。",
+                "vi": "Bạn không nên nói như vậy.",
+                "reason": "不 phải đứng trước 该 để phủ định."
+              }
+            ],
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Dùng 该不 thay 不该 sẽ làm câu sai mẫu; dùng 不该 thì câu đúng."
+            },
+            "boundary": "Phủ định trợ động từ thì đặt 不 trước trợ động từ.",
+            "tip": "Nhớ: 不该, không phải 该不."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "该 chỉ có một cách đọc thông dụng; nghĩa chính là nên, nghĩa mở rộng là đến lượt.",
+          "literalTranslation": "Đã rà không dịch mọi 该 thành phải; chỉ dùng phải khi có 得 hoặc ngữ cảnh bắt buộc.",
+          "confusables": "Đã đối chiếu 该 với 应该 và 得, và với mẫu phủ định 不该."
+        },
+        "pronunciation": {
+          "text": "该 có một âm tiết, đọc rõ và dứt khoát, không nuốt âm cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 你___休息了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói đến lượt bạn, dùng 该你了 hay 你该了?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "该"
+            ],
+            "explanation": "该休息 nói nên nghỉ ngơi."
+          },
+          "q2": {
+            "accepted": [
+              "该你了"
+            ],
+            "explanation": "Đến lượt bạn dùng 该你了; 该 đứng trước người được đến lượt."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi nên về nhà rồi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi nên ngủ sớm."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我该回家了 để nói tôi nên về nhà.",
+            "frame": "我 + 该 + 回家",
+            "model": "我该回家了。",
+            "vi": "Tôi nên về nhà rồi.",
+            "criteria": [
+              "Có 该.",
+              "该 đứng trước động từ."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我该早点儿睡觉 để nói tôi nên ngủ sớm.",
+            "frame": "我 + 该 + 早点儿睡觉",
+            "model": "我该早点儿睡觉。",
+            "vi": "Tôi nên ngủ sớm.",
+            "criteria": [
+              "Có 该.",
+              "该 nói nên làm việc gì."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "hz-h2-73efaeb69e0e",
+      "hanzi": "越",
+      "wordEdits": {
+        "meaning": "càng",
+        "intro": [
+          {
+            "pinyin": "yuè",
+            "meaning": "càng"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-050 · khó"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 513,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và FlexiClasses; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?wdqb=c%3A%E8%B6%8A%2A&wdrst=1",
+          "https://flexiclasses.com/grammar/how-to-use-%e8%b6%8a%e6%9d%a5%e8%b6%8a/"
+        ],
+        "introduction": {
+          "scope": "Bài tập trung vào 越 trong hai mẫu càng ngày càng và càng… càng…"
+        },
+        "meaning": {
+          "scene": "Bạn nói một việc thay đổi dần theo thời gian, hoặc mức độ của việc sau tăng theo việc trước.",
+          "explanation": "越 dùng trong 越来越 để nói càng ngày càng thay đổi, và trong 越…越… để nói càng A càng B. Trong hai mẫu này, sau 越 thường là tính từ hoặc động từ, không dùng 很, 非常 hoặc 太 trước tính từ đó.",
+          "boundary": "越 không phải từ so sánh tĩnh như 更. 更 nói hơn trong một lần so sánh; 越 nói mức độ tăng dần theo thời gian hoặc theo điều kiện.",
+          "conditions": [
+            "越来越 + tính từ + 了: 天气越来越冷了.",
+            "越A越B: 越学越有意思; A và B thường cùng loại.",
+            "Không dùng 很, 非常 hoặc 太 trước tính từ trong hai mẫu này."
+          ],
+          "takeaway": "Muốn nói thay đổi dần thì dùng 越来越; muốn nói càng A càng B thì dùng 越…越…."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "越来越 + tính từ + 了",
+            "position": "越来越 đứng trước tính từ, 了 ở cuối câu chỉ sự thay đổi.",
+            "required": "Sau 越来越 cần tính từ hoặc động từ chỉ trạng thái thay đổi.",
+            "omission": "Có thể bỏ 了 khi nói ngắn gọn, nhưng ở mẫu đầy đủ nên giữ 了 cuối câu.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "越A越B",
+            "position": "越 đứng trước A và trước B, A là điều kiện, B là kết quả tăng theo.",
+            "required": "A và B thường cùng loại, thường là tính từ hoặc động từ.",
+            "omission": "Không bỏ 越 ở phía B, vì thiếu 越 thì không còn mẫu càng… càng….",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "天气越来越冷了。",
+            "vi": "Thời tiết càng ngày càng lạnh.",
+            "analysis": "越来越冷了 nói thời tiết lạnh dần theo thời gian.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "越学越有意思。",
+            "vi": "Càng học càng thấy thú vị.",
+            "analysis": "越学越有意思 nói học càng nhiều thì càng thấy thú vị.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "越来越 nói thay đổi theo thời gian, 越…越… nói thay đổi theo điều kiện",
+            "scene": "Phân biệt hai mẫu dùng 越.",
+            "possibleConfusion": "Cả hai mẫu đều có 越 và đều nói tăng dần, dễ dùng lẫn.",
+            "difference": "越来越 nói một việc tự thay đổi theo thời gian; 越…越… nói B tăng theo A.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "天气越来越冷了。",
+                "vi": "Thời tiết càng ngày càng lạnh.",
+                "comment": "越来越冷 nói thời tiết lạnh dần.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "越学越有意思。",
+                "vi": "Càng học càng thấy thú vị.",
+                "comment": "越学越有意思 nói càng học thì càng thú vị.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Không thể thay 越来越 bằng 越…越… trong câu về thời tiết mà giữ nguyên nghĩa; hai mẫu nói hai loại thay đổi khác nhau."
+            },
+            "boundary": "Hỏi thay đổi theo thời gian hay theo điều kiện trước khi chọn mẫu.",
+            "tip": "Theo thời gian: 越来越; theo điều kiện: 越…越…."
+          },
+          {
+            "id": "t2",
+            "title": "Trong mẫu 越 không dùng 很 trước tính từ",
+            "scene": "Phân biệt mẫu 越 với câu so sánh thông thường.",
+            "possibleConfusion": "Người học quen dùng 很 trước tính từ, dễ thêm 很 vào sau 越.",
+            "difference": "Trong 越来越 và 越…越…, tính từ đứng ngay sau 越, không có 很 ở giữa.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "天气越来越冷了。",
+                "vi": "Thời tiết càng ngày càng lạnh.",
+                "comment": "越来越冷 dùng đúng mẫu, không có 很.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "天气越来越很冷了。",
+                "vi": "Câu này thêm 很 vào mẫu 越, không đúng.",
+                "comment": "越来越很冷 thêm 很 vào giữa mẫu, không dùng.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "corrections": [
+              {
+                "caseId": "c2",
+                "zh": "天气越来越冷了。",
+                "vi": "Thời tiết càng ngày càng lạnh.",
+                "reason": "Trong mẫu 越来越, tính từ đứng ngay sau 越, không thêm 很."
+              }
+            ],
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Thêm 很 vào mẫu 越 sẽ làm câu sai mẫu; bỏ 很 thì câu đúng."
+            },
+            "boundary": "Thấy 越 thì không thêm 很 trước tính từ trong cùng mẫu.",
+            "tip": "Nhớ: 越来越冷, không phải 越来越很冷."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "越 chỉ có một cách đọc thông dụng; nghĩa chính là càng, nghĩa mở rộng là vượt qua trong 越过.",
+          "literalTranslation": "Đã rà không dịch mọi 越 thành hơn; hơn trong so sánh tĩnh thường dùng 更.",
+          "confusables": "Đã đối chiếu 越来越 với 越…越… và với 更."
+        },
+        "pronunciation": {
+          "text": "越 có một âm tiết, đọc rõ và dứt khoát, không nuốt âm cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 天气___冷了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói càng học càng thú vị, dùng 越学越有意思 hay 越学很有意思?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "越来越"
+            ],
+            "explanation": "越来越冷了 nói càng ngày càng lạnh."
+          },
+          "q2": {
+            "accepted": [
+              "越学越有意思"
+            ],
+            "explanation": "Càng học càng thú vị dùng 越学越有意思; không thêm 很 vào mẫu 越."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi càng ngày càng thích tiếng Trung."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi càng chạy càng nhanh."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我越来越喜欢中文 để nói tôi thích tiếng Trung ngày càng nhiều.",
+            "frame": "我 + 越来越喜欢 + 中文",
+            "model": "我越来越喜欢中文了。",
+            "vi": "Tôi càng ngày càng thích tiếng Trung.",
+            "criteria": [
+              "Có 越.",
+              "越来越 nói thay đổi theo thời gian."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我越跑越快 để nói tôi càng chạy càng nhanh.",
+            "frame": "我 + 越跑越快",
+            "model": "我越跑越快。",
+            "vi": "Tôi càng chạy càng nhanh.",
+            "criteria": [
+              "Có 越.",
+              "越…越… nói càng A càng B."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "hz-h2-56182766a957",
+      "hanzi": "轻",
+      "wordEdits": {
+        "meaning": "nhẹ",
+        "intro": [
+          {
+            "pinyin": "qīng",
+            "meaning": "nhẹ"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-050 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 514,
+        "authorship": "Tự biên soạn, đối chiếu MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?wdqb=c%3A%2A%E8%BD%BB%2A&wdrst=0"
+        ],
+        "introduction": {
+          "scope": "Bài tập trung vào 轻 chỉ nhẹ về trọng lượng và nhẹ nhàng khi làm việc."
+        },
+        "meaning": {
+          "scene": "Bạn nói một vật nhẹ, hoặc nhắc ai làm việc nhẹ tay.",
+          "explanation": "轻 là tính từ chỉ nhẹ, trái nghĩa là 重. 轻 có thể nói vật nhẹ, hoặc nói làm việc nhẹ nhàng, ví dụ 轻一点儿. Trong 年轻, 轻 là phần chỉ trẻ tuổi.",
+          "boundary": "轻 không có nghĩa dễ. Dễ trong tiếng Việt khi nói việc dễ làm thường dùng 容易, không dùng 轻.",
+          "conditions": [
+            "Khi nói trọng lượng, dùng 轻 làm vị ngữ: 这个箱子很轻.",
+            "Khi nhắc làm nhẹ tay, dùng 轻一点儿 hoặc 轻声.",
+            "Trong 年轻, 轻 chỉ trẻ tuổi, không chỉ trọng lượng."
+          ],
+          "takeaway": "Muốn nói nhẹ về cân nặng hoặc nhẹ tay thì dùng 轻; muốn nói dễ thì dùng 容易."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ + 很/比较 + 轻",
+            "position": "轻 làm vị ngữ, đứng sau chủ ngữ.",
+            "required": "Trước 轻 thường có 很, 比较 hoặc 太 để nói mức độ.",
+            "omission": "Có thể nói 箱子轻一点儿 khi so sánh, không cần 很.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "轻 + 一点儿 / 轻声 + động từ",
+            "position": "轻 đứng trước 一点儿 hoặc trước động từ để nói làm nhẹ nhàng.",
+            "required": "Sau 轻 cần 一点儿 hoặc một động từ chỉ hành động nhẹ.",
+            "omission": "Có thể bỏ 一点儿 khi đã nói 轻声, ví dụ 轻声说话.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这个箱子很轻。",
+            "vi": "Cái vali này rất nhẹ.",
+            "analysis": "箱子很轻 nói vali nhẹ; 轻 làm vị ngữ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "请轻一点儿。",
+            "vi": "Xin nhẹ tay một chút.",
+            "analysis": "轻一点儿 nhắc làm việc nhẹ tay hơn.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "轻 chỉ nhẹ, không chỉ dễ",
+            "scene": "Phân biệt nhẹ và dễ.",
+            "possibleConfusion": "Tiếng Việt đều có thể nói nhẹ và dễ trong một số ngữ cảnh, dễ dùng 轻 cho việc dễ làm.",
+            "difference": "轻 nói trọng lượng nhẹ hoặc làm nhẹ tay; 容易 nói việc dễ làm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个箱子很轻。",
+                "vi": "Cái vali này rất nhẹ.",
+                "comment": "轻 nói vali nhẹ.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这道题很容易。",
+                "vi": "Bài tập này rất dễ.",
+                "comment": "很容易 nói bài dễ làm, không dùng 轻.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 轻 thành 容易 trong câu về vali sẽ đổi nghĩa; đổi 容易 thành 轻 trong câu về bài tập cũng không đúng."
+            },
+            "boundary": "Hỏi về cân nặng hay về độ khó trước khi chọn từ.",
+            "tip": "Vali nhẹ: 很轻; bài dễ: 很容易."
+          },
+          {
+            "id": "t2",
+            "title": "轻 đối chiếu với 重, không phải với 多",
+            "scene": "Phân biệt cặp phản nghĩa của 轻.",
+            "possibleConfusion": "Người học dễ nhớ 轻 là nhẹ nhưng quên cặp phản nghĩa đúng của nó.",
+            "difference": "Phản nghĩa của 轻 là 重, nặng; 多 là nhiều, không phải phản nghĩa của 轻.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个箱子很轻，那个箱子很重。",
+                "vi": "Cái vali này rất nhẹ, cái vali kia rất nặng.",
+                "comment": "轻 và 重 là cặp phản nghĩa.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这个箱子很轻，那个箱子很多。",
+                "vi": "Câu này dùng 多 để đối chiếu với 轻, không đúng.",
+                "comment": "多 nói nhiều, không phải phản nghĩa của 轻.",
+                "judgment": "wrong-intent",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "wrong-intent",
+              "explanation": "Dùng 多 để đối chiếu với 轻 sẽ không nói được ý nặng hay nhẹ; muốn đối chiếu thì dùng 重."
+            },
+            "boundary": "Muốn nói ngược với nhẹ thì dùng 重.",
+            "tip": "Nhớ cặp: 轻–重."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "轻 chỉ có một cách đọc thông dụng; nghĩa chính là nhẹ, nghĩa mở rộng là trẻ trong 年轻.",
+          "literalTranslation": "Đã rà không dịch mọi 轻 thành dễ; dễ dùng 容易.",
+          "confusables": "Đã đối chiếu 轻 với 重, 容易 và 多."
+        },
+        "pronunciation": {
+          "text": "轻 có một âm tiết, đọc rõ và dứt khoát, không nuốt âm cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这个箱子很___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói bài tập rất dễ, dùng 很容易 hay 很轻?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "轻"
+            ],
+            "explanation": "箱子很轻 nói vali nhẹ."
+          },
+          "q2": {
+            "accepted": [
+              "很容易"
+            ],
+            "explanation": "Bài dễ dùng 很容易; 轻 chỉ nhẹ."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói vali của tôi rất nhẹ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi muốn nói khẽ một chút."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我的箱子很轻 để nói vali của tôi nhẹ.",
+            "frame": "我的箱子 + 很轻",
+            "model": "我的箱子很轻。",
+            "vi": "Vali của tôi rất nhẹ.",
+            "criteria": [
+              "Có 轻.",
+              "轻 làm vị ngữ sau vali."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我想轻声说话 để nói tôi muốn nói khẽ.",
+            "frame": "我想 + 轻声说话",
+            "model": "我想轻声说话。",
+            "vi": "Tôi muốn nói khẽ một chút.",
+            "criteria": [
+              "Có 轻.",
+              "轻声 nói làm việc nhẹ nhàng."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "hz-h2-9dac1ef58f36",
+      "hanzi": "过",
+      "wordEdits": {
+        "meaning": "qua; đã từng",
+        "intro": [
+          {
+            "pinyin": "guò",
+            "meaning": "qua"
+          },
+          {
+            "pinyin": "guo",
+            "meaning": "đã từng"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-050 · khó"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 515,
+        "authorship": "Tự biên soạn, đối chiếu nguồn ngữ pháp về thì quá khứ; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.thatsmandarin.com/chinese-language/5-structures-for-past-tense-in-chinese/",
+          "https://languavibe.com/chinese-aspect-particles/"
+        ],
+        "introduction": {
+          "scope": "Bài tập trung vào hai cách dùng chính: 过 là động từ đi qua, và 过 là trợ từ chỉ kinh nghiệm đã từng."
+        },
+        "meaning": {
+          "scene": "Bạn nói đã đi qua một nơi, hoặc nói mình đã từng làm một việc.",
+          "explanation": "过 có hai cách đọc và chức năng khác nhau. Đọc thanh bốn, 过 là động từ chỉ đi qua, ví dụ 经过. Đọc thanh nhẹ, 过 đứng sau động từ để nói kinh nghiệm đã từng, ví dụ 看过, 去过. Phủ định kinh nghiệm dùng 没 + động từ + 过.",
+          "boundary": "过 chỉ kinh nghiệm không chỉ rõ thời gian cụ thể. Muốn nói một việc cụ thể đã xảy ra vào một thời điểm, dùng 了. Không dùng 不 + động từ + 过 để phủ định kinh nghiệm.",
+          "conditions": [
+            "Động từ 过: 经过 + nơi chốn; 过 + 来/去 chỉ hướng.",
+            "Kinh nghiệm: động từ + 过 + tân ngữ; phủ định là 没 + động từ + 过.",
+            "Không dùng 不 + động từ + 过."
+          ],
+          "takeaway": "Muốn nói đi qua thì dùng 过 làm động từ; muốn nói đã từng làm gì thì dùng động từ + 过."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "经过 + nơi chốn",
+            "position": "过 là phần sau của 经过, đứng trước nơi chốn.",
+            "required": "Sau 经过 cần một nơi chốn đã đi qua.",
+            "omission": "Có thể bỏ nơi chốn khi ngữ cảnh đã rõ, ví dụ 火车经过了.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Động từ + 过 + tân ngữ",
+            "position": "过 đứng ngay sau động từ, trước tân ngữ.",
+            "required": "Sau động từ cần 过 để chỉ kinh nghiệm.",
+            "omission": "Có thể bỏ tân ngữ khi ngữ cảnh đã rõ, ví dụ 我看过.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "火车经过上海。",
+            "vi": "Tàu hỏa đi qua Thượng Hải.",
+            "analysis": "经过上海 nói tàu đi qua Thượng Hải; 过 là phần chỉ qua trong 经过.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "我看过这部电影。",
+            "vi": "Tôi đã xem bộ phim này rồi.",
+            "analysis": "看过 nói đã từng xem; 过 đứng sau động từ 看 để chỉ kinh nghiệm.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "过 chỉ kinh nghiệm khác với 了 chỉ việc đã xong",
+            "scene": "Phân biệt nói đã từng làm gì với nói một việc cụ thể đã xong.",
+            "possibleConfusion": "Cả 过 và 了 đều có thể dịch là đã trong tiếng Việt, dễ dùng lẫn.",
+            "difference": "过 nói kinh nghiệm chung, không chỉ rõ lần nào; 了 nói một việc cụ thể đã hoàn thành hoặc một tình trạng mới.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我看过这部电影。",
+                "vi": "Tôi đã xem bộ phim này rồi.",
+                "comment": "看过 nói kinh nghiệm đã từng xem.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我昨天看了这部电影。",
+                "vi": "Hôm qua tôi đã xem bộ phim này.",
+                "comment": "看了 với thời gian cụ thể hôm qua nói việc đã xong, dùng 了.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 看过 thành 看了 trong câu không có thời gian cụ thể sẽ đổi từ kinh nghiệm chung thành việc đã xong; đổi 看了 thành 看过 trong câu có hôm qua sẽ làm mất mốc thời gian cụ thể."
+            },
+            "boundary": "Có mốc thời gian cụ thể thì dùng 了; chỉ nói đã từng thì dùng 过.",
+            "tip": "Đã từng: động từ + 过; hôm qua đã làm: động từ + 了."
+          },
+          {
+            "id": "t2",
+            "title": "Phủ định kinh nghiệm dùng 没, không dùng 不",
+            "scene": "Phân biệt phủ định của kinh nghiệm.",
+            "possibleConfusion": "Người học quen phủ định bằng 不, dễ nói 不看过.",
+            "difference": "Kinh nghiệm phủ định bằng 没 + động từ + 过; 不 + động từ + 过 không phải mẫu phủ định kinh nghiệm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我没去过北京。",
+                "vi": "Tôi chưa từng đến Bắc Kinh.",
+                "comment": "没去过 phủ định kinh nghiệm đã từng đến.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我不去过北京。",
+                "vi": "Câu này dùng 不 để phủ định kinh nghiệm, không đúng.",
+                "comment": "不去过 đặt 不 trước động từ có 过, không phải mẫu phủ định kinh nghiệm.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "corrections": [
+              {
+                "caseId": "c2",
+                "zh": "我没去过北京。",
+                "vi": "Tôi chưa từng đến Bắc Kinh.",
+                "reason": "Phủ định kinh nghiệm dùng 没, đặt trước động từ."
+              }
+            ],
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Dùng 不 thay 没 trong câu phủ định kinh nghiệm sẽ làm câu sai mẫu; dùng 没 thì câu đúng."
+            },
+            "boundary": "Phủ định kinh nghiệm thì đặt 没 trước động từ.",
+            "tip": "Nhớ: 没去过, không phải 不去过."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã tách 过 làm động từ và 过 làm trợ từ kinh nghiệm; cách đọc họ không dạy ở mức này.",
+          "literalTranslation": "Đã rà không dịch mọi 过 thành đã; chỉ dịch đã từng khi 过 đứng sau động từ chỉ kinh nghiệm.",
+          "confusables": "Đã đối chiếu 过 với 了, và với 过去, 过来 ở mức nhận diện."
+        },
+        "pronunciation": {
+          "text": "过 làm động từ đọc thanh bốn; 过 làm trợ từ kinh nghiệm đọc thanh nhẹ, ngắn và nhẹ hơn. Đọc từ một lần, rồi đọc câu mẫu một lần.",
+          "contexts": [
+            {
+              "introIndex": 0,
+              "text": "火车经过上海。"
+            },
+            {
+              "introIndex": 1,
+              "text": "我看过这部电影。"
+            }
+          ]
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我___这部电影。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói chưa từng đến Bắc Kinh, dùng 我没去过北京 hay 我不去过北京?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "看过"
+            ],
+            "explanation": "看过这部电影 nói đã từng xem bộ phim này."
+          },
+          "q2": {
+            "accepted": [
+              "我没去过北京"
+            ],
+            "explanation": "Phủ định kinh nghiệm dùng 没去过."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi đã từng đến Thượng Hải."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi đã từng ăn món này."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我去过上海 để nói tôi đã từng đến Thượng Hải.",
+            "frame": "我 + 去过 + 上海",
+            "model": "我去过上海。",
+            "vi": "Tôi đã từng đến Thượng Hải.",
+            "criteria": [
+              "Có 过.",
+              "过 đứng sau động từ chỉ kinh nghiệm."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我吃过这个菜 để nói tôi đã từng ăn món này.",
+            "frame": "我 + 吃过 + 这个菜",
+            "model": "我吃过这个菜。",
+            "vi": "Tôi đã từng ăn món này.",
+            "criteria": [
+              "Có 过.",
+              "过 chỉ kinh nghiệm đã từng."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "hz-h2-c4fbe1d113a8",
+      "hanzi": "近",
+      "wordEdits": {
+        "meaning": "gần",
+        "intro": [
+          {
+            "pinyin": "jìn",
+            "meaning": "gần"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-050 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 516,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và FlexiClasses; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?wdqb=%E8%BF%91",
+          "https://flexiclasses.com/chinese-grammar-bank/how-to-use-%E7%A6%BB/"
+        ],
+        "introduction": {
+          "scope": "Bài tập trung vào 近 chỉ gần về khoảng cách và gần đây về thời gian."
+        },
+        "meaning": {
+          "scene": "Bạn nói một nơi cách đây rất gần, hoặc nói dạo này mình rất bận.",
+          "explanation": "近 là tính từ chỉ gần, trái nghĩa là 远. 近 có thể nói khoảng cách giữa hai nơi, dùng mẫu 离…很近; cũng có thể nói thời gian gần đây trong 最近.",
+          "boundary": "近 không dùng để nói số lượng ít hoặc thời gian ngắn. Thời gian ngắn dùng 短; số lượng ít dùng 少.",
+          "conditions": [
+            "Khi nói khoảng cách, dùng mẫu: nơi thứ nhất + 离 + nơi thứ hai + 很近.",
+            "Khi nói thời gian gần đây, dùng 最近 ở đầu câu.",
+            "Phủ định khoảng cách: 离这里不远, không đặt 不 trước 离."
+          ],
+          "takeaway": "Muốn nói gần về khoảng cách thì dùng 离…很近; muốn nói dạo này thì dùng 最近."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Nơi thứ nhất + 离 + nơi thứ hai + 很近",
+            "position": "近 làm vị ngữ, đứng sau 离 + nơi thứ hai.",
+            "required": "Trước 近 cần 离 + nơi thứ hai để nói khoảng cách.",
+            "omission": "Có thể bỏ nơi thứ nhất khi ngữ cảnh đã rõ, ví dụ 离这里很近.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "最近 + câu",
+            "position": "最近 đứng đầu câu, chỉ thời gian gần đây.",
+            "required": "Sau 最近 cần một câu nói tình trạng gần đây.",
+            "omission": "Có thể bỏ 最近 khi đã nói rõ thời gian, ví dụ 昨天我很忙.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "地铁站离这里很近。",
+            "vi": "Ga tàu điện ngầm cách đây rất gần.",
+            "analysis": "离这里很近 nói ga cách đây rất gần; 近 làm vị ngữ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "最近我很忙。",
+            "vi": "Dạo này tôi rất bận.",
+            "analysis": "最近我很忙 nói dạo này tôi bận; 最近 chỉ thời gian gần đây.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "近 đối chiếu với 远, không phải với 短",
+            "scene": "Phân biệt cặp phản nghĩa của 近.",
+            "possibleConfusion": "Người học dễ nhớ 近 là gần nhưng quên cặp phản nghĩa đúng của nó.",
+            "difference": "Phản nghĩa của 近 là 远, xa; 短 là ngắn, không phải phản nghĩa của 近.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "地铁站离这里很近，离学校很远。",
+                "vi": "Ga tàu điện ngầm cách đây rất gần, cách trường rất xa.",
+                "comment": "近 và 远 là cặp phản nghĩa về khoảng cách.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "地铁站离这里很近，离学校很短。",
+                "vi": "Câu này dùng 短 để đối chiếu với 近, không đúng.",
+                "comment": "短 nói ngắn, không phải phản nghĩa của 近.",
+                "judgment": "wrong-intent",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "wrong-intent",
+              "explanation": "Dùng 短 để đối chiếu với 近 sẽ không nói được ý xa hay gần; muốn đối chiếu thì dùng 远."
+            },
+            "boundary": "Muốn nói ngược với gần thì dùng 远.",
+            "tip": "Nhớ cặp: 近–远."
+          },
+          {
+            "id": "t2",
+            "title": "Phủ định khoảng cách đặt 不 trước tính từ, không trước 离",
+            "scene": "Phân biệt vị trí của 不 trong mẫu 离…很近.",
+            "possibleConfusion": "Người học dễ đặt 不 trước 离, theo thói quen phủ định động từ.",
+            "difference": "离 không phải động từ chính cần phủ định; 不 đặt trước tính từ 近 hoặc 远.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "地铁站离这里不远。",
+                "vi": "Ga tàu điện ngầm cách đây không xa.",
+                "comment": "不远 phủ định tính từ 远, dùng đúng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "地铁站不离这里很近。",
+                "vi": "Câu này đặt 不 trước 离, không đúng.",
+                "comment": "不离 đặt 不 trước 离, không phải cách phủ định khoảng cách.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "corrections": [
+              {
+                "caseId": "c2",
+                "zh": "地铁站离这里不远。",
+                "vi": "Ga tàu điện ngầm cách đây không xa.",
+                "reason": "不 đặt trước tính từ, không đặt trước 离."
+              }
+            ],
+            "replacement": {
+              "result": "wrong-grammar",
+              "explanation": "Đặt 不 trước 离 sẽ làm câu sai mẫu; đặt 不 trước tính từ thì câu đúng."
+            },
+            "boundary": "Phủ định khoảng cách thì đặt 不 trước 近 hoặc 远.",
+            "tip": "Nhớ: 离这里不远, không phải 不离这里."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "近 chỉ có một cách đọc thông dụng ở mức này; nghĩa chính là gần.",
+          "literalTranslation": "Đã rà không dịch mọi 近 thành mới đây; 最近 mới chỉ thời gian gần đây.",
+          "confusables": "Đã đối chiếu 近 với 远, 短 và 少."
+        },
+        "pronunciation": {
+          "text": "近 có một âm tiết, đọc rõ và dứt khoát, không nuốt âm cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 地铁站离这里很___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói dạo này tôi rất bận, dùng 最近我很忙 hay 很近我很忙?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "近"
+            ],
+            "explanation": "离这里很近 nói ga cách đây rất gần."
+          },
+          "q2": {
+            "accepted": [
+              "最近我很忙"
+            ],
+            "explanation": "Dạo này dùng 最近; 很近 nói khoảng cách gần."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói nhà tôi cách trường rất gần."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói dạo này tôi rất bận."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我家离学校很近 để nói nhà tôi cách trường gần.",
+            "frame": "我家 + 离学校 + 很近",
+            "model": "我家离学校很近。",
+            "vi": "Nhà tôi cách trường rất gần.",
+            "criteria": [
+              "Có 近.",
+              "近 nói khoảng cách gần."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 最近我每天都很忙 để nói dạo này tôi bận.",
+            "frame": "最近 + 我每天都很忙",
+            "model": "最近我每天都很忙。",
+            "vi": "Dạo này tôi ngày nào cũng rất bận.",
+            "criteria": [
+              "Có 近.",
+              "最近 chỉ thời gian gần đây."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "hz-h2-247a5ebcff44",
+      "hanzi": "长",
+      "wordEdits": {
+        "meaning": "dài; lớn lên",
+        "intro": [
+          {
+            "pinyin": "cháng",
+            "meaning": "dài"
+          },
+          {
+            "pinyin": "zhǎng",
+            "meaning": "lớn lên"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-050 · khó"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 517,
+        "authorship": "Tự biên soạn, đối chiếu MDBG; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?wdqb=%E9%95%BF"
+        ],
+        "introduction": {
+          "scope": "Bài tập trung vào hai cách đọc: 长 chỉ dài, và 长 chỉ lớn lên hoặc người đứng đầu."
+        },
+        "meaning": {
+          "scene": "Bạn nói một con sông rất dài, hoặc nói một đứa trẻ đã lớn, hoặc nói ai là lớp trưởng.",
+          "explanation": "长 có hai cách đọc. Đọc thanh hai, 长 là tính từ chỉ dài, ví dụ 很长, 长时间. Đọc thanh ba, 长 là động từ chỉ lớn lên, ví dụ 长大, hoặc là phần sau của từ chỉ người đứng đầu, ví dụ 班长, 校长.",
+          "boundary": "Không dùng 长 đọc thanh hai cho nghĩa lớn lên, và không dùng 长 đọc thanh ba cho nghĩa dài. 班长 và 校长 phải đọc phần 长 là thanh ba.",
+          "conditions": [
+            "长 chỉ dài: 很长, 长时间; đứng sau chủ ngữ hoặc trước danh từ.",
+            "长 chỉ lớn lên: 长大, 增长; đứng sau chủ ngữ làm động từ.",
+            "长 chỉ người đứng đầu: 班长, 校长, 家长; đứng sau từ chỉ tập thể hoặc trường."
+          ],
+          "takeaway": "Muốn nói dài thì đọc 长 thanh hai; muốn nói lớn lên hoặc người đứng đầu thì đọc 长 thanh ba."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Chủ ngữ + 很 + 长 (dài)",
+            "position": "长 làm vị ngữ, đứng sau chủ ngữ.",
+            "required": "Trước 长 thường có 很 để nói mức độ dài.",
+            "omission": "Có thể bỏ 很 khi so sánh, ví dụ 这条河比那条河长.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Chủ ngữ + 长大了 / 是 + 班长",
+            "position": "长 làm động từ trong 长大, hoặc là phần sau trong 班长.",
+            "required": "Sau 长大 cần ngữ cảnh chỉ người đã lớn; sau 班 là 长 để chỉ lớp trưởng.",
+            "omission": "Có thể nói 他是班长 mà không cần thêm từ khác.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这条河很长。",
+            "vi": "Con sông này rất dài.",
+            "analysis": "河很长 nói sông dài; 长 làm vị ngữ.",
+            "practiceAllowed": true
+          },
+          {
+            "id": "e2",
+            "zh": "他长大了。",
+            "vi": "Anh ấy đã lớn rồi.",
+            "analysis": "长大了 nói anh ấy đã lớn lên; 长 là động từ chỉ lớn lên.",
+            "practiceAllowed": true
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "长 đọc thanh hai chỉ dài, đọc thanh ba chỉ lớn lên",
+            "scene": "Phân biệt hai cách đọc của 长.",
+            "possibleConfusion": "Cùng một chữ 长, dễ đọc một cách đọc cho cả hai nghĩa.",
+            "difference": "Đọc thanh hai, 长 chỉ dài; đọc thanh ba, 长 chỉ lớn lên hoặc người đứng đầu.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这条河很长。",
+                "vi": "Con sông này rất dài.",
+                "comment": "长 ở đây chỉ dài.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他长大了。",
+                "vi": "Anh ấy đã lớn rồi.",
+                "comment": "长 ở đây chỉ lớn lên.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi cách đọc của 长 trong hai câu sẽ đổi nghĩa hoặc làm câu không đúng; phải giữ cách đọc theo nghĩa."
+            },
+            "boundary": "Nhìn nghĩa là dài hay lớn lên trước khi đọc 长.",
+            "tip": "Dài: đọc thanh hai; lớn lên: đọc thanh ba."
+          },
+          {
+            "id": "t2",
+            "title": "班长, 校长 đọc phần 长 là thanh ba",
+            "scene": "Phân biệt cách đọc 长 trong từ chỉ người đứng đầu.",
+            "possibleConfusion": "Người học dễ đọc 班长 thành thanh hai, theo nghĩa dài.",
+            "difference": "Trong 班长, 校长, 家长, 长 chỉ người đứng đầu, đọc thanh ba.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她是我们的班长。",
+                "vi": "Cô ấy là lớp trưởng của chúng tôi.",
+                "comment": "班长 chỉ lớp trưởng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他是我们的校长。",
+                "vi": "Ông ấy là hiệu trưởng của chúng tôi.",
+                "comment": "校长 chỉ hiệu trưởng.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi 班长 thành 校长 sẽ đổi người đứng đầu từ lớp thành trường, nhưng cách đọc phần 长 vẫn là thanh ba."
+            },
+            "boundary": "Thấy 长 ở cuối từ chỉ người đứng đầu thì đọc thanh ba.",
+            "tip": "Lớp trưởng, hiệu trưởng: 长 đọc thanh ba."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "Đã tách 长 đọc thanh hai chỉ dài và 长 đọc thanh ba chỉ lớn lên hoặc người đứng đầu.",
+          "literalTranslation": "Đã rà không dịch mọi 长 thành dài; chỉ dịch dài khi 长 chỉ độ dài.",
+          "confusables": "Đã đối chiếu 长 với 短, 大 và các từ chỉ người đứng đầu."
+        },
+        "pronunciation": {
+          "text": "长 chỉ dài đọc thanh hai; 长 chỉ lớn lên hoặc người đứng đầu đọc thanh ba. Đọc từ một lần, rồi đọc câu mẫu một lần.",
+          "contexts": [
+            {
+              "introIndex": 0,
+              "text": "这条河很长。"
+            },
+            {
+              "introIndex": 1,
+              "text": "他长大了。"
+            }
+          ]
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这条河很___。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Muốn nói anh ấy đã lớn rồi, dùng 他长大了 hay 他很长了?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "长"
+            ],
+            "explanation": "河很长 nói sông dài."
+          },
+          "q2": {
+            "accepted": [
+              "他长大了"
+            ],
+            "explanation": "Lớn lên dùng 长大了; 很长了 nói dài, không phải lớn lên."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói sông này rất dài."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi là lớp trưởng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 这条河比那条河长 để nói sông này dài hơn sông kia.",
+            "frame": "这条河 + 比那条河长",
+            "model": "这条河比那条河长。",
+            "vi": "Con sông này dài hơn con sông kia.",
+            "criteria": [
+              "Có 长.",
+              "长 chỉ dài."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我是班长 để nói tôi là lớp trưởng.",
+            "frame": "我 + 是 + 班长",
+            "model": "我是班长。",
+            "vi": "Tôi là lớp trưởng.",
+            "criteria": [
+              "Có 长.",
+              "班长 chỉ lớp trưởng."
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
