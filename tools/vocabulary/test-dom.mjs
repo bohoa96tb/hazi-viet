@@ -22,7 +22,7 @@ click('[data-v2-unlock]');assert(!body().includes(selfTranslation));click('[data
 click('[data-step="4"]');assert.equal(document.querySelectorAll('[data-grade]').length,3);assert(!document.querySelector('.feedback'));click('[data-action="revealReview"]');assert(document.querySelector('[data-grade="good"]'));assert(document.querySelector('.feedback'));
 // Favorite and progress storage still operate; no grade is automatically assigned.
 click('[data-action="favorite"]');assert.equal($('[data-action="favorite"]').getAttribute('aria-pressed'),'true');
-click('[data-action="close"]');assert(!$('#wordDialog').open);
+click('[data-action="close"]');assert(!$('#wordDialog').open);click('[data-level="1"]');
 $('#wordSearch').value='不用';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));assert(document.querySelector('[data-start="hz-h1-b51cd2090a80"]'));
 click('[data-start="hz-h1-b51cd2090a80"]');assert(body().includes('bù yòng'));click('[data-step="2"]');assert(body().includes('不用 / 不要'));click('[data-lesson-page="trap"][data-delta="1"]');assert(body().includes('不用 / 没用'));
 click('[data-action="close"]');$('#wordSearch').value='';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
