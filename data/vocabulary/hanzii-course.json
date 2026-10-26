@@ -19806,7 +19806,8 @@
           "vi": "Ngày mai tôi quay lại công ty.",
           "analysis": "明天 là thời gian; 回公司 nhấn trở lại chỗ làm, không chỉ đi đến lần đầu.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Wǒ míngtiān huí gōngsī."
         }
       ],
       "sourceIndex": 26,
@@ -19843,7 +19844,8 @@
             "vi": "Ngày mai tôi quay lại công ty.",
             "analysis": "明天 là thời gian; 回公司 nhấn trở lại chỗ làm, không chỉ đi đến lần đầu.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Wǒ míngtiān huí gōngsī."
           }
         ],
         "usages": [
@@ -19933,7 +19935,11 @@
             },
             "boundary": "Trong khẩu ngữ cũng có 回你一句 — đáp bạn một câu. Chưa cần mở rộng mọi kết hợp của 回.",
             "tip": "Nhìn sau 回: nơi hay tin/lời?",
-            "id": "t2"
+            "id": "t2",
+            "caseExampleTerms": [
+              "回你的消息",
+              "回答你的问题"
+            ]
           }
         ],
         "trapReview": {
@@ -19984,8 +19990,8 @@
           "s1": {
             "idea": "Nêu mình, giờ về, nơi về.",
             "frame": "我 + giờ + 回家。",
-            "model": "我七点回家。",
-            "vi": "Tôi về nhà lúc bảy giờ.",
+            "model": "我今天七点回家。",
+            "vi": "Hôm nay tôi về nhà lúc bảy giờ.",
             "criteria": [
               "Giờ đứng trước 回.",
               "Giờ khác vẫn hợp lý."
@@ -19994,8 +20000,8 @@
           "s2": {
             "idea": "Nêu thời gian và nơi quay lại.",
             "frame": "我 + 明天 + 回 + nơi。",
-            "model": "我明天回公司。",
-            "vi": "Ngày mai tôi quay lại công ty.",
+            "model": "我明天回学校。",
+            "vi": "Ngày mai tôi quay lại trường.",
             "criteria": [
               "Có ý trở lại.",
               "Lược 我 được khi ngữ cảnh rõ."
@@ -20005,7 +20011,20 @@
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -20028,7 +20047,8 @@
           "vi": "Bạn có thể giúp tôi không?",
           "analysis": "帮 đi trực tiếp với 我; việc cần giúp được lược khi hai người đã biết.",
           "practiceAllowed": true,
-          "id": "e1"
+          "id": "e1",
+          "pinyin": "Nǐ néng bāng wǒ ma?"
         },
         {
           "zh": "请帮我看这个字。",
@@ -20065,7 +20085,8 @@
             "vi": "Bạn có thể giúp tôi không?",
             "analysis": "帮 đi trực tiếp với 我; việc cần giúp được lược khi hai người đã biết.",
             "practiceAllowed": true,
-            "id": "e1"
+            "id": "e1",
+            "pinyin": "Nǐ néng bāng wǒ ma?"
           },
           {
             "zh": "请帮我看这个字。",
@@ -20183,8 +20204,8 @@
           "s1": {
             "idea": "Nhờ lịch sự, nêu người và việc.",
             "frame": "请 + 帮我 + 看这个字。",
-            "model": "请帮我看这个字。",
-            "vi": "Làm ơn xem giúp tôi chữ này.",
+            "model": "请帮我看这个词，好吗？",
+            "vi": "Làm ơn xem giúp tôi từ này nhé.",
             "criteria": [
               "我 sau 帮.",
               "看 trước 这个字."
@@ -20193,8 +20214,8 @@
           "s2": {
             "idea": "Hỏi khả năng giúp; việc đã rõ nên lược được.",
             "frame": "你能 + 帮我 + 吗？",
-            "model": "你能帮我吗？",
-            "vi": "Bạn có thể giúp tôi không?",
+            "model": "你能帮我一下吗？",
+            "vi": "Bạn có thể giúp tôi một chút không?",
             "criteria": [
               "Không bắt buộc lặp việc đã rõ.",
               "Đúng ý nhờ giúp."
@@ -20205,7 +20226,20 @@
         "sources": [
           "https://dict.revised.moe.edu.tw/dictView.jsp?ID=17229&la=1&powerMode=0",
           "https://coct.naer.edu.tw/corevoc.jsp?page=27"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -20228,7 +20262,8 @@
           "vi": "Tôi thích chơi bóng rổ.",
           "analysis": "喜欢 đứng trước cả hoạt động 打篮球; 篮球 đi với 打.",
           "practiceAllowed": true,
-          "id": "e1"
+          "id": "e1",
+          "pinyin": "Wǒ xǐhuan dǎ lánqiú."
         },
         {
           "zh": "我给妈妈打电话。",
@@ -20265,7 +20300,8 @@
             "vi": "Tôi thích chơi bóng rổ.",
             "analysis": "喜欢 đứng trước cả hoạt động 打篮球; 篮球 đi với 打.",
             "practiceAllowed": true,
-            "id": "e1"
+            "id": "e1",
+            "pinyin": "Wǒ xǐhuan dǎ lánqiú."
           },
           {
             "zh": "我给妈妈打电话。",
@@ -20406,20 +20442,20 @@
           "s1": {
             "idea": "Nêu thích hoạt động gì.",
             "frame": "我喜欢 + 打篮球。",
-            "model": "我喜欢打篮球。",
-            "vi": "Tôi thích chơi bóng rổ.",
+            "model": "我喜欢打乒乓球。",
+            "vi": "Tôi thích chơi bóng bàn.",
             "criteria": [
-              "Dùng 打 với 篮球.",
+              "Dùng 打 với 乒乓球.",
               "Có thể thêm thời gian phù hợp."
             ]
           },
           "s2": {
             "idea": "Nêu người nhận cuộc gọi.",
             "frame": "我 + 给妈妈 + 打电话。",
-            "model": "我给妈妈打电话。",
-            "vi": "Tôi gọi điện cho mẹ.",
+            "model": "我给爸爸打电话。",
+            "vi": "Tôi gọi điện cho bố.",
             "criteria": [
-              "给妈妈 xác định người nhận.",
+              "给爸爸 xác định người nhận.",
               "Không bắt buộc thêm trợ từ thời gian nếu ngữ cảnh đã rõ."
             ]
           }
@@ -20427,7 +20463,21 @@
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1905&la=1&powerMode=0"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1",
+            "t2"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -20458,7 +20508,8 @@
           "vi": "Bạn tìm ai?",
           "analysis": "谁 giữ vị trí người cần tìm sau 找, không chuyển lên đầu câu.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Nǐ zhǎo shéi?"
         }
       ],
       "sourceIndex": 30,
@@ -20495,7 +20546,8 @@
             "vi": "Bạn tìm ai?",
             "analysis": "谁 giữ vị trí người cần tìm sau 找, không chuyển lên đầu câu.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Nǐ zhǎo shéi?"
           }
         ],
         "usages": [
@@ -20628,28 +20680,41 @@
           "s1": {
             "idea": "Nêu việc đang diễn ra và vật.",
             "frame": "我在 + 找 + 手机。",
-            "model": "我在找手机。",
-            "vi": "Tôi đang tìm điện thoại.",
+            "model": "我在找我的书。",
+            "vi": "Tôi đang tìm sách của tôi.",
             "criteria": [
               "在 trước 找.",
-              "手机 sau 找."
+              "书 sau 找."
             ]
           },
           "s2": {
             "idea": "Hỏi người cần gặp.",
             "frame": "你 + 找 + 谁？",
-            "model": "你找谁？",
+            "model": "您找谁？",
             "vi": "Bạn tìm ai?",
             "criteria": [
               "谁 sau 找.",
-              "您找谁？ cũng đúng và lịch sự."
+              "您 lịch sự hơn 你."
             ]
           }
         },
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -20672,7 +20737,8 @@
           "vi": "Ở nhà mất điện rồi.",
           "analysis": "家里 nêu nơi; 没电 chỉ không có điện, 了 báo tình trạng đổi.",
           "practiceAllowed": true,
-          "id": "e1"
+          "id": "e1",
+          "pinyin": "Jiālǐ méi diàn le."
         },
         {
           "zh": "这个手机没电了。",
@@ -20709,7 +20775,8 @@
             "vi": "Ở nhà mất điện rồi.",
             "analysis": "家里 nêu nơi; 没电 chỉ không có điện, 了 báo tình trạng đổi.",
             "practiceAllowed": true,
-            "id": "e1"
+            "id": "e1",
+            "pinyin": "Jiālǐ méi diàn le."
           },
           {
             "zh": "这个手机没电了。",
@@ -20860,18 +20927,31 @@
           "s2": {
             "idea": "Nêu nơi xảy ra.",
             "frame": "家里 + 没电了。",
-            "model": "家里没电了。",
-            "vi": "Ở nhà mất điện rồi.",
+            "model": "家里没电了，太热了。",
+            "vi": "Ở nhà mất điện rồi, nóng quá.",
             "criteria": [
               "家里 chỉ nơi.",
-              "家里停电了。 cũng đúng cho điện lưới."
+              "没电 chỉ hết năng lượng."
             ]
           }
         },
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -20902,7 +20982,8 @@
           "vi": "Làm ơn đợi một chút.",
           "analysis": "一下 sau 等 làm lời nhờ nhẹ hơn; khoảng ngắn không ấn định một giây.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Qǐng děng yīxià."
         }
       ],
       "sourceIndex": 32,
@@ -20939,7 +21020,8 @@
             "vi": "Làm ơn đợi một chút.",
             "analysis": "一下 sau 等 làm lời nhờ nhẹ hơn; khoảng ngắn không ấn định một giây.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Qǐng děng yīxià."
           }
         ],
         "usages": [
@@ -21072,7 +21154,7 @@
         },
         "selfUse": [
           {
-            "prompt": "Nhắn bạn rằng mình đang đợi bạn ấy.",
+            "prompt": "Nhắn bạn rằng mình đang đợi bạn ấy ở nhà ga.",
             "id": "s1"
           },
           {
@@ -21082,10 +21164,10 @@
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Nêu hành động đang diễn ra.",
-            "frame": "我在 + 等 + 你。",
-            "model": "我在等你。",
-            "vi": "Tôi đang đợi bạn.",
+            "idea": "Nêu nơi đợi và người được đợi.",
+            "frame": "我 + 在 + nhà ga + 等 + 你。",
+            "model": "我在车站等你。",
+            "vi": "Tôi đang đợi bạn ở nhà ga.",
             "criteria": [
               "在 trước 等.",
               "你 sau 等."
@@ -21094,18 +21176,31 @@
           "s2": {
             "idea": "Lịch sự nhờ chờ ngắn.",
             "frame": "请 + 等一下。",
-            "model": "请等一下。",
-            "vi": "Làm ơn đợi một chút.",
+            "model": "请等一下，好吗？",
+            "vi": "Làm ơn đợi một chút nhé.",
             "criteria": [
               "一下 sau 等.",
-              "请稍等。 cũng hợp lý, không phải nhớ chữ mới."
+              "好吗 làm lời nhờ nhẹ hơn."
             ]
           }
         },
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -21130,7 +21225,8 @@
           "vi": "Câu này có nghĩa là gì?",
           "analysis": "这 + 句 + 话 là câu nói này; 什么意思 hỏi ý nghĩa của cả câu.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Zhè jù huà shì shénme yìsi?"
         }
       ],
       "status": "deep",
@@ -21173,7 +21269,8 @@
             "vi": "Câu này có nghĩa là gì?",
             "analysis": "这 + 句 + 话 là câu nói này; 什么意思 hỏi ý nghĩa của cả câu.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Zhè jù huà shì shénme yìsi?"
           }
         ],
         "usages": [
@@ -21302,8 +21399,8 @@
           "s1": {
             "idea": "Có điều rồi muốn nói nó ra.",
             "frame": "我 + 有话 + 想说。",
-            "model": "我有话想说。",
-            "vi": "Tôi có điều muốn nói.",
+            "model": "我有话想跟你说。",
+            "vi": "Tôi có điều muốn nói với bạn.",
             "criteria": [
               "话 là điều muốn nói.",
               "Có thể thêm đối tượng trong khung đúng."
@@ -21312,8 +21409,8 @@
           "s2": {
             "idea": "Hỏi nghĩa câu này.",
             "frame": "这句话 + 是什么意思？",
-            "model": "这句话是什么意思？",
-            "vi": "Câu này có nghĩa gì?",
+            "model": "那句话是什么意思，你知道吗？",
+            "vi": "Câu kia có nghĩa là gì, bạn có biết không?",
             "criteria": [
               "句 trước 话.",
               "Đúng ý hỏi nghĩa."
@@ -21324,7 +21421,21 @@
         "sources": [
           "https://dict.revised.moe.edu.tw/dictView.jsp?ID=5039&la=0&powerMode=0",
           "https://dict.revised.moe.edu.tw/dictView.jsp?ID=133924&la=0&powerMode=0"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2",
+            "q3"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -21355,7 +21466,8 @@
           "vi": "Nhờ bạn xem giúp tôi chữ này.",
           "analysis": "你 sau 请 là người được nhờ; 我 sau 帮 là người được giúp.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Qǐng nǐ bāng wǒ kàn zhège zì."
         }
       ],
       "sourceIndex": 34,
@@ -21392,7 +21504,8 @@
             "vi": "Nhờ bạn xem giúp tôi chữ này.",
             "analysis": "你 sau 请 là người được nhờ; 我 sau 帮 là người được giúp.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Qǐng nǐ bāng wǒ kàn zhège zì."
           }
         ],
         "usages": [
@@ -21443,7 +21556,11 @@
             },
             "boundary": "Không ép mọi 请 với ăn uống đều là bao tiền; muốn rõ ai trả tiền, nói 我请客.",
             "tip": "Chốt người trả tiền: 我请客.",
-            "id": "t1"
+            "id": "t1",
+            "caseExampleTerms": [
+              "请吃饭",
+              "请客"
+            ]
           },
           {
             "title": "请 và 让: mời, bảo hoặc cho phép",
@@ -21537,8 +21654,8 @@
           "s1": {
             "idea": "Mời người nghe làm việc ngồi.",
             "frame": "请 + 坐。",
-            "model": "请坐。",
-            "vi": "Mời ngồi.",
+            "model": "请你坐。",
+            "vi": "Mời bạn ngồi.",
             "criteria": [
               "Có thể lược người.",
               "Giọng lịch sự cũng quan trọng."
@@ -21547,8 +21664,8 @@
           "s2": {
             "idea": "Nêu người được nhờ, người nhận giúp và việc.",
             "frame": "请你 + 帮我 + 看这个字。",
-            "model": "请你帮我看这个字。",
-            "vi": "Nhờ bạn xem giúp tôi chữ này.",
+            "model": "请你帮我看这个词，好吗？",
+            "vi": "Nhờ bạn xem giúp tôi từ này nhé.",
             "criteria": [
               "你 sau 请; 我 sau 帮.",
               "Lược 你 khi nói trực tiếp cũng đúng."
@@ -21558,7 +21675,22 @@
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1",
+            "t2"
+          ],
+          "checks": [
+            "q1",
+            "q2",
+            "q3"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
