@@ -24078,7 +24078,8 @@
           "vi": "Tôi muốn nói chuyện với bạn.",
           "analysis": "跟你 trước 说话 là người cùng nói; 想 trước cả cụm nêu ý muốn.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Wǒ xiǎng gēn nǐ shuōhuà."
         }
       ],
       "sourceIndex": 44,
@@ -24115,7 +24116,8 @@
             "vi": "Tôi muốn nói chuyện với bạn.",
             "analysis": "跟你 trước 说话 là người cùng nói; 想 trước cả cụm nêu ý muốn.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Wǒ xiǎng gēn nǐ shuōhuà."
           }
         ],
         "usages": [
@@ -24259,8 +24261,8 @@
           "s1": {
             "idea": "Nêu người và hoạt động đang diễn ra.",
             "frame": "他们 + 在 + 说话。",
-            "model": "他们在说话。",
-            "vi": "Họ đang nói chuyện.",
+            "model": "两个同事在说话。",
+            "vi": "Hai đồng nghiệp đang nói chuyện.",
             "criteria": [
               "在 trước 说话.",
               "Không bắt nêu nội dung khi chưa cần."
@@ -24269,18 +24271,31 @@
           "s2": {
             "idea": "Nêu muốn nói cùng ai.",
             "frame": "我想 + 跟你 + 说话。",
-            "model": "我想跟你说话。",
-            "vi": "Tôi muốn nói chuyện với bạn.",
+            "model": "我想跟你说话，可以吗？",
+            "vi": "Tôi muốn nói chuyện với bạn, được không?",
             "criteria": [
               "跟你 trước 说话.",
-              "和你 cũng được khi nghĩa phù hợp."
+              "想 trước cả cụm."
             ]
           }
         },
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -24305,7 +24320,8 @@
           "vi": "Mời vào ngồi.",
           "analysis": "进来 là vào về phía người nói ở trong; 坐 thêm việc ngồi sau khi vào.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Qǐng jìnlái zuò."
         }
       ],
       "status": "deep",
@@ -24348,7 +24364,8 @@
             "vi": "Mời vào ngồi.",
             "analysis": "进来 là vào về phía người nói ở trong; 坐 thêm việc ngồi sau khi vào.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Qǐng jìnlái zuò."
           }
         ],
         "usages": [
@@ -24470,18 +24487,18 @@
           "s1": {
             "idea": "Lời mời ngắn, nơi đã rõ.",
             "frame": "请 + 进。",
-            "model": "请进。",
-            "vi": "Mời vào.",
+            "model": "请进来。",
+            "vi": "Mời vào đây.",
             "criteria": [
               "Không bắt buộc có chủ ngữ.",
-              "请进来。 cũng hợp mốc ở trong."
+              "进来 hợp mốc người nói ở trong."
             ]
           },
           "s2": {
             "idea": "Nêu hướng vào và hành động ngồi.",
             "frame": "请 + 进来 + 坐。",
-            "model": "请进来坐。",
-            "vi": "Mời vào ngồi.",
+            "model": "请进来坐一会儿。",
+            "vi": "Mời vào ngồi một lát.",
             "criteria": [
               "进来 hợp mốc người nói.",
               "Có 坐 nếu muốn mời ngồi."
@@ -24491,7 +24508,21 @@
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2",
+            "q3"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -24514,7 +24545,7 @@
           "vi": "Xin hỏi, bệnh viện ở đâu?",
           "analysis": "请问 đầu lời hỏi; 哪儿 ở vị trí địa điểm sau 在.",
           "practiceAllowed": true,
-          "pinyin": "Qǐngwèn, yīyuàn zài nǎr?",
+          "pinyin": "Qǐngwèn yīyuàn zài nǎr?",
           "id": "e1"
         },
         {
@@ -24522,7 +24553,8 @@
           "vi": "Xin hỏi, cái này bao nhiêu tiền?",
           "analysis": "多少钱 hỏi giá; 请问 làm lời mở đầu lịch sự, không đổi vị trí từ hỏi.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Qǐngwèn zhège duōshao qián?"
         }
       ],
       "sourceIndex": 46,
@@ -24551,7 +24583,7 @@
             "vi": "Xin hỏi, bệnh viện ở đâu?",
             "analysis": "请问 đầu lời hỏi; 哪儿 ở vị trí địa điểm sau 在.",
             "practiceAllowed": true,
-            "pinyin": "Qǐngwèn, yīyuàn zài nǎr?",
+            "pinyin": "Qǐngwèn yīyuàn zài nǎr?",
             "id": "e1"
           },
           {
@@ -24559,7 +24591,8 @@
             "vi": "Xin hỏi, cái này bao nhiêu tiền?",
             "analysis": "多少钱 hỏi giá; 请问 làm lời mở đầu lịch sự, không đổi vị trí từ hỏi.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Qǐngwèn zhège duōshao qián?"
           }
         ],
         "usages": [
@@ -24660,7 +24693,7 @@
         },
         "selfUse": [
           {
-            "prompt": "Hỏi người lạ bệnh viện ở đâu.",
+            "prompt": "Hỏi người lạ trường học ở đâu.",
             "id": "s1"
           },
           {
@@ -24671,29 +24704,43 @@
         "selfAnswers": {
           "s1": {
             "idea": "Mở đầu xin hỏi rồi hỏi địa điểm.",
-            "frame": "请问，医院 + 在哪儿？",
-            "model": "请问，医院在哪儿？",
-            "vi": "Xin hỏi, bệnh viện ở đâu?",
+            "frame": "请问，学校 + 在哪儿？",
+            "model": "请问，学校在哪儿？",
+            "vi": "Xin hỏi, trường học ở đâu?",
             "criteria": [
               "请问 trước cả câu.",
-              "哪里 thay 哪儿 cũng được."
+              "哪儿 hỏi nơi."
             ]
           },
           "s2": {
             "idea": "Xin hỏi rồi hỏi lượng tiền.",
-            "frame": "请问，这个 + 多少钱？",
-            "model": "请问，这个多少钱？",
-            "vi": "Xin hỏi, cái này bao nhiêu tiền?",
+            "frame": "请问，这本书 + 多少钱？",
+            "model": "请问，这本书多少钱？",
+            "vi": "Xin hỏi, cuốn sách này bao nhiêu tiền?",
             "criteria": [
               "多少钱 hỏi giá.",
-              "Lược 这个 được nếu đang chỉ đồ rõ."
+              "Lược 这本书 được nếu đang chỉ sách rõ."
             ]
           }
         },
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2",
+            "q3"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -24718,7 +24765,8 @@
           "vi": "Tôi muốn mua một hộp sữa.",
           "analysis": "一 + 盒 + 奶 nêu lượng bằng hộp; 想 trước 买 nêu muốn mua.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Wǒ xiǎng mǎi yī hé nǎi."
         }
       ],
       "status": "deep",
@@ -24761,7 +24809,8 @@
             "vi": "Tôi muốn mua một hộp sữa.",
             "analysis": "一 + 盒 + 奶 nêu lượng bằng hộp; 想 trước 买 nêu muốn mua.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Wǒ xiǎng mǎi yī hé nǎi."
           }
         ],
         "usages": [
@@ -24905,7 +24954,7 @@
             "id": "s1"
           },
           {
-            "prompt": "Nói bạn muốn mua một hộp sữa.",
+            "prompt": "Nói bạn muốn mua một chai sữa bò.",
             "id": "s2"
           }
         ],
@@ -24913,21 +24962,21 @@
           "s1": {
             "idea": "Nêu thói quen và đồ uống.",
             "frame": "我每天 + 喝 + 奶。",
-            "model": "我每天喝奶。",
-            "vi": "Tôi uống sữa mỗi ngày.",
+            "model": "我每天喝一杯奶。",
+            "vi": "Tôi uống một cốc sữa mỗi ngày.",
             "criteria": [
               "每天 trước hành động.",
-              "Nói 牛奶 cũng đúng nếu muốn rõ sữa bò."
+              "一杯奶 là một cốc sữa."
             ]
           },
           "s2": {
             "idea": "Nêu mong muốn và lượng chứa.",
-            "frame": "我想买 + 一盒 + 奶。",
-            "model": "我想买一盒奶。",
-            "vi": "Tôi muốn mua một hộp sữa.",
+            "frame": "我想买 + 一瓶 + 奶。",
+            "model": "我想买一瓶牛奶。",
+            "vi": "Tôi muốn mua một chai sữa bò.",
             "criteria": [
-              "盒 giữa 一 và 奶.",
-              "Đổi 瓶 được khi thật sự mua chai."
+              "瓶 giữa 一 và 奶.",
+              "牛奶 là sữa bò."
             ]
           }
         },
@@ -24935,7 +24984,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=12184&la=0&powerMode=0",
           "https://www.coelang.tufs.ac.jp/modules/zh/vmod/v_search_detail.php?id=312&ls=1.20%2C%E4%BA%BA%E9%96%93&rf=2"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -24966,7 +25028,8 @@
           "vi": "Tôi đợi bạn dưới cây.",
           "analysis": "在树下 trước 等 nêu nơi chờ; 你 sau 等 là người đợi.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Wǒ zài shù xià děng nǐ."
         }
       ],
       "sourceIndex": 48,
@@ -25003,7 +25066,8 @@
             "vi": "Tôi đợi bạn dưới cây.",
             "analysis": "在树下 trước 等 nêu nơi chờ; 你 sau 等 là người đợi.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Wǒ zài shù xià děng nǐ."
           }
         ],
         "usages": [
@@ -25132,7 +25196,7 @@
         },
         "selfUse": [
           {
-            "prompt": "Chỉ hai cây trước mặt và nói ở đây có hai cây.",
+            "prompt": "Chỉ ba cây to trước mặt và nói ở đây có ba cây to.",
             "id": "s1"
           },
           {
@@ -25143,19 +25207,19 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nơi có gì, dùng lượng từ cây.",
-            "frame": "这里有 + 两棵树。",
-            "model": "这里有两棵树。",
-            "vi": "Ở đây có hai cây.",
+            "frame": "这里有 + 三棵大树。",
+            "model": "这里有三棵大树。",
+            "vi": "Ở đây có ba cây to.",
             "criteria": [
-              "两 trước 棵.",
-              "Không đổi 棵 thành 颗."
+              "三 trước 棵.",
+              "棵 là lượng từ đếm cây."
             ]
           },
           "s2": {
             "idea": "Nêu nơi rồi việc chờ.",
             "frame": "我 + 在树下 + 等你。",
-            "model": "我在树下等你。",
-            "vi": "Tôi đợi bạn dưới cây.",
+            "model": "我在树下等你和妈妈。",
+            "vi": "Tôi đợi bạn và mẹ dưới cây.",
             "criteria": [
               "在树下 trước 等.",
               "Có thể nêu rõ cây nào khi cần."
@@ -25166,7 +25230,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=17956&la=0&powerMode=0",
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=17960&la=0&powerMode=0"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -25197,7 +25274,8 @@
           "vi": "Tôi biết hát bài này.",
           "analysis": "会 trước 唱 nêu biết làm; 这首歌 sau 唱 là bài cụ thể, không cần lặp thêm 歌 của cụm 唱歌.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Wǒ huì chàng zhè shǒu gē."
         }
       ],
       "sourceIndex": 49,
@@ -25234,7 +25312,8 @@
             "vi": "Tôi biết hát bài này.",
             "analysis": "会 trước 唱 nêu biết làm; 这首歌 sau 唱 là bài cụ thể, không cần lặp thêm 歌 của cụm 唱歌.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Wǒ huì chàng zhè shǒu gē."
           }
         ],
         "usages": [
@@ -25386,8 +25465,8 @@
           "s1": {
             "idea": "Chỉ bài này và nhận xét âm thanh.",
             "frame": "这首歌 + 很好听。",
-            "model": "这首歌很好听。",
-            "vi": "Bài hát này rất hay.",
+            "model": "这首歌很好听，我喜欢。",
+            "vi": "Bài hát này rất hay, tôi thích.",
             "criteria": [
               "首 trước 歌.",
               "好听 nhận xét nghe hay."
@@ -25396,8 +25475,8 @@
           "s2": {
             "idea": "Nêu khả năng và bài cụ thể.",
             "frame": "我会 + 唱 + 这首歌。",
-            "model": "我会唱这首歌。",
-            "vi": "Tôi biết hát bài này.",
+            "model": "我会唱这首歌给你听。",
+            "vi": "Tôi biết hát bài này cho bạn nghe.",
             "criteria": [
               "会 trước hành động.",
               "Không nhầm biết hát với thích nghe."
@@ -25407,7 +25486,21 @@
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2",
+            "q3"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -25438,7 +25531,8 @@
           "vi": "Tôi có ba tệ rưỡi.",
           "analysis": "三块 là ba tệ, 五毛 là thêm nửa tệ; tổng là 3,5 tệ. Có lượng tiền sau 有.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Wǒ yǒu sān kuài wǔ máo qián."
         }
       ],
       "sourceIndex": 50,
@@ -25475,7 +25569,8 @@
             "vi": "Tôi có ba tệ rưỡi.",
             "analysis": "三块 là ba tệ, 五毛 là thêm nửa tệ; tổng là 3,5 tệ. Có lượng tiền sau 有.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Wǒ yǒu sān kuài wǔ máo qián."
           }
         ],
         "usages": [
@@ -25621,16 +25716,16 @@
             "id": "s1"
           },
           {
-            "prompt": "Nói bạn có ba tệ rưỡi.",
+            "prompt": "Nói bạn có năm tệ ba hào.",
             "id": "s2"
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Chỉ món đồ và số tiền.",
-            "frame": "这个 + 五毛（钱）。",
-            "model": "这个五毛钱。",
-            "vi": "Cái này năm hào.",
+            "frame": "这本书 + 五毛（钱）。",
+            "model": "这本书五毛钱。",
+            "vi": "Cuốn sách này năm hào.",
             "criteria": [
               "五毛 bằng nửa tệ.",
               "Lược 钱 được khi rõ báo giá."
@@ -25638,19 +25733,32 @@
           },
           "s2": {
             "idea": "Tách phần tệ và phần hào.",
-            "frame": "我有 + 三块 + 五毛（钱）。",
-            "model": "我有三块五毛钱。",
-            "vi": "Tôi có ba tệ rưỡi.",
+            "frame": "我有 + 五块 + 三毛（钱）。",
+            "model": "我有五块三毛钱。",
+            "vi": "Tôi có năm tệ ba hào.",
             "criteria": [
-              "三块 + 五毛, tổng 3,5 tệ.",
-              "我有三块五。 cũng được nếu ngữ cảnh tiền rõ."
+              "五块 + 三毛, tổng 5,3 tệ.",
+              "我有五块三。 cũng được nếu ngữ cảnh tiền rõ."
             ]
           }
         },
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=4002&la=0&powerMode=0"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -25681,7 +25789,8 @@
           "vi": "Xin cho tôi một cốc nước.",
           "analysis": "给 + 我 + 一杯水: người nhận trước, vật đưa sau. 一 + 杯 + 水 nêu lượng nước bằng cốc.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Qǐng gěi wǒ yī bēi shuǐ."
         }
       ],
       "sourceIndex": 51,
@@ -25718,7 +25827,8 @@
             "vi": "Xin cho tôi một cốc nước.",
             "analysis": "给 + 我 + 一杯水: người nhận trước, vật đưa sau. 一 + 杯 + 水 nêu lượng nước bằng cốc.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Qǐng gěi wǒ yī bēi shuǐ."
           }
         ],
         "usages": [
@@ -25870,28 +25980,41 @@
           "s1": {
             "idea": "Nêu mong muốn rồi việc uống.",
             "frame": "我想 + 喝 + 水。",
-            "model": "我想喝水。",
-            "vi": "Tôi muốn uống nước.",
+            "model": "我想喝一杯水。",
+            "vi": "Tôi muốn uống một cốc nước.",
             "criteria": [
               "想 trước 喝.",
-              "Có thể thêm 热/冷 khi thật sự muốn nêu nhiệt độ."
+              "一杯水 là một cốc nước."
             ]
           },
           "s2": {
             "idea": "Lịch sự, nêu người nhận rồi vật.",
             "frame": "请 + 给我 + 一杯水。",
-            "model": "请给我一杯水。",
-            "vi": "Xin cho tôi một cốc nước.",
+            "model": "请给我一杯水，谢谢。",
+            "vi": "Xin cho tôi một cốc nước, cảm ơn.",
             "criteria": [
               "我 sau 给; 一杯水 sau người.",
-              "Đổi 瓶 được nếu muốn chai, nhưng đổi ý về vật chứa."
+              "谢谢 làm lời nhờ lịch sự hơn."
             ]
           }
         },
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q3"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
