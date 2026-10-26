@@ -26037,14 +26037,16 @@
           "zh": "我先洗手。",
           "vi": "Tôi rửa tay trước.",
           "analysis": "洗 đứng trước 手; 先 nêu thứ tự.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xiān xǐ shǒu."
         },
         {
           "id": "e2",
           "zh": "周末我洗衣服。",
           "vi": "Cuối tuần tôi giặt quần áo.",
           "analysis": "衣服 là thứ được giặt; thời gian đứng đầu câu.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhōumò wǒ xǐ yīfu."
         }
       ],
       "sourceIndex": 52,
@@ -26073,14 +26075,16 @@
             "zh": "我先洗手。",
             "vi": "Tôi rửa tay trước.",
             "analysis": "洗 đứng trước 手; 先 nêu thứ tự.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xiān xǐ shǒu."
           },
           {
             "id": "e2",
             "zh": "周末我洗衣服。",
             "vi": "Cuối tuần tôi giặt quần áo.",
             "analysis": "衣服 là thứ được giặt; thời gian đứng đầu câu.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhōumò wǒ xǐ yīfu."
           }
         ],
         "usages": [
@@ -26167,15 +26171,15 @@
           },
           {
             "id": "s2",
-            "prompt": "Kể cuối tuần bạn giặt quần áo."
+            "prompt": "Kể mỗi ngày bạn giặt quần áo."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我先洗手。",
-            "model": "我先洗手。",
-            "vi": "Tôi rửa tay trước.",
+            "frame": "吃饭前 + 我先 + 洗手。",
+            "model": "吃饭前我先洗手。",
+            "vi": "Trước khi ăn tôi rửa tay trước.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -26183,9 +26187,9 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "周末我洗衣服。",
-            "model": "周末我洗衣服。",
-            "vi": "Cuối tuần tôi giặt quần áo.",
+            "frame": "每天 + 我 + 洗衣服。",
+            "model": "每天我洗衣服。",
+            "vi": "Mỗi ngày tôi giặt quần áo.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -26196,7 +26200,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=27414&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -26219,14 +26236,16 @@
           "zh": "今天很热。",
           "vi": "Hôm nay trời nóng.",
           "analysis": "很 đứng trước tính từ 热.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Jīntiān hěn rè."
         },
         {
           "id": "e2",
           "zh": "我想喝热水。",
           "vi": "Tôi muốn uống nước nóng.",
           "analysis": "热 đứng trước 水 để nói loại nước.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xiǎng hē rè shuǐ."
         }
       ],
       "sourceIndex": 53,
@@ -26255,14 +26274,16 @@
             "zh": "今天很热。",
             "vi": "Hôm nay trời nóng.",
             "analysis": "很 đứng trước tính từ 热.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān hěn rè."
           },
           {
             "id": "e2",
             "zh": "我想喝热水。",
             "vi": "Tôi muốn uống nước nóng.",
             "analysis": "热 đứng trước 水 để nói loại nước.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xiǎng hē rè shuǐ."
           }
         ],
         "usages": [
@@ -26363,9 +26384,9 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "今天很热。",
-            "model": "今天很热。",
-            "vi": "Hôm nay trời nóng.",
+            "frame": "今天 + 很热。",
+            "model": "今天很热，我想喝水。",
+            "vi": "Hôm nay trời nóng, tôi muốn uống nước.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -26373,9 +26394,9 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我想喝热水。",
-            "model": "我想喝热水。",
-            "vi": "Tôi muốn uống nước nóng.",
+            "frame": "我想喝 + 一杯 + 热水。",
+            "model": "我想喝一杯热水。",
+            "vi": "Tôi muốn uống một cốc nước nóng.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -26386,7 +26407,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=35919&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -26409,14 +26443,16 @@
           "zh": "我爱我的家人。",
           "vi": "Tôi yêu gia đình mình.",
           "analysis": "爱 đứng trước đối tượng tình cảm.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ ài wǒ de jiārén."
         },
         {
           "id": "e2",
           "zh": "他爱听音乐。",
           "vi": "Anh ấy rất thích nghe nhạc.",
           "analysis": "爱 + hành động có thể diễn tả niềm yêu thích mạnh; sở thích thường ngày cũng có thể nói 喜欢听音乐.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Tā ài tīng yīnyuè."
         }
       ],
       "sourceIndex": 54,
@@ -26445,14 +26481,16 @@
             "zh": "我爱我的家人。",
             "vi": "Tôi yêu gia đình mình.",
             "analysis": "爱 đứng trước đối tượng tình cảm.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ ài wǒ de jiārén."
           },
           {
             "id": "e2",
             "zh": "他爱听音乐。",
             "vi": "Anh ấy rất thích nghe nhạc.",
             "analysis": "爱 + hành động có thể diễn tả niềm yêu thích mạnh; sở thích thường ngày cũng có thể nói 喜欢听音乐.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Tā ài tīng yīnyuè."
           }
         ],
         "usages": [
@@ -26548,15 +26586,15 @@
           },
           {
             "id": "s2",
-            "prompt": "Nói bạn thích học tiếng Trung."
+            "prompt": "Nói bạn rất thích học tiếng Trung."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我爱我的家人。",
-            "model": "我爱我的家人。",
-            "vi": "Tôi yêu gia đình mình.",
+            "frame": "我爱 + 我的家人 + 和朋友。",
+            "model": "我爱我的家人和朋友。",
+            "vi": "Tôi yêu gia đình và bạn bè của mình.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -26564,9 +26602,9 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我喜欢学中文。",
-            "model": "我喜欢学中文。",
-            "vi": "Tôi thích học tiếng Trung.",
+            "frame": "我 + 爱 + 学中文。",
+            "model": "我爱学中文。",
+            "vi": "Tôi yêu việc học tiếng Trung.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -26577,7 +26615,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=39542&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -26600,14 +26651,16 @@
           "zh": "我有一个球。",
           "vi": "Tôi có một quả bóng.",
           "analysis": "一个 là lượng + 个; 球 là vật được đếm.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ yǒu yī ge qiú."
         },
         {
           "id": "e2",
           "zh": "他喜欢打篮球。",
           "vi": "Anh ấy thích chơi bóng rổ.",
           "analysis": "打篮球 là hoạt động chơi bóng rổ.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Tā xǐhuan dǎ lánqiú."
         }
       ],
       "sourceIndex": 55,
@@ -26636,14 +26689,16 @@
             "zh": "我有一个球。",
             "vi": "Tôi có một quả bóng.",
             "analysis": "一个 là lượng + 个; 球 là vật được đếm.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ yǒu yī ge qiú."
           },
           {
             "id": "e2",
             "zh": "他喜欢打篮球。",
             "vi": "Anh ấy thích chơi bóng rổ.",
             "analysis": "打篮球 là hoạt động chơi bóng rổ.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Tā xǐhuan dǎ lánqiú."
           }
         ],
         "usages": [
@@ -26734,7 +26789,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói bạn có một quả bóng."
+            "prompt": "Nói bạn có hai quả bóng rổ."
           },
           {
             "id": "s2",
@@ -26744,9 +26799,9 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我有一个球。",
-            "model": "我有一个球。",
-            "vi": "Tôi có một quả bóng.",
+            "frame": "我有 + 两个 + 篮球。",
+            "model": "我有两个篮球。",
+            "vi": "Tôi có hai quả bóng rổ.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -26754,7 +26809,7 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "周末我打篮球。",
+            "frame": "周末 + 我 + 打篮球。",
             "model": "周末我打篮球。",
             "vi": "Cuối tuần tôi chơi bóng rổ.",
             "criteria": [
@@ -26767,7 +26822,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=25023&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -26784,14 +26852,16 @@
           "zh": "我喜欢白色的衣服。",
           "vi": "Tôi thích quần áo màu trắng.",
           "analysis": "白色 đứng trước 的衣服.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xǐhuan báisè de yīfu."
         },
         {
           "id": "e2",
           "zh": "这件白衣服很干净。",
           "vi": "Chiếc áo trắng này rất sạch.",
           "analysis": "白 đứng trước 衣服 để tả màu.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhè jiàn bái yīfu hěn gānjìng."
         }
       ],
       "status": "deep",
@@ -26826,14 +26896,16 @@
             "zh": "我喜欢白色的衣服。",
             "vi": "Tôi thích quần áo màu trắng.",
             "analysis": "白色 đứng trước 的衣服.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xǐhuan báisè de yīfu."
           },
           {
             "id": "e2",
             "zh": "这件白衣服很干净。",
             "vi": "Chiếc áo trắng này rất sạch.",
             "analysis": "白 đứng trước 衣服 để tả màu.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhè jiàn bái yīfu hěn gānjìng."
           }
         ],
         "usages": [
@@ -26926,9 +26998,9 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我喜欢白色的衣服。",
-            "model": "我喜欢白色的衣服。",
-            "vi": "Tôi thích quần áo màu trắng.",
+            "frame": "我喜欢 + 白色的衣服。",
+            "model": "我喜欢白色的衣服，很干净。",
+            "vi": "Tôi thích quần áo màu trắng, rất sạch.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -26936,9 +27008,9 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我白天上班。",
-            "model": "我白天上班。",
-            "vi": "Ban ngày tôi đi làm.",
+            "frame": "我 + 白天 + 工作。",
+            "model": "我白天工作。",
+            "vi": "Ban ngày tôi làm việc.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -26949,7 +27021,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=253&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -26972,14 +27057,16 @@
           "zh": "大家都笑了。",
           "vi": "Mọi người đều bật cười.",
           "analysis": "笑 đứng sau người cười; 了 báo việc đã xảy ra.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Dàjiā dōu xiào le."
         },
         {
           "id": "e2",
           "zh": "这个笑话很好笑。",
           "vi": "Câu chuyện cười này rất buồn cười.",
           "analysis": "笑话 là chuyện; 好笑 miêu tả.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège xiàohua hěn hǎoxiào."
         }
       ],
       "sourceIndex": 57,
@@ -27008,14 +27095,16 @@
             "zh": "大家都笑了。",
             "vi": "Mọi người đều bật cười.",
             "analysis": "笑 đứng sau người cười; 了 báo việc đã xảy ra.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Dàjiā dōu xiào le."
           },
           {
             "id": "e2",
             "zh": "这个笑话很好笑。",
             "vi": "Câu chuyện cười này rất buồn cười.",
             "analysis": "笑话 là chuyện; 好笑 miêu tả.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège xiàohua hěn hǎoxiào."
           }
         ],
         "usages": [
@@ -27116,9 +27205,9 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "大家都笑了。",
-            "model": "大家都笑了。",
-            "vi": "Mọi người đều bật cười.",
+            "frame": "孩子们 + 都 + 笑了。",
+            "model": "孩子们都笑了。",
+            "vi": "Các bạn nhỏ đều bật cười.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -27126,9 +27215,9 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "这个笑话很好笑。",
-            "model": "这个笑话很好笑。",
-            "vi": "Câu chuyện này rất buồn cười.",
+            "frame": "这个笑话 + 很好笑。",
+            "model": "这个笑话很好笑，我笑了。",
+            "vi": "Câu chuyện cười này rất buồn cười, tôi đã cười.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -27139,7 +27228,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=27132&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -27162,14 +27264,16 @@
           "zh": "我买了一斤肉。",
           "vi": "Tôi mua một cân thịt.",
           "analysis": "一斤 là lượng, 肉 đứng sau đơn vị.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ mǎi le yī jīn ròu."
         },
         {
           "id": "e2",
           "zh": "我不吃肉。",
           "vi": "Tôi không ăn thịt.",
           "analysis": "不 đứng trước 吃 để phủ định.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ bù chī ròu."
         }
       ],
       "sourceIndex": 58,
@@ -27198,14 +27302,16 @@
             "zh": "我买了一斤肉。",
             "vi": "Tôi mua một cân thịt.",
             "analysis": "一斤 là lượng, 肉 đứng sau đơn vị.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ mǎi le yī jīn ròu."
           },
           {
             "id": "e2",
             "zh": "我不吃肉。",
             "vi": "Tôi không ăn thịt.",
             "analysis": "不 đứng trước 吃 để phủ định.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ bù chī ròu."
           }
         ],
         "usages": [
@@ -27296,7 +27402,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói bạn mua một cân thịt."
+            "prompt": "Nói bạn mua hai cân thịt heo."
           },
           {
             "id": "s2",
@@ -27306,9 +27412,9 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我买了一斤肉。",
-            "model": "我买了一斤肉。",
-            "vi": "Tôi mua một cân thịt.",
+            "frame": "我买了 + 两斤 + 猪肉。",
+            "model": "我买了两斤猪肉。",
+            "vi": "Tôi mua hai cân thịt heo.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -27316,9 +27422,9 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我不吃肉。",
-            "model": "我不吃肉。",
-            "vi": "Tôi không ăn thịt.",
+            "frame": "我 + 不吃 + 肉。",
+            "model": "我不吃肉，我吃菜。",
+            "vi": "Tôi không ăn thịt, tôi ăn rau.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -27329,7 +27435,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=36009&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -27352,14 +27471,16 @@
           "zh": "我买了一朵花。",
           "vi": "Tôi mua một bông hoa.",
           "analysis": "一朵 là lượng từ thường dùng cho hoa.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ mǎi le yī duǒ huā."
         },
         {
           "id": "e2",
           "zh": "我花一个小时学中文。",
           "vi": "Tôi dành một giờ học tiếng Trung.",
           "analysis": "花 đứng trước khoảng thời gian.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ huā yī ge xiǎoshí xué Zhōngwén."
         }
       ],
       "sourceIndex": 59,
@@ -27388,14 +27509,16 @@
             "zh": "我买了一朵花。",
             "vi": "Tôi mua một bông hoa.",
             "analysis": "一朵 là lượng từ thường dùng cho hoa.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ mǎi le yī duǒ huā."
           },
           {
             "id": "e2",
             "zh": "我花一个小时学中文。",
             "vi": "Tôi dành một giờ học tiếng Trung.",
             "analysis": "花 đứng trước khoảng thời gian.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ huā yī ge xiǎoshí xué Zhōngwén."
           }
         ],
         "usages": [
@@ -27486,19 +27609,19 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói bạn mua một bông hoa."
+            "prompt": "Nói bạn mua hai bông hoa tặng mẹ."
           },
           {
             "id": "s2",
-            "prompt": "Nói bạn dành một giờ học tiếng Trung."
+            "prompt": "Nói bạn dành một giờ đọc sách."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我买了一朵花。",
-            "model": "我买了一朵花。",
-            "vi": "Tôi mua một bông hoa.",
+            "frame": "我买了 + 两朵花 + 送妈妈。",
+            "model": "我买了两朵花送妈妈。",
+            "vi": "Tôi mua hai bông hoa tặng mẹ.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -27506,9 +27629,9 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "我花一个小时学中文。",
-            "model": "我花一个小时学中文。",
-            "vi": "Tôi dành một giờ học tiếng Trung.",
+            "frame": "我花 + 一个小时 + 看书。",
+            "model": "我花一个小时看书。",
+            "vi": "Tôi dành một giờ đọc sách.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -27519,7 +27642,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20030&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
