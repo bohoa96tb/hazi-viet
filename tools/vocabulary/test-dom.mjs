@@ -24,7 +24,8 @@ click('[data-step="4"]');assert.equal(document.querySelectorAll('[data-grade]').
 click('[data-action="favorite"]');assert.equal($('[data-action="favorite"]').getAttribute('aria-pressed'),'true');
 click('[data-action="close"]');assert(!$('#wordDialog').open);click('[data-level="1"]');
 $('#wordSearch').value='不用';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));assert(document.querySelector('[data-start="hz-h1-b51cd2090a80"]'));
-click('[data-start="hz-h1-b51cd2090a80"]');assert(body().includes('bù yòng'));click('[data-step="2"]');assert(body().includes('不用 / 不要'));click('[data-lesson-page="trap"][data-delta="1"]');assert(body().includes('不用 / 没用'));
+click('[data-start="hz-h1-b51cd2090a80"]');assert(body().includes('bù yòng'));click('[data-step="2"]');assert(body().includes('不用 / 不要'));assert(!document.querySelector('[data-lesson-page="trap"]'),'Tier 1 with one trap has no pager');click('#lessonBody .learn-more summary');assert(document.querySelector('#lessonBody .learn-more').open);assert(body().includes('不用 / 没用'));
+click('[data-action="close"]');$('#wordSearch').value='电话';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-start="hz-h1-367df9600cd7"]');click('[data-step="2"]');assert(body().includes('电话 và 手机'));click('[data-lesson-page="trap"][data-delta="1"]');assert(body().includes('打电话 và 接电话'));
 click('[data-action="close"]');$('#wordSearch').value='';$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));
 // A protected V1 word can still be opened through the same application.
 const old=p.completedIds[0];$('#wordSearch').value=d.words.find(w=>w.id===old).hanzi;$('#wordSearch').dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-start="'+old+'"]');assert(!body().includes('5.1'));assert(!body().includes('Mã ví dụ:'));click('[data-step="1"]');assert(document.querySelector('[data-lesson-view]'));assert(!body().includes('5.3'));
