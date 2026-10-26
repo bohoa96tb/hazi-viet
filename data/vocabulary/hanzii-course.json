@@ -21721,7 +21721,8 @@
           "vi": "Xin hỏi, ga ở đâu?",
           "analysis": "请问 mở đầu lịch sự; 哪儿 giữ vị trí nơi cần biết, sau 在.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Qǐngwèn chēzhàn zài nǎr?"
         }
       ],
       "sourceIndex": 35,
@@ -21763,7 +21764,8 @@
             "vi": "Xin hỏi, ga ở đâu?",
             "analysis": "请问 mở đầu lịch sự; 哪儿 giữ vị trí nơi cần biết, sau 在.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Qǐngwèn chēzhàn zài nǎr?"
           }
         ],
         "usages": [
@@ -21915,8 +21917,8 @@
           "s1": {
             "idea": "Nêu muốn hỏi và người nghe.",
             "frame": "我想 + 问你 + 一个问题。",
-            "model": "我想问你一个问题。",
-            "vi": "Tôi muốn hỏi bạn một câu.",
+            "model": "我想问你一个问题，可以吗？",
+            "vi": "Tôi muốn hỏi bạn một câu, được không?",
             "criteria": [
               "你 sau 问.",
               "一个问题 sau người được hỏi."
@@ -21925,18 +21927,31 @@
           "s2": {
             "idea": "Xin hỏi rồi hỏi nơi.",
             "frame": "请问，车站 + 在哪儿？",
-            "model": "请问，车站在哪儿？",
-            "vi": "Xin hỏi, ga ở đâu?",
+            "model": "请问，车站在哪儿，我想去。",
+            "vi": "Xin hỏi, ga ở đâu? Tôi muốn đến đó.",
             "criteria": [
               "请问 mở đầu.",
-              "哪里 thay 哪儿 cũng được."
+              "哪儿 hỏi nơi."
             ]
           }
         },
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -21967,7 +21982,8 @@
           "vi": "Không có gì đâu.",
           "analysis": "Đáp lời cảm ơn; lược người và tình huống đã rõ, không phải ra lệnh cấm cảm ơn.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Bù yòng xiè."
         }
       ],
       "sourceIndex": 36,
@@ -22004,7 +22020,8 @@
             "vi": "Không có gì đâu.",
             "analysis": "Đáp lời cảm ơn; lược người và tình huống đã rõ, không phải ra lệnh cấm cảm ơn.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Bù yòng xiè."
           }
         ],
         "usages": [
@@ -22156,22 +22173,22 @@
         "selfAnswers": {
           "s1": {
             "idea": "Miễn phải đến, không cấm đến.",
-            "frame": "你明天 + 不用 + 来。",
-            "model": "你明天不用来。",
-            "vi": "Ngày mai bạn không cần đến.",
+            "frame": "你明天 + 不用 + 去公司。",
+            "model": "你明天不用去公司。",
+            "vi": "Ngày mai bạn không cần đến công ty.",
             "criteria": [
-              "不用 trước 来.",
-              "Không thay 不要 nếu giữ ý miễn làm."
+              "不用 trước 去.",
+              "Giữ ý miễn làm, không phải cấm."
             ]
           },
           "s2": {
             "idea": "Đáp cảm ơn.",
             "frame": "不用 + 谢。",
-            "model": "不用谢。",
-            "vi": "Không có gì đâu.",
+            "model": "不用谢，没关系。",
+            "vi": "Không có gì đâu, không sao đâu.",
             "criteria": [
               "Đúng tình huống.",
-              "不客气。 cũng hợp lý, không sai chỉ vì khác mẫu."
+              "没关系 cũng hợp lý khi đáp cảm ơn."
             ]
           }
         },
@@ -22179,7 +22196,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=2340&la=0&powerMode=0",
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3874&la=0&powerMode=0"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -22210,7 +22240,8 @@
           "vi": "Tôi không biết trả lời bạn thế nào.",
           "analysis": "你 là người nhận lời đáp; 怎么 trước 回答 hỏi cách trả lời.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Wǒ bù zhīdào zěnme huídá nǐ."
         }
       ],
       "sourceIndex": 37,
@@ -22247,7 +22278,8 @@
             "vi": "Tôi không biết trả lời bạn thế nào.",
             "analysis": "你 là người nhận lời đáp; 怎么 trước 回答 hỏi cách trả lời.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Wǒ bù zhīdào zěnme huídá nǐ."
           }
         ],
         "usages": [
@@ -22391,18 +22423,18 @@
           "s1": {
             "idea": "Dùng 请 để đề nghị.",
             "frame": "请 + 回答 + 这个问题。",
-            "model": "请回答这个问题。",
-            "vi": "Hãy trả lời câu hỏi này.",
+            "model": "请回答我的问题。",
+            "vi": "Hãy trả lời câu hỏi của tôi.",
             "criteria": [
               "回答 trước đối tượng.",
-              "Không cần 给."
+              "请 mở đầu lịch sự."
             ]
           },
           "s2": {
             "idea": "Không biết cách đáp người kia.",
-            "frame": "我不知道 + 怎么回答 + 你。",
-            "model": "我不知道怎么回答你。",
-            "vi": "Tôi không biết trả lời bạn thế nào.",
+            "frame": "我不知道 + 怎么回答 + 你的问题。",
+            "model": "我不知道怎么回答你的问题。",
+            "vi": "Tôi không biết trả lời câu hỏi của bạn thế nào.",
             "criteria": [
               "怎么 trước 回答.",
               "Lược 你 được nếu ngữ cảnh rõ."
@@ -22412,7 +22444,20 @@
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -22443,7 +22488,8 @@
           "vi": "Lớp bạn có bao nhiêu người?",
           "analysis": "多少 trước 人 sau 有; 人 ở mẫu này không bắt buộc thêm 个.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Nǐmen bān yǒu duōshao rén?"
         }
       ],
       "sourceIndex": 38,
@@ -22480,7 +22526,8 @@
             "vi": "Lớp bạn có bao nhiêu người?",
             "analysis": "多少 trước 人 sau 有; 人 ở mẫu này không bắt buộc thêm 个.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Nǐmen bān yǒu duōshao rén?"
           }
         ],
         "usages": [
@@ -22612,7 +22659,7 @@
         },
         "selfUse": [
           {
-            "prompt": "Hỏi giá cốc đang xem.",
+            "prompt": "Hỏi giá cuốn sách đang xem.",
             "id": "s1"
           },
           {
@@ -22623,29 +22670,44 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đồ vật và hỏi lượng tiền.",
-            "frame": "这个杯子 + 多少钱？",
-            "model": "这个杯子多少钱？",
-            "vi": "Cốc này bao nhiêu tiền?",
+            "frame": "这本书 + 多少钱？",
+            "model": "这本书多少钱？",
+            "vi": "Cuốn sách này bao nhiêu tiền?",
             "criteria": [
-              "Không cần 吗.",
-              "Chỉ hỏi 多少钱？ cũng được khi đang chỉ cốc."
+              "多少钱 sau đồ vật.",
+              "Không cần thêm trợ từ hỏi cuối câu."
             ]
           },
           "s2": {
             "idea": "Dùng 有 rồi hỏi lượng người.",
-            "frame": "你们班有 + 多少人？",
-            "model": "你们班有多少人？",
-            "vi": "Lớp bạn có bao nhiêu người?",
+            "frame": "你们班有 + 多少个学生？",
+            "model": "你们班有多少个学生？",
+            "vi": "Lớp bạn có bao nhiêu học sinh?",
             "criteria": [
-              "多少 trước 人.",
-              "多少个学生 cũng hợp lý nếu hỏi số học viên."
+              "多少 trước 个学生.",
+              "学生 là học sinh trong lớp."
             ]
           }
         },
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://www.coelang.tufs.ac.jp/mt/zh/vmod/v_search_detail.php?id=65&ls=d&rf=3"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1",
+            "t2"
+          ],
+          "checks": [
+            "q1",
+            "q2",
+            "q3"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -22680,7 +22742,8 @@
           "targetParts": [
             "帮",
             "忙"
-          ]
+          ],
+          "pinyin": "Qǐng bāng wǒ yī ge máng."
         }
       ],
       "sourceIndex": 39,
@@ -22721,7 +22784,8 @@
             "targetParts": [
               "帮",
               "忙"
-            ]
+            ],
+            "pinyin": "Qǐng bāng wǒ yī ge máng."
           }
         ],
         "usages": [
@@ -22831,8 +22895,8 @@
           "s1": {
             "idea": "Nhờ lịch sự và nêu mình nhận giúp.",
             "frame": "请 + 帮 + 我 + 一个忙。",
-            "model": "请帮我一个忙。",
-            "vi": "Làm ơn giúp tôi một việc.",
+            "model": "请帮我一个忙，好吗？",
+            "vi": "Làm ơn giúp tôi một việc nhé.",
             "criteria": [
               "我 sau 帮, trước 一个忙.",
               "Có thể lược 请 nếu tình huống thân mật phù hợp."
@@ -22841,8 +22905,8 @@
           "s2": {
             "idea": "Hỏi khả năng giúp một tay.",
             "frame": "你能 + 帮忙 + 吗？",
-            "model": "你能帮忙吗？",
-            "vi": "Bạn có thể giúp một tay không?",
+            "model": "你能帮忙一下吗？",
+            "vi": "Bạn có thể giúp một chút không?",
             "criteria": [
               "能 trước 帮忙.",
               "Không buộc nêu lại việc đã rõ."
@@ -22852,7 +22916,20 @@
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=1121&la=0&powerMode=0"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -22883,7 +22960,8 @@
           "vi": "Bạn đến công ty bằng cách nào?",
           "analysis": "怎么 đứng trước 去, hỏi cách đi/phương tiện trong tình huống đang lên kế hoạch; 公司 sau 去 là nơi đến.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Nǐ zěnme qù gōngsī?"
         }
       ],
       "sourceIndex": 40,
@@ -22920,7 +22998,8 @@
             "vi": "Bạn đến công ty bằng cách nào?",
             "analysis": "怎么 đứng trước 去, hỏi cách đi/phương tiện trong tình huống đang lên kế hoạch; 公司 sau 去 là nơi đến.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Nǐ zěnme qù gōngsī?"
           }
         ],
         "usages": [
@@ -23064,7 +23143,7 @@
             "id": "s1"
           },
           {
-            "prompt": "Hỏi bạn đến công ty bằng cách nào trong lúc bàn đường đi.",
+            "prompt": "Hỏi bạn đến trường bằng cách nào trong lúc bàn đường đi.",
             "id": "s2"
           }
         ],
@@ -23072,8 +23151,8 @@
           "s1": {
             "idea": "Hỏi cách thực hiện việc đọc.",
             "frame": "这个字 + 怎么 + 读？",
-            "model": "这个字怎么读？",
-            "vi": "Chữ này đọc thế nào?",
+            "model": "这个字怎么读，你知道吗？",
+            "vi": "Chữ này đọc thế nào, bạn có biết không?",
             "criteria": [
               "怎么 trước 读.",
               "Có thể lược 这个字 khi đang chỉ chữ."
@@ -23081,12 +23160,12 @@
           },
           "s2": {
             "idea": "Hỏi cách đi, nêu nơi.",
-            "frame": "你 + 怎么 + 去公司？",
-            "model": "你怎么去公司？",
-            "vi": "Bạn đến công ty bằng cách nào?",
+            "frame": "你 + 怎么 + 去学校？",
+            "model": "你怎么去学校？",
+            "vi": "Bạn đến trường bằng cách nào?",
             "criteria": [
               "怎么 trước 去.",
-              "Ngữ cảnh phải là hỏi cách đi; 为什么 sẽ hỏi lý do."
+              "Ngữ cảnh phải là hỏi cách đi, không phải lý do."
             ]
           }
         },
@@ -23094,7 +23173,20 @@
         "sources": [
           "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/009.html",
           "https://www.coelang.tufs.ac.jp/mt/zh/gmod/contents/explanation/008.html"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -23117,7 +23209,8 @@
           "vi": "Điện thoại di động của tôi ở đây.",
           "analysis": "我的手机 là thứ đang nói đến; 在这里 nêu vị trí, không cần 是 trước 在.",
           "practiceAllowed": true,
-          "id": "e1"
+          "id": "e1",
+          "pinyin": "Wǒ de shǒujī zài zhèlǐ."
         },
         {
           "zh": "我用手机学中文。",
@@ -23154,7 +23247,8 @@
             "vi": "Điện thoại di động của tôi ở đây.",
             "analysis": "我的手机 là thứ đang nói đến; 在这里 nêu vị trí, không cần 是 trước 在.",
             "practiceAllowed": true,
-            "id": "e1"
+            "id": "e1",
+            "pinyin": "Wǒ de shǒujī zài zhèlǐ."
           },
           {
             "zh": "我用手机学中文。",
@@ -23275,28 +23369,28 @@
             "id": "s1"
           },
           {
-            "prompt": "Nói bạn học tiếng Trung bằng điện thoại.",
+            "prompt": "Nói bạn đọc sách bằng điện thoại.",
             "id": "s2"
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đồ sở hữu và nơi.",
-            "frame": "我的手机 + 在这里。",
-            "model": "我的手机在这里。",
-            "vi": "Điện thoại của tôi ở đây.",
+            "frame": "我的手机 + 在桌子上。",
+            "model": "我的手机在桌子上。",
+            "vi": "Điện thoại của tôi ở trên bàn.",
             "criteria": [
               "在 nêu nơi.",
-              "手机在这里。 cũng đúng khi rõ sở hữu."
+              "桌子上 là trên bàn."
             ]
           },
           "s2": {
-            "idea": "Nêu dụng cụ rồi việc học.",
-            "frame": "我 + 用手机 + 学中文。",
-            "model": "我用手机学中文。",
-            "vi": "Tôi dùng điện thoại học tiếng Trung.",
+            "idea": "Nêu dụng cụ rồi việc đọc.",
+            "frame": "我 + 用手机 + 看书。",
+            "model": "我用手机看书。",
+            "vi": "Tôi dùng điện thoại đọc sách.",
             "criteria": [
-              "用手机 trước 学.",
+              "用手机 trước 看书.",
               "Không nhầm máy với số liên lạc."
             ]
           }
@@ -23304,7 +23398,21 @@
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2",
+            "q3"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -23715,7 +23823,8 @@
           "vi": "Số điện thoại của bạn là bao nhiêu?",
           "analysis": "电话号码 là số liên lạc; 多少 giữ vị trí số cần biết. Đây là hỏi số, không hỏi giá chiếc máy.",
           "practiceAllowed": true,
-          "id": "e2"
+          "id": "e2",
+          "pinyin": "Nǐ de diànhuà hàomǎ shì duōshao?"
         }
       ],
       "sourceIndex": 43,
@@ -23752,7 +23861,8 @@
             "vi": "Số điện thoại của bạn là bao nhiêu?",
             "analysis": "电话号码 là số liên lạc; 多少 giữ vị trí số cần biết. Đây là hỏi số, không hỏi giá chiếc máy.",
             "practiceAllowed": true,
-            "id": "e2"
+            "id": "e2",
+            "pinyin": "Nǐ de diànhuà hàomǎ shì duōshao?"
           }
         ],
         "usages": [
@@ -23834,7 +23944,11 @@
             },
             "boundary": "Một người có thể vừa gọi đi vừa nhận trong những lúc khác. Không nói 接电话 chỉ cho máy bàn.",
             "tip": "Gọi đi: 打电话; máy reo nghe: 接电话.",
-            "id": "t2"
+            "id": "t2",
+            "caseExampleTerms": [
+              "打电话",
+              "接妈妈的电话"
+            ]
           }
         ],
         "trapReview": {
@@ -23885,7 +23999,7 @@
         },
         "selfUse": [
           {
-            "prompt": "Nói bạn sẽ gọi điện cho mẹ.",
+            "prompt": "Nói sẽ gọi điện cho bạn.",
             "id": "s1"
           },
           {
@@ -23896,29 +24010,44 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu người gọi và người nhận.",
-            "frame": "我 + 给妈妈 + 打电话。",
-            "model": "我给妈妈打电话。",
-            "vi": "Tôi gọi điện cho mẹ.",
+            "frame": "我 + 给朋友 + 打电话。",
+            "model": "我给朋友打电话。",
+            "vi": "Tôi gọi điện cho bạn.",
             "criteria": [
-              "给妈妈 nêu người nhận cuộc gọi.",
-              "我打电话给妈妈。 cũng đúng."
+              "给朋友 nêu người nhận cuộc gọi.",
+              "给朋友 có thể đặt sau 打电话."
             ]
           },
           "s2": {
             "idea": "Hỏi số, không hỏi vị trí máy.",
-            "frame": "你的电话号码 + 是多少？",
-            "model": "你的电话号码是多少？",
-            "vi": "Số điện thoại của bạn là bao nhiêu?",
+            "frame": "请问，你同学的电话号码 + 是多少？",
+            "model": "请问，你同学的电话号码是多少？",
+            "vi": "Xin hỏi, số điện thoại của bạn học là bao nhiêu?",
             "criteria": [
               "Giữ 号码 để rõ ý.",
-              "你的电话是多少？ cũng dùng được khi rõ ngữ cảnh."
+              "同学 là bạn học cùng lớp."
             ]
           }
         },
         "authorship": "Biên soạn riêng theo chuẩn V2; ví dụ mới; tự rà soát ngôn ngữ, đối chiếu nguồn ở điểm cần xác nhận; chưa phản biện giáo viên độc lập.",
         "sources": [
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1",
+            "t2"
+          ],
+          "checks": [
+            "q1",
+            "q2",
+            "q3"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
