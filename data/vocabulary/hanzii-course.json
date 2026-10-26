@@ -29343,14 +29343,16 @@
           "zh": "我每天喝牛奶。",
           "vi": "Ngày nào tôi cũng uống sữa bò.",
           "analysis": "每天 nêu thói quen; 喝 là uống, 牛奶 là đồ uống.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ měitiān hē niúnǎi."
         },
         {
           "id": "e2",
           "zh": "我想要一杯牛奶。",
           "vi": "Tôi muốn một cốc sữa bò.",
           "analysis": "一杯 là lượng từ cho đồ uống; 牛奶 đứng sau lượng từ.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xiǎng yào yī bēi niúnǎi."
         }
       ],
       "sourceIndex": 68,
@@ -29383,14 +29385,16 @@
             "zh": "我每天喝牛奶。",
             "vi": "Ngày nào tôi cũng uống sữa bò.",
             "analysis": "每天 nêu thói quen; 喝 là uống, 牛奶 là đồ uống.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ měitiān hē niúnǎi."
           },
           {
             "id": "e2",
             "zh": "我想要一杯牛奶。",
             "vi": "Tôi muốn một cốc sữa bò.",
             "analysis": "一杯 là lượng từ cho đồ uống; 牛奶 đứng sau lượng từ.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xiǎng yào yī bēi niúnǎi."
           }
         ],
         "usages": [
@@ -29496,19 +29500,32 @@
             "vi": "Buổi sáng tôi uống sữa bò.",
             "criteria": [
               "Dùng 喝 với 牛奶.",
-              "Có thể thêm 每天 nếu muốn nói hằng ngày."
+              "早上 nêu thời điểm uống."
             ]
           },
           "s2": {
             "idea": "Lịch sự gọi món và số cốc.",
-            "frame": "我想要 + 一杯 + 牛奶。",
-            "model": "我想要一杯牛奶。",
-            "vi": "Tôi muốn một cốc sữa bò.",
+            "frame": "请给我 + 一杯 + 牛奶。",
+            "model": "请给我一杯牛奶。",
+            "vi": "Xin cho tôi một cốc sữa bò。",
             "criteria": [
               "杯 đặt giữa số lượng và 牛奶.",
-              "Có thể dùng 请给我 để gọi người bán."
+              "请给我 là cách gọi lịch sự."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -29532,14 +29549,16 @@
           "zh": "我早上吃一个鸡蛋。",
           "vi": "Buổi sáng tôi ăn một quả trứng gà.",
           "analysis": "一个 đứng trước 鸡蛋 để đếm quả; 吃 nêu việc ăn.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ zǎoshang chī yī ge jīdàn."
         },
         {
           "id": "e2",
           "zh": "冰箱里还有两个鸡蛋。",
           "vi": "Trong tủ lạnh vẫn còn hai quả trứng gà.",
           "analysis": "冰箱里 nêu nơi; 两个鸡蛋 là hai quả còn lại.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Bīngxiāng lǐ hái yǒu liǎng ge jīdàn."
         }
       ],
       "sourceIndex": 69,
@@ -29571,14 +29590,16 @@
             "zh": "我早上吃一个鸡蛋。",
             "vi": "Buổi sáng tôi ăn một quả trứng gà.",
             "analysis": "一个 đứng trước 鸡蛋 để đếm quả; 吃 nêu việc ăn.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zǎoshang chī yī ge jīdàn."
           },
           {
             "id": "e2",
             "zh": "冰箱里还有两个鸡蛋。",
             "vi": "Trong tủ lạnh vẫn còn hai quả trứng gà.",
             "analysis": "冰箱里 nêu nơi; 两个鸡蛋 là hai quả còn lại.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Bīngxiāng lǐ hái yǒu liǎng ge jīdàn."
           }
         ],
         "usages": [
@@ -29669,34 +29690,47 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói bạn ăn một quả trứng vào buổi sáng."
+            "prompt": "Nói bạn ăn hai quả trứng mỗi ngày."
           },
           {
             "id": "s2",
-            "prompt": "Nói trong tủ lạnh còn hai quả trứng."
+            "prompt": "Nói trong nhà còn ba quả trứng."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu thời điểm, hành động và số trứng.",
-            "frame": "我早上 + 吃 + 一个 + 鸡蛋。",
-            "model": "我早上吃一个鸡蛋。",
-            "vi": "Buổi sáng tôi ăn một quả trứng gà.",
+            "frame": "我 + 每天 + 吃 + 两个 + 鸡蛋。",
+            "model": "我每天吃两个鸡蛋。",
+            "vi": "Mỗi ngày tôi ăn hai quả trứng gà。",
             "criteria": [
               "Dùng 个 để đếm quả.",
-              "Có thể đổi thời điểm hoặc số lượng."
+              "每天 nói thói quen hằng ngày."
             ]
           },
           "s2": {
             "idea": "Nêu nơi có trứng và số lượng.",
-            "frame": "冰箱里 + 还有 + 两个 + 鸡蛋。",
-            "model": "冰箱里还有两个鸡蛋。",
-            "vi": "Trong tủ lạnh vẫn còn hai quả trứng.",
+            "frame": "我家 + 冰箱里 + 还有 + 三个 + 鸡蛋。",
+            "model": "我家冰箱里还有三个鸡蛋。",
+            "vi": "Trong tủ lạnh nhà tôi vẫn còn ba quả trứng gà。",
             "criteria": [
               "个 đứng giữa số lượng và 鸡蛋.",
               "Có thể thay con số theo thực tế."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -29720,14 +29754,16 @@
           "zh": "我的手机坏了。",
           "vi": "Điện thoại của tôi hỏng rồi.",
           "analysis": "我的手机 là vật được nói đến; 坏了 nêu tình trạng đã hỏng.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ de shǒujī huài le."
         },
         {
           "id": "e2",
           "zh": "这个苹果坏了，别吃。",
           "vi": "Quả táo này hỏng rồi, đừng ăn.",
           "analysis": "坏了 nêu thức ăn đã hư; 别吃 là lời khuyên không ăn.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège píngguǒ huài le bié chī."
         }
       ],
       "sourceIndex": 70,
@@ -29759,14 +29795,16 @@
             "zh": "我的手机坏了。",
             "vi": "Điện thoại của tôi hỏng rồi.",
             "analysis": "我的手机 là vật được nói đến; 坏了 nêu tình trạng đã hỏng.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ de shǒujī huài le."
           },
           {
             "id": "e2",
             "zh": "这个苹果坏了，别吃。",
             "vi": "Quả táo này hỏng rồi, đừng ăn.",
             "analysis": "坏了 nêu thức ăn đã hư; 别吃 là lời khuyên không ăn.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège píngguǒ huài le bié chī."
           }
         ],
         "usages": [
@@ -29806,7 +29844,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "把 这家店人很多 里的 多 换成 大，会变成 这家店人很大，通常被理解为 người ở cửa hàng có vóc dáng lớn và nghe lạc đề trong tình huống này. Muốn nói cửa hàng có quy mô lớn thì đổi chủ thể thành 这家店很大。"
+              "explanation": "Thay 坏了 bằng 不好用 trong câu 手机坏了 vẫn đúng nhưng đổi ý từ máy đã hỏng sang máy dùng kém; muốn nói máy không bật được thì giữ 手机坏了。"
             },
             "boundary": "Một đồ vật hỏng thường cũng khiến nó không tốt khi dùng; 不好 dùng rộng hơn và không tự kết luận vật đã hỏng.",
             "tip": "Không hoạt động/hư: 坏了; dùng kém nhưng có thể còn chạy: 不好用."
@@ -29881,19 +29919,19 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Báo điện thoại của bạn hỏng rồi."
+            "prompt": "Báo máy tính của bạn hỏng rồi."
           },
           {
             "id": "s2",
-            "prompt": "Nói một quả táo đã hỏng và không nên ăn."
+            "prompt": "Nói mẩu bánh mì đã hỏng và không nên ăn."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu điện thoại và tình trạng hỏng.",
-            "frame": "我的手机 + 坏了。",
-            "model": "我的手机坏了。",
-            "vi": "Điện thoại của tôi hỏng rồi.",
+            "frame": "我的电脑 + 坏了。",
+            "model": "我的电脑坏了。",
+            "vi": "Máy tính của tôi hỏng rồi。",
             "criteria": [
               "Dùng 坏了 để nói tình trạng.",
               "Có thể lược 我的 nếu ngữ cảnh rõ."
@@ -29901,14 +29939,26 @@
           },
           "s2": {
             "idea": "Nêu quả táo hỏng và khuyên không ăn.",
-            "frame": "这个苹果 + 坏了，+ 别吃。",
-            "model": "这个苹果坏了，别吃。",
-            "vi": "Quả táo này hỏng rồi, đừng ăn.",
+            "frame": "这块面包 + 坏了，+ 别吃。",
+            "model": "这块面包坏了，别吃。",
+            "vi": "Mẩu bánh mì này hỏng rồi, đừng ăn。",
             "criteria": [
               "坏了 đứng sau đồ ăn.",
               "别吃 là khuyên tránh ăn."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -29932,14 +29982,16 @@
           "zh": "这里人很多。",
           "vi": "Ở đây có rất đông người.",
           "analysis": "这里 nêu nơi; 人 là thứ được nhận xét; 很多 đứng sau để nói số lượng.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhèlǐ rén hěn duō."
         },
         {
           "id": "e2",
           "zh": "我买了很多水果。",
           "vi": "Tôi đã mua nhiều trái cây.",
           "analysis": "很多 đứng trước danh từ 水果 sau động từ 买了; không cần lặp 个 khi nói chung.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ mǎi le hěn duō shuǐguǒ."
         }
       ],
       "sourceIndex": 71,
@@ -29971,14 +30023,16 @@
             "zh": "这里人很多。",
             "vi": "Ở đây có rất đông người.",
             "analysis": "这里 nêu nơi; 人 là thứ được nhận xét; 很多 đứng sau để nói số lượng.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhèlǐ rén hěn duō."
           },
           {
             "id": "e2",
             "zh": "我买了很多水果。",
             "vi": "Tôi đã mua nhiều trái cây.",
             "analysis": "很多 đứng trước danh từ 水果 sau động từ 买了; không cần lặp 个 khi nói chung.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ mǎi le hěn duō shuǐguǒ."
           }
         ],
         "usages": [
@@ -30074,30 +30128,43 @@
           },
           {
             "id": "s2",
-            "prompt": "Nói bạn đã mua nhiều trái cây."
+            "prompt": "Nói bạn đã mua nhiều quả táo."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu cửa hàng và lượng khách.",
-            "frame": "今天 + 店里 + 人 + 很多。",
-            "model": "今天店里人很多。",
+            "frame": "今天 + 商店里 + 人 + 很多。",
+            "model": "今天商店里人很多。",
             "vi": "Hôm nay trong cửa hàng rất đông người.",
             "criteria": [
               "很多 miêu tả số người.",
-              "Có thể dùng 有很多客人 theo khung khác."
+              "商店里 là trong cửa hàng."
             ]
           },
           "s2": {
             "idea": "Nêu việc mua và số lượng trái cây.",
-            "frame": "我 + 买了 + 很多 + 水果。",
-            "model": "我买了很多水果。",
-            "vi": "Tôi đã mua nhiều trái cây.",
+            "frame": "昨天 + 我 + 买了 + 很多 + 苹果。",
+            "model": "昨天我买了很多苹果。",
+            "vi": "Hôm qua tôi đã mua nhiều quả táo。",
             "criteria": [
               "很多 đứng trước danh từ.",
               "Không cần lượng từ khi nói chung."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -30121,14 +30188,16 @@
           "zh": "这个房间很大。",
           "vi": "Căn phòng này rất rộng.",
           "analysis": "很 đứng trước tính từ 大; với 房间, dịch là rộng tự nhiên hơn “to”.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège fángjiān hěn dà."
         },
         {
           "id": "e2",
           "zh": "这家超市很大。",
           "vi": "Siêu thị này rất lớn.",
           "analysis": "大 nhận xét quy mô của siêu thị, không phải số lượng người trong đó.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhè jiā chāoshì hěn dà."
         }
       ],
       "sourceIndex": 72,
@@ -30160,14 +30229,16 @@
             "zh": "这个房间很大。",
             "vi": "Căn phòng này rất rộng.",
             "analysis": "很 đứng trước tính từ 大; với 房间, dịch là rộng tự nhiên hơn “to”.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège fángjiān hěn dà."
           },
           {
             "id": "e2",
             "zh": "这家超市很大。",
             "vi": "Siêu thị này rất lớn.",
             "analysis": "大 nhận xét quy mô của siêu thị, không phải số lượng người trong đó.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhè jiā chāoshì hěn dà."
           }
         ],
         "usages": [
@@ -30286,6 +30357,19 @@
               "Rộng là cách dịch tự nhiên theo ngữ cảnh."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -30309,14 +30393,16 @@
           "zh": "这个太贵了。",
           "vi": "Cái này đắt quá.",
           "analysis": "太 đứng trước 贵 và 了 ở cuối để nhấn giá vượt mức người nói muốn.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège tài guì le."
         },
         {
           "id": "e2",
           "zh": "今天的菜太好吃了！",
           "vi": "Món hôm nay ngon quá!",
           "analysis": "太…了 cũng dùng để khen mạnh; không phải lúc nào cũng là lời phàn nàn.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Jīntiān de cài tài hǎochī le!"
         }
       ],
       "sourceIndex": 73,
@@ -30348,14 +30434,16 @@
             "zh": "这个太贵了。",
             "vi": "Cái này đắt quá.",
             "analysis": "太 đứng trước 贵 và 了 ở cuối để nhấn giá vượt mức người nói muốn.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège tài guì le."
           },
           {
             "id": "e2",
             "zh": "今天的菜太好吃了！",
             "vi": "Món hôm nay ngon quá!",
             "analysis": "太…了 cũng dùng để khen mạnh; không phải lúc nào cũng là lời phàn nàn.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān de cài tài hǎochī le!"
           }
         ],
         "usages": [
@@ -30439,7 +30527,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói món ăn hôm nay ngon quá."
+            "prompt": "Nói quả táo này ngon quá."
           },
           {
             "id": "s2",
@@ -30449,9 +30537,9 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu món ăn và cảm xúc khen mạnh.",
-            "frame": "今天的菜 + 太 + 好吃 + 了！",
-            "model": "今天的菜太好吃了！",
-            "vi": "Món hôm nay ngon quá!",
+            "frame": "这个苹果 + 太 + 好吃 + 了！",
+            "model": "这个苹果太好吃了！",
+            "vi": "Quả táo này ngon quá!",
             "criteria": [
               "太 đứng trước 好吃.",
               "Câu khen vẫn dùng 太…了."
@@ -30459,14 +30547,27 @@
           },
           "s2": {
             "idea": "Nêu món đồ và giá vượt mong muốn.",
-            "frame": "这个 + 太 + 贵 + 了。",
-            "model": "这个太贵了。",
-            "vi": "Cái này đắt quá.",
+            "frame": "这本书 + 太 + 贵 + 了。",
+            "model": "这本书太贵了。",
+            "vi": "Quyển sách này đắt quá。",
             "criteria": [
               "太 đứng trước tính từ.",
-              "Có thể thay 这个 bằng tên món đồ."
+              "Có thể thay 这本书 bằng tên món đồ khác."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -30478,6 +30579,10 @@
         {
           "pinyin": "hǎo",
           "meaning": "tốt; ổn"
+        },
+        {
+          "pinyin": "hào",
+          "meaning": "thích; trong 爱好"
         }
       ],
       "meaning": "tốt; ổn",
@@ -30490,14 +30595,27 @@
           "zh": "这个办法很好。",
           "vi": "Cách này rất hay.",
           "analysis": "这个办法 là điều được nhận xét; 很 đặt trước tính từ 好.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège bànfǎ hěn hǎo.",
+          "introIndex": 0
         },
         {
           "id": "e2",
           "zh": "这个菜很好吃。",
           "vi": "Món này rất ngon.",
           "analysis": "好吃 là cách nói quen thuộc để khen vị món ăn; không dịch từng chữ là “tốt ăn”.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège cài hěn hǎochī.",
+          "introIndex": 0
+        },
+        {
+          "id": "e3",
+          "zh": "我的爱好是听音乐。",
+          "pinyin": "Wǒ de àihào shì tīng yīnyuè.",
+          "vi": "Sở thích của tôi là nghe nhạc.",
+          "analysis": "爱好 là sở thích; 听音乐 là nghe nhạc.",
+          "practiceAllowed": true,
+          "introIndex": 1
         }
       ],
       "sourceIndex": 74,
@@ -30512,11 +30630,11 @@
           "https://dict.revised.moe.edu.tw/dictView.jsp?ID=4797&ver=4"
         ],
         "introduction": {
-          "scope": "Học 好 như tính từ khen chất lượng; trong khẩu ngữ cũng dùng 太好了 để khen mạnh."
+          "scope": "Học 好 đọc thanh ba để khen cái gì tốt hay; nhận ra 好 đọc thanh bốn trong từ 爱好 (sở thích)."
         },
         "meaning": {
           "scene": "Bạn nhận xét một món ăn hoặc một cách làm.",
-          "explanation": "好 là tính từ nói điều gì đó tốt/ổn theo đánh giá của người nói. Có thể nói 好吃 (ngon), 很好 (rất tốt), hoặc 好办法 (cách hay).",
+          "explanation": "好 thường đọc thanh ba khi khen cái gì tốt hay. Có thể nói 好吃 (ngon), 很好 (rất tốt), hoặc 好办法 (cách hay). Trong từ 爱好 (sở thích), 好 đọc thanh bốn.",
           "boundary": "好 đánh giá chất lượng; 可以 thường nghiêng về “được/có thể chấp nhận” hoặc “làm được”. Trong một số tình huống, cả hai cùng thể hiện đồng ý.",
           "conditions": [
             "Khi nói câu nhận xét, có thể đặt 很 trước 好: 这个办法很好.",
@@ -30530,14 +30648,27 @@
             "zh": "这个办法很好。",
             "vi": "Cách này rất hay.",
             "analysis": "这个办法 là điều được nhận xét; 很 đặt trước tính từ 好.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège bànfǎ hěn hǎo.",
+            "introIndex": 0
           },
           {
             "id": "e2",
             "zh": "这个菜很好吃。",
             "vi": "Món này rất ngon.",
             "analysis": "好吃 là cách nói quen thuộc để khen vị món ăn; không dịch từng chữ là “tốt ăn”.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège cài hěn hǎochī.",
+            "introIndex": 0
+          },
+          {
+            "id": "e3",
+            "zh": "我的爱好是听音乐。",
+            "pinyin": "Wǒ de àihào shì tīng yīnyuè.",
+            "vi": "Sở thích của tôi là nghe nhạc.",
+            "analysis": "爱好 là sở thích; 听音乐 là nghe nhạc.",
+            "practiceAllowed": true,
+            "introIndex": 1
           }
         ],
         "usages": [
@@ -30592,7 +30723,7 @@
           },
           {
             "id": "t2",
-            "title": "好 trong 好 và trong 爱好 có thanh khác",
+            "title": "好 và 爱好: thanh ba hay thanh bốn",
             "scene": "Bạn nhận xét một cách làm tốt rồi nói về sở thích của mình.",
             "possibleConfusion": "Cùng chữ 好 có nghĩa tốt với thanh ba; trong từ 爱好 nghĩa là sở thích và đọc thanh bốn.",
             "difference": "这个办法很好 dùng 好 để khen cách làm. 我的爱好是听音乐 dùng 爱好 để nói sở thích; thanh đọc thay theo từ, không phải biến điệu của 很好.",
@@ -30663,15 +30794,15 @@
           },
           {
             "id": "s2",
-            "prompt": "Nói cách làm này rất hay."
+            "prompt": "Nói ý này rất hay."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu món ăn và đánh giá vị.",
-            "frame": "这个菜 + 很 + 好吃。",
-            "model": "这个菜很好吃。",
-            "vi": "Món này rất ngon.",
+            "frame": "这碗面 + 很 + 好吃。",
+            "model": "这碗面很好吃。",
+            "vi": "Bát mì này rất ngon。",
             "criteria": [
               "Dùng 好吃 để nói ngon.",
               "Có thể thay món ăn."
@@ -30679,14 +30810,44 @@
           },
           "s2": {
             "idea": "Nêu cách làm và khen.",
-            "frame": "这个办法 + 很 + 好。",
-            "model": "这个办法很好。",
-            "vi": "Cách này rất hay.",
+            "frame": "这个主意 + 很 + 好。",
+            "model": "这个主意很好。",
+            "vi": "Ý này rất hay。",
             "criteria": [
               "好 đứng sau 很.",
-              "Có thể dùng 可以 nếu ý chỉ chấp nhận/khả thi."
+              "主意 là ý kiến hay cách nghĩ."
             ]
           }
+        },
+        "readingBlocks": [
+          {
+            "introIndex": 0,
+            "exampleId": "e1",
+            "heading": "khen cái gì tốt hay, dùng như tính từ."
+          },
+          {
+            "introIndex": 0,
+            "exampleId": "e2",
+            "heading": "khen vị món ăn, trong cụm 好吃."
+          },
+          {
+            "introIndex": 1,
+            "exampleId": "e3",
+            "heading": "nói sở thích, trong từ 爱好."
+          }
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -30710,14 +30871,16 @@
           "zh": "这个杯子很小。",
           "vi": "Cốc này nhỏ.",
           "analysis": "这个杯子 là vật được nhận xét; 很小 nêu kích thước.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège bēizi hěn xiǎo."
         },
         {
           "id": "e2",
           "zh": "我想买一个小杯子。",
           "vi": "Tôi muốn mua một chiếc cốc nhỏ.",
           "analysis": "小 đứng trước 杯子 để bổ nghĩa; 一个 đếm một chiếc cốc.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xiǎng mǎi yī ge xiǎo bēizi."
         }
       ],
       "sourceIndex": 75,
@@ -30749,14 +30912,16 @@
             "zh": "这个杯子很小。",
             "vi": "Cốc này nhỏ.",
             "analysis": "这个杯子 là vật được nhận xét; 很小 nêu kích thước.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège bēizi hěn xiǎo."
           },
           {
             "id": "e2",
             "zh": "我想买一个小杯子。",
             "vi": "Tôi muốn mua một chiếc cốc nhỏ.",
             "analysis": "小 đứng trước 杯子 để bổ nghĩa; 一个 đếm một chiếc cốc.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xiǎng mǎi yī ge xiǎo bēizi."
           }
         ],
         "usages": [
@@ -30847,7 +31012,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói chiếc cốc này nhỏ."
+            "prompt": "Nói cái hộp kia nhỏ."
           },
           {
             "id": "s2",
@@ -30856,10 +31021,10 @@
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Chỉ chiếc cốc và kích thước.",
-            "frame": "这个杯子 + 很 + 小。",
-            "model": "这个杯子很小。",
-            "vi": "Cốc này nhỏ.",
+            "idea": "Chỉ cái hộp và kích thước.",
+            "frame": "那个箱子 + 很 + 小。",
+            "model": "那个箱子很小。",
+            "vi": "Cái hộp kia nhỏ。",
             "criteria": [
               "Dùng 小 cho kích thước.",
               "Có thể thay đồ vật."
@@ -30867,14 +31032,27 @@
           },
           "s2": {
             "idea": "Nêu nước trong cốc và lượng ít.",
-            "frame": "杯子里的水 + 很 + 少。",
-            "model": "杯子里的水很少。",
-            "vi": "Nước trong cốc rất ít.",
+            "frame": "这个小杯子里的水 + 很 + 少。",
+            "model": "这个小杯子里的水很少。",
+            "vi": "Nước trong chiếc cốc nhỏ này rất ít。",
             "criteria": [
               "Dùng 少 cho lượng.",
-              "Có thể nói 杯子里水很少 khi ngữ cảnh rõ."
+              "小 bổ nghĩa cho 杯子."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
