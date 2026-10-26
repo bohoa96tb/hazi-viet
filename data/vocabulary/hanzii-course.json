@@ -27678,14 +27678,16 @@
           "zh": "我想喝茶。",
           "vi": "Tôi muốn uống trà.",
           "analysis": "茶 đứng sau động từ 喝.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xiǎng hē chá."
         },
         {
           "id": "e2",
           "zh": "请给我一杯茶。",
           "vi": "Làm ơn cho tôi một tách trà.",
           "analysis": "一杯茶 là lượng + đồ uống.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Qǐng gěi wǒ yī bēi chá."
         }
       ],
       "sourceIndex": 60,
@@ -27714,14 +27716,16 @@
             "zh": "我想喝茶。",
             "vi": "Tôi muốn uống trà.",
             "analysis": "茶 đứng sau động từ 喝.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xiǎng hē chá."
           },
           {
             "id": "e2",
             "zh": "请给我一杯茶。",
             "vi": "Làm ơn cho tôi một tách trà.",
             "analysis": "一杯茶 là lượng + đồ uống.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Qǐng gěi wǒ yī bēi chá."
           }
         ],
         "usages": [
@@ -27822,9 +27826,9 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "请给我一杯茶。",
-            "model": "请给我一杯茶。",
-            "vi": "Làm ơn cho tôi một tách trà.",
+            "frame": "我想喝 + 一杯 + 茶。",
+            "model": "我想喝一杯茶。",
+            "vi": "Tôi muốn uống một tách trà.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -27832,7 +27836,7 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "下班后我想喝茶。",
+            "frame": "下班后 + 我想 + 喝茶。",
             "model": "下班后我想喝茶。",
             "vi": "Sau giờ làm tôi muốn uống trà.",
             "criteria": [
@@ -27845,7 +27849,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31581&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -27868,14 +27885,16 @@
           "zh": "这个菜很好吃。",
           "vi": "Món này rất ngon.",
           "analysis": "这个菜 là món được chỉ; 很好吃 miêu tả vị.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège cài hěn hǎochī."
         },
         {
           "id": "e2",
           "zh": "下班后我去买菜。",
           "vi": "Tan ca tôi đi mua rau/thực phẩm.",
           "analysis": "买菜 là cụm quen thuộc chỉ mua đồ ăn để nấu.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Xiàbān hòu wǒ qù mǎi cài."
         }
       ],
       "sourceIndex": 61,
@@ -27904,14 +27923,16 @@
             "zh": "这个菜很好吃。",
             "vi": "Món này rất ngon.",
             "analysis": "这个菜 là món được chỉ; 很好吃 miêu tả vị.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège cài hěn hǎochī."
           },
           {
             "id": "e2",
             "zh": "下班后我去买菜。",
             "vi": "Tan ca tôi đi mua rau/thực phẩm.",
             "analysis": "买菜 là cụm quen thuộc chỉ mua đồ ăn để nấu.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Xiàbān hòu wǒ qù mǎi cài."
           }
         ],
         "usages": [
@@ -28006,15 +28027,15 @@
           },
           {
             "id": "s2",
-            "prompt": "Kể tan ca bạn đi mua rau."
+            "prompt": "Kể hôm nay bạn đi mua rau."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "这个菜很好吃。",
-            "model": "这个菜很好吃。",
-            "vi": "Món này rất ngon.",
+            "frame": "这个菜 + 很好吃。",
+            "model": "这个菜很好吃，我喜欢。",
+            "vi": "Món này rất ngon, tôi thích.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -28022,9 +28043,9 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "下班后我去买菜。",
-            "model": "下班后我去买菜。",
-            "vi": "Tan ca tôi đi mua rau.",
+            "frame": "今天 + 我去 + 买菜。",
+            "model": "今天我去买菜。",
+            "vi": "Hôm nay tôi đi mua rau.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -28035,7 +28056,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=38024&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -28058,14 +28092,16 @@
           "zh": "外面下雨了。",
           "vi": "Ngoài trời mưa rồi.",
           "analysis": "下雨 là cụm chỉ mưa rơi; 了 báo tình hình mới.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wàimiàn xià yǔ le."
         },
         {
           "id": "e2",
           "zh": "今天的雨很大。",
           "vi": "Mưa hôm nay rất lớn.",
           "analysis": "雨 làm chủ ngữ; 很大 miêu tả.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Jīntiān de yǔ hěn dà."
         }
       ],
       "sourceIndex": 62,
@@ -28094,14 +28130,16 @@
             "zh": "外面下雨了。",
             "vi": "Ngoài trời mưa rồi.",
             "analysis": "下雨 là cụm chỉ mưa rơi; 了 báo tình hình mới.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wàimiàn xià yǔ le."
           },
           {
             "id": "e2",
             "zh": "今天的雨很大。",
             "vi": "Mưa hôm nay rất lớn.",
             "analysis": "雨 làm chủ ngữ; 很大 miêu tả.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān de yǔ hěn dà."
           }
         ],
         "usages": [
@@ -28218,9 +28256,9 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "外面下雨了。",
-            "model": "外面下雨了。",
-            "vi": "Ngoài trời mưa rồi.",
+            "frame": "现在 + 外面 + 下雨了。",
+            "model": "现在外面下雨了。",
+            "vi": "Bây giờ ngoài trời mưa rồi.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -28228,9 +28266,9 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "今天的雨很大。",
-            "model": "今天的雨很大。",
-            "vi": "Mưa hôm nay rất lớn.",
+            "frame": "今天的雨 + 很大。",
+            "model": "今天的雨很大，我不想出门。",
+            "vi": "Mưa hôm nay rất lớn, tôi không muốn ra ngoài.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -28241,7 +28279,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=44318&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -28264,14 +28315,16 @@
           "zh": "今天风很大。",
           "vi": "Hôm nay gió rất mạnh.",
           "analysis": "风 làm chủ ngữ; 很大 miêu tả.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Jīntiān fēng hěn dà."
         },
         {
           "id": "e2",
           "zh": "外面刮风了。",
           "vi": "Ngoài trời nổi gió rồi.",
           "analysis": "刮风 là cụm chỉ hiện tượng.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wàimiàn guā fēng le."
         }
       ],
       "sourceIndex": 63,
@@ -28300,14 +28353,16 @@
             "zh": "今天风很大。",
             "vi": "Hôm nay gió rất mạnh.",
             "analysis": "风 làm chủ ngữ; 很大 miêu tả.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān fēng hěn dà."
           },
           {
             "id": "e2",
             "zh": "外面刮风了。",
             "vi": "Ngoài trời nổi gió rồi.",
             "analysis": "刮风 là cụm chỉ hiện tượng.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wàimiàn guā fēng le."
           }
         ],
         "usages": [
@@ -28408,9 +28463,9 @@
         "selfAnswers": {
           "s1": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "今天风很大。",
-            "model": "今天风很大。",
-            "vi": "Hôm nay gió rất mạnh.",
+            "frame": "外面 + 风 + 很大。",
+            "model": "外面风很大。",
+            "vi": "Ngoài trời gió rất mạnh.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -28418,9 +28473,9 @@
           },
           "s2": {
             "idea": "Nêu đúng ý trong tình huống bằng khung câu gợi ý.",
-            "frame": "请开风扇。",
-            "model": "请开风扇。",
-            "vi": "Làm ơn bật quạt.",
+            "frame": "请开 + 风扇。",
+            "model": "请开风扇，很热。",
+            "vi": "Làm ơn bật quạt, trời nóng.",
             "criteria": [
               "Đúng nghĩa mục tiêu và đúng vị trí đã học.",
               "Có thể thay chủ ngữ/thời gian phù hợp với thực tế."
@@ -28431,7 +28486,20 @@
         "sources": [
           "https://dict.concised.moe.edu.tw/dictView.jsp?ID=44384&la=0&powerMode=0",
           "https://hanzii.net/notebook/detail/hsk-7?hl=vi"
-        ]
+        ],
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -28454,14 +28522,16 @@
           "zh": "外面下雨了。",
           "vi": "Ngoài trời mưa rồi.",
           "analysis": "下雨 là cụm động từ chỉ việc trời mưa; 了 cho biết tình hình vừa đổi hoặc mưa đã bắt đầu.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wàimiàn xià yǔ le."
         },
         {
           "id": "e2",
           "zh": "明天可能下雨。",
           "vi": "Ngày mai có thể mưa.",
           "analysis": "可能 đứng trước cụm 下雨 để nói khả năng; thời gian 明天 đứng đầu câu.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Míngtiān kěnéng xià yǔ."
         }
       ],
       "sourceIndex": 64,
@@ -28493,14 +28563,16 @@
             "zh": "外面下雨了。",
             "vi": "Ngoài trời mưa rồi.",
             "analysis": "下雨 là cụm động từ chỉ việc trời mưa; 了 cho biết tình hình vừa đổi hoặc mưa đã bắt đầu.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wàimiàn xià yǔ le."
           },
           {
             "id": "e2",
             "zh": "明天可能下雨。",
             "vi": "Ngày mai có thể mưa.",
             "analysis": "可能 đứng trước cụm 下雨 để nói khả năng; thời gian 明天 đứng đầu câu.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Míngtiān kěnéng xià yǔ."
           }
         ],
         "usages": [
@@ -28595,15 +28667,15 @@
           },
           {
             "id": "s2",
-            "prompt": "Nói ngày mai có thể mưa."
+            "prompt": "Nói ngày mai sẽ mưa."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Báo nơi và tình hình mưa.",
             "frame": "外面 + 下雨 + 了。",
-            "model": "外面下雨了。",
-            "vi": "Ngoài trời mưa rồi.",
+            "model": "外面下雨了，我不想出去。",
+            "vi": "Ngoài trời mưa rồi, tôi không muốn ra ngoài.",
             "criteria": [
               "Dùng đủ cụm 下雨.",
               "Có thể đổi 了 nếu đang dự báo hoặc diễn đạt thời điểm khác."
@@ -28611,14 +28683,27 @@
           },
           "s2": {
             "idea": "Nêu ngày mai và khả năng mưa.",
-            "frame": "明天 + 可能 + 下雨。",
-            "model": "明天可能下雨。",
-            "vi": "Ngày mai có thể mưa.",
+            "frame": "明天 + 会 + 下雨。",
+            "model": "明天会下雨。",
+            "vi": "Ngày mai trời sẽ mưa.",
             "criteria": [
               "Từ chỉ khả năng đứng trước 下雨.",
               "Có thể dùng 会 khi muốn nói dự báo chắc hơn."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -28642,14 +28727,16 @@
           "zh": "今天天气很冷。",
           "vi": "Hôm nay thời tiết rất lạnh.",
           "analysis": "今天 nêu thời gian; 天气 là chủ đề được nhận xét bằng 很冷.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Jīntiān tiānqì hěn lěng."
         },
         {
           "id": "e2",
           "zh": "明天天气怎么样？",
           "vi": "Thời tiết ngày mai thế nào?",
           "analysis": "Hỏi chung về tình hình thời tiết; muốn hỏi riêng trời có mưa không thì dùng 会不会下雨。",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Míngtiān tiānqì zěnmeyàng?"
         }
       ],
       "sourceIndex": 65,
@@ -28681,14 +28768,16 @@
             "zh": "今天天气很冷。",
             "vi": "Hôm nay thời tiết rất lạnh.",
             "analysis": "今天 nêu thời gian; 天气 là chủ đề được nhận xét bằng 很冷.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān tiānqì hěn lěng."
           },
           {
             "id": "e2",
             "zh": "明天天气怎么样？",
             "vi": "Thời tiết ngày mai thế nào?",
             "analysis": "Hỏi chung về tình hình thời tiết; muốn hỏi riêng trời có mưa không thì dùng 会不会下雨。",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Míngtiān tiānqì zěnmeyàng?"
           }
         ],
         "usages": [
@@ -28783,15 +28872,15 @@
           },
           {
             "id": "s2",
-            "prompt": "Nói thời tiết ngày mai sẽ lạnh."
+            "prompt": "Nói thời tiết ngày mai sẽ nóng."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Hỏi tình hình thời tiết và thời điểm.",
             "frame": "今天 + 天气 + 怎么样？",
-            "model": "今天天气怎么样？",
-            "vi": "Thời tiết hôm nay thế nào?",
+            "model": "今天天气怎么样，你知道吗？",
+            "vi": "Thời tiết hôm nay thế nào, bạn biết không?",
             "criteria": [
               "Có 天气怎么样 để hỏi chung.",
               "Có thể bỏ 今天 khi ngữ cảnh đã rõ."
@@ -28799,14 +28888,27 @@
           },
           "s2": {
             "idea": "Nêu ngày mai và nhận xét lạnh.",
-            "frame": "明天 + 天气 + 很 + 冷。",
-            "model": "明天天气很冷。",
-            "vi": "Ngày mai thời tiết rất lạnh.",
+            "frame": "明天 + 天气 + 很 + 热。",
+            "model": "明天天气很热。",
+            "vi": "Thời tiết ngày mai rất nóng.",
             "criteria": [
               "Đặt tính từ sau 天气.",
-              "Không cần thêm 是."
+              "很热 nhận xét thời tiết nóng."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -28830,14 +28932,16 @@
           "zh": "我奶奶今年七十岁。",
           "vi": "Bà nội tôi năm nay 70 tuổi.",
           "analysis": "我 đứng trước danh từ thân thuộc; 奶奶 là người được nói đến.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ nǎinai jīnnián qīshí suì."
         },
         {
           "id": "e2",
           "zh": "奶奶在家做饭。",
           "vi": "Bà nội đang nấu ăn ở nhà.",
           "analysis": "奶奶 làm chủ ngữ; 在家 nêu nơi, 做饭 nêu việc bà làm.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Nǎinai zài jiā zuò fàn."
         }
       ],
       "sourceIndex": 66,
@@ -28870,14 +28974,16 @@
             "zh": "我奶奶今年七十岁。",
             "vi": "Bà nội tôi năm nay 70 tuổi.",
             "analysis": "我 đứng trước danh từ thân thuộc; 奶奶 là người được nói đến.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ nǎinai jīnnián qīshí suì."
           },
           {
             "id": "e2",
             "zh": "奶奶在家做饭。",
             "vi": "Bà nội đang nấu ăn ở nhà.",
             "analysis": "奶奶 làm chủ ngữ; 在家 nêu nơi, 做饭 nêu việc bà làm.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Nǎinai zài jiā zuò fàn."
           }
         ],
         "usages": [
@@ -28972,15 +29078,15 @@
           },
           {
             "id": "s2",
-            "prompt": "Nói bà nội đang ở nhà nấu ăn."
+            "prompt": "Nói bà nội đang ở nhà xem ti vi."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu bà nội, năm nay và tuổi.",
             "frame": "我奶奶 + 今年 + tuổi + 岁。",
-            "model": "我奶奶今年七十岁。",
-            "vi": "Bà nội tôi năm nay 70 tuổi.",
+            "model": "我奶奶今年六十五岁。",
+            "vi": "Bà nội tôi năm nay 65 tuổi.",
             "criteria": [
               "Dùng 奶奶 cho bà bên cha.",
               "Tuổi có thể thay đổi theo thực tế."
@@ -28988,14 +29094,27 @@
           },
           "s2": {
             "idea": "Nêu bà nội, nơi và hành động.",
-            "frame": "奶奶 + 在家 + 做饭。",
-            "model": "奶奶在家做饭。",
-            "vi": "Bà nội nấu ăn ở nhà.",
+            "frame": "奶奶 + 在家 + 看电视。",
+            "model": "奶奶在家看电视。",
+            "vi": "Bà nội đang xem ti vi ở nhà.",
             "criteria": [
               "奶奶 là người làm hành động.",
-              "在家 đứng trước 做饭."
+              "在家 đứng trước 看电视."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -29019,14 +29138,16 @@
           "zh": "我喜欢吃水果。",
           "vi": "Tôi thích ăn trái cây.",
           "analysis": "喜欢 đứng trước hành động 吃; 水果 là thứ được ăn, nói chung nên không cần lượng từ.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xǐhuan chī shuǐguǒ."
         },
         {
           "id": "e2",
           "zh": "我买了两种水果。",
           "vi": "Tôi đã mua hai loại trái cây.",
           "analysis": "种 đếm loại; nếu đếm từng quả cụ thể, dùng lượng từ hợp với quả đó như 个.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ mǎi le liǎng zhǒng shuǐguǒ."
         }
       ],
       "sourceIndex": 67,
@@ -29058,14 +29179,16 @@
             "zh": "我喜欢吃水果。",
             "vi": "Tôi thích ăn trái cây.",
             "analysis": "喜欢 đứng trước hành động 吃; 水果 là thứ được ăn, nói chung nên không cần lượng từ.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xǐhuan chī shuǐguǒ."
           },
           {
             "id": "e2",
             "zh": "我买了两种水果。",
             "vi": "Tôi đã mua hai loại trái cây.",
             "analysis": "种 đếm loại; nếu đếm từng quả cụ thể, dùng lượng từ hợp với quả đó như 个.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ mǎi le liǎng zhǒng shuǐguǒ."
           }
         ],
         "usages": [
@@ -29156,34 +29279,47 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói bạn thích ăn trái cây."
+            "prompt": "Nói bạn thích ăn trái cây và chuối."
           },
           {
             "id": "s2",
-            "prompt": "Nói bạn mua ba loại trái cây."
+            "prompt": "Nói bạn mua táo và hai loại trái cây."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Nêu mình thích hành động ăn trái cây.",
-            "frame": "我 + 喜欢 + 吃 + 水果。",
-            "model": "我喜欢吃水果。",
-            "vi": "Tôi thích ăn trái cây.",
+            "frame": "我 + 喜欢 + 吃 + 水果和香蕉。",
+            "model": "我喜欢吃水果和香蕉。",
+            "vi": "Tôi thích ăn trái cây và chuối.",
             "criteria": [
-              "Dùng 吃 với 水果.",
+              "Dùng 吃 với trái cây.",
               "Có thể bỏ 我 khi chủ thể đã rõ."
             ]
           },
           "s2": {
             "idea": "Nêu việc mua ba loại.",
-            "frame": "我买了 + 三 + 种 + 水果。",
-            "model": "我买了三种水果。",
-            "vi": "Tôi đã mua ba loại trái cây.",
+            "frame": "我买了 + 苹果和 + 两种水果。",
+            "model": "我买了苹果和两种水果。",
+            "vi": "Tôi đã mua táo và hai loại trái cây.",
             "criteria": [
               "种 đếm loại.",
               "Có thể đổi con số theo ý."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },

@@ -1838,6 +1838,194 @@
         "testDom": "PASS",
         "regressionDePilot": "107 assertions PASS"
       }
+    },
+    {
+      "batch": "B-006",
+      "id": "hz-h1-4f06d6f3c19f",
+      "hanzi": "茶",
+      "cohortOrdinal": 81,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt đồ uống (茶/水/咖啡) và lượng từ 杯 cho tách trà.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 chép nguyên ví dụ (self-example-exact); s2 đã khác ví dụ nên giữ nguyên.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-006, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Wǒ xiǎng hē chá.) và e2 (Qǐng gěi wǒ yī bēi chá.). Viết lại s1 thành 我想喝一杯茶。; s2 giữ nguyên 下班后我想喝茶。 (đã khác ví dụ); khung tự dùng đổi thành khung mẫu. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Bài thuộc thế hệ V2 sớm: cả hai ví dụ đều thiếu Pinyin, khung tự dùng là câu đầy đủ thay vì khung mẫu; đợt này bổ sung Pinyin cho cả hai ví dụ và đổi khung tự dùng thành khung mẫu có dấu + như các bài V2 khác. Không thêm readingBlocks: bài trung bình một cách đọc; readingBlocks dành cho từ khó theo docs/CONTENT_SCHEMA_V2.md và chuẩn 3-2-1 \"cho bài từ khó\" (docs/CONTENT_STANDARD_TWO_TIER.md). Còn cảnh báo neo 'listener' giả dương (đề gọi người học là 'bạn', câu mẫu ngôi thứ nhất đúng nên không thêm 你) — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 806,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-006",
+      "id": "hz-h1-678ba85d28e7",
+      "hanzi": "菜",
+      "cohortOrdinal": 82,
+      "difficulty": "trung bình",
+      "difficultyReason": "Đa nghĩa món ăn/rau (菜) và cụm 买菜 theo ngữ cảnh.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1, s2 đều chép nguyên ví dụ (self-example-exact).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-006, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Zhège cài hěn hǎochī.) và e2 (Xiàbān hòu wǒ qù mǎi cài.). Viết lại s1 thành 这个菜很好吃，我喜欢。 và s2 thành 今天我去买菜。 (đề sửa theo: hôm nay); khung tự dùng đổi thành khung mẫu. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Bài thuộc thế hệ V2 sớm: cả hai ví dụ đều thiếu Pinyin, khung tự dùng là câu đầy đủ thay vì khung mẫu; đợt này bổ sung Pinyin cho cả hai ví dụ và đổi khung tự dùng thành khung mẫu có dấu + như các bài V2 khác. Không thêm readingBlocks: bài trung bình một cách đọc; readingBlocks dành cho từ khó theo docs/CONTENT_SCHEMA_V2.md và chuẩn 3-2-1 \"cho bài từ khó\" (docs/CONTENT_STANDARD_TWO_TIER.md). Còn cảnh báo neo 'listener' giả dương (đề gọi người học là 'bạn', câu mẫu ngôi thứ nhất đúng nên không thêm 你) — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 806,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-006",
+      "id": "hz-h1-8a6b33eeca73",
+      "hanzi": "雨",
+      "cohortOrdinal": 83,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt danh từ cơn mưa với cụm động từ trời mưa (雨/下雨) và 了 báo tình hình mới.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1, s2 đều chép nguyên ví dụ (self-example-exact).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-006, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Wàimiàn xià yǔ le.) và e2 (Jīntiān de yǔ hěn dà.). Viết lại s1 thành 现在外面下雨了。 và s2 thành 今天的雨很大，我不想出门。; khung tự dùng đổi thành khung mẫu. Phối hợp với 下雨 (85): hai bài dạy cùng hiện tượng mưa từ hai góc nhìn (danh từ/cụm động từ), giữ nguyên cách dạy đã có, không viết lại cùng một bẫy. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Bài thuộc thế hệ V2 sớm: cả hai ví dụ đều thiếu Pinyin, khung tự dùng là câu đầy đủ thay vì khung mẫu; đợt này bổ sung Pinyin cho cả hai ví dụ và đổi khung tự dùng thành khung mẫu có dấu + như các bài V2 khác. Không thêm readingBlocks: bài trung bình một cách đọc; readingBlocks dành cho từ khó theo docs/CONTENT_SCHEMA_V2.md và chuẩn 3-2-1 \"cho bài từ khó\" (docs/CONTENT_STANDARD_TWO_TIER.md).",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 806,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-006",
+      "id": "hz-h1-4b9b99367126",
+      "hanzi": "风",
+      "cohortOrdinal": 84,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt gió tự nhiên với thiết bị quạt (风/刮风/风扇).",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s2 (请开风扇。) chép nguyên câu đối chiếu trong bẫy t1.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-006, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Jīntiān fēng hěn dà.) và e2 (Wàimiàn guā fēng le.). Viết lại s1 thành 外面风很大。 và s2 thành 请开风扇，很热。 (không còn chép câu đối chiếu trong bẫy); khung tự dùng đổi thành khung mẫu. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Bài thuộc thế hệ V2 sớm: cả hai ví dụ đều thiếu Pinyin, khung tự dùng là câu đầy đủ thay vì khung mẫu; đợt này bổ sung Pinyin cho cả hai ví dụ và đổi khung tự dùng thành khung mẫu có dấu + như các bài V2 khác. Không thêm readingBlocks: bài trung bình một cách đọc; readingBlocks dành cho từ khó theo docs/CONTENT_SCHEMA_V2.md và chuẩn 3-2-1 \"cho bài từ khó\" (docs/CONTENT_STANDARD_TWO_TIER.md).",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 806,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-006",
+      "id": "hz-h1-efc5a07d3d4f",
+      "hanzi": "下雨",
+      "cohortOrdinal": 85,
+      "difficulty": "trung bình",
+      "difficultyReason": "Cụm động từ trời mưa (下雨) với 会/可能 dự báo và 了 báo tình hình mới; phân biệt với danh từ 雨.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1, s2 đều chép nguyên ví dụ (self-example-exact).",
+        "Tiêu chí s2 nhắc 会 nhưng không có trong câu mẫu/đề (self-criteria-token-missing).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-006, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Wàimiàn xià yǔ le.) và e2 (Míngtiān kěnéng xià yǔ.). Viết lại s1 thành 外面下雨了，我不想出去。 và s2 thành 明天会下雨。 (đề/khung sửa theo: sẽ mưa; câu mẫu mới có 会 nên sửa luôn cảnh báo token cũ). Phối hợp với 雨 (83): hai bài dạy cùng hiện tượng mưa từ hai góc nhìn, giữ nguyên cách dạy đã có, không viết lại cùng một bẫy. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc; readingBlocks dành cho từ khó theo docs/CONTENT_SCHEMA_V2.md và chuẩn 3-2-1 \"cho bài từ khó\" (docs/CONTENT_STANDARD_TWO_TIER.md).",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 806,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-006",
+      "id": "hz-h1-c4bc9119c0ea",
+      "hanzi": "天气",
+      "cohortOrdinal": 86,
+      "difficulty": "trung bình",
+      "difficultyReason": "Hỏi thời tiết chung với hỏi riêng trời mưa (天气怎么样/会不会下雨) và vị trí tính từ sau 天气.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1, s2 đều quá gần ví dụ (self-example-near 0,86 và 0,83: chỉ đổi một chữ).",
+        "Tiêu chí s2 nhắc 是 nhưng không có trong câu mẫu/đề (self-criteria-token-missing).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-006, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Jīntiān tiānqì hěn lěng.) và e2 (Míngtiān tiānqì zěnmeyàng?). Viết lại s1 thành 今天天气怎么样，你知道吗？ (câu mẫu mới có 你 nên không tạo cảnh báo neo) và s2 thành 明天天气很热。 (đề/khung sửa theo: sẽ nóng); tiêu chí s2 sửa theo câu mẫu mới (hết cảnh báo token). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc; readingBlocks dành cho từ khó theo docs/CONTENT_SCHEMA_V2.md và chuẩn 3-2-1 \"cho bài từ khó\" (docs/CONTENT_STANDARD_TWO_TIER.md).",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 806,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-006",
+      "id": "hz-h1-4b01c12e2fb5",
+      "hanzi": "奶奶",
+      "cohortOrdinal": 87,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt bà bên cha với bà bên mẹ (奶奶/外婆/姥姥) và cách nói tuổi.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1, s2 đều chép nguyên ví dụ (self-example-exact).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-006, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Wǒ nǎinai jīnnián qīshí suì.) và e2 (Nǎinai zài jiā zuò fàn.). Viết lại s1 thành 我奶奶今年六十五岁。 và s2 thành 奶奶在家看电视。 (đề/khung/tiêu chí sửa theo: xem ti vi); nối với 奶 (68, B-004) nơi 奶奶 đã được dạy như bẫy. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc; readingBlocks dành cho từ khó theo docs/CONTENT_SCHEMA_V2.md và chuẩn 3-2-1 \"cho bài từ khó\" (docs/CONTENT_STANDARD_TWO_TIER.md). Còn cảnh báo neo 'listener' giả dương (đề gọi người học là 'bạn', câu mẫu ngôi thứ nhất đúng nên không thêm 你) — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 806,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-006",
+      "id": "hz-h1-91011160c68e",
+      "hanzi": "水果",
+      "cohortOrdinal": 88,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt trái cây với nước ép (水果/果汁) và lượng từ đếm loại (种) với đếm quả (个).",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s2 quá gần ví dụ (self-example-near 0,86: chỉ đổi một chữ).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-006, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Wǒ xǐhuan chī shuǐguǒ.) và e2 (Wǒ mǎi le liǎng zhǒng shuǐguǒ.). Viết lại s1 thành 我喜欢吃水果和香蕉。 và s2 thành 我买了苹果和两种水果。 (đề/khung sửa theo). Bản nháp đầu của s1/s2 (我喜欢吃香蕉。/我买了三种苹果。) bị cảnh báo self-target-missing vì câu mẫu không còn chứa từ mục tiêu 水果 nên đã sửa lại để giữ 水果 trong câu. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc; readingBlocks dành cho từ khó theo docs/CONTENT_SCHEMA_V2.md và chuẩn 3-2-1 \"cho bài từ khó\" (docs/CONTENT_STANDARD_TWO_TIER.md). Còn cảnh báo neo 'listener' giả dương (đề gọi người học là 'bạn', câu mẫu ngôi thứ nhất đúng nên không thêm 你) — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 806,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
     }
   ],
   "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
@@ -1850,7 +2038,7 @@
     "pilotId": "hz-h2-8ac3a59c0ef6",
     "pilotApproved": true,
     "approvedBy": "Bui, prompt chuẩn hóa toàn bộ 2026-10-26 (mẫu 3-2-1 đã phê duyệt, áp dụng từ ordinal 1, không cần duyệt lại mẫu)",
-    "standardizedCount": 81,
-    "nextStep": "Giai đoạn B đợt B-006: ordinal 81 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
+    "standardizedCount": 89,
+    "nextStep": "Giai đoạn B đợt B-007: ordinal 89 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
   }
 }
