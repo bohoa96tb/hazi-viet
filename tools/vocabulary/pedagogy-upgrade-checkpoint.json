@@ -2026,6 +2026,205 @@
         "testDom": "PASS",
         "regressionDePilot": "107 assertions PASS"
       }
+    },
+    {
+      "batch": "B-007",
+      "id": "hz-h1-3f18a484d148",
+      "hanzi": "牛奶",
+      "cohortOrdinal": 89,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt sữa bò với trà sữa (牛奶/奶茶) và lượng từ gọi đồ uống (杯).",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s2 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s1 bị cảnh báo criteria-token-missing: tiêu chí nhắc 每天 nhưng câu mẫu dùng 早上.",
+        "Câu mẫu tự dùng s2 bị cảnh báo criteria-token-missing: tiêu chí nhắc 请给我 nhưng câu mẫu chưa có.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-007, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Wǒ měitiān hē niúnǎi.) và e2 (Wǒ xiǎng yào yī bēi niúnǎi.). Viết lại s2 thành 请给我一杯牛奶。 (đề/khung sửa theo: 请给我 là cách gọi lịch sự, sửa luôn cảnh báo criteria-token-missing). Sửa tiêu chí s1: 每天 → 早上 nêu thời điểm uống. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc; readingBlocks dành cho từ khó. Còn cảnh báo neo 'listener' giả dương ở s1 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 785,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-007",
+      "id": "hz-h1-4823c87cc791",
+      "hanzi": "鸡蛋",
+      "cohortOrdinal": 90,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt quả trứng với con gà qua lượng từ 个/只.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s2 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s2 bị cảnh báo anchor 'cabinet' giả dương: đề nhắc tủ lạnh, câu mẫu dùng 冰箱 đúng nhưng quy tắc neo đòi 柜子.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-007, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Wǒ zǎoshang chī yī ge jīdàn.) và e2 (Bīngxiāng lǐ hái yǒu liǎng ge jīdàn.). Viết lại s1 thành 我每天吃两个鸡蛋。 và s2 thành 我家冰箱里还有三个鸡蛋。 (đề/khung sửa theo). Đề s2 đổi thành 'Nói trong nhà còn ba quả trứng.' để tránh quy tắc neo 'cabinet' giả dương (tủ lạnh → 冰箱 là đúng, không dùng 柜子); câu mẫu vẫn giữ 冰箱里. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Còn cảnh báo neo 'listener' giả dương ở s1 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 785,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-007",
+      "id": "hz-h1-30c9c5791947",
+      "hanzi": "坏",
+      "cohortOrdinal": 91,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt hỏng hẳn (坏了) với chỉ dùng kém (不好用) và nghĩa người xấu (坏人).",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s2 chép nguyên ví dụ (self-example-exact).",
+        "LỖI NỘI DUNG: trường replacement của bẫy t1 chứa đoạn văn về 多/大 (这家店人很多/这家店很大) do chép nhầm từ bài khác, không liên quan đến 坏了/不好用.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-007, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1], selfUse:[s1,s2]}; bẫy t2 (坏人) và câu luyện q2 vào Học thêm. Bổ sung Pinyin e1 (Wǒ de shǒujī huài le.) và e2 (Zhège píngguǒ huài le bié chī. — bỏ dấu phẩy trong Pinyin theo quy tắc isPinyinText). Sửa lỗi nội dung: viết lại replacement của bẫy t1 về 坏了/不好用. Viết lại s1 thành 我的电脑坏了。 và s2 thành 这块面包坏了，别吃。 (đề/khung sửa theo). Không lỗi kiến thức khác; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Còn cảnh báo neo 'listener' giả dương ở s1 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 785,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-007",
+      "id": "hz-h1-36e11bd81443",
+      "hanzi": "多",
+      "cohortOrdinal": 92,
+      "difficulty": "trung bình",
+      "difficultyReason": "Vị trí 很多 trước/sau danh từ và phân biệt số lượng (多) với kích thước (大).",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s2 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s1 bị cảnh báo criteria-token-missing: tiêu chí nhắc 有很多客人 nhưng câu mẫu không có.",
+        "Câu mẫu tự dùng s1 bị cảnh báo anchor 'shop': đề nhắc cửa hàng, câu mẫu dùng 店里 nhưng quy tắc neo đòi 商店.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-007, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Zhèlǐ rén hěn duō.) và e2 (Wǒ mǎi le hěn duō shuǐguǒ.). Viết lại s1 thành 今天商店里人很多。 (dùng 商店里 thay 店里 — đúng và tự nhiên, sửa luôn cảnh báo anchor 'shop'; tiêu chí sửa theo: 商店里 là trong cửa hàng). Viết lại s2 thành 昨天我买了很多苹果。 (đề/khung sửa theo). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Còn cảnh báo neo 'listener' giả dương ở s2 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 785,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-007",
+      "id": "hz-h1-b83b12121e5b",
+      "hanzi": "大",
+      "cohortOrdinal": 93,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt kích thước (大) với chiều cao (高) và số lượng (多).",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-007, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Zhège fángjiān hěn dà.) và e2 (Zhè jiā chāoshì hěn dà.). Câu mẫu tự dùng s1 (我家附近的超市很大。) và s2 (我的房间很大。) đã khác ví dụ nên giữ nguyên. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Còn cảnh báo neo 'listener' giả dương ở s1, s2 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 785,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-007",
+      "id": "hz-h1-f164a812765d",
+      "hanzi": "太",
+      "cohortOrdinal": 94,
+      "difficulty": "trung bình",
+      "difficultyReason": "Mẫu 太…了 nhấn mạnh; phân biệt khen và chê theo tính từ và tình huống.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s2 chép nguyên ví dụ (self-example-exact).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-007, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Zhège tài guì le.) và e2 (Jīntiān de cài tài hǎochī le!). Viết lại s1 thành 这个苹果太好吃了！ và s2 thành 这本书太贵了。 (đề/khung sửa theo; tiêu chí s2 sửa 这个 → 这本书 theo câu mẫu mới). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Không còn cảnh báo nào ở bài này.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 785,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-007",
+      "id": "hz-h1-72f8c3542984",
+      "hanzi": "好",
+      "cohortOrdinal": 95,
+      "difficulty": "khó",
+      "difficultyReason": "Hai cách đọc thông dụng (hǎo khen tốt; hào trong 爱好) cộng cụm 好吃 và phân biệt 好/可以.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s2 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s2 bị cảnh báo criteria-token-missing: tiêu chí nhắc 可以 nhưng câu mẫu không có.",
+        "Bẫy t2 bị 2 cảnh báo trap-pair-missing-case-example: tiêu đề '好 trong 好 và trong 爱好 có thanh khác' không đúng dạng cặp 'A và B' nên các vế không xuất hiện nguyên văn trong câu đối chiếu.",
+        "Bài có hai cách đọc thông dụng (hǎo/hào) nhưng chưa có readingBlocks.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-007, Giai đoạn B): bài KHÓ — thêm readingBlocks 3 khối (hǎo/e1 khen tốt hay; hǎo/e2 khen vị món trong 好吃; hào/e3 sở thích trong 爱好) kèm mục intro mới hào và ví dụ mới e3 我的爱好是听音乐。 (Wǒ de àihào shì tīng yīnyuè.). Cập nhật scope và giải thích nghĩa để nhắc cả hai cách đọc (không viết Pinyin trong lời giảng, theo quy tắc âm thanh). Đổi tiêu đề bẫy t2 thành '好 và 爱好: thanh ba hay thanh bốn' (sửa 2 cảnh báo trap-pair). Thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]}; bẫy t2 vào Học thêm. Bổ sung Pinyin e1 (Zhège bànfǎ hěn hǎo.), e2 (Zhège cài hěn hǎochī.) và e3. Viết lại s1 thành 这碗面很好吃。 và s2 thành 这个主意很好。 (đề/khung/tiêu chí sửa theo; tiêu chí s2 sửa 可以 → 主意). Ví dụ mới e3 cần practiceAllowed=true và introIndex (0 cho e1/e2, 1 cho e3) ở cả hai mảng examples, và cập nhật wordEdits.intro trong kho lưu batch-008 để kiểm tra toàn vẹn kho lưu đạt. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Còn cảnh báo neo 'listener' giả dương ở s1 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 785,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-007",
+      "id": "hz-h1-2bafadee60b3",
+      "hanzi": "小",
+      "cohortOrdinal": 96,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt kích thước (小) với số lượng ít (少).",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 chép nguyên ví dụ (self-example-exact).",
+        "Câu mẫu tự dùng s2 bị cảnh báo self-target-missing: câu mẫu 杯子里的水很少。 không chứa từ mục tiêu 小 (chỉ dùng 少).",
+        "Câu mẫu tự dùng s2 bị cảnh báo criteria-token-missing: tiêu chí nhắc 杯子里水很少 nhưng câu mẫu là 杯子里的水很少。",
+        "Câu mẫu tự dùng s2 chép nguyên câu đối chiếu c2 trong bẫy t1 (không bị audit phát hiện nhưng cùng lỗi chép nguyên).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-007, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Zhège bēizi hěn xiǎo.) và e2 (Wǒ xiǎng mǎi yī ge xiǎo bēizi.). Viết lại s1 thành 那个箱子很小。 (đề/khung/ý sửa theo) và s2 thành 这个小杯子里的水很少。 — giữ 小 trong câu mẫu (sửa cảnh báo self-target-missing) và không chép nguyên câu đối chiếu trong bẫy; tiêu chí s2 sửa theo (小 bổ nghĩa cho 杯子). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Không còn cảnh báo nào ở bài này.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 785,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
     }
   ],
   "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
@@ -2038,7 +2237,7 @@
     "pilotId": "hz-h2-8ac3a59c0ef6",
     "pilotApproved": true,
     "approvedBy": "Bui, prompt chuẩn hóa toàn bộ 2026-10-26 (mẫu 3-2-1 đã phê duyệt, áp dụng từ ordinal 1, không cần duyệt lại mẫu)",
-    "standardizedCount": 89,
-    "nextStep": "Giai đoạn B đợt B-007: ordinal 89 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
+    "standardizedCount": 97,
+    "nextStep": "Giai đoạn B đợt B-008: ordinal 97 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
   }
 }
