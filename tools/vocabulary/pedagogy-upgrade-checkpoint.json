@@ -1079,6 +1079,197 @@
         "testDom": "PASS",
         "regressionDePilot": "107 assertions PASS"
       }
+    },
+    {
+      "batch": "B-002",
+      "id": "hz-h1-9e4bde0a04dc",
+      "hanzi": "回",
+      "cohortOrdinal": 49,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt hướng quay lại (回/去/来) và nghĩa đáp lại (回消息/回答); vị trí thời gian/nơi trước 回.",
+      "problemsFound": [
+        "Thiếu Pinyin e2.",
+        "Câu mẫu tự dùng s2 chép nguyên ví dụ e2 (self-example-exact).",
+        "Câu mẫu s1 quá gần e2 (self-example-near 0.8).",
+        "Bẫy t2 thiếu caseExampleTerms (cặp 回消息/回答问题 không xuất hiện nguyên dạng trong cases).",
+        "Chưa có tier1: bẫy phụ t2 hiện cùng tầng chính."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-002, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]}; bẫy t2 vào Học thêm. Bổ sung Pinyin e2 (Wǒ míngtiān huí gōngsī.). Viết lại s1 thành 我今天七点回家。 và s2 thành 我明天回学校。 (không còn chép/gần ví dụ). Khai báo caseExampleTerms cho t2. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Còn cảnh báo neo 'listener' giả dương (đề gọi người học là 'bạn', câu mẫu ngôi thứ nhất đúng nên không thêm 你) — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 888,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-002",
+      "id": "hz-h1-d86eabd20c2e",
+      "hanzi": "帮",
+      "cohortOrdinal": 50,
+      "difficulty": "trung bình",
+      "difficultyReason": "Cần giải thích vị trí người được giúp (帮 + người + hành động) và phân biệt 帮/帮助/帮忙.",
+      "problemsFound": [
+        "Thiếu Pinyin e1.",
+        "Câu mẫu tự dùng s1, s2 đều chép nguyên ví dụ (self-example-exact).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-002, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]}. Bổ sung Pinyin e1 (Nǐ néng bāng wǒ ma?). Viết lại s1 thành 请帮我看这个词，好吗？ và s2 thành 你能帮我一下吗？ (không còn chép ví dụ). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 888,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-002",
+      "id": "hz-h1-2add50cf6301",
+      "hanzi": "打",
+      "cohortOrdinal": 51,
+      "difficulty": "trung bình",
+      "difficultyReason": "Động từ theo môn (打篮球/踢足球) và cụm thành ngữ (打电话); hiểu theo cả cụm, không dịch từng chữ.",
+      "problemsFound": [
+        "Thiếu Pinyin e1.",
+        "Câu mẫu tự dùng s1, s2 đều chép nguyên ví dụ (self-example-exact).",
+        "Tiêu chí s1, s2 nhắc đúng ví dụ cũ (篮球/妈妈) nên cần sửa theo câu mẫu mới.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-002, Giai đoạn B): thêm tier1 {traps:[t1,t2], checks:[q1,q2], selfUse:[s1,s2]} (cả hai bẫy đều là nội dung chính của bài). Bổ sung Pinyin e1 (Wǒ xǐhuan dǎ lánqiú.). Viết lại s1 thành 我喜欢打乒乓球。 và s2 thành 我给爸爸打电话。; sửa tiêu chí theo câu mẫu mới (乒乓球/给爸爸). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Còn cảnh báo neo 'listener' giả dương (đề gọi người học là 'bạn', câu mẫu ngôi thứ nhất đúng nên không thêm 你) — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 888,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-002",
+      "id": "hz-h1-4c504e514484",
+      "hanzi": "找",
+      "cohortOrdinal": 52,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt hoạt động và kết quả (找/找到) và nghĩa trả tiền thừa (找钱); vị trí từ hỏi 谁.",
+      "problemsFound": [
+        "Thiếu Pinyin e2.",
+        "Câu mẫu tự dùng s1, s2 đều chép nguyên ví dụ (self-example-exact).",
+        "Tiêu chí s2 nhắc 您找谁？ nhưng không có trong câu mẫu/đề (self-criteria-token-missing).",
+        "Chưa có tier1: bẫy phụ t2 (找钱) hiện cùng tầng chính."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-002, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]}; bẫy t2 vào Học thêm. Bổ sung Pinyin e2 (Nǐ zhǎo shéi?). Viết lại s1 thành 我在找我的书。 và s2 thành 您找谁？ (không còn chép ví dụ; tiêu chí s2 sửa thành '您 lịch sự hơn 你.' nên hết cảnh báo token). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Còn cảnh báo neo 'listener' giả dương (đề gọi người học là 'bạn', câu mẫu ngôi thứ nhất đúng nên không thêm 你) — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 888,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-002",
+      "id": "hz-h1-23838810e00e",
+      "hanzi": "电",
+      "cohortOrdinal": 53,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt năng lượng và thiết bị (没电/没有手机); giữ đủ từ ghép (电脑/电视/电话).",
+      "problemsFound": [
+        "Thiếu Pinyin e1.",
+        "Câu mẫu tự dùng s2 chép nguyên ví dụ e1 (self-example-exact).",
+        "Tiêu chí s2 nhắc 家里停电了。 nhưng không có trong câu mẫu/đề (self-criteria-token-missing).",
+        "Chưa có tier1: bẫy phụ t2 (từ ghép) hiện cùng tầng chính."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-002, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]}; bẫy t2 vào Học thêm. Bổ sung Pinyin e1 (Jiālǐ méi diàn le.). Viết lại s2 thành 家里没电了，太热了。 và tiêu chí thành \"没电 chỉ hết năng lượng.\" (hết cảnh báo token; giữ khung 家里 + 没电了). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 888,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-002",
+      "id": "hz-h1-8ea0feeb4c9a",
+      "hanzi": "等",
+      "cohortOrdinal": 54,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt chờ và tìm (等/找) và hai nghĩa của 等等; vị trí 在/nơi trước 等.",
+      "problemsFound": [
+        "Thiếu Pinyin e2.",
+        "Câu mẫu tự dùng s1, s2 đều chép nguyên ví dụ (self-example-exact).",
+        "Tiêu chí s2 nhắc 请稍等。 nhưng không có trong câu mẫu/đề (self-criteria-token-missing).",
+        "Chưa có tier1: bẫy phụ t2 và câu luyện q3 (đều về 等等) hiện cùng tầng chính."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-002, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]}; bẫy t2 và q3 vào Học thêm. Bổ sung Pinyin e2 (Qǐng děng yīxià.). Viết lại s1 thành 我在车站等你。 (đề/ý/khung sửa theo: đợi ở nhà ga, dùng mẫu vị trí của u1) và s2 thành 请等一下，好吗？; tiêu chí s2 sửa theo câu mẫu mới. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 888,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-002",
+      "id": "hz-h1-2ceaeb57578b",
+      "hanzi": "话",
+      "cohortOrdinal": 55,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt danh từ lời và động từ nói (话/说/说话) và lượng từ 句 đếm câu nói.",
+      "problemsFound": [
+        "Thiếu Pinyin e2.",
+        "Câu mẫu tự dùng s1, s2 đều chép nguyên ví dụ (self-example-exact).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-002, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2,q3], selfUse:[s1,s2]}. Bổ sung Pinyin e2 (Zhè jù huà shì shénme yìsi?). Viết lại s1 thành 我有话想跟你说。 và s2 thành 那句话是什么意思，你知道吗？ (không còn chép ví dụ; s1 mới chứa 你 nên hết cảnh báo neo listener). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 888,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-002",
+      "id": "hz-h1-88b1b53abf1e",
+      "hanzi": "请",
+      "cohortOrdinal": 56,
+      "difficulty": "trung bình",
+      "difficultyReason": "Vị trí người được nhờ và người được giúp trong 请你帮我; phân biệt mời/đãi (请客) và 请/让.",
+      "problemsFound": [
+        "Thiếu Pinyin e2.",
+        "Câu mẫu tự dùng s1, s2 đều chép nguyên ví dụ (self-example-exact).",
+        "Bẫy t1 thiếu caseExampleTerms (cặp 请 ăn uống/请客 không xuất hiện nguyên dạng trong cases).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-002, Giai đoạn B): thêm tier1 {traps:[t1,t2], checks:[q1,q2,q3], selfUse:[s1,s2]} (cả hai bẫy đều là nội dung chính của bài). Bổ sung Pinyin e2 (Qǐng nǐ bāng wǒ kàn zhège zì.). Viết lại s1 thành 请你坐。 và s2 thành 请你帮我看这个词，好吗？ (không còn chép ví dụ). Khai báo caseExampleTerms cho t1. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 888,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
     }
   ],
   "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
@@ -1091,7 +1282,7 @@
     "pilotId": "hz-h2-8ac3a59c0ef6",
     "pilotApproved": true,
     "approvedBy": "Bui, prompt chuẩn hóa toàn bộ 2026-10-26 (mẫu 3-2-1 đã phê duyệt, áp dụng từ ordinal 1, không cần duyệt lại mẫu)",
-    "standardizedCount": 49,
-    "nextStep": "Giai đoạn B đợt B-002: ordinal 49 (回) trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
+    "standardizedCount": 57,
+    "nextStep": "Giai đoạn B đợt B-003: ordinal 57 (问) trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
   }
 }
