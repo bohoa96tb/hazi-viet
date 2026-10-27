@@ -32741,14 +32741,16 @@
           "zh": "我去过北京。",
           "vi": "Tôi từng đến Bắc Kinh.",
           "analysis": "过 đứng sau 去, cho biết đã có trải nghiệm đến Bắc Kinh.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ qù guo Běijīng."
         },
         {
           "id": "e2",
           "zh": "你吃过越南菜吗？",
           "vi": "Bạn từng ăn món Việt Nam chưa?",
           "analysis": "过 đứng sau 吃; 吗 tạo câu hỏi về trải nghiệm.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Nǐ chī guo Yuènán cài ma?"
         }
       ],
       "sourceIndex": 84,
@@ -32780,14 +32782,16 @@
             "zh": "我去过北京。",
             "vi": "Tôi từng đến Bắc Kinh.",
             "analysis": "过 đứng sau 去, cho biết đã có trải nghiệm đến Bắc Kinh.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ qù guo Běijīng."
           },
           {
             "id": "e2",
             "zh": "你吃过越南菜吗？",
             "vi": "Bạn từng ăn món Việt Nam chưa?",
             "analysis": "过 đứng sau 吃; 吗 tạo câu hỏi về trải nghiệm.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Nǐ chī guo Yuènán cài ma?"
           }
         ],
         "usages": [
@@ -32899,7 +32903,20 @@
             ]
           }
         },
-        "cohortOrdinal": 105
+        "cohortOrdinal": 105,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -32922,14 +32939,16 @@
           "zh": "我家离公司很远。",
           "vi": "Nhà tôi cách công ty rất xa.",
           "analysis": "离 nối nhà và công ty; 很远 nhận xét khoảng cách.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ jiā lí gōngsī hěn yuǎn."
         },
         {
           "id": "e2",
           "zh": "学校离这儿不远，走路十分钟就到。",
           "vi": "Trường không xa đây, đi bộ mười phút là tới.",
           "analysis": "离这儿 nêu mốc; 不远 phủ định xa; phần sau cho biết đi bộ mất mười phút.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Xuéxiào lí zhèr bù yuǎn zǒu lù shí fēnzhōng jiù dào."
         }
       ],
       "sourceIndex": 85,
@@ -32960,14 +32979,16 @@
             "zh": "我家离公司很远。",
             "vi": "Nhà tôi cách công ty rất xa.",
             "analysis": "离 nối nhà và công ty; 很远 nhận xét khoảng cách.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ jiā lí gōngsī hěn yuǎn."
           },
           {
             "id": "e2",
             "zh": "学校离这儿不远，走路十分钟就到。",
             "vi": "Trường không xa đây, đi bộ mười phút là tới.",
             "analysis": "离这儿 nêu mốc; 不远 phủ định xa; phần sau cho biết đi bộ mất mười phút.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Xuéxiào lí zhèr bù yuǎn zǒu lù shí fēnzhōng jiù dào."
           }
         ],
         "usages": [
@@ -32983,7 +33004,7 @@
         "traps": [
           {
             "id": "t1",
-            "title": "远 và 近 cùng tả khoảng cách nhưng trái nghĩa",
+            "title": "远 và 近: hai đầu của khoảng cách",
             "scene": "Bạn chỉ nơi làm việc cách nhà xa hay gần.",
             "possibleConfusion": "Có thể lẫn hai từ khi chỉ khoảng cách mà không nói rõ hướng muốn nhấn.",
             "difference": "远 là xa, 近 là gần; cả hai cùng dùng sau 离 + mốc.",
@@ -33070,16 +33091,29 @@
           },
           "s2": {
             "idea": "Dùng 近 hoặc 不远 cho khoảng cách ngắn.",
-            "frame": "商店 + 离 + 这儿 + 很近。",
-            "model": "商店离这儿很近，走路就能到。",
+            "frame": "商店 + 离 + 这儿 + 不远。",
+            "model": "商店离这儿不远，走路就能到。",
             "vi": "Cửa hàng rất gần đây, đi bộ là tới.",
             "criteria": [
-              "Nêu mốc sau 离.",
-              "近 là gần; 不远 cũng có thể dùng tùy ý."
+              "不远 nói khoảng cách ngắn.",
+              "Nêu mốc sau 离."
             ]
           }
         },
-        "cohortOrdinal": 106
+        "cohortOrdinal": 106,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -33096,14 +33130,16 @@
           "zh": "这个箱子很重。",
           "vi": "Cái vali này nặng.",
           "analysis": "重 đứng sau 很 để tả trọng lượng vali.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège xiāngzi hěn zhòng."
         },
         {
           "id": "e2",
           "zh": "你的行李有多重？",
           "vi": "Hành lý của bạn nặng bao nhiêu?",
           "analysis": "有多重 hỏi mức trọng lượng; hành lý là vật được cân.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Nǐ de xíngli yǒu duō zhòng?"
         }
       ],
       "status": "deep",
@@ -33141,14 +33177,16 @@
             "zh": "这个箱子很重。",
             "vi": "Cái vali này nặng.",
             "analysis": "重 đứng sau 很 để tả trọng lượng vali.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège xiāngzi hěn zhòng."
           },
           {
             "id": "e2",
             "zh": "你的行李有多重？",
             "vi": "Hành lý của bạn nặng bao nhiêu?",
             "analysis": "有多重 hỏi mức trọng lượng; hành lý là vật được cân.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Nǐ de xíngli yǒu duō zhòng?"
           }
         ],
         "usages": [
@@ -33268,7 +33306,20 @@
             ]
           }
         },
-        "cohortOrdinal": 107
+        "cohortOrdinal": 107,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -33291,14 +33342,16 @@
           "zh": "我写错了地址。",
           "vi": "Tôi viết sai địa chỉ rồi.",
           "analysis": "写错 đặt 错 sau động từ 写 và trước vật bị viết sai.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xiě cuò le dìzhǐ."
         },
         {
           "id": "e2",
           "zh": "我觉得这个答案错了，应该选第二个。",
           "vi": "Tôi nghĩ đáp án này sai, nên chọn đáp án thứ hai.",
           "analysis": "错了 nêu đáp án sai; phần sau đưa ra lựa chọn đúng.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ juéde zhège dá'àn cuò le yīnggāi xuǎn dì èr ge."
         }
       ],
       "sourceIndex": 87,
@@ -33329,14 +33382,16 @@
             "zh": "我写错了地址。",
             "vi": "Tôi viết sai địa chỉ rồi.",
             "analysis": "写错 đặt 错 sau động từ 写 và trước vật bị viết sai.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xiě cuò le dìzhǐ."
           },
           {
             "id": "e2",
             "zh": "我觉得这个答案错了，应该选第二个。",
             "vi": "Tôi nghĩ đáp án này sai, nên chọn đáp án thứ hai.",
             "analysis": "错了 nêu đáp án sai; phần sau đưa ra lựa chọn đúng.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ juéde zhège dá'àn cuò le yīnggāi xuǎn dì èr ge."
           }
         ],
         "usages": [
@@ -33453,11 +33508,24 @@
             "vi": "Ông/bà đã ghi nhầm địa chỉ rồi.",
             "criteria": [
               "错 chỉ thông tin sai.",
-              "Có thể thêm 一个字 nếu lỗi là một ký tự."
+              "Có thể nêu rõ thứ bị viết sai."
             ]
           }
         },
-        "cohortOrdinal": 108
+        "cohortOrdinal": 108,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -33480,14 +33548,16 @@
           "zh": "这道题很难。",
           "vi": "Câu này rất khó.",
           "analysis": "很 đứng trước 难 để nhận xét mức độ của bài.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhè dào tí hěn nán."
         },
         {
           "id": "e2",
           "zh": "这个字很难写。",
           "vi": "Chữ này rất khó viết.",
           "analysis": "难 đứng trước 写 để nói hành động viết khó.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège zì hěn nán xiě."
         }
       ],
       "sourceIndex": 88,
@@ -33518,14 +33588,16 @@
             "zh": "这道题很难。",
             "vi": "Câu này rất khó.",
             "analysis": "很 đứng trước 难 để nhận xét mức độ của bài.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhè dào tí hěn nán."
           },
           {
             "id": "e2",
             "zh": "这个字很难写。",
             "vi": "Chữ này rất khó viết.",
             "analysis": "难 đứng trước 写 để nói hành động viết khó.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège zì hěn nán xiě."
           }
         ],
         "usages": [
@@ -33549,7 +33621,7 @@
         "traps": [
           {
             "id": "t1",
-            "title": "难 và 不容易 đều có thể nói việc khó; 不容易 cũng có thể nhấn mạnh sự vất vả.",
+            "title": "难 và 不容易: khó trực tiếp hay nói mềm",
             "scene": "Bạn đang học một bài mới và thấy làm chưa dễ.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 难 bằng một từ gần nghĩa ở mọi câu.",
             "difference": "难 nói mức độ khó; 不容易 cũng nói không dễ nhưng thường mềm hơn; 忙 nói không có thời gian rảnh, không phải khó.",
@@ -33644,6 +33716,19 @@
               "Chấp nhận cách nói khác nếu tự nhiên."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -33667,14 +33752,16 @@
           "zh": "我弟弟很高。",
           "vi": "Em trai tôi cao.",
           "analysis": "很 đứng trước tính từ 高.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ dìdi hěn gāo."
         },
         {
           "id": "e2",
           "zh": "这座楼比那座楼高。",
           "vi": "Tòa nhà này cao hơn tòa kia.",
           "analysis": "比 nối vật được so sánh với mốc; 高 đứng sau.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhè zuò lóu bǐ nà zuò lóu gāo."
         }
       ],
       "sourceIndex": 89,
@@ -33705,14 +33792,16 @@
             "zh": "我弟弟很高。",
             "vi": "Em trai tôi cao.",
             "analysis": "很 đứng trước tính từ 高.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ dìdi hěn gāo."
           },
           {
             "id": "e2",
             "zh": "这座楼比那座楼高。",
             "vi": "Tòa nhà này cao hơn tòa kia.",
             "analysis": "比 nối vật được so sánh với mốc; 高 đứng sau.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhè zuò lóu bǐ nà zuò lóu gāo."
           }
         ],
         "usages": [
@@ -33736,7 +33825,7 @@
         "traps": [
           {
             "id": "t1",
-            "title": "高 và 大 không đồng nghĩa: 高 là chiều cao; 大 thường là kích thước hoặc quy mô lớn.",
+            "title": "高 và 大: chiều cao hay kích thước",
             "scene": "Bạn hỏi chiều cao của một người hoặc độ cao của tòa nhà.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 高 bằng một từ gần nghĩa ở mọi câu.",
             "difference": "高 nói chiều cao hoặc độ cao; 大 nói kích thước hoặc quy mô. 贵 nói giá đắt, không phải chiều cao.",
@@ -33763,7 +33852,7 @@
               "explanation": "Nếu đang đo chiều cao hoặc độ cao, dùng 高; nếu nói đồ vật to hoặc quy mô lớn, dùng 大."
             },
             "boundary": "Hỏi đang đo chiều cao hay nói chung đồ vật lớn.",
-            "tip": "高 đọc thanh một; không nuốt âm đầu."
+            "tip": "Đo chiều cao dùng 高; nói kích thước chung dùng 大."
           }
         ],
         "trapReview": {
@@ -33772,7 +33861,7 @@
           "confusables": "高 đọc thanh một; không nuốt âm đầu."
         },
         "pronunciation": {
-          "text": "Bạn nói giá chiếc áo này cao. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "高 đọc thanh một; giữ giọng ngang ổn định, không nuốt âm đầu. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -33803,34 +33892,47 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói em trai của bạn cao."
+            "prompt": "Nói anh trai của bạn cao."
           },
           {
             "id": "s2",
-            "prompt": "Nói tòa nhà này cao hơn tòa kia."
+            "prompt": "Nói ngọn núi này cao hơn ngọn núi kia."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "这件衣服的价格很高。",
-            "frame": "我弟弟很高。",
-            "model": "我弟弟很高。",
-            "vi": "Em trai tôi cao.",
+            "idea": "Nêu người và chiều cao.",
+            "frame": "我哥哥 + 很 + 高。",
+            "model": "我哥哥很高。",
+            "vi": "Anh trai tôi cao.",
             "criteria": [
-              "Dùng 高 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "高 nói chiều cao.",
+              "Có thể thay người khác."
             ]
           },
           "s2": {
-            "idea": "我比你高。",
-            "frame": "这座楼比那座楼高。",
-            "model": "这座楼比那座楼高。",
-            "vi": "Tòa nhà này cao hơn tòa kia.",
+            "idea": "So sánh chiều cao hai ngọn núi bằng 比.",
+            "frame": "这座山 + 比 + 那座山 + 高。",
+            "model": "这座山比那座山高。",
+            "vi": "Ngọn núi này cao hơn ngọn núi kia.",
             "criteria": [
-              "Dùng 高 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "高 đứng sau mốc so sánh.",
+              "Có thể thay vật được so sánh."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -33848,14 +33950,16 @@
           "zh": "我的房间不大。",
           "vi": "Phòng của tôi không rộng lắm.",
           "analysis": "不大 phủ định kích thước lớn của 房间.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ de fángjiān bú dà."
         },
         {
           "id": "e2",
           "zh": "今天下雨的可能性不大。",
           "vi": "Khả năng hôm nay mưa không cao.",
           "analysis": "不大 đứng sau danh từ 可能性, nói mức khả năng thấp.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Jīntiān xiàyǔ de kěnéngxìng bú dà."
         }
       ],
       "status": "deep",
@@ -33892,14 +33996,16 @@
             "zh": "我的房间不大。",
             "vi": "Phòng của tôi không rộng lắm.",
             "analysis": "不大 phủ định kích thước lớn của 房间.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ de fángjiān bú dà."
           },
           {
             "id": "e2",
             "zh": "今天下雨的可能性不大。",
             "vi": "Khả năng hôm nay mưa không cao.",
             "analysis": "不大 đứng sau danh từ 可能性, nói mức khả năng thấp.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān xiàyǔ de kěnéngxìng bú dà."
           }
         ],
         "usages": [
@@ -33923,10 +34029,10 @@
         "traps": [
           {
             "id": "t1",
-            "title": "不大 và 小 đều có thể mô tả cỡ; 不大 phủ định “lớn”, còn 小 khẳng định “nhỏ”.",
+            "title": "不大 và 小: không lớn hay là nhỏ",
             "scene": "Bạn muốn nói căn phòng không rộng lắm hoặc khả năng xảy ra không cao.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 不大 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "Không phải lúc nào 不大 cũng mang một nghĩa: theo từ đứng sau, có thể là kích thước nhỏ hoặc mức độ thấp.",
+            "difference": "不大 phủ định mức lớn nên sắc thái nhẹ hơn; 小 khẳng định là nhỏ. Cùng một căn phòng có thể được nói theo một trong hai cách tùy ý người nói.",
             "cases": [
               {
                 "id": "c1",
@@ -33959,7 +34065,7 @@
           "confusables": "不大 thường là “không lớn/không cao lắm”; nghe phần sau để xác định ý."
         },
         "pronunciation": {
-          "text": "Phủ định 大 thường nhẹ hơn khẳng định 小. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "不大 đọc bú dà: 不 đổi thành thanh bốn trước dà (thanh bốn); đọc đủ hai âm tiết. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -33999,25 +34105,38 @@
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Bạn nói căn bếp nhà mình không rộng lắm.",
-            "frame": "我的房间不大。",
-            "model": "我的房间不大。",
-            "vi": "Phòng của tôi không rộng lắm.",
+            "idea": "Nêu căn bếp và mức độ rộng.",
+            "frame": "我家 + 厨房 + 不大。",
+            "model": "我家厨房不大。",
+            "vi": "Căn bếp nhà tôi không rộng lắm.",
             "criteria": [
-              "Dùng 不大 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "不大 phủ định mức lớn.",
+              "Có thể thay nơi khác."
             ]
           },
           "s2": {
-            "idea": "Bạn nói khả năng hôm nay tan ca muộn không cao.",
-            "frame": "今天下雨的可能性不大。",
-            "model": "今天下雨的可能性不大。",
-            "vi": "Khả năng hôm nay mưa không cao.",
+            "idea": "Nêu việc có thể xảy ra và mức khả năng thấp.",
+            "frame": "今天 + 我 + 加班 + 的可能性 + 不大。",
+            "model": "今天我加班的可能性不大。",
+            "vi": "Khả năng hôm nay tôi phải tăng ca không cao.",
             "criteria": [
-              "Dùng 不大 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "不大 nói khả năng thấp, không phải bằng không.",
+              "Có thể thay việc khác."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -34035,14 +34154,16 @@
           "zh": "你的答案不对。",
           "vi": "Đáp án của bạn không đúng.",
           "analysis": "不对 đứng sau chủ thể 答案.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Nǐ de dá'àn bú duì."
         },
         {
           "id": "e2",
           "zh": "不对，门还开着。",
           "vi": "Không ổn, cửa vẫn đang mở.",
           "analysis": "Dùng độc lập để báo nhận ra điều trái dự tính rồi nêu lý do.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Bú duì mén hái kāi zhe."
         }
       ],
       "status": "deep",
@@ -34079,14 +34200,16 @@
             "zh": "你的答案不对。",
             "vi": "Đáp án của bạn không đúng.",
             "analysis": "不对 đứng sau chủ thể 答案.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Nǐ de dá'àn bú duì."
           },
           {
             "id": "e2",
             "zh": "不对，门还开着。",
             "vi": "Không ổn, cửa vẫn đang mở.",
             "analysis": "Dùng độc lập để báo nhận ra điều trái dự tính rồi nêu lý do.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Bú duì mén hái kāi zhe."
           }
         ],
         "usages": [
@@ -34110,7 +34233,7 @@
         "traps": [
           {
             "id": "t1",
-            "title": "不对 và 错 đều liên quan đến sai; 错 thường gọi rõ lỗi, 不对 là không đúng/không ổn theo tình huống.",
+            "title": "不对 và 错: không đúng hay có lỗi",
             "scene": "Bạn phát hiện đáp án sai hoặc thấy một việc có gì đó không ổn.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 不对 bằng một từ gần nghĩa ở mọi câu.",
             "difference": "不对 không chỉ có nghĩa “sai đáp án”; đôi khi còn báo hiệu một điều bất thường.",
@@ -34146,7 +34269,7 @@
           "confusables": "Đánh giá đáp án có thể nói 不对; nêu mình mắc lỗi thường dùng 错."
         },
         "pronunciation": {
-          "text": "Xác định đang nhận xét kết quả hay kể lỗi mình mắc. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "不对 đọc bú duì: 不 đổi thành thanh bốn trước duì (thanh bốn); đọc đủ hai âm tiết, không nuốt âm cuối. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -34177,34 +34300,47 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Nói căn bếp nhà bạn không rộng lắm."
+            "prompt": "Nói đáp án của câu này không đúng."
           },
           {
             "id": "s2",
-            "prompt": "这个算式不对。"
+            "prompt": "Bạn nhận ra có điều không ổn: điện thoại vẫn ở trong xe."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "不 đọc thanh bốn trong cụm này; đọc đủ hai âm tiết.",
-            "frame": "你的答案不对。",
-            "model": "你的答案不对。",
-            "vi": "Đáp án của bạn không đúng.",
+            "idea": "Đánh giá một đáp án là không đúng.",
+            "frame": "这道题的答案 + 不对。",
+            "model": "这道题的答案不对。",
+            "vi": "Đáp án của câu này không đúng.",
             "criteria": [
-              "Dùng 不对 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "不对 đứng sau đáp án.",
+              "Có thể thay đáp án bằng thông tin khác."
             ]
           },
           "s2": {
-            "idea": "这个算式不对。",
-            "frame": "不对，门还开着。",
-            "model": "不对，门还开着。",
-            "vi": "Không ổn, cửa vẫn đang mở.",
+            "idea": "Dùng 不对 độc lập rồi nêu điều bất thường.",
+            "frame": "不对，+ điều bất thường。",
+            "model": "不对，我的手机还在车里。",
+            "vi": "Không ổn, điện thoại của tôi vẫn ở trong xe.",
             "criteria": [
-              "Dùng 不对 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "不对 đứng đầu câu như một phản ứng.",
+              "Phần sau nêu điều bất thường."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },

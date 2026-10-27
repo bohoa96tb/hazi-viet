@@ -2413,6 +2413,175 @@
         "testDom": "PASS",
         "regressionDePilot": "107 assertions PASS"
       }
+    },
+    {
+      "batch": "B-009",
+      "id": "hz-h1-9dac1ef58f36",
+      "hanzi": "过",
+      "cohortOrdinal": 105,
+      "difficulty": "trung bình",
+      "difficultyReason": "过 làm trợ từ trải nghiệm (động từ + 过), phủ định bằng 没(有) và phân biệt với 了 kể một việc cụ thể; cần giải thích vị trí và điều kiện dùng, một điểm dễ nhầm cốt lõi.",
+      "problemsFound": [],
+      "changes": "Thêm lesson.tier1 (bẫy duy nhất t1 và cả hai câu luyện, hai câu tự dùng đều ở Tầng 1); bổ sung Pinyin cho cả hai ví dụ (e1 Wǒ qù guo Běijīng. — 过 làm trợ từ trải nghiệm đọc nhẹ guo theo đúng chú thích của bài; e2 Nǐ chī guo Yuènán cài ma?). Câu mẫu tự dùng s1/s2 đã khác ví dụ và câu đối chiếu nên giữ nguyên. completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 763,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-009",
+      "id": "hz-h1-10ee35f935b7",
+      "hanzi": "远",
+      "cohortOrdinal": 106,
+      "difficulty": "trung bình",
+      "difficultyReason": "远 dạy qua khung 离 nối hai nơi và phân biệt với 近; cần giải thích mốc so sánh và phủ định 不远.",
+      "problemsFound": [
+        "Câu mẫu tự dùng s2 (商店离这儿很近，走路就能到。) dùng 很近 nên không chứa từ mục tiêu 远 (cảnh báo self-target-missing)."
+      ],
+      "changes": "Thêm lesson.tier1 (bẫy duy nhất t1 và cả hai câu luyện, hai câu tự dùng đều ở Tầng 1); bổ sung Pinyin cho cả hai ví dụ; đổi tiêu đề bẫy t1 thành \"远 và 近: hai đầu của khoảng cách\" (tiêu đề cũ không khớp cặp từ trong câu đối chiếu — cảnh báo trap-pair); viết lại câu mẫu tự dùng s2 thành 商店离这儿不远，走路就能到。 (dùng 不远 chứa đúng từ mục tiêu), đổi khung và tiêu chí tương ứng. Câu mẫu tự dùng s1 đã khác ví dụ nên giữ nguyên. Bẫy t1 soi gương bài 近 đã học trong cùng khung 离, dùng câu ga tàu điện khác với ví dụ nên giữ nguyên. completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 763,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-009",
+      "id": "hz-h1-42d1804d6de2",
+      "hanzi": "重",
+      "cohortOrdinal": 107,
+      "difficulty": "trung bình",
+      "difficultyReason": "重 có hai cách đọc quen thuộc (zhòng trong nghĩa nặng và 重要, chóng trong 重复) nhưng cách đọc thứ hai chỉ sống trong từ ghép; cần dạy học theo cả từ và phân biệt nặng/quan trọng/lặp lại.",
+      "problemsFound": [],
+      "changes": "Thêm lesson.tier1 (bẫy duy nhất t1 về hai cách đọc và cả hai câu luyện, hai câu tự dùng đều ở Tầng 1); bổ sung Pinyin cho cả hai ví dụ. Không thêm readingBlocks: cách đọc chóng chỉ gặp trong từ ghép như 重复 ở mức nhận ra, bài chính dạy zhòng (giống cách xử lý cách đọc shào của bài 少 ở đợt B-008). Câu mẫu tự dùng s1/s2 đã khác ví dụ nên giữ nguyên. completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 763,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-009",
+      "id": "hz-h1-d59b70a3b4f4",
+      "hanzi": "错",
+      "cohortOrdinal": 108,
+      "difficulty": "trung bình",
+      "difficultyReason": "错 chỉ lỗi cụ thể trong thao tác và thông tin, cần phân biệt với 差 (đợt B-008) là chất lượng kém và với 不对.",
+      "problemsFound": [
+        "Tiêu chí câu tự dùng s2 nhắc 一个字 nhưng câu mẫu không có thành phần đó (cảnh báo self-criteria-token-missing)."
+      ],
+      "changes": "Thêm lesson.tier1 (bẫy duy nhất t1 và cả hai câu luyện, hai câu tự dùng đều ở Tầng 1); bổ sung Pinyin cho cả hai ví dụ; sửa tiêu chí s2 thành \"Có thể nêu rõ thứ bị viết sai.\" Bẫy t1 soi gương bẫy của bài 差 ở đợt B-008 từ phía lỗi cụ thể, dùng câu ghi sai số nhà và dịch vụ khác hẳn nên giữ nguyên, không viết trùng. Câu mẫu tự dùng s1/s2 đã khác ví dụ nên giữ nguyên. completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 763,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-009",
+      "id": "hz-h1-9751baafc5b0",
+      "hanzi": "难",
+      "cohortOrdinal": 109,
+      "difficulty": "trung bình",
+      "difficultyReason": "难 có hai khung (việc + 很 + 难 và 难 + động từ) và cần phân biệt sắc thái với 不容易; một điểm dễ nhầm cốt lõi.",
+      "problemsFound": [
+        "Tiêu đề bẫy t1 viết liền cả câu giải thích nên cặp từ không khớp câu đối chiếu (cảnh báo trap-pair-missing-case-example)."
+      ],
+      "changes": "Thêm lesson.tier1 (bẫy duy nhất t1 và cả hai câu luyện, hai câu tự dùng đều ở Tầng 1); bổ sung Pinyin cho cả hai ví dụ; đổi tiêu đề bẫy t1 thành \"难 và 不容易: khó trực tiếp hay nói mềm\" (cặp từ khớp cả hai câu đối chiếu). Câu mẫu tự dùng s1/s2 đã khác ví dụ nên giữ nguyên. Hai câu luyện q1/q2 lấy đúng hai khung của bài — giữ nguyên vì kiểm tra đúng khung vừa học. completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 763,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-009",
+      "id": "hz-h1-bee90b36dafe",
+      "hanzi": "高",
+      "cohortOrdinal": 110,
+      "difficulty": "trung bình",
+      "difficultyReason": "高 nói chiều cao/độ cao, cần phân biệt với 大 là kích thước chung; bài thuộc thế hệ mẫu tự động có nhiều lỗi dữ liệu trong phần tự dùng và phát âm nên phải sửa kỹ.",
+      "problemsFound": [
+        "Trường phát âm chứa câu lạc \"Bạn nói giá chiếc áo này cao.\" thay vì hướng dẫn đọc; mẹo của bẫy t1 lại chứa nội dung phát âm thay vì mẹo chọn từ.",
+        "Ý tưởng (idea) của cả hai câu tự dùng là câu tiếng Trung lạc đề (这件衣服的价格很高。/ 我比你高。) không khớp đề bài.",
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); khung của s1/s2 cũng là câu đầy đủ chép nguyên."
+      ],
+      "changes": "Thêm lesson.tier1 (bẫy duy nhất t1 và cả hai câu luyện, hai câu tự dùng đều ở Tầng 1); bổ sung Pinyin cho cả hai ví dụ; viết lại trường phát âm thành hướng dẫn đọc thanh một đúng nghĩa; đổi tiêu đề bẫy t1 thành \"高 và 大: chiều cao hay kích thước\" (cảnh báo trap-pair) và thay mẹo bằng \"Đo chiều cao dùng 高; nói kích thước chung dùng 大.\"; viết lại cả hai câu tự dùng: s1 đổi đề thành \"Nói anh trai của bạn cao.\", ý tưởng \"Nêu người và chiều cao.\", khung dạng mẫu \"我哥哥 + 很 + 高。\", câu mẫu 我哥哥很高。; s2 đổi đề thành \"Nói ngọn núi này cao hơn ngọn núi kia.\", khung dạng mẫu, câu mẫu 这座山比那座山高。; sửa tiêu chí cả hai câu. completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 763,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-009",
+      "id": "hz-h1-777cecc20605",
+      "hanzi": "不大",
+      "cohortOrdinal": 111,
+      "difficulty": "trung bình",
+      "difficultyReason": "不大 vừa phủ định kích thước vừa nói mức khả năng/mức độ thấp; cần dạy theo từ đứng sau để chọn nghĩa; bài thuộc thế hệ mẫu tự động có lỗi dữ liệu trong phần tự dùng.",
+      "problemsFound": [
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); s1 đề nói căn bếp nhưng câu mẫu lại là phòng của tôi, s2 đề nói khả năng tan ca muộn nhưng câu mẫu lại là khả năng mưa — đề và câu mẫu lệch nhau; ý tưởng của cả hai câu chỉ lặp lại đề bài.",
+        "Phần khác nhau (difference) của bẫy t1 chép lại nguyên văn phần ranh giới (boundary); trường phát âm là ghi chú cách dùng thay vì hướng dẫn đọc."
+      ],
+      "changes": "Thêm lesson.tier1 (bẫy duy nhất t1 và cả hai câu luyện, hai câu tự dùng đều ở Tầng 1); bổ sung Pinyin cho cả hai ví dụ (不大 đọc bú dà); viết lại trường phát âm thành hướng dẫn đổi thanh của 不; đổi tiêu đề bẫy t1 thành \"不大 và 小: không lớn hay là nhỏ\" (cảnh báo trap-pair) và viết lại phần khác nhau thành so sánh sắc thái phủ định/khẳng định; viết lại cả hai câu tự dùng khớp đề: s1 câu mẫu 我家厨房不大。 (căn bếp), s2 câu mẫu 今天我加班的可能性不大。 (tăng ca), khung dạng mẫu và ý tưởng, tiêu chí mới. completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 763,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-009",
+      "id": "hz-h1-55ece8459abc",
+      "hanzi": "不对",
+      "cohortOrdinal": 112,
+      "difficulty": "trung bình",
+      "difficultyReason": "不对 vừa đánh giá đáp án không đúng vừa dùng độc lập để báo điều bất thường, và cần phân biệt với 错; bài thuộc thế hệ mẫu tự động có lỗi dữ liệu nghiêm trọng nhất trong phần tự dùng.",
+      "problemsFound": [
+        "Đề câu tự dùng s1 là đề của bài 不大 (\"Nói căn bếp nhà bạn không rộng lắm.\") chép nhầm sang; ý tưởng của s1 lại là nội dung phát âm.",
+        "Đề và ý tưởng của s2 đều là một câu tiếng Trung (这个算式不对。) thay vì đề tiếng Việt.",
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); trường phát âm chứa mẹo chọn từ thay vì hướng dẫn đọc."
+      ],
+      "changes": "Thêm lesson.tier1 (bẫy duy nhất t1 và cả hai câu luyện, hai câu tự dùng đều ở Tầng 1); bổ sung Pinyin cho cả hai ví dụ (不对 đọc bú duì); viết lại trường phát âm thành hướng dẫn đổi thanh của 不 trước duì; đổi tiêu đề bẫy t1 thành \"不对 và 错: không đúng hay có lỗi\" (cảnh báo trap-pair); viết lại toàn bộ hai câu tự dùng: s1 đề \"Nói đáp án của câu này không đúng.\", câu mẫu 这道题的答案不对。; s2 đề \"Bạn nhận ra có điều không ổn: điện thoại vẫn ở trong xe.\", câu mẫu 不对，我的手机还在车里。; khung dạng mẫu, ý tưởng và tiêu chí mới cho cả hai. Bẫy t1 phối hợp với bẫy của bài 错 (108) từ phía đánh giá đáp án, câu đối chiếu khác hẳn nên giữ nguyên. completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 763,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
     }
   ],
   "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
@@ -2425,7 +2594,7 @@
     "pilotId": "hz-h2-8ac3a59c0ef6",
     "pilotApproved": true,
     "approvedBy": "Bui, prompt chuẩn hóa toàn bộ 2026-10-26 (mẫu 3-2-1 đã phê duyệt, áp dụng từ ordinal 1, không cần duyệt lại mẫu)",
-    "standardizedCount": 105,
-    "nextStep": "Giai đoạn B đợt B-009: ordinal 105 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
+    "standardizedCount": 113,
+    "nextStep": "Giai đoạn B đợt B-010: ordinal 113 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
   }
 }
