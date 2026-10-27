@@ -34364,14 +34364,16 @@
           "zh": "安全很重要。",
           "vi": "An toàn rất quan trọng.",
           "analysis": "很 đứng trước 重要 để nhận xét.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Ānquán hěn zhòngyào."
         },
         {
           "id": "e2",
           "zh": "这是一件重要的事。",
           "vi": "Đây là một việc quan trọng.",
           "analysis": "重要 đứng trước 的事 để bổ nghĩa cho danh từ 事.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhè shì yí jiàn zhòngyào de shì."
         }
       ],
       "sourceIndex": 92,
@@ -34402,14 +34404,16 @@
             "zh": "安全很重要。",
             "vi": "An toàn rất quan trọng.",
             "analysis": "很 đứng trước 重要 để nhận xét.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Ānquán hěn zhòngyào."
           },
           {
             "id": "e2",
             "zh": "这是一件重要的事。",
             "vi": "Đây là một việc quan trọng.",
             "analysis": "重要 đứng trước 的事 để bổ nghĩa cho danh từ 事.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhè shì yí jiàn zhòngyào de shì."
           }
         ],
         "usages": [
@@ -34433,10 +34437,10 @@
         "traps": [
           {
             "id": "t1",
-            "title": "重要 và 必须 không cùng nghĩa: quan trọng là mức giá trị; phải làm là yêu cầu/bắt buộc.",
+            "title": "重要 và 必须: quan trọng hay bắt buộc",
             "scene": "Bạn quyết định việc nào cần ưu tiên trong ngày.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 重要 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "重要 nói mức độ quan trọng; 忙 nói lịch kín hoặc nhiều việc. different-meaning",
+            "difference": "重要 đánh giá một việc có giá trị hoặc ảnh hưởng lớn; 必须 nói việc bắt buộc phải làm.",
             "cases": [
               {
                 "id": "c1",
@@ -34457,7 +34461,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "different-meaning"
+              "explanation": "Hai từ không thay nhau được: 重要 là đánh giá mức giá trị, 必须 là yêu cầu phải làm."
             },
             "boundary": "Thay 重要 bằng 必须 sẽ đổi từ đánh giá sang yêu cầu phải làm.",
             "tip": "重要 đánh giá giá trị; 必须 nêu việc bắt buộc."
@@ -34469,7 +34473,7 @@
           "confusables": "重要 đánh giá giá trị; 必须 nêu việc bắt buộc."
         },
         "pronunciation": {
-          "text": "Tự hỏi đang nói việc đáng chú ý hay việc không thể không làm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "重要: chữ đầu đọc thanh bốn, chữ 要 đọc thanh nhẹ trong từ này. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -34504,30 +34508,43 @@
           },
           {
             "id": "s2",
-            "prompt": "学习新词很重要。"
+            "prompt": "Nói sức khỏe là một việc quan trọng."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "重要 đọc thanh bốn rồi thanh nhẹ ở 要 trong cách đọc thông dụng.",
-            "frame": "安全很重要。",
-            "model": "安全很重要。",
-            "vi": "An toàn rất quan trọng.",
+            "idea": "Nêu việc và đánh giá mức quan trọng.",
+            "frame": "学习新词 + 很 + 重要。",
+            "model": "学习新词很重要。",
+            "vi": "Học từ mới rất quan trọng.",
             "criteria": [
-              "Dùng 重要 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "重要 đánh giá mức quan trọng.",
+              "Có thể thay việc khác."
             ]
           },
           "s2": {
-            "idea": "学习新词很重要。",
-            "frame": "这是一件重要的事。",
-            "model": "这是一件重要的事。",
-            "vi": "Đây là một việc quan trọng.",
+            "idea": "Giới thiệu một việc cụ thể là quan trọng.",
+            "frame": "健康 + 是 + 一件 + 重要的 + 事。",
+            "model": "健康是一件重要的事。",
+            "vi": "Sức khỏe là một việc quan trọng.",
             "criteria": [
-              "Dùng 重要 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "重要 đứng trước 的事.",
+              "Có thể thay việc khác."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -34551,14 +34568,16 @@
           "zh": "我在家做饭。",
           "vi": "Tôi nấu ăn ở nhà.",
           "analysis": "做 đứng trước 饭, chỉ việc chuẩn bị bữa ăn.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ zài jiā zuò fàn."
         },
         {
           "id": "e2",
           "zh": "他今天做了很多工作。",
           "vi": "Hôm nay anh ấy đã làm nhiều việc.",
           "analysis": "做 đứng trước 工作, nói thực hiện nhiều công việc.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Tā jīntiān zuò le hěn duō gōngzuò."
         }
       ],
       "sourceIndex": 93,
@@ -34589,14 +34608,16 @@
             "zh": "我在家做饭。",
             "vi": "Tôi nấu ăn ở nhà.",
             "analysis": "做 đứng trước 饭, chỉ việc chuẩn bị bữa ăn.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zài jiā zuò fàn."
           },
           {
             "id": "e2",
             "zh": "他今天做了很多工作。",
             "vi": "Hôm nay anh ấy đã làm nhiều việc.",
             "analysis": "做 đứng trước 工作, nói thực hiện nhiều công việc.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Tā jīntiān zuò le hěn duō gōngzuò."
           }
         ],
         "usages": [
@@ -34620,10 +34641,10 @@
         "traps": [
           {
             "id": "t1",
-            "title": "做 và 干 đều có thể là “làm”; 做 thường kết hợp với việc/sản phẩm cụ thể, 干 thường nhấn vào làm việc hoặc hành động.",
+            "title": "做 và 干: đều là làm, khác cụm đi kèm",
             "scene": "Bạn nói mình làm bài tập, làm việc nhà hoặc chuẩn bị một món ăn.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 做 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "做 là hành động làm hoặc thực hiện; 工作 là công việc hay việc làm nói chung.",
+            "difference": "做 thường đi với việc hoặc sản phẩm cụ thể (做饭、做作业); 干 là cách nói khẩu ngữ về làm việc hay hành động nói chung (干活、干什么).",
             "cases": [
               {
                 "id": "c1",
@@ -34644,7 +34665,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "Dùng 做 trước việc cụ thể như 做饭、做作业; 工作 là việc hoặc hoạt động lao động, không phải lúc nào cũng thay được cho 做."
+              "explanation": "Chọn theo cụm quen thuộc: nấu ăn, làm bài tập dùng 做; hỏi đang làm gì, nói làm việc nói chung có thể dùng 干."
             },
             "boundary": "做/干 có vùng nghĩa giao nhau; chọn theo cụm quen thuộc và sắc thái.",
             "tip": "Học theo cụm: 做饭、做作业; 干活、干工作."
@@ -34656,7 +34677,7 @@
           "confusables": "Học theo cụm: 做饭、做作业; 干活、干工作."
         },
         "pronunciation": {
-          "text": "Đừng dịch “làm” bằng một từ Trung duy nhất trong mọi cụm. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "做 đọc thanh bốn; giữ âm cuối rõ. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -34691,30 +34712,43 @@
           },
           {
             "id": "s2",
-            "prompt": "我晚上做作业。"
+            "prompt": "Nói mẹ bạn nấu ăn ở nhà."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "做 đọc thanh bốn, giữ âm cuối rõ.",
-            "frame": "我在家做饭。",
-            "model": "我在家做饭。",
-            "vi": "Tôi nấu ăn ở nhà.",
+            "idea": "Nêu thời gian và việc làm.",
+            "frame": "我 + 晚上 + 做 + 作业。",
+            "model": "我晚上做作业。",
+            "vi": "Tối nay tôi làm bài tập.",
             "criteria": [
-              "Dùng 做 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "做 đứng trước việc làm.",
+              "Có thể thay thời gian."
             ]
           },
           "s2": {
-            "idea": "我晚上做作业。",
-            "frame": "他今天做了很多工作。",
-            "model": "他今天做了很多工作。",
-            "vi": "Hôm nay anh ấy đã làm nhiều việc.",
+            "idea": "Nêu người và việc nấu ăn.",
+            "frame": "妈妈 + 在家 + 做饭。",
+            "model": "妈妈在家做饭。",
+            "vi": "Mẹ tôi nấu ăn ở nhà.",
             "criteria": [
-              "Dùng 做 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "做饭 là cụm nấu ăn.",
+              "Có thể thay người khác."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -34738,14 +34772,16 @@
           "zh": "请别动我的手机。",
           "vi": "Xin đừng động vào điện thoại của tôi.",
           "analysis": "动 đứng sau 别, mang ý đừng chạm hoặc di chuyển.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Qǐng bié dòng wǒ de shǒujī."
         },
         {
           "id": "e2",
           "zh": "车动了。",
           "vi": "Xe chuyển động rồi.",
           "analysis": "动 làm vị ngữ, mô tả xe bắt đầu di chuyển.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Chē dòng le."
         }
       ],
       "sourceIndex": 94,
@@ -34776,14 +34812,16 @@
             "zh": "请别动我的手机。",
             "vi": "Xin đừng động vào điện thoại của tôi.",
             "analysis": "动 đứng sau 别, mang ý đừng chạm hoặc di chuyển.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Qǐng bié dòng wǒ de shǒujī."
           },
           {
             "id": "e2",
             "zh": "车动了。",
             "vi": "Xe chuyển động rồi.",
             "analysis": "动 làm vị ngữ, mô tả xe bắt đầu di chuyển.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Chē dòng le."
           }
         ],
         "usages": [
@@ -34807,10 +34845,10 @@
         "traps": [
           {
             "id": "t1",
-            "title": "动 và 走 khác nhau: 动 là chuyển động nói chung; 走 thường là đi bộ/rời đi.",
+            "title": "动 và 走: chuyển động hay đi",
             "scene": "Bạn nhắc ai đó đừng di chuyển đồ vật đang đặt đúng chỗ.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 动 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "动 nói chuyển động hoặc chạm vào vật; 做 nói thực hiện một việc.",
+            "difference": "动 là chuyển động nói chung hoặc chạm/di chuyển một vật; 走 là đi bộ hoặc rời khỏi một nơi.",
             "cases": [
               {
                 "id": "c1",
@@ -34831,7 +34869,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "Dùng 动 khi vật di chuyển hoặc khi bảo ai đừng chạm; dùng 做 cho hành động tạo ra hay thực hiện một việc."
+              "explanation": "Dùng 动 khi nói vật chuyển động hoặc bảo ai đừng chạm vào vật; dùng 走 khi nói đi bộ hoặc rời đi."
             },
             "boundary": "动 không tự chỉ việc đi bộ; dùng 走 khi nói đi/rời đi.",
             "tip": "动 là chuyển động chung; 走 là đi hoặc rời khỏi nơi này."
@@ -34843,7 +34881,7 @@
           "confusables": "动 là chuyển động chung; 走 là đi hoặc rời khỏi nơi này."
         },
         "pronunciation": {
-          "text": "Xét có yêu cầu đứng yên hay bắt đầu đi. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "动 đọc thanh bốn, âm cuối ngắn gọn. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -34878,30 +34916,43 @@
           },
           {
             "id": "s2",
-            "prompt": "请别动这个箱子。"
+            "prompt": "Nói tàu bắt đầu chuyển động."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "动 đọc thanh bốn, âm cuối ngắn gọn.",
-            "frame": "请别动我的手机。",
-            "model": "请别动我的手机。",
-            "vi": "Xin đừng động vào điện thoại của tôi.",
+            "idea": "Yêu cầu để yên một vật bằng 别 + 动.",
+            "frame": "请 + 别 + 动 + 这个箱子。",
+            "model": "请别动这个箱子。",
+            "vi": "Xin đừng động vào chiếc hộp này.",
             "criteria": [
-              "Dùng 动 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "动 đứng sau 别.",
+              "Có thể thay vật khác."
             ]
           },
           "s2": {
-            "idea": "请别动这个箱子。",
-            "frame": "车动了。",
-            "model": "车动了。",
-            "vi": "Xe chuyển động rồi.",
+            "idea": "Nhận xét một phương tiện bắt đầu di chuyển.",
+            "frame": "火车 + 动 + 了。",
+            "model": "火车动了。",
+            "vi": "Tàu chuyển động rồi.",
             "criteria": [
-              "Dùng 动 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "动 làm vị ngữ sau vật.",
+              "Có thể thay phương tiện khác."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -34925,14 +34976,16 @@
           "zh": "我学中文。",
           "vi": "Tôi học tiếng Trung.",
           "analysis": "中文 đứng sau 学, nêu nội dung học.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ xué Zhōngwén."
         },
         {
           "id": "e2",
           "zh": "她学会了开车。",
           "vi": "Cô ấy đã học được cách lái xe.",
           "analysis": "学会 nhấn mạnh kết quả đã biết làm; 了 báo kết quả đạt được.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Tā xuéhuì le kāi chē."
         }
       ],
       "sourceIndex": 95,
@@ -34963,14 +35016,16 @@
             "zh": "我学中文。",
             "vi": "Tôi học tiếng Trung.",
             "analysis": "中文 đứng sau 学, nêu nội dung học.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xué Zhōngwén."
           },
           {
             "id": "e2",
             "zh": "她学会了开车。",
             "vi": "Cô ấy đã học được cách lái xe.",
             "analysis": "学会 nhấn mạnh kết quả đã biết làm; 了 báo kết quả đạt được.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Tā xuéhuì le kāi chē."
           }
         ],
         "usages": [
@@ -34994,10 +35049,10 @@
         "traps": [
           {
             "id": "t1",
-            "title": "学 và 学习 đều là học; 学习 thường đầy đủ/trang trọng hơn, còn 学 phổ biến trong cụm như 学中文.",
+            "title": "学 và 学习: hai cách nói học",
             "scene": "Bạn dành thời gian học tiếng Trung hoặc một kỹ năng mới.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 学 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "学 là học từ người khác hoặc học một môn/kỹ năng; 教 là dạy người khác.",
+            "difference": "学 và 学习 đều nghĩa là học; 学习 đầy đủ và trang trọng hơn, hay dùng như một động từ độc lập; 学 gọn hơn và rất phổ biến trong cụm 学 + môn/kỹ năng như 学中文.",
             "cases": [
               {
                 "id": "c1",
@@ -35018,7 +35073,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "Chủ thể là người tiếp nhận kiến thức thì dùng 学; người truyền đạt kiến thức thì dùng 教."
+              "explanation": "Cả hai đều đúng trong nhiều câu; khi đi với môn học hoặc kỹ năng cụ thể, người học thường dùng 学 (学中文); 学习 hợp văn viết và khi đứng độc lập."
             },
             "boundary": "学 và 学习 có vùng giao nhau; không cần ép thành hai nghĩa tách biệt.",
             "tip": "Dùng đúng cụm quen thuộc; 学习 thường trang trọng/đầy đủ hơn."
@@ -35030,7 +35085,7 @@
           "confusables": "Dùng đúng cụm quen thuộc; 学习 thường trang trọng/đầy đủ hơn."
         },
         "pronunciation": {
-          "text": "Phân biệt “học” với “dạy”: người học dùng 学, người truyền dạy dùng 教. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "学 đọc thanh hai, giọng đi lên rõ. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -35065,30 +35120,43 @@
           },
           {
             "id": "s2",
-            "prompt": "我在日本学中文。"
+            "prompt": "Nói anh ấy đã học được cách bơi."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "学 đọc thanh hai, đi lên giọng.",
-            "frame": "我学中文。",
-            "model": "我学中文。",
-            "vi": "Tôi học tiếng Trung.",
+            "idea": "Nêu nơi học và môn học.",
+            "frame": "我 + 在日本 + 学 + 中文。",
+            "model": "我在日本学中文。",
+            "vi": "Tôi học tiếng Trung ở Nhật Bản.",
             "criteria": [
-              "Dùng 学 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "学 đứng trước môn học.",
+              "Có thể nêu nơi học trước 学."
             ]
           },
           "s2": {
-            "idea": "我在日本学中文。",
-            "frame": "她学会了开车。",
-            "model": "她学会了开车。",
-            "vi": "Cô ấy đã học được cách lái xe.",
+            "idea": "Dùng 学会 để nói kết quả đã biết làm.",
+            "frame": "他 + 学会了 + 游泳。",
+            "model": "他学会了游泳。",
+            "vi": "Anh ấy đã học được cách bơi.",
             "criteria": [
-              "Dùng 学 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "学会 nhấn mạnh kết quả đã biết làm.",
+              "Có thể thay kỹ năng khác."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -35112,14 +35180,16 @@
           "zh": "你在干什么？",
           "vi": "Bạn đang làm gì?",
           "analysis": "在 đặt trước 干 để hỏi hành động đang diễn ra.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Nǐ zài gàn shénme?"
         },
         {
           "id": "e2",
           "zh": "他在工厂干了两年。",
           "vi": "Anh ấy đã làm ở nhà máy hai năm.",
           "analysis": "干 đứng trước khoảng thời gian; địa điểm/công việc xác định ngữ cảnh.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Tā zài gōngchǎng gàn le liǎng nián."
         }
       ],
       "sourceIndex": 96,
@@ -35150,14 +35220,16 @@
             "zh": "你在干什么？",
             "vi": "Bạn đang làm gì?",
             "analysis": "在 đặt trước 干 để hỏi hành động đang diễn ra.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Nǐ zài gàn shénme?"
           },
           {
             "id": "e2",
             "zh": "他在工厂干了两年。",
             "vi": "Anh ấy đã làm ở nhà máy hai năm.",
             "analysis": "干 đứng trước khoảng thời gian; địa điểm/công việc xác định ngữ cảnh.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Tā zài gōngchǎng gàn le liǎng nián."
           }
         ],
         "usages": [
@@ -35181,10 +35253,10 @@
         "traps": [
           {
             "id": "t1",
-            "title": "干 và 做 đều có thể là làm; 干 thường khẩu ngữ và nhấn hành động/công việc.",
+            "title": "干 và 做: làm khẩu ngữ hay làm việc cụ thể",
             "scene": "Đồng nghiệp hỏi bạn đang làm công việc gì.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 干 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "干 có cách đọc và nghĩa khác trong từ như 干净; bài này học nghĩa “làm” của 干.",
+            "difference": "干 và 做 đều có thể dịch là \"làm\"; 干 khẩu ngữ hơn, thường gặp trong 干什么、干活、干工作; 做 đi với việc hoặc sản phẩm cụ thể như 做饭、做作业.",
             "cases": [
               {
                 "id": "c1",
@@ -35217,7 +35289,7 @@
           "confusables": "干常用于 hỏi/làm việc; 做常 đi với 做饭、做作业."
         },
         "pronunciation": {
-          "text": "Nhớ học cách đọc theo cả từ: 干活 và 干净 có cách đọc khác nhau. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "干 trong nghĩa làm đọc thanh bốn; trong từ 干净 chữ này đọc thanh một. Học cách đọc theo cả từ. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -35252,30 +35324,43 @@
           },
           {
             "id": "s2",
-            "prompt": "你现在在干什么？"
+            "prompt": "Nói chị ấy đã làm ở công ty hai năm."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "干 trong nghĩa làm đọc thanh bốn; đừng nhầm với 干净.",
-            "frame": "你在干什么？",
-            "model": "你在干什么？",
-            "vi": "Bạn đang làm gì?",
+            "idea": "Hỏi thân mật việc đang làm.",
+            "frame": "你 + 现在 + 在 + 干 + 什么？",
+            "model": "你现在在干什么？",
+            "vi": "Bây giờ bạn đang làm gì?",
             "criteria": [
-              "Dùng 干 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "干 trong câu này nghĩa là làm.",
+              "Có thể thêm 现在 để hỏi lúc này."
             ]
           },
           "s2": {
-            "idea": "你现在在干什么？",
-            "frame": "他在工厂干了两年。",
-            "model": "他在工厂干了两年。",
-            "vi": "Anh ấy đã làm ở nhà máy hai năm.",
+            "idea": "Nêu nơi làm việc và khoảng thời gian.",
+            "frame": "她 + 在公司 + 干了 + 两年。",
+            "model": "她在公司干了两年。",
+            "vi": "Chị ấy đã làm ở công ty hai năm.",
             "criteria": [
-              "Dùng 干 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "干 đứng trước khoảng thời gian.",
+              "Có thể thay nơi làm việc."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -35299,14 +35384,16 @@
           "zh": "我今天很忙。",
           "vi": "Hôm nay tôi rất bận.",
           "analysis": "很 đứng trước 忙 để miêu tả trạng thái.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ jīntiān hěn máng."
         },
         {
           "id": "e2",
           "zh": "她忙着做晚饭。",
           "vi": "Cô ấy đang bận nấu bữa tối.",
           "analysis": "忙着 đứng trước hành động đang chiếm thời gian.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Tā máng zhe zuò wǎnfàn."
         }
       ],
       "sourceIndex": 97,
@@ -35337,14 +35424,16 @@
             "zh": "我今天很忙。",
             "vi": "Hôm nay tôi rất bận.",
             "analysis": "很 đứng trước 忙 để miêu tả trạng thái.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ jīntiān hěn máng."
           },
           {
             "id": "e2",
             "zh": "她忙着做晚饭。",
             "vi": "Cô ấy đang bận nấu bữa tối.",
             "analysis": "忙着 đứng trước hành động đang chiếm thời gian.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Tā máng zhe zuò wǎnfàn."
           }
         ],
         "usages": [
@@ -35368,7 +35457,7 @@
         "traps": [
           {
             "id": "t1",
-            "title": "忙 và 累 có thể cùng xảy ra nhưng không đồng nghĩa: bận nói lịch/việc, mệt nói thể lực.",
+            "title": "忙 và 累: bận hay mệt",
             "scene": "Bạn muốn nói hôm nay có nhiều việc và không rảnh.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 忙 bằng một từ gần nghĩa ở mọi câu.",
             "difference": "忙 là trạng thái có nhiều việc hoặc ít thời gian; 累 là cảm giác mệt.",
@@ -35404,7 +35493,7 @@
           "confusables": "Có nhiều việc dùng 忙; cơ thể hết sức dùng 累."
         },
         "pronunciation": {
-          "text": "Người đó không rảnh hay đang mệt? Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "忙 đọc thanh hai, phát âm rõ thanh đi lên. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -35439,30 +35528,43 @@
           },
           {
             "id": "s2",
-            "prompt": "我这周工作很忙。"
+            "prompt": "Nói anh ấy đang bận chuẩn bị bữa trưa."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "忙 đọc thanh hai, phát âm rõ thanh đi lên.",
-            "frame": "我今天很忙。",
-            "model": "我今天很忙。",
-            "vi": "Hôm nay tôi rất bận.",
+            "idea": "Nêu khoảng thời gian và trạng thái bận.",
+            "frame": "我 + 这周 + 工作 + 很 + 忙。",
+            "model": "我这周工作很忙。",
+            "vi": "Tuần này công việc của tôi rất bận.",
             "criteria": [
-              "Dùng 忙 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "忙 nói trạng thái nhiều việc.",
+              "Có thể thay thời gian khác."
             ]
           },
           "s2": {
-            "idea": "我这周工作很忙。",
-            "frame": "她忙着做晚饭。",
-            "model": "她忙着做晚饭。",
-            "vi": "Cô ấy đang bận nấu bữa tối.",
+            "idea": "Dùng 忙着 để nói đang bận làm một việc.",
+            "frame": "他 + 忙着 + 做 + 午饭。",
+            "model": "他忙着做午饭。",
+            "vi": "Anh ấy đang bận chuẩn bị bữa trưa.",
             "criteria": [
-              "Dùng 忙 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "忙着 đứng trước hành động.",
+              "Có thể thay bữa ăn khác."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -35486,14 +35588,16 @@
           "zh": "我用手机查地图。",
           "vi": "Tôi dùng điện thoại tra bản đồ.",
           "analysis": "用 đứng trước dụng cụ 手机 và hành động 查.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ yòng shǒujī chá dìtú."
         },
         {
           "id": "e2",
           "zh": "请用这支笔写名字。",
           "vi": "Xin dùng cây bút này viết tên.",
           "analysis": "用 nối công cụ với hành động phía sau.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Qǐng yòng zhè zhī bǐ xiě míngzi."
         }
       ],
       "sourceIndex": 98,
@@ -35524,14 +35628,16 @@
             "zh": "我用手机查地图。",
             "vi": "Tôi dùng điện thoại tra bản đồ.",
             "analysis": "用 đứng trước dụng cụ 手机 và hành động 查.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ yòng shǒujī chá dìtú."
           },
           {
             "id": "e2",
             "zh": "请用这支笔写名字。",
             "vi": "Xin dùng cây bút này viết tên.",
             "analysis": "用 nối công cụ với hành động phía sau.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Qǐng yòng zhè zhī bǐ xiě míngzi."
           }
         ],
         "usages": [
@@ -35555,7 +35661,7 @@
         "traps": [
           {
             "id": "t1",
-            "title": "用 và 使用 gần nghĩa; 使用 trang trọng hơn, 用 thường gặp trong giao tiếp.",
+            "title": "用 và 有用: dùng một vật hay nói vật có ích",
             "scene": "Bạn hỏi mượn một dụng cụ để làm việc.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 用 bằng một từ gần nghĩa ở mọi câu.",
             "difference": "用 là hành động sử dụng; 有用 mô tả vật hoặc cách làm có ích, hai cấu trúc khác nhau.",
@@ -35591,7 +35697,7 @@
           "confusables": "Muốn yêu cầu dùng vật: 用; muốn nói vật có ích: 有用."
         },
         "pronunciation": {
-          "text": "Xem 用 có đang dẫn công cụ hay được 有 bổ nghĩa. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "用 đọc thanh bốn; phát âm tròn môi ở đầu âm. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -35626,30 +35732,43 @@
           },
           {
             "id": "s2",
-            "prompt": "我用电脑学习。"
+            "prompt": "Nói xin dùng cây bút chì này viết chữ."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "用 đọc thanh bốn; phát âm tròn môi ở đầu âm.",
-            "frame": "我用手机查地图。",
-            "model": "我用手机查地图。",
-            "vi": "Tôi dùng điện thoại tra bản đồ.",
+            "idea": "Nêu công cụ và việc làm bằng công cụ đó.",
+            "frame": "我 + 用 + 电脑 + 学习。",
+            "model": "我用电脑学习。",
+            "vi": "Tôi dùng máy tính để học.",
             "criteria": [
-              "Dùng 用 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "用 đứng trước công cụ.",
+              "Có thể thay công cụ khác."
             ]
           },
           "s2": {
-            "idea": "我用电脑学习。",
-            "frame": "请用这支笔写名字。",
-            "model": "请用这支笔写名字。",
-            "vi": "Xin dùng cây bút này viết tên.",
+            "idea": "Đề nghị dùng một công cụ cụ thể.",
+            "frame": "请 + 用 + 这支铅笔 + 写字。",
+            "model": "请用这支铅笔写字。",
+            "vi": "Xin dùng cây bút chì này viết chữ.",
             "criteria": [
-              "Dùng 用 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "用 nối công cụ với hành động.",
+              "Có thể thay công cụ khác."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },
@@ -35673,14 +35792,16 @@
           "zh": "我看电视。",
           "vi": "Tôi xem TV.",
           "analysis": "看 đứng trước TV, dịch là xem.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ kàn diànshì."
         },
         {
           "id": "e2",
           "zh": "我看手机上的消息。",
           "vi": "Tôi đọc tin nhắn trên điện thoại.",
           "analysis": "看 đi với 消息 được hiểu là đọc/xem nội dung.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ kàn shǒujī shang de xiāoxi."
         }
       ],
       "sourceIndex": 99,
@@ -35711,14 +35832,16 @@
             "zh": "我看电视。",
             "vi": "Tôi xem TV.",
             "analysis": "看 đứng trước TV, dịch là xem.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ kàn diànshì."
           },
           {
             "id": "e2",
             "zh": "我看手机上的消息。",
             "vi": "Tôi đọc tin nhắn trên điện thoại.",
             "analysis": "看 đi với 消息 được hiểu là đọc/xem nội dung.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ kàn shǒujī shang de xiāoxi."
           }
         ],
         "usages": [
@@ -35742,10 +35865,10 @@
         "traps": [
           {
             "id": "t1",
-            "title": "看 và 读 đều có thể liên quan đến chữ viết; 看 thường là xem/đọc thông thường, 读 nhấn hành động đọc thành tiếng hoặc học đọc.",
+            "title": "看 và 读: xem hay đọc thành tiếng",
             "scene": "Bạn nhìn đồng hồ, xem TV hoặc đọc một tin nhắn.",
             "possibleConfusion": "Dịch tiếng Việt quá rộng có thể khiến người học thay 看 bằng một từ gần nghĩa ở mọi câu.",
-            "difference": "看 là dùng mắt để xem hoặc đọc; 听 là dùng tai để nghe.",
+            "difference": "看 là tiếp nhận bằng mắt: nhìn, xem hoặc đọc thầm; 读 nhấn việc đọc thành tiếng hoặc học đọc.",
             "cases": [
               {
                 "id": "c1",
@@ -35766,7 +35889,7 @@
             ],
             "replacement": {
               "result": "different-meaning",
-              "explanation": "Chọn 看 khi tiếp nhận thông tin bằng mắt; chọn 听 khi tiếp nhận âm thanh bằng tai."
+              "explanation": "Chọn 看 khi xem hoặc đọc nội dung bằng mắt; chọn 读 khi cần đọc thành tiếng."
             },
             "boundary": "Với sách, 看 và 读 đều có thể đúng tùy ý định; ngữ cảnh quyết định.",
             "tip": "Xem/đọc nội dung thường dùng 看; yêu cầu đọc thành lời thường dùng 读."
@@ -35778,7 +35901,7 @@
           "confusables": "Xem/đọc nội dung thường dùng 看; yêu cầu đọc thành lời thường dùng 读."
         },
         "pronunciation": {
-          "text": "Xét người nghe muốn bạn xem nội dung hay phát âm thành tiếng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+          "text": "看 đọc thanh bốn; không nhầm âm đầu với âm g. Đọc từ một lần, rồi đọc câu mẫu một lần."
         },
         "checks": [
           {
@@ -35813,30 +35936,43 @@
           },
           {
             "id": "s2",
-            "prompt": "我看同事发来的消息。"
+            "prompt": "Nói tối nay bạn xem phim."
           }
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "看 đọc thanh bốn; không nhầm âm đầu k với g.",
-            "frame": "我看电视。",
-            "model": "我看电视。",
-            "vi": "Tôi xem TV.",
+            "idea": "Nêu nội dung xem và người gửi.",
+            "frame": "我 + 看 + 同事发来的 + 消息。",
+            "model": "我看同事发来的消息。",
+            "vi": "Tôi xem tin nhắn đồng nghiệp gửi.",
             "criteria": [
-              "Dùng 看 đúng nghĩa đã học.",
-              "Có thể thay chi tiết nhưng giữ đúng tình huống."
+              "看 đứng trước nội dung.",
+              "Có thể thay nội dung khác."
             ]
           },
           "s2": {
-            "idea": "我看同事发来的消息。",
-            "frame": "我看手机上的消息。",
-            "model": "我看手机上的消息。",
-            "vi": "Tôi đọc tin nhắn trên điện thoại.",
+            "idea": "Nêu thời gian và nội dung xem.",
+            "frame": "我 + 今天晚上 + 看 + 电影。",
+            "model": "我今天晚上看电影。",
+            "vi": "Tối nay tôi xem phim.",
             "criteria": [
-              "Dùng 看 đúng vị trí trong câu.",
-              "Chấp nhận cách nói khác nếu tự nhiên."
+              "看 nói xem nội dung bằng mắt.",
+              "Có thể thay nội dung khác."
             ]
           }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
         }
       }
     },

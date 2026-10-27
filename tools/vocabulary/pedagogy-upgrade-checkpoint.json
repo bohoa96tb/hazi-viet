@@ -2582,6 +2582,189 @@
         "testDom": "PASS",
         "regressionDePilot": "107 assertions PASS"
       }
+    },
+    {
+      "batch": "B-010",
+      "id": "hz-h1-a2d895dabe7b",
+      "hanzi": "重要",
+      "cohortOrdinal": 113,
+      "difficulty": "trung bình",
+      "difficultyReason": "重要 đánh giá mức quan trọng, cần phân biệt với 必须 là bắt buộc và dùng được cả sau 很 lẫn trước 的 + danh từ; bài thuộc thế hệ mẫu tự động có nhiều lỗi dữ liệu.",
+      "problemsFound": [
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); khung cũng là câu đầy đủ chép nguyên; ý tưởng của s1 là ghi chú phát âm, ý tưởng và đề của s2 đều là một câu tiếng Trung.",
+        "Trường phát âm chứa mẹo chọn từ thay vì hướng dẫn đọc; tiêu đề bẫy viết liền cả câu giải thích nên cặp từ không khớp câu đối chiếu (cảnh báo trap-pair).",
+        "Phần khác nhau (difference) của bẫy t1 là đoạn về 忙 không liên quan bẫy 重要/必须 và còn lẫn chữ \"different-meaning\" của máy; phần giải thích thay thế (replacement) cũng chỉ ghi đúng chữ \"different-meaning\"."
+      ],
+      "changes": "Thêm lesson.tier1 (bẫy duy nhất t1 và cả hai câu luyện, hai câu tự dùng đều ở Tầng 1); bổ sung Pinyin cho cả hai ví dụ; viết lại trường phát âm (zhòngyào: 重 thanh bốn, 要 thanh nhẹ); đổi tiêu đề bẫy thành \"重要 và 必须: quan trọng hay bắt buộc\", viết lại phần khác nhau và giải thích thay thế của bẫy; viết lại cả hai câu tự dùng khớp đề: s1 câu mẫu 学习新词很重要。, s2 đổi đề thành \"Nói sức khỏe là một việc quan trọng.\" với câu mẫu 健康是一件重要的事。, khung dạng mẫu và ý tưởng, tiêu chí mới. Cập nhật completedDigests; completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 741,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-010",
+      "id": "hz-h1-c698571f3769",
+      "hanzi": "做",
+      "cohortOrdinal": 114,
+      "difficulty": "trung bình",
+      "difficultyReason": "做 là động từ làm cốt lõi, giá trị nằm ở cụm kết hợp （做饭、做作业） và phân biệt với 干； bài thuộc thế hệ mẫu tự động có nhiều lỗi dữ liệu.",
+      "problemsFound": [
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); khung cũng là câu đầy đủ chép nguyên; ý tưởng của s1 là ghi chú phát âm, ý tưởng và đề của s2 đều là một câu tiếng Trung.",
+        "Trường phát âm chứa mẹo chọn từ thay vì hướng dẫn đọc; tiêu đề bẫy viết liền cả câu giải thích nên cặp từ không khớp câu đối chiếu (cảnh báo trap-pair).",
+        "Phần khác nhau và giải thích thay thế của bẫy t1 nói về 工作 thay vì về 干 — không khớp tiêu đề và câu đối chiếu của bẫy."
+      ],
+      "changes": "Thêm lesson.tier1; bổ sung Pinyin cho cả hai ví dụ; viết lại trường phát âm; đổi tiêu đề bẫy thành \"做 và 干: đều là làm, khác cụm đi kèm\", viết lại phần khác nhau và giải thích thay thế cho đúng cặp 做/干; viết lại cả hai câu tự dùng: s1 câu mẫu 我晚上做作业。, s2 đổi đề thành \"Nói mẹ bạn nấu ăn ở nhà.\" với câu mẫu 妈妈在家做饭。. Bẫy t1 phối hợp soi gương với bẫy của bài 干 (117) từ phía cụm cụ thể, câu đối chiếu khác hẳn. Cập nhật completedDigests; completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 741,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-010",
+      "id": "hz-h1-109ce02573bf",
+      "hanzi": "动",
+      "cohortOrdinal": 115,
+      "difficulty": "trung bình",
+      "difficultyReason": "动 vừa là chuyển động vừa là chạm/di chuyển vật （别动）, cần phân biệt với 走； bài thuộc thế hệ mẫu tự động có nhiều lỗi dữ liệu.",
+      "problemsFound": [
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); khung cũng là câu đầy đủ chép nguyên; ý tưởng của s1 là ghi chú phát âm, ý tưởng và đề của s2 đều là một câu tiếng Trung.",
+        "Trường phát âm chứa mẹo chọn từ thay vì hướng dẫn đọc; tiêu đề bẫy viết liền cả câu giải thích nên cặp từ không khớp câu đối chiếu (cảnh báo trap-pair).",
+        "Phần khác nhau và giải thích thay thế của bẫy t1 nói về 做 thay vì về 走."
+      ],
+      "changes": "Thêm lesson.tier1; bổ sung Pinyin cho cả hai ví dụ; viết lại trường phát âm; đổi tiêu đề bẫy thành \"动 và 走: chuyển động hay đi\", viết lại phần khác nhau và giải thích thay thế cho đúng cặp 动/走; viết lại cả hai câu tự dùng: s1 câu mẫu 请别动这个箱子。, s2 đổi đề thành \"Nói tàu bắt đầu chuyển động.\" với câu mẫu 火车动了。. Cập nhật completedDigests; completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 741,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-010",
+      "id": "hz-h1-972fee5ddec8",
+      "hanzi": "学",
+      "cohortOrdinal": 116,
+      "difficulty": "trung bình",
+      "difficultyReason": "学 cần khung 学 + môn/kỹ năng và kết quả 学会， lại phải phân biệt với 学习 về sắc thái trang trọng; bài thuộc thế hệ mẫu tự động có nhiều lỗi dữ liệu.",
+      "problemsFound": [
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); khung cũng là câu đầy đủ chép nguyên; ý tưởng của s1 là ghi chú phát âm, ý tưởng và đề của s2 đều là một câu tiếng Trung.",
+        "Trường phát âm chứa mẹo chọn từ thay vì hướng dẫn đọc; tiêu đề bẫy viết liền cả câu giải thích nên cặp từ không khớp câu đối chiếu (cảnh báo trap-pair).",
+        "Phần khác nhau và giải thích thay thế của bẫy t1 nói về 教 (dạy) thay vì về 学习."
+      ],
+      "changes": "Thêm lesson.tier1; bổ sung Pinyin cho cả hai ví dụ; viết lại trường phát âm; đổi tiêu đề bẫy thành \"学 và 学习: hai cách nói học\", viết lại phần khác nhau và giải thích thay thế cho đúng cặp 学/学习; viết lại cả hai câu tự dùng: s1 câu mẫu 我在日本学中文。, s2 đổi đề thành \"Nói anh ấy đã học được cách bơi.\" với câu mẫu 他学会了游泳。. Cập nhật completedDigests; completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 741,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-010",
+      "id": "hz-h1-692026ac0c4d",
+      "hanzi": "干",
+      "cohortOrdinal": 117,
+      "difficulty": "trung bình",
+      "difficultyReason": "干 có hai cách đọc theo từ (gàn trong nghĩa làm, gān trong 干净） và là nửa khẩu ngữ của cặp 做/干; bài thuộc thế hệ mẫu tự động có nhiều lỗi dữ liệu.",
+      "problemsFound": [
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); khung cũng là câu đầy đủ chép nguyên; ý tưởng của s1 là ghi chú phát âm, ý tưởng và đề của s2 đều là một câu tiếng Trung.",
+        "Trường phát âm chứa mẹo chọn từ thay vì hướng dẫn đọc; tiêu đề bẫy viết liền cả câu giải thích nên cặp từ không khớp câu đối chiếu (cảnh báo trap-pair).",
+        "Phần khác nhau của bẫy t1 chép lại nguyên văn phần ranh giới (boundary) về cách đọc thay vì so sánh 做/干."
+      ],
+      "changes": "Thêm lesson.tier1; bổ sung Pinyin cho cả hai ví dụ; viết lại trường phát âm nêu rõ hai cách đọc gàn/gān theo từ; đổi tiêu đề bẫy thành \"干 và 做: làm khẩu ngữ hay làm việc cụ thể\" và viết lại phần khác nhau thành so sánh 做/干; viết lại cả hai câu tự dùng: s1 câu mẫu 你现在在干什么？, s2 đổi đề thành \"Nói chị ấy đã làm ở công ty hai năm.\" với câu mẫu 她在公司干了两年。. Không thêm readingBlocks: cách đọc gān chỉ gặp trong từ ghép ở mức nhận ra, giống xử lý 重 ở đợt B-009. Bẫy t1 soi gương bẫy của bài 做 (114) từ phía khẩu ngữ. Cập nhật completedDigests; completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 741,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-010",
+      "id": "hz-h1-0bc0aea3e47a",
+      "hanzi": "忙",
+      "cohortOrdinal": 118,
+      "difficulty": "trung bình",
+      "difficultyReason": "忙 có khung 忙着 + hành động và cần phân biệt với 累 là mệt; bài thuộc thế hệ mẫu tự động có nhiều lỗi dữ liệu.",
+      "problemsFound": [
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); khung cũng là câu đầy đủ chép nguyên; ý tưởng của s1 là ghi chú phát âm, ý tưởng và đề của s2 đều là một câu tiếng Trung.",
+        "Trường phát âm chứa mẹo chọn từ thay vì hướng dẫn đọc; tiêu đề bẫy viết liền cả câu giải thích nên cặp từ không khớp câu đối chiếu (cảnh báo trap-pair)."
+      ],
+      "changes": "Thêm lesson.tier1; bổ sung Pinyin cho cả hai ví dụ; viết lại trường phát âm; đổi tiêu đề bẫy thành \"忙 và 累: bận hay mệt\" (nội dung bẫy vốn đúng, chỉ sửa dạng tiêu đề); viết lại cả hai câu tự dùng: s1 câu mẫu 我这周工作很忙。, s2 đổi đề thành \"Nói anh ấy đang bận chuẩn bị bữa trưa.\" với câu mẫu 他忙着做午饭。. Cập nhật completedDigests; completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 741,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-010",
+      "id": "hz-h1-fa344d8ea348",
+      "hanzi": "用",
+      "cohortOrdinal": 119,
+      "difficulty": "trung bình",
+      "difficultyReason": "用 có khung dùng + công cụ + hành động và dễ nhầm với 有用 là tính từ đánh giá có ích; bài thuộc thế hệ mẫu tự động có nhiều lỗi dữ liệu.",
+      "problemsFound": [
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); khung cũng là câu đầy đủ chép nguyên; ý tưởng của s1 là ghi chú phát âm, ý tưởng và đề của s2 đều là một câu tiếng Trung.",
+        "Trường phát âm chứa mẹo chọn từ thay vì hướng dẫn đọc; tiêu đề bẫy viết liền cả câu giải thích nên cặp từ không khớp câu đối chiếu (cảnh báo trap-pair).",
+        "Tiêu đề bẫy t1 ghi 用 và 使用 nhưng cả hai câu đối chiếu và mẹo thực tế dạy cặp 用/有用 — tiêu đề lệch nội dung bẫy."
+      ],
+      "changes": "Thêm lesson.tier1; bổ sung Pinyin cho cả hai ví dụ; viết lại trường phát âm; đổi tiêu đề bẫy thành \"用 và 有用: dùng một vật hay nói vật có ích\" cho khớp câu đối chiếu; viết lại cả hai câu tự dùng: s1 câu mẫu 我用电脑学习。, s2 đổi đề thành \"Nói xin dùng cây bút chì này viết chữ.\" với câu mẫu 请用这支铅笔写字。. Cập nhật completedDigests; completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 741,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-010",
+      "id": "hz-h1-a0227b47e71a",
+      "hanzi": "看",
+      "cohortOrdinal": 120,
+      "difficulty": "trung bình",
+      "difficultyReason": "看 đổi cách dịch theo tân ngữ (nhìn/xem/đọc) và cần phân biệt với 读 là đọc thành tiếng; bài thuộc thế hệ mẫu tự động có nhiều lỗi dữ liệu.",
+      "problemsFound": [
+        "Cả hai câu mẫu tự dùng chép nguyên hai ví dụ của bài (2 cảnh báo self-example-exact); khung cũng là câu đầy đủ chép nguyên; ý tưởng của s1 là ghi chú phát âm, ý tưởng và đề của s2 đều là một câu tiếng Trung.",
+        "Trường phát âm chứa mẹo chọn từ thay vì hướng dẫn đọc; tiêu đề bẫy viết liền cả câu giải thích nên cặp từ không khớp câu đối chiếu (cảnh báo trap-pair).",
+        "Phần khác nhau và giải thích thay thế của bẫy t1 nói về 听 (nghe) thay vì về 读."
+      ],
+      "changes": "Thêm lesson.tier1; bổ sung Pinyin cho cả hai ví dụ; viết lại trường phát âm; đổi tiêu đề bẫy thành \"看 và 读: xem hay đọc thành tiếng\", viết lại phần khác nhau và giải thích thay thế cho đúng cặp 看/读; viết lại cả hai câu tự dùng: s1 câu mẫu 我看同事发来的消息。, s2 đổi đề thành \"Nói tối nay bạn xem phim.\" với câu mẫu 我今天晚上看电影。. Cập nhật completedDigests; completedCount không đổi.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 741,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
     }
   ],
   "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
@@ -2594,7 +2777,7 @@
     "pilotId": "hz-h2-8ac3a59c0ef6",
     "pilotApproved": true,
     "approvedBy": "Bui, prompt chuẩn hóa toàn bộ 2026-10-26 (mẫu 3-2-1 đã phê duyệt, áp dụng từ ordinal 1, không cần duyệt lại mẫu)",
-    "standardizedCount": 113,
-    "nextStep": "Giai đoạn B đợt B-010: ordinal 113 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
+    "standardizedCount": 121,
+    "nextStep": "Giai đoạn B đợt B-011: ordinal 121 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
   }
 }
