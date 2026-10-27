@@ -31076,14 +31076,16 @@
           "zh": "我今天吃得很少。",
           "vi": "Hôm nay tôi ăn rất ít.",
           "analysis": "得 nối hành động 吃 với phần nói mức độ; 少 đứng cuối cụm bổ nghĩa cho lượng ăn.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ jīntiān chī de hěn shǎo."
         },
         {
           "id": "e2",
           "zh": "请少放一点儿盐。",
           "vi": "Làm ơn cho ít muối hơn một chút.",
           "analysis": "少 đứng trước động từ 放 để yêu cầu giảm lượng muối.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Qǐng shǎo fàng yì diǎnr yán."
         }
       ],
       "sourceIndex": 76,
@@ -31104,7 +31106,7 @@
           "explanation": "少 nói số lượng không nhiều hoặc mức độ giảm. Có thể làm vị ngữ sau 很, hoặc đứng trước động từ để nói làm ít đi.",
           "boundary": "少 nói lượng; 小 nói kích thước. Khi nói tuổi trẻ trong 少年, chữ 少 đọc cách khác, không mang nghĩa “ít”.",
           "conditions": [
-            "少可以放在名词前表示数量少，也可以放在 很 后面作谓语，如 人很少。若要报确数，用 数词 + 量词 + 名词。",
+            "少 có thể đứng trước danh từ để nói lượng ít, cũng có thể đứng sau 很 làm vị ngữ, như 人很少. Nếu muốn nói số cụ thể, dùng số từ + lượng từ + danh từ.",
             "Trong 少年, cách đọc là thanh bốn và nghĩa là tuổi trẻ; đó là cách đọc của từ ghép quen thuộc."
           ],
           "takeaway": "少 nói lượng; 小 nói kích thước. Khi nói tuổi trẻ trong 少年, chữ 少 đọc cách khác, không mang nghĩa “ít”."
@@ -31115,14 +31117,16 @@
             "zh": "我今天吃得很少。",
             "vi": "Hôm nay tôi ăn rất ít.",
             "analysis": "得 nối hành động 吃 với phần nói mức độ; 少 đứng cuối cụm bổ nghĩa cho lượng ăn.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ jīntiān chī de hěn shǎo."
           },
           {
             "id": "e2",
             "zh": "请少放一点儿盐。",
             "vi": "Làm ơn cho ít muối hơn một chút.",
             "analysis": "少 đứng trước động từ 放 để yêu cầu giảm lượng muối.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Qǐng shǎo fàng yì diǎnr yán."
           }
         ],
         "usages": [
@@ -31273,7 +31277,20 @@
             ]
           }
         },
-        "cohortOrdinal": 97
+        "cohortOrdinal": 97,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -31296,14 +31313,16 @@
           "zh": "这家店的服务很差。",
           "vi": "Dịch vụ của cửa hàng này rất kém.",
           "analysis": "差 đứng sau 很 để đánh giá chất lượng dịch vụ.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhè jiā diàn de fúwù hěn chà."
         },
         {
           "id": "e2",
           "zh": "我的考试成绩比上次差一点儿。",
           "vi": "Kết quả thi của tôi kém hơn lần trước một chút.",
           "analysis": "差 đứng sau chủ thể; 比上次 nêu mốc so sánh.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ de kǎoshì chéngjì bǐ shàng cì chà yì diǎnr."
         }
       ],
       "sourceIndex": 77,
@@ -31334,14 +31353,16 @@
             "zh": "这家店的服务很差。",
             "vi": "Dịch vụ của cửa hàng này rất kém.",
             "analysis": "差 đứng sau 很 để đánh giá chất lượng dịch vụ.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhè jiā diàn de fúwù hěn chà."
           },
           {
             "id": "e2",
             "zh": "我的考试成绩比上次差一点儿。",
             "vi": "Kết quả thi của tôi kém hơn lần trước một chút.",
             "analysis": "差 đứng sau chủ thể; 比上次 nêu mốc so sánh.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ de kǎoshì chéngjì bǐ shàng cì chà yì diǎnr."
           }
         ],
         "usages": [
@@ -31432,36 +31453,49 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Bạn nói kết quả bài kiểm tra lần này kém."
+            "prompt": "Bạn nói kết quả phần nghe lần này kém."
           },
           {
             "id": "s2",
-            "prompt": "Bạn góp ý rằng dịch vụ khách sạn này kém."
+            "prompt": "Bạn nhận xét chất lượng áo này kém."
           }
         ],
         "selfAnswers": {
           "s1": {
             "idea": "Đánh giá kết quả thi.",
-            "frame": "这次考试成绩 + 很 + 差。",
-            "model": "这次考试成绩很差。",
-            "vi": "Kết quả bài thi lần này rất kém.",
+            "frame": "这次听力成绩 + 很 + 差。",
+            "model": "这次听力成绩很差。",
+            "vi": "Kết quả phần nghe lần này rất kém.",
             "criteria": [
               "差 đánh giá chất lượng/kết quả.",
-              "Nếu nói một đáp án sai, chuyển sang 错."
+              "Nếu nói một đáp án sai, dùng từ chỉ lỗi."
             ]
           },
           "s2": {
-            "idea": "Đánh giá chất lượng dịch vụ.",
-            "frame": "这家酒店的服务 + 很 + 差。",
-            "model": "这家酒店的服务很差。",
-            "vi": "Dịch vụ của khách sạn này rất kém.",
+            "idea": "Đánh giá chất lượng của món đồ.",
+            "frame": "这件衣服的质量 + 很 + 差。",
+            "model": "这件衣服的质量很差。",
+            "vi": "Chất lượng bộ quần áo này rất kém.",
             "criteria": [
               "Chủ thể được nhận xét đứng trước 很差.",
               "Có thể thay bằng dịch vụ/quán ăn khác."
             ]
           }
         },
-        "cohortOrdinal": 98
+        "cohortOrdinal": 98,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -31484,14 +31518,16 @@
           "zh": "今天很热。",
           "vi": "Hôm nay trời nóng.",
           "analysis": "很 đứng trước tính từ 热; câu có thể chỉ là nhận xét trung tính.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Jīntiān hěn rè."
         },
         {
           "id": "e2",
           "zh": "这件衣服很贵。",
           "vi": "Bộ quần áo này đắt.",
           "analysis": "很 đứng trước tính từ 贵 để nhận xét giá; không nhất thiết nhấn mạnh “rất đắt”.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhè jiàn yīfu hěn guì."
         }
       ],
       "sourceIndex": 78,
@@ -31522,14 +31558,16 @@
             "zh": "今天很热。",
             "vi": "Hôm nay trời nóng.",
             "analysis": "很 đứng trước tính từ 热; câu có thể chỉ là nhận xét trung tính.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān hěn rè."
           },
           {
             "id": "e2",
             "zh": "这件衣服很贵。",
             "vi": "Bộ quần áo này đắt.",
             "analysis": "很 đứng trước tính từ 贵 để nhận xét giá; không nhất thiết nhấn mạnh “rất đắt”.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhè jiàn yīfu hěn guì."
           }
         ],
         "usages": [
@@ -31641,7 +31679,20 @@
             ]
           }
         },
-        "cohortOrdinal": 99
+        "cohortOrdinal": 99,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -31664,14 +31715,16 @@
           "zh": "他走得很快。",
           "vi": "Anh ấy đi rất nhanh.",
           "analysis": "得 nối 走 với mức độ 快, nói tốc độ đi.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Tā zǒu de hěn kuài."
         },
         {
           "id": "e2",
           "zh": "快点儿，我们要迟到了。",
           "vi": "Nhanh lên, chúng ta sắp muộn rồi.",
           "analysis": "快点儿 đứng trước lời giục; câu sau nêu lý do cần nhanh.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Kuài diǎnr wǒmen yào chídào le."
         }
       ],
       "sourceIndex": 79,
@@ -31702,14 +31755,16 @@
             "zh": "他走得很快。",
             "vi": "Anh ấy đi rất nhanh.",
             "analysis": "得 nối 走 với mức độ 快, nói tốc độ đi.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Tā zǒu de hěn kuài."
           },
           {
             "id": "e2",
             "zh": "快点儿，我们要迟到了。",
             "vi": "Nhanh lên, chúng ta sắp muộn rồi.",
             "analysis": "快点儿 đứng trước lời giục; câu sau nêu lý do cần nhanh.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Kuài diǎnr wǒmen yào chídào le."
           }
         ],
         "usages": [
@@ -31800,7 +31855,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Bạn giục bạn mình đi nhanh lên vì sắp trễ."
+            "prompt": "Bạn giục bạn mình nhanh lên, phim sắp bắt đầu."
           },
           {
             "id": "s2",
@@ -31811,8 +31866,8 @@
           "s1": {
             "idea": "Giục nhanh và nêu lý do.",
             "frame": "快点儿，+ lý do.",
-            "model": "快点儿，我们要迟到了。",
-            "vi": "Nhanh lên, chúng ta sắp muộn rồi.",
+            "model": "快点儿，电影要开始了。",
+            "vi": "Nhanh lên, phim sắp bắt đầu rồi.",
             "criteria": [
               "快点儿 là lời giục.",
               "Có thể nêu một lý do thực tế khác."
@@ -31829,7 +31884,20 @@
             ]
           }
         },
-        "cohortOrdinal": 100
+        "cohortOrdinal": 100,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -31852,14 +31920,16 @@
           "zh": "他说得很慢。",
           "vi": "Anh ấy nói rất chậm.",
           "analysis": "得 nối 说 với mức độ 慢, mô tả tốc độ nói.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Tā shuō de hěn màn."
         },
         {
           "id": "e2",
           "zh": "请说慢一点儿，我要记下来。",
           "vi": "Làm ơn nói chậm hơn một chút, tôi cần ghi lại.",
           "analysis": "慢一点儿 theo sau động từ 说 để đề nghị giảm tốc độ nói.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Qǐng shuō màn yì diǎnr wǒ yào jì xiàlái."
         }
       ],
       "sourceIndex": 80,
@@ -31890,14 +31960,16 @@
             "zh": "他说得很慢。",
             "vi": "Anh ấy nói rất chậm.",
             "analysis": "得 nối 说 với mức độ 慢, mô tả tốc độ nói.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Tā shuō de hěn màn."
           },
           {
             "id": "e2",
             "zh": "请说慢一点儿，我要记下来。",
             "vi": "Làm ơn nói chậm hơn một chút, tôi cần ghi lại.",
             "analysis": "慢一点儿 theo sau động từ 说 để đề nghị giảm tốc độ nói.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Qǐng shuō màn yì diǎnr wǒ yào jì xiàlái."
           }
         ],
         "usages": [
@@ -32017,7 +32089,20 @@
             ]
           }
         },
-        "cohortOrdinal": 101
+        "cohortOrdinal": 101,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -32040,14 +32125,16 @@
           "zh": "这个菜真好吃！",
           "vi": "Món này ngon thật!",
           "analysis": "真 đứng trước 好吃 để nhấn mạnh cảm nhận.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhège cài zhēn hǎochī!"
         },
         {
           "id": "e2",
           "zh": "你真的要去北京吗？",
           "vi": "Bạn thật sự định đi Bắc Kinh à?",
           "analysis": "真的 đứng trước ý định 要去, câu hỏi muốn xác nhận thông tin.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Nǐ zhēn de yào qù Běijīng ma?"
         }
       ],
       "sourceIndex": 81,
@@ -32078,14 +32165,16 @@
             "zh": "这个菜真好吃！",
             "vi": "Món này ngon thật!",
             "analysis": "真 đứng trước 好吃 để nhấn mạnh cảm nhận.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhège cài zhēn hǎochī!"
           },
           {
             "id": "e2",
             "zh": "你真的要去北京吗？",
             "vi": "Bạn thật sự định đi Bắc Kinh à?",
             "analysis": "真的 đứng trước ý định 要去, câu hỏi muốn xác nhận thông tin.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Nǐ zhēn de yào qù Běijīng ma?"
           }
         ],
         "usages": [
@@ -32191,7 +32280,7 @@
             "vi": "Bài hát này hay thật!",
             "criteria": [
               "真 đứng trước tính từ.",
-              "Có thể dùng ngữ điệu vui, không cần thêm 很."
+              "Có thể thêm dấu chấm than để nhấn cảm xúc."
             ]
           },
           "s2": {
@@ -32205,7 +32294,20 @@
             ]
           }
         },
-        "cohortOrdinal": 102
+        "cohortOrdinal": 102,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -32228,14 +32330,16 @@
           "zh": "我爷爷老了，走得比较慢。",
           "vi": "Ông tôi già rồi, đi khá chậm.",
           "analysis": "老了 nói tuổi tác/thời gian đã làm ông già đi; 走得比较慢 nói tốc độ đi.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Wǒ yéye lǎo le zǒu de bǐjiào màn."
         },
         {
           "id": "e2",
           "zh": "老王今天不在办公室。",
           "vi": "Hôm nay anh/chú Vương không có ở văn phòng.",
           "analysis": "老 đứng trước họ 王 như cách gọi thân mật; không có nghĩa người đó chắc chắn lớn tuổi.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Lǎo Wáng jīntiān bù zài bàngōngshì."
         }
       ],
       "sourceIndex": 82,
@@ -32267,14 +32371,16 @@
             "zh": "我爷爷老了，走得比较慢。",
             "vi": "Ông tôi già rồi, đi khá chậm.",
             "analysis": "老了 nói tuổi tác/thời gian đã làm ông già đi; 走得比较慢 nói tốc độ đi.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Wǒ yéye lǎo le zǒu de bǐjiào màn."
           },
           {
             "id": "e2",
             "zh": "老王今天不在办公室。",
             "vi": "Hôm nay anh/chú Vương không có ở văn phòng.",
             "analysis": "老 đứng trước họ 王 như cách gọi thân mật; không có nghĩa người đó chắc chắn lớn tuổi.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Lǎo Wáng jīntiān bù zài bàngōngshì."
           }
         ],
         "usages": [
@@ -32365,7 +32471,7 @@
         "selfUse": [
           {
             "id": "s1",
-            "prompt": "Bạn nói chiếc máy tính cũ rồi, cần thay cái mới."
+            "prompt": "Bạn kể bà cụ hàng xóm đã rất cao tuổi."
           },
           {
             "id": "s2",
@@ -32374,27 +32480,40 @@
         ],
         "selfAnswers": {
           "s1": {
-            "idea": "Nhận xét đồ vật đã dùng lâu, chọn từ đúng cho đồ vật.",
-            "frame": "这台电脑 + 很 + 旧。",
-            "model": "这台电脑很旧，我想换一台新的。",
-            "vi": "Máy tính này cũ rồi, tôi muốn đổi chiếc mới.",
+            "idea": "Nêu người cao tuổi và tuổi của bà.",
+            "frame": "我家隔壁的 + 老奶奶 + 九十岁 + 了。",
+            "model": "我家隔壁的老奶奶九十岁了。",
+            "vi": "Bà cụ hàng xóm nhà tôi đã chín mươi tuổi.",
             "criteria": [
-              "Với đồ vật, 旧 thường nói cũ do sử dụng lâu.",
-              "老 có thể gặp trong một số cụm đồ cũ nhưng câu cơ bản dùng 旧."
+              "老 tả người cao tuổi.",
+              "Với đồ vật đã cũ, không dùng 老 trong câu cơ bản."
             ]
           },
           "s2": {
             "idea": "Nêu người thân và tuổi tác.",
-            "frame": "我叔叔 + 年纪 + 大 + 了。",
-            "model": "我叔叔年纪大了。",
-            "vi": "Bác/chú tôi lớn tuổi rồi.",
+            "frame": "我叔叔 + 老了，+ 头发都白了。",
+            "model": "我叔叔老了，头发都白了。",
+            "vi": "Bác/chú tôi già rồi, tóc bạc hết rồi.",
             "criteria": [
-              "年纪大 nêu rõ tuổi cao.",
-              "Có thể dùng 老了 nếu ngữ cảnh phù hợp."
+              "老了 nêu người đã cao tuổi.",
+              "Có thể tả thêm tóc đã bạc."
             ]
           }
         },
-        "cohortOrdinal": 103
+        "cohortOrdinal": 103,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
@@ -32417,14 +32536,16 @@
           "zh": "这件外套太贵了。",
           "vi": "Áo khoác này đắt quá.",
           "analysis": "太…了 nhấn giá vượt mức người nói muốn trả.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Zhè jiàn wàitào tài guì le."
         },
         {
           "id": "e2",
           "zh": "请问，您贵姓？",
           "vi": "Xin hỏi, quý danh của ông/bà là gì ạ?",
           "analysis": "贵 đứng trước 姓 trong câu hỏi lịch sự về họ.",
-          "practiceAllowed": true
+          "practiceAllowed": true,
+          "pinyin": "Qǐngwèn nín guìxìng?"
         }
       ],
       "sourceIndex": 83,
@@ -32455,14 +32576,16 @@
             "zh": "这件外套太贵了。",
             "vi": "Áo khoác này đắt quá.",
             "analysis": "太…了 nhấn giá vượt mức người nói muốn trả.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Zhè jiàn wàitào tài guì le."
           },
           {
             "id": "e2",
             "zh": "请问，您贵姓？",
             "vi": "Xin hỏi, quý danh của ông/bà là gì ạ?",
             "analysis": "贵 đứng trước 姓 trong câu hỏi lịch sự về họ.",
-            "practiceAllowed": true
+            "practiceAllowed": true,
+            "pinyin": "Qǐngwèn nín guìxìng?"
           }
         ],
         "usages": [
@@ -32557,7 +32680,7 @@
           },
           {
             "id": "s2",
-            "prompt": "Bạn hỏi một người mới quen họ gì theo cách thân mật."
+            "prompt": "Bạn lịch sự hỏi họ một vị khách mới gặp."
           }
         ],
         "selfAnswers": {
@@ -32572,17 +32695,30 @@
             ]
           },
           "s2": {
-            "idea": "Chọn cách hỏi trực tiếp, thân thiện.",
-            "frame": "你 + 姓 + 什么？",
-            "model": "你姓什么？",
-            "vi": "Bạn họ gì?",
+            "idea": "Hỏi họ theo cách lịch sự.",
+            "frame": "您好，+ 请问 + 您 + 贵姓？",
+            "model": "您好，请问您贵姓？",
+            "vi": "Xin chào, xin hỏi quý danh của ông/bà là gì ạ?",
             "criteria": [
-              "Không cần dùng 贵姓 trong mọi tình huống.",
-              "Có thể dùng 您贵姓 khi muốn lịch sự hơn."
+              "贵姓 là cách hỏi họ lịch sự.",
+              "Với người thân quen, có thể hỏi thẳng họ gì, không cần 贵姓."
             ]
           }
         },
-        "cohortOrdinal": 104
+        "cohortOrdinal": 104,
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
       }
     },
     {
