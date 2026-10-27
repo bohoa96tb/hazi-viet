@@ -2225,6 +2225,194 @@
         "testDom": "PASS",
         "regressionDePilot": "107 assertions PASS"
       }
+    },
+    {
+      "batch": "B-008",
+      "id": "hz-h1-733609098341",
+      "hanzi": "少",
+      "cohortOrdinal": 97,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt lượng (少) với kích thước (小) và nhận ra cách đọc shào trong 少年.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Điều kiện dùng thứ nhất viết bằng tiếng Trung giữa bài giảng tiếng Việt, học sinh trình độ này chưa đọc được.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-008, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]}; bẫy t2 (cách đọc shào trong 少年) vào Học thêm. Bổ sung Pinyin e1 (Wǒ jīntiān chī de hěn shǎo.) và e2 (Qǐng shǎo fàng yì diǎnr yán.). Dịch điều kiện dùng thứ nhất sang tiếng Việt (bản gốc tiếng Trung đúng nhưng lẫn ngôn ngữ trong bài giảng tiếng Việt; giữ ví dụ 人很少 nguyên văn). Bẫy t1 soi gương bài 小 (ordinal 96, đợt B-007) từ phía lượng, dùng câu bát/cơm khác hẳn, không viết lại cùng một phân biệt. Câu mẫu tự dùng s1, s2 đã khác ví dụ nên giữ nguyên. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: cách đọc shào chỉ gặp trong từ ghép 少年 ở mức nhận ra, bài chính dạy shǎo; readingBlocks dành cho từ khó nhiều cách đọc thông dụng. Còn cảnh báo neo 'listener' giả dương ở s1, s2 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 775,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-008",
+      "id": "hz-h1-efc194540750",
+      "hanzi": "差",
+      "cohortOrdinal": 98,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt kém về chất lượng (差) với có lỗi (错) và khung so sánh 比.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 chép nguyên câu đối chiếu c1 trong bẫy t1 (không bị audit phát hiện nhưng cùng lỗi chép nguyên).",
+        "Câu mẫu tự dùng s2 quá gần ví dụ e1 (self-example-near 0,89: chỉ thay tên nơi).",
+        "Câu mẫu tự dùng s1 bị cảnh báo criteria-token-missing: tiêu chí nhắc 错 nhưng bằng chứng không có.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-008, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Zhè jiā diàn de fúwù hěn chà.) và e2 (Wǒ de kǎoshì chéngjì bǐ shàng cì chà yì diǎnr.). Viết lại s1 thành 这次听力成绩很差。 và s2 thành 这件衣服的质量很差。 (đề/khung/ý sửa theo; tiêu chí s1 bỏ nhắc 错). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc chính. Còn cảnh báo neo 'listener' giả dương ở s1, s2 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 775,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-008",
+      "id": "hz-h1-754e4b61ec92",
+      "hanzi": "很",
+      "cohortOrdinal": 99,
+      "difficulty": "trung bình",
+      "difficultyReason": "Chức năng nối trung tính của 很 trước tính từ và phân biệt sắc thái với 太…了.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-008, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Jīntiān hěn rè.) và e2 (Zhè jiàn yīfu hěn guì.). Bẫy t1 soi gương bài 太 (ordinal 94, đợt B-007) từ phía nhận xét trung tính, không viết lại cùng một phân biệt khen/chê. Câu mẫu tự dùng s1, s2 đã khác ví dụ nên giữ nguyên. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Còn cảnh báo neo 'listener' giả dương ở s1, s2 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 775,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-008",
+      "id": "hz-h1-22182cf36a90",
+      "hanzi": "快",
+      "cohortOrdinal": 100,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt tốc độ (快) với việc sắp xảy ra (快要) và mẫu bổ ngữ 得.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 chép nguyên ví dụ e2 (self-example-exact).",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-008, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Tā zǒu de hěn kuài.) và e2 (Kuài diǎnr wǒmen yào chídào le. — bỏ dấu phẩy trong Pinyin theo quy tắc isPinyinText). Viết lại s1 thành 快点儿，电影要开始了。 (đề sửa theo). Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Còn cảnh báo neo 'listener' giả dương ở s1, s2 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 775,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-008",
+      "id": "hz-h1-eca0ce94b683",
+      "hanzi": "慢",
+      "cohortOrdinal": 101,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt tốc độ chậm (慢) với thời điểm muộn (晚) và mẫu bổ ngữ 得.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-008, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Tā shuō de hěn màn.) và e2 (Qǐng shuō màn yì diǎnr wǒ yào jì xiàlái. — bỏ dấu phẩy trong Pinyin theo quy tắc isPinyinText). Câu luyện q2 chấp nhận đáp án 晚 (同事今天来得很晚。) là có chủ ý để luyện phân biệt 慢/晚, không phải lỗi. Bài này soi gương bài 快 (ordinal 100): cả hai ví dụ e1 đều dùng mẫu bổ ngữ 得 nối về pilot 得. Câu mẫu tự dùng s1, s2 đã khác ví dụ nên giữ nguyên. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Còn cảnh báo neo 'listener' giả dương ở s1, s2 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 775,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-008",
+      "id": "hz-h1-878a1cbed839",
+      "hanzi": "真",
+      "cohortOrdinal": 102,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt 真 nhấn mạnh lời khen với 真的…吗 hỏi xác nhận thông tin.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 bị cảnh báo criteria-token-missing: tiêu chí nhắc 很 nhưng bằng chứng không có.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-008, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Zhège cài zhēn hǎochī!) và e2 (Nǐ zhēn de yào qù Běijīng ma?). Sửa tiêu chí s1: bỏ nhắc 很, thay bằng dấu chấm than để nhấn cảm xúc. Câu mẫu tự dùng s1, s2 đã khác ví dụ nên giữ nguyên. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Còn cảnh báo neo 'listener' giả dương ở s1 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 775,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-008",
+      "id": "hz-h1-9a887a256484",
+      "hanzi": "老",
+      "cohortOrdinal": 103,
+      "difficulty": "trung bình",
+      "difficultyReason": "Ba cách dùng cần tách: người cao tuổi (老了), cách gọi thân mật (老 + họ) và đồ vật cũ dùng 旧.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s1 bị cảnh báo self-target-missing: câu mẫu dùng 旧, không chứa từ mục tiêu 老.",
+        "Câu mẫu tự dùng s2 bị cảnh báo self-target-missing: câu mẫu dùng 年纪大, không chứa từ mục tiêu 老.",
+        "Câu mẫu tự dùng s1 bị cảnh báo criteria-token-missing: tiêu chí nhắc 老 nhưng bằng chứng không có.",
+        "Câu mẫu tự dùng s2 bị cảnh báo criteria-token-missing: tiêu chí nhắc 老了 nhưng bằng chứng không có.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-008, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Wǒ yéye lǎo le zǒu de bǐjiào màn. — bỏ dấu phẩy trong Pinyin) và e2 (Lǎo Wáng jīntiān bù zài bàngōngshì.). Viết lại s1 thành 我家隔壁的老奶奶九十岁了。 (đề/khung/ý sửa theo; ý cũ luyện chọn 旧 cho đồ vật đã chuyển thành ghi chú trong tiêu chí) và s2 thành 我叔叔老了，头发都白了。 (khung/tiêu chí sửa theo) — cả hai câu mẫu mới đều chứa từ mục tiêu 老. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Còn cảnh báo neo 'listener' giả dương ở s1, s2 — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 775,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
+    },
+    {
+      "batch": "B-008",
+      "id": "hz-h1-b5fd29f3a43f",
+      "hanzi": "贵",
+      "cohortOrdinal": 104,
+      "difficulty": "trung bình",
+      "difficultyReason": "Phân biệt giá đắt (贵) với cụm hỏi họ lịch sự 贵姓.",
+      "problemsFound": [
+        "Thiếu Pinyin cả hai ví dụ e1, e2.",
+        "Câu mẫu tự dùng s2 bị cảnh báo self-target-missing: câu mẫu dùng cách hỏi thân mật 你姓什么？, không chứa từ mục tiêu 贵.",
+        "Câu mẫu tự dùng s2 bị 2 cảnh báo criteria-token-missing: tiêu chí nhắc 贵姓 và 您贵姓 nhưng bằng chứng không có.",
+        "Chưa có tier1."
+      ],
+      "changes": "Chuẩn hóa 3-2-1 (đợt B-008, Giai đoạn B): thêm tier1 {traps:[t1], checks:[q1,q2], selfUse:[s1,s2]} (chỉ có một bẫy nên toàn bộ ở Tầng 1). Bổ sung Pinyin e1 (Zhè jiàn wàitào tài guì le.) và e2 (Qǐngwèn nín guìxìng? — bỏ dấu phẩy trong Pinyin theo quy tắc isPinyinText). Viết lại s2 thành 您好，请问您贵姓？ (đề/khung/ý sửa theo) để câu mẫu luyện đúng cụm 贵姓; cách hỏi thân mật được giữ lại trong tiêu chí như một ghi chú. Không lỗi kiến thức; completedCount không đổi; digest đã cập nhật. Không thêm readingBlocks: bài trung bình một cách đọc. Còn cảnh báo neo 'listener' giả dương ở s1, s2 (s2 dùng 您 xưng hô lịch sự với khách, đề gọi người học là 'bạn') — giữ nguyên có chủ ý.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS (exit 0)",
+        "qualityAuditSelfTest": "PASS",
+        "qualityWarningsTotal": 775,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS"
+      }
     }
   ],
   "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
@@ -2237,7 +2425,7 @@
     "pilotId": "hz-h2-8ac3a59c0ef6",
     "pilotApproved": true,
     "approvedBy": "Bui, prompt chuẩn hóa toàn bộ 2026-10-26 (mẫu 3-2-1 đã phê duyệt, áp dụng từ ordinal 1, không cần duyệt lại mẫu)",
-    "standardizedCount": 97,
-    "nextStep": "Giai đoạn B đợt B-008: ordinal 97 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
+    "standardizedCount": 105,
+    "nextStep": "Giai đoạn B đợt B-009: ordinal 105 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
   }
 }
