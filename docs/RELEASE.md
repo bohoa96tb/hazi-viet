@@ -1,3 +1,18 @@
+# Giai đoạn C đợt batch-058 → batch-060 — biên soạn mới ordinal 583–612 — đã phát hành và xác minh Pages
+
+- Merge commit: ac676761dbebe16b088293dbfcdbbb7071946fb0 (nhánh main, PR #24); nhánh biên soạn: `1f45794` (file nhỏ: progress.json, content-audit.json, PROGRESS.md, cache-buster, ba tệp kho lưu batch) + `7b618f5` (file khóa học qua trình duyệt). Mô tả PR đã đính chính sau khi tạo: phân loại đúng là 11 dễ, 19 trung bình (bản đầu ghi nhầm 12/18).
+- Biên soạn mới 30 bài V2: batch-058 ordinal 583–592 （正常 正确 清楚 满意 相信 真正 等于 通过 便宜 公平）, batch-059 ordinal 593–602 （关心 友好 可爱 安静 实在 平等 开心 心情 快乐 感动）, batch-060 ordinal 603–612 （故事 方便 有意思 漂亮 热情 笑话 自由 舒服 随便 难受）. completedCount 582 → 612/2.224, còn 1.612; toàn khóa 622/2.234 bài đủ cấu trúc.
+- Phân loại tự đánh giá: dễ 11, trung bình 19, khó 0. Mọi bài theo chuẩn hiện hành: `lesson.tier1` hai tầng, Pinyin ở ví dụ, bẫy thật có câu đối chiếu, 2 câu luyện mở và 2 tình huống tự dùng, trường phát âm chỉ nêu số thanh.
+- Sửa hai ghi chép danh mục sai/thiếu: 真正 (588) — nghĩa danh mục “chính hãng” quá hẹp, sửa thành “thật sự; đích thực”; 通过 (590) — danh mục chỉ ghi “đi qua”, bài dạy hai nghĩa chính là đỗ kiểm tra và làm qua phương tiện/kênh.
+- Phối hợp soi gương hai phía với câu đối chiếu khác nhau: 正确 (584)/准确 (573); 公平 (592)/平等 (598); 开心 (599)/快乐 (601), cả hai nối tiếp bẫy 放心 ở bài 581; 故事 (603)/笑话 (608); 漂亮 (606)/好看 (567); 难受 (612) đặt nền cho 难过 (613).
+- Chi tiết kiểm tra dữ liệu: ví dụ phủ định của 有意思 (e2: 今天的课没意思。) khai báo `targetParts: ["没","意思"]`; đề tự dùng của 真正 đổi tránh chữ “bạn” trong “tình bạn” bị kiểm tra neo hiểu nhầm là xưng hô người nghe; hai câu tự dùng gần ví dụ （清楚 s2, 挺 ở đợt trước cùng họ lỗi) đã viết lại ở vòng nháp.
+- Áp dụng bằng `process-batch apply` từng đợt (kiểm tra nguyên tử trước khi ghi). Kiểm thử: process-batch verify PASS (612/2.224; 622 bài đủ cấu trúc), verify-v2 exit 0, quality-audit self-test PASS, test-dom PASS, kiểm thử hồi quy 113 khẳng định PASS, git diff --check clean. Tổng cảnh báo quality audit giữ nguyên 739; 30 bài mới có 0 cảnh báo. Cập nhật cache-buster khóa học thành batch-060.
+- Lưu ý vận hành: lệnh tạo nhánh sao lưu + đẩy file nhỏ bị hệ thống ngắt (SIGTERM) giữa chừng, nhưng kiểm tra bằng git fetch xác nhận cả hai đều đã lên đầy đủ (sao lưu ở `f6e4759`, commit file nhỏ `1f45794`) trước khi tiếp tục — không đẩy lại.
+- Nhánh sao lưu `backup/phasec-058-060-20261028` ở main HEAD `f6e4759`.
+- Pages run [40630526629](https://github.com/bohoa96tb/hazi-viet/actions/runs/40630526629) completed/success đúng HEAD ac67676 (run #267).
+- Tệp khóa học live: 2.234 mục, 6.746.165 bytes, SHA-256 f8d9af06c11992cb9db606662982275839e950b67a6772f57a1d80a655ff0dd6, khớp byte với bản đã kiểm; progress live 612/2.224. Tiếp theo: Giai đoạn C từ ordinal 613 （难过）; Giai đoạn B từ ordinal 122 （试） ở cửa sổ chuẩn hóa.
+- Chưa xác minh: TTS Android thật, phản biện giáo viên độc lập, bố cục mobile 360/390/430px. Quirk còn tồn tại: mở đáp án làm phần Học thêm đóng lại; chưa sửa trong đợt này.
+
 # Giai đoạn C đợt batch-055 → batch-057 — biên soạn mới ordinal 553–582 — đã phát hành và xác minh Pages
 
 - Merge commit: 5389bf98fb3ea9be8a84db4dd6dfa5f6d6aed71a (nhánh main, PR #23); nhánh biên soạn: `83ff096` (file nhỏ: progress.json, content-audit.json, PROGRESS.md, cache-buster, ba tệp kho lưu batch) + `7f7a2d9` (file khóa học qua trình duyệt). Tiếp nối batch-054 (548–552) do cửa sổ làm việc khác phát hành cùng ngày; Giai đoạn B tiếp tục từ ordinal 122 ở cửa sổ riêng.
