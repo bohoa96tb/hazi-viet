@@ -1,0 +1,1772 @@
+{
+  "id": "batch-081",
+  "authorship": "10 mục baseline 813–822; tự biên soạn, đối chiếu MDBG và Wiktionary, tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Dễ 7 （做饭 午睡 午餐 外卖 快餐 方便面 早餐）, trung bình 3 （中餐 做法 味道）, khó 0. Sửa danh mục: 中餐 “bữa trưa” → “món ăn Trung Quốc; ẩm thực Trung Hoa” (bữa trưa là 午餐 817); 做法 “cách xử lý” → “cách làm”.",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
+  "entries": [
+    {
+      "id": "hz-h2-1b5541bdacea",
+      "hanzi": "中餐",
+      "wordEdits": {
+        "meaning": "món ăn Trung Quốc; ẩm thực Trung Hoa",
+        "intro": [
+          {
+            "pinyin": "zhōng cān",
+            "meaning": "ẩm thực Trung Hoa"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-081 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 813,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%B8%AD%E9%A4%90",
+          "https://en.wiktionary.org/wiki/中餐"
+        ],
+        "introduction": {
+          "scope": "Học 中餐 là “món ăn Trung Quốc, ẩm thực Trung Hoa” — KHÔNG phải bữa trưa; bữa trưa là 午餐 (817)."
+        },
+        "meaning": {
+          "scene": "Bạn rủ bạn bè đi ăn món Trung tối nay; một nhà hàng treo biển chuyên ẩm thực Trung Hoa.",
+          "explanation": "中餐 là danh từ chỉ ẨM THỰC: 中 là Trung (Hoa), 餐 là bữa, món. 中餐 = món ăn Trung Quốc, đối trọng của 西餐 (827) là món Tây. Nó trả lời câu hỏi “ăn món GÌ, của nước nào” — không trả lời “ăn bữa NÀO trong ngày”. Danh mục cũ ghi “bữa trưa” là sai hẳn — đó là 午餐 (wu3can1) ở ordinal 817.",
+          "boundary": "Đọc khác nhau để khỏi nhầm: 中餐 “trung xan” — ẩm thực; 午餐 “ủ xan” — bữa giữa trưa.",
+          "conditions": [
+            "中餐 đi với 吃、喜欢、做 khi nói món ăn.",
+            "中餐 chỉ đứng độc lập, không ghép số bữa."
+          ],
+          "takeaway": "Món ăn của Trung Quốc, dùng 中餐； bữa giữa trưa, dùng 午餐。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "中餐 làm danh từ",
+            "position": "中餐 đứng sau động từ ăn nấu thích.",
+            "required": "Ngữ cảnh nhà hàng, ẩm thực, so sánh món ăn các nước.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我喜欢吃中餐。",
+            "vi": "Tôi thích ăn món Trung Quốc.",
+            "analysis": "吃中餐: chọn ẩm thực.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xǐhuan chī Zhōngcān."
+          },
+          {
+            "id": "e2",
+            "zh": "这家中餐馆很好。",
+            "vi": "Nhà hàng món Trung này rất tốt.",
+            "analysis": "中餐馆: nhà hàng ẩm thực Trung.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè jiā Zhōngcān guǎn hěn hǎo."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "中餐 và 午餐: món Trung hay bữa trưa",
+            "scene": "Đây là cặp nhầm nổi tiếng nhất của nhóm bữa ăn — hai từ chỉ khác nhau một chữ đầu mà là hai thế giới.",
+            "possibleConfusion": "Chữ khác nhau duy nhất 中/午 phát âm khác hẳn nhưng người học đọc lướt và danh mục sai cũ còn tiếp tay cho sự nhầm lẫn.",
+            "difference": "中餐 trả lời MÓN GÌ: ẩm thực Trung Hoa — đối trọng 西餐 món Tây. 午餐 trả lời BỮA NÀO: bữa ăn giữa trưa — đối trọng 早餐 (822) bữa sáng, 晚餐 bữa tối. Một từ thuộc về BẢN ĐỒ ẩm thực, một từ thuộc về ĐỒNG HỒ bữa ăn.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "中午我们吃中餐。",
+                "vi": "Trưa nay chúng ta ăn món Trung Quốc.",
+                "comment": "Bữa trưa + món Trung: cả hai từ cùng có mặt, mỗi từ một việc.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "午餐时间到了。",
+                "vi": "Đến giờ ăn trưa rồi.",
+                "comment": "Bữa trong ngày: 午餐。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Gọi bữa trưa bằng tên một nền ẩm thực sẽ làm thực đơn mất nghĩa."
+            },
+            "boundary": "Đang chọn món, chọn nhà hàng: 中餐. Đang nói giờ giấc, bữa trong ngày: 午餐。",
+            "tip": "Ẩm thực: 中餐; bữa trưa: 午餐。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "中餐 là danh từ hai âm tiết đọc tách nhẹ; nghĩa là ẩm thực Trung Hoa.",
+          "literalTranslation": "中餐 gồm Trung và bữa — bữa ăn kiểu Trung.",
+          "confusables": "Đã đối chiếu 中餐 với 午餐 và ghi rõ lỗi danh mục cũ."
+        },
+        "pronunciation": {
+          "text": "中餐 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh một, chữ sau thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 他做的____很好吃。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Bạn thích ăn món Trung hay món Tây?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "他做的中餐很好吃。"
+            ],
+            "explanation": "Món Trung nấu dùng 中餐。"
+          },
+          "q2": {
+            "accepted": [
+              "你喜欢吃中餐还是西餐？"
+            ],
+            "explanation": "Món Trung món Tây dùng 中餐/西餐。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tối nay chúng ta ăn món Trung Quốc."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô ấy là đầu bếp món Trung."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 今天晚上我们吃中餐 để rủ ăn tối món Trung.",
+            "frame": "今天晚上 + 我们 + 吃中餐。",
+            "model": "今天晚上我们吃中餐。",
+            "vi": "Tối nay chúng ta ăn món Trung Quốc.",
+            "criteria": [
+              "Có 中餐.",
+              "Món ăn buổi tối là 中餐。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 她是做中餐的厨师 để nói nghề đầu bếp.",
+            "frame": "她 + 是 + 做中餐的厨师。",
+            "model": "她是做中餐的厨师。",
+            "vi": "Cô ấy là đầu bếp món Trung.",
+            "criteria": [
+              "Có 中餐.",
+              "Đầu bếp món Trung là 做中餐的。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-65a0e36e5abb",
+      "hanzi": "做法",
+      "wordEdits": {
+        "meaning": "cách làm",
+        "intro": [
+          {
+            "pinyin": "zuò fǎ",
+            "meaning": "cách làm"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-081 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 814,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%81%9A%E6%B3%95",
+          "https://en.wiktionary.org/wiki/做法"
+        ],
+        "introduction": {
+          "scope": "Học 做法 là “cách làm” — cách nấu một món, và cách xử lý một việc."
+        },
+        "meaning": {
+          "scene": "Bạn hỏi mẹ cách làm món bánh; một việc khó, mỗi người có một cách làm riêng.",
+          "explanation": "做法 là danh từ cách làm: 这个菜的做法 (cách làm món này), 做法 + khác nhau/đơn giản. Việc ở đây có hai vùng: NẤU ĂN (cách chế biến một món) và XỬ LÝ VIỆC (cách giải quyết một chuyện). Danh mục “cách xử lý” mới chạm một vùng.",
+          "boundary": "做法 là cách làm của NGƯỜI TA NÓI CHUNG — hỏi cách làm một món là hỏi công thức, trình tự, không phải hỏi ý kiến.",
+          "conditions": [
+            "的 + 做法 khi hỏi cách làm một món, một việc.",
+            "做法 + tính từ khi nhận xét cách làm."
+          ],
+          "takeaway": "Trình tự, công thức để làm ra một thứ, dùng 做法。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "做法 làm danh词",
+            "position": "做法 đứng sau định ngữ của món ăn, việc.",
+            "required": "Ngữ cảnh nấu nướng, công việc.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这个菜的做法很简单。",
+            "vi": "Cách làm món này rất đơn giản.",
+            "analysis": "菜的做法: công thức của món.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè ge cài de zuòfǎ hěn jiǎndān."
+          },
+          {
+            "id": "e2",
+            "zh": "你的做法不对。",
+            "vi": "Cách làm của bạn không đúng.",
+            "analysis": "做法: cách xử lý một việc.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ de zuòfǎ bú duì."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "做法 và 做饭: cách làm hay nấu ăn",
+            "scene": "Phân biệt danh từ cách làm với động từ nấu ăn — hai bài cạnh nhau trong cùng nhóm.",
+            "possibleConfusion": "Hai từ cùng gốc 做 nên đây là điểm phải chốt ngay trong nhóm bữa ăn này.",
+            "difference": "做法 là DANH TỪ “cách làm”: đứng sau của, được hỏi, được nhận xét — bản thân nó là một THỨ để nói về. 做饭 là ĐỘNG TỪ “nấu ăn” (815): một HÀNH ĐỘNG đang diễn ra — ai đó đang đứng bếp. Hỏi công thức: 做法； đang nấu: 做饭。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "饺子的做法不难。",
+                "vi": "Cách làm sủi cảo không khó.",
+                "comment": "Công thức của một món: 做法。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "妈妈在做饭。",
+                "vi": "Mẹ đang nấu ăn.",
+                "comment": "Hành động đang diễn ra: 做饭。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói “mẹ đang cách làm” khi ý là đang nấu sẽ không thành câu."
+            },
+            "boundary": "Đối tượng là công thức, trình tự: 做法. Đối tượng là hành động đứng bếp: 做饭。",
+            "tip": "Công thức: 做法; hành động: 做饭。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "做法 là danh từ hai âm tiết đọc tách nhẹ; nghĩa là cách làm.",
+          "literalTranslation": "做法 gồm làm và cách.",
+          "confusables": "Đã đối chiếu 做法 với 做饭 (815)."
+        },
+        "pronunciation": {
+          "text": "做法 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh bốn, chữ sau thanh ba. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 请告诉我这个汤的____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Cách làm của anh ấy rất hay (tốt)."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请告诉我这个汤的做法。"
+            ],
+            "explanation": "Cách làm món canh dùng 做法。"
+          },
+          "q2": {
+            "accepted": [
+              "他的做法很好。"
+            ],
+            "explanation": "Cách làm hay dùng 做法。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói mỗi món có cách làm riêng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi muốn học cách làm bánh (bánh ngọt)."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 每个菜都有自己的做法 để nói mỗi món một cách làm.",
+            "frame": "每个菜 + 都有 + 自己的做法。",
+            "model": "每个菜都有自己的做法。",
+            "vi": "Mỗi món có cách làm riêng.",
+            "criteria": [
+              "Có 做法.",
+              "Cách làm riêng là 自己的做法。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我想学蛋糕的做法 để nói học cách làm bánh.",
+            "frame": "我想学 + 蛋糕的做法。",
+            "model": "我想学蛋糕的做法。",
+            "vi": "Tôi muốn học cách làm bánh ngọt.",
+            "criteria": [
+              "Có 做法.",
+              "Học một cách làm dùng từ 做法。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-01571c8a945b",
+      "hanzi": "做饭",
+      "wordEdits": {
+        "meaning": "nấu ăn",
+        "intro": [
+          {
+            "pinyin": "zuò fàn",
+            "meaning": "nấu ăn"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-081 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 815,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%81%9A%E9%A5%AD",
+          "https://en.wiktionary.org/wiki/做饭"
+        ],
+        "introduction": {
+          "scope": "Học 做饭 là “nấu ăn” — động từ đứng bếp làm một bữa ăn."
+        },
+        "meaning": {
+          "scene": "Tan học về, bố vào bếp nấu ăn; cuối tuần bạn tự nấu cho cả nhà.",
+          "explanation": "做饭 là động từ nấu ăn: 做 + 饭 （làm cơm) — ai + 做饭 (ai nấu ăn), 做饭 + cho ai, 给…做饭. 做饭 bao cả bữa: nấu cơm, xào rau, nấu canh.",
+          "boundary": "做饭 là từ ghép động–tân cổ điển nối về bài 做 (114): 做 ở đây là làm nói chung, việc cụ thể là nấu một bữa.",
+          "conditions": [
+            "Ai + 做饭 khi nói người nấu.",
+            "给 + người + 做饭 khi nấu cho ai."
+          ],
+          "takeaway": "Đứng bếp chuẩn bị một bữa, dùng 做饭。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "做饭 làm động từ",
+            "position": "做饭 đứng sau chủ ngữ người.",
+            "required": "Ngữ cảnh nhà bếp, gia đình.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我会做饭。",
+            "vi": "Tôi biết nấu ăn.",
+            "analysis": "会做饭: kỹ năng đứng bếp.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ huì zuò fàn."
+          },
+          {
+            "id": "e2",
+            "zh": "妈妈每天做饭。",
+            "vi": "Mẹ nấu ăn mỗi ngày.",
+            "analysis": "每天做饭: thói quen gia đình.",
+            "practiceAllowed": true,
+            "pinyin": "Māma měi tiān zuò fàn."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "做饭 và 做菜: nấu ăn hay nấu món",
+            "scene": "Phân biệt việc nấu cả bữa với việc nấu các món cụ thể.",
+            "possibleConfusion": "Hai cụm cùng ở trong bếp nên đây là điểm phân phạm vi tự nhiên của nhóm này.",
+            "difference": "做饭 là nấu CẢ BỮA — hành động đứng bếp nói chung, gồm cơm và thức ăn. 做菜 là nấu các MÓN — nhấn vào từng món cụ thể, tay nghề chế biến. Hỏi “biết nấu ăn không” là 做饭； khen “nấu món ngon” thiên về 做菜。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他不会做饭。",
+                "vi": "Anh ấy không biết nấu ăn.",
+                "comment": "Kỹ năng cả bữa: 做饭。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他做菜很好吃。",
+                "vi": "Món anh ấy nấu rất ngon.",
+                "comment": "Từng món cụ thể: 做菜。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Hai câu cùng một căn bếp; khác nhau ở tầm cả bữa và từng món."
+            },
+            "boundary": "Đang nói việc đứng bếp nói chung: 做饭. Đang nói từng món, tay nghề món: 做菜/做的菜。",
+            "tip": "Cả bữa: 做饭; món: 做菜。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "做饭 là động từ hai âm tiết đọc tách nhẹ; nghĩa là nấu ăn.",
+          "literalTranslation": "做饭 dịch sát là làm cơm.",
+          "confusables": "Đã đối chiếu 做饭 với 做菜 và 做法 (814)."
+        },
+        "pronunciation": {
+          "text": "做饭 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh bốn, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 今天你____还是我来？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Cô ấy nấu ăn rất giỏi."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "今天你做饭还是我来？"
+            ],
+            "explanation": "Nấu ăn hôm nay dùng 做饭。"
+          },
+          "q2": {
+            "accepted": [
+              "她做饭很好吃。",
+              "她很会做饭。"
+            ],
+            "explanation": "Nấu giỏi dùng 做饭。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi nấu ăn cho gia đình mỗi tối."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bố tôi không biết nấu ăn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我每天晚上给家人做饭 để nói nấu cho nhà.",
+            "frame": "我 + 每天晚上 + 给家人做饭。",
+            "model": "我每天晚上给家人做饭。",
+            "vi": "Tôi nấu ăn cho gia đình mỗi tối.",
+            "criteria": [
+              "Có 做饭.",
+              "Nấu cho ai dùng 给。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我爸爸不会做饭 để nói bố không biết nấu.",
+            "frame": "我爸爸 + 不会 + 做饭。",
+            "model": "我爸爸不会做饭。",
+            "vi": "Bố tôi không biết nấu ăn.",
+            "criteria": [
+              "Có 做饭.",
+              "Không biết nấu là 不会做饭。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-d0090401e667",
+      "hanzi": "午睡",
+      "wordEdits": {
+        "meaning": "ngủ trưa",
+        "intro": [
+          {
+            "pinyin": "wǔ shuì",
+            "meaning": "ngủ trưa"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-081 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 816,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%8D%88%E7%9D%A1",
+          "https://en.wiktionary.org/wiki/午睡"
+        ],
+        "introduction": {
+          "scope": "Học 午睡 là “ngủ trưa” — giấc ngủ ngắn sau bữa trưa, vừa là danh từ vừa là động từ."
+        },
+        "meaning": {
+          "scene": "Ăn trưa xong, bạn chợp mắt hai mươi phút rồi tỉnh táo làm việc cả buổi chiều.",
+          "explanation": "午睡 là ngủ trưa: 睡午觉/午睡 (ngủ một giấc trưa), 午睡时间 (giờ ngủ trưa). 午睡 nhấn vào GIẤC NGỦ GIỮA NGÀY — khác 午餐 (817) là bữa ăn trước nó.",
+          "boundary": "Chuỗi buổi trưa đầy đủ: 午餐 ăn trưa → 午睡 ngủ trưa → buổi chiều làm việc; hai từ cạnh nhau trong bài này và bài sau chốt cặp đó.",
+          "conditions": [
+            "睡 + một giấc khi nói ngủ trưa.",
+            "午睡 + 时间/习惯 khi nói giờ giấc, thói quen."
+          ],
+          "takeaway": "Giấc ngủ sau bữa trưa, dùng 午睡。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "午睡 làm danh động từ",
+            "position": "午睡 đứng sau 睡 hoặc làm chủ ngữ.",
+            "required": "Ngữ cảnh nghỉ trưa ở trường, công sở, nhà.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我每天午睡半个小时。",
+            "vi": "Tôi ngủ trưa nửa tiếng mỗi ngày.",
+            "analysis": "午睡+thời lượng: giấc trưa định kỳ.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ měi tiān wǔshuì bàn ge xiǎoshí."
+          },
+          {
+            "id": "e2",
+            "zh": "午睡以后我们上课。",
+            "vi": "Sau khi ngủ trưa chúng tôi học.",
+            "analysis": "午睡以后: mốc thời gian của buổi chiều.",
+            "practiceAllowed": true,
+            "pinyin": "Wǔshuì yǐhòu wǒmen shàng kè."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "午睡 và 午餐: ngủ trưa hay ăn trưa",
+            "scene": "Chốt cặp hai việc của buổi trưa từ phía giấc ngủ.",
+            "possibleConfusion": "Hai từ cùng bắt đầu bằng 午 và cùng thuộc buổi trưa nên thứ tự hai việc trong ngày dễ bị gọi tráo.",
+            "difference": "午餐 là BỮA ĂN giữa ngày — việc của miệng và bàn ăn, đến trước. 午睡 là GIẤC NGỦ sau bữa — việc của mắt và chiếc giường, đến sau. Trình tự cố định của một buổi trưa chuẩn: ăn 午餐 rồi 午睡。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "吃完午餐，我想午睡。",
+                "vi": "Ăn trưa xong, tôi muốn ngủ trưa.",
+                "comment": "Hai việc theo đúng trình tự trong một câu.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "午餐很丰盛。",
+                "vi": "Bữa trưa rất thịnh soạn.",
+                "comment": "Bữa ăn thịnh soạn: 午餐。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Một giấc ngủ không thể “thịnh soạn” —形容词 đã lộ chủ thể của nó."
+            },
+            "boundary": "Việc đến trước, có đồ ăn: 午餐. Việc đến sau, có giấc ngủ: 午睡。",
+            "tip": "Ăn trước: 午餐; ngủ sau: 午睡。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "午睡 là từ hai âm tiết đọc tách nhẹ; nghĩa là ngủ trưa.",
+          "literalTranslation": "午睡 gồm trưa và ngủ.",
+          "confusables": "Đã đối chiếu 午睡 với 午餐 (817)."
+        },
+        "pronunciation": {
+          "text": "午睡 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh ba, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 他吃完饭就去____了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Trẻ em cần ngủ trưa."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "他吃完饭就去午睡了。",
+              "他吃完饭就去睡午觉了。"
+            ],
+            "explanation": "Ăn xong ngủ trưa dùng 午睡。"
+          },
+          "q2": {
+            "accepted": [
+              "孩子要午睡。",
+              "孩子需要午睡。"
+            ],
+            "explanation": "Cần ngủ trưa dùng 午睡。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi không có thói quen ngủ trưa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói ngủ trưa dậy, cô ấy rất tỉnh táo."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我没有午睡的习惯 để nói không quen ngủ trưa.",
+            "frame": "我 + 没有 + 午睡的习惯。",
+            "model": "我没有午睡的习惯。",
+            "vi": "Tôi không có thói quen ngủ trưa.",
+            "criteria": [
+              "Có 午睡.",
+              "Thói quen ngủ trưa là 午睡的习惯。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 她午睡起来很精神 để nói ngủ dậy tỉnh táo.",
+            "frame": "她 + 午睡起来 + 很精神。",
+            "model": "她午睡起来很精神。",
+            "vi": "Ngủ trưa dậy, cô ấy rất tỉnh táo.",
+            "criteria": [
+              "Có 午睡.",
+              "Ngủ dậy tỉnh táo là 午睡起来。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-0b45e9cf07a6",
+      "hanzi": "午餐",
+      "wordEdits": {
+        "meaning": "bữa trưa",
+        "intro": [
+          {
+            "pinyin": "wǔ cān",
+            "meaning": "bữa trưa"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-081 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 817,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%8D%88%E9%A4%90",
+          "https://en.wiktionary.org/wiki/午餐"
+        ],
+        "introduction": {
+          "scope": "Học 午餐 là “bữa trưa” — bữa ăn giữa ngày, dạng đầy đủ trang trọng của 午饭。"
+        },
+        "meaning": {
+          "scene": "Thực đơn bữa trưa ở căng tin; giờ nghỉ trưa, mọi người đi ăn.",
+          "explanation": "午餐 là danh từ bữa trưa: 吃午餐 (ăn trưa), 午餐时间 (giờ ăn trưa). 午餐 là dạng ĐẦY ĐỦ — thực đơn, thông báo, nhà hàng dùng nó; nói thường ngày người ta hay rút thành 午饭。",
+          "boundary": "午餐 thuộc bộ ba bữa trong ngày: 早餐 sáng (822), 午餐 trưa, 晚餐 tối — cả ba cùng khuôn 餐。",
+          "conditions": [
+            "Ăn + 午餐 khi nói bữa trưa.",
+            "午餐 + 时间/菜单 khi nói giờ và thực đơn."
+          ],
+          "takeaway": "Bữa ăn giữa ngày, dùng 午餐。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "午餐 làm danh từ",
+            "position": "午餐 đứng sau 吃 hoặc làm chủ ngữ.",
+            "required": "Ngữ cảnh căng tin, nhà hàng, lịch ngày.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们十二点吃午餐。",
+            "vi": "Chúng tôi ăn trưa lúc mười hai giờ.",
+            "analysis": "十二点吃午餐: giờ bữa cố định.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒmen shí'èr diǎn chī wǔcān."
+          },
+          {
+            "id": "e2",
+            "zh": "今天的午餐有鱼。",
+            "vi": "Bữa trưa hôm nay có cá.",
+            "analysis": "午餐有: thực đơn của bữa.",
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān de wǔcān yǒu yú."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "午餐 và 中餐: bữa trưa hay món Trung",
+            "scene": "Chốt cặp nhầm kinh điển từ phía bữa trưa — phía ẩm thực đã đóng ở bài 813.",
+            "possibleConfusion": "Bài 813 đã dạy quy tắc; bài này kiểm tra chiều ngược trong một cảnh căng tin.",
+            "difference": "午餐 thuộc về ĐỒNG HỒ: bữa giữa ngày, cặp với 早餐 và 晚餐. 中餐 thuộc về BẢN ĐỒ: ẩm thực Trung Hoa, cặp với 西餐. Tại căng tin lúc mười hai giờ, thứ đang đến là 午餐 — dù thực đơn hôm đó tình cờ là món Trung hay món Tây.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "午餐我们吃中餐。",
+                "vi": "Bữa trưa chúng ta ăn món Trung.",
+                "comment": "Cả hai từ trong một câu, mỗi từ một trục.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "晚餐吃什么？",
+                "vi": "Bữa tối ăn gì?",
+                "comment": "Bữa trong ngày cùng trục: 晚餐。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Câu hai cho thấy 午餐 thuộc một bộ ba bữa theo giờ, không theo nước."
+            },
+            "boundary": "Câu hỏi là ĂN BỮA NÀO: 午餐. Câu hỏi là ĂN MÓN NƯỚC NÀO: 中餐。",
+            "tip": "Theo giờ: 午餐; theo nước: 中餐。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "午餐 là danh từ hai âm tiết đọc tách nhẹ; nghĩa là bữa trưa.",
+          "literalTranslation": "午餐 gồm trưa và bữa.",
+          "confusables": "Đã đối chiếu 午餐 với 中餐 từ cả hai phía."
+        },
+        "pronunciation": {
+          "text": "午餐 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh ba, chữ sau thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: ____以后他去午睡。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Bữa trưa của tôi là một bát mì."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "午餐以后他去午睡。",
+              "吃午餐以后他去午睡。"
+            ],
+            "explanation": "Ăn trưa xong dùng 午餐。"
+          },
+          "q2": {
+            "accepted": [
+              "我的午餐是一碗面。"
+            ],
+            "explanation": "Bữa trưa là mì dùng 午餐。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bữa trưa ở trường rất rẻ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói anh ấy không ăn bữa trưa."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 学校的午餐很便宜 để nói bữa trưa trường học rẻ.",
+            "frame": "学校的午餐 + 很便宜。",
+            "model": "学校的午餐很便宜。",
+            "vi": "Bữa trưa ở trường rất rẻ.",
+            "criteria": [
+              "Có 午餐.",
+              "Bữa của trường là 学校的午餐。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 他不吃午餐 để nói bỏ bữa trưa.",
+            "frame": "他 + 不吃 + 午餐。",
+            "model": "他不吃午餐。",
+            "vi": "Anh ấy không ăn bữa trưa.",
+            "criteria": [
+              "Có 午餐.",
+              "Bỏ bữa dùng 不吃午餐。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-b35b66682992",
+      "hanzi": "味道",
+      "wordEdits": {
+        "meaning": "hương vị; mùi vị",
+        "intro": [
+          {
+            "pinyin": "wèidào",
+            "meaning": "hương vị"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-081 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 818,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%91%B3%E9%81%93",
+          "https://en.wiktionary.org/wiki/味道"
+        ],
+        "introduction": {
+          "scope": "Học 味道 là “hương vị, mùi vị” — vị và mùi của món ăn, đồ uống mà lưỡi và mũi cảm nhận được."
+        },
+        "meaning": {
+          "scene": "Bạn nếm thử một thìa canh và gật đầu: vị ngon; mở nắp nồi, mùi thơm bay ra khắp bếp.",
+          "explanation": "味道 là danh từ hương vị: 味道 + tốt/không tốt/nặng/nhạt （味道好 vị ngon), 有味道 (có vị, đậm vị), 尝味道 (nếm vị). 味道 là TỔNG HÒA của vị trong miệng và mùi trong mũi của một món đồ ăn uống.",
+          "boundary": "味道 không phải cảm giác riêng của người ăn — “thích hay không” là khẩu vị 口味； 味道 là thuộc tính của MÓN.",
+          "conditions": [
+            "味道 + 好/不错 khi khen món.",
+            "尝一尝 + 味道 khi nếm thử."
+          ],
+          "takeaway": "Vị và mùi của một món, dùng 味道。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "味道 làm danh từ",
+            "position": "味道 làm chủ ngữ hoặc tân ngữ của 尝。",
+            "required": "Ngữ cảnh nấu ăn, ăn uống, nhận xét món.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这个汤的味道很好。",
+            "vi": "Vị của món canh này rất ngon.",
+            "analysis": "汤的味道: vị thuộc về món.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè ge tāng de wèidào hěn hǎo."
+          },
+          {
+            "id": "e2",
+            "zh": "你尝尝味道怎么样。",
+            "vi": "Bạn nếm thử xem vị thế nào.",
+            "analysis": "尝味道: nếm để kiểm tra.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ chángchang wèidào zěnmeyàng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "味道 và 好吃: hương vị hay ngon",
+            "scene": "Phân biệt thuộc tính hương vị với lời khen ngon của người ăn.",
+            "possibleConfusion": "Hai cách khen món ăn quá gần nhau nên đây là điểm chốt của bài nhận xét món ăn này.",
+            "difference": "味道 là THUỘC TÍNH của món: vị mặn ngọt, mùi thơm — tả được cả khi không khen （味道太咸 vị mặn quá). 好吃 là LỜI KHEN của người ăn: ngon miệng — chỉ tích cực, chỉ về cảm nhận của mình. Nêm nếm trong bếp nói 味道； ngồi bàn khen món nói 好吃。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "味道有点儿淡。",
+                "vi": "Vị hơi nhạt.",
+                "comment": "Thuộc tính cần chỉnh trong bếp: 味道。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这道菜真好吃。",
+                "vi": "Món này thật sự ngon.",
+                "comment": "Lời khen của thực khách: 好吃。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Câu một là ghi chú kỹ thuật của người nấu; câu hai là cảm xúc của người ăn."
+            },
+            "boundary": "Đang nêm, đang tả vị mặn nhạt thơm: 味道. Đang khen một món ngon miệng: 好吃。",
+            "tip": "Thuộc tính món: 味道; lời khen: 好吃。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "味道 là danh từ hai âm tiết; nghĩa là hương vị, mùi vị.",
+          "literalTranslation": "味道 gồm vị và đạo — vị của món.",
+          "confusables": "Đã đối chiếu 味道 với 好吃 và 口味。"
+        },
+        "pronunciation": {
+          "text": "味道 đọc hai âm tiết liền nhau, chữ đầu thanh bốn, chữ sau thanh bốn nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 妈妈做的菜____最好。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Mùi (vị) của cà phê rất thơm."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "妈妈做的菜味道最好。"
+            ],
+            "explanation": "Vị món mẹ nấu dùng 味道。"
+          },
+          "q2": {
+            "accepted": [
+              "咖啡的味道很香。"
+            ],
+            "explanation": "Vị cà phê dùng 味道。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói vị của món này hơi cay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi thích hương vị của trà này."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 这个菜的味道有点儿辣 để tả vị cay nhẹ.",
+            "frame": "这个菜的味道 + 有点儿辣。",
+            "model": "这个菜的味道有点儿辣。",
+            "vi": "Vị của món này hơi cay.",
+            "criteria": [
+              "Có 味道.",
+              "Hơi cay là 有点儿辣。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我喜欢这个茶的味道 để nói thích hương trà.",
+            "frame": "我喜欢 + 这个茶的味道。",
+            "model": "我喜欢这个茶的味道。",
+            "vi": "Tôi thích hương vị của trà này.",
+            "criteria": [
+              "Có 味道.",
+              "Hương vị của trà là 茶的味道。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-ce4392aabbb7",
+      "hanzi": "外卖",
+      "wordEdits": {
+        "meaning": "đồ ăn giao tận nơi",
+        "intro": [
+          {
+            "pinyin": "wàimài",
+            "meaning": "đồ ăn giao tận nơi"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-081 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 819,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%A4%96%E5%8D%96",
+          "https://en.wiktionary.org/wiki/外卖"
+        ],
+        "introduction": {
+          "scope": "Học 外卖 là “đồ ăn giao tận nơi” — món ăn quán mang đến tận nhà, tận cơ quan."
+        },
+        "meaning": {
+          "scene": "Trưa bận không nấu, bạn mở ứng dụng gọi một phần cơm giao đến; tối mưa, cả nhà ăn đồ giao tận nơi.",
+          "explanation": "外卖 là danh từ đồ ăn mang giao: 点外卖/订外卖 (gọi, đặt đồ giao), 送外卖 (đi giao đồ ăn — việc của người giao). 外卖 là đồ ăn CỦA QUÁN nhưng ăn Ở NGOÀI QUÁN — mang đi, giao đến.",
+          "boundary": "外卖 khác ăn tại quán 堂食 và khác 快餐 (820): 快餐 là LOẠI đồ ăn nhanh; 外卖 là CÁCH nhận đồ ăn — một phần thức ăn nhanh cũng có thể được giao dạng 外卖。",
+          "conditions": [
+            "Gọi/đặt + 外卖 khi đặt đồ.",
+            "送 + 外卖 khi nói người giao."
+          ],
+          "takeaway": "Đồ ăn quán giao đến tận nơi, dùng 外卖。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "外卖 làm danh từ",
+            "position": "外卖 đứng sau 点、订、送。",
+            "required": "Ngữ cảnh ứng dụng đặt đồ ăn, văn phòng, ở nhà.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们点外卖吧。",
+            "vi": "Chúng ta gọi đồ giao tận nơi nhé.",
+            "analysis": "点外卖: đặt qua ứng dụng.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒmen diǎn wàimài ba."
+          },
+          {
+            "id": "e2",
+            "zh": "外卖到了。",
+            "vi": "Đồ ăn giao đến rồi.",
+            "analysis": "外卖到了: khoảnh khắc nhận đồ.",
+            "practiceAllowed": true,
+            "pinyin": "Wàimài dào le."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "外卖 và 快餐: giao tận nơi hay thức ăn nhanh",
+            "scene": "Phân biệt cách nhận đồ ăn với loại đồ ăn — hai bài cạnh nhau chốt cặp này từ phía 外卖。",
+            "possibleConfusion": "Hai từ cùng thuộc thế giới ăn uống hiện đại nên thực đơn ứng dụng dễ khiến người học tưởng chúng là một.",
+            "difference": "外卖 trả lời đồ ăn ĐẾN BẰNG CÁCH NÀO: được giao tận nơi — bất kỳ món gì cũng thành 外卖 khi được giao. 快餐 (820) trả lời đồ ăn THUỘC LOẠI NÀO: làm nhanh, ăn nhanh — có thể ăn tại quán mà không hề giao. Một chiếc bánh mì kẹp ăn tại quán là 快餐 chứ không phải 外卖。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "今天太忙，叫外卖吧。",
+                "vi": "Hôm nay bận quá, gọi đồ giao đi.",
+                "comment": "Cách nhận đồ: 外卖。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这家快餐店人很多。",
+                "vi": "Quán thức ăn nhanh này đông người.",
+                "comment": "Loại quán, loại đồ: 快餐。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Gọi một quán ăn là “quán giao tận nơi” sẽ sai hẳn bản chất của quán."
+            },
+            "boundary": "Đang nói việc giao đến tận nơi: 外卖. Đang nói loại đồ làm nhanh ăn nhanh: 快餐。",
+            "tip": "Giao đến: 外卖; loại nhanh: 快餐。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "外卖 là danh từ hai âm tiết đọc tách nhẹ; nghĩa là đồ ăn giao tận nơi.",
+          "literalTranslation": "外卖 gồm bán ra ngoài — bán mang đi.",
+          "confusables": "Đã đối chiếu 外卖 với 快餐 (820)."
+        },
+        "pronunciation": {
+          "text": "外卖 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh bốn, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 他在____店里送外卖。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tối nay không nấu, gọi đồ ăn giao nhé."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "他在一家店里送外卖。"
+            ],
+            "explanation": "送外卖是 đi giao đồ ăn."
+          },
+          "q2": {
+            "accepted": [
+              "今天晚上不做饭，点外卖吧。"
+            ],
+            "explanation": "Gọi đồ giao dùng 点外卖。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói đồ ăn giao của tôi chưa đến."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô ấy thường gọi đồ ăn giao buổi trưa."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我的外卖还没到 để nói đồ chưa đến.",
+            "frame": "我的外卖 + 还没到。",
+            "model": "我的外卖还没到。",
+            "vi": "Đồ ăn giao của tôi chưa đến.",
+            "criteria": [
+              "Có 外卖.",
+              "Chưa đến là 还没到。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 她中午常点外卖 để nói thói quen gọi đồ trưa.",
+            "frame": "她 + 中午 + 常点外卖。",
+            "model": "她中午常点外卖。",
+            "vi": "Cô ấy thường gọi đồ ăn giao buổi trưa.",
+            "criteria": [
+              "Có 外卖.",
+              "Thói quen gọi đồ dùng 点外卖。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-4669b6393062",
+      "hanzi": "快餐",
+      "wordEdits": {
+        "meaning": "thức ăn nhanh",
+        "intro": [
+          {
+            "pinyin": "kuài cān",
+            "meaning": "thức ăn nhanh"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-081 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 820,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%BF%AB%E9%A4%90",
+          "https://en.wiktionary.org/wiki/快餐"
+        ],
+        "introduction": {
+          "scope": "Học 快餐 là “thức ăn nhanh” — đồ ăn làm nhanh, ăn nhanh: bánh kẹp, gà rán, mì hộp ở quán ăn nhanh."
+        },
+        "meaning": {
+          "scene": "Giờ nghỉ chỉ có mười lăm phút, bạn ghé quán ăn nhanh gọi một suất rồi đi ngay.",
+          "explanation": "快餐 là danh词 thức ăn nhanh: 吃快餐 (ăn đồ nhanh), 快餐店 (quán ăn nhanh). 快 là chữ 快 ở bài 726 vùng lân cận (nhanh) — đồ ăn của tốc độ.",
+          "boundary": "快餐 là một LOẠI đồ ăn — phân biệt với 外卖 (819) là CÁCH giao đồ, đã chốt ở bài trước; tại đây chỉ cần nhớ 快餐 gắn với quán và suất ăn làm sẵn nhanh.",
+          "conditions": [
+            "Ăn + 快餐 khi ăn đồ nhanh.",
+            "快餐 + 店 khi nói quán."
+          ],
+          "takeaway": "Đồ ăn làm nhanh ăn nhanh, dùng 快餐。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "快餐 làm danh词",
+            "position": "快餐 đứng sau 吃 hoặc trước 店。",
+            "required": "Ngữ cảnh giờ nghỉ ngắn, nhà ga, trung tâm thương mại.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "中午我们吃快餐。",
+            "vi": "Buổi trưa chúng tôi ăn thức ăn nhanh.",
+            "analysis": "吃快餐: chọn loại đồ ăn.",
+            "practiceAllowed": true,
+            "pinyin": "Zhōngwǔ wǒmen chī kuàicān."
+          },
+          {
+            "id": "e2",
+            "zh": "他在一家快餐店工作。",
+            "vi": "Anh ấy làm việc ở một quán ăn nhanh.",
+            "analysis": "快餐店: nơi làm việc.",
+            "practiceAllowed": true,
+            "pinyin": "Tā zài yì jiā kuàicān diàn gōngzuò."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "快餐 và 方便面: thức ăn nhanh hay mì ăn liền",
+            "scene": "Phân biệt loại đồ ăn nhanh nói chung với một món cụ thể trong đó từ phía 快餐。",
+            "possibleConfusion": "Bài sau là mì ăn liền (821) — một thành viên nổi tiếng của họ đồ ăn nhanh, phải phân cấp ngay.",
+            "difference": "快餐 là TÊN CỦA CẢ HỌ: mọi đồ ăn làm nhanh ăn nhanh — bánh kẹp, gà rán, cơm hộp, mì liền đều là 快餐. 方便面 chỉ là MỘT MÓN trong họ: gói mì úp nước sôi. Nói “ăn thức ăn nhanh” có thể là bất kỳ món nào; nói 方便面 là đã chốt đúng gói mì.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我不常吃快餐。",
+                "vi": "Tôi không thường ăn thức ăn nhanh.",
+                "comment": "Cả họ đồ nhanh: 快餐。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我买了一包方便面。",
+                "vi": "Tôi mua một gói mì ăn liền.",
+                "comment": "Một món cụ thể: 方便面。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói mua một gói “thức ăn nhanh” thay cho gói mì sẽ làm người bán không biết đưa gì."
+            },
+            "boundary": "Đang nói loại đồ ăn nói chung: 快餐. Đang nói đúng gói mì úp: 方便面。",
+            "tip": "Cả họ: 快餐; gói mì: 方便面。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "快餐 là danh từ hai âm tiết đọc tách nhẹ; nghĩa là thức ăn nhanh.",
+          "literalTranslation": "快餐 gồm nhanh và bữa.",
+          "confusables": "Đã đối chiếu 快餐 với 外卖 (819) và 方便面 (821)."
+        },
+        "pronunciation": {
+          "text": "快餐 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh bốn, chữ sau thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这家____店很干净。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Ăn nhiều thức ăn nhanh không tốt."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这家快餐店很干净。"
+            ],
+            "explanation": "Quán ăn nhanh dùng 快餐。"
+          },
+          "q2": {
+            "accepted": [
+              "常吃快餐不好。",
+              "吃太多快餐不好。"
+            ],
+            "explanation": "Ăn nhiều đồ nhanh dùng 快餐。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói sinh viên hay ăn thức ăn nhanh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói gần trường có một quán ăn nhanh."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 学生常吃快餐 để nói thói quen sinh viên.",
+            "frame": "学生 + 常 + 吃快餐。",
+            "model": "学生常吃快餐。",
+            "vi": "Sinh viên hay ăn thức ăn nhanh.",
+            "criteria": [
+              "Có 快餐.",
+              "Thói quen ăn đồ nhanh dùng 快餐。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 学校附近有一家快餐店 để nói quán gần trường.",
+            "frame": "学校附近 + 有 + 一家快餐店。",
+            "model": "学校附近有一家快餐店。",
+            "vi": "Gần trường có một quán ăn nhanh.",
+            "criteria": [
+              "Có 快餐店.",
+              "Quán gần trường là 快餐店。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-1ca24975b211",
+      "hanzi": "方便面",
+      "wordEdits": {
+        "meaning": "mì ăn liền",
+        "intro": [
+          {
+            "pinyin": "fāngbiànmiàn",
+            "meaning": "mì ăn liền"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-081 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 821,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%96%B9%E4%BE%BF%E9%9D%A2",
+          "https://en.wiktionary.org/wiki/方便面"
+        ],
+        "introduction": {
+          "scope": "Học 方便面 là “mì ăn liền” — gói mì úp nước sôi ba phút là ăn được."
+        },
+        "meaning": {
+          "scene": "Đêm khuya đói bụng, bạn úp một gói mì; trong ba lô đi xa luôn có vài gói mì liền.",
+          "explanation": "方便面 là danh词 mì ăn liền: 一包方便面 (một gói), 泡方便面 (úp mì — động từ 泡 ngâm nước), 吃方便面. 方便 ở đây là chữ 方便 (607, tiện lợi) — mì của sự tiện lợi.",
+          "boundary": "方便面 là mì GÓI/CỐC có sẵn gia vị; sợi mì ở quán là 面条 (810) — một bên là sản phẩm công nghiệp, một bên là món nấu tại chỗ.",
+          "conditions": [
+            "Gói/tô + 方便面 khi mua, đếm.",
+            "泡 + 方便面 khi úp mì."
+          ],
+          "takeaway": "Gói mì úp nước sôi, dùng 方便面。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "方便面 làm danh từ",
+            "position": "方便面 đứng sau lượng từ gói, tô.",
+            "required": "Ngữ cảnh siêu thị, ký túc xá, đi đường.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我买了两包方便面。",
+            "vi": "Tôi mua hai gói mì ăn liền.",
+            "analysis": "两包: đếm bằng gói.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ mǎi le liǎng bāo fāngbiànmiàn."
+          },
+          {
+            "id": "e2",
+            "zh": "他晚上泡了一碗方便面。",
+            "vi": "Tối anh ấy úp một tô mì ăn liền.",
+            "analysis": "泡方便面: úp bằng nước sôi.",
+            "practiceAllowed": true,
+            "pinyin": "Tā wǎnshang pào le yì wǎn fāngbiànmiàn."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "方便面 và 面条: mì liền hay sợi mì",
+            "scene": "Chốt cặp cuối của họ mì từ phía sản phẩm ăn liền.",
+            "possibleConfusion": "Bài 810 đã mở cặp này; ở đây hoàn thiện nó bằng một cảnh ký túc xá ban đêm.",
+            "difference": "方便面 là SẢN PHẨM đóng gói: sợi mì đã chiên sẵn kèm gói gia vị, úp nước sôi là ăn — mua theo gói, theo thùng. 面条 là SỢI MÌ nguyên liệu/món nấu: tươi hoặc khô, phải qua nồi nấu, nêm nếm của người nấu. Trong gói mì liền, sợi mì cũng là 面条 — nhưng cả sản phẩm thì chỉ gọi 方便面。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "宿舍里只有方便面。",
+                "vi": "Trong ký túc xá chỉ có mì ăn liền.",
+                "comment": "Sản phẩm đóng gói: 方便面。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "奶奶做的面条很好吃。",
+                "vi": "Mì (sợi) bà nấu rất ngon.",
+                "comment": "Món nấu tại chỗ: 面条。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Khen mì gói bằng từ của món nhà nấu sẽ lẫn hai thế giới đồ ăn."
+            },
+            "boundary": "Đang nói gói, cốc mì úp: 方便面. Đang nói sợi mì nấu thành món: 面条。",
+            "tip": "Đóng gói: 方便面; nấu món: 面条。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "方便面 là danh từ ba âm tiết; nghĩa là mì ăn liền.",
+          "literalTranslation": "方便面 gồm tiện lợi và mì.",
+          "confusables": "Đã đối chiếu 方便面 với 面条 (810) và 快餐 (820)."
+        },
+        "pronunciation": {
+          "text": "方便面 đọc ba âm tiết rõ ràng, chữ đầu thanh một, chữ thứ hai thanh bốn nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 超市有各种____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Đừng ăn mì ăn liền mỗi ngày."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "超市有各种方便面。"
+            ],
+            "explanation": "Các loại mì liền dùng 方便面。"
+          },
+          "q2": {
+            "accepted": [
+              "不要每天吃方便面。"
+            ],
+            "explanation": "Mì liền mỗi ngày dùng 方便面。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói anh ấy chỉ biết úp mì ăn liền."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói gói mì này hơi cay (vị cay)."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 他只会泡方便面 để nói chỉ biết úp mì.",
+            "frame": "他 + 只会 + 泡方便面。",
+            "model": "他只会泡方便面。",
+            "vi": "Anh ấy chỉ biết úp mì ăn liền.",
+            "criteria": [
+              "Có 方便面.",
+              "Úp mì là 泡方便面。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这包方便面有点儿辣 để tả vị cay.",
+            "frame": "这包方便面 + 有点儿辣。",
+            "model": "这包方便面有点儿辣。",
+            "vi": "Gói mì này hơi cay.",
+            "criteria": [
+              "Có 方便面.",
+              "Một gói mì lượng từ dùng từ 包。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-992e6d17562a",
+      "hanzi": "早餐",
+      "wordEdits": {
+        "meaning": "bữa sáng",
+        "intro": [
+          {
+            "pinyin": "zǎo cān",
+            "meaning": "bữa sáng"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-081 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 822,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%97%A9%E9%A4%90",
+          "https://en.wiktionary.org/wiki/早餐"
+        ],
+        "introduction": {
+          "scope": "Học 早餐 là “bữa sáng” — bữa ăn đầu ngày, dạng đầy đủ trang trọng của 早饭。"
+        },
+        "meaning": {
+          "scene": "Khách sạn phục vụ bữa sáng từ sáu giờ; ở nhà, bữa sáng là một cốc sữa và bánh mì.",
+          "explanation": "早餐 là danh từ bữa sáng: 吃早餐 (ăn sáng), 早餐时间 (giờ ăn sáng). 早餐 là dạng ĐẦY ĐỦ — thực đơn, khách sạn, thông báo dùng nó; nói thường ngày hay rút thành 早饭。",
+          "boundary": "早餐 mở đầu bộ ba bữa trong ngày của chữ 餐： 早餐 sáng, 午餐 trưa (817), 晚餐 tối — ba bữa một khuôn.",
+          "conditions": [
+            "Ăn + 早餐 khi nói bữa sáng.",
+            "早餐 + 时间/菜单 khi nói giờ và thực đơn."
+          ],
+          "takeaway": "Bữa ăn đầu ngày, dùng 早餐。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "早餐 làm danh từ",
+            "position": "早餐 đứng sau 吃 hoặc làm chủ ngữ.",
+            "required": "Ngữ cảnh nhà, khách sạn, căng tin sáng.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "你吃早餐了吗？",
+            "vi": "Bạn ăn sáng chưa?",
+            "analysis": "吃早餐: câu hỏi đầu ngày.",
+            "practiceAllowed": true,
+            "pinyin": "Nǐ chī zǎocān le ma?"
+          },
+          {
+            "id": "e2",
+            "zh": "今天的早餐是面包和牛奶。",
+            "vi": "Bữa sáng hôm nay là bánh mì và sữa.",
+            "analysis": "早餐是: thực đơn của bữa.",
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān de zǎocān shì miànbāo hé niúnǎi."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "早餐 và 早饭: bữa sáng đầy đủ hay bữa sáng thường",
+            "scene": "Phân biệt hai tên của cùng một bữa theo tầng ngôn ngữ — khuôn mẫu chung cho cả bộ ba bữa.",
+            "possibleConfusion": "Hai tên cùng một bữa nên người học cần một quy tắc chọn theo ngữ cảnh, không theo nghĩa.",
+            "difference": "早餐 là dạng ĐẦY ĐỦ: in trên thực đơn, biển khách sạn, văn bản — trang trọng, khách quan. 早饭 là dạng NÓI: ở nhà, giữa người thân — gần gũi, đời thường. Cùng một luật với 午餐/午饭 và 晚餐/晚饭： 餐 cho giấy tờ, 饭 cho lời nói.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "酒店的早餐很好。",
+                "vi": "Bữa sáng của khách sạn rất ngon.",
+                "comment": "Thực đơn, dịch vụ: 早餐。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我没吃早饭。",
+                "vi": "Tôi chưa ăn sáng (nói ở nhà).",
+                "comment": "Lời nói thường: 早饭。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Hai câu cùng một bữa sáng; khác nhau ở sân khấu khách sạn và sân khấu gia đình."
+            },
+            "boundary": "Đang đọc thực đơn, ở khách sạn, viết: 早餐. Đang nói ở nhà: 早饭 cũng tự nhiên.",
+            "tip": "Đầy đủ: 早餐； đời thường: 早饭。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "早餐 là danh từ hai âm tiết đọc tách nhẹ; nghĩa là bữa sáng.",
+          "literalTranslation": "早餐 gồm sớm và bữa.",
+          "confusables": "Đã đối chiếu 早餐 với 早饭 và khép bộ ba bữa 餐。"
+        },
+        "pronunciation": {
+          "text": "早餐 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh ba, chữ sau thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 每天____要吃好。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi không có thời gian ăn sáng."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "每天早餐要吃好。"
+            ],
+            "explanation": "Bữa sáng mỗi ngày dùng 早餐。"
+          },
+          "q2": {
+            "accepted": [
+              "我没有时间吃早餐。"
+            ],
+            "explanation": "Không có thời gian ăn sáng dùng 早餐。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói bữa sáng của khách sạn có trứng và sữa."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô ấy ăn sáng lúc sáu giờ rưỡi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 酒店的早餐有鸡蛋和牛奶 để tả thực đơn sáng.",
+            "frame": "酒店的早餐 + 有 + 鸡蛋和牛奶。",
+            "model": "酒店的早餐有鸡蛋和牛奶。",
+            "vi": "Bữa sáng của khách sạn có trứng và sữa.",
+            "criteria": [
+              "Có 早餐.",
+              "Thực đơn sáng của khách sạnlà 早餐。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 她六点半吃早餐 để nói giờ ăn sáng.",
+            "frame": "她 + 六点半 + 吃早餐。",
+            "model": "她六点半吃早餐。",
+            "vi": "Cô ấy ăn sáng lúc sáu giờ rưỡi.",
+            "criteria": [
+              "Có 早餐.",
+              "Giờ ăn sáng dùng 吃早餐。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    }
+  ]
+}
