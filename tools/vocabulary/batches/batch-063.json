@@ -1,0 +1,1878 @@
+{
+  "id": "batch-063",
+  "authorship": "10 mục baseline 633–642; tự biên soạn, đối chiếu MDBG và Wiktionary, tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Dễ 6 （帮助 接到 短信 亮 红 绿）, trung bình 3 （请求 通知 问题）, khó 1 （假 hai cách đọc, dùng readingBlocks).",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
+  "entries": [
+    {
+      "id": "hz-h2-df0a7525b57f",
+      "hanzi": "帮助",
+      "wordEdits": {
+        "meaning": "giúp đỡ",
+        "intro": [
+          {
+            "pinyin": "bāngzhù",
+            "meaning": "giúp đỡ"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-063 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 633,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%B8%AE%E5%8A%A9",
+          "https://en.wiktionary.org/wiki/帮助"
+        ],
+        "introduction": {
+          "scope": "Học 帮助 để nói giúp đỡ ai một cách rõ ràng, trang trọng hơn 帮 một chút."
+        },
+        "meaning": {
+          "scene": "Bạn giúp một người bạn học bài; một người lạ giúp bạn chỉ đường.",
+          "explanation": "帮助 là động từ giúp đỡ: 帮助 + người (giúp ai), 帮助 + người + động từ (giúp ai làm gì). 帮助 cũng làm danh từ: cần giúp đỡ, cảm ơn sự giúp đỡ.",
+          "boundary": "帮 ngắn gọn dùng hằng ngày; 帮助 đầy đủ, hơi trang trọng hơn và dùng được cả làm danh từ.",
+          "conditions": [
+            "帮助 + người: giúp ai.",
+            "谢谢你的帮助: cảm ơn sự giúp đỡ — 帮助 làm danh từ."
+          ],
+          "takeaway": "Giúp đỡ ai đó, dùng 帮助."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "帮助 + người",
+            "position": "帮助 đứng trước người được giúp.",
+            "required": "Việc giúp có thể nói tiếp phía sau.",
+            "omission": "Động từ giúp thông dụng nhất ở dạng đầy đủ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "帮助 làm danh từ",
+            "position": "帮助 đứng sau 的 hoặc một lượng từ.",
+            "required": "Hay trong cụm cảm ơn, cần giúp.",
+            "omission": "Nghe trang trọng, hợp văn bản.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我帮助他学习。",
+            "vi": "Tôi giúp anh ấy học.",
+            "analysis": "帮助 + người + việc: khuôn đầy đủ.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ bāngzhù tā xuéxí."
+          },
+          {
+            "id": "e2",
+            "zh": "谢谢你的帮助。",
+            "vi": "Cảm ơn sự giúp đỡ của bạn.",
+            "analysis": "你的帮助: 帮助 là danh từ ở đây.",
+            "practiceAllowed": true,
+            "pinyin": "Xièxie nǐ de bāngzhù."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "帮助 và 帮: khác nhau ở sắc thái và vai trò",
+            "scene": "Nhận ra khi nào cần dạng đầy đủ hai âm tiết.",
+            "possibleConfusion": "Hai từ cùng một nghĩa nên người học tưởng thay nhau tự do mọi lúc.",
+            "difference": "帮 là dạng ngắn, nói miệng hằng ngày và hay ghép 帮忙、帮 + người + động từ. 帮助 đầy đủ hơn, trang trọng hơn, và là dạng duy nhất làm danh từ được trong câu cảm ơn sự giúp đỡ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "谢谢你的帮助。",
+                "vi": "Cảm ơn sự giúp đỡ của bạn.",
+                "comment": "Làm danh từ phải là 帮助。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "谢谢你的帮。",
+                "vi": "Cảm ơn sự giúp của bạn (không thành câu)",
+                "comment": "帮 không làm danh từ trong cụm này.",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Câu đúng là 谢谢你的帮助。"
+            },
+            "boundary": "Khi phía trước có 的 và câu là cảm ơn, cần, nhận — chọn 帮助。",
+            "tip": "Làm danh từ: 帮助; nhờ miệng nhanh: 帮。",
+            "corrections": [
+              {
+                "caseId": "c2",
+                "zh": "谢谢你的帮助。",
+                "vi": "Cảm ơn sự giúp đỡ của bạn.",
+                "reason": "Danh từ giúp đỡ phải dùng dạng đầy đủ 帮助。"
+              }
+            ]
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "帮助 là từ hai âm tiết; một nghĩa giúp đỡ.",
+          "literalTranslation": "Không tách 帮助 thành hai động từ riêng.",
+          "confusables": "Đã đối chiếu 帮助 với 帮."
+        },
+        "pronunciation": {
+          "text": "帮助 đọc hai âm tiết liền nhau, chữ đầu thanh một, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 他常常____同学。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Cảm ơn sự giúp đỡ của bạn."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "他常常帮助同学。"
+            ],
+            "explanation": "Giúp bạn học dùng 帮助。"
+          },
+          "q2": {
+            "accepted": [
+              "谢谢你的帮助。"
+            ],
+            "explanation": "Cụm cảm ơn cố định dùng 帮助。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi giúp bạn học tiếng Trung."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói chúng ta nên giúp đỡ nhau."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 帮助你学中文 để nói giúp học.",
+            "frame": "我 + 帮助你 + 学中文。",
+            "model": "我帮助你学中文。",
+            "vi": "Tôi giúp bạn học tiếng Trung.",
+            "criteria": [
+              "Có 帮助.",
+              "Người được giúp đứng sau 帮助。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 互相帮助 để nói giúp nhau.",
+            "frame": "我们 + 应该 + 互相帮助。",
+            "model": "我们应该互相帮助。",
+            "vi": "Chúng ta nên giúp đỡ nhau.",
+            "criteria": [
+              "Có 帮助.",
+              "Giúp nhau là 互相帮助。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-0c8e97546383",
+      "hanzi": "接到",
+      "wordEdits": {
+        "meaning": "nhận được",
+        "intro": [
+          {
+            "pinyin": "jiē dào",
+            "meaning": "nhận được"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-063 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 634,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%8E%A5%E5%88%B0",
+          "https://en.wiktionary.org/wiki/接到"
+        ],
+        "introduction": {
+          "scope": "Học 接到 để nói nhận được một cuộc gọi, một tin báo, một lời mời."
+        },
+        "meaning": {
+          "scene": "Bạn nhận được điện thoại của mẹ; trường gửi giấy báo, bạn nhận được hôm nay.",
+          "explanation": "接到 là cụm động từ nhận được: 接 là đón nhận, 到 là kết quả đã tới nơi. 接到 hay đi với cuộc gọi, thông báo, lời mời, tin tức: 接到电话 (nhận cuộc gọi / được gọi tới), 接到通知 (nhận thông báo).",
+          "boundary": "接到 nhấn khoảnh khắc tin, cuộc gọi tới mình; 收到 (bài 626) rộng hơn, cho thư, quà, đồ vật giữ lại. Cuộc gọi và thông báo bất ngờ thì 接到 tự nhiên nhất.",
+          "conditions": [
+            "接到 + 电话/通知/消息: nhận tin, nhận gọi.",
+            "Chưa nhận được là 没接到。"
+          ],
+          "takeaway": "Tin, cuộc gọi tới tay mình, dùng 接到."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "接到 + danh từ",
+            "position": "接到 đứng trước thứ nhận được.",
+            "required": "Thứ hay gặp: điện thoại, thông báo, lời mời, tin.",
+            "omission": "Phủ định dùng 没接到。",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我接到妈妈的电话了。",
+            "vi": "Tôi nhận được điện thoại của mẹ rồi.",
+            "analysis": "接到电话: cuộc gọi đã tới.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ jiē dào māma de diànhuà le."
+          },
+          {
+            "id": "e2",
+            "zh": "他接到了学校的通知。",
+            "vi": "Anh ấy đã nhận được thông báo của trường.",
+            "analysis": "接到通知: tin báo đã tới tay.",
+            "practiceAllowed": true,
+            "pinyin": "Tā jiē dào le xuéxiào de tōngzhī."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "接到 và 收到: nhận tin, gọi hay nhận vật",
+            "scene": "Phân biệt hai cụm nhận được hay gặp nhất.",
+            "possibleConfusion": "Hai cụm dịch giống hệt nhau sang tiếng Việt nên dễ thay nhau.",
+            "difference": "接到 hợp với thứ mang tính tin tức, liên lạc đến bất ngờ: cuộc gọi, thông báo, lời mời, tin. 收到 hợp mọi thứ, đặc biệt vật cầm được: thư, quà, bưu kiện, tiền.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我接到一个电话。",
+                "vi": "Tôi nhận được một cuộc gọi.",
+                "comment": "Cuộc gọi đến: 接到。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我收到一个包裹。",
+                "vi": "Tôi nhận được một bưu kiện.",
+                "comment": "Vật cầm được: 收到。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói nhận bưu kiện bằng 接到 nghe lệch; nói nhận cuộc gọi bằng 收到 vẫn hiểu nhưng kém tự nhiên."
+            },
+            "boundary": "Thứ bay tới qua sóng và tin tức: 接到. Thứ cầm được trên tay: 收到。",
+            "tip": "Gọi, tin báo: 接到; vật, thư, quà: 收到。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "接到 là cụm hai âm tiết; nghĩa duy nhất là nhận được.",
+          "literalTranslation": "Không dịch 接到 thành “tiếp đến” từng chữ.",
+          "confusables": "Đã đối chiếu 接到 với 收到."
+        },
+        "pronunciation": {
+          "text": "接到 đọc hai âm tiết liền nhau, chữ đầu thanh một, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我____到你的消息了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi chưa nhận được thông báo."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我接到你的消息了。"
+            ],
+            "explanation": "Nhận được tin dùng 接到。"
+          },
+          "q2": {
+            "accepted": [
+              "我没接到通知。",
+              "我还没有接到通知。"
+            ],
+            "explanation": "Chưa nhận được là 没接到。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói cô ấy nhận được lời mời."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi nhận được điện thoại của bạn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 接到了邀请 để nói nhận được lời mời.",
+            "frame": "她 + 接到了 + 邀请。",
+            "model": "她接到了邀请。",
+            "vi": "Cô ấy nhận được lời mời.",
+            "criteria": [
+              "Có 接到.",
+              "Lời mời nhận bằng 接到。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 接到你的电话 để nói nhận cuộc gọi.",
+            "frame": "我 + 接到 + 你的电话。",
+            "model": "我接到你的电话。",
+            "vi": "Tôi nhận được điện thoại của bạn.",
+            "criteria": [
+              "Có 接到.",
+              "Cuộc gọi nhận bằng 接到。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-d838a0b7f576",
+      "hanzi": "短信",
+      "wordEdits": {
+        "meaning": "tin nhắn văn bản",
+        "intro": [
+          {
+            "pinyin": "duǎnxìn",
+            "meaning": "tin nhắn văn bản"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-063 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 635,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E7%9F%AD%E4%BF%A1",
+          "https://en.wiktionary.org/wiki/短信"
+        ],
+        "introduction": {
+          "scope": "Học 短信 là tin nhắn văn bản trên điện thoại, đếm bằng 条 và gửi bằng 发."
+        },
+        "meaning": {
+          "scene": "Bạn nhắn cho bạn một tin ngắn; mã xác nhận được gửi tới điện thoại bằng tin nhắn.",
+          "explanation": "短信 là tin nhắn văn bản qua điện thoại. Hai khuôn cố định: 发短信 (gửi tin nhắn — động từ 发 đã học ở bài 619) và đếm bằng 条：一/两条短信。",
+          "boundary": "短信 chỉ là tin nhắn chữ qua nhà mạng; tin chat trong ứng dụng thường gọi 消息 hoặc 微信 — ở mức này cứ nắm chắc 发短信.",
+          "conditions": [
+            "发 + 短信: nhắn tin.",
+            "Số + 条 + 短信: đếm tin nhắn."
+          ],
+          "takeaway": "Tin nhắn điện thoại, dùng 短信, đếm bằng 条, gửi bằng 发."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "发 + 短信",
+            "position": "短信 đứng sau 发。",
+            "required": "Người nhận đi với 给 ở giữa.",
+            "omission": "Đây là khung nhắn tin phổ biến nhất.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "条 + 短信",
+            "position": "条 là lượng từ của tin nhắn.",
+            "required": "Đứng giữa số và 短信。",
+            "omission": "Không đếm tin nhắn bằng 个。",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我给他发短信了。",
+            "vi": "Tôi đã nhắn tin cho anh ấy.",
+            "analysis": "发短信: động từ + tân ngữ cố định.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ gěi tā fā duǎnxìn le."
+          },
+          {
+            "id": "e2",
+            "zh": "手机里有三条短信。",
+            "vi": "Trong điện thoại có ba tin nhắn.",
+            "analysis": "三条短信: đếm bằng 条。",
+            "practiceAllowed": true,
+            "pinyin": "Shǒujī lǐ yǒu sān tiáo duǎnxìn."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "短信 và 信: tin nhắn hay lá thư",
+            "scene": "Nhìn lại cặp này từ phía 短信 (bài 616 đã nhìn từ phía thư).",
+            "possibleConfusion": "Hai từ dùng chung chữ 信 nên người học tưởng 短信 là “thư ngắn” viết tay.",
+            "difference": "信 là lá thư đầy đủ, đếm bằng 封. 短信 là tin nhắn văn bản trên điện thoại, đếm bằng 条, gửi bằng 发 chứ không viết tay gửi bưu điện.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我发了一条短信。",
+                "vi": "Tôi gửi một tin nhắn.",
+                "comment": "Điện thoại, đếm 条: 短信。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我写了一封信。",
+                "vi": "Tôi viết một lá thư.",
+                "comment": "Viết đầy đủ, đếm 封: 信。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Trộn lượng từ của hai từ là lỗi nghe rõ nhất: tin nhắn không đếm 封, thư không đếm 条。"
+            },
+            "boundary": "Thấy 发 và 条 là 短信; thấy 写、寄 và 封 là 信。",
+            "tip": "Tin nhắn: 条 + 短信; lá thư: 封 + 信。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "短信 là từ hai âm tiết; nghĩa duy nhất là tin nhắn văn bản.",
+          "literalTranslation": "短信 dịch sát là “tin ngắn”, tức tin nhắn.",
+          "confusables": "Đã đối chiếu 短信 với 信 từ cả hai phía."
+        },
+        "pronunciation": {
+          "text": "短信 đọc hai âm tiết liền nhau, chữ đầu thanh ba, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我给你发了一____短信。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi nhắn tin cho bạn."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我给你发了一条短信。"
+            ],
+            "explanation": "Tin nhắn đếm bằng 条。"
+          },
+          "q2": {
+            "accepted": [
+              "我给你发短信。"
+            ],
+            "explanation": "Nhắn tin là 发短信。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói anh ấy có hai tin nhắn chưa đọc."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói xin nhắn tin cho tôi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 两条没看的短信 để đếm tin chưa đọc.",
+            "frame": "他 + 有 + 两条没看的短信。",
+            "model": "他有两条没看的短信。",
+            "vi": "Anh ấy có hai tin nhắn chưa đọc.",
+            "criteria": [
+              "Có 短信.",
+              "Tin nhắn đếm bằng 条。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 给我发短信 để nhờ nhắn tin.",
+            "frame": "请 + 给我 + 发短信。",
+            "model": "请给我发短信。",
+            "vi": "Xin nhắn tin cho tôi.",
+            "criteria": [
+              "Có 短信.",
+              "Gửi tin nhắn dùng 发。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-e0af89883abc",
+      "hanzi": "请求",
+      "wordEdits": {
+        "meaning": "yêu cầu; đề nghị",
+        "intro": [
+          {
+            "pinyin": "qǐngqiú",
+            "meaning": "yêu cầu; đề nghị"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-063 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 636,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E8%AF%B7%E6%B1%82",
+          "https://en.wiktionary.org/wiki/请求"
+        ],
+        "introduction": {
+          "scope": "Học 请求 là yêu cầu, đề nghị chính thức — vừa là động từ, vừa là danh từ."
+        },
+        "meaning": {
+          "scene": "Bạn gửi đơn đề nghị được nghỉ; một yêu cầu được gửi lên cấp trên chờ duyệt.",
+          "explanation": "请求 là yêu cầu, đề nghị mang tính chính thức: 请求 + động từ (đề nghị được làm gì), hoặc danh từ một yêu cầu （一个请求）. 请求 chứa chữ 求 (bài 629) nhưng nhẹ và trang trọng hơn: là đề nghị đúng thủ tục, không phải cầu xin khẩn thiết.",
+          "boundary": "Yêu cầu ra lệnh kiểu bắt buộc là 要求 — khác một chữ, khác hẳn quan hệ trên dưới; ở mức này chỉ cần không nhầm khi gặp.",
+          "conditions": [
+            "请求 + người/tổ chức + việc: đề nghị ai cho làm.",
+            "Một + 请求: một yêu cầu (danh từ)."
+          ],
+          "takeaway": "Đề nghị chính thức, dùng 请求."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "请求 làm động từ",
+            "position": "请求 đứng trước việc được đề nghị.",
+            "required": "Chủ thể thường là cá nhân trình lên tập thể.",
+            "omission": "Giọng văn bản, đơn từ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "请求 làm danh từ",
+            "position": "请求 đứng sau lượng từ hoặc động từ gửi, nhận.",
+            "required": "Một yêu cầu được gửi đi, chờ xử lý.",
+            "omission": "Hay trong tin công nghệ, hành chính.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我请求明天休息。",
+            "vi": "Tôi đề nghị ngày mai được nghỉ.",
+            "analysis": "请求 + việc: đề nghị chính thức.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ qǐngqiú míngtiān xiūxi."
+          },
+          {
+            "id": "e2",
+            "zh": "他发出了一个请求。",
+            "vi": "Anh ấy đã gửi đi một yêu cầu.",
+            "analysis": "一个请求: 请求 là danh từ.",
+            "practiceAllowed": true,
+            "pinyin": "Tā fā chū le yí ge qǐngqiú."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "请求 và 求: đề nghị thủ tục hay cầu xin",
+            "scene": "Nối hai bài 629 và 636: cùng gốc 求, khác hẳn sắc thái.",
+            "possibleConfusion": "Hai từ dùng chung chữ 求 nên người học tưởng chỉ khác độ dài.",
+            "difference": "求 một mình là cầu xin, nhờ cậy việc hệ trọng, sắc thái khẩn và ở thế cần. 请求 là đề nghị đúng quy trình, bình tĩnh, trang trọng — gửi đơn, trình yêu cầu.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他写信请求帮助。",
+                "vi": "Anh ấy viết thư đề nghị giúp đỡ.",
+                "comment": "Đề nghị qua văn bản, thủ tục: 请求。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他求人救他。",
+                "vi": "Anh ấy cầu người cứu mình.",
+                "comment": "Hoàn cảnh nguy cấp, cầu xin: 求。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Việc nguy cấp mà dùng giọng 请求 sẽ quá lạnh; việc thủ tục mà dùng 求 một mình lại quá khẩn thiết."
+            },
+            "boundary": "Có đơn từ, quy trình, chờ duyệt: 请求. Có nguy cấp, nhờ cậy người: 求。",
+            "tip": "Thủ tục trang trọng: 请求; cầu xin hệ trọng: 求。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "请求 là từ hai âm tiết; hai vai trò động từ và danh từ cùng một nghĩa yêu cầu.",
+          "literalTranslation": "Không dịch 请求 thành “xin cầu”; đó là đề nghị, yêu cầu.",
+          "confusables": "Đã đối chiếu 请求 với 求 và nhắc 要求."
+        },
+        "pronunciation": {
+          "text": "请求 đọc hai âm tiết liền nhau, chữ đầu thanh ba, chữ sau thanh hai. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我____换一天休息。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Yêu cầu của tôi được đồng ý rồi."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我请求换一天休息。"
+            ],
+            "explanation": "Đề nghị chính thức dùng 请求。"
+          },
+          "q2": {
+            "accepted": [
+              "我的请求被同意了。",
+              "我的请求同意了。"
+            ],
+            "explanation": "Yêu cầu làm danh từ dùng 请求。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi đề nghị được giúp đỡ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô ấy gửi một yêu cầu."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 请求帮助 để đề nghị giúp đỡ.",
+            "frame": "我 + 请求 + 帮助。",
+            "model": "我请求帮助。",
+            "vi": "Tôi đề nghị được giúp đỡ.",
+            "criteria": [
+              "Có 请求.",
+              "Đề nghị việc dùng 请求 + việc."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 发了一个请求 để nói gửi một yêu cầu.",
+            "frame": "她 + 发了 + 一个请求。",
+            "model": "她发了一个请求。",
+            "vi": "Cô ấy gửi một yêu cầu.",
+            "criteria": [
+              "Có 请求.",
+              "Một yêu cầu đếm 一个请求。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-fe5acf199e22",
+      "hanzi": "通知",
+      "wordEdits": {
+        "meaning": "thông báo",
+        "intro": [
+          {
+            "pinyin": "tōngzhī",
+            "meaning": "thông báo"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-063 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 637,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E9%80%9A%E7%9F%A5",
+          "https://en.wiktionary.org/wiki/通知"
+        ],
+        "introduction": {
+          "scope": "Học 通知 là thông báo — vừa là hành động báo cho ai biết, vừa là tờ, tin thông báo."
+        },
+        "meaning": {
+          "scene": "Trường thông báo lịch nghỉ; bạn nhận được thông báo trên điện thoại về giờ học mới.",
+          "explanation": "通知 làm động từ là báo cho ai biết một việc chính thức: 通知 + người + việc. Làm danh từ là chính tin, tờ thông báo đó: 一个通知、收到通知. Nội dung hay là lịch, quyết định, thay đổi.",
+          "boundary": "Báo tin thường ngày cho bạn bè là 告诉； 通知 dành cho tin có tính tổ chức: trường, công ty, cơ quan báo xuống.",
+          "conditions": [
+            "通知 + người: báo cho ai.",
+            "Số + 个 + 通知: đếm thông báo.",
+            "接到/收到 + 通知: nhận thông báo."
+          ],
+          "takeaway": "Tin chính thức từ tổ chức xuống, dùng 通知."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "通知 làm động từ",
+            "position": "通知 đứng trước người được báo.",
+            "required": "Việc được báo nói ở mệnh đề sau.",
+            "omission": "Chủ thể thường là tổ chức.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "通知 làm danh từ",
+            "position": "通知 là chính tin báo đó.",
+            "required": "Đếm bằng 个， nhận bằng 收到/接到。",
+            "omission": "Đọc, xem thông báo là hành động thường ngày.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "学校通知我们明天休息。",
+            "vi": "Trường thông báo cho chúng tôi mai nghỉ.",
+            "analysis": "通知我们: báo tới người nhận.",
+            "practiceAllowed": true,
+            "pinyin": "Xuéxiào tōngzhī wǒmen míngtiān xiūxi."
+          },
+          {
+            "id": "e2",
+            "zh": "我收到一个通知。",
+            "vi": "Tôi nhận được một thông báo.",
+            "analysis": "一个通知: danh từ đếm được.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ shōu dào yí ge tōngzhī."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "通知 và 告诉: thông báo chính thức hay kể cho biết",
+            "scene": "Phân biệt tin tổ chức với việc kể tin thường ngày.",
+            "possibleConfusion": "Tiếng Việt “báo cho biết” dùng cho cả hai nên dễ gộp.",
+            "difference": "告诉 là kể, nói cho một người biết một tin bất kỳ, quan hệ ngang hàng. 通知 là thông báo chính thức từ một tổ chức hoặc người có trách nhiệm, nội dung là quyết định, lịch, quy định.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "公司通知大家开会。",
+                "vi": "Công ty thông báo mọi người họp.",
+                "comment": "Tin chính thức của tổ chức: 通知。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他告诉我一个故事。",
+                "vi": "Anh ấy kể tôi nghe một câu chuyện.",
+                "comment": "Kể tin thường ngày: 告诉。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói trường thông báo lịch nghỉ bằng 告诉 sẽ mất tính chính thức; kể một câu chuyện bằng 通知 cũng sai hẳn."
+            },
+            "boundary": "Người báo là trường, công ty, cơ quan và tin là lịch, quyết định: 通知。",
+            "tip": "Chính thức, tổ chức: 通知; kể thường ngày: 告诉。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "通知 là từ hai âm tiết; động từ và danh từ cùng gốc thông báo.",
+          "literalTranslation": "Không tách 通知 thành hai động từ riêng.",
+          "confusables": "Đã đối chiếu 通知 với 告诉."
+        },
+        "pronunciation": {
+          "text": "通知 đọc hai âm tiết liền nhau, cả hai đều thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 老师____我们考试时间。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi nhận được thông báo rồi."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "老师通知我们考试时间。"
+            ],
+            "explanation": "Báo lịch chính thức dùng 通知。"
+          },
+          "q2": {
+            "accepted": [
+              "我接到通知了。",
+              "我收到通知了。"
+            ],
+            "explanation": "Nhận thông báo dùng 接到/收到通知。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói công ty thông báo ngày mai họp."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói thông báo này rất quan trọng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 公司通知 để nói công ty thông báo.",
+            "frame": "公司 + 通知大家 + 明天开会。",
+            "model": "公司通知大家明天开会。",
+            "vi": "Công ty thông báo ngày mai họp.",
+            "criteria": [
+              "Có 通知.",
+              "Tổ chức là chủ thể thông báo."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这个通知 để chỉ thông báo.",
+            "frame": "这个通知 + 很重要。",
+            "model": "这个通知很重要。",
+            "vi": "Thông báo này rất quan trọng.",
+            "criteria": [
+              "Có 通知.",
+              "通知 ở đây là danh từ."
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-c40a83cd62d2",
+      "hanzi": "问题",
+      "wordEdits": {
+        "meaning": "câu hỏi; vấn đề",
+        "intro": [
+          {
+            "pinyin": "wèntí",
+            "meaning": "câu hỏi; vấn đề"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-063 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 638,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E9%97%AE%E9%A2%98",
+          "https://en.wiktionary.org/wiki/问题"
+        ],
+        "introduction": {
+          "scope": "Học 问题 gánh hai nghĩa: câu hỏi để hỏi, và vấn đề, trục trặc cần giải quyết."
+        },
+        "meaning": {
+          "scene": "Trong lớp bạn giơ tay đặt câu hỏi; xe hỏng giữa đường là một vấn đề phải xử lý ngay.",
+          "explanation": "问题 có hai nghĩa theo ngữ cảnh. Nghĩa một: câu hỏi — 问一个问题 (hỏi một câu hỏi), 回答问题 (trả lời câu hỏi). Nghĩa hai: vấn đề, trục trặc — 有问题 (có vấn đề), 没问题 (không vấn đề gì, cũng là câu đáp “được, không sao”).",
+          "boundary": "Câu có động từ hỏi, trả lời thì 问题 là câu hỏi; câu nói một việc có trục trặc thì 问题 là vấn đề.",
+          "conditions": [
+            "问/回答 + 问题: vế câu hỏi.",
+            "有/没 + 问题: vế trục trặc và câu đáp ứng."
+          ],
+          "takeaway": "Nhìn động từ quanh 问题 để chọn nghĩa."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "问题 là câu hỏi",
+            "position": "问题 đứng sau 问、回答。",
+            "required": "Ngữ cảnh lớp học, phỏng vấn.",
+            "omission": "Đếm bằng 个。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "问题 là vấn đề",
+            "position": "问题 đứng sau 有、没 hoặc 是。",
+            "required": "Ngữ cảnh việc trục trặc, cần xử lý.",
+            "omission": "没问题 còn là lời đáp đồng ý.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我有一个问题。",
+            "vi": "Tôi có một câu hỏi.",
+            "analysis": "一个问题: câu hỏi để hỏi.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ yǒu yí ge wèntí."
+          },
+          {
+            "id": "e2",
+            "zh": "没问题，我帮你。",
+            "vi": "Không vấn đề gì, tôi giúp bạn.",
+            "analysis": "没问题: câu đáp ứng cố định.",
+            "practiceAllowed": true,
+            "pinyin": "Méi wèntí wǒ bāng nǐ."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "问题 và 题目: câu hỏi hỏi đáp hay bài tập",
+            "scene": "Phân biệt câu hỏi giao tiếp với đề bài, bài tập.",
+            "possibleConfusion": "Người học hay gọi mọi thứ cần trả lời là 问题。",
+            "difference": "问题 là câu hỏi trong giao tiếp và là vấn đề cần giải quyết. 题目 là đề bài, bài tập trong sách, bài thi — thứ in sẵn để làm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "老师，我有一个问题。",
+                "vi": "Thưa thầy, em có một câu hỏi.",
+                "comment": "Hỏi trong giao tiếp: 问题。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这道题目很难。",
+                "vi": "Bài này khó.",
+                "comment": "Đề bài trong sách, thi: 题。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Giơ tay hỏi thầy bằng 题目 sẽ sai hẳn; gọi đề thi là 问题 cũng không đúng chỗ."
+            },
+            "boundary": "Thứ mình nghĩ ra để hỏi người khác: 问题. Thứ in trong sách để làm: 题、题目。",
+            "tip": "Hỏi giao tiếp: 问题; đề bài: 题目。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "问题 là từ hai âm tiết với hai nghĩa câu hỏi và vấn đề.",
+          "literalTranslation": "没问题 dịch theo ngữ cảnh là không sao, được thôi — không dịch cứng từng chữ.",
+          "confusables": "Đã đối chiếu 问题 với 题目."
+        },
+        "pronunciation": {
+          "text": "问题 đọc hai âm tiết liền nhau, chữ đầu thanh bốn, chữ sau thanh hai. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 谁来回答这个____？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Xe có vấn đề rồi."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "谁来回答这个问题？"
+            ],
+            "explanation": "Câu hỏi để trả lời dùng 问题。"
+          },
+          "q2": {
+            "accepted": [
+              "车有问题了。"
+            ],
+            "explanation": "Trục trặc dùng 有问题。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi hỏi bạn một câu hỏi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói việc này không có vấn đề."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 问你一个问题 để đặt câu hỏi.",
+            "frame": "我 + 问你 + 一个问题。",
+            "model": "我问你一个问题。",
+            "vi": "Tôi hỏi bạn một câu hỏi.",
+            "criteria": [
+              "Có 问题.",
+              "Đặt câu hỏi dùng 问。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 没问题 để nói không vấn đề.",
+            "frame": "这件事 + 没问题。",
+            "model": "这件事没问题。",
+            "vi": "Việc này không có vấn đề.",
+            "criteria": [
+              "Có 问题.",
+              "Không vấn đề là 没问题。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-2d84625ebd4e",
+      "hanzi": "亮",
+      "wordEdits": {
+        "meaning": "sáng",
+        "intro": [
+          {
+            "pinyin": "liàng",
+            "meaning": "sáng"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-063 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 639,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%BA%AE",
+          "https://en.wiktionary.org/wiki/亮"
+        ],
+        "introduction": {
+          "scope": "Học 亮 để nói sáng: trời sáng, phòng sáng, đèn sáng rõ."
+        },
+        "meaning": {
+          "scene": "Sáng sớm trời đã sáng; căn phòng có cửa sổ lớn nên rất sáng.",
+          "explanation": "亮 là tính từ sáng: 天亮了 (trời sáng rồi), 屋子很亮 (phòng rất sáng), 灯很亮 (đèn sáng). 亮 cũng nằm trong 月亮 (mặt trăng) — chỉ cần nhận ra.",
+          "boundary": "Sáng 亮 nói độ sáng của ánh sáng; rõ ràng về thông tin là 清楚 (bài 585), đừng trộn.",
+          "conditions": [
+            "Thiên/灯/屋子 + 亮: mức độ sáng.",
+            "亮 đứng sau 很/太。"
+          ],
+          "takeaway": "Ánh sáng mạnh, rõ, dùng 亮."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "亮 làm tính từ",
+            "position": "亮 đứng sau chủ thể được chiếu sáng.",
+            "required": "Hay đi với 很、太、了。",
+            "omission": "Chủ thể: trời, phòng, đèn, mắt.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "天亮了。",
+            "vi": "Trời sáng rồi.",
+            "analysis": "天 + 亮: sáng của ban ngày.",
+            "practiceAllowed": true,
+            "pinyin": "Tiān liàng le."
+          },
+          {
+            "id": "e2",
+            "zh": "这个房间很亮。",
+            "vi": "Căn phòng này rất sáng.",
+            "analysis": "房间 + 亮: sáng nhờ ánh sáng vào.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè ge fángjiān hěn liàng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "亮 và 明: sáng ánh sáng hay sáng trong tên gọi",
+            "scene": "Ghi nhận một phân biệt nhỏ hay gặp.",
+            "possibleConfusion": "Hai chữ cùng nghĩa sáng nên người học mới có thể gặp 明 trong 明天 và tưởng thay nhau được.",
+            "difference": "亮 là sáng thật của ánh sáng, dùng làm vị ngữ tự do: phòng sáng, đèn sáng. 明 chủ yếu nằm trong từ ghép như 明天 (ngày mai), 明白 (hiểu rõ), không đứng một mình làm vị ngữ nói độ sáng.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "灯很亮。",
+                "vi": "Đèn rất sáng.",
+                "comment": "Độ sáng thật: 亮。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "明天见。",
+                "vi": "Mai gặp nhé.",
+                "comment": "明 nằm trong từ ghép ngày mai.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói đèn sáng bằng 明 sẽ không thành câu tự nhiên."
+            },
+            "boundary": "Câu vị ngữ nói sáng tối: luôn là 亮。",
+            "tip": "Sáng vị ngữ: 亮; 明 chỉ trong từ ghép."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "亮 chỉ có một cách đọc; nghĩa chính là sáng.",
+          "literalTranslation": "月亮 là mặt trăng — 亮 ở đó là một phần của từ, không tách nghĩa riêng.",
+          "confusables": "Đã đối chiếu 亮 với 明."
+        },
+        "pronunciation": {
+          "text": "亮 đọc thanh bốn, dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 外面已经____了。(trời sáng)"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Đèn này sáng quá."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "外面已经亮了。",
+              "天已经亮了。"
+            ],
+            "explanation": "Trời sáng dùng 亮。"
+          },
+          "q2": {
+            "accepted": [
+              "这个灯太亮了。"
+            ],
+            "explanation": "Đèn sáng dùng 亮。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói phòng học rất sáng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói mắt cô ấy rất sáng."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 教室很亮 để nhận xét phòng.",
+            "frame": "教室 + 很亮。",
+            "model": "教室很亮。",
+            "vi": "Phòng học rất sáng.",
+            "criteria": [
+              "Có 亮.",
+              "Phòng sáng dùng 亮。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 眼睛很亮 để tả mắt sáng.",
+            "frame": "她的眼睛 + 很亮。",
+            "model": "她的眼睛很亮。",
+            "vi": "Mắt cô ấy rất sáng.",
+            "criteria": [
+              "Có 亮.",
+              "Mắt sáng dùng 亮。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-daf79641e575",
+      "hanzi": "假",
+      "wordEdits": {
+        "meaning": "giả; nghỉ phép",
+        "intro": [
+          {
+            "pinyin": "jiǎ",
+            "meaning": "giả"
+          },
+          {
+            "pinyin": "jià",
+            "meaning": "nghỉ phép"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-063 · khó"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 640,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%81%87",
+          "https://en.wiktionary.org/wiki/假"
+        ],
+        "introduction": {
+          "scope": "假 có hai cách đọc với hai nghĩa khác hẳn nhau: đọc thanh ba là giả, không thật; đọc thanh bốn là kỳ nghỉ, phép. Học riêng từng cách đọc."
+        },
+        "meaning": {
+          "scene": "Một bông hoa nhựa trông như thật nhưng là hoa giả; bạn xin nghỉ phép hai ngày để về quê.",
+          "explanation": "假 là từ đa âm thật sự: mỗi cách đọc là một từ khác hẳn, phải học theo từng khối đọc dưới đây.",
+          "boundary": "Đừng đoán cách đọc theo thói quen: thấy cụm xin nghỉ là cách đọc thanh bốn, thấy đồ vật thật giả là cách đọc thanh ba.",
+          "conditions": [
+            "Khối 1 — đọc thanh ba: đồ giả, tin giả.",
+            "Khối 2 — đọc thanh bốn: nghỉ phép, kỳ nghỉ."
+          ],
+          "takeaway": "Nhìn cụm đi kèm để chọn cách đọc trước khi nói."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "假 thanh ba + danh từ",
+            "position": "Cách đọc giả đứng trước đồ vật, tin tức.",
+            "required": "Đồ hay gặp: hoa, tiền, tin, hàng.",
+            "omission": "Đối cực của nó là 真 (thật).",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "请 + 假 thanh bốn",
+            "position": "请假 là cụm xin nghỉ phép cố định.",
+            "required": "Số ngày nghỉ đứng sau 请假。",
+            "omission": "Người duyệt thường là thầy, sếp.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这花是假的。",
+            "vi": "Hoa này là hoa giả.",
+            "analysis": "假的: không phải hoa thật.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè huā shì jiǎ de.",
+            "introIndex": 0
+          },
+          {
+            "id": "e2",
+            "zh": "我想请假两天。",
+            "vi": "Tôi muốn xin nghỉ phép hai ngày.",
+            "analysis": "请假: xin nghỉ theo phép.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xiǎng qǐngjià liǎng tiān.",
+            "introIndex": 1
+          },
+          {
+            "id": "e3",
+            "zh": "他说的是假话。",
+            "vi": "Điều anh ấy nói là lời nói dối (không thật).",
+            "analysis": "假话: lời không thật, cách đọc thanh ba.",
+            "practiceAllowed": true,
+            "pinyin": "Tā shuō de shì jiǎhuà.",
+            "introIndex": 0
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Hai cách đọc của 假: giả hay nghỉ phép",
+            "scene": "Cặp bẫy của bài này là chính hai cách đọc của 假 — đọc sai thanh là đổi hẳn từ.",
+            "possibleConfusion": "Cùng một chữ viết, người học mới chỉ nhớ một cách đọc nên đọc mọi cụm bằng một thanh.",
+            "difference": "Cụm về đồ vật thật giả đọc thanh ba. Cụm về nghỉ ngơi, xin phép đọc thanh bốn. Ngữ cảnh là chìa khóa duy nhất vì chữ viết giống hệt nhau.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这是假钱。",
+                "vi": "Đây là tiền giả.",
+                "comment": "Tiền thật giả: thanh ba.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他请假了。",
+                "vi": "Anh ấy xin nghỉ phép rồi.",
+                "comment": "Xin nghỉ: thanh bốn.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đọc 请假 bằng thanh ba sẽ thành một cụm vô nghĩa; đọc tiền giả bằng thanh bốn cũng vậy."
+            },
+            "boundary": "Trước khi đọc to một câu có 假, tự hỏi: câu này nói đồ thật giả hay nói nghỉ? Rồi chọn thanh.",
+            "tip": "Thật giả: thanh ba; xin nghỉ: thanh bốn."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "假 có đúng hai cách đọc dạy trong bài: thanh ba là giả, thanh bốn là nghỉ phép.",
+          "literalTranslation": "Không dịch 请假 thành “xin giả”; cả cụm là xin nghỉ phép.",
+          "confusables": "Đã đối chiếu hai cách đọc của chính 假."
+        },
+        "pronunciation": {
+          "text": "Từ này có hai cách đọc: cách thứ nhất thanh ba cho nghĩa giả, cách thứ hai thanh bốn cho nghĩa nghỉ phép. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền và đọc đúng thanh: 这件东西是____的。(hàng giả, thanh ba)"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi xin nghỉ một ngày."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这件东西是假的。"
+            ],
+            "explanation": "Hàng giả dùng cách đọc thanh ba."
+          },
+          "q2": {
+            "accepted": [
+              "我想请假一天。",
+              "我请假一天。"
+            ],
+            "explanation": "Xin nghỉ dùng 请假， cách đọc thanh bốn."
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tin này là giả."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô ấy xin nghỉ phép về nhà."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 是假的 để nói tin giả.",
+            "frame": "这个消息 + 是假的。",
+            "model": "这个消息是假的。",
+            "vi": "Tin này là giả.",
+            "criteria": [
+              "Có 假.",
+              "Đọc thanh ba vì là tin giả."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 请假回家 để nói xin nghỉ về nhà.",
+            "frame": "她 + 请假 + 回家。",
+            "model": "她请假回家。",
+            "vi": "Cô ấy xin nghỉ phép về nhà.",
+            "criteria": [
+              "Có 假.",
+              "Đọc thanh bốn vì là xin nghỉ."
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        },
+        "readingBlocks": [
+          {
+            "introIndex": 0,
+            "exampleId": "e1",
+            "heading": "Cách đọc thứ nhất (thanh ba): giả, không thật"
+          },
+          {
+            "introIndex": 1,
+            "exampleId": "e2",
+            "heading": "Cách đọc thứ hai (thanh bốn): xin nghỉ phép"
+          },
+          {
+            "introIndex": 0,
+            "exampleId": "e3",
+            "heading": "Cũng cách đọc thứ nhất: lời nói không thật"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hz-h2-fea63bd3455e",
+      "hanzi": "红",
+      "wordEdits": {
+        "meaning": "đỏ",
+        "intro": [
+          {
+            "pinyin": "hóng",
+            "meaning": "đỏ"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-063 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 641,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E7%BA%A2",
+          "https://en.wiktionary.org/wiki/红"
+        ],
+        "introduction": {
+          "scope": "Học 红 là màu đỏ, dùng cho đồ vật, hoa, và mặt đỏ lên vì ngượng hay nóng."
+        },
+        "meaning": {
+          "scene": "Bạn mặc áo đỏ; hoa hồng đỏ nở trong vườn; nói trước lớp, mặt bạn đỏ lên.",
+          "explanation": "红 là màu đỏ: 红 + danh từ （红花 hoa đỏ, 红衣服 áo đỏ). 红 còn nói mặt đỏ lên: 脸红 (mặt đỏ) vì ngượng, vì nóng, vì xúc động.",
+          "boundary": "Màu đỏ 红 khác chữ 洪 hay 鸿 đồng âm — ở mức này chỉ cần dùng đúng 红 cho màu.",
+          "conditions": [
+            "红 + danh từ: vật màu đỏ.",
+            "脸 + 红: mặt đỏ lên."
+          ],
+          "takeaway": "Màu đỏ và mặt đỏ lên, dùng 红."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "红 + danh từ",
+            "position": "红 đứng trước vật có màu đỏ.",
+            "required": "Vật hay gặp: hoa, áo, táo, đèn.",
+            "omission": "Đây là cách dùng chính của tính từ màu.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "脸 + 红",
+            "position": "脸红 là cụm nói mặt đỏ lên.",
+            "required": "Nguyên nhân thường là ngượng, nóng, xúc động.",
+            "omission": "Cụm này rất hay gặp khi kể chuyện.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她穿红衣服。",
+            "vi": "Cô ấy mặc áo đỏ.",
+            "analysis": "红衣服: áo màu đỏ.",
+            "practiceAllowed": true,
+            "pinyin": "Tā chuān hóng yīfu."
+          },
+          {
+            "id": "e2",
+            "zh": "他的脸红了。",
+            "vi": "Mặt anh ấy đỏ lên rồi.",
+            "analysis": "脸红: đỏ vì ngượng hoặc nóng.",
+            "practiceAllowed": true,
+            "pinyin": "Tā de liǎn hóng le."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "红绿灯 và 红灯: đèn tín hiệu hay đèn đang đỏ",
+            "scene": "Nhận ra 红 trong cụm đèn giao thông hay gặp hằng ngày.",
+            "possibleConfusion": "Người học biết 红 là màu nhưng gặp 红绿灯 lại không nối được với đèn tín hiệu.",
+            "difference": "红绿灯 là đèn giao thông (đèn đỏ, đèn xanh). Thấy cụm này ở đường phố là nói đèn tín hiệu, không phải hai thứ đèn riêng.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "前面有红绿灯。",
+                "vi": "Phía trước có đèn giao thông.",
+                "comment": "Cụm cố định chỉ đèn tín hiệu.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "前面有红灯。",
+                "vi": "Phía trước có đèn đỏ (đang đỏ).",
+                "comment": "Chỉ nói trạng thái đèn đỏ lúc này.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Hai câu đều đúng tiếng Trung nhưng khác ý: một câu báo có đèn tín hiệu, một câu báo đèn đang đỏ phải dừng."
+            },
+            "boundary": "Kể đường đi có ngã tư: 红绿灯. Báo phải dừng xe lúc này: 红灯。",
+            "tip": "Đèn tín hiệu: 红绿灯; đèn đang đỏ: 红灯。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "红 chỉ có một cách đọc; nghĩa chính là màu đỏ.",
+          "literalTranslation": "Không dịch 脸红 thành bệnh; đó là mặt đỏ lên theo cảm xúc.",
+          "confusables": "Đã làm rõ cụm 红绿灯."
+        },
+        "pronunciation": {
+          "text": "红 đọc thanh hai, giọng đi lên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我喜欢这朵____花。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Mặt cô ấy đỏ lên."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我喜欢这朵红花。"
+            ],
+            "explanation": "Hoa đỏ dùng 红。"
+          },
+          "q2": {
+            "accepted": [
+              "她的脸红了。"
+            ],
+            "explanation": "Mặt đỏ lên dùng 脸红。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi mua một chiếc áo đỏ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói đèn đỏ rồi, dừng lại."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 一件红衣服 để nói một chiếc áo đỏ.",
+            "frame": "我 + 买了 + 一件红衣服。",
+            "model": "我买了一件红衣服。",
+            "vi": "Tôi mua một chiếc áo đỏ.",
+            "criteria": [
+              "Có 红.",
+              "Áo màu đỏ dùng 红。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 红灯了 để báo đèn đỏ.",
+            "frame": "红灯 + 了 + 停下来。",
+            "model": "红灯了，停下来。",
+            "vi": "Đèn đỏ rồi, dừng lại.",
+            "criteria": [
+              "Có 红.",
+              "Đèn đỏ là 红灯。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-a7f71ef3a3d0",
+      "hanzi": "绿",
+      "wordEdits": {
+        "meaning": "màu xanh lá",
+        "intro": [
+          {
+            "pinyin": "lǜ",
+            "meaning": "màu xanh lá"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-063 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 642,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E7%BB%BF",
+          "https://en.wiktionary.org/wiki/绿"
+        ],
+        "introduction": {
+          "scope": "Học 绿 là màu xanh lá cây — màu của lá, cỏ và đèn xanh giao thông."
+        },
+        "meaning": {
+          "scene": "Lá cây xanh sau mưa; đèn chuyển xanh, xe bắt đầu đi.",
+          "explanation": "绿 là màu xanh lá: 绿 + danh từ （绿叶 lá xanh, 绿灯 đèn xanh). Khác với 蓝 (xanh dương, bài 644): tiếng Trung tách rõ xanh lá và xanh biển.",
+          "boundary": "Tiếng Việt gộp cả hai là “xanh” nên đây là điểm phải để ý nhất: lá cây là 绿， bầu trời và biển là 蓝。",
+          "conditions": [
+            "绿 + danh từ: vật xanh lá.",
+            "绿灯: đèn xanh đi được."
+          ],
+          "takeaway": "Xanh của lá và cỏ, dùng 绿."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "绿 + danh từ",
+            "position": "绿 đứng trước vật màu xanh lá.",
+            "required": "Vật hay gặp: lá, cỏ, cây, áo.",
+            "omission": "Màu này gắn với thiên nhiên xanh tươi.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "绿 + 灯",
+            "position": "绿灯 là đèn xanh giao thông.",
+            "required": "Đi đôi với 红灯 ở bài trước.",
+            "omission": "Xuất hiện trong mọi câu chuyện đi đường.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "树叶是绿的。",
+            "vi": "Lá cây màu xanh lá.",
+            "analysis": "绿的: màu xanh lá.",
+            "practiceAllowed": true,
+            "pinyin": "Shùyè shì lǜ de."
+          },
+          {
+            "id": "e2",
+            "zh": "绿灯了，可以走了。",
+            "vi": "Đèn xanh rồi, đi được.",
+            "analysis": "绿灯: tín hiệu cho đi.",
+            "practiceAllowed": true,
+            "pinyin": "Lǜdēng le kěyǐ zǒu le."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "绿 và 蓝: xanh lá hay xanh dương",
+            "scene": "Phân biệt hai màu “xanh” mà tiếng Việt gộp làm một.",
+            "possibleConfusion": "Người Việt nói “xanh” cho cả lá và trời nên dễ chọn một từ cho cả hai.",
+            "difference": "绿 là xanh lá cây, màu của thực vật. 蓝 là xanh dương, màu của trời và biển. Hai màu này tiếng Trung luôn tách riêng.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "草是绿的。",
+                "vi": "Cỏ màu xanh lá.",
+                "comment": "Thực vật: 绿。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "天是蓝的。",
+                "vi": "Trời màu xanh dương.",
+                "comment": "Bầu trời: 蓝。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói lá cây bằng 蓝 sẽ bị hiểu thành một màu xanh kỳ lạ không có trong tự nhiên."
+            },
+            "boundary": "Nhìn vật trước: thuộc cây cỏ thì 绿， thuộc trời biển thì 蓝。",
+            "tip": "Lá, cỏ: 绿; trời, biển: 蓝。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "绿 chỉ có một cách đọc trong bài; nghĩa chính là xanh lá.",
+          "literalTranslation": "Không dịch 绿灯 thành “đèn lục” — đó là đèn xanh.",
+          "confusables": "Đã đối chiếu 绿 với 蓝 (bài 644)."
+        },
+        "pronunciation": {
+          "text": "绿 đọc thanh bốn, dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 春天，树都____了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi thích màu xanh lá."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "春天，树都绿了。"
+            ],
+            "explanation": "Cây xanh lá dùng 绿。"
+          },
+          "q2": {
+            "accepted": [
+              "我喜欢绿色。",
+              "我喜欢绿颜色。"
+            ],
+            "explanation": "Màu xanh lá là 绿色。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói cô ấy mặc áo xanh lá."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói đèn xanh rồi, chúng ta đi thôi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 绿衣服 để nói áo xanh lá.",
+            "frame": "她 + 穿 + 绿衣服。",
+            "model": "她穿绿衣服。",
+            "vi": "Cô ấy mặc áo xanh lá.",
+            "criteria": [
+              "Có 绿.",
+              "Áo xanh lá dùng 绿。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 绿灯了 để báo đèn xanh.",
+            "frame": "绿灯 + 了 + 我们走吧。",
+            "model": "绿灯了，我们走吧。",
+            "vi": "Đèn xanh rồi, chúng ta đi thôi.",
+            "criteria": [
+              "Có 绿.",
+              "Đèn xanh là 绿灯。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    }
+  ]
+}
