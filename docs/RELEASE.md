@@ -1,3 +1,10 @@
+# Giai đoạn C batch-054 — ordinal 548–552 — đã phát hành
+
+- PR #22, merge 7cf871e4ff4fc7b962d1f4bae03d307690e9c032; nội dung 画、眼、脚、脸、阴. Hoàn thành 552/2224, còn 1672; năm bài mới: một dễ và bốn trung bình; không sửa bài cũ. Nhánh sao lưu backup/phasec-054-20261028.
+- process-batch verify, verify-v2, quality audit self-test, audit 5 bài (0 cảnh báo), DOM và kiểm thử hồi quy 113 khẳng định đạt; tổng cảnh báo 739. Lỗi kiểm thử DOM ban đầu do giả định nút nghe ở bước Ghép câu; đã sửa kiểm thử và thêm 6 khẳng định hồi quy về readingBlocks.
+- Pages run 40619958421 hoàn tất thành công đúng merge commit. Tệp live 6302274 byte, SHA-256 52325969e527d9c207f795435688e740dcbfa2f7a4bc3a13c4257cfb016cb786 khớp bản đã kiểm; trình duyệt mở được bài 画. Cache đã đổi thành batch-054.
+- Chưa kiểm tra mobile tại các mốc 360/390/430/1280 px, TTS Android thật hoặc phản biện giáo viên độc lập. Tiếp theo ordinal 553 事情.
+
 # Giai đoạn B đợt B-011 — chuẩn hóa 考 (ordinal 121)
 
 - PR #20 hợp nhất nội dung tại 55cefb3d8f832e63e1ab44e6640587a2f90b3fef; PR #21 sửa cache tại f297ef5a7bca98e3d51fea20851bab8143d21b27. Nhánh biên soạn gồm 23f1ca2 (dữ liệu), 5234674 (checkpoint) và a4486ca (cache). Sao lưu: backup/321-b011-20261028.
