@@ -2765,6 +2765,30 @@
         "testDom": "PASS",
         "regressionDePilot": "107 assertions PASS"
       }
+    },
+    {
+      "batch": "B-011",
+      "id": "hz-h1-3a9a7012652b",
+      "hanzi": "考",
+      "cohortOrdinal": 121,
+      "difficulty": "trung bình",
+      "difficultyReason": "考 có thể nói người học thi môn hoặc người dạy kiểm tra người học; cần phân biệt với 试 dùng riêng.",
+      "problemsFound": [
+        "Phân tích ví dụ gọi 考汉语 là khung 考试; giải thích và bẫy lặp, chung chung.",
+        "Hai phần tự dùng lặp ví dụ; đề và câu mẫu chưa khớp."
+      ],
+      "changes": "Viết lại giải thích, hai khối ví dụ và khung câu; giữ hai ví dụ và đối chiếu 考/试, thêm Pinyin, sửa bài luyện và hai tình huống tự dùng. Cập nhật digest; không tăng completedCount.",
+      "status": "standardized",
+      "tests": {
+        "processBatchVerify": "PASS",
+        "verifyV2": "PASS",
+        "qualityAuditSelfTest": "PASS",
+        "qualityAuditTarget": "0 warnings",
+        "qualityWarningsTotal": 739,
+        "testDom": "PASS",
+        "regressionDePilot": "107 assertions PASS",
+        "visual": "Chưa xác minh: trình duyệt không kết nối được localhost; chưa thử Android thật."
+      }
     }
   ],
   "note": "Theo dõi nâng cấp bài đã hoàn thành lên chuẩn V3 (Hazi-Viet V3). Mỗi mục ghi ID, độ khó, vấn đề, thay đổi và trạng thái kiểm thử. Nâng cấp bài cũ không tăng completedCount của tiến độ bổ sung. Lịch sử rà soát cũ vẫn nằm ở tools/vocabulary/review-checkpoint.json và không bị ghi đè.",
@@ -2777,7 +2801,7 @@
     "pilotId": "hz-h2-8ac3a59c0ef6",
     "pilotApproved": true,
     "approvedBy": "Bui, prompt chuẩn hóa toàn bộ 2026-10-26 (mẫu 3-2-1 đã phê duyệt, áp dụng từ ordinal 1, không cần duyệt lại mẫu)",
-    "standardizedCount": 121,
-    "nextStep": "Giai đoạn B đợt B-011: ordinal 121 trở đi; ưu tiên bài trung bình/khó V2 chưa đạt chuẩn 3-2-1."
+    "standardizedCount": 122,
+    "nextStep": "Giai đoạn B đợt B-011: tiếp tục ordinal 122 trở đi."
   }
 }
