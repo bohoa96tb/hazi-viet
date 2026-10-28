@@ -1,0 +1,1823 @@
+{
+  "id": "batch-071",
+  "authorship": "10 mục baseline 713–722; tự biên soạn, đối chiếu MDBG và Wiktionary, tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Trung bình 9, khó 1 （只 hai cách đọc zhǐ/zhī, dùng readingBlocks); 像 刚 咱 够 它 才 一定 主要 只能 đều trung bình.",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
+  "entries": [
+    {
+      "id": "hz-h2-77d613b2cfcd",
+      "hanzi": "像",
+      "wordEdits": {
+        "meaning": "giống",
+        "intro": [
+          {
+            "pinyin": "xiàng",
+            "meaning": "giống"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-071 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 713,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%83%8F",
+          "https://en.wiktionary.org/wiki/像"
+        ],
+        "introduction": {
+          "scope": "Học 像 là giống — một người, một vật trông giống một người, một vật khác."
+        },
+        "meaning": {
+          "scene": "Con giống bố như đúc; bức tranh vẽ giống người thật đến bất ngờ.",
+          "explanation": "像 là động từ giống: A + 像 + B (A giống B), 很像 (rất giống), 不像 (không giống). 像 nói về vẻ ngoài, cách cư xử trông như nhau — chưa chắc là cùng một thứ.",
+          "boundary": "Giống 像 là trông như; bằng nhau thật thì dùng 一样 — hai từ hay đi cùng nhau: 像…一样 (giống… như) là khuôn tả ví von rất hay dùng.",
+          "conditions": [
+            "Chủ thể + 像 + đối tượng so sánh.",
+            "像 + 一样 khi ví von đầy đủ."
+          ],
+          "takeaway": "Trông như một thứ khác, dùng 像."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "像 + đối tượng",
+            "position": "像 đứng giữa hai phía được so sánh.",
+            "required": "Đối tượng là người, vật được lấy làm chuẩn.",
+            "omission": "Hay với 很、不 tăng giảm mức giống.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他很像他爸爸。",
+            "vi": "Anh ấy rất giống bố anh ấy.",
+            "analysis": "像爸爸: chuẩn so sánh là người thân.",
+            "practiceAllowed": true,
+            "pinyin": "Tā hěn xiàng tā bàba."
+          },
+          {
+            "id": "e2",
+            "zh": "这张画画得像真的一样。",
+            "vi": "Bức tranh này vẽ giống như thật.",
+            "analysis": "像真的一样: khuôn ví von đầy đủ.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè zhāng huà huà de xiàng zhēn de yíyàng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "像 và 一样: giống hay như nhau",
+            "scene": "Phân biệt “trông giống” với “bằng nhau thật”.",
+            "possibleConfusion": "Hai từ thường đi cùng nhau nên người học dễ tưởng chúng là một.",
+            "difference": "像 là GIỐNG VẺ NGOÀI — giống mà vẫn là hai thứ khác nhau （像 thật mà không phải thật). 一样 là NHƯ NHAU — cùng mức, cùng kiểu, so sánh bằng. Khuôn 像…一样 ghép cả hai: giống B như thể là B.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她像她妈妈。",
+                "vi": "Cô ấy giống mẹ cô ấy.",
+                "comment": "Vẻ ngoài giống: 像。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "她和妈妈一样高。",
+                "vi": "Cô ấy cao bằng mẹ.",
+                "comment": "Mức bằng nhau: 一样高。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói hai mẹ con cao như nhau bằng 像 sẽ thành nói vẻ ngoài giống nhau."
+            },
+            "boundary": "Đang tả diện mạo, phong cách: 像. Đang so mức độ bằng nhau: 一样。",
+            "tip": "Vẻ giống: 像; mức bằng: 一样。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "像 chỉ có một cách đọc; nghĩa chính là giống.",
+          "literalTranslation": "像…一样 dịch là giống… như.",
+          "confusables": "Đã đối chiếu 像 với 一样."
+        },
+        "pronunciation": {
+          "text": "像 đọc thanh bốn, dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这只猫____一只小老虎。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Anh ấy không giống anh trai."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这只猫像一只小老虎。"
+            ],
+            "explanation": "Giống hổ con dùng 像。"
+          },
+          "q2": {
+            "accepted": [
+              "他不像他哥哥。"
+            ],
+            "explanation": "Không giống dùng 不像。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói em bé giống mẹ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hai chiếc túi này trông rất giống nhau."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 宝宝像妈妈 để nói bé giống mẹ.",
+            "frame": "宝宝 + 很像 + 妈妈。",
+            "model": "宝宝很像妈妈。",
+            "vi": "Em bé giống mẹ.",
+            "criteria": [
+              "Có 像.",
+              "Người giống người dùng 像。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这两个包看起来很像 để nói hai túi giống.",
+            "frame": "这两个包 + 看起来 + 很像。",
+            "model": "这两个包看起来很像。",
+            "vi": "Hai chiếc túi này trông rất giống nhau.",
+            "criteria": [
+              "Có 像.",
+              "Trông có vẻ dùng 看起来。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-84252b0487b6",
+      "hanzi": "刚",
+      "wordEdits": {
+        "meaning": "vừa mới",
+        "intro": [
+          {
+            "pinyin": "gāng",
+            "meaning": "vừa mới"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-071 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 714,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%88%9A",
+          "https://en.wiktionary.org/wiki/刚"
+        ],
+        "introduction": {
+          "scope": "Học 刚 là vừa mới — một việc chỉ vừa xảy ra cách đây rất ngắn."
+        },
+        "meaning": {
+          "scene": "Bạn vừa đến nơi thì chuông reo; nồi cơm vừa nấu xong, còn nóng.",
+          "explanation": "刚 là trạng từ vừa mới: 刚 + động từ （刚到 vừa đến, 刚吃 xong vừa ăn xong, 刚开始 vừa bắt đầu). 刚 nhấn việc MỚI xảy ra, khoảng cách tới hiện tại rất ngắn — ngắn hơn “đã” nói chung.",
+          "boundary": "刚 không đi với việc của hôm qua xa xôi; nó chỉ cho việc gần như vừa chạm vào hiện tại.",
+          "conditions": [
+            "刚 + động từ: việc vừa xảy ra.",
+            "刚 đứng trước động từ, sau chủ ngữ."
+          ],
+          "takeaway": "Việc vừa mới xảy ra, dùng 刚."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "刚 + động từ",
+            "position": "刚 đứng trước động từ chính.",
+            "required": "Việc hay gặp: đến, đi, ăn, ngủ dậy, bắt đầu.",
+            "omission": "Kèm 了 hoặc không đều được tùy câu.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我刚到学校。",
+            "vi": "Tôi vừa đến trường.",
+            "analysis": "刚到: đến cách đây rất ngắn.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ gāng dào xuéxiào."
+          },
+          {
+            "id": "e2",
+            "zh": "饭刚做好。",
+            "vi": "Cơm vừa nấu xong.",
+            "analysis": "刚做好: việc vừa hoàn thành.",
+            "practiceAllowed": true,
+            "pinyin": "Fàn gāng zuò hǎo."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "刚 và 刚才: vừa mới hay vừa nãy",
+            "scene": "Phân biệt trạng từ đứng trước động từ với danh từ thời gian.",
+            "possibleConfusion": "Hai từ đọc gần giống, nghĩa gần nhau nên đây là cặp lẫn kinh điển.",
+            "difference": "刚 là trạng từ “vừa mới” — bắt buộc đứng trước một ĐỘNG TỪ （刚来）. 刚才 là danh từ “vừa nãy” — một khoảng thời gian, đứng đầu câu hoặc sau chủ ngữ, phía sau là cả một việc （刚才你在做什么 vừa nãy bạn làm gì).",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他刚走。",
+                "vi": "Anh ấy vừa đi.",
+                "comment": "Trước động từ: 刚。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "刚才他还在这里。",
+                "vi": "Vừa nãy anh ấy còn ở đây.",
+                "comment": "Khoảng thời gian vừa qua: 刚才。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đặt 刚才 trước động từ ngắn như một trạng từ sẽ sai khuôn của nó."
+            },
+            "boundary": "Sau nó là một động từ trần: 刚. Sau nó là cả câu chuyện vừa qua: 刚才。",
+            "tip": "Trước động từ: 刚; khoảng vừa nãy: 刚才。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "刚 chỉ có một cách đọc; nghĩa chính là vừa mới.",
+          "literalTranslation": "刚到 dịch là vừa đến.",
+          "confusables": "Đã đối chiếu 刚 với 刚才."
+        },
+        "pronunciation": {
+          "text": "刚 đọc thanh một, ngang. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我____起床，还没吃早饭。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Cô ấy vừa ra ngoài."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我刚起床，还没吃早饭。"
+            ],
+            "explanation": "Vừa dậy dùng 刚。"
+          },
+          "q2": {
+            "accepted": [
+              "她刚出去。"
+            ],
+            "explanation": "Vừa ra ngoài dùng 刚。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi vừa học xong bài này."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tàu vừa đến ga."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 刚学完 để nói vừa học xong.",
+            "frame": "我 + 刚学完 + 这课。",
+            "model": "我刚学完这课。",
+            "vi": "Tôi vừa học xong bài này.",
+            "criteria": [
+              "Có 刚.",
+              "Vừa xong việc dùng 刚。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 火车刚到站 để nói tàu vừa đến.",
+            "frame": "火车 + 刚 + 到站。",
+            "model": "火车刚到站。",
+            "vi": "Tàu vừa đến ga.",
+            "criteria": [
+              "Có 刚.",
+              "Vừa đến nơi dùng 刚到。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-77417a7931d9",
+      "hanzi": "只",
+      "wordEdits": {
+        "meaning": "chỉ; (lượng từ) con, chiếc",
+        "intro": [
+          {
+            "pinyin": "zhǐ",
+            "meaning": "chỉ"
+          },
+          {
+            "pinyin": "zhī",
+            "meaning": "lượng từ: con, chiếc"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-071 · khó · hai cách đọc, có readingBlocks"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 715,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%8F%AA",
+          "https://en.wiktionary.org/wiki/只"
+        ],
+        "introduction": {
+          "scope": "Học 只 qua hai cách đọc: “chỉ” giới hạn một việc, và lượng từ đếm con vật, đồ vật đơn chiếc."
+        },
+        "meaning": {
+          "scene": "Bạn chỉ mang theo một quyển sách; trên cây có một con chim đậu.",
+          "explanation": "只 có hai cách đọc, hai việc khác hẳn nhau. Đọc kiểu thứ nhất: “chỉ” — trạng từ giới hạn （只吃一点 chỉ ăn một ít, 只有 chỉ có). Đọc kiểu thứ hai: lượng từ đếm con vật và đồ vật đi đơn chiếc （一只猫 một con mèo, 一只手 một bàn tay). Nghe thanh điệu là phân biệt được: thanh ba là “chỉ”, thanh một là lượng từ.",
+          "boundary": "Lượng từ này không dùng cho người và sách: người dùng 个/位， sách dùng 本 — chọn sai lượng từ là lỗi hay gặp nhất của từ này.",
+          "conditions": [
+            "Trạng từ “chỉ” đứng trước động từ, số lượng.",
+            "Số + lượng từ này + con vật, đồ đơn."
+          ],
+          "takeaway": "Giới hạn thì “chỉ”; đếm con vật thì lượng từ."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "只 là chỉ",
+            "position": "只 đọc thanh ba, đứng trước động từ hoặc số lượng.",
+            "required": "Ngữ cảnh giới hạn, không hơn.",
+            "omission": "Đây là việc thứ nhất.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "只是 lượng từ",
+            "position": "只 đọc thanh một, đứng giữa số và danh từ.",
+            "required": "Danh từ hợp: con vật, tay, chân, giày, tai.",
+            "omission": "Đây là việc thứ hai.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我只带了一本书。",
+            "vi": "Tôi chỉ mang một quyển sách.",
+            "analysis": "Chỉ mang: đọc thanh ba, giới hạn số lượng.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zhǐ dài le yì běn shū.",
+            "introIndex": 0
+          },
+          {
+            "id": "e2",
+            "zh": "树上有一只鸟。",
+            "vi": "Trên cây có một con chim.",
+            "analysis": "Một con: đọc thanh một, lượng từ.",
+            "practiceAllowed": true,
+            "pinyin": "Shù shang yǒu yì zhī niǎo.",
+            "introIndex": 1
+          },
+          {
+            "id": "e3",
+            "zh": "他只会说中文。",
+            "vi": "Anh ấy chỉ biết nói tiếng Trung.",
+            "analysis": "Chỉ biết: lại là đọc thanh ba.",
+            "practiceAllowed": true,
+            "pinyin": "Tā zhǐ huì shuō Zhōngwén.",
+            "introIndex": 0
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "Hai cách đọc của 只： chỉ và lượng từ",
+            "scene": "Sửa lỗi dùng lượng từ này cho mọi danh từ.",
+            "possibleConfusion": "Vì cùng một mặt chữ nên người học dễ bê lượng từ đếm mèo sang đếm sách, đếm người.",
+            "difference": "Lượng từ “một con/chiếc” chỉ đếm: con vật （猫、狗、鸟）, bộ phận đôi （手、脚、眼睛、耳朵）, đồ vật đơn chiếc （鞋、袜子）. Sách đếm bằng 本， người đếm bằng 个 — dùng sang các nhóm đó là sai lượng từ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我有一只猫。",
+                "vi": "Tôi có một con mèo.",
+                "comment": "Con vật: dùng lượng từ này.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我有一只书。",
+                "vi": "(Đếm sách bằng lượng từ của con vật — sai)",
+                "comment": "Sách phải đếm bằng 本。",
+                "judgment": "wrong-grammar",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Câu đúng đếm sách bằng lượng từ riêng của sách."
+            },
+            "boundary": "Trước khi đếm, nhìn danh từ thuộc nhóm nào: con vật và đồ đơn chiếc mới gọi lượng từ này.",
+            "tip": "Con vật, đồ đơn: lượng từ này; sách: 本； người: 个。",
+            "corrections": [
+              {
+                "caseId": "c2",
+                "zh": "我有一本书。",
+                "vi": "Tôi có một quyển sách.",
+                "reason": "Sách đếm bằng 本， không dùng lượng từ của con vật."
+              }
+            ]
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "只 có hai cách đọc chính thức trong chương trình: “chỉ” (thanh ba) và lượng từ (thanh một); bài dạy cả hai bằng readingBlocks.",
+          "literalTranslation": "一只猫 dịch là một con mèo; 只吃 dịch là chỉ ăn.",
+          "confusables": "Đã chốt nhóm danh từ hợp với lượng từ này và đối chiếu 本/个。"
+        },
+        "pronunciation": {
+          "text": "只 đọc thanh ba khi nghĩa là “chỉ”, đọc thanh một khi làm lượng từ đếm — nghe số thanh là biết vai trò. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我____想喝水，不想吃饭。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Nhà tôi có hai con chó."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我只想喝水，不想吃饭。"
+            ],
+            "explanation": "Chỉ muốn dùng cách đọc “chỉ”."
+          },
+          "q2": {
+            "accepted": [
+              "我家有两只狗。"
+            ],
+            "explanation": "Con chó đếm bằng lượng từ này。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi chỉ có mười tệ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói anh ấy có một chiếc giày bị mất (một chiếc trong đôi)."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我只有十块钱 để nói chỉ có mười tệ.",
+            "frame": "我 + 只有 + 十块钱。",
+            "model": "我只有十块钱。",
+            "vi": "Tôi chỉ có mười tệ.",
+            "criteria": [
+              "Có 只.",
+              "Chỉ có dùng 只有。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 一只鞋 để đếm một chiếc giày.",
+            "frame": "他 + 有一只鞋 + 不见了。",
+            "model": "他有一只鞋不见了。",
+            "vi": "Anh ấy có một chiếc giày bị mất.",
+            "criteria": [
+              "Có 只.",
+              "Chiếc đơn trong đôi dùng lượng từ này."
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        },
+        "readingBlocks": [
+          {
+            "introIndex": 0,
+            "exampleId": "e1",
+            "heading": "Cách đọc thứ nhất: “chỉ” — giới hạn"
+          },
+          {
+            "introIndex": 1,
+            "exampleId": "e2",
+            "heading": "Cách đọc thứ hai: lượng từ đếm con vật, đồ đơn"
+          },
+          {
+            "introIndex": 0,
+            "exampleId": "e3",
+            "heading": "Quay lại “chỉ”: giới hạn một kỹ năng"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hz-h2-8d0ecba36553",
+      "hanzi": "咱",
+      "wordEdits": {
+        "meaning": "chúng ta (thân mật)",
+        "intro": [
+          {
+            "pinyin": "zán",
+            "meaning": "chúng ta"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-071 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 716,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%92%B1",
+          "https://en.wiktionary.org/wiki/咱"
+        ],
+        "introduction": {
+          "scope": "Học 咱 là “chúng ta, chúng mình” nói thân mật — hay gặp nhất trong cụm 咱们."
+        },
+        "meaning": {
+          "scene": "Bạn rủ nhóm bạn thân: chúng mình đi ăn đi; người bán hàng thân thiện gọi khách là chúng ta.",
+          "explanation": "咱 là đại từ “chúng ta” mang sắc thái thân mật, dân dã （咱 là một mình nó ít dùng; dạng sống là 咱们 = chúng ta, chúng mình — luôn GỒM cả người nghe). 咱们 hay trong rủ rê, bàn việc chung của nhóm nhỏ.",
+          "boundary": "咱/咱们 không dùng trong văn bản trang trọng, thư từ công việc — ở đó chỉ dùng 我们。",
+          "conditions": [
+            "咱们 + việc chung: rủ rê nhóm nhỏ.",
+            "咱 + 的 khi nói của chúng mình."
+          ],
+          "takeaway": "Nhóm thân mật gồm cả người nghe, dùng 咱们."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "咱们 rủ rê",
+            "position": "咱们 đứng đầu câu rủ, bàn việc chung.",
+            "required": "Việc hay gặp: đi, ăn, làm, xem.",
+            "omission": "Sắc thái thân mật, ngang hàng.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "咱们去吃饭吧。",
+            "vi": "Chúng mình đi ăn đi.",
+            "analysis": "咱们: nhóm gồm cả hai phía.",
+            "practiceAllowed": true,
+            "pinyin": "Zánmen qù chī fàn ba."
+          },
+          {
+            "id": "e2",
+            "zh": "这是咱们的教室。",
+            "vi": "Đây là lớp học của chúng mình.",
+            "analysis": "咱们的: sở hữu thân mật.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè shì zánmen de jiàoshì."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "咱 và 我们: chúng mình hay chúng ta",
+            "scene": "Phân biệt hai đại từ cùng nghĩa khác sắc thái.",
+            "possibleConfusion": "Hai từ chỉ cùng một nhóm người nên người học dễ tưởng chúng thay nhau tự do.",
+            "difference": "咱们 luôn bao gồm người nghe và mang sắc thái thân mật, miệng nói hằng ngày của nhiều vùng phía bắc. 我们 trang trọng, dùng được mọi nơi, và có thể KHÔNG gồm người nghe (chúng tôi). Thư từ, phát biểu, văn bản: chỉ 我们。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "咱们走吧。",
+                "vi": "Chúng mình đi thôi.",
+                "comment": "Rủ rê thân mật: 咱们。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们公司明天休息。",
+                "vi": "Công ty chúng tôi mai nghỉ.",
+                "comment": "Thông báo, không cần gồm người nghe: 我们。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "咱们 ở câu hai sẽ kéo người nghe vào làm người cùng công ty một cách vô lý."
+            },
+            "boundary": "Nói miệng với nhóm bạn, gồm người nghe: 咱们. Viết, thông báo, trang trọng: 我们。",
+            "tip": "Thân mật gồm người nghe: 咱们; trang trọng: 我们。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "咱 là từ một âm tiết; dạng sống chính là 咱们 hai âm tiết.",
+          "literalTranslation": "咱们 dịch là chúng mình, chúng ta.",
+          "confusables": "Đã đối chiếu 咱们 với 我们."
+        },
+        "pronunciation": {
+          "text": "咱 đọc thanh hai, giọng đi lên; 咱们 chữ sau đọc nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: ____明天一起去吧。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Chúng mình là bạn tốt."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "咱们明天一起去吧。"
+            ],
+            "explanation": "Rủ nhóm thân mật dùng 咱们。"
+          },
+          "q2": {
+            "accepted": [
+              "咱们是好朋友。"
+            ],
+            "explanation": "Chúng mình thân mật dùng 咱们。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói cả nhóm mình cùng học tiếng Trung."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói nhóm mình đi xem phim tối nay đi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 咱们一起学中文 để nói cả nhóm cùng học.",
+            "frame": "咱们 + 一起 + 学中文。",
+            "model": "咱们一起学中文。",
+            "vi": "Cả nhóm mình cùng học tiếng Trung.",
+            "criteria": [
+              "Có 咱.",
+              "Nhóm thân mật dùng 咱们。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 咱们晚上去看电影吧 để rủ xem phim.",
+            "frame": "咱们 + 晚上 + 去看电影吧。",
+            "model": "咱们晚上去看电影吧。",
+            "vi": "Nhóm mình đi xem phim tối nay đi.",
+            "criteria": [
+              "Có 咱.",
+              "Rủ rê kết câu bằng 吧。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-070a0bd7b975",
+      "hanzi": "够",
+      "wordEdits": {
+        "meaning": "đủ",
+        "intro": [
+          {
+            "pinyin": "gòu",
+            "meaning": "đủ"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-071 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 717,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%A4%9F",
+          "https://en.wiktionary.org/wiki/够"
+        ],
+        "introduction": {
+          "scope": "Học 够 là đủ — vừa đạt mức cần: đủ tiền, đủ dùng, và câu “够了” là đủ rồi."
+        },
+        "meaning": {
+          "scene": "Bạn mua vé, tiền vừa đủ; một đĩa cơm là đủ no cho một người.",
+          "explanation": "够 là động từ/tính từ đủ: 够 + dùng/ăn/mua （够用 đủ dùng, 够吃 đủ ăn), 钱够了 (tiền đủ rồi), 不够 (không đủ). 够 đo mức đạt nhu cầu — không nói nhiều hay ít tuyệt đối, chỉ so với mức cần.",
+          "boundary": "Chữ 够了 đứng một mình là câu chốt “đủ rồi, thôi” — khi ai đó rót thêm, thêm việc, bạn nói 够了 là dừng.",
+          "conditions": [
+            "够 + động từ: đủ để làm việc.",
+            "够了/不够: chốt mức đủ, thiếu."
+          ],
+          "takeaway": "Đạt mức cần là 够； vượt hay thiếu thì khác."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "够 + việc",
+            "position": "够 đứng trước động từ việc cần làm.",
+            "required": "Việc hay gặp: dùng, ăn, mua, ở.",
+            "omission": "Điều kiện là nguồn lực phía trước đủ mức.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这些钱够买票了。",
+            "vi": "Số tiền này đủ mua vé rồi.",
+            "analysis": "够买: đủ mức cho một việc.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè xiē qián gòu mǎi piào le."
+          },
+          {
+            "id": "e2",
+            "zh": "够了，不要了。",
+            "vi": "Đủ rồi, không cần nữa.",
+            "analysis": "够了: câu chốt dừng lại.",
+            "practiceAllowed": true,
+            "pinyin": "Gòu le bú yào le."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "够 và 多: đủ hay nhiều",
+            "scene": "Phân biệt “đạt mức cần” với “số lượng lớn”.",
+            "possibleConfusion": "Hai trạng thái cùng tích cực nên khi kể chuyện ăn uống, mua sắm dễ bị lẫn.",
+            "difference": "够 là vừa đạt mức CẦN — thêm nữa cũng không cần. 多 là NHIỀU so với thường — có thể đã vượt mức cần. Ăn đủ no là 吃够了； ăn quá nhiều là 吃多了 — hai cảm giác khác hẳn nhau.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我吃够了。",
+                "vi": "Tôi ăn đủ rồi.",
+                "comment": "Vừa đạt mức no: 够。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我吃多了。",
+                "vi": "Tôi ăn nhiều quá.",
+                "comment": "Vượt mức, hơi khó chịu: 多。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói ăn đủ rồi khi đang khó chịu vì ăn quá nhiều là kể sai cảm giác."
+            },
+            "boundary": "Cảm giác vừa ý, dừng được: 够. Cảm giác thừa, vượt: 多。\n",
+            "tip": "Đạt mức cần: 够; thừa: 多。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "够 chỉ có một cách đọc; nghĩa chính là đủ.",
+          "literalTranslation": "够了 dịch là đủ rồi.",
+          "confusables": "Đã đối chiếu 够 với 多."
+        },
+        "pronunciation": {
+          "text": "够 đọc thanh bốn, dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 时间还____，慢慢来。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tiền không đủ."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "时间还够，慢慢来。"
+            ],
+            "explanation": "Thời gian đủ dùng 够。"
+          },
+          "q2": {
+            "accepted": [
+              "钱不够。"
+            ],
+            "explanation": "Không đủ dùng 不够。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói một mình tôi ăn một bát là đủ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói chỗ này đủ cho năm người ngồi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 一碗就够了 để nói một bát là đủ.",
+            "frame": "我一个人 + 吃一碗 + 就够了。",
+            "model": "我一个人吃一碗就够了。",
+            "vi": "Một mình tôi ăn một bát là đủ.",
+            "criteria": [
+              "Có 够.",
+              "Một bát là đủ dùng 就够了。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 够五个人坐 để nói đủ chỗ năm người.",
+            "frame": "这里 + 够 + 五个人坐。",
+            "model": "这里够五个人坐。",
+            "vi": "Chỗ này đủ cho năm người ngồi.",
+            "criteria": [
+              "Có 够.",
+              "Đủ cho số người dùng 够。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-754063711572",
+      "hanzi": "它",
+      "wordEdits": {
+        "meaning": "nó (vật, con vật)",
+        "intro": [
+          {
+            "pinyin": "tā",
+            "meaning": "nó"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-071 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 718,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%AE%83",
+          "https://en.wiktionary.org/wiki/它"
+        ],
+        "introduction": {
+          "scope": "Học 它 là “nó” — đại từ cho đồ vật và con vật, đọc giống hệt 他 (anh ấy) và 她 (cô ấy)."
+        },
+        "meaning": {
+          "scene": "Bạn nói về con mèo của mình: nó rất ngoan; cái điện thoại mới mua, bạn giữ nó cẩn thận.",
+          "explanation": "它 là đại từ “nó” cho VẬT và CON VẬT. Ba đại từ 他/她/它 đọc giống hệt nhau — nghe thì là một, viết thì khác: 他 cho nam, 她 cho nữ, 它 cho vật và con vật. Bài này là bài viết đúng chữ.",
+          "boundary": "Con vật cưng trong nhà vẫn dùng 它 — đừng vì quý nó mà viết 她， trừ khi kể chuyện cổ tích nhân hóa.",
+          "conditions": [
+            "它 thay cho vật, con vật đã nhắc.",
+            "它 đứng làm chủ ngữ hoặc tân ngữ."
+          ],
+          "takeaway": "Nghe là một âm; viết theo đối tượng: người nam, người nữ, vật."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "它 thay vật/vật nuôi",
+            "position": "它 đứng thay danh từ vật hoặc con vật.",
+            "required": "Con vật hay gặp: mèo, chó, cá.",
+            "omission": "Vật hay gặp: điện thoại, sách, xe.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这是我的猫，它很听话。",
+            "vi": "Đây là mèo của tôi, nó rất ngoan.",
+            "analysis": "它: thay con mèo.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè shì wǒ de māo tā hěn tīnghuà."
+          },
+          {
+            "id": "e2",
+            "zh": "我买了新手机，我很喜欢它。",
+            "vi": "Tôi mua điện thoại mới, tôi rất thích nó.",
+            "analysis": "它 cuối câu: tân ngữ là vật.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ mǎi le xīn shǒujī wǒ hěn xǐhuan tā."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "它 và 他: nó hay anh ấy",
+            "scene": "Sửa lỗi viết đại từ cho vật thành đại từ cho người.",
+            "possibleConfusion": "Ba đại từ đồng âm khiến người học viết theo thói quen chữ đã biết （他） cho mọi đối tượng.",
+            "difference": "他 là anh ấy, ông ấy — người NAM. 它 là nó — VẬT và CON VẬT. 她 là cô ấy — người NỮ. Khi viết, nhìn đối tượng được thay thế là ai, là gì, rồi mới chọn chữ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我的狗很可爱，我爱它。",
+                "vi": "Chó của tôi rất dễ thương, tôi yêu nó.",
+                "comment": "Con vật: 它。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我哥哥很高，我爱他。",
+                "vi": "Anh tôi rất cao, tôi yêu anh ấy.",
+                "comment": "Người nam: 他。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Viết chó bằng 他 sẽ biến con chó thành một người đàn ông trong mắt người đọc."
+            },
+            "boundary": "Đối tượng là vật, thú: 它. Đối tượng là người: 他 hoặc 她 theo giới.",
+            "tip": "Vật và thú: 它; người nam: 他; người nữ: 她。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "它 chỉ có một cách đọc, đồng âm với hai đại từ chỉ người.",
+          "literalTranslation": "它 dịch thẳng là nó.",
+          "confusables": "Đã đối chiếu 它 với 他 và 她."
+        },
+        "pronunciation": {
+          "text": "它 đọc thanh một, ngang — giống hệt hai đại từ chỉ người, chỉ khác mặt chữ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这本书很有意思，我喜欢____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Con cá này to, nó bơi rất nhanh."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这本书很有意思，我喜欢它。"
+            ],
+            "explanation": "Vật dùng 它。"
+          },
+          "q2": {
+            "accepted": [
+              "这条鱼很大，它游得很快。"
+            ],
+            "explanation": "Con cá dùng 它。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói chiếc xe đạp này cũ rồi, nó hay hỏng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói con chim của tôi, nó hót rất hay."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 它常常坏 để nói xe hay hỏng.",
+            "frame": "这辆自行车 + 旧了 + 它常常坏。",
+            "model": "这辆自行车旧了，它常常坏。",
+            "vi": "Chiếc xe đạp này cũ rồi, nó hay hỏng.",
+            "criteria": [
+              "Có 它.",
+              "Vật dùng 它 thay thế."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 它叫得很好听 để nói chim hót hay.",
+            "frame": "我的鸟 + 它 + 叫得很好听。",
+            "model": "我的鸟，它叫得很好听。",
+            "vi": "Con chim của tôi, nó hót rất hay.",
+            "criteria": [
+              "Có 它.",
+              "Con vật dùng 它。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-6a803247b15e",
+      "hanzi": "才",
+      "wordEdits": {
+        "meaning": "mãi mới; chỉ mới",
+        "intro": [
+          {
+            "pinyin": "cái",
+            "meaning": "mãi mới"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-071 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 719,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%89%8D",
+          "https://en.wiktionary.org/wiki/才"
+        ],
+        "introduction": {
+          "scope": "Học 才 là “mãi mới” — việc xảy ra muộn hơn mong đợi, hoặc số lượng ít hơn tưởng."
+        },
+        "meaning": {
+          "scene": "Tám giờ anh ấy mãi mới đến, mọi người chờ lâu; em bé mới hai tuổi mà nói rất rõ.",
+          "explanation": "才 là trạng từ nhấn SỰ MUỘN hoặc SỰ ÍT so với mong đợi: 时间 + 才 + việc （八点才来 tám giờ mãi mới đến — đến muộn), số ít + 才 （才两岁 mới hai tuổi — ít hơn tưởng). 才 luôn mang cảm giác “lẽ ra phải sớm hơn, nhiều hơn”.",
+          "boundary": "Ngược với 才 là 就 (sớm hơn mong đợi) — cặp này chốt trong bẫy của bài.",
+          "conditions": [
+            "Giờ/số + 才 + động từ: muộn hoặc ít hơn mong đợi.",
+            "才 đứng trước động từ chính."
+          ],
+          "takeaway": "Cảm giác muộn, thiếu so với mong đợi: 才."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "才 chỉ sự muộn",
+            "position": "才 đứng trước động từ sau mốc thời gian.",
+            "required": "Mốc hay gặp: giờ giấc, tuổi, số lần.",
+            "omission": "Sắc thái: chờ lâu, ít hơn tưởng.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他八点才来。",
+            "vi": "Tám giờ anh ấy mãi mới đến.",
+            "analysis": "八点才: đến muộn so với hẹn.",
+            "practiceAllowed": true,
+            "pinyin": "Tā bā diǎn cái lái."
+          },
+          {
+            "id": "e2",
+            "zh": "这本书才十块钱。",
+            "vi": "Quyển sách này chỉ mười tệ thôi.",
+            "analysis": "才十块: rẻ, ít hơn tưởng.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè běn shū cái shí kuài qián."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "才 và 就: mãi mới hay đã ngay",
+            "scene": "Phân biệt hai trạng từ thời gian ngược nhau kinh điển.",
+            "possibleConfusion": "Hai từ cùng đứng trước động từ trong câu giờ giấc nên đây là cặp lẫn nổi tiếng nhất của nhóm này.",
+            "difference": "就 là SỚM hơn, NHANH hơn mong đợi （七点就来了 bảy giờ đã đến rồi — đến sớm). 才 là MUỘN hơn, CHẬM hơn mong đợi （八点才来 tám giờ mãi mới đến). Cùng một giờ giấc, đổi từ là đổi hẳn thái độ của người nói.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他七点就来了。",
+                "vi": "Bảy giờ anh ấy đã đến rồi.",
+                "comment": "Sớm hơn mong đợi: 就。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他九点才来。",
+                "vi": "Chín giờ anh ấy mãi mới đến.",
+                "comment": "Muộn hơn mong đợi: 才。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Kể một người đến muộn bằng 就 sẽ thành khen anh ta đến sớm."
+            },
+            "boundary": "Người nói thấy nhanh, sớm: 就. Người nói thấy lâu, muộn: 才。\n",
+            "tip": "Sớm: 就; muộn: 才。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "才 chỉ có một cách đọc; sắc thái chính là muộn hoặc ít hơn mong đợi.",
+          "literalTranslation": "八点才来 dịch là tám giờ mãi mới đến.",
+          "confusables": "Đã đối chiếu 才 với 就."
+        },
+        "pronunciation": {
+          "text": "才 đọc thanh hai, giọng đi lên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我们等了半天，他____到。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Mười giờ tôi mãi mới ngủ."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我们等了半天，他才到。"
+            ],
+            "explanation": "Mãi mới đến dùng 才。"
+          },
+          "q2": {
+            "accepted": [
+              "我十点才睡觉。"
+            ],
+            "explanation": "Mãi mới ngủ dùng 才。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói cô ấy mười tám tuổi mãi mới học lái xe."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói giá này rẻ, chỉ năm tệ thôi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 十八岁才学开车 để nói học muộn.",
+            "frame": "她 + 十八岁 + 才学开车。",
+            "model": "她十八岁才学开车。",
+            "vi": "Cô ấy mười tám tuổi mãi mới học lái xe.",
+            "criteria": [
+              "Có 才.",
+              "Học muộn hơn thường dùng 才。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 才五块钱 để nhấn giá rẻ ít.",
+            "frame": "这个 + 才 + 五块钱。",
+            "model": "这个才五块钱。",
+            "vi": "Cái này chỉ năm tệ thôi.",
+            "criteria": [
+              "Có 才.",
+              "Ít hơn tưởng dùng 才。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-e5957c0a36e4",
+      "hanzi": "一定",
+      "wordEdits": {
+        "meaning": "nhất định; chắc chắn",
+        "intro": [
+          {
+            "pinyin": "yídìng",
+            "meaning": "nhất định"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-071 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 720,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%B8%80%E5%AE%9A",
+          "https://en.wiktionary.org/wiki/一定"
+        ],
+        "introduction": {
+          "scope": "Học 一定 là nhất định, chắc chắn — khẳng định mạnh một việc sẽ xảy ra hoặc một lời hứa."
+        },
+        "meaning": {
+          "scene": "Bạn hứa nhất định sẽ đến đúng giờ; việc này chắc chắn không khó như bạn tưởng.",
+          "explanation": "一定 là trạng từ khẳng định mạnh: một là dự đoán chắc chắn （一定会 thành công chắc chắn sẽ thành), hai là quyết tâm, lời hứa （我一定来 tôi nhất định đến). Không chắc chắn thì không dùng 一定 — nó là mức mạnh nhất của sự chắc.",
+          "boundary": "Muốn nói “có thể, chắc là” nhẹ hơn thì dùng 可能/应该 — 一定 dành cho lúc thật sự chắc hoặc thật sự hứa.",
+          "conditions": [
+            "一定 + động từ: chắc chắn làm.",
+            "一定 + tính từ: chắc chắn là."
+          ],
+          "takeaway": "Khẳng định mạnh nhất, dùng 一定."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一定 khẳng định",
+            "position": "一定 đứng trước động từ hoặc tính từ.",
+            "required": "Ngữ cảnh hứa hẹn, dự đoán chắc.",
+            "omission": "Hay kèm 会 phía sau dự đoán.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我一定会来的。",
+            "vi": "Tôi nhất định sẽ đến.",
+            "analysis": "一定会来: lời hứa chắc chắn.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ yídìng huì lái de."
+          },
+          {
+            "id": "e2",
+            "zh": "他一定知道。",
+            "vi": "Chắc chắn anh ấy biết.",
+            "analysis": "一定 biết: dự đoán rất chắc.",
+            "practiceAllowed": true,
+            "pinyin": "Tā yídìng zhīdào."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "一定 và 可能: chắc chắn hay có thể",
+            "scene": "Phân biệt hai mức khẳng định của một dự đoán.",
+            "possibleConfusion": "Hai từ cùng đứng trước việc tương lai nên khi kể chuyện chưa xảy ra dễ dùng quá tay.",
+            "difference": "一定 là chắc chắn gần như tuyệt đối — nói câu này là đặt uy tín vào đó. 可能 là có thể — chỉ là một khả năng trong nhiều khả năng. Chưa có căn cứ chắc thì chỉ dùng 可能； hứa hẹn và tin chắc mới dùng 一定。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "明天一定晴天。",
+                "vi": "Mai chắc chắn trời nắng.",
+                "comment": "Tin chắc: 一定。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "明天可能下雨。",
+                "vi": "Mai có thể mưa.",
+                "comment": "Chỉ là khả năng: 可能。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Dự báo một khả năng bằng 一定 sẽ biến nó thành lời khẳng định tuyệt đối."
+            },
+            "boundary": "Có căn cứ chắc, có lời hứa: 一定. Chỉ phỏng đoán: 可能。\n",
+            "tip": "Chắc hẳn: 一定; có thể: 可能。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "一定 là trạng từ hai âm tiết; hai sắc thái chắc chắn và nhất định (quyết tâm).",
+          "literalTranslation": "一定 dịch là nhất định, chắc chắn.",
+          "confusables": "Đã đối chiếu 一定 với 可能."
+        },
+        "pronunciation": {
+          "text": "一定 đọc hai âm tiết liền nhau, chữ đầu thanh hai, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 你____要来啊。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Chắc chắn cô ấy sẽ thích."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你一定要来啊。"
+            ],
+            "explanation": "Nhất định phải đến dùng 一定。"
+          },
+          "q2": {
+            "accepted": [
+              "她一定会喜欢的。"
+            ],
+            "explanation": "Chắc chắn thích dùng 一定。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi nhất định học giỏi tiếng Trung."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói việc này chắc chắn không dễ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我一定学好中文 để hứa học giỏi.",
+            "frame": "我 + 一定 + 学好中文。",
+            "model": "我一定学好中文。",
+            "vi": "Tôi nhất định học giỏi tiếng Trung.",
+            "criteria": [
+              "Có 一定.",
+              "Quyết tâm dùng 一定。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这件事一定不容易 để nói chắc không dễ.",
+            "frame": "这件事 + 一定 + 不容易。",
+            "model": "这件事一定不容易。",
+            "vi": "Việc này chắc chắn không dễ.",
+            "criteria": [
+              "Có 一定.",
+              "Dự đoán chắc dùng 一定。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-fe223216430d",
+      "hanzi": "主要",
+      "wordEdits": {
+        "meaning": "chủ yếu",
+        "intro": [
+          {
+            "pinyin": "zhǔyào",
+            "meaning": "chủ yếu"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-071 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 721,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%B8%BB%E8%A6%81",
+          "https://en.wiktionary.org/wiki/主要"
+        ],
+        "introduction": {
+          "scope": "Học 主要 là chủ yếu — phần chính, quan trọng nhất trong một tập hợp nhiều phần."
+        },
+        "meaning": {
+          "scene": "Nguyên nhân chủ yếu là thời tiết; buổi học hôm nay chủ yếu ôn tập từ cũ.",
+          "explanation": "主要 có hai vai trò gần nhau. Tính từ: chính, chủ yếu （主要原因 nguyên nhân chính, 主要内容 nội dung chính). Trạng từ: chủ yếu là （主要学习… chủ yếu học…). 主要 luôn đứng trong một tập hợp có nhiều phần — nó chọn ra phần nặng nhất.",
+          "boundary": "主要 khác 重要 (quan trọng): 重要 nói độ nặng của một thứ đứng một mình; 主要 nói vị trí đứng đầu trong NHIỀU phần.",
+          "conditions": [
+            "主要 + danh từ: phần chính của tập hợp.",
+            "主要 + động từ: việc chính sẽ làm."
+          ],
+          "takeaway": "Phần đứng đầu trong nhiều phần, dùng 主要."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "主要 + danh từ",
+            "position": "主要 đứng trước danh từ phần việc.",
+            "required": "Danh từ hay gặp: nguyên nhân, nội dung, việc, người.",
+            "omission": "Đây là vai trò tính từ.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "主要 + động từ",
+            "position": "主要 đứng trước động từ.",
+            "required": "Ý là việc chính trong buổi, trong ngày.",
+            "omission": "Đây là vai trò trạng từ.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这是主要原因。",
+            "vi": "Đây là nguyên nhân chủ yếu.",
+            "analysis": "主要原因: khuôn phân tích quen thuộc.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè shì zhǔyào yuányīn."
+          },
+          {
+            "id": "e2",
+            "zh": "今天主要复习。",
+            "vi": "Hôm nay chủ yếu ôn tập.",
+            "analysis": "主要复习: việc chính của buổi học.",
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān zhǔyào fùxí."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "主要 và 重要: chủ yếu hay quan trọng",
+            "scene": "Phân biệt “đứng đầu trong nhóm” với “có trọng lượng”.",
+            "possibleConfusion": "Hai tính từ cùng ca ngợi độ nặng của một thứ nên dễ thay nhau.",
+            "difference": "主要 so sánh TRONG NHÓM: trong năm nguyên nhân, đây là nguyên nhân chính. 重要 đánh giá MỘT MÌNH: việc này quan trọng, không cần so với ai. Một thứ có thể quan trọng mà không phải chủ yếu (một chi tiết nhỏ mà quan trọng), và ngược lại.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "主要问题是钱。",
+                "vi": "Vấn đề chủ yếu là tiền.",
+                "comment": "Đứng đầu trong nhóm vấn đề: 主要。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这件事很重要。",
+                "vi": "Việc này rất quan trọng.",
+                "comment": "Trọng lượng của một việc: 重要。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Chốt vấn đề chính của buổi họp bằng 重要 sẽ thiếu ý so sánh với các vấn đề còn lại."
+            },
+            "boundary": "Có danh sách nhiều phần để xếp hạng: 主要. Chỉ một thứ được đánh giá: 重要。",
+            "tip": "Trong nhóm: 主要; một mình: 重要。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "主要 là từ hai âm tiết với hai vai trò tính từ và trạng từ cùng một nghĩa chủ yếu.",
+          "literalTranslation": "主要 dịch thẳng là chủ yếu.",
+          "confusables": "Đã đối chiếu 主要 với 重要."
+        },
+        "pronunciation": {
+          "text": "主要 đọc hai âm tiết liền nhau, chữ đầu thanh ba, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: ____内容是什么？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Anh ấy chủ yếu làm việc ở nhà."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "主要内容是什么？"
+            ],
+            "explanation": "Nội dung chính dùng 主要。"
+          },
+          "q2": {
+            "accepted": [
+              "他主要在家工作。"
+            ],
+            "explanation": "Chủ yếu làm ở nhà dùng 主要。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói nguyên nhân chủ yếu là không có thời gian."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói lớp chúng tôi chủ yếu là học sinh mới."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 主要原因是 để chốt nguyên nhân chính.",
+            "frame": "主要原因 + 是 + 没有时间。",
+            "model": "主要原因是没有时间。",
+            "vi": "Nguyên nhân chủ yếu là không có thời gian.",
+            "criteria": [
+              "Có 主要.",
+              "Nguyên nhân chính dùng 主要原因。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 主要是新学生 để nói chủ yếu là người mới.",
+            "frame": "我们班 + 主要 + 是新学生。",
+            "model": "我们班主要是新学生。",
+            "vi": "Lớp chúng tôi chủ yếu là học sinh mới.",
+            "criteria": [
+              "Có 主要.",
+              "Chủ yếu là dùng 主要是。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-18a15a737d2c",
+      "hanzi": "只能",
+      "wordEdits": {
+        "meaning": "chỉ có thể",
+        "intro": [
+          {
+            "pinyin": "zhǐ néng",
+            "meaning": "chỉ có thể"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-071 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 722,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%8F%AA%E8%83%BD",
+          "https://en.wiktionary.org/wiki/只能"
+        ],
+        "introduction": {
+          "scope": "Học 只能 là “chỉ có thể” — không còn lựa chọn nào khác ngoài một cách duy nhất."
+        },
+        "meaning": {
+          "scene": "Hết xe buýt rồi, bạn chỉ có thể đi bộ về; vé rẻ chỉ còn vé đứng, bạn chỉ có thể mua vé đó.",
+          "explanation": "只能 là cụm “chỉ có thể”: 只能 + động từ — nói một lựa chọn DUY NHẤT còn lại, mang sắc thái bất đắc dĩ. Khác “chỉ” giới hạn thường: 只能 luôn có cảm giác không còn đường nào khác.",
+          "boundary": "Bài sau （只要） là phía ngược: chỉ cần một điều kiện là đủ — hai bài soi gương nhau, đừng lẫn “chỉ còn một cách” với “chỉ cần một điều”.",
+          "conditions": [
+            "只能 + động từ: cách duy nhất còn lại.",
+            "只能 đứng trước động từ chính."
+          ],
+          "takeaway": "Không còn lựa chọn khác, dùng 只能."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "只能 + động từ",
+            "position": "只能 đứng trước hành động duy nhất còn lại.",
+            "required": "Ngữ cảnh hết cách, bị giới hạn.",
+            "omission": "Sắc thái bất đắc dĩ rõ.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "太晚了，我只能走回家。",
+            "vi": "Muộn quá rồi, tôi chỉ có thể đi bộ về nhà.",
+            "analysis": "只能走: hết phương tiện khác.",
+            "practiceAllowed": true,
+            "pinyin": "Tài wǎn le wǒ zhǐ néng zǒu huí jiā."
+          },
+          {
+            "id": "e2",
+            "zh": "他只能说中文。",
+            "vi": "Anh ấy chỉ có thể nói tiếng Trung.",
+            "analysis": "只能说: giới hạn khả năng duy nhất.",
+            "practiceAllowed": true,
+            "pinyin": "Tā zhǐ néng shuō Zhōngwén."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "只能 và 不能: chỉ có thể hay không thể",
+            "scene": "Phân biệt “còn đúng một cách” với “hoàn toàn không được”.",
+            "possibleConfusion": "Hai cụm cùng mang sắc thái giới hạn nên khi kể chuyện bị kẹt dễ bị lẫn.",
+            "difference": "只能 là vẫn làm được — nhưng chỉ MỘT cách duy nhất. 不能 là KHÔNG làm được chút nào — mọi cách đều bị chặn. Kẹt xe đi bộ về được là 只能； đường cấm hẳn, không về được mới là 不能。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我只能坐火车去。",
+                "vi": "Tôi chỉ có thể đi tàu đến đó.",
+                "comment": "Còn một cách: 只能。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我不能去。",
+                "vi": "Tôi không thể đi.",
+                "comment": "Không còn cách nào: 不能。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói không thể đi khi thật ra vẫn đi được bằng tàu là kể sai mức kẹt của mình."
+            },
+            "boundary": "Còn đúng một phương án: 只能. Không phương án nào: 不能。\n",
+            "tip": "Một cách duy nhất: 只能; không cách nào: 不能。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "只能 là cụm hai âm tiết đọc tách nhẹ; nghĩa là chỉ có thể.",
+          "literalTranslation": "只能 dịch sát là chỉ có thể.",
+          "confusables": "Đã đối chiếu 只能 với 不能； phía 只要 xem bài 723."
+        },
+        "pronunciation": {
+          "text": "只能 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh ba, chữ sau thanh hai. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 没有车了，我们____走路。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi chỉ có thể đợi ở đây."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "没有车了，我们只能走路。"
+            ],
+            "explanation": "Chỉ còn đi bộ dùng 只能。"
+          },
+          "q2": {
+            "accepted": [
+              "我只能在这里等。"
+            ],
+            "explanation": "Chỉ có thể đợi dùng 只能。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói cô ấy chỉ có thể ở nhà nghỉ ngơi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hôm nay tôi chỉ có thể làm một việc."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 只能在家休息 để nói chỉ ở nhà nghỉ.",
+            "frame": "她 + 只能 + 在家休息。",
+            "model": "她只能在家休息。",
+            "vi": "Cô ấy chỉ có thể ở nhà nghỉ ngơi.",
+            "criteria": [
+              "Có 只能.",
+              "Chỉ một cách dùng 只能。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 只能做一件事 để nói chỉ làm một việc.",
+            "frame": "我今天 + 只能 + 做一件事。",
+            "model": "我今天只能做一件事。",
+            "vi": "Hôm nay tôi chỉ có thể làm một việc.",
+            "criteria": [
+              "Có 只能.",
+              "Giới hạn duy nhất dùng 只能。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    }
+  ]
+}
