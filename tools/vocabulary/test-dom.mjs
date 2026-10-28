@@ -37,8 +37,15 @@ for(const id of p.batches.at(-1).wordIds){
  for(let page=0;!$(target)&&page<d.lessons.length;page++){assert(!$('[data-lesson="1"]').disabled,'Target must be reachable in filtered pages: '+id);click('[data-lesson="1"]');}
  click(target);
  assert(!body().includes('Chuẩn V2'));assert(!body().includes('[Từ số '+word.lesson.cohortOrdinal+']'));assert(!body().includes('Mã ví dụ:'));assert(!body().includes('Mã cách dùng:'));assert(!body().includes('Mã câu hỏi:'));
- click('[data-step="1"]');assert.equal(document.querySelectorAll('.standard-example').length,2);
- click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,word.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
+ click('[data-step="1"]');
+ if(word.lesson.readingBlocks){
+  assert.equal(document.querySelectorAll('.standard-example').length,word.lesson.usages.length,'readingBlocks lesson step 1 shows usage frames only: '+id);
+  click('[data-step="0"]');click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,word.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
+  click('[data-step="1"]');
+ }else{
+  assert.equal(document.querySelectorAll('.standard-example').length,2);
+  click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,word.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
+ }
  click('[data-step="2"]');if(!word.lesson.traps.length)assert(body().includes(word.lesson.noTrapReason));
  click('[data-step="3"]');
  if(id===sample.id)assert(document.querySelector('.feedback'),'Previously revealed answer must persist');
