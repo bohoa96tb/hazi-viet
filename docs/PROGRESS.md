@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 762/2224. Còn: 1462. Toàn khóa đủ cấu trúc: 772/2234.
+Đã bổ sung: 792/2224. Còn: 1432. Toàn khóa đủ cấu trúc: 802/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -81,26 +81,29 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-073 · mục 733–742 · 答应、要求、为、位、名、姓、段、称、级、词
 - batch-074 · mục 743–752 · 作用、单位、叫作、名单、名称、姓名、字典、意思、生词、画儿
 - batch-075 · mục 753–762 · 组成、表示、词典、词语、读音、音节、腿、辆、骑、一路平安
+- batch-076 · mục 763–772 · 一路顺风、交通、人口、公交车、公共汽车、公路、公里、出租车、分钟、司机
+- batch-077 · mục 773–782 · 地铁、地铁站、护照、椅子、爬山、自行车、行人、车辆、道路、骑车
+- batch-078 · mục 783–792 · 但、不一定、不但、不够、不太、不如、不满、不行、不过、为什么
 
 ## 18 mục tiếp theo
 
-- 一路顺风 · hz-h2-47a2bb5cab38
-- 交通 · hz-h2-9d749e9f61d4
-- 人口 · hz-h2-35ac51668969
-- 公交车 · hz-h2-d1d7eeb1c0ae
-- 公共汽车 · hz-h2-0ec2a615954f
-- 公路 · hz-h2-d4f202785619
-- 公里 · hz-h2-524ee7ce555b
-- 出租车 · hz-h2-9fd276885a1e
-- 分钟 · hz-h2-380ca1689c0b
-- 司机 · hz-h2-62dbf756cfc4
-- 地铁 · hz-h2-e41438690254
-- 地铁站 · hz-h2-263f9c937810
-- 护照 · hz-h2-7779de1d52c4
-- 椅子 · hz-h2-3d9e2059ebe6
-- 爬山 · hz-h2-28455535f997
-- 自行车 · hz-h2-636b200f1e5b
-- 行人 · hz-h2-fecfa6d6fa6e
-- 车辆 · hz-h2-aca61e2bae69
+- 也许 · hz-h2-3b46616c2016
+- 但是 · hz-h2-211a9bb986d5
+- 可是 · hz-h2-1b8a3e82fbd0
+- 可能 · hz-h2-31d23f38048a
+- 好像 · hz-h2-70a5e4ea423a
+- 或者 · hz-h2-30f9e27e6aab
+- 故意 · hz-h2-12f7a8d23687
+- 有一点儿 · hz-h2-2c3f3ac726c3
+- 比如说 · hz-h2-ccf208307ec3
+- 相同 · hz-h2-ae98bd0a1fd1
+- 而且 · hz-h2-53cc99af970c
+- 能够 · hz-h2-f864a3e42e2c
+- 虽然 · hz-h2-1fe195272e98
+- 喂 · hz-h2-aa4e9275d4aa
+- 碗 · hz-h2-3ff65bb90a35
+- 米 · hz-h2-e5250121967d
+- 蛋 · hz-h2-275bdba97adc
+- 面 · hz-h2-2355a969d67f
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
