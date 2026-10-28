@@ -1,3 +1,11 @@
+# Giai đoạn B đợt B-011 — chuẩn hóa 考 (ordinal 121)
+
+- PR #20 hợp nhất nội dung tại 55cefb3d8f832e63e1ab44e6640587a2f90b3fef; PR #21 sửa cache tại f297ef5a7bca98e3d51fea20851bab8143d21b27. Nhánh biên soạn gồm 23f1ca2 (dữ liệu), 5234674 (checkpoint) và a4486ca (cache). Sao lưu: backup/321-b011-20261028.
+- Một bài cũ 考, id hz-h1-3a9a7012652b, độ khó trung bình; completedCount giữ 547/2224, standardizedCount 122. Giải thích, ví dụ, khung, bài luyện và tình huống tự dùng được biên tập; đồng bộ digest.
+- process-batch verify, verify-v2, quality audit self-test, audit bài sửa (0 cảnh báo), DOM, hồi quy 得 (107 khẳng định), node --check và diff --check đạt. Tổng cảnh báo audit 739. Không có bài mới.
+- Pages run 40619046303 hoàn tất thành công tại f297ef5. Tệp dữ liệu live 6268592 byte, SHA-256 41f36bb4c40ad1e233a6d388533f94ced375587d6882b90ba30911629d014e5e, khớp bản đã kiểm. Kiểm tra trình duyệt cho thấy các khối ví dụ, khung câu và bài luyện ẩn đáp án. Trước đó dữ liệu cũ còn trong cache, nên PR #21 đổi phiên bản script và dữ liệu.
+- Chưa kiểm tra bố cục ở từng mốc 360/390/430/1280 px, TTS Android thật hoặc phản biện giáo viên độc lập. Tiếp tục Giai đoạn B từ ordinal 122 (试).
+
 # Giai đoạn C đợt batch-051 → batch-053 — biên soạn mới ordinal 518–547 — đã phát hành và xác minh Pages
 
 - Merge commit: 4a8b41fd7a79043b1c6d5c1c28e90ac31fdcd478 (nhánh main, PR #18); nhánh biên soạn: `3b4e701` (file nhỏ: progress.json, content-audit.json, PROGRESS.md, cache-buster, ba tệp kho lưu batch, test-dom) + `a50e17e` (file khóa học qua trình duyệt). Bui yêu cầu ngày 2026-10-28 tiếp tục từ số 528 và làm tối đa số từ có thể; hệ thống tiến độ bắt buộc hoàn thành theo tiền tố liên tục của baseline nên đợt chạy liền từ 518, qua 528, tới 547. Giai đoạn B chuẩn hóa (đợt B-011 từ ordinal 121) tạm dừng theo chỉ thị này, sẽ tiếp tục khi Bui yêu cầu quay lại.
