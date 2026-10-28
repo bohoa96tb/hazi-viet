@@ -1,3 +1,17 @@
+# Giai đoạn C đợt batch-055 → batch-057 — biên soạn mới ordinal 553–582 — đã phát hành và xác minh Pages
+
+- Merge commit: 5389bf98fb3ea9be8a84db4dd6dfa5f6d6aed71a (nhánh main, PR #23); nhánh biên soạn: `83ff096` (file nhỏ: progress.json, content-audit.json, PROGRESS.md, cache-buster, ba tệp kho lưu batch) + `7f7a2d9` (file khóa học qua trình duyệt). Tiếp nối batch-054 (548–552) do cửa sổ làm việc khác phát hành cùng ngày; Giai đoạn B tiếp tục từ ordinal 122 ở cửa sổ riêng.
+- Biên soạn mới 30 bài V2: batch-055 ordinal 553–562 （事情 动物 声音 太阳 头发 数字 星星 样子 照片 照相）, batch-056 ordinal 563–572 （相机 眼睛 礼物 角度 好 对 挺 算 不错 例子）, batch-057 ordinal 573–582 （准确 可以 合适 好事 好处 差不多 应该 挺好 放心 正好）. completedCount 552 → 582/2.224, còn 1.642; toàn khóa 592/2.234 bài đủ cấu trúc.
+- Phân loại tự đánh giá: dễ 12 （动物、太阳、头发、星星、照片、相机、眼睛、礼物、不错、例子、好事、挺好）, trung bình 17, khó 1 （对: một cách đọc nhưng ba chức năng — đúng, đối với người, đối với việc — 3 ví dụ, không dùng readingBlocks vì chỉ một cách đọc). Mọi bài biên soạn ngay theo chuẩn hiện hành: `lesson.tier1` hai tầng, Pinyin ở ví dụ, bẫy thật có câu đối chiếu, 2 câu luyện mở và 2 tình huống tự dùng, trường phát âm chỉ nêu số thanh.
+- Phối hợp soi gương hai phía với câu đối chiếu khác nhau: 照片 (561)/照相 (562); 眼睛 (564) nối với 眼 (549); 好 (567, mục baseline cấp 2) tập trung các cụm cảm giác 好吃/好看/好玩 và nối cách đọc trong 爱好 đã dạy ở bài 好 cấp 1 (ordinal 95); 合适 (575)/正好 (582); 挺 (569)/挺好 (580); 应该 (579) đối chiếu 必须; 准确 (573) đối chiếu 对 (568).
+- Bài 照相 (562) là cụm động từ-tân ngữ tách được: ví dụ e2 （照张相） khai báo `targetParts`, câu tự dùng s2 khai báo `targetForms` — hai cơ chế có sẵn trong kiểm tra V2/quality audit cho từ tách.
+- Áp dụng bằng `process-batch apply` từng đợt (kiểm tra nguyên tử trước khi ghi). Kiểm thử: process-batch verify PASS (582/2.224; 592 bài đủ cấu trúc), verify-v2 exit 0, quality-audit self-test PASS, test-dom PASS, kiểm thử hồi quy 113 khẳng định PASS, git diff --check clean. Tổng cảnh báo quality audit giữ nguyên 739; 30 bài mới có 0 cảnh báo. Cập nhật cache-buster khóa học thành batch-057.
+- Ba cảnh báo self-example-near ở vòng kiểm tra nháp đầu （星星 s1, 挺 s1, 好事 s1) đã viết lại trước khi apply; bản nháp cuối sạch hoàn toàn.
+- Nhánh sao lưu `backup/phasec-055-057-20261028` ở main HEAD `ddeef3e`.
+- Pages run [40622348093](https://github.com/bohoa96tb/hazi-viet/actions/runs/40622348093) completed/success đúng HEAD 5389bf9 (run #265).
+- Tệp khóa học live: 2.234 mục, 6.526.870 bytes, SHA-256 b1257bb979af376ec9dd4f580b0e1a582b2a06b642499d882444d3aae54878d1, khớp byte với bản đã kiểm; progress live 582/2.224. Tiếp theo: Giai đoạn C từ ordinal 583 （正常）; Giai đoạn B từ ordinal 122 （试） ở cửa sổ chuẩn hóa.
+- Chưa xác minh: TTS Android thật, phản biện giáo viên độc lập, bố cục mobile 360/390/430px. Quirk còn tồn tại: mở đáp án làm phần Học thêm đóng lại; chưa sửa trong đợt này.
+
 # Giai đoạn C batch-054 — ordinal 548–552 — đã phát hành
 
 - PR #22, merge 7cf871e4ff4fc7b962d1f4bae03d307690e9c032; nội dung 画、眼、脚、脸、阴. Hoàn thành 552/2224, còn 1672; năm bài mới: một dễ và bốn trung bình; không sửa bài cũ. Nhánh sao lưu backup/phasec-054-20261028.
