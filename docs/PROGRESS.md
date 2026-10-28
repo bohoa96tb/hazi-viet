@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 732/2224. Còn: 1492. Toàn khóa đủ cấu trúc: 742/2234.
+Đã bổ sung: 762/2224. Còn: 1462. Toàn khóa đủ cấu trúc: 772/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -78,26 +78,29 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-070 · mục 703–712 · 大自然、大衣、家庭、心里、月亮、洗澡、洗衣机、海边、举、会
 - batch-071 · mục 713–722 · 像、刚、只、咱、够、它、才、一定、主要、只能
 - batch-072 · mục 723–732 · 只要、如果、就要、常用、必须、快要、愿意、懂得、正是、直接
+- batch-073 · mục 733–742 · 答应、要求、为、位、名、姓、段、称、级、词
+- batch-074 · mục 743–752 · 作用、单位、叫作、名单、名称、姓名、字典、意思、生词、画儿
+- batch-075 · mục 753–762 · 组成、表示、词典、词语、读音、音节、腿、辆、骑、一路平安
 
 ## 18 mục tiếp theo
 
-- 答应 · hz-h2-0f272052407a
-- 要求 · hz-h2-2d78f1ce5226
-- 为 · hz-h2-c34ce3ce8b16
-- 位 · hz-h2-51c8bb260ce6
-- 名 · hz-h2-58d040f0ed80
-- 姓 · hz-h2-4a321f65c04d
-- 段 · hz-h2-45b4d36f1316
-- 称 · hz-h2-51dc6bcacb65
-- 级 · hz-h2-3af8ee4c4658
-- 词 · hz-h2-2baca5e789c6
-- 作用 · hz-h2-c60914b3096a
-- 单位 · hz-h2-abede83fb1f7
-- 叫作 · hz-h2-e102376a2af0
-- 名单 · hz-h2-bc1eaf5c2842
-- 名称 · hz-h2-ae44492d6278
-- 姓名 · hz-h2-4938656584d9
-- 字典 · hz-h2-0a6a6e98aae4
-- 意思 · hz-h2-d932dc56ff39
+- 一路顺风 · hz-h2-47a2bb5cab38
+- 交通 · hz-h2-9d749e9f61d4
+- 人口 · hz-h2-35ac51668969
+- 公交车 · hz-h2-d1d7eeb1c0ae
+- 公共汽车 · hz-h2-0ec2a615954f
+- 公路 · hz-h2-d4f202785619
+- 公里 · hz-h2-524ee7ce555b
+- 出租车 · hz-h2-9fd276885a1e
+- 分钟 · hz-h2-380ca1689c0b
+- 司机 · hz-h2-62dbf756cfc4
+- 地铁 · hz-h2-e41438690254
+- 地铁站 · hz-h2-263f9c937810
+- 护照 · hz-h2-7779de1d52c4
+- 椅子 · hz-h2-3d9e2059ebe6
+- 爬山 · hz-h2-28455535f997
+- 自行车 · hz-h2-636b200f1e5b
+- 行人 · hz-h2-fecfa6d6fa6e
+- 车辆 · hz-h2-aca61e2bae69
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
