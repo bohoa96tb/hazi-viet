@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 612/2224. Còn: 1612. Toàn khóa đủ cấu trúc: 622/2234.
+Đã bổ sung: 642/2224. Còn: 1582. Toàn khóa đủ cấu trúc: 652/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -66,26 +66,29 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-058 · mục 583–592 · 正常、正确、清楚、满意、相信、真正、等于、通过、便宜、公平
 - batch-059 · mục 593–602 · 关心、友好、可爱、安静、实在、平等、开心、心情、快乐、感动
 - batch-060 · mục 603–612 · 故事、方便、有意思、漂亮、热情、笑话、自由、舒服、随便、难受
+- batch-061 · mục 613–622 · 难过、顺利、交、信、借、办、发、取、响、回
+- batch-062 · mục 623–632 · 封、急、接、收、条、查、求、让、通、东南
+- batch-063 · mục 633–642 · 帮助、接到、短信、请求、通知、问题、亮、假、红、绿
 
 ## 18 mục tiếp theo
 
-- 难过 · hz-h2-d9e3436ea701
-- 顺利 · hz-h2-7075db2d5f31
-- 交 · hz-h2-40ddeca7c3e8
-- 信 · hz-h2-d85ceff2a748
-- 借 · hz-h2-617f479d863c
-- 办 · hz-h2-668de64ba210
-- 发 · hz-h2-5e77385f2a5d
-- 取 · hz-h2-f9144f1eaf06
-- 响 · hz-h2-5209b60aed13
-- 回 · hz-h2-9e4bde0a04dc
-- 封 · hz-h2-4eeba963ea74
-- 急 · hz-h2-31fad48b0f69
-- 接 · hz-h2-3dae84eff0c4
-- 收 · hz-h2-aaf7d668e898
-- 条 · hz-h2-9019fac09f78
-- 查 · hz-h2-cb463c4671a4
-- 求 · hz-h2-c3d9276fb0a4
-- 让 · hz-h2-a474ed0c5366
+- 脏 · hz-h2-5efa174790fd
+- 蓝 · hz-h2-43b1eb461b04
+- 角 · hz-h2-7b26ac421afd
+- 选 · hz-h2-81929c6326a4
+- 黄 · hz-h2-64a5ccbd765f
+- 黑 · hz-h2-b7944551a170
+- 什么样 · hz-h2-bdb009a24a6a
+- 年轻 · hz-h2-313f0d3c16d2
+- 点头 · hz-h2-33ce1b330f7d
+- 特别 · hz-h2-3d0b238c3181
+- 特点 · hz-h2-4e474a607c5f
+- 白色 · hz-h2-9ec392716c65
+- 红色 · hz-h2-592ca5b9122c
+- 绿色 · hz-h2-44b34912cff9
+- 蓝色 · hz-h2-aaecf4c673a4
+- 这样 · hz-h2-9481fc50b0b5
+- 那样 · hz-h2-ea779764d251
+- 颜色 · hz-h2-4e150444049a
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
