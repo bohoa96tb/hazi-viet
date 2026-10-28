@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 672/2224. Còn: 1552. Toàn khóa đủ cấu trúc: 682/2234.
+Đã bổ sung: 702/2224. Còn: 1522. Toàn khóa đủ cấu trúc: 712/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -72,26 +72,29 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-064 · mục 643–652 · 脏、蓝、角、选、黄、黑、什么样、年轻、点头、特别
 - batch-065 · mục 653–662 · 特点、白色、红色、绿色、蓝色、这样、那样、颜色、黄色、黑色
 - batch-066 · mục 663–672 · 习惯、信号、信心、信息、努力、原因、实际、对话、影响、态度
+- batch-067 · mục 673–682 · 想法、意见、收入、方面、机会、条件、理想、的话、目的、看法
+- batch-068 · mục 683–692 · 结果、观点、道理、重视、云、啊、墙、夜、怕、气
+- batch-069 · mục 693–702 · 河、海、湖、网、船、道、那、鱼、鸟、大海
 
 ## 18 mục tiếp theo
 
-- 想法 · hz-h2-5182d4089504
-- 意见 · hz-h2-e5b0f70c97ad
-- 收入 · hz-h2-104345d89980
-- 方面 · hz-h2-51cf6fa77bd2
-- 机会 · hz-h2-1c0e6aa53251
-- 条件 · hz-h2-ec67c6d88c61
-- 理想 · hz-h2-637d57a07607
-- 的话 · hz-h2-b43f47bc40aa
-- 目的 · hz-h2-bebf126c1571
-- 看法 · hz-h2-428c1c86f277
-- 结果 · hz-h2-b1ef645e3f04
-- 观点 · hz-h2-17bd03b67f32
-- 道理 · hz-h2-659b7da293b6
-- 重视 · hz-h2-93b140c8a6b8
-- 云 · hz-h2-65ad30f93610
-- 啊 · hz-h2-036133a58461
-- 墙 · hz-h2-638d11ecc72d
-- 夜 · hz-h2-8880cf510171
+- 大自然 · hz-h2-407ea20b9f86
+- 大衣 · hz-h2-78376ef62ac0
+- 家庭 · hz-h2-b6724dc1e0e6
+- 心里 · hz-h2-5ba9dc4f11c8
+- 月亮 · hz-h2-fbb750fbe7ce
+- 洗澡 · hz-h2-306842f8e375
+- 洗衣机 · hz-h2-2e5cb5228b77
+- 海边 · hz-h2-64e654414baf
+- 举 · hz-h2-c345fe8a0834
+- 会 · hz-h2-96af2254b280
+- 像 · hz-h2-77d613b2cfcd
+- 刚 · hz-h2-84252b0487b6
+- 只 · hz-h2-77417a7931d9
+- 咱 · hz-h2-8d0ecba36553
+- 够 · hz-h2-070a0bd7b975
+- 它 · hz-h2-754063711572
+- 才 · hz-h2-6a803247b15e
+- 一定 · hz-h2-e5957c0a36e4
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
