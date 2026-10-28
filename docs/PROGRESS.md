@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 702/2224. Còn: 1522. Toàn khóa đủ cấu trúc: 712/2234.
+Đã bổ sung: 732/2224. Còn: 1492. Toàn khóa đủ cấu trúc: 742/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -75,26 +75,29 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-067 · mục 673–682 · 想法、意见、收入、方面、机会、条件、理想、的话、目的、看法
 - batch-068 · mục 683–692 · 结果、观点、道理、重视、云、啊、墙、夜、怕、气
 - batch-069 · mục 693–702 · 河、海、湖、网、船、道、那、鱼、鸟、大海
+- batch-070 · mục 703–712 · 大自然、大衣、家庭、心里、月亮、洗澡、洗衣机、海边、举、会
+- batch-071 · mục 713–722 · 像、刚、只、咱、够、它、才、一定、主要、只能
+- batch-072 · mục 723–732 · 只要、如果、就要、常用、必须、快要、愿意、懂得、正是、直接
 
 ## 18 mục tiếp theo
 
-- 大自然 · hz-h2-407ea20b9f86
-- 大衣 · hz-h2-78376ef62ac0
-- 家庭 · hz-h2-b6724dc1e0e6
-- 心里 · hz-h2-5ba9dc4f11c8
-- 月亮 · hz-h2-fbb750fbe7ce
-- 洗澡 · hz-h2-306842f8e375
-- 洗衣机 · hz-h2-2e5cb5228b77
-- 海边 · hz-h2-64e654414baf
-- 举 · hz-h2-c345fe8a0834
-- 会 · hz-h2-96af2254b280
-- 像 · hz-h2-77d613b2cfcd
-- 刚 · hz-h2-84252b0487b6
-- 只 · hz-h2-77417a7931d9
-- 咱 · hz-h2-8d0ecba36553
-- 够 · hz-h2-070a0bd7b975
-- 它 · hz-h2-754063711572
-- 才 · hz-h2-6a803247b15e
-- 一定 · hz-h2-e5957c0a36e4
+- 答应 · hz-h2-0f272052407a
+- 要求 · hz-h2-2d78f1ce5226
+- 为 · hz-h2-c34ce3ce8b16
+- 位 · hz-h2-51c8bb260ce6
+- 名 · hz-h2-58d040f0ed80
+- 姓 · hz-h2-4a321f65c04d
+- 段 · hz-h2-45b4d36f1316
+- 称 · hz-h2-51dc6bcacb65
+- 级 · hz-h2-3af8ee4c4658
+- 词 · hz-h2-2baca5e789c6
+- 作用 · hz-h2-c60914b3096a
+- 单位 · hz-h2-abede83fb1f7
+- 叫作 · hz-h2-e102376a2af0
+- 名单 · hz-h2-bc1eaf5c2842
+- 名称 · hz-h2-ae44492d6278
+- 姓名 · hz-h2-4938656584d9
+- 字典 · hz-h2-0a6a6e98aae4
+- 意思 · hz-h2-d932dc56ff39
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
