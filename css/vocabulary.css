@@ -32,3 +32,6 @@ body:has(.word-dashboard) main{max-width:960px;padding-top:20px}.compact-heading
 .learn-more .trap-case{margin-top:12px}
 .reading-block h4{font-size:17px;line-height:1.5;margin:18px 0 0}
 .reading-block .standard-example{margin-top:10px}
+
+/* Vocabulary list controls */
+.compact-word{padding:0;gap:0}.compact-word-open{display:flex;align-items:center;gap:8px;flex:1;min-width:0;min-height:44px;padding:4px 7px;text-align:left;border:0;background:transparent;font-weight:400}.word-speak{display:grid;place-items:center;flex-shrink:0;width:40px;height:44px;min-height:44px;padding:10px;border:0;background:transparent;color:var(--ink)}.word-speak svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.word-speak:focus-visible,.compact-word-open:focus-visible{outline-offset:-3px}.display-switches{flex-wrap:wrap}
