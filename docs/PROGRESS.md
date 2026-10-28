@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 547/2224. Còn: 1677. Toàn khóa đủ cấu trúc: 557/2234.
+Đã bổ sung: 552/2224. Còn: 1672. Toàn khóa đủ cấu trúc: 562/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -59,14 +59,10 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-051 · mục 518–527 · 超过、倒、刻、加、变、吹、套、带、弄、拉
 - batch-052 · mục 528–537 · 换、排、推、提、改、更、背、装、靠、变成
 - batch-053 · mục 538–547 · 带来、成为、提高、改变、重新、嘴、头、灯、狗、猫
+- batch-054 · mục 548–552 · 画、眼、脚、脸、阴
 
 ## 18 mục tiếp theo
 
-- 画 · hz-h2-43e89d23df99
-- 眼 · hz-h2-63ed9500a7a6
-- 脚 · hz-h2-4f8946ad5b22
-- 脸 · hz-h2-fb09d58c70e7
-- 阴 · hz-h2-64c9949fc7d3
 - 事情 · hz-h2-b793f3bb0f00
 - 动物 · hz-h2-b2bdb13ad61c
 - 声音 · hz-h2-3a1ebdd67a6c
@@ -80,5 +76,10 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - 相机 · hz-h2-9c1c2e5ac812
 - 眼睛 · hz-h2-42840d63982a
 - 礼物 · hz-h2-3f86915c3065
+- 角度 · hz-h2-4a38c1e0486f
+- 好 · hz-h2-72f8c3542984
+- 对 · hz-h2-5aa8ddf5f024
+- 挺 · hz-h2-8a9575adc94d
+- 算 · hz-h2-81d49d1d1a71
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.

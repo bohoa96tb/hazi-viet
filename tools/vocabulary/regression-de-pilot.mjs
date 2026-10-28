@@ -256,4 +256,22 @@ for (const c of l.checks) {
   ok(!render(plain2, 3).includes('Học thêm'), 'no-tier1 lesson stage 3 has no Học thêm section');
 }
 
+// Batch-054 exposed a DOM harness assumption that examples always appear in
+// stage 1. Verify the first batch lesson places examples and their audio in
+// stage 0, while stage 1 contains frames rather than repeated examples.
+{
+  const sample = data.words.find(x => x.id === 'hz-h2-43e89d23df99');
+  if (sample?.lesson?.readingBlocks) {
+    const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+    const render = stage => renderStandardLesson(sample, {stage, checkState: new Map(), esc, hanzi: esc, rich: esc});
+    const understand = render(0), frames = render(1);
+    ok(understand.includes('data-lesson-audio="example-only"'), 'readingBlocks batch sample offers example audio in stage 0');
+    for (const example of sample.lesson.examples) {
+      ok(understand.includes(esc(example.zh)), 'batch example is shown in stage 0: ' + example.id);
+      ok(!frames.includes(esc(example.zh)), 'batch example is not repeated in stage 1: ' + example.id);
+    }
+    ok(!frames.includes('data-lesson-audio="example-only"'), 'readingBlocks frames do not offer example-only audio in stage 1');
+  }
+}
+
 console.log(`regression-de-pilot: ${passed} assertions passed`);
