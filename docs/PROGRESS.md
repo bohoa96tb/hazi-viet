@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 552/2224. Còn: 1672. Toàn khóa đủ cấu trúc: 562/2234.
+Đã bổ sung: 582/2224. Còn: 1642. Toàn khóa đủ cấu trúc: 592/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -60,26 +60,29 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-052 · mục 528–537 · 换、排、推、提、改、更、背、装、靠、变成
 - batch-053 · mục 538–547 · 带来、成为、提高、改变、重新、嘴、头、灯、狗、猫
 - batch-054 · mục 548–552 · 画、眼、脚、脸、阴
+- batch-055 · mục 553–562 · 事情、动物、声音、太阳、头发、数字、星星、样子、照片、照相
+- batch-056 · mục 563–572 · 相机、眼睛、礼物、角度、好、对、挺、算、不错、例子
+- batch-057 · mục 573–582 · 准确、可以、合适、好事、好处、差不多、应该、挺好、放心、正好
 
 ## 18 mục tiếp theo
 
-- 事情 · hz-h2-b793f3bb0f00
-- 动物 · hz-h2-b2bdb13ad61c
-- 声音 · hz-h2-3a1ebdd67a6c
-- 太阳 · hz-h2-9ae735ef8844
-- 头发 · hz-h2-5f0c402a2616
-- 数字 · hz-h2-5199ecf83561
-- 星星 · hz-h2-708e2e87525c
-- 样子 · hz-h2-032be1c8dabc
-- 照片 · hz-h2-121e6e38f36b
-- 照相 · hz-h2-da53e0c03bea
-- 相机 · hz-h2-9c1c2e5ac812
-- 眼睛 · hz-h2-42840d63982a
-- 礼物 · hz-h2-3f86915c3065
-- 角度 · hz-h2-4a38c1e0486f
-- 好 · hz-h2-72f8c3542984
-- 对 · hz-h2-5aa8ddf5f024
-- 挺 · hz-h2-8a9575adc94d
-- 算 · hz-h2-81d49d1d1a71
+- 正常 · hz-h2-5d9682fefba9
+- 正确 · hz-h2-0524b744e8c4
+- 清楚 · hz-h2-d48da16146df
+- 满意 · hz-h2-fd0fd98af94d
+- 相信 · hz-h2-f6f1aa285fef
+- 真正 · hz-h2-5d69aec11672
+- 等于 · hz-h2-5e1a90340d58
+- 通过 · hz-h2-ab0833eeb88c
+- 便宜 · hz-h2-05f3747c37f2
+- 公平 · hz-h2-212a095c7bef
+- 关心 · hz-h2-4e4202e86caf
+- 友好 · hz-h2-1252152df47d
+- 可爱 · hz-h2-c1bd431fed4e
+- 安静 · hz-h2-30e3fa0bc17e
+- 实在 · hz-h2-7c75c46274f3
+- 平等 · hz-h2-933fa6ff9b0d
+- 开心 · hz-h2-0ce5810902e2
+- 心情 · hz-h2-5422577b68a4
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.

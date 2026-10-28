@@ -1,0 +1,1849 @@
+{
+  "id": "batch-055",
+  "authorship": "10 mục baseline 553–562; tự biên soạn, đối chiếu MDBG và Wiktionary, tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Trung bình gồm 事情、声音、数字、样子、照相; dễ gồm 动物、太阳、头发、星星、照片.",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
+  "entries": [
+    {
+      "id": "hz-h2-b793f3bb0f00",
+      "hanzi": "事情",
+      "wordEdits": {
+        "meaning": "sự việc; việc",
+        "intro": [
+          {
+            "pinyin": "shìqing",
+            "meaning": "sự việc; việc"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-055 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 553,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%BA%8B%E6%83%85",
+          "https://en.wiktionary.org/wiki/事情"
+        ],
+        "introduction": {
+          "scope": "Học 事情 là danh từ chỉ sự việc: việc cần làm và chuyện đã xảy ra."
+        },
+        "meaning": {
+          "scene": "Bạn có nhiều việc phải xử lý hôm nay; một chuyện bất ngờ vừa xảy ra ở lớp.",
+          "explanation": "事情 là danh từ chỉ một sự việc cụ thể hoặc một chuyện nói chung: việc cần làm, chuyện đã xảy ra. Các cụm hay gặp: 有事情 (có việc), 没事情 (không có việc gì), 做事情 (làm việc).",
+          "boundary": "事情 là danh từ chỉ việc, chuyện; từ ngắn 事 cũng là việc nhưng hay đứng trong các cụm riêng như 没事、办事, không phải lúc nào cũng thay nhau được.",
+          "conditions": [
+            "Đếm việc bằng 件: 一件事情、这件事情。",
+            "Hỏi chuyện: 有什么事情？"
+          ],
+          "takeaway": "Nói về một việc hay một chuyện, dùng 事情."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "有/没有 + 事情",
+            "position": "事情 đứng sau 有 hoặc 没有 để nói có việc hay không.",
+            "required": "Dùng khi nói bận hay rảnh nói chung.",
+            "omission": "Chủ ngữ có thể lược trong câu hỏi ngắn.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Số/chỉ định + 件 + 事情",
+            "position": "件 là lượng từ của 事情.",
+            "required": "Đứng giữa số hoặc 这/那 và 事情.",
+            "omission": "Dùng khi chỉ một việc cụ thể.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我今天没有事情，可以休息。",
+            "vi": "Hôm nay tôi không có việc gì, có thể nghỉ ngơi.",
+            "analysis": "没有事情: không có việc gì phải làm.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ jīntiān méiyǒu shìqing kěyǐ xiūxi."
+          },
+          {
+            "id": "e2",
+            "zh": "这件事情很重要。",
+            "vi": "Việc này rất quan trọng.",
+            "analysis": "这件 chỉ một việc cụ thể.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè jiàn shìqing hěn zhòngyào."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "事情 và 工作: sự việc hay công việc",
+            "scene": "Phân biệt việc, chuyện nói chung với công việc, nghề nghiệp.",
+            "possibleConfusion": "Tiếng Việt đều gọi là “việc” nên dễ dùng lẫn hai từ.",
+            "difference": "事情 là bất kỳ việc hay chuyện nào cần xử lý hoặc đã xảy ra. 工作 là công việc làm nghề, hoặc hành động đang làm việc.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我有很多事情要做。",
+                "vi": "Tôi có nhiều việc phải làm.",
+                "comment": "Việc nói chung dùng 事情.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他在找工作。",
+                "vi": "Anh ấy đang tìm việc làm.",
+                "comment": "Việc làm, nghề nghiệp dùng 工作。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói tìm việc làm bằng 事情 sẽ sai ý; nói chuyện xảy ra bằng 工作 cũng không đúng."
+            },
+            "boundary": "Câu hỏi “có chuyện gì” luôn là 事情; câu chuyện nghề nghiệp luôn là 工作.",
+            "tip": "Việc, chuyện chung: 事情; nghề, việc làm: 工作."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "事情 là từ hai âm tiết, âm thứ hai đọc thanh nhẹ; nghĩa chính là sự việc.",
+          "literalTranslation": "Không tách 事情 thành hai danh từ riêng.",
+          "confusables": "Đã đối chiếu 事情 với 工作 và 事."
+        },
+        "pronunciation": {
+          "text": "事情 đọc hai âm tiết liền nhau, chữ sau đọc thanh nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 你今天有____吗？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Việc này không quan trọng."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你今天有事情吗？"
+            ],
+            "explanation": "Hỏi có việc dùng 有事情。"
+          },
+          "q2": {
+            "accepted": [
+              "这件事情不重要。"
+            ],
+            "explanation": "Một việc cụ thể đếm bằng 件。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi có một việc rất quan trọng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói đã xảy ra chuyện gì vậy?"
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 一件重要的事情 để nói một việc quan trọng.",
+            "frame": "我有 + 一件重要的事情。",
+            "model": "我有一件重要的事情。",
+            "vi": "Tôi có một việc rất quan trọng.",
+            "criteria": [
+              "Có 事情.",
+              "Việc đếm bằng 件。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 发生了什么事情 để hỏi chuyện đã xảy ra.",
+            "frame": "发生了 + 什么事情？",
+            "model": "发生了什么事情？",
+            "vi": "Đã xảy ra chuyện gì vậy?",
+            "criteria": [
+              "Có 事情.",
+              "Câu hỏi chuyện dùng 什么事情。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-b2bdb13ad61c",
+      "hanzi": "动物",
+      "wordEdits": {
+        "meaning": "động vật",
+        "intro": [
+          {
+            "pinyin": "dòngwù",
+            "meaning": "động vật"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-055 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 554,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%8A%A8%E7%89%A9",
+          "https://en.wiktionary.org/wiki/动物"
+        ],
+        "introduction": {
+          "scope": "Học 动物 là động vật nói chung và cụm sở thú."
+        },
+        "meaning": {
+          "scene": "Bạn đi sở thú xem các con vật; ở nhà bạn cũng nuôi một con vật nhỏ.",
+          "explanation": "动物 là động vật nói chung: chó, mèo, chim, cá đều là 动物. Nơi xem động vật là 动物园 (sở thú).",
+          "boundary": "动物 là từ chỉ loài vật nói chung; gọi tên một con cụ thể thì dùng tên con vật đó như 狗、猫.",
+          "conditions": [
+            "Con vật + 是 + 动物: 狗是动物。",
+            "Đi xem động vật: 去动物园。"
+          ],
+          "takeaway": "Nói về động vật nói chung, dùng 动物."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Động vật + 动物",
+            "position": "动物 đứng sau tên con vật khi phân loại.",
+            "required": "Dùng trong câu là: X 是动物。",
+            "omission": "Không đếm 动物 bằng 只 khi nói chung.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "动物园",
+            "position": "动物 đứng trước 园 thành sở thú.",
+            "required": "Đây là cụm danh từ cố định.",
+            "omission": "Dùng như một nơi chốn.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我喜欢小动物。",
+            "vi": "Tôi thích các con vật nhỏ.",
+            "analysis": "小动物: động vật nhỏ nói chung.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xǐhuan xiǎo dòngwù."
+          },
+          {
+            "id": "e2",
+            "zh": "这个动物园有很多动物。",
+            "vi": "Sở thú này có nhiều động vật.",
+            "analysis": "动物园 là sở thú; 动物 ở cuối là các con vật.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè ge dòngwùyuán yǒu hěn duō dòngwù."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "动物 và 植物: động vật hay thực vật",
+            "scene": "Phân biệt hai nhóm sinh vật hay đi đôi trong sách khoa học.",
+            "possibleConfusion": "Hai từ đều chỉ sinh vật và có cấu trúc giống nhau nên dễ nhầm.",
+            "difference": "动物 là các con vật, tự di chuyển được. 植物 là cây cối, thực vật.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "猫是动物。",
+                "vi": "Mèo là động vật.",
+                "comment": "Mèo thuộc nhóm động vật.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "树是植物。",
+                "vi": "Cây là thực vật.",
+                "comment": "Cây thuộc nhóm thực vật.",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi hai từ là đổi hẳn nhóm sinh vật."
+            },
+            "boundary": "Trong câu phân loại ở trường, hai từ này hay xuất hiện cùng nhau.",
+            "tip": "Con vật: 动物; cây cối: 植物."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "动物 là từ hai âm tiết; nghĩa chính là động vật.",
+          "literalTranslation": "Không dịch 动物园 từng chữ; cả cụm là sở thú.",
+          "confusables": "Đã đối chiếu 动物 với 植物."
+        },
+        "pronunciation": {
+          "text": "动物 đọc hai âm tiết liền nhau, chữ đầu thanh bốn, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 猫和狗都是____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Sở thú có nhiều động vật."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "猫和狗都是动物。"
+            ],
+            "explanation": "Phân loại con vật dùng 动物。"
+          },
+          "q2": {
+            "accepted": [
+              "动物园有很多动物。",
+              "动物园里有很多动物。"
+            ],
+            "explanation": "Sở thú là 动物园。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi muốn đi sở thú xem động vật."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói chó là động vật."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 去动物园看动物 để nói đi sở thú xem động vật.",
+            "frame": "我想 + 去动物园 + 看动物。",
+            "model": "我想去动物园看动物。",
+            "vi": "Tôi muốn đi sở thú xem động vật.",
+            "criteria": [
+              "Có 动物.",
+              "动物园 là sở thú."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 狗是动物 để phân loại con chó.",
+            "frame": "狗 + 是 + 动物。",
+            "model": "狗是动物。",
+            "vi": "Chó là động vật.",
+            "criteria": [
+              "Có 动物.",
+              "Câu phân loại dùng 是。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-3a1ebdd67a6c",
+      "hanzi": "声音",
+      "wordEdits": {
+        "meaning": "âm thanh; tiếng",
+        "intro": [
+          {
+            "pinyin": "shēngyīn",
+            "meaning": "âm thanh; tiếng"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-055 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 555,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%A3%B0%E9%9F%B3",
+          "https://en.wiktionary.org/wiki/声音"
+        ],
+        "introduction": {
+          "scope": "Học 声音 là âm thanh nghe được, hay dùng nhất cho tiếng người và giọng nói."
+        },
+        "meaning": {
+          "scene": "Bạn nghe giọng của bạn mình qua điện thoại; ngoài đường có tiếng xe và tiếng người.",
+          "explanation": "声音 là âm thanh tai nghe được: tiếng nói, giọng hát, tiếng động. Nói về giọng một người cũng dùng 声音: giọng hay, giọng nhỏ.",
+          "boundary": "声音 là mọi thứ nghe được; 音乐 chỉ là nhạc có giai điệu. Âm thanh của máy móc, thiên nhiên cũng là 声音.",
+          "conditions": [
+            "Của ai + 声音 + tính từ: 他的声音很好听。",
+            "有 + 声音 khi có tiếng động xuất hiện."
+          ],
+          "takeaway": "Thứ gì tai nghe được, gọi là 声音."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Của ai + 声音 + tính từ",
+            "position": "声音 làm chủ ngữ khi khen, chê giọng.",
+            "required": "Tính từ hay gặp: 好听 (hay), 大 (to), 小 (nhỏ).",
+            "omission": "Người sở hữu đứng trước 的。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Nơi + 有 + 声音",
+            "position": "声音 nói một tiếng động xuất hiện.",
+            "required": "Thường kèm nguồn tiếng động phía trước.",
+            "omission": "Dùng khi nghe thấy mà chưa rõ là gì.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他的声音很好听。",
+            "vi": "Giọng của anh ấy rất hay.",
+            "analysis": "声音 ở đây là giọng nói của một người.",
+            "practiceAllowed": true,
+            "pinyin": "Tā de shēngyīn hěn hǎotīng."
+          },
+          {
+            "id": "e2",
+            "zh": "外面有说话的声音。",
+            "vi": "Bên ngoài có tiếng nói chuyện.",
+            "analysis": "说话的声音: tiếng của việc nói chuyện.",
+            "practiceAllowed": true,
+            "pinyin": "Wàimiàn yǒu shuō huà de shēngyīn."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "声音 và 音乐: âm thanh hay nhạc",
+            "scene": "Phân biệt mọi tiếng nghe được với nhạc.",
+            "possibleConfusion": "Người học hay dùng 音乐 cho mọi thứ phát ra tiếng.",
+            "difference": "声音 là mọi âm thanh: tiếng người, tiếng mưa, tiếng xe. 音乐 chỉ là bản nhạc, bài hát có giai điệu.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我听见了孩子的声音。",
+                "vi": "Tôi nghe thấy tiếng của đứa trẻ.",
+                "comment": "Tiếng trẻ con là 声音.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我喜欢听音乐。",
+                "vi": "Tôi thích nghe nhạc.",
+                "comment": "Nghe nhạc dùng 音乐。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói tiếng mưa bằng 音乐 sẽ sai hẳn; nói nghe nhạc bằng 声音 cũng mất ý bản nhạc."
+            },
+            "boundary": "Khi chỉ biết có tiếng mà chưa rõ nguồn, luôn an toàn với 声音.",
+            "tip": "Tiếng nói chung: 声音; bản nhạc: 音乐."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "声音 là từ hai âm tiết; nghĩa chính là âm thanh, tiếng.",
+          "literalTranslation": "Không dịch 声音 thành “thanh âm” cứng nhắc; dịch là tiếng, giọng theo câu.",
+          "confusables": "Đã đối chiếu 声音 với 音乐."
+        },
+        "pronunciation": {
+          "text": "声音 đọc hai âm tiết liền nhau, chữ đầu thanh một, chữ sau thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 请小声一点儿，你的____太大了。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Bên ngoài có tiếng gì vậy?"
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请小声一点儿，你的声音太大了。"
+            ],
+            "explanation": "Giọng, tiếng của một người dùng 声音。"
+          },
+          "q2": {
+            "accepted": [
+              "外面有什么声音？"
+            ],
+            "explanation": "Hỏi tiếng động dùng 什么声音。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói giọng của cô ấy rất nhỏ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi nghe thấy tiếng hát."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 她的声音很小 để nói giọng nhỏ.",
+            "frame": "她的声音 + 很小。",
+            "model": "她的声音很小。",
+            "vi": "Giọng của cô ấy rất nhỏ.",
+            "criteria": [
+              "Có 声音.",
+              "Giọng của người dùng 声音."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 听见了唱歌的声音 để nói nghe thấy tiếng hát.",
+            "frame": "我 + 听见了 + 唱歌的声音。",
+            "model": "我听见了唱歌的声音。",
+            "vi": "Tôi nghe thấy tiếng hát.",
+            "criteria": [
+              "Có 声音.",
+              "Tiếng hát là một 声音."
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-9ae735ef8844",
+      "hanzi": "太阳",
+      "wordEdits": {
+        "meaning": "mặt trời",
+        "intro": [
+          {
+            "pinyin": "tàiyáng",
+            "meaning": "mặt trời"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-055 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 556,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%A4%AA%E9%98%B3",
+          "https://en.wiktionary.org/wiki/太阳"
+        ],
+        "introduction": {
+          "scope": "Học 太阳 là mặt trời và nắng."
+        },
+        "meaning": {
+          "scene": "Buổi sáng mặt trời mọc; trưa nắng gắt bạn phải đội mũ.",
+          "explanation": "太阳 là mặt trời. Ngoài nghĩa thiên thể, 太阳 còn nói nắng: hôm nay có nắng, nắng to. Các cụm hay gặp: 太阳出来了 (mặt trời mọc), 没有太阳 (không có nắng).",
+          "boundary": "太阳 là mặt trời ban ngày; ban đêm là 月亮 (mặt trăng).",
+          "conditions": [
+            "太阳 + 出来/下山: mặt trời mọc, lặn.",
+            "有/没有 + 太阳: có nắng hay không."
+          ],
+          "takeaway": "Nói đến mặt trời và nắng ban ngày, dùng 太阳."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "太阳 + động từ",
+            "position": "太阳 làm chủ ngữ cho mọc, lặn, chiếu sáng.",
+            "required": "Động từ hay gặp: 出来、下山。",
+            "omission": "Thường trong câu miêu tả thời tiết.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Có/không có + 太阳",
+            "position": "太阳 nói nắng trong câu thời tiết.",
+            "required": "Đi với 有 hoặc 没有。",
+            "omission": "Dùng khi nhận xét trời nắng hay âm u.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "太阳出来了。",
+            "vi": "Mặt trời mọc rồi.",
+            "analysis": "太阳 + 出来: mặt trời lên.",
+            "practiceAllowed": true,
+            "pinyin": "Tàiyáng chūlái le."
+          },
+          {
+            "id": "e2",
+            "zh": "今天太阳很大。",
+            "vi": "Hôm nay nắng rất gắt.",
+            "analysis": "太阳大 ở đây là nắng to, không phải mặt trời to ra.",
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān tàiyáng hěn dà."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "太阳 và 月亮: mặt trời hay mặt trăng",
+            "scene": "Phân biệt hai thiên thể hay đi đôi.",
+            "possibleConfusion": "Hai từ cùng chỉ vật trên trời và đều có cấu trúc hai âm tiết.",
+            "difference": "太阳 là mặt trời, xuất hiện ban ngày và cho nắng. 月亮 là mặt trăng, xuất hiện ban đêm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "太阳白天出来。",
+                "vi": "Mặt trời xuất hiện ban ngày.",
+                "comment": "Ban ngày là 太阳.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "月亮晚上出来。",
+                "vi": "Mặt trăng xuất hiện ban đêm.",
+                "comment": "Ban đêm là 月亮。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi hai từ là đổi hẳn thời điểm trong ngày."
+            },
+            "boundary": "Câu về nắng luôn là 太阳; câu về đêm và rằm luôn nghĩ đến 月亮.",
+            "tip": "Ban ngày, nắng: 太阳; ban đêm: 月亮."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "太阳 là từ hai âm tiết; nghĩa chính là mặt trời, mở rộng là nắng.",
+          "literalTranslation": "太阳很大 trong câu thời tiết dịch là nắng gắt, không dịch mặt trời rất to.",
+          "confusables": "Đã đối chiếu 太阳 với 月亮 và 阴 (bài 552)."
+        },
+        "pronunciation": {
+          "text": "太阳 đọc hai âm tiết liền nhau, chữ đầu thanh bốn, chữ sau thanh hai. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 早上____从东边出来。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Hôm nay không có nắng."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "早上太阳从东边出来。"
+            ],
+            "explanation": "Mặt trời mọc dùng 太阳。"
+          },
+          "q2": {
+            "accepted": [
+              "今天没有太阳。"
+            ],
+            "explanation": "Không có nắng dùng 没有太阳。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói hôm nay có nắng, trời rất đẹp."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói mặt trời lặn rồi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 有太阳 để nói trời có nắng.",
+            "frame": "今天 + 有太阳 + 天气很好。",
+            "model": "今天有太阳，天气很好。",
+            "vi": "Hôm nay có nắng, trời rất đẹp.",
+            "criteria": [
+              "Có 太阳.",
+              "Có nắng dùng 有太阳。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 太阳下山了 để nói mặt trời lặn.",
+            "frame": "太阳 + 下山了。",
+            "model": "太阳下山了。",
+            "vi": "Mặt trời lặn rồi.",
+            "criteria": [
+              "Có 太阳.",
+              "Mặt trời lặn là 下山。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-5f0c402a2616",
+      "hanzi": "头发",
+      "wordEdits": {
+        "meaning": "tóc",
+        "intro": [
+          {
+            "pinyin": "tóufa",
+            "meaning": "tóc"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-055 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 557,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%A4%B4%E5%8F%91",
+          "https://en.wiktionary.org/wiki/头发"
+        ],
+        "introduction": {
+          "scope": "Học 头发 là tóc trên đầu người."
+        },
+        "meaning": {
+          "scene": "Bạn gội đầu, cắt tóc; bạn khen tóc của bạn mình dài và đen.",
+          "explanation": "头发 là tóc trên đầu người. Các cụm hay gặp: 洗头发 (gội đầu), 剪头发 (cắt tóc), 长头发 (tóc dài), 短头发 (tóc ngắn).",
+          "boundary": "头发 chỉ tóc đầu người; lông của động vật và lông trên cơ thể dùng 毛.",
+          "conditions": [
+            "Động từ chăm sóc + 头发: 洗头发、剪头发。",
+            "Của ai + 头发 + tính từ: 她的头发很长。"
+          ],
+          "takeaway": "Nói đến tóc trên đầu, dùng 头发."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Của ai + 头发 + tính từ",
+            "position": "头发 làm chủ ngữ khi miêu tả dài, ngắn, màu sắc.",
+            "required": "Tính từ đứng sau 很。",
+            "omission": "Người sở hữu đứng trước 的。",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Động từ + 头发",
+            "position": "头发 là tân ngữ của gội, cắt, chải.",
+            "required": "Các động từ hay gặp: 洗、剪、梳。",
+            "omission": "Không cần lượng từ trong các cụm này.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她的头发很长。",
+            "vi": "Tóc của cô ấy rất dài.",
+            "analysis": "头发 + 长: miêu tả tóc dài.",
+            "practiceAllowed": true,
+            "pinyin": "Tā de tóufa hěn cháng."
+          },
+          {
+            "id": "e2",
+            "zh": "我想洗头发。",
+            "vi": "Tôi muốn gội đầu.",
+            "analysis": "洗头发 là một cụm cố định.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xiǎng xǐ tóufa."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "头发 và 毛: tóc trên đầu hay lông",
+            "scene": "Phân biệt tóc người với lông nói chung.",
+            "possibleConfusion": "Tiếng Việt tách “tóc” và “lông” rõ, nhưng người học đôi khi dùng một từ tiếng Trung cho cả hai.",
+            "difference": "头发 chỉ là tóc trên đầu người. 毛 là lông: lông động vật, lông trên cơ thể, và sợi nói chung.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "她的头发很黑。",
+                "vi": "Tóc của cô ấy rất đen.",
+                "comment": "Tóc đầu người dùng 头发.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这只猫的毛很软。",
+                "vi": "Lông của con mèo này rất mềm.",
+                "comment": "Lông động vật dùng 毛。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói tóc người bằng 毛 sẽ thành lông; nói lông mèo bằng 头发 cũng sai."
+            },
+            "boundary": "Khi gội đầu, cắt tóc ở tiệm, từ cần dùng luôn là 头发.",
+            "tip": "Tóc đầu người: 头发; lông: 毛。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "头发 là từ hai âm tiết, âm thứ hai đọc thanh nhẹ; nghĩa chính là tóc.",
+          "literalTranslation": "Không tách 头发 thành hai danh từ riêng.",
+          "confusables": "Đã đối chiếu 头发 với 毛."
+        },
+        "pronunciation": {
+          "text": "头发 đọc hai âm tiết liền nhau, chữ đầu thanh hai, chữ sau đọc thanh nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 他去理发店剪____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tóc của anh ấy màu đen."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "他去理发店剪头发。"
+            ],
+            "explanation": "Cắt tóc dùng 剪头发。"
+          },
+          "q2": {
+            "accepted": [
+              "他的头发是黑色的。"
+            ],
+            "explanation": "Tóc đầu người dùng 头发。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tóc của tôi ngắn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô ấy muốn cắt tóc."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我的头发很短 để nói tóc ngắn.",
+            "frame": "我的头发 + 很短。",
+            "model": "我的头发很短。",
+            "vi": "Tóc của tôi ngắn.",
+            "criteria": [
+              "Có 头发.",
+              "Tóc là chủ ngữ được miêu tả."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 想剪头发 để nói muốn cắt tóc.",
+            "frame": "她 + 想 + 剪头发。",
+            "model": "她想剪头发。",
+            "vi": "Cô ấy muốn cắt tóc.",
+            "criteria": [
+              "Có 头发.",
+              "Cắt tóc là 剪头发。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-5199ecf83561",
+      "hanzi": "数字",
+      "wordEdits": {
+        "meaning": "chữ số; con số",
+        "intro": [
+          {
+            "pinyin": "shùzì",
+            "meaning": "chữ số; con số"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-055 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 558,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%95%B0%E5%AD%97",
+          "https://en.wiktionary.org/wiki/数字"
+        ],
+        "introduction": {
+          "scope": "Học 数字 là chữ số và dãy số viết ra."
+        },
+        "meaning": {
+          "scene": "Bạn đọc các con số trên màn hình, ghi lại một dãy số dài.",
+          "explanation": "数字 là chữ số (0 đến 9) và các con số được viết thành dãy. Ta nói: con số này là mấy, nhớ các con số, đọc dãy số.",
+          "boundary": "数字 là chữ số và dãy số nói chung; số hiệu riêng gắn với một người hay một phòng như số điện thoại, số phòng dùng 号码.",
+          "conditions": [
+            "Cái này + 数字: 这个数字是几？",
+            "Nhiều + 数字: 很多数字。"
+          ],
+          "takeaway": "Nói về chữ số và dãy số, dùng 数字."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "数字 làm chủ ngữ/tân ngữ",
+            "position": "数字 chỉ con số được viết ra.",
+            "required": "Hay đi với 是几、写、读、记。",
+            "omission": "Một con số đếm bằng 个: 一个数字。",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这个数字是几？",
+            "vi": "Con số này là mấy?",
+            "analysis": "这个数字: con số đang chỉ vào.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè ge shùzì shì jǐ?"
+          },
+          {
+            "id": "e2",
+            "zh": "我记不住这么多数字。",
+            "vi": "Tôi không nhớ nổi nhiều con số như thế này.",
+            "analysis": "这么多数字: rất nhiều con số phải nhớ.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ jì bu zhù zhème duō shùzì."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "数字 và 号码: chữ số hay số hiệu",
+            "scene": "Phân biệt dãy số nói chung với số hiệu riêng của một người, một nơi.",
+            "possibleConfusion": "Tiếng Việt đều gọi là “số” nên dễ gộp hai từ làm một.",
+            "difference": "数字 là chữ số 0–9 và dãy số nói chung. 号码 là số hiệu riêng: số điện thoại, số phòng, số áo.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请告诉我你的电话号码。",
+                "vi": "Xin cho tôi số điện thoại của bạn.",
+                "comment": "Số điện thoại là số hiệu riêng: 号码.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "屏幕上有几个数字。",
+                "vi": "Trên màn hình có mấy chữ số.",
+                "comment": "Chữ số trên màn hình: 数字。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Hỏi số điện thoại bằng 数字 sẽ kỳ; đếm chữ số bằng 号码 cũng sai đối tượng."
+            },
+            "boundary": "Cứ thấy 电话、房间 đi cùng “số”, đó là 号码.",
+            "tip": "Chữ số, dãy số chung: 数字; số hiệu riêng: 号码."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "数字 là từ hai âm tiết; nghĩa chính là chữ số, con số.",
+          "literalTranslation": "Không dịch 数字 thành “số chữ” theo từng chữ.",
+          "confusables": "Đã đối chiếu 数字 với 号码 và 数."
+        },
+        "pronunciation": {
+          "text": "数字 đọc hai âm tiết liền nhau, chữ đầu thanh bốn, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 0到9一共有十个____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Con số này rất quan trọng."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "0到9一共有十个数字。"
+            ],
+            "explanation": "Chữ số đếm bằng 数字。"
+          },
+          "q2": {
+            "accepted": [
+              "这个数字很重要。"
+            ],
+            "explanation": "Con số đang nói tới dùng 这个数字。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói con số tôi thích nhất là 8."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói xin đọc các con số này."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我最喜欢的数字是八 để nói số yêu thích.",
+            "frame": "我最喜欢的数字 + 是八。",
+            "model": "我最喜欢的数字是八。",
+            "vi": "Con số tôi thích nhất là 8.",
+            "criteria": [
+              "Có 数字.",
+              "Con số yêu thích dùng 数字。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 读这些数字 để nói đọc các con số.",
+            "frame": "请 + 读 + 这些数字。",
+            "model": "请读这些数字。",
+            "vi": "Xin đọc các con số này.",
+            "criteria": [
+              "Có 数字.",
+              "Các con số là 这些数字。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-708e2e87525c",
+      "hanzi": "星星",
+      "wordEdits": {
+        "meaning": "ngôi sao",
+        "intro": [
+          {
+            "pinyin": "xīngxīng",
+            "meaning": "ngôi sao"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-055 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 559,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%98%9F%E6%98%9F",
+          "https://en.wiktionary.org/wiki/星星"
+        ],
+        "introduction": {
+          "scope": "Học 星星 là ngôi sao trên trời."
+        },
+        "meaning": {
+          "scene": "Đêm trời quang, bạn ngẩng đầu đếm sao; một ngôi sao rất sáng ở phía xa.",
+          "explanation": "星星 là ngôi sao trên bầu trời đêm. Đếm sao bằng 颗: 一颗星星. Cụm hay gặp: 看星星 (ngắm sao), 星星很多 (nhiều sao).",
+          "boundary": "星星 là sao trên trời; người nổi tiếng được gọi là 明星, đó là một từ khác chỉ nhắc để biết.",
+          "conditions": [
+            "Số + 颗 + 星星: 一颗星星。",
+            "星星 + nhiều/sáng: 星星很多、星星很亮。"
+          ],
+          "takeaway": "Nói đến ngôi sao trên trời, dùng 星星."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "星星 làm chủ ngữ",
+            "position": "星星 đứng đầu câu khi miêu tả bầu trời.",
+            "required": "Tính từ hay gặp: 多、亮。",
+            "omission": "Thường trong câu về ban đêm.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "Số + 颗 + 星星",
+            "position": "颗 là lượng từ của ngôi sao.",
+            "required": "Đứng giữa số và 星星。",
+            "omission": "Dùng khi chỉ một ngôi cụ thể.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "今天晚上星星很多。",
+            "vi": "Tối nay rất nhiều sao.",
+            "analysis": "星星 + 很多: trời đầy sao.",
+            "practiceAllowed": true,
+            "pinyin": "Jīntiān wǎnshang xīngxīng hěn duō."
+          },
+          {
+            "id": "e2",
+            "zh": "我看见一颗星星。",
+            "vi": "Tôi nhìn thấy một ngôi sao.",
+            "analysis": "一颗星星: một ngôi sao cụ thể.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ kànjiàn yì kē xīngxīng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "星星 và 月亮: sao hay trăng",
+            "scene": "Phân biệt hai vật sáng hay gặp trên trời đêm.",
+            "possibleConfusion": "Hai từ đều chỉ vật trên trời ban đêm nên câu miêu tả dễ lẫn.",
+            "difference": "星星 là các ngôi sao nhỏ, nhiều và nhấp nháy. 月亮 là mặt trăng, một vành lớn và tròn vào ngày rằm.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "天上有一颗星星。",
+                "vi": "Trên trời có một ngôi sao.",
+                "comment": "Một ngôi sao cụ thể: 星星.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "今天的月亮很圆。",
+                "vi": "Trăng hôm nay rất tròn.",
+                "comment": "Mặt trăng tròn: 月亮。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói trăng tròn bằng 星星 sẽ sai hẳn vật được miêu tả."
+            },
+            "boundary": "Câu có 颗 (đếm từng ngôi) là sao; câu có 圆 (tròn) thường là trăng.",
+            "tip": "Sao nhỏ, đếm bằng 颗: 星星; trăng tròn: 月亮."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "星星 là từ láy hai âm tiết, âm thứ hai đọc thanh nhẹ; nghĩa chính là ngôi sao.",
+          "literalTranslation": "Không dịch 星星 thành hai ngôi sao; cả từ là ngôi sao nói chung.",
+          "confusables": "Đã đối chiếu 星星 với 月亮."
+        },
+        "pronunciation": {
+          "text": "星星 đọc hai âm tiết liền nhau, chữ đầu thanh một, chữ sau đọc thanh nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 晚上天上有很多____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Ngôi sao kia rất to."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "晚上天上有很多星星。"
+            ],
+            "explanation": "Sao trên trời dùng 星星。"
+          },
+          "q2": {
+            "accepted": [
+              "那颗星星很大。"
+            ],
+            "explanation": "Một ngôi sao chỉ định đếm bằng 颗。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tối nay sao rất sáng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi đếm sao trên trời."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 今晚的星星特别亮 để nói sao tối nay rất sáng.",
+            "frame": "今晚的星星 + 特别亮。",
+            "model": "今晚的星星特别亮。",
+            "vi": "Sao tối nay rất sáng.",
+            "criteria": [
+              "Có 星星.",
+              "Sao là chủ ngữ."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 数天上的星星 để nói đếm sao.",
+            "frame": "我 + 在数 + 天上的星星。",
+            "model": "我在数天上的星星。",
+            "vi": "Tôi đang đếm sao trên trời.",
+            "criteria": [
+              "Có 星星.",
+              "Sao được đếm là 天上的星星。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-032be1c8dabc",
+      "hanzi": "样子",
+      "wordEdits": {
+        "meaning": "dáng vẻ; kiểu dáng",
+        "intro": [
+          {
+            "pinyin": "yàngzi",
+            "meaning": "dáng vẻ; kiểu dáng"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-055 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 560,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%A0%B7%E5%AD%90",
+          "https://en.wiktionary.org/wiki/样子"
+        ],
+        "introduction": {
+          "scope": "Học 样子 là dáng vẻ bề ngoài và cụm nói có vẻ như."
+        },
+        "meaning": {
+          "scene": "Bạn chọn áo vì kiểu dáng đẹp; nhìn trời tối sầm, bạn đoán có vẻ sắp mưa.",
+          "explanation": "样子 là dáng vẻ, kiểu dáng nhìn thấy bên ngoài của người hoặc vật. Cụm 看样子 đứng đầu câu nghĩa là “có vẻ như”, nói một phán đoán từ những gì nhìn thấy.",
+          "boundary": "样子 là danh từ chỉ dáng vẻ; cụm 看样子 là cách nói phán đoán, không phải hành động nhìn thật.",
+          "conditions": [
+            "Của vật + 样子 + tính từ: 衣服的样子很好看。",
+            "看样子 + phán đoán: 看样子要下雨了。"
+          ],
+          "takeaway": "Nói dáng vẻ thì dùng 样子; nói có vẻ như thì dùng cả cụm 看样子."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "Danh từ + 的 + 样子",
+            "position": "样子 đứng sau 的 của vật được miêu tả.",
+            "required": "Sau 样子 là tính từ nhận xét.",
+            "omission": "Dùng khi chọn đồ, nhận xét ngoại hình.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "看样子 + câu phán đoán",
+            "position": "看样子 đứng đầu câu như một cụm cố định.",
+            "required": "Sau nó là điều người nói đoán ra.",
+            "omission": "Thường dựa trên dấu hiệu nhìn thấy.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这件衣服的样子很好看。",
+            "vi": "Kiểu dáng chiếc áo này rất đẹp.",
+            "analysis": "衣服的样子: dáng vẻ của chiếc áo.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè jiàn yīfu de yàngzi hěn hǎokàn."
+          },
+          {
+            "id": "e2",
+            "zh": "看样子要下雨了。",
+            "vi": "Có vẻ trời sắp mưa.",
+            "analysis": "看样子 ở đây là có vẻ như.",
+            "practiceAllowed": true,
+            "pinyin": "Kàn yàngzi yào xià yǔ le."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "样子 và 一样: dáng vẻ hay giống nhau",
+            "scene": "Phân biệt danh từ chỉ dáng vẻ với từ nói giống nhau ở cuối câu.",
+            "possibleConfusion": "Hai từ đều chứa chữ 样 nên dễ đọc lẫn và dùng lẫn.",
+            "difference": "样子 là danh từ: dáng vẻ của một vật. 一样 là giống nhau, đứng sau hai vật được so sánh để nói chúng không khác nhau.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这双鞋的样子很好看。",
+                "vi": "Kiểu dáng đôi giày này rất đẹp.",
+                "comment": "Đang nói dáng vẻ: 样子.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这双鞋和那双一样。",
+                "vi": "Đôi giày này và đôi kia giống nhau.",
+                "comment": "Đang nói giống nhau: 一样。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đặt 一样 vào chỗ của 样子 sẽ làm câu thiếu danh từ được miêu tả."
+            },
+            "boundary": "一样 hay đi với 和/跟 phía trước để nêu hai vật được so sánh.",
+            "tip": "Dáng vẻ của một vật: 样子; hai vật giống nhau: 一样."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "样子 là từ hai âm tiết, âm thứ hai đọc thanh nhẹ; nghĩa chính là dáng vẻ.",
+          "literalTranslation": "看样子 dịch là “có vẻ như”, không dịch là “nhìn dáng”.",
+          "confusables": "Đã đối chiếu 样子 với 一样."
+        },
+        "pronunciation": {
+          "text": "样子 đọc hai âm tiết liền nhau, chữ đầu thanh bốn, chữ sau đọc thanh nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: ____要下雪了。(có vẻ như)"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Kiểu dáng của ngôi nhà này rất lạ."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "看样子要下雪了。"
+            ],
+            "explanation": "Phán đoán có vẻ như dùng 看样子。"
+          },
+          "q2": {
+            "accepted": [
+              "这座房子的样子很特别。",
+              "这个房子的样子很特别。"
+            ],
+            "explanation": "Dáng vẻ của một vật dùng 样子。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói kiểu dáng của cái túi này rất đẹp."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói có vẻ anh ấy mệt rồi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 这个包的样子很好看 để nói dáng túi đẹp.",
+            "frame": "这个包的样子 + 很好看。",
+            "model": "这个包的样子很好看。",
+            "vi": "Kiểu dáng của cái túi này rất đẹp.",
+            "criteria": [
+              "Có 样子.",
+              "Dáng của vật đứng trước tính từ."
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 看样子他累了 để nói có vẻ anh ấy mệt.",
+            "frame": "看样子 + 他累了。",
+            "model": "看样子他累了。",
+            "vi": "Có vẻ anh ấy mệt rồi.",
+            "criteria": [
+              "Có 样子.",
+              "看样子 nói phán đoán."
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-121e6e38f36b",
+      "hanzi": "照片",
+      "wordEdits": {
+        "meaning": "ảnh; tấm ảnh",
+        "intro": [
+          {
+            "pinyin": "zhàopiàn",
+            "meaning": "ảnh; tấm ảnh"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-055 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 561,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E7%85%A7%E7%89%87",
+          "https://en.wiktionary.org/wiki/照片"
+        ],
+        "introduction": {
+          "scope": "Học 照片 là tấm ảnh, đếm bằng 张."
+        },
+        "meaning": {
+          "scene": "Bạn xem lại ảnh chụp trong điện thoại; một tấm ảnh cũ của gia đình được treo trên tường.",
+          "explanation": "照片 là tấm ảnh đã chụp được. Đếm ảnh bằng 张: 一张照片. Các cụm hay gặp: 看照片 (xem ảnh), 照片上 (trên ảnh).",
+          "boundary": "照片 là vật (tấm ảnh); hành động chụp ảnh là 照相, học ở bài ngay sau.",
+          "conditions": [
+            "Số/chỉ định + 张 + 照片: 一张照片、这张照片。",
+            "照片 đứng sau động từ xem, tìm, gửi."
+          ],
+          "takeaway": "Nói đến tấm ảnh, dùng 照片 và đếm bằng 张."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "张 + 照片",
+            "position": "张 là lượng từ của ảnh và các vật phẳng.",
+            "required": "Đứng giữa số hoặc 这/那 và 照片。",
+            "omission": "Một tấm ảnh luôn đi với 张 trong câu đếm.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "照片 làm tân ngữ",
+            "position": "照片 đứng sau các động từ như xem, có, gửi.",
+            "required": "Trong điện thoại, ảnh đếm không cần 张 khi nói số lượng chung.",
+            "omission": "Thường đi với 有很多 phía trước.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这张照片很好看。",
+            "vi": "Tấm ảnh này rất đẹp.",
+            "analysis": "这张照片: một tấm cụ thể.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè zhāng zhàopiàn hěn hǎokàn."
+          },
+          {
+            "id": "e2",
+            "zh": "我手机里有很多照片。",
+            "vi": "Trong điện thoại của tôi có nhiều ảnh.",
+            "analysis": "很多照片: số lượng ảnh nói chung.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ shǒujī li yǒu hěn duō zhàopiàn."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "照片 và 照相: tấm ảnh hay việc chụp ảnh",
+            "scene": "Phân biệt vật chụp được với hành động chụp; 照相 học kỹ ở bài sau.",
+            "possibleConfusion": "Hai từ dùng chung hai chữ đầu nên rất dễ lẫn.",
+            "difference": "照片 là danh từ: tấm ảnh cầm hoặc xem được. 照相 là động từ: việc bấm máy chụp ảnh.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我在看照片。",
+                "vi": "Tôi đang xem ảnh.",
+                "comment": "Xem ảnh là xem vật: 照片.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他在照相。",
+                "vi": "Anh ấy đang chụp ảnh.",
+                "comment": "Đang chụp là hành động: 照相。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đổi hai từ cho nhau là đổi hẳn việc đang xem ảnh thành đang chụp ảnh."
+            },
+            "boundary": "Sau 看、找、发 (xem, tìm, gửi) là 照片; sau 在 (đang) chỉ hành động là 照相.",
+            "tip": "Tấm ảnh: 照片; chụp ảnh: 照相."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "照片 là từ hai âm tiết; nghĩa chính là tấm ảnh.",
+          "literalTranslation": "Không tách 照片 thành hai từ riêng.",
+          "confusables": "Đã đối chiếu 照片 với 照相."
+        },
+        "pronunciation": {
+          "text": "照片 đọc hai âm tiết liền nhau, chữ đầu thanh bốn, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这____照片是我妈妈的。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi có ba tấm ảnh."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这张照片是我妈妈的。"
+            ],
+            "explanation": "Ảnh đếm bằng 张。"
+          },
+          "q2": {
+            "accepted": [
+              "我有三张照片。"
+            ],
+            "explanation": "Ba tấm ảnh dùng 三张。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tấm ảnh này là của tôi."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói xin cho tôi xem ảnh của bạn."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 这张照片是我的 để nói ảnh của mình.",
+            "frame": "这张照片 + 是我的。",
+            "model": "这张照片是我的。",
+            "vi": "Tấm ảnh này là của tôi.",
+            "criteria": [
+              "Có 照片.",
+              "Ảnh đếm bằng 张。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 给我看看你的照片 để xin xem ảnh.",
+            "frame": "请给我看看 + 你的照片。",
+            "model": "请给我看看你的照片。",
+            "vi": "Xin cho tôi xem ảnh của bạn.",
+            "criteria": [
+              "Có 照片.",
+              "Ảnh của người nghe là 你的照片。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-da53e0c03bea",
+      "hanzi": "照相",
+      "wordEdits": {
+        "meaning": "chụp ảnh",
+        "intro": [
+          {
+            "pinyin": "zhàoxiàng",
+            "meaning": "chụp ảnh"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-055 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 562,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E7%85%A7%E7%9B%B8",
+          "https://en.wiktionary.org/wiki/照相"
+        ],
+        "introduction": {
+          "scope": "Học 照相 là động từ chụp ảnh, có thể tách ra để chen lượng từ."
+        },
+        "meaning": {
+          "scene": "Đi chơi, bạn chụp ảnh cho con; cả nhóm chụp chung một tấm trước cửa.",
+          "explanation": "照相 là động từ chụp ảnh. Đây là cụm động từ-tân ngữ nên tách được: chụp một tấm là 照一张相, chụp cho ai là 给 + người + 照相.",
+          "boundary": "照相 là hành động; tấm ảnh chụp được là 照片 (bài trước). Cụm 拍照 cũng là chụp ảnh, rất hay gặp, chỉ nhắc để nhận ra.",
+          "conditions": [
+            "给 + người + 照相: 给孩子照相。",
+            "照 + số + 张 + 相: 照一张相。"
+          ],
+          "takeaway": "Nói việc chụp ảnh, dùng 照相."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "给 + người + 照相",
+            "position": "照相 đứng sau người được chụp cho.",
+            "required": "给 nêu người nhận hành động chụp.",
+            "omission": "Chủ thể là người cầm máy.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "照 + lượng từ + 相",
+            "position": "照相 tách ra để chen số và 张。",
+            "required": "Cách này nói rõ chụp mấy tấm.",
+            "omission": "相 ở cuối là phần tân ngữ của cụm.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他在给孩子照相。",
+            "vi": "Anh ấy đang chụp ảnh cho con.",
+            "analysis": "给孩子照相: chụp cho con.",
+            "practiceAllowed": true,
+            "pinyin": "Tā zài gěi háizi zhàoxiàng."
+          },
+          {
+            "id": "e2",
+            "zh": "我们一起照张相吧。",
+            "vi": "Chúng ta chụp chung một tấm đi.",
+            "analysis": "照张相: cụm tách ra, chen 张。",
+            "practiceAllowed": true,
+            "pinyin": "Wǒmen yìqǐ zhào zhāng xiàng ba.",
+            "targetParts": [
+              "照",
+              "相"
+            ]
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "照相 và 照片: chụp ảnh hay tấm ảnh",
+            "scene": "Đối chiếu lại cặp này từ phía hành động, với tình huống khác bài 照片.",
+            "possibleConfusion": "Đây là cặp từ dễ lẫn nhất trong nhóm từ về ảnh.",
+            "difference": "照相 là hành động đang diễn ra hoặc sắp làm. 照片 là vật có được sau khi chụp.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "请给我照相。",
+                "vi": "Xin chụp ảnh cho tôi.",
+                "comment": "Đây là lời nhờ chụp: 照相.",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这张照片很清楚。",
+                "vi": "Tấm ảnh này rất rõ.",
+                "comment": "Đây là nhận xét tấm ảnh: 照片。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nhờ người ta chụp mà dùng 照片 sẽ thành nhờ đưa tấm ảnh."
+            },
+            "boundary": "Trong lúc giơ máy lên là 照相; lúc cầm ảnh xem là 照片.",
+            "tip": "Đang chụp: 照相; tấm ảnh: 照片."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "照相 là cụm động từ-tân ngữ hai âm tiết; nghĩa chính là chụp ảnh.",
+          "literalTranslation": "Không dịch 照相 là “chiếu tướng”; cả cụm là chụp ảnh.",
+          "confusables": "Đã đối chiếu 照相 với 照片 và nhắc 拍照."
+        },
+        "pronunciation": {
+          "text": "照相 đọc hai âm tiết liền nhau, chữ đầu thanh bốn, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 他在给朋友____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Xin chụp cho tôi một tấm."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "他在给朋友照相。"
+            ],
+            "explanation": "Chụp ảnh cho ai dùng 给 + người + 照相。"
+          },
+          "q2": {
+            "accepted": [
+              "请给我照一张相。"
+            ],
+            "explanation": "Chụp một tấm dùng cụm tách 照一张相。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi chụp ảnh cho bạn."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói chúng ta chụp một tấm ảnh ở đây."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我给你照相 để nói chụp ảnh cho bạn.",
+            "frame": "我 + 给你 + 照相。",
+            "model": "我给你照相。",
+            "vi": "Tôi chụp ảnh cho bạn.",
+            "criteria": [
+              "Có 照相.",
+              "Người được chụp đứng sau 给。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 在这儿照一张相 để nói chụp một tấm ở đây.",
+            "frame": "我们 + 在这儿 + 照一张相吧。",
+            "model": "我们在这儿照一张相吧。",
+            "vi": "Chúng ta chụp một tấm ảnh ở đây đi.",
+            "criteria": [
+              "Có 照 và 相 tách nhau bởi lượng từ.",
+              "Một tấm là 照一张相。"
+            ],
+            "targetForms": [
+              "照",
+              "相"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    }
+  ]
+}
