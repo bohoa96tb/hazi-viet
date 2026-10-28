@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 792/2224. Còn: 1432. Toàn khóa đủ cấu trúc: 802/2234.
+Đã bổ sung: 822/2224. Còn: 1402. Toàn khóa đủ cấu trúc: 832/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -84,26 +84,29 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-076 · mục 763–772 · 一路顺风、交通、人口、公交车、公共汽车、公路、公里、出租车、分钟、司机
 - batch-077 · mục 773–782 · 地铁、地铁站、护照、椅子、爬山、自行车、行人、车辆、道路、骑车
 - batch-078 · mục 783–792 · 但、不一定、不但、不够、不太、不如、不满、不行、不过、为什么
+- batch-079 · mục 793–802 · 也许、但是、可是、可能、好像、或者、故意、有一点儿、比如说、相同
+- batch-080 · mục 803–812 · 而且、能够、虽然、喂、碗、米、蛋、面、饱、鸡
+- batch-081 · mục 813–822 · 中餐、做法、做饭、午睡、午餐、味道、外卖、快餐、方便面、早餐
 
 ## 18 mục tiếp theo
 
-- 也许 · hz-h2-3b46616c2016
-- 但是 · hz-h2-211a9bb986d5
-- 可是 · hz-h2-1b8a3e82fbd0
-- 可能 · hz-h2-31d23f38048a
-- 好像 · hz-h2-70a5e4ea423a
-- 或者 · hz-h2-30f9e27e6aab
-- 故意 · hz-h2-12f7a8d23687
-- 有一点儿 · hz-h2-2c3f3ac726c3
-- 比如说 · hz-h2-ccf208307ec3
-- 相同 · hz-h2-ae98bd0a1fd1
-- 而且 · hz-h2-53cc99af970c
-- 能够 · hz-h2-f864a3e42e2c
-- 虽然 · hz-h2-1fe195272e98
-- 喂 · hz-h2-aa4e9275d4aa
-- 碗 · hz-h2-3ff65bb90a35
-- 米 · hz-h2-e5250121967d
-- 蛋 · hz-h2-275bdba97adc
-- 面 · hz-h2-2355a969d67f
+- 晚安 · hz-h2-83d738145879
+- 晚餐 · hz-h2-696d0d9056eb
+- 筷子 · hz-h2-73b10059bc30
+- 菜单 · hz-h2-02a7514ef018
+- 西餐 · hz-h2-41eee88c88f7
+- 食物 · hz-h2-ec73c705be41
+- 饺子 · hz-h2-364aa8958ee1
+- 科 · hz-h2-844aa352a5cf
+- 练 · hz-h2-be38d046cd9c
+- 组 · hz-h2-53a788f21bd1
+- 队 · hz-h2-933e6a2685b1
+- 体育 · hz-h2-e338f1a9a492
+- 健康 · hz-h2-8568c7079545
+- 国际 · hz-h2-54c005c7fb01
+- 图片 · hz-h2-1ba36f3932c4
+- 地球 · hz-h2-0059d0ed1c72
+- 影片 · hz-h2-be3c4ee64b73
+- 成绩 · hz-h2-c672e21abcfd
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
