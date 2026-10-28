@@ -1,0 +1,1771 @@
+{
+  "id": "batch-076",
+  "authorship": "10 mục baseline 763–772; tự biên soạn, đối chiếu MDBG và Wiktionary, tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Dễ 8, trung bình 2 （交通 公路）, khó 0. Sửa danh mục: 交通 “kết nối” → “giao thông”; 公路 “đường cao tốc” → “đường quốc lộ; đường lớn”.",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
+  "entries": [
+    {
+      "id": "hz-h2-47a2bb5cab38",
+      "hanzi": "一路顺风",
+      "wordEdits": {
+        "meaning": "chúc thuận buồm xuôi gió (lời chúc đi đường)",
+        "intro": [
+          {
+            "pinyin": "yí lù shùn fēng",
+            "meaning": "chúc lên đường bình an"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-076 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 763,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%B8%80%E8%B7%AF%E9%A1%BA%E9%A3%8E",
+          "https://en.wiktionary.org/wiki/一路顺风"
+        ],
+        "introduction": {
+          "scope": "Học 一路顺风 là lời chúc “thuận buồm xuôi gió” — chúc chuyến đi suôn sẻ, đóng cặp với 一路平安 ở bài trước."
+        },
+        "meaning": {
+          "scene": "Bạn tiễn người thân đi xa: mọi việc trên đường đều thuận lợi là lời chúc đẹp nhất.",
+          "explanation": "一路顺风 là CÂU CHÚC cố định: chúc dọc đường （一路） mọi thứ thuận như gió xuôi （顺风）. Gốc của nó là chúc thuyền bè ra khơi xuôi gió; nay dùng cho mọi chuyến đi đường dài.",
+          "boundary": "So với 一路平安 (762, chúc AN TOÀN — không bao giờ sai), 一路顺风 nhấn sự SUÔN SẺ. Một số người kỹ tính tránh dùng 顺风 cho máy bay vì bay ngược gió mới dễ cất cánh — biết để chọn, không phải lỗi.",
+          "conditions": [
+            "一路顺风 đứng một mình hoặc sau 祝。",
+            "Nói khi tiễn người đi xa."
+          ],
+          "takeaway": "Chúc chuyến đi suôn sẻ, nói 一路顺风."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "一路顺风 là câu chúc",
+            "position": "一路顺风 đứng một mình hoặc cuối lời tiễn.",
+            "required": "Đối tượng là người sắp khởi hành.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "一路顺风！",
+            "vi": "Chúc thuận buồm xuôi gió!",
+            "analysis": "一路顺风: câu chúc đứng một mình.",
+            "practiceAllowed": true,
+            "pinyin": "Yí lù shùn fēng!"
+          },
+          {
+            "id": "e2",
+            "zh": "祝你们一路顺风。",
+            "vi": "Chúc các bạn thuận buồm xuôi gió.",
+            "analysis": "祝你们一路顺风: khuôn chúc đầy đủ.",
+            "practiceAllowed": true,
+            "pinyin": "Zhù nǐmen yí lù shùn fēng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "一路顺风 và 一路平安: thuận gió hay bình an",
+            "scene": "Chốt cặp lời chúc sinh đôi từ phía 一路顺风.",
+            "possibleConfusion": "Bài 762 đã giới thiệu cặp này từ phía bình an; bài này chốt chiều ngược bằng cảnh đi biển, đi thuyền.",
+            "difference": "一路顺风 chúc SUÔN SẺ — gốc ở gió xuôi cho thuyền, rất hợp cảnh đi biển, đi đường thủy, và dùng rộng rãi cho mọi chuyến đi trong giao tiếp thường. 一路平安 chúc AN TOÀN — trung tính, trang trọng, dùng được cho cả máy bay mà không ai bắt bẻ.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "坐船去吧，一路顺风！",
+                "vi": "Đi thuyền nhé, chúc thuận buồm xuôi gió!",
+                "comment": "Đi biển, thuận gió: 一路顺风。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "坐飞机去吧，一路平安！",
+                "vi": "Đi máy bay nhé, chúc thượng lộ bình an!",
+                "comment": "Đi máy bay, an toàn: 一路平安。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Cả hai đều là lời chúc đẹp; khác nhau ở hình ảnh gốc và một lưu ý kỹ tính với máy bay."
+            },
+            "boundary": "Đi biển, đi thuyền, chúc suôn sẻ: 一路顺风. Phân vân hoặc đi máy bay: 一路平安.",
+            "tip": "Suôn sẻ: 一路顺风; an toàn: 一路平安。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "一路顺风 là thành ngữ chúc bốn âm tiết; nghĩa gốc là thuận buồm xuôi gió.",
+          "literalTranslation": "一路顺风 gồm dọc đường và thuận gió.",
+          "confusables": "Đã đối chiếu 一路顺风 với 一路平安 từ cả hai phía."
+        },
+        "pronunciation": {
+          "text": "一路顺风 đọc bốn âm tiết rõ ràng, chữ đầu đọc lên như thanh bốn trong câu chúc. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 明天你出远门，祝你____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Chúc anh ấy thuận buồm xuôi gió."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "明天你出远门，祝你一路顺风。"
+            ],
+            "explanation": "Chúc đi đường dùng 一路顺风。"
+          },
+          "q2": {
+            "accepted": [
+              "祝他一路顺风。"
+            ],
+            "explanation": "Chúc ai đi xa dùng 一路顺风。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi chúc mọi người trong đoàn thuận buồm xuôi gió."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói ông ấy đi biển, chúc ông thuận buồm xuôi gió."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 祝大家一路顺风 để chúc cả đoàn.",
+            "frame": "我 + 祝大家 + 一路顺风。",
+            "model": "我祝大家一路顺风。",
+            "vi": "Tôi chúc mọi người trong đoàn thuận buồm xuôi gió.",
+            "criteria": [
+              "Có 一路顺风.",
+              "Lời chúc đứng sau 祝。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 他出海 để mở cảnh đi biển (mẫu chính ở phần chúc).",
+            "frame": "他 + 出海 + 祝他一路顺风。",
+            "model": "他出海，祝他一路顺风。",
+            "vi": "Ông ấy đi biển, chúc ông thuận buồm xuôi gió.",
+            "criteria": [
+              "Có 一路顺风.",
+              "Đi biển rất hợp 顺风。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-9d749e9f61d4",
+      "hanzi": "交通",
+      "wordEdits": {
+        "meaning": "giao thông",
+        "intro": [
+          {
+            "pinyin": "jiāotōng",
+            "meaning": "giao thông"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-076 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 764,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%BA%A4%E9%80%9A",
+          "https://en.wiktionary.org/wiki/交通"
+        ],
+        "introduction": {
+          "scope": "Học 交通 là giao thông — cả hệ thống đi lại của một nơi: đường sá, xe cộ, tàu xe."
+        },
+        "meaning": {
+          "scene": "Một thành phố giao thông tiện lợi thì đi đâu cũng nhanh; giờ cao điểm, giao thông tắc nghẽn là nỗi khổ chung.",
+          "explanation": "交通 là danh từ giao thông: 交通 + tiện/không tiện （交通方便 đi lại tiện), 交通工具 (phương tiện giao thông), 交通规则 (luật giao thông). Danh mục cũ ghi “kết nối” là sai — 交通 là chuyện đi lại của xe cộ và con người.",
+          "boundary": "交通 là HỆ THỐNG và SỰ ĐI LẠI nói chung; con đường cụ thể dưới chân là 道路 (781).",
+          "conditions": [
+            "交通 + 方便/不方便 khi đánh giá đi lại.",
+            "交通 + 工具/规则 trong cụm cố định."
+          ],
+          "takeaway": "Sự đi lại của cả một nơi, dùng 交通."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "交通 làm danh từ",
+            "position": "交通 đứng trước tính từ đánh giá.",
+            "required": "Đánh giá hay gặp: tiện, tắc, an toàn.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这里交通很方便。",
+            "vi": "Giao thông ở đây rất thuận tiện.",
+            "analysis": "交通方便: đánh giá đi lại của một nơi.",
+            "practiceAllowed": true,
+            "pinyin": "Zhèlǐ jiāotōng hěn fāngbiàn."
+          },
+          {
+            "id": "e2",
+            "zh": "我们要遵守交通规则。",
+            "vi": "Chúng ta phải tuân thủ luật giao thông.",
+            "analysis": "交通规则: cụm cố định quan trọng.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒmen yào zūnshǒu jiāotōng guīzé."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "交通 và 道路: hệ thống đi lại hay con đường",
+            "scene": "Mở cặp phân biệt hệ thống với mặt đường — phía con đường chốt ở bài 781.",
+            "possibleConfusion": "Hai từ cùng thuộc trường đường sá nên khi miêu tả một thành phố dễ bị dùng lẫn.",
+            "difference": "交通 là HỆ THỐNG ĐI LẠI trừu tượng: phương tiện, luồng xe, luật lệ, sự thuận tiện — không sờ được. 道路 là CON ĐƯỜNG vật chất: mặt đường rộng hẹp, dài ngắn ngay trước mắt. Khen “đi lại tiện” là 交通； khen “đường rộng” là 道路。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个城市交通不太方便。",
+                "vi": "Giao thông thành phố này không tiện lắm.",
+                "comment": "Hệ thống đi lại: 交通。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这条道路很宽。",
+                "vi": "Con đường này rất rộng.",
+                "comment": "Mặt đường cụ thể: 道路。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói một con đường cụ thể “thuận tiện” bằng 交通 sẽ làm câu mất đối tượng."
+            },
+            "boundary": "Đang đánh giá sự đi lại nói chung: 交通. Đang chỉ một con đường: 道路。",
+            "tip": "Hệ thống: 交通; con đường: 道路。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "交通 là danh từ hai âm tiết; nghĩa là giao thông.",
+          "literalTranslation": "交通规则 dịch là luật giao thông, quy tắc giao thông.",
+          "confusables": "Đã đối chiếu 交通 với 道路 và sửa nghĩa danh mục sai."
+        },
+        "pronunciation": {
+          "text": "交通 đọc hai âm tiết liền nhau, cả hai chữ đều thanh một, ngang và rõ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 北京的____很方便。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Giao thông ở đây không an toàn."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "北京的交通很方便。"
+            ],
+            "explanation": "Giao thông của thành phố dùng 交通。"
+          },
+          "q2": {
+            "accepted": [
+              "这里的交通不安全。"
+            ],
+            "explanation": "Giao thông an toàn dùng 交通。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói giao thông giờ này rất tắc."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi đi lại bằng nhiều phương tiện giao thông."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 这时候交通很堵 để nói giờ tắc.",
+            "frame": "这时候 + 交通 + 很堵。",
+            "model": "这时候交通很堵。",
+            "vi": "Giao thông giờ này rất tắc.",
+            "criteria": [
+              "Có 交通.",
+              "Giờ tắc dùng từ 很堵。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 交通工具 để chỉ phương tiện nói chung.",
+            "frame": "我 + 用 + 很多交通工具。",
+            "model": "我用很多交通工具。",
+            "vi": "Tôi đi lại bằng nhiều phương tiện giao thông.",
+            "criteria": [
+              "Có 交通.",
+              "Phương tiện nói chung là 交通工具。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-35ac51668969",
+      "hanzi": "人口",
+      "wordEdits": {
+        "meaning": "dân số",
+        "intro": [
+          {
+            "pinyin": "rénkǒu",
+            "meaning": "dân số"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-076 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 765,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%BA%BA%E5%8F%A3",
+          "https://en.wiktionary.org/wiki/人口"
+        ],
+        "introduction": {
+          "scope": "Học 人口 là dân số — tổng số người sống ở một nơi, đếm theo kiểu “bao nhiêu miệng ăn”."
+        },
+        "meaning": {
+          "scene": "Trung Quốc có dân số rất đông; thành phố này dân số tăng nhanh mỗi năm.",
+          "explanation": "人口 là danh từ dân số: 人口 + nhiều/ít/tăng （人口多 dân đông), một nơi + 的 + 人口. Chữ 口 trong 人口 là “miệng” — dân số xưa nay đếm bằng số miệng cần nuôi, nhớ vậy rất khó quên.",
+          "boundary": "人口 là con số của một VÙNG, một nước; số người của một nhóm cụ thể trong phòng là 人数 — khác cấp.",
+          "conditions": [
+            "Nơi + 的 + 人口 khi nói dân số một vùng.",
+            "人口 + 多/少 khi đánh giá đông thưa."
+          ],
+          "takeaway": "Tổng số dân của một nơi, dùng 人口."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "人口 làm danh từ",
+            "position": "人口 đứng sau 的 của một địa danh.",
+            "required": "Hay với 多、少、增加 phía sau.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "中国的人口很多。",
+            "vi": "Dân số Trung Quốc rất đông.",
+            "analysis": "的人口: dân số của một nước.",
+            "practiceAllowed": true,
+            "pinyin": "Zhōngguó de rénkǒu hěn duō."
+          },
+          {
+            "id": "e2",
+            "zh": "这个城市人口有一百万。",
+            "vi": "Thành phố này có dân số một triệu.",
+            "analysis": "人口有: khuôn nêu con số.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè ge chéngshì rénkǒu yǒu yì bǎi wàn."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "人口 và 人数: dân số hay số người",
+            "scene": "Phân biệt con số thống kê của một vùng với số người của một nhóm.",
+            "possibleConfusion": "Hai từ cùng là “số người” nên khi báo cáo, kể chuyện dễ chọn lẫn cấp độ.",
+            "difference": "人口 là DÂN SỐ — con số của cả một thành phố, một đất nước, gắn với nơi chốn. 人数 là SỐ NGƯỜI — tổng đếm của một nhóm, một hoạt động cụ thể （số người tham dự, số người trong lớp).",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这个国家人口太多了。",
+                "vi": "Nước này dân số đông quá.",
+                "comment": "Quy mô đất nước: 人口。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "参加的人数是五十。",
+                "vi": "Số người tham dự là năm mươi.",
+                "comment": "Quy mô một hoạt động: 人数。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Báo số người dự một buổi họp bằng 人口 sẽ thổi con số lên quy mô quốc gia."
+            },
+            "boundary": "Đối tượng là vùng, nước: 人口. Đối tượng là nhóm, sự kiện: 人数。",
+            "tip": "Dân số vùng: 人口; số người nhóm: 人数。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "人口 là từ hai âm tiết; nghĩa là dân số.",
+          "literalTranslation": "人口 gồm người và miệng — đếm dân bằng miệng ăn.",
+          "confusables": "Đã đối chiếu 人口 với 人数。"
+        },
+        "pronunciation": {
+          "text": "人口 đọc hai âm tiết liền nhau, chữ đầu thanh hai, chữ sau thanh ba. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 那个小城____不多。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Dân số ở đây tăng rất nhanh."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "那个小城人口不多。"
+            ],
+            "explanation": "Dân số một nơi dùng 人口。"
+          },
+          "q2": {
+            "accepted": [
+              "这里的人口增加得很快。",
+              "这里人口增加得很快。"
+            ],
+            "explanation": "Dân số tăng dùng 人口。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói Việt Nam có dân số gần một trăm triệu."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói dân số của làng này rất ít."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 越南的人口 để nói dân số một nước.",
+            "frame": "越南的人口 + 差不多 + 一亿。",
+            "model": "越南的人口差不多一亿。",
+            "vi": "Việt Nam có dân số gần một trăm triệu.",
+            "criteria": [
+              "Có 人口.",
+              "Dân số một nước dùng 人口。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这个村子的人口很少 để nói dân thưa.",
+            "frame": "这个村子 + 的人口 + 很少。",
+            "model": "这个村子的人口很少。",
+            "vi": "Dân số của làng này rất ít.",
+            "criteria": [
+              "Có 人口.",
+              "Dân thưa dùng từ 很少。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-d1d7eeb1c0ae",
+      "hanzi": "公交车",
+      "wordEdits": {
+        "meaning": "xe buýt",
+        "intro": [
+          {
+            "pinyin": "gōngjiāochē",
+            "meaning": "xe buýt"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-076 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 766,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%85%AC%E4%BA%A4%E8%BD%A6",
+          "https://en.wiktionary.org/wiki/公交车"
+        ],
+        "introduction": {
+          "scope": "Học 公交车 là xe buýt thành phố — tên gọi thường ngày, rút gọn của 公共汽车 (767)."
+        },
+        "meaning": {
+          "scene": "Bạn bắt xe buýt đi học mỗi sáng; bến xe buýt ở ngay đầu phố.",
+          "explanation": "公交车 là danh từ xe buýt: 坐公交车 (đi xe buýt), 公交车站 (bến xe buýt). Đây là cách gọi NÓI thường ngày — ngắn, gọn, ai cũng dùng.",
+          "boundary": "Tên đầy đủ trang trọng của nó là 公共汽车 (767) — cùng một loại xe, hai độ dài tên gọi.",
+          "conditions": [
+            "坐 + 公交车 khi đi xe buýt.",
+            "公交车 + 站 khi nói bến xe."
+          ],
+          "takeaway": "Xe buýt trong thành phố, gọi 公交车."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "公交车 làm danh từ",
+            "position": "公交车 đứng sau động từ 坐、等。",
+            "required": "Ngữ cảnh đi lại hằng ngày trong thành phố.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我坐公交车上学。",
+            "vi": "Tôi đi xe buýt đi học.",
+            "analysis": "坐公交车: khuôn đi lại quen thuộc.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ zuò gōngjiāochē shàng xué."
+          },
+          {
+            "id": "e2",
+            "zh": "公交车来了。",
+            "vi": "Xe buýt đến rồi.",
+            "analysis": "公交车来了: câu ở bến xe.",
+            "practiceAllowed": true,
+            "pinyin": "Gōngjiāochē lái le."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "公交车 và 公共汽车: tên ngắn hay tên đầy đủ",
+            "scene": "Mở cặp hai tên của cùng một loại xe — phía tên đầy đủ chốt ở bài 767.",
+            "possibleConfusion": "Cùng một chiếc xe có hai tên nên người học dễ tưởng là hai loại xe khác nhau.",
+            "difference": "公交车 là tên RÚT GỌN dùng trong NÓI thường ngày và biển báo hiện nay. 公共汽车 là tên ĐẦY ĐỦ, trang trọng — gặp trong văn bản, sách cũ, thông báo chính thức. Xe là một, khác nhau ở độ trang trọng và thói quen thời đại.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我每天坐公交车。",
+                "vi": "Ngày nào tôi cũng đi xe buýt.",
+                "comment": "Nói thường ngày: 公交车。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "公共汽车站到了。",
+                "vi": "Đến bến xe buýt rồi (thông báo trên xe).",
+                "comment": "Văn bản, loa thông báo: 公共汽车。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Hai câu chỉ cùng một loại xe; khác nhau ở giọng nói và giọng văn bản."
+            },
+            "boundary": "Đang trò chuyện: 公交车. Đang đọc văn bản trang trọng: 公共汽车。",
+            "tip": "Nói: 公交车; văn bản: 公共汽车。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "公交车 là từ ba âm tiết; nghĩa là xe buýt.",
+          "literalTranslation": "公交车 là dạng rút gọn của 公共汽车.",
+          "confusables": "Đã đối chiếu 公交车 với 公共汽车 từ phía tên ngắn."
+        },
+        "pronunciation": {
+          "text": "公交车 đọc ba âm tiết liền nhau rõ ràng, chữ cuối thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 你____几路车？"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Xe buýt này đi đến ga."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你坐几路公交车？"
+            ],
+            "explanation": "Hỏi tuyến xe dùng 公交车。"
+          },
+          "q2": {
+            "accepted": [
+              "这辆公交车去车站。"
+            ],
+            "explanation": "Xe buýt tới ga dùng 公交车。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi đợi xe buýt ở bến."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói xe buýt hôm nay rất đông người."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我在车站等公交车 để nói đợi xe (bến xe nói chung).",
+            "frame": "我 + 在车站 + 等公交车。",
+            "model": "我在车站等公交车。",
+            "vi": "Tôi đợi xe buýt ở bến.",
+            "criteria": [
+              "Có 公交车.",
+              "Đợi xe buýt là 等公交车。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 今天的公交车人很多 để tả xe đông.",
+            "frame": "今天的公交车 + 人 + 很多。",
+            "model": "今天的公交车人很多。",
+            "vi": "Xe buýt hôm nay rất đông người.",
+            "criteria": [
+              "Có 公交车.",
+              "Chiếc xe buýt nói chung dùng 公交车。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-0ec2a615954f",
+      "hanzi": "公共汽车",
+      "wordEdits": {
+        "meaning": "xe buýt (tên đầy đủ)",
+        "intro": [
+          {
+            "pinyin": "gōnggòng qìchē",
+            "meaning": "xe buýt"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-076 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 767,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%85%AC%E5%85%B1%E6%B1%BD%E8%BD%A6",
+          "https://en.wiktionary.org/wiki/公共汽车"
+        ],
+        "introduction": {
+          "scope": "Học 公共汽车 là xe buýt — ở dạng tên ĐẦY ĐỦ, trang trọng của 公交车 (766)."
+        },
+        "meaning": {
+          "scene": "Trên loa của xe vang lên tên bến tiếp theo; sách giáo khoa cũ viết đầy đủ tên của loại xe này.",
+          "explanation": "公共汽车 là danh từ xe buýt dạng đầy đủ: 公共 (công cộng) + 汽车 (ô tô). Nó là cùng một loại xe với 公交车 — dạng đầy đủ sống trong văn bản, biển hiệu trang trọng, tài liệu.",
+          "boundary": "Nghe hiểu 公共汽车 là chính; khi tự nói, 公交车 ngắn gọn và tự nhiên hơn trong đời thường hiện nay.",
+          "conditions": [
+            "公共汽车 đứng trong cụm văn bản.",
+            "Hiểu là chính, nói thường dùng dạng ngắn."
+          ],
+          "takeaway": "Tên đầy đủ trang trọng của xe buýt, dùng 公共汽车."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "公共汽车 làm danh từ",
+            "position": "公共汽车 đứng sau động từ trong văn bản.",
+            "required": "Ngữ cảnh thông báo, sách, biển hiệu.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请坐公共汽车去。",
+            "vi": "Xin đi bằng xe buýt.",
+            "analysis": "公共汽车 trong lời hướng dẫn trang trọng.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng zuò gōnggòng qìchē qù."
+          },
+          {
+            "id": "e2",
+            "zh": "公共汽车上人很多。",
+            "vi": "Trên xe buýt rất đông người.",
+            "analysis": "公共汽车上: vị trí trên xe.",
+            "practiceAllowed": true,
+            "pinyin": "Gōnggòng qìchē shang rén hěn duō."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "公共汽车 và 公交车: tên đầy đủ hay tên ngắn",
+            "scene": "Chốt cặp hai tên xe buýt từ phía tên đầy đủ.",
+            "possibleConfusion": "Bài 766 đã dạy quy tắc; bài này kiểm tra chiều ngược: khi nào gặp và dùng dạng dài.",
+            "difference": "公共汽车 là dạng GỐC, đầy đủ — còn sống trong văn bản trang trọng, thông báo, sách vở. 公交车 là dạng RÚT GỌN thắng thế trong đời sống: nói, biển bến xe, ứng dụng bản đồ. Nghĩa và loại xe hoàn toàn là một.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "书上写着“公共汽车”。",
+                "vi": "Trong sách viết “xe buýt (dạng đầy đủ)”.",
+                "comment": "Trên giấy, trang trọng: 公共汽车。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "公交车站在前面。",
+                "vi": "Bến xe buýt ở phía trước.",
+                "comment": "Đời sống hằng ngày: 公交车。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Hai dạng thay nhau theo văn cảnh, không theo loại xe."
+            },
+            "boundary": "Đọc văn bản, tài liệu: sẵn sàng gặp 公共汽车. Tự nói chuyện: 公交车 tự nhiên hơn.",
+            "tip": "Văn bản: 公共汽车; đời thường: 公交车。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "公共汽车 là từ bốn âm tiết đọc tách hai nhịp; nghĩa là xe buýt.",
+          "literalTranslation": "公共汽车 gồm công cộng và ô tô.",
+          "confusables": "Đã đối chiếu 公共汽车 với 公交车 từ cả hai phía."
+        },
+        "pronunciation": {
+          "text": "公共汽车 đọc bốn âm tiết tách làm hai nhịp rõ ràng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我们坐____去公园。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Xe buýt (tên đầy đủ) chạy rất chậm."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我们坐公共汽车去公园。",
+              "我们坐公交车去公园。"
+            ],
+            "explanation": "Đi xe buýt dùng cả hai dạng tên."
+          },
+          "q2": {
+            "accepted": [
+              "公共汽车开得很慢。"
+            ],
+            "explanation": "Xe buýt chạy chậm dùng 公共汽车。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trên xe buýt có nhiều học sinh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi không thích đi xe buýt vào giờ cao điểm."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 公共汽车上有很多学生 để nói người trên xe.",
+            "frame": "公共汽车上 + 有 + 很多学生。",
+            "model": "公共汽车上有很多学生。",
+            "vi": "Trên xe buýt có nhiều học sinh.",
+            "criteria": [
+              "Có 公共汽车.",
+              "Trên xe là 公共汽车上。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我不喜欢高峰时坐公共汽车 để nói giờ đông.",
+            "frame": "我 + 不喜欢 + 高峰时坐公共汽车。",
+            "model": "我不喜欢高峰时坐公共汽车。",
+            "vi": "Tôi không thích đi xe buýt vào giờ cao điểm.",
+            "criteria": [
+              "Có 公共汽车.",
+              "Đi xe buýt là 坐公共汽车。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-d4f202785619",
+      "hanzi": "公路",
+      "wordEdits": {
+        "meaning": "đường quốc lộ; đường lớn",
+        "intro": [
+          {
+            "pinyin": "gōng lù",
+            "meaning": "đường quốc lộ"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-076 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 768,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%85%AC%E8%B7%AF",
+          "https://en.wiktionary.org/wiki/公路"
+        ],
+        "introduction": {
+          "scope": "Học 公路 là đường quốc lộ, đường lớn nối các nơi — đường cho xe chạy đường dài ngoài thành phố."
+        },
+        "meaning": {
+          "scene": "Xe chạy trên quốc lộ về quê; hai bên quốc lộ là đồng ruộng và núi đồi.",
+          "explanation": "公路 là danh từ đường lớn liên vùng: quốc lộ nối tỉnh này với tỉnh khác, cho ô tô chạy xa. Danh mục cũ ghi “đường cao tốc” là chưa đúng — cao tốc có làn riêng, có trạm thu phí là 高速公路， một cấp đường riêng.",
+          "boundary": "公路 là đường lớn THÔNG THƯỜNG ngoài đô thị; phố trong thành phố là 马路/街道 — khác bối cảnh.",
+          "conditions": [
+            "公路 đứng sau trên, dọc theo.",
+            "公路 + 宽/长 khi tả đường dài."
+          ],
+          "takeaway": "Đường lớn nối các vùng, dùng 公路."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "公路 làm danh từ",
+            "position": "公路 đứng sau giới từ chỉ vị trí, hướng.",
+            "required": "Ngữ cảnh đi đường dài, về quê, du lịch.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "汽车在公路上跑。",
+            "vi": "Ô tô chạy trên quốc lộ.",
+            "analysis": "在公路上: vị trí trên đường lớn.",
+            "practiceAllowed": true,
+            "pinyin": "Qìchē zài gōnglù shang pǎo."
+          },
+          {
+            "id": "e2",
+            "zh": "这条公路很长。",
+            "vi": "Con quốc lộ này rất dài.",
+            "analysis": "这条公路: đếm bằng 条。",
+            "practiceAllowed": true,
+            "pinyin": "Zhè tiáo gōnglù hěn cháng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "公路 và 高速公路: quốc lộ hay cao tốc",
+            "scene": "Phân biệt hai cấp đường mà danh mục cũ gộp làm một.",
+            "possibleConfusion": "Dịch máy và danh mục cũ đều gọi cả hai là đường cao tốc nên đây là điểm phải sửa dứt khoát.",
+            "difference": "公路 là quốc lộ THƯỜNG: có thể qua làng, có ngã giao cùng mức, xe máy đi được. 高速公路 là CAO TỐC thật sự: đường khép kín, nhiều làn, có trạm thu phí, cấm xe máy và xe đạp, tốc độ cao. Lên cao tốc nói 上高速； chạy quốc lộ thường nói 走公路。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我们走公路回老家。",
+                "vi": "Chúng tôi đi quốc lộ về quê.",
+                "comment": "Đường lớn thường: 公路。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "高速公路上不能骑车。",
+                "vi": "Trên cao tốc không được đi xe đạp.",
+                "comment": "Đường khép kín tốc độ cao: 高速公路。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Gọi quốc lộ thường là cao tốc sẽ làm người nghe tưởng đường có trạm thu phí và cấm xe máy."
+            },
+            "boundary": "Đường qua làng, mọi xe đi được: 公路. Đường khép kín có thu phí: 高速公路。",
+            "tip": "Quốc lộ thường: 公路; cao tốc thật: 高速公路。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "公路 là từ hai âm tiết đọc tách nhẹ; nghĩa là đường quốc lộ, đường lớn.",
+          "literalTranslation": "公路 dịch theo ngữ cảnh là quốc lộ.",
+          "confusables": "Đã đối chiếu 公路 với 高速公路 và sửa nghĩa danh mục."
+        },
+        "pronunciation": {
+          "text": "公路 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh một, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 村子在____旁边。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Quốc lộ này mới và rộng."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "村子在公路旁边。"
+            ],
+            "explanation": "Cạnh quốc lộ dùng 公路。"
+          },
+          "q2": {
+            "accepted": [
+              "这条公路又新又宽。"
+            ],
+            "explanation": "Quốc lộ mới rộng dùng 公路。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói xe buýt chạy trên quốc lộ rất nhanh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói dọc quốc lộ có nhiều cây."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 公共汽车在公路上 để mở cảnh đường dài (mẫu chính vẫn chứa 公路）。",
+            "frame": "公共汽车 + 在公路上 + 跑得很快。",
+            "model": "公共汽车在公路上跑得很快。",
+            "vi": "Xe buýt chạy trên quốc lộ rất nhanh.",
+            "criteria": [
+              "Có 公路.",
+              "Trên quốc lộ là 在公路上。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 公路两边 để nói hai bên đường.",
+            "frame": "公路两边 + 有 + 很多树。",
+            "model": "公路两边有很多树。",
+            "vi": "Dọc quốc lộ có nhiều cây.",
+            "criteria": [
+              "Có 公路.",
+              "Hai bên quốc lộ là 公路两边。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-524ee7ce555b",
+      "hanzi": "公里",
+      "wordEdits": {
+        "meaning": "kilômét",
+        "intro": [
+          {
+            "pinyin": "gōnglǐ",
+            "meaning": "kilômét"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-076 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 769,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%85%AC%E9%87%8C",
+          "https://en.wiktionary.org/wiki/公里"
+        ],
+        "introduction": {
+          "scope": "Học 公里 là kilômét — đơn vị đo quãng đường chuẩn: nhà cách trường ba kilômét."
+        },
+        "meaning": {
+          "scene": "Bạn xem bản đồ: còn năm kilômét nữa là đến nơi; chạy bộ mười kilômét là mục tiêu của nhiều người.",
+          "explanation": "公里 là danh từ kilômét: số + 公里 （三公里 ba cây số), 离 + nơi + số 公里 (cách nơi bao nhiêu cây). 公里 còn có tên chữ Hán khác là 千米 — hai tên, một độ dài.",
+          "boundary": "Đừng lẫn 公里 với 里 truyền thống: một 公里 bằng đúng HAI 里 （里 là nửa cây số) — biển báo hiện nay đều dùng 公里。",
+          "conditions": [
+            "Số + 公里 khi nêu quãng đường.",
+            "多长/多远 + 公里 khi hỏi đáp khoảng cách."
+          ],
+          "takeaway": "Đo quãng đường bằng cây số, dùng 公里."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "公里 làm đơn vị",
+            "position": "公里 đứng sau số lượng.",
+            "required": "Ngữ cảnh bản đồ, chạy bộ, lái xe.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "学校离我家三公里。",
+            "vi": "Trường cách nhà tôi ba kilômét.",
+            "analysis": "离…三公里: khuôn khoảng cách.",
+            "practiceAllowed": true,
+            "pinyin": "Xuéxiào lí wǒ jiā sān gōnglǐ."
+          },
+          {
+            "id": "e2",
+            "zh": "他跑了十公里。",
+            "vi": "Anh ấy chạy mười kilômét.",
+            "analysis": "跑了十公里: quãng đường vận động.",
+            "practiceAllowed": true,
+            "pinyin": "Tā pǎo le shí gōnglǐ."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "公里 và 里: kilômét hay lý",
+            "scene": "Phân biệt đơn vị chuẩn hiện nay với đơn vị truyền thống còn nghe trong đời sống.",
+            "possibleConfusion": "Hai đơn vị cùng đo đường và chênh nhau đúng gấp đôi nên lẫn là sai quãng đường thật.",
+            "difference": "公里 là KILÔMÉT quốc tế — đơn vị của biển báo, bản đồ, ứng dụng. 里 là đơn vị TRUYỀN THỐNG: một 里 bằng nửa kilômét, còn sống trong nói năng đời thường và thành ngữ. Nghe “năm 里” là hai cây rưỡi, không phải năm cây.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "还有五公里。",
+                "vi": "Còn năm kilômét nữa.",
+                "comment": "Đơn vị chuẩn: 公里。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "还有五里路。",
+                "vi": "Còn năm lý đường nữa (hai cây rưỡi).",
+                "comment": "Đơn vị truyền thống: 里。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nghe nhầm 里 thành 公里 là gấp đôi quãng đường trong đầu."
+            },
+            "boundary": "Biển báo, bản đồ, số liệu: 公里. Lời nói đời thường kiểu cũ: 里 — nhớ chia đôi khi quy đổi.",
+            "tip": "Cây số chuẩn: 公里; lý cũ: 里 bằng nửa cây."
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "公里 là từ hai âm tiết; nghĩa là kilômét, đồng nghĩa với 千米.",
+          "literalTranslation": "公里 dịch thẳng là kilômét.",
+          "confusables": "Đã đối chiếu 公里 với 里."
+        },
+        "pronunciation": {
+          "text": "公里 đọc hai âm tiết liền nhau, chữ đầu thanh một, chữ sau thanh ba. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这里离海边两____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Chúng tôi đi bộ năm kilômét."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这里离海边两公里。"
+            ],
+            "explanation": "Hai cây số dùng 公里。"
+          },
+          "q2": {
+            "accepted": [
+              "我们走了五公里。",
+              "我们走路走了五公里。"
+            ],
+            "explanation": "Đi năm cây dùng 公里。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói nhà ga cách đây không xa, chỉ một kilômét."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói đường này dài hai mươi kilômét."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 车站离这儿 chỉ một cây số (mẫu chứa 公里 ở cuối).",
+            "frame": "车站 + 离这儿 + 只有一公里。",
+            "model": "车站离这儿只有一公里。",
+            "vi": "Nhà ga cách đây chỉ một kilômét.",
+            "criteria": [
+              "Có 公里.",
+              "Một cây số dùng 一公里。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这条路有二十公里长 để nói độ dài đường.",
+            "frame": "这条路 + 有 + 二十公里长。",
+            "model": "这条路有二十公里长。",
+            "vi": "Đường này dài hai mươi kilômét.",
+            "criteria": [
+              "Có 公里.",
+              "Độ dài đường dùng 公里。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-9fd276885a1e",
+      "hanzi": "出租车",
+      "wordEdits": {
+        "meaning": "taxi; xe taxi",
+        "intro": [
+          {
+            "pinyin": "chūzūchē",
+            "meaning": "taxi"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-076 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 770,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%87%BA%E7%A7%9F%E8%BD%A6",
+          "https://en.wiktionary.org/wiki/出租车"
+        ],
+        "introduction": {
+          "scope": "Học 出租车 là taxi — xe cho thuê kèm tài xế, gọi là đi ngay, trả tiền theo quãng đường."
+        },
+        "meaning": {
+          "scene": "Mưa to, bạn vẫy một chiếc taxi về nhà; ở sân bay, hàng taxi đợi khách rất dài.",
+          "explanation": "出租车 là danh từ taxi: 坐/打 + 出租车 (đi taxi — 打车 là cách nói gọn), 出租车司机 (tài xế taxi, bài 772). 出租 nghĩa gốc là “cho thuê” — taxi là chiếc xe cho thuê theo chuyến.",
+          "boundary": "Taxi khác xe buýt ở chỗ: đi riêng, gọi đâu đến đó, giá theo chuyến — không theo tuyến cố định.",
+          "conditions": [
+            "打/坐 + 出租车 khi đi taxi.",
+            "出租车 đứng trước 司机 chỉ tài xế."
+          ],
+          "takeaway": "Xe thuê theo chuyến có tài xế, dùng 出租车."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "出租车 làm danh từ",
+            "position": "出租车 đứng sau động từ 坐、打、等。",
+            "required": "Ngữ cảnh mưa gió, sân bay, đi gấp.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们打出租车去吧。",
+            "vi": "Chúng ta đi taxi đi.",
+            "analysis": "打出租车: khuôn gọi taxi.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒmen dǎ chūzūchē qù ba."
+          },
+          {
+            "id": "e2",
+            "zh": "出租车在门口等。",
+            "vi": "Taxi đang đợi ở cửa.",
+            "analysis": "出租车等: xe đợi khách.",
+            "practiceAllowed": true,
+            "pinyin": "Chūzūchē zài ménkǒu děng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "出租车 và 公交车: taxi hay xe buýt",
+            "scene": "Phân biệt hai phương tiện công cộng khác hẳn cách phục vụ.",
+            "possibleConfusion": "Hai từ là hai lựa chọn đi lại hằng ngày nên tiêu chí chọn phải rõ.",
+            "difference": "出租车 là xe RIÊNG theo chuyến: vẫy là dừng, đi đúng địa chỉ của bạn, tính tiền theo đồng hồ. 公交车 là xe CHUNG theo tuyến: bến cố định, giờ cố định, vé rẻ, nhiều người cùng đi. Gấp và riêng tư thì taxi; rẻ và theo tuyến thì xe buýt.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "下雨了，我坐出租车回家。",
+                "vi": "Mưa rồi, tôi đi taxi về nhà.",
+                "comment": "Riêng, tận nơi: 出租车。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我坐公交车上学。",
+                "vi": "Tôi đi xe buýt đi học.",
+                "comment": "Theo tuyến, vé rẻ: 公交车。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Đợi taxi ở bến xe buýt sẽ không bao giờ bắt được xe mình cần."
+            },
+            "boundary": "Đang cần đi ngay, tận nơi: 出租车. Đang đi tuyến cố định hằng ngày: 公交车。",
+            "tip": "Theo chuyến: 出租车; theo tuyến: 公交车。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "出租车 là từ ba âm tiết; nghĩa là xe taxi.",
+          "literalTranslation": "出租车 gồm cho thuê và xe — xe cho thuê theo chuyến.",
+          "confusables": "Đã đối chiếu 出租车 với 公交车."
+        },
+        "pronunciation": {
+          "text": "出租车 đọc ba âm tiết liền nhau rõ ràng, chữ đầu thanh một, chữ giữa thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 请帮我叫一辆____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Taxi đến rồi, đi thôi."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "请帮我叫一辆出租车。"
+            ],
+            "explanation": "Gọi một chiếc taxi dùng 出租车。"
+          },
+          "q2": {
+            "accepted": [
+              "出租车来了，走吧。"
+            ],
+            "explanation": "Taxi đến dùng 出租车。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi đi taxi đến sân bay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói chiếc taxi này rất sạch."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 坐出租车去机场 để nói đi taxi ra sân bay.",
+            "frame": "我 + 坐出租车 + 去机场。",
+            "model": "我坐出租车去机场。",
+            "vi": "Tôi đi taxi đến sân bay.",
+            "criteria": [
+              "Có 出租车.",
+              "Đi taxi là 坐出租车。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这辆出租车 để chỉ một chiếc taxi.",
+            "frame": "这辆出租车 + 很干净。",
+            "model": "这辆出租车很干净。",
+            "vi": "Chiếc taxi này rất sạch.",
+            "criteria": [
+              "Có 出租车.",
+              "Taxi đếm bằng 辆。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-380ca1689c0b",
+      "hanzi": "分钟",
+      "wordEdits": {
+        "meaning": "phút (khoảng thời gian)",
+        "intro": [
+          {
+            "pinyin": "fēnzhōng",
+            "meaning": "phút"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-076 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 771,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%88%86%E9%92%9F",
+          "https://en.wiktionary.org/wiki/分钟"
+        ],
+        "introduction": {
+          "scope": "Học 分钟 là phút — đơn vị đo một KHOẢNG thời gian: đợi năm phút, học ba mươi phút."
+        },
+        "meaning": {
+          "scene": "Bạn đợi bạn năm phút ở cổng; bài tập làm trong mười phút là xong.",
+          "explanation": "分钟 là danh từ phút (khoảng): số + 分钟 （五分钟 năm phút), 等 + 分钟 (đợi bao lâu). 分钟 luôn đi với SỐ LƯỢNG để nói một việc kéo dài bao nhiêu phút.",
+          "boundary": "Khác với 分 trong giờ giấc: 三点五分 (ba giờ năm phút) là THỜI ĐIỂM, không có 钟 — hỏi “mấy giờ” dùng 分， nói “bao lâu” dùng 分钟。",
+          "conditions": [
+            "Số + 分钟 khi nói độ dài việc.",
+            "分钟 đứng sau động từ đợi, học, chạy."
+          ],
+          "takeaway": "Một khoảng dài bao nhiêu phút, dùng 分钟."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "分钟 làm đơn vị khoảng",
+            "position": "分钟 đứng sau số, sau động từ.",
+            "required": "Ngữ cảnh đợi chờ, làm việc, di chuyển.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "请等我五分钟。",
+            "vi": "Xin đợi tôi năm phút.",
+            "analysis": "等五分钟: đợi một khoảng.",
+            "practiceAllowed": true,
+            "pinyin": "Qǐng děng wǒ wǔ fēnzhōng."
+          },
+          {
+            "id": "e2",
+            "zh": "走路十分钟就到。",
+            "vi": "Đi bộ mười phút là đến.",
+            "analysis": "十分钟: khoảng đường đi.",
+            "practiceAllowed": true,
+            "pinyin": "Zǒu lù shí fēnzhōng jiù dào."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "分钟 và 分: khoảng phút hay điểm giờ",
+            "scene": "Phân biệt hai cách dùng của đơn vị phút bị lẫn nhiều nhất khi xem giờ.",
+            "possibleConfusion": "Cùng là phút nhưng một bên đếm độ dài, một bên chỉ thời điểm nên đây là bẫy giờ giấc kinh điển.",
+            "difference": "分钟 ĐẾM KHOẢNG: việc kéo dài bao nhiêu phút （等十分钟 đợi mười phút). 分 CHỈ ĐIỂM trong giờ: mấy giờ bao nhiêu phút （两点二十分 hai giờ hai mươi). Câu hỏi phân biệt là “bao lâu” hay “mấy giờ”.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "我等了二十分钟。",
+                "vi": "Tôi đợi hai mươi phút.",
+                "comment": "Độ dài chờ đợi: 分钟。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "现在两点二十分。",
+                "vi": "Bây giờ là hai giờ hai mươi.",
+                "comment": "Thời điểm trên đồng hồ: 分。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Nói giờ bằng 分钟 sẽ thành một khoảng kéo dài chứ không phải thời điểm."
+            },
+            "boundary": "Đang trả lời BAO LÂU: 分钟. Đang trả lời MẤY GIỜ: 分 đứng sau 点。",
+            "tip": "Khoảng: 分钟; điểm giờ: 分。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "分钟 là từ hai âm tiết; nghĩa là phút (khoảng thời gian).",
+          "literalTranslation": "分钟 dịch là phút khi đo độ dài thời gian.",
+          "confusables": "Đã đối chiếu 分钟 với 分 trong giờ giấc."
+        },
+        "pronunciation": {
+          "text": "分钟 đọc hai âm tiết liền nhau, chữ đầu thanh một, chữ sau thanh một, đều ngang. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 电影还有三____开始。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi học tiếng Trung ba mươi phút mỗi ngày."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "电影还有三分钟开始。"
+            ],
+            "explanation": "Còn ba phút nữa dùng 分钟。"
+          },
+          "q2": {
+            "accepted": [
+              "我每天学三十分钟中文。",
+              "我每天学中文三十分钟。"
+            ],
+            "explanation": "Học ba mươi phút dùng 分钟。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói xe buýt năm phút nữa đến."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô ấy nói chuyện mười phút."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 公交车五分钟 đến nơi — viết 五分钟就来。",
+            "frame": "公交车 + 五分钟 + 就来。",
+            "model": "公交车五分钟就来。",
+            "vi": "Xe buýt năm phút nữa đến.",
+            "criteria": [
+              "Có 分钟.",
+              "Năm phút nữa dùng 五分钟。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 她说了十分钟 để nói độ dài nói chuyện.",
+            "frame": "她 + 说了 + 十分钟。",
+            "model": "她说了十分钟。",
+            "vi": "Cô ấy nói chuyện mười phút.",
+            "criteria": [
+              "Có 分钟.",
+              "Nói bao lâu dùng 分钟。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-62dbf756cfc4",
+      "hanzi": "司机",
+      "wordEdits": {
+        "meaning": "tài xế",
+        "intro": [
+          {
+            "pinyin": "sījī",
+            "meaning": "tài xế"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-076 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 772,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%8F%B8%E6%9C%BA",
+          "https://en.wiktionary.org/wiki/司机"
+        ],
+        "introduction": {
+          "scope": "Học 司机 là tài xế — người lái xe chuyên nghiệp: tài xế taxi, tài xế xe buýt, tài xế xe tải."
+        },
+        "meaning": {
+          "scene": "Tài xế taxi hỏi bạn đi đâu; tài xế xe buýt mở cửa cho hành khách lên xe.",
+          "explanation": "司机 là danh từ tài xế: loại xe + 司机 （出租车司机 tài xế taxi, 公交车司机 tài xế xe buýt), 司机师傅 (cách gọi tài xế lịch sự — 师傅 là “sư phụ/thầy” dùng gọi người làm nghề).",
+          "boundary": "司机 là người lái xe NHƯ MỘT NGHỀ; người thường lái xe nhà chỉ nói là “người lái xe” trong câu cụ thể, không tự gọi mình là 司机。",
+          "conditions": [
+            "Loại xe + 司机 khi chỉ nghề lái.",
+            "司机 + 师傅 khi gọi lịch sự."
+          ],
+          "takeaway": "Người lái xe chuyên nghiệp, dùng 司机."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "司机 làm danh từ",
+            "position": "司机 đứng sau tên loại xe.",
+            "required": "Ngữ cảnh taxi, xe buýt, xe tải, xe đoàn.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "出租车司机问我去哪儿。",
+            "vi": "Tài xế taxi hỏi tôi đi đâu.",
+            "analysis": "出租车司机: nghề lái gắn loại xe.",
+            "practiceAllowed": true,
+            "pinyin": "Chūzūchē sījī wèn wǒ qù nǎr."
+          },
+          {
+            "id": "e2",
+            "zh": "司机师傅，请开门。",
+            "vi": "Bác tài ơi, xin mở cửa.",
+            "analysis": "司机师傅: cách gọi lịch sự ngoài đời.",
+            "practiceAllowed": true,
+            "pinyin": "Sījī shīfu qǐng kāi mén."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "司机 và 乘客: tài xế hay hành khách",
+            "scene": "Phân biệt hai vai đối ngược trong cùng một chuyến xe.",
+            "possibleConfusion": "Hai vai cùng ở trong xe nên khi kể chuyện đi lại phải gọi đúng người.",
+            "difference": "司机 là người LÁI — ngồi trước, cầm vô lăng, quyết định đường đi. 乘客 là người ĐI — ngồi sau hoặc ngồi ghế khách, trả tiền hoặc có vé. Một chuyến xe chỉ có một 司机 nhưng nhiều 乘客。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "司机开车很快。",
+                "vi": "Tài xế lái xe rất nhanh.",
+                "comment": "Người cầm lái: 司机。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "乘客都坐好了。",
+                "vi": "Hành khách đều ngồi yên rồi.",
+                "comment": "Người đi xe: 乘客。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Khen hành khách lái nhanh sẽ thành một câu chuyện nguy hiểm."
+            },
+            "boundary": "Cầm vô lăng: 司机. Ngồi đi nhờ, có vé: 乘客。",
+            "tip": "Lái: 司机; đi: 乘客。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "司机 là từ hai âm tiết; nghĩa là tài xế.",
+          "literalTranslation": "司机师傅 là cách gọi bác tài lịch sự.",
+          "confusables": "Đã đối chiếu 司机 với 乘客。"
+        },
+        "pronunciation": {
+          "text": "司机 đọc hai âm tiết liền nhau, chữ đầu thanh một, chữ sau thanh một, đều ngang. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这位____开车很慢。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tài xế xe buýt rất tốt."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这位司机开车很慢。"
+            ],
+            "explanation": "Người lái dùng 司机。"
+          },
+          "q2": {
+            "accepted": [
+              "公交车司机很好。"
+            ],
+            "explanation": "Tài xế xe buýt dùng 司机。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tài xế hỏi tôi xuống ở đâu."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi cảm ơn tài xế."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 司机问我在哪儿下 để nói tài xế hỏi điểm xuống.",
+            "frame": "司机 + 问我 + 在哪儿下。",
+            "model": "司机问我在哪儿下。",
+            "vi": "Tài xế hỏi tôi xuống ở đâu.",
+            "criteria": [
+              "Có 司机.",
+              "Người hỏi là tài xế 司机。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我谢谢司机 để cảm ơn người lái.",
+            "frame": "我 + 谢谢 + 司机。",
+            "model": "我谢谢司机。",
+            "vi": "Tôi cảm ơn tài xế.",
+            "criteria": [
+              "Có 司机.",
+              "Cảm ơn tài xế dùng 司机。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    }
+  ]
+}
