@@ -1,3 +1,16 @@
+# Giai đoạn C đợt batch-064 → batch-066 — biên soạn mới ordinal 643–672 — đã phát hành và xác minh Pages
+
+- Merge commit: b74302aaea913f0b8404a6d8447956180814a751 (nhánh main, PR #26); nhánh biên soạn: `736bcc4` (file nhỏ: progress.json, content-audit.json, PROGRESS.md, cache-buster, ba tệp kho lưu batch) + `0bfe5f8` (file khóa học qua trình duyệt).
+- Biên soạn mới 30 bài V2: batch-064 ordinal 643–652 （脏 蓝 角 选 黄 黑 什么样 年轻 点头 特别）, batch-065 ordinal 653–662 （特点 白色 红色 绿色 蓝色 这样 那样 颜色 黄色 黑色）, batch-066 ordinal 663–672 （习惯 信号 信心 信息 努力 原因 实际 对话 影响 态度）. completedCount 642 → 672/2.224, còn 1.552; toàn khóa 682/2.234 bài đủ cấu trúc.
+- Phân loại tự đánh giá: dễ 14, trung bình 16, khó 0. Mọi bài theo chuẩn hiện hành: `lesson.tier1` hai tầng, Pinyin ở ví dụ, bẫy thật có câu đối chiếu, 2 câu luyện mở và 2 tình huống tự dùng, trường phát âm chỉ nêu số thanh.
+- Điểm nội dung: nhóm tên màu （白色 红色 绿色 蓝色 黄色 黑色 + từ tổng 颜色） dạy theo một khuôn chung xuyên suốt 7 bài — tên màu là danh từ độc lập, ghép trước vật phải có 的， chữ màu trơ ghép thẳng vào vật là cách tả ngắn nhất; mỗi bài chốt một mặt của khuôn và đối chiếu một cặp riêng （白/白色， 红/红色， 绿色/蓝色， 蓝色 thiếu 的， 颜色/彩色， 黄色 khuôn chung, 黑色/天黑）. 角 (645) dạy đơn vị hào trong giá tiền （元/角） và đối chiếu chữ đồng âm 脚 (549). 这样 (658)/那样 (659) soi gương hai phía. Chuỗi bài 66x liên kết nhau: 习惯 (663) đối chiếu 态度 (672) ở cuối đợt; 信号 (664)/信息 (666) phân biệt sóng và nội dung, 信心 (665) đối chiếu 相信 (587) về hướng của “tin”.
+- Sửa một nghĩa danh mục sai: 态度 (672) — danh mục ghi “cách thức”, đúng là “thái độ”; đã sửa trong `wordEdits` của batch-066 và ghi rõ trong bài.
+- Áp dụng bằng `process-batch apply` từng đợt (kiểm tra nguyên tử trước khi ghi); cả ba đợt qua cổng kiểm tra ngay vòng đầu, không phải áp dụng lại. Kiểm thử: process-batch verify PASS (672/2.224; 682 bài đủ cấu trúc), verify-v2 exit 0, quality-audit self-test PASS, test-dom PASS, kiểm thử hồi quy 113 khẳng định PASS, git diff --check clean. Tổng cảnh báo quality audit giữ nguyên 739; 30 bài mới có 0 cảnh báo. Cập nhật cache-buster khóa học thành batch-066.
+- Nhánh sao lưu `backup/phasec-064-066-20261028` ở main HEAD `0146c75`.
+- Pages run [40640530722](https://github.com/bohoa96tb/hazi-viet/actions/runs/40640530722) completed/success đúng HEAD b74302a (run #271). Lượt kiểm tra live đầu tiên bắt gặp run còn đang chạy nên dữ liệu vẫn là bản cũ; kiểm tra lại sau khi run hoàn tất mới khớp — đúng quy trình chờ triển khai xong mới kết luận.
+- Tệp khóa học live: 2.234 mục, 7.188.556 bytes, SHA-256 ff36adf034e055644981eb986dee10df0197d393cbab015fb0b383e355913630, khớp byte với bản đã kiểm; progress live 672/2.224. Tiếp theo: Giai đoạn C từ ordinal 673 （想法）; Giai đoạn B từ ordinal 122 （试） ở cửa sổ chuẩn hóa.
+- Chưa xác minh: TTS Android thật, phản biện giáo viên độc lập, bố cục mobile 360/390/430px. Quirk còn tồn tại: mở đáp án làm phần Học thêm đóng lại; chưa sửa trong đợt này.
+
 # Giai đoạn C đợt batch-061 → batch-063 — biên soạn mới ordinal 613–642 — đã phát hành và xác minh Pages
 
 - Merge commit: 5c0317a3c39d925f4eacaa60c63ba947b896ebeb (nhánh main, PR #25); nhánh biên soạn: `f2a251b` (file nhỏ: progress.json, content-audit.json, PROGRESS.md, cache-buster, ba tệp kho lưu batch) + `4998144` (file khóa học qua trình duyệt).
