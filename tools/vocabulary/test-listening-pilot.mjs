@@ -7,7 +7,7 @@ const course = JSON.parse(fs.readFileSync('data/vocabulary/hanzii-course.json', 
 const pilot = JSON.parse(fs.readFileSync('data/listening-pilot.json', 'utf8'));
 const byId = new Map(course.words.map(w => [w.id, w]));
 
-assert.equal(pilot.version, 2);
+assert.equal(pilot.version, 3);
 assert.ok(!('recordings' in pilot), 'The v1 external recordings must be gone');
 // The pilot lesson must be the real course page that contains the anchor word.
 const anchor = byId.get(pilot.lesson.anchorWordId);

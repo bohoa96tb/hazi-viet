@@ -110,3 +110,22 @@ body:has(.word-dashboard) main{max-width:960px;padding-top:20px}.compact-heading
 .lp-self{display:flex;flex-direction:column;gap:6px}
 .lp-survey{margin-top:12px}
 .lp-missing-box{margin:6px 0}
+
+/* Unified listening-speaking practice (pilot merged into Practice) */
+.lp-entry{display:flex;gap:14px;align-items:center;justify-content:space-between;background:#fff;border:1px solid #d8e2dc;border-radius:14px;padding:14px 16px;margin:14px 0}
+.lp-entry h2{margin:0 0 4px;font-size:17px}
+.lp-entry p{margin:0;color:#44554d;font-size:14px;line-height:1.5}
+.lp-entry .primary{white-space:nowrap}
+.lp-head{background:#fff;border:1px solid #d8e2dc;border-radius:14px;padding:16px;margin-bottom:12px}
+.lp-head h1{font-size:20px;margin:4px 0 8px}
+.lp-head p{line-height:1.55;margin:6px 0}
+.lp-head-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.lp-more{margin-top:12px;border-top:1px dashed #d8e2dc;padding-top:10px}
+.lp-more ul{margin:6px 0;padding-left:18px;line-height:1.55}
+.lp-samples-head{margin:22px 0 4px}
+.lp-samples-head h2{font-size:18px;margin:0 0 4px}
+.lp-samples-head p{color:#44554d;line-height:1.55;margin:0}
+.lp-rep-label{font-weight:600;margin:12px 0 2px;color:#153c32}
+.lp-rp{border:1px dashed #9db8ab;border-radius:10px;padding:10px 12px;margin:10px 0;background:#f4f9f6}
+.lp-rp p{margin:4px 0}
+@media (max-width:640px){.lp-entry{flex-direction:column;align-items:stretch}.lp-entry .primary{width:100%}}
