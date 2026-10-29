@@ -16,7 +16,16 @@ const $=s=>document.querySelector(s),click=s=>{assert($(s),'Missing '+s);$(s).cl
 assert($('#wordDialog').open);assert(!body().includes('Chuẩn V2'));assert(!body().includes('[Từ số '+sample.lesson.cohortOrdinal+']'));assert(!body().includes('Mã ví dụ:'));
 click('[data-step="1"]');assert.equal(document.querySelectorAll('.standard-example').length,sample.lesson.readingBlocks ? sample.lesson.usages.length : 2);assert(!document.querySelector('[data-lesson-view]'));
 if(sample.lesson.readingBlocks)click('[data-step="0"]');
-click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,sample.examples[0].zh);assert.equal(speech.at(-1).lang,'zh-CN');
+click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,sample.examples[0].zh);
+ // In-place word lookup: a segmented word opens the meaning popup in place, never Hanzi.
+ const wzSpan=document.querySelector('#lessonBody .wz');assert(wzSpan,'Lesson examples must render segmented word spans');
+ const wzWord=wzSpan.dataset.wz;wzSpan.click();
+ const wzPopup=document.querySelector('#wzPopup');assert(wzPopup&&!wzPopup.hidden,'Word popup must open when a word is clicked');
+ assert(wzPopup.textContent.includes(wzWord),'Popup must show the clicked word: '+wzWord);
+ assert(wzPopup.querySelector('[data-wz-hanzi]'),'Popup must offer the separate Hanzi analysis button');
+ assert(!document.querySelector('#lessonBody .wz a.hanzi-char'),'Upgraded reading text must not keep per-character Hanzi links');
+ document.dispatchEvent(new window.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));
+ assert(wzPopup.hidden,'Escape must close the word popup');assert.equal(speech.at(-1).lang,'zh-CN');
 click('[data-step="3"]');assert(!document.querySelector('.feedback'));assert(!document.querySelector('[data-v2-hint]'));
 const input=$('[data-v2-draft="q1"]');input.value=sampleAnswer;input.dispatchEvent(new window.Event('input',{bubbles:true}));click('[data-reveal-check="q1"]');assert(body().includes('Đáp án tham khảo'));assert.equal($('[data-v2-draft="q1"]').value,sampleAnswer);
 click('[data-v2-unlock]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(!body().includes(selfTranslation));click('[data-v2-hint="s1"]');assert(body().includes(selfTranslation));
