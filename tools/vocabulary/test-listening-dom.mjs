@@ -1,4 +1,4 @@
-// DOM test for the listening pilot section on the lesson board.
+// DOM test for the listening pilot v2: deep link, five steps, independent answers, player wiring.
 // Run with HAPPY_DOM_MODULE set, like test-dom.mjs.
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
@@ -7,7 +7,7 @@ const html = fs.readFileSync('vocabulary.html', 'utf8');
 const courseText = fs.readFileSync('data/vocabulary/hanzii-course.json', 'utf8');
 const pilotText = fs.readFileSync('data/listening-pilot.json', 'utf8');
 const dictText = fs.readFileSync('data/pinyin-dict.json', 'utf8');
-const window = new Window({ url: 'https://example.test/vocabulary.html' });
+const window = new Window({ url: 'https://example.test/vocabulary.html?listen=hz-h2-0ec2a615954f#words' });
 const { document } = window;
 document.open(); document.write(html.replace(/<script[\s\S]*?<\/script>/g, '')); document.close();
 for (const key of Object.getOwnPropertyNames(window)) if (!(key in globalThis)) globalThis[key] = window[key];
@@ -26,31 +26,53 @@ globalThis.fetch = url => {
   return respond('{}');
 };
 await import('../../js/vocabulary.js');
-await new Promise(r => setTimeout(r, 30));
+await new Promise(r => setTimeout(r, 50));
 const $ = s => document.querySelector(s);
-assert(!$('.listening-pilot'), 'Pilot section must not render on other lessons');
-// Go to HSK 2 and jump to the pilot page (index 11 within the level).
-$('[data-level="2"]').click();
-const jump = $('#courseLesson'); assert(jump, 'Lesson select exists');
-jump.value = '11'; jump.dispatchEvent(new window.Event('change', { bubbles: true }));
+const $$ = s => [...document.querySelectorAll(s)];
+// The deep link must land on the pilot lesson with the section visible, no manual navigation.
 const section = $('.listening-pilot');
-assert(section, 'Pilot section must render on the pilot lesson page');
+assert(section, 'Deep link ?listen= must open the pilot lesson directly');
 const text = section.textContent;
-assert(text.includes('Nghe theo bài'), 'Section title present');
-assert(text.includes('6/24 từ'), 'Practised count combines both evidence tiers: ' + text.slice(0, 200));
-assert(text.includes('公共汽车') && text.includes('出租车') && text.includes('地铁'), 'Verified words shown');
-assert(text.includes('腿'), 'Uncovered words are listed honestly');
-assert(!text.includes('hz-h2-'), 'No internal IDs leak into the UI');
-const frame = section.querySelector('iframe');
-assert(frame, 'YouTube embed present for the story recording');
-assert.equal(frame.getAttribute('loading'), 'lazy', 'Embed must not load eagerly with the page');
-assert(frame.src.includes('youtube-nocookie.com/embed/wcblX9JkLD4'), 'Official embed URL');
-// The link recording must be a plain source link, never a fake player.
-assert(section.querySelector('a.lp-open')?.href.includes('chinesefor.us'), 'Link recording opens the source page');
-assert(section.querySelector('.lp-qa'), 'Comprehension questions present with hidden answers');
-assert(section.querySelector('.wz'), 'Coverage sentences reuse the word-lookup spans');
-// Leaving the page removes the section again.
-jump.value = '0'; jump.dispatchEvent(new window.Event('change', { bubbles: true }));
+assert(text.includes('Giọng đọc máy (AI)'), 'AI voice is labelled honestly');
+assert(text.includes('tự biên soạn'), 'Self-authored dialogue is labelled');
+assert(text.includes('Từ của bài xuất hiện trong bản nghe: 6/24'), 'Verified coverage count is 6/24');
+assert(!section.querySelector('iframe') && !section.querySelector('.lp-card') && section.querySelector('[data-lp="play"]'), 'v1 recording cards and embeds are gone (rejected sources remain only as text in the survey log)');
+// Five steps, only the first visible.
+assert.equal($$('.lp-panel').length, 5);
+assert(!$('.lp-panel[data-panel="1"]').hidden && $('.lp-panel[data-panel="2"]').hidden, 'Step 1 shown first');
+// Gist: wrong answer is rejected, right answer accepted with explanation.
+$('[data-lp-step="2"]').click();
+assert(!$('.lp-panel[data-panel="2"]').hidden, 'Step 2 opens');
+$('[data-lp-gist="0"]').click();
+assert($('.lp-feedback').textContent.includes('Chưa đúng'), 'Wrong gist answer rejected');
+$('[data-lp-gist="1"]').click();
+assert($('.lp-feedback').textContent.includes('Đúng rồi'), 'Right gist answer accepted');
+// Details: each answer hidden independently.
+$('[data-lp-step="3"]').click();
+const answers = $$('.lp-detail .lp-answer');
+assert(answers.every(a => a.hidden), 'All detail answers start hidden');
+$$('[data-lp-reveal]')[0].click();
+assert(!answers[0].hidden && answers[1].hidden && answers[2].hidden, 'Revealing one answer leaves the others hidden');
+// Step 4: full transcript with per-line play buttons and word lookup spans.
+$('[data-lp-step="4"]').click();
+assert.equal($$('[data-panel="4"] [data-lp-line]').length, 11, 'One play button per dialogue line');
+assert($('[data-panel="4"]').querySelector('.wz'), 'Transcript sentences reuse the word-lookup spans');
+// Step 5: repeat lines + sample hidden until requested.
+$('[data-lp-step="5"]').click();
+assert($('[data-panel="5"] .lp-answer').hidden, 'Sample answer starts hidden');
+$('[data-lp-sample]').click();
+assert(!$('[data-panel="5"] .lp-answer').hidden, 'Sample answer reveals on its own button');
+// Player: pressing play wires the chain to the first line.
+$('[data-lp="play"]').click();
+assert($('.lp-now').textContent.includes('Câu 1/11'), 'Player starts at line 1: ' + $('.lp-now').textContent);
+// Self-assessment and save-for-review persist to local storage.
+$$('input[name="lpSelf"]')[1].click();
+$$('input[name="lpSelf"]')[1].dispatchEvent(new window.Event('change', { bubbles: true }));
+$('[data-lp="save"]').click();
+const saved = JSON.parse(window.localStorage.getItem('hanzi-viet-listen-v2'));
+assert(saved.done.gist && saved.done.detail && saved.done.compare && saved.self === 'need-text' && saved.saved === true, 'Progress, self-assessment and bookmark persist: ' + JSON.stringify(saved));
+// Leaving the lesson removes the section.
+const jump = $('#courseLesson'); jump.value = '0'; jump.dispatchEvent(new window.Event('change', { bubbles: true }));
 assert(!$('.listening-pilot'), 'Pilot section disappears on other pages');
-console.log('PASS listening-pilot DOM: section renders only on the pilot lesson, counts and embeds correct.');
+console.log('PASS listening-pilot DOM v2: deep link lands directly, five steps, independent hidden answers, player chain, persistence.');
 process.exit(0);
