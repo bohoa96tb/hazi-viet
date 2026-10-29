@@ -34,7 +34,7 @@ const oneShot=createAudioPlayer({synth:window.speechSynthesis,makeUtterance:t=>n
  if(s.status==='error'){const message=speechErrorMessage(s.error);if(box)box.textContent=message;notify(message);if($('#listenStatus'))$('#listenStatus').textContent=message;}
  if(s.status==='completed'){if(box)box.textContent='Bộ đọc đã báo phát xong câu thử. Nếu bạn không nghe thấy, hãy kiểm tra âm lượng và tai nghe.';if(stage===3&&quizMode==='listen'){heard=true;if($('#listenStatus'))$('#listenStatus').textContent='Đã phát xong. Hãy tự nhớ nghĩa trước khi xem câu.'}}
 }});
-function stop(){player.stop();oneShot.stop();conversationController?.stop()}
+function stop(){player.stop();oneShot.stop();conversationController?.stop();lpPausePilot()}
 function speak(text,slow=false,lang='zh-CN'){
  stop();oneShot.load([{text,lang,word:text,wordId:'test',wordIndex:0,label:'Thử giọng'}]);oneShot.setRate(slow?.65:audioOptions.rate);oneShot.play();
 }
@@ -97,34 +97,63 @@ document.addEventListener('keydown',e=>{
 window.addEventListener('resize',()=>{if(!wzPopup.hidden)placeWz()});
 
 
-// ---- Listening pilot: "Nghe theo bài" for one lesson page (external sources only) ----
+
+// ---- Listening pilot v2: one lesson, five steps, self-authored dialogue with pre-made AI-voice files ----
+let lpStep=1,lpAudio=null,lpQueue=[],lpPos=0,lpToken=0,lpLoop=false,lpRate=1,lpState=null,lpDeepLink=false;
+function lpLoad(){if(lpState)return lpState;try{lpState=JSON.parse(storage.getItem('hanzi-viet-listen-v2')||'{}')}catch{lpState={}}lpState.done=lpState.done||{};return lpState}
+function lpSave(){try{storage.setItem('hanzi-viet-listen-v2',JSON.stringify(lpState))}catch{}}
+function lpMark(key){const s=lpLoad();if(!s.done[key]){s.done[key]=true;lpSave()}lpRenderState()}
+function lpRenderState(){const s=lpLoad(),sec=document.querySelector('.listening-pilot');if(!sec)return;sec.querySelectorAll('[data-act]').forEach(li=>{const on=!!s.done[li.dataset.act];li.classList.toggle('done',on);li.querySelector('.lp-check').textContent=on?'✓':'·'});const save=sec.querySelector('[data-lp="save"]');if(save){save.textContent=s.saved?'★ Đã lưu để ôn lại':'☆ Lưu để ôn lại';save.setAttribute('aria-pressed',s.saved?'true':'false')}sec.querySelectorAll('input[name="lpSelf"]').forEach(r=>{r.checked=s.self===r.value})}
+function lpPlayer(){if(!lpAudio){lpAudio=new Audio();lpAudio.preload='none';lpAudio.addEventListener('ended',lpNext);lpAudio.addEventListener('play',lpSyncBtn);lpAudio.addEventListener('pause',lpSyncBtn)}return lpAudio}
+function lpSyncBtn(){const b=document.querySelector('[data-lp="play"]');if(b)b.textContent=lpAudio&&!lpAudio.paused?'⏸ Tạm dừng':'▶ Nghe toàn bài'}
+function lpSetNow(text){const el=document.querySelector('.lp-now');if(el)el.textContent=text}
+function lpPlayLines(from){const R=listeningPilot?.recording;if(!R)return;stop();const a=lpPlayer();lpToken++;lpQueue=R.lines.map((_,i)=>i).slice(from);lpPos=0;lpPlayCurrent()}
+function lpPlayCurrent(){const R=listeningPilot.recording,a=lpPlayer(),tk=lpToken;const idx=lpQueue[lpPos];if(idx==null){lpSetNow('');return}a.src='./'+R.lines[idx].audio+'?v=2';a.playbackRate=lpRate;lpSetNow(`Câu ${idx+1}/${R.lines.length} · ${R.lines[idx].name}`);try{const p=a.play();if(p&&p.catch)p.catch(()=>{})}catch{}}
+function lpNext(){const R=listeningPilot.recording;if(lpPos<lpQueue.length-1){lpPos++;const tk=lpToken;setTimeout(()=>{if(tk===lpToken)lpPlayCurrent()},350)}else if(lpLoop&&lpQueue.length===R.lines.length){lpPos=0;const tk=lpToken;setTimeout(()=>{if(tk===lpToken)lpPlayCurrent()},500)}else{if(lpQueue[0]===0&&lpQueue.length===R.lines.length)lpMark('played');lpSetNow('Đã nghe hết bài.');lpSyncBtn()}}
+function lpPausePilot(){if(lpAudio&&!lpAudio.paused)lpAudio.pause()}
+function lpTogglePlay(){const a=lpPlayer();if(!a.paused){a.pause();return}if(lpQueue.length&&a.src&&!a.ended){try{const p=a.play();if(p&&p.catch)p.catch(()=>{})}catch{};return}lpPlayLines(0)}
+function lpShowStep(n){lpStep=n;document.querySelectorAll('.lp-panel').forEach(p=>{p.hidden=Number(p.dataset.panel)!==n});document.querySelectorAll('[data-lp-step]').forEach(b=>{const on=Number(b.dataset.lpStep)===n;b.classList.toggle('active',on);b.setAttribute('aria-pressed',on?'true':'false')});if(n===4)lpMark('compare')}
 function listeningHTML(pageWords){
   if(!listeningPilot||!pageWords.length)return '';
-  const L=listeningPilot.lesson;
-  if(pageWords[0].id!==L.firstWordId||pageWords.length!==L.wordIds.length)return '';
-  const byId=id=>words.find(w=>w.id===id);
-  const verified=new Map(),translated=new Map();
-  for(const r of listeningPilot.recordings){
-    for(const c of r.coverage||[])if(!verified.has(c.wordId))verified.set(c.wordId,c.sentence);
-    for(const c of r.translationCovered||[])if(!verified.has(c.wordId)&&!translated.has(c.wordId))translated.set(c.wordId,c.evidence);
-  }
-  const missing=L.wordIds.filter(id=>!verified.has(id)&&!translated.has(id));
+  const L=listeningPilot.lesson,R=listeningPilot.recording;
+  if(!R||pageWords[0].id!==L.firstWordId||pageWords.length!==L.wordIds.length)return '';
+  const byId=id=>words.find(w=>w.id===id);queueMicrotask(()=>lpRenderState());
+  const covered=new Map();for(const ln of R.lines)for(const id of ln.words||[])if(!covered.has(id))covered.set(id,ln.zh);
+  const missing=L.wordIds.filter(id=>!covered.has(id));
   const chip=id=>{const w=byId(id);return w?`<span class="lp-chip"><b lang="zh-CN">${esc(w.hanzi)}</b> ${esc(w.meaning)}</span>`:''};
-  const card=r=>{
-    const sentences=[...new Map((r.coverage||[]).map(c=>[c.sentence,(r.coverage||[]).filter(x=>x.sentence===c.sentence).map(x=>byId(x.wordId)?.hanzi).filter(Boolean)])).entries()];
-    return `<article class="lp-card"><h3>${esc(r.title)}</h3><p class="lp-meta">${esc(r.sourceName)} · ${esc(r.voiceLabel)}${r.durationLabel?` · ${esc(r.durationLabel)}`:''}</p><p>${esc(r.situation)}</p>`
-    +(r.embedUrl?`<div class="lp-embed"><iframe src="${esc(r.embedUrl)}" loading="lazy" title="${esc(r.title)}" allow="encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>`:`<p><a class="lp-open" href="${esc(r.sourceUrl)}" target="_blank" rel="noopener">Mở bài nghe tại nguồn ↗</a></p>`)
-    +`<p class="lp-covered">Từ của bài trong bản nghe này: ${(r.coverage||[]).map(c=>chip(c.wordId)).join(' ')||'—'}</p>`
-    +(sentences.length?`<ul class="lp-sentences">${sentences.map(([sent,hs])=>`<li>${hanziWords(sent,[])} <small>(${hs.map(esc).join(' · ')})</small></li>`).join('')}</ul>`:'')
-    +((r.translationCovered||[]).length?`<p class="lp-covered">Có thêm trong hội thoại tại nguồn*: ${(r.translationCovered||[]).map(c=>chip(c.wordId)).join(' ')}</p>`:'')
-    +(r.guide?`<p>${esc(r.guide)}</p>`:'')
-    +((r.questions||[]).length?`<details class="lp-qa"><summary>Câu hỏi hiểu nội dung — đáp án ẩn, bấm để mở</summary>${r.questions.map(x=>`<p><b>${esc(x.q)}</b></p><p>${hanziWords(x.a,[])}</p>`).join('')}</details>`:'')
-    +(r.limitations?`<p class="lp-limit">${esc(r.limitations)}</p>`:'')
-    +`<p class="lp-limit">${esc(r.usageNote||'')} ${esc(r.transcriptNote||'')}</p></article>`;
-  };
-  return `<section class="listening-pilot" aria-label="Nghe theo bài"><h2>🎧 Nghe theo bài · ${esc(L.theme)}</h2><p class="lp-summary">Bài có ${L.wordIds.length} từ. Các bản nghe có sẵn dưới đây luyện được <b>${verified.size+translated.size}/${L.wordIds.length} từ</b> (${verified.size} từ đã đối chiếu bằng câu transcript${translated.size?`, ${translated.size} từ đối chiếu qua bản dịch chính thức của nguồn — đánh dấu *`:''}).</p><p class="lp-missing">Từ chưa xuất hiện trong các bản nghe đã chọn: ${missing.map(id=>byId(id)?.hanzi).filter(Boolean).map(esc).join('、')||'không có'}.</p>${listeningPilot.recordings.map(card).join('')}<p class="lp-limit">${esc(listeningPilot.intro)} Kiểm tra nguồn ngày ${esc(listeningPilot.checkedDate)}.</p></section>`;
+  const lineRow=(ln,withVi)=>`<div class="lp-line"><button class="lp-play" data-lp-line="1" data-line-idx="${R.lines.indexOf(ln)}" aria-label="Nghe câu ${R.lines.indexOf(ln)+1}">▶</button><div><span class="lp-speaker ${ln.speaker==='F'?'f':'m'}">${esc(ln.name)}</span> ${hanziWords(ln.zh,[])}${withVi?`<div class="lp-vi">${esc(ln.vi)}</div>`:''}</div></div>`;
+  const steps=['Chuẩn bị','Nghe ý chính','Nghe chi tiết','Đối chiếu','Nhắc lại & tự dùng'];
+  return `<section class="listening-pilot" id="listeningPilot" aria-label="Nghe theo bài"><h2>🎧 Nghe theo bài · ${esc(L.theme)}</h2>
+  <p class="lp-badges"><span class="lp-badge warn">${esc(listeningPilot.authorship.label)}</span><span class="lp-badge">${esc(listeningPilot.authorship.voiceLabel)}</span><span class="lp-badge">${esc(R.durationNote)}</span></p>
+  <p class="lp-limit">${esc(listeningPilot.revisionNote)}</p>
+  <div class="lp-player"><button class="primary" data-lp="play">▶ Nghe toàn bài</button><button class="soft" data-lp="loop" aria-pressed="false">Lặp: Tắt</button><button class="soft" data-lp="rate">Tốc độ: 1×</button><span class="lp-now" aria-live="polite"></span></div>
+  <nav class="lp-steps" aria-label="Các bước học nghe">${steps.map((t,i)=>`<button data-lp-step="${i+1}" class="${i===0?'active':''}" aria-pressed="${i===0}">${i+1}. ${t}</button>`).join('')}</nav>
+  <div class="lp-panel" data-panel="1"><p><b>Tình huống:</b> ${esc(R.situation)}</p><p><b>Mục tiêu nghe:</b> ${esc(R.goal)}</p><p class="lp-covered">Từ cần biết trước khi nghe: ${R.prepWords.map(p=>`<span class="lp-chip">${hanziWords(p.zh,[])} ${esc(p.vi)}</span>`).join(' ')}</p><p>Khi sẵn sàng, bấm “Nghe toàn bài” ở trên rồi sang bước 2. Nghe lại bao nhiêu lần cũng được.</p></div>
+  <div class="lp-panel" data-panel="2" hidden><p>Nghe toàn bài trước (chưa cần nhìn chữ), rồi trả lời câu hỏi ý chính:</p><p class="lp-q">${esc(R.gist.q)}</p><div class="lp-options">${R.gist.options.map((o,i)=>`<button class="soft" data-lp-gist="${i}">${esc(o)}</button>`).join('')}</div><p class="lp-feedback" hidden></p></div>
+  <div class="lp-panel" data-panel="3" hidden><p>Nghe lại nếu cần. Mỗi câu hỏi có đáp án riêng — hãy tự trả lời trước khi mở.</p>${R.details.map((d,i)=>`<div class="lp-detail"><p class="lp-q">${i+1}. ${esc(d.q)}</p><button class="soft" data-lp-reveal="${i}">Xem đáp án</button><div class="lp-answer" hidden><p><b>Đáp án:</b> ${esc(d.a)}</p><p>${hanziWords(d.explain,[])}</p></div></div>`).join('')}</div>
+  <div class="lp-panel" data-panel="4" hidden><p>Đối chiếu từng câu: bấm ▶ để nghe lại câu, bấm vào từng từ để tra nghĩa, Pinyin và nghe phát âm. Pinyin chỉ hiện cho từ bạn bấm, không phủ toàn bài.</p>${R.lines.map(ln=>lineRow(ln,true)).join('')}<p><b>Điểm nghe đáng chú ý:</b></p><ul>${R.listeningNotes.map(n=>`<li>${esc(n)}</li>`).join('')}</ul></div>
+  <div class="lp-panel" data-panel="5" hidden><p>Nghe mẫu, tạm dừng, rồi nhắc lại thành tiếng ba câu hữu ích nhất:</p>${R.repeat.map(n=>lineRow(R.lines[n-1],true)).join('')}<p class="lp-q">${esc(R.task.prompt)}</p><p>Khung câu gợi ý: ${hanziWords(R.task.frame,[])}</p><button class="soft" data-lp-sample>Xem câu mẫu</button><div class="lp-answer" hidden><p>${hanziWords(R.task.sample.zh,[])}</p><p class="lp-vi">${esc(R.task.sample.vi)}</p><p class="lp-limit">${esc(R.task.sampleNote)}</p></div></div>
+  <div class="lp-stats"><p><b>Từ của bài xuất hiện trong bản nghe: ${covered.size}/${L.wordIds.length}</b> — đây là số từ nghe nhận ra được trong bài, không phải mức thành thạo.</p><p class="lp-covered">${[...covered.keys()].map(chip).join(' ')}</p><details class="lp-missing-box"><summary>${missing.length} từ của bài chưa xuất hiện trong bản nghe này</summary><p>${missing.map(id=>byId(id)?.hanzi).filter(Boolean).map(esc).join('、')}</p></details>
+  <p><b>Hoạt động đã hoàn thành</b> (tự ghi lại trên máy này):</p><ul class="lp-acts">${[['played','Đã nghe hết toàn bài'],['gist','Đã trả lời đúng câu ý chính'],['detail','Đã mở ít nhất một đáp án chi tiết'],['compare','Đã mở bước đối chiếu transcript'],['task','Đã xem câu mẫu ở bước tự dùng']].map(([k,t])=>`<li data-act="${k}"><span class="lp-check">·</span> ${t}</li>`).join('')}</ul>
+  <p><b>Tự đánh giá mức hiểu của bạn:</b></p><div class="lp-self">${[['gist-ok','Tôi hiểu ý chính'],['need-text','Tôi còn cần xem chữ'],['again','Tôi muốn nghe lại']].map(([v,t])=>`<label><input type="radio" name="lpSelf" value="${v}"> ${t}</label>`).join('')}</div>
+  <p><button class="soft" data-lp="save" aria-pressed="false">☆ Lưu để ôn lại</button></p></div>
+  <details class="lp-survey"><summary>Vì sao pilot dùng hội thoại tự biên soạn? Nhật ký khảo sát nguồn</summary><p>${esc(listeningPilot.authorship.note)}</p><p>${esc(listeningPilot.authorship.voiceNote)}</p><ul>${listeningPilot.surveyLog.map(s=>`<li><b>${esc(s.source)}</b> — ${esc(s.result)}: ${esc(s.note)}</li>`).join('')}</ul><p><b>Nghe thêm ở nguồn ngoài (tham khảo, không phải bài chính):</b></p><ul>${listeningPilot.references.map(r=>`<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a> · ${esc(r.sourceName)} · ${esc(r.access)}. ${esc(r.note)}</li>`).join('')}</ul></details>
+  </section>`;
 }
-
+document.addEventListener('click',e=>{
+  const sec=e.target.closest('.listening-pilot');if(!sec)return;
+  const stepBtn=e.target.closest('[data-lp-step]');if(stepBtn){lpShowStep(Number(stepBtn.dataset.lpStep));return}
+  const lineBtn=e.target.closest('[data-lp-line]');if(lineBtn){const i=Number(lineBtn.dataset.lineIdx);stop();const a=lpPlayer();lpToken++;lpQueue=[i];lpPos=0;lpPlayCurrent();return}
+  const gistBtn=e.target.closest('[data-lp-gist]');if(gistBtn){const R=listeningPilot.recording,fb=sec.querySelector('.lp-feedback'),ok=Number(gistBtn.dataset.lpGist)===R.gist.answer;fb.hidden=false;fb.textContent=ok?`Đúng rồi. ${R.gist.explain}`:'Chưa đúng — nghe lại toàn bài rồi chọn lại nhé.';fb.className='lp-feedback '+(ok?'ok':'no');if(ok)lpMark('gist');return}
+  const revBtn=e.target.closest('[data-lp-reveal]');if(revBtn){const box=revBtn.parentElement.querySelector('.lp-answer');box.hidden=!box.hidden;revBtn.textContent=box.hidden?'Xem đáp án':'Ẩn đáp án';if(!box.hidden)lpMark('detail');return}
+  if(e.target.closest('[data-lp-sample]')){const box=sec.querySelector('[data-panel="5"] .lp-answer');box.hidden=!box.hidden;e.target.closest('[data-lp-sample]').textContent=box.hidden?'Xem câu mẫu':'Ẩn câu mẫu';if(!box.hidden)lpMark('task');return}
+  const act=e.target.closest('[data-lp]');if(!act)return;
+  if(act.dataset.lp==='play')lpTogglePlay();
+  else if(act.dataset.lp==='loop'){lpLoop=!lpLoop;act.textContent=lpLoop?'Lặp: Bật':'Lặp: Tắt';act.setAttribute('aria-pressed',lpLoop?'true':'false')}
+  else if(act.dataset.lp==='rate'){lpRate=lpRate===1?0.8:1;act.textContent=`Tốc độ: ${lpRate===1?'1×':'0,8×'}`;if(lpAudio)lpAudio.playbackRate=lpRate}
+  else if(act.dataset.lp==='save'){const s=lpLoad();s.saved=!s.saved;lpSave();lpRenderState()}
+});
+document.addEventListener('change',e=>{if(e.target.name==='lpSelf'){const s=lpLoad();s.self=e.target.value;lpSave()}});
 function sentence(s){return `${pinyinShown&&pinyinOf(s.zh)?`<p class="pinyin pinyin-above">${esc(pinyinOf(s.zh))}</p>`:''}<div class="example-zh">${hanziWords(s.zh)}</div><p class="translation">${esc(s.vi)}</p>${s.analysis?`<p class="analysis">${richWords(s.analysis)}</p>`:''}<div class="audio-row"><button class="soft" data-say="${esc(s.zh)}">◖ Nghe câu</button><button class="soft" data-say="${esc(s.zh)}" data-slow="1">Nghe chậm</button></div>`}
 function playLessonSegments(segments){stop();if(!segments.length){notify('Phần này chưa có audio theo mẫu mới.');return}oneShot.load(segments.map(s=>({...s,wordId:selected?.id||'section',word:selected?.hanzi||'',wordIndex:0})));oneShot.setRate(audioOptions.rate);oneShot.play();}
 function coverageNotice(word){const a=auditLesson(word);if(a.ready)return '';const missing=standardSections.filter(([key])=>a.issues.some(i=>i.path===key||i.path.startsWith(key+'.')));return `<details class="content-coverage"><summary>Đang bổ sung theo mẫu 5.1–5.6</summary><p>Mục này chưa đủ mẫu mới. Phần có sẵn có thể dùng để tham khảo; chưa được coi là bài giảng hoàn chỉnh.</p><ul>${missing.map(([,label])=>`<li>${esc(label)}</li>`).join('')}</ul></details>`;}
@@ -283,6 +312,6 @@ function handlePlayer(action){
 window.speechSynthesis?.addEventListener('voiceschanged',showVoices);
 document.addEventListener('change',e=>{const key=e.target.dataset.display;if(!key)return;display[key]=e.target.checked;if(!Object.values(display).some(Boolean)){display[key]=true;e.target.checked=true;notify('Giữ ít nhất một mục hiển thị để chọn được từ.');return}saveDisplay();renderList()});
 
-async function boot(){try{const r=await fetch('./data/vocabulary/hanzii-course.json?v=batch-090');if(!r.ok)throw Error('Thiếu file data/vocabulary/hanzii-course.json.');dataset=validateCourse(await r.json());try{const pr=await fetch('./data/pinyin-dict.json?v=1');if(pr.ok){wzDict=await pr.json();pinyinOf=createPinyin(wzDict)}}catch{}words=dataset.words;try{const or2=await fetch('./data/word-overrides.json?v=1');if(or2.ok){const oj=await or2.json();if(oj&&typeof oj==='object'&&(oj.sentences||oj.words))wzOverrides=oj}}catch{}wordLookup=createWordLookup({courseWords:words,dict:wzDict,overrides:wzOverrides});try{const lr=await fetch('./data/listening-pilot.json?v=1');if(lr.ok){const lj=await lr.json();if(lj&&Array.isArray(lj.lesson?.wordIds)&&Array.isArray(lj.recordings))listeningPilot=lj}}catch{}audioOptions.to=words.length;const p=new URLSearchParams(location.search),id=p.get('word'),saved=words.find(w=>w.id===id),step=Number(p.get('step')||0);if(saved)courseLevel=saved.level;route();if(saved){lessonPage=coursePages(dataset,filtered()).findIndex(l=>l.wordIds.includes(saved.id));openWord(saved.id,{stage:step,queue:lessonWords().map(w=>w.id)})}else if(id)notify('Từ được liên kết chưa có trong khóa học.')}catch(err){main.innerHTML=`<section class="panel"><h1>Chưa mở được bài học</h1><p>${esc(err.message)}</p><p>Hãy mở qua địa chỉ GitHub Pages, không mở file HTML trực tiếp.</p><button class="primary" id="retryLoad">Thử lại</button></section>`;$('#retryLoad').onclick=()=>location.reload()}}
+async function boot(){try{const r=await fetch('./data/vocabulary/hanzii-course.json?v=batch-090');if(!r.ok)throw Error('Thiếu file data/vocabulary/hanzii-course.json.');dataset=validateCourse(await r.json());try{const pr=await fetch('./data/pinyin-dict.json?v=1');if(pr.ok){wzDict=await pr.json();pinyinOf=createPinyin(wzDict)}}catch{}words=dataset.words;try{const or2=await fetch('./data/word-overrides.json?v=1');if(or2.ok){const oj=await or2.json();if(oj&&typeof oj==='object'&&(oj.sentences||oj.words))wzOverrides=oj}}catch{}wordLookup=createWordLookup({courseWords:words,dict:wzDict,overrides:wzOverrides});try{const lr=await fetch('./data/listening-pilot.json?v=1');if(lr.ok){const lj=await lr.json();if(lj&&Array.isArray(lj.lesson?.wordIds)&&Array.isArray(lj.recording?.lines))listeningPilot=lj}}catch{}audioOptions.to=words.length;const p=new URLSearchParams(location.search),id=p.get('word');const listenId=p.get('listen');if(listenId&&listeningPilot&&listenId===listeningPilot.lesson.anchorWordId){courseLevel=listeningPilot.lesson.level;filter='all';query='';const pages=coursePages(dataset,filtered());const pi=pages.findIndex(l=>l.wordIds.includes(listenId));if(pi>=0){lessonPage=pi;lpDeepLink=true}}const saved=words.find(w=>w.id===id),step=Number(p.get('step')||0);if(saved)courseLevel=saved.level;route();if(saved){lessonPage=coursePages(dataset,filtered()).findIndex(l=>l.wordIds.includes(saved.id));openWord(saved.id,{stage:step,queue:lessonWords().map(w=>w.id)})}else if(id)notify('Từ được liên kết chưa có trong khóa học.');if(lpDeepLink)setTimeout(()=>{document.querySelector('.listening-pilot')?.scrollIntoView({behavior:'smooth',block:'start'})},80)}catch(err){main.innerHTML=`<section class="panel"><h1>Chưa mở được bài học</h1><p>${esc(err.message)}</p><p>Hãy mở qua địa chỉ GitHub Pages, không mở file HTML trực tiếp.</p><button class="primary" id="retryLoad">Thử lại</button></section>`;$('#retryLoad').onclick=()=>location.reload()}}
 boot();
 
