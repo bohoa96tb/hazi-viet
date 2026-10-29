@@ -1,0 +1,780 @@
+{
+ "version": 1,
+ "authorship": {
+  "type": "human-video",
+  "label": "Video người thật có sẵn trên YouTube (không phải giọng AI, không phải giọng đọc của thiết bị).",
+  "voiceLabel": "Giọng người thật trong video (Chinese Station)",
+  "voiceVerification": "Cả 5 video đều đã được phát thử: người thật đóng vai, nói tiếng Trung phổ thông rõ ràng trong tình huống ngắn; bản không phụ đề và bản phụ đề tiếng Trung của mỗi bài dài bằng nhau và đã được đối chiếu chéo.",
+  "transcriptSource": "Lời thoại lấy từ trang bài học chính thức của Chinese Station và đối chiếu với phụ đề chữ Hán cháy sẵn trong bản phụ đề của đúng video đó; app chép đúng lời thoại của bản ghi đã chọn.",
+  "vietnamese": "Nghĩa tiếng Việt, câu hỏi, đáp án và gợi ý tự nói do đội ngũ biên soạn của app viết từ nội dung thật của video, trong phạm vi quyền sử dụng dưới đây.",
+  "note": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề, sai số khoảng ±1 giây do đồng hồ trình phát chỉ hiện từng giây; ba video quá ngắn hoặc có câu dưới 1 giây được nghe cả đoạn thay vì tách câu. Chưa kiểm chứng trên thiết bị Android thật.",
+  "rights": "Video của Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai (Chinese Station): nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi nguồn. App nhúng trình phát YouTube chính thức và ghi nguồn tại từng video; không sao chép, không đăng lại video."
+ },
+ "references": [
+  {
+   "label": "Chinese Station — trang chính thức của loạt CS4 (nguồn lời thoại và video)",
+   "url": "https://www.ch-station.org/index-chinese-station4/"
+  },
+  {
+   "label": "CS4-0203 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-0203/"
+  },
+  {
+   "label": "CS4-0205 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-0205/"
+  },
+  {
+   "label": "CS4-0105 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-0105/"
+  },
+  {
+   "label": "CS4-0801 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-0801/"
+  },
+  {
+   "label": "CS4-0804 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-0804/"
+  }
+ ],
+ "lesson": {
+  "firstWordId": "hz-h1-64d354d405bb",
+  "anchorWordId": "hz-h1-64d354d405bb",
+  "levelLabel": "HSK 1",
+  "lessonLabel": "HSK 1 · Bài 1",
+  "wordIds": [
+   "hz-h1-64d354d405bb",
+   "hz-h1-0a3f1c936624",
+   "hz-h1-1ac411c12450",
+   "hz-h1-fb76fb22fed2",
+   "hz-h1-489f35fdb6de",
+   "hz-h1-14cd68fb49a8",
+   "hz-h1-84d9b4b03d4f",
+   "hz-h1-0e7703e395dc",
+   "hz-h1-722d36ebd9c0",
+   "hz-h1-3f50a387a499",
+   "hz-h1-15b6a3af5e33",
+   "hz-h1-b71f4cfff8c9",
+   "hz-h1-dadf7ffde866",
+   "hz-h1-d869fcbf074b",
+   "hz-h1-628ff5c3507e",
+   "hz-h1-4247545ee5f9",
+   "hz-h1-b05b84230588",
+   "hz-h1-4789a966f565",
+   "hz-h1-277c140499d4",
+   "hz-h1-ac895f18b59d",
+   "hz-h1-fdbb78c8e725",
+   "hz-h1-22357796d4e3",
+   "hz-h1-58837eebf47f",
+   "hz-h1-8de2a5b77843"
+  ],
+  "note": "Bài 1 là bài chào hỏi và giới thiệu. Bộ 5 video người thật rất ngắn (7–13 giây) phủ 14/24 từ đã xác minh nghe được trong lời thoại. 10 từ còn thiếu: 他，她，我们，你们，汉字，中文，汉语，学生，同学，朋友 — trong đó 中文 và 学生 chỉ xuất hiện bên trong từ ghép （中文系，留学生） ở video 1 nên không tính; khi có nguồn phù hợp sẽ bổ sung sau.",
+  "theme": "Chào hỏi và giới thiệu"
+ },
+ "prepare": {
+  "focus": "Nghe năm tình huống chào hỏi rất ngắn: giới thiệu tên, hỏi quốc tịch, chào thầy, xin lỗi và tạm biệt. Các câu đều ngắn và chậm; hãy nghe từ khóa trước: 你好，我叫，谢谢，对不起，再见。",
+  "distractors": [
+   "Tên riêng của nhân vật (Trương Lệ Lệ, Điền Trung Mỹ Hoa, Ngô Tiểu Minh) không phải từ của bài.",
+   "中文系 (khoa tiếng Trung) và 留学生 (du học sinh) là từ ghép — từ 中文 và 学生 bên trong chưa được tính là đã nghe ở dạng độc lập."
+  ]
+ },
+ "recordings": [
+  {
+   "id": "cs4-0203",
+   "lessonCode": "CS4-0203",
+   "title": "Lần đầu gặp nhau: chào và giới thiệu",
+   "situation": "Hai cô gái lần đầu gặp mặt: chào nhau, giới thiệu tên và khoa/ngành học của mình, rồi hẹn giúp đỡ nhau.",
+   "videoId": "AaxG9nc1Lq4",
+   "durationSec": 11,
+   "addsNewWords": [
+    "你",
+    "我",
+    "叫",
+    "是",
+    "不客气"
+   ],
+   "prepare": {
+    "focus": "Nghe các câu chào và giới thiệu rất ngắn; để ý tên người được nhắc trong câu.",
+    "distractors": [
+     "Tên riêng (như Trương Lệ Lệ, Ngô Tiểu Minh) không phải từ của bài."
+    ]
+   },
+   "gist": {
+    "question": "Hai người mới gặp nhau nói những gì?",
+    "options": [
+     "Chào nhau và giới thiệu tên, khoa/ngành của mình",
+     "Hỏi đường đến trường",
+     "Cảm ơn vì được đưa ra sân bay"
+    ],
+    "answer": 0,
+    "explain": "Cả hai cùng dùng mẫu 你好，我叫…，是… để giới thiệu bản thân."
+   },
+   "details": [],
+   "lines": [
+    {
+     "speaker": "张丽丽",
+     "text": "你好，我叫张丽丽，是中文系的。",
+     "pinyin": "Nǐ hǎo, wǒ jiào Zhāng Lìlì, shì Zhōngwén xì de.",
+     "vi": "Chào bạn, mình tên là Trương Lệ Lệ, học khoa tiếng Trung.",
+     "words": [
+      "hz-h1-0a3f1c936624",
+      "hz-h1-64d354d405bb",
+      "hz-h1-628ff5c3507e",
+      "hz-h1-d869fcbf074b"
+     ],
+     "start": 0,
+     "end": 2
+    },
+    {
+     "speaker": "田中美华",
+     "text": "你好，我叫田中美华，是日本留学生。",
+     "pinyin": "Nǐ hǎo, wǒ jiào Tiánzhōng Měihuá, shì Rìběn liúxuéshēng.",
+     "vi": "Chào bạn, mình tên là Điền Trung Mỹ Hoa, là du học sinh Nhật Bản.",
+     "words": [
+      "hz-h1-0a3f1c936624",
+      "hz-h1-64d354d405bb",
+      "hz-h1-628ff5c3507e",
+      "hz-h1-d869fcbf074b"
+     ],
+     "start": 2,
+     "end": 6
+    },
+    {
+     "speaker": "张丽丽",
+     "text": "以后请多帮助。",
+     "pinyin": "Yǐhòu qǐng duō bāngzhù.",
+     "vi": "Từ nay mong bạn giúp đỡ nhiều.",
+     "words": [],
+     "start": 6,
+     "end": 8
+    },
+    {
+     "speaker": "田中美华",
+     "text": "不客气，互相帮助。",
+     "pinyin": "Bú kèqi, hùxiāng bāngzhù.",
+     "vi": "Không có chi, mình giúp đỡ lẫn nhau mà.",
+     "words": [
+      "hz-h1-3f50a387a499"
+     ],
+     "start": 8,
+     "end": 10.5
+    }
+   ],
+   "compareNote": "中文 trong câu 1 nằm trong từ ghép 中文系 (khoa tiếng Trung), và 学生 trong câu 2 nằm trong từ ghép 留学生 (du học sinh) — hai từ này chưa được tính là “đã nghe được” ở dạng từ độc lập.",
+   "timingNote": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề (hai bản dài bằng nhau), sai số khoảng ±1 giây; video rất ngắn nên các câu nối nhau liên tiếp.",
+   "goal": "Nghe và nắm được: hai người tên gì, mỗi người học/làm gì.",
+   "prepWords": [
+    {
+     "zh": "中文系",
+     "vi": "khoa tiếng Trung"
+    },
+    {
+     "zh": "留学生",
+     "vi": "du học sinh"
+    },
+    {
+     "zh": "以后",
+     "vi": "từ nay về sau"
+    },
+    {
+     "zh": "帮助",
+     "vi": "giúp đỡ"
+    }
+   ],
+   "kind": "youtube",
+   "channel": "cnstation",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-0203/",
+   "watchUrl": "https://www.youtube.com/watch?v=AaxG9nc1Lq4",
+   "subtitleVideoId": "n7ie5M9z5GI",
+   "fullVideoId": "wrhr7iJp8QE",
+   "voiceLabel": "Người thật đóng hội thoại — hai diễn viên nữ",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không sao chép hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; cả hai bản (không phụ đề và phụ đề tiếng Trung) đều đã phát thử và cho phép nhúng chính thức (29/10/2026).",
+   "durationNote": "Video 11 giây; hội thoại khoảng 10 giây",
+   "listeningNotes": [
+    "Câu giới thiệu theo mẫu 我叫…，是… — tên riêng đứng ngay sau 叫。",
+    "不客气 ở câu cuối là lời đáp khi được hứa giúp đỡ — không chỉ dùng sau câu cảm ơn."
+   ],
+   "repeat": [
+    1
+   ],
+   "task": {
+    "prompt": "Tự giới thiệu khi mới gặp một người bạn: chào, nói tên của bạn và nói bạn là học sinh hay giáo viên.",
+    "frame": "你好！我叫___，是学生。",
+    "sample": {
+     "zh": "你好！我叫明英，是学生。",
+     "py": "Nǐ hǎo! Wǒ jiào Míngyīng, shì xuésheng.",
+     "vi": "Chào bạn! Mình tên là Minh Anh, là học sinh."
+    },
+    "note": "Thay tên của bạn vào chỗ trống; nếu bạn là giáo viên, đổi 学生 thành 老师。"
+   }
+  },
+  {
+   "id": "cs4-0205",
+   "lessonCode": "CS4-0205",
+   "title": "Hỏi tên và quốc tịch",
+   "situation": "Một cô gái hỏi tên và quốc tịch của người bạn mới; anh cho biết mình là người Trung Quốc.",
+   "videoId": "E8rY2GptiD0",
+   "durationSec": 8,
+   "addsNewWords": [
+    "名字",
+    "中国",
+    "人"
+   ],
+   "prepare": {
+    "focus": "Nghe các câu chào và giới thiệu rất ngắn; để ý tên người được nhắc trong câu.",
+    "distractors": [
+     "Tên riêng (như Trương Lệ Lệ, Ngô Tiểu Minh) không phải từ của bài."
+    ]
+   },
+   "gist": {
+    "question": "Hai người hỏi nhau những điều gì?",
+    "options": [
+     "Tên và quốc tịch",
+     "Địa chỉ nhà",
+     "Số điện thoại"
+    ],
+    "answer": 0,
+    "explain": "Câu hỏi chính là 你叫什么名字？ và 你是韩国人吗？"
+   },
+   "details": [],
+   "lines": [
+    {
+     "speaker": "田中",
+     "text": "你叫什么名字？",
+     "pinyin": "Nǐ jiào shénme míngzi?",
+     "vi": "Bạn tên là gì?",
+     "words": [
+      "hz-h1-0a3f1c936624",
+      "hz-h1-628ff5c3507e",
+      "hz-h1-4247545ee5f9"
+     ]
+    },
+    {
+     "speaker": "吴小明",
+     "text": "我叫吴小明。",
+     "pinyin": "Wǒ jiào Wú Xiǎomíng.",
+     "vi": "Mình tên là Ngô Tiểu Minh.",
+     "words": [
+      "hz-h1-64d354d405bb",
+      "hz-h1-628ff5c3507e"
+     ]
+    },
+    {
+     "speaker": "田中",
+     "text": "你是韩国人吗？",
+     "pinyin": "Nǐ shì Hánguó rén ma?",
+     "vi": "Bạn là người Hàn Quốc à?",
+     "words": [
+      "hz-h1-0a3f1c936624",
+      "hz-h1-d869fcbf074b",
+      "hz-h1-ac895f18b59d"
+     ]
+    },
+    {
+     "speaker": "吴小明",
+     "text": "我不是韩国人，我是中国人。",
+     "pinyin": "Wǒ bú shì Hánguó rén, wǒ shì Zhōngguó rén.",
+     "vi": "Mình không phải người Hàn Quốc, mình là người Trung Quốc.",
+     "words": [
+      "hz-h1-64d354d405bb",
+      "hz-h1-d869fcbf074b",
+      "hz-h1-b05b84230588",
+      "hz-h1-ac895f18b59d"
+     ]
+    }
+   ],
+   "segmentMode": "clip",
+   "segmentNote": "Video chỉ 8 giây và có câu trả lời rất ngắn (câu 2 khoảng 1 giây) nên app cho nghe cả đoạn; mốc từng câu đo được khoảng ±1 giây, chưa đủ tách để nghe riêng từng câu.",
+   "timingNote": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề (hai bản dài bằng nhau), sai số khoảng ±1 giây.",
+   "goal": "Nghe và nắm được: anh bạn tên gì, là người nước nào.",
+   "prepWords": [
+    {
+     "zh": "什么",
+     "vi": "gì, cái gì"
+    },
+    {
+     "zh": "韩国",
+     "vi": "Hàn Quốc"
+    },
+    {
+     "zh": "吗",
+     "vi": "hạt từ đặt cuối câu để hỏi"
+    }
+   ],
+   "kind": "youtube",
+   "channel": "cnstation",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-0205/",
+   "watchUrl": "https://www.youtube.com/watch?v=E8rY2GptiD0",
+   "subtitleVideoId": "D4a3hDfbQmo",
+   "voiceLabel": "Người thật đóng hội thoại — một diễn viên nữ và một diễn viên nam",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không sao chép hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; cả hai bản (không phụ đề và phụ đề tiếng Trung) đều đã phát thử và cho phép nhúng chính thức (29/10/2026).",
+   "durationNote": "Video 8 giây; hội thoại cả 8 giây",
+   "listeningNotes": [
+    "Mẫu hỏi tên 你叫什么名字？ — từ 名字 nằm ở cuối câu hỏi.",
+    "Câu phủ định: 不 đứng ngay trước 是 — 我不是韩国人。"
+   ],
+   "repeat": [
+    1
+   ],
+   "task": {
+    "prompt": "Hỏi tên một người bạn mới rồi tự trả lời bằng tên của bạn.",
+    "frame": "你叫什么名字？——我叫___。",
+    "sample": {
+     "zh": "你叫什么名字？——我叫大卫。",
+     "py": "Nǐ jiào shénme míngzi? — Wǒ jiào Dàwèi.",
+     "vi": "Bạn tên là gì? — Mình tên là Đại Vệ."
+    },
+    "note": "Đây là mẫu hỏi tên quan trọng nhất của bài; hãy nói cả câu hỏi lẫn câu trả lời."
+   }
+  },
+  {
+   "id": "cs4-0105",
+   "lessonCode": "CS4-0105",
+   "title": "Gặp lại thầy giáo",
+   "situation": "Một cậu học sinh tình cờ gặp thầy giáo; hai thầy trò chào nhau và hỏi thăm sức khỏe, chuyện sắp tốt nghiệp.",
+   "videoId": "VaM02W4xXlg",
+   "durationSec": 13,
+   "addsNewWords": [
+    "老师",
+    "您"
+   ],
+   "prepare": {
+    "focus": "Nghe các câu chào và giới thiệu rất ngắn; để ý tên người được nhắc trong câu.",
+    "distractors": [
+     "Tên riêng (như Trương Lệ Lệ, Ngô Tiểu Minh) không phải từ của bài."
+    ]
+   },
+   "gist": {
+    "question": "Cậu học sinh gặp ai và hai người làm gì?",
+    "options": [
+     "Gặp thầy giáo và hỏi thăm nhau",
+     "Gặp bạn cùng lớp và rủ đi ăn",
+     "Gặp người lạ và hỏi đường"
+    ],
+    "answer": 0,
+    "explain": "Cậu nhận ra thầy Lý （李老师）, hai thầy trò hỏi thăm sức khỏe của nhau."
+   },
+   "details": [
+    {
+     "question": "Cậu học sinh còn bao lâu nữa thì tốt nghiệp?",
+     "options": [
+      "Hai tuần nữa",
+      "Hai tháng nữa",
+      "Ngày mai"
+     ],
+     "answer": 0,
+     "explain": "Câu cuối nói 还有两个星期 — còn hai tuần."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "李老师",
+     "text": "欸，小吴，你好。",
+     "pinyin": "Éi, Xiǎo Wú, nǐ hǎo.",
+     "vi": "Ê, Tiểu Ngô, chào em.",
+     "words": [
+      "hz-h1-0a3f1c936624"
+     ],
+     "start": 0,
+     "end": 2
+    },
+    {
+     "speaker": "吴小明",
+     "text": "啊，是李老师啊。",
+     "pinyin": "À, shì Lǐ lǎoshī a.",
+     "vi": "À, thầy Lý ạ.",
+     "words": [
+      "hz-h1-d869fcbf074b",
+      "hz-h1-fdbb78c8e725"
+     ],
+     "start": 2,
+     "end": 4
+    },
+    {
+     "speaker": "李老师",
+     "text": "好久不见了，最近怎么样？",
+     "pinyin": "Hǎojiǔ bú jiàn le, zuìjìn zěnmeyàng?",
+     "vi": "Lâu rồi không gặp, dạo này em thế nào?",
+     "words": [],
+     "start": 4,
+     "end": 6
+    },
+    {
+     "speaker": "吴小明",
+     "text": "我很好，您呢？",
+     "pinyin": "Wǒ hěn hǎo, nín ne?",
+     "vi": "Em khỏe ạ, còn thầy?",
+     "words": [
+      "hz-h1-64d354d405bb",
+      "hz-h1-1ac411c12450"
+     ],
+     "start": 6,
+     "end": 8
+    },
+    {
+     "speaker": "李老师",
+     "text": "我也很好，快毕业了吧？",
+     "pinyin": "Wǒ yě hěn hǎo, kuài bìyè le ba?",
+     "vi": "Thầy cũng khỏe, sắp tốt nghiệp rồi nhỉ?",
+     "words": [
+      "hz-h1-64d354d405bb"
+     ],
+     "start": 8,
+     "end": 10
+    },
+    {
+     "speaker": "吴小明",
+     "text": "对，还有两个星期就毕业了。",
+     "pinyin": "Duì, hái yǒu liǎng ge xīngqī jiù bìyè le.",
+     "vi": "Vâng, còn hai tuần nữa là tốt nghiệp ạ.",
+     "words": [],
+     "start": 10,
+     "end": 12.5
+    }
+   ],
+   "goal": "Nghe và nắm được: hai thầy trò hỏi thăm nhau những gì, bao lâu nữa cậu học sinh tốt nghiệp.",
+   "prepWords": [
+    {
+     "zh": "好久不见",
+     "vi": "lâu rồi không gặp"
+    },
+    {
+     "zh": "最近",
+     "vi": "dạo này"
+    },
+    {
+     "zh": "毕业",
+     "vi": "tốt nghiệp"
+    },
+    {
+     "zh": "星期",
+     "vi": "tuần"
+    }
+   ],
+   "kind": "youtube",
+   "channel": "cnstation",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-0105/",
+   "watchUrl": "https://www.youtube.com/watch?v=VaM02W4xXlg",
+   "subtitleVideoId": "qpddGSRiAI0",
+   "voiceLabel": "Người thật đóng hội thoại — thầy giáo và học sinh nam",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không sao chép hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; cả hai bản (không phụ đề và phụ đề tiếng Trung) đều đã phát thử và cho phép nhúng chính thức (29/10/2026).",
+   "durationNote": "Video 13 giây; hội thoại khoảng 12 giây",
+   "listeningNotes": [
+    "Với thầy giáo, học sinh dùng 您 (câu 4) thay cho 你 — dấu hiệu lịch sự quan trọng của bài này.",
+    "李老师 là cách gọi “thầy Lý”: họ + 老师。"
+   ],
+   "repeat": [
+    4
+   ],
+   "task": {
+    "prompt": "Chào một thầy/cô giáo và hỏi thăm sức khỏe; nhớ dùng 您 để lịch sự.",
+    "frame": "老师好！我很好，您呢？",
+    "sample": {
+     "zh": "老师好！我很好，您呢？",
+     "py": "Lǎoshī hǎo! Wǒ hěn hǎo, nín ne?",
+     "vi": "Em chào thầy! Em khỏe ạ, còn thầy?"
+    },
+    "note": "Với thầy cô và người lớn tuổi, dùng 您 thay cho 你。"
+   }
+  },
+  {
+   "id": "cs4-0801",
+   "lessonCode": "CS4-0801",
+   "title": "Va chạm nhẹ: nói xin lỗi",
+   "situation": "Một chàng trai lỡ va vào cô gái khi đi đường; anh xin lỗi, cô đáp không sao và cảm ơn khi được nhường đường.",
+   "videoId": "LTGg42B43as",
+   "durationSec": 7,
+   "addsNewWords": [
+    "对不起",
+    "没关系",
+    "谢谢"
+   ],
+   "prepare": {
+    "focus": "Nghe các câu chào và giới thiệu rất ngắn; để ý tên người được nhắc trong câu.",
+    "distractors": [
+     "Tên riêng (như Trương Lệ Lệ, Ngô Tiểu Minh) không phải từ của bài."
+    ]
+   },
+   "gist": {
+    "question": "Chuyện gì xảy ra giữa hai người?",
+    "options": [
+     "Một người lỡ va vào người kia, xin lỗi và được đáp “không sao”",
+     "Hai người cãi nhau giữa đường",
+     "Một người hỏi đường đi"
+    ],
+    "answer": 0,
+    "explain": "Cặp câu then chốt là 对不起 — 没关系."
+   },
+   "details": [],
+   "lines": [
+    {
+     "speaker": "吴小明",
+     "text": "对不起。",
+     "pinyin": "Duìbuqǐ.",
+     "vi": "Xin lỗi.",
+     "words": [
+      "hz-h1-15b6a3af5e33"
+     ]
+    },
+    {
+     "speaker": "李月",
+     "text": "没关系。",
+     "pinyin": "Méi guānxi.",
+     "vi": "Không sao đâu.",
+     "words": [
+      "hz-h1-b71f4cfff8c9"
+     ]
+    },
+    {
+     "speaker": "吴小明",
+     "text": "你先走。",
+     "pinyin": "Nǐ xiān zǒu.",
+     "vi": "Bạn đi trước đi.",
+     "words": [
+      "hz-h1-0a3f1c936624"
+     ]
+    },
+    {
+     "speaker": "李月",
+     "text": "谢谢。",
+     "pinyin": "Xièxie.",
+     "vi": "Cảm ơn.",
+     "words": [
+      "hz-h1-722d36ebd9c0"
+     ]
+    }
+   ],
+   "segmentMode": "clip",
+   "segmentNote": "Video chỉ 7 giây, câu 没关系 rất ngắn (dưới 1 giây) nên app cho nghe cả đoạn thay vì tách từng câu.",
+   "timingNote": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề (hai bản dài bằng nhau), sai số khoảng ±1 giây.",
+   "goal": "Nghe và nắm được: ai xin lỗi, ai đáp lại, đáp thế nào.",
+   "prepWords": [
+    {
+     "zh": "先",
+     "vi": "trước"
+    },
+    {
+     "zh": "走",
+     "vi": "đi"
+    }
+   ],
+   "kind": "youtube",
+   "channel": "cnstation",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-0801/",
+   "watchUrl": "https://www.youtube.com/watch?v=LTGg42B43as",
+   "subtitleVideoId": "AKbB4hsjBjc",
+   "voiceLabel": "Người thật đóng hội thoại — một diễn viên nam và một diễn viên nữ",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không sao chép hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; cả hai bản (không phụ đề và phụ đề tiếng Trung) đều đã phát thử và cho phép nhúng chính thức (29/10/2026).",
+   "durationNote": "Video 7 giây; hội thoại cả 7 giây",
+   "listeningNotes": [
+    "Cặp 对不起 — 没关系 nối nhau rất nhanh; nghe cả đoạn vài lần sẽ tách được hai câu.",
+    "你先走 là lời nhường người kia đi trước sau khi xin lỗi."
+   ],
+   "repeat": [
+    2
+   ],
+   "task": {
+    "prompt": "Nói xin lỗi khi lỡ va vào ai đó, rồi đóng vai người kia đáp lại.",
+    "frame": "对不起。——没关系。",
+    "sample": {
+     "zh": "对不起。——没关系。",
+     "py": "Duìbuqǐ. — Méi guānxi.",
+     "vi": "Xin lỗi. — Không sao."
+    },
+    "note": "Đây là cặp câu xin lỗi – đáp lại cơ bản nhất; hãy nói cả hai phía."
+   }
+  },
+  {
+   "id": "cs4-0804",
+   "lessonCode": "CS4-0804",
+   "title": "Tạm biệt ở cửa hàng",
+   "situation": "Một vị khách cảm ơn cô nhân viên đã giúp đỡ, mời cô có dịp ghé Thượng Hải chơi, rồi hai người chào tạm biệt.",
+   "videoId": "eHw1hpoSJ_Y",
+   "durationSec": 9,
+   "addsNewWords": [
+    "再见"
+   ],
+   "prepare": {
+    "focus": "Nghe các câu chào và giới thiệu rất ngắn; để ý tên người được nhắc trong câu.",
+    "distractors": [
+     "Tên riêng (như Trương Lệ Lệ, Ngô Tiểu Minh) không phải từ của bài."
+    ]
+   },
+   "gist": {
+    "question": "Người khách sắp rời đi; hai người nói gì với nhau?",
+    "options": [
+     "Cảm ơn, mời nhau ghé chơi rồi chào tạm biệt",
+     "Mặc cả giá của món hàng",
+     "Hỏi giờ đóng cửa"
+    ],
+    "answer": 0,
+    "explain": "Đoạn kết là lời mời 有机会来上海玩儿 và hai tiếng 再见."
+   },
+   "details": [
+    {
+     "question": "Người khách mời cô nhân viên đến đâu chơi?",
+     "options": [
+      "Thượng Hải",
+      "Bắc Kinh",
+      "Trường học"
+     ],
+     "answer": 0,
+     "explain": "Câu 3 nói 来上海玩儿 — đến Thượng Hải chơi."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "顾客",
+     "text": "谢谢你的照顾。",
+     "pinyin": "Xièxie nǐ de zhàogù.",
+     "vi": "Cảm ơn bạn đã tận tình giúp đỡ.",
+     "words": [
+      "hz-h1-722d36ebd9c0",
+      "hz-h1-0a3f1c936624"
+     ]
+    },
+    {
+     "speaker": "铃木优美",
+     "text": "不客气。",
+     "pinyin": "Bú kèqi.",
+     "vi": "Không có chi.",
+     "words": [
+      "hz-h1-3f50a387a499"
+     ]
+    },
+    {
+     "speaker": "顾客",
+     "text": "有机会来上海玩儿。",
+     "pinyin": "Yǒu jīhuì lái Shànghǎi wánr.",
+     "vi": "Có dịp thì đến Thượng Hải chơi nhé.",
+     "words": []
+    },
+    {
+     "speaker": "铃木优美",
+     "text": "好，我一定去。",
+     "pinyin": "Hǎo, wǒ yíding qù.",
+     "vi": "Vâng, nhất định mình sẽ đến.",
+     "words": [
+      "hz-h1-64d354d405bb"
+     ]
+    },
+    {
+     "speaker": "顾客",
+     "text": "再见！",
+     "pinyin": "Zàijiàn!",
+     "vi": "Tạm biệt!",
+     "words": [
+      "hz-h1-dadf7ffde866"
+     ]
+    },
+    {
+     "speaker": "铃木优美",
+     "text": "再见！",
+     "pinyin": "Zàijiàn!",
+     "vi": "Tạm biệt!",
+     "words": [
+      "hz-h1-dadf7ffde866"
+     ]
+    }
+   ],
+   "segmentMode": "clip",
+   "segmentNote": "Hai câu 再见 ở cuối nối nhau trong khoảng 1 giây và dùng chung một dòng phụ đề cháy, không tách được ranh giới; app cho nghe cả đoạn.",
+   "playWindow": {
+    "start": 0,
+    "end": 8.5
+   },
+   "timingNote": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề (hai bản dài bằng nhau), sai số khoảng ±1 giây; khoảng 1 giây cuối video không còn lời thoại.",
+   "goal": "Nghe và nắm được: vị khách cảm ơn điều gì, mời đến đâu, hai người chia tay thế nào.",
+   "prepWords": [
+    {
+     "zh": "照顾",
+     "vi": "chăm sóc, giúp đỡ"
+    },
+    {
+     "zh": "机会",
+     "vi": "cơ hội, dịp"
+    },
+    {
+     "zh": "一定",
+     "vi": "nhất định"
+    }
+   ],
+   "kind": "youtube",
+   "channel": "cnstation",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-0804/",
+   "watchUrl": "https://www.youtube.com/watch?v=eHw1hpoSJ_Y",
+   "subtitleVideoId": "_jZlaKZkpGw",
+   "voiceLabel": "Người thật đóng hội thoại — hai diễn viên nữ",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không sao chép hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; cả hai bản (không phụ đề và phụ đề tiếng Trung) đều đã phát thử và cho phép nhúng chính thức (29/10/2026).",
+   "durationNote": "Video 9 giây; hội thoại khoảng 8 giây",
+   "listeningNotes": [
+    "谢谢你的照顾 là mẫu cảm ơn kèm việc được giúp: 谢谢 + nội dung.",
+    "Hai tiếng 再见 ở cuối nối nhau trong khoảng một giây — nghe cả đoạn để bắt trọn."
+   ],
+   "repeat": [
+    5
+   ],
+   "task": {
+    "prompt": "Chào tạm biệt khi rời khỏi một nơi nào đó, kèm một lời cảm ơn.",
+    "frame": "谢谢！再见！",
+    "sample": {
+     "zh": "谢谢！再见！",
+     "py": "Xièxie! Zàijiàn!",
+     "vi": "Cảm ơn! Tạm biệt!"
+    },
+    "note": "Nói 谢谢 trước rồi 再见， giống cách người khách làm trong video."
+   }
+  }
+ ],
+ "surveyLog": [
+  {
+   "code": "CS4-0806",
+   "decision": "Đã xác minh nhưng không chọn",
+   "reason": "Đoạn cảm ơn khi tiễn bạn (4 câu, bản không phụ đề TzoEYLjV6V4 8 giây, mốc câu đã đo) chỉ bổ sung 谢谢 — từ này đã được CS4-0801 và CS4-0804 phủ; bộ đã đủ 5 video. Giữ làm nguồn dự bị đã kiểm chứng."
+  },
+  {
+   "code": "CS4-0214",
+   "decision": "Không chọn đợt này",
+   "reason": "Đón bạn ở sân bay, có 对不起 và 同学 (từ mới duy nhất còn thiếu trong nhóm đã khảo sát), nhưng bộ đã đủ 5 video với cặp xin lỗi/ tạm biệt đầy đủ hơn; ghi lại để cân nhắc khi mở rộng."
+  },
+  {
+   "code": "CS4-0201",
+   "decision": "Loại",
+   "reason": "Chỉ có 你/我/叫 — không bổ sung từ mới so với CS4-0203."
+  },
+  {
+   "code": "CS4-0104",
+   "decision": "Loại",
+   "reason": "Chỉ có 你/我/是/您 — không bổ sung từ mới so với bộ đã chọn."
+  },
+  {
+   "code": "CS4-0101",
+   "decision": "Loại",
+   "reason": "Chỉ có 谢谢 — không bổ sung từ mới so với bộ đã chọn."
+  },
+  {
+   "code": "Yuyan Blues — HSK 1 Conversation (sdy0WnXlxqU)",
+   "decision": "Loại",
+   "reason": "Hai người thật đối thoại nhưng không có lời thoại đáng tin cậy để đối chiếu (mô tả không có kịch bản, phụ đề tự động lỗi) — không đạt chuẩn chép lời thoại đã kiểm chứng."
+  },
+  {
+   "code": "Hong Hua Mandarin Ep.4/Ep.5",
+   "decision": "Loại",
+   "reason": "Clip người thật xen thẻ từ vựng lớn và bản dịch tiếng Indonesia, có câu đùa lệch mẫu chuẩn; không phải hội thoại sạch cho bài đầu tiên."
+  },
+  {
+   "code": "CCTV Growing Up with Chinese — Lesson 1 (4BXr4cdjDGc)",
+   "decision": "Loại",
+   "reason": "Chương trình truyền hình có người dẫn, dài 4:56, chỉ quanh 你好/您好 — không bổ sung từ mới so với bộ đã chọn."
+  }
+ ]
+}

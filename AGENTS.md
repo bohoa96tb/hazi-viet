@@ -46,3 +46,10 @@ Yêu cầu chỉ sửa/lưu quy trình hoặc bản thử thì hoàn thành đú
 ## Giải thích linh hoạt theo độ khó
 
 Từ đơn giản đi thẳng vào nghĩa/cách dùng, ví dụ tự nhiên phù hợp trình độ HSK; không kéo dài để đủ chữ. Từ trung bình làm rõ vị trí, kết hợp phổ biến và nhầm lẫn thực tế của người Việt. Từ phức tạp giải thích sâu bằng lời dễ hiểu, có so sánh gần nghĩa/cách dùng, tình huống thực tế và cách tránh lỗi. Không bịa bẫy hay quy tắc ngữ pháp. Ưu tiên chính xác, tự nhiên, dễ hiểu và dễ nhớ hơn số chữ. Giữ đủ schema V2, hai câu chính, 2–4 bài luyện/đáp án riêng, hai tình huống tự dùng/gợi ý riêng và kế hoạch audio. Chỉ cập nhật checkpoint sau khi bài hoàn chỉnh và kiểm thử đạt.
+
+## Thực hành sau bài (hội thoại/video) — hiệu lực từ 2026-10-29
+
+- Chuẩn đầy đủ: `docs/PRACTICE_STANDARD.md` (mẫu là bộ video pilot v6, `docs/LISTENING_PILOT.md`). Tiến độ riêng của công việc này: `docs/PRACTICE_CHECKPOINT.md`. Ba tiến độ tách bạch: biên soạn từ vựng (`progress.json`/`completedCount`) — tuyển chọn/hoàn thiện Thực hành (checkpoint Thực hành) — tiến độ học của người dùng (localStorage). Bổ sung video/bài tập nghe KHÔNG tăng `completedCount`.
+- **Đợt bổ sung Thực hành đang hiệu lực**: tạm dừng biên soạn từ mới. Đi theo thứ tự HSK1 bài 1 → hết HSK1 → cấp tiếp theo; chỉ làm bài đã xong từ vựng (mọi từ có bài V2 hoàn chỉnh — đủ 24 mục từ không mặc nhiên là xong) mà chưa có Thực hành đạt chuẩn. Bài chưa xong từ vựng: ghi trạng thái + phần thiếu vào checkpoint, không tự làm từ vựng, chuyển bài kế tiếp. Bài đã có Thực hành đạt chuẩn: ghi nhận, bỏ qua.
+- Điểm dừng khi biên soạn từ vựng (ngoài đợt bổ sung): một bài xong từ vựng thì dừng trước từ đầu tiên của bài kế, hỏi người dùng có làm Thực hành cuối bài đó không; chỉ làm khi được xác nhận; batch không vượt ranh giới bài.
+- “Tiếp tục” hiểu theo trạng thái ở checkpoint Thực hành (đang dở việc gì thì làm tiếp việc đó; đang chờ xác nhận Thực hành thì là xác nhận; trong đợt bổ sung thì không chuyển sang từ mới). Một lượt “Tiếp tục” không vượt nhiều điểm dừng. Hành động đang chờ phải ghi ở checkpoint.

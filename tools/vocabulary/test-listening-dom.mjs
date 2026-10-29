@@ -11,7 +11,7 @@ import { execFileSync } from 'node:child_process';
 
 const scenario = process.argv[2];
 if (!scenario) {
-  for (const s of ['deep', 'board', 'generic']) {
+  for (const s of ['deep', 'board', 'generic', 'deep2']) {
     execFileSync(process.execPath, [new URL(import.meta.url).pathname, s], { stdio: 'inherit', env: process.env });
   }
   console.log('PASS listening-practice DOM (all scenarios)');
@@ -22,12 +22,14 @@ const { Window } = await import(process.env.HAPPY_DOM_MODULE);
 const html = fs.readFileSync('vocabulary.html', 'utf8');
 const courseText = fs.readFileSync('data/vocabulary/hanzii-course.json', 'utf8');
 const pilotText = fs.readFileSync('data/listening-pilot.json', 'utf8');
+const hsk1Text = fs.readFileSync('data/practice/hz-h1-64d354d405bb.json', 'utf8');
 const dictText = fs.readFileSync('data/pinyin-dict.json', 'utf8');
 const convText = fs.readFileSync('data/vocabulary/conversations-demo.json', 'utf8');
 const urls = {
   deep: 'https://example.test/vocabulary.html?practice=hz-h2-0ec2a615954f#practice',
   board: 'https://example.test/vocabulary.html#words',
   generic: 'https://example.test/vocabulary.html#practice',
+  deep2: 'https://example.test/vocabulary.html?practice=hz-h1-64d354d405bb#practice',
 };
 const window = new Window({ url: urls[scenario] });
 const { document } = window;
@@ -50,8 +52,10 @@ if (scenario === 'deep') {
 const respond = text => Promise.resolve({ ok: true, json: async () => JSON.parse(text) });
 globalThis.fetch = url => {
   const u = String(url);
+  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 1 }] }));
   if (u.includes('hanzii-course')) return respond(courseText);
   if (u.includes('listening-pilot')) return respond(pilotText);
+  if (u.includes('hz-h1-64d354d405bb.json')) return respond(hsk1Text);
   if (u.includes('pinyin-dict')) return respond(dictText);
   if (u.includes('conversations-demo')) return respond(convText);
   return respond('{}');
@@ -62,6 +66,7 @@ const $$ = s => [...document.querySelectorAll(s)];
 const waitFor = async (fn, label, tries = 240) => { for (let i = 0; i < tries; i++) { if (fn()) return; await new Promise(r => setTimeout(r, 25)); } assert.fail(`timeout: ${label}`); };
 const tick = (ms = 60) => new Promise(r => setTimeout(r, ms));
 const savedState = () => JSON.parse(window.localStorage.getItem('hanzi-viet-listen-v2'));
+const savedLesson = () => savedState().lessons['hz-h2-0f9648e9dded'];
 const visiblePanel = () => $$('.lp-panel').findIndex(p => !p.hidden);
 
 if (scenario === 'deep') {
@@ -75,7 +80,8 @@ if (scenario === 'deep') {
   assert.ok($('[data-lp-start]'), 'there is a Start button');
   assert.ok($('[data-lp-back]'), 'there is a back-to-the-word-board button');
   // Migration from the seeded v5 state.
-  const s0 = savedState();
+  assert.equal(savedState().store, 2, 'progress store is the multi-lesson root');
+  const s0 = savedLesson();
   assert.equal(s0.version, 6, 'saved state migrated to the current material version');
   assert.equal(s0.videos['cs4-1108'].step, 3, 'progress of a surviving video is kept');
   assert.equal(s0.videos['cs4-3106'], undefined, 'progress of the removed video is dropped');
@@ -111,7 +117,7 @@ if (scenario === 'deep') {
   // Step 4: exactly one repeat line for the very short video.
   $('[data-lp-step="4"]').click(); await tick();
   assert.equal($$('.lp-rep-label').length, 1, 'very short video 1 repeats exactly one line');
-  const saved1 = savedState();
+  const saved1 = savedLesson();
   assert.equal(saved1.videos['cs4-1108'].step, 4, 'video 1 step persists in its own bucket');
   // Video 2 is now CS3-0107 (the windowed skit with the anchor word): fresh bucket, own questions.
   $('[data-lp-video="1"]').click();
@@ -123,14 +129,14 @@ if (scenario === 'deep') {
   $('[data-lp-step="2"]').click(); await tick();
   $('[data-lp-gist="0"]').click(); await tick();
   assert.ok($('.lp-feedback').textContent.includes('Đúng rồi'), 'CS3-0107 gist answer is its own (index 0)');
-  assert.ok(savedState().videos['cs3-0107'].done.gist, 'CS3-0107 progress recorded in its own bucket');
+  assert.ok(savedLesson().videos['cs3-0107'].done.gist, 'CS3-0107 progress recorded in its own bucket');
   // Video 3 is the taxi video: its own gist, untouched buckets elsewhere.
   $('[data-lp-video="2"]').click();
   await waitFor(() => $('.listening-pilot') && $('.listening-pilot').textContent.includes('Gọi taxi giúp'), 'taxi video loads after switching');
   $('[data-lp-step="2"]').click(); await tick();
   $('[data-lp-gist="0"]').click(); await tick();
   assert.ok($('.lp-feedback').textContent.includes('Đúng rồi'), 'taxi video gist answer is its own (index 0)');
-  const savedMid = savedState();
+  const savedMid = savedLesson();
   assert.ok(savedMid.videos['cs4-1206'].done.gist, 'taxi video progress recorded separately');
   assert.equal(savedMid.videos['cs4-1108'].step, 4, 'video 1 step untouched while learning other videos');
   // Video 4 (CS4-3401) keeps its detail questions, answered independently.
@@ -142,7 +148,7 @@ if (scenario === 'deep') {
   assert.ok(answers.every(a => a.hidden), 'detail answers start hidden');
   $('[data-lp-reveal="1"]').click(); await tick();
   assert.deepEqual($$('.lp-detail .lp-answer').map(a => a.hidden), [true, false, true], 'detail answers open independently');
-  assert.ok(savedState().videos['cs4-3401'].done.detail, 'detail activity recorded on the campus video bucket');
+  assert.ok(savedLesson().videos['cs4-3401'].done.detail, 'detail activity recorded on the campus video bucket');
   // Back to video 1: its step 4 is restored.
   $('[data-lp-video="0"]').click();
   await waitFor(() => $('.listening-pilot') && $('.listening-pilot').textContent.includes('Hỏi đường đi ga tàu'), 'video 1 reloads after switching back');
@@ -160,7 +166,7 @@ if (scenario === 'deep') {
   assert.ok(!$('[data-panel="5"] .lp-answer').hidden, 'sample opens after the learner tries');
   assert.ok($('input[name="lpSelf"][value="again"]').checked, 'migrated self assessment is shown selected');
   assert.ok($('[data-lp="save"]').textContent.includes('Đã lưu'), 'migrated save flag is shown on the button');
-  const done1 = savedState().videos['cs4-1108'].done;
+  const done1 = savedLesson().videos['cs4-1108'].done;
   assert.ok(done1.gist && done1.task && done1.compare && done1.played, 'video 1 activities are recorded in its bucket');
   $('[data-lp-seg]').click(); await tick(60); // no YouTube API in the test env: must be a safe no-op
   console.log('PASS deep: Practice deep link, 5-video set with CS3-0107, v5→v6 migration, lean short-video activities, per-video progress, extra practice.');
@@ -187,4 +193,27 @@ if (scenario === 'generic') {
   assert.equal($('.listening-pilot'), null, 'no pilot module without the pilot lesson selected');
   assert.equal($('.lp-head'), null, 'no pilot header on generic practice');
   console.log('PASS generic: other lessons keep the existing practice, no pilot leakage.');
+}
+
+if (scenario === 'deep2') {
+  // Second lesson through the same module: HSK 1 · Bài 1 via its own deep link.
+  await waitFor(() => $('.listening-pilot'), 'HSK1 practice module from manifest');
+  assert.ok($('.lp-head').textContent.includes('Làm quen và giới thiệu'), 'HSK1 lesson title from the course is shown');
+  assert.ok($('.listening-pilot').textContent.includes('14/24'), 'HSK1 header shows its own verified coverage 14/24');
+  assert.equal($$('[data-lp-video]').length, 5, 'HSK1 set lists 5 videos');
+  assert.ok($$('[data-lp-video]')[0].textContent.includes('Lần đầu gặp nhau'), 'first HSK1 video is the first-meeting dialogue (CS4-0203)');
+  assert.ok($('.lp-missing-box') && $('.lp-missing-box').textContent.includes('汉字'), 'missing words of this lesson are listed');
+  $$('[data-lp-video]')[3].click(); await tick(60);
+  assert.ok($$('[data-lp-video]')[3].textContent.includes('Va chạm nhẹ') && $$('[data-lp-video]')[3].getAttribute('aria-pressed') === 'true', 'apology video (CS4-0801) selected');
+  $('[data-lp-step="3"]').click(); await tick(40);
+  assert.ok($$('.lp-panel').find(p => p.dataset.panel === '3').textContent.includes('nghe theo') && $$('.lp-panel').find(p => p.dataset.panel === '3').textContent.includes('cả đoạn'), 'clip-mode note explains whole-clip listening');
+  assert.equal($$('[data-lp-line]').length, 0, 'clip mode has no per-line buttons');
+  assert.equal($$('[data-lp-seg]').length, 0, 'clip mode has no per-segment play buttons');
+  assert.ok($('[data-lp="ytplay"]'), 'whole-clip play button is the player control');
+  $('[data-lp-step="2"]').click(); await tick(40);
+  $('[data-lp-gist="0"]').click(); await tick(40);
+  const root = savedState();
+  assert.ok(root.lessons['hz-h1-64d354d405bb'].videos['cs4-0801'].done.gist, 'HSK1 progress saved under its own lesson key');
+  assert.equal(root.lessons['hz-h2-0f9648e9dded'], undefined, 'pilot lesson bucket untouched in this scenario');
+  console.log('PASS deep2: second lesson (HSK 1 · Bài 1) runs through the same module, clip mode for tiny videos, per-lesson progress isolation.');
 }
