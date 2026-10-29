@@ -1,3 +1,12 @@
+# Hộp tra nghĩa: hiện Pinyin của từ ngay dưới chữ Hán — đã phát hành và xác minh Pages
+
+- Merge commit: 53b6c4de18c7d39142b838cffb6c3f9fd4666d21 (nhánh main, PR #38); commit trên nhánh biên soạn: `8cb7de5`. Nhánh sao lưu: backup/word-lookup-pinyin-20261029 ở main HEAD 13fcbde.
+- Thay đổi: hộp tra nghĩa tại chỗ luôn hiện một dòng Pinyin có dấu thanh ngay dưới từ/cụm từ đang chọn, mặc định mỗi lần mở hộp. Yêu cầu này thay thế quy định trước đây “hộp nghĩa mặc định không cần Pinyin”; chỉ áp dụng trong hộp — cách ẩn/hiện Pinyin của câu ví dụ, bài tập và các phần khác giữ nguyên, và dòng Pinyin của hộp không phụ thuộc nút Ẩn/Hiện Pinyin của bài.
+- Nguồn Pinyin: của đúng đơn vị đã chọn, không ghép máy móc cách đọc mặc định từng chữ — ưu tiên Pinyin tác giả trong phần giới thiệu của bài tương ứng (`lookup()` nay trả thêm `readings`); từ nhiều cách đọc liệt kê tất cả theo dữ liệu, nối bằng “ / ” (ví dụ 得: de / děi / dé); ghi đè theo câu có thể chỉ định `pinyin` riêng cho gloss; từ ngoài khóa học mới suy từ điển Pinyin theo đúng đơn vị đã tách; thiếu dữ liệu thì không hiện dòng (không “undefined”, không bịa).
+- Trình bày: 17px, màu nâu đậm tương phản trên nền hộp, `overflow-wrap` để từ dài không tràn hộp kể cả chế độ bảng cạnh dưới trên màn hình hẹp. Mọi chức năng khác của hộp (loa, Xem cách dùng, Phân tích chữ, đóng/Esc, đổi từ) giữ nguyên.
+- Kiểm thử: test-word-lookup bổ sung khẳng định readings （公共汽车 “gōnggòng qìchē”, 得 ba cách đọc, gloss ngữ cảnh của 花 vẫn kèm “huā”, từ lạ không có readings); test-dom đối chiếu dòng Pinyin trong hộp với Pinyin tác giả của đúng từ được bấm (đạt sau khi sửa một giả định sai trong chính kiểm thử — từ đầu tiên được bấm là từ mục tiêu 讲 “jiǎng”, không phải 老师）; process-batch verify PASS; verify-v2 exit 0; quality-audit tổng giữ nguyên 739; hồi quy 113 khẳng định PASS; git diff --check clean. Không đổi nội dung bài học và tiến độ: completedCount giữ nguyên 912/2.224.
+- Pages run 40824263014 success đúng HEAD 53b6c4d (run #295); kiểm tra live: vocabulary.html trỏ tới css 8.3.0 và vocabulary.js?v=word-lookup-2, mã trực tiếp trên trang đã chứa dòng Pinyin của hộp và quy tắc 17px. Chưa kiểm chứng trên thiết bị thật (giới hạn như các đợt trước).
+
 # Tính năng: bấm từ xem nghĩa tại chỗ, tách riêng phân tích Hanzi — đã phát hành và xác minh Pages
 
 - Merge commit: 7997a62f6a289052c623e24f1b51b5533f95c597 (nhánh main, PR #37); commit tính năng trên nhánh biên soạn: `e54fde6`. Nhánh sao lưu: backup/word-lookup-20261029 ở main HEAD 5c25e78.
