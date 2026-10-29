@@ -15,10 +15,21 @@ Chuẩn mới do người dùng yêu cầu ngày 22/10/2026, dựa trên bản t
 ## Ngôn ngữ và độ dài
 
 - Chữ giản thể, tiếng Trung phổ thông; tiếng Việt dễ hiểu, không lời dẫn dài. Một nghĩa chính; nghĩa phụ thường gặp dễ nhầm ở bẫy/Học thêm, không liệt kê nghĩa hiếm.
-- Pinyin có dấu ở giới thiệu, 1–2 khung/câu minh họa khung và phần đọc đúng khi cần. Không Pinyin ở lời giảng dài, bẫy, bài tập hoặc đáp án. Thanh nhẹ không dấu; mặc định thanh gốc, ghi biến điệu phải chú thích. Không dùng phiên âm tiếng Việt. Audio không đọc Pinyin thành tên chữ cái. Pilot V3 (chưa phải chuẩn V2, đang chờ duyệt mẫu): câu đối chiếu và câu sửa trong bẫy của bài pilot có thể mang Pinyin tùy chọn, hiển thị trực tiếp và điều khiển bằng tùy chọn HIỆN/ẨN PINYIN chung; người học không phải mở từng nút Pinyin riêng lẻ.
+- Pinyin có dấu ở giới thiệu, 1–2 khung/câu minh họa khung và phần đọc đúng khi cần. Không Pinyin ở lời giảng dài, bẫy, bài tập hoặc đáp án *trong dữ liệu bài học* (audit vẫn cấm như cũ). Thanh nhẹ không dấu; mặc định thanh gốc, ghi biến điệu phải chú thích. Không dùng phiên âm tiếng Việt. Audio không đọc Pinyin thành tên chữ cái. Việc *hiển thị* Pinyin cho người học là việc của renderer, quy định ở mục “Hiển thị Pinyin và loa trong app” dưới đây — không phải lý do để ghi thêm Pinyin vào dữ liệu.
 - Hai ví dụ chính là mục tiêu biên tập, không phải giới hạn cấm cặp đối chiếu cần thiết trong bẫy. Không thêm câu giống hệt chỉ đổi đại từ/số để đủ trường.
 - Không tạo ranh giới giả: đúng nhưng đổi nghĩa, không hợp ý định, kém tự nhiên, gần nghĩa và thiếu ngữ cảnh phải có nhãn khác sai ngữ pháp. Câu sai có nhãn trước và câu sửa sau. Không gán lỗi cho người học chưa làm bài.
 - Không bắt mọi từ có đủ ba loại bẫy. Không thấy bẫy thì ghi: “Chưa thấy bẫy thông dụng cần lưu ý ở mức học này.” Từ đã giải thích vẫn nhắc ngắn đủ hiểu độc lập.
+
+## Hiển thị Pinyin và loa trong app (logic hệ thống, từ 2026-10-29)
+
+Theo yêu cầu của Bui, đây là hành vi mặc định của renderer, áp cho mọi bài (V1, V2, bài nền) mà không cần nhắc lại từng đợt:
+
+- Mọi đơn vị tiếng Trung trong phần nội dung bài — ví dụ, câu đối chiếu và câu sửa của bẫy, đáp án tham khảo, câu mẫu tự dùng, cụm kết hợp và cách nói đối chiếu của bài V1 — hiển thị một dòng Pinyin ngay phía trên và một nút loa 🔊 ngay bên cạnh để nghe riêng đơn vị đó.
+- Nút “Ẩn/Hiện Pinyin” ở đầu bài điều khiển toàn bộ các dòng Pinyin này; trạng thái được lưu trên máy người học (khóa `hanzi-viet-pinyin-v1`). Tắt là mọi dòng Pinyin biến mất, kể cả Pinyin ở phần giới thiệu.
+- Pinyin do tác giả biên soạn trong dữ liệu (ví dụ, giới thiệu, phát âm) luôn được ưu tiên. Phần còn thiếu được sinh lúc hiển thị từ `data/pinyin-dict.json` qua `js/pinyin.js`; tuyệt đối không ghi Pinyin sinh tự động ngược vào dữ liệu bài học.
+- Từ điển được dựng bằng `node tools/vocabulary/build-pinyin-dict.mjs` (nguồn CC-CEDICT tại `~/workspace/hazi-tools/cedict.txt`): cắt đoạn bằng chương trình động có trọng số tần suất trong chính khóa học, phiếu bầu cách đọc theo ngữ liệu, luật riêng cho hạt từ cấu trúc （得/地/着/过， 得 sau đại từ chủ ngữ + động từ đọc děi) và các chữ hay bị đọc sai khi đứng riêng （都 dōu, 和 hé, 吗/吧/呢 thanh nhẹ, 胖 pàng, 累 lèi; 儿 cuối từ gộp thành r). Mốc chất lượng khi đưa vào hệ thống: đối chiếu 991 câu mẫu có Pinyin của tác giả, khớp 99,6%.
+- Câu sai ngữ pháp: hiển thị Pinyin để phân tích nhưng KHÔNG gắn nút loa riêng (giữ quy tắc cũ — chỉ nghe qua audio phân tích có câu cảnh báo đi trước).
+- Sau mỗi đợt biên soạn có thêm câu/cụm mới: chạy lại `build-pinyin-dict.mjs` trước khi phát hành, bảo đảm báo cáo bao phủ 100% chuỗi nội dung và đưa `data/pinyin-dict.json` vào cùng đợt đẩy. Nút loa của ví dụ chính dùng lại cơ chế `data-lesson-audio="example-only"` sẵn có để giữ bất biến kiểm thử “ví dụ chính hiển thị đúng một lần”.
 
 ## Độ sâu linh hoạt theo độ khó
 
