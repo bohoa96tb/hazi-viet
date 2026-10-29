@@ -54,7 +54,7 @@ if (scenario === 'deep') {
 const respond = text => Promise.resolve({ ok: true, json: async () => JSON.parse(text) });
 globalThis.fetch = url => {
   const u = String(url);
-  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 2 }, { key: 'hz-h1-f05455e3c9c0', anchorWordId: 'hz-h1-f05455e3c9c0', file: 'data/practice/hz-h1-f05455e3c9c0.json', version: 1 }] }));
+  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 3 }, { key: 'hz-h1-f05455e3c9c0', anchorWordId: 'hz-h1-f05455e3c9c0', file: 'data/practice/hz-h1-f05455e3c9c0.json', version: 2 }] }));
   if (u.includes('hanzii-course')) return respond(courseText);
   if (u.includes('listening-pilot')) return respond(pilotText);
   if (u.includes('hz-h1-64d354d405bb.json')) return respond(hsk1Text);
@@ -206,6 +206,52 @@ if (scenario === 'deep2') {
   assert.equal($$('[data-lp-video]').length, 5, 'HSK1 set lists 5 videos');
   assert.ok($$('[data-lp-video]')[0].textContent.includes('Lần đầu gặp nhau'), 'first HSK1 video is the first-meeting dialogue (CS4-0203)');
   assert.ok($('.lp-missing-box') && $('.lp-missing-box').textContent.includes('汉字'), 'missing words of this lesson are listed');
+  // Schema regression (2026-10-30): EVERY transcript line of EVERY video must render
+  // its real Chinese text and speaker name, and gist/detail/task/reference text must
+  // not be empty or "undefined" — the exact failure the old legacy schema caused.
+  const b1 = JSON.parse(hsk1Text);
+  assert.ok(!$('.listening-pilot').textContent.includes('undefined'), 'module shows no undefined text');
+  for (let vi = 0; vi < b1.recordings.length; vi++) {
+    $$('[data-lp-video]')[vi].click(); await tick(60);
+    const R = b1.recordings[vi];
+    $('[data-lp-step="3"]').click(); await tick(40);
+    const p3 = $$('.lp-panel').find(p => p.dataset.panel === '3').textContent;
+    for (const ln of R.lines) {
+      assert.ok(p3.includes(ln.zh), `${R.id}: rendered transcript contains “${ln.zh}”`);
+      assert.ok(p3.includes(ln.name), `${R.id}: rendered transcript names speaker ${ln.name}`);
+      assert.ok(p3.includes(ln.vi), `${R.id}: rendered transcript shows the Vietnamese meaning`);
+    }
+    $('[data-lp-step="4"]').click(); await tick(40);
+    const p4 = $$('.lp-panel').find(p => p.dataset.panel === '4').textContent;
+    for (const n of R.repeat) assert.ok(p4.includes(R.lines[n - 1].zh), `${R.id}: repeat step shows chosen line ${n} (1-based)`);
+    $('[data-lp-step="2"]').click(); await tick(40);
+    const p2 = $$('.lp-panel').find(p => p.dataset.panel === '2').textContent;
+    assert.ok(p2.includes(R.gist.q), `${R.id}: gist question renders`);
+    for (const d of R.details) { assert.ok(p2.includes(d.q), `${R.id}: detail question renders`); }
+    $(`[data-lp-gist="${R.gist.answer}"]`).click(); await tick(40);
+    assert.ok($('.lp-feedback').textContent.includes('Đúng rồi'), `${R.id}: gist answer at its redistributed position is correct`);
+    for (let di = 0; di < R.details.length; di++) {
+      $(`[data-lp-reveal="${di}"]`).click(); await tick(20);
+      const box = $$('.lp-detail .lp-answer')[di];
+      assert.ok(box.textContent.includes(R.details[di].a), `${R.id}: detail answer text renders`);
+    }
+    $('[data-lp-step="5"]').click(); await tick(40);
+    const p5 = $$('.lp-panel').find(p => p.dataset.panel === '5').textContent;
+    assert.ok(p5.includes(R.task.prompt), `${R.id}: self-speaking prompt renders`);
+    $('[data-lp-sample]').click(); await tick(20);
+    assert.ok(p5.includes(R.task.sampleNote), `${R.id}: self-speaking note renders`);
+    assert.ok(p5.includes(R.task.sample.zh), `${R.id}: self-speaking sample renders`);
+  }
+  // Word lookup from the transcript: tapping a word opens the popup with Pinyin + meaning.
+  $$('[data-lp-video]')[0].click(); await tick(60);
+  $('[data-lp-step="3"]').click(); await tick(40);
+  const wzWord = $$('[data-panel="3"] .wz').find(w => w.textContent.includes('你'));
+  assert.ok(wzWord, 'transcript exposes tappable words');
+  wzWord.click(); await tick(60);
+  const popup = $('#wzPopup');
+  assert.ok(popup && !popup.hidden, 'word-lookup popup opens from the transcript');
+  assert.ok(/n[iǐìí]/.test(popup.textContent), 'lookup popup shows Pinyin');
+  assert.ok(popup.textContent.length > 10, 'lookup popup shows a meaning');
   $$('[data-lp-video]')[3].click(); await tick(60);
   assert.ok($$('[data-lp-video]')[3].textContent.includes('Va chạm nhẹ') && $$('[data-lp-video]')[3].getAttribute('aria-pressed') === 'true', 'apology video (CS4-0801) selected');
   $('[data-lp-step="3"]').click(); await tick(40);
@@ -229,13 +275,36 @@ if (scenario === 'deep3') {
   assert.equal($$('[data-lp-video]').length, 5, 'Bai 2 set lists 5 videos');
   assert.ok($$('[data-lp-video]')[0].textContent.includes('Mượn sách'), 'first Bai 2 video is the library dialogue (CS4-0807)');
   assert.ok($('.lp-missing-box') && $('.lp-missing-box').textContent.includes('课本'), 'missing words of Bai 2 are listed');
+  // Schema regression (2026-10-30): every line of every Bai 2 video renders for real.
+  const b2 = JSON.parse(hsk1b2Text);
+  assert.ok(!$('.listening-pilot').textContent.includes('undefined'), 'Bai 2 module shows no undefined text');
+  for (let vi = 0; vi < b2.recordings.length; vi++) {
+    $$('[data-lp-video]')[vi].click(); await tick(60);
+    const R = b2.recordings[vi];
+    $('[data-lp-step="3"]').click(); await tick(40);
+    const p3 = $$('.lp-panel').find(p => p.dataset.panel === '3').textContent;
+    for (const ln of R.lines) {
+      assert.ok(p3.includes(ln.zh), `${R.id}: rendered transcript contains “${ln.zh}”`);
+      assert.ok(p3.includes(ln.name), `${R.id}: rendered transcript names speaker ${ln.name}`);
+    }
+    assert.ok(p3.includes('不好意思，我想借本书。') || R.id !== 'cs4-0807', 'the reported library line renders in Chinese');
+    $('[data-lp-step="2"]').click(); await tick(40);
+    const p2 = $$('.lp-panel').find(p => p.dataset.panel === '2').textContent;
+    assert.ok(p2.includes(R.gist.q), `${R.id}: gist question renders`);
+    $(`[data-lp-gist="${R.gist.answer}"]`).click(); await tick(40);
+    assert.ok($('.lp-feedback').textContent.includes('Đúng rồi'), `${R.id}: gist answer correct at position ${R.gist.answer}`);
+    $('[data-lp-step="5"]').click(); await tick(40);
+    const p5 = $$('.lp-panel').find(p => p.dataset.panel === '5').textContent;
+    assert.ok(p5.includes(R.task.sampleNote), `${R.id}: self-speaking note renders`);
+  }
   // Per-line recording: the train-ticket video has segment buttons in panel 3.
   $$('[data-lp-video]')[4].click(); await tick(60);
   assert.ok($$('[data-lp-video]')[4].textContent.includes('Hàng Châu'), 'train-ticket video (CS4-1210) selected');
   $('[data-lp-step="3"]').click(); await tick(40);
   assert.ok($$('[data-lp-seg]').length >= 8, 'per-line segment buttons exist for the 8-line recording');
   $('[data-lp-step="2"]').click(); await tick(40);
-  $('[data-lp-gist="0"]').click(); await tick(40);
+  $('[data-lp-gist="1"]').click(); await tick(40);
+  assert.ok($('.lp-feedback').textContent.includes('Đúng rồi'), 'train-ticket gist correct at its redistributed position (index 1)');
   const root = savedState();
   assert.ok(root.lessons['hz-h1-f05455e3c9c0'].videos['cs4-1210'].done.gist, 'Bai 2 progress saved under its own lesson key');
   assert.equal(root.lessons['hz-h1-64d354d405bb'], undefined, 'Bai 1 bucket untouched in this scenario');

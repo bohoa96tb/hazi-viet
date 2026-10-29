@@ -81,6 +81,36 @@ Trình tự 5 bước: **Chuẩn bị → Nghe hiểu → Xem lời thoại → 
   app ghi rõ lý do).
 - Thống kê viết đúng bản chất: “X/N từ xuất hiện đã xác minh”, không gọi là số từ đã thành thạo.
 
+## Schema dữ liệu chuẩn (bắt buộc, chốt 2026-10-30 sau sự cố Bài 1–2)
+
+Một schema duy nhất cho mọi file Thực hành — chính là schema của file pilot và của renderer:
+
+- Câu thoại: `lines[].zh` (chữ Hán), `lines[].vi` (nghĩa Việt), `lines[].name` (tên người nói hiển thị),
+  `lines[].speaker` chỉ là mã đã xác minh `F` / `M` / `N` (trung tính). **Không suy giới tính từ tên**;
+  không có thông tin xác minh thì dùng `N` và nhãn tên trung tính.
+- Câu hỏi ý chính: `gist.q`, `gist.options`, `gist.answer` (chỉ số 0-based của đáp án đúng), `gist.explain`.
+  Vị trí đáp án đúng phải **phân bố** giữa các video, không dồn hết về vị trí đầu tiên.
+- Câu hỏi chi tiết: `details[].q`, `details[].a` (văn bản đáp án đúng, phải bằng `options[answer]` khi có `options`), `details[].explain`.
+- Tự nói: `task.prompt`, `task.frame`, `task.sample{zh, vi}`, `task.sampleNote` (ghi chú phải nói rõ chỗ trống `___` điền gì).
+- Nguồn: `references[].title`, `references[].url`.
+- `repeat` dùng **số thứ tự câu 1-based** ở mọi nơi (dữ liệu, renderer, validator phải cùng quy ước).
+
+Tên trường cũ (`text`, `question`, `note`, `label`, `speaker` chứa tên người nói…) **không được lưu**
+trong file dữ liệu. Loader có một điểm chuẩn hóa chung (`lpNormalizePractice` trong `js/vocabulary.js`)
+ánh xạ tên cũ → tên chuẩn cho dữ liệu cũ nếu gặp; trường bắt buộc vẫn thiếu sau chuẩn hóa là lỗi dữ liệu:
+loader từ chối file và validator/test phải **báo lỗi**, không được âm thầm render chuỗi rỗng rồi báo đạt.
+
+## Nghiệm thu giao diện thật (bắt buộc)
+
+- **Thiếu transcript hoặc câu hỏi trên giao diện thật là chưa đạt nghiệm thu**, dù dữ liệu “có vẻ đúng”
+  và kiểm thử dữ liệu đạt. Kiểm thử dữ liệu không thay thế kiểm thử render.
+- Mỗi đợt phải có kiểm thử render bằng **dữ liệu bài thật**: sau khi render, từng câu transcript phải
+  khớp dữ liệu chuẩn và có chữ Hán thật; tên người nói, câu hỏi, đáp án, ghi chú tự nói và nhãn nguồn
+  phải hiện đúng; cả 5 bước và popup tra từ (Pinyin + nghĩa) phải được bấm thử.
+- Thống kê độ phủ ghi đúng nhãn **“X/Y từ của bài xuất hiện trong video”**; không gọi là số từ người học
+  đã nhận ra hay thành thạo. Giải thích dài về cách tính độ phủ và kỹ thuật đo mốc để trong mục thu gọn
+  hoặc tài liệu dự án, không đặt ở mặt chính của bài học.
+
 ## Dữ liệu và mở rộng
 
 - Thực hành gắn với **ID bài ổn định** (từ đầu trang của bài) và danh sách từ thực tế của bài;

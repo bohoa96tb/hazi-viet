@@ -6,8 +6,9 @@ và không phải tiến độ học của người dùng. Chuẩn làm việc: 
 
 Trạng thái: `chưa làm` · `đang tìm nguồn` · `đang biên soạn` · `đang kiểm tra` · `đã phát hành` · `bị chặn` · `bỏ qua (từ vựng chưa xong)`.
 
-**Hành động đang chờ:** đợt bổ sung Thực hành đang hiệu lực — bài tiếp theo cần kiểm tra điều kiện là HSK1 · Bài 3
-(theo thứ tự cấp/bài; chỉ làm bài đã xong từ vựng mà chưa có Thực hành đạt chuẩn).
+**Hành động đang chờ:** sửa và nghiệm thu lại Thực hành HSK1 · Bài 1–2 (lỗi schema khiến transcript/câu hỏi
+không hiện trên giao diện). **Tạm dừng Bài 3**: chỉ sau khi bản sửa Bài 1–2 đã phát hành + nghiệm thu xong
+và người dùng nhắn “Tiếp tục” mới làm tiếp HSK1 · Bài 3 theo thứ tự.
 
 | Bài | Khóa bài (từ đầu trang) | Số từ | Từ vựng | Thực hành | Video đã chọn | Độ phủ | Còn thiếu / ghi chú | Kiểm chứng | Commit |
 |---|---|---|---|---|---|---|---|---|---|
@@ -21,5 +22,17 @@ Trạng thái: `chưa làm` · `đang tìm nguồn` · `đang biên soạn` · `
 
 ## Ghi chú phiên
 
+- 2026-10-30: **Sự cố schema Bài 1–2 và bản sửa.** Người dùng phát hiện bước “Xem lời thoại” chỉ có nghĩa Việt,
+  không có câu tiếng Trung; kiểm tra độc lập trên live xác nhận thêm lỗi mất câu hỏi nghe hiểu. Nguyên nhân:
+  dữ liệu Bài 1–2 dùng tên trường cũ (`lines[].text`, `speaker` chứa tên, `gist.question`, `details` dạng
+  `question/options/answer`, `task.note`, `references[].label`) trong khi renderer đọc schema của pilot
+  (`zh`, `name`, `gist.q`, `details[].q/a`, `task.sampleNote`, `references[].title`) — 50/50 dòng thoại render rỗng.
+  Bản sửa: chuyển cả hai file dữ liệu sang schema chuẩn (người nói dùng mã trung tính `N`, không suy giới tính từ tên),
+  thêm điểm chuẩn hóa + kiểm chứng bắt buộc `lpNormalizePractice` ở loader chung, phân bố lại vị trí đáp án đúng
+  của 10 câu ý chính (trước đó đều ở vị trí 0) và các câu chi tiết, làm rõ khung tự nói của CS4-0807/1802/1210,
+  sửa nhãn độ phủ thành “từ của bài xuất hiện trong video”, rút gọn phần kỹ thuật đo mốc vào mục thu gọn.
+  Validator `test-practice-data.mjs` nay cấm tên trường cũ và đòi trường chuẩn; test DOM render đủ 50 dòng thoại
+  của 10 video + pilot hồi quy. Bài 1 dữ liệu lên version 3, Bài 2 lên version 2 (tiến độ học được di trú, không xóa).
+  Phạm vi đã kiểm chứng và trạng thái phát hành: ghi ở ghi chép phát hành sau khi nghiệm thu live.
 - 2026-10-29: chốt quy trình theo chỉ thị của người dùng; bắt đầu đợt bổ sung từ HSK1 · Bài 1.
   Tổng quát hóa app (manifest + dữ liệu theo bài) phải giữ nguyên hành vi và tiến độ của pilot v6.

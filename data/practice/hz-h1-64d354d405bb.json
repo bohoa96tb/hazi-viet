@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "authorship": {
   "type": "human-video",
   "label": "Video người thật có sẵn trên YouTube (không phải giọng AI, không phải giọng đọc của thiết bị).",
@@ -12,27 +12,27 @@
  },
  "references": [
   {
-   "label": "Chinese Station — trang chính thức của loạt CS4 (nguồn lời thoại và video)",
+   "title": "Chinese Station — trang chính thức của loạt CS4 (nguồn lời thoại và video)",
    "url": "https://www.ch-station.org/index-chinese-station4/"
   },
   {
-   "label": "CS4-0203 — trang bài học chính thức",
+   "title": "CS4-0203 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-0203/"
   },
   {
-   "label": "CS4-0205 — trang bài học chính thức",
+   "title": "CS4-0205 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-0205/"
   },
   {
-   "label": "CS4-0105 — trang bài học chính thức",
+   "title": "CS4-0105 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-0105/"
   },
   {
-   "label": "CS4-0801 — trang bài học chính thức",
+   "title": "CS4-0801 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-0801/"
   },
   {
-   "label": "CS4-0804 — trang bài học chính thức",
+   "title": "CS4-0804 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-0804/"
   }
  ],
@@ -100,65 +100,65 @@
     ]
    },
    "gist": {
-    "question": "Hai người mới gặp nhau nói những gì?",
+    "q": "Hai người mới gặp nhau nói những gì?",
     "options": [
-     "Chào nhau và giới thiệu tên, khoa/ngành của mình",
      "Hỏi đường đến trường",
+     "Chào nhau và giới thiệu tên, khoa/ngành của mình",
      "Cảm ơn vì được đưa ra sân bay"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "Cả hai cùng dùng mẫu 你好，我叫…，是… để giới thiệu bản thân."
    },
    "details": [],
    "lines": [
     {
-     "speaker": "张丽丽",
-     "text": "你好，我叫张丽丽，是中文系的。",
-     "pinyin": "Nǐ hǎo, wǒ jiào Zhāng Lìlì, shì Zhōngwén xì de.",
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "你好，我叫张丽丽，是中文系的。",
      "vi": "Chào bạn, mình tên là Trương Lệ Lệ, học khoa tiếng Trung.",
+     "start": 0,
+     "end": 2,
      "words": [
       "hz-h1-0a3f1c936624",
       "hz-h1-64d354d405bb",
       "hz-h1-628ff5c3507e",
       "hz-h1-d869fcbf074b",
       "hz-h1-4789a966f565"
-     ],
-     "start": 0,
-     "end": 2
+     ]
     },
     {
-     "speaker": "田中美华",
-     "text": "你好，我叫田中美华，是日本留学生。",
-     "pinyin": "Nǐ hǎo, wǒ jiào Tiánzhōng Měihuá, shì Rìběn liúxuéshēng.",
+     "speaker": "N",
+     "name": "田中美华",
+     "zh": "你好，我叫田中美华，是日本留学生。",
      "vi": "Chào bạn, mình tên là Điền Trung Mỹ Hoa, là du học sinh Nhật Bản.",
+     "start": 2,
+     "end": 6,
      "words": [
       "hz-h1-0a3f1c936624",
       "hz-h1-64d354d405bb",
       "hz-h1-628ff5c3507e",
       "hz-h1-d869fcbf074b"
-     ],
-     "start": 2,
-     "end": 6
+     ]
     },
     {
-     "speaker": "张丽丽",
-     "text": "以后请多帮助。",
-     "pinyin": "Yǐhòu qǐng duō bāngzhù.",
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "以后请多帮助。",
      "vi": "Từ nay mong bạn giúp đỡ nhiều.",
-     "words": [],
      "start": 6,
-     "end": 8
+     "end": 8,
+     "words": []
     },
     {
-     "speaker": "田中美华",
-     "text": "不客气，互相帮助。",
-     "pinyin": "Bú kèqi, hùxiāng bāngzhù.",
+     "speaker": "N",
+     "name": "田中美华",
+     "zh": "不客气，互相帮助。",
      "vi": "Không có chi, mình giúp đỡ lẫn nhau mà.",
+     "start": 8,
+     "end": 10.5,
      "words": [
       "hz-h1-3f50a387a499"
-     ],
-     "start": 8,
-     "end": 10.5
+     ]
     }
    ],
    "compareNote": "中文 ở câu 1 là một từ độc lập đứng trước 系 (khoa): “中文系” = khoa tiếng Trung — 中文 giữ đúng nghĩa “tiếng Trung” nên được tính là đã nghe được. Ngược lại, 学生 ở câu 2 không được tính: “留学生” là một từ nguyên khối nghĩa là “du học sinh” (cấu tạo 留学 + 生), bên trong không có từ 学生.",
@@ -205,10 +205,9 @@
     "frame": "你好！我叫___，是学生。",
     "sample": {
      "zh": "你好！我叫明英，是学生。",
-     "py": "Nǐ hǎo! Wǒ jiào Míngyīng, shì xuésheng.",
      "vi": "Chào bạn! Mình tên là Minh Anh, là học sinh."
     },
-    "note": "Thay tên của bạn vào chỗ trống; nếu bạn là giáo viên, đổi 学生 thành 老师。"
+    "sampleNote": "Thay tên của bạn vào chỗ trống; nếu bạn là giáo viên, đổi 学生 thành 老师。"
    }
   },
   {
@@ -230,21 +229,21 @@
     ]
    },
    "gist": {
-    "question": "Hai người hỏi nhau những điều gì?",
+    "q": "Hai người hỏi nhau những điều gì?",
     "options": [
-     "Tên và quốc tịch",
      "Địa chỉ nhà",
-     "Số điện thoại"
+     "Số điện thoại",
+     "Tên và quốc tịch"
     ],
-    "answer": 0,
+    "answer": 2,
     "explain": "Câu hỏi chính là 你叫什么名字？ và 你是韩国人吗？"
    },
    "details": [],
    "lines": [
     {
-     "speaker": "田中",
-     "text": "你叫什么名字？",
-     "pinyin": "Nǐ jiào shénme míngzi?",
+     "speaker": "N",
+     "name": "田中",
+     "zh": "你叫什么名字？",
      "vi": "Bạn tên là gì?",
      "words": [
       "hz-h1-0a3f1c936624",
@@ -253,9 +252,9 @@
      ]
     },
     {
-     "speaker": "吴小明",
-     "text": "我叫吴小明。",
-     "pinyin": "Wǒ jiào Wú Xiǎomíng.",
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "我叫吴小明。",
      "vi": "Mình tên là Ngô Tiểu Minh.",
      "words": [
       "hz-h1-64d354d405bb",
@@ -263,9 +262,9 @@
      ]
     },
     {
-     "speaker": "田中",
-     "text": "你是韩国人吗？",
-     "pinyin": "Nǐ shì Hánguó rén ma?",
+     "speaker": "N",
+     "name": "田中",
+     "zh": "你是韩国人吗？",
      "vi": "Bạn là người Hàn Quốc à?",
      "words": [
       "hz-h1-0a3f1c936624",
@@ -274,9 +273,9 @@
      ]
     },
     {
-     "speaker": "吴小明",
-     "text": "我不是韩国人，我是中国人。",
-     "pinyin": "Wǒ bú shì Hánguó rén, wǒ shì Zhōngguó rén.",
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "我不是韩国人，我是中国人。",
      "vi": "Mình không phải người Hàn Quốc, mình là người Trung Quốc.",
      "words": [
       "hz-h1-64d354d405bb",
@@ -326,10 +325,9 @@
     "frame": "你叫什么名字？——我叫___。",
     "sample": {
      "zh": "你叫什么名字？——我叫大卫。",
-     "py": "Nǐ jiào shénme míngzi? — Wǒ jiào Dàwèi.",
      "vi": "Bạn tên là gì? — Mình tên là Đại Vệ."
     },
-    "note": "Đây là mẫu hỏi tên quan trọng nhất của bài; hãy nói cả câu hỏi lẫn câu trả lời."
+    "sampleNote": "Đây là mẫu hỏi tên quan trọng nhất của bài; hãy nói cả câu hỏi lẫn câu trả lời."
    }
   },
   {
@@ -350,91 +348,92 @@
     ]
    },
    "gist": {
-    "question": "Cậu học sinh gặp ai và hai người làm gì?",
+    "q": "Cậu học sinh gặp ai và hai người làm gì?",
     "options": [
-     "Gặp thầy giáo và hỏi thăm nhau",
      "Gặp bạn cùng lớp và rủ đi ăn",
+     "Gặp thầy giáo và hỏi thăm nhau",
      "Gặp người lạ và hỏi đường"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "Cậu nhận ra thầy Lý （李老师）, hai thầy trò hỏi thăm sức khỏe của nhau."
    },
    "details": [
     {
-     "question": "Cậu học sinh còn bao lâu nữa thì tốt nghiệp?",
+     "q": "Cậu học sinh còn bao lâu nữa thì tốt nghiệp?",
      "options": [
-      "Hai tuần nữa",
       "Hai tháng nữa",
+      "Hai tuần nữa",
       "Ngày mai"
      ],
-     "answer": 0,
+     "answer": 1,
+     "a": "Hai tuần nữa",
      "explain": "Câu cuối nói 还有两个星期 — còn hai tuần."
     }
    ],
    "lines": [
     {
-     "speaker": "李老师",
-     "text": "欸，小吴，你好。",
-     "pinyin": "Éi, Xiǎo Wú, nǐ hǎo.",
+     "speaker": "N",
+     "name": "李老师",
+     "zh": "欸，小吴，你好。",
      "vi": "Ê, Tiểu Ngô, chào em.",
+     "start": 0,
+     "end": 2,
      "words": [
       "hz-h1-0a3f1c936624"
-     ],
-     "start": 0,
-     "end": 2
+     ]
     },
     {
-     "speaker": "吴小明",
-     "text": "啊，是李老师啊。",
-     "pinyin": "À, shì Lǐ lǎoshī a.",
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "啊，是李老师啊。",
      "vi": "À, thầy Lý ạ.",
+     "start": 2,
+     "end": 4,
      "words": [
       "hz-h1-d869fcbf074b",
       "hz-h1-fdbb78c8e725"
-     ],
-     "start": 2,
-     "end": 4
+     ]
     },
     {
-     "speaker": "李老师",
-     "text": "好久不见了，最近怎么样？",
-     "pinyin": "Hǎojiǔ bú jiàn le, zuìjìn zěnmeyàng?",
+     "speaker": "N",
+     "name": "李老师",
+     "zh": "好久不见了，最近怎么样？",
      "vi": "Lâu rồi không gặp, dạo này em thế nào?",
-     "words": [],
      "start": 4,
-     "end": 6
+     "end": 6,
+     "words": []
     },
     {
-     "speaker": "吴小明",
-     "text": "我很好，您呢？",
-     "pinyin": "Wǒ hěn hǎo, nín ne?",
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "我很好，您呢？",
      "vi": "Em khỏe ạ, còn thầy?",
+     "start": 6,
+     "end": 8,
      "words": [
       "hz-h1-64d354d405bb",
       "hz-h1-1ac411c12450"
-     ],
-     "start": 6,
-     "end": 8
+     ]
     },
     {
-     "speaker": "李老师",
-     "text": "我也很好，快毕业了吧？",
-     "pinyin": "Wǒ yě hěn hǎo, kuài bìyè le ba?",
+     "speaker": "N",
+     "name": "李老师",
+     "zh": "我也很好，快毕业了吧？",
      "vi": "Thầy cũng khỏe, sắp tốt nghiệp rồi nhỉ?",
+     "start": 8,
+     "end": 10,
      "words": [
       "hz-h1-64d354d405bb"
-     ],
-     "start": 8,
-     "end": 10
+     ]
     },
     {
-     "speaker": "吴小明",
-     "text": "对，还有两个星期就毕业了。",
-     "pinyin": "Duì, hái yǒu liǎng ge xīngqī jiù bìyè le.",
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "对，还有两个星期就毕业了。",
      "vi": "Vâng, còn hai tuần nữa là tốt nghiệp ạ.",
-     "words": [],
      "start": 10,
-     "end": 12.5
+     "end": 12.5,
+     "words": []
     }
    ],
    "goal": "Nghe và nắm được: hai thầy trò hỏi thăm nhau những gì, bao lâu nữa cậu học sinh tốt nghiệp.",
@@ -478,10 +477,9 @@
     "frame": "老师好！我很好，您呢？",
     "sample": {
      "zh": "老师好！我很好，您呢？",
-     "py": "Lǎoshī hǎo! Wǒ hěn hǎo, nín ne?",
      "vi": "Em chào thầy! Em khỏe ạ, còn thầy?"
     },
-    "note": "Với thầy cô và người lớn tuổi, dùng 您 thay cho 你。"
+    "sampleNote": "Với thầy cô và người lớn tuổi, dùng 您 thay cho 你。"
    }
   },
   {
@@ -503,7 +501,7 @@
     ]
    },
    "gist": {
-    "question": "Chuyện gì xảy ra giữa hai người?",
+    "q": "Chuyện gì xảy ra giữa hai người?",
     "options": [
      "Một người lỡ va vào người kia, xin lỗi và được đáp “không sao”",
      "Hai người cãi nhau giữa đường",
@@ -515,36 +513,36 @@
    "details": [],
    "lines": [
     {
-     "speaker": "吴小明",
-     "text": "对不起。",
-     "pinyin": "Duìbuqǐ.",
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "对不起。",
      "vi": "Xin lỗi.",
      "words": [
       "hz-h1-15b6a3af5e33"
      ]
     },
     {
-     "speaker": "李月",
-     "text": "没关系。",
-     "pinyin": "Méi guānxi.",
+     "speaker": "N",
+     "name": "李月",
+     "zh": "没关系。",
      "vi": "Không sao đâu.",
      "words": [
       "hz-h1-b71f4cfff8c9"
      ]
     },
     {
-     "speaker": "吴小明",
-     "text": "你先走。",
-     "pinyin": "Nǐ xiān zǒu.",
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "你先走。",
      "vi": "Bạn đi trước đi.",
      "words": [
       "hz-h1-0a3f1c936624"
      ]
     },
     {
-     "speaker": "李月",
-     "text": "谢谢。",
-     "pinyin": "Xièxie.",
+     "speaker": "N",
+     "name": "李月",
+     "zh": "谢谢。",
      "vi": "Cảm ơn.",
      "words": [
       "hz-h1-722d36ebd9c0"
@@ -587,10 +585,9 @@
     "frame": "对不起。——没关系。",
     "sample": {
      "zh": "对不起。——没关系。",
-     "py": "Duìbuqǐ. — Méi guānxi.",
      "vi": "Xin lỗi. — Không sao."
     },
-    "note": "Đây là cặp câu xin lỗi – đáp lại cơ bản nhất; hãy nói cả hai phía."
+    "sampleNote": "Đây là cặp câu xin lỗi – đáp lại cơ bản nhất; hãy nói cả hai phía."
    }
   },
   {
@@ -610,32 +607,33 @@
     ]
    },
    "gist": {
-    "question": "Người khách sắp rời đi; hai người nói gì với nhau?",
+    "q": "Người khách sắp rời đi; hai người nói gì với nhau?",
     "options": [
-     "Cảm ơn, mời nhau ghé chơi rồi chào tạm biệt",
      "Mặc cả giá của món hàng",
-     "Hỏi giờ đóng cửa"
+     "Hỏi giờ đóng cửa",
+     "Cảm ơn, mời nhau ghé chơi rồi chào tạm biệt"
     ],
-    "answer": 0,
+    "answer": 2,
     "explain": "Đoạn kết là lời mời 有机会来上海玩儿 và hai tiếng 再见."
    },
    "details": [
     {
-     "question": "Người khách mời cô nhân viên đến đâu chơi?",
+     "q": "Người khách mời cô nhân viên đến đâu chơi?",
      "options": [
-      "Thượng Hải",
       "Bắc Kinh",
-      "Trường học"
+      "Trường học",
+      "Thượng Hải"
      ],
-     "answer": 0,
+     "answer": 2,
+     "a": "Thượng Hải",
      "explain": "Câu 3 nói 来上海玩儿 — đến Thượng Hải chơi."
     }
    ],
    "lines": [
     {
-     "speaker": "顾客",
-     "text": "谢谢你的照顾。",
-     "pinyin": "Xièxie nǐ de zhàogù.",
+     "speaker": "N",
+     "name": "顾客",
+     "zh": "谢谢你的照顾。",
      "vi": "Cảm ơn bạn đã tận tình giúp đỡ.",
      "words": [
       "hz-h1-722d36ebd9c0",
@@ -643,43 +641,43 @@
      ]
     },
     {
-     "speaker": "铃木优美",
-     "text": "不客气。",
-     "pinyin": "Bú kèqi.",
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "不客气。",
      "vi": "Không có chi.",
      "words": [
       "hz-h1-3f50a387a499"
      ]
     },
     {
-     "speaker": "顾客",
-     "text": "有机会来上海玩儿。",
-     "pinyin": "Yǒu jīhuì lái Shànghǎi wánr.",
+     "speaker": "N",
+     "name": "顾客",
+     "zh": "有机会来上海玩儿。",
      "vi": "Có dịp thì đến Thượng Hải chơi nhé.",
      "words": []
     },
     {
-     "speaker": "铃木优美",
-     "text": "好，我一定去。",
-     "pinyin": "Hǎo, wǒ yíding qù.",
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "好，我一定去。",
      "vi": "Vâng, nhất định mình sẽ đến.",
      "words": [
       "hz-h1-64d354d405bb"
      ]
     },
     {
-     "speaker": "顾客",
-     "text": "再见！",
-     "pinyin": "Zàijiàn!",
+     "speaker": "N",
+     "name": "顾客",
+     "zh": "再见！",
      "vi": "Tạm biệt!",
      "words": [
       "hz-h1-dadf7ffde866"
      ]
     },
     {
-     "speaker": "铃木优美",
-     "text": "再见！",
-     "pinyin": "Zàijiàn!",
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "再见！",
      "vi": "Tạm biệt!",
      "words": [
       "hz-h1-dadf7ffde866"
@@ -730,10 +728,9 @@
     "frame": "谢谢！再见！",
     "sample": {
      "zh": "谢谢！再见！",
-     "py": "Xièxie! Zàijiàn!",
      "vi": "Cảm ơn! Tạm biệt!"
     },
-    "note": "Nói 谢谢 trước rồi 再见， giống cách người khách làm trong video."
+    "sampleNote": "Nói 谢谢 trước rồi 再见， giống cách người khách làm trong video."
    }
   }
  ],
