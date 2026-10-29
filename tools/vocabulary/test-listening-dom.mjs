@@ -52,7 +52,7 @@ if (scenario === 'deep') {
 const respond = text => Promise.resolve({ ok: true, json: async () => JSON.parse(text) });
 globalThis.fetch = url => {
   const u = String(url);
-  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 1 }] }));
+  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 2 }] }));
   if (u.includes('hanzii-course')) return respond(courseText);
   if (u.includes('listening-pilot')) return respond(pilotText);
   if (u.includes('hz-h1-64d354d405bb.json')) return respond(hsk1Text);
@@ -199,7 +199,7 @@ if (scenario === 'deep2') {
   // Second lesson through the same module: HSK 1 · Bài 1 via its own deep link.
   await waitFor(() => $('.listening-pilot'), 'HSK1 practice module from manifest');
   assert.ok($('.lp-head').textContent.includes('Làm quen và giới thiệu'), 'HSK1 lesson title from the course is shown');
-  assert.ok($('.listening-pilot').textContent.includes('14/24'), 'HSK1 header shows its own verified coverage 14/24');
+  assert.ok($('.listening-pilot').textContent.includes('15/24'), 'HSK1 header shows its own verified coverage 15/24');
   assert.equal($$('[data-lp-video]').length, 5, 'HSK1 set lists 5 videos');
   assert.ok($$('[data-lp-video]')[0].textContent.includes('Lần đầu gặp nhau'), 'first HSK1 video is the first-meeting dialogue (CS4-0203)');
   assert.ok($('.lp-missing-box') && $('.lp-missing-box').textContent.includes('汉字'), 'missing words of this lesson are listed');

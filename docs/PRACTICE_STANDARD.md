@@ -32,6 +32,11 @@ phải theo đúng quy trình này. Tiến độ của công việc này theo d�
 - Chỉ tính từ **thực sự được nói** trong video, đúng nghĩa đang học của bài, tính theo ID từ,
   **không cộng trùng**. Không tính: tên vai/người nói, từ chỉ xuất hiện trong câu hỏi, bản dịch,
   gợi ý hay câu mẫu tự biên soạn.
+- Ranh giới từ: không tính khi chuỗi chữ chỉ là **một phần của một từ khác** （留学生 là một từ
+  nguyên khối “du học sinh” = 留学 + 生, bên trong không có từ 学生）. Ngược lại, một **từ độc lập
+  vẫn được tính dù viết liền với các từ xung quanh** (tiếng Trung không có dấu cách) khi nó giữ
+  đúng nghĩa đang học trong ngữ cảnh （中文 trong 中文系 “khoa tiếng Trung” là từ 中文 đứng trước
+  系 “khoa”). Khi ranh giới khó, đối chiếu từ điển (CC-CEDICT) và ghi lập luận vào ghi chú của video.
 - Không ép phủ đủ toàn bộ từ của bài. Đủ 5 video thì dừng và ghi từ còn thiếu.
   Ít hơn 5 mà sau khảo sát hợp lý không còn nguồn phù hợp: chốt số lượng thực tế, ghi lý do.
 - Với HSK1, ưu tiên đặc biệt: câu ngắn, tình huống rõ, ít từ ngoài bài và kiến thức đã học;
