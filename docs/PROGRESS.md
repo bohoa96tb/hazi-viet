@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 852/2224. Còn: 1372. Toàn khóa đủ cấu trúc: 862/2234.
+Đã bổ sung: 882/2224. Còn: 1342. Toàn khóa đủ cấu trúc: 892/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -90,26 +90,29 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-082 · mục 823–832 · 晚安、晚餐、筷子、菜单、西餐、食物、饺子、科、练、组
 - batch-083 · mục 833–842 · 队、体育、健康、国际、图片、地球、影片、成绩、手表、排球
 - batch-084 · mục 843–852 · 新闻、明星、球队、球鞋、科学、篮球、网球、英文、英语、运动
+- batch-085 · mục 853–862 · 音乐、周、度、篇、节、题、上周、假期、前年、句子
+- batch-086 · mục 863–872 · 周年、周末、学期、年级、报纸、日子、日报、春节、晚会、晚报
+- batch-087 · mục 873–882 · 月份、生活、节日、节目、过年、哭、一会儿、一点点、下周、不一会儿
 
 ## 18 mục tiếp theo
 
-- 音乐 · hz-h2-bb0df635314a
-- 周 · hz-h2-93fa85fb2338
-- 度 · hz-h2-05efc6d80997
-- 篇 · hz-h2-f4aa1b6672e4
-- 节 · hz-h2-51b70ee1a559
-- 题 · hz-h2-0e5c8f784456
-- 上周 · hz-h2-0343e17f1495
-- 假期 · hz-h2-87cb6f62d944
-- 前年 · hz-h2-68f23f01163f
-- 句子 · hz-h2-aea84144f7d3
-- 周年 · hz-h2-aba20b5bca4c
-- 周末 · hz-h2-166bf81ec277
-- 学期 · hz-h2-1d3358755f32
-- 年级 · hz-h2-bd1c1a7239df
-- 报纸 · hz-h2-7555aa8a8796
-- 日子 · hz-h2-eb7eb619b244
-- 日报 · hz-h2-ac481fba4b66
-- 春节 · hz-h2-7062ce9afff2
+- 不久 · hz-h2-9cd3b8846a76
+- 今后 · hz-h2-028bfef06adf
+- 以下 · hz-h2-9c8d9c8a1e6d
+- 以后 · hz-h2-5867950d3c28
+- 以外 · hz-h2-1e88859ca186
+- 后来 · hz-h2-5fc1c09678ef
+- 多久 · hz-h2-5425067a6827
+- 好久 · hz-h2-22bf73c81b69
+- 已经 · hz-h2-a2909587e2bf
+- 忽然 · hz-h2-a6ff97982ea3
+- 接下来 · hz-h2-0dbbac70fb7c
+- 接着 · hz-h2-aa34867289e1
+- 早就 · hz-h2-f9af688bdb27
+- 有空儿 · hz-h2-4142bc0d3bf2
+- 永远 · hz-h2-f42c1400d0a9
+- 然后 · hz-h2-51f29b7ad90f
+- 计划 · hz-h2-02ba4c2c7a2e
+- 越来越 · hz-h2-bed5f4534c45
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
