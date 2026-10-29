@@ -66,6 +66,14 @@ assert.equal(tampered.segment('我花了十块钱。').map(p => p.t).join(''), '
 // 7. Authored extra word 花钱 is in the lexicon with its gloss.
 assert.equal(lk.lookup('花钱', '他花钱很多。').meaning, 'tiêu tiền');
 
+// 7b. Popup pinyin comes from the exact word's authored data, never undefined.
+assert.deepEqual(lk.lookup('公共汽车', '我每天坐公共汽车去学校。').readings, ['gōnggòng qìchē']);
+assert.deepEqual(lk.lookup('得', '他跑得很快。').readings, ['de', 'děi', 'dé'], 'Multi-reading words list every dictionary-supported reading');
+const spendPy = lk.lookup('花', '我花了十块钱。');
+assert.equal(spendPy.context, true);
+assert.deepEqual(spendPy.readings, ['huā'], 'Context gloss keeps the word pinyin line');
+assert.deepEqual(lk.lookup('龘', '龘').readings, [], 'Unknown words have no readings instead of invented ones');
+
 // 8. Segmentation is cached and stable.
 assert.equal(lk.segment('我每天坐公共汽车去学校。'), lk.segment('我每天坐公共汽车去学校。'));
 

@@ -23,6 +23,9 @@ click('[data-lesson-audio="example-only"]');assert.equal(speech.at(-1).text,samp
  const wzPopup=document.querySelector('#wzPopup');assert(wzPopup&&!wzPopup.hidden,'Word popup must open when a word is clicked');
  assert(wzPopup.textContent.includes(wzWord),'Popup must show the clicked word: '+wzWord);
  assert(wzPopup.querySelector('[data-wz-hanzi]'),'Popup must offer the separate Hanzi analysis button');
+ assert(wzPopup.querySelector('.wz-pinyin'),'Popup must show a pinyin line by default');
+ const wzCourse=d.words.find(w=>w.hanzi===wzWord);
+ if(wzCourse)assert.equal(wzPopup.querySelector('.wz-pinyin').textContent.trim(),wzCourse.intro.map(x=>x.pinyin).join(' / '),'Popup pinyin must be the authored readings of the exact word');
  assert(!document.querySelector('#lessonBody .wz a.hanzi-char'),'Upgraded reading text must not keep per-character Hanzi links');
  document.dispatchEvent(new window.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));
  assert(wzPopup.hidden,'Escape must close the word popup');assert.equal(speech.at(-1).lang,'zh-CN');

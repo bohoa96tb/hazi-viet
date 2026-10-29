@@ -17,6 +17,14 @@ mở không bị can thiệp.
   và nút mở phân tích Hanzi (giữ tham số quay lại `word`/`step` hoặc
   `conversation`/`turn` như liên kết chữ trước đây).
 
+Hộp nghĩa luôn hiện một dòng Pinyin có dấu thanh ngay dưới từ (17px), lấy từ dữ liệu
+của đúng từ đang chọn: Pinyin tác giả trong phần giới thiệu của bài (từ nhiều cách
+đọc thì liệt kê tất cả, nối bằng “ / ”; ghi đè theo câu có thể chỉ định `pinyin`
+riêng cho gloss), nếu không có mới suy từ từ điển Pinyin theo đúng đơn vị đã tách.
+Thiếu dữ liệu thì bỏ dòng Pinyin, không hiện chuỗi rỗng hay “undefined”. Dòng Pinyin
+này độc lập với nút Ẩn/Hiện Pinyin của phần câu trong bài — yêu cầu này thay thế quy
+định trước đây là hộp nghĩa không cần Pinyin.
+
 ## Thứ tự ưu tiên dữ liệu
 
 1. **Ghi đè theo câu** trong `word-overrides.json`: cách tách và nghĩa theo ngữ cảnh

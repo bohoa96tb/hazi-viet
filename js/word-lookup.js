@@ -31,7 +31,7 @@ export function createWordLookup({courseWords = [], dict = null, overrides = {}}
   }
   const ow = overrides && typeof overrides === 'object' ? overrides.words || {} : {};
   for (const [t, g] of Object.entries(ow)) {
-    if (g && typeof g === 'object') add(t, { meaning: g.meaning || undefined, note: g.context || undefined });
+    if (g && typeof g === 'object') add(t, { meaning: g.meaning || undefined, note: g.context || undefined, pinyin: g.pinyin || undefined });
   }
   const byHanzi = new Map();
   for (const w of courseWords || []) {
@@ -41,7 +41,7 @@ export function createWordLookup({courseWords = [], dict = null, overrides = {}}
     byHanzi.set(w.hanzi, list);
   }
   for (const [h, list] of byHanzi) {
-    const entry = { meaning: list[0].meaning, pinyin: list[0].intro?.[0]?.pinyin || undefined };
+    const entry = { meaning: list[0].meaning, pinyin: list[0].intro?.[0]?.pinyin || undefined, readings: (list[0].intro || []).map(x => x.pinyin).filter(Boolean) };
     if (list.length === 1) entry.id = list[0].id; else entry.ambiguous = list.length;
     add(h, entry, true);
   }
@@ -98,19 +98,27 @@ export function createWordLookup({courseWords = [], dict = null, overrides = {}}
     return parts;
   }
   function lookup(seg, sentence) {
+    const entry = lexicon.get(seg);
+    const readings = entry ? (entry.readings?.length ? entry.readings : entry.pinyin ? [entry.pinyin] : []) : [];
     const ov = sentOverrides[sentence];
     if (ov && ov.glosses && ov.glosses[seg]) {
       const g = ov.glosses[seg];
-      return { known: true, context: true, meaning: g.meaning || '', note: g.context || '' };
+      return {
+        known: true, context: true,
+        meaning: g.meaning || entry?.meaning || '',
+        note: g.context || '',
+        readings: g.pinyin ? [g.pinyin] : readings,
+        id: entry?.id || null, ambiguous: entry?.ambiguous || 0,
+      };
     }
-    const entry = lexicon.get(seg);
-    if (!entry) return { known: false };
+    if (!entry) return { known: false, readings: [] };
     return {
       known: !!entry.meaning,
       meaning: entry.meaning || '',
       id: entry.id || null,
       ambiguous: entry.ambiguous || 0,
       note: entry.note || '',
+      readings,
     };
   }
   return { segment, lookup, has: t => lexicon.has(t) };
