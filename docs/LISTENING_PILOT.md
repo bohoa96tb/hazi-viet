@@ -51,22 +51,46 @@ quy trình nghe–hiểu–đối chiếu–tự nói). Theo điều kiện dự
 pilot tự biên soạn hội thoại và tạo audio sẵn bằng giọng đọc máy (AI), ghi nhãn minh bạch.
 Đây là quyết định cho pilot này, không phải mặc định cho các bài sau: mỗi bài mới phải khảo sát lại.
 
-## Học liệu chính của pilot
+## Học liệu chính của pilot (v4 — video người thật)
 
-- Hội thoại tự biên soạn “Đi sân bay bằng gì？”, 11 câu, hai vai nam/nữ, tình huống chọn phương tiện đi sân bay.
-- Audio: 11 file MP3 tạo sẵn ở `data/audio/listening-pilot/line-01.mp3` … `line-11.mp3`
-  (hai giọng đọc máy AI hỗ trợ tiếng Trung của công cụ tạo giọng mà dự án được phép dùng);
-  tổng tiếng nói 31,7 giây đo từ file, nghe liền mạch khoảng 35 giây.
-  App không gọi API tạo giọng khi người học bấm nghe; không lưu khóa API ở frontend.
-- Loại giọng ghi trong app: “Giọng đọc máy (AI)” — trạng thái đã xác minh theo nguồn tạo file,
-  không suy diễn người thật/AI cho bất kỳ nguồn ngoài nào khi chưa có căn cứ.
-- Transcript là chính văn bản đã dùng để tạo audio nên khớp tuyệt đối; bản dịch tiếng Việt tự biên soạn.
-- Độ phủ đã xác minh từ transcript: 6/24 từ （地铁、地铁站、分钟、公共汽车、出租车、护照）,
-  mỗi từ có câu chứa nguyên văn trong dữ liệu (`lines[].words` + `lines[].zh`) và được kiểm thử máy đối chiếu.
-  18 từ còn lại liệt kê trong app ở mục thu gọn; không ép đủ 24 từ.
-- Quyền sử dụng: hội thoại, bản dịch và file audio đều do dự án tự tạo cho pilot này.
+Từ v4 (theo phản hồi của người dùng: không hài lòng với giọng AI), bản nghe chính là video người thật:
 
-## Kiến trúc tích hợp (từ v3)
+- **Chinese Station CS4-1108 “バスで行けますか？”** của nhóm 関西大学中国語教材研究会 (Kansai University),
+  kênh YouTube `cnstation`. Hội thoại 4 câu quay ngoài trời, hai diễn viên thật: một bạn nữ hỏi đường tới ga tàu,
+  một người qua đường trả lời. Trang nguồn: https://www.ch-station.org/cs4-1108/
+- Các bản video (đều đã kiểm tra trực tiếp trên YouTube ngày 29/10/2026: phát được, có nút Nhúng):
+  bản đầy đủ `a8XxWbPTy68` (1:03, hội thoại phát 3 lần), bản phụ đề chữ Hán `kn9OLtuJ9qk` (0:14),
+  bản phụ đề Pinyin `fwIufoOS5QY` (0:14), bản phụ đề tiếng Nhật `TU0yi2Zg6dc` (0:14),
+  bản không phụ đề `2qj-clU55zY` (0:14). App nhúng bản **không phụ đề** làm bản nghe chính
+  (nghe thuần ở các bước đầu), bước Xem lời thoại có nút chuyển sang bản phụ đề chữ Hán cùng bản dựng.
+- Lời thoại chép đúng nguyên văn trang nguồn và đối chiếu phụ đề chữ Hán cháy hình của chính video
+  (hai câu đầu được xác nhận nguyên văn trên phụ đề; toàn bộ 4 câu khớp trang nguồn và bản phụ đề Pinyin).
+  Bản dịch tiếng Việt, câu hỏi, giải thích do dự án biên soạn theo đúng nội dung video.
+- Mốc từng câu đã đối chiếu trên bản phụ đề chữ Hán bằng cách tua từng bước và đọc đồng hồ trình phát:
+  câu 1 ≈ 0–3s, câu 2 ≈ 3–5s, câu 3 ≈ 5–7,5s, câu 4 ≈ 7–11,5s; sai số khoảng ±1 giây (trình phát hiển thị giây nguyên).
+  Bốn bản 14 giây dùng chung một bản dựng nên mốc áp dụng cho bản không phụ đề; giới hạn ±1 giây được ghi trong app.
+- Độ phủ tính lại từ transcript của video: **4/24** — 公里 （有两公里多）, 公交车 （可以坐公交车去吗）,
+  地铁 và 地铁站 （坐地铁去更方便，前面就是地铁站）. Không tính từ trong câu mẫu/bài tập.
+- Quyền sử dụng: trang nguồn ghi rõ nhóm tác giả giữ bản quyền, cấm dùng thương mại,
+  khuyến khích dùng素材 để tạo học liệu mới và yêu cầu ghi credit khi tái phân phối trên mạng.
+  App là học liệu miễn phí: nhúng video chính thức qua YouTube IFrame API, ghi credit đầy đủ trong app và ở đây,
+  không tải video về, không lưu trữ lại file video.
+- Âm thanh hỗ trợ riêng: loa tra từ trong bước Xem lời thoại là giọng đọc của thiết bị (TTS),
+  được ghi chú rõ trong app là hỗ trợ tra từ — không phải giọng trong video.
+- Đóng vai: KHÔNG áp dụng cho video nhúng (trình phát không dừng đúng vai theo câu một cách tin cậy),
+  nên bước Tự nói chỉ gồm nhắc lại (bước 4) + nhiệm vụ thay thông tin; app ghi rõ lý do cho người học.
+- Ứng viên dự phòng đã kiểm tra: Growing Up with Chinese L17 (CCTV; video YouTube `1KCix1MTFno`,
+  đoạn hội thoại 1:06–3:27 theo transcript ở hanyufanting.com) — người thật đóng, 3 từ （公交车/地铁/地铁站）,
+  nhưng nhiều câu vượt HSK 2 （睡过头、十字路口、堵…), nhịp nhanh, và điều kiện dùng lại kém rõ ràng hơn; không chọn.
+
+## Học liệu luyện thêm (giữ từ v2/v3, không còn là bản chính)
+
+- Hội thoại tự biên soạn “Đi sân bay bằng gì？” (11 câu) với 11 file MP3 giọng đọc máy (AI) tạo sẵn
+  ở `data/audio/listening-pilot/` (tổng tiếng nói 31,7 giây) — chuyển xuống mục “Luyện thêm” trong cùng
+  màn hình Thực hành, ghi nhãn rõ “tự biên soạn / giọng đọc máy (AI)”, độ phủ riêng của đoạn này 6/24.
+  Dữ liệu và file giữ nguyên, không xóa.
+
+## Kiến trúc tích hợp (từ v3, cập nhật v4)
 
 - Một nơi thực hành duy nhất: màn hình `#practice`. Khi nhóm từ đang mở trùng đúng bài pilot
   (khớp toàn bộ danh sách ID), màn hình hiển thị: đầu bài (tên bài, tình huống, mục tiêu,

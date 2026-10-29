@@ -129,3 +129,10 @@ body:has(.word-dashboard) main{max-width:960px;padding-top:20px}.compact-heading
 .lp-rp{border:1px dashed #9db8ab;border-radius:10px;padding:10px 12px;margin:10px 0;background:#f4f9f6}
 .lp-rp p{margin:4px 0}
 @media (max-width:640px){.lp-entry{flex-direction:column;align-items:stretch}.lp-entry .primary{width:100%}}
+
+/* Video-based listening pilot */
+.lp-yt{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden;margin-bottom:10px}
+.lp-yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.lp-extra{margin-top:16px;border:1px dashed #9db8ab;border-radius:12px;padding:10px 14px;background:#fbfdfc}
+.lp-extra summary{cursor:pointer;font-weight:600;color:#153c32}
+.lp-extra .lp-player{margin:10px 0}

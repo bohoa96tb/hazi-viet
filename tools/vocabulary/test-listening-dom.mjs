@@ -55,13 +55,15 @@ if (scenario === 'deep') {
   await waitFor(() => $('.listening-pilot'), 'practice pilot module from deep link');
   assert.ok($('.lp-head h1').textContent.includes('HSK 2'), 'practice header names the lesson');
   assert.ok($('.lp-head').textContent.includes('24 từ'), 'header shows the word count');
-  assert.ok($('.lp-head').textContent.includes('Giọng đọc máy (AI)'), 'header labels the AI voice honestly');
-  assert.ok($('.lp-head').textContent.includes('tự biên soạn'), 'header labels the dialogue as self-authored');
+  assert.ok($('.lp-head').textContent.includes('Người thật đóng hội thoại'), 'header labels the human-voice video honestly');
+  assert.ok($('.lp-head').textContent.includes('Chinese Station'), 'header names the video source');
+  assert.ok($('#lpYtMount'), 'YouTube player mount exists');
+  assert.ok($('[data-lp="ytplay"]'), 'video play control exists');
   assert.ok($('[data-lp-start]'), 'there is a Start button');
   assert.ok($('[data-lp-back]'), 'there is a back-to-the-word-board button');
   await waitFor(() => $('#conversationSelect'), 'sample conversations mounted below the module');
   assert.ok($('.lp-samples-head'), 'a clearly separated sample-conversation area exists');
-  assert.ok($('.listening-pilot').textContent.includes('Từ của bài xuất hiện trong bản nghe: 6/24'), 'verified coverage shown in the module');
+  assert.ok($('.listening-pilot').textContent.includes('Từ của bài xuất hiện trong bản nghe: 4/24'), 'verified video coverage shown in the module');
   const panels = $$('.lp-panel');
   assert.equal(panels.length, 5);
   assert.equal(panels.filter(p => !p.hidden).length, 1);
@@ -81,7 +83,8 @@ if (scenario === 'deep') {
   assert.deepEqual($$('.lp-detail .lp-answer').map(a => a.hidden), [true, false, true], 'detail answers open independently');
   // Step 3 (Xem lời thoại).
   $('[data-lp-step="3"]').click(); await tick();
-  assert.equal($$('[data-panel="3"] .lp-line [data-lp-line]').length, 11, 'transcript has 11 playable lines');
+  assert.equal($$('[data-panel="3"] [data-lp-seg]').length, 4, 'transcript has 4 playable video segments');
+  assert.ok($('[data-lp="sub"]'), 'subtitle-version toggle exists in the transcript step');
   assert.ok($$('[data-panel="3"] .wz').length > 10, 'transcript words are tappable lookup spans');
   // Step 4 (Nhắc lại) + persisted state keyed by lesson and material version.
   $('[data-lp-step="4"]').click(); await tick();
@@ -89,17 +92,17 @@ if (scenario === 'deep') {
   const saved1 = JSON.parse(window.localStorage.getItem('hanzi-viet-listen-v2'));
   assert.equal(saved1.step, 4, 'current step is persisted');
   assert.equal(saved1.lessonId, 'hz-h2-0ec2a615954f', 'progress is keyed by lesson id');
-  assert.equal(saved1.version, 3, 'progress is keyed by material version');
+  assert.equal(saved1.version, 4, 'progress is keyed by material version');
   // Step 5 (Tự nói): role-play with the line files + sample reveal.
   $('[data-lp-step="5"]').click(); await tick();
-  assert.ok($('[data-lp-role="M"]') && $('[data-lp-role="F"]'), 'both roles are offered');
+  assert.equal($('[data-lp-role]'), null, 'role-play is NOT offered for the embedded video');
+  assert.ok($('[data-panel="5"]').textContent.includes('không đóng vai'), 'step 5 explains honestly why there is no role-play');
   assert.ok($('[data-panel="5"] .lp-answer').hidden, 'sample answer starts hidden');
-  $('[data-lp-role="M"]').click(); await tick();
-  const rp = $('.lp-rp');
-  assert.ok(rp && !rp.hidden && rp.textContent.includes('Đến lượt bạn'), 'role-play waits at the learner line (line 1 is Da Wei)');
-  $('[data-lp-rp-done]').click(); await tick();
-  assert.ok(rp.textContent.includes('Đang đóng vai'), 'after speaking, the app plays the other role');
-  $('[data-lp-rp-stop]').click(); await tick();
+  // Extra practice: the AI dialogue is kept, clearly labelled, with its 11 line files.
+  const extra = $('.lp-extra');
+  assert.ok(extra, 'extra practice block exists');
+  assert.ok(extra.textContent.includes('Giọng đọc máy (AI)'), 'extra practice labels the AI voice');
+  assert.equal(extra.querySelectorAll('[data-lp-line]').length, 11, 'extra practice keeps 11 playable lines');
   $('[data-lp-sample]').click(); await tick();
   assert.ok(!$('[data-panel="5"] .lp-answer').hidden, 'sample opens after the learner tries');
   const selfRadio = $('input[name="lpSelf"][value="again"]');
@@ -108,9 +111,8 @@ if (scenario === 'deep') {
   const saved2 = JSON.parse(window.localStorage.getItem('hanzi-viet-listen-v2'));
   assert.equal(saved2.self, 'again'); assert.equal(saved2.saved, true);
   assert.ok(saved2.done.gist && saved2.done.task && saved2.done.detail && saved2.done.compare, 'activities are recorded');
-  $('[data-lp="play"]').click(); await tick(150);
-  assert.ok($('.lp-now').textContent.includes('Câu 1/11'), 'play-all starts at line 1');
-  console.log('PASS deep: Practice deep link, five merged steps, role-play, per-lesson state.');
+  $('[data-lp-seg]').click(); await tick(60); // no YouTube API in the test env: must be a safe no-op
+  console.log('PASS deep: Practice deep link, video module, five steps, extra practice, per-lesson state.');
 }
 
 if (scenario === 'board') {
@@ -122,6 +124,7 @@ if (scenario === 'board') {
   sel.dispatchEvent(new window.Event('change', { bubbles: true }));
   await tick(120);
   assert.ok($('.lp-entry'), 'board shows the compact practice entry');
+  assert.ok($('.lp-entry').textContent.includes('Video người thật'), 'entry announces the human-voice video');
   assert.equal($('.listening-pilot'), null, 'the full module is NOT on the word board');
   assert.ok($('.lp-entry [data-action="practiceLesson"]'), 'entry button opens Practice for this lesson');
   console.log('PASS board: compact entry only, module lives in Practice.');

@@ -1,9 +1,9 @@
 {
  "authorship": {
-  "label": "Hội thoại tự biên soạn cho pilot này (không phải bản thu có sẵn)",
-  "note": "Sau hai vòng khảo sát thực tế, không có bản thu người thật có sẵn nào đồng thời đạt: phát được miễn phí ngay trong app, có transcript của chính bản thu để đối chiếu, đủ ngắn và đúng trình độ HSK 2, đúng chủ đề đi lại. Các nguồn gần đạt nhất và lý do loại được ghi ở mục surveyLog. Theo đúng điều kiện đã thống nhất, pilot chuyển sang hội thoại tự biên soạn và ghi nhãn minh bạch.",
-  "voiceLabel": "Giọng đọc máy (AI) — hai giọng nam/nữ, tạo sẵn thành file MP3",
-  "voiceNote": "Audio là các file MP3 tạo sẵn từ đúng transcript trong dữ liệu này (tổng thời lượng tiếng nói 31,7 giây, đã đo từ file). Không phải giọng người thật; app không tổng hợp thêm giọng khi người học bấm phát."
+  "label": "Học liệu có sẵn — video của Chinese Station (Đại học Kansai), không phải tự biên soạn",
+  "voiceLabel": "Người thật đóng hội thoại — hai diễn viên quay ngoài trời",
+  "note": "Bản nghe chính là video CS4-1108 của Chinese Station （関西大学中国語教材研究会）, nhúng chính thức từ YouTube (kênh cnstation). Trang nguồn: https://www.ch-station.org/cs4-1108/ — nơi có lời thoại và cả 5 bản video (đầy đủ, phụ đề chữ Hán, Pinyin, tiếng Nhật, không phụ đề).",
+  "voiceNote": "Đã kiểm tra trực tiếp trên YouTube ngày 29/10/2026: cả 5 bản đều phát được và cho phép nhúng; người nói là hai diễn viên thật quay ngoài trời (không phải giọng máy, không phải slide). Lời thoại trong app chép đúng nguyên văn trang nguồn và khớp phụ đề chữ Hán cháy hình của video."
  },
  "checkedDate": "2026-10-29",
  "lesson": {
@@ -41,6 +41,213 @@
   ]
  },
  "recording": {
+  "kind": "youtube",
+  "id": "cs4-1108",
+  "title": "Hỏi đường đi ga tàu — CS4-1108",
+  "videoId": "2qj-clU55zY",
+  "subtitleVideoId": "kn9OLtuJ9qk",
+  "fullVideoId": "a8XxWbPTy68",
+  "watchUrl": "https://www.youtube.com/watch?v=2qj-clU55zY",
+  "sourcePage": "https://www.ch-station.org/cs4-1108/",
+  "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+  "channel": "cnstation",
+  "access": "Miễn phí trên YouTube; đã kiểm tra cả 5 bản video đều phát được và cho phép nhúng chính thức (29/10/2026).",
+  "voiceLabel": "Người thật đóng hội thoại — hai diễn viên quay ngoài trời",
+  "durationNote": "Video 14 giây; hội thoại khoảng 11 giây",
+  "durationSec": 14,
+  "timingNote": "Mốc câu đối chiếu trên bản phụ đề chữ Hán cháy hình (cùng bản dựng, cùng thời lượng 14 giây), sai số khoảng ±1 giây.",
+  "situation": "Một bạn nữ dừng một người qua đường để hỏi đường tới ga tàu hỏa và cách đi thuận tiện nhất.",
+  "goal": "Nghe và nắm được: ga tàu cách bao xa, và nên đi bằng phương tiện gì.",
+  "prepWords": [
+   {
+    "zh": "火车站",
+    "vi": "ga tàu hỏa"
+   },
+   {
+    "zh": "远",
+    "vi": "xa"
+   },
+   {
+    "zh": "方便",
+    "vi": "thuận tiện"
+   },
+   {
+    "zh": "前面",
+    "vi": "phía trước"
+   }
+  ],
+  "lines": [
+   {
+    "speaker": "F",
+    "name": "Bạn nữ hỏi đường",
+    "zh": "您好，这儿离火车站远吗？",
+    "vi": "Chào bạn, từ đây tới ga tàu hỏa có xa không?",
+    "start": 0,
+    "end": 3,
+    "words": []
+   },
+   {
+    "speaker": "M",
+    "name": "Người qua đường",
+    "zh": "有两公里多。",
+    "vi": "Hơn hai cây số.",
+    "start": 3,
+    "end": 5,
+    "words": [
+     "hz-h2-524ee7ce555b"
+    ]
+   },
+   {
+    "speaker": "F",
+    "name": "Bạn nữ hỏi đường",
+    "zh": "是吗，可以坐公交车去吗？",
+    "vi": "Thật à? Đi xe buýt tới đó được không?",
+    "start": 5,
+    "end": 7.5,
+    "words": [
+     "hz-h2-d1d7eeb1c0ae"
+    ]
+   },
+   {
+    "speaker": "M",
+    "name": "Người qua đường",
+    "zh": "坐地铁去更方便，前面就是地铁站。",
+    "vi": "Đi tàu điện ngầm tiện hơn, ga tàu điện ngầm ngay phía trước.",
+    "start": 7,
+    "end": 11.5,
+    "words": [
+     "hz-h2-e41438690254",
+     "hz-h2-263f9c937810"
+    ]
+   }
+  ],
+  "gist": {
+   "q": "Người qua đường khuyên cô gái đi bằng gì tới ga tàu hỏa?",
+   "options": [
+    "Xe buýt",
+    "Tàu điện ngầm",
+    "Taxi"
+   ],
+   "answer": 1,
+   "explain": "Người qua đường nói “坐地铁去更方便” — đi tàu điện ngầm thì tiện hơn."
+  },
+  "details": [
+   {
+    "q": "Ga tàu hỏa cách chỗ họ đứng bao xa?",
+    "a": "Hơn hai kilômét.",
+    "explain": "Người qua đường nói: “有两公里多。” — hơn hai cây số."
+   },
+   {
+    "q": "Lúc đầu cô gái định đi bằng gì?",
+    "a": "Xe buýt.",
+    "explain": "Cô gái hỏi: “可以坐公交车去吗？” — đi xe buýt tới đó được không?"
+   },
+   {
+    "q": "Ga tàu điện ngầm ở đâu?",
+    "a": "Ngay phía trước.",
+    "explain": "Người qua đường nói: “前面就是地铁站。” — ga tàu điện ngầm ngay phía trước."
+   }
+  ],
+  "listeningNotes": [
+   "“多” đứng sau số lượng nghĩa là “hơn”: 两公里多 là hơn hai kilômét, không phải đúng hai kilômét.",
+   "“更” trong 更方便 nghĩa là “hơn” — ở đây là so sánh ngầm tàu điện ngầm với xe buýt."
+  ],
+  "repeat": [
+   1,
+   3,
+   4
+  ],
+  "task": {
+   "prompt": "Tự hỏi đường như cô gái trong video: chọn một nơi bạn muốn đến và hỏi đường đi tới đó.",
+   "frame": "这儿离……远吗？我可以坐……去吗？",
+   "sample": {
+    "zh": "这儿离学校远吗？我可以坐地铁去吗？",
+    "vi": "Từ đây tới trường có xa không? Tôi đi tàu điện ngầm tới đó được không?"
+   },
+   "sampleNote": "Câu mẫu do app biên soạn để thay thông tin — không phải lời trong video và không được tính là từ xuất hiện trong video."
+  },
+  "rights": "© 内田慶市・沈国威・紅粉芳惠・氷野善寛 / Chinese Station （関西大学中国語教材研究会）. Trang nguồn khuyến khích dùng素材 để tạo học liệu mới, cấm dùng thương mại và yêu cầu ghi credit khi tái phân phối trên mạng; app nhúng video chính thức từ YouTube, chép lời thoại đúng nguyên văn để học và ghi nguồn tại đây. Lời thoại đối chiếu: trang nguồn + phụ đề chữ Hán cháy hình của chính video."
+ },
+ "references": [
+  {
+   "title": "Trang nguồn CS4-1108 — lời thoại và 5 bản video",
+   "url": "https://www.ch-station.org/cs4-1108/",
+   "sourceName": "Chinese Station （関西大学）",
+   "access": "Miễn phí",
+   "note": "Nguồn chính của bản nghe; có bản đầy đủ phát hội thoại 3 lần (1:03) và các bản 14 giây theo loại phụ đề."
+  },
+  {
+   "title": "Bản đầy đủ CS4 1108a — hội thoại phát 3 lần",
+   "url": "https://www.youtube.com/watch?v=a8XxWbPTy68",
+   "sourceName": "YouTube · cnstation",
+   "access": "Miễn phí",
+   "note": "Muốn nghe lặp tự nhiên như lớp học, mở bản này tại YouTube."
+  },
+  {
+   "title": "Growing Up with Chinese — Lesson 17: Transportation",
+   "url": "https://hanyufanting.com/2017/04/27/growing-up-with-chinese-lesson-17/",
+   "sourceName": "汉语泛听 (bản phim CCTV)",
+   "access": "Miễn phí tại nguồn",
+   "note": "Ứng viên đã khảo sát: người thật đóng, đoạn 1:06–3:27 có 公交车/地铁/地铁站 (3 từ), nhưng câu dài và nhanh hơn, nhiều từ vượt HSK 2 và bản quyền CCTV không rõ bằng nguồn chính — để tham khảo, không chọn làm bài chính."
+  },
+  {
+   "title": "Podcast hội thoại đi làm （地铁/公共汽车/自行车）",
+   "url": "https://www.italki.com/en/podcast/episode/cidk2i0uqrm3aw58xiwxni",
+   "sourceName": "italki",
+   "access": "Nghe tại italki",
+   "note": "Chỉ nghe được tại nguồn, không nhúng điều khiển được; để tham khảo."
+  }
+ ],
+ "revisionNote": "v4 (theo phản hồi người dùng không hài lòng với giọng AI): bản nghe chính thay bằng video người thật CS4-1108 của Chinese Station (Đại học Kansai), nhúng chính thức từ YouTube; lời thoại chép đúng nguyên văn nguồn và đối chiếu phụ đề cháy hình; độ phủ tính lại từ transcript của video: 4/24 （公里、公交车、地铁、地铁站）. Đóng vai không áp dụng cho video (trình phát không hỗ trợ dừng đúng vai theo câu một cách tin cậy) nên ẩn ở bước tự nói. Hội thoại tự biên soạn giọng AI của v2/v3 chuyển xuống mục 'Luyện thêm' (extraPractice), dữ liệu và file audio giữ nguyên, không xóa. v3 (hợp nhất vào mục Thực hành): module nghe–nói theo bài chuyển từ thẻ dưới bảng từ vào màn hình Thực hành của đúng bài, dùng chung dữ liệu và trình phát; bảng từ chỉ còn lối vào ngắn. Thêm đóng vai bằng chính các file audio từng câu. Nhật ký khảo sát nguồn và căn cứ thiết kế chuyển vào docs/LISTENING_PILOT.md. Bản pilot trước có hai lỗi đã được sửa ở bản này: (1) thẻ ChineseFor.Us gắn câu của một hội thoại giáo trình khác (so sánh giá taxi/xe buýt) cho trang “How Far Is The Airport?” — hội thoại thật của trang đó nói về khoảng cách và giờ tàu điện, script chữ Hán bị khóa Premium, nên thẻ đã bị gỡ; (2) truyện video 15 phút chỉ chứa một từ của bài và không có mốc đoạn đã xác minh — đã gỡ. Số độ phủ cũ 6/24 bị hủy bỏ và tính lại từ đầu theo bản nghe dưới đây.",
+ "surveyLog": [
+  {
+   "note": "Trang là trang tổng hợp nhiều hội thoại nghe; script chữ Hán của chính hội thoại sân bay bị khóa sau gói Premium (“Go Premium to unlock dialogue script”), điều kiện phát video cho người chưa mua không xác minh được. Bản pilot cũ còn gắn nhầm câu của hội thoại khác. Không đạt điều kiện làm bài nghe chính.",
+   "result": "Bị khóa / không xác minh được bản thu",
+   "source": "ChineseFor.Us — “How Far Is The Airport?” (Level 2 Unit 4 Dialogue)"
+  },
+  {
+   "note": "Hội thoại ngắn, đúng chủ đề, nhưng kênh chính thức cần gói trả phí mới nghe được; các bản PDF/audio lưu hành là bản lưu trữ của bên thứ ba, không phải kênh sử dụng hợp lệ cho app.",
+   "result": "Bị khóa truy cập",
+   "source": "ChinesePod — “Commuting Options”, “Can’t Get a Taxi” (Elementary)"
+  },
+  {
+   "note": "Transcript công khai, nhưng trang nguồn không cung cấp trình phát nhúng chính thức để điều khiển trong app; lời thoại nhiều 儿化 kiểu Bắc Kinh và vài chỗ vượt HSK 2.",
+   "result": "Không có trình phát hợp lệ trong app",
+   "source": "Popup Chinese — “The Beijing Subway” (Elementary)"
+  },
+  {
+   "note": "Nội dung và transcript đạt, nhưng chỉ phát được tại italki; không nhúng được, loại giọng chưa xác minh. Đã chuyển xuống mục tham khảo.",
+   "result": "Chỉ nghe được tại nguồn",
+   "source": "italki — 中文每日一练 (hội thoại cách đi làm)"
+  },
+  {
+   "note": "Video khoảng 15 phút, toàn bài chỉ có một từ của bài học （公共汽车）, không có mốc bắt đầu/kết thúc của đoạn liên quan đã được xác minh.",
+   "result": "Không đạt: quá dài cho một từ",
+   "source": "YouTube — truyện HSK 2 “老板的蛋糕店” (kênh Mandarin Shadow)"
+  },
+  {
+   "note": "Hội thoại chính dùng 电车 (không phải từ của bài); các câu mẫu ở phần bài tập là câu rời, không thành một đoạn nghe hoàn chỉnh.",
+   "result": "Không khớp từ và thể loại",
+   "source": "ChineseClass101 — “Talking About Transportation”"
+  },
+  {
+   "note": "Đã rà danh mục theo cấp và chủ đề: không tìm thấy đoạn hội thoại ngắn chủ đề đi lại ở trình độ HSK 2 có transcript khớp chính bản thu và phát được hợp lệ trong app.",
+   "result": "Không tìm thấy bản phù hợp",
+   "source": "Mandarin Corner, Mandarin Bean, Chinese Voices (Clavis Sinica), CTCFL Oxford"
+  },
+  {
+   "source": "Chinese Station CS4-1108 （関西大学） — theo gợi ý của người dùng, kiểm tra 29/10/2026",
+   "result": "ĐẠT — chọn làm bản nghe chính (v4)",
+   "note": "Hội thoại 4 câu, người thật đóng quay ngoài trời; 4 từ của bài （公里/公交车/地铁/地铁站） dùng đúng nghĩa; 5 bản video YouTube đều phát được và cho nhúng; lời thoại trên trang nguồn khớp phụ đề chữ Hán cháy hình; mốc câu đã đối chiếu (±1 giây); quyền: nhóm tác giả khuyến khích tạo học liệu mới từ素材, cấm thương mại, yêu cầu credit."
+  },
+  {
+   "source": "Growing Up with Chinese L17 (CCTV, qua hanyufanting)",
+   "result": "Không chọn — để tham khảo",
+   "note": "Người thật đóng và có transcript, đoạn hội thoại 1:06–3:27 chứa 3 từ của bài, nhưng mức khó vượt HSK 2 ở nhiều câu và điều kiện sử dụng lại transcript/bản phim không rõ như nguồn chính."
+  }
+ ],
+ "version": 4,
+ "extraPractice": {
   "details": [
    {
     "a": "Năm phút.",
@@ -234,60 +441,5 @@
    "sampleNote": "Câu mẫu dùng thêm hai từ của chính bài này: 自行车 và 骑."
   },
   "title": "Đi sân bay bằng gì?"
- },
- "references": [
-  {
-   "access": "Nghe tại trang italki (miễn phí trên trang nguồn)",
-   "note": "Hội thoại đồng nghiệp bàn cách đi làm: 坐地铁 / 坐公共汽车 / 骑自行车 — rất hợp chủ đề và transcript công khai tại nguồn, nhưng chỉ nghe được tại italki, không nhúng/điều khiển được trong app và loại giọng chưa xác minh. Chỉ để tham khảo thêm, không phải bài nghe chính.",
-   "sourceName": "italki — podcast 中文每日一练",
-   "title": "Mỗi người đi làm bằng gì? (hội thoại về ngày không đi ô tô)",
-   "url": "https://www.italki.com/en/podcast/episode/cidk2i0uqrm3aw58xiwxni"
-  },
-  {
-   "access": "Kênh chính thức cần gói trả phí",
-   "note": "Các hội thoại ngắn như “Commuting Options” và “Can’t Get a Taxi” rất hợp chủ đề （地铁、辆、出租车）, nhưng kênh chính thức khóa sau gói trả phí; bản PDF lưu hành trên mạng là bản lưu trữ của bên thứ ba nên không dùng làm nguồn nghe chính.",
-   "sourceName": "ChinesePod",
-   "title": "Hội thoại đi lại (Elementary)",
-   "url": "https://www.chinesepod.com"
-  }
- ],
- "revisionNote": "v3 (hợp nhất vào mục Thực hành): module nghe–nói theo bài chuyển từ thẻ dưới bảng từ vào màn hình Thực hành của đúng bài, dùng chung dữ liệu và trình phát; bảng từ chỉ còn lối vào ngắn. Thêm đóng vai bằng chính các file audio từng câu. Nhật ký khảo sát nguồn và căn cứ thiết kế chuyển vào docs/LISTENING_PILOT.md. Bản pilot trước có hai lỗi đã được sửa ở bản này: (1) thẻ ChineseFor.Us gắn câu của một hội thoại giáo trình khác (so sánh giá taxi/xe buýt) cho trang “How Far Is The Airport?” — hội thoại thật của trang đó nói về khoảng cách và giờ tàu điện, script chữ Hán bị khóa Premium, nên thẻ đã bị gỡ; (2) truyện video 15 phút chỉ chứa một từ của bài và không có mốc đoạn đã xác minh — đã gỡ. Số độ phủ cũ 6/24 bị hủy bỏ và tính lại từ đầu theo bản nghe dưới đây.",
- "surveyLog": [
-  {
-   "note": "Trang là trang tổng hợp nhiều hội thoại nghe; script chữ Hán của chính hội thoại sân bay bị khóa sau gói Premium (“Go Premium to unlock dialogue script”), điều kiện phát video cho người chưa mua không xác minh được. Bản pilot cũ còn gắn nhầm câu của hội thoại khác. Không đạt điều kiện làm bài nghe chính.",
-   "result": "Bị khóa / không xác minh được bản thu",
-   "source": "ChineseFor.Us — “How Far Is The Airport?” (Level 2 Unit 4 Dialogue)"
-  },
-  {
-   "note": "Hội thoại ngắn, đúng chủ đề, nhưng kênh chính thức cần gói trả phí mới nghe được; các bản PDF/audio lưu hành là bản lưu trữ của bên thứ ba, không phải kênh sử dụng hợp lệ cho app.",
-   "result": "Bị khóa truy cập",
-   "source": "ChinesePod — “Commuting Options”, “Can’t Get a Taxi” (Elementary)"
-  },
-  {
-   "note": "Transcript công khai, nhưng trang nguồn không cung cấp trình phát nhúng chính thức để điều khiển trong app; lời thoại nhiều 儿化 kiểu Bắc Kinh và vài chỗ vượt HSK 2.",
-   "result": "Không có trình phát hợp lệ trong app",
-   "source": "Popup Chinese — “The Beijing Subway” (Elementary)"
-  },
-  {
-   "note": "Nội dung và transcript đạt, nhưng chỉ phát được tại italki; không nhúng được, loại giọng chưa xác minh. Đã chuyển xuống mục tham khảo.",
-   "result": "Chỉ nghe được tại nguồn",
-   "source": "italki — 中文每日一练 (hội thoại cách đi làm)"
-  },
-  {
-   "note": "Video khoảng 15 phút, toàn bài chỉ có một từ của bài học （公共汽车）, không có mốc bắt đầu/kết thúc của đoạn liên quan đã được xác minh.",
-   "result": "Không đạt: quá dài cho một từ",
-   "source": "YouTube — truyện HSK 2 “老板的蛋糕店” (kênh Mandarin Shadow)"
-  },
-  {
-   "note": "Hội thoại chính dùng 电车 (không phải từ của bài); các câu mẫu ở phần bài tập là câu rời, không thành một đoạn nghe hoàn chỉnh.",
-   "result": "Không khớp từ và thể loại",
-   "source": "ChineseClass101 — “Talking About Transportation”"
-  },
-  {
-   "note": "Đã rà danh mục theo cấp và chủ đề: không tìm thấy đoạn hội thoại ngắn chủ đề đi lại ở trình độ HSK 2 có transcript khớp chính bản thu và phát được hợp lệ trong app.",
-   "result": "Không tìm thấy bản phù hợp",
-   "source": "Mandarin Corner, Mandarin Bean, Chinese Voices (Clavis Sinica), CTCFL Oxford"
-  }
- ],
- "version": 3
+ }
 }
