@@ -1,3 +1,16 @@
+# Đính chính độ phủ HSK1 Bài 1: 15/24 (ranh giới từ) — đã phát hành và xác minh Pages
+
+- Merge commit: 03bc3956a1833c6714736b3d15e8ed9342cc3e6d (nhánh main, PR #46); commit trên nhánh biên soạn: `fca1f25`.
+- Rà lại theo yêu cầu: câu gốc CS4-0203 “你好，我叫张丽丽，是中文系的。” — 中文系 tách thành 中文 + 系 (khoa), 中文 giữ đúng nghĩa “tiếng Trung” nên được tính (đối chiếu CC-CEDICT: hai mục từ riêng, không có mục từ 中文系）. Ngược lại “留学生” là một từ nguyên khối （留学 + 生） nên 学生 vẫn không tính. Độ phủ Bài 1: 14/24 → 15/24, còn thiếu 9 từ; dữ liệu bài nâng version 2, quy tắc ranh giới từ bổ sung vào docs/PRACTICE_STANDARD.md.
+- Kiểm thử dữ liệu và DOM đã cập nhật theo số mới và đạt. Pages run 40899343417 success đúng HEAD 03bc395 (run #311); file dữ liệu live khớp byte.
+
+# Thực hành HSK1 Bài 2 — bộ 5 video, phủ 11/24 — đã phát hành và xác minh Pages
+
+- Merge commit: 02849ae4c8666a2aef2c279891c814eb5052abdb (nhánh main, PR #47); commit trên nhánh biên soạn: `b8eee59` (xung đột ở PRACTICE_CHECKPOINT.md khi gộp đã được giải quyết trên web, giữ đúng bản nhánh — đã đối chiếu file trên main khớp nội dung dự định). Nhánh sao lưu: backup/practice-hsk1-b2-20261030 ở main HEAD 03bc395.
+- Bài đủ điều kiện (24/24 từ V2). Bộ 5 video Chinese Station: CS4-0807 mượn sách （书/本）, CS4-0604 lịch học （个/课）, CS4-1009 hỏi ngày （号）, CS4-1802 vé opera （票/钱/买/元/百 — 百 trong cách đọc số 130 là từ “trăm” độc lập nên tính), CS4-1210 vé tàu （点）; phủ 11/24. Còn thiếu 13 từ: 事 写 分 块 字 最 次 记 读 页 本子 课本 呢 （分/字 chỉ trong từ nguyên khối 分钟/汉字 nên không tính). CS4-1601 bị loại vì chưa từng quay （未撮影）; CS4-0605 và CS4-1011 không bổ sung từ mới. Thứ tự câu 4–5 của CS4-1210 lấy theo phụ đề cháy trong video (trang nguồn in ngược), đã ghi chú trong dữ liệu. Hai video có câu ~1 giây (0807, 1009) nghe cả đoạn.
+- Kiểm thử: toàn bộ kiểm thử bắt buộc đạt, thêm kịch bản DOM deep3 cho bài thứ ba; audit giữ 739; completedCount không đổi 912/2.224.
+- Pages run 40903041434 success đúng HEAD 02849ae (run #312); file live khớp byte (dữ liệu Bài 2, manifest, checkpoint). Kiểm tra live bằng thao tác thật: module đúng bài, tổng 11/24, hộp thiếu đúng 13 từ; CS4-1210 phát hết đoạn và nút nghe câu 7 nhảy đúng ~0:19; CS4-1802 phát hết đoạn, nghe rõ các mức giá 130/80/50元. Cả 5 video đã được phát thử và đo mốc ở khâu tuyển nguồn trên cả hai bản. Giới hạn còn lại: mốc ±1 giây; CS4-1009 câu 3 suy từ mốc kẹp; chưa thử trên Android thật.
+
 # Thực hành theo bài — tổng quát hóa app + HSK1 Bài 1 (5 video, 14/24) — đã phát hành và xác minh Pages
 
 - Merge commit: 151c75ed49de33cd0916b9d2cdf573cc0e9912fb (nhánh main, PR #45); commit trên nhánh biên soạn: `2f8cc69`. Nhánh sao lưu: backup/practice-multi-20261029 ở main HEAD d9ef1ba.
