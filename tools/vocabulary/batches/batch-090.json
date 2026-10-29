@@ -1,0 +1,1798 @@
+{
+ "id": "batch-090",
+ "authorship": "10 mục baseline 903–912; tự biên soạn, đối chiếu MDBG và Wiktionary, tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Dễ 3 （可怕 大声 大小）, trung bình 7 （讲 一般 不同 平常 平时 怎么样 怎样）, khó 0. Bổ sung nghĩa danh mục: 讲 thêm kể/giảng, 一般 thêm “nói chung”, 大声 sửa “giọng to” → “to tiếng”, 平时 rõ “ngày thường”. Các cặp 平常/平时 và 怎么样/怎样 soi gương hai phía bằng câu khác nhau; 一般 đối 普通 (913 đợt sau).",
+ "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
+ "entries": [
+  {
+   "id": "hz-h2-fa41e405697f",
+   "hanzi": "讲",
+   "wordEdits": {
+    "meaning": "nói; kể; giảng",
+    "intro": [
+     {
+      "pinyin": "jiǎng",
+      "meaning": "nói; kể; giảng"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-090 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 903,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E8%AE%B2",
+     "https://en.wiktionary.org/wiki/讲"
+    ],
+    "introduction": {
+     "scope": "Nói có nội dung: kể chuyện, giảng bài, nói một thứ tiếng."
+    },
+    "meaning": {
+     "scene": "Nghe thầy giảng bài, ông bà kể chuyện, hoặc hỏi ai đó nói được thứ tiếng nào.",
+     "explanation": "讲 nhấn vào nội dung được trình bày ra: một câu chuyện, một bài học, một đạo lý, một thứ tiếng. Người nghe nhận được một nội dung trọn vẹn, không chỉ một câu nói lẻ.",
+     "boundary": "Nói một câu thông báo ngắn kiểu “anh ấy nói mai không đến” thì dùng từ “nói rằng” thông thường, xem phần bẫy.",
+     "conditions": [
+      "Hay đi với: kể chuyện, giảng bài, nói một thứ tiếng, trình bày cách làm."
+     ],
+     "takeaway": "Thấy nội dung được trình bày thành bài là nghĩ tới từ này."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "讲 + chuyện/bài/đạo lý",
+      "position": "Đứng trước nội dung được kể hoặc giảng.",
+      "required": "Nội dung sau nó phải là thứ trình bày được thành đoạn.",
+      "omission": "Bỏ 讲 thì mất động từ trình bày.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "讲 + thứ tiếng",
+      "position": "Đứng trước tên một ngôn ngữ.",
+      "required": "Sau nó là tên tiếng như tiếng Trung, tiếng Anh.",
+      "omission": "Bỏ 讲 thì câu mất ý “nói được thứ tiếng”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "老师给我们讲了一个故事。",
+      "vi": "Thầy đã kể cho chúng tôi một câu chuyện.",
+      "analysis": "讲 ở đây là “kể” một câu chuyện trọn vẹn.",
+      "practiceAllowed": true,
+      "pinyin": "Lǎoshī gěi wǒmen jiǎng le yí ge gùshi"
+     },
+     {
+      "id": "e2",
+      "zh": "他会讲三种语言。",
+      "vi": "Anh ấy nói được ba thứ tiếng.",
+      "analysis": "讲 đi với ngôn ngữ: nói được một thứ tiếng.",
+      "practiceAllowed": true,
+      "pinyin": "Tā huì jiǎng sān zhǒng yǔyán"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "讲 và 说: trình bày nội dung hay nói một câu",
+      "scene": "Hai từ đều dịch là “nói” nên người Việt hay lẫn.",
+      "possibleConfusion": "Người học dùng từ “nói rằng” cho cả việc kể chuyện và giảng bài.",
+      "difference": "Từ “nói rằng” đi với một câu nội dung cụ thể ngay sau nó. 讲 đi với thứ được trình bày thành bài: câu chuyện, bài giảng, đạo lý, một thứ tiếng.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "他说他明天不来。",
+        "vi": "Anh ấy nói rằng mai anh ấy không đến.",
+        "comment": "Một câu thông báo cụ thể: từ “nói rằng”.",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "请你讲讲你的办法。",
+        "vi": "Bạn hãy trình bày cách làm của bạn đi.",
+        "comment": "Trình bày một nội dung: 讲。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo loại nội dung sau động từ."
+      },
+      "boundary": "Nói một thứ tiếng thì cả hai từ đều dùng được trong khẩu ngữ, nhưng 讲 trang trọng và rõ nghĩa “thành thạo” hơn.",
+      "tip": "Câu nói lẻ: “nói rằng”; bài trình bày: 讲。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "讲 một cách đọc ở mức này; động từ trình bày nội dung.",
+     "literalTranslation": "Dịch sát từng chữ của danh mục cũ chỉ là “nói” — thiếu hẳn hai việc kể và giảng.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 讲 với từ “nói rằng” thông thường ở loại nội dung đi sau."
+    },
+    "pronunciation": {
+     "text": "Từ này một âm tiết, đọc thanh ba, giọng hạ xuống rồi nhô lên nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Kể một câu chuyện” thì dùng từ trong bài hay từ “nói rằng”? Vì sao?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Nói “cô ấy nói được hai thứ tiếng” bằng một câu có 讲。"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "讲"
+      ],
+      "explanation": "Câu chuyện là nội dung trình bày thành bài nên dùng 讲。"
+     },
+     "q2": {
+      "accepted": [
+       "她会讲两种语言。"
+      ],
+      "explanation": "讲 đứng trước số thứ tiếng."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng bà thường kể chuyện ngày xưa cho cháu nghe."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng thầy giảng bài rất dễ hiểu."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một người kể chuyện quá khứ.",
+      "frame": "…… + 给我们 + 讲 + ……",
+      "model": "奶奶常常给我们讲以前的故事。",
+      "vi": "Bà thường kể cho chúng tôi nghe chuyện ngày xưa.",
+      "criteria": [
+       "Có 讲 chỉ việc kể."
+      ]
+     },
+     "s2": {
+      "idea": "Nhận xét một bài giảng.",
+      "frame": "老师 + 讲 + 得 ……",
+      "model": "老师讲得很清楚。",
+      "vi": "Thầy giảng bài rất rõ ràng.",
+      "criteria": [
+       "Có 讲 chỉ việc giảng."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1",
+      "q2"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-052afaf0dac0",
+   "hanzi": "一般",
+   "wordEdits": {
+    "meaning": "nói chung; bình thường",
+    "intro": [
+     {
+      "pinyin": "yìbān",
+      "meaning": "nói chung; bình thường"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-090 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 904,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%B8%80%E8%88%AC",
+     "https://en.wiktionary.org/wiki/一般"
+    ],
+    "introduction": {
+     "scope": "Hai dùng chính: “bình thường” và “thường thì”."
+    },
+    "meaning": {
+     "scene": "Nhận xét một vật bình thường không có gì lạ, hoặc nói thói quen thường ngày của ai đó.",
+     "explanation": "一般 làm tính từ thì nghĩa là bình thường, không đặc biệt. Làm trạng từ đặt trước câu thì nghĩa là thường thì, nói chung là vậy. Nhìn vị trí là biết nghĩa nào.",
+     "boundary": "Việc rất đặc biệt, nổi bật thì không dùng từ này để tả.",
+     "conditions": [
+      "Một nghĩa thứ ba hay gặp khi chấm mức chất lượng: “tàm tạm, thường thường”, xem ở phần bẫy."
+     ],
+     "takeaway": "Trước danh từ là “bình thường”; đầu mệnh đề là “thường thì”."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "一般 + 的 + danh từ",
+      "position": "Đứng trước danh từ, làm tính từ.",
+      "required": "Danh từ sau nó là vật được nhận xét bình thường.",
+      "omission": "Bỏ 一般 thì mất ý nhận xét “không có gì đặc biệt”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "一般 + mệnh đề",
+      "position": "Đứng sau chủ ngữ, trước động từ, chỉ thói quen thường lệ.",
+      "required": "Mệnh đề sau là việc thường xảy ra.",
+      "omission": "Bỏ 一般 thì thói quen thành việc chắc chắn tuyệt đối.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "一般的手机没有这个功能。",
+      "vi": "Điện thoại bình thường không có chức năng này.",
+      "analysis": "一般 ở đây là tính từ “bình thường”.",
+      "practiceAllowed": true,
+      "pinyin": "Yìbān de shǒujī méiyǒu zhè ge gōngnéng"
+     },
+     {
+      "id": "e2",
+      "zh": "他一般晚上十点睡觉。",
+      "vi": "Thường thì anh ấy ngủ lúc mười giờ tối.",
+      "analysis": "一般 ở đây là trạng từ “thường thì”.",
+      "practiceAllowed": true,
+      "pinyin": "Tā yìbān wǎnshang shí diǎn shuì jiào"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "一般 và 普通: bình thường hay phổ biến",
+      "scene": "Hai từ đều dịch là “bình thường”.",
+      "possibleConfusion": "Người học tưởng hai từ thay nhau ở mọi vị trí, kể cả khi nhận xét chất lượng “tàm tạm”.",
+      "difference": "普通 nhấn tính phổ biến: ai cũng có, ở đâu cũng gặp. 一般 còn hai việc khác: làm trạng từ “thường thì”, và chấm mức chất lượng là “tàm tạm” khi nhận xét món ăn, bộ phim.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "这是很普通的问题。",
+        "vi": "Đây là một vấn đề rất phổ biến.",
+        "comment": "Tính phổ biến ai cũng gặp: 普通。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "这家店的菜味道一般。",
+        "vi": "Món ăn của quán này vị thường thường, không có gì đặc biệt.",
+        "comment": "Chấm mức “tàm tạm”: 一般。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo ý “phổ biến” hay “tàm tạm/thường thì”."
+      },
+      "boundary": "Đứng đầu mệnh đề chỉ thói quen thì chỉ dùng 一般。",
+      "tip": "Phổ biến: 普通； tàm tạm, thường thì: 一般。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "一般 một cách đọc; tính từ và trạng từ tùy vị trí.",
+     "literalTranslation": "Nghĩa “tàm tạm” khi chấm chất lượng là nghĩa thứ ba hay gặp, để ở phần bẫy.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 一般 với 普通 ở bài sau; hai nghĩa chính của 一般 tách theo vị trí."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh bốn, âm tiết sau đọc thanh một cao phẳng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Trong câu “他一般六点起床”, từ trong bài nghĩa là “bình thường” hay “thường thì”?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Nhận xét “món này vị tàm tạm” thì dùng từ nào trong hai từ 一般 và 普通？"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "Thường thì"
+      ],
+      "explanation": "Nó đứng trước mệnh đề chỉ thói quen nên là trạng từ."
+     },
+     "q2": {
+      "accepted": [
+       "一般"
+      ],
+      "explanation": "Chấm mức chất lượng “tàm tạm” là nghĩa riêng của 一般。"
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng thường thì cuối tuần mình ở nhà nghỉ ngơi."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng đây là một việc rất đỗi bình thường."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một thói quen cuối tuần.",
+      "frame": "我 + 一般 + ……",
+      "model": "我一般周末在家休息。",
+      "vi": "Thường thì cuối tuần tôi ở nhà nghỉ ngơi.",
+      "criteria": [
+       "Có 一般 chỉ thói quen."
+      ]
+     },
+     "s2": {
+      "idea": "Một việc không có gì đặc biệt.",
+      "frame": "这 + 是 + …… 一般 ……",
+      "model": "这是一件很一般的事。",
+      "vi": "Đây là một việc rất đỗi bình thường.",
+      "criteria": [
+       "Có 一般 làm tính từ."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-62d6edbaa8d9",
+   "hanzi": "不同",
+   "wordEdits": {
+    "meaning": "khác nhau",
+    "intro": [
+     {
+      "pinyin": "bù tóng",
+      "meaning": "khác nhau"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-090 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 905,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%B8%8D%E5%90%8C",
+     "https://en.wiktionary.org/wiki/不同"
+    ],
+    "introduction": {
+     "scope": "Nói hai thứ không giống nhau."
+    },
+    "meaning": {
+     "scene": "So sánh ý kiến, thói quen, giá cả của hai người hoặc hai vật.",
+     "explanation": "不同 nghĩa là không giống nhau. Khuôn hay gặp nhất: một thứ “với” một thứ khác rồi 不同； hoặc 不同 đứng trước danh từ thành “khác nhau” như một tính từ.",
+     "boundary": "Giống nhau hoàn toàn thì dùng từ trái nghĩa của nó, xem ở phần bẫy.",
+     "conditions": [
+      "Cần hai phía để so sánh, hoặc một nhóm có nhiều thành viên khác nhau."
+     ],
+     "takeaway": "Thấy hai phía được đặt cạnh nhau để so là đất của từ này."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "A + 跟/和 + B + 不同",
+      "position": "Đứng cuối cụm so sánh.",
+      "required": "Cần hai phía A và B rõ ràng.",
+      "omission": "Bỏ 不同 thì câu so sánh không có kết luận.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "不同 + 的 + danh từ",
+      "position": "Đứng trước danh từ, làm tính từ.",
+      "required": "Danh từ sau nó là thứ có nhiều loại khác nhau.",
+      "omission": "Bỏ 不同 thì mất ý “khác nhau”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "我的想法跟他的不同。",
+      "vi": "Ý nghĩ của tôi khác với của anh ấy.",
+      "analysis": "不同 kết luận cho cặp so sánh hai người.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒ de xiǎngfǎ gēn tā de bù tóng"
+     },
+     {
+      "id": "e2",
+      "zh": "每个人有不同的习惯。",
+      "vi": "Mỗi người có một thói quen khác nhau.",
+      "analysis": "不同 đứng trước danh từ “thói quen”.",
+      "practiceAllowed": true,
+      "pinyin": "Měi ge rén yǒu bù tóng de xíguàn"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "不同 và 一样: khác hay giống",
+      "scene": "Hai từ là hai kết luận ngược nhau của một phép so sánh.",
+      "possibleConfusion": "Người học lẫn khi muốn nói “không giống” bằng phủ định của từ “giống”.",
+      "difference": "Giống nhau là 一样； không giống là 不同. Phủ định của “giống” là “không giống” — gần nghĩa 不同 nhưng khẩu ngữ hơn; 不同 trang trọng hơn và đứng trước danh từ làm tính từ tự nhiên hơn.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "这两件衣服的颜色一样。",
+        "vi": "Màu của hai cái áo này giống nhau.",
+        "comment": "Kết luận “giống”: 一样。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "这两件衣服的价格不同。",
+        "vi": "Giá của hai cái áo này khác nhau.",
+        "comment": "Kết luận “khác”: 不同。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo kết luận so sánh thật."
+      },
+      "boundary": "Đứng trước danh từ như “thói quen khác nhau” thì dùng 不同 tự nhiên hơn.",
+      "tip": "Giống: 一样； khác: 不同。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "不同 là cụm tính từ ghép từ phủ định và “giống”.",
+     "literalTranslation": "Dịch sát là “không giống” — đúng với cả hai khuôn so sánh.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 不同 với 一样 và dạng phủ định của nó; không có đa âm."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh bốn, âm tiết sau đọc thanh hai lên giọng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Ý kiến của tôi khác ý kiến của cô ấy” thì kết luận bằng từ nào?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "不同 đứng trước danh từ được không? Cho một ví dụ ngắn."
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "不同"
+      ],
+      "explanation": "Kết luận “khác nhau” dùng 不同。"
+     },
+     "q2": {
+      "accepted": [
+       "Được"
+      ],
+      "explanation": "Ví dụ: 不同的想法 — những ý nghĩ khác nhau."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng cách làm này khác cách làm hôm qua."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng hai anh em tính cách rất khác nhau."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "So sánh hai cách làm.",
+      "frame": "…… + 跟 …… + 不同",
+      "model": "这个做法跟昨天的做法不同。",
+      "vi": "Cách làm này khác cách làm hôm qua.",
+      "criteria": [
+       "Có 不同 kết luận so sánh."
+      ]
+     },
+     "s2": {
+      "idea": "So sánh tính cách hai người.",
+      "frame": "…… + 很 + 不同",
+      "model": "兄弟俩的性格很不同。",
+      "vi": "Tính cách của hai anh em rất khác nhau.",
+      "criteria": [
+       "Có 不同 chỉ sự khác nhau."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-315f4a832d09",
+   "hanzi": "可怕",
+   "wordEdits": {
+    "meaning": "đáng sợ; khủng khiếp",
+    "intro": [
+     {
+      "pinyin": "kěpà",
+      "meaning": "đáng sợ"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-090 · dễ"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 906,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%8F%AF%E6%80%95",
+     "https://en.wiktionary.org/wiki/可怕"
+    ],
+    "introduction": {
+     "scope": "Tả một vật hoặc việc làm người ta sợ."
+    },
+    "meaning": {
+     "scene": "Nhận xét một bộ phim ma, một tin xấu, một cơn bão lớn.",
+     "explanation": "可怕 là tính từ gắn cho vật hoặc việc: nó đáng sợ, khủng khiếp. Người sợ thì không gắn từ này, xem phần bẫy.",
+     "boundary": "Việc chỉ hơi lạ hoặc khó chịu thì chưa tới mức dùng từ này.",
+     "conditions": [
+      "Đi được với các từ mức độ như “rất”, “quá”, và đứng trước danh từ."
+     ],
+     "takeaway": "Gắn từ này cho vật gây sợ, không gắn cho người đang sợ."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "……很/太可怕了",
+      "position": "Đứng sau chủ ngữ là vật hoặc việc.",
+      "required": "Chủ ngữ phải là thứ gây ra cảm giác sợ.",
+      "omission": "Bỏ 可怕 thì mất nhận xét “đáng sợ”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "可怕 + 的 + danh từ",
+      "position": "Đứng trước danh từ, làm tính từ.",
+      "required": "Danh từ sau nó là việc hoặc vật đáng sợ.",
+      "omission": "Bỏ 可怕 thì danh từ mất tính chất đáng sợ.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "昨晚的电影太可怕了。",
+      "vi": "Bộ phim tối qua đáng sợ quá.",
+      "analysis": "可怕 nhận xét về bộ phim.",
+      "practiceAllowed": true,
+      "pinyin": "Zuówǎn de diànyǐng tài kěpà le"
+     },
+     {
+      "id": "e2",
+      "zh": "这是一个可怕的消息。",
+      "vi": "Đây là một tin tức khủng khiếp.",
+      "analysis": "可怕 đứng trước danh từ “tin tức”.",
+      "practiceAllowed": true,
+      "pinyin": "Zhè shì yí ge kěpà de xiāoxi"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "可怕 và 怕: vật đáng sợ hay người sợ",
+      "scene": "Hai từ cùng nói về nỗi sợ nên hay bị gắn nhầm phía.",
+      "possibleConfusion": "Người học gắn 可怕 cho người đang sợ.",
+      "difference": "怕 là cảm giác của người: ai sợ cái gì. 可怕 là tính chất của vật hoặc việc: cái gì đáng sợ. Một câu có thể có cả hai phía.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "我怕黑。",
+        "vi": "Tôi sợ bóng tối.",
+        "comment": "Cảm giác của người: 怕。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "黑黑的山路很可怕。",
+        "vi": "Con đường núi tối om rất đáng sợ.",
+        "comment": "Tính chất của vật: 可怕。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo phía “người sợ” hay “vật đáng sợ”."
+      },
+      "boundary": "Nói “tôi rất 可怕” là sai phía, người nghe sẽ hiểu bạn là người đáng sợ.",
+      "tip": "Người sợ: 怕； vật đáng sợ: 可怕。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "可怕 một cách đọc; tính từ gắn cho vật gây sợ.",
+     "literalTranslation": "Dịch sát là “đáng sợ” — không gắn cho người đang sợ.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 可怕 với 怕 ở phía của nỗi sợ; 怕 đã học ở bài trước."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh ba, âm tiết sau đọc thanh bốn dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Bộ phim này đáng sợ” thì dùng từ nào?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Câu “ tôi rất 可怕 ” khi muốn nói mình đang sợ thì đúng hay sai phía?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "可怕"
+      ],
+      "explanation": "Bộ phim là vật gây sợ nên gắn 可怕。"
+     },
+     "q2": {
+      "accepted": [
+       "Sai phía"
+      ],
+      "explanation": "Người đang sợ thì dùng từ chỉ cảm giác, không dùng 可怕。"
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng tiếng sấm rất đáng sợ."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nhận xét cơn bão tối qua thật khủng khiếp."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một âm thanh gây sợ.",
+      "frame": "…… + 很 + 可怕",
+      "model": "雷声很可怕。",
+      "vi": "Tiếng sấm rất đáng sợ.",
+      "criteria": [
+       "Có 可怕 gắn cho vật."
+      ]
+     },
+     "s2": {
+      "idea": "Một hiện tượng gây sợ.",
+      "frame": "…… + 太可怕了",
+      "model": "昨晚的暴风雨太可怕了。",
+      "vi": "Cơn bão tối qua thật khủng khiếp.",
+      "criteria": [
+       "Có 可怕 làm nhận xét."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-4216a90c03e6",
+   "hanzi": "大声",
+   "wordEdits": {
+    "meaning": "to tiếng; lớn tiếng",
+    "intro": [
+     {
+      "pinyin": "dà shēng",
+      "meaning": "to tiếng"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-090 · dễ"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 907,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%A4%A7%E5%A3%B0",
+     "https://en.wiktionary.org/wiki/大声"
+    ],
+    "introduction": {
+     "scope": "Chỉ âm lượng to khi nói, cười, hát, khóc."
+    },
+    "meaning": {
+     "scene": "Nhờ ai đó nói to lên trong lớp, hoặc nhắc đừng làm ồn nơi yên tĩnh.",
+     "explanation": "大声 tả cách thực hiện một hành động bằng tiếng: nói to, cười to, hát to. Nó đứng trước động từ, hoặc sau động từ với chữ “đắc” nối ở giữa.",
+     "boundary": "Nói về bản thân âm thanh to nhỏ thì xem phần bẫy để chọn cách nói.",
+     "conditions": [
+      "Luôn đi cùng một hành động phát ra tiếng."
+     ],
+     "takeaway": "Thấy hành động có tiếng là có đất cho từ này."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "大声 + động từ",
+      "position": "Đứng ngay trước động từ phát ra tiếng.",
+      "required": "Động từ phải là nói, cười, hát, khóc, đọc.",
+      "omission": "Bỏ 大声 thì mất chỉ dẫn về âm lượng.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "……一起大声……",
+      "position": "Dùng khi nhiều người cùng làm một hành động thật to.",
+      "required": "Chủ ngữ thường là một nhóm người.",
+      "omission": "Bỏ 大声 thì mất không khí rộn ràng của hành động.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "请大声一点儿说。",
+      "vi": "Xin hãy nói to lên một chút.",
+      "analysis": "大声 đứng trước động từ “nói”.",
+      "practiceAllowed": true,
+      "pinyin": "Qǐng dà shēng yìdiǎnr shuō"
+     },
+     {
+      "id": "e2",
+      "zh": "孩子们大声笑着。",
+      "vi": "Bọn trẻ đang cười thật to.",
+      "analysis": "大声 tả cách cười của bọn trẻ.",
+      "practiceAllowed": true,
+      "pinyin": "Háizimen dà shēng xiào zhe"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "大声 và 声音: cách làm hay bản thân âm thanh",
+      "scene": "Hai cách nói đều về tiếng to nên hay bị trộn.",
+      "possibleConfusion": "Người học dùng 大声 như một danh từ chỉ âm thanh.",
+      "difference": "Nói về bản thân âm thanh thì dùng danh từ “âm thanh” cộng tính từ to. 大声 không phải danh từ; nó chỉ tả cách làm một hành động phát ra tiếng.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "他的声音很大。",
+        "vi": "Tiếng của anh ấy rất to.",
+        "comment": "Nhận xét bản thân âm thanh: danh từ cộng tính từ.",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "请不要大声说话。",
+        "vi": "Xin đừng nói chuyện to tiếng.",
+        "comment": "Tả cách nói: 大声 trước động từ.",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo việc đang tả âm thanh hay tả cách làm."
+      },
+      "boundary": "Sau “của anh ấy” để nói tiếng của ai thì không dùng 大声。",
+      "tip": "Âm thanh to: danh từ + to; nói to: 大声 + động từ."
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "大声 là cụm trạng thái tả cách phát ra tiếng, không phải danh từ.",
+     "literalTranslation": "Danh mục cũ ghi “giọng to” dễ làm người học tưởng đây là danh từ chỉ giọng.",
+     "confusables": "Đã rà soát: điểm nhầm cốt lõi là vai trò của 大声 so với danh từ chỉ âm thanh; không có đa âm."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh bốn mạnh, âm tiết sau đọc thanh một cao phẳng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Nhờ ai “nói to lên một chút” thì đặt 大声 trước hay sau động từ?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Nói “tiếng của cô ấy to” thì dùng 大声 hay dùng danh từ “âm thanh”?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "Trước động từ"
+      ],
+      "explanation": "大声 đứng ngay trước hành động phát ra tiếng."
+     },
+     "q2": {
+      "accepted": [
+       "Danh từ âm thanh"
+      ],
+      "explanation": "Bản thân âm thanh được nhận xét bằng danh từ cộng tính từ to."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nhắc một người nói to lên để cả lớp nghe rõ."
+     },
+     {
+      "id": "s2",
+      "prompt": "Kể rằng mọi người cùng hát thật to."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một lời nhắc trong lớp học.",
+      "frame": "请你 + 大声 + ……",
+      "model": "请你大声一点儿读课文。",
+      "vi": "Bạn đọc bài to lên một chút nhé.",
+      "criteria": [
+       "Có 大声 trước động từ."
+      ]
+     },
+     "s2": {
+      "idea": "Nhiều người cùng hát.",
+      "frame": "大家 + 一起 + 大声 + ……",
+      "model": "大家一起大声唱歌。",
+      "vi": "Mọi người cùng hát thật to.",
+      "criteria": [
+       "Có 大声 tả cách hát."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-beb20553cbe8",
+   "hanzi": "大小",
+   "wordEdits": {
+    "meaning": "kích thước",
+    "intro": [
+     {
+      "pinyin": "dàxiǎo",
+      "meaning": "kích thước"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-090 · dễ"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 908,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%A4%A7%E5%B0%8F",
+     "https://en.wiktionary.org/wiki/大小"
+    ],
+    "introduction": {
+     "scope": "Danh từ chỉ kích thước của một vật."
+    },
+    "meaning": {
+     "scene": "Mua quần áo, giày dép, hoặc so chiếc túi này với chiếc túi kia.",
+     "explanation": "大小 là một danh từ nguyên khối nghĩa là “kích thước”: hỏi kích thước có vừa không, kích thước hai vật có giống nhau không. Nó không phải hai tính từ ghép lại trong câu.",
+     "boundary": "Tả một vật “rất to” hoặc “rất nhỏ” thì dùng tính từ riêng, xem phần bẫy.",
+     "conditions": [
+      "Hay đi với: vừa, không vừa, giống nhau, khác nhau."
+     ],
+     "takeaway": "Khi cần một con số “cỡ” cho vật thì nghĩ tới từ này."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "大小 + vừa/không vừa",
+      "position": "Đứng làm chủ ngữ của nhận xét về độ vừa.",
+      "required": "Nhận xét sau nó là về độ vừa của kích thước.",
+      "omission": "Bỏ 大小 thì câu mất chủ ngữ “kích thước”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "……的大小",
+      "position": "Đứng sau một vật, chỉ kích thước của vật đó.",
+      "required": "Vật trước nó là thứ được đo kích thước.",
+      "omission": "Bỏ 大小 thì mất ý so sánh kích thước.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "这双鞋大小正合适。",
+      "vi": "Đôi giày này kích cỡ vừa khít.",
+      "analysis": "大小 làm chủ ngữ: kích cỡ vừa.",
+      "practiceAllowed": true,
+      "pinyin": "Zhè shuāng xié dàxiǎo zhèng héshì"
+     },
+     {
+      "id": "e2",
+      "zh": "两个房间的大小不一样。",
+      "vi": "Kích thước của hai căn phòng không giống nhau.",
+      "analysis": "的大小 chỉ kích thước của phòng.",
+      "practiceAllowed": true,
+      "pinyin": "Liǎng ge fángjiān de dàxiǎo bù yíyàng"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "大小 và 大: kích thước hay mức to",
+      "scene": "Người học dịch sát từng chữ nên dùng lẫn danh từ và tính từ.",
+      "possibleConfusion": "Người học hỏi “kích thước” bằng tính từ “to” và ngược lại.",
+      "difference": "大小 là danh từ “kích thước”, dùng khi hỏi cỡ có vừa không hoặc so kích thước hai vật. Tính từ “to” đứng sau danh từ để tả mức to của một vật cụ thể.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "这件衣服的大小我穿正好。",
+        "vi": "Kích cỡ của cái áo này tôi mặc vừa đúng.",
+        "comment": "Danh từ “kích thước”: 大小。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "桌子太大，放不下。",
+        "vi": "Cái bàn to quá, để không vừa.",
+        "comment": "Tả mức to của một vật: tính từ “to”.",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo việc hỏi “cỡ” hay tả “mức to”."
+      },
+      "boundary": "Hỏi cỡ giày, cỡ áo thì dùng danh từ kích thước tự nhiên hơn.",
+      "tip": "Hỏi cỡ: 大小； tả mức: tính từ to/nhỏ."
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "大小 là danh từ nguyên khối, không tách hai tính từ khi dùng.",
+     "literalTranslation": "Dịch sát từng chữ là “to nhỏ” — gộp lại thành “kích thước”.",
+     "confusables": "Đã rà soát: điểm nhầm cốt lõi là 大小 danh từ với tính từ to/nhỏ; không có đa âm hay nghĩa hiếm ở mức này."
+    },
+    "pronunciation": {
+     "text": "Hai âm tiết đọc thanh bốn rồi thanh ba, đọc liền như một danh từ nguyên khối. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Hỏi “đôi giày này cỡ có vừa không” thì dùng từ nào làm chủ ngữ?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "大小 là danh từ hay tính từ?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "大小"
+      ],
+      "explanation": "Kích thước làm chủ ngữ của nhận xét độ vừa."
+     },
+     "q2": {
+      "accepted": [
+       "Danh từ"
+      ],
+      "explanation": "大小 là danh từ nghĩa là kích thước."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng mua áo phải xem kích thước có vừa không."
+     },
+     {
+      "id": "s2",
+      "prompt": "So sánh kích thước của hai chiếc túi."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một lưu ý khi mua đồ.",
+      "frame": "买 …… 要看 + 大小 + ……",
+      "model": "买衣服要看大小合不合适。",
+      "vi": "Mua quần áo phải xem kích thước có vừa không.",
+      "criteria": [
+       "Có 大小 chỉ kích thước."
+      ]
+     },
+     "s2": {
+      "idea": "So hai vật cùng loại.",
+      "frame": "…… 的 + 大小 + ……",
+      "model": "这两个包的大小不一样。",
+      "vi": "Kích thước của hai chiếc túi này không giống nhau.",
+      "criteria": [
+       "Có 大小 làm danh từ."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-4f2a79a02276",
+   "hanzi": "平常",
+   "wordEdits": {
+    "meaning": "bình thường",
+    "intro": [
+     {
+      "pinyin": "píngcháng",
+      "meaning": "bình thường"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-090 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 909,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%B9%B3%E5%B8%B8",
+     "https://en.wiktionary.org/wiki/平常"
+    ],
+    "introduction": {
+     "scope": "Hai mặt: tính chất “bình thường” và thời gian “thường ngày”."
+    },
+    "meaning": {
+     "scene": "Nhận xét một việc không có gì lạ, hoặc kể thói quen ngày thường của ai đó.",
+     "explanation": "平常 làm tính từ thì nghĩa là bình thường, không có gì đặc biệt, đứng trước danh từ hoặc sau “rất”. Làm trạng từ thời gian thì nghĩa là thường ngày, giống người bạn của nó ở bài sau.",
+     "boundary": "Việc đặc biệt, nổi bật hẳn thì không tả bằng từ này.",
+     "conditions": [
+      "Đi với “rất” được khi làm tính từ: “rất bình thường”."
+     ],
+     "takeaway": "Sau “rất” là tính chất; đầu mệnh đề là thời gian."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "平常 + 的 + danh từ / 很平常",
+      "position": "Làm tính từ tả tính chất.",
+      "required": "Danh từ sau nó là việc hoặc vật bình thường.",
+      "omission": "Bỏ 平常 thì mất nhận xét “không có gì lạ”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "平常 + mệnh đề",
+      "position": "Làm trạng từ chỉ thời gian thường ngày.",
+      "required": "Mệnh đề sau là việc thường xảy ra.",
+      "omission": "Bỏ 平常 thì mất khung “ngày thường”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "这是平常的事，别担心。",
+      "vi": "Đây là việc bình thường, đừng lo.",
+      "analysis": "平常 ở đây là tính từ trước danh từ.",
+      "practiceAllowed": true,
+      "pinyin": "Zhè shì píngcháng de shì bié dānxīn"
+     },
+     {
+      "id": "e2",
+      "zh": "他平常很少生病。",
+      "vi": "Thường ngày anh ấy rất ít khi ốm.",
+      "analysis": "平常 ở đây chỉ thời gian thường ngày.",
+      "practiceAllowed": true,
+      "pinyin": "Tā píngcháng hěn shǎo shēngbìng"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "平常 và 平时: tả tính chất được hay chỉ thời gian",
+      "scene": "Hai từ đều nói về “thường ngày” nên hay bị thay nhau.",
+      "possibleConfusion": "Người học gắn từ chỉ thời gian vào sau “rất” để tả tính chất.",
+      "difference": "平时 chỉ đóng vai thời gian trong câu: ngày thường. Nó không đi với “rất” và không tả tính chất. 平常 vừa chỉ thời gian vừa tả tính chất “không có gì đặc biệt”.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "这件小事很平常。",
+        "vi": "Việc nhỏ này rất đỗi bình thường.",
+        "comment": "Tả tính chất với “rất”: 平常。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "他平时骑车上班。",
+        "vi": "Ngày thường anh ấy đạp xe đi làm.",
+        "comment": "Chỉ khung thời gian: 平时。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo vai trò cần trong câu."
+      },
+      "boundary": "Trước danh từ chỉ một ngày, một việc “bình thường” thì dùng 平常 tự nhiên hơn.",
+      "tip": "Sau “rất” để tả tính chất: 平常； chỉ thời gian: cả hai đều được."
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "平常 một cách đọc; tính từ và trạng từ thời gian.",
+     "literalTranslation": "Hai mặt của từ tách theo vị trí: sau “rất” là tính chất, đầu mệnh đề là thời gian.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 平常 với 平时 ở vai trò tính từ; bài 平时 đối chiếu lại bằng câu khác."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh hai, âm tiết sau đọc thanh hai; hai tiếng lên giọng nhẹ đều nhau. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Rất bình thường” nói bằng từ nào trong hai từ 平常 và 平时？ Vì sao?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Trong câu “他平常自己做饭”, từ trong bài đóng vai thời gian hay tính chất?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "平常"
+      ],
+      "explanation": "Chỉ 平常 mới làm tính từ đi với “rất” được."
+     },
+     "q2": {
+      "accepted": [
+       "Thời gian"
+      ],
+      "explanation": "Nó đặt khung “thường ngày” cho việc tự nấu cơm."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng thường ngày mình ăn cơm ở nhà."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng đó là một chuyện rất đỗi bình thường."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một thói quen ăn uống.",
+      "frame": "我 + 平常 + ……",
+      "model": "我平常在家吃饭。",
+      "vi": "Thường ngày tôi ăn cơm ở nhà.",
+      "criteria": [
+       "Có 平常 chỉ thời gian."
+      ]
+     },
+     "s2": {
+      "idea": "Một nhận xét về tính chất.",
+      "frame": "…… + 是 + 很平常 + ……",
+      "model": "那是很平常的事。",
+      "vi": "Đó là chuyện rất đỗi bình thường.",
+      "criteria": [
+       "Có 平常 làm tính từ."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-84c90b4ae7c1",
+   "hanzi": "平时",
+   "wordEdits": {
+    "meaning": "ngày thường; thường ngày",
+    "intro": [
+     {
+      "pinyin": "píngshí",
+      "meaning": "ngày thường"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-090 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 910,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%B9%B3%E6%97%B6",
+     "https://en.wiktionary.org/wiki/平时"
+    ],
+    "introduction": {
+     "scope": "Chỉ khoảng thời gian thường ngày, đối lập lúc đặc biệt."
+    },
+    "meaning": {
+     "scene": "So ngày thường với ngày lễ, ngày thi, cuối tuần: ngày thường thì thế này, lúc đặc biệt thì thế khác.",
+     "explanation": "平时 chỉ là một khung thời gian: những ngày bình thường không có sự kiện gì. Nó đứng đầu câu hoặc sau chủ ngữ, và hay đi cùng một phía đối lập như ngày lễ, cuối tuần.",
+     "boundary": "平时 không tả tính chất và không đi với “rất”; việc đó là của 平常。",
+     "conditions": [
+      "Hay gặp trong câu so sánh hai khung thời gian."
+     ],
+     "takeaway": "Thấy phía đối lập “lúc đặc biệt” là đất rõ nhất của từ này."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "平时，……",
+      "position": "Đứng đầu câu đặt khung thời gian.",
+      "required": "Mệnh đề sau là việc của ngày thường.",
+      "omission": "Bỏ 平时 thì mất khung “ngày thường”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "……平时……",
+      "position": "Đứng sau chủ ngữ, trước động từ.",
+      "required": "Chủ ngữ là người hoặc nơi được nói về ngày thường.",
+      "omission": "Bỏ 平时 thì việc thành tuyệt đối mọi lúc.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "平时他很忙，周末才有空儿。",
+      "vi": "Ngày thường anh ấy rất bận, cuối tuần mới có lúc rảnh.",
+      "analysis": "平时 đặt khung đối lập với cuối tuần.",
+      "practiceAllowed": true,
+      "pinyin": "Píngshí tā hěn máng zhōumò cái yǒu kòngr"
+     },
+     {
+      "id": "e2",
+      "zh": "这家店平时人不多。",
+      "vi": "Cửa hàng này ngày thường không đông người.",
+      "analysis": "平时 đứng sau chủ ngữ, trước nhận xét.",
+      "practiceAllowed": true,
+      "pinyin": "Zhè jiā diàn píngshí rén bù duō"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "平时 và 平常: khung thời gian hay cả tính chất",
+      "scene": "Hai từ cùng gốc “thường” nên người học thay nhau mọi chỗ.",
+      "possibleConfusion": "Người học nói “rất 平时” để tả một việc bình thường.",
+      "difference": "平时 chỉ là khung thời gian “ngày thường”, không đi với “rất”, không đứng làm tính từ tả tính chất. 平常 làm được cả hai việc: chỉ thời gian và tả “không có gì đặc biệt”.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "这是很平常的打扮。",
+        "vi": "Đây là cách ăn mặc rất đỗi bình thường.",
+        "comment": "Tả tính chất: 平常。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "过节的时候人多，平时人少。",
+        "vi": "Ngày lễ thì đông người, ngày thường thì ít người.",
+        "comment": "Khung thời gian đối lập: 平时。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo vai trò trong câu."
+      },
+      "boundary": "Khi so “ngày thường” với một lúc đặc biệt thì 平时 rõ ý nhất.",
+      "tip": "Tả tính chất: 平常； đặt khung ngày thường: 平时。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "平时 một cách đọc; chỉ là khung thời gian.",
+     "literalTranslation": "Dịch sát là “lúc thường” — không phải tính từ tả mức độ.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 平时 với 平常 ở vai trò tính từ; bài 平常 đã đối chiếu từ phía tính chất."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh hai, âm tiết sau đọc thanh hai; đọc liền, không nhấn riêng âm nào. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Nói “ngày thường ít người, ngày lễ đông người” thì phía ngày thường dùng từ nào rõ ý nhất?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "平时 đi với “rất” được không? Vì sao?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "平时"
+      ],
+      "explanation": "Đặt khung thời gian đối lập là việc chính của 平时。"
+     },
+     "q2": {
+      "accepted": [
+       "Không được"
+      ],
+      "explanation": "平时 chỉ là khung thời gian, không phải tính từ tả mức độ."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng ngày thường thư viện mở cửa lúc tám giờ."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng ngày thường bố đi làm bằng tàu điện ngầm."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Giờ mở cửa ngày thường.",
+      "frame": "…… + 平时 + ……",
+      "model": "图书馆平时八点开门。",
+      "vi": "Ngày thường thư viện mở cửa lúc tám giờ.",
+      "criteria": [
+       "Có 平时 đặt khung thời gian."
+      ]
+     },
+     "s2": {
+      "idea": "Thói quen đi lại ngày thường.",
+      "frame": "…… + 平时 + ……",
+      "model": "爸爸平时坐地铁上班。",
+      "vi": "Ngày thường bố đi làm bằng tàu điện ngầm.",
+      "criteria": [
+       "Có 平时 chỉ ngày thường."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-8d2a78b26d07",
+   "hanzi": "怎么样",
+   "wordEdits": {
+    "meaning": "thế nào; được không",
+    "intro": [
+     {
+      "pinyin": "zěnmeyàng",
+      "meaning": "thế nào"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-090 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 911,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%80%8E%E4%B9%88%E6%A0%B7",
+     "https://en.wiktionary.org/wiki/怎么样"
+    ],
+    "introduction": {
+     "scope": "Hỏi ý kiến “thế nào”, và dùng cuối câu để đề nghị."
+    },
+    "meaning": {
+     "scene": "Hỏi cảm nhận về một món đồ, một bộ phim; hoặc rủ ai làm gì kèm “được không?”.",
+     "explanation": "怎么样 đứng sau thứ được hỏi ý kiến: “cái này thế nào?”. Đứng một mình ở cuối một lời đề nghị thì nó là “được không, nhé?” — vai trò đổi theo vị trí.",
+     "boundary": "Hỏi cách làm cụ thể từng bước thì từ ngắn hơn ở bài sau tự nhiên hơn, xem phần bẫy.",
+     "conditions": [
+      "Câu trả lời thường là nhận xét: tốt, không tệ, hơi đắt."
+     ],
+     "takeaway": "Sau một vật là hỏi ý kiến; sau một lời rủ là xin đồng ý."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "……怎么样？",
+      "position": "Đứng cuối câu hỏi ý kiến, sau thứ được nhận xét.",
+      "required": "Thứ trước nó là vật hoặc việc cần ý kiến.",
+      "omission": "Bỏ 怎么样 thì câu không còn là câu hỏi ý kiến.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "đề nghị，怎么样？",
+      "position": "Đứng một mình ở cuối lời đề nghị.",
+      "required": "Trước nó là một việc rủ người nghe cùng làm.",
+      "omission": "Bỏ 怎么样 thì lời rủ mất phần hỏi ý.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "这件衣服怎么样？",
+      "vi": "Cái áo này thế nào?",
+      "analysis": "怎么样 hỏi ý kiến về cái áo.",
+      "practiceAllowed": true,
+      "pinyin": "Zhè jiàn yīfu zěnmeyàng"
+     },
+     {
+      "id": "e2",
+      "zh": "我们明天去爬山，怎么样？",
+      "vi": "Ngày mai chúng ta đi leo núi, được không?",
+      "analysis": "怎么样 cuối câu biến lời rủ thành lời đề nghị.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒmen míngtiān qù pá shān zěnmeyàng"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "怎么样 và 怎样: khẩu ngữ đề nghị hay trang trọng hỏi cách",
+      "scene": "Hai từ đều dịch là “thế nào”.",
+      "possibleConfusion": "Người học dùng từ ngắn trang trọng để rủ rê bạn bè, nghe cứng và lạ.",
+      "difference": "怎么样 khẩu ngữ, thân mật, và làm được việc riêng: đứng cuối lời đề nghị để hỏi “được không”. 怎样 ngắn gọn, hơi trang trọng, hay dùng khi hỏi cách thức trong câu hỏi nghiêm túc hoặc văn viết.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "你觉得这个办法怎么样？",
+        "vi": "Bạn thấy cách này thế nào?",
+        "comment": "Hỏi ý kiến thân mật: 怎么样。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "怎样才能学好中文？",
+        "vi": "Làm thế nào mới học tốt được tiếng Trung?",
+        "comment": "Hỏi cách thức nghiêm túc: 怎样。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo mức thân mật và mục đích hỏi."
+      },
+      "boundary": "Đứng cuối lời rủ “đi chơi nhé?” thì chỉ dùng 怎么样。",
+      "tip": "Rủ rê, hỏi cảm nhận: 怎么样； hỏi cách trang trọng: 怎样。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "怎么样 là cụm hỏi ba âm tiết, âm giữa đọc nhẹ.",
+     "literalTranslation": "Vai trò đề nghị ở cuối câu là việc riêng của cụm dài này.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 怎么样 với 怎样 ở sắc thái và vai trò đề nghị; bài 怎样 đối chiếu lại bằng câu khác."
+    },
+    "pronunciation": {
+     "text": "Ba âm tiết đọc liền: thanh ba, thanh nhẹ, thanh bốn; âm giữa đọc nhẹ và nhanh. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Rủ bạn “chiều nay đi bơi, được không?” thì từ nào đứng cuối câu?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Câu “这双鞋怎么样？” hỏi ý kiến hay hỏi cách làm?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "怎么样"
+      ],
+      "explanation": "Vai trò đề nghị cuối câu chỉ thuộc về 怎么样。"
+     },
+     "q2": {
+      "accepted": [
+       "Hỏi ý kiến"
+      ],
+      "explanation": "Nó đứng sau vật được nhận xét."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Hỏi ý kiến của người đối diện về món ăn mình vừa nấu."
+     },
+     {
+      "id": "s2",
+      "prompt": "Đề nghị cuối tuần cùng đi xem triển lãm."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Xin nhận xét về một món ăn.",
+      "frame": "你觉得 …… + 怎么样",
+      "model": "你觉得这个菜怎么样？",
+      "vi": "Bạn thấy món này thế nào?",
+      "criteria": [
+       "Có 怎么样 hỏi ý kiến."
+      ]
+     },
+     "s2": {
+      "idea": "Một lời rủ có hỏi ý.",
+      "frame": "……，怎么样",
+      "model": "周末我们去看展览，怎么样？",
+      "vi": "Cuối tuần chúng ta đi xem triển lãm, được không?",
+      "criteria": [
+       "Có 怎么样 ở cuối lời đề nghị."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-fddd41736a06",
+   "hanzi": "怎样",
+   "wordEdits": {
+    "meaning": "thế nào (hỏi cách)",
+    "intro": [
+     {
+      "pinyin": "zěnyàng",
+      "meaning": "như thế nào"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-090 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 912,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%80%8E%E6%A0%B7",
+     "https://en.wiktionary.org/wiki/怎样"
+    ],
+    "introduction": {
+     "scope": "Hỏi cách thức: “như thế nào, bằng cách nào”."
+    },
+    "meaning": {
+     "scene": "Hỏi đường đi, cách viết một chữ, cách làm một việc cho đúng.",
+     "explanation": "怎样 hỏi cách thức hoặc trạng thái “như thế nào”. Nó ngắn gọn và hơi trang trọng hơn người bạn khẩu ngữ của nó ở bài trước. Một khuôn rất hay gặp là “dù thế nào đi nữa” để nói quyết tâm.",
+     "boundary": "Rủ rê thân mật và hỏi cảm nhận đời thường thì từ khẩu ngữ tự nhiên hơn.",
+     "conditions": [
+      "Đứng trước động từ khi hỏi cách; đứng sau “dù” trong khuôn quyết tâm."
+     ],
+     "takeaway": "Hỏi “làm bằng cách nào” là đất chính của từ này."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "怎样 + động từ",
+      "position": "Đứng ngay trước động từ của việc cần hỏi cách.",
+      "required": "Động từ sau nó là việc chưa biết làm thế nào.",
+      "omission": "Bỏ 怎样 thì câu mất phần hỏi cách.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "不管怎样，……",
+      "position": "Khuôn “dù thế nào” mở đầu một quyết tâm.",
+      "required": "Mệnh đề sau là việc vẫn sẽ làm bất chấp hoàn cảnh.",
+      "omission": "Bỏ khuôn này thì lời quyết tâm mất ý “dù sao cũng”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "这句话怎样说？",
+      "vi": "Câu này nói như thế nào?",
+      "analysis": "怎样 hỏi cách nói một câu.",
+      "practiceAllowed": true,
+      "pinyin": "Zhè jù huà zěnyàng shuō"
+     },
+     {
+      "id": "e2",
+      "zh": "不管怎样，我都要试一试。",
+      "vi": "Dù thế nào, tôi cũng phải thử một lần.",
+      "analysis": "Khuôn “dù thế nào” mở đầu quyết tâm.",
+      "practiceAllowed": true,
+      "pinyin": "Bùguǎn zěnyàng wǒ dōu yào shì yi shì"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "怎样 và 怎么样: hỏi cách trang trọng hay hỏi cảm nhận thân mật",
+      "scene": "Hai từ đều dịch là “thế nào” nhưng đất dùng khác nhau.",
+      "possibleConfusion": "Người học dùng 怎么样 cho mọi câu hỏi, kể cả câu hỏi cách thức nghiêm túc.",
+      "difference": "怎样 hợp với câu hỏi cách thức cụ thể: đi thế nào, viết thế nào, làm sao để đạt được. 怎么样 hợp với hỏi cảm nhận về một thứ và đứng cuối lời đề nghị; đặt 怎样 vào cuối lời rủ thì không thành câu.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "怎样去火车站？",
+        "vi": "Đi đến ga tàu như thế nào?",
+        "comment": "Hỏi cách đi cụ thể: 怎样。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "你的新工作怎么样？",
+        "vi": "Công việc mới của bạn thế nào?",
+        "comment": "Hỏi cảm nhận: 怎么样。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo việc hỏi cách hay hỏi cảm nhận."
+      },
+      "boundary": "Khuôn “dù thế nào” chỉ dùng 怎样。",
+      "tip": "Hỏi cách: 怎样； hỏi cảm nhận, rủ rê: 怎么样。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "怎样 một cách đọc; từ hỏi cách thức.",
+     "literalTranslation": "Khuôn “dù thế nào” là khuôn cố định phải thuộc nguyên khối.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 怎样 với 怎么样 ở mục đích hỏi; bài 怎么样 đã đối chiếu từ phía đề nghị."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh ba, âm tiết sau đọc thanh bốn; đọc gọn, dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Hỏi “đi sân bay bằng cách nào” thì chọn 怎样 hay 怎么样？ Vì sao?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Khuôn “dù thế nào” dùng từ nào trong bài?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "怎样"
+      ],
+      "explanation": "Hỏi cách thức cụ thể là đất của 怎样。"
+     },
+     "q2": {
+      "accepted": [
+       "怎样"
+      ],
+      "explanation": "Khuôn cố định là “dù + 怎样”."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Hỏi cách viết một chữ Hán khó."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng dù thế nào mình cũng không bỏ cuộc."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Hỏi cách làm một việc cụ thể.",
+      "frame": "…… + 怎样 + ……",
+      "model": "这个字怎样写？",
+      "vi": "Chữ này viết như thế nào?",
+      "criteria": [
+       "Có 怎样 hỏi cách."
+      ]
+     },
+     "s2": {
+      "idea": "Một quyết tâm bất chấp hoàn cảnh.",
+      "frame": "不管怎样，我 ……",
+      "model": "不管怎样，我都不会放弃。",
+      "vi": "Dù thế nào, tôi cũng không bỏ cuộc.",
+      "criteria": [
+       "Có 怎样 trong khuôn quyết tâm."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  }
+ ]
+}

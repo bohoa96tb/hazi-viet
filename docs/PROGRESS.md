@@ -2,7 +2,7 @@
 
 Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7fdb369ead4108c19fc5ed8423. Không gồm 10 mục đã có trước đó.
 
-Đã bổ sung: 882/2224. Còn: 1342. Toàn khóa đủ cấu trúc: 892/2234.
+Đã bổ sung: 912/2224. Còn: 1312. Toàn khóa đủ cấu trúc: 922/2234.
 
 ## Các đợt đã đưa vào dữ liệu
 
@@ -93,26 +93,29 @@ Phạm vi: 2224 mục chưa đủ cấu trúc tại commit gốc 5855215769ef2f7
 - batch-085 · mục 853–862 · 音乐、周、度、篇、节、题、上周、假期、前年、句子
 - batch-086 · mục 863–872 · 周年、周末、学期、年级、报纸、日子、日报、春节、晚会、晚报
 - batch-087 · mục 873–882 · 月份、生活、节日、节目、过年、哭、一会儿、一点点、下周、不一会儿
+- batch-088 · mục 883–892 · 不久、今后、以下、以后、以外、后来、多久、好久、已经、忽然
+- batch-089 · mục 893–902 · 接下来、接着、早就、有空儿、永远、然后、计划、越来越、随时、流
+- batch-090 · mục 903–912 · 讲、一般、不同、可怕、大声、大小、平常、平时、怎么样、怎样
 
 ## 18 mục tiếp theo
 
-- 不久 · hz-h2-9cd3b8846a76
-- 今后 · hz-h2-028bfef06adf
-- 以下 · hz-h2-9c8d9c8a1e6d
-- 以后 · hz-h2-5867950d3c28
-- 以外 · hz-h2-1e88859ca186
-- 后来 · hz-h2-5fc1c09678ef
-- 多久 · hz-h2-5425067a6827
-- 好久 · hz-h2-22bf73c81b69
-- 已经 · hz-h2-a2909587e2bf
-- 忽然 · hz-h2-a6ff97982ea3
-- 接下来 · hz-h2-0dbbac70fb7c
-- 接着 · hz-h2-aa34867289e1
-- 早就 · hz-h2-f9af688bdb27
-- 有空儿 · hz-h2-4142bc0d3bf2
-- 永远 · hz-h2-f42c1400d0a9
-- 然后 · hz-h2-51f29b7ad90f
-- 计划 · hz-h2-02ba4c2c7a2e
-- 越来越 · hz-h2-bed5f4534c45
+- 普通 · hz-h2-84aef3708247
+- 普通话 · hz-h2-08bdfbb44524
+- 水平 · hz-h2-8a9b5e2cde4d
+- 流利 · hz-h2-46701e584177
+- 流行 · hz-h2-f55bca156149
+- 讨论 · hz-h2-e62eeb549112
+- 讲话 · hz-h2-2447d753dec0
+- 语言 · hz-h2-03af893e412c
+- 重复 · hz-h2-d6921cb3d9eb
+- 难听 · hz-h2-d4f59ad3165a
+- 难看 · hz-h2-24f762e88a83
+- 难题 · hz-h2-9ce7abedc729
+- 高级 · hz-h2-916155e4eae8
+- 举行 · hz-h2-de70a186e99b
+- 使用 · hz-h2-17c84315b640
+- 例如 · hz-h2-49e8f71e180f
+- 做到 · hz-h2-6d0424184a98
+- 出现 · hz-h2-c7d98e176a97
 
 Trạng thái lưu chính thức phải đối chiếu HEAD GitHub và progress.json; bài đủ mẫu chưa được giáo viên phản biện độc lập. Sau kiểm tra được phát hành sang main; xem trạng thái tại docs/RELEASE.md.
