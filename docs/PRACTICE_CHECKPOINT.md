@@ -33,6 +33,13 @@ và người dùng nhắn “Tiếp tục” mới làm tiếp HSK1 · Bài 3 th
   sửa nhãn độ phủ thành “từ của bài xuất hiện trong video”, rút gọn phần kỹ thuật đo mốc vào mục thu gọn.
   Validator `test-practice-data.mjs` nay cấm tên trường cũ và đòi trường chuẩn; test DOM render đủ 50 dòng thoại
   của 10 video + pilot hồi quy. Bài 1 dữ liệu lên version 3, Bài 2 lên version 2 (tiến độ học được di trú, không xóa).
-  Phạm vi đã kiểm chứng và trạng thái phát hành: ghi ở ghi chép phát hành sau khi nghiệm thu live.
+  **Phát hành:** PR #48, merge `c92306f` trên main; GitHub Pages run cho đúng commit đó: success.
+  **Nghiệm thu live (2026-10-30, trực tiếp trên trang thật):** Bài 2 bước 3 hiện đủ chữ Hán + tên người nói + nghĩa Việt
+  (dòng đầu 山本 “不好意思，我想借本书。”), bước 2 có câu ý chính và chọn đáp án “Mượn một quyển sách” (nay ở vị trí 3)
+  cho phản hồi “Đúng rồi”; video CS4-0807 phát được hết đoạn trong app live. Bài 1 dòng đầu 张丽丽 “你好，我叫张丽丽，是中文系的。”
+  hiện đúng. Pilot HSK2 hồi quy: dòng đầu video 1 您好，这儿离火车站远吗？ hiện đúng. Cả 3 trang không có chữ “undefined”,
+  không thấy tràn ngang ở khung nhìn đã xem. **Giới hạn:** chưa đặt được đúng viewport 390px trong phiên kiểm tra này và
+  chưa thử Android thật; kiểm thử DOM (Happy DOM) bằng dữ liệu thật đã render đủ 50/50 dòng thoại của 10 video, cả 5 bước,
+  popup tra từ có Pinyin + nghĩa, tiến độ tách theo bài/video. **Việc tiếp theo: chờ người dùng nhắn “Tiếp tục” mới làm Bài 3.**
 - 2026-10-29: chốt quy trình theo chỉ thị của người dùng; bắt đầu đợt bổ sung từ HSK1 · Bài 1.
   Tổng quát hóa app (manifest + dữ liệu theo bài) phải giữ nguyên hành vi và tiến độ của pilot v6.
