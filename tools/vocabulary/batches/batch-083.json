@@ -1,0 +1,1786 @@
+{
+  "id": "batch-083",
+  "authorship": "10 mục baseline 833–842; tự biên soạn, đối chiếu MDBG và Wiktionary, tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Dễ 4 （国际 地球 手表 排球）, trung bình 6 （队 体育 健康 图片 影片 成绩）, khó 0. Sửa danh mục: 图片 “bức tranh” → “hình ảnh; tranh ảnh”; 影片 “bản sao của phim” → “phim; bộ phim”; 体育 bổ sung “thể thao”.",
+  "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
+  "entries": [
+    {
+      "id": "hz-h2-933e6a2685b1",
+      "hanzi": "队",
+      "wordEdits": {
+        "meaning": "đội; hàng (xếp hàng)",
+        "intro": [
+          {
+            "pinyin": "duì",
+            "meaning": "đội"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-083 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 833,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E9%98%9F",
+          "https://en.wiktionary.org/wiki/队"
+        ],
+        "introduction": {
+          "scope": "Học 队 là “đội” — một tập thể có tổ chức và hàng ngũ: đội bóng, đội quân — và chữ 队 trong xếp hàng."
+        },
+        "meaning": {
+          "scene": "Đội bóng của trường ra sân; trước quầy vé, mọi người xếp thành một hàng dài.",
+          "explanation": "队 là danh từ đội: 球队 (đội bóng), 军队 (quân đội), 排队 (xếp hàng — một hàng người cũng là một 队）. 队 nhấn vào TỔ CHỨC và HÀNG NGŨ của tập thể.",
+          "boundary": "Cảnh báo đồng âm: 队 đọc giống hệt 对 (đúng, đối — 571). Ngữ cảnh phân biệt: nói về tập thể, hàng người là 队； nói đúng sai, đối diện là 对。",
+          "conditions": [
+            "Đội + lĩnh vực khi gọi tên đội.",
+            "排 + 队 khi xếp hàng chờ."
+          ],
+          "takeaway": "Tập thể có hàng ngũ, tổ chức, dùng 队。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "队 làm danh từ",
+            "position": "队 đứng cuối từ ghép chỉ đội.",
+            "required": "Ngữ cảnh thể thao, quân sự, tổ chức.",
+            "omission": "Đây là việc chính.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "队 trong xếp hàng",
+            "position": "队 sống trong 排队。",
+            "required": "Ngữ cảnh mua vé, lên xe, chờ đợi.",
+            "omission": "Nhận ra là đủ ở mức này.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我们的队赢了。",
+            "vi": "Đội chúng ta thắng rồi.",
+            "analysis": "队赢了: đội thi đấu.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒmen de duì yíng le."
+          },
+          {
+            "id": "e2",
+            "zh": "大家在排队买票。",
+            "vi": "Mọi người đang xếp hàng mua vé.",
+            "analysis": "排队买票: hàng người chờ.",
+            "practiceAllowed": true,
+            "pinyin": "Dàjiā zài páiduì mǎi piào."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "队 và 组: đội hàng ngũ hay nhóm nhiệm vụ",
+            "scene": "Chốt cặp tập thể từ phía 队 — phía nhóm đã mở ở bài 832.",
+            "possibleConfusion": "Bài 832 đã dạy quy tắc; bài này kiểm tra chiều ngược bằng một cảnh thi đấu và xếp hàng.",
+            "difference": "队 là tập thể có TỔ CHỨC: ra sân thi đấu, mặc đồng phục, xếp thành hàng — mỗi thành viên có vị trí trong một đội hình. 组 (832) là nhóm NHIỆM VỤ nhỏ: vài người ngồi lại làm chung việc, không đội hình, không đối thủ. Nhìn có hàng ngũ/đối thủ hay không là phân biệt được.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "足球队在比赛。",
+                "vi": "Đội bóng đá đang thi đấu.",
+                "comment": "Thi đấu có đối thủ: 队。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "学习小组在讨论。",
+                "vi": "Nhóm học tập đang thảo luận.",
+                "comment": "Ngồi lại làm việc: 组。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Một nhóm thảo luận không “thi đấu”; một đội bóng không chỉ “ngồi thảo luận”."
+            },
+            "boundary": "Ra sân, xếp hàng, đồng phục: 队. Ngồi làm chung một việc: 组。",
+            "tip": "Hàng ngũ: 队; nhiệm vụ: 组。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "队 chỉ có một cách đọc; nghĩa là đội, hàng ngũ.",
+          "literalTranslation": "排队 dịch sát là xếp đội — xếp hàng.",
+          "confusables": "Đã đối chiếu 队 với 组 (832) và cảnh báo đồng âm 对。"
+        },
+        "pronunciation": {
+          "text": "队 đọc thanh bốn, dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 中国____很强。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Xin xếp hàng."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "中国队很强。"
+            ],
+            "explanation": "Đội Trung Quốc dùng 队。"
+          },
+          "q2": {
+            "accepted": [
+              "请排队。"
+            ],
+            "explanation": "Xếp hàng dùng 排队。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói đội của trường tôi rất mạnh."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói hàng (đội) này dài quá."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我们学校的队很强 để nói đội trường.",
+            "frame": "我们学校的队 + 很强。",
+            "model": "我们学校的队很强。",
+            "vi": "Đội của trường tôi rất mạnh.",
+            "criteria": [
+              "Có 队.",
+              "Đội của trường dùng 队。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这个队太长了 để nói hàng dài.",
+            "frame": "这个队 + 太长了。",
+            "model": "这个队太长了。",
+            "vi": "Hàng này dài quá.",
+            "criteria": [
+              "Có 队.",
+              "Một hàng người dùng 队。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-e338f1a9a492",
+      "hanzi": "体育",
+      "wordEdits": {
+        "meaning": "thể thao; thể dục",
+        "intro": [
+          {
+            "pinyin": "tǐyù",
+            "meaning": "thể thao"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-083 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 834,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%BD%93%E8%82%B2",
+          "https://en.wiktionary.org/wiki/体育"
+        ],
+        "introduction": {
+          "scope": "Học 体育 là “thể thao, thể dục” — lĩnh vực vận động: giờ thể dục ở trường, tin thể thao, trung tâm thể thao."
+        },
+        "meaning": {
+          "scene": "Sáng thứ hai có giờ thể dục; tối bạn xem tin thể thao và cuối tuần đến trung tâm thể thao bơi.",
+          "explanation": "体育 là danh từ thể thao/thể dục: 体育课 (giờ thể dục — môn học), 体育新闻 (tin thể thao), 体育馆 (nhà thi đấu). 体育 là tên của LĨNH VỰC, MÔN HỌC — không phải buổi tập cụ thể.",
+          "boundary": "体育 khác 运动 (852): 运动 là hoạt động vận động và các môn chơi cụ thể; 体育 là lĩnh vực được tổ chức, giảng dạy. Bài 852 sẽ chốt cặp này.",
+          "conditions": [
+            "体育 + 课/馆/新闻 khi đi với cơ sở, môn học.",
+            "Thích + 体育 khi nói sở thích lĩnh vực."
+          ],
+          "takeaway": "Lĩnh vực vận động có tổ chức, dùng 体育。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "体育 làm danh từ",
+            "position": "体育 đứng trước 课、馆、新闻。",
+            "required": "Ngữ cảnh trường học, truyền thông, cơ sở vật chất.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我喜欢上体育课。",
+            "vi": "Tôi thích học giờ thể dục.",
+            "analysis": "体育课: môn học ở trường.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xǐhuan shàng tǐyù kè."
+          },
+          {
+            "id": "e2",
+            "zh": "他每天看体育新闻。",
+            "vi": "Anh ấy xem tin thể thao mỗi ngày.",
+            "analysis": "体育新闻: mục tin riêng.",
+            "practiceAllowed": true,
+            "pinyin": "Tā měi tiān kàn tǐyù xīnwén."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "体育 và 运动: lĩnh vực thể thao hay hoạt động vận động",
+            "scene": "Mở cặp chốt của nhóm thể thao — phía hoạt động hoàn thiện ở bài 852.",
+            "possibleConfusion": "Hai từ cùng thuộc thế giới vận động nên đây là đường biên phải vẽ cho cả hai bài.",
+            "difference": "体育 là LĨNH VỰC có tổ chức: môn học trong trường, ngành trong xã hội, tin tức, cơ sở — tầm của một hệ thống. 运动 (852) là HOẠT ĐỘNG của cơ thể: việc bạn đang chạy, đang bơi, đang tập — và tên chung của các môn chơi. Nói “môn học thể dục, tin thể thao”: 体育. Nói “đi vận động một chút”: 运动。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "体育老师来了。",
+                "vi": "Thầy thể dục đến rồi.",
+                "comment": "Người dạy một môn học: 体育。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们去运动吧。",
+                "vi": "Chúng ta đi vận động (tập) thôi.",
+                "comment": "Hoạt động của cơ thể: 运动。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "“Đi thể dục lĩnh vực” không thành ý — hoạt động cần 运动。"
+            },
+            "boundary": "Môn học, lĩnh vực, tin tức, nhà thi đấu: 体育. Buổi tập, hoạt động, môn chơi cụ thể: 运动。",
+            "tip": "Lĩnh vực: 体育; hoạt động: 运动。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "体育 là danh từ hai âm tiết; nghĩa là thể thao, thể dục.",
+          "literalTranslation": "体育 gồm thể (cơ thể) và dục (giáo dục).",
+          "confusables": "Đã đối chiếu 体育 với 运动 (852)."
+        },
+        "pronunciation": {
+          "text": "体育 đọc hai âm tiết liền nhau, chữ đầu thanh ba, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 明天有____课。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Anh ấy làm ở nhà thi đấu thể thao."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "明天有体育课。"
+            ],
+            "explanation": "Giờ thể dục dùng 体育。"
+          },
+          "q2": {
+            "accepted": [
+              "他在体育馆工作。"
+            ],
+            "explanation": "Nhà thi đấu dùng 体育馆。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi thích thể thao từ nhỏ."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói giờ thể dục rất vui."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我从小喜欢体育 để nói yêu thể thao từ nhỏ.",
+            "frame": "我 + 从小 + 喜欢体育。",
+            "model": "我从小喜欢体育。",
+            "vi": "Tôi thích thể thao từ nhỏ.",
+            "criteria": [
+              "Có 体育.",
+              "Yêu lĩnh vực dùng 体育。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 体育课很有意思 để khen giờ thể dục.",
+            "frame": "体育课 + 很有意思。",
+            "model": "体育课很有意思。",
+            "vi": "Giờ thể dục rất vui.",
+            "criteria": [
+              "Có 体育.",
+              "Môn học là 体育课。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-8568c7079545",
+      "hanzi": "健康",
+      "wordEdits": {
+        "meaning": "khỏe mạnh; sức khỏe",
+        "intro": [
+          {
+            "pinyin": "jiànkāng",
+            "meaning": "khỏe mạnh"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-083 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 835,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%81%A5%E5%BA%B7",
+          "https://en.wiktionary.org/wiki/健康"
+        ],
+        "introduction": {
+          "scope": "Học 健康 là “khỏe mạnh; sức khỏe” — vừa là tính từ (một người khỏe), vừa là danh từ (sức khỏe là quý nhất)."
+        },
+        "meaning": {
+          "scene": "Ông bà chúc nhau sức khỏe đầu năm; bạn ăn uống điều độ, ngủ đủ để giữ cơ thể khỏe mạnh.",
+          "explanation": "健康 gánh hai vai: TÍNH TỪ khỏe mạnh （身体健康 cơ thể khỏe mạnh, 健康的生活 lối sống lành mạnh) và DANH TỪ sức khỏe （健康最重要 sức khỏe quan trọng nhất). 健康 là từ đầy đủ, trang trọng vừa phải — trong lời chúc, văn bản sức khỏe.",
+          "boundary": "健康 khác 身体： 身体 là CƠ THỂ (vật chứa); 健康 là TRẠNG THÁI TỐT của cơ thể đó — 身体健康 là cơ thể ở trạng thái khỏe.",
+          "conditions": [
+            "Cơ thể + 健康 khi tả trạng thái.",
+            "健康 + quan trọng khi nói như danh từ."
+          ],
+          "takeaway": "Trạng thái tốt của cơ thể, dùng 健康。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "健康 làm tính từ",
+            "position": "健康 đứng sau 身体 hoặc trước danh từ.",
+            "required": "Ngữ cảnh chúc tụng, lối sống.",
+            "omission": "Đây là vai thứ nhất.",
+            "exampleId": "e1"
+          },
+          {
+            "id": "u2",
+            "frame": "健康 làm danh từ",
+            "position": "健康 làm chủ ngữ như một thứ quý giá.",
+            "required": "Câu châm ngôn, lời khuyên.",
+            "omission": "Đây là vai thứ hai.",
+            "exampleId": "e2"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我爷爷身体很健康。",
+            "vi": "Ông tôi rất khỏe mạnh.",
+            "analysis": "身体健康: tính từ cho cơ thể.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ yéye shēntǐ hěn jiànkāng."
+          },
+          {
+            "id": "e2",
+            "zh": "健康比钱重要。",
+            "vi": "Sức khỏe quan trọng hơn tiền.",
+            "analysis": "健康比: danh từ trong so sánh.",
+            "practiceAllowed": true,
+            "pinyin": "Jiànkāng bǐ qián zhòngyào."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "健康 và 身体: sức khỏe hay cơ thể",
+            "scene": "Phân biệt trạng thái với vật chứa trạng thái.",
+            "possibleConfusion": "Hai từ luôn đi cạnh nhau trong câu chuyện sức khỏe nên vai của chúng cần tách rõ.",
+            "difference": "身体 là CƠ THỂ — cái xác vật lý, đau được, mỏi được, cao thấp được. 健康 là TRẠNG THÁI TỐT của cơ thể — không nhìn thấy, chỉ cảm nhận và đánh giá. Vì vậy 身体健康 là một cụm hoàn chỉnh: vật + trạng thái của nó.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他的身体很好。",
+                "vi": "Cơ thể (sức khỏe) anh ấy rất tốt.",
+                "comment": "Nói về cơ thể: 身体。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "祝你健康！",
+                "vi": "Chúc bạn khỏe mạnh (có sức khỏe)!",
+                "comment": "Lời chúc trạng thái: 健康。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Hai câu gần nhau; câu hai là lời chúc chính thức chỉ trạng thái tốt."
+            },
+            "boundary": "Đang nói về cái xác, bộ phận: 身体. Đang chúc, đánh giá trạng thái tốt: 健康。",
+            "tip": "Vật chứa: 身体; trạng thái: 健康。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "健康 là từ hai âm tiết với hai vai tính từ và danh từ.",
+          "literalTranslation": "健康 dịch theo ngữ cảnh là khỏe mạnh, sức khỏe.",
+          "confusables": "Đã đối chiếu 健康 với 身体。"
+        },
+        "pronunciation": {
+          "text": "健康 đọc hai âm tiết liền nhau, chữ đầu thanh bốn, chữ sau thanh một. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 多运动对____好。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Cô ấy rất khỏe mạnh."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "多运动对健康好。"
+            ],
+            "explanation": "Tốt cho sức khỏe dùng 健康。"
+          },
+          "q2": {
+            "accepted": [
+              "她很健康。",
+              "她身体很健康。"
+            ],
+            "explanation": "Khỏe mạnh dùng 健康。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói chúc mọi người sức khỏe."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói ăn sáng rất quan trọng cho sức khỏe."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 祝大家健康 để chúc sức khỏe mọi người.",
+            "frame": "祝 + 大家 + 健康。",
+            "model": "祝大家健康！",
+            "vi": "Chúc mọi người sức khỏe.",
+            "criteria": [
+              "Có 健康.",
+              "Lời chúc dùng 健康。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 吃早餐对健康很重要 để nối bữa sáng với sức khỏe.",
+            "frame": "吃早餐 + 对健康 + 很重要。",
+            "model": "吃早餐对健康很重要。",
+            "vi": "Ăn sáng rất quan trọng cho sức khỏe.",
+            "criteria": [
+              "Có 健康.",
+              "Quan trọng cho sức khỏe là 对健康。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-54c005c7fb01",
+      "hanzi": "国际",
+      "wordEdits": {
+        "meaning": "quốc tế",
+        "intro": [
+          {
+            "pinyin": "guójì",
+            "meaning": "quốc tế"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-083 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 836,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%9B%BD%E9%99%85",
+          "https://en.wiktionary.org/wiki/国际"
+        ],
+        "introduction": {
+          "scope": "Học 国际 là “quốc tế” — tính từ đứng trước danh từ: sân bay quốc tế, tin quốc tế, sinh viên quốc tế."
+        },
+        "meaning": {
+          "scene": "Bạn bay chuyến quốc tế; trường có nhiều sinh viên quốc tế đến học; bản tin quốc tế nói chuyện khắp thế giới.",
+          "explanation": "国际 là tính từ quốc tế: 国际 + danh từ （国际机场 sân bay quốc tế, 国际学生 sinh viên quốc tế, 国际新闻 tin quốc tế). 国际 luôn đứng TRƯỚC một danh từ để nói danh từ đó thuộc tầm thế giới.",
+          "boundary": "国际 không đứng một mình như danh từ — nó là tính từ trang trí: phải có danh từ đi kèm phía sau.",
+          "conditions": [
+            "国际 + danh từ.",
+            "国际 trong tên riêng: sân bay, trường, tổ chức."
+          ],
+          "takeaway": "Thuộc tầm nhiều nước, dùng 国际 làm tính từ trước."
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "国际 làm tính từ",
+            "position": "国际 đứng trước danh từ.",
+            "required": "Ngữ cảnh sân bay, trường học, tin tức.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这是国际机场。",
+            "vi": "Đây là sân bay quốc tế.",
+            "analysis": "国际机场: tên cơ sở quen thuộc.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè shì guójì jīchǎng."
+          },
+          {
+            "id": "e2",
+            "zh": "我们学校有很多国际学生。",
+            "vi": "Trường chúng tôi có nhiều sinh viên quốc tế.",
+            "analysis": "国际学生: người học xuyên biên giới.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒmen xuéxiào yǒu hěn duō guójì xuésheng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "国际 và 外国: quốc tế hay nước ngoài",
+            "scene": "Phân biệt hai tính từ cùng hướng ra thế giới theo góc nhìn.",
+            "possibleConfusion": "Hai từ cùng chỉ phạm vi ngoài nước nên đây là điểm phân góc nhìn gọn của bài.",
+            "difference": "国际 là QUỐC TẾ — giữa NHIỀU nước với nhau: quan hệ, tổ chức, sự kiện chung của thế giới. 外国 là NƯỚC NGOÀI — từ góc một nước nhìn ra: người nước ngoài, hàng nước ngoài — đối trọng là nước mình. Sân bay phục vụ nhiều nước: 国际； một người không phải dân nước này: 外国人。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "国际比赛",
+                "vi": "cuộc thi quốc tế",
+                "comment": "Nhiều nước cùng tham gia: 国际。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "外国朋友",
+                "vi": "bạn nước ngoài",
+                "comment": "Từ góc nước mình nhìn: 外国。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Hai từ cùng một thế giới rộng; khác nhau ở trục nhiều nước chung và một nước nhìn ra."
+            },
+            "boundary": "Sự kiện, tổ chức của nhiều nước: 国际. Người, vật của nước khác: 外国。",
+            "tip": "Nhiều nước: 国际; nước khác: 外国。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "国际 là tính từ hai âm tiết; nghĩa là quốc tế.",
+          "literalTranslation": "国际 gồm nước và giữa — giữa các nước.",
+          "confusables": "Đã đối chiếu 国际 với 外国。"
+        },
+        "pronunciation": {
+          "text": "国际 đọc hai âm tiết liền nhau, chữ đầu thanh hai, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我想订____机票。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Đây là một trường quốc tế."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我想订国际机票。"
+            ],
+            "explanation": "Vé quốc tế dùng 国际。"
+          },
+          "q2": {
+            "accepted": [
+              "这是一所国际学校。"
+            ],
+            "explanation": "Trường quốc tế dùng 国际。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói anh ấy làm việc cho một công ty quốc tế."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói tôi hay đọc tin quốc tế."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 他在国际公司工作 để nói công ty quốc tế.",
+            "frame": "他 + 在 + 国际公司工作。",
+            "model": "他在一家国际公司工作。",
+            "vi": "Anh ấy làm việc cho một công ty quốc tế.",
+            "criteria": [
+              "Có 国际.",
+              "Công ty tầm thế giới là 国际公司。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 我常看国际新闻 để nói đọc tin thế giới.",
+            "frame": "我 + 常看 + 国际新闻。",
+            "model": "我常看国际新闻。",
+            "vi": "Tôi hay đọc tin quốc tế.",
+            "criteria": [
+              "Có 国际.",
+              "Tin thế giới là 国际新闻。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-1ba36f3932c4",
+      "hanzi": "图片",
+      "wordEdits": {
+        "meaning": "hình ảnh; tranh ảnh",
+        "intro": [
+          {
+            "pinyin": "tú piàn",
+            "meaning": "hình ảnh"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-083 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 837,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%9B%BE%E7%89%87",
+          "https://en.wiktionary.org/wiki/图片"
+        ],
+        "introduction": {
+          "scope": "Học 图片 là “hình ảnh, tranh ảnh” — mọi hình nhìn thấy được: ảnh chụp, tranh in, hình trên màn hình, trong sách."
+        },
+        "meaning": {
+          "scene": "Bạn lướt xem hình ảnh trên mạng; sách giáo khoa có nhiều tranh ảnh minh họa giúp bài học dễ hiểu.",
+          "explanation": "图片 là danh từ hình ảnh: 图片 + rõ/đẹp （图片很清楚 hình rõ nét), 一张图片 (một tấm hình). 图片 là từ BAO QUÁT — bất kỳ hình nào, chụp hay vẽ, in hay điện tử, đều là 图片。Danh mục cũ “bức tranh” chỉ đúng cho một góc của nó.",
+          "boundary": "图片 bao cả 照片 (556) — ảnh chụp là một loại 图片； còn tranh VẼ tay là 画儿 (761). Quan hệ bao hàm này là điểm chính của bài.",
+          "conditions": [
+            "Một + 张 + 图片 khi đếm hình.",
+            "图片 + tính từ khi nhận xét hình."
+          ],
+          "takeaway": "Hình nhìn thấy nói chung, dùng 图片。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "图片 làm danh từ",
+            "position": "图片 đứng sau lượng từ 张。",
+            "required": "Ngữ cảnh mạng, sách, điện thoại.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这张图片很清楚。",
+            "vi": "Tấm hình này rất rõ nét.",
+            "analysis": "一张图片: đếm một hình.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè zhāng túpiàn hěn qīngchu."
+          },
+          {
+            "id": "e2",
+            "zh": "书里有很多图片。",
+            "vi": "Trong sách có nhiều hình ảnh.",
+            "analysis": "很多图片: minh họa trong sách.",
+            "practiceAllowed": true,
+            "pinyin": "Shū lǐ yǒu hěn duō túpiàn."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "图片 và 照片: hình ảnh hay ảnh chụp",
+            "scene": "Phân biệt từ bao quát với một loại hình cụ thể trong nó.",
+            "possibleConfusion": "Bài 556 đã dạy 照片; bài này đặt nó vào đúng vị trí trong họ hình ảnh.",
+            "difference": "图片 là HỌ LỚN: mọi hình — chụp, vẽ, in, chụp màn hình. 照片 là MỘT LOÀI trong họ: ảnh do MÁY ẢNH chụp người, cảnh thật. Mọi 照片 đều là 图片； nhưng một tranh vẽ minh họa chỉ là 图片， không phải 照片。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这是一张照片。",
+                "vi": "Đây là một tấm ảnh chụp.",
+                "comment": "Do máy ảnh chụp: 照片。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "这张图片是画的。",
+                "vi": "Tấm hình này là vẽ.",
+                "comment": "Hình vẽ minh họa: 图片。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Gọi một tranh vẽ là “ảnh chụp” sẽ sai nguồn gốc của hình."
+            },
+            "boundary": "Chắc chắn do chụp thật: 照片. Mọi hình còn lại, hoặc nói bao quát: 图片。",
+            "tip": "Bao quát: 图片; chụp: 照片。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "图片 là danh từ hai âm tiết đọc tách nhẹ; nghĩa là hình ảnh, tranh ảnh.",
+          "literalTranslation": "图片 gồm đồ/hình và tấm.",
+          "confusables": "Đã đối chiếu 图片 với 照片 (556) và sửa danh mục hẹp."
+        },
+        "pronunciation": {
+          "text": "图片 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh hai, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 网上有很多好看的____。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Hình ảnh trong điện thoại của tôi rất nhiều."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "网上有很多好看的图片。"
+            ],
+            "explanation": "Hình trên mạng dùng 图片。"
+          },
+          "q2": {
+            "accepted": [
+              "我手机里有很多图片。"
+            ],
+            "explanation": "Hình trong máy dùng 图片。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói tôi lưu nhiều hình trong điện thoại."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô ấy gửi cho tôi một tấm hình."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 我手机里存了很多图片 để nói kho hình trong máy.",
+            "frame": "我手机里 + 存了 + 很多图片。",
+            "model": "我手机里存了很多图片。",
+            "vi": "Tôi lưu nhiều hình trong điện thoại.",
+            "criteria": [
+              "Có 图片.",
+              "Nhiều hình dùng 很多图片。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 她发给我一张图片 để nói gửi một hình.",
+            "frame": "她 + 发给我 + 一张图片。",
+            "model": "她发给我一张图片。",
+            "vi": "Cô ấy gửi cho tôi một tấm hình.",
+            "criteria": [
+              "Có 图片.",
+              "Gửi một hình là 一张图片。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-0059d0ed1c72",
+      "hanzi": "地球",
+      "wordEdits": {
+        "meaning": "trái đất",
+        "intro": [
+          {
+            "pinyin": "dìqiú",
+            "meaning": "trái đất"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-083 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 838,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%9C%B0%E7%90%83",
+          "https://en.wiktionary.org/wiki/地球"
+        ],
+        "introduction": {
+          "scope": "Học 地球 là trái đất — hành tinh chúng ta đang sống, quả cầu xanh nhìn từ vũ trụ."
+        },
+        "meaning": {
+          "scene": "Ảnh trái đất chụp từ tàu vũ trụ xanh lấp lánh; trẻ con nào cũng biết chúng ta sống trên trái đất.",
+          "explanation": "地球 là danh từ trái đất: 地球上 (trên trái đất), 地球很大 (trái đất rất lớn), 爱护地球 (bảo vệ trái đất). 地球 là TÊN của hành tinh — một danh từ riêng về bản chất.",
+          "boundary": "地球 khác mặt đất dưới chân: 地球 là cả hành tinh tròn; 地 là mặt đất, sàn nhà, mặt bằng.",
+          "conditions": [
+            "地球 + 上 khi nói trên hành tinh.",
+            "Bảo vệ/yêu + 地球 trong khẩu hiệu, bài học."
+          ],
+          "takeaway": "Hành tinh của chúng ta, dùng 地球。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "地球 làm danh từ",
+            "position": "地球 làm chủ ngữ hoặc tân ngữ.",
+            "required": "Ngữ cảnh khoa học, địa lý, môi trường.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "地球是圆的。",
+            "vi": "Trái đất tròn.",
+            "analysis": "地球是圆的: sự thật đầu tiên của địa lý.",
+            "practiceAllowed": true,
+            "pinyin": "Dìqiú shì yuán de."
+          },
+          {
+            "id": "e2",
+            "zh": "地球上有很多人。",
+            "vi": "Trên trái đất có rất nhiều người.",
+            "analysis": "地球上: vị trí của loài người.",
+            "practiceAllowed": true,
+            "pinyin": "Dìqiú shang yǒu hěn duō rén."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "地球 và 世界: trái đất hay thế giới",
+            "scene": "Phân biệt hành tinh vật lý với thế giới loài người.",
+            "possibleConfusion": "Hai từ cùng chỉ cái toàn cục nên bài khoa học, xã hội dễ dùng lẫn phạm vi.",
+            "difference": "地球 là HÀNH TINH: vật thể tròn trong vũ trụ — có kích thước, quay được, chụp ảnh được. 世界 là THẾ GIỚI: tổng thể loài người, các nước, đời sống — 世界上 （trên thế giới), 世界地图 (bản đồ thế giới). Nhìn qua kính viễn vọng: 地球. Nhìn qua bản tin các nước: 世界。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "地球绕着太阳转。",
+                "vi": "Trái đất quay quanh mặt trời.",
+                "comment": "Vật thể vũ trụ: 地球。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我想去世界各地看看。",
+                "vi": "Tôi muốn đi xem khắp thế giới.",
+                "comment": "Đời sống các nước: 世界。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Trái đất vật lý không có “khắp nơi để đi thăm” theo nghĩa xã hội của 世界。"
+            },
+            "boundary": "Hành tinh, vũ trụ, môi trường tự nhiên: 地球. Các nước, loài người, đời sống: 世界。",
+            "tip": "Hành tinh: 地球; xã hội: 世界。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "地球 là danh từ hai âm tiết; nghĩa là trái đất.",
+          "literalTranslation": "地球 gồm đất và cầu — quả cầu đất.",
+          "confusables": "Đã đối chiếu 地球 với 世界。"
+        },
+        "pronunciation": {
+          "text": "地球 đọc hai âm tiết liền nhau, chữ đầu thanh bốn, chữ sau thanh hai. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 我们住在____上。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Chúng ta phải bảo vệ trái đất."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "我们住在地球上。"
+            ],
+            "explanation": "Sống trên trái đất dùng 地球。"
+          },
+          "q2": {
+            "accepted": [
+              "我们要保护地球。",
+              "我们要爱护地球。"
+            ],
+            "explanation": "Bảo vệ trái đất dùng 地球。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói trái đất là nhà của chúng ta."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói mặt trăng quay quanh trái đất."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 地球是我们的家 để nói hành tinh là nhà.",
+            "frame": "地球 + 是 + 我们的家。",
+            "model": "地球是我们的家。",
+            "vi": "Trái đất là nhà của chúng ta.",
+            "criteria": [
+              "Có 地球.",
+              "Nhà của loài người là 地球。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 月亮绕着地球转 để nói chuyển động của mặt trăng.",
+            "frame": "月亮 + 绕着地球 + 转。",
+            "model": "月亮绕着地球转。",
+            "vi": "Mặt trăng quay quanh trái đất.",
+            "criteria": [
+              "Có 地球.",
+              "Quay quanh trái đất dùng 地球。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-be3c4ee64b73",
+      "hanzi": "影片",
+      "wordEdits": {
+        "meaning": "phim; bộ phim",
+        "intro": [
+          {
+            "pinyin": "yǐng piàn",
+            "meaning": "phim"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-083 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 839,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%BD%B1%E7%89%87",
+          "https://en.wiktionary.org/wiki/影片"
+        ],
+        "introduction": {
+          "scope": "Học 影片 là “phim; bộ phim” — tên gọi TRANG TRỌNG của một bộ phim, trong giới thiệu, liên hoan phim, bài viết."
+        },
+        "meaning": {
+          "scene": "Trang giới thiệu viết: bộ phim này đoạt giải quốc tế; liên hoan phim chiếu mười bộ phim từ nhiều nước.",
+          "explanation": "影片 là danh từ phim: 一部影片 (một bộ phim), 这部影片 (bộ phim này). 影片 là dạng ĐẦY ĐỦ, văn bản — cùng một đối tượng với 电影 nhưng ở tầng trang trọng hơn. Danh mục cũ “bản sao của phim” là sai hẳn.",
+          "boundary": "Một 影片 chiếu ở rạp là một 电影 trong lời nói; 片 một mình trong văn cảnh này là đoạn, tấm — không thay được tên gọi của cả bộ phim.",
+          "conditions": [
+            "Bộ + 影片 khi đếm, giới thiệu phim.",
+            "影片 trong văn bản giới thiệu, đánh giá."
+          ],
+          "takeaway": "Một bộ phim xét như tác phẩm, dùng 影片。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "影片 làm danh từ",
+            "position": "影片 đứng sau lượng từ 部。",
+            "required": "Ngữ cảnh liên hoan phim, giới thiệu, phê bình.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "这部影片很有名。",
+            "vi": "Bộ phim này rất nổi tiếng.",
+            "analysis": "这部影片: giới thiệu một tác phẩm.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè bù yǐngpiàn hěn yǒu míng."
+          },
+          {
+            "id": "e2",
+            "zh": "他拍了很多影片。",
+            "vi": "Anh ấy quay (làm) nhiều bộ phim.",
+            "analysis": "拍影片: sản xuất phim.",
+            "practiceAllowed": true,
+            "pinyin": "Tā pāi le hěn duō yǐngpiàn."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "影片 và 电影: phim (văn) hay phim (thường)",
+            "scene": "Phân biệt hai tên gọi của cùng một bộ phim theo tầng ngôn ngữ.",
+            "possibleConfusion": "Hai từ cùng chỉ một bộ phim nên đây thuần túy là điểm phân tầng của nhóm điện ảnh.",
+            "difference": "影片 là tên gọi VĂN BẢN: giới thiệu phim, liên hoan, phê bình, tin tức — khách quan, trang trọng. 电影 là tên gọi ĐỜI THƯỜNG: đi xem phim, phim hay — mọi cuộc trò chuyện. Cùng một bộ phim: trên áp phích giới thiệu là 影片； bạn bè rủ nhau đi xem là 电影。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "这部影片得了奖。",
+                "vi": "Bộ phim này đoạt giải.",
+                "comment": "Tin tức, giới thiệu: 影片。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "我们去看电影吧。",
+                "vi": "Chúng ta đi xem phim thôi.",
+                "comment": "Rủ rê hằng ngày: 电影。",
+                "judgment": "overlap",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "overlap",
+              "explanation": "Hai câu cùng một thế giới điện ảnh; khác nhau ở sân khấu bài viết và sân khấu trò chuyện."
+            },
+            "boundary": "Viết giới thiệu, tin tức, liên hoan: 影片. Nói, rủ xem, hỏi lịch chiếu: 电影。",
+            "tip": "Văn bản: 影片; thường ngày: 电影。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "影片 là danh từ hai âm tiết đọc tách nhẹ; nghĩa là phim, bộ phim.",
+          "literalTranslation": "影片 gồm ảnh (bóng hình) và tấm/cuộn.",
+          "confusables": "Đã đối chiếu 影片 với 电影 và sửa danh mục sai."
+        },
+        "pronunciation": {
+          "text": "影片 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh ba, chữ sau thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这____影片我看过。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Bộ phim này dài hai giờ."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这部影片我看过。"
+            ],
+            "explanation": "Một bộ phim dùng 部影片。"
+          },
+          "q2": {
+            "accepted": [
+              "这部影片有两个小时。"
+            ],
+            "explanation": "Bộ phim dài dùng 影片。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói đạo diễn này làm (quay) nhiều phim hay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói bộ phim này rất cảm động."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 这个导演拍了很多好影片 để nói đạo diễn làm phim.",
+            "frame": "这个导演 + 拍了 + 很多好影片。",
+            "model": "这个导演拍了很多好影片。",
+            "vi": "Đạo diễn này làm nhiều phim hay.",
+            "criteria": [
+              "Có 影片.",
+              "Làm phim dùng từ 影片。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 这部影片很感动人 để khen phim cảm động.",
+            "frame": "这部影片 + 很感动人。",
+            "model": "这部影片很感动人。",
+            "vi": "Bộ phim này rất cảm động.",
+            "criteria": [
+              "Có 影片.",
+              "Một bộ phim lượng từ dùng từ 部。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-c672e21abcfd",
+      "hanzi": "成绩",
+      "wordEdits": {
+        "meaning": "thành tích; kết quả học tập",
+        "intro": [
+          {
+            "pinyin": "chéngjì",
+            "meaning": "thành tích"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-083 · trung bình"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 840,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%88%90%E7%BB%A9",
+          "https://en.wiktionary.org/wiki/成绩"
+        ],
+        "introduction": {
+          "scope": "Học 成绩 là “thành tích; kết quả” — kết quả của học tập, thi cử, công việc sau một quá trình nỗ lực."
+        },
+        "meaning": {
+          "scene": "Cuối kỳ, bạn nhận bảng kết quả học tập tốt hơn hẳn kỳ trước; một vận động viên phá kỷ lục với thành tích mới.",
+          "explanation": "成绩 là danh từ thành tích: 成绩 + tốt/xấu （成绩好 kết quả tốt), 考试成绩 (kết quả thi), 提高成绩 (nâng cao thành tích). 成绩 là kết quả ĐÁNH GIÁ được sau một quá trình — học tập là vùng chính.",
+          "boundary": "成绩 khác 分数 ở một nấc: 分数 là CON SỐ điểm cụ thể (90 điểm); 成绩 là KẾT QUẢ tổng thể mà con số đó thể hiện （成绩 tốt có thể không cần nêu số).",
+          "conditions": [
+            "成绩 + 好/不好 khi nhận xét kết quả.",
+            "提高/取得 + 成绩 khi nói tiến bộ."
+          ],
+          "takeaway": "Kết quả sau một quá trình nỗ lực, dùng 成绩。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "成绩 làm danh từ",
+            "position": "成绩 làm chủ ngữ hoặc tân ngữ.",
+            "required": "Ngữ cảnh học tập, thi cử, thi đấu.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "她的成绩很好。",
+            "vi": "Kết quả học tập của cô ấy rất tốt.",
+            "analysis": "成绩好: đánh giá tổng thể.",
+            "practiceAllowed": true,
+            "pinyin": "Tā de chéngjì hěn hǎo."
+          },
+          {
+            "id": "e2",
+            "zh": "这次考试你成绩怎么样？",
+            "vi": "Kỳ thi này kết quả của bạn thế nào?",
+            "analysis": "考试成绩: kết quả một kỳ thi.",
+            "practiceAllowed": true,
+            "pinyin": "Zhè cì kǎoshì nǐ chéngjì zěnmeyàng?"
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "成绩 và 分数: kết quả hay con số điểm",
+            "scene": "Phân biệt đánh giá tổng thể với điểm số cụ thể trên giấy.",
+            "possibleConfusion": "Hai từ cùng bước ra từ phòng thi nên đây là chốt của nhóm học tập này.",
+            "difference": "分数 là CON SỐ: 90 分， 60 分 — đếm được, cộng trừ được, in trên bài thi. 成绩 là KẾT QUẢ mang ý nghĩa: tốt hay chưa tốt, tiến bộ hay thụt lùi — phản ánh cả quá trình. Hỏi “được bao nhiêu điểm” dùng 分数； nhận xét “kết quả kỳ này” dùng 成绩。",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他的分数是九十分。",
+                "vi": "Điểm số của anh ấy là chín mươi điểm.",
+                "comment": "Con số cụ thể: 分。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "他的成绩提高了。",
+                "vi": "Thành tích của anh ấy tiến bộ rồi.",
+                "comment": "Kết quả có chuyển biến: 成绩。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Một kết quả “tiến bộ” không phải một con số để đọc lên."
+            },
+            "boundary": "Đang đọc con số: 分数. Đang đánh giá kết quả, sự tiến bộ: 成绩。",
+            "tip": "Con số: 分数; kết quả: 成绩。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "成绩 là danh từ hai âm tiết; nghĩa là thành tích, kết quả.",
+          "literalTranslation": "成绩 gồm thành (đạt được) và tích (kết quả).",
+          "confusables": "Đã đối chiếu 成绩 với 分数。"
+        },
+        "pronunciation": {
+          "text": "成绩 đọc hai âm tiết liền nhau, chữ đầu thanh hai, chữ sau thanh bốn nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 你的汉语____不错。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi muốn nâng cao thành tích."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "你的汉语成绩不错。"
+            ],
+            "explanation": "Kết quả tiếng Trung dùng 成绩。"
+          },
+          "q2": {
+            "accepted": [
+              "我想提高成绩。"
+            ],
+            "explanation": "Nâng cao thành tích dùng 成绩。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói thành tích của anh ấy tốt nhất lớp."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói cô ấy đạt thành tích tốt trong kỳ thi."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 他的成绩是班里最好的 để nói kết quả nhất lớp.",
+            "frame": "他的成绩 + 是班里最好的。",
+            "model": "他的成绩是班里最好的。",
+            "vi": "Thành tích của anh ấy tốt nhất lớp.",
+            "criteria": [
+              "Có 成绩.",
+              "Nhắc tới kết quả dùng từ 成绩。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 她在考试中取得了好成绩 để nói đạt kết quả tốt.",
+            "frame": "她 + 在考试中 + 取得了好成绩。",
+            "model": "她在考试中取得了好成绩。",
+            "vi": "Cô ấy đạt thành tích tốt trong kỳ thi.",
+            "criteria": [
+              "Có 成绩.",
+              "Đạt kết quả tốt dùng từ 成绩。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-5a0cc0b461e0",
+      "hanzi": "手表",
+      "wordEdits": {
+        "meaning": "đồng hồ đeo tay",
+        "intro": [
+          {
+            "pinyin": "shǒubiǎo",
+            "meaning": "đồng hồ đeo tay"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-083 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 841,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%89%8B%E8%A1%A8",
+          "https://en.wiktionary.org/wiki/手表"
+        ],
+        "introduction": {
+          "scope": "Học 手表 là đồng hồ đeo tay — chiếc đồng hồ nhỏ đeo ở cổ tay để xem giờ mọi lúc."
+        },
+        "meaning": {
+          "scene": "Bạn nhìn cổ tay: còn năm phút nữa đến giờ hẹn; sinh nhật, bố tặng bạn một chiếc đồng hồ mới.",
+          "explanation": "手表 là danh từ đồng hồ đeo tay: 一块手表 (một chiếc — lượng từ 块）, 戴手表 (đeo đồng hồ). 手 là tay, 表 là đồng hồ đo — đồng hồ của cổ tay.",
+          "boundary": "手表 khác 钟 là đồng hồ treo tường, để bàn trong nhà: 钟 ở yên một chỗ trong phòng; 手表 đi theo người cả ngày.",
+          "conditions": [
+            "Một + 块 + 手表 khi đếm chiếc.",
+            "Đeo + 手表 khi nói mang trên tay."
+          ],
+          "takeaway": "Đồng hồ đeo ở cổ tay, dùng 手表。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "手表 làm danh từ",
+            "position": "手表 đứng sau lượng từ 块。",
+            "required": "Ngữ cảnh xem giờ, tặng quà, thời trang.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "他有一块新手表。",
+            "vi": "Anh ấy có một chiếc đồng hồ đeo tay mới.",
+            "analysis": "一块手表: đếm bằng 块。",
+            "practiceAllowed": true,
+            "pinyin": "Tā yǒu yí kuài xīn shǒubiǎo."
+          },
+          {
+            "id": "e2",
+            "zh": "我的手表快了五分钟。",
+            "vi": "Đồng hồ của tôi nhanh năm phút.",
+            "analysis": "手表快了: đồng hồ chạy nhanh.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ de shǒubiǎo kuài le wǔ fēnzhōng."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "手表 và 钟: đồng hồ tay hay đồng hồ treo",
+            "scene": "Phân biệt hai loại đồng hồ theo nơi chúng ở.",
+            "possibleConfusion": "Hai từ cùng chỉ vật xem giờ nên đây là điểm phân vị trí gọn của bài.",
+            "difference": "手表 là đồng hồ ĐEO THEO NGƯỜI: nhỏ, ở cổ tay, đi khắp nơi cùng chủ. 钟 là đồng hồ Ở YÊN: treo tường, để bàn trong phòng, điểm chuông. Nhìn vật đang ở trên tay người hay trên tường phòng là gọi đúng.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "他戴着手表。",
+                "vi": "Anh ấy đang đeo đồng hồ (tay).",
+                "comment": "Theo người, ở cổ tay: 手表。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "墙上有一个钟。",
+                "vi": "Trên tường có một chiếc đồng hồ.",
+                "comment": "Ở yên trên tường: 钟。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Một chiếc đồng hồ treo tường không “đeo” được lên tay."
+            },
+            "boundary": "Đeo ở cổ tay, mang theo: 手表. Treo tường, để phòng: 钟。",
+            "tip": "Cổ tay: 手表; tường: 钟。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "手表 là danh từ hai âm tiết đọc tách nhẹ; nghĩa là đồng hồ đeo tay.",
+          "literalTranslation": "手表 gồm tay và đồng hồ.",
+          "confusables": "Đã đối chiếu 手表 với 钟。"
+        },
+        "pronunciation": {
+          "text": "手表 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh ba, chữ sau thanh ba. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 这____手表很贵。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Đồng hồ của tôi dừng (không chạy) rồi."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "这块手表很贵。"
+            ],
+            "explanation": "Chiếc đồng hồ này dùng 手表。"
+          },
+          "q2": {
+            "accepted": [
+              "我的手表停了。"
+            ],
+            "explanation": "Đồng hồ dừng dùng 手表。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói cô ấy tặng tôi một chiếc đồng hồ đeo tay."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói anh ấy không đeo đồng hồ."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 她送我一块手表 để nói được tặng đồng hồ.",
+            "frame": "她 + 送我 + 一块手表。",
+            "model": "她送我一块手表。",
+            "vi": "Cô ấy tặng tôi một chiếc đồng hồ đeo tay.",
+            "criteria": [
+              "Có 手表.",
+              "Một chiếc đồng hồ là 一块手表。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 他不戴手表 để nói không đeo đồng hồ.",
+            "frame": "他 + 不戴 + 手表。",
+            "model": "他不戴手表。",
+            "vi": "Anh ấy không đeo đồng hồ.",
+            "criteria": [
+              "Có 手表.",
+              "Đeo đồng hồ là 戴手表。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hz-h2-4ce18d9a3889",
+      "hanzi": "排球",
+      "wordEdits": {
+        "meaning": "bóng chuyền",
+        "intro": [
+          {
+            "pinyin": "pái qiú",
+            "meaning": "bóng chuyền"
+          }
+        ],
+        "editorialStatus": "Biên soạn V2 · batch-083 · dễ"
+      },
+      "lesson": {
+        "version": 2,
+        "cohortOrdinal": 842,
+        "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+        "sources": [
+          "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%8E%92%E7%90%83",
+          "https://en.wiktionary.org/wiki/排球"
+        ],
+        "introduction": {
+          "scope": "Học 排球 là bóng chuyền — vừa là môn thể thao đánh bóng qua lưới bằng tay, vừa là quả bóng của môn đó."
+        },
+        "meaning": {
+          "scene": "Chiều cuối tuần, sân trường đầy tiếng bóng chuyền; đội của lớp bạn tập chuyền, đập bóng qua lưới.",
+          "explanation": "排球 là danh từ bóng chuyền: 打排球 (chơi bóng chuyền — động từ 打）, 排球队 (đội bóng chuyền). Cũng như các môn bóng khác, 排球 là cả MÔN lẫn QUẢ bóng.",
+          "boundary": "Mỗi môn bóng một động từ ruột: bóng chuyền, bóng bàn là 打； bóng đá là 踢 （đá); bóng rổ là 打 — 排球 thuộc nhóm 打 vì chơi bằng tay.",
+          "conditions": [
+            "Đánh + 排球 khi chơi môn này.",
+            "排球 + 队/比赛 khi nói đội, trận đấu."
+          ],
+          "takeaway": "Môn bóng đánh qua lưới bằng tay, dùng 排球。"
+        },
+        "usages": [
+          {
+            "id": "u1",
+            "frame": "排球 làm danh từ",
+            "position": "排球 đứng sau 打。",
+            "required": "Ngữ cảnh sân trường, thể thao, thi đấu.",
+            "omission": "Đây là cách dùng duy nhất của bài.",
+            "exampleId": "e1"
+          }
+        ],
+        "examples": [
+          {
+            "id": "e1",
+            "zh": "我喜欢打排球。",
+            "vi": "Tôi thích chơi bóng chuyền.",
+            "analysis": "打排球: động từ của môn bóng tay.",
+            "practiceAllowed": true,
+            "pinyin": "Wǒ xǐhuan dǎ páiqiú."
+          },
+          {
+            "id": "e2",
+            "zh": "他们在打排球比赛。",
+            "vi": "Họ đang thi đấu bóng chuyền.",
+            "analysis": "排球比赛: trận đấu của môn.",
+            "practiceAllowed": true,
+            "pinyin": "Tāmen zài dǎ páiqiú bǐsài."
+          }
+        ],
+        "traps": [
+          {
+            "id": "t1",
+            "title": "排球 và 篮球: bóng chuyền hay bóng rổ",
+            "scene": "Mở cặp hai môn bóng bằng tay — phía bóng rổ hoàn thiện ở bài 848.",
+            "possibleConfusion": "Hai môn cùng chơi bằng tay và cùng động từ 打 nên biên giới của chúng nằm ở sân và rổ/lưới.",
+            "difference": "排球 là BÓNG CHUYỀN: sân có LƯỚI cao ở giữa, bóng bay qua lại không được rơi xuống đất, mỗi đội sáu người chuyền tay. 篮球 (848) là BÓNG RỔ: sân có RỔ treo hai đầu, bóng phải nảy xuống sàn, ghi điểm bằng ném vào rổ. Nhìn giữa sân là lưới hay hai đầu là rổ là phân biệt được.",
+            "cases": [
+              {
+                "id": "c1",
+                "zh": "排球要过网。",
+                "vi": "Bóng chuyền phải qua lưới.",
+                "comment": "Lưới giữa sân: 排球。",
+                "judgment": "correct",
+                "practiceAllowed": false
+              },
+              {
+                "id": "c2",
+                "zh": "篮球要进篮。",
+                "vi": "Bóng rổ phải vào rổ.",
+                "comment": "Rổ hai đầu sân: 篮球。",
+                "judgment": "different-meaning",
+                "practiceAllowed": false
+              }
+            ],
+            "replacement": {
+              "result": "different-meaning",
+              "explanation": "Luật của hai môn ngược nhau ở điểm mấu chốt: một bên bóng không chạm đất, một bên bóng phải nảy đất."
+            },
+            "boundary": "Lưới ở giữa, bóng bay: 排球. Rổ ở hai đầu, bóng nảy: 篮球。",
+            "tip": "Lưới: 排球; rổ: 篮球。"
+          }
+        ],
+        "trapReview": {
+          "readingsAndMeanings": "排球 là danh từ hai âm tiết đọc tách nhẹ; nghĩa là bóng chuyền.",
+          "literalTranslation": "排球 gồm hàng/xếp và bóng.",
+          "confusables": "Đã đối chiếu 排球 với 篮球 (848)."
+        },
+        "pronunciation": {
+          "text": "排球 đọc hai âm tiết cách nhau nhẹ, chữ đầu thanh hai, chữ sau thanh hai. Đọc từ một lần, rồi đọc câu mẫu một lần."
+        },
+        "checks": [
+          {
+            "id": "q1",
+            "type": "open",
+            "question": "Điền: 她____排球打得很好。"
+          },
+          {
+            "id": "q2",
+            "type": "open",
+            "question": "Nói bằng tiếng Trung: Tôi không biết chơi bóng chuyền."
+          }
+        ],
+        "answers": {
+          "q1": {
+            "accepted": [
+              "她排球打得很好。",
+              "她打排球打得很好。"
+            ],
+            "explanation": "Chơi bóng chuyền dùng 排球。"
+          },
+          "q2": {
+            "accepted": [
+              "我不会打排球。"
+            ],
+            "explanation": "Không biết chơi dùng 打排球。"
+          }
+        },
+        "selfUse": [
+          {
+            "id": "s1",
+            "prompt": "Nói đội bóng chuyền của trường thắng."
+          },
+          {
+            "id": "s2",
+            "prompt": "Nói chiều nay chúng ta chơi bóng chuyền nhé."
+          }
+        ],
+        "selfAnswers": {
+          "s1": {
+            "idea": "Dùng 学校排球队赢了 để nói đội trường thắng.",
+            "frame": "学校 + 排球队 + 赢了。",
+            "model": "学校排球队赢了。",
+            "vi": "Đội bóng chuyền của trường thắng.",
+            "criteria": [
+              "Có 排球.",
+              "Đội bóng chuyền là 排球队。"
+            ]
+          },
+          "s2": {
+            "idea": "Dùng 今天下午我们打排球吧 để rủ chơi.",
+            "frame": "今天下午 + 我们 + 打排球吧。",
+            "model": "今天下午我们打排球吧。",
+            "vi": "Chiều nay chúng ta chơi bóng chuyền nhé.",
+            "criteria": [
+              "Có 排球.",
+              "Chơi môn này là 打排球。"
+            ]
+          }
+        },
+        "tier1": {
+          "traps": [
+            "t1"
+          ],
+          "checks": [
+            "q1",
+            "q2"
+          ],
+          "selfUse": [
+            "s1",
+            "s2"
+          ]
+        }
+      }
+    }
+  ]
+}
