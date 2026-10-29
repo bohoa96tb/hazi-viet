@@ -126,6 +126,34 @@ Từ v5 (quy tắc mới của người dùng: mỗi bài tối đa 5 video có 
   theo ID video); chỉ **một** trình phát YouTube duy nhất tồn tại — chuyển video là nạp lại đúng video đó,
   không tải trước cả 5.
 
+## Rà soát v6 — mốc câu, hoạt động gọn cho video ngắn, thay một video (29/10/2026)
+
+Theo rà soát của người dùng sau v5, bốn việc đã làm và kiểm chứng lại:
+
+- **Video 4 (CS4-3106) phát thật trên site live:** đọc đồng hồ của chính trình phát ở hai thời điểm
+  (0:15–0:16 rồi 0:27/0:27, phát hết đoạn), trạng thái không tắt tiếng, và bản ghi âm trong lúc phát
+  chứa đúng lời thoại — không chỉ căn cứ trạng thái nút.
+- **Rà mốc từng câu trên cả hai bản của từng video:** hai bản (có/không phụ đề) của mỗi video khớp nhau
+  trong ~0,5 giây nên không cần mốc riêng theo bản; nhưng nhiều cửa sổ cũ cắt/lấn câu thật và đã sửa hết:
+  CS4-1206 câu 2–3 lệch gần 2 giây; CS4-3401 câu 6 bị cắt cuối ~2 giây, câu 7 chứa đầu câu 8, câu 8 mất
+  đầu ~1,5 giây; CS4-2309 câu 9 mất đầu ~1 giây; CS4-1108 câu 1 mất cuối ~0,5 giây; CS4-3106 câu 3 mất
+  cuối ~1 giây. Cửa sổ mới ôm trọn tiếng nói của câu, tách đúng tại điểm nối với câu liền kề.
+  Không video nào phải chuyển sang nghe cả đoạn vì mọi câu đều tách được sau khi sửa mốc.
+- **Video rất ngắn rút gọn hoạt động:** video 4 câu (CS4-1108, CS4-1206, CS3-0107) chỉ còn một câu ý chính,
+  đối chiếu lời thoại, nhắc lại một câu và một nhiệm vụ tự nói — không còn câu chi tiết lặp ý.
+  Ở bước đối chiếu, các video có 公交车/公共汽车 đều có ghi chú ngắn: hai từ đều chỉ xe buýt;
+  chỉ từ được nói mới tính độ phủ, từ giới thiệu thêm ghi rõ là không tính.
+- **Thay CS4-3106 bằng CS3-0107:** đánh giá lại theo độ rõ/trình độ/độ phủ/giá trị luyện tập so với video
+  ít hữu ích nhất của bộ (CS4-3106, +1 cụm 一路平安）. CS3-0107 nói đúng **từ neo 公共汽车** trong câu thoại,
+  người thật nói chậm rõ; bản skit `Ct81TQp2g_Y` (54 giây) chỉ có hội thoại lặp 3 lượt với 3 kiểu phụ đề,
+  không có lời dẫn. Đã đo mốc cả hai lượt dùng được: lượt 3 không phụ đề 40,5–52 giây (bản nghe chính),
+  lượt 1 phụ đề chữ Hán + Pinyin lệch hằng số đúng 31,5 giây. App phát theo **cửa sổ lượt**
+  (`playWindow`/`subWindow`, nút đổi phụ đề chuyển cửa sổ trong cùng một file, nút nghe câu cộng `subOffset`
+  khi đang ở bản phụ đề). Độ phủ giữ nguyên **10/24** （公共汽车 vào, 一路平安 quay lại danh sách thiếu).
+  Dữ liệu CS4-3106 đã kiểm chứng được giữ trong `surveyLog` để tham khảo.
+- **Tiến độ không mất khi sửa:** app di trú trạng thái lưu (v5 → v6): giữ bucket của các video còn trong bộ,
+  cờ lưu và tự đánh giá; chỉ bỏ bucket của video bị thay (CS4-3106). Có kiểm thử DOM riêng cho di trú.
+
 ## Học liệu luyện thêm (giữ từ v2/v3, không còn là bản chính)
 
 - Hội thoại tự biên soạn “Đi sân bay bằng gì？” (11 câu) với 11 file MP3 giọng đọc máy (AI) tạo sẵn

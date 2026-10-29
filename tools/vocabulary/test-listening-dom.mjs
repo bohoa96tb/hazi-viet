@@ -1,6 +1,8 @@
 // DOM test for the unified listening-speaking practice (pilot merged into Practice):
 // deep link into Practice, a set of up to 5 videos with per-video progress, five steps,
-// independent answers, compact board entry, other lessons unaffected.
+// independent answers, compact board entry, other lessons unaffected. v6 adds: saved-state
+// migration from v5 (buckets of surviving videos kept, removed video dropped), lean
+// activities for very short videos, and the windowed CS3-0107 recording in the set.
 // Each scenario runs in its own process.
 // Run with HAPPY_DOM_MODULE set, like test-dom.mjs.
 import fs from 'node:fs';
@@ -37,6 +39,14 @@ window.SpeechSynthesisUtterance = class { constructor(text) { this.text = text; 
 window.HTMLDialogElement.prototype.showModal = function () { this.open = true; };
 window.HTMLDialogElement.prototype.close = function () { this.open = false; };
 window.HTMLElement.prototype.scrollIntoView = () => {};
+if (scenario === 'deep') {
+  // A v5 learner: video 1 at step 3 with gist+played done, plus progress on cs4-3106,
+  // the recording removed in v6. Migration must keep the first, drop the second.
+  window.localStorage.setItem('hanzi-viet-listen-v2', JSON.stringify({
+    lessonId: 'hz-h2-0ec2a615954f', version: 5, video: 0, saved: true, self: 'again',
+    videos: { 'cs4-1108': { step: 3, done: { gist: true, played: true } }, 'cs4-3106': { step: 2, done: { gist: true } } },
+  }));
+}
 const respond = text => Promise.resolve({ ok: true, json: async () => JSON.parse(text) });
 globalThis.fetch = url => {
   const u = String(url);
@@ -64,6 +74,13 @@ if (scenario === 'deep') {
   assert.ok($('[data-lp="ytplay"]'), 'video play control exists');
   assert.ok($('[data-lp-start]'), 'there is a Start button');
   assert.ok($('[data-lp-back]'), 'there is a back-to-the-word-board button');
+  // Migration from the seeded v5 state.
+  const s0 = savedState();
+  assert.equal(s0.version, 6, 'saved state migrated to the current material version');
+  assert.equal(s0.videos['cs4-1108'].step, 3, 'progress of a surviving video is kept');
+  assert.equal(s0.videos['cs4-3106'], undefined, 'progress of the removed video is dropped');
+  assert.equal(s0.saved, true, 'save-for-review flag survives migration');
+  assert.equal(s0.self, 'again', 'self assessment survives migration');
   // The video set: exactly 5 selectable videos, one player only.
   assert.equal($$('[data-lp-video]').length, 5, 'video list shows the 5 selected videos');
   assert.equal($$('#lpYtMount').length, 1, 'only one YouTube player mount exists');
@@ -74,71 +91,79 @@ if (scenario === 'deep') {
   const panels = $$('.lp-panel');
   assert.equal(panels.length, 5);
   assert.equal(panels.filter(p => !p.hidden).length, 1);
-  assert.equal(visiblePanel(), 0);
-  // Step 2 (Nghe hiểu) holds gist AND details — on video 1.
+  assert.equal(visiblePanel(), 2, 'video 1 restores its migrated step (3)');
+  // Step 3 of video 1 (restored open; click its step button like a learner re-entering it):
+  // 4 segments, tappable words, and the bus-pair note.
+  $('[data-lp-step="3"]').click(); await tick();
+  assert.equal($$('[data-panel="3"] [data-lp-seg]').length, 4, 'video 1 transcript has 4 playable segments');
+  assert.ok($('[data-lp="sub"]'), 'subtitle-version toggle exists in the transcript step');
+  assert.ok($$('[data-panel="3"] .wz').length > 10, 'transcript words are tappable lookup spans');
+  assert.ok($('[data-panel="3"]').textContent.includes('đều có thể chỉ xe buýt'), 'transcript step explains 公交车 / 公共汽车');
+  // Step 2 of video 1: gist only — a very short video has NO padded detail questions.
   $('[data-lp-step="2"]').click(); await tick();
   assert.equal(visiblePanel(), 1);
+  assert.equal($$('.lp-detail').length, 0, 'very short video 1 has no detail questions');
   $('[data-lp-gist="0"]').click(); await tick();
   let fb = $('.lp-feedback');
   assert.ok(fb && !fb.hidden && fb.textContent.includes('Chưa đúng'), 'wrong gist choice gives honest feedback');
   $('[data-lp-gist="1"]').click(); await tick();
   assert.ok(fb.textContent.includes('Đúng rồi'), 'right gist choice confirmed');
+  // Step 4: exactly one repeat line for the very short video.
+  $('[data-lp-step="4"]').click(); await tick();
+  assert.equal($$('.lp-rep-label').length, 1, 'very short video 1 repeats exactly one line');
+  const saved1 = savedState();
+  assert.equal(saved1.videos['cs4-1108'].step, 4, 'video 1 step persists in its own bucket');
+  // Video 2 is now CS3-0107 (the windowed skit with the anchor word): fresh bucket, own questions.
+  $('[data-lp-video="1"]').click();
+  await waitFor(() => $('.listening-pilot') && $('.listening-pilot').textContent.includes('bản 公共汽车'), 'CS3-0107 loads after switching');
+  assert.equal(visiblePanel(), 0, 'a newly added video starts from its own step 1');
+  $('[data-lp-step="3"]').click(); await tick();
+  assert.equal($$('[data-panel="3"] [data-lp-seg]').length, 4, 'CS3-0107 transcript has 4 playable segments');
+  assert.ok($('[data-panel="3"]').textContent.includes('đều có thể chỉ xe buýt'), 'CS3-0107 also explains the bus pair');
+  $('[data-lp-step="2"]').click(); await tick();
+  $('[data-lp-gist="0"]').click(); await tick();
+  assert.ok($('.lp-feedback').textContent.includes('Đúng rồi'), 'CS3-0107 gist answer is its own (index 0)');
+  assert.ok(savedState().videos['cs3-0107'].done.gist, 'CS3-0107 progress recorded in its own bucket');
+  // Video 3 is the taxi video: its own gist, untouched buckets elsewhere.
+  $('[data-lp-video="2"]').click();
+  await waitFor(() => $('.listening-pilot') && $('.listening-pilot').textContent.includes('Gọi taxi giúp'), 'taxi video loads after switching');
+  $('[data-lp-step="2"]').click(); await tick();
+  $('[data-lp-gist="0"]').click(); await tick();
+  assert.ok($('.lp-feedback').textContent.includes('Đúng rồi'), 'taxi video gist answer is its own (index 0)');
+  const savedMid = savedState();
+  assert.ok(savedMid.videos['cs4-1206'].done.gist, 'taxi video progress recorded separately');
+  assert.equal(savedMid.videos['cs4-1108'].step, 4, 'video 1 step untouched while learning other videos');
+  // Video 4 (CS4-3401) keeps its detail questions, answered independently.
+  $('[data-lp-video="3"]').click();
+  await waitFor(() => $('.listening-pilot') && $('.listening-pilot').textContent.includes('Giao thông quanh trường'), 'campus video loads after switching');
+  $('[data-lp-step="2"]').click(); await tick();
   const answers = $$('.lp-detail .lp-answer');
-  assert.equal(answers.length, 3);
+  assert.equal(answers.length, 3, 'longer video keeps three detail questions');
   assert.ok(answers.every(a => a.hidden), 'detail answers start hidden');
   $('[data-lp-reveal="1"]').click(); await tick();
   assert.deepEqual($$('.lp-detail .lp-answer').map(a => a.hidden), [true, false, true], 'detail answers open independently');
-  // Step 3 (Xem lời thoại) on video 1.
-  $('[data-lp-step="3"]').click(); await tick();
-  assert.equal($$('[data-panel="3"] [data-lp-seg]').length, 4, 'video 1 transcript has 4 playable segments');
-  assert.ok($('[data-lp="sub"]'), 'subtitle-version toggle exists in the transcript step');
-  assert.ok($$('[data-panel="3"] .wz').length > 10, 'transcript words are tappable lookup spans');
-  // Step 4 + persisted per-video state.
-  $('[data-lp-step="4"]').click(); await tick();
-  assert.equal($$('.lp-rep-label').length, 3, 'video 1 has three repeat lines');
-  const saved1 = savedState();
-  assert.equal(saved1.version, 5, 'progress is keyed by material version');
-  assert.equal(saved1.lessonId, 'hz-h2-0ec2a615954f', 'progress is keyed by lesson id');
-  assert.equal(saved1.videos['cs4-1108'].step, 4, 'video 1 step is persisted in its own bucket');
-  assert.ok(saved1.videos['cs4-1108'].done.gist, 'video 1 gist is recorded in its own bucket');
-  // Switch to video 2: its own step (1), its own transcript and questions.
-  $('[data-lp-video="1"]').click();
-  await waitFor(() => $('.listening-pilot') && $('.listening-pilot').textContent.includes('Gọi taxi giúp'), 'video 2 loads after switching');
-  assert.equal(visiblePanel(), 0, 'video 2 starts from its own saved step (1)');
-  assert.equal($$('[data-lp-video]').length, 5, 'video list still shows 5 videos after switching');
-  $('[data-lp-step="3"]').click(); await tick();
-  assert.equal($$('[data-panel="3"] [data-lp-seg]').length, 4, 'video 2 transcript has 4 playable segments');
-  $('[data-lp-step="2"]').click(); await tick();
-  $('[data-lp-gist="0"]').click(); await tick();
-  assert.ok($('.lp-feedback').textContent.includes('Đúng rồi'), 'video 2 gist answer is its own (answer index 0)');
-  const savedMid = savedState();
-  assert.ok(savedMid.videos['cs4-1206'].done.gist, 'video 2 progress recorded separately');
-  assert.equal(savedMid.videos['cs4-1108'].step, 4, 'video 1 step untouched while learning video 2');
-  // Switch back to video 1: its step 4 is restored.
+  assert.ok(savedState().videos['cs4-3401'].done.detail, 'detail activity recorded on the campus video bucket');
+  // Back to video 1: its step 4 is restored.
   $('[data-lp-video="0"]').click();
   await waitFor(() => $('.listening-pilot') && $('.listening-pilot').textContent.includes('Hỏi đường đi ga tàu'), 'video 1 reloads after switching back');
   assert.equal(visiblePanel(), 3, 'video 1 restores its own step 4');
-  // Step 5 (Tự nói): no role-play for embedded video, sample reveal.
+  // Step 5 (Tự nói): no role-play for embedded video, sample reveal; self/saved survived the round trip.
   $('[data-lp-step="5"]').click(); await tick();
   assert.equal($('[data-lp-role]'), null, 'role-play is NOT offered for the embedded video');
   assert.ok($('[data-panel="5"]').textContent.includes('không đóng vai'), 'step 5 explains honestly why there is no role-play');
   assert.ok($('[data-panel="5"] .lp-answer').hidden, 'sample answer starts hidden');
-  // Extra practice: the AI dialogue is kept, clearly labelled, with its 11 line files.
   const extra = $('.lp-extra');
   assert.ok(extra, 'extra practice block exists');
   assert.ok(extra.textContent.includes('Giọng đọc máy (AI)'), 'extra practice labels the AI voice');
   assert.equal(extra.querySelectorAll('[data-lp-line]').length, 11, 'extra practice keeps 11 playable lines');
   $('[data-lp-sample]').click(); await tick();
   assert.ok(!$('[data-panel="5"] .lp-answer').hidden, 'sample opens after the learner tries');
-  const selfRadio = $('input[name="lpSelf"][value="again"]');
-  selfRadio.click(); selfRadio.dispatchEvent(new window.Event('change', { bubbles: true })); await tick();
-  $('[data-lp="save"]').click(); await tick();
-  const saved2 = savedState();
-  assert.equal(saved2.self, 'again'); assert.equal(saved2.saved, true);
-  const done1 = saved2.videos['cs4-1108'].done;
-  assert.ok(done1.gist && done1.task && done1.detail && done1.compare, 'video 1 activities are recorded in its bucket');
+  assert.ok($('input[name="lpSelf"][value="again"]').checked, 'migrated self assessment is shown selected');
+  assert.ok($('[data-lp="save"]').textContent.includes('Đã lưu'), 'migrated save flag is shown on the button');
+  const done1 = savedState().videos['cs4-1108'].done;
+  assert.ok(done1.gist && done1.task && done1.compare && done1.played, 'video 1 activities are recorded in its bucket');
   $('[data-lp-seg]').click(); await tick(60); // no YouTube API in the test env: must be a safe no-op
-  console.log('PASS deep: Practice deep link, 5-video set, per-video progress, five steps, extra practice.');
+  console.log('PASS deep: Practice deep link, 5-video set with CS3-0107, v5→v6 migration, lean short-video activities, per-video progress, extra practice.');
 }
 
 if (scenario === 'board') {

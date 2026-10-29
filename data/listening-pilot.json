@@ -56,7 +56,7 @@
    "voiceLabel": "Người thật đóng hội thoại — hai diễn viên quay ngoài trời",
    "durationNote": "Video 14 giây; hội thoại khoảng 11 giây",
    "durationSec": 14,
-   "timingNote": "Mốc câu đối chiếu trên bản phụ đề chữ Hán cháy hình (cùng bản dựng, cùng thời lượng 14 giây), sai số khoảng ±1 giây.",
+   "timingNote": "Mốc câu đã rà lại ngày 29/10/2026 trên cả hai bản (có và không phụ đề) của chính video: hai bản khớp nhau trong khoảng 0,5 giây; cửa sổ nghe đặt ôm trọn tiếng nói của câu, các câu nói liền nhau được tách đúng tại điểm nối.",
    "situation": "Một bạn nữ dừng một người qua đường để hỏi đường tới ga tàu hỏa và cách đi thuận tiện nhất.",
    "goal": "Nghe và nắm được: ga tàu cách bao xa, và nên đi bằng phương tiện gì.",
    "prepWords": [
@@ -83,8 +83,8 @@
      "name": "Bạn nữ hỏi đường",
      "zh": "您好，这儿离火车站远吗？",
      "vi": "Chào bạn, từ đây tới ga tàu hỏa có xa không?",
-     "start": 0,
-     "end": 3,
+     "start": 0.3,
+     "end": 3.5,
      "words": []
     },
     {
@@ -92,8 +92,8 @@
      "name": "Người qua đường",
      "zh": "有两公里多。",
      "vi": "Hơn hai cây số.",
-     "start": 3,
-     "end": 5,
+     "start": 3.5,
+     "end": 5.0,
      "words": [
       "hz-h2-524ee7ce555b"
      ]
@@ -103,7 +103,7 @@
      "name": "Bạn nữ hỏi đường",
      "zh": "是吗，可以坐公交车去吗？",
      "vi": "Thật à? Đi xe buýt tới đó được không?",
-     "start": 5,
+     "start": 5.0,
      "end": 7.5,
      "words": [
       "hz-h2-d1d7eeb1c0ae"
@@ -114,8 +114,8 @@
      "name": "Người qua đường",
      "zh": "坐地铁去更方便，前面就是地铁站。",
      "vi": "Đi tàu điện ngầm tiện hơn, ga tàu điện ngầm ngay phía trước.",
-     "start": 7,
-     "end": 11.5,
+     "start": 7.5,
+     "end": 11.2,
      "words": [
       "hz-h2-e41438690254",
       "hz-h2-263f9c937810"
@@ -132,30 +132,12 @@
     "answer": 1,
     "explain": "Người qua đường nói “坐地铁去更方便” — đi tàu điện ngầm thì tiện hơn."
    },
-   "details": [
-    {
-     "q": "Ga tàu hỏa cách chỗ họ đứng bao xa?",
-     "a": "Hơn hai kilômét.",
-     "explain": "Người qua đường nói: “有两公里多。” — hơn hai cây số."
-    },
-    {
-     "q": "Lúc đầu cô gái định đi bằng gì?",
-     "a": "Xe buýt.",
-     "explain": "Cô gái hỏi: “可以坐公交车去吗？” — đi xe buýt tới đó được không?"
-    },
-    {
-     "q": "Ga tàu điện ngầm ở đâu?",
-     "a": "Ngay phía trước.",
-     "explain": "Người qua đường nói: “前面就是地铁站。” — ga tàu điện ngầm ngay phía trước."
-    }
-   ],
+   "details": [],
    "listeningNotes": [
     "“多” đứng sau số lượng nghĩa là “hơn”: 两公里多 là hơn hai kilômét, không phải đúng hai kilômét.",
     "“更” trong 更方便 nghĩa là “hơn” — ở đây là so sánh ngầm tàu điện ngầm với xe buýt."
    ],
    "repeat": [
-    1,
-    3,
     4
    ],
    "task": {
@@ -167,7 +149,124 @@
     },
     "sampleNote": "Câu mẫu do app biên soạn để thay thông tin — không phải lời trong video và không được tính là từ xuất hiện trong video."
    },
-   "rights": "© 内田慶市・沈国威・紅粉芳惠・氷野善寛 / Chinese Station （関西大学中国語教材研究会）. Trang nguồn khuyến khích dùng素材 để tạo học liệu mới, cấm dùng thương mại và yêu cầu ghi credit khi tái phân phối trên mạng; app nhúng video chính thức từ YouTube, chép lời thoại đúng nguyên văn để học và ghi nguồn tại đây. Lời thoại đối chiếu: trang nguồn + phụ đề chữ Hán cháy hình của chính video."
+   "rights": "© 内田慶市・沈国威・紅粉芳惠・氷野善寛 / Chinese Station （関西大学中国語教材研究会）. Trang nguồn khuyến khích dùng素材 để tạo học liệu mới, cấm dùng thương mại và yêu cầu ghi credit khi tái phân phối trên mạng; app nhúng video chính thức từ YouTube, chép lời thoại đúng nguyên văn để học và ghi nguồn tại đây. Lời thoại đối chiếu: trang nguồn + phụ đề chữ Hán cháy hình của chính video.",
+   "compareNote": "Lưu ý: trong video này người nói dùng 公交车. 公交车 và 公共汽车 đều có thể chỉ xe buýt công cộng — hai từ gần như thay nhau được trong lời nói hằng ngày. 公共汽车 là từ neo của bài này nhưng không được nói trong video nên không tính vào độ phủ của video; app chỉ giới thiệu thêm ở đây để bạn nhận ra khi gặp. Riêng trong bộ này, video “Hỏi đường đi ga tàu (bản 公共汽车）” có nói đúng 公共汽车."
+  },
+  {
+   "kind": "youtube",
+   "id": "cs3-0107",
+   "title": "Hỏi đường đi ga tàu (bản 公共汽车） — CS3-0107",
+   "videoId": "Ct81TQp2g_Y",
+   "subtitleVideoId": "Ct81TQp2g_Y",
+   "fullVideoId": "7fSZPkvUUZE",
+   "watchUrl": "https://www.youtube.com/watch?v=Ct81TQp2g_Y",
+   "sourcePage": "https://www.ch-station.org/cs3-0107/",
+   "sourceName": "Chinese Station — Chinese Station 3 （関西大学中国語教材研究会）",
+   "channel": "cnstation",
+   "access": "Miễn phí trên YouTube; bản skit chỉ gồm hội thoại, đã kiểm tra phát được và có tùy chọn nhúng chính thức (29/10/2026).",
+   "voiceLabel": "Người thật đóng hội thoại — hai diễn viên quay ngoài trời (bản ghi 2012–2014, hình mờ hơn CS4 nhưng tiếng rõ)",
+   "durationNote": "Video 54 giây gồm 3 lượt cùng một hội thoại; app chỉ phát lượt không phụ đề (khoảng 12 giây)",
+   "durationSec": 54,
+   "timingNote": "Mốc câu đo ngày 29/10/2026 trên chính video skit: bản nghe chính là lượt 3 không phụ đề (4 câu ở 40,5–52 giây); lượt 1 có phụ đề chữ Hán + Pinyin lệch đúng 31,5 giây ở cả 4 câu (cùng một đoạn ghi hình lặp lại). Cửa sổ nghe ôm trọn tiếng nói từng câu.",
+   "situation": "Một bạn nữ hỏi đường tới ga tàu và hỏi có đi xe buýt được không; bạn nam trả lời không cần đi xe buýt vì ga tàu điện ngầm ở ngay phía trước.",
+   "goal": "Nghe trọn 4 câu hỏi đường; nghe rõ từ neo 公共汽车 được nói trong câu hỏi về xe buýt và cấu trúc 从……到…… (từ… đến…).",
+   "prepWords": [
+    {
+     "zh": "从这里",
+     "vi": "từ đây"
+    },
+    {
+     "zh": "火车站",
+     "vi": "ga tàu hỏa"
+    },
+    {
+     "zh": "不用",
+     "vi": "không cần"
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "F",
+     "name": "Bạn nữ",
+     "zh": "从这里到火车站远吗？",
+     "vi": "Từ đây đến ga tàu hỏa có xa không?",
+     "start": 40.3,
+     "end": 43.2,
+     "words": []
+    },
+    {
+     "speaker": "M",
+     "name": "Bạn nam",
+     "zh": "有两公里多。",
+     "vi": "Hơn hai kilômét.",
+     "start": 43.8,
+     "end": 45.7,
+     "words": [
+      "hz-h2-524ee7ce555b"
+     ]
+    },
+    {
+     "speaker": "F",
+     "name": "Bạn nữ",
+     "zh": "是吗，可以坐公共汽车去吗？",
+     "vi": "Vậy à, có thể đi bằng xe buýt được không?",
+     "start": 46.3,
+     "end": 48.7,
+     "words": [
+      "hz-h2-0ec2a615954f"
+     ]
+    },
+    {
+     "speaker": "M",
+     "name": "Bạn nam",
+     "zh": "不用，前面就是地铁站。",
+     "vi": "Không cần đâu, ga tàu điện ngầm ở ngay phía trước.",
+     "start": 49.3,
+     "end": 52.2,
+     "words": [
+      "hz-h2-263f9c937810"
+     ]
+    }
+   ],
+   "gist": {
+    "q": "Bạn nam khuyên bạn nữ thế nào?",
+    "options": [
+     "Không cần đi xe buýt — ga tàu điện ngầm ở ngay phía trước",
+     "Nên đi xe buýt vì ga còn xa",
+     "Nên đi bộ vì không có xe buýt nào qua đây"
+    ],
+    "answer": 0,
+    "explain": "Đúng rồi. Bạn nam nói: “不用，前面就是地铁站。” — không cần đâu, ga tàu điện ngầm ở ngay phía trước."
+   },
+   "details": [],
+   "listeningNotes": [
+    "Cấu trúc 从……到…… (từ… đến…): “从这里到火车站” nghĩa là “từ đây đến ga tàu hỏa”.",
+    "“不用” ở đầu câu trả lời là “không cần đâu” — cách đáp nhẹ, lịch sự khi được hỏi có cần làm gì không.",
+    "Video ghi năm 2012–2014 nên hình ảnh mờ hơn các video CS4 trong bộ, nhưng người nói nói chậm, rõ và ngắt câu dễ nghe."
+   ],
+   "repeat": [
+    3
+   ],
+   "task": {
+    "prompt": "Tự hỏi đường bằng chính khung của video: chọn một nơi bạn muốn tới （学校 — trường học, 医院 — bệnh viện, 机场 — sân bay), hỏi từ đây đến đó có xa không và có đi xe buýt được không.",
+    "frame": "从这里到……远吗？可以坐公共汽车去吗？",
+    "sample": {
+     "zh": "从这里到机场远吗？可以坐公共汽车去吗？",
+     "vi": "Từ đây đến sân bay có xa không? Có thể đi xe buýt được không?"
+    },
+    "sampleNote": "Câu mẫu chỉ để đối chiếu sau khi bạn tự nói; từ trong câu mẫu không được tính vào độ phủ của video."
+   },
+   "rights": "© 関西大学中国語教材研究会 / Chinese Station. Trang nguồn khuyến khích dùng素材 để tạo học liệu mới, cấm dùng thương mại và yêu cầu ghi credit khi tái phân phối trên mạng; app nhúng video chính thức từ YouTube, chép lời thoại đúng nguyên văn để học và ghi nguồn tại đây. Lời thoại đối chiếu: trang nguồn + phụ đề chữ Hán cháy hình ở lượt 1 của chính video.",
+   "compareNote": "Lưu ý: video này dùng đúng từ neo 公共汽车. 公交车 và 公共汽车 đều có thể chỉ xe buýt công cộng — các video khác trong bộ dùng 公交车, nghĩa không khác.",
+   "playWindow": {
+    "start": 40.3,
+    "end": 52.2
+   },
+   "subWindow": {
+    "start": 8.8,
+    "end": 20.7
+   },
+   "subOffset": -31.5
   },
   {
    "kind": "youtube",
@@ -184,7 +283,7 @@
    "voiceLabel": "Người thật đóng hội thoại — hai diễn viên ở quầy lễ tân khách sạn",
    "durationNote": "Video 10 giây",
    "durationSec": 10,
-   "timingNote": "Mốc câu đối chiếu trên bản phụ đề chữ Hán cháy hình (cùng bản dựng), sai số khoảng ±1 giây.",
+   "timingNote": "Mốc câu đã rà lại ngày 29/10/2026 trên cả hai bản (có và không phụ đề) của chính video: hai bản khớp nhau trong khoảng 0,5 giây; cửa sổ nghe đặt ôm trọn tiếng nói của câu, các câu nói liền nhau được tách đúng tại điểm nối.",
    "situation": "Ở quầy lễ tân khách sạn, một vị khách nhờ lễ tân gọi giúp một chiếc taxi để đi bảo tàng lịch sử.",
    "goal": "Nghe và nắm được: khách nhờ gọi mấy chiếc taxi, đi đâu, và lễ tân sẽ làm gì khi xe đến.",
    "prepWords": [
@@ -207,8 +306,8 @@
      "name": "Khách (anh Yamamoto)",
      "zh": "能帮我们叫一辆出租车吗？",
      "vi": "Anh gọi giúp chúng tôi một chiếc taxi được không?",
-     "start": 0,
-     "end": 3,
+     "start": 0.3,
+     "end": 2.5,
      "words": [
       "hz-h2-9fd276885a1e",
       "hz-h2-8be7f398d8ab"
@@ -219,8 +318,8 @@
      "name": "Lễ tân khách sạn",
      "zh": "没问题，您去哪儿？",
      "vi": "Được ạ. Quý khách đi đâu?",
-     "start": 3,
-     "end": 6,
+     "start": 2.5,
+     "end": 4.5,
      "words": []
     },
     {
@@ -228,8 +327,8 @@
      "name": "Khách (anh Yamamoto)",
      "zh": "去历史博物馆。",
      "vi": "Đi bảo tàng lịch sử.",
-     "start": 6,
-     "end": 7,
+     "start": 4.5,
+     "end": 6.7,
      "words": []
     },
     {
@@ -237,8 +336,8 @@
      "name": "Lễ tân khách sạn",
      "zh": "车到了我喊您。",
      "vi": "Xe đến tôi sẽ gọi quý khách.",
-     "start": 7,
-     "end": 10,
+     "start": 7.3,
+     "end": 9.7,
      "words": []
     }
    ],
@@ -252,25 +351,13 @@
     "answer": 0,
     "explain": "Khách nói: “去历史博物馆。” — đi bảo tàng lịch sử."
    },
-   "details": [
-    {
-     "q": "Khách nhờ gọi mấy chiếc taxi?",
-     "a": "Một chiếc.",
-     "explain": "Khách hỏi: “能帮我们叫一辆出租车吗？” — “一辆” là một chiếc; 辆 là lượng từ dành cho xe."
-    },
-    {
-     "q": "Khi xe đến, lễ tân sẽ làm gì?",
-     "a": "Gọi cho khách.",
-     "explain": "Lễ tân nói: “车到了我喊您。” — xe đến tôi sẽ gọi quý khách."
-    }
-   ],
+   "details": [],
    "listeningNotes": [
     "“辆” là lượng từ dành cho xe: 一辆出租车 là một chiếc taxi — đếm xe dùng 辆, không dùng 个.",
     "“喊” ở đây là gọi to để người kia nghe thấy (lễ tân gọi khách khi xe tới), không phải la hét."
    ],
    "repeat": [
-    1,
-    2
+    1
    ],
    "task": {
     "prompt": "Bạn đang ở khách sạn và cần taxi: hãy nhờ lễ tân gọi giúp một chiếc và nói nơi bạn muốn đến.",
@@ -298,7 +385,7 @@
    "voiceLabel": "Người thật đóng hội thoại — hai diễn viên quay ngoài trời trong khuôn viên trường",
    "durationNote": "Video 55 giây",
    "durationSec": 55,
-   "timingNote": "Mốc câu đối chiếu trên bản phụ đề chữ Hán cháy hình (cùng bản dựng), sai số khoảng ±1 giây. Một số câu kề nhau được suy từ khung phụ đề lân cận nên sai số có thể tới ±2 giây.",
+   "timingNote": "Mốc câu đã rà lại ngày 29/10/2026 trên cả hai bản (có và không phụ đề) của chính video: hai bản khớp nhau trong khoảng 0,5 giây; cửa sổ nghe đặt ôm trọn tiếng nói của câu, các câu nói liền nhau được tách đúng tại điểm nối.",
    "situation": "Trong khuôn viên trường, một bạn nam hỏi bạn nữ về giao thông quanh trường Bắc Ngoại: bắt xe buýt ở đâu, đi bộ bao lâu, có tàu điện ngầm không.",
    "goal": "Nghe và nắm được ba thông tin: trạm xe buýt ở đâu, đi bộ về phía đông mất bao lâu, và tuyến tàu điện ngầm nào đi qua.",
    "prepWords": [
@@ -326,7 +413,7 @@
      "zh": "丽丽，你给我介绍一下北外附近的交通好吗？",
      "vi": "Lệ Lệ, bạn giới thiệu cho mình giao thông quanh trường Bắc Ngoại được không?",
      "start": 0,
-     "end": 4,
+     "end": 4.0,
      "words": [
       "hz-h2-9d749e9f61d4"
      ]
@@ -336,8 +423,8 @@
      "name": "Bạn nữ (Lệ Lệ)",
      "zh": "好啊。北外交通非常方便，很多公交车经过北外。",
      "vi": "Được chứ. Giao thông ở Bắc Ngoại rất tiện, nhiều xe buýt đi qua trường.",
-     "start": 4,
-     "end": 10,
+     "start": 4.0,
+     "end": 9.7,
      "words": [
       "hz-h2-9d749e9f61d4",
       "hz-h2-d1d7eeb1c0ae"
@@ -348,8 +435,8 @@
      "name": "Bạn nam (Yamamoto)",
      "zh": "在哪里可以坐公交车呢？",
      "vi": "Có thể bắt xe buýt ở đâu?",
-     "start": 11,
-     "end": 14,
+     "start": 10.8,
+     "end": 14.0,
      "words": [
       "hz-h2-d1d7eeb1c0ae"
      ]
@@ -359,8 +446,8 @@
      "name": "Bạn nữ (Lệ Lệ)",
      "zh": "出了正门就有公交车站。",
      "vi": "Ra khỏi cổng chính là có trạm xe buýt.",
-     "start": 14,
-     "end": 18,
+     "start": 14.0,
+     "end": 17.7,
      "words": []
     },
     {
@@ -368,8 +455,8 @@
      "name": "Bạn nam (Yamamoto)",
      "zh": "我要去动物园就在那儿上车吗？",
      "vi": "Mình muốn đi vườn thú thì lên xe ở đó à?",
-     "start": 19,
-     "end": 23,
+     "start": 19.8,
+     "end": 21.7,
      "words": []
     },
     {
@@ -377,8 +464,8 @@
      "name": "Bạn nữ (Lệ Lệ)",
      "zh": "去动物园你可以在大学东面的魏公村东口站上车。",
      "vi": "Đi vườn thú thì bạn lên xe ở trạm Đông Khẩu, Ngụy Công Thôn, phía đông trường.",
-     "start": 24,
-     "end": 28,
+     "start": 23.8,
+     "end": 30.2,
      "words": []
     },
     {
@@ -386,8 +473,8 @@
      "name": "Bạn nam (Yamamoto)",
      "zh": "从小东门出去就是魏公村吧？",
      "vi": "Ra cổng đông nhỏ là đến Ngụy Công Thôn phải không?",
-     "start": 28,
-     "end": 35,
+     "start": 30.3,
+     "end": 34.2,
      "words": []
     },
     {
@@ -395,8 +482,8 @@
      "name": "Bạn nữ (Lệ Lệ)",
      "zh": "对，向东不到十分钟就是中关村南大街，那里有很多公交车。",
      "vi": "Đúng rồi, đi về phía đông chưa đến 10 phút là đường Nam Trung Quan Thôn, ở đó có nhiều xe buýt.",
-     "start": 36,
-     "end": 44,
+     "start": 34.3,
+     "end": 42.7,
      "words": [
       "hz-h2-380ca1689c0b",
       "hz-h2-d1d7eeb1c0ae"
@@ -407,8 +494,8 @@
      "name": "Bạn nam (Yamamoto)",
      "zh": "北外附近有地铁站吗？",
      "vi": "Quanh Bắc Ngoại có ga tàu điện ngầm không?",
-     "start": 45,
-     "end": 49,
+     "start": 44.8,
+     "end": 49.4,
      "words": [
       "hz-h2-263f9c937810"
      ]
@@ -418,8 +505,8 @@
      "name": "Bạn nữ (Lệ Lệ)",
      "zh": "有，地铁4号线就通过魏公村。",
      "vi": "Có, tuyến tàu điện ngầm số 4 đi qua Ngụy Công Thôn.",
-     "start": 49,
-     "end": 54,
+     "start": 49.4,
+     "end": 53.7,
      "words": [
       "hz-h2-e41438690254"
      ]
@@ -469,161 +556,8 @@
     },
     "sampleNote": "Câu mẫu do app biên soạn để thay thông tin — không phải lời trong video và không được tính là từ xuất hiện trong video."
    },
-   "rights": "© 内田慶市・沈国威・紅粉芳惠・氷野善寛 / Chinese Station （関西大学中国語教材研究会）. Trang nguồn khuyến khích dùng素材 để tạo học liệu mới, cấm dùng thương mại và yêu cầu ghi credit khi tái phân phối trên mạng; app nhúng video chính thức từ YouTube, chép lời thoại đúng nguyên văn để học và ghi nguồn tại đây. Lời thoại đối chiếu: trang nguồn + phụ đề chữ Hán cháy hình của chính video."
-  },
-  {
-   "kind": "youtube",
-   "id": "cs4-3106",
-   "title": "Chào tạm biệt trước khi về nước — CS4-3106",
-   "videoId": "8tdsPnGdT1g",
-   "subtitleVideoId": "YEJR2T58NNw",
-   "fullVideoId": "JRbn4nm7EHQ",
-   "watchUrl": "https://www.youtube.com/watch?v=8tdsPnGdT1g",
-   "sourcePage": "https://www.ch-station.org/cs4-3106/",
-   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
-   "channel": "cnstation",
-   "access": "Miễn phí trên YouTube; đã kiểm tra phát được và có tùy chọn Nhúng chính thức (29/10/2026).",
-   "voiceLabel": "Người thật đóng hội thoại — hai diễn viên nữ trong nhà",
-   "durationNote": "Video 27 giây",
-   "durationSec": 27,
-   "timingNote": "Mốc câu đối chiếu trên bản phụ đề chữ Hán cháy hình (cùng bản dựng), sai số khoảng ±1 giây. Một số câu kề nhau được suy từ khung phụ đề lân cận nên sai số có thể tới ±2 giây.",
-   "situation": "Ở cửa phòng, một bạn nữ báo tin ngày mai mình về nước; hai bạn cảm ơn nhau, hẹn giữ liên lạc và chúc nhau.",
-   "goal": "Nghe và nắm được: ai sắp về nước, hai bạn hẹn nhau điều gì, và lời chúc cuối cùng là gì.",
-   "prepWords": [
-    {
-     "zh": "回国",
-     "vi": "về nước"
-    },
-    {
-     "zh": "照顾",
-     "vi": "quan tâm, chăm sóc"
-    },
-    {
-     "zh": "联系",
-     "vi": "liên lạc"
-    }
-   ],
-   "lines": [
-    {
-     "speaker": "F",
-     "name": "Bạn sắp về nước (Suzuki)",
-     "zh": "丽丽，明天我就要回国了。",
-     "vi": "Lệ Lệ, ngày mai mình về nước rồi.",
-     "start": 0,
-     "end": 3,
-     "words": []
-    },
-    {
-     "speaker": "F",
-     "name": "Bạn ở Trung Quốc (Lệ Lệ)",
-     "zh": "是吗，时间过得真快，一转眼就要回国了。",
-     "vi": "Thật à, thời gian trôi nhanh thật, thoắt cái đã đến lúc về nước.",
-     "start": 4,
-     "end": 8,
-     "words": []
-    },
-    {
-     "speaker": "F",
-     "name": "Bạn sắp về nước (Suzuki)",
-     "zh": "这段时间谢谢你们对我的照顾。",
-     "vi": "Thời gian qua cảm ơn các bạn đã quan tâm, giúp đỡ mình.",
-     "start": 9,
-     "end": 11,
-     "words": []
-    },
-    {
-     "speaker": "F",
-     "name": "Bạn ở Trung Quốc (Lệ Lệ)",
-     "zh": "不客气，希望你以后常来中国。",
-     "vi": "Không có gì, mong bạn sau này thường xuyên đến Trung Quốc.",
-     "start": 12,
-     "end": 15,
-     "words": []
-    },
-    {
-     "speaker": "F",
-     "name": "Bạn sắp về nước (Suzuki)",
-     "zh": "我一定来，也希望你们来日本。",
-     "vi": "Mình nhất định sẽ đến, cũng mong các bạn sang Nhật.",
-     "start": 16,
-     "end": 18,
-     "words": []
-    },
-    {
-     "speaker": "F",
-     "name": "Bạn ở Trung Quốc (Lệ Lệ)",
-     "zh": "好的，我们保持联系吧。",
-     "vi": "Ừ, chúng mình giữ liên lạc nhé.",
-     "start": 19,
-     "end": 21,
-     "words": []
-    },
-    {
-     "speaker": "F",
-     "name": "Bạn sắp về nước (Suzuki)",
-     "zh": "嗯，再见。",
-     "vi": "Ừ, tạm biệt.",
-     "start": 21,
-     "end": 22,
-     "words": []
-    },
-    {
-     "speaker": "F",
-     "name": "Bạn ở Trung Quốc (Lệ Lệ)",
-     "zh": "祝你一路平安。",
-     "vi": "Chúc bạn thượng lộ bình an.",
-     "start": 22,
-     "end": 26,
-     "words": [
-      "hz-h2-c36d3e4c77f1"
-     ]
-    }
-   ],
-   "gist": {
-    "q": "Vì sao hai bạn nói lời tạm biệt?",
-    "options": [
-     "Một bạn ngày mai về nước",
-     "Một bạn chuyển nhà",
-     "Một bạn đi du lịch"
-    ],
-    "answer": 0,
-    "explain": "Bạn sắp đi nói: “明天我就要回国了。” — ngày mai mình về nước rồi."
-   },
-   "details": [
-    {
-     "q": "Bạn sắp về nước cảm ơn điều gì?",
-     "a": "Sự quan tâm, giúp đỡ trong thời gian qua.",
-     "explain": "Bạn ấy nói: “这段时间谢谢你们对我的照顾。” — thời gian qua cảm ơn các bạn đã chăm sóc mình."
-    },
-    {
-     "q": "Hai bạn hẹn nhau điều gì?",
-     "a": "Giữ liên lạc và sau này qua lại thăm nhau.",
-     "explain": "Bạn ở lại nói: “我们保持联系吧。” — chúng mình giữ liên lạc nhé."
-    },
-    {
-     "q": "Lời chúc cuối cùng của bạn ở lại là gì?",
-     "a": "“祝你一路平安” — chúc thượng lộ bình an.",
-     "explain": "Câu cuối trong video: “祝你一路平安。”"
-    }
-   ],
-   "listeningNotes": [
-    "“一路平安” là lời chúc nguyên cụm bốn chữ “suốt đường bình an”, nói khi tiễn người đi xa — ở đây là tiễn bạn về nước.",
-    "“一转眼” nghĩa là “thoắt một cái”: “一转眼就要回国了” — thoắt cái đã đến lúc về nước, ý nói thời gian trôi nhanh."
-   ],
-   "repeat": [
-    1,
-    8
-   ],
-   "task": {
-    "prompt": "Tiễn một người bạn đi xa: nói lời cảm ơn vì thời gian qua và chúc bạn đi đường bình an.",
-    "frame": "这段时间谢谢你。祝你……！",
-    "sample": {
-     "zh": "这段时间谢谢你们。祝你一路平安！",
-     "vi": "Thời gian qua cảm ơn các bạn. Chúc bạn thượng lộ bình an!"
-    },
-    "sampleNote": "Câu mẫu do app biên soạn để thay thông tin — không phải lời trong video và không được tính là từ xuất hiện trong video."
-   },
-   "rights": "© 内田慶市・沈国威・紅粉芳惠・氷野善寛 / Chinese Station （関西大学中国語教材研究会）. Trang nguồn khuyến khích dùng素材 để tạo học liệu mới, cấm dùng thương mại và yêu cầu ghi credit khi tái phân phối trên mạng; app nhúng video chính thức từ YouTube, chép lời thoại đúng nguyên văn để học và ghi nguồn tại đây. Lời thoại đối chiếu: trang nguồn + phụ đề chữ Hán cháy hình của chính video."
+   "rights": "© 内田慶市・沈国威・紅粉芳惠・氷野善寛 / Chinese Station （関西大学中国語教材研究会）. Trang nguồn khuyến khích dùng素材 để tạo học liệu mới, cấm dùng thương mại và yêu cầu ghi credit khi tái phân phối trên mạng; app nhúng video chính thức từ YouTube, chép lời thoại đúng nguyên văn để học và ghi nguồn tại đây. Lời thoại đối chiếu: trang nguồn + phụ đề chữ Hán cháy hình của chính video.",
+   "compareNote": "Lưu ý: video này dùng 公交车 và 公交车站 (bến xe buýt). 公交车 và 公共汽车 đều có thể chỉ xe buýt công cộng. 公共汽车 là từ neo của bài này nhưng không được nói trong video nên không tính vào độ phủ của video; app chỉ giới thiệu thêm ở đây để bạn nhận ra khi gặp. Riêng trong bộ này, video “Hỏi đường đi ga tàu (bản 公共汽车）” có nói đúng 公共汽车."
   },
   {
    "kind": "youtube",
@@ -640,7 +574,7 @@
    "voiceLabel": "Người thật đóng hội thoại — hai diễn viên ở quầy ngân hàng",
    "durationNote": "Video 29 giây",
    "durationSec": 29,
-   "timingNote": "Mốc câu đối chiếu trên bản phụ đề chữ Hán cháy hình (bản phụ đề dài 28 giây, bản không phụ đề 29 giây), sai số khoảng ±1–2 giây; một số câu được suy từ khung phụ đề lân cận.",
+   "timingNote": "Mốc câu đã rà lại ngày 29/10/2026 trên cả hai bản (có và không phụ đề) của chính video: hai bản khớp nhau trong khoảng 0,5 giây; cửa sổ nghe đặt ôm trọn tiếng nói của câu, các câu nói liền nhau được tách đúng tại điểm nối.",
    "situation": "Ở quầy ngân hàng, một du học sinh muốn rút tiền; nhân viên xin xem giấy tờ tùy thân, rồi khen tiếng Trung của anh.",
    "goal": "Nghe và nắm được: anh khách đến làm gì, giấy tờ nào được chấp nhận thay căn cước, và vì sao nhân viên khen anh.",
    "prepWords": [
@@ -663,8 +597,8 @@
      "name": "Khách (anh Yamamoto)",
      "zh": "你好，我要取钱。",
      "vi": "Chào chị, tôi muốn rút tiền.",
-     "start": 0,
-     "end": 2,
+     "start": 0.3,
+     "end": 2.2,
      "words": []
     },
     {
@@ -672,8 +606,8 @@
      "name": "Nhân viên ngân hàng",
      "zh": "给我看看你的身份证。",
      "vi": "Cho tôi xem chứng minh thư của anh.",
-     "start": 3,
-     "end": 4,
+     "start": 2.8,
+     "end": 4.7,
      "words": []
     },
     {
@@ -681,8 +615,8 @@
      "name": "Khách (anh Yamamoto)",
      "zh": "我是留学生，没有身份证。",
      "vi": "Tôi là du học sinh, không có chứng minh thư.",
-     "start": 5,
-     "end": 6,
+     "start": 4.8,
+     "end": 6.7,
      "words": []
     },
     {
@@ -690,8 +624,8 @@
      "name": "Nhân viên ngân hàng",
      "zh": "留学生？护照也可以。",
      "vi": "Du học sinh à? Hộ chiếu cũng được.",
-     "start": 7,
-     "end": 10,
+     "start": 6.8,
+     "end": 10.2,
      "words": [
       "hz-h2-7779de1d52c4"
      ]
@@ -701,8 +635,8 @@
      "name": "Khách (anh Yamamoto)",
      "zh": "给你。",
      "vi": "Đây ạ.",
-     "start": 17,
-     "end": 18,
+     "start": 16.8,
+     "end": 18.2,
      "words": []
     },
     {
@@ -710,8 +644,8 @@
      "name": "Nhân viên ngân hàng",
      "zh": "你汉语说得真好！",
      "vi": "Tiếng Trung của anh giỏi thật!",
-     "start": 19,
-     "end": 20,
+     "start": 18.3,
+     "end": 20.2,
      "words": []
     },
     {
@@ -719,8 +653,8 @@
      "name": "Khách (anh Yamamoto)",
      "zh": "你听不出我是外国人吗？",
      "vi": "Chị nghe không ra tôi là người nước ngoài à?",
-     "start": 21,
-     "end": 22,
+     "start": 20.3,
+     "end": 22.2,
      "words": []
     },
     {
@@ -728,8 +662,8 @@
      "name": "Nhân viên ngân hàng",
      "zh": "一点儿也听不出来。",
      "vi": "Hoàn toàn không nghe ra.",
-     "start": 23,
-     "end": 24,
+     "start": 22.3,
+     "end": 23.7,
      "words": []
     },
     {
@@ -737,8 +671,8 @@
      "name": "Khách (anh Yamamoto)",
      "zh": "你真会夸奖人！",
      "vi": "Chị khéo khen thật!",
-     "start": 25,
-     "end": 27,
+     "start": 23.8,
+     "end": 26.7,
      "words": []
     }
    ],
@@ -845,9 +779,16 @@
    "sourceName": "Chinese Station （関西大学）",
    "access": "Miễn phí",
    "note": "Trang nguồn của video 5: lời thoại và 5 bản video; câu “护照也可以” chứa 护照."
+  },
+  {
+   "title": "Trang nguồn CS3-0107 — lời thoại và các bản video",
+   "url": "https://www.ch-station.org/cs3-0107/",
+   "sourceName": "Chinese Station （関西大学）",
+   "access": "Miễn phí",
+   "note": "Nguồn của video “Hỏi đường đi ga tàu (bản 公共汽车）”: bản skit chỉ có hội thoại (54 giây, hội thoại lặp 3 lượt với 3 kiểu phụ đề) và bản đầy đủ có phần giảng 5:14."
   }
  ],
- "revisionNote": "v4 (theo phản hồi người dùng không hài lòng với giọng AI): bản nghe chính thay bằng video người thật CS4-1108 của Chinese Station (Đại học Kansai), nhúng chính thức từ YouTube; lời thoại chép đúng nguyên văn nguồn và đối chiếu phụ đề cháy hình; độ phủ tính lại từ transcript của video: 4/24 （公里、公交车、地铁、地铁站）. Đóng vai không áp dụng cho video (trình phát không hỗ trợ dừng đúng vai theo câu một cách tin cậy) nên ẩn ở bước tự nói. Hội thoại tự biên soạn giọng AI của v2/v3 chuyển xuống mục 'Luyện thêm' (extraPractice), dữ liệu và file audio giữ nguyên, không xóa. v3 (hợp nhất vào mục Thực hành): module nghe–nói theo bài chuyển từ thẻ dưới bảng từ vào màn hình Thực hành của đúng bài, dùng chung dữ liệu và trình phát; bảng từ chỉ còn lối vào ngắn. Thêm đóng vai bằng chính các file audio từng câu. Nhật ký khảo sát nguồn và căn cứ thiết kế chuyển vào docs/LISTENING_PILOT.md. Bản pilot trước có hai lỗi đã được sửa ở bản này: (1) thẻ ChineseFor.Us gắn câu của một hội thoại giáo trình khác (so sánh giá taxi/xe buýt) cho trang “How Far Is The Airport?” — hội thoại thật của trang đó nói về khoảng cách và giờ tàu điện, script chữ Hán bị khóa Premium, nên thẻ đã bị gỡ; (2) truyện video 15 phút chỉ chứa một từ của bài và không có mốc đoạn đã xác minh — đã gỡ. Số độ phủ cũ 6/24 bị hủy bỏ và tính lại từ đầu theo bản nghe dưới đây. v5 (mở rộng bộ video theo quy tắc mới: mỗi bài tối đa 5 video có sẵn, ưu tiên phủ thêm từ chưa xuất hiện): thêm 4 video Chinese Station đã kiểm chứng — CS4-1206 (thêm 出租车、辆), CS4-3401 (thêm 交通、分钟), CS4-3106 (thêm 一路平安), CS4-2309 (thêm 护照); mỗi video thêm ít nhất một từ mới đã xác minh trong transcript của chính video, video chỉ lặp lại từ đã có thì không chọn. Độ phủ của bộ video: 10/24 từ (không cộng trùng); 14 từ còn thiếu hiện trong vùng thu gọn của module. Giao diện: danh sách video theo tình huống, tiến độ lưu riêng từng video, chỉ một trình phát YouTube duy nhất — chuyển video là nạp lại đúng video đó. Hội thoại AI ở mục Luyện thêm giữ nguyên.",
+ "revisionNote": "v4 (theo phản hồi người dùng không hài lòng với giọng AI): bản nghe chính thay bằng video người thật CS4-1108 của Chinese Station (Đại học Kansai), nhúng chính thức từ YouTube; lời thoại chép đúng nguyên văn nguồn và đối chiếu phụ đề cháy hình; độ phủ tính lại từ transcript của video: 4/24 （公里、公交车、地铁、地铁站）. Đóng vai không áp dụng cho video (trình phát không hỗ trợ dừng đúng vai theo câu một cách tin cậy) nên ẩn ở bước tự nói. Hội thoại tự biên soạn giọng AI của v2/v3 chuyển xuống mục 'Luyện thêm' (extraPractice), dữ liệu và file audio giữ nguyên, không xóa. v3 (hợp nhất vào mục Thực hành): module nghe–nói theo bài chuyển từ thẻ dưới bảng từ vào màn hình Thực hành của đúng bài, dùng chung dữ liệu và trình phát; bảng từ chỉ còn lối vào ngắn. Thêm đóng vai bằng chính các file audio từng câu. Nhật ký khảo sát nguồn và căn cứ thiết kế chuyển vào docs/LISTENING_PILOT.md. Bản pilot trước có hai lỗi đã được sửa ở bản này: (1) thẻ ChineseFor.Us gắn câu của một hội thoại giáo trình khác (so sánh giá taxi/xe buýt) cho trang “How Far Is The Airport?” — hội thoại thật của trang đó nói về khoảng cách và giờ tàu điện, script chữ Hán bị khóa Premium, nên thẻ đã bị gỡ; (2) truyện video 15 phút chỉ chứa một từ của bài và không có mốc đoạn đã xác minh — đã gỡ. Số độ phủ cũ 6/24 bị hủy bỏ và tính lại từ đầu theo bản nghe dưới đây. v5 (mở rộng bộ video theo quy tắc mới: mỗi bài tối đa 5 video có sẵn, ưu tiên phủ thêm từ chưa xuất hiện): thêm 4 video Chinese Station đã kiểm chứng — CS4-1206 (thêm 出租车、辆), CS4-3401 (thêm 交通、分钟), CS4-3106 (thêm 一路平安), CS4-2309 (thêm 护照); mỗi video thêm ít nhất một từ mới đã xác minh trong transcript của chính video, video chỉ lặp lại từ đã có thì không chọn. Độ phủ của bộ video: 10/24 từ (không cộng trùng); 14 từ còn thiếu hiện trong vùng thu gọn của module. Giao diện: danh sách video theo tình huống, tiến độ lưu riêng từng video, chỉ một trình phát YouTube duy nhất — chuyển video là nạp lại đúng video đó. Hội thoại AI ở mục Luyện thêm giữ nguyên. v6 (29/10/2026): rà mốc từng câu trên cả hai bản của từng video và sửa mọi cửa sổ cắt/lấn câu; rút gọn hoạt động cho video rất ngắn (một câu ý chính, nhắc lại một câu, một nhiệm vụ tự nói); thêm ghi chú 公交车/公共汽车 ở bước đối chiếu; thay CS4-3106 bằng CS3-0107 (nói từ neo 公共汽车, phát theo cửa sổ lượt của bản skit) sau khi đo mốc hai lượt; app di trú tiến độ đã lưu — giữ nguyên bucket của các video còn trong bộ, chỉ bỏ bucket của video bị thay.",
  "surveyLog": [
   {
    "note": "Trang là trang tổng hợp nhiều hội thoại nghe; script chữ Hán của chính hội thoại sân bay bị khóa sau gói Premium (“Go Premium to unlock dialogue script”), điều kiện phát video cho người chưa mua không xác minh được. Bản pilot cũ còn gắn nhầm câu của hội thoại khác. Không đạt điều kiện làm bài nghe chính.",
@@ -938,9 +879,24 @@
    "source": "Kiểm chứng nhúng YouTube — khảo sát v5",
    "result": "Nhúng khả dụng; một lưu ý kỹ thuật đã ghi nhận",
    "note": "Mở trực tiếp địa chỉ youtube.com/embed/<ID> trong tab trần báo “Lỗi 153” với cả các video cũ và mới — đây là lỗi cấu hình khi thiếu ngữ cảnh trang (không phải thông báo tắt nhúng): hộp Chia sẻ của YouTube vẫn cho mã nhúng đầy đủ, trang nguồn ch-station.org tự nhúng các ID này, và video 1 cùng series đã phát nhúng bình thường ngay trên site Hazi-Viet ở v4. Kết luận cuối được kiểm chứng lại bằng cách phát cả 5 video ngay trong app sau phát hành v5."
+  },
+  {
+   "source": "Rà mốc nghe từng câu v6 — cả 5 video, riêng hai bản có/không phụ đề",
+   "result": "Hai bản của mỗi video khớp nhau trong ~0,5 giây (không cần mốc riêng theo bản); đã sửa cửa sổ nghe cho cả 5 video",
+   "note": "Lỗi thật đã sửa: CS4-1206 câu 2–3 lệch gần 2 giây (cắt đầu nặng); CS4-3401 câu 6 bị cắt cuối ~2 giây, câu 7 chứa đầu câu 8, câu 8 mất đầu ~1,5 giây, câu 9 mất cuối ~0,5 giây; CS4-2309 câu 9 mất đầu ~1 giây, câu 6–8 mất đầu ~0,5 giây; CS4-1108 câu 1 mất cuối ~0,5 giây; CS4-3106 câu 3 mất cuối ~1 giây, câu 2/4/5 mất ~0,5 giây ở đầu hoặc cuối. Cửa sổ mới ôm trọn tiếng nói từng câu, tách tại điểm nối với câu nói liền kề."
+  },
+  {
+   "source": "Đánh giá lại CS3-0107 (bản skit Ct81TQp2g_Y) theo yêu cầu rà soát v6",
+   "result": "Thay CS4-3106 bằng CS3-0107; độ phủ giữ nguyên 10/24 （公共汽车 vào, 一路平安 ra)",
+   "note": "CS3-0107 nói đúng từ neo 公共汽车 trong câu thoại 3 (đã nghe xác nhận), kèm 公里/地铁站; bản skit sạch chỉ có hội thoại, người thật nói chậm và rõ. Đã đo mốc cả hai lượt dùng được: lượt 3 không phụ đề 40,5–52 giây (bản nghe chính), lượt 1 phụ đề chữ Hán + Pinyin lệch hằng số 31,5 giây; app phát theo cửa sổ lượt và chuyển cửa sổ khi đổi phụ đề. CS4-3106 bị rút vì là video ít hữu ích nhất của bộ (+1 cụm khẩu hiệu 一路平安, tình huống ít gắn với chủ đề đi lại nhất). Một lượt hội thoại của CS3-0107 gần giống video 1 (cùng hỏi đường đi ga) — chấp nhận được vì chính cặp 公交车/公共汽车 trong cùng khung tình huống giúp người học đối chiếu hai từ."
+  },
+  {
+   "source": "CS4-3106 — rút khỏi bộ ở v6 (dữ liệu đã kiểm chứng, giữ để tham khảo)",
+   "result": "Không còn trong bộ; tiến độ đã lưu của video này được bỏ khi app di trú trạng thái",
+   "note": "Hội thoại 8 câu chào tạm biệt trước khi về nước (no-subs 8tdsPnGdT1g, chữ Hán YEJR2T58NNw); mốc đã rà v6 (giây): 0,3–3,2 / 3,3–7,7 / 9,3–12,2 / 12,3–15,7 / 16,3–18,7 / 18,8–21,2 / 21,3–22,5 / 22,5–25,7; từ của bài: 一路平安 (câu 8)."
   }
  ],
- "version": 5,
+ "version": 6,
  "extraPractice": {
   "details": [
    {
