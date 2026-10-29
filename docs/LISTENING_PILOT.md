@@ -83,6 +83,49 @@ Từ v4 (theo phản hồi của người dùng: không hài lòng với giọng
   đoạn hội thoại 1:06–3:27 theo transcript ở hanyufanting.com) — người thật đóng, 3 từ （公交车/地铁/地铁站）,
   nhưng nhiều câu vượt HSK 2 （睡过头、十字路口、堵…), nhịp nhanh, và điều kiện dùng lại kém rõ ràng hơn; không chọn.
 
+## Bộ video của pilot (v5 — tối đa 5 video, ưu tiên phủ thêm từ chưa xuất hiện)
+
+Từ v5 (quy tắc mới của người dùng: mỗi bài tối đa 5 video có sẵn; mỗi video thêm phải bổ sung
+ít nhất một từ chưa xuất hiện trong các video đã chọn; không chọn video kém phù hợp để đủ số):
+
+| Video | Tình huống | Từ của bài (theo transcript của chính video) | Từ mới | Thời lượng |
+|---|---|---|---|---|
+| CS4-1108 | Hỏi đường đi ga tàu | 公里、公交车、地铁、地铁站 | 4 | 14 giây |
+| CS4-1206 | Gọi taxi giúp ở lễ tân | 出租车 （一辆出租车）, 辆 | +2 | 10 giây |
+| CS4-3401 | Giao thông quanh trường đại học | 交通 （交通非常方便）, 分钟 （不到十分钟）; lặp 公交车/地铁/地铁站 | +2 | 55 giây |
+| CS4-3106 | Chào tạm biệt trước khi về nước | 一路平安 （祝你一路平安） | +1 | 27 giây |
+| CS4-2309 | Rút tiền ở ngân hàng | 护照 （护照也可以） | +1 | 29 giây |
+
+- **Tổng độ phủ của bộ video: 10/24 từ** (không cộng trùng). 14 từ còn thiếu — 腿、骑、一路顺风、人口、
+  公共汽车、公路、司机、椅子、爬山、自行车、行人、车辆、道路、骑车 — hiện trong vùng thu gọn của module.
+- Cả 4 video thêm đều của Chinese Station (cùng nhóm tác giả, cùng điều kiện sử dụng như video 1):
+  trang nguồn có transcript nguyên văn và các bản theo loại phụ đề; app nhúng bản không phụ đề,
+  bước Xem lời thoại chuyển được sang bản chữ Hán cùng bản dựng.
+  ID các bản: 1206 — không phụ đề `rs5AjSsxeD0`, chữ Hán `OwZNf6EtWHs`, đầy đủ `-8e17A-NzaY` (52 giây, phát 3 lượt);
+  3401 — `2v5qr4gUPTE` / `XuouQ2gbZ_0` / đầy đủ `a1YSZblpTLo`;
+  3106 — `8tdsPnGdT1g` / `YEJR2T58NNw` / đầy đủ `JRbn4nm7EHQ` (trang nguồn ghi thiếu một bản nên đã mở cả 4 ID ứng viên để xác định đúng bản: Pinyin là `lenoj57GPho`, tiếng Nhật `Rb2wgVm5yXU`);
+  2309 — `Sb--CARlN5w` / `irVAfFuuRAw` / đầy đủ `s4SIU4mDKVI`.
+- Kiểm chứng (29/10/2026, mở và nghe trực tiếp trên YouTube): cả 4 video phát được, diễn viên thật,
+  âm thanh tiếng Trung rõ; transcript khớp phụ đề chữ Hán cháy hình. Hai đính chính theo video:
+  CS4-2309 câu 8 là “一点儿也听不出来” (video có 儿化, trang nguồn không); CS4-2309 có khoảng lặng
+  hành động đưa hộ chiếu ~11–16 giây giữa câu 4 và câu 5. Mốc câu đo trên bản chữ Hán bằng cách tua
+  và đọc đồng hồ trình phát (sai số ±1 giây; một số câu kề nhau suy từ khung phụ đề lân cận, tới ±2 giây —
+  ghi rõ ở trường `timingNote` của từng video trong dữ liệu).
+- Lưu ý nhúng: mở trực tiếp địa chỉ `youtube.com/embed/<ID>` trong tab trần báo “Lỗi 153” cho cả video cũ
+  và mới — đây là lỗi cấu hình khi thiếu ngữ cảnh trang, không phải thông báo tắt nhúng: hộp Chia sẻ của
+  YouTube vẫn cấp mã nhúng, trang nguồn tự nhúng các ID này, và video 1 đã phát nhúng bình thường trên
+  site live ở v4. Sau phát hành v5, cả 5 video được phát thử ngay trong app trên site live để kết luận cuối.
+- Ứng viên đã khảo sát nhưng KHÔNG chọn (chi tiết trong `surveyLog` của dữ liệu): CS4-4118 kịch bản xe đạp
+  rất khớp nhưng chưa từng quay video （未撮影）; CS4-0511/CS4-1210 trùng 分钟 với CS4-3401; CS4-2306 là
+  phương án thay thế cho 护照； CS4-2510 （腿） đạt nhưng hết 5 vị trí; CS3-0107 có 公共汽车 nhưng định dạng
+  series cũ và tình huống gần trùng video 1. 司机 không tính được: trong các hội thoại taxi của Chinese
+  Station, 司机 chỉ là tên vai, không được nói thành lời; phỏng vấn tài xế của Mandarin Corner quá dài/khó.
+- Giao diện v5: danh sách video theo tình huống ở đầu module (tiêu đề, thời lượng, từ của bài, số từ mới,
+  trạng thái đã học); mỗi video chạy đủ 5 bước với số câu hỏi theo độ dài (video 4 câu: 1 ý chính + 2 chi tiết);
+  tiến độ (bước, hoạt động) lưu **riêng từng video** trong cùng khóa `hanzi-viet-listen-v2` (trường `videos`
+  theo ID video); chỉ **một** trình phát YouTube duy nhất tồn tại — chuyển video là nạp lại đúng video đó,
+  không tải trước cả 5.
+
 ## Học liệu luyện thêm (giữ từ v2/v3, không còn là bản chính)
 
 - Hội thoại tự biên soạn “Đi sân bay bằng gì？” (11 câu) với 11 file MP3 giọng đọc máy (AI) tạo sẵn
@@ -105,6 +148,8 @@ Từ v4 (theo phản hồi của người dùng: không hài lòng với giọng
 - Tiến độ lưu cục bộ theo ID bài + phiên bản học liệu (khóa `hanzi-viet-listen-v2`):
   bước hiện tại, hoạt động đã hoàn thành, tự đánh giá, cờ lưu để ôn lại.
   Dữ liệu lưu của bản cũ không có ID bài/phiên bản sẽ được đặt lại một lần, không đụng tiến độ học từ vựng.
+  Từ v5: tiến độ bước/hoạt động lưu riêng theo từng video (`videos[<id video>]`), kèm chỉ số video đang học;
+  tự đánh giá và cờ lưu vẫn tính chung cho cả bài. Nâng phiên bản học liệu (v4 → v5) đặt lại tiến độ pilot một lần.
 - Âm thanh dùng một điều phối chung: `stop()` của app dừng cả trình phát pilot;
   loa tra từ tạm dừng bài nghe; phát từng câu theo file nên mốc câu chính xác tuyệt đối;
   đóng vai dùng chính các file từng câu (app phát vai còn lại, dừng ở câu của người học).
@@ -112,6 +157,7 @@ Từ v4 (theo phản hồi của người dùng: không hài lòng với giọng
 
 ## Giới hạn đã biết
 
+- Mốc câu của 4 video mới (v5) đo trên bản phụ đề chữ Hán của chính video; một số câu kề nhau được suy từ khung phụ đề lân cận nên sai số có thể tới ±2 giây (đã ghi ở từng video). Nút nghe theo câu là công cụ đối chiếu, không phải mốc tuyệt đối.
 - Chưa kiểm chứng bằng tai chất lượng phát âm giọng AI trên thiết bị thật; giọng máy có thể chưa hoàn hảo ở vài từ.
 - Chưa kiểm tra bố cục trên điện thoại thật (đã kiểm qua trình duyệt mô phỏng và trang live trên trình duyệt máy tính).
 - Không cam kết nghe nền khi tắt màn hình.

@@ -110,6 +110,12 @@ body:has(.word-dashboard) main{max-width:960px;padding-top:20px}.compact-heading
 .lp-self{display:flex;flex-direction:column;gap:6px}
 .lp-survey{margin-top:12px}
 .lp-missing-box{margin:6px 0}
+.lp-videos{display:flex;flex-direction:column;gap:8px;margin:0 0 12px}
+.lp-video-btn{display:block;width:100%;text-align:left;background:#fff;border:1px solid #d8e2dc;border-radius:12px;padding:10px 12px;cursor:pointer;font:inherit}
+.lp-video-btn.active{border-color:#2e7d5b;background:#eef7f1}
+.lp-video-top{display:flex;justify-content:space-between;gap:10px;font-size:15px}
+.lp-video-state{color:#44554d;white-space:nowrap}
+.lp-video-meta{display:block;margin-top:2px;color:#44554d;font-size:13px}
 
 /* Unified listening-speaking practice (pilot merged into Practice) */
 .lp-entry{display:flex;gap:14px;align-items:center;justify-content:space-between;background:#fff;border:1px solid #d8e2dc;border-radius:14px;padding:14px 16px;margin:14px 0}
