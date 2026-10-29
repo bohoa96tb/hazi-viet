@@ -1,3 +1,14 @@
+# Giai đoạn C đợt batch-088 → batch-090 — biên soạn mới ordinal 883–912 — đã phát hành và xác minh Pages
+
+- Merge commit: 79466cd4eeea1b638cf1daf9f7813cc65b9c2d63 (nhánh main, PR #36); nhánh biên soạn: `72c1884` (file nhỏ: progress.json, content-audit.json, PROGRESS.md, cache-buster, ba tệp kho lưu batch, data/pinyin-dict.json) + `c139bac` (file khóa học qua trình duyệt).
+- Biên soạn mới 30 bài V2: batch-088 ordinal 883–892 （不久 今后 以下 以后 以外 后来 多久 好久 已经 忽然）, batch-089 ordinal 893–902 （接下来 接着 早就 有空儿 永远 然后 计划 越来越 随时 流）, batch-090 ordinal 903–912 （讲 一般 不同 可怕 大声 大小 平常 平时 怎么样 怎样）. completedCount 882 → 912/2.224, còn 1.312; toàn khóa 922/2.234 bài đủ cấu trúc.
+- Phân loại tự đánh giá: dễ 5 （好久 然后 可怕 大声 大小）, trung bình 25, khó 0. Mọi bài theo chuẩn hiện hành: `lesson.tier1` hai tầng, Pinyin ở ví dụ, bẫy thật có câu đối chiếu, 2 câu luyện mở và 2 tình huống tự dùng, trường phát âm chỉ nêu số thanh.
+- Thiết kế cụm: thời gian “sau này/bao lâu” — 以后 mốc rõ đối 后来 kể tiếp chuyện đã qua, 今后 chỉ mốc “từ nay”, 以下/以外 đối 以上/以内， 不久 ngắn đối 好久 dài, 多久 hỏi độ dài đối 几点 hỏi giờ, 已经 dạy qua bẫy vị trí có câu sai ngữ pháp và câu sửa. Cặp 接下来/接着， 平常/平时， 怎么样/怎样 soi gương hai phía bằng câu khác nhau; 早就 đối 已经， 随时 đối 随便 (610), 流 đối chữ đồng âm 留， 一般 đối 普通 (đợt 091), 可怕 đối 怕 (688).
+- Sửa danh mục: 接下来 “chấp nhận” → “tiếp theo; sau đây” và 接着 “bắt và giữ” → “tiếp theo; nối tiếp” (sai hẳn); bổ sung 以下 “dưới đây”, 以外 “ngoài ra”, 讲 “kể; giảng”, 一般 “nói chung”, 大声 “giọng to” → “to tiếng”, 平时 “ngày thường”.
+- Quy trình hệ thống mới áp dụng lần đầu: từ điển Pinyin chạy lại trước phát hành — 1.401 từ + 973 chữ, 42.375 byte, bao phủ 6.723/6.723 chuỗi nội dung; bản live khớp kích thước.
+- Kiểm thử: process-batch verify PASS (912/2.224); verify-v2 exit 0; quality-audit self-test PASS, 30 bài mới 0 cảnh báo và tổng giữ nguyên 739; test-dom PASS; hồi quy 113 khẳng định PASS; git diff --check clean. Hai lỗi tự bắt trước phát hành: câu mẫu tự dùng của 大声 gần trùng ví dụ (viết lại cảnh đọc bài), 讲 thiếu câu luyện thứ hai ở tầng 1 làm luồng mở khóa tự dùng không hiện nút (chỉnh tier1 thành [q1, q2], cập nhật digest và kho lưu batch).
+- Pages run 40814369750 success đúng HEAD 79466cd (run #291); dữ liệu live khớp byte (SHA-256 `cb8a72f7…`, 7.873.883 byte). Nhánh sao lưu: backup/phasec-088-090-20261029 ở main HEAD 14d747f. Cache-buster khóa học nay là batch-090.
+
 # Tính năng hệ thống: Pinyin + nút loa cho mọi câu trong nội dung bài — đã phát hành và xác minh Pages
 
 - Merge commit: 326a9b7e5e78dcc3a1c1ee3957e9b2cde4161653 (nhánh main, PR #34); tài liệu chuẩn ghi thành logic hệ thống ở PR #35, merge commit 751d085f0617c04a202dec130e78a5713a9799bb. Nhánh biên soạn: `6cd26ce` (tính năng: js/pinyin.js, data/pinyin-dict.json, tools/vocabulary/build-pinyin-dict.mjs, hai view, vocabulary.js, vocabulary.html, css) + `03677f5` (docs/CONTENT_STANDARD.md).
