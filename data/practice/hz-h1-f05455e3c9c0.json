@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "authorship": {
   "type": "human-video",
   "label": "Video người thật có sẵn trên YouTube (không phải giọng AI, không phải giọng đọc của thiết bị).",
@@ -12,27 +12,27 @@
  },
  "references": [
   {
-   "label": "Chinese Station — trang chính thức của loạt CS4 (nguồn lời thoại và video)",
+   "title": "Chinese Station — trang chính thức của loạt CS4 (nguồn lời thoại và video)",
    "url": "https://www.ch-station.org/index-chinese-station4/"
   },
   {
-   "label": "CS4-0807 — trang bài học chính thức",
+   "title": "CS4-0807 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-0807/"
   },
   {
-   "label": "CS4-0604 — trang bài học chính thức",
+   "title": "CS4-0604 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-0604/"
   },
   {
-   "label": "CS4-1009 — trang bài học chính thức",
+   "title": "CS4-1009 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-1009/"
   },
   {
-   "label": "CS4-1802 — trang bài học chính thức",
+   "title": "CS4-1802 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-1802/"
   },
   {
-   "label": "CS4-1210 — trang bài học chính thức",
+   "title": "CS4-1210 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-1210/"
   }
  ],
@@ -115,21 +115,21 @@
     "本"
    ],
    "gist": {
-    "question": "Người đàn ông muốn làm gì ở thư viện?",
+    "q": "Người đàn ông muốn làm gì ở thư viện?",
     "options": [
-     "Mượn một quyển sách",
      "Mua một quyển sách",
-     "Trả cuốn sách quá hạn"
+     "Trả cuốn sách quá hạn",
+     "Mượn một quyển sách"
     ],
-    "answer": 0,
+    "answer": 2,
     "explain": "Câu đầu anh nói 我想借本书 — muốn mượn một quyển sách."
    },
    "details": [],
    "lines": [
     {
-     "speaker": "山本",
-     "text": "不好意思，我想借本书。",
-     "pinyin": "Bù hǎoyìsi, wǒ xiǎng jiè běn shū.",
+     "speaker": "N",
+     "name": "山本",
+     "zh": "不好意思，我想借本书。",
      "vi": "Xin lỗi, tôi muốn mượn một quyển sách.",
      "words": [
       "hz-h1-f41783418fc4",
@@ -137,23 +137,23 @@
      ]
     },
     {
-     "speaker": "职员",
-     "text": "先填写借书单。",
-     "pinyin": "Xiān tiánxiě jièshūdān.",
+     "speaker": "N",
+     "name": "职员",
+     "zh": "先填写借书单。",
      "vi": "Trước hết, hãy điền phiếu mượn sách.",
      "words": []
     },
     {
-     "speaker": "山本",
-     "text": "我已经填好了。",
-     "pinyin": "Wǒ yǐjīng tián hǎo le.",
+     "speaker": "N",
+     "name": "山本",
+     "zh": "我已经填好了。",
      "vi": "Tôi đã điền xong rồi.",
      "words": []
     },
     {
-     "speaker": "职员",
-     "text": "请稍等一会儿。",
-     "pinyin": "Qǐng shāo děng yíhuìr.",
+     "speaker": "N",
+     "name": "职员",
+     "zh": "请稍等一会儿。",
      "vi": "Xin đợi một lát.",
      "words": []
     }
@@ -162,14 +162,13 @@
     1
    ],
    "task": {
-    "prompt": "Nói bạn muốn mượn một quyển sách ở thư viện.",
+    "prompt": "Nói bạn muốn mượn một quyển sách ở thư viện (hoặc một vật khác do bạn chọn).",
     "frame": "我想借本___。",
     "sample": {
      "zh": "我想借本书。",
-     "py": "Wǒ xiǎng jiè běn shū.",
      "vi": "Tôi muốn mượn một quyển sách."
     },
-    "note": "本 là lượng từ đi với 书： 一本书， 借本书."
+    "sampleNote": "Chỗ ___ là tên vật bạn muốn mượn, đứng sau lượng từ 本 — ví dụ 书 (sách): 我想借本书。Muốn mượn vật khác thì thay 书 bằng tên vật đó. 本 là lượng từ đi với sách vở: 一本书、借本书。"
    },
    "listeningNotes": [
     "Câu 请稍等一会儿 ở cuối là mẫu lịch sự “xin đợi một lát” rất hay gặp ở quầy dịch vụ."
@@ -220,7 +219,7 @@
     "课"
    ],
    "gist": {
-    "question": "Một tuần cô bạn có mấy tiết tiếng Trung?",
+    "q": "Một tuần cô bạn có mấy tiết tiếng Trung?",
     "options": [
      "Hai tiết",
      "Ba tiết",
@@ -231,55 +230,56 @@
    },
    "details": [
     {
-     "question": "Cô ấy thấy học tiếng Trung thế nào?",
+     "q": "Cô ấy thấy học tiếng Trung thế nào?",
      "options": [
-      "Phát âm khá khó, ngữ pháp cũng được",
       "Rất dễ, không có gì khó",
+      "Phát âm khá khó, ngữ pháp cũng được",
       "Ngữ pháp là phần khó nhất"
      ],
-     "answer": 0,
+     "answer": 1,
+     "a": "Phát âm khá khó, ngữ pháp cũng được",
      "explain": "Câu cuối: 发音比较难，语法还可以."
     }
    ],
    "lines": [
     {
-     "speaker": "李月",
-     "text": "你一个星期有几节汉语课？",
-     "pinyin": "Nǐ yí ge xīngqī yǒu jǐ jié Hànyǔ kè?",
+     "speaker": "N",
+     "name": "李月",
+     "zh": "你一个星期有几节汉语课？",
      "vi": "Một tuần bạn có mấy tiết tiếng Trung?",
+     "start": 0,
+     "end": 2.5,
      "words": [
       "hz-h1-f05455e3c9c0",
       "hz-h1-e39c1ac44813"
-     ],
-     "start": 0,
-     "end": 2.5
+     ]
     },
     {
-     "speaker": "田中",
-     "text": "有两节，星期一和星期四。",
-     "pinyin": "Yǒu liǎng jié, xīngqīyī hé xīngqīsì.",
+     "speaker": "N",
+     "name": "田中",
+     "zh": "有两节，星期一和星期四。",
      "vi": "Có hai tiết, thứ Hai và thứ Năm.",
-     "words": [],
      "start": 2.5,
-     "end": 5.5
+     "end": 5.5,
+     "words": []
     },
     {
-     "speaker": "李月",
-     "text": "汉语怎么样？好学吗？",
-     "pinyin": "Hànyǔ zěnmeyàng? Hǎoxué ma?",
+     "speaker": "N",
+     "name": "李月",
+     "zh": "汉语怎么样？好学吗？",
      "vi": "Tiếng Trung thế nào? Có dễ học không?",
-     "words": [],
      "start": 5.5,
-     "end": 9.5
+     "end": 9.5,
+     "words": []
     },
     {
-     "speaker": "田中",
-     "text": "发音比较难，语法还可以。",
-     "pinyin": "Fāyīn bǐjiào nán, yǔfǎ hái kěyǐ.",
+     "speaker": "N",
+     "name": "田中",
+     "zh": "发音比较难，语法还可以。",
      "vi": "Phát âm khá khó, ngữ pháp thì cũng được.",
-     "words": [],
      "start": 9.5,
-     "end": 12.5
+     "end": 12.5,
+     "words": []
     }
    ],
    "repeat": [
@@ -290,10 +290,9 @@
     "frame": "我一个星期有___节汉语课。",
     "sample": {
      "zh": "我一个星期有三节汉语课。",
-     "py": "Wǒ yí ge xīngqī yǒu sān jié Hànyǔ kè.",
      "vi": "Một tuần tôi có ba tiết tiếng Trung."
     },
-    "note": "节 là lượng từ của buổi học; 一个星期 là “một tuần”."
+    "sampleNote": "节 là lượng từ của buổi học; 一个星期 là “một tuần”."
    },
    "listeningNotes": [
     "汉语课 là “tiết/môn tiếng Trung”: từ 课 đứng sau tên môn học.",
@@ -337,46 +336,46 @@
     "号"
    ],
    "gist": {
-    "question": "Hai người đang hỏi nhau điều gì?",
+    "q": "Hai người đang hỏi nhau điều gì?",
     "options": [
-     "Ngày tháng và thứ trong tuần",
      "Bây giờ là mấy giờ",
+     "Ngày tháng và thứ trong tuần",
      "Giá vé bao nhiêu tiền"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "Hai câu hỏi chính là 几月几号？ và 星期几？"
    },
    "details": [],
    "lines": [
     {
-     "speaker": "李月",
-     "text": "今天几月几号？",
-     "pinyin": "Jīntiān jǐ yuè jǐ hào?",
+     "speaker": "N",
+     "name": "李月",
+     "zh": "今天几月几号？",
      "vi": "Hôm nay là ngày mấy tháng mấy?",
      "words": [
       "hz-h1-f7df735cca45"
      ]
     },
     {
-     "speaker": "吴小明",
-     "text": "今天八月一号。",
-     "pinyin": "Jīntiān bāyuè yí hào.",
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "今天八月一号。",
      "vi": "Hôm nay là ngày 1 tháng 8.",
      "words": [
       "hz-h1-f7df735cca45"
      ]
     },
     {
-     "speaker": "李月",
-     "text": "今天星期几？",
-     "pinyin": "Jīntiān xīngqī jǐ?",
+     "speaker": "N",
+     "name": "李月",
+     "zh": "今天星期几？",
      "vi": "Hôm nay là thứ mấy?",
      "words": []
     },
     {
-     "speaker": "吴小明",
-     "text": "今天星期五。",
-     "pinyin": "Jīntiān xīngqīwǔ.",
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "今天星期五。",
      "vi": "Hôm nay là thứ Sáu.",
      "words": []
     }
@@ -389,10 +388,9 @@
     "frame": "今天几月几号？——今天___月___号。",
     "sample": {
      "zh": "今天几月几号？——今天十月三十号。",
-     "py": "Jīntiān jǐ yuè jǐ hào? — Jīntiān shíyuè sānshí hào.",
      "vi": "Hôm nay là ngày mấy tháng mấy? — Hôm nay là ngày 30 tháng 10."
     },
-    "note": "Nói ngày tháng theo thứ tự: tháng trước, ngày sau, kết thúc bằng 号."
+    "sampleNote": "Nói ngày tháng theo thứ tự: tháng trước, ngày sau, kết thúc bằng 号."
    },
    "listeningNotes": [
     "Mẫu hỏi ngày: 几月几号？ — đổi số là hỏi được mọi ngày."
@@ -445,94 +443,95 @@
     "百"
    ],
    "gist": {
-    "question": "Người khách mua mấy vé, hạng nào?",
+    "q": "Người khách mua mấy vé, hạng nào?",
     "options": [
-     "Hai vé hạng A",
      "Một vé hạng B",
-     "Hai vé hạng C"
+     "Hai vé hạng C",
+     "Hai vé hạng A"
     ],
-    "answer": 0,
+    "answer": 2,
     "explain": "Câu 5: 我买两张甲级票 — mua hai vé hạng A."
    },
    "details": [
     {
-     "question": "Vé hạng B giá bao nhiêu?",
+     "q": "Vé hạng B giá bao nhiêu?",
      "options": [
-      "80 tệ",
       "50 tệ",
-      "130 tệ"
+      "130 tệ",
+      "80 tệ"
      ],
-     "answer": 0,
+     "answer": 2,
+     "a": "80 tệ",
      "explain": "Câu 4 liệt kê: 甲级 130 元，乙级 80 元，丙级 50 元."
     }
    ],
    "lines": [
     {
-     "speaker": "山本",
-     "text": "今天晚场的歌剧还有票吗？",
-     "pinyin": "Jīntiān wǎnchǎng de gējù hái yǒu piào ma?",
+     "speaker": "N",
+     "name": "山本",
+     "zh": "今天晚场的歌剧还有票吗？",
      "vi": "Buổi diễn opera tối nay còn vé không ạ?",
+     "start": 0,
+     "end": 4,
      "words": [
       "hz-h1-25df03347164"
-     ],
-     "start": 0,
-     "end": 4
+     ]
     },
     {
-     "speaker": "售票员",
-     "text": "有，您要几张？",
-     "pinyin": "Yǒu, nín yào jǐ zhāng?",
+     "speaker": "N",
+     "name": "售票员",
+     "zh": "有，您要几张？",
      "vi": "Còn ạ, anh lấy mấy vé?",
-     "words": [],
      "start": 4,
-     "end": 6
+     "end": 6,
+     "words": []
     },
     {
-     "speaker": "山本",
-     "text": "多少钱一张？",
-     "pinyin": "Duōshao qián yí zhāng?",
+     "speaker": "N",
+     "name": "山本",
+     "zh": "多少钱一张？",
      "vi": "Bao nhiêu tiền một vé?",
+     "start": 6,
+     "end": 7.5,
      "words": [
       "hz-h1-b2b95e16c805"
-     ],
-     "start": 6,
-     "end": 7.5
+     ]
     },
     {
-     "speaker": "售票员",
-     "text": "甲级票130元、乙级80元、丙级50元。",
-     "pinyin": "Jiǎjí piào yì bǎi sānshí yuán, yǐjí bāshí yuán, bǐngjí wǔshí yuán.",
+     "speaker": "N",
+     "name": "售票员",
+     "zh": "甲级票130元、乙级80元、丙级50元。",
      "vi": "Vé hạng A 130 tệ, hạng B 80 tệ, hạng C 50 tệ.",
+     "start": 7.5,
+     "end": 12,
      "words": [
       "hz-h1-25df03347164",
       "hz-h1-ae27e66d8546",
       "hz-h1-e9193fa5f583"
-     ],
-     "start": 7.5,
-     "end": 12
+     ]
     },
     {
-     "speaker": "山本",
-     "text": "我买两张甲级票，尽量要前排的。",
-     "pinyin": "Wǒ mǎi liǎng zhāng jiǎjí piào, jǐnliàng yào qiánpái de.",
+     "speaker": "N",
+     "name": "山本",
+     "zh": "我买两张甲级票，尽量要前排的。",
      "vi": "Tôi mua hai vé hạng A, cố gắng lấy hàng trước nhé.",
+     "start": 12,
+     "end": 17,
      "words": [
       "hz-h1-8341aa4cbe2d",
       "hz-h1-25df03347164"
-     ],
-     "start": 12,
-     "end": 17
+     ]
     },
     {
-     "speaker": "售票员",
-     "text": "这两个座位怎么样？",
-     "pinyin": "Zhè liǎng ge zuòwèi zěnmeyàng?",
+     "speaker": "N",
+     "name": "售票员",
+     "zh": "这两个座位怎么样？",
      "vi": "Hai ghế này thế nào ạ?",
+     "start": 17,
+     "end": 21.5,
      "words": [
       "hz-h1-f05455e3c9c0"
-     ],
-     "start": 17,
-     "end": 21.5
+     ]
     }
    ],
    "repeat": [
@@ -540,14 +539,13 @@
     5
    ],
    "task": {
-    "prompt": "Hỏi giá một vé, rồi nói bạn mua hai vé.",
-    "frame": "多少钱一张？——我买两张___。",
+    "prompt": "Hỏi giá một vé, nghe giá ba hạng vé (130, 80 và 50 tệ), rồi nói bạn mua hai vé và chọn một hạng vé.",
+    "frame": "多少钱一张？——我买两张___级票。",
     "sample": {
-     "zh": "多少钱一张？——我买两张票。",
-     "py": "Duōshao qián yí zhāng? — Wǒ mǎi liǎng zhāng piào.",
-     "vi": "Bao nhiêu tiền một vé? — Tôi mua hai vé."
+     "zh": "多少钱一张？——我买两张乙级票。",
+     "vi": "Bao nhiêu tiền một vé? — Tôi mua hai vé hạng B."
     },
-    "note": "张 là lượng từ của vé; 多少钱一张？ là mẫu hỏi giá theo từng chiếc."
+    "sampleNote": "Chỗ ___ là hạng vé bạn chọn: 甲 (hạng A, 130 tệ), 乙 (hạng B, 80 tệ) hoặc 丙 (hạng C, 50 tệ). 张 là lượng từ của vé; 多少钱一张？ là mẫu hỏi giá theo từng vé."
    },
    "listeningNotes": [
     "Câu hỏi giá 多少钱一张？ chỉ dài khoảng 1 giây — nghe cả đoạn sẽ dễ bắt hơn nghe riêng.",
@@ -596,116 +594,118 @@
     "点"
    ],
    "gist": {
-    "question": "Cô khách mua vé tàu đi đâu?",
+    "q": "Cô khách mua vé tàu đi đâu?",
     "options": [
-     "Hàng Châu",
      "Thượng Hải",
+     "Hàng Châu",
      "Bắc Kinh"
     ],
-    "answer": 0,
+    "answer": 1,
     "explain": "Câu đầu: 买一张去杭州的票 — vé đi Hàng Châu."
    },
    "details": [
     {
-     "question": "Cứ bao lâu thì có một chuyến tàu?",
+     "q": "Cứ bao lâu thì có một chuyến tàu?",
      "options": [
       "20 phút",
       "45 phút",
       "2 giờ"
      ],
      "answer": 0,
+     "a": "20 phút",
      "explain": "Câu 6: 每二十分钟一趟 — mỗi 20 phút một chuyến."
     },
     {
-     "question": "Giá vé là bao nhiêu?",
+     "q": "Giá vé là bao nhiêu?",
      "options": [
-      "60 tệ",
       "16 tệ",
+      "60 tệ",
       "600 tệ"
      ],
-     "answer": 0,
+     "answer": 1,
+     "a": "60 tệ",
      "explain": "Câu cuối: 六十元."
     }
    ],
    "lines": [
     {
-     "speaker": "顾客",
-     "text": "您好，我买一张去杭州的票。",
-     "pinyin": "Nín hǎo, wǒ mǎi yí zhāng qù Hángzhōu de piào.",
+     "speaker": "N",
+     "name": "顾客",
+     "zh": "您好，我买一张去杭州的票。",
      "vi": "Chào chị, tôi mua một vé đi Hàng Châu.",
+     "start": 0,
+     "end": 3.5,
      "words": [
       "hz-h1-8341aa4cbe2d",
       "hz-h1-25df03347164"
-     ],
-     "start": 0,
-     "end": 3.5
+     ]
     },
     {
-     "speaker": "售票员",
-     "text": "您要一等还是二等的？",
-     "pinyin": "Nín yào yí děng háishi èr děng de?",
+     "speaker": "N",
+     "name": "售票员",
+     "zh": "您要一等还是二等的？",
      "vi": "Chị muốn hạng nhất hay hạng hai?",
-     "words": [],
      "start": 3.5,
-     "end": 6.5
+     "end": 6.5,
+     "words": []
     },
     {
-     "speaker": "顾客",
-     "text": "我要一等座。",
-     "pinyin": "Wǒ yào yí děng zuò.",
+     "speaker": "N",
+     "name": "顾客",
+     "zh": "我要一等座。",
      "vi": "Tôi lấy ghế hạng nhất.",
-     "words": [],
      "start": 6.5,
-     "end": 8
+     "end": 8,
+     "words": []
     },
     {
-     "speaker": "顾客",
-     "text": "都有什么时间的？",
-     "pinyin": "Dōu yǒu shénme shíjiān de?",
+     "speaker": "N",
+     "name": "顾客",
+     "zh": "都有什么时间的？",
      "vi": "Có những chuyến giờ nào ạ?",
-     "words": [],
      "start": 8,
-     "end": 9.5
+     "end": 9.5,
+     "words": []
     },
     {
-     "speaker": "售票员",
-     "text": "要什么时间的？",
-     "pinyin": "Yào shénme shíjiān de?",
+     "speaker": "N",
+     "name": "售票员",
+     "zh": "要什么时间的？",
      "vi": "Chị muốn chuyến giờ nào?",
-     "words": [],
      "start": 9.5,
-     "end": 13.5
+     "end": 13.5,
+     "words": []
     },
     {
-     "speaker": "售票员",
-     "text": "城际列车每二十分钟一趟。",
-     "pinyin": "Chéngjì lièchē měi èrshí fēnzhōng yí tàng.",
+     "speaker": "N",
+     "name": "售票员",
+     "zh": "城际列车每二十分钟一趟。",
      "vi": "Tàu liên tỉnh cứ 20 phút có một chuyến.",
-     "words": [],
      "start": 13.5,
-     "end": 19.5
+     "end": 19.5,
+     "words": []
     },
     {
-     "speaker": "顾客",
-     "text": "现在是一点四十五，我要两点二十的。",
-     "pinyin": "Xiànzài shì yì diǎn sìshíwǔ, wǒ yào liǎng diǎn èrshí de.",
+     "speaker": "N",
+     "name": "顾客",
+     "zh": "现在是一点四十五，我要两点二十的。",
      "vi": "Bây giờ là 1 giờ 45, tôi lấy chuyến 2 giờ 20.",
+     "start": 19.5,
+     "end": 27.5,
      "words": [
       "hz-h1-358bbf2d8cd9"
-     ],
-     "start": 19.5,
-     "end": 27.5
+     ]
     },
     {
-     "speaker": "售票员",
-     "text": "六十元。",
-     "pinyin": "Liùshí yuán.",
+     "speaker": "N",
+     "name": "售票员",
+     "zh": "六十元。",
      "vi": "60 tệ.",
+     "start": 27.5,
+     "end": 31.5,
      "words": [
       "hz-h1-ae27e66d8546"
-     ],
-     "start": 27.5,
-     "end": 31.5
+     ]
     }
    ],
    "repeat": [
@@ -713,14 +713,13 @@
     7
    ],
    "task": {
-    "prompt": "Mua một vé tàu: nói nơi bạn muốn đến và giờ bạn muốn đi.",
+    "prompt": "Mua một vé tàu: nói nơi bạn muốn đến và giờ bạn muốn đi. Trong video, vé giá 60 tệ và cứ 20 phút có một chuyến.",
     "frame": "我买一张去___的票，我要___点的。",
     "sample": {
      "zh": "我买一张去上海的票，我要三点的。",
-     "py": "Wǒ mǎi yí zhāng qù Shànghǎi de piào, wǒ yào sān diǎn de.",
      "vi": "Tôi mua một vé đi Thượng Hải, tôi lấy chuyến 3 giờ."
     },
-    "note": "Đổi tên thành phố và giờ theo nhu cầu của bạn; mẫu câu giữ nguyên."
+    "sampleNote": "Hai chỗ ___: chỗ đầu là tên thành phố bạn muốn đến, chỗ sau là giờ bạn muốn đi (ví dụ 我买一张去上海的票，我要三点的。). Giá vé trong video là 六十元 (60 tệ)."
    },
    "listeningNotes": [
     "Giờ giấc trong câu 7 đọc theo mẫu …点…: 一点四十五 là 1:45, 两点二十 là 2:20.",
