@@ -1,0 +1,1797 @@
+{
+ "id": "batch-089",
+ "authorship": "10 mục baseline 893–902; tự biên soạn, đối chiếu MDBG và Wiktionary, tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Dễ 1 （然后）, trung bình 9 （接下来 接着 早就 有空儿 永远 计划 越来越 随时 流）, khó 0. Sửa danh mục sai hẳn: 接下来 “chấp nhận” → “tiếp theo; sau đây”, 接着 “bắt và giữ” → “tiếp theo; nối tiếp”. Cặp 接下来/接着 soi gương hai phía; 早就 đối 已经， 随时 đối 随便.",
+ "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
+ "entries": [
+  {
+   "id": "hz-h2-0dbbac70fb7c",
+   "hanzi": "接下来",
+   "wordEdits": {
+    "meaning": "tiếp theo; sau đây",
+    "intro": [
+     {
+      "pinyin": "jiē xià lái",
+      "meaning": "tiếp theo"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-089 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 893,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%8E%A5%E4%B8%8B%E6%9D%A5",
+     "https://en.wiktionary.org/wiki/接下来"
+    ],
+    "introduction": {
+     "scope": "Chỉ phần việc hoặc khoảng thời gian đến ngay sau phần vừa nói."
+    },
+    "meaning": {
+     "scene": "Điều hành một buổi họp, một bài học, hoặc nói về mấy ngày sắp tới.",
+     "explanation": "接下来 giới thiệu “phần tiếp theo là gì”: một mục việc, một hoạt động, hoặc một khoảng thời gian sắp tới. Nó đứng đầu câu hoặc đứng trước một cụm thời gian.",
+     "boundary": "Nói “làm tiếp việc đang dở ngay sau đó” thì dùng 接着， không dùng 接下来。",
+     "conditions": [
+      "Theo sau thường là một việc mới hoặc một khoảng thời gian như mấy ngày, mấy tuần."
+     ],
+     "takeaway": "Thấy 接下来 là biết chương trình đang chuyển sang mục sau."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "接下来，……",
+      "position": "Đứng đầu câu, giới thiệu mục tiếp theo.",
+      "required": "Mệnh đề sau là việc của mục tiếp theo.",
+      "omission": "Bỏ 接下来 thì mất dấu chuyển mục.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "接下来 + 的 + khoảng thời gian",
+      "position": "Đứng trước cụm thời gian sắp tới.",
+      "required": "Cần một khoảng thời gian như ngày, tuần, tháng.",
+      "omission": "Bỏ 接下来 thì khoảng thời gian không rõ là sắp tới.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "接下来，我们讨论第二个问题。",
+      "vi": "Tiếp theo, chúng ta thảo luận vấn đề thứ hai.",
+      "analysis": "接下来 mở mục tiếp theo của buổi học.",
+      "practiceAllowed": true,
+      "pinyin": "Jiē xiàlái wǒmen tǎolùn dì èr ge wèntí"
+     },
+     {
+      "id": "e2",
+      "zh": "接下来的几天会很忙。",
+      "vi": "Mấy ngày tới sẽ rất bận.",
+      "analysis": "接下来的 chỉ khoảng thời gian sắp tới.",
+      "practiceAllowed": true,
+      "pinyin": "Jiē xiàlái de jǐ tiān huì hěn máng"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "接下来 và 接着: mục tiếp theo hay làm tiếp",
+      "scene": "Hai từ đều đưa sang phần sau của một chuỗi việc.",
+      "possibleConfusion": "Người học dùng lẫn vì tiếng Việt đều dịch là “tiếp theo”.",
+      "difference": "接下来 nhấn “phần tiếp theo là gì”: một mục, một khoảng thời gian sắp tới. 接着 nhấn “làm tiếp ngay sau” một hành động đang nối tiếp.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "接下来是学生提问时间。",
+        "vi": "Tiếp theo là giờ học sinh đặt câu hỏi.",
+        "comment": "Giới thiệu mục tiếp theo: 接下来。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "他喝了口水，接着讲下去。",
+        "vi": "Anh ấy uống một ngụm nước rồi giảng tiếp.",
+        "comment": "Làm tiếp hành động đang dở: 接着。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo ý “mục gì tiếp theo” hay “làm tiếp việc gì”."
+      },
+      "boundary": "Trước cụm thời gian sắp tới như “mấy ngày” chỉ dùng 接下来。",
+      "tip": "Hỏi “gì tiếp theo”: 接下来； “làm tiếp”: 接着。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "接下来 một cách đọc; là cụm chuyển mục, không phải động từ nhận đồ.",
+     "literalTranslation": "Nghĩa gốc của các chữ là “nối xuống đến” — không hề có nghĩa “chấp nhận” như mục danh mục cũ ghi sai.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 接下来 với 接着； bài 接着 đối chiếu lại bằng câu khác."
+    },
+    "pronunciation": {
+     "text": "Ba âm tiết đọc liền nhau, âm cuối đọc thanh hai lên nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Giới thiệu “tiếp theo là phần hỏi đáp” thì dùng 接下来 hay 接着？"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Nói “mấy tuần tới” bằng cụm nào với 接下来？"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "接下来"
+      ],
+      "explanation": "Giới thiệu mục tiếp theo thì dùng 接下来。"
+     },
+     "q2": {
+      "accepted": [
+       "接下来的几个星期"
+      ],
+      "explanation": "接下来 đứng trước cụm thời gian sắp tới."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng tiếp theo mình sẽ giới thiệu một vị khách."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng mấy tuần tới sẽ bận ôn thi."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Chuyển mục trong một buổi giới thiệu.",
+      "frame": "接下来，我 ……",
+      "model": "接下来，我介绍一位客人。",
+      "vi": "Tiếp theo, tôi xin giới thiệu một vị khách.",
+      "criteria": [
+       "Có 接下来 mở mục tiếp theo."
+      ]
+     },
+     "s2": {
+      "idea": "Một khoảng thời gian sắp tới bận rộn.",
+      "frame": "接下来 + 的 + ……",
+      "model": "接下来的几个星期要复习考试。",
+      "vi": "Mấy tuần tới phải ôn thi.",
+      "criteria": [
+       "Có 接下来 trước khoảng thời gian."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-aa34867289e1",
+   "hanzi": "接着",
+   "wordEdits": {
+    "meaning": "tiếp theo; nối tiếp (làm tiếp)",
+    "intro": [
+     {
+      "pinyin": "jiēzhe",
+      "meaning": "tiếp theo; làm tiếp"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-089 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 894,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%8E%A5%E7%9D%80",
+     "https://en.wiktionary.org/wiki/接着"
+    ],
+    "introduction": {
+     "scope": "Nối tiếp làm một việc ngay sau một việc khác."
+    },
+    "meaning": {
+     "scene": "Kể một chuỗi việc liên tiếp trong ngày, hoặc ai đó nói tiếp, làm tiếp.",
+     "explanation": "接着 đứng trước động từ của việc tiếp theo: việc trước vừa xong là việc sau bắt đầu ngay. Nó nhấn vào sự nối tiếp của hành động.",
+     "boundary": "Giới thiệu “mục tiếp theo là gì” hoặc “khoảng thời gian sắp tới” thì dùng 接下来。",
+     "conditions": [
+      "Việc trước và việc sau thường cùng một người làm."
+     ],
+     "takeaway": "Nghe 接着 là biết hành động đang được nối tiếp, không ngắt quãng."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "……，接着 + động từ",
+      "position": "Đứng đầu mệnh đề thứ hai, trước động từ.",
+      "required": "Mệnh đề trước là việc vừa xong.",
+      "omission": "Bỏ 接着 thì hai việc mất quan hệ nối tiếp ngay.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "接着说 / 接着讲",
+      "position": "Dùng khi một người nói tiếp sau khi dừng một chút.",
+      "required": "Trước đó người nói đã dừng lại ngắn.",
+      "omission": "Bỏ 接着 thì mất ý “nói tiếp”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "他写完信，接着去寄信。",
+      "vi": "Anh ấy viết xong thư, rồi đi gửi thư ngay.",
+      "analysis": "接着 nối hai việc liên tiếp của cùng một người.",
+      "practiceAllowed": true,
+      "pinyin": "Tā xiě wán xìn jiēzhe qù jì xìn"
+     },
+     {
+      "id": "e2",
+      "zh": "老师停了一下，接着说。",
+      "vi": "Thầy dừng một lát, rồi nói tiếp.",
+      "analysis": "接着说 là khuôn “nói tiếp” hay gặp.",
+      "practiceAllowed": true,
+      "pinyin": "Lǎoshī tíng le yí xià jiēzhe shuō"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "接着 và 接下来: làm tiếp hay mục tiếp theo",
+      "scene": "Hai từ đều chuyển sang phần sau của một chuỗi.",
+      "possibleConfusion": "Người học dùng 接着 để giới thiệu một khoảng thời gian sắp tới.",
+      "difference": "接着 chỉ nối hành động: làm tiếp, nói tiếp ngay sau. 接下来 giới thiệu mục tiếp theo hoặc khoảng thời gian sắp tới và đứng trước cụm thời gian được.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "吃完饭，接着洗碗。",
+        "vi": "Ăn cơm xong, tiếp theo là rửa bát.",
+        "comment": "Nối hành động ngay sau: 接着。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "接下来的一个月我要出差。",
+        "vi": "Tháng tới tôi phải đi công tác.",
+        "comment": "Khoảng thời gian sắp tới: 接下来。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; khác nhau ở chỗ nối hành động hay giới thiệu mục."
+      },
+      "boundary": "接着 không đứng trước cụm thời gian như “một tháng” được.",
+      "tip": "Nối việc: 接着； mở mục hay quãng tới: 接下来。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "接着 một cách đọc; âm cuối đọc nhẹ.",
+     "literalTranslation": "Danh mục cũ ghi “bắt và giữ” là dịch sát từng chữ của một nghĩa khác, không phải nghĩa nối tiếp dùng hằng ngày.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 接着 với 接下来； bài 接下来 đã đối chiếu từ phía giới thiệu mục."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh một, âm tiết sau đọc nhẹ và ngắn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Nói tiếp” sau khi dừng một lát thì dùng 接着说 hay 接下来 说？"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Câu “接下来的三天” đúng hay sai nếu muốn nói “ba ngày tới”? Vì sao không dùng 接着？"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "接着说"
+      ],
+      "explanation": "接着 nối hành động nói tiếp."
+     },
+     "q2": {
+      "accepted": [
+       "Đúng"
+      ],
+      "explanation": "Khoảng thời gian sắp tới chỉ đi với 接下来； 接着 chỉ nối hành động."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Kể rằng học xong bài này sẽ học tiếp bài sau."
+     },
+     {
+      "id": "s2",
+      "prompt": "Kể rằng mẹ nấu cơm xong rồi dọn bàn ăn."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Hai bài học nối nhau.",
+      "frame": "…… 完，接着 ……",
+      "model": "学完这一课，接着学下一课。",
+      "vi": "Học xong bài này, học tiếp bài sau.",
+      "criteria": [
+       "Có 接着 nối việc tiếp theo."
+      ]
+     },
+     "s2": {
+      "idea": "Việc nhà nối tiếp nhau.",
+      "frame": "妈妈 ……，接着 ……",
+      "model": "妈妈做完饭，接着摆桌子。",
+      "vi": "Mẹ nấu cơm xong, rồi dọn bàn ăn.",
+      "criteria": [
+       "Có 接着 nối hành động."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-f9af688bdb27",
+   "hanzi": "早就",
+   "wordEdits": {
+    "meaning": "đã từ lâu; đã sớm",
+    "intro": [
+     {
+      "pinyin": "zǎo jiù",
+      "meaning": "đã từ lâu rồi"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-089 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 895,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%97%A9%E5%B0%B1",
+     "https://en.wiktionary.org/wiki/早就"
+    ],
+    "introduction": {
+     "scope": "Nhấn mạnh một việc đã rồi từ sớm, từ lâu."
+    },
+    "meaning": {
+     "scene": "Nhắc một việc lẽ ra phải biết từ lâu, hoặc trách nhẹ rằng việc nên làm sớm hơn.",
+     "explanation": "早就 đứng trước động từ, cuối câu thường có 了. So với 已经 trung tính, 早就 thêm ý “từ sớm, lâu rồi” và một sắc thái cảm xúc: chắc chắn, hoặc trách nhẹ.",
+     "boundary": "Việc vừa mới xảy ra xong thì dùng 已经， không dùng 早就。",
+     "conditions": [
+      "Hay đi với 应该 thành khuôn “lẽ ra nên … từ sớm”."
+     ],
+     "takeaway": "Nghe 早就 là thấy người nói cho rằng việc này “đáng lẽ phải thế từ lâu”."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "早就 + động từ + 了",
+      "position": "Đứng sau chủ ngữ, trước động từ.",
+      "required": "Việc phải đã xảy ra từ một lúc trước.",
+      "omission": "Bỏ 早就 thì mất ý “từ lâu rồi”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "早就应该……",
+      "position": "Dùng để nói việc lẽ ra nên làm từ sớm.",
+      "required": "Sau 应该 là việc chưa làm hoặc làm muộn.",
+      "omission": "Bỏ 早就 thì lời nhắc mất sức nặng “từ sớm”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "我早就告诉你了。",
+      "vi": "Tôi đã nói với bạn từ lâu rồi.",
+      "analysis": "早就 nhấn việc nói đã xảy ra lâu rồi.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒ zǎojiù gàosu nǐ le"
+     },
+     {
+      "id": "e2",
+      "zh": "你早就应该休息了。",
+      "vi": "Lẽ ra bạn nên nghỉ ngơi từ sớm rồi.",
+      "analysis": "早就应该 là khuôn nhắc việc nên làm sớm.",
+      "practiceAllowed": true,
+      "pinyin": "Nǐ zǎojiù yīnggāi xiūxi le"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "早就 và 已经: từ lâu rồi hay chỉ đã rồi",
+      "scene": "Hai từ đều đứng trước động từ để nói việc đã xảy ra.",
+      "possibleConfusion": "Người học dùng 早就 cho cả việc vừa xong một phút trước.",
+      "difference": "已经 chỉ báo “đã rồi” một cách trung tính, dùng cho cả việc vừa xong. 早就 nhấn “từ sớm, lâu rồi” và mang sắc thái cảm xúc; việc vừa xong không dùng 早就。",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "他已经走了十分钟了。",
+        "vi": "Anh ấy đã đi được mười phút rồi.",
+        "comment": "Việc gần đây, trung tính: 已经。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "这件事我早就知道了。",
+        "vi": "Việc này tôi đã biết từ lâu rồi.",
+        "comment": "Biết từ lâu, có sắc thái nhấn: 早就。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo khoảng cách thời gian và sắc thái muốn nói."
+      },
+      "boundary": "Lời trách “lẽ ra nên làm từ sớm” luôn dùng khuôn 早就应该。",
+      "tip": "Vừa rồi: 已经； lâu rồi: 早就。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "早就 là trạng từ ghép; 就 ở đây không phải “thì” trong câu điều kiện.",
+     "literalTranslation": "Dịch sát là “sớm đã” — nhấn việc đã rồi từ sớm.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 早就 với 已经； bài 已经 đã dạy vị trí của 已经 trước động từ."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh ba, âm tiết sau đọc thanh bốn dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Tôi vừa ăn xong” thì dùng 已经 hay 早就？ Vì sao?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Nói “lẽ ra nên đi ngủ từ sớm” thì dùng khuôn nào với 早就？"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "已经"
+      ],
+      "explanation": "Việc vừa xong không có ý “từ lâu” nên không dùng 早就。"
+     },
+     "q2": {
+      "accepted": [
+       "早就应该"
+      ],
+      "explanation": "Khuôn 早就应该…了 nghĩa là lẽ ra nên làm từ sớm."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng mình đã làm xong việc nhà từ sớm."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng lẽ ra nên đi khám từ sớm."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Việc nhà xong trước giờ dự kiến.",
+      "frame": "我 + 早就 + …… 了",
+      "model": "我早就做完家务了。",
+      "vi": "Tôi đã làm xong việc nhà từ sớm rồi.",
+      "criteria": [
+       "Có 早就 nhấn từ sớm."
+      ]
+     },
+     "s2": {
+      "idea": "Một việc nên làm sớm mà để muộn.",
+      "frame": "我 + 早就应该 …… 了",
+      "model": "我早就应该去看病了。",
+      "vi": "Lẽ ra tôi nên đi khám từ sớm rồi.",
+      "criteria": [
+       "Có 早就 trong khuôn nên làm từ sớm."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-4142bc0d3bf2",
+   "hanzi": "有空儿",
+   "wordEdits": {
+    "meaning": "có thời gian rảnh",
+    "intro": [
+     {
+      "pinyin": "yǒu kòngr",
+      "meaning": "có lúc rảnh"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-089 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 896,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%9C%89%E7%A9%BA%E5%84%BF",
+     "https://en.wiktionary.org/wiki/有空儿"
+    ],
+    "introduction": {
+     "scope": "Nói một người có lúc rảnh, không bận việc gì."
+    },
+    "meaning": {
+     "scene": "Hỏi ai đó có rảnh không để rủ đi đâu, nhờ một việc.",
+     "explanation": "有空儿 nghĩa là lịch đang trống. Cách đọc của chữ giữa trong từ này là thanh bốn, khác cách đọc “trời, không gian” là thanh một. Cả cụm hay dùng trong câu hỏi và câu rủ rê thân mật.",
+     "boundary": "Văn viết trang trọng hoặc thông báo thì dùng 有时间 tự nhiên hơn.",
+     "conditions": [
+      "Hay đi cùng mốc thời gian: ngày mai, cuối tuần."
+     ],
+     "takeaway": "Thuộc câu hỏi “có rảnh không” dạng này là giao tiếp được ngay."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "……有空儿吗？",
+      "position": "Đứng sau chủ ngữ và mốc thời gian trong câu hỏi.",
+      "required": "Cần mốc thời gian rõ để hỏi rảnh lúc nào.",
+      "omission": "Bỏ 有空儿 thì câu hỏi mất ý hỏi lịch trống.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "有空儿 + 就/一起……",
+      "position": "Đứng đầu câu để đặt điều kiện “khi nào rảnh”.",
+      "required": "Mệnh đề sau là việc sẽ làm khi rảnh.",
+      "omission": "Bỏ 有空儿 thì mất điều kiện về thời gian rảnh.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "你明天有空儿吗？",
+      "vi": "Ngày mai bạn có rảnh không?",
+      "analysis": "有空儿 trong câu hỏi lịch trống.",
+      "practiceAllowed": true,
+      "pinyin": "Nǐ míngtiān yǒu kòngr ma"
+     },
+     {
+      "id": "e2",
+      "zh": "有空儿我们一起去爬山吧。",
+      "vi": "Khi nào rảnh, chúng ta cùng đi leo núi nhé.",
+      "analysis": "有空儿 đặt điều kiện ở đầu câu.",
+      "practiceAllowed": true,
+      "pinyin": "Yǒu kòngr wǒmen yìqǐ qù pá shān ba"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "有空儿 và 有时间: thân mật hay trang trọng",
+      "scene": "Hai cụm đều nói “có thì giờ rảnh”.",
+      "possibleConfusion": "Người học tưởng phải chọn một cụm đúng duy nhất cho mọi tình huống.",
+      "difference": "Nghĩa gần như giống hệt nhau. 有空儿 khẩu ngữ, thân mật, mang hơi hướng miền Bắc với âm cuối gộp nhẹ. 有时间 dùng được ở mọi nơi, kể cả văn viết.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "周末你有空儿吗？我们去看电影。",
+        "vi": "Cuối tuần bạn có rảnh không? Chúng ta đi xem phim.",
+        "comment": "Rủ rê thân mật: 有空儿。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "请问您明天有时间吗？",
+        "vi": "Xin hỏi ngày mai ngài có thời gian không ạ?",
+        "comment": "Hỏi lịch sự, trang trọng: 有时间。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo mức thân mật của tình huống."
+      },
+      "boundary": "Trong văn bản chính thức, tránh dùng dạng có âm cuối gộp.",
+      "tip": "Thân mật: 有空儿； mọi nơi: 有时间。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "Chữ giữa có hai cách đọc: thanh một cho “bầu trời, khoảng không”, thanh bốn cho “rảnh, trống”.",
+     "literalTranslation": "Âm cuối gộp nhẹ là lối phát âm miền Bắc, không phải một chữ riêng.",
+     "confusables": "Đã rà soát: điểm cần lưu ý là cách đọc thanh bốn của chữ giữa và sắc thái khẩu ngữ; nghĩa không có nhánh hiếm cần dạy."
+    },
+    "pronunciation": {
+     "text": "Chữ ở giữa đọc thanh bốn và âm cuối của từ gộp nhẹ, cong lưỡi một chút theo kiểu miền Bắc. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Hỏi bạn thân “mai có rảnh không” thì dùng cụm nào trong bài?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Chữ giữa trong từ này đọc thanh mấy: thanh một hay thanh bốn?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "有空儿"
+      ],
+      "explanation": "Với bạn thân, dạng khẩu ngữ 有空儿 tự nhiên."
+     },
+     "q2": {
+      "accepted": [
+       "Thanh bốn"
+      ],
+      "explanation": "Ở nghĩa “rảnh, trống lịch” chữ này đọc thanh bốn."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Hỏi bạn cùng lớp xem cuối tuần có rảnh không."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng khi nào rảnh sẽ về quê thăm ông bà."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Hỏi lịch cuối tuần của người đối diện.",
+      "frame": "你 + …… + 有空儿吗",
+      "model": "你周末有空儿吗？",
+      "vi": "Cuối tuần bạn có rảnh không?",
+      "criteria": [
+       "Có 有空儿 hỏi lịch rảnh."
+      ]
+     },
+     "s2": {
+      "idea": "Một dự định chờ lúc rảnh.",
+      "frame": "有空儿 + 我就 ……",
+      "model": "有空儿我就回老家看爷爷奶奶。",
+      "vi": "Khi nào rảnh tôi sẽ về quê thăm ông bà.",
+      "criteria": [
+       "Có 有空儿 đặt điều kiện."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-f42c1400d0a9",
+   "hanzi": "永远",
+   "wordEdits": {
+    "meaning": "mãi mãi",
+    "intro": [
+     {
+      "pinyin": "yǒngyuǎn",
+      "meaning": "mãi mãi"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-089 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 897,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%B0%B8%E8%BF%9C",
+     "https://en.wiktionary.org/wiki/永远"
+    ],
+    "introduction": {
+     "scope": "Chỉ thời gian kéo dài không bao giờ hết."
+    },
+    "meaning": {
+     "scene": "Nói lời hứa, tình cảm lâu bền, hoặc khẳng định “không bao giờ”.",
+     "explanation": "永远 đứng trước động từ. Đi với 不 hoặc 不会 thành khuôn “không bao giờ”: một khẳng định rất mạnh, nói là phải chắc.",
+     "boundary": "Việc chỉ liên tục tới nay, sau này có thể đổi, thì dùng 一直， không dùng 永远。",
+     "conditions": [
+      "Hay gặp trong lời hứa, lời thề, câu văn tình cảm."
+     ],
+     "takeaway": "Đây là từ “mạnh”: dùng 永远 là cam kết không có điểm dừng."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "永远 + động từ",
+      "position": "Đứng sau chủ ngữ, trước động từ.",
+      "required": "Động từ là việc được cam kết kéo dài mãi.",
+      "omission": "Bỏ 永远 thì câu mất ý mãi mãi.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "永远不 / 永远不会……",
+      "position": "Phủ định mạnh: không bao giờ.",
+      "required": "Việc sau 不 là việc khẳng định sẽ không xảy ra.",
+      "omission": "Bỏ 永远 thì lời phủ định nhẹ đi nhiều.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "我永远记得这一天。",
+      "vi": "Tôi mãi mãi ghi nhớ ngày này.",
+      "analysis": "永远 trước động từ, cam kết không quên.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒ yǒngyuǎn jìde zhè yì tiān"
+     },
+     {
+      "id": "e2",
+      "zh": "他永远不会忘记家乡。",
+      "vi": "Anh ấy không bao giờ quên quê hương.",
+      "analysis": "永远不会 là khuôn “không bao giờ”.",
+      "practiceAllowed": true,
+      "pinyin": "Tā yǒngyuǎn bú huì wàngjì jiāxiāng"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "永远 và 一直: mãi mãi hay liên tục tới nay",
+      "scene": "Hai từ đều nói một việc kéo dài không ngắt quãng.",
+      "possibleConfusion": "Người học dùng 永远 cho cả việc mới liên tục được vài tháng.",
+      "difference": "一直 là liên tục từ trước đến nay, sau này vẫn có thể thay đổi. 永远 là mãi mãi, không có điểm dừng trong ý người nói.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "他一直住在北京。",
+        "vi": "Anh ấy vẫn luôn sống ở Bắc Kinh.",
+        "comment": "Liên tục tới nay: 一直。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "我们的友谊永远不变。",
+        "vi": "Tình bạn của chúng tôi mãi mãi không đổi.",
+        "comment": "Cam kết mãi mãi: 永远。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo mức cam kết thật của người nói."
+      },
+      "boundary": "Đừng hứa 永远 cho việc mình chưa chắc, vì người nghe sẽ hiểu là cam kết tuyệt đối.",
+      "tip": "Tới nay: 一直； mãi mãi: 永远。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "永远 một cách đọc; trạng từ chỉ thời gian.",
+     "literalTranslation": "Dịch sát là “mãi xa” — thời gian không có điểm dừng.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 永远 với 一直 ở mức độ cam kết thời gian."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh ba, âm tiết sau đọc thanh ba; hai thanh ba đi liền nhau, âm đầu hơi nhô lên theo biến điệu tự nhiên. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Anh ấy sống ở đây liên tục từ năm ngoái đến nay” thì dùng 永远 hay 一直？ Vì sao?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Nói “không bao giờ bỏ cuộc” bằng khuôn nào với 永远？"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "一直"
+      ],
+      "explanation": "Việc mới liên tục tới nay, chưa phải cam kết mãi mãi."
+     },
+     "q2": {
+      "accepted": [
+       "永远不会"
+      ],
+      "explanation": "Khuôn 永远不会… nghĩa là không bao giờ."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng mối thân tình này sẽ không bao giờ thay đổi."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng mình không bao giờ bỏ cuộc giữa chừng."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một tình cảm được cam kết bền lâu.",
+      "frame": "…… + 永远 + 不会 ……",
+      "model": "我们的友谊永远不会变。",
+      "vi": "Tình bạn của chúng tôi sẽ không bao giờ thay đổi.",
+      "criteria": [
+       "Có 永远 chỉ mãi mãi."
+      ]
+     },
+     "s2": {
+      "idea": "Một quyết tâm không dừng lại.",
+      "frame": "我 + 永远不会 ……",
+      "model": "我永远不会放弃。",
+      "vi": "Tôi không bao giờ bỏ cuộc.",
+      "criteria": [
+       "Có 永远 trong khuôn phủ định mạnh."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-51f29b7ad90f",
+   "hanzi": "然后",
+   "wordEdits": {
+    "meaning": "sau đó; rồi",
+    "intro": [
+     {
+      "pinyin": "ránhòu",
+      "meaning": "sau đó"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-089 · dễ"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 898,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E7%84%B6%E5%90%8E",
+     "https://en.wiktionary.org/wiki/然后"
+    ],
+    "introduction": {
+     "scope": "Nối bước tiếp theo ngay sau một bước khác."
+    },
+    "meaning": {
+     "scene": "Hướng dẫn làm một việc từng bước, hoặc kể chuỗi việc trong ngày.",
+     "explanation": "然后 đứng ở đầu bước thứ hai: làm xong việc trước, rồi làm việc này ngay sau. Dùng được cho cả kế hoạch sắp làm và chuyện đang kể.",
+     "boundary": "Hai đoạn cách nhau một thời gian dài trong chuyện đã qua thì dùng 后来， không dùng 然后。",
+     "conditions": [
+      "Hay đi cùng 先 ở bước đầu: “trước… rồi…”."
+     ],
+     "takeaway": "Thuộc cặp “trước… rồi…” là nối được mọi chuỗi việc đơn giản."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "先……，然后……",
+      "position": "然后 đứng đầu mệnh đề của bước thứ hai.",
+      "required": "Bước đầu có 先 hoặc một việc rõ ràng.",
+      "omission": "Bỏ 然后 thì thứ tự hai bước kém rõ.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "……，然后 + động từ",
+      "position": "Đứng đầu mệnh đề sau trong câu kể chuỗi việc.",
+      "required": "Mệnh đề trước là việc vừa hoàn thành.",
+      "omission": "Bỏ 然后 thì chuỗi việc nghe rời rạc.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "我们先吃饭，然后去散步。",
+      "vi": "Chúng ta ăn cơm trước, rồi đi dạo.",
+      "analysis": "先 và 然后 chia hai bước rõ ràng.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒmen xiān chī fàn ránhòu qù sànbù"
+     },
+     {
+      "id": "e2",
+      "zh": "他打开电脑，然后开始工作。",
+      "vi": "Anh ấy mở máy tính, rồi bắt đầu làm việc.",
+      "analysis": "然后 nối bước ngay tiếp theo.",
+      "practiceAllowed": true,
+      "pinyin": "Tā dǎkāi diànnǎo ránhòu kāishī gōngzuò"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "然后 và 后来: bước ngay sau hay đoạn sau",
+      "scene": "Hai từ đều chuyển sang việc tiếp theo khi kể.",
+      "possibleConfusion": "Người học dùng 后来 cho cả hướng dẫn từng bước.",
+      "difference": "然后 là “ngay sau đó” trong một chuỗi bước, khoảng cách rất ngắn, dùng cho cả việc sắp làm. 后来 là “một thời gian sau” trong chuyện đã qua, hai đoạn thường cách nhau khá xa.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "你先洗手，然后吃饭。",
+        "vi": "Bạn rửa tay trước, rồi ăn cơm.",
+        "comment": "Chuỗi bước hướng dẫn: 然后。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "他年轻的时候很穷，后来开了一个小店。",
+        "vi": "Hồi trẻ anh ấy rất nghèo, về sau mở một cửa hàng nhỏ.",
+        "comment": "Đoạn sau cách nhiều năm: 后来。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo khoảng cách giữa hai việc."
+      },
+      "boundary": "Kế hoạch tương lai không dùng 后来 để nối bước.",
+      "tip": "Bước ngay sau: 然后； đoạn sau của chuyện cũ: 后来。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "然后 một cách đọc; từ nối bước trong chuỗi việc.",
+     "literalTranslation": "Dịch sát là “sau đó” — bước ngay tiếp theo.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 然后 với 后来； bài 后来 đã đối chiếu từ phía kể chuyện bằng câu khác."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh hai lên giọng, âm tiết sau đọc thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Hướng dẫn “uống thuốc trước, rồi nghỉ ngơi” thì nối bằng 然后 hay 后来？"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Từ nào hay đi cặp với 然后 ở bước đầu tiên?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "然后"
+      ],
+      "explanation": "Chuỗi bước ngay tiếp nhau thì dùng 然后。"
+     },
+     "q2": {
+      "accepted": [
+       "先"
+      ],
+      "explanation": "Khuôn hay gặp là “trước… rồi…” với hai từ này đi cặp."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Hướng dẫn một người: rửa rau trước, rồi mới nấu."
+     },
+     {
+      "id": "s2",
+      "prompt": "Kể chuỗi việc buổi sáng của mình: dậy rồi đánh răng rửa mặt."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Hai bước nấu ăn theo thứ tự.",
+      "frame": "先 ……，然后 ……",
+      "model": "先洗菜，然后做饭。",
+      "vi": "Rửa rau trước, rồi nấu cơm.",
+      "criteria": [
+       "Có 然后 nối bước thứ hai."
+      ]
+     },
+     "s2": {
+      "idea": "Chuỗi việc đầu ngày.",
+      "frame": "我 ……，然后 ……",
+      "model": "我起床，然后刷牙洗脸。",
+      "vi": "Tôi dậy, rồi đánh răng rửa mặt.",
+      "criteria": [
+       "Có 然后 nối việc tiếp theo."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-02ba4c2c7a2e",
+   "hanzi": "计划",
+   "wordEdits": {
+    "meaning": "kế hoạch; dự định",
+    "intro": [
+     {
+      "pinyin": "jìhuà",
+      "meaning": "kế hoạch"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-089 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 899,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E8%AE%A1%E5%88%92",
+     "https://en.wiktionary.org/wiki/计划"
+    ],
+    "introduction": {
+     "scope": "Vừa là danh từ “kế hoạch”, vừa là động từ “dự định”."
+    },
+    "meaning": {
+     "scene": "Nói về dự định du lịch, học tập, hoặc kế hoạch công việc của một nhóm.",
+     "explanation": "计划 làm danh từ thì chỉ bản kế hoạch đã sắp xếp: có, làm, thay đổi một kế hoạch. Làm động từ thì đứng trước việc dự định làm. Nó trang trọng hơn 打算 và dùng được cho cả tổ chức.",
+     "boundary": "Ý định thoáng qua, chưa sắp xếp gì, thì 打算 tự nhiên hơn.",
+     "conditions": [
+      "Danh từ 计划 hay đi với lượng từ cho văn bản như một bản, một cái."
+     ],
+     "takeaway": "Thấy 计划 sau động từ “có/làm” là danh từ; thấy trước một việc là động từ."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "有 / 做 + 计划",
+      "position": "计划 làm danh từ, đứng sau động từ.",
+      "required": "Trước nó thường có một bản kế hoạch được nhắc tới.",
+      "omission": "Bỏ 计划 thì mất đối tượng “kế hoạch”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "计划 + động từ",
+      "position": "计划 làm động từ, đứng trước việc dự định.",
+      "required": "Việc sau nó là dự định chưa xảy ra.",
+      "omission": "Bỏ 计划 thì câu mất ý dự định.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "我们有一个旅行计划。",
+      "vi": "Chúng tôi có một kế hoạch du lịch.",
+      "analysis": "计划 ở đây là danh từ.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒmen yǒu yí ge lǚxíng jìhuà"
+     },
+     {
+      "id": "e2",
+      "zh": "我计划明年去中国学习。",
+      "vi": "Tôi dự định năm sau sang Trung Quốc học.",
+      "analysis": "计划 ở đây là động từ “dự định”.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒ jìhuà míngnián qù Zhōngguó xuéxí"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "计划 và 打算: kế hoạch đã sắp xếp hay ý định cá nhân",
+      "scene": "Hai từ đều nói về việc định làm trong tương lai.",
+      "possibleConfusion": "Người học tưởng hai từ hoàn toàn giống nhau nên dùng cho cả văn bản của công ty.",
+      "difference": "打算 là ý định của cá nhân, khẩu ngữ, có thể chưa có sắp xếp cụ thể. 计划 là kế hoạch đã được nghĩ và sắp xếp, trang trọng hơn, dùng cho cá nhân và tổ chức; chỉ riêng 计划 làm danh từ “bản kế hoạch” một cách tự nhiên.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "我打算周末去看朋友。",
+        "vi": "Tôi định cuối tuần đi thăm bạn.",
+        "comment": "Ý định cá nhân: 打算。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "公司明年的计划已经做好了。",
+        "vi": "Kế hoạch năm sau của công ty đã làm xong.",
+        "comment": "Bản kế hoạch của tổ chức: 计划。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo mức trang trọng và tính sắp xếp."
+      },
+      "boundary": "Trong văn bản công việc, dùng 计划 an toàn hơn.",
+      "tip": "Ý định thoáng: 打算； kế hoạch đã sắp: 计划。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "计划 một cách đọc; vừa danh từ vừa động từ.",
+     "literalTranslation": "Dịch sát là “tính kế” — kế hoạch đã được tính toán, sắp xếp.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 计划 với 打算 ở sắc thái trang trọng và vai trò danh từ."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh bốn, âm tiết sau cũng đọc thanh bốn; hai tiếng dứt khoát như nhau. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Kế hoạch năm học mới của trường” thì dùng 计划 hay 打算？ Vì sao?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Trong câu “我计划去留学”, từ trong bài làm động từ hay danh từ?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "计划"
+      ],
+      "explanation": "Kế hoạch của tổ chức, đã sắp xếp, cần từ trang trọng là danh từ."
+     },
+     "q2": {
+      "accepted": [
+       "Động từ"
+      ],
+      "explanation": "Nó đứng trước việc dự định “đi du học”."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng kỳ nghỉ này mình chưa có kế hoạch gì."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng mình dự định mùa hè này học lái xe."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một kỳ nghỉ chưa sắp xếp.",
+      "frame": "…… + 还没有 + 计划",
+      "model": "这个假期我还没有计划。",
+      "vi": "Kỳ nghỉ này tôi chưa có kế hoạch gì.",
+      "criteria": [
+       "Có 计划 làm danh từ."
+      ]
+     },
+     "s2": {
+      "idea": "Một dự định có thời gian rõ.",
+      "frame": "我 + 计划 + ……",
+      "model": "我计划这个夏天学开车。",
+      "vi": "Tôi dự định mùa hè này học lái xe.",
+      "criteria": [
+       "Có 计划 làm động từ."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-bed5f4534c45",
+   "hanzi": "越来越",
+   "wordEdits": {
+    "meaning": "ngày càng...",
+    "intro": [
+     {
+      "pinyin": "yuè lái yuè",
+      "meaning": "ngày càng"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-089 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 900,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E8%B6%8A%E6%9D%A5%E8%B6%8A",
+     "https://en.wiktionary.org/wiki/越来越"
+    ],
+    "introduction": {
+     "scope": "Mẫu câu chỉ mức độ tăng dần theo thời gian: ngày càng…"
+    },
+    "meaning": {
+     "scene": "Nhận xét thời tiết đổi dần, một người tiến bộ dần, một nơi đông dần.",
+     "explanation": "越来越 đứng trước tính từ hoặc động từ, nói một phía đang đổi dần theo hướng tăng: càng lúc càng lạnh, càng ngày càng thích. Chỉ cần nêu phía đang đổi, không cần nêu nguyên nhân.",
+     "boundary": "Muốn nói rõ hai phía kéo nhau “càng… càng…” thì dùng mẫu đầy đủ có hai vế lặp.",
+     "conditions": [
+      "Sau  càng… là tính từ hoặc cụm động từ, không phải danh từ."
+     ],
+     "takeaway": "Thuộc mẫu này là nói được mọi thay đổi tăng dần quen thuộc."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "越来越 + tính từ",
+      "position": "Đứng ngay trước tính từ chỉ mức độ.",
+      "required": "Tính từ là phía đang tăng dần.",
+      "omission": "Bỏ 越来越 thì mất ý thay đổi theo thời gian.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "越来越 + cụm động từ",
+      "position": "Đứng trước động từ chỉ sở thích hoặc trạng thái.",
+      "required": "Cụm động từ là phía đang tăng dần.",
+      "omission": "Bỏ 越来越 thì không rõ mức độ đang tăng.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "天气越来越冷了。",
+      "vi": "Trời ngày càng lạnh.",
+      "analysis": "越来越 trước tính từ “lạnh”.",
+      "practiceAllowed": true,
+      "pinyin": "Tiānqì yuè lái yuè lěng le"
+     },
+     {
+      "id": "e2",
+      "zh": "他越来越喜欢这份工作。",
+      "vi": "Anh ấy ngày càng thích công việc này.",
+      "analysis": "越来越 trước cụm “thích công việc”.",
+      "practiceAllowed": true,
+      "pinyin": "Tā yuè lái yuè xǐhuan zhè fèn gōngzuò"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "越来越 và mẫu hai vế: một phía hay cả hai",
+      "scene": "Hai mẫu đều nói về sự tăng dần.",
+      "possibleConfusion": "Người học tưởng hai mẫu thay nhau hoàn toàn nên bỏ mất vế nguyên nhân khi cần nói rõ.",
+      "difference": "越来越 là dạng gọn: chỉ nêu phía kết quả đang tăng. Mẫu đầy đủ lặp hai lần, nêu cả hai phía: càng làm việc đầu thì càng ra kết quả sau.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "这条路越来越好走了。",
+        "vi": "Con đường này ngày càng dễ đi.",
+        "comment": "Chỉ nêu một phía đang đổi: 越来越。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "他越说越高兴。",
+        "vi": "Anh ấy càng nói càng vui.",
+        "comment": "Hai phía kéo nhau: mẫu đầy đủ lặp hai lần.",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn mẫu theo số phía cần nói."
+      },
+      "boundary": "Sau 越来越 không thêm một vế nguyên nhân riêng nữa.",
+      "tip": "Một phía: 越来越； hai phía: mẫu lặp đầy đủ."
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "越来越 là mẫu cố định ba âm tiết, không tách ra dịch từng chữ khi dùng.",
+     "literalTranslation": "Mẫu lặp “càng… càng…” là dạng đầy đủ của cùng một ý tăng dần.",
+     "confusables": "Đã rà soát: điểm nhầm cốt lõi là chọn dạng gọn hay dạng đầy đủ của mẫu tăng dần; không có đa âm."
+    },
+    "pronunciation": {
+     "text": "Ba âm tiết đều đọc thanh bốn, đọc liền thành một nhịp, không ngắt giữa chừng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Nói “trời càng ngày càng nóng” thì dùng mẫu nào trong bài?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Muốn nói “càng học càng thấy hay” với hai phía rõ ràng thì dùng 越来越 hay mẫu lặp đầy đủ?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "越来越"
+      ],
+      "explanation": "Chỉ một phía “nóng” đang tăng dần."
+     },
+     "q2": {
+      "accepted": [
+       "Mẫu lặp đầy đủ"
+      ],
+      "explanation": "Hai phía “học” và “thấy hay” cùng tăng nên cần mẫu hai vế."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng tiếng Trung của mình ngày càng tốt."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng trong thành phố ngày càng có nhiều xe."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một khả năng tiến bộ dần.",
+      "frame": "我的 …… + 越来越 ……",
+      "model": "我的中文越来越好了。",
+      "vi": "Tiếng Trung của tôi ngày càng tốt.",
+      "criteria": [
+       "Có 越来越 chỉ tăng dần."
+      ]
+     },
+     "s2": {
+      "idea": "Một số lượng tăng dần.",
+      "frame": "…… 的 …… + 越来越多",
+      "model": "城里的车越来越多。",
+      "vi": "Xe trong thành phố ngày càng nhiều.",
+      "criteria": [
+       "Có 越来越 trước tính từ."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-04d178fd5ce5",
+   "hanzi": "随时",
+   "wordEdits": {
+    "meaning": "bất kỳ lúc nào (cũng được)",
+    "intro": [
+     {
+      "pinyin": "suíshí",
+      "meaning": "bất cứ lúc nào"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-089 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 901,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E9%9A%8F%E6%97%B6",
+     "https://en.wiktionary.org/wiki/随时"
+    ],
+    "introduction": {
+     "scope": "Nói một việc được làm vào bất cứ lúc nào cũng được."
+    },
+    "meaning": {
+     "scene": "Mời người khác cứ liên lạc khi cần, hoặc nói mình sẵn sàng làm ngay.",
+     "explanation": "随时 nghĩa là “lúc nào cũng được, không cần chờ lúc cố định”. Hay gặp trong câu mời và câu hứa sẵn sàng: có việc cứ gọi, cần gì cứ hỏi.",
+     "boundary": "Nói cách làm tùy tiện, sao cũng được, thì dùng 随便， không dùng 随时。",
+     "conditions": [
+      "Thường đứng trước động từ, hoặc đi cùng 都 thành “lúc nào cũng…” ."
+     ],
+     "takeaway": "Nghe 随时 là biết cánh cửa thời gian đang mở hoàn toàn."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "随时 + động từ",
+      "position": "Đứng ngay trước động từ của việc được phép làm bất cứ lúc nào.",
+      "required": "Động từ là việc người nghe có thể làm khi cần.",
+      "omission": "Bỏ 随时 thì mất ý “bất cứ lúc nào”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "随时都……",
+      "position": "Đi cùng 都 để nhấn “lúc nào cũng”.",
+      "required": "Sau 都 là việc luôn sẵn sàng xảy ra.",
+      "omission": "Bỏ 都 thì câu vẫn đúng nhưng nhấn yếu hơn.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "有问题随时给我打电话。",
+      "vi": "Có việc gì, cứ gọi điện cho tôi bất cứ lúc nào.",
+      "analysis": "随时 trước động từ “gọi”.",
+      "practiceAllowed": true,
+      "pinyin": "Yǒu wèntí suíshí gěi wǒ dǎ diànhuà"
+     },
+     {
+      "id": "e2",
+      "zh": "你随时都可以来我家玩儿。",
+      "vi": "Bạn đến nhà tôi chơi lúc nào cũng được.",
+      "analysis": "随时都 nhấn “lúc nào cũng”.",
+      "practiceAllowed": true,
+      "pinyin": "Nǐ suíshí dōu kěyǐ lái wǒ jiā wánr"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "随时 và 随便: lúc nào cũng được hay làm sao cũng được",
+      "scene": "Hai từ đọc gần giống nhau ở âm đầu và đều mang ý “tự do”.",
+      "possibleConfusion": "Người học dùng 随时 để nói “cứ tự nhiên, sao cũng được”.",
+      "difference": "随时 chỉ về thời gian: lúc nào cũng được. 随便 chỉ về cách làm hoặc thái độ: tự nhiên, tùy ý, sao cũng được.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "你随便坐，别客气。",
+        "vi": "Bạn cứ ngồi tự nhiên, đừng khách sáo.",
+        "comment": "Thái độ tự nhiên: 随便。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "需要帮忙随时告诉我。",
+        "vi": "Cần giúp gì, cứ bảo tôi bất cứ lúc nào.",
+        "comment": "Thời gian mở: 随时。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo ý thời gian hay ý cách làm."
+      },
+      "boundary": "Ghép “cứ gọi bất cứ lúc nào” không dùng được từ chỉ cách làm.",
+      "tip": "Lúc nào: 随时； sao cũng được: 随便。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "随时 một cách đọc; trạng từ chỉ thời gian.",
+     "literalTranslation": "Dịch sát là “theo lúc” — bất cứ lúc nào cũng được.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 随时 với 随便， đã học ở bài 随便 phía cách làm; bài này đối chiếu từ phía thời gian."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh hai, âm tiết sau đọc thanh hai; hai tiếng lên giọng nhẹ như nhau. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Mời khách “cần gì cứ gọi bất cứ lúc nào” thì dùng 随时 hay 随便？"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Từ trong bài chỉ về thời gian hay chỉ về cách làm?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "随时"
+      ],
+      "explanation": "Câu này mở thời gian hoàn toàn nên dùng 随时。"
+     },
+     "q2": {
+      "accepted": [
+       "Thời gian"
+      ],
+      "explanation": "随时 nghĩa là bất cứ lúc nào cũng được."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói với khách rằng cần gì cứ gọi mình bất cứ lúc nào."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng mình sẵn sàng lên đường ngay bất cứ lúc nào."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một lời mời hỗ trợ mở thời gian.",
+      "frame": "…… + 随时 + ……",
+      "model": "您需要什么随时叫我。",
+      "vi": "Ngài cần gì, cứ gọi tôi bất cứ lúc nào.",
+      "criteria": [
+       "Có 随时 chỉ lúc nào cũng được."
+      ]
+     },
+     "s2": {
+      "idea": "Một trạng thái sẵn sàng.",
+      "frame": "我 + 随时都 ……",
+      "model": "我随时都可以出发。",
+      "vi": "Tôi lúc nào cũng sẵn sàng lên đường.",
+      "criteria": [
+       "Có 随时 đi cùng 都."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-1a3efbdbd7b9",
+   "hanzi": "流",
+   "wordEdits": {
+    "meaning": "chảy",
+    "intro": [
+     {
+      "pinyin": "liú",
+      "meaning": "chảy"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-089 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 902,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E6%B5%81",
+     "https://en.wiktionary.org/wiki/流"
+    ],
+    "introduction": {
+     "scope": "Chỉ chất lỏng di chuyển: nước chảy, mồ hôi và nước mắt chảy ra."
+    },
+    "meaning": {
+     "scene": "Nói về sông suối, hoặc cơ thể đổ mồ hôi, chảy nước mắt khi nóng, khi chạy, khi buồn.",
+     "explanation": "流 là động từ “chảy”. Chủ ngữ thường là chất lỏng: nước, mồ hôi, nước mắt, máu. Các cụm hay gặp nhất là đổ mồ hôi, chảy nước mắt, chảy máu.",
+     "boundary": "“Ở lại, để lại” là một chữ khác đọc giống hệt nhưng viết khác; xem phần bẫy.",
+     "conditions": [
+      "Hay đi với hướng: chảy xuống, chảy qua, chảy về phía đông."
+     ],
+     "takeaway": "Thấy chất lỏng đang di chuyển là nghĩ tới từ này."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "chất lỏng + 流",
+      "position": "Đứng sau chủ ngữ là nước hoặc dòng chảy.",
+      "required": "Chủ ngữ phải là chất lỏng hoặc dòng nước.",
+      "omission": "Bỏ 流 thì câu mất động từ chính.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "流 + 汗/泪/血",
+      "position": "Đứng trước tên chất lỏng của cơ thể.",
+      "required": "Sau nó là mồ hôi, nước mắt hoặc máu.",
+      "omission": "Bỏ 流 thì cụm không thành “đổ/chảy ra”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "这条河向东流。",
+      "vi": "Con sông này chảy về phía đông.",
+      "analysis": "流 là động từ chính của dòng sông.",
+      "practiceAllowed": true,
+      "pinyin": "Zhè tiáo hé xiàng dōng liú"
+     },
+     {
+      "id": "e2",
+      "zh": "他跑完步，流了很多汗。",
+      "vi": "Chạy xong, anh ấy đổ rất nhiều mồ hôi.",
+      "analysis": "流汗 là cụm “đổ mồ hôi”.",
+      "practiceAllowed": true,
+      "pinyin": "Tā pǎo wán bù liú le hěn duō hàn"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "流 và 留: chảy hay ở lại",
+      "scene": "Hai chữ đọc giống hệt nhau nên nghe thì lẫn, viết thì phải phân biệt.",
+      "possibleConfusion": "Người học viết chữ “ở lại” vào câu nói về nước chảy và ngược lại.",
+      "difference": "流 có bộ nước: chỉ chất lỏng chảy. 留 chỉ người hoặc vật ở lại, hoặc để lại một thứ ở một nơi.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "请把书留在这儿。",
+        "vi": "Hãy để cuốn sách lại ở đây.",
+        "comment": "Để lại đồ vật: chữ không có bộ nước.",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "汗从脸上流下来。",
+        "vi": "Mồ hôi chảy từ trên mặt xuống.",
+        "comment": "Chất lỏng chảy: chữ có bộ nước.",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; nhìn bộ thủ là phân biệt được khi viết."
+      },
+      "boundary": "Khi nói, hai chữ giống hệt nhau nên phải dựa vào ngữ cảnh để hiểu.",
+      "tip": "Có nước thì chảy; không nước thì ở lại."
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "流 một âm tiết, một cách đọc ở mức này; đồng âm với chữ “ở lại”.",
+     "literalTranslation": "Dịch sát là “chảy” — luôn gắn với chất lỏng di chuyển.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là đồng âm 流 với 留， phân biệt bằng bộ thủ và loại chủ ngữ."
+    },
+    "pronunciation": {
+     "text": "Từ này chỉ có một âm tiết, đọc thanh hai lên giọng, dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Đổ mồ hôi” dùng chữ có bộ nước hay không? Vì sao?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Câu “河水向南流” nói về nước chảy hay người ở lại?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "Chữ có bộ nước"
+      ],
+      "explanation": "Mồ hôi là chất lỏng chảy ra nên dùng chữ có bộ nước."
+     },
+     "q2": {
+      "accepted": [
+       "Nước chảy"
+      ],
+      "explanation": "Chủ ngữ là nước sông đang di chuyển."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Kể rằng trời nóng quá, mồ hôi cứ chảy."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng một con suối nhỏ chảy qua phía sau làng."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Cơ thể đổ mồ hôi vì nóng.",
+      "frame": "……，我一直 ……",
+      "model": "天太热了，我一直流汗。",
+      "vi": "Trời nóng quá, tôi cứ đổ mồ hôi mãi.",
+      "criteria": [
+       "Có 流 trong cụm đổ mồ hôi."
+      ]
+     },
+     "s2": {
+      "idea": "Một dòng nước chảy qua một nơi.",
+      "frame": "一条 …… 从 …… 流过",
+      "model": "一条小河从村子后面流过。",
+      "vi": "Một con sông nhỏ chảy qua phía sau làng.",
+      "criteria": [
+       "Có 流 chỉ nước chảy."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  }
+ ]
+}

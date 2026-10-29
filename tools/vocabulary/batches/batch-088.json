@@ -1,0 +1,1806 @@
+{
+ "id": "batch-088",
+ "authorship": "10 mục baseline 883–892; tự biên soạn, đối chiếu MDBG và Wiktionary, tự phản biện hai lượt; chưa phản biện giáo viên độc lập. Dễ 1 （好久）, trung bình 9 （不久 今后 以下 以后 以外 后来 多久 已经 忽然）, khó 0. Cụm thời gian “sau này/bao lâu”: 以后 có mốc rõ, 后来 kể tiếp chuyện đã qua, 今后 chỉ từ nay; 不久 ngắn đối 好久 dài; 已 rồi vị trí trước động từ.",
+ "rulesVersion": "CONTENT_STANDARD_V2-2026-10-25",
+ "entries": [
+  {
+   "id": "hz-h2-9cd3b8846a76",
+   "hanzi": "不久",
+   "wordEdits": {
+    "meaning": "không lâu",
+    "intro": [
+     {
+      "pinyin": "bùjiǔ",
+      "meaning": "không lâu"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-088 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 883,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%B8%8D%E4%B9%85",
+     "https://en.wiktionary.org/wiki/不久"
+    ],
+    "introduction": {
+     "scope": "Chỉ khoảng thời gian ngắn: sắp xảy ra hoặc vừa xảy ra chưa lâu."
+    },
+    "meaning": {
+     "scene": "Nói về một việc sắp xảy ra, hoặc một việc vừa xảy ra cách đây chưa lâu.",
+     "explanation": "不久 chỉ một khoảng thời gian ngắn. Ghép với 以后 thành “không lâu sau”; đặt sau một việc thì là “việc đó xảy ra chưa lâu”.",
+     "boundary": "Khoảng thời gian dài thì không dùng 不久 mà dùng 好久。",
+     "conditions": [
+      "Cần một mốc việc hoặc mốc thời gian để người nghe biết “sau” và “chưa lâu” là so với lúc nào."
+     ],
+     "takeaway": "Ngắn gọn: sắp tới hoặc vừa qua trong thời gian ngắn đều là 不久。"
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "不久以后，……",
+      "position": "Đứng sau một mốc hoặc ở đầu câu, trước việc chính.",
+      "required": "Cần mốc trước đó để biết không lâu sau cái gì.",
+      "omission": "Bỏ 不久 thì mất ý “chẳng bao lâu sau”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "……了不久",
+      "position": "Đứng sau động từ chỉ việc vừa xảy ra.",
+      "required": "Thường đi cùng một việc vừa hoàn thành.",
+      "omission": "Bỏ 不久 thì mất ý “chưa lâu”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "他出去了，不久就回来了。",
+      "vi": "Anh ấy ra ngoài, chẳng bao lâu đã quay lại.",
+      "analysis": "不久 ở đây chỉ khoảng chờ rất ngắn.",
+      "practiceAllowed": true,
+      "pinyin": "Tā chūqù le bùjiǔ jiù huílái le"
+     },
+     {
+      "id": "e2",
+      "zh": "我们认识不久，还不太熟。",
+      "vi": "Chúng tôi quen nhau chưa lâu, còn chưa thân lắm.",
+      "analysis": "认识不久 nghĩa là quen chưa lâu.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒmen rènshi bùjiǔ hái bú tài shú"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "不久 và 好久: ngắn hay dài",
+      "scene": "Cùng nói về độ dài của một khoảng thời gian nhưng ngược hẳn nhau.",
+      "possibleConfusion": "Người học tưởng hai từ thay cho nhau được vì cùng nói về thời gian.",
+      "difference": "不久 là khoảng ngắn: sắp tới hoặc vừa qua chưa lâu. 好久 là khoảng dài. Chờ rất lâu thì chỉ nói được 好久。",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "飞机晚点了，我们等了好久。",
+        "vi": "Máy bay trễ, chúng tôi đã đợi rất lâu.",
+        "comment": "Chờ lâu dùng 好久。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "他刚出去不久，应该还没走远。",
+        "vi": "Anh ấy vừa ra ngoài chưa lâu, chắc là chưa đi xa.",
+        "comment": "Việc vừa xảy ra, khoảng ngắn: 不久。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn từ theo độ dài thật của khoảng thời gian."
+      },
+      "boundary": "Đừng dùng 不久 cho việc đã kéo dài hàng giờ, hàng ngày.",
+      "tip": "Ngắn: 不久； dài: 好久。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "不久 một cách đọc; chỉ khoảng thời gian ngắn.",
+     "literalTranslation": "Dịch sát chữ là “không lâu” — đúng với cả hai dùng sắp tới và vừa qua.",
+     "confusables": "Đã rà soát: so 不久 với 好久 ở đợt này; các từ thời gian khác không có điểm nhầm cốt lõi với 不久。"
+    },
+    "pronunciation": {
+     "text": "Chữ đầu đọc thanh bốn dứt khoát, âm tiết sau đọc thanh ba đầy đủ, không đọc nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Câu nào nói khoảng thời gian ngắn: “我们等了不久。” hay “我们等了好久。”? Vì sao?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Nói bằng tiếng Trung: “Chẳng bao lâu nữa tàu sẽ đến.”"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "我们等了不久。"
+      ],
+      "explanation": "不久 chỉ khoảng ngắn; 好久 chỉ khoảng dài."
+     },
+     "q2": {
+      "accepted": [
+       "不久，火车就到了。",
+       "不久，火车就要到了。"
+      ],
+      "explanation": "Đặt 不久 trước việc sắp xảy ra."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng mình về đến nhà chưa lâu thì trời mưa."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng không lâu nữa đoàn tàu sẽ đến."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Về nhà rồi mưa tới rất nhanh.",
+      "frame": "…… + 不久，就 …… 了",
+      "model": "我到家不久，天就下雨了。",
+      "vi": "Tôi về đến nhà chưa lâu thì trời đã mưa.",
+      "criteria": [
+       "Có 不久 chỉ khoảng ngắn."
+      ]
+     },
+     "s2": {
+      "idea": "Tàu sắp tới nơi.",
+      "frame": "不久，…… 就要 …… 了",
+      "model": "不久，火车就要到了。",
+      "vi": "Chẳng bao lâu nữa, tàu sẽ đến.",
+      "criteria": [
+       "Có 不久 đặt trước việc sắp xảy ra."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-028bfef06adf",
+   "hanzi": "今后",
+   "wordEdits": {
+    "meaning": "sau này (từ nay về sau)",
+    "intro": [
+     {
+      "pinyin": "jīn hòu",
+      "meaning": "từ nay về sau"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-088 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 884,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%BB%8A%E5%90%8E",
+     "https://en.wiktionary.org/wiki/今后"
+    ],
+    "introduction": {
+     "scope": "Chỉ khoảng thời gian tính từ bây giờ trở đi: từ nay về sau."
+    },
+    "meaning": {
+     "scene": "Nói về kế hoạch hoặc thay đổi bắt đầu từ bây giờ và kéo dài về sau.",
+     "explanation": "今后 luôn tính từ hôm nay, từ lúc nói trở đi. Thường mở đầu câu hoặc đứng sau chủ ngữ.",
+     "boundary": "Mốc trong quá khứ thì không dùng 今后； khi ấy kể bằng 后来 hoặc mốc 以后 theo việc.",
+     "conditions": [
+      "Hay đi với câu hứa, quyết tâm hoặc quy định mới."
+     ],
+     "takeaway": "Nhớ: 今后 chỉ có một mốc duy nhất là “bây giờ”."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "今后，……",
+      "position": "Đứng ở đầu câu, trước chủ ngữ.",
+      "required": "Câu sau phải là việc từ nay trở đi.",
+      "omission": "Bỏ 今后 thì câu mất mốc “từ nay”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "……今后……",
+      "position": "Đứng sau chủ ngữ hoặc sau một việc được nhắc tới, trước động từ.",
+      "required": "Việc sau 今后 phải chưa xảy ra hoặc còn tiếp diễn.",
+      "omission": "Bỏ 今后 thì không rõ việc tính từ khi nào.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "今后，我要早睡早起。",
+      "vi": "Từ nay, tôi sẽ ngủ sớm dậy sớm.",
+      "analysis": "今后 mở đầu, đặt mốc từ hôm nay.",
+      "practiceAllowed": true,
+      "pinyin": "Jīnhòu wǒ yào zǎo shuì zǎo qǐ"
+     },
+     {
+      "id": "e2",
+      "zh": "这件事今后不要再提了。",
+      "vi": "Việc này từ nay đừng nhắc lại nữa.",
+      "analysis": "今后 đứng sau việc được nhắc, trước động từ.",
+      "practiceAllowed": true,
+      "pinyin": "Zhè jiàn shì jīnhòu búyào zài tí le"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "今后 và 以后: mốc là bây giờ hay mốc bất kỳ",
+      "scene": "Hai từ đều nói về thời gian sau một mốc.",
+      "possibleConfusion": "Người học dùng 今后 cho mọi mốc “sau”, kể cả mốc trong quá khứ.",
+      "difference": "今后 chỉ tính từ bây giờ trở đi. 以后 tính sau bất kỳ mốc nào: sau bữa ăn, sau khi tốt nghiệp, sau ba ngày.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "从今天起，今后我自己做饭。",
+        "vi": "Từ hôm nay, về sau tôi tự nấu cơm.",
+        "comment": "Mốc là hôm nay: 今后。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "吃完饭以后，我们去散步。",
+        "vi": "Ăn cơm xong, chúng ta đi dạo.",
+        "comment": "Mốc là sau bữa ăn, không phải từ nay: 以后。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; khác nhau ở cái mốc được chọn."
+      },
+      "boundary": "Chuyện đã qua trong quá khứ không mở bằng 今后。",
+      "tip": "Từ nay: 今后； sau một việc hay một mốc bất kỳ: 以后。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "今后 một cách đọc; mốc duy nhất là từ bây giờ.",
+     "literalTranslation": "Dịch sát chữ là “nay về sau” — không dùng cho mốc quá khứ.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 今后 với 以后； mốc quá khứ dùng 后来 đã dạy ở bài 后来。"
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh một cao và phẳng, âm tiết sau đọc thanh bốn. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Nói “từ nay tôi không hút thuốc nữa” thì chọn 今后 hay 以后？ Vì sao?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Nói bằng tiếng Trung: “Từ nay, mỗi tuần tôi học ba buổi.”"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "今后"
+      ],
+      "explanation": "Mốc là “từ nay” nên dùng 今后； 以后 cần một mốc việc cụ thể."
+     },
+     "q2": {
+      "accepted": [
+       "今后，我每周学习三次。"
+      ],
+      "explanation": "Đặt 今后 ở đầu câu để đặt mốc từ nay."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Hứa rằng từ nay sẽ không đi muộn nữa."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng từ nay mỗi tuần đều tập thể dục hai lần."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Hứa bỏ thói quen đi muộn.",
+      "frame": "我 + 今后 + 不再 …… 了",
+      "model": "我今后不再迟到了。",
+      "vi": "Từ nay tôi không đi muộn nữa.",
+      "criteria": [
+       "Có 今后 chỉ từ nay về sau."
+      ]
+     },
+     "s2": {
+      "idea": "Đặt lịch tập đều đặn từ bây giờ.",
+      "frame": "今后 + 我 + 每周 ……",
+      "model": "今后我每周都运动两次。",
+      "vi": "Từ nay mỗi tuần tôi đều tập thể dục hai lần.",
+      "criteria": [
+       "Có 今后 ở đầu câu."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-9c8d9c8a1e6d",
+   "hanzi": "以下",
+   "wordEdits": {
+    "meaning": "trở xuống; dưới đây",
+    "intro": [
+     {
+      "pinyin": "yǐxià",
+      "meaning": "trở xuống; dưới đây"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-088 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 885,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%BB%A5%E4%B8%8B",
+     "https://en.wiktionary.org/wiki/以下"
+    ],
+    "introduction": {
+     "scope": "Hai dùng chính: từ một mức trở xuống, và phần dưới đây trong văn bản."
+    },
+    "meaning": {
+     "scene": "Đọc quy định về độ tuổi, giá cả, hoặc mở đầu phần nội dung sắp liệt kê.",
+     "explanation": "以下 đứng sau một con số hay một mức: nghĩa là từ mức đó trở xuống. Đứng một mình ở đầu câu thì nghĩa là “dưới đây là…”, giới thiệu phần sắp đọc.",
+     "boundary": "Từ một mức trở lên thì dùng 以上， không dùng 以下。",
+     "conditions": [
+      "Theo sau thường là con số kèm đơn vị như tuổi, tiền, độ dài."
+     ],
+     "takeaway": "Thấy số ở trước thì nghĩ “trở xuống”; thấy 以下 ở đầu câu thì nghĩ “dưới đây là”."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "số + đơn vị + 以下",
+      "position": "Đứng ngay sau cụm số lượng.",
+      "required": "Cần con số và đơn vị rõ ràng.",
+      "omission": "Bỏ 以下 thì không biết giới hạn ở phía dưới.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "以下是……",
+      "position": "Đứng đầu câu để giới thiệu nội dung phía dưới.",
+      "required": "Sau nó là nội dung được liệt kê hoặc thông báo.",
+      "omission": "Bỏ 以下 thì mất vai trò giới thiệu phần dưới.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "三岁以下的孩子不用买票。",
+      "vi": "Trẻ dưới ba tuổi không phải mua vé.",
+      "analysis": "以下 sau số tuổi: từ ba tuổi trở xuống.",
+      "practiceAllowed": true,
+      "pinyin": "Sān suì yǐxià de háizi búyòng mǎi piào"
+     },
+     {
+      "id": "e2",
+      "zh": "以下是今天的安排。",
+      "vi": "Dưới đây là lịch trình hôm nay.",
+      "analysis": "以下 ở đầu câu giới thiệu phần dưới.",
+      "practiceAllowed": true,
+      "pinyin": "Yǐxià shì jīntiān de ānpái"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "以下 và 以上: xuống hay lên",
+      "scene": "Hai từ cùng đi sau con số để chỉ một phía của cái mốc.",
+      "possibleConfusion": "Người học dịch cả hai là “khoảng” nên chọn nhầm phía.",
+      "difference": "以下 là phía dưới của mốc: mốc đó trở xuống. 以上 là phía trên của mốc: mốc đó trở lên.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "这件衣服二百块以下就能买。",
+        "vi": "Cái áo này dưới hai trăm tệ là mua được.",
+        "comment": "Giá ở phía dưới mốc: 以下。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "十岁以上的孩子可以自己坐车。",
+        "vi": "Trẻ trên mười tuổi có thể tự đi xe.",
+        "comment": "Tuổi ở phía trên mốc: 以上。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo phía của mốc cần nói."
+      },
+      "boundary": "Khi nói phần văn bản “dưới đây/trên đây” thì cả hai vẫn giữ nguyên phía như vậy.",
+      "tip": "Xuống: 下； lên: 上。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "以下 một cách đọc; hai dùng: trở xuống và dưới đây.",
+     "literalTranslation": "Dịch sát chữ là “lấy dưới” — phía dưới của mốc.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 以下 với 以上； không có đa âm hay nghĩa hiếm cần dạy ở mức này."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh ba, âm tiết sau đọc thanh bốn dứt khoát. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Năm tuổi trở xuống” nói thế nào: 五岁以下 hay 五岁以上？"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Mở đầu một thông báo “Dưới đây là danh sách lớp” thì dùng từ gì ở đầu câu?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "五岁以下"
+      ],
+      "explanation": "Trở xuống là phía dưới của mốc: 以下。"
+     },
+     "q2": {
+      "accepted": [
+       "以下"
+      ],
+      "explanation": "Đặt 以下 ở đầu câu: 以下是班级名单。"
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng trẻ em dưới sáu tuổi được vào miễn phí."
+     },
+     {
+      "id": "s2",
+      "prompt": "Giới thiệu: dưới đây là danh sách đồ cần mua."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Quy định vé cho trẻ nhỏ.",
+      "frame": "…… + 以下 + 的 + 孩子",
+      "model": "六岁以下的孩子可以免费进去。",
+      "vi": "Trẻ em dưới sáu tuổi có thể vào miễn phí.",
+      "criteria": [
+       "Có 以下 sau số tuổi."
+      ]
+     },
+     "s2": {
+      "idea": "Giới thiệu một danh sách.",
+      "frame": "以下 + 是 + ……",
+      "model": "以下是要买的东西。",
+      "vi": "Dưới đây là những thứ cần mua.",
+      "criteria": [
+       "Có 以下 ở đầu câu."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-5867950d3c28",
+   "hanzi": "以后",
+   "wordEdits": {
+    "meaning": "sau; sau này",
+    "intro": [
+     {
+      "pinyin": "yǐhòu",
+      "meaning": "sau (một mốc); sau này"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-088 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 886,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%BB%A5%E5%90%8E",
+     "https://en.wiktionary.org/wiki/以后"
+    ],
+    "introduction": {
+     "scope": "Đứng sau một mốc để nói việc xảy ra sau mốc đó; cũng chỉ “sau này” nói chung."
+    },
+    "meaning": {
+     "scene": "Kể thứ tự việc trong ngày, hoặc nói dự định cho thời gian sau này.",
+     "explanation": "以后 luôn đi sau cái mốc: sau một việc, sau một giờ, sau một ngày. Bỏ mốc đi, 以后 đứng một mình thì hiểu là “sau này” nói chung.",
+     "boundary": "Việc đã xảy ra nối tiếp trong một câu chuyện quá khứ thường kể bằng 后来； 以后 thiên về mốc rõ hoặc dự định.",
+     "conditions": [
+      "Mốc có thể là một câu nhỏ như “ăn xong”, “tan học”."
+     ],
+     "takeaway": "Nhớ vị trí: mốc ở trước, 以后 ở sau, việc chính ở sau nữa."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "……以后，……",
+      "position": "Đứng ngay sau cụm chỉ mốc, trước việc chính.",
+      "required": "Cần một mốc rõ: một việc, một giờ hoặc một ngày.",
+      "omission": "Bỏ 以后 thì hai việc mất quan hệ trước sau.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "以后 + động từ",
+      "position": "以后 đứng một mình trước động từ, chỉ “sau này”.",
+      "required": "Không cần mốc cụ thể khi nói dự định chung.",
+      "omission": "Bỏ 以后 thì mất ý sau này.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "下课以后，我去图书馆看书。",
+      "vi": "Tan học xong, tôi đến thư viện đọc sách.",
+      "analysis": "Mốc là “tan học”, việc chính ở sau 以后。",
+      "practiceAllowed": true,
+      "pinyin": "Xià kè yǐhòu wǒ qù túshūguǎn kàn shū"
+     },
+     {
+      "id": "e2",
+      "zh": "这件事以后再说吧。",
+      "vi": "Việc này để sau này hẵng nói.",
+      "analysis": "以后 đứng một mình chỉ “sau này”.",
+      "practiceAllowed": true,
+      "pinyin": "Zhè jiàn shì yǐhòu zài shuō ba"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "以后 và 后来: mốc rõ hay mạch kể chuyện",
+      "scene": "Hai từ đều đưa người nghe tới thời gian sau đó.",
+      "possibleConfusion": "Người học dùng 以后 cho mọi chỗ cần nói “sau đó” trong chuyện đã qua.",
+      "difference": "以后 cần một mốc gắn ngay trước nó, hoặc mang ý dự định sau này. 后来 mở một đoạn kể tiếp trong câu chuyện đã qua, không cần mốc gắn liền, chỉ cần mạch chuyện trước đó.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "毕业以后，他去了上海工作。",
+        "vi": "Sau khi tốt nghiệp, anh ấy đến Thượng Hải làm việc.",
+        "comment": "Mốc “tốt nghiệp” gắn ngay trước: 以后。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "后来，他慢慢喜欢上了这座城市。",
+        "vi": "Về sau, anh ấy dần dần yêu thích thành phố này.",
+        "comment": "Đoạn kể tiếp trong chuyện đã qua: 后来。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; khác nhau ở cách đặt mốc và cách kể."
+      },
+      "boundary": "Dự định tương lai không kể bằng 后来。",
+      "tip": "Có mốc rõ hoặc dự định: 以后； kể tiếp chuyện đã qua: 后来。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "以后 một cách đọc; đứng sau mốc hoặc chỉ sau này.",
+     "literalTranslation": "Dịch sát chữ là “lấy sau” — mốc luôn ở trước từ này.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 以后 với 后来； 今后 đã đối chiếu riêng ở bài 今后。"
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh ba, âm tiết sau đọc thanh bốn; hai âm tiết đọc liền nhau, không tách rời. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Sau ba ngày” nói thế nào: 以后三天 hay 三天以后？"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Kể chuyện đã qua: “Về sau anh ấy chuyển nhà” thì mở đoạn bằng từ nào, 以后 hay 后来？"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "三天以后"
+      ],
+      "explanation": "以后 luôn đứng sau cái mốc."
+     },
+     "q2": {
+      "accepted": [
+       "后来"
+      ],
+      "explanation": "Kể tiếp chuyện đã qua thì dùng 后来。"
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng sau khi xem xong bộ phim này sẽ đi ngủ."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng sau này muốn sống ở gần biển."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Việc nối việc trong buổi tối.",
+      "frame": "…… + 以后，我就 ……",
+      "model": "看完这部电影以后，我就去睡觉。",
+      "vi": "Xem xong bộ phim này, tôi sẽ đi ngủ.",
+      "criteria": [
+       "Có 以后 đứng sau mốc việc."
+      ]
+     },
+     "s2": {
+      "idea": "Dự định cho tương lai.",
+      "frame": "我 + 以后 + 想 ……",
+      "model": "我以后想住在海边。",
+      "vi": "Sau này tôi muốn sống ở gần biển.",
+      "criteria": [
+       "Có 以后 chỉ sau này."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-1e88859ca186",
+   "hanzi": "以外",
+   "wordEdits": {
+    "meaning": "ngoài; ngoài ra",
+    "intro": [
+     {
+      "pinyin": "yǐwài",
+      "meaning": "ngoài (phạm vi); ngoài ra"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-088 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 887,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E4%BB%A5%E5%A4%96",
+     "https://en.wiktionary.org/wiki/以外"
+    ],
+    "introduction": {
+     "scope": "Đứng sau một phạm vi để chỉ phần ở ngoài phạm vi đó."
+    },
+    "meaning": {
+     "scene": "Nói khoảng cách ngoài một mức, hoặc “ngoài một việc ra còn thêm việc khác”.",
+     "explanation": "以外 luôn đi sau cái phạm vi: sau khoảng cách thì là “ngoài khoảng đó”; sau một việc thì câu thường có thêm 还 hoặc 也 với ý “ngoài việc đó ra, còn…”.",
+     "boundary": "Phần ở trong phạm vi thì dùng 以内， không dùng 以外。",
+     "conditions": [
+      "Phạm vi có thể là nơi chốn, khoảng cách, hoặc một hoạt động."
+     ],
+     "takeaway": "Nhớ vị trí: phạm vi ở trước, 以外 ở sau."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "khoảng cách + 以外",
+      "position": "Đứng ngay sau cụm khoảng cách.",
+      "required": "Cần con số khoảng cách rõ ràng.",
+      "omission": "Bỏ 以外 thì không biết điểm đó ở trong hay ngoài mức.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "……以外，还……",
+      "position": "Đứng sau việc thứ nhất, mệnh đề sau có 还 hoặc 也。",
+      "required": "Cần thêm một việc nữa ở mệnh đề sau.",
+      "omission": "Bỏ 以外 thì mất ý “ngoài ra”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "车站在三公里以外。",
+      "vi": "Nhà ga ở ngoài ba cây số.",
+      "analysis": "以外 sau khoảng cách: xa hơn mức ba cây số.",
+      "practiceAllowed": true,
+      "pinyin": "Chēzhàn zài sān gōnglǐ yǐwài"
+     },
+     {
+      "id": "e2",
+      "zh": "工作以外，他还学画画儿。",
+      "vi": "Ngoài công việc ra, anh ấy còn học vẽ.",
+      "analysis": "以外 khép phạm vi “công việc”, 还 mở thêm việc học vẽ.",
+      "practiceAllowed": true,
+      "pinyin": "Gōngzuò yǐwài tā hái xué huà huàr"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "以外 và 以内: ngoài hay trong phạm vi",
+      "scene": "Hai từ cùng đứng sau một phạm vi để chỉ một phía.",
+      "possibleConfusion": "Người học chọn nhầm phía khi nói đồ vật ở trong hay ngoài một khu vực.",
+      "difference": "以内 là phần bên trong phạm vi. 以外 là phần bên ngoài phạm vi.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "宿舍在校园以内。",
+        "vi": "Ký túc xá ở trong khuôn viên trường.",
+        "comment": "Ở phía trong: 以内。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "宿舍在校园以外。",
+        "vi": "Ký túc xá ở ngoài khuôn viên trường.",
+        "comment": "Ở phía ngoài: 以外。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo phía của phạm vi cần nói."
+      },
+      "boundary": "Khuôn “ngoài X ra còn…” chỉ dùng 以外， không dùng 以内。",
+      "tip": "Trong: 内； ngoài: 外。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "以外 một cách đọc; chỉ phần ngoài phạm vi.",
+     "literalTranslation": "Dịch sát chữ là “lấy ngoài” — phạm vi luôn ở trước từ này.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 以外 với 以内； khuôn “…以外，还…” là điểm dùng riêng cần thuộc."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh ba, âm tiết sau đọc thanh bốn; đọc liền như một từ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Ngoài hai cây số” nói thế nào: 两公里以内 hay 两公里以外？"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Nói “ngoài học ra còn làm thêm” thì mệnh đề sau 以外 thường có thêm từ gì?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "两公里以外"
+      ],
+      "explanation": "Ngoài phạm vi là 以外。"
+     },
+     "q2": {
+      "accepted": [
+       "还"
+      ],
+      "explanation": "Khuôn “…以外，还…” nghĩa là ngoài ra còn."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng ngoài học tiếng Trung ra, mình còn học nấu ăn."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng hiệu sách ở ngoài hai cây số."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một người học hai thứ.",
+      "frame": "…… + 以外，我还 ……",
+      "model": "学中文以外，我还学做饭。",
+      "vi": "Ngoài học tiếng Trung ra, tôi còn học nấu ăn.",
+      "criteria": [
+       "Có 以外 khép phạm vi."
+      ]
+     },
+     "s2": {
+      "idea": "Chỉ vị trí xa hơn một mức.",
+      "frame": "…… + 在 + …… 以外",
+      "model": "书店在两公里以外。",
+      "vi": "Hiệu sách ở ngoài hai cây số.",
+      "criteria": [
+       "Có 以外 sau khoảng cách."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-5fc1c09678ef",
+   "hanzi": "后来",
+   "wordEdits": {
+    "meaning": "về sau (trong chuyện đã qua)",
+    "intro": [
+     {
+      "pinyin": "hòulái",
+      "meaning": "về sau (kể chuyện đã qua)"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-088 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 888,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%90%8E%E6%9D%A5",
+     "https://en.wiktionary.org/wiki/后来"
+    ],
+    "introduction": {
+     "scope": "Mở đầu đoạn kể tiếp theo trong một câu chuyện đã xảy ra."
+    },
+    "meaning": {
+     "scene": "Kể lại một chuỗi chuyện: đầu tiên thế này, về sau thế khác.",
+     "explanation": "后来 đặt ở đầu đoạn kể tiếp, hoặc sau chủ ngữ. Trước nó luôn có một đoạn chuyện đã kể; bản thân việc sau 后来 cũng đã xảy ra rồi.",
+     "boundary": "Không dùng 后来 cho dự định tương lai; dự định dùng 以后。",
+     "conditions": [
+      "Thường đi cùng các mốc kể chuyện như “lúc đầu”, “khi ấy”."
+     ],
+     "takeaway": "Nghe thấy 后来 là biết câu chuyện đang nhảy tới đoạn sau."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "后来，……",
+      "position": "Đứng đầu câu, mở đoạn kể tiếp.",
+      "required": "Cần có đoạn chuyện kể trước đó.",
+      "omission": "Bỏ 后来 thì người nghe không biết chuyện đã nhảy thời gian.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "chủ ngữ + 后来 + động từ",
+      "position": "Đứng sau chủ ngữ, trước động từ.",
+      "required": "Chủ ngữ thường là người trong câu chuyện đang kể.",
+      "omission": "Bỏ 后来 thì mất ý “về sau mới”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "一开始他不同意，后来慢慢同意了。",
+      "vi": "Lúc đầu anh ấy không đồng ý, về sau dần dần đồng ý.",
+      "analysis": "后来 mở đoạn thay đổi về sau.",
+      "practiceAllowed": true,
+      "pinyin": "Yì kāishǐ tā bù tóngyì hòulái mànman tóngyì le"
+     },
+     {
+      "id": "e2",
+      "zh": "他后来当了老师。",
+      "vi": "Về sau anh ấy làm giáo viên.",
+      "analysis": "后来 đứng sau chủ ngữ, trước động từ.",
+      "practiceAllowed": true,
+      "pinyin": "Tā hòulái dāng le lǎoshī"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "后来 và 然后: cách một thời gian hay bước ngay sau",
+      "scene": "Hai từ đều nối sang việc tiếp theo khi kể.",
+      "possibleConfusion": "Người học dùng 然后 cho mọi “sau đó”, kể cả khi hai việc cách nhau nhiều năm.",
+      "difference": "然后 nối bước ngay tiếp theo trong một chuỗi việc, kể cả chuỗi việc sắp làm. 后来 nhảy tới một đoạn sau đó trong chuyện đã qua, giữa hai đoạn thường cách một khoảng thời gian.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "我们先吃饭，然后去看电影。",
+        "vi": "Chúng ta ăn cơm trước, rồi đi xem phim.",
+        "comment": "Bước ngay tiếp theo trong kế hoạch: 然后。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "他们结婚以后感情很好，后来有了一个孩子。",
+        "vi": "Sau khi kết hôn họ rất tình cảm, về sau có một đứa con.",
+        "comment": "Đoạn sau trong chuyện đã qua: 后来。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; khác nhau ở khoảng cách giữa hai việc và thời của câu chuyện."
+      },
+      "boundary": "Hướng dẫn từng bước làm việc thì dùng 然后， không dùng 后来。",
+      "tip": "Bước ngay sau: 然后； đoạn sau của chuyện cũ: 后来。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "后来 một cách đọc; chỉ dùng kể chuyện đã qua.",
+     "literalTranslation": "Dịch sát chữ là “sau đến” — đoạn sau của câu chuyện.",
+     "confusables": "Đã rà soát: 后来 đối chiếu với 以后 ở bài 以后 và với 然后 ở bài này; hai phía dùng câu khác nhau."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh bốn, âm tiết sau đọc thanh hai lên giọng nhẹ. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Kể chuyện: “Lúc đầu tôi ở Hà Nội, … tôi chuyển vào Sài Gòn.” Điền 后来 hay 然后？"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "后来 dùng để kể chuyện đã qua hay để nói dự định tương lai?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "后来"
+      ],
+      "explanation": "Hai đoạn cách nhau một khoảng thời gian trong chuyện đã qua."
+     },
+     "q2": {
+      "accepted": [
+       "Chuyện đã qua"
+      ],
+      "explanation": "后来 chỉ mở đoạn kể của chuyện đã xảy ra."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Kể rằng lúc đầu không thích chạy bộ, về sau lại rất thích."
+     },
+     {
+      "id": "s2",
+      "prompt": "Kể rằng về sau cô ấy chuyển đến sống ở nông thôn."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một sở thích thay đổi theo thời gian.",
+      "frame": "我以前 ……，后来 ……",
+      "model": "我以前不喜欢跑步，后来特别喜欢。",
+      "vi": "Trước đây tôi không thích chạy bộ, về sau lại đặc biệt thích.",
+      "criteria": [
+       "Có 后来 mở đoạn sau."
+      ]
+     },
+     "s2": {
+      "idea": "Một người đổi chỗ ở.",
+      "frame": "她 + 后来 + ……",
+      "model": "她后来搬到乡下住了。",
+      "vi": "Về sau cô ấy chuyển đến sống ở nông thôn.",
+      "criteria": [
+       "Có 后来 sau chủ ngữ."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-5425067a6827",
+   "hanzi": "多久",
+   "wordEdits": {
+    "meaning": "bao lâu?",
+    "intro": [
+     {
+      "pinyin": "duō jiǔ",
+      "meaning": "bao lâu"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-088 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 889,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%A4%9A%E4%B9%85",
+     "https://en.wiktionary.org/wiki/多久"
+    ],
+    "introduction": {
+     "scope": "Từ để hỏi một việc kéo dài bao lâu."
+    },
+    "meaning": {
+     "scene": "Hỏi thời gian chờ đợi, thời gian đi đường, thời gian học một thứ.",
+     "explanation": "多久 là cụm hỏi độ dài của một khoảng thời gian. Trả lời bằng một khoảng như “ba ngày”, “nửa giờ”, không trả lời bằng giờ trên đồng hồ.",
+     "boundary": "Hỏi giờ giấc cụ thể thì dùng 几点， không dùng 多久。",
+     "conditions": [
+      "Vị trí của 多久 đi theo phần được hỏi trong câu, thường ở cuối câu hỏi."
+     ],
+     "takeaway": "Nghe 多久 là biết đang hỏi “dài bao nhiêu”, không phải “lúc mấy giờ”."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "……多久？",
+      "position": "Đứng cuối câu hỏi về độ dài thời gian.",
+      "required": "Trước nó là việc cần hỏi độ dài.",
+      "omission": "Bỏ 多久 thì câu không còn là câu hỏi độ dài.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "từ……đến……要多久",
+      "position": "Dùng khi hỏi thời gian di chuyển hoặc làm một việc.",
+      "required": "Cần điểm đầu và điểm cuối hoặc việc cần làm.",
+      "omission": "Bỏ 要多久 thì mất ý hỏi thời gian cần thiết.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "你等了多久？",
+      "vi": "Bạn đã đợi bao lâu rồi?",
+      "analysis": "多久 hỏi khoảng thời gian đã chờ.",
+      "practiceAllowed": true,
+      "pinyin": "Nǐ děng le duōjiǔ"
+     },
+     {
+      "id": "e2",
+      "zh": "从你家到学校要多久？",
+      "vi": "Từ nhà bạn đến trường mất bao lâu?",
+      "analysis": "要多久 hỏi thời gian cần cho quãng đường.",
+      "practiceAllowed": true,
+      "pinyin": "Cóng nǐ jiā dào xuéxiào yào duōjiǔ"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "多久 và 几点: bao lâu hay mấy giờ",
+      "scene": "Hai câu hỏi đều về thời gian nên người Việt hay lẫn.",
+      "possibleConfusion": "Tiếng Việt “bao lâu” và “mấy giờ” khác nhau, nhưng khi dịch nhanh người học dễ chọn nhầm từ hỏi.",
+      "difference": "几点 hỏi giờ trên đồng hồ: bây giờ mấy giờ, mấy giờ bắt đầu. 多久 hỏi độ dài của một khoảng: đợi bao lâu, đi mất bao lâu.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "现在几点？",
+        "vi": "Bây giờ là mấy giờ?",
+        "comment": "Hỏi giờ trên đồng hồ: 几点。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "电影要放多久？",
+        "vi": "Bộ phim sẽ chiếu bao lâu?",
+        "comment": "Hỏi độ dài khoảng thời gian: 多久。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn từ hỏi theo thứ cần biết."
+      },
+      "boundary": "Trả lời cho 多久 phải là một khoảng thời gian, không phải một giờ cụ thể.",
+      "tip": "Giờ giấc: 几点； độ dài: 多久。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "多久 là cụm hỏi; không phải danh từ chỉ thời gian.",
+     "literalTranslation": "Dịch sát chữ là “nhiều lâu” — hỏi độ dài, không hỏi giờ giấc.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 多久 với 几点； 多长时间 gần nghĩa, khác nhau không cốt lõi ở mức này nên chỉ nhắc trong phần khác biệt."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh một cao phẳng, âm tiết sau đọc thanh ba. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Muốn hỏi “đợi bao lâu” thì dùng 多久 hay 几点？"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Trả lời câu “你学中文多久了？” bằng một giờ trên đồng hồ có đúng không? Vì sao?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "多久"
+      ],
+      "explanation": "Hỏi độ dài khoảng thời gian thì dùng 多久。"
+     },
+     "q2": {
+      "accepted": [
+       "Không đúng"
+      ],
+      "explanation": "多久 hỏi độ dài; phải trả lời bằng một khoảng như “hai năm”。"
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Hỏi một người rằng họ đã học tiếng Trung bao lâu rồi."
+     },
+     {
+      "id": "s2",
+      "prompt": "Hỏi từ sân bay về khách sạn mất bao lâu."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Hỏi quá trình học của người đối diện.",
+      "frame": "你 + …… + 多久 + 了",
+      "model": "你学中文多久了？",
+      "vi": "Bạn học tiếng Trung bao lâu rồi?",
+      "criteria": [
+       "Có 多久 hỏi độ dài thời gian."
+      ]
+     },
+     "s2": {
+      "idea": "Hỏi thời gian di chuyển.",
+      "frame": "从 …… 到 …… + 要多久",
+      "model": "从机场到酒店要多久？",
+      "vi": "Từ sân bay đến khách sạn mất bao lâu?",
+      "criteria": [
+       "Có 要多久 hỏi thời gian di chuyển."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-22bf73c81b69",
+   "hanzi": "好久",
+   "wordEdits": {
+    "meaning": "rất lâu",
+    "intro": [
+     {
+      "pinyin": "hǎojiǔ",
+      "meaning": "rất lâu"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-088 · dễ"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 890,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%A5%BD%E4%B9%85",
+     "https://en.wiktionary.org/wiki/好久"
+    ],
+    "introduction": {
+     "scope": "Chỉ một khoảng thời gian dài."
+    },
+    "meaning": {
+     "scene": "Chào người lâu ngày không gặp, hoặc kể một việc kéo dài rất lâu.",
+     "explanation": "好久 chỉ khoảng thời gian dài. Ba khuôn hay gặp nhất: 好久不见 là “lâu rồi không gặp”, việc gì “了好久” là làm rất lâu, “好久没…” là lâu rồi không làm.",
+     "boundary": "Khoảng ngắn thì dùng 不久， không dùng 好久。",
+     "conditions": [
+      "好久 đứng sau động từ khi nói độ dài, đứng đầu khi chào hỏi."
+     ],
+     "takeaway": "Thuộc ba khuôn trên là dùng được 好久 trong giao tiếp hằng ngày."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "好久不见",
+      "position": "Đứng đầu câu chào hỏi.",
+      "required": "Dùng khi gặp lại người đã lâu không gặp.",
+      "omission": "Thiếu khuôn này thì lời chào mất ý “lâu rồi không gặp”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "……了好久",
+      "position": "Đứng sau động từ, chỉ việc kéo dài lâu.",
+      "required": "Trước nó là việc đang được kể độ dài.",
+      "omission": "Bỏ 好久 thì không biết việc kéo dài bao lâu.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "好久不见，你最近怎么样？",
+      "vi": "Lâu rồi không gặp, dạo này bạn thế nào?",
+      "analysis": "好久不见 là câu chào khi lâu ngày gặp lại.",
+      "practiceAllowed": true,
+      "pinyin": "Hǎojiǔ bú jiàn nǐ zuìjìn zěnmeyàng"
+     },
+     {
+      "id": "e2",
+      "zh": "我们在车站等了好久。",
+      "vi": "Chúng tôi đã đợi ở nhà ga rất lâu.",
+      "analysis": "等了好久 chỉ khoảng chờ dài.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒmen zài chēzhàn děng le hǎojiǔ"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "好久 và 不久: dài hay ngắn",
+      "scene": "Hai từ cùng nói độ dài thời gian, một dài một ngắn.",
+      "possibleConfusion": "Người học nghe hai từ đều có 久 nên tưởng giống nhau.",
+      "difference": "好久 là khoảng dài. 不久 là khoảng ngắn: sắp tới hoặc vừa qua chưa lâu.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "这本书我看了好久还没看完。",
+        "vi": "Cuốn sách này tôi đọc rất lâu rồi mà vẫn chưa xong.",
+        "comment": "Đọc kéo dài lâu: 好久。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "他出去不久就回来了。",
+        "vi": "Anh ấy ra ngoài chưa lâu đã quay lại.",
+        "comment": "Khoảng ngắn: 不久。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; chọn theo độ dài thật."
+      },
+      "boundary": "Câu chào “lâu rồi không gặp” chỉ dùng 好久不见。",
+      "tip": "Dài: 好久； ngắn: 不久。"
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "好久 một cách đọc; chỉ khoảng thời gian dài.",
+     "literalTranslation": "Dịch sát chữ là “rất lâu” — trái nghĩa với 不久.",
+     "confusables": "Đã rà soát: cặp nhầm duy nhất đáng kể là 好久 với 不久， đã đối chiếu ở cả hai bài bằng câu khác nhau."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh ba, âm tiết sau cũng đọc thanh ba; đọc liền, không đọc nhẹ âm nào. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "“Lâu rồi không gặp” nói thế nào?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Câu “我等了好久” nói khoảng chờ dài hay ngắn?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "好久不见"
+      ],
+      "explanation": "Đây là câu chào cố định khi lâu ngày gặp lại."
+     },
+     "q2": {
+      "accepted": [
+       "Dài"
+      ],
+      "explanation": "好久 chỉ khoảng thời gian dài."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng lâu rồi không gặp cô giáo cũ."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng đã tìm chiếc chìa khóa rất lâu."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Lâu ngày không gặp một người quen.",
+      "frame": "我 + 好久没 …… 了",
+      "model": "我好久没见以前的老师了。",
+      "vi": "Tôi lâu rồi không gặp cô giáo cũ.",
+      "criteria": [
+       "Có 好久 chỉ khoảng dài."
+      ]
+     },
+     "s2": {
+      "idea": "Tìm một vật mất nhiều thời gian.",
+      "frame": "我 …… 了 + 好久",
+      "model": "我找钥匙找了好久。",
+      "vi": "Tôi đã tìm chìa khóa rất lâu.",
+      "criteria": [
+       "Có 好久 chỉ độ dài."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-a2909587e2bf",
+   "hanzi": "已经",
+   "wordEdits": {
+    "meaning": "đã (xong rồi)",
+    "intro": [
+     {
+      "pinyin": "yǐjīng",
+      "meaning": "đã rồi"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-088 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 891,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%B7%B2%E7%BB%8F",
+     "https://en.wiktionary.org/wiki/已经"
+    ],
+    "introduction": {
+     "scope": "Nói một việc đã xảy ra rồi tính đến lúc nói."
+    },
+    "meaning": {
+     "scene": "Báo một việc đã hoàn thành, hoặc một trạng thái đã đạt tới.",
+     "explanation": "已经 đứng ngay trước động từ, và cuối câu thường có 了 đi kèm. Hai từ như hai đầu của một dấu mốc: 已经 mở, 了 chốt.",
+     "boundary": "已经 không đứng sau động từ và không đứng cuối câu một mình.",
+     "conditions": [
+      "Dùng được cả cho việc vừa xong và việc đã đạt một mức như số năm, số lượng."
+     ],
+     "takeaway": "Thấy 已经 là biết việc “đã rồi”, không còn là dự định."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "已经 + động từ + 了",
+      "position": "Đứng sau chủ ngữ, ngay trước động từ.",
+      "required": "Động từ là việc đã xảy ra.",
+      "omission": "Bỏ 已经 thì câu vẫn đúng nhưng mất sắc thái “đã rồi tính đến nay”.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "已经 + số lượng + 了",
+      "position": "Đứng trước cụm số lượng chỉ mức đã đạt.",
+      "required": "Cần một mức đo được như năm, lần, cây số.",
+      "omission": "Bỏ 已经 thì mất ý “đã đạt tới mức”.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "我已经吃完饭了。",
+      "vi": "Tôi đã ăn cơm xong rồi.",
+      "analysis": "已经 trước động từ, 了 chốt cuối câu.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒ yǐjīng chī wán fàn le"
+     },
+     {
+      "id": "e2",
+      "zh": "他已经工作十年了。",
+      "vi": "Anh ấy đã làm việc được mười năm rồi.",
+      "analysis": "已经 đi với số năm chỉ mức đã đạt.",
+      "practiceAllowed": true,
+      "pinyin": "Tā yǐjīng gōngzuò shí nián le"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "已经 và 了: mỗi từ một vị trí",
+      "scene": "Hai từ hay đi cùng nhau trong cùng một câu.",
+      "possibleConfusion": "Người học tưởng hai từ giống nhau nên đặt 已经 vào cuối câu hoặc chen vào giữa động từ.",
+      "difference": "已经 luôn đứng trước động từ, ngay sau chủ ngữ. 了 đứng ở cuối câu hoặc sau động từ. Đổi chỗ là sai ngữ pháp.",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "我已经做好作业了。",
+        "vi": "Tôi đã làm xong bài tập rồi.",
+        "comment": "已经 trước động từ, 了 cuối câu.",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "我做已经好作业了。",
+        "vi": "Câu sai do đặt nhầm vị trí.",
+        "comment": "已经 chen vào giữa động từ và phần bổ sung là sai.",
+        "judgment": "wrong-grammar",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Muốn nói “đã rồi” thì đặt 已经 trước động từ và để 了 ở cuối câu."
+      },
+      "boundary": "Câu phủ định “chưa” dùng 还没， không dùng 已经。",
+      "tip": "已经 ôm động từ từ phía trước; 了 chốt ở phía sau.",
+      "corrections": [
+       {
+        "caseId": "c2",
+        "zh": "我已经做好作业了。",
+        "vi": "Tôi đã làm xong bài tập rồi.",
+        "reason": "已经 đứng ngay trước động từ, không chen vào giữa động từ và bổ ngữ."
+       }
+      ]
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "已经 một cách đọc; trạng từ đứng trước động từ.",
+     "literalTranslation": "Dịch sát chữ là “đã rồi” — thường đi cặp với chữ chốt cuối câu.",
+     "confusables": "Đã rà soát: bẫy cốt lõi là vị trí của 已经 so với động từ và 了； sắc thái so với 早就 để ở bài 早就。"
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh ba, âm tiết sau đọc thanh một cao phẳng. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Sửa câu sai: “我吃饭已经了。”"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "已经 thường đi cùng chữ nào ở cuối câu?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "我已经吃饭了。"
+      ],
+      "explanation": "Đã kéo 已经 lên trước động từ và giữ 了 ở cuối câu."
+     },
+     "q2": {
+      "accepted": [
+       "了"
+      ],
+      "explanation": "Khuôn hay gặp nhất là 已经…了。"
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Nói rằng mình đã mua vé xem phim rồi."
+     },
+     {
+      "id": "s2",
+      "prompt": "Nói rằng em gái đã ngủ rồi."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Một việc chuẩn bị đã xong.",
+      "frame": "我 + 已经 + …… 了",
+      "model": "我已经买好电影票了。",
+      "vi": "Tôi đã mua xong vé xem phim rồi.",
+      "criteria": [
+       "Có 已经 trước động từ."
+      ]
+     },
+     "s2": {
+      "idea": "Một người đã vào giấc ngủ.",
+      "frame": "…… + 已经 + …… 了",
+      "model": "我妹妹已经睡了。",
+      "vi": "Em gái tôi đã ngủ rồi.",
+      "criteria": [
+       "Có 已经 chỉ việc đã rồi."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "hz-h2-a6ff97982ea3",
+   "hanzi": "忽然",
+   "wordEdits": {
+    "meaning": "đột nhiên",
+    "intro": [
+     {
+      "pinyin": "hūrán",
+      "meaning": "đột nhiên"
+     }
+    ],
+    "editorialStatus": "Biên soạn V2 · batch-088 · trung bình"
+   },
+   "lesson": {
+    "version": 2,
+    "cohortOrdinal": 892,
+    "authorship": "Tự biên soạn, đối chiếu MDBG và Wiktionary; chưa phản biện giáo viên độc lập.",
+    "sources": [
+     "https://www.mdbg.net/chinese/dictionary?cdqchc=%E5%BF%BD%E7%84%B6",
+     "https://en.wiktionary.org/wiki/忽然"
+    ],
+    "introduction": {
+     "scope": "Chỉ một việc xảy ra bất ngờ, không ai ngờ trước."
+    },
+    "meaning": {
+     "scene": "Kể một biến cố bất chợt: trời đổ mưa, đèn tắt, một ý nghĩ chợt đến.",
+     "explanation": "忽然 là trạng từ: chỉ đứng trước động từ để nói việc xảy ra đột ngột. Nó không đứng một mình làm tính từ và không đi với 很。",
+     "boundary": "Việc được sắp xếp trước hoặc xảy ra từ từ thì không dùng 忽然。",
+     "conditions": [
+      "Hay gặp trong kể chuyện, đặt ở đầu mệnh đề thứ hai."
+     ],
+     "takeaway": "Nghe 忽然 là biết việc đến bất ngờ và nhanh."
+    },
+    "usages": [
+     {
+      "id": "u1",
+      "frame": "忽然 + động từ",
+      "position": "Đứng ngay trước động từ của việc bất chợt.",
+      "required": "Động từ là việc xảy ra ngoài dự đoán.",
+      "omission": "Bỏ 忽然 thì mất ý bất ngờ.",
+      "exampleId": "e1"
+     },
+     {
+      "id": "u2",
+      "frame": "……，忽然……",
+      "position": "Đứng đầu mệnh đề sau trong câu kể.",
+      "required": "Mệnh đề trước đang tả một việc đang diễn ra bình thường.",
+      "omission": "Bỏ 忽然 thì bước ngoặt của câu chuyện bị mờ.",
+      "exampleId": "e2"
+     }
+    ],
+    "examples": [
+     {
+      "id": "e1",
+      "zh": "天忽然下起雨来。",
+      "vi": "Trời đột nhiên đổ mưa.",
+      "analysis": "忽然 đứng trước việc đổ mưa bất chợt.",
+      "practiceAllowed": true,
+      "pinyin": "Tiān hūrán xià qǐ yǔ lái"
+     },
+     {
+      "id": "e2",
+      "zh": "我们正说话，他忽然站起来走了。",
+      "vi": "Chúng tôi đang nói chuyện, anh ấy đột nhiên đứng dậy bỏ đi.",
+      "analysis": "忽然 mở bước ngoặt trong câu chuyện.",
+      "practiceAllowed": true,
+      "pinyin": "Wǒmen zhèng shuō huà tā hūrán zhàn qǐlái zǒu le"
+     }
+    ],
+    "traps": [
+     {
+      "id": "t1",
+      "title": "忽然 và 突然: chỉ trạng từ hay cả tính từ",
+      "scene": "Hai từ đều nói sự đột ngột nên hay bị dùng thay nhau.",
+      "possibleConfusion": "Người học nói “rất 忽然” hoặc đặt 忽然 sau 是 như một tính từ.",
+      "difference": "突然 vừa là tính từ (việc rất đột ngột) vừa làm trạng từ trước động từ. 忽然 chỉ làm trạng từ trước động từ; không nói “rất 忽然”, không đặt sau 是。",
+      "cases": [
+       {
+        "id": "c1",
+        "zh": "这件事太突然了。",
+        "vi": "Việc này quá đột ngột.",
+        "comment": "Đứng như tính từ: 突然。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       },
+       {
+        "id": "c2",
+        "zh": "他忽然想起一件事。",
+        "vi": "Anh ấy chợt nhớ ra một việc.",
+        "comment": "Đứng trước động từ: 忽然。",
+        "judgment": "correct",
+        "practiceAllowed": false
+       }
+      ],
+      "replacement": {
+       "result": "correct",
+       "explanation": "Cả hai câu đều đúng; khác nhau ở vai trò trong câu."
+      },
+      "boundary": "Trước động từ thì hai từ thường thay nhau được; sau 是 hoặc sau 很 thì chỉ dùng 突然。",
+      "tip": "Cần tính từ: 突然； chỉ cần trạng từ trước động từ: cả hai đều được."
+     }
+    ],
+    "trapReview": {
+     "readingsAndMeanings": "忽然 một cách đọc; chỉ làm trạng từ.",
+     "literalTranslation": "Dịch sát chữ là “bỗng vậy” — việc đến bất ngờ, không báo trước.",
+     "confusables": "Đã rà soát: cặp nhầm cốt lõi là 忽然 với 突然 ở vai trò tính từ; không có đa âm."
+    },
+    "pronunciation": {
+     "text": "Âm tiết đầu đọc thanh một cao phẳng, âm tiết sau đọc thanh hai. Đọc từ một lần, rồi đọc câu mẫu một lần."
+    },
+    "checks": [
+     {
+      "id": "q1",
+      "type": "open",
+      "question": "Nói “việc này rất đột ngột” thì chọn 忽然 hay 突然？ Vì sao?"
+     },
+     {
+      "id": "q2",
+      "type": "open",
+      "question": "Điền từ: “他____笑了。” (anh ấy bỗng nhiên cười) — dùng từ nào trong bài?"
+     }
+    ],
+    "answers": {
+     "q1": {
+      "accepted": [
+       "突然"
+      ],
+      "explanation": "忽然 không làm tính từ và không đi với 很。"
+     },
+     "q2": {
+      "accepted": [
+       "忽然"
+      ],
+      "explanation": "Đứng trước động từ để chỉ việc bất chợt."
+     }
+    },
+    "selfUse": [
+     {
+      "id": "s1",
+      "prompt": "Kể rằng đang đi thì trời đột nhiên tối sầm."
+     },
+     {
+      "id": "s2",
+      "prompt": "Kể rằng cô ấy đột nhiên hỏi một câu rất lạ."
+     }
+    ],
+    "selfAnswers": {
+     "s1": {
+      "idea": "Trời đổi bất chợt khi đang đi.",
+      "frame": "…… + 天 + 忽然 + ……",
+      "model": "我走着走着，天忽然黑了。",
+      "vi": "Tôi đang đi, trời đột nhiên tối sầm.",
+      "criteria": [
+       "Có 忽然 trước động từ."
+      ]
+     },
+     "s2": {
+      "idea": "Một câu hỏi đến bất ngờ.",
+      "frame": "她 + 忽然 + ……",
+      "model": "她忽然问了一个很奇怪的问题。",
+      "vi": "Cô ấy đột nhiên hỏi một câu rất lạ.",
+      "criteria": [
+       "Có 忽然 chỉ việc bất chợt."
+      ]
+     }
+    },
+    "tier1": {
+     "traps": [
+      "t1"
+     ],
+     "checks": [
+      "q1"
+     ],
+     "selfUse": [
+      "s1"
+     ]
+    }
+   }
+  }
+ ]
+}
