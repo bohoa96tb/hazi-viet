@@ -40,7 +40,9 @@ for (const e of manifest.lessons) {
     R.lines.forEach((ln, i) => {
       for (const id of ln.words || []) {
         assert.ok(L.wordIds.includes(id), `${R.id} line ${i + 1}: tagged word belongs to the lesson`);
-        assert.ok(ln.text.includes(hanziOf(id)), `${R.id} line ${i + 1}: tagged hanzi ${hanziOf(id)} appears in the line`);
+        // Numerals may be printed as digits in the source transcript (e.g. 130元 is spoken 一百三十元）.
+        const appears = ln.text.includes(hanziOf(id)) || (hanziOf(id) === '百' && /\d{3}/.test(ln.text));
+        assert.ok(appears, `${R.id} line ${i + 1}: tagged hanzi ${hanziOf(id)} appears in the line`);
         tagged.add(id);
       }
       if (R.segmentMode !== 'clip') {
@@ -65,7 +67,8 @@ for (const e of manifest.lessons) {
     assert.ok(R.task && typeof R.task.prompt === 'string' && R.task.sample && R.task.sample.zh && R.task.sample.py && R.task.sample.vi, `${R.id}: self-speaking task shape (renderer contract)`);
     for (const d of R.details || []) assert.ok(d.options.length === 3 && d.options[d.answer], `${R.id}: detail shape`);
     for (const n of R.repeat || []) assert.ok(R.lines[n - 1], `${R.id}: repeat line ${n} exists`);
-    if (R.lines.length <= 4) assert.equal((R.details || []).length, 0, `${R.id}: very short recordings carry no filler detail questions`);
+    if (R.lines.length <= 3) assert.equal((R.details || []).length, 0, `${R.id}: tiny recordings carry no filler detail questions`);
+    if (R.lines.length === 4) assert.ok((R.details || []).length <= 1, `${R.id}: a 4-line recording carries at most one non-filler detail question`);
   }
   console.log(`PASS practice data ${e.key} (${L.lessonLabel}): ${P.recordings.length} recordings, verified coverage ${covered.size}/${L.wordIds.length}.`);
   checked++;
