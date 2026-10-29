@@ -39,3 +39,25 @@ body:has(.word-dashboard) main{max-width:960px;padding-top:20px}.compact-heading
 .pinyin-above{margin:0 0 2px}
 .mini-say{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;min-height:34px;padding:0;border-radius:50%;font-size:15px;line-height:1;vertical-align:middle;margin-left:8px;background:#f2e8cb;border-color:#e6d8b8}
 .mini-say:hover{border-color:#b38b46}
+
+/* --- In-place word lookup (bấm từ xem nghĩa; Hanzi chỉ mở từ nút riêng) --- */
+.wz{border-bottom:1px dotted rgba(146,64,14,.55);border-radius:4px;cursor:pointer;padding:0 1px}
+.wz:hover{background:rgba(217,164,65,.22)}
+.wz:focus-visible{background:rgba(217,164,65,.28);outline:2px solid #b45309;outline-offset:1px}
+.wz .target-hanzi{color:inherit}
+.wz-popup{position:fixed;z-index:80;width:min(320px,calc(100vw - 16px));background:#fffaf0;color:#292019;border:1px solid #d9c9a3;border-radius:14px;box-shadow:0 14px 38px rgba(41,32,25,.30);padding:12px 14px;font-size:15px}
+.wz-popup[hidden]{display:none}
+.wz-popup.sheet{left:8px!important;right:8px;top:auto!important;bottom:8px;width:auto}
+.wz-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.wz-word{font-size:24px;line-height:1.25}
+.wz-head-btns{display:flex;gap:4px}
+.wz-icon{border:1px solid #d9c9a3;background:#fff;border-radius:999px;width:34px;height:34px;font-size:15px;cursor:pointer;line-height:1}
+.wz-label{margin:6px 0 0;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:#92600f}
+.wz-ctx{margin:6px 0 0;color:#6b543a;font-size:14px}
+.wz-meaning{margin:2px 0 0;font-weight:600}
+.wz-unknown{margin:6px 0 0;color:#6b543a}
+.wz-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:10px}
+.wz-amb{font-size:13px;color:#6b543a}
+.wz-chars{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px}
+.wz-chars[hidden]{display:none}
+.wz-chars button{border:1px solid #d9c9a3;background:#fff;border-radius:10px;min-width:40px;height:40px;font-size:20px;cursor:pointer}
