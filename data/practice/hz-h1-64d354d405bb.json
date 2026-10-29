@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "authorship": {
   "type": "human-video",
   "label": "Video người thật có sẵn trên YouTube (không phải giọng AI, không phải giọng đọc của thiết bị).",
@@ -67,14 +67,14 @@
    "hz-h1-58837eebf47f",
    "hz-h1-8de2a5b77843"
   ],
-  "note": "Bài 1 là bài chào hỏi và giới thiệu. Bộ 5 video người thật rất ngắn (7–13 giây) phủ 14/24 từ đã xác minh nghe được trong lời thoại. 10 từ còn thiếu: 他，她，我们，你们，汉字，中文，汉语，学生，同学，朋友 — trong đó 中文 và 学生 chỉ xuất hiện bên trong từ ghép （中文系，留学生） ở video 1 nên không tính; khi có nguồn phù hợp sẽ bổ sung sau.",
+  "note": "Bài 1 là bài chào hỏi và giới thiệu. Bộ 5 video người thật rất ngắn (7–13 giây) phủ 15/24 từ đã xác minh nghe được trong lời thoại. 9 từ còn thiếu: 他，她，我们，你们，汉字，汉语，学生，同学，朋友 — trong đó 学生 chỉ xuất hiện như một phần của từ 留学生 ở video 1 nên không tính; khi có nguồn phù hợp sẽ bổ sung sau.",
   "theme": "Chào hỏi và giới thiệu"
  },
  "prepare": {
   "focus": "Nghe năm tình huống chào hỏi rất ngắn: giới thiệu tên, hỏi quốc tịch, chào thầy, xin lỗi và tạm biệt. Các câu đều ngắn và chậm; hãy nghe từ khóa trước: 你好，我叫，谢谢，对不起，再见。",
   "distractors": [
    "Tên riêng của nhân vật (Trương Lệ Lệ, Điền Trung Mỹ Hoa, Ngô Tiểu Minh) không phải từ của bài.",
-   "中文系 (khoa tiếng Trung) và 留学生 (du học sinh) là từ ghép — từ 中文 và 学生 bên trong chưa được tính là đã nghe ở dạng độc lập."
+   "“留学生” (du học sinh) là một từ nguyên khối — phần giống 学生 bên trong không được tính là đã nghe được từ 学生."
   ]
  },
  "recordings": [
@@ -90,6 +90,7 @@
     "我",
     "叫",
     "是",
+    "中文",
     "不客气"
    ],
    "prepare": {
@@ -119,7 +120,8 @@
       "hz-h1-0a3f1c936624",
       "hz-h1-64d354d405bb",
       "hz-h1-628ff5c3507e",
-      "hz-h1-d869fcbf074b"
+      "hz-h1-d869fcbf074b",
+      "hz-h1-4789a966f565"
      ],
      "start": 0,
      "end": 2
@@ -159,7 +161,7 @@
      "end": 10.5
     }
    ],
-   "compareNote": "中文 trong câu 1 nằm trong từ ghép 中文系 (khoa tiếng Trung), và 学生 trong câu 2 nằm trong từ ghép 留学生 (du học sinh) — hai từ này chưa được tính là “đã nghe được” ở dạng từ độc lập.",
+   "compareNote": "中文 ở câu 1 là một từ độc lập đứng trước 系 (khoa): “中文系” = khoa tiếng Trung — 中文 giữ đúng nghĩa “tiếng Trung” nên được tính là đã nghe được. Ngược lại, 学生 ở câu 2 không được tính: “留学生” là một từ nguyên khối nghĩa là “du học sinh” (cấu tạo 留学 + 生), bên trong không có từ 学生.",
    "timingNote": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề (hai bản dài bằng nhau), sai số khoảng ±1 giây; video rất ngắn nên các câu nối nhau liên tiếp.",
    "goal": "Nghe và nắm được: hai người tên gì, mỗi người học/làm gì.",
    "prepWords": [
