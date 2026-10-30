@@ -48,7 +48,7 @@ for (const e of manifest.lessons) {
     assert.ok(R.lines.length >= 3, `${R.id}: at least 3 lines`);
     const tagged = new Set();
     R.lines.forEach((ln, i) => {
-      assert.ok(typeof ln.zh === 'string' && /[\u3400-\u9fff]/.test(ln.zh), `${R.id} line ${i + 1}: canonical zh holds real Chinese text`);
+      assert.ok(typeof ln.zh === 'string' && (/[\u3400-\u9fff]/.test(ln.zh) || /^[\d\s\-+。！？!?、，,.;；:：…·]+$/.test(ln.zh)), `${R.id} line ${i + 1}: canonical zh holds real Chinese text (or a pure spoken-number line, e.g. a phone number read digit by digit)`);
       assert.ok(!('text' in ln), `${R.id} line ${i + 1}: legacy field text must not be stored (use zh)`);
       assert.ok(typeof ln.name === 'string' && ln.name.length >= 1, `${R.id} line ${i + 1}: speaker display name present (canonical name)`);
       assert.ok(['F', 'M', 'N'].includes(ln.speaker), `${R.id} line ${i + 1}: speaker is a verified code F/M/N (never a name, never inferred)`);

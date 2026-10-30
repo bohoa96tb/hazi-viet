@@ -1,0 +1,749 @@
+{
+ "version": 1,
+ "authorship": {
+  "type": "human-video",
+  "label": "Video người thật có sẵn trên YouTube (không phải giọng AI, không phải giọng đọc của thiết bị).",
+  "voiceLabel": "Giọng người thật trong video (Chinese Station)",
+  "voiceVerification": "Cả 5 video đều đã được phát thử trên YouTube ngày 30/10/2026: người thật đóng vai, nói tiếng Trung phổ thông rõ ràng; lời thoại nghe được khớp đúng thứ tự với trang bài học chính thức của từng video; cả 5 đều có tùy chọn nhúng chính thức, không có thông báo tắt nhúng.",
+  "transcriptSource": "Lời thoại lấy nguyên văn từ trang bài học chính thức của Chinese Station cho đúng từng video (CS4-1402, CS4-1409, CS4-1408, CS4-3101, CS4-3001) và đã đối chiếu khi phát thử video.",
+  "vietnamese": "Nghĩa tiếng Việt, câu hỏi, đáp án và gợi ý tự nói do đội ngũ biên soạn của app viết từ nội dung thật của video, trong phạm vi quyền sử dụng dưới đây.",
+  "note": "Cả 5 video đều rất ngắn (9–22 giây) và nghe cả đoạn (segmentMode clip): mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app không cắt đoạn mạo hiểm. Chưa kiểm chứng trên thiết bị Android thật.",
+  "rights": "Video của Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai (Chinese Station): nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi nguồn. App nhúng trình phát YouTube chính thức và ghi nguồn tại từng video; không sao chép, không đăng lại video."
+ },
+ "references": [
+  {
+   "title": "Chinese Station — trang chính thức của loạt CS4 (nguồn lời thoại và video)",
+   "url": "https://www.ch-station.org/index-chinese-station4/"
+  },
+  {
+   "title": "CS4-1402 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-1402/"
+  },
+  {
+   "title": "CS4-1409 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-1409/"
+  },
+  {
+   "title": "CS4-1408 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-1408/"
+  },
+  {
+   "title": "CS4-3101 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-3101/"
+  },
+  {
+   "title": "CS4-3001 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-3001/"
+  }
+ ],
+ "lesson": {
+  "firstWordId": "hz-h1-9e4bde0a04dc",
+  "anchorWordId": "hz-h1-9e4bde0a04dc",
+  "levelLabel": "HSK 1",
+  "lessonLabel": "HSK 1 · Bài 3",
+  "theme": "Hỏi, nhờ giúp đỡ và gọi điện thoại",
+  "wordIds": [
+   "hz-h1-9e4bde0a04dc",
+   "hz-h1-d86eabd20c2e",
+   "hz-h1-2add50cf6301",
+   "hz-h1-4c504e514484",
+   "hz-h1-23838810e00e",
+   "hz-h1-8ea0feeb4c9a",
+   "hz-h1-2ceaeb57578b",
+   "hz-h1-88b1b53abf1e",
+   "hz-h1-6027e1370729",
+   "hz-h1-b51cd2090a80",
+   "hz-h1-050d90f2468a",
+   "hz-h1-8345c9c1e294",
+   "hz-h1-8df32f671cf0",
+   "hz-h1-f135b43ff431",
+   "hz-h1-e0af7a55e54c",
+   "dadianhua",
+   "hz-h1-367df9600cd7",
+   "hz-h1-63896ea39d84",
+   "hz-h1-a9cbf4e7cccc",
+   "hz-h1-64ce3c69ace7",
+   "hz-h1-ab53b24f42a9",
+   "hz-h1-dc87a0871d2b",
+   "hz-h1-4c34faa448ef",
+   "hz-h1-cbe1b499a657"
+  ],
+  "note": "Bài 3 xoay quanh việc hỏi, nhờ giúp đỡ và gọi điện thoại. Bộ 5 video người thật rất ngắn (9–22 giây) phủ 13/24 từ đã xác minh nghe được trong lời thoại. 11 từ còn thiếu: 回，帮，不用，回答，帮忙，说话，请进，奶，树，歌，毛 — trong đó 话 và 电 chỉ tính khi đứng độc lập đúng nghĩa （我的话；手机没电了）, không tính phần nằm trong từ nguyên khối 电话； 说话 không tính từ các câu 说汉语 vì đó là 说 + tân ngữ. Khi có nguồn phù hợp sẽ bổ sung sau."
+ },
+ "prepare": {
+  "focus": "Nghe năm tình huống ngắn quanh điện thoại và việc hỏi/tìm người: hỏi số di động, hỏi cách gọi điện ở khách sạn, mượn điện thoại hết pin, nói tiếng Trung với thầy, nhờ phát thanh tìm bạn. Nghe từ khóa trước: 手机，电话，请问，怎么，找，等。",
+  "distractors": [
+   "电话 là một từ nguyên khối — chữ 话 và 电 bên trong không được tính là từ 话/电 độc lập; 电 chỉ tính ở câu 手机没电了, 话 chỉ tính ở câu 我的话.",
+   "说汉语/说慢一点 dùng động từ 说 + tân ngữ, không phải từ 说话 của bài nên không tính 说话."
+  ]
+ },
+ "recordings": [
+  {
+   "id": "cs4-1402",
+   "lessonCode": "CS4-1402",
+   "kind": "youtube",
+   "channel": "cnstation",
+   "title": "Hỏi số điện thoại di động",
+   "situation": "Hai người bạn trao đổi số điện thoại di động để tiện liên lạc khi có việc.",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-1402/",
+   "watchUrl": "https://www.youtube.com/watch?v=YttH_WZaPtc",
+   "videoId": "YttH_WZaPtc",
+   "subtitleVideoId": "WcqX86-SQ1I",
+   "fullVideoId": "eufy0lReLF0",
+   "durationSec": 19,
+   "durationNote": "Video 19 giây; hội thoại gần như toàn bộ video",
+   "voiceLabel": "Người thật đóng hội thoại — các diễn viên của Chinese Station",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không tải lại hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; bản chính đã phát thử, lời thoại khớp trang nguồn và có tùy chọn nhúng chính thức (30/10/2026).",
+   "goal": "Nghe và nắm được: bạn nam hỏi gì, và khi có việc anh sẽ liên lạc bằng cách nào.",
+   "prepWords": [
+    {
+     "zh": "手机号码",
+     "vi": "số điện thoại di động"
+    },
+    {
+     "zh": "短信",
+     "vi": "tin nhắn"
+    }
+   ],
+   "addsNewWords": [
+    "手机",
+    "多少",
+    "打"
+   ],
+   "gist": {
+    "q": "Bạn nam hỏi bạn nữ điều gì?",
+    "options": [
+     "Địa chỉ nhà của cô ấy",
+     "Số điện thoại di động của cô ấy",
+     "Tên trường của cô ấy"
+    ],
+    "answer": 1,
+    "explain": "Câu đầu anh hỏi 你的手机号码是多少？ — số điện thoại di động của bạn là bao nhiêu."
+   },
+   "details": [
+    {
+     "q": "Nếu có việc, bạn nam sẽ liên lạc thế nào?",
+     "options": [
+      "Đến tận nhà bạn nữ",
+      "Gọi vào điện thoại di động của bạn nữ",
+      "Gửi thư giấy đến trường"
+     ],
+     "answer": 1,
+     "a": "Gọi vào điện thoại di động của bạn nữ",
+     "explain": "Anh nói 有事我打你的手机 — có việc thì mình gọi vào di động của bạn."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "你的手机号码是多少？",
+     "vi": "Số điện thoại di động của bạn là bao nhiêu?",
+     "words": [
+      "hz-h1-e0af7a55e54c",
+      "hz-h1-8345c9c1e294"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "田中",
+     "zh": "123-4567-8900。",
+     "vi": "123-4567-8900.",
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "有事我打你的手机。",
+     "vi": "Có việc thì mình gọi vào điện thoại di động của bạn.",
+     "words": [
+      "hz-h1-2add50cf6301",
+      "hz-h1-e0af7a55e54c"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "田中",
+     "zh": "好，也可以给我发短信。",
+     "vi": "Được, bạn cũng có thể nhắn tin cho mình.",
+     "words": []
+    }
+   ],
+   "repeat": [
+    1
+   ],
+   "task": {
+    "prompt": "Hỏi số điện thoại di động của một người bạn.",
+    "frame": "你的手机号码是多少？",
+    "sample": {
+     "zh": "你的手机号码是多少？——我的手机号码是123-4567-8900。",
+     "vi": "Số điện thoại di động của bạn là bao nhiêu? — Số của mình là 123-4567-8900."
+    },
+    "sampleNote": "Đây là câu hỏi nguyên mẫu trong video. Khi trả lời, thay dãy số mẫu bằng số của bạn và đọc từng chữ số một (ví dụ 1-3-5 là từng số riêng)."
+   },
+   "listeningNotes": [
+    "Số điện thoại trong video được đọc từng chữ số một — nghe số bằng tiếng Trung là kỹ năng chính của video này.",
+    "打你的手机 nghĩa là “gọi vào di động của bạn”: ở đây 打 là động từ “gọi (điện thoại)”."
+   ],
+   "compareNote": "号码 (số) không phải từ của bài; câu này không chứa từ 电话 nên không tính 电话.",
+   "segmentMode": "clip",
+   "segmentNote": "Video rất ngắn và mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app cho nghe cả đoạn, không cắt mạo hiểm.",
+   "timingNote": "Chưa đo mốc từng câu; toàn bộ video được phát thử và khớp lời thoại trang nguồn theo đúng thứ tự."
+  },
+  {
+   "id": "cs4-1409",
+   "lessonCode": "CS4-1409",
+   "kind": "youtube",
+   "channel": "cnstation",
+   "title": "Hỏi cách gọi điện ở khách sạn",
+   "situation": "Một vị khách hỏi nhân viên khách sạn cách gọi điện thoại nội hạt và đường dài từ phòng.",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-1409/",
+   "watchUrl": "https://www.youtube.com/watch?v=aQ430ZAwjKI",
+   "videoId": "aQ430ZAwjKI",
+   "subtitleVideoId": "CGHZ9QuiKhc",
+   "fullVideoId": "GX7ECnizJdk",
+   "durationSec": 17,
+   "durationNote": "Video 17 giây; hội thoại gần như toàn bộ video",
+   "voiceLabel": "Người thật đóng hội thoại — các diễn viên của Chinese Station",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không tải lại hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; bản chính đã phát thử, lời thoại khớp trang nguồn và có tùy chọn nhúng chính thức (30/10/2026).",
+   "goal": "Nghe và nắm được: muốn gọi ra đường dây ngoài thì bấm số mấy, và mã vùng tra ở đâu.",
+   "prepWords": [
+    {
+     "zh": "市内电话",
+     "vi": "điện thoại nội hạt"
+    },
+    {
+     "zh": "外线",
+     "vi": "đường dây ngoài"
+    },
+    {
+     "zh": "地区号",
+     "vi": "mã vùng"
+    }
+   ],
+   "addsNewWords": [
+    "请问",
+    "怎么",
+    "电话"
+   ],
+   "gist": {
+    "q": "Vị khách hỏi nhân viên điều gì?",
+    "options": [
+     "Cách thuê thêm một phòng",
+     "Giờ trả phòng của khách sạn",
+     "Cách gọi điện thoại từ khách sạn"
+    ],
+    "answer": 2,
+    "explain": "Anh mở đầu bằng 请问，市内电话怎么打？ — xin hỏi, điện thoại nội hạt gọi thế nào."
+   },
+   "details": [
+    {
+     "q": "Muốn gọi ra đường dây ngoài thì bấm số mấy?",
+     "options": [
+      "Bấm số 0",
+      "Bấm số 9",
+      "Bấm số 10"
+     ],
+     "answer": 0,
+     "a": "Bấm số 0",
+     "explain": "Nhân viên nói 拨零就是外线 — bấm số 0 là ra đường dây ngoài."
+    },
+    {
+     "q": "Mã vùng của Khúc Phụ tra ở đâu?",
+     "options": [
+      "Hỏi lại ở quầy lễ tân",
+      "Trong bảng mã vùng đặt cạnh chiếc điện thoại",
+      "Trong cuốn sách hướng dẫn du lịch"
+     ],
+     "answer": 1,
+     "a": "Trong bảng mã vùng đặt cạnh chiếc điện thoại",
+     "explain": "Câu cuối của nhân viên: 电话旁边有一个地区号码表 — cạnh điện thoại có một bảng mã vùng."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "N",
+     "name": "田中",
+     "zh": "请问，市内电话怎么打？",
+     "vi": "Xin hỏi, điện thoại nội hạt thì gọi thế nào?",
+     "words": [
+      "hz-h1-64ce3c69ace7",
+      "hz-h1-367df9600cd7",
+      "hz-h1-f135b43ff431",
+      "hz-h1-2add50cf6301"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "服务员",
+     "zh": "拨零就是外线。",
+     "vi": "Bấm số 0 là ra đường dây ngoài.",
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "田中",
+     "zh": "国内长途电话呢？",
+     "vi": "Thế còn điện thoại đường dài trong nước?",
+     "words": [
+      "hz-h1-367df9600cd7"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "服务员",
+     "zh": "拨外线以后继续拨地区号。",
+     "vi": "Bấm ra đường dây ngoài rồi bấm tiếp mã vùng.",
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "田中",
+     "zh": "曲阜的地区号是多少？",
+     "vi": "Mã vùng của Khúc Phụ là bao nhiêu?",
+     "words": [
+      "hz-h1-8345c9c1e294"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "服务员",
+     "zh": "电话旁边有一个地区号码表。",
+     "vi": "Cạnh điện thoại có một bảng mã vùng.",
+     "words": [
+      "hz-h1-367df9600cd7"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "田中",
+     "zh": "谢谢。",
+     "vi": "Cảm ơn bạn.",
+     "words": []
+    }
+   ],
+   "repeat": [
+    1
+   ],
+   "task": {
+    "prompt": "Hỏi lịch sự cách gọi một loại điện thoại (ví dụ điện thoại nội hạt).",
+    "frame": "请问，___电话怎么打？",
+    "sample": {
+     "zh": "请问，市内电话怎么打？",
+     "vi": "Xin hỏi, điện thoại nội hạt thì gọi thế nào?"
+    },
+    "sampleNote": "Chỗ ___ là loại điện thoại bạn muốn hỏi: 市内 (nội hạt) hoặc 长途 (đường dài). 请问 đặt ở đầu câu để hỏi lịch sự, 怎么打 là “gọi thế nào”."
+   },
+   "listeningNotes": [
+    "请问 luôn đứng đầu câu hỏi lịch sự — đây là mẫu mở đầu đáng nhớ nhất của bài.",
+    "拨 là “bấm/quay số”, không phải từ của bài nhưng nghe nhiều lần trong video này."
+   ],
+   "compareNote": "电话 trong 市内电话/长途电话/电话旁边 là từ 电话 độc lập làm danh từ chính nên được tính; chữ 话 bên trong 电话 không tính là từ 话.",
+   "segmentMode": "clip",
+   "segmentNote": "Video rất ngắn và mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app cho nghe cả đoạn, không cắt mạo hiểm.",
+   "timingNote": "Chưa đo mốc từng câu; toàn bộ video được phát thử và khớp lời thoại trang nguồn theo đúng thứ tự."
+  },
+  {
+   "id": "cs4-1408",
+   "lessonCode": "CS4-1408",
+   "kind": "youtube",
+   "channel": "cnstation",
+   "title": "Mượn điện thoại khi hết pin",
+   "situation": "Điện thoại của cô gái hết pin; bạn nam cho mượn máy và gợi ý gọi hỏi số của một người quen.",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-1408/",
+   "watchUrl": "https://www.youtube.com/watch?v=Vi0q-QW3opY",
+   "videoId": "Vi0q-QW3opY",
+   "subtitleVideoId": "LLPT1RiymB8",
+   "fullVideoId": "-EHQf9BK8r4",
+   "durationSec": 22,
+   "durationNote": "Video 22 giây; hội thoại gần như toàn bộ video",
+   "voiceLabel": "Người thật đóng hội thoại — các diễn viên của Chinese Station",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không tải lại hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; bản chính đã phát thử, lời thoại khớp trang nguồn và có tùy chọn nhúng chính thức (30/10/2026).",
+   "goal": "Nghe và nắm được: vì sao cô gái cần mượn điện thoại, và bạn nam khuyên cô hỏi ai.",
+   "prepWords": [
+    {
+     "zh": "没电",
+     "vi": "hết pin, hết điện"
+    },
+    {
+     "zh": "通讯录",
+     "vi": "danh bạ điện thoại"
+    },
+    {
+     "zh": "电话号码",
+     "vi": "số điện thoại"
+    }
+   ],
+   "addsNewWords": [
+    "电",
+    "打电话",
+    "问"
+   ],
+   "gist": {
+    "q": "Vì sao cô gái cần mượn điện thoại?",
+    "options": [
+     "Điện thoại của cô ấy hết pin",
+     "Cô ấy làm mất điện thoại",
+     "Điện thoại của cô ấy bị hỏng màn hình"
+    ],
+    "answer": 0,
+    "explain": "Câu đầu cô nói 我的手机没电了 — điện thoại của mình hết pin rồi."
+   },
+   "details": [
+    {
+     "q": "Bạn nam khuyên cô gái hỏi ai để biết số của Lý Binh?",
+     "options": [
+      "Hỏi nhân viên cửa hàng",
+      "Hỏi một người qua đường",
+      "Hỏi Lưu Dĩnh"
+     ],
+     "answer": 2,
+     "a": "Hỏi Lưu Dĩnh",
+     "explain": "Anh nói 你打电话问问刘颖 — bạn gọi điện hỏi Lưu Dĩnh đi."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "哎呀，我的手机没电了。",
+     "vi": "Ôi, điện thoại của mình hết pin rồi.",
+     "words": [
+      "hz-h1-e0af7a55e54c",
+      "hz-h1-23838810e00e"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "李大宇",
+     "zh": "不要紧，你用我的吧。",
+     "vi": "Không sao, bạn dùng máy của mình đi.",
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "你知道李兵的电话号码吗？",
+     "vi": "Bạn có biết số điện thoại của Lý Binh không?",
+     "words": [
+      "hz-h1-367df9600cd7"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "李大宇",
+     "zh": "不知道。你打电话问问刘颖。",
+     "vi": "Mình không biết. Bạn gọi điện hỏi Lưu Dĩnh đi.",
+     "words": [
+      "dadianhua",
+      "hz-h1-2add50cf6301",
+      "hz-h1-6027e1370729"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "刘颖的电话你有吗？",
+     "vi": "Bạn có số điện thoại của Lưu Dĩnh không?",
+     "words": [
+      "hz-h1-367df9600cd7"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "李大宇",
+     "zh": "手机的通讯录里有。",
+     "vi": "Trong danh bạ của điện thoại có.",
+     "words": [
+      "hz-h1-e0af7a55e54c"
+     ]
+    }
+   ],
+   "repeat": [
+    4
+   ],
+   "task": {
+    "prompt": "Nói rằng điện thoại của bạn hết pin.",
+    "frame": "我的手机___了。",
+    "sample": {
+     "zh": "我的手机没电了。",
+     "vi": "Điện thoại của mình hết pin rồi."
+    },
+    "sampleNote": "Chỗ ___ điền 没电 — nghĩa là “hết pin/hết điện”. Nói xong, bạn có thể mượn máy bằng mẫu trong video: 你用我的吧 là câu đáp cho mượn, không phải câu mượn."
+   },
+   "listeningNotes": [
+    "没电 là cách nói hằng ngày cho “hết pin” của điện thoại — từ 电 của bài xuất hiện độc lập ở đây.",
+    "问问 là dạng lặp của 问 (hỏi thử một chút), nghe rất tự nhiên trong câu 你打电话问问刘颖."
+   ],
+   "compareNote": "电话号码 là cụm “số điện thoại”; chữ 话 bên trong 电话 không được tính là từ 话 của bài.",
+   "segmentMode": "clip",
+   "segmentNote": "Video rất ngắn và mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app cho nghe cả đoạn, không cắt mạo hiểm.",
+   "timingNote": "Chưa đo mốc từng câu; toàn bộ video được phát thử và khớp lời thoại trang nguồn theo đúng thứ tự."
+  },
+  {
+   "id": "cs4-3101",
+   "lessonCode": "CS4-3101",
+   "kind": "youtube",
+   "channel": "cnstation",
+   "title": "Nói tiếng Trung với thầy giáo",
+   "situation": "Thầy giáo hỏi thăm khả năng tiếng Trung của bạn học sinh và cô nhờ thầy nói chậm lại.",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-3101/",
+   "watchUrl": "https://www.youtube.com/watch?v=b5kXQDhNicg",
+   "videoId": "b5kXQDhNicg",
+   "subtitleVideoId": "fKztJkQacWQ",
+   "fullVideoId": "sA1UEc_EYZU",
+   "durationSec": 11,
+   "durationNote": "Video 11 giây; hội thoại gần như toàn bộ video",
+   "voiceLabel": "Người thật đóng hội thoại — các diễn viên của Chinese Station",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không tải lại hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; bản chính đã phát thử, lời thoại khớp trang nguồn và có tùy chọn nhúng chính thức (30/10/2026).",
+   "goal": "Nghe và nắm được: bạn học sinh tự nhận nói tiếng Trung thế nào, và cô nhờ thầy điều gì.",
+   "prepWords": [
+    {
+     "zh": "汉语",
+     "vi": "tiếng Trung"
+    },
+    {
+     "zh": "听懂",
+     "vi": "nghe hiểu được"
+    },
+    {
+     "zh": "慢",
+     "vi": "chậm"
+    }
+   ],
+   "addsNewWords": [
+    "话",
+    "请"
+   ],
+   "gist": {
+    "q": "Bạn học sinh tự nhận tiếng Trung của mình thế nào?",
+    "options": [
+     "Nói rất lưu loát như người bản xứ",
+     "Nói được một ít, nhưng chưa tốt",
+     "Chưa nói được câu nào"
+    ],
+    "answer": 1,
+    "explain": "Cô nói 我会说一点，说得不好 — mình nói được một ít, nói chưa tốt."
+   },
+   "details": [
+    {
+     "q": "Bạn học sinh nhờ thầy điều gì?",
+     "options": [
+      "Nói chậm hơn một chút",
+      "Nói to hơn một chút",
+      "Viết lại câu lên bảng"
+     ],
+     "answer": 0,
+     "a": "Nói chậm hơn một chút",
+     "explain": "Câu cuối: 请您说慢一点 — xin thầy nói chậm hơn một chút."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "N",
+     "name": "沈老师",
+     "zh": "你会说汉语吗？",
+     "vi": "Bạn biết nói tiếng Trung không?",
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "我会说一点，说得不好。",
+     "vi": "Em nói được một ít, nói chưa tốt ạ.",
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "沈老师",
+     "zh": "你能听懂我的话吗？",
+     "vi": "Bạn có nghe hiểu lời thầy nói không?",
+     "words": [
+      "hz-h1-2ceaeb57578b"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "请您说慢一点。",
+     "vi": "Xin thầy nói chậm hơn một chút ạ.",
+     "words": [
+      "hz-h1-88b1b53abf1e"
+     ]
+    }
+   ],
+   "repeat": [
+    4
+   ],
+   "task": {
+    "prompt": "Nhờ ai đó nói chậm hơn một chút.",
+    "frame": "请您说___一点。",
+    "sample": {
+     "zh": "请您说慢一点。",
+     "vi": "Xin thầy/cô nói chậm hơn một chút ạ."
+    },
+    "sampleNote": "Chỗ ___ điền tính từ chỉ cách nói, ví dụ 慢 (chậm). 请 đặt trước 您 là cách nhờ lịch sự với người lớn tuổi hoặc thầy cô."
+   },
+   "listeningNotes": [
+    "我的话 ở câu 3 là “lời thầy nói” — từ 话 của bài xuất hiện độc lập với đúng nghĩa “lời nói”.",
+    "Video này không tính từ 说话: các câu dùng 说 + 汉语/说 + tính từ, không phải từ 说话 nguyên khối."
+   ],
+   "compareNote": "说汉语 là cấu trúc 说 + tân ngữ (nói tiếng Trung), không phải từ 说话 của bài nên không tính 说话.",
+   "segmentMode": "clip",
+   "segmentNote": "Video rất ngắn và mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app cho nghe cả đoạn, không cắt mạo hiểm.",
+   "timingNote": "Chưa đo mốc từng câu; toàn bộ video được phát thử và khớp lời thoại trang nguồn theo đúng thứ tự."
+  },
+  {
+   "id": "cs4-3001",
+   "lessonCode": "CS4-3001",
+   "kind": "youtube",
+   "channel": "cnstation",
+   "title": "Nhờ phát thanh tìm người bạn bị lạc",
+   "situation": "Một cô gái bị lạc bạn ở nơi công cộng và nhờ quầy dịch vụ phát thanh tìm người.",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-3001/",
+   "watchUrl": "https://www.youtube.com/watch?v=3-dJZH1Jj6o",
+   "videoId": "3-dJZH1Jj6o",
+   "subtitleVideoId": "QzBktKXCPeM",
+   "fullVideoId": "Dt0lK4kkPSU",
+   "durationSec": 9,
+   "durationNote": "Video 9 giây; hội thoại gần như toàn bộ video",
+   "voiceLabel": "Người thật đóng hội thoại — các diễn viên của Chinese Station",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không tải lại hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; bản chính đã phát thử, lời thoại khớp trang nguồn và có tùy chọn nhúng chính thức (30/10/2026).",
+   "goal": "Nghe và nắm được: cô gái nhờ việc gì, và vì sao cô phải nhờ.",
+   "prepWords": [
+    {
+     "zh": "广播",
+     "vi": "phát thanh, loa thông báo"
+    },
+    {
+     "zh": "走散",
+     "vi": "bị lạc nhau"
+    },
+    {
+     "zh": "稍等",
+     "vi": "đợi một chút"
+    }
+   ],
+   "addsNewWords": [
+    "找",
+    "等"
+   ],
+   "gist": {
+    "q": "Vì sao cô gái nhờ phát thanh tìm người?",
+    "options": [
+     "Bạn của cô ấy đến muộn giờ hẹn",
+     "Cô ấy làm rơi đồ ở quầy dịch vụ",
+     "Cô ấy và bạn mình bị lạc nhau"
+    ],
+    "answer": 2,
+    "explain": "Cô nói 我和朋友走散了 — mình và bạn mình bị lạc nhau."
+   },
+   "details": [
+    {
+     "q": "Người bạn bị lạc tên là gì?",
+     "options": [
+      "Nishikawa Ai (Tây Xuyên Ái)",
+      "Tanaka Mika (Điền Trung Mỹ Hoa)",
+      "Yamamoto (Sơn Bản)"
+     ],
+     "answer": 0,
+     "a": "Nishikawa Ai (Tây Xuyên Ái)",
+     "explain": "Cô nói 她叫西川爱 — cô ấy tên là Tây Xuyên Ái."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "你好，能广播找人吗？",
+     "vi": "Chào bạn, có thể phát thanh tìm người giúp tôi không?",
+     "words": [
+      "hz-h1-4c504e514484"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "服务员",
+     "zh": "您找谁？她叫什么名字？",
+     "vi": "Bạn tìm ai? Cô ấy tên là gì?",
+     "words": [
+      "hz-h1-4c504e514484"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "我和朋友走散了，她叫西川爱。",
+     "vi": "Tôi và bạn tôi bị lạc nhau, cô ấy tên là Nishikawa Ai.",
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "服务员",
+     "zh": "你稍等一下。",
+     "vi": "Bạn đợi một chút nhé.",
+     "words": [
+      "hz-h1-8ea0feeb4c9a"
+     ]
+    }
+   ],
+   "repeat": [
+    1
+   ],
+   "task": {
+    "prompt": "Nói bạn đang tìm một người bạn bị lạc và cho biết tên của người đó.",
+    "frame": "我和朋友走散了，她叫___。",
+    "sample": {
+     "zh": "我和朋友走散了，她叫西川爱。",
+     "vi": "Mình và bạn mình bị lạc nhau, cô ấy tên là Nishikawa Ai."
+    },
+    "sampleNote": "Chỗ ___ là tên người bạn của bạn. Nếu người bạn là nam, đổi 她 thành 他 ở đầu phần sau dấu phẩy."
+   },
+   "listeningNotes": [
+    "找人 là “tìm người” — từ 找 của bài đứng độc lập làm động từ chính.",
+    "稍等一下 là mẫu “đợi một chút” dùng ở mọi quầy dịch vụ; từ 等 của bài nằm trong mẫu này."
+   ],
+   "compareNote": "广播 (phát thanh) và 名字 (tên) không phải từ của bài; chỉ tính 找 và 等 đã nghe rõ trong lời thoại.",
+   "segmentMode": "clip",
+   "segmentNote": "Video rất ngắn và mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app cho nghe cả đoạn, không cắt mạo hiểm.",
+   "timingNote": "Chưa đo mốc từng câu; toàn bộ video được phát thử và khớp lời thoại trang nguồn theo đúng thứ tự."
+  }
+ ],
+ "surveyLog": [
+  {
+   "code": "CS4-1411",
+   "decision": "Loại (để dự bị)",
+   "reason": "Gọi điện cho đối tác: chỉ thêm 找 là từ mới so với bộ đã chọn (请/手机/电话 đều đã có), lại nhiều từ ngoài bài khó với người mới （经理，留言，转告）. CS4-3001 cho thêm cả 找 và 等 trong tình huống đơn giản hơn."
+  },
+  {
+   "code": "CS4-1303",
+   "decision": "Loại (để dự bị)",
+   "reason": "Hỏi giờ xe buýt sân bay: có 不用 là từ mới duy nhất (+1) và lặp 打电话/问问; CS4-3001 đóng góp +2 từ mới nên được ưu tiên cho suất video thứ năm."
+  },
+  {
+   "code": "CS4-2115",
+   "decision": "Loại",
+   "reason": "Khiếu nại internet ở lễ tân: 请问 đã có ở CS4-1409, 等 đã có ở CS4-3001; 帮助 trong câu của lễ tân không phải từ 帮忙/帮 của bài nên không tính và không thêm từ mới."
+  },
+  {
+   "code": "CS4-1407",
+   "decision": "Loại",
+   "reason": "Gọi điện quốc tế: 打/电话/多少 đều đã xuất hiện trong các video được chọn trước, không thêm từ mới."
+  },
+  {
+   "code": "CS4-3002",
+   "decision": "Loại",
+   "reason": "Gọi cấp cứu 120: chỉ lặp 打电话/打, tình huống khẩn cấp không phù hợp làm video luyện tập chính cho người mới."
+  }
+ ]
+}
