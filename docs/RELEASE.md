@@ -1,3 +1,11 @@
+# Thực hành HSK2 Bài 5 (ưu tiên theo yêu cầu người học) — bộ 5 video, phủ 6/24 — đã phát hành và xác minh Pages
+
+- Merge commit: 023c29c81f6475724c130eccc0b2d41561c1d86b (nhánh main, PR #57); commit trên nhánh feature/practice-hsk2-b5: `a1b2c3d` (xem PR). Nhánh sao lưu: backup/practice-hsk2-b5-20261030 ở main HEAD e5dbb0a.
+- Bối cảnh: người học đang học HSK2 · Bài 5 và yêu cầu ưu tiên bài này trước hàng đợi HSK1. Lưu ý đối chiếu: link người học gửi kèm trỏ tới bài pilot HSK 2 · Bài 12 (đã có Thực hành v6, không thay đổi); Bài 5 đúng là bài 便宜 (khóa hz-h2-05f3747c37f2), 24/24 từ V2 hoàn chỉnh, auditLesson đạt cả 24 từ — không cần sửa nội dung từ vựng.
+- Bộ 5 video Chinese Station: CS4-4113 tâm trạng （心情）, CS4-4120 quán cà phê yên tĩnh （安静）, CS4-4123 hẹn xem phim （有意思）, CS4-4105 nạp tiền thẻ （方便）, CS4-0805 quà sinh nhật （漂亮， 快乐 trong câu chúc chuẩn); phủ 6/24. Còn thiếu 18 từ ghi rõ trong dữ liệu và checkpoint. CS4-1616 （便宜） loại vì chưa từng quay; CS4-2511 （不舒服） đã kiểm chứng đầy đủ nhưng nhường vì chuẩn giới hạn tối đa 5 video/bài — ứng viên đầu tiên khi mở rộng. 3 video nghe từng câu (mốc từ phụ đề cháy, ±1 giây; CS4-4123 bản phụ đề ngắn hơn bản chính ~1 giây), 2 video nghe cả đoạn.
+- Kiểm thử: validator dữ liệu đạt (6/24 đúng theo ID), kịch bản DOM deep5 render đủ mọi dòng thoại/câu hỏi/bài tự nói của cả 5 video bằng dữ liệu thật, toàn bộ kiểm thử bắt buộc đạt, audit giữ 739; completedCount không đổi 912/2.224.
+- Pages run 41063191040 success đúng HEAD 023c29c (run #322); file live khớp byte. Kiểm chứng thao tác thật trên app live: module đúng bài, tổng 6/24, hộp thiếu đúng 18 từ; nút nghe câu 3 của CS4-4113 nhảy đúng 0:07 và phát tiếp; CS4-4105 nghe cả đoạn hết 0:26 nghe rõ phần gợi ý nhà ăn; trả lời đúng câu ý chính được xác nhận. Giới hạn còn lại: chưa thử Android thật và viewport 390px; mốc câu ±1 giây.
+
 # Tab Nghe: 3 nút bật/tắt Pinyin từ / Câu ví dụ / Pinyin câu — đã phát hành và xác minh Pages
 
 - Merge commit: e710d444063ea6928330487775dd50922e075e3d (nhánh main, PR #56); commit trên nhánh feature/audio-display-toggles: `2395b88`. Nhánh sao lưu: backup/audio-display-20261030 ở main HEAD d595662.
