@@ -56,7 +56,7 @@ if (scenario === 'deep') {
 const respond = text => Promise.resolve({ ok: true, json: async () => JSON.parse(text) });
 globalThis.fetch = url => {
   const u = String(url);
-  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 3 }, { key: 'hz-h1-f05455e3c9c0', anchorWordId: 'hz-h1-f05455e3c9c0', file: 'data/practice/hz-h1-f05455e3c9c0.json', version: 2 }, { key: 'hz-h1-9e4bde0a04dc', anchorWordId: 'hz-h1-9e4bde0a04dc', file: 'data/practice/hz-h1-9e4bde0a04dc.json', version: 1 }] }));
+  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 3 }, { key: 'hz-h1-f05455e3c9c0', anchorWordId: 'hz-h1-f05455e3c9c0', file: 'data/practice/hz-h1-f05455e3c9c0.json', version: 2 }, { key: 'hz-h1-9e4bde0a04dc', anchorWordId: 'hz-h1-9e4bde0a04dc', file: 'data/practice/hz-h1-9e4bde0a04dc.json', version: 2 }] }));
   if (u.includes('hanzii-course')) return respond(courseText);
   if (u.includes('listening-pilot')) return respond(pilotText);
   if (u.includes('hz-h1-64d354d405bb.json')) return respond(hsk1Text);
@@ -336,7 +336,8 @@ if (scenario === 'deep4') {
       assert.ok(p3.includes(ln.name), `${R.id}: rendered transcript names speaker ${ln.name}`);
       assert.ok(p3.includes(ln.vi), `${R.id}: rendered transcript shows the Vietnamese meaning`);
     }
-    assert.equal($$('[data-lp-seg]').length, 0, `${R.id}: clip mode has no per-segment buttons`);
+    assert.equal($$('[data-panel="3"] [data-lp-seg]').length, R.lines.length, `${R.id}: every transcript line has its own segment play button`);
+    for (const btn of $$('[data-panel="3"] [data-lp-seg]')) { const ln = R.lines[$$('[data-panel="3"] [data-lp-seg]').indexOf(btn)]; assert.equal(Number(btn.dataset.start), ln.start, `${R.id}: segment button start matches line timing`); assert.equal(Number(btn.dataset.end), ln.end, `${R.id}: segment button end matches line timing`); }
     $('[data-lp-step="4"]').click(); await tick(40);
     const p4 = $$('.lp-panel').find(p => p.dataset.panel === '4').textContent;
     for (const n of R.repeat) assert.ok(p4.includes(R.lines[n - 1].zh), `${R.id}: repeat step shows chosen line ${n} (1-based)`);
@@ -371,5 +372,5 @@ if (scenario === 'deep4') {
   assert.equal(root.lessons['hz-h1-64d354d405bb'], undefined, 'Bai 1 bucket untouched in this scenario');
   assert.equal(root.lessons['hz-h1-f05455e3c9c0'], undefined, 'Bai 2 bucket untouched in this scenario');
   assert.equal(root.lessons['hz-h2-0f9648e9dded'], undefined, 'pilot bucket untouched in this scenario');
-  console.log('PASS deep4: fourth lesson (HSK 1 · Bài 3) runs through the same module, all 5 videos render fully, clip mode, per-lesson progress isolation.');
+  console.log('PASS deep4: fourth lesson (HSK 1 · Bài 3) runs through the same module, all 5 videos render fully with per-line segment buttons, per-lesson progress isolation.');
 }
