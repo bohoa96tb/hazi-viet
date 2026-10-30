@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "authorship": {
   "type": "human-video",
   "label": "Video người thật có sẵn trên YouTube (không phải giọng AI, không phải giọng đọc của thiết bị).",
@@ -7,7 +7,7 @@
   "voiceVerification": "Cả 5 video đều đã được phát thử trên YouTube ngày 30/10/2026: người thật đóng vai, nói tiếng Trung phổ thông rõ ràng; lời thoại nghe được khớp đúng thứ tự với trang bài học chính thức của từng video; cả 5 đều có tùy chọn nhúng chính thức, không có thông báo tắt nhúng.",
   "transcriptSource": "Lời thoại lấy nguyên văn từ trang bài học chính thức của Chinese Station cho đúng từng video (CS4-1402, CS4-1409, CS4-1408, CS4-3101, CS4-3001) và đã đối chiếu khi phát thử video.",
   "vietnamese": "Nghĩa tiếng Việt, câu hỏi, đáp án và gợi ý tự nói do đội ngũ biên soạn của app viết từ nội dung thật của video, trong phạm vi quyền sử dụng dưới đây.",
-  "note": "Cả 5 video đều rất ngắn (9–22 giây) và nghe cả đoạn (segmentMode clip): mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app không cắt đoạn mạo hiểm. Chưa kiểm chứng trên thiết bị Android thật.",
+  "note": "Cả 5 video đều rất ngắn (9–22 giây); mốc từng câu đã đo từ phụ đề cháy của bản có phụ đề (sai số khoảng ±1 giây, hai bản của mỗi video dài bằng nhau) và app phát đúng đoạn của từng câu. Chưa kiểm chứng trên thiết bị Android thật.",
   "rights": "Video của Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai (Chinese Station): nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi nguồn. App nhúng trình phát YouTube chính thức và ghi nguồn tại từng video; không sao chép, không đăng lại video."
  },
  "references": [
@@ -141,6 +141,8 @@
      "name": "吴小明",
      "zh": "你的手机号码是多少？",
      "vi": "Số điện thoại di động của bạn là bao nhiêu?",
+     "start": 0,
+     "end": 3,
      "words": [
       "hz-h1-e0af7a55e54c",
       "hz-h1-8345c9c1e294"
@@ -151,6 +153,8 @@
      "name": "田中",
      "zh": "123-4567-8900。",
      "vi": "123-4567-8900.",
+     "start": 3,
+     "end": 13,
      "words": []
     },
     {
@@ -158,6 +162,8 @@
      "name": "吴小明",
      "zh": "有事我打你的手机。",
      "vi": "Có việc thì mình gọi vào điện thoại di động của bạn.",
+     "start": 13,
+     "end": 15,
      "words": [
       "hz-h1-2add50cf6301",
       "hz-h1-e0af7a55e54c"
@@ -168,6 +174,8 @@
      "name": "田中",
      "zh": "好，也可以给我发短信。",
      "vi": "Được, bạn cũng có thể nhắn tin cho mình.",
+     "start": 15,
+     "end": 18.5,
      "words": []
     }
    ],
@@ -188,9 +196,7 @@
     "打你的手机 nghĩa là “gọi vào di động của bạn”: ở đây 打 là động từ “gọi (điện thoại)”."
    ],
    "compareNote": "号码 (số) không phải từ của bài; câu này không chứa từ 电话 nên không tính 电话.",
-   "segmentMode": "clip",
-   "segmentNote": "Video rất ngắn và mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app cho nghe cả đoạn, không cắt mạo hiểm.",
-   "timingNote": "Chưa đo mốc từng câu; toàn bộ video được phát thử và khớp lời thoại trang nguồn theo đúng thứ tự."
+   "timingNote": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề (hai bản dài bằng nhau, 19 giây), sai số khoảng ±1 giây; cửa sổ lấy liên tiếp theo điểm bắt đầu của câu sau, câu cuối nới tới 18,5 giây. Câu 2 là dãy số điện thoại đọc từng chữ số nên dài khoảng 10 giây."
   },
   {
    "id": "cs4-1409",
@@ -270,6 +276,8 @@
      "name": "田中",
      "zh": "请问，市内电话怎么打？",
      "vi": "Xin hỏi, điện thoại nội hạt thì gọi thế nào?",
+     "start": 0,
+     "end": 3,
      "words": [
       "hz-h1-64ce3c69ace7",
       "hz-h1-367df9600cd7",
@@ -282,6 +290,8 @@
      "name": "服务员",
      "zh": "拨零就是外线。",
      "vi": "Bấm số 0 là ra đường dây ngoài.",
+     "start": 3,
+     "end": 5,
      "words": []
     },
     {
@@ -289,6 +299,8 @@
      "name": "田中",
      "zh": "国内长途电话呢？",
      "vi": "Thế còn điện thoại đường dài trong nước?",
+     "start": 5,
+     "end": 8,
      "words": [
       "hz-h1-367df9600cd7"
      ]
@@ -298,6 +310,8 @@
      "name": "服务员",
      "zh": "拨外线以后继续拨地区号。",
      "vi": "Bấm ra đường dây ngoài rồi bấm tiếp mã vùng.",
+     "start": 8,
+     "end": 10,
      "words": []
     },
     {
@@ -305,6 +319,8 @@
      "name": "田中",
      "zh": "曲阜的地区号是多少？",
      "vi": "Mã vùng của Khúc Phụ là bao nhiêu?",
+     "start": 10,
+     "end": 13,
      "words": [
       "hz-h1-8345c9c1e294"
      ]
@@ -314,6 +330,8 @@
      "name": "服务员",
      "zh": "电话旁边有一个地区号码表。",
      "vi": "Cạnh điện thoại có một bảng mã vùng.",
+     "start": 13,
+     "end": 15,
      "words": [
       "hz-h1-367df9600cd7"
      ]
@@ -323,6 +341,8 @@
      "name": "田中",
      "zh": "谢谢。",
      "vi": "Cảm ơn bạn.",
+     "start": 15,
+     "end": 16.5,
      "words": []
     }
    ],
@@ -343,9 +363,7 @@
     "拨 là “bấm/quay số”, không phải từ của bài nhưng nghe nhiều lần trong video này."
    ],
    "compareNote": "电话 trong 市内电话/长途电话/电话旁边 là từ 电话 độc lập làm danh từ chính nên được tính; chữ 话 bên trong 电话 không tính là từ 话.",
-   "segmentMode": "clip",
-   "segmentNote": "Video rất ngắn và mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app cho nghe cả đoạn, không cắt mạo hiểm.",
-   "timingNote": "Chưa đo mốc từng câu; toàn bộ video được phát thử và khớp lời thoại trang nguồn theo đúng thứ tự."
+   "timingNote": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề (hai bản dài bằng nhau, 17 giây), sai số khoảng ±1 giây; cửa sổ lấy liên tiếp theo điểm bắt đầu của câu sau."
   },
   {
    "id": "cs4-1408",
@@ -414,6 +432,8 @@
      "name": "铃木优美",
      "zh": "哎呀，我的手机没电了。",
      "vi": "Ôi, điện thoại của mình hết pin rồi.",
+     "start": 0,
+     "end": 3,
      "words": [
       "hz-h1-e0af7a55e54c",
       "hz-h1-23838810e00e"
@@ -424,6 +444,8 @@
      "name": "李大宇",
      "zh": "不要紧，你用我的吧。",
      "vi": "Không sao, bạn dùng máy của mình đi.",
+     "start": 3,
+     "end": 7,
      "words": []
     },
     {
@@ -431,6 +453,8 @@
      "name": "铃木优美",
      "zh": "你知道李兵的电话号码吗？",
      "vi": "Bạn có biết số điện thoại của Lý Binh không?",
+     "start": 7,
+     "end": 11,
      "words": [
       "hz-h1-367df9600cd7"
      ]
@@ -440,6 +464,8 @@
      "name": "李大宇",
      "zh": "不知道。你打电话问问刘颖。",
      "vi": "Mình không biết. Bạn gọi điện hỏi Lưu Dĩnh đi.",
+     "start": 11,
+     "end": 15,
      "words": [
       "dadianhua",
       "hz-h1-2add50cf6301",
@@ -451,6 +477,8 @@
      "name": "铃木优美",
      "zh": "刘颖的电话你有吗？",
      "vi": "Bạn có số điện thoại của Lưu Dĩnh không?",
+     "start": 15,
+     "end": 17,
      "words": [
       "hz-h1-367df9600cd7"
      ]
@@ -460,6 +488,8 @@
      "name": "李大宇",
      "zh": "手机的通讯录里有。",
      "vi": "Trong danh bạ của điện thoại có.",
+     "start": 17,
+     "end": 20.5,
      "words": [
       "hz-h1-e0af7a55e54c"
      ]
@@ -482,9 +512,7 @@
     "问问 là dạng lặp của 问 (hỏi thử một chút), nghe rất tự nhiên trong câu 你打电话问问刘颖."
    ],
    "compareNote": "电话号码 là cụm “số điện thoại”; chữ 话 bên trong 电话 không được tính là từ 话 của bài.",
-   "segmentMode": "clip",
-   "segmentNote": "Video rất ngắn và mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app cho nghe cả đoạn, không cắt mạo hiểm.",
-   "timingNote": "Chưa đo mốc từng câu; toàn bộ video được phát thử và khớp lời thoại trang nguồn theo đúng thứ tự."
+   "timingNote": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề (hai bản dài bằng nhau, 22 giây), sai số khoảng ±1 giây. Câu 4 phụ đề cháy tách hai mảnh （不知道。 rồi 你打电话问问刘颖。) nên cửa sổ 11–15 giây bao trọn cả hai mảnh; khoảng lặng ở giây 6 nằm trong cửa sổ câu 2."
   },
   {
    "id": "cs4-3101",
@@ -552,6 +580,8 @@
      "name": "沈老师",
      "zh": "你会说汉语吗？",
      "vi": "Bạn biết nói tiếng Trung không?",
+     "start": 1.5,
+     "end": 4,
      "words": []
     },
     {
@@ -559,6 +589,8 @@
      "name": "铃木优美",
      "zh": "我会说一点，说得不好。",
      "vi": "Em nói được một ít, nói chưa tốt ạ.",
+     "start": 4,
+     "end": 6,
      "words": []
     },
     {
@@ -566,6 +598,8 @@
      "name": "沈老师",
      "zh": "你能听懂我的话吗？",
      "vi": "Bạn có nghe hiểu lời thầy nói không?",
+     "start": 6,
+     "end": 8,
      "words": [
       "hz-h1-2ceaeb57578b"
      ]
@@ -575,6 +609,8 @@
      "name": "铃木优美",
      "zh": "请您说慢一点。",
      "vi": "Xin thầy nói chậm hơn một chút ạ.",
+     "start": 8,
+     "end": 10.5,
      "words": [
       "hz-h1-88b1b53abf1e"
      ]
@@ -597,9 +633,7 @@
     "Video này không tính từ 说话: các câu dùng 说 + 汉语/说 + tính từ, không phải từ 说话 nguyên khối."
    ],
    "compareNote": "说汉语 là cấu trúc 说 + tân ngữ (nói tiếng Trung), không phải từ 说话 của bài nên không tính 说话.",
-   "segmentMode": "clip",
-   "segmentNote": "Video rất ngắn và mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app cho nghe cả đoạn, không cắt mạo hiểm.",
-   "timingNote": "Chưa đo mốc từng câu; toàn bộ video được phát thử và khớp lời thoại trang nguồn theo đúng thứ tự."
+   "timingNote": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề (hai bản dài bằng nhau, 11 giây), sai số khoảng ±1 giây; hai giây đầu là khoảng lặng mở đầu, câu 1 bắt đầu khoảng giây 2 nên cửa sổ lấy từ 1,5 giây để không cắt mất âm đầu."
   },
   {
    "id": "cs4-3001",
@@ -667,6 +701,8 @@
      "name": "张丽丽",
      "zh": "你好，能广播找人吗？",
      "vi": "Chào bạn, có thể phát thanh tìm người giúp tôi không?",
+     "start": 0,
+     "end": 2,
      "words": [
       "hz-h1-4c504e514484"
      ]
@@ -676,6 +712,8 @@
      "name": "服务员",
      "zh": "您找谁？她叫什么名字？",
      "vi": "Bạn tìm ai? Cô ấy tên là gì?",
+     "start": 2,
+     "end": 5,
      "words": [
       "hz-h1-4c504e514484"
      ]
@@ -685,13 +723,17 @@
      "name": "张丽丽",
      "zh": "我和朋友走散了，她叫西川爱。",
      "vi": "Tôi và bạn tôi bị lạc nhau, cô ấy tên là Nishikawa Ai.",
+     "start": 5,
+     "end": 7,
      "words": []
     },
     {
      "speaker": "N",
      "name": "服务员",
-     "zh": "你稍等一下。",
+     "zh": "您稍等一下。",
      "vi": "Bạn đợi một chút nhé.",
+     "start": 7,
+     "end": 8.5,
      "words": [
       "hz-h1-8ea0feeb4c9a"
      ]
@@ -714,9 +756,7 @@
     "稍等一下 là mẫu “đợi một chút” dùng ở mọi quầy dịch vụ; từ 等 của bài nằm trong mẫu này."
    ],
    "compareNote": "广播 (phát thanh) và 名字 (tên) không phải từ của bài; chỉ tính 找 và 等 đã nghe rõ trong lời thoại.",
-   "segmentMode": "clip",
-   "segmentNote": "Video rất ngắn và mốc từng câu chưa được đo đủ tin cậy trong lượt này nên app cho nghe cả đoạn, không cắt mạo hiểm.",
-   "timingNote": "Chưa đo mốc từng câu; toàn bộ video được phát thử và khớp lời thoại trang nguồn theo đúng thứ tự."
+   "timingNote": "Mốc câu đọc từ phụ đề cháy của bản có phụ đề (hai bản dài bằng nhau, 9 giây), sai số khoảng ±1 giây. Câu cuối: phụ đề cháy trong video ghi 您稍等一下 (kính ngữ 您) — transcript lấy theo đúng video, khác một chữ so với trang nguồn in 你稍等一下."
   }
  ],
  "surveyLog": [
