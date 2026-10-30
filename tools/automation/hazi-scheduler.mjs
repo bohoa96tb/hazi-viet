@@ -6,6 +6,9 @@ import crypto from 'node:crypto';
 const token = process.env.GITHUB_TOKEN;
 const repository = process.env.GITHUB_REPOSITORY;
 const summaryPath = process.env.GITHUB_STEP_SUMMARY;
+if (process.env.GITHUB_REF !== 'refs/heads/main') {
+  throw new Error('Scheduler may only run on main');
+}
 if (!token || !repository || !/^[\w.-]+\/[\w.-]+$/.test(repository)) {
   throw new Error('Missing GITHUB_TOKEN or GITHUB_REPOSITORY');
 }
