@@ -11,7 +11,7 @@ import { execFileSync } from 'node:child_process';
 
 const scenario = process.argv[2];
 if (!scenario) {
-  for (const s of ['deep', 'board', 'generic', 'deep2', 'deep3']) {
+  for (const s of ['deep', 'board', 'generic', 'deep2', 'deep3', 'deep4']) {
     execFileSync(process.execPath, [new URL(import.meta.url).pathname, s], { stdio: 'inherit', env: process.env });
   }
   console.log('PASS listening-practice DOM (all scenarios)');
@@ -24,6 +24,7 @@ const courseText = fs.readFileSync('data/vocabulary/hanzii-course.json', 'utf8')
 const pilotText = fs.readFileSync('data/listening-pilot.json', 'utf8');
 const hsk1Text = fs.readFileSync('data/practice/hz-h1-64d354d405bb.json', 'utf8');
 const hsk1b2Text = fs.readFileSync('data/practice/hz-h1-f05455e3c9c0.json', 'utf8');
+const hsk1b3Text = fs.readFileSync('data/practice/hz-h1-9e4bde0a04dc.json', 'utf8');
 const dictText = fs.readFileSync('data/pinyin-dict.json', 'utf8');
 const convText = fs.readFileSync('data/vocabulary/conversations-demo.json', 'utf8');
 const urls = {
@@ -32,6 +33,7 @@ const urls = {
   generic: 'https://example.test/vocabulary.html#practice',
   deep2: 'https://example.test/vocabulary.html?practice=hz-h1-64d354d405bb#practice',
   deep3: 'https://example.test/vocabulary.html?practice=hz-h1-f05455e3c9c0#practice',
+  deep4: 'https://example.test/vocabulary.html?practice=hz-h1-9e4bde0a04dc#practice',
 };
 const window = new Window({ url: urls[scenario] });
 const { document } = window;
@@ -54,11 +56,12 @@ if (scenario === 'deep') {
 const respond = text => Promise.resolve({ ok: true, json: async () => JSON.parse(text) });
 globalThis.fetch = url => {
   const u = String(url);
-  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 3 }, { key: 'hz-h1-f05455e3c9c0', anchorWordId: 'hz-h1-f05455e3c9c0', file: 'data/practice/hz-h1-f05455e3c9c0.json', version: 2 }] }));
+  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 3 }, { key: 'hz-h1-f05455e3c9c0', anchorWordId: 'hz-h1-f05455e3c9c0', file: 'data/practice/hz-h1-f05455e3c9c0.json', version: 2 }, { key: 'hz-h1-9e4bde0a04dc', anchorWordId: 'hz-h1-9e4bde0a04dc', file: 'data/practice/hz-h1-9e4bde0a04dc.json', version: 1 }] }));
   if (u.includes('hanzii-course')) return respond(courseText);
   if (u.includes('listening-pilot')) return respond(pilotText);
   if (u.includes('hz-h1-64d354d405bb.json')) return respond(hsk1Text);
   if (u.includes('hz-h1-f05455e3c9c0.json')) return respond(hsk1b2Text);
+  if (u.includes('hz-h1-9e4bde0a04dc.json')) return respond(hsk1b3Text);
   if (u.includes('pinyin-dict')) return respond(dictText);
   if (u.includes('conversations-demo')) return respond(convText);
   return respond('{}');
@@ -310,4 +313,63 @@ if (scenario === 'deep3') {
   assert.equal(root.lessons['hz-h1-64d354d405bb'], undefined, 'Bai 1 bucket untouched in this scenario');
   assert.equal(root.lessons['hz-h2-0f9648e9dded'], undefined, 'pilot bucket untouched in this scenario');
   console.log('PASS deep3: third lesson (HSK 1 · Bài 2) runs through the same module, per-line segments on the long recording, per-lesson progress isolation.');
+}
+
+if (scenario === 'deep4') {
+  // Fourth lesson through the same module: HSK 1 · Bài 3 (phone/help cluster).
+  await waitFor(() => $('.listening-pilot'), 'HSK1 Bai 3 practice module from manifest');
+  assert.ok($('.lp-head').textContent.includes('HSK 1 · Bài 3'), 'Bai 3 lesson title shown');
+  assert.ok($('.listening-pilot').textContent.includes('13/24'), 'Bai 3 header shows its own verified coverage 13/24');
+  assert.equal($$('[data-lp-video]').length, 5, 'Bai 3 set lists 5 videos');
+  assert.ok($$('[data-lp-video]')[0].textContent.includes('Hỏi số điện thoại'), 'first Bai 3 video is the phone-number dialogue (CS4-1402)');
+  assert.ok($('.lp-missing-box') && $('.lp-missing-box').textContent.includes('请进'), 'missing words of Bai 3 are listed');
+  // Schema/render regression, same as deep2/deep3: every line of every video renders.
+  const b3 = JSON.parse(hsk1b3Text);
+  assert.ok(!$('.listening-pilot').textContent.includes('undefined'), 'Bai 3 module shows no undefined text');
+  for (let vi = 0; vi < b3.recordings.length; vi++) {
+    $$('[data-lp-video]')[vi].click(); await tick(60);
+    const R = b3.recordings[vi];
+    $('[data-lp-step="3"]').click(); await tick(40);
+    const p3 = $$('.lp-panel').find(p => p.dataset.panel === '3').textContent;
+    for (const ln of R.lines) {
+      assert.ok(p3.includes(ln.zh), `${R.id}: rendered transcript contains “${ln.zh}”`);
+      assert.ok(p3.includes(ln.name), `${R.id}: rendered transcript names speaker ${ln.name}`);
+      assert.ok(p3.includes(ln.vi), `${R.id}: rendered transcript shows the Vietnamese meaning`);
+    }
+    assert.equal($$('[data-lp-seg]').length, 0, `${R.id}: clip mode has no per-segment buttons`);
+    $('[data-lp-step="4"]').click(); await tick(40);
+    const p4 = $$('.lp-panel').find(p => p.dataset.panel === '4').textContent;
+    for (const n of R.repeat) assert.ok(p4.includes(R.lines[n - 1].zh), `${R.id}: repeat step shows chosen line ${n} (1-based)`);
+    $('[data-lp-step="2"]').click(); await tick(40);
+    const p2 = $$('.lp-panel').find(p => p.dataset.panel === '2').textContent;
+    assert.ok(p2.includes(R.gist.q), `${R.id}: gist question renders`);
+    for (const d of R.details) assert.ok(p2.includes(d.q), `${R.id}: detail question renders`);
+    $(`[data-lp-gist="${R.gist.answer}"]`).click(); await tick(40);
+    assert.ok($('.lp-feedback').textContent.includes('Đúng rồi'), `${R.id}: gist answer correct at position ${R.gist.answer}`);
+    for (let di = 0; di < R.details.length; di++) {
+      $(`[data-lp-reveal="${di}"]`).click(); await tick(20);
+      assert.ok($$('.lp-detail .lp-answer')[di].textContent.includes(R.details[di].a), `${R.id}: detail answer text renders`);
+    }
+    $('[data-lp-step="5"]').click(); await tick(40);
+    const p5 = $$('.lp-panel').find(p => p.dataset.panel === '5').textContent;
+    assert.ok(p5.includes(R.task.prompt), `${R.id}: self-speaking prompt renders`);
+    $('[data-lp-sample]').click(); await tick(20);
+    assert.ok(p5.includes(R.task.sampleNote), `${R.id}: self-speaking note renders`);
+    assert.ok(p5.includes(R.task.sample.zh), `${R.id}: self-speaking sample renders`);
+  }
+  // Word lookup from a Bai 3 transcript line (手机 in video 1).
+  $$('[data-lp-video]')[0].click(); await tick(60);
+  $('[data-lp-step="3"]').click(); await tick(40);
+  const wzWord = $$('[data-panel="3"] .wz').find(w => w.textContent.includes('手机'));
+  assert.ok(wzWord, 'Bai 3 transcript exposes tappable words');
+  wzWord.click(); await tick(60);
+  const popup = $('#wzPopup');
+  assert.ok(popup && !popup.hidden, 'word-lookup popup opens from the Bai 3 transcript');
+  assert.ok(/sh[oǒòó]u/.test(popup.textContent) || popup.textContent.includes('手机'), 'lookup popup shows the word with Pinyin');
+  const root = savedState();
+  assert.ok(root.lessons['hz-h1-9e4bde0a04dc'], 'Bai 3 progress saved under its own lesson key');
+  assert.equal(root.lessons['hz-h1-64d354d405bb'], undefined, 'Bai 1 bucket untouched in this scenario');
+  assert.equal(root.lessons['hz-h1-f05455e3c9c0'], undefined, 'Bai 2 bucket untouched in this scenario');
+  assert.equal(root.lessons['hz-h2-0f9648e9dded'], undefined, 'pilot bucket untouched in this scenario');
+  console.log('PASS deep4: fourth lesson (HSK 1 · Bài 3) runs through the same module, all 5 videos render fully, clip mode, per-lesson progress isolation.');
 }
