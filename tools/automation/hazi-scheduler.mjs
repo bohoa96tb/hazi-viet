@@ -56,10 +56,10 @@ async function run() {
   if (!pending) throw new Error('Pending-action heading absent');
   const done = progress.completedCount;
   const total = checkpoint.scopeTotal;
-  if (!Number.isInteger(done) || done !== checkpoint.completedCount ||
-      !Number.isInteger(total) || done < 0 || done > total) {
-    throw new Error('Vocabulary progress/checkpoint mismatch');
+  if (!Number.isInteger(done) || !Number.isInteger(total) || done < 0 || done > total) {
+    throw new Error('Invalid vocabulary progress source');
   }
+  const mismatch = done !== checkpoint.completedCount;
 
   const [prs, entries] = await Promise.all([
     paginate('/pulls?state=open'),
@@ -72,7 +72,8 @@ async function run() {
   const tasks = issues.filter(i => i.state === 'open' &&
     (i.body || '').includes(taskMark));
   const waitingConsent = /chỉ làm khi người dùng nhắn|chờ người dùng|chờ xác nhận/i.test(pending);
-  const status = prs.length ? 'TẠM DỪNG — PR đang mở'
+  const status = mismatch ? 'CHẶN — progress.json và checkpoint.json không khớp'
+    : prs.length ? 'TẠM DỪNG — PR đang mở'
     : tasks.length ? 'ĐÃ XẾP HÀNG — chờ xử lý Issue'
     : waitingConsent ? 'CHỜ XÁC NHẬN CỦA NGƯỜI DÙNG'
     : 'SẴN SÀNG XẾP HÀNG';
@@ -90,7 +91,9 @@ async function run() {
     '> GitHub Actions cập nhật từ main, không phải trạng thái nội bộ của Muse.',
     '',
     '- Main SHA: ' + sha,
-    '- Từ vựng: **' + done + '/' + total + '** (không gồm tiến độ Thực hành)',
+    '- Từ vựng theo progress.json: **' + done + '/' + total + '** (không gồm tiến độ Thực hành)',
+    '- Chỉ số checkpoint.json: **' + checkpoint.completedCount + '/' + total + '**',
+    '- Đối chiếu: **' + (mismatch ? 'LỆCH — cần con người xác minh' : 'KHỚP về số lượng') + '**',
     '- Trạng thái: **' + status + '**',
     '- Hành động trong checkpoint: ' + short(pending),
     '',
@@ -116,7 +119,7 @@ async function run() {
   }
 
   let newTask = null;
-  if (!prs.length && !tasks.length && !waitingConsent) {
+  if (!mismatch && !prs.length && !tasks.length && !waitingConsent) {
     const fingerprint = crypto.createHash('sha256')
       .update(md + '\n' + pending).digest('hex').slice(0, 20);
     const previous = issues.find(i => (i.body || '').includes(taskMark) &&
@@ -148,7 +151,8 @@ async function run() {
     '## HAZI-VIET scheduler',
     '',
     '- Main: ' + sha,
-    '- Vocabulary: ' + done + '/' + total,
+    '- Vocabulary (progress): ' + done + '/' + total,
+    '- Vocabulary (checkpoint): ' + checkpoint.completedCount + '/' + total,
     '- State: ' + status,
     '- Open PRs: ' + prs.length,
     '- Open task Issues: ' + tasks.length,
