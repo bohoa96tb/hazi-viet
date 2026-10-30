@@ -65,5 +65,47 @@ for(const id of p.batches.at(-1).wordIds){
  else{assert(!document.querySelector('.feedback'));assert(!document.querySelector('[data-v2-hint]'));}
  assert.equal(document.querySelectorAll('[data-reveal-check]').length,word.lesson.checks.length);
 }
+// --- Audio display toggles: Pinyin từ / Câu ví dụ / Pinyin câu ---
+const tick=ms=>new Promise(r=>setTimeout(r,ms));
+window.location.hash='audio';await tick(60);
+const tgl=k=>document.querySelector('[data-audio-display="'+k+'"]');
+for(const k of ['wordPinyin','example','examplePinyin']){assert(tgl(k),'toggle exists: '+k);assert.equal(tgl(k).getAttribute('aria-pressed'),'false','toggle off by default: '+k)}
+assert($('#playerWordPinyin').hidden&&$('#playerExample').hidden&&$('#playerExamplePinyin').hidden,'all three display lines hidden by default');
+const w0=d.words[0];
+click('#audioPlay');await tick(30);
+assert.equal($('#playerState').textContent,'Đang phát');
+const spokenBefore=speech.length;
+tgl('wordPinyin').click();
+assert.equal(tgl('wordPinyin').getAttribute('aria-pressed'),'true');
+assert(!$('#playerWordPinyin').hidden);assert.equal($('#playerWordPinyin').textContent,'wǒ');
+assert.equal(speech.length,spokenBefore,'toggling must not restart, replay or skip speech');
+assert.equal($('#playerState').textContent,'Đang phát','toggling must not pause playback');
+tgl('examplePinyin').click();
+assert($('#playerExamplePinyin').hidden,'sentence pinyin stays hidden while the sentence itself is hidden');
+tgl('example').click();
+assert(!$('#playerExample').hidden);assert.equal($('#playerExample').textContent,w0.examples[0].zh);
+assert($('#playerExamplePinyin').hidden,'no verified pinyin available in this harness -> line hidden, never fabricated');
+click('[data-player="next"]');await tick(30);
+assert.equal($('#playerWord').textContent,'你');assert.equal($('#playerWordPinyin').textContent,'nǐ');assert.equal($('#playerExample').textContent,d.words[1].examples[0].zh);
+document.querySelector('[name="audioMode"][value="context"]').click();await tick(30);
+assert.equal(tgl('wordPinyin').getAttribute('aria-pressed'),'true','toggles survive a mode switch');
+assert(!$('#playerExample').hidden,'example line still shown after mode switch');
+const ai=d.words.findIndex(w=>w.examples&&w.examples[0]&&w.examples[0].pinyin);
+assert(ai>=0,'fixture: a word whose first example carries authored pinyin');
+const aw=d.words[ai];
+$('#audioScope').value='range';$('#audioScope').dispatchEvent(new window.Event('change',{bubbles:true}));
+$('#audioFrom').value=String(ai+1);$('#audioFrom').dispatchEvent(new window.Event('input',{bubbles:true}));
+$('#audioTo').value=String(ai+1);$('#audioTo').dispatchEvent(new window.Event('input',{bubbles:true}));await tick(30);
+assert.equal($('#playerExample').textContent,aw.examples[0].zh);
+assert(!$('#playerExamplePinyin').hidden);assert.equal($('#playerExamplePinyin').textContent,aw.examples[0].pinyin,'authored example pinyin shown verbatim');
+assert.deepEqual(JSON.parse(window.localStorage.getItem('hanzi-viet-audio-display-v1')),{wordPinyin:true,example:true,examplePinyin:true},'toggle states persisted');
+window.location.hash='words';await tick(40);window.location.hash='audio';await tick(60);
+assert.equal(tgl('example').getAttribute('aria-pressed'),'true','toggle states restored when re-entering the audio view');
+document.querySelector('[name="audioMode"][value="quick"]').click();await tick(30);
+click('#audioPlay');await tick(30);
+for(let i=0;i<8&&$('#playerState').textContent!=='Đã nghe hết';i++){speech.at(-1).onend?.();await tick(480)}
+assert.equal($('#playerState').textContent,'Đã nghe hết','one-word plan completes');
+assert.equal($('#audioPlay').textContent,'Nghe lại từ đầu');
+click('#audioPlay');await tick(30);assert.equal($('#playerState').textContent,'Đang phát','replay from the start works after completion');
 console.log('PASS DOM: V1/V2 loader, two examples, audio dispatch, hidden answers, persisted drafts across redraw, three hint levels, review, favorite, search and trap paging; all latest-batch routes, empty traps and question counts. DOM simulation only; no visual layout/device playback certification.');
 window.happyDOM.abort();window.close();process.exit(0);

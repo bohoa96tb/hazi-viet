@@ -143,3 +143,10 @@ body:has(.word-dashboard) main{max-width:960px;padding-top:20px}.compact-heading
 .lp-extra{margin-top:16px;border:1px dashed #9db8ab;border-radius:12px;padding:10px 14px;background:#fbfdfc}
 .lp-extra summary{cursor:pointer;font-weight:600;color:#153c32}
 .lp-extra .lp-player{margin:10px 0}
+.player-toggles{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+.player-toggle{min-height:40px;padding:7px 14px;border-radius:999px;border:1px solid #ffffff45;background:transparent;color:#c6d4be;font-size:12.5px;cursor:pointer}
+.player-toggle.on{background:var(--cream);color:var(--ink);border-color:var(--cream);font-weight:600}
+.player-word-pinyin{text-align:center;color:#d4b771;font-size:19px;line-height:1.4;margin:18px 0 -14px}
+.player-example{text-align:center;font-family:serif;font-size:23px;line-height:1.55;margin:12px 0 0;overflow-wrap:anywhere}
+.player-example-pinyin{text-align:center;color:#d4b771;font-size:15.5px;line-height:1.5;margin:5px 0 0;overflow-wrap:anywhere}
+.player-word-pinyin[hidden],.player-example[hidden],.player-example-pinyin[hidden]{display:none}
