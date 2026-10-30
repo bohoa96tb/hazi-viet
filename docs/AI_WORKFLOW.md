@@ -90,3 +90,24 @@ và bằng chứng nào thì được coi là xong**.
 - Phía Muse, skill `hazi_viet_ai_manager` (custom skill của người dùng) tóm tắt quy trình
   này và yêu cầu đọc bản gốc tại đây trước khi phân công. Nếu skill và file này lệch nhau,
   file trong repository là bản đúng.
+
+## Quy tắc phê duyệt (cập nhật 2026-10-30 theo chỉ thị của người dùng)
+
+Hệ thống Multi-Agent phải tự động tối đa trong phạm vi đã được phép, nhưng merge vào `main`
+là hành động nhạy cảm và luôn cần phê duyệt riêng của người dùng.
+
+1. **Tự động trong phạm vi đã phép.** Các Agent tự nhận nhiệm vụ từ checkpoint, phân công,
+   viết code/dữ liệu, chạy kiểm thử, sửa lỗi và tạo Pull Request — không hỏi lại từng bước
+   những việc người dùng đã cho phép trong đợt.
+2. **Không xin merge khi chưa đủ điều kiện.** Không Agent nào được yêu cầu merge (và không
+   được merge) khi QA chưa đạt hoặc còn kiểm chứng bắt buộc chưa hoàn thành. PR ở trạng thái
+   chờ phải ghi rõ mục QA/kiểm chứng nào còn thiếu.
+3. **Chỉ Manager của đợt mới điều phối merge.** Agent con và Agent từ các cuộc trò chuyện
+   khác không tự ý merge PR ngoài quy trình Manager đang kiểm soát của đợt đó. Mọi merge phải
+   do Manager của đợt thực hiện sau khi QA đạt và có phê duyệt của người dùng.
+4. **Dùng quyền đã cấp, không vượt rào.** Các quyền đọc và ghi ít nhạy cảm dùng quyền đã cấp
+   nếu Muse hỗ trợ. Không tìm cách vượt qua, lách hoặc vô hiệu hóa hộp thoại phê duyệt bảo mật;
+   bị chặn thì dừng đúng bước đó và báo Manager/người dùng.
+5. **Chỉ xin phê duyệt việc thật sự nhạy cảm.** Chỉ yêu cầu người dùng phê duyệt hành động
+   nhạy cảm thật sự cần thiết — đặc biệt là **merge vào `main`** — và xin một lần cho đúng
+   hành động đó, kèm trạng thái QA. Việc thường quy trong phạm vi đã phép không xin lại.
