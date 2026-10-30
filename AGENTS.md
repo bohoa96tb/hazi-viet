@@ -53,3 +53,7 @@ Từ đơn giản đi thẳng vào nghĩa/cách dùng, ví dụ tự nhiên phù
 - **Đợt bổ sung Thực hành đang hiệu lực**: tạm dừng biên soạn từ mới. Đi theo thứ tự HSK1 bài 1 → hết HSK1 → cấp tiếp theo; chỉ làm bài đã xong từ vựng (mọi từ có bài V2 hoàn chỉnh — đủ 24 mục từ không mặc nhiên là xong) mà chưa có Thực hành đạt chuẩn. Bài chưa xong từ vựng: ghi trạng thái + phần thiếu vào checkpoint, không tự làm từ vựng, chuyển bài kế tiếp. Bài đã có Thực hành đạt chuẩn: ghi nhận, bỏ qua.
 - Điểm dừng khi biên soạn từ vựng (ngoài đợt bổ sung): một bài xong từ vựng thì dừng trước từ đầu tiên của bài kế, hỏi người dùng có làm Thực hành cuối bài đó không; chỉ làm khi được xác nhận; batch không vượt ranh giới bài.
 - “Tiếp tục” hiểu theo trạng thái ở checkpoint Thực hành (đang dở việc gì thì làm tiếp việc đó; đang chờ xác nhận Thực hành thì là xác nhận; trong đợt bổ sung thì không chuyển sang từ mới). Một lượt “Tiếp tục” không vượt nhiều điểm dừng. Hành động đang chờ phải ghi ở checkpoint.
+
+## Điều phối AI Manager
+
+- Khi một nhiệm vụ được chia cho nhiều vai trò AI (Manager, Chinese Expert, Developer, QA), làm theo `docs/AI_WORKFLOW.md`: QA phải độc lập với Developer, chỉ một agent ghi vào cùng một phạm vi file tại một thời điểm, tối đa 3 vòng sửa, và không tuyên bố đạt khi chưa có bằng chứng đã chạy thật.
