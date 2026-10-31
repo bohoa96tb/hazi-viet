@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 3,
  "authorship": {
   "type": "human-video",
   "label": "Video người thật có sẵn trên YouTube (không phải giọng AI, không phải giọng đọc của thiết bị).",
@@ -7,7 +7,7 @@
   "voiceVerification": "Cả 5 video đều đã được phát thử trên YouTube ngày 30/10/2026: người thật đóng vai, nói tiếng Trung phổ thông rõ ràng; lời thoại nghe được khớp đúng thứ tự với trang bài học chính thức của từng video; cả 5 đều có tùy chọn nhúng chính thức, không có thông báo tắt nhúng. Riêng CS4-4123: bản phụ đề ngắn hơn bản chính khoảng 1 giây nên ranh giới câu có thể lệch ~1 giây khi xem bản phụ đề.",
   "transcriptSource": "Lời thoại lấy nguyên văn từ trang bài học chính thức của Chinese Station cho đúng từng video (CS4-4113, CS4-4120, CS4-4123, CS4-4105, CS4-0805) và đã đối chiếu khi phát thử video.",
   "vietnamese": "Nghĩa tiếng Việt, câu hỏi, đáp án và gợi ý tự nói do đội ngũ biên soạn của app viết từ nội dung thật của video, trong phạm vi quyền sử dụng dưới đây.",
-  "note": "5 video dài 14–42 giây; 3 video nghe từng câu với mốc đo từ phụ đề cháy (sai số ±1 giây), 2 video nghe cả đoạn (một video 14 giây, một video 4 câu rất dài). Bài được ưu tiên làm trước theo yêu cầu trực tiếp của người học ngày 30/10/2026. Chưa kiểm chứng trên thiết bị Android thật.",
+  "note": "9 video dài 14–42 giây; 7 video nghe từng câu với mốc đo từ phụ đề cháy (sai số ±1 giây), 2 video nghe cả đoạn. Bài được ưu tiên và nới giới hạn số video theo phê duyệt trực tiếp của người học ngày 30–31/10/2026. Chưa kiểm chứng trên thiết bị Android thật.",
   "rights": "Video của Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai (Chinese Station): nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi nguồn. App nhúng trình phát YouTube chính thức và ghi nguồn tại từng video; không sao chép, không đăng lại video."
  },
  "references": [
@@ -38,6 +38,22 @@
   {
    "title": "CS4-2511 — trang bài học chính thức",
    "url": "https://www.ch-station.org/cs4-2511/"
+  },
+  {
+   "title": "CS4-2511 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-2511/"
+  },
+  {
+   "title": "CS4-2517 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-2517/"
+  },
+  {
+   "title": "CS4-2710 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-2710/"
+  },
+  {
+   "title": "CS4-0214 — trang bài học chính thức",
+   "url": "https://www.ch-station.org/cs4-0214/"
   }
  ],
  "lesson": {
@@ -73,10 +89,10 @@
    "hz-h2-d9e3436ea701",
    "hz-h2-7075db2d5f31"
   ],
-  "note": "Bài 5 gồm nhiều từ về cảm xúc và miêu tả. Bộ 5 video người thật rất ngắn (14–42 giây) phủ 6/24 từ đã xác minh nghe được trong lời thoại: 心情，安静，有意思，方便，漂亮，快乐. 18 từ còn thiếu: 便宜，公平，关心，友好，可爱，实在，平等，开心，感动，故事，热情，笑话，自由，舒服，随便，难受，难过，顺利. Lưu ý: 快乐 nằm trong câu chúc chuẩn 祝你生日快乐 — cách dùng phổ biến nhất của từ này. Ứng viên có 便宜 (CS4-1616) chưa từng được quay nên không dùng được; ứng viên có 舒服 ở dạng phủ định 不舒服 (CS4-2511, đi khám) đã kiểm chứng được nhưng phải nhường chỗ vì mỗi bài tối đa 5 video — đây là ứng viên đầu tiên khi bộ được mở rộng. Khi có nguồn phù hợp sẽ bổ sung sau."
+  "note": "Bài 5 gồm nhiều từ về cảm xúc và miêu tả. Bộ video người thật (14–42 giây, 9 video) phủ 10/24 từ đã xác minh nghe được trong lời thoại: 心情，安静，有意思，方便，漂亮，快乐，舒服，关心，可爱，顺利. 14 từ còn thiếu: 便宜，公平，友好，实在，平等，开心，感动，故事，热情，笑话，自由，随便，难受，难过. Lưu ý ranh giới từ: 快乐 nằm trong câu chúc chuẩn 祝你生日快乐； 舒服 được tính trong 不舒服 vì 不 là từ phủ định độc lập và 舒服 giữ nguyên nghĩa của bài (xem ghi chú ở CS4-2511). 便宜 có video mặc cả thật ở sạp chợ (CS4-EXTRA-001) nhưng là footage tự do 100 câu, giọng chợ nhanh và nhiều tiếng địa phương — dưới chuẩn nghe cho HSK2 nên không dùng; bản hội thoại có kịch bản CS4-1616 thì chưa từng được quay. 随便 cũng chỉ có ở trang chưa quay (CS4-1605). Bài này được chủ dự án phê duyệt nới giới hạn 5 video (31/10/2026) để bổ sung dần các từ còn thiếu khi có nguồn đạt chuẩn."
  },
  "prepare": {
-  "focus": "Nghe sáu tình huống ngắn quanh cảm xúc và sinh hoạt: tâm trạng không tốt vì phòng bên ồn, học ở quán cà phê yên tĩnh, hẹn đi xem phim, nạp tiền thẻ ở đâu tiện, tặng quà sinh nhật, đi khám vì khó chịu. Nghe từ khóa trước: 心情，安静，有意思，方便，漂亮，不舒服。",
+  "focus": "Nghe các tình huống ngắn quanh cảm xúc và sinh hoạt: tâm trạng không tốt vì phòng bên ồn, học ở quán cà phê yên tĩnh, hẹn đi xem phim, nạp tiền thẻ ở đâu tiện, tặng quà sinh nhật, đi khám, hỏi thăm bạn bị cảm, bạn mới quen bạn gái, đón bạn ở sân bay. Nghe từ khóa trước: 心情，安静，有意思，方便，漂亮，不舒服，关心，可爱，顺利。",
   "distractors": [
    "静音耳塞 trong CS4-4113 chứa chữ 静 nhưng thuộc từ 静音 — không phải 安静 của bài; 安静 chỉ tính ở CS4-4120.",
    "CS4-1616 có từ 便宜 trong lời thoại in trên trang nhưng video chưa từng quay （未撮影） nên không được tính và không dùng.",
@@ -833,6 +849,660 @@
    ],
    "compareNote": "快乐 ở video này nằm trong câu chúc cố định 祝你生日快乐 — đó là cách dùng chuẩn và phổ biến nhất của 快乐 nên vẫn tính là từ xuất hiện; khi bạn muốn nói “vui” ngoài câu chúc, app sẽ bổ sung ví dụ khác sau. 漂亮 được khen trực tiếp cho món quà.",
    "timingNote": "Nghe cả đoạn vì video chỉ 14 giây và các câu nối nhau nhanh; mốc tham khảo từ phụ đề cháy (sai số khoảng ±1 giây); hai bản dài bằng nhau."
+  },
+  {
+   "id": "cs4-2511",
+   "lessonCode": "CS4-2511",
+   "kind": "youtube",
+   "channel": "cnstation",
+   "title": "Đi khám vì bụng khó chịu",
+   "situation": "Ở bệnh viện, bệnh nhân đau bụng từ tối hôm qua sau khi ăn thịt nướng; bác sĩ hỏi thêm rồi bảo đi xét nghiệm.",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "sourcePage": "https://www.ch-station.org/cs4-2511/",
+   "watchUrl": "https://www.youtube.com/watch?v=GKfUMhY-mcU",
+   "videoId": "GKfUMhY-mcU",
+   "subtitleVideoId": "jLbR7jC64ho",
+   "fullVideoId": "824TkPPMZ48",
+   "durationSec": 24,
+   "durationNote": "Video 24 giây; hội thoại gần như toàn bộ video",
+   "voiceLabel": "Người thật đóng hội thoại — các diễn viên của Chinese Station",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không tải lại hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; bản chính đã phát thử, lời thoại khớp trang nguồn và có tùy chọn nhúng chính thức (30/10/2026).",
+   "goal": "Nghe và nắm được: bệnh nhân khó chịu ở đâu, từ khi nào, và bác sĩ bảo làm gì tiếp theo.",
+   "prepWords": [
+    {
+     "zh": "肚子疼",
+     "vi": "đau bụng"
+    },
+    {
+     "zh": "烤肉",
+     "vi": "thịt nướng"
+    },
+    {
+     "zh": "化验",
+     "vi": "xét nghiệm"
+    }
+   ],
+   "addsNewWords": [
+    "舒服"
+   ],
+   "gist": {
+    "q": "Bệnh nhân đến khám vì sao?",
+    "options": [
+     "Đau bụng từ tối hôm qua, sau khi ăn thịt nướng",
+     "Bị cảm và ho nhiều",
+     "Đau răng nên không ăn được"
+    ],
+    "answer": 0,
+    "explain": "Anh nói 我肚子疼，疼得厉害 — tôi đau bụng, đau dữ lắm, và cơn đau bắt đầu từ tối hôm qua sau bữa thịt nướng."
+   },
+   "details": [
+    {
+     "q": "Sau khi hỏi xong, bác sĩ bảo bệnh nhân làm gì?",
+     "options": [
+      "Về nhà nghỉ ngơi",
+      "Đi xét nghiệm",
+      "Uống thuốc rồi về"
+     ],
+     "answer": 1,
+     "a": "Đi xét nghiệm",
+     "explain": "Bác sĩ nói 好，去化验一下吧 — được, đi xét nghiệm một chút nhé."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "N",
+     "name": "医生",
+     "zh": "你哪儿不舒服了？",
+     "vi": "Bạn khó chịu ở đâu?",
+     "start": 0,
+     "end": 3.5,
+     "words": [
+      "hz-h2-ca8084e47e2b"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "山本翔大",
+     "zh": "大夫，我肚子疼，疼得厉害。",
+     "vi": "Bác sĩ, tôi đau bụng, đau dữ lắm.",
+     "start": 3.5,
+     "end": 6.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "医生",
+     "zh": "从什么时候开始的？",
+     "vi": "Bắt đầu từ khi nào?",
+     "start": 6.5,
+     "end": 9.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "山本翔大",
+     "zh": "昨天晚上。",
+     "vi": "Từ tối hôm qua.",
+     "start": 9.5,
+     "end": 12.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "医生",
+     "zh": "晚饭吃什么了？",
+     "vi": "Bữa tối bạn đã ăn gì?",
+     "start": 12.5,
+     "end": 15,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "山本翔大",
+     "zh": "吃的烤肉。",
+     "vi": "Tôi ăn thịt nướng.",
+     "start": 15,
+     "end": 19.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "医生",
+     "zh": "好，去化验一下吧。",
+     "vi": "Được, đi xét nghiệm một chút nhé.",
+     "start": 19.5,
+     "end": 23.5,
+     "words": []
+    }
+   ],
+   "repeat": [
+    1
+   ],
+   "task": {
+    "prompt": "Nói cho bác sĩ biết bạn khó chịu ở đâu và bắt đầu từ khi nào.",
+    "frame": "我___不舒服，从___开始的。",
+    "sample": {
+     "zh": "我肚子不舒服，从昨天晚上开始的。",
+     "vi": "Tôi khó chịu ở bụng, bắt đầu từ tối hôm qua."
+    },
+    "sampleNote": "Chỗ trống đầu điền bộ phận cơ thể （肚子 / 头 / 胃）, chỗ trống sau điền thời điểm bắt đầu （昨天晚上 / 今天早上…)."
+   },
+   "listeningNotes": [
+    "你哪儿不舒服了？ là câu hỏi mở đầu kinh điển khi đi khám — 不舒服 ở đây nghĩa là “không khỏe / khó chịu trong người”.",
+    "疼得厉害 — “đau dữ lắm”: 得 nối động từ với mức độ, đúng cấu trúc đã học ở các bài trước."
+   ],
+   "compareNote": "舒服 ở đây xuất hiện trong 不舒服. Theo quy tắc ranh giới từ của dự án, 不舒服 được tính là có 舒服: 不 là từ phủ định độc lập đứng trước, còn 舒服 giữ nguyên đúng nghĩa của bài (“dễ chịu, thoải mái”) bị phủ định thành “khó chịu” — cùng logic với 电 được tính trong 手机没电了 ở HSK1 Bài 3, khác với 生 trong 留学生 (hậu tố tạo từ khác hẳn). Dạng khẳng định của 舒服 （这张床很舒服） chưa có trong bộ.",
+   "timingNote": "Mốc từng câu đo từ phụ đề cháy của bản có phụ đề (sai số khoảng ±1 giây); hai bản dài bằng nhau (24 giây) nên dùng chung một bộ mốc. Video được bổ sung ở đợt mở rộng 31/10/2026 theo phê duyệt của người học (nới giới hạn 5 video cho bài này)."
+  },
+  {
+   "kind": "youtube",
+   "channel": "cnstation",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "voiceLabel": "Người thật đóng hội thoại — các diễn viên của Chinese Station",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không tải lại hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; bản chính đã phát thử, lời thoại khớp trang nguồn và có tùy chọn nhúng chính thức (31/10/2026).",
+   "id": "cs4-2517",
+   "lessonCode": "CS4-2517",
+   "title": "Hỏi thăm bạn bị cảm qua điện thoại",
+   "situation": "Lili gọi điện hỏi thăm bạn đang bị cảm; bạn đã đỡ hơn, còn sốt nhẹ, được dặn uống thuốc đúng giờ và nghỉ ngơi, cuối cuộc gọi cảm ơn bạn đã quan tâm.",
+   "sourcePage": "https://www.ch-station.org/cs4-2517/",
+   "watchUrl": "https://www.youtube.com/watch?v=lkvHlj0jytc",
+   "videoId": "lkvHlj0jytc",
+   "subtitleVideoId": "c6qm5JAnhIw",
+   "fullVideoId": "2fyR446ScUM",
+   "durationSec": 32,
+   "durationNote": "Video 32 giây; hội thoại gần như toàn bộ video",
+   "goal": "Nghe và nắm được: tình hình cảm cúm của bạn thế nào, và lời dặn cuối cuộc gọi là gì.",
+   "prepWords": [
+    {
+     "zh": "感冒",
+     "vi": "cảm cúm"
+    },
+    {
+     "zh": "发烧",
+     "vi": "sốt"
+    },
+    {
+     "zh": "症状",
+     "vi": "triệu chứng"
+    },
+    {
+     "zh": "按时吃药",
+     "vi": "uống thuốc đúng giờ"
+    }
+   ],
+   "addsNewWords": [
+    "关心"
+   ],
+   "gist": {
+    "q": "Lili gọi điện cho bạn để làm gì?",
+    "options": [
+     "Nhờ bạn mua thuốc giúp",
+     "Hẹn bạn đi chơi cuối tuần",
+     "Hỏi thăm tình hình cảm cúm của bạn"
+    ],
+    "answer": 2,
+    "explain": "Ngay câu đầu cô hỏi 你的感冒怎么样了？ — cảm cúm của bạn thế nào rồi, và cả cuộc gọi xoay quanh việc hỏi thăm sức khỏe."
+   },
+   "details": [
+    {
+     "q": "Bây giờ bạn ấy còn sốt không?",
+     "options": [
+      "Không sốt nữa",
+      "Còn sốt nhẹ, khoảng 37 độ rưỡi",
+      "Sốt cao 39 độ"
+     ],
+     "answer": 1,
+     "a": "Còn sốt nhẹ, khoảng 37 độ rưỡi",
+     "explain": "Cô nói 三十七度五左右 — khoảng 37 độ rưỡi, tức vẫn còn sốt nhẹ."
+    },
+    {
+     "q": "Lili dặn bạn điều gì ở cuối cuộc gọi?",
+     "options": [
+      "Đi bệnh viện ngay",
+      "Uống thuốc đúng giờ và nghỉ ngơi cho tốt",
+      "Uống nhiều nước lạnh"
+     ],
+     "answer": 1,
+     "a": "Uống thuốc đúng giờ và nghỉ ngơi cho tốt",
+     "explain": "Cô dặn 你得按时吃药，好好儿休息 — phải uống thuốc đúng giờ, nghỉ ngơi cho tốt."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "你的感冒怎么样了？",
+     "vi": "Cảm cúm của bạn thế nào rồi?",
+     "start": 0,
+     "end": 2.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "比昨天好一点儿了。",
+     "vi": "Đỡ hơn hôm qua một chút rồi.",
+     "start": 2.5,
+     "end": 5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "现在还发烧吗？",
+     "vi": "Bây giờ còn sốt không?",
+     "start": 5,
+     "end": 7.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "三十七度五左右。",
+     "vi": "Khoảng 37 độ rưỡi.",
+     "start": 7.5,
+     "end": 10.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "还有其他症状吗？",
+     "vi": "Còn triệu chứng nào khác không?",
+     "start": 10.5,
+     "end": 13.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "没有，就是胃有一点不舒服。",
+     "vi": "Không, chỉ là dạ dày hơi khó chịu.",
+     "start": 13.5,
+     "end": 16.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "大夫怎么说的？",
+     "vi": "Bác sĩ nói sao?",
+     "start": 16.5,
+     "end": 19,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "大夫说是感冒，叫我好好儿休息。",
+     "vi": "Bác sĩ bảo là cảm cúm, dặn mình nghỉ ngơi cho tốt.",
+     "start": 19,
+     "end": 21.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "对，你得按时吃药，好好儿休息。",
+     "vi": "Ừ, bạn phải uống thuốc đúng giờ và nghỉ ngơi cho tốt.",
+     "start": 21.5,
+     "end": 26,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "铃木优美",
+     "zh": "谢谢你的关心。",
+     "vi": "Cảm ơn bạn đã quan tâm.",
+     "start": 26,
+     "end": 31.5,
+     "words": [
+      "hz-h2-4e4202e86caf"
+     ]
+    }
+   ],
+   "repeat": [
+    10
+   ],
+   "task": {
+    "prompt": "Gọi điện hỏi thăm một người bạn đang ốm và dặn bạn ấy nghỉ ngơi.",
+    "frame": "你的___怎么样了？你得___，好好儿休息。",
+    "sample": {
+     "zh": "你的感冒怎么样了？你得按时吃药，好好儿休息。",
+     "vi": "Cảm cúm của bạn thế nào rồi? Bạn phải uống thuốc đúng giờ và nghỉ ngơi cho tốt."
+    },
+    "sampleNote": "Chỗ trống đầu điền bệnh/tình trạng （感冒 / 身体）, chỗ trống sau điền việc cần làm đúng giờ （按时吃药 / 按时休息…)."
+   },
+   "listeningNotes": [
+    "谢谢你的关心 là câu cảm ơn chuẩn khi được hỏi thăm — 关心 ở đây là danh từ “sự quan tâm”.",
+    "三十七度五 đọc là “37 độ rưỡi”: số lẻ sau độ đọc gọn như vậy trong giao tiếp."
+   ],
+   "compareNote": "Video này bổ sung 关心 cho bộ; câu cuối cũng là mẫu câu cảm ơn vì được quan tâm dùng được nguyên vẹn ngoài đời.",
+   "timingNote": "Mốc từng câu đo từ phụ đề cháy của bản có phụ đề (sai số khoảng ±1 giây); hai bản dài bằng nhau (32 giây) nên dùng chung một bộ mốc. Bổ sung ở đợt mở rộng 31/10/2026."
+  },
+  {
+   "kind": "youtube",
+   "channel": "cnstation",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "voiceLabel": "Người thật đóng hội thoại — các diễn viên của Chinese Station",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không tải lại hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; bản chính đã phát thử, lời thoại khớp trang nguồn và có tùy chọn nhúng chính thức (31/10/2026).",
+   "id": "cs4-2710",
+   "lessonCode": "CS4-2710",
+   "title": "Bạn mới quen bạn gái",
+   "situation": "Shōta hỏi thăm về bạn gái mới quen của Tiểu Minh: cô tính tình dịu dàng, dễ thương, hai người quen nhau ở buổi liên hoan, cô làm ở nhà xuất bản.",
+   "sourcePage": "https://www.ch-station.org/cs4-2710/",
+   "watchUrl": "https://www.youtube.com/watch?v=_JSO2UqBERw",
+   "videoId": "_JSO2UqBERw",
+   "subtitleVideoId": "uVoE7vFApT4",
+   "fullVideoId": "f-ZyImj07k0",
+   "durationSec": 24,
+   "durationNote": "Video 24 giây; hội thoại gần như toàn bộ video",
+   "goal": "Nghe và nắm được: bạn gái mới của Tiểu Minh là người thế nào, và hai người quen nhau ở đâu.",
+   "prepWords": [
+    {
+     "zh": "女朋友",
+     "vi": "bạn gái"
+    },
+    {
+     "zh": "性格",
+     "vi": "tính cách"
+    },
+    {
+     "zh": "温和",
+     "vi": "dịu dàng, hòa nhã"
+    },
+    {
+     "zh": "出版社",
+     "vi": "nhà xuất bản"
+    }
+   ],
+   "addsNewWords": [
+    "可爱"
+   ],
+   "gist": {
+    "q": "Theo Tiểu Minh, bạn gái của anh là người thế nào?",
+    "options": [
+     "Tính tình dịu dàng, người rất dễ thương",
+     "Rất nghiêm khắc và ít nói",
+     "Thích thể thao và nấu ăn"
+    ],
+    "answer": 0,
+    "explain": "Anh nói 她性格很温和，人也很可爱 — cô ấy tính tình rất dịu dàng, người cũng rất dễ thương."
+   },
+   "details": [
+    {
+     "q": "Hai người quen nhau ở đâu?",
+     "options": [
+      "Ở công ty",
+      "Ở buổi liên hoan lần trước",
+      "Qua mạng xã hội"
+     ],
+     "answer": 1,
+     "a": "Ở buổi liên hoan lần trước",
+     "explain": "Anh nói 是在上次联谊会上认识的 — quen nhau ở buổi liên hoan lần trước."
+    },
+    {
+     "q": "Cô ấy làm việc ở đâu?",
+     "options": [
+      "Ở trường học",
+      "Ở bệnh viện",
+      "Ở nhà xuất bản"
+     ],
+     "answer": 2,
+     "a": "Ở nhà xuất bản",
+     "explain": "Anh nói 她在出版社工作 — cô ấy làm ở nhà xuất bản."
+    }
+   ],
+   "lines": [
+    {
+     "speaker": "N",
+     "name": "山本翔大",
+     "zh": "你是不是有女朋友了？",
+     "vi": "Có phải bạn có bạn gái rồi không?",
+     "start": 0,
+     "end": 2,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "对，最近刚刚认识了一个。",
+     "vi": "Ừ, gần đây mới quen một cô.",
+     "start": 2,
+     "end": 4.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "山本翔大",
+     "zh": "恭喜你。她人怎么样？",
+     "vi": "Chúc mừng nhé. Cô ấy là người thế nào?",
+     "start": 4.5,
+     "end": 7.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "她性格很温和，人也很可爱。",
+     "vi": "Cô ấy tính tình rất dịu dàng, người cũng rất dễ thương.",
+     "start": 7.5,
+     "end": 10.5,
+     "words": [
+      "hz-h2-c1bd431fed4e"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "山本翔大",
+     "zh": "是自己认识的还是别人介绍的？",
+     "vi": "Bạn tự quen hay được người khác giới thiệu?",
+     "start": 10.5,
+     "end": 13.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "是在上次联谊会上认识的。",
+     "vi": "Quen ở buổi liên hoan lần trước.",
+     "start": 13.5,
+     "end": 16.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "山本翔大",
+     "zh": "她是做什么工作的？",
+     "vi": "Cô ấy làm công việc gì?",
+     "start": 16.5,
+     "end": 18.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "吴小明",
+     "zh": "她在出版社工作。",
+     "vi": "Cô ấy làm ở nhà xuất bản.",
+     "start": 18.5,
+     "end": 20.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "山本翔大",
+     "zh": "祝你好运！",
+     "vi": "Chúc bạn may mắn!",
+     "start": 20.5,
+     "end": 23.5,
+     "words": []
+    }
+   ],
+   "repeat": [
+    4
+   ],
+   "task": {
+    "prompt": "Miêu tả ngắn một người bạn của bạn: tính cách và con người thế nào.",
+    "frame": "他/她性格很___，人也很___。",
+    "sample": {
+     "zh": "她性格很温和，人也很可爱。",
+     "vi": "Cô ấy tính tình rất dịu dàng, người cũng rất dễ thương."
+    },
+    "sampleNote": "Hai chỗ trống điền tính từ tả người （温和 / 热情 / 可爱 / 友好…); chọn đúng 他 hoặc 她 theo người bạn miêu tả."
+   },
+   "listeningNotes": [
+    "人也很可爱 — mẫu “tính cách…，人也很…” là cách khen người rất tự nhiên.",
+    "联谊会 là buổi giao lưu/liên hoan kết bạn, khác với tiệc sinh nhật."
+   ],
+   "compareNote": "Video này bổ sung 可爱 cho bộ; từ được nói trực tiếp khi miêu tả người, đúng nghĩa của bài.",
+   "timingNote": "Mốc từng câu đo từ phụ đề cháy của bản có phụ đề (sai số khoảng ±1 giây); hai bản dài bằng nhau (24 giây) nên dùng chung một bộ mốc. Bổ sung ở đợt mở rộng 31/10/2026."
+  },
+  {
+   "kind": "youtube",
+   "channel": "cnstation",
+   "sourceName": "Chinese Station — Chinese Station 4 （関西大学中国語教材研究会）",
+   "voiceLabel": "Người thật đóng hội thoại — các diễn viên của Chinese Station",
+   "rights": "© Nhóm nghiên cứu giáo trình tiếng Trung Đại học Kansai / Chinese Station （関西大学中国語教材研究会）. Nhóm tác giả cấm dùng thương mại, khuyến khích tạo học liệu và yêu cầu ghi credit; app nhúng trình phát YouTube chính thức, không tải lại hay đăng lại video.",
+   "access": "Miễn phí trên YouTube; bản chính đã phát thử, lời thoại khớp trang nguồn và có tùy chọn nhúng chính thức (31/10/2026).",
+   "id": "cs4-0214",
+   "lessonCode": "CS4-0214",
+   "title": "Đón bạn ở sân bay",
+   "situation": "Lili đón bạn học Tanaka vừa đến; cô hỏi chuyến đi có thuận lợi không rồi đưa bạn về khách sạn.",
+   "sourcePage": "https://www.ch-station.org/cs4-0214/",
+   "watchUrl": "https://www.youtube.com/watch?v=RozFiUcA-rY",
+   "videoId": "RozFiUcA-rY",
+   "subtitleVideoId": "z8lscIL1Znk",
+   "fullVideoId": "bjHDd9H1OJM",
+   "durationSec": 17,
+   "durationNote": "Video 17 giây; hội thoại gần như toàn bộ video",
+   "goal": "Nghe và nắm được: Lili đến đón ai, và chuyến đi của bạn ấy có thuận lợi không.",
+   "prepWords": [
+    {
+     "zh": "路上",
+     "vi": "dọc đường"
+    },
+    {
+     "zh": "宾馆",
+     "vi": "khách sạn"
+    },
+    {
+     "zh": "接",
+     "vi": "đón"
+    }
+   ],
+   "addsNewWords": [
+    "顺利"
+   ],
+   "gist": {
+    "q": "Chuyến đi của Tanaka thế nào?",
+    "options": [
+     "Bị trễ và rất mệt",
+     "Rất thuận lợi",
+     "Phải đổi máy bay giữa đường"
+    ],
+    "answer": 1,
+    "explain": "Khi được hỏi 路上顺利吗？ — dọc đường có thuận lợi không, cô trả lời 非常顺利 — rất thuận lợi."
+   },
+   "details": [],
+   "lines": [
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "对不起，你是田中同学吗？",
+     "vi": "Xin lỗi, bạn là bạn học Tanaka phải không?",
+     "start": 0,
+     "end": 2,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "田中",
+     "zh": "对，我是田中美华。",
+     "vi": "Đúng, mình là Tanaka Mika.",
+     "start": 2,
+     "end": 3,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "我是东华大学的，我叫张丽丽。",
+     "vi": "Mình ở Đại học Đông Hoa, mình tên là Trương Lệ Lệ.",
+     "start": 3,
+     "end": 5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "田中",
+     "zh": "谢谢你来接我。",
+     "vi": "Cảm ơn bạn đã đến đón mình.",
+     "start": 5,
+     "end": 7.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "不客气。路上顺利吗？",
+     "vi": "Không có gì. Dọc đường có thuận lợi không?",
+     "start": 7.5,
+     "end": 10,
+     "words": [
+      "hz-h2-7075db2d5f31"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "田中",
+     "zh": "非常顺利。",
+     "vi": "Rất thuận lợi.",
+     "start": 10,
+     "end": 11.5,
+     "words": [
+      "hz-h2-7075db2d5f31"
+     ]
+    },
+    {
+     "speaker": "N",
+     "name": "张丽丽",
+     "zh": "我送你去宾馆，这边走。",
+     "vi": "Mình đưa bạn về khách sạn, đi lối này.",
+     "start": 11.5,
+     "end": 13.5,
+     "words": []
+    },
+    {
+     "speaker": "N",
+     "name": "田中",
+     "zh": "谢谢。",
+     "vi": "Cảm ơn bạn.",
+     "start": 13.5,
+     "end": 16.5,
+     "words": []
+    }
+   ],
+   "repeat": [
+    5
+   ],
+   "task": {
+    "prompt": "Đón một người bạn vừa đến nơi và hỏi chuyến đi của bạn ấy có thuận lợi không.",
+    "frame": "___，路上顺利吗？",
+    "sample": {
+     "zh": "不客气，路上顺利吗？",
+     "vi": "Không có gì, dọc đường có thuận lợi không?"
+    },
+    "sampleNote": "Chỗ trống điền câu đáp lễ ngắn trước khi hỏi （不客气 / 没关系）; câu hỏi 路上顺利吗？ giữ nguyên như trong video."
+   },
+   "listeningNotes": [
+    "路上顺利吗？ là câu hỏi thăm chuẩn sau một chuyến đi — 顺利 ở đây tả cả chuyến đi suôn sẻ.",
+    "这边走 là “đi lối này”, dùng khi dẫn đường cho khách."
+   ],
+   "compareNote": "Video này bổ sung 顺利 cho bộ; từ được hỏi và trả lời trực tiếp （顺利吗？ — 非常顺利） nên nghe rất rõ.",
+   "timingNote": "Mốc từng câu đo từ phụ đề cháy của bản có phụ đề (sai số khoảng ±1 giây); hai bản dài bằng nhau (17 giây) nên dùng chung một bộ mốc. Bổ sung ở đợt mở rộng 31/10/2026."
   }
  ],
  "surveyLog": [
@@ -845,11 +1515,6 @@
    "code": "CS4-0805 / CS4-3104 / CS4-1010",
    "decision": "Chỉ chọn CS4-0805",
    "reason": "Cả ba đều có 快乐 trong câu chúc sinh nhật; CS4-3104 và CS4-1010 không thêm từ nào khác, còn CS4-0805 thêm 漂亮 nên được chọn, hai video kia loại để không lặp nội dung."
-  },
-  {
-   "code": "CS4-2511",
-   "decision": "Loại (giới hạn 5 video) — ứng viên đầu tiên khi mở rộng",
-   "reason": "Đi khám vì đau bụng, có 不舒服 đã phát thử và đo mốc đầy đủ (24 giây), nhưng bộ đã đủ 5 video theo chuẩn; CS4-3007 (khách sạn, cũng 不舒服） càng ngắn và trùng từ nên cũng loại. Ghi lại để khi bộ được phép thay/mở rộng thì dùng ngay CS4-2511."
   },
   {
    "code": "CS3 (toàn loạt)",
@@ -865,6 +1530,21 @@
    "code": "18 từ còn thiếu",
    "decision": "Ghi nhận, bổ sung sau",
    "reason": "公平 关心 友好 可爱 实在 平等 开心 感动 故事 热情 笑话 自由 随便 难受 难过 顺利 và 便宜 không xuất hiện trong bất kỳ hội thoại CS4/CS3 nào đã khảo sát dưới dạng từ độc lập đúng nghĩa; 舒服 có nguồn （不舒服 ở CS4-2511) nhưng bị giới hạn 5 video. Không ép đủ độ phủ, không bịa hội thoại."
+  },
+  {
+   "code": "CS4-2511",
+   "decision": "Bổ sung ở đợt mở rộng 31/10/2026",
+   "reason": "Đã kiểm chứng đầy đủ từ đợt đầu (phát thử, đo mốc, 24 giây) nhưng phải nhường vì giới hạn 5 video; khi chủ dự án phê duyệt nới giới hạn cho bài này, CS4-2511 được đưa vào ngay với 不舒服 → 舒服 theo phán quyết ranh giới từ đã ghi."
+  },
+  {
+   "code": "Khảo sát vòng 2 (31/10/2026)",
+   "decision": "Thêm CS4-2517, CS4-2710, CS4-0214; loại các ứng viên còn lại",
+   "reason": "Quét lại toàn bộ CS4/CS3 bằng tìm kiếm theo từng từ: CS4-2517 （关心）, CS4-2710 （可爱）, CS4-0214 （顺利） đạt chuẩn và đã kiểm chứng phát thật. CS4-EXTRA-001 có 便宜 nhưng là footage mặc cả tự do ở chợ (100 câu, nhanh, nhiều tiếng địa phương) — dưới chuẩn HSK2, loại vì chất lượng. CS4-1605 （随便） và CS4-1616 （便宜） đều 未撮影. 12 từ 公平 友好 实在 平等 开心 感动 故事 热情 笑话 自由 难受 难过 không có trong bất kỳ hội thoại CS4/CS3 nào."
   }
- ]
+ ],
+ "capException": {
+  "reason": "Người học (chủ dự án) phê duyệt ngày 31/10/2026: bài này được nới giới hạn tối đa 5 video vì mục tiêu học đủ 24 từ; mỗi video thêm vẫn phải bổ sung ít nhất một từ mới đã xác minh và giữ nguyên chuẩn chất lượng.",
+  "approvedBy": "Bui",
+  "date": "2026-10-31"
+ }
 }
