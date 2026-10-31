@@ -22,7 +22,11 @@ phải theo đúng quy trình này. Tiến độ của công việc này theo d�
 
 ## Chuẩn chọn video cho một bài
 
-- **Tối đa 5 video** cho một bài; không bắt buộc đủ 5.
+- **Tối đa 5 video** cho một bài; không bắt buộc đủ 5. Ngoại lệ duy nhất: chủ dự án phê duyệt
+  riêng cho một bài cụ thể (ghi lý do, người duyệt và ngày vào trường `capException` của file dữ
+  liệu bài và vào checkpoint) thì được vượt 5 — mỗi video thêm vẫn phải bổ sung ít nhất một từ
+  mới đã xác minh và giữ nguyên mọi chuẩn chất lượng khác. Tiền lệ: HSK2 · Bài 5 được duyệt
+  nới giới hạn ngày 31/10/2026 để hướng tới học đủ 24 từ.
 - Ưu tiên: người thật (xác minh bằng bằng chứng thực tế, không suy từ mô tả "giáo viên bản ngữ"
   hay đuôi file), giọng rõ, nội dung vừa trình độ của bài.
 - Chủ động tìm trên YouTube và trang nguồn chính thức; **không giới hạn ở Chinese Station** —
@@ -37,7 +41,13 @@ phải theo đúng quy trình này. Tiến độ của công việc này theo d�
   vẫn được tính dù viết liền với các từ xung quanh** (tiếng Trung không có dấu cách) khi nó giữ
   đúng nghĩa đang học trong ngữ cảnh （中文 trong 中文系 “khoa tiếng Trung” là từ 中文 đứng trước
   系 “khoa”). Khi ranh giới khó, đối chiếu từ điển (CC-CEDICT) và ghi lập luận vào ghi chú của video.
-- Không ép phủ đủ toàn bộ từ của bài. Đủ 5 video thì dừng và ghi từ còn thiếu.
+  Tiền lệ phủ định (chốt 31/10/2026): 不舒服 **được tính** là có 舒服 — 不 là từ phủ định độc lập
+  đứng trước, 舒服 giữ nguyên đúng nghĩa của bài (“dễ chịu, thoải mái”) bị phủ định thành “khó
+  chịu”; cùng logic với 电 được tính trong 手机没电了 (HSK1 · Bài 3), khác với 生 trong 留学生
+  (hậu tố tạo thành một từ khác hẳn). Việc CC-CEDICT có mục riêng cho 不舒服 không đổi phán
+  quyết này, vì tiêu chí của dự án là tính độc lập và nghĩa trong ngữ cảnh, không phải mục từ điển.
+- Không ép phủ đủ toàn bộ từ của bài. Đủ 5 video thì dừng và ghi từ còn thiếu (trừ bài có
+  ngoại lệ đã duyệt theo mục trên — vẫn ghi rõ từ còn thiếu như thường).
   Ít hơn 5 mà sau khảo sát hợp lý không còn nguồn phù hợp: chốt số lượng thực tế, ghi lý do.
 - Với HSK1, ưu tiên đặc biệt: câu ngắn, tình huống rõ, ít từ ngoài bài và kiến thức đã học;
   hoạt động đơn giản. Không đòi người mới hiểu hội thoại trình độ cao hơn chỉ vì có từ trùng.

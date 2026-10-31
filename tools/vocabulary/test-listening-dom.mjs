@@ -58,7 +58,7 @@ if (scenario === 'deep') {
 const respond = text => Promise.resolve({ ok: true, json: async () => JSON.parse(text) });
 globalThis.fetch = url => {
   const u = String(url);
-  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 3 }, { key: 'hz-h1-f05455e3c9c0', anchorWordId: 'hz-h1-f05455e3c9c0', file: 'data/practice/hz-h1-f05455e3c9c0.json', version: 2 }, { key: 'hz-h1-9e4bde0a04dc', anchorWordId: 'hz-h1-9e4bde0a04dc', file: 'data/practice/hz-h1-9e4bde0a04dc.json', version: 2 }, { key: 'hz-h2-05f3747c37f2', anchorWordId: 'hz-h2-05f3747c37f2', file: 'data/practice/hz-h2-05f3747c37f2.json', version: 1 }] }));
+  if (u.includes('practice/manifest')) return respond(JSON.stringify({ version: 1, lessons: [{ key: 'hz-h2-0f9648e9dded', anchorWordId: 'hz-h2-0ec2a615954f', file: 'data/listening-pilot.json', version: 6 }, { key: 'hz-h1-64d354d405bb', anchorWordId: 'hz-h1-64d354d405bb', file: 'data/practice/hz-h1-64d354d405bb.json', version: 3 }, { key: 'hz-h1-f05455e3c9c0', anchorWordId: 'hz-h1-f05455e3c9c0', file: 'data/practice/hz-h1-f05455e3c9c0.json', version: 2 }, { key: 'hz-h1-9e4bde0a04dc', anchorWordId: 'hz-h1-9e4bde0a04dc', file: 'data/practice/hz-h1-9e4bde0a04dc.json', version: 2 }, { key: 'hz-h2-05f3747c37f2', anchorWordId: 'hz-h2-05f3747c37f2', file: 'data/practice/hz-h2-05f3747c37f2.json', version: 3 }] }));
   if (u.includes('hanzii-course')) return respond(courseText);
   if (u.includes('listening-pilot')) return respond(pilotText);
   if (u.includes('hz-h1-64d354d405bb.json')) return respond(hsk1Text);
@@ -381,12 +381,13 @@ if (scenario === 'deep4') {
 if (scenario === 'deep5') {
   // Fifth lesson through the same module: HSK 2 · Bài 5 (priority build, feelings/description).
   await waitFor(() => $('.listening-pilot'), 'HSK2 Bai 5 practice module from manifest');
-  assert.ok($('.lp-head').textContent.includes('HSK 2 · Bài 5'), 'Bai 5 lesson title shown');
-  assert.ok($('.listening-pilot').textContent.includes('6/24'), 'Bai 5 header shows its own verified coverage 6/24');
-  assert.equal($$('[data-lp-video]').length, 5, 'Bai 5 set lists 5 videos');
-  assert.ok($$('[data-lp-video]')[0].textContent.includes('Tâm trạng'), 'first Bai 5 video is the mood dialogue (CS4-4113)');
-  assert.ok($('.lp-missing-box') && $('.lp-missing-box').textContent.includes('顺利'), 'missing words of Bai 5 are listed (incl. 顺利）');
   const b5 = JSON.parse(hsk2b5Text);
+  assert.ok($('.lp-head').textContent.includes('HSK 2 · Bài 5'), 'Bai 5 lesson title shown');
+  assert.ok($('.listening-pilot').textContent.includes('10/24'), 'Bai 5 header shows its own verified coverage 10/24');
+  assert.equal($$('[data-lp-video]').length, b5.recordings.length, 'Bai 5 set lists every recording in its data');
+  assert.ok($$('[data-lp-video]')[0].textContent.includes('Tâm trạng'), 'first Bai 5 video is the mood dialogue (CS4-4113)');
+  assert.ok($('.lp-missing-box') && $('.lp-missing-box').textContent.includes('难过'), 'missing words of Bai 5 are listed (incl. 难过）');
+  assert.ok(![...$('.lp-missing-box').querySelectorAll('*')].some(n => n.children.length === 0 && n.textContent.trim() === '顺利'), 'covered word 顺利 no longer listed as missing');
   assert.ok(!$('.listening-pilot').textContent.includes('undefined'), 'Bai 5 module shows no undefined text');
   for (let vi = 0; vi < b5.recordings.length; vi++) {
     $$('[data-lp-video]')[vi].click(); await tick(60);
@@ -432,5 +433,5 @@ if (scenario === 'deep5') {
   assert.ok(root.lessons['hz-h2-05f3747c37f2'], 'Bai 5 progress saved under its own lesson key');
   assert.equal(root.lessons['hz-h1-9e4bde0a04dc'], undefined, 'Bai 3 bucket untouched in this scenario');
   assert.equal(root.lessons['hz-h2-0f9648e9dded'], undefined, 'pilot bucket untouched in this scenario');
-  console.log('PASS deep5: fifth lesson (HSK 2 · Bài 5) runs through the same module, all 5 videos render fully (per-line and clip modes), per-lesson progress isolation.');
+  console.log('PASS deep5: fifth lesson (HSK 2 · Bài 5) runs through the same module, all videos render fully (per-line and clip modes), per-lesson progress isolation.');
 }

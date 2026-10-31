@@ -40,7 +40,8 @@ for (const e of manifest.lessons) {
   assert.deepEqual(L.wordIds, lesson.wordIds, `${e.key}: wordIds equal the real course lesson (${lesson.wordIds.length} words)`);
   assert.equal(P.authorship.type, 'human-video', `${e.key}: human video only`);
   assert.ok(Array.isArray(P.references) && P.references.length >= 1 && P.references.every(r => typeof r.title === 'string' && r.title.length >= 3 && r.url && !('label' in r)), `${e.key}: references use canonical title (not legacy label)`);
-  assert.ok(Array.isArray(P.recordings) && P.recordings.length >= 1 && P.recordings.length <= 5, `${e.key}: 1-5 recordings`);
+  assert.ok(Array.isArray(P.recordings) && P.recordings.length >= 1, `${e.key}: at least 1 recording`);
+  if (P.recordings.length > 5) assert.ok(P.capException && P.capException.reason && P.capException.approvedBy, `${e.key}: more than 5 recordings requires a recorded owner-approved capException`);
   const covered = new Set(); const recIds = new Set(); const vidIds = new Set();
   for (const R of P.recordings) {
     assert.ok(!recIds.has(R.id) && !vidIds.has(R.videoId), `${R.id}: unique ids`); recIds.add(R.id); vidIds.add(R.videoId);
