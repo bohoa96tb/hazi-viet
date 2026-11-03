@@ -1,3 +1,12 @@
+# Thực hành HSK2 Bài 1 — bộ 5 video, phủ 5/24 — đã phát hành và xác minh Pages
+
+- Merge commit: 262ccce568a9c5af975eb326ccc83887d5a730b9 (nhánh main, PR #59, được Bui phê duyệt riêng ngày 03/11/2026); commit trên nhánh feature/practice-hsk2-b1: `db5a464`. Nhánh sao lưu: backup/practice-hsk2-b1-20261103 ở main HEAD 844a886.
+- Bài đủ điều kiện (24/24 từ V2 hoàn chỉnh, trạng thái deep, audit đạt cả 24; khóa hz-h2-b68721647e72, từ đầu 下). Bài gồm nhiều từ đơn đa chức năng nên mỗi hội thoại CS4 chỉ gánh được một từ của bài.
+- Bộ 5 video Chinese Station, đều đã phát thử và đối chiếu lời thoại nguyên văn với trang chính thức (bản chính và bản phụ đề dài bằng nhau): CS4-1503 trời sắp mưa （下 trong 下雨, nghe cả đoạn vì video 9 giây), CS4-0601 được khen nói tốt （得 trợ từ bổ ngữ, nghe cả đoạn 9 giây), CS4-0614 hỏi về khóa học （懂 trong 听懂/听不懂, nghe từng câu), CS4-1901 du lịch nước ngoài （过 trợ từ kinh nghiệm, nghe từng câu), CS4-3202 hỏi đường bưu điện （近 trong 很近, nghe từng câu). Phủ 5/24; còn thiếu 19 từ ghi rõ trong dữ liệu và checkpoint.
+- Ranh giới từ: không tính 小 trong tên riêng 吴小明, không tính 当 trong 当然. 10 video khác đã kiểm chứng đạt nhưng nhường vì giới hạn 5 video/bài (CS4-0615 两, CS4-0802 长, CS4-1305/2121 超过, CS4-2512 满, CS4-2602 短, CS4-0404 该, CS4-4104 卡, CS4-3802 成, CS4-2807 低, CS4-2809 小) — ghi trong surveyLog làm ứng viên mở rộng nếu chủ dự án duyệt. CS4-1601 （克）/4111 chưa từng quay; CS4-EXTRA-001 loại vì chất lượng; 当 熟 省 表 越 轻 không có trong CS4/CS3.
+- Kiểm thử: toàn bộ kiểm thử bắt buộc đạt (validator 5/24 đúng theo ID, kịch bản DOM deep6 mới render đủ mọi dòng thoại/câu hỏi/bài tự nói của cả 5 video bằng dữ liệu thật, audit giữ 739); completedCount không đổi 912/2.224.
+- Pages run 41581972660 success đúng HEAD 262ccce (run #327); hai file dữ liệu live khớp byte. Kiểm chứng thao tác thật trên app live: module hiện đủ 5 video và dòng phủ 5/24; CS4-3202 nút nghe câu 6 “不远。很近。” phát đúng đoạn (mốc hiển thị 0:12 khi kiểm tra, trong cửa sổ câu); CS4-0614 hiện đủ 6 câu thoại, không có “undefined”. Giới hạn còn lại: chưa thử Android thật và viewport 390px; mốc câu ±1 giây; hai video 9 giây nghe cả đoạn.
+
 # Mở rộng Thực hành HSK2 Bài 5 — 9 video, phủ 10/24 — đã phát hành và xác minh Pages
 
 - Merge commit: b96232dfb907da23ebfec566a1a9adf5f8149e02 (nhánh main, PR #58); commit trên nhánh feature/practice-hsk2-b5-expand: `4b0c57f`. Nhánh sao lưu: backup/practice-hsk2-b5-expand-20261031 ở main HEAD ba52632.
