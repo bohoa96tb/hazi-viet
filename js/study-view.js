@@ -1,4 +1,4 @@
-import {renderXiangPreview} from './xiang-preview.js?v=1';
+import {renderHanziAnalysis,hanziProfileFor} from './hanzi-analysis.js?v=1';
 import {escapeHTML as e,parseIDS,idsLabels,renderLearningPanel} from './detail-view.js?v=3.0.0';
 export const studySteps=[{id:'structure',label:'Hiểu chữ',icon:'◈'},{id:'writing',label:'Luyện viết',icon:'✎'},{id:'words',label:'Từ & câu',icon:'文'},{id:'grammar',label:'Cách dùng',icon:'Aa'},{id:'origin',label:'Gốc chữ',icon:'源'}];
 export function studyContent(c,data){
@@ -11,7 +11,7 @@ function source(s){return s.source==='tatoeba'?`<details class="source-disclosur
 function tree(n){if(!n)return'';return n.children.length?`<div class="tiny-tree-node"><span>${e(n.label)}</span><div>${n.children.map(tree).join('')}</div></div>`:`<b lang="zh-CN">${e(n.char)}</b>`}
 function expanded(c,tab,data){return`<details class="full-disclosure"><summary>Xem đầy đủ & nguồn tham khảo <span>＋</span></summary><div class="expanded-copy">${renderLearningPanel({c,tab,data,wordLimit:9999,sentenceLimit:9999}).replaceAll('data-char=','data-study-part=')}</div></details>`}
 export function renderStudyStage({c,data,stage=0,wordIndex=0,sentenceIndex=0,noteIndex=0,wordMode='word',showTranslation=false,originMode='source'}){
- if(stage===0 && c.char==='想') return renderXiangPreview(c,data);
+ if(stage===0){const profile=hanziProfileFor(c.char,data);if(profile) return renderHanziAnalysis(c,data,profile);}
  const content=studyContent(c,data),rad=data.radicals[c.radical];let html='';
  if(stage===0){
   const parts=[...new Set([...(c.decomposition||'')].filter(ch=>!idsLabels[ch]&&ch!=='？'))];
