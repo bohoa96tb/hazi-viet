@@ -1,4 +1,5 @@
-import {renderHanziAnalysis,hanziProfileFor} from './hanzi-analysis.js?v=1';
+import {renderHanziAnalysis,hanziProfileFor} from './hanzi-analysis.js?v=2';
+export {enhanceHanziPartials} from './hanzi-analysis.js?v=2';
 import {escapeHTML as e,parseIDS,idsLabels,renderLearningPanel} from './detail-view.js?v=3.0.0';
 export const studySteps=[{id:'structure',label:'Hiểu chữ',icon:'◈'},{id:'writing',label:'Luyện viết',icon:'✎'},{id:'words',label:'Từ & câu',icon:'文'},{id:'grammar',label:'Cách dùng',icon:'Aa'}];
 export function studyContent(c,data){

@@ -139,6 +139,64 @@ ghi rõ trường thiếu và lý do vào checkpoint/progress, không bịa, và
   không tự nó có nghĩa là nội dung đã kiểm duyệt — trạng thái kiểm duyệt
   lấy theo file tiến độ.
 
+## Xử lý chữ thiếu dữ liệu phân tích (bổ sung 2026-11-05)
+
+Áp dụng khi một chữ có thành phần mà dữ liệu hiện có chưa phân tích đầy
+đủ. Mục tiêu: giao diện không bao giờ gây hiểu nhầm, và hồ sơ nội bộ
+không bao giờ biến "đã ẩn lỗi" thành "đã hoàn thiện".
+
+1. **Không hiện thẻ giữ chỗ.** Không hiện ô "CHƯA XÁC ĐỊNH" với dấu "?"
+   lớn trên giao diện học. Cũng không chỉ xóa thẻ rồi để các thành phần
+   còn lại đứng một mình khiến người học tưởng đó là toàn bộ chữ.
+2. **Chẩn đoán theo nguyên nhân**, ghi vào hồ sơ nội bộ (checkpoint +
+   mục `dataGaps` của file tiến độ), phân biệt ít nhất: (a) nguồn thiếu
+   dữ liệu; (b) lỗi phân tích IDS; (c) ký tự chưa được font hỗ trợ;
+   (d) phần chưa tách không phải một chữ riêng: hoặc cụm nét hợp nhất
+   thực sự không có chữ/tên riêng, hoặc chỉ gồm một nét lẻ (nét có thể
+   có tên nét, nhưng nét lẻ không phải chữ/thành phần cấu tạo và không
+   được gán vai trò). Không gộp mọi trường hợp thành "chưa xác định".
+3. **Bổ sung dữ liệu phải có nguồn tái sử dụng được.** Đối chiếu dữ
+   liệu gốc đã lưu trước; nguồn bổ sung phải ghi tên, giấy phép và lý
+   do chọn cách phân tích. Không tự đoán phần thiếu, không suy diễn từ
+   nguyên từ hình dạng.
+4. **Phân biệt ba loại đối tượng**: bộ thủ tra cứu, thành phần cấu tạo,
+   và phần nét. Không bắt buộc mọi phần phải có Pinyin, Hán–Việt và
+   nghĩa; chỉ hiện thông tin có căn cứ.
+5. **Trình bày khi chưa phân tích đầy đủ** (chế độ "phân tích một
+   phần", renderer tự nhận diện khi cây IDS chứa lá "？"):
+   - hiện **chữ nguyên vẹn**;
+   - mục **"Thành phần đã nhận diện"** liệt kê chỉ các thành phần đã
+     xác minh (vẫn áp dụng quy tắc vai trò: không gán gợi âm/gợi nghĩa
+     cho phần chưa rõ);
+   - một dòng nhỏ **"Phân tích đầy đủ đang được bổ sung."**;
+   - không hiện dòng "Bố cục:" như thể cây đã đầy đủ.
+6. **Tô nét chỉ khi ánh xạ đã kiểm chứng.** Được tô màu các nét thuộc
+   phần đã nhận diện khi ánh xạ nét–thành phần lấy từ trường `matches`
+   của dữ liệu gốc và đã qua kiểm tra chéo tự động (đủ số nét, mọi nét
+   thuộc đúng một lá đã nhận diện hoặc phần chưa tách; file
+   `data/hanzi-partials.json` do `tools/hanzi/build-hanzi-partials.mjs`
+   dựng). Nét của chữ lấy từ Hanzi Writer Data (Arphic) — cùng nguồn
+   với bước Luyện viết. Không có ánh xạ đạt kiểm tra thì chỉ hiện chữ
+   nguyên vẹn dạng ký tự, không tô.
+7. **Tiêu đề giải thích theo căn cứ.** Chỉ dùng "Vì sao ghép như vậy?"
+   khi giải thích dựa trên chú giải nguồn của chính chữ đó (trường
+   `etymology` có dữ liệu). Nếu chỉ mô tả hình dạng, dùng "Nhìn chữ để
+   nhớ". Mẹo nhớ luôn gắn nhãn liên tưởng học tập.
+8. **Đếm tiến độ trung thực.** "Giao diện đã xử lý" khác "nội dung phân
+   tích đã hoàn thiện". Không tăng số chữ hoàn thiện chỉ vì đã ẩn ô
+   lỗi; chữ còn thiếu dữ liệu vẫn ghi trong `dataGaps` cho tới khi bổ
+   sung được nguồn hoặc kết luận được nguyên nhân (ví dụ thành phần hợp
+   nhất không có chữ riêng — khi đó phần đã nhận diện + ghi chú là mức
+   phân tích đầy đủ mà dữ liệu cho phép, và hồ sơ phải nói rõ điều đó).
+
+Trường hợp đã áp dụng đầu tiên: 后 và 今 (cùng khuôn với 不 习 书 五 先
+北 友 trong các chữ đã chuẩn hóa): IDS của Make Me a Hanzi — bản gốc
+lưu trong repo và bản đã nhập khớp nhau — dùng "？" cho phần không phải
+một chữ riêng: một cụm nét hợp nhất không có chữ Unicode riêng （ 后
+今 不 书 五 北 友）, riêng 习 và 先 phần đó chỉ là một nét lẻ có tên nét
+(nét gấp móc; nét phẩy). Dữ liệu nét đầy đủ và `matches` ánh xạ được
+mọi nét. Đây là nguyên nhân (d), không phải lỗi IDS hay thiếu nét.
+
 ## Tiêu chí một chữ hoàn thành
 
 1. Đã đọc và đối chiếu dữ liệu lõi của đúng chữ đó (không suy từ chữ khác).

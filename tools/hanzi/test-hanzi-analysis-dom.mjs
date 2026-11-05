@@ -17,11 +17,18 @@ for (const name of ['window', 'document', 'location', 'navigator', 'URL', 'Blob'
 window.speechSynthesis = {getVoices: () => [], addEventListener() {}, cancel() {}, speak() {}};
 globalThis.speechSynthesis = window.speechSynthesis;
 globalThis.SpeechSynthesisUtterance = class { constructor(text) { this.text = text; } };
-// Serve repo data files for fetch(); stub the stroke-data CDN with 13 empty
-// strokes (the real CDN payload is verified on the live site instead).
+// Serve repo data files for fetch(); stub the stroke-data CDN with the
+// requested character's real stroke count from the core data (the real
+// CDN payload is verified on the live site instead).
+const coreChars = [1, 2, 3, 4, 5, 6].flatMap(l => JSON.parse(read(`data/hsk${l}-core.json`)));
+const strokeCountOf = ch => coreChars.find(c => c.char === ch)?.strokeCount ?? 13;
 globalThis.fetch = async url => {
   const u = new URL(String(url));
-  if (u.hostname.includes('jsdelivr')) return {ok: true, json: async () => ({strokes: Array.from({length: 13}, () => ({}))})};
+  if (u.hostname.includes('jsdelivr')) {
+    const ch = decodeURIComponent(u.pathname.split('/').pop().replace(/\.json$/, ''));
+    const n = strokeCountOf(ch);
+    return {ok: true, json: async () => ({strokes: Array.from({length: n}, () => 'M 0 0 L 1 1')})};
+  }
   const path = decodeURIComponent(u.pathname).replace(/^.*\/(data\/.*)$/, '$1');
   try { return {ok: true, json: async () => JSON.parse(read(path))}; }
   catch { return {ok: false, status: 404, json: async () => ({})}; }
@@ -128,5 +135,56 @@ assert.equal(document.querySelector('.identity-char').textContent, '明', 'resum
 assert.equal(document.querySelectorAll('.study-tabs [data-stage]').length, 4, 'still exactly 4 tabs after restore');
 assert.equal(document.querySelector('.study-tabs [data-stage="0"]').getAttribute('aria-selected'), 'true', 'removed stage must fall back to stage 0');
 assert(body().querySelector('.structure-card'), 'stage 0 legacy content must render after restore');
+
+// Partial character 后: no placeholder card anywhere; the whole character
+// is shown with only the identified component （口） listed and the
+// supplement note. The writing stage still loads its 6 strokes.
+document.querySelector('#closeDialog').click();
+await tick(30);
+window.localStorage.setItem('hanzi-viet-reading', JSON.stringify({char: '后', stage: 0, wordIndex: 0, sentenceIndex: 0, noteIndex: 0, wordMode: 'word', showTranslation: false}));
+document.querySelector('[data-action="resume"]').click();
+await tick(60);
+assert.equal(document.querySelector('.identity-char').textContent, '后');
+assert(body().querySelector('.hanzi-analysis'), '后 must use the analysis renderer');
+assert(!body().textContent.includes('CHƯA XÁC ĐỊNH'), 'no placeholder label for 后');
+const fig = body().querySelector('[data-ha-partial="后"]');
+assert(fig, 'partial figure must render for 后');
+assert(fig.querySelector('svg.ha-partial-svg') || fig.querySelector('.ha-partial-glyph'), 'figure shows the SVG or the glyph fallback');
+const svgPaths = fig.querySelectorAll('svg.ha-partial-svg path');
+if (svgPaths.length) {
+  assert.equal(svgPaths.length, 6, '后 SVG must have 6 stroke paths');
+  assert.equal(fig.querySelectorAll('path.ha-stroke-known').length, 3, '后 must highlight exactly the 3 strokes of 口');
+}
+assert(body().textContent.includes('Thành phần đã nhận diện'));
+assert(body().textContent.includes('Phân tích đầy đủ đang được bổ sung'));
+assert(body().textContent.includes('Nhìn chữ để nhớ'), '后 has no source etymology: observation heading');
+assert(body().querySelector('.ha-branches-partial [data-study-part="口"], .ha-branches-partial .ha-branch'), 'identified part 口 must be listed');
+document.querySelector('[data-stage="1"]').click();
+await tick(60);
+assert.equal(writerChar, '后', 'writing stage must load 后');
+assert($('#writingStatus').textContent.includes('6 nét'), 'writing stage must load 6-stroke data for 后: ' + $('#writingStatus').textContent);
+document.querySelector('[data-stage="0"]').click();
+await tick(30);
+assert(body().querySelector('[data-ha-partial="后"]'), 'back to stage 0 keeps the partial figure');
+
+// 冷 (full tree, source etymology) keeps the "Vì sao" heading, and its part
+// 令 — itself a partial character — opens with the partial presentation.
+document.querySelector('#closeDialog').click();
+await tick(30);
+window.localStorage.setItem('hanzi-viet-reading', JSON.stringify({char: '冷', stage: 0, wordIndex: 0, sentenceIndex: 0, noteIndex: 0, wordMode: 'word', showTranslation: false}));
+document.querySelector('[data-action="resume"]').click();
+await tick(40);
+assert.equal(document.querySelector('.identity-char').textContent, '冷');
+assert(body().textContent.includes('Vì sao ghép như vậy?'), '冷 keeps the sourced-explanation heading');
+const lingLink = body().querySelector('[data-study-part="令"]');
+assert(lingLink, '冷 must link its part 令');
+lingLink.click();
+await tick(60);
+assert.equal(document.querySelector('.identity-char').textContent, '令');
+// 令 has no standardized profile yet, so it keeps the legacy stage; the
+// partial presentation applies once a character is standardized. What
+// matters here: navigation from a full character to its part works.
+assert(!body().querySelector('.hanzi-analysis'), '令 must keep the legacy stage until standardized');
+assert(!body().textContent.includes('CHƯA XÁC ĐỊNH'), 'no placeholder label for 令');
 
 console.log('test-hanzi-analysis-dom: all assertions passed');

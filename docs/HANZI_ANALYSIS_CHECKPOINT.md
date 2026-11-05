@@ -281,6 +281,63 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   `data/hanzi-analysis.json` trên live đã đối chiếu: đủ 78 chữ đã bật,
   gồm cả bản sửa `layoutNote` của 坐/大/十/午.
 
+## Đợt PA-001 — Xử lý chữ thiếu dữ liệu phân tích (2026-11-05)
+
+- Chỉ thị của chủ dự án: bổ sung quy chuẩn xử lý Hán tự thiếu dữ liệu,
+  áp dụng trước cho 后 và 今 trong ảnh chụp (thẻ "?" lớn), rồi rà các
+  trường hợp tương tự. Quy tắc đã ghi vào mục "Xử lý chữ thiếu dữ liệu
+  phân tích" của `docs/HANZI_ANALYSIS_STANDARD.md`.
+- **Chẩn đoán** (đối chiếu `SOURCE_DATA/dictionary-original.txt` với dữ
+  liệu lõi đã nhập — khớp nhau từng chữ): trong 78 chữ đã chuẩn hóa có
+  9 chữ cây IDS chứa lá "？" — 后 今 不 习 书 五 先 北 友. Nguyên nhân
+  thống nhất: Make Me a Hanzi dùng "？" cho **phần không phải một chữ
+  riêng** — một cụm nét hợp nhất không có chữ Unicode/tên riêng ở 7 chữ
+  （ 后 今 不 书 五 北 友）; riêng 习/先 phần đó chỉ là **một nét lẻ có
+  tên nét** (nét gấp móc; nét phẩy) — nét lẻ không phải chữ/thành phần
+  và không được gán vai trò (điểm này do Chinese Expert bắt được khi rà:
+  bản nháp đầu gọi cả 9 chữ là "cụm nét", đã sửa ở explain của 习/先,
+  mục chuẩn và hồ sơ `dataGaps`). Không phải lỗi phân tích IDS, không
+  phải thiếu dữ liệu nét (mọi chữ đều đủ số nét và trường `matches`
+  ánh xạ từng nét). Bốn chữ có `decomposition` đúng bằng "？" （ 一 人
+  八 女） không thuộc diện này — chúng đã hiện chữ nguyên vẹn kèm ghi
+  chú đơn thể. Expert cũng bắt điểm tiêu đề của 今 (có `etymology` mà
+  explain chưa dùng): đã bổ sung câu theo chú giải nguồn vào explain
+  của 今. QA độc lập: toàn bộ suite đạt, không điểm chặn; đã nâng
+  cache-buster của CSS lên `?v=2` theo ghi chú của QA. **Ngoài phạm vi
+  đợt này** (QA ghi nhận): giao diện cũ cho chữ *chưa* chuẩn hóa vẫn có
+  thể hiện một lá "？" nhỏ trong cây rút gọn — không phải thẻ lớn của
+  giao diện mới; xử lý riêng nếu chủ dự án yêu cầu.
+- **Cách xử lý đã cài đặt**:
+  - Renderer bỏ hẳn thẻ giữ chỗ; chữ thuộc diện này hiện ở chế độ
+    "phân tích một phần": chữ nguyên vẹn + mục "Thành phần đã nhận
+    diện" (chỉ phần đã xác minh, không gán vai trò cho phần chưa rõ) +
+    dòng nhỏ "Phân tích đầy đủ đang được bổ sung."; không hiện dòng
+    "Bố cục:".
+  - Tô nét theo `matches` đã kiểm chứng chéo tự động:
+    `data/hanzi-partials.json` (62 chữ trong toàn thư viện, gồm đủ 9
+    chữ trên) do `tools/hanzi/build-hanzi-partials.mjs` dựng từ dữ
+    liệu gốc; nét lấy từ Hanzi Writer Data (Arphic) cùng nguồn bước
+    Luyện viết; thiếu ánh xạ hoặc lệch số nét thì tự rơi về chữ nguyên
+    vẹn dạng ký tự, không tô. Đối chiếu tay cho 后: nét tô (3 nét cuối)
+    khớp cả `matches` của Make Me a Hanzi lẫn `radStrokes` của Hanzi
+    Writer cho bộ 口.
+  - Tiêu đề giải thích theo căn cứ: "Vì sao ghép như vậy?" chỉ khi chữ
+    có `etymology` nguồn; ngược lại "Nhìn chữ để nhớ" （ 前 后 去 六 关
+    写 习… thuộc nhóm sau). Sửa câu chữ trong explain của 不 习 书 今
+    先 (bỏ khẳng định "app để trống" không còn đúng với giao diện mới).
+- **Hồ sơ**: mục `dataGaps` trong file tiến độ ghi 10 hồ sơ （ 京
+  blocked + 9 chữ diagnosed-partial, phân biệt trạng thái giao diện và
+  trạng thái nội dung). **Số chữ hoàn thiện giữ nguyên 78** — đợt này
+  không tăng đếm.
+- Kiểm thử: test logic (cổng không-thẻ-giữ-chỗ cho mọi chữ đã hoàn
+  thiện, tính chất partial cho 9 chữ, đối chiếu độc lập toàn bộ
+  `hanzi-partials.json` với dữ liệu gốc), test DOM (mở 后 thật: không
+  còn "?", SVG 6 nét/3 nét tô nếu tải được nét, Luyện viết 6 nét, quay
+  lại; hồi quy 想/冷）, test tra từ, diff check. Giả lập viewport
+  360/390px bằng công cụ trình duyệt vẫn chưa thực hiện được — CSS mới
+  dùng bề rộng tương đối (`min(148px, 52vw)`, lưới tự co) và đã rà
+  tĩnh; Android thật chưa kiểm chứng.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,

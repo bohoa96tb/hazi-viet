@@ -5,9 +5,10 @@ import assert from 'node:assert/strict';
 import {
   renderHanziAnalysis, hanziProfileFor, roleFor, positionNote,
   expandableParts, isHanziBranchExpanded, setHanziBranchExpanded,
-  HANZI_ANALYSIS_MAX_DEPTH,
+  hanziPartialLeaves, HANZI_ANALYSIS_MAX_DEPTH,
 } from '../../js/hanzi-analysis.js';
 import {renderStudyStage, renderStudyShell, studySteps} from '../../js/study-view.js';
+import {parseIDS} from '../../js/detail-view.js';
 
 const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
 const chars = [1, 2, 3, 4, 5, 6].flatMap(l => read(`data/hsk${l}-core.json`));
@@ -17,6 +18,7 @@ const data = {
   radicals: read('data/radicals-vi.json'),
   etymologyVi: read('data/etymology-vi.json'),
   hanziAnalysis: read('data/hanzi-analysis.json'),
+  hanziPartials: read('data/hanzi-partials.json'),
 };
 const xiang = data.charMap.get('想');
 const profile = hanziProfileFor('想', data);
@@ -91,7 +93,8 @@ const bare = renderHanziAnalysis({char: '龘', pinyin: [], vi: '', radical: '', 
 assert.ok(bare.includes('Nguồn chưa có cây phân tích'));
 assert.ok(bare.includes('Chưa có'), 'missing stroke count must be labelled');
 const water = renderHanziAnalysis(data.charMap.get('水'), data, {});
-assert.ok(water.includes('CHƯA XÁC ĐỊNH'), '水 contains ？ in its decomposition');
+assert.ok(water.includes('Thành phần đã nhận diện'), '水 contains ？ in its decomposition: partial presentation, no placeholder card');
+assert.ok(!water.includes('CHƯA XÁC ĐỊNH'), 'placeholder card must never render');
 
 // 7. Depth limit: sub-parts are leaves; nothing renders past MAX_DEPTH.
 assert.equal(HANZI_ANALYSIS_MAX_DEPTH, 2);
@@ -169,5 +172,72 @@ assert.equal(expandableParts('七', data, 1, new Set(['东', '七'])), null, '�
 assert.equal(expandableParts('二', data, 1, new Set(['三', '二'])), null, '二 (identical leaves) must not expand');
 // Single-stroke 一 uses its curated no-tree note instead of a tree.
 assert.ok(renderHanziAnalysis(data.charMap.get('一'), data, hanziProfileFor('一', data)).includes('chữ đơn thể'));
+
+// 12. Partial characters (IDS contains a fused '？' component): the study
+//     UI must never show a placeholder card. The character is presented
+//     whole, only identified components are listed, and a small note says
+//     the full analysis is being supplemented. (Standard amendment
+//     2026-11-05; first applied to 后 and 今, swept over all completed.)
+const partialChars = progress.completed.filter(ch => {
+  const d = data.charMap.get(ch).decomposition || '';
+  return d.includes('？') && d !== '？';
+});
+assert.ok(partialChars.length >= 9, `expected at least the 9 known partial chars, got ${partialChars.length}`);
+for (const ch of progress.completed) {
+  const out = renderHanziAnalysis(data.charMap.get(ch), data, hanziProfileFor(ch, data));
+  assert.ok(!out.includes('CHƯA XÁC ĐỊNH'), `no placeholder label may render: ${ch}`);
+  assert.ok(!out.includes('ha-unknown"'), `no placeholder card may render: ${ch}`);
+}
+for (const ch of partialChars) {
+  const entry = data.charMap.get(ch);
+  const info = hanziPartialLeaves(entry);
+  assert.ok(info && info.identified.length >= 1, `partial char must have identified parts: ${ch}`);
+  const out = renderHanziAnalysis(entry, data, hanziProfileFor(ch, data));
+  assert.ok(out.includes('Thành phần đã nhận diện'), `identified-parts heading: ${ch}`);
+  assert.ok(out.includes('Phân tích đầy đủ đang được bổ sung'), `supplement note: ${ch}`);
+  assert.ok(out.includes(`data-ha-partial="${ch}"`), `partial figure hook: ${ch}`);
+  for (const leaf of info.identified) assert.ok(out.includes(`<strong lang="zh-CN">${leaf}</strong>`), `identified leaf card ${leaf}: ${ch}`);
+  assert.ok(!out.includes('Bố cục:'), `partial char must not present a full layout line: ${ch}`);
+}
+// Whole-character chars (decomposition exactly '？') are NOT partial: they
+// keep their curated no-tree note.
+assert.equal(hanziPartialLeaves(data.charMap.get('人')), null);
+
+// 13. Explanation heading: "Vì sao ghép như vậy?" only when the entry has
+//     a source etymology; otherwise the observation heading is used.
+const lengHtml = renderHanziAnalysis(data.charMap.get('冷'), data, hanziProfileFor('冷', data));
+assert.ok(lengHtml.includes('Vì sao ghép như vậy?'), '冷 has source etymology');
+const qianHtml = renderHanziAnalysis(data.charMap.get('前'), data, hanziProfileFor('前', data));
+assert.ok(qianHtml.includes('Nhìn chữ để nhớ'), '前 has no source etymology');
+assert.ok(!qianHtml.includes('Vì sao ghép như vậy?'), '前 must not claim a sourced composition reason');
+const houHtml = renderHanziAnalysis(data.charMap.get('后'), data, hanziProfileFor('后', data));
+assert.ok(houHtml.includes('Nhìn chữ để nhớ'), '后 has no source etymology');
+
+// 14. hanzi-partials.json must agree with an independent recomputation
+//     from the source dictionary (app parser + source matches), and every
+//     shipped mapping must be internally consistent.
+const original = new Map();
+for (const line of fs.readFileSync('SOURCE_DATA/dictionary-original.txt', 'utf8').split('\n')) {
+  if (!line.trim()) continue;
+  const e = JSON.parse(line);
+  original.set(e.character, e);
+}
+for (const [ch, v] of Object.entries(data.hanziPartials.chars)) {
+  const entry = data.charMap.get(ch);
+  assert.ok(entry, `partial data char must exist in core: ${ch}`);
+  assert.equal(v.known.length, entry.strokeCount, `stroke count agreement: ${ch}`);
+  assert.ok(v.known.includes(true) && v.known.includes(false), `both stroke kinds: ${ch}`);
+  const tree = parseIDS(entry.decomposition);
+  const expected = original.get(ch).matches.map(m => {
+    if (!Array.isArray(m)) return false;
+    let node = tree;
+    for (const idx of m) node = node?.children?.[idx];
+    return !!node && !node.children.length && node.char !== '？';
+  });
+  assert.deepEqual(v.known, expected, `known flags must match source recomputation: ${ch}`);
+}
+for (const ch of ['后', '今', '不', '习', '书', '五', '先', '北', '友']) {
+  assert.ok(data.hanziPartials.chars[ch], `stroke mapping must be shipped for ${ch}`);
+}
 
 console.log('test-hanzi-analysis: all assertions passed');

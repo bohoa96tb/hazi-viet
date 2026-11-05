@@ -143,9 +143,10 @@ function subpartHTML(partChar, data, override) {
 function partCardHTML({rootChar, partChar, data, profile, depth, ancestors}) {
   const parentEntry = data?.charMap?.get(rootChar);
   const override = profile?.components?.[partChar];
-  if (partChar === '？') {
-    return `<div class="ha-branch ha-unknown"><span class="ha-role">CHƯA XÁC ĐỊNH</span><strong lang="zh-CN">？</strong><p>Nguồn chưa xác định phần này; app không đoán thay.</p></div>`;
-  }
+  // A '？' IDS leaf is a fused shape with no codepoint of its own. It is
+  // never rendered as a card; partial characters are presented whole
+  // (see renderHanziAnalysis). Defensive: render nothing for it here.
+  if (partChar === '？') return '';
   const info = partInfo(partChar, data, override);
   const role = roleFor(parentEntry, partChar, override);
   const meta = ROLE_META[role];
@@ -175,30 +176,85 @@ function partCardHTML({rootChar, partChar, data, profile, depth, ancestors}) {
     + inner + '</div>';
 }
 
+// A character is "partial" when its IDS tree contains a '？' leaf: in the
+// Make Me a Hanzi source that marks a fused component shape which has no
+// codepoint of its own. Partial characters are shown whole, with only the
+// identified components listed — never with a placeholder card, and the
+// remaining parts are never implied to be the whole character.
+export function hanziPartialLeaves(entry) {
+  const tree = decompositionTree(entry);
+  if (!tree) return null;
+  const leaves = idsLeaves(tree);
+  if (!leaves.includes('？')) return null;
+  return {identified: leaves.filter(leaf => leaf !== '？')};
+}
+
 export function renderHanziAnalysis(c, data, profile = {}) {
   const tree = decompositionTree(c);
   const leaves = tree ? idsLeaves(tree) : [];
   const layoutLabel = tree ? (idsLabels[tree.char] || '') : '';
+  const partial = tree ? hanziPartialLeaves(c) : null;
   const sinoViet = profile.sinoViet || c.learningVi?.sinoViet || '';
   const shortMeaning = profile.shortMeaning || String(c.vi || '').split(';').map(s => s.trim()).filter(Boolean).join(' · ');
   const radicalName = data?.radicals?.[c.radical]?.nameVi || '';
   const radicalLabel = profile.radicalLabel || (c.radical ? `${c.radical}${radicalName ? ' · ' + radicalName : ''}` : 'Chưa có');
   const ancestors = new Set([c.char]);
-  const branches = tree
-    ? leaves.map(leaf => partCardHTML({rootChar: c.char, partChar: leaf, data, profile, depth: 1, ancestors})).join('')
-    : `<p class="ha-unknown-tree">${e(profile.noTreeNote || 'Nguồn chưa có cây phân tích cho chữ này; app không đoán phần còn thiếu.')}</p>`;
+  const cardFor = leaf => partCardHTML({rootChar: c.char, partChar: leaf, data, profile, depth: 1, ancestors});
+  let mapInner;
+  if (partial) {
+    const hasStrokeMap = Array.isArray(data?.hanziPartials?.chars?.[c.char]?.known);
+    mapInner = `<div class="ha-partial-figure" data-ha-partial="${e(c.char)}"><span class="ha-partial-glyph" lang="zh-CN">${e(c.char)}</span>`
+      + (hasStrokeMap ? `<p class="ha-partial-legend"><span class="ha-dot ha-dot-known"></span>Phần đã nhận diện<span class="ha-dot ha-dot-unknown"></span>Phần chưa tách được</p>` : '')
+      + '</div>'
+      + `<h4 class="ha-partial-title">Thành phần đã nhận diện</h4><div class="ha-branches ha-branches-partial">${partial.identified.map(cardFor).join('')}</div>`
+      + '<p class="ha-partial-note">Phân tích đầy đủ đang được bổ sung.</p>';
+  } else if (tree) {
+    mapInner = `<p class="ha-layout">Bố cục: ${e(profile.layoutNote || layoutLabel)}</p><div class="ha-branches">${leaves.map(cardFor).join('')}</div>`;
+  } else {
+    mapInner = `<p class="ha-unknown-tree">${e(profile.noTreeNote || 'Nguồn chưa có cây phân tích cho chữ này; app không đoán phần còn thiếu.')}</p>`;
+  }
   const sources = (profile.sources || []).map(s => {
     const href = /^https:\/\//.test(String(s.href || '')) ? s.href : '';
     return `<p>${e(s.text)}${href ? ` <a href="${e(href)}" target="_blank" rel="noopener">${e(s.linkLabel || 'Nguồn ↗')}</a>` : ''}</p>`;
   }).join('');
+  // "Vì sao ghép như vậy?" is shown only when the explanation rests on a
+  // source etymology; shape-only descriptions are labelled as observation.
+  const explainTitle = profile.explainHeading || (c.etymology ? 'Vì sao ghép như vậy?' : 'Nhìn chữ để nhớ');
   return `<section class="hanzi-analysis" aria-label="Phân tích chữ ${e(c.char)}"><div class="ha-heading"><span class="stage-kicker">01 / HIỂU CHỮ</span><span class="ha-badge">Giao diện mới</span></div><h3 class="stage-title">Hiểu từng phần, nhớ cả chữ.</h3><p class="ha-intro">${e(profile.intro || 'Nhìn bố cục trước, hiểu từng phần.')}</p>`
     + `<div class="ha-facts"><span><b>${e(sinoViet.toUpperCase())}</b>Hán–Việt</span><span><b>${c.strokeCount ? e(c.strokeCount) + ' nét' : 'Chưa có'}</b>Số nét</span><span><b lang="zh-CN">${e(radicalLabel)}</b>Bộ thủ</span></div>`
     + `<div class="ha-map"><div class="ha-root"><strong lang="zh-CN">${e(c.char)}</strong><span>${e((c.pinyin || []).join(' / '))}</span><small>${e(shortMeaning)}</small></div>`
-    + (tree ? `<p class="ha-layout">Bố cục: ${e(profile.layoutNote || layoutLabel)}</p><div class="ha-branches">${branches}</div>` : branches)
+    + mapInner
     + '</div>'
-    + (profile.explain ? `<div class="ha-explain"><h4>Vì sao ghép như vậy?</h4><p>${markedText(profile.explain, c, profile)}</p></div>` : '')
+    + (profile.explain ? `<div class="ha-explain"><h4>${e(explainTitle)}</h4><p>${markedText(profile.explain, c, profile)}</p></div>` : '')
     + (profile.mnemonic ? `<div class="ha-memory"><span>MẸO NHỚ · TỰ LIÊN TƯỞNG</span><p>${markedText(profile.mnemonic, c, profile)}</p><small>${e(profile.mnemonicNote || 'Đây là mẹo học tập, không phải giải thích lịch sử chữ.')}</small></div>` : '')
     + `<button class="btn primary ha-write" data-stage="1">✎ Luyện viết${c.strokeCount ? ' ' + e(c.strokeCount) + ' nét' : ''} <span>→</span></button>`
     + (sources ? `<details class="ha-source"><summary>Nguồn dữ liệu & phạm vi</summary>${sources}<a href="./THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener">Xem ghi nguồn và giấy phép ↗</a></details>` : '')
     + '</section>';
+}
+
+// Progressive enhancement for partial characters: replace the plain glyph
+// in [data-ha-partial] figures with an SVG built from Hanzi Writer Data
+// stroke paths (the same CDN source as the writing step), coloured by the
+// verified per-stroke mapping in data/hanzi-partials.json. Any failure
+// (offline, count mismatch) keeps the plain glyph and drops the legend —
+// the identified-parts list below the figure stays correct either way.
+export function enhanceHanziPartials(rootEl, data) {
+  if (!rootEl?.querySelectorAll) return;
+  rootEl.querySelectorAll('[data-ha-partial]').forEach(fig => {
+    const char = fig.getAttribute('data-ha-partial');
+    const known = data?.hanziPartials?.chars?.[char]?.known;
+    const legend = fig.querySelector('.ha-partial-legend');
+    if (!Array.isArray(known) || !known.length) { legend?.remove(); return; }
+    const url = 'https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/' + encodeURIComponent(char) + '.json';
+    fetch(url, {signal: AbortSignal.timeout ? AbortSignal.timeout(15000) : undefined})
+      .then(r => { if (!r.ok) throw new Error('stroke data'); return r.json(); })
+      .then(d => {
+        if (!Array.isArray(d?.strokes) || d.strokes.length !== known.length) throw new Error('stroke count');
+        const paths = d.strokes.map((p, i) => `<path d="${e(p)}" class="${known[i] ? 'ha-stroke-known' : 'ha-stroke-unknown'}"/>`).join('');
+        const svg = `<svg viewBox="0 0 1024 1024" class="ha-partial-svg" role="img" aria-label="Chữ ${e(char)}: phần đã nhận diện được tô màu"><g transform="translate(0,1024) scale(1,-1)">${paths}</g></svg>`;
+        const glyph = fig.querySelector('.ha-partial-glyph');
+        if (glyph) glyph.outerHTML = svg; else fig.insertAdjacentHTML('afterbegin', svg);
+      })
+      .catch(() => { legend?.remove(); });
+  });
 }

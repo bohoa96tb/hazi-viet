@@ -135,6 +135,24 @@
    "mergeCommit": "ce3fb9c0275c57a4163e52ed65bf30f43d03c340",
    "pagesRun": 342,
    "pr": 72
+  },
+  {
+   "chars": [
+    "后",
+    "今",
+    "不",
+    "习",
+    "书",
+    "五",
+    "先",
+    "北",
+    "友"
+   ],
+   "id": "PA-001",
+   "kind": "standard-amendment",
+   "note": "Bổ sung mục 'Xử lý chữ thiếu dữ liệu phân tích' vào docs/HANZI_ANALYSIS_STANDARD.md. Renderer: bỏ thẻ giữ chỗ '?', chế độ phân tích một phần (chữ nguyên vẹn + Thành phần đã nhận diện + dòng bổ sung), tô nét theo matches đã kiểm chứng (data/hanzi-partials.json), tiêu đề giải thích theo căn cứ etymology. Số chữ hoàn thiện không đổi (78).",
+   "pr": null,
+   "title": "Xử lý chữ thiếu dữ liệu phân tích (áp dụng trước cho 后/今, rà toàn bộ chữ đã chuẩn hóa)"
   }
  ],
  "blocked": [
@@ -229,6 +247,78 @@
   "她",
   "好",
   "妈"
+ ],
+ "dataGaps": [
+  {
+   "cause": "Thiếu dữ liệu nguồn: dữ liệu lõi không có strokeCount; lớp Kai không có âm Hán–Việt đã kiểm chứng.",
+   "char": "京",
+   "contentStatus": "Chưa hoàn thiện — chờ nguồn đã kiểm chứng.",
+   "status": "blocked",
+   "uiStatus": "Chưa bật renderer cho chữ này (chưa chuẩn hóa)."
+  },
+  {
+   "cause": "Thành phần hợp nhất không có chữ/tên riêng: IDS của Make Me a Hanzi (bản gốc lưu trong repo và bản đã nhập khớp nhau) dùng '？' cho cụm nét hợp nhất; không phải lỗi IDS, không thiếu dữ liệu nét.",
+   "char": "后",
+   "contentStatus": "Phân tích hoàn thiện ở mức dữ liệu cho phép: phần đã nhận diện có căn cứ nguồn; phần hợp nhất không gán vai trò/nghĩa. Chỉ đóng hồ sơ khi có nguồn phân tích được phần hợp nhất.",
+   "status": "diagnosed-partial",
+   "uiStatus": "Đã xử lý giao diện 2026-11-05 (đợt PA-001): chữ nguyên vẹn + mục Thành phần đã nhận diện + tô nét theo matches đã kiểm chứng + dòng 'Phân tích đầy đủ đang được bổ sung.'"
+  },
+  {
+   "cause": "Thành phần hợp nhất không có chữ/tên riêng: IDS của Make Me a Hanzi (bản gốc lưu trong repo và bản đã nhập khớp nhau) dùng '？' cho cụm nét hợp nhất; không phải lỗi IDS, không thiếu dữ liệu nét.",
+   "char": "今",
+   "contentStatus": "Phân tích hoàn thiện ở mức dữ liệu cho phép: phần đã nhận diện có căn cứ nguồn; phần hợp nhất không gán vai trò/nghĩa. Chỉ đóng hồ sơ khi có nguồn phân tích được phần hợp nhất.",
+   "status": "diagnosed-partial",
+   "uiStatus": "Đã xử lý giao diện 2026-11-05 (đợt PA-001): chữ nguyên vẹn + mục Thành phần đã nhận diện + tô nét theo matches đã kiểm chứng + dòng 'Phân tích đầy đủ đang được bổ sung.'"
+  },
+  {
+   "cause": "Thành phần hợp nhất không có chữ/tên riêng: IDS của Make Me a Hanzi (bản gốc lưu trong repo và bản đã nhập khớp nhau) dùng '？' cho cụm nét hợp nhất; không phải lỗi IDS, không thiếu dữ liệu nét.",
+   "char": "不",
+   "contentStatus": "Phân tích hoàn thiện ở mức dữ liệu cho phép: phần đã nhận diện có căn cứ nguồn; phần hợp nhất không gán vai trò/nghĩa. Chỉ đóng hồ sơ khi có nguồn phân tích được phần hợp nhất.",
+   "status": "diagnosed-partial",
+   "uiStatus": "Đã xử lý giao diện 2026-11-05 (đợt PA-001): chữ nguyên vẹn + mục Thành phần đã nhận diện + tô nét theo matches đã kiểm chứng + dòng 'Phân tích đầy đủ đang được bổ sung.'"
+  },
+  {
+   "cause": "Một nét lẻ có tên nét (nét gấp móc) nhưng không phải chữ/thành phần riêng: IDS của Make Me a Hanzi (bản gốc trong repo và bản đã nhập khớp nhau) dùng '？' cho nét này; không phải lỗi IDS, không thiếu dữ liệu nét.",
+   "char": "习",
+   "contentStatus": "Phân tích hoàn thiện ở mức dữ liệu cho phép: phần đã nhận diện có căn cứ nguồn; phần hợp nhất không gán vai trò/nghĩa. Chỉ đóng hồ sơ khi có nguồn phân tích được phần hợp nhất.",
+   "status": "diagnosed-partial",
+   "uiStatus": "Đã xử lý giao diện 2026-11-05 (đợt PA-001): chữ nguyên vẹn + mục Thành phần đã nhận diện + tô nét theo matches đã kiểm chứng + dòng 'Phân tích đầy đủ đang được bổ sung.'"
+  },
+  {
+   "cause": "Thành phần hợp nhất không có chữ/tên riêng: IDS của Make Me a Hanzi (bản gốc lưu trong repo và bản đã nhập khớp nhau) dùng '？' cho cụm nét hợp nhất; không phải lỗi IDS, không thiếu dữ liệu nét.",
+   "char": "书",
+   "contentStatus": "Phân tích hoàn thiện ở mức dữ liệu cho phép: phần đã nhận diện có căn cứ nguồn; phần hợp nhất không gán vai trò/nghĩa. Chỉ đóng hồ sơ khi có nguồn phân tích được phần hợp nhất.",
+   "status": "diagnosed-partial",
+   "uiStatus": "Đã xử lý giao diện 2026-11-05 (đợt PA-001): chữ nguyên vẹn + mục Thành phần đã nhận diện + tô nét theo matches đã kiểm chứng + dòng 'Phân tích đầy đủ đang được bổ sung.'"
+  },
+  {
+   "cause": "Thành phần hợp nhất không có chữ/tên riêng: IDS của Make Me a Hanzi (bản gốc lưu trong repo và bản đã nhập khớp nhau) dùng '？' cho cụm nét hợp nhất; không phải lỗi IDS, không thiếu dữ liệu nét.",
+   "char": "五",
+   "contentStatus": "Phân tích hoàn thiện ở mức dữ liệu cho phép: phần đã nhận diện có căn cứ nguồn; phần hợp nhất không gán vai trò/nghĩa. Chỉ đóng hồ sơ khi có nguồn phân tích được phần hợp nhất.",
+   "status": "diagnosed-partial",
+   "uiStatus": "Đã xử lý giao diện 2026-11-05 (đợt PA-001): chữ nguyên vẹn + mục Thành phần đã nhận diện + tô nét theo matches đã kiểm chứng + dòng 'Phân tích đầy đủ đang được bổ sung.'"
+  },
+  {
+   "cause": "Một nét lẻ có tên nét (nét phẩy) nhưng không phải chữ/thành phần riêng: IDS của Make Me a Hanzi (bản gốc trong repo và bản đã nhập khớp nhau) dùng '？' cho nét này; không phải lỗi IDS, không thiếu dữ liệu nét.",
+   "char": "先",
+   "contentStatus": "Phân tích hoàn thiện ở mức dữ liệu cho phép: phần đã nhận diện có căn cứ nguồn; phần hợp nhất không gán vai trò/nghĩa. Chỉ đóng hồ sơ khi có nguồn phân tích được phần hợp nhất.",
+   "status": "diagnosed-partial",
+   "uiStatus": "Đã xử lý giao diện 2026-11-05 (đợt PA-001): chữ nguyên vẹn + mục Thành phần đã nhận diện + tô nét theo matches đã kiểm chứng + dòng 'Phân tích đầy đủ đang được bổ sung.'"
+  },
+  {
+   "cause": "Thành phần hợp nhất không có chữ/tên riêng: IDS của Make Me a Hanzi (bản gốc lưu trong repo và bản đã nhập khớp nhau) dùng '？' cho cụm nét hợp nhất; không phải lỗi IDS, không thiếu dữ liệu nét.",
+   "char": "北",
+   "contentStatus": "Phân tích hoàn thiện ở mức dữ liệu cho phép: phần đã nhận diện có căn cứ nguồn; phần hợp nhất không gán vai trò/nghĩa. Chỉ đóng hồ sơ khi có nguồn phân tích được phần hợp nhất.",
+   "status": "diagnosed-partial",
+   "uiStatus": "Đã xử lý giao diện 2026-11-05 (đợt PA-001): chữ nguyên vẹn + mục Thành phần đã nhận diện + tô nét theo matches đã kiểm chứng + dòng 'Phân tích đầy đủ đang được bổ sung.'"
+  },
+  {
+   "cause": "Thành phần hợp nhất không có chữ/tên riêng: IDS của Make Me a Hanzi (bản gốc lưu trong repo và bản đã nhập khớp nhau) dùng '？' cho cụm nét hợp nhất; không phải lỗi IDS, không thiếu dữ liệu nét.",
+   "char": "友",
+   "contentStatus": "Phân tích hoàn thiện ở mức dữ liệu cho phép: phần đã nhận diện có căn cứ nguồn; phần hợp nhất không gán vai trò/nghĩa. Chỉ đóng hồ sơ khi có nguồn phân tích được phần hợp nhất.",
+   "status": "diagnosed-partial",
+   "uiStatus": "Đã xử lý giao diện 2026-11-05 (đợt PA-001): chữ nguyên vẹn + mục Thành phần đã nhận diện + tô nét theo matches đã kiểm chứng + dòng 'Phân tích đầy đủ đang được bổ sung.'"
+  }
  ],
  "next": {
   "char": "姐",
