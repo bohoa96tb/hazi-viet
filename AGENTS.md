@@ -53,3 +53,20 @@ Từ đơn giản đi thẳng vào nghĩa/cách dùng, ví dụ tự nhiên phù
 - **Đợt bổ sung Thực hành đang hiệu lực**: tạm dừng biên soạn từ mới. Đi theo thứ tự HSK1 bài 1 → hết HSK1 → cấp tiếp theo; chỉ làm bài đã xong từ vựng (mọi từ có bài V2 hoàn chỉnh — đủ 24 mục từ không mặc nhiên là xong) mà chưa có Thực hành đạt chuẩn. Bài chưa xong từ vựng: ghi trạng thái + phần thiếu vào checkpoint, không tự làm từ vựng, chuyển bài kế tiếp. Bài đã có Thực hành đạt chuẩn: ghi nhận, bỏ qua.
 - Điểm dừng khi biên soạn từ vựng (ngoài đợt bổ sung): một bài xong từ vựng thì dừng trước từ đầu tiên của bài kế, hỏi người dùng có làm Thực hành cuối bài đó không; chỉ làm khi được xác nhận; batch không vượt ranh giới bài.
 - “Tiếp tục” hiểu theo trạng thái ở checkpoint Thực hành (đang dở việc gì thì làm tiếp việc đó; đang chờ xác nhận Thực hành thì là xác nhận; trong đợt bổ sung thì không chuyển sang từ mới). Một lượt “Tiếp tục” không vượt nhiều điểm dừng. Hành động đang chờ phải ghi ở checkpoint.
+
+## Chuẩn hóa Hán tự (module học chữ) — hiệu lực từ 2026-11-05
+
+- Quy chuẩn chính thức: `docs/HANZI_ANALYSIS_STANDARD.md`. Tiến độ:
+  `docs/HANZI_ANALYSIS_CHECKPOINT.md` và `docs/hanzi-analysis-progress.json`
+  (trục tiến độ riêng, không gộp với `progress.json` của từ vựng).
+- Mẫu chữ 想 đã được chủ dự án duyệt (PR #61, merge `c9894ee`); các phiên sau
+  không cần xin duyệt lại mẫu và không dùng commit mẫu làm mốc khôi phục.
+- Màn hình học chữ chính thức có 4 bước: Hiểu chữ → Luyện viết → Từ & câu →
+  Cách dùng. **Không khôi phục tab "Gốc chữ"** (đã xoá vì lặp lại Hiểu chữ);
+  kiến thức từ nguyên/mẹo nhớ nằm trong bước Hiểu chữ.
+- Khi người dùng nhắn "Tiếp tục" trong ngữ cảnh chuẩn hóa Hán tự: đọc quy
+  chuẩn + checkpoint, kiểm HEAD, làm tiếp từ vị trí `next` trong file tiến
+  độ (cấp thấp → cao, giữ thứ tự trong file dữ liệu), làm trọn một lô chất
+  lượng trong phiên (kiểm thử → PR → merge → xác minh Pages + live), lưu
+  checkpoint rồi dừng. Chủ dự án đã cho phép merge/phát hành các lô đạt
+  kiểm tra trong phạm vi này.

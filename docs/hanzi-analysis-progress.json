@@ -1,0 +1,76 @@
+{
+ "batches": [
+  {
+   "chars": [
+    "想"
+   ],
+   "date": "2026-11-05",
+   "id": "B-000",
+   "kind": "pilot-approved",
+   "pr": 61
+  },
+  {
+   "chars": [
+    "一",
+    "七",
+    "三",
+    "上",
+    "下",
+    "不",
+    "东",
+    "个"
+   ],
+   "date": "2026-11-05",
+   "id": "B-001",
+   "kind": "standardization",
+   "pr": 62
+  }
+ ],
+ "blocked": [],
+ "completed": [
+  "想",
+  "一",
+  "七",
+  "三",
+  "上",
+  "下",
+  "不",
+  "东",
+  "个"
+ ],
+ "next": {
+  "char": "中",
+  "index": 8,
+  "level": 1,
+  "note": "Chữ tiếp theo trong data/hsk1-core.json sau 个, theo đúng thứ tự file."
+ },
+ "pattern": {
+  "approvedBy": "Chủ dự án",
+  "approvedDate": "2026-11-05",
+  "note": "Mẫu đã duyệt là quy chuẩn chính thức. Giao diện chính thức có 4 bước; không khôi phục tab “Gốc chữ”. Các phiên sau không cần xin duyệt lại mẫu. “Tiếp tục” nghĩa là thực hiện lô chuẩn hóa kế tiếp theo checkpoint. Commit mẫu chỉ là tham chiếu, không dùng làm mốc khôi phục phiên bản cũ.",
+  "sampleChar": "想",
+  "sampleMergeCommit": "c9894ee7add4d87ded2b2d6cc4f823d80a5d1ccb",
+  "samplePullRequest": 61,
+  "status": "approved",
+  "uiSteps": [
+   "Hiểu chữ",
+   "Luyện viết",
+   "Từ & câu",
+   "Cách dùng"
+  ]
+ },
+ "scope": {
+  "order": "Cấp HSK tăng dần (1→6); trong từng cấp giữ nguyên thứ tự xuất hiện trong file dữ liệu.",
+  "sourceFiles": [
+   "data/hsk1-core.json",
+   "data/hsk2-core.json",
+   "data/hsk3-core.json",
+   "data/hsk4-core.json",
+   "data/hsk5-core.json",
+   "data/hsk6-core.json"
+  ],
+  "totalCharacters": 2632
+ },
+ "updatedAt": "2026-11-05",
+ "version": 1
+}

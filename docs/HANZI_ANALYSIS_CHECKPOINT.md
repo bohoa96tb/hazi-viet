@@ -6,11 +6,21 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 
 ## Trạng thái
 
-- HEAD gốc của đợt: `04e4033` (main, "Add single-character 想 structure
-  interface pilot") — chính là commit tham chiếu của mẫu.
-- Nhánh làm việc: `feature/hanzi-analysis-xiang`.
-- Chữ đã bật giao diện mới: **想** (duy nhất). Mọi chữ khác giữ giao diện cũ.
-- Thay đổi chính so với pilot:
+- **Mẫu 想 đã được chủ dự án duyệt và phát hành**: PR #61 merge vào `main`
+  tại `c9894ee7add4d87ded2b2d6cc4f823d80a5d1ccb` (2026-11-05), GitHub
+  Pages run #331 (id 41976105787) đúng SHA merge, trạng thái success.
+  File `data/hanzi-analysis.json` trên live đã đối chiếu khớp bản merge
+  (chỉ bật 想 ở thời điểm đó); `js/study-view.js` trên live đã đối chiếu
+  là bản mới (4 bước, cổng `hanziProfileFor`).
+- **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
+  chủ dự án ngày 2026-11-05: quy chuẩn ở
+  `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **9 / 2.632** chữ
+  (gồm mẫu 想 và lô B-001 dưới đây). Vị trí tiếp theo: HSK1, chữ **中**
+  (thứ 9 trong `data/hsk1-core.json`).
+- Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
+  chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
+- Thay đổi chính của đợt mẫu so với pilot:
   - `js/xiang-preview.js` / `css/xiang-preview.css` (viết riêng cho 想) được
     thay bằng renderer dùng chung `js/hanzi-analysis.js` /
     `css/hanzi-analysis.css`; nội dung từng chữ tách ra
@@ -111,12 +121,42 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   khẳng định: đúng 4 tab, không còn tab "Gốc chữ", bước 4 không render,
   nút chính ở bước cuối là hoàn thành.
 
+## Lô B-001 — 8 chữ đầu HSK1 (2026-11-05)
+
+- Chữ đã chuẩn hóa theo đúng thứ tự `data/hsk1-core.json`:
+  **一 七 三 上 下 不 东 个** (tiến độ: 9/2.632 gồm 想).
+- Nội dung từng chữ đã đối chiếu dữ liệu lõi + `etymology-vi` +
+  `radicals-vi`: âm/Hán–Việt/nghĩa chính (NHẤT, THẤT, TAM, THƯỢNG, HẠ,
+  BẤT, ĐÔNG, CÁ), bộ thủ, số nét, cây IDS. Các chữ này hầu hết là biểu ý
+  hoặc đơn thể nên vai trò để trung tính; chú giải nguồn (đếm vạch của
+  三， vạch mốc của 上/下, con chim của 不, dạng cũ 東 của 东, dấu đếm của
+  个） ghi rõ là chú giải nguồn, tách khỏi mẹo liên tưởng.
+- Renderer được siết thêm hai cổng từ lô này (đã ghi vào tài liệu chuẩn):
+  không mở tiếp thành phần có phép tách chồng nét (⿻) hoặc chỉ lặp một lá
+  giống hệt （二 = 一 + 一); chữ không có cây (như 一） hiện ghi chú riêng
+  trong profile (`noTreeNote`) thay cho thông báo chung.
+- Chinese Expert độc lập rà 8 chữ: 7 đạt ngay; các điểm cần sửa đã xử lý
+  trước phát hành — mô tả nét móc của 七 (cong xuống, không "cắt chéo
+  lên"), mẹo nhớ của 不改 sang hình dạng (tránh gán hình ảnh con chim của
+  chú giải nguồn thành mẹo), mẹo của 个 sát hint nguồn hơn, ghi chú ⺊ của
+  上 nói rõ gồm sổ ngắn + chấm.
+- Kiểm thử: test logic (gồm cổng dữ liệu theo file tiến độ: mọi chữ trong
+  `completed` phải có profile, render đúng số nét, vai trò khớp nguồn;
+  khẳng định cổng mở rộng cho 七/二; ghi chú đơn thể của 一）, test DOM
+  (gồm kịch bản mới: khôi phục điểm dừng cũ ghi bước 4 "Gốc chữ" → tự về
+  bước 0, đúng 4 tab, không lỗi), `test-word-lookup`, `git diff --check`:
+  đều đạt.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
-- Nếu chủ dự án chưa nghiệm thu mẫu 想: dừng, không mở rộng.
-- Sau khi nghiệm thu và có phê duyệt merge riêng: merge PR của đợt này,
-  kiểm workflow GitHub Pages đúng SHA, kiểm lại chữ 想 trên live (mở
-  nhánh 相, luyện viết 13 nét thật, viewport điện thoại) rồi cập nhật
-  checkpoint này.
-- Mở rộng sang chữ khác chỉ khi chủ dự án duyệt danh sách chữ; mỗi chữ
-  làm theo mục "Khi bật thêm một chữ" trong tài liệu chuẩn.
+- Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
+  kiểm HEAD của `main`, rồi làm lô kế tiếp bắt đầu từ **HSK1 · 中**
+  (vị trí `next` trong file tiến độ), giữ thứ tự file.
+- Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
+  được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
+  đúng SHA → kiểm live → cập nhật checkpoint + file tiến độ → dừng.
+- Hạn chế kiểm chứng còn lại: viewport 390px/360px và Android thật chưa
+  kiểm được bằng công cụ hiện có (công cụ trình duyệt không đặt được bề
+  rộng); kiểm tra tương tác trên live qua trình duyệt tự động từng có
+  lần không bấm được hộp thoại — nếu gặp lại, đối chiếu file live và kết
+  quả test DOM trước khi kết luận lỗi.
