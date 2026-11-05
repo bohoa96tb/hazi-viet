@@ -168,8 +168,18 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
   đúng SHA → kiểm live → cập nhật checkpoint + file tiến độ → dừng.
+- **Nghiệm thu tương tác trên live ĐÃ ĐẠT** (kiểm tra trình duyệt
+  2026-11-05, ngay sau phát hành PR #61): mở link sâu 想 hiện đúng 4 tab
+  (không còn "Gốc chữ"), dòng "Bước 1/4"; mở nhánh 相 tại chỗ
+  (`aria-expanded=true`, hiện 木/目） và nhánh vẫn mở sau khi chuyển bước
+  rồi quay lại; tab Luyện viết tải dữ liệu nét thật từ CDN, hiện "13 nét"
+  và hoạt ảnh Xem nét chạy; bước cuối hiện "Bước 4/4" và nút "Đã học ·
+  Chữ tiếp" (không bấm, không đổi tiến độ). Lưu ý nhỏ: ký hiệu ⌃ trên nút
+  sau khi mở nhánh nhìn giống gạch ngang nhỏ trong ảnh chụp desktop —
+  chi tiết thẩm mỹ, không ảnh hưởng chức năng.
 - Hạn chế kiểm chứng còn lại: viewport 390px/360px và Android thật chưa
   kiểm được bằng công cụ hiện có (công cụ trình duyệt không đặt được bề
-  rộng); kiểm tra tương tác trên live qua trình duyệt tự động từng có
-  lần không bấm được hộp thoại — nếu gặp lại, đối chiếu file live và kết
-  quả test DOM trước khi kết luận lỗi.
+  rộng). Hai lần kiểm tra tự động khác từng báo không bấm được hộp thoại
+  dù trang render đủ — kết quả nghiệm thu đạt ở trên là bằng chứng trực
+  tiếp mới nhất; nếu gặp lại báo cáo mâu thuẫn, ưu tiên quan sát trực
+  tiếp và đối chiếu file live trước khi kết luận lỗi.
