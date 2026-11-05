@@ -146,6 +146,14 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   (gồm kịch bản mới: khôi phục điểm dừng cũ ghi bước 4 "Gốc chữ" → tự về
   bước 0, đúng 4 tab, không lỗi), `test-word-lookup`, `git diff --check`:
   đều đạt.
+- **Đính chính sau phát hành (cùng ngày)**: báo cáo đầy đủ của Chinese
+  Expert về lô về sau thời điểm phát hành; điểm cần sửa duy nhất còn lại
+  là mô tả thành phần ⺊ của 上 — bản đã phát hành ghi "nét sổ ngắn và một
+  nét chấm", nhưng theo `matches [[0],[0],[1]]` của nguồn và thứ tự nét,
+  ⺊ gồm nét sổ ngắn + nét ngang ngắn (chữ 上 không có nét chấm). Đã sửa
+  thành "cụm nét phía trên vạch mốc: nét sổ ngắn và nét ngang ngắn (thành
+  phần hình nét)" qua PR đính chính riêng; 7 chữ còn lại chuyên gia xác
+  nhận ĐẠT nguyên văn.
 - **Đã phát hành**: PR #62 merge tại
   `b4dec6706479557b00562e30f4b2811ddb0d7b36`, GitHub Pages run #332
   (id 41977361220) đúng SHA merge, success. File
