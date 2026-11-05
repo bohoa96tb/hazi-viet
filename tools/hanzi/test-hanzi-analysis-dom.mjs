@@ -46,6 +46,11 @@ const body = () => document.querySelector('#studyBody');
 
 // The deep link opens 想 directly in the new analysis stage.
 assert($('#characterDialog').open, 'study dialog must open from the deep link');
+// Exactly four study tabs remain; the duplicated "Gốc chữ" tab is gone.
+const tabs = document.querySelectorAll('.study-tabs [data-stage]');
+assert.equal(tabs.length, 4, 'study must have exactly 4 tabs');
+assert(![...tabs].some(t => t.textContent.includes('Gốc chữ')), 'Gốc chữ tab must be removed');
+assert(!document.querySelector('[data-stage="4"]'), 'no fifth tab');
 assert(body().querySelector('.hanzi-analysis'), '想 must render the new analysis');
 assert(body().textContent.includes('TƯỞNG') && body().textContent.includes('13 nét'));
 assert(body().textContent.includes('PHẦN GỢI ÂM') && body().textContent.includes('PHẦN GỢI NGHĨA'));
@@ -101,5 +106,15 @@ assert(body().querySelector('.hanzi-analysis'), 'back must return to 想');
 document.querySelector('[data-action="favorite"]').click();
 const saved = JSON.parse(window.localStorage.getItem('hanzi-viet-reading') || '{}');
 assert.equal(saved.char, '想', 'reading position must persist for 想');
+
+// From the last stage (Cách dùng, index 3) the primary button finishes the
+// character instead of advancing to a removed fifth stage.
+document.querySelector('[data-stage="3"]').click();
+await tick(30);
+assert(body().textContent.includes('CÁCH DÙNG'), 'stage 3 must render Cách dùng');
+assert(document.querySelector('[data-action="studyNext"]').textContent.includes('Đã học'), 'last stage primary button must be the finish action');
+document.querySelector('[data-action="studyNext"]').click();
+await tick(30);
+assert(document.querySelector('.identity-char')?.textContent !== '想' || document.querySelector('.session-complete'), 'finishing must move on from 想');
 
 console.log('test-hanzi-analysis-dom: all assertions passed');

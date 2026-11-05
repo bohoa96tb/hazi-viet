@@ -97,6 +97,20 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - Dữ liệu nét thật từ CDN trên live sẽ kiểm lại sau phát hành bản mới
   (môi trường happy-dom dùng bản stub).
 
+## Bỏ tab "Gốc chữ" (yêu cầu của chủ dự án, 2026-11-05)
+
+- Chủ dự án nhận xét tab "Gốc chữ" (bước 5) lặp lại nội dung của tab
+  "Hiểu chữ" và yêu cầu xoá. Đã xoá khỏi `studySteps`; màn hình học còn 4
+  bước: Hiểu chữ → Luyện viết → Từ & câu → Cách dùng.
+- Mọi logic theo chỉ số bước đã cập nhật: giới hạn bước cuối, nút "Bước
+  tiếp" ở bước cuối thành hoàn thành, phím End/mũi tên, khôi phục điểm
+  dừng đã lưu (bản lưu cũ ghi bước 4 sẽ tự về bước 0), và văn bản hướng
+  dẫn "Đi qua 4 bước". Trạng thái `originMode` đã gỡ hẳn.
+- Thay đổi này nằm trong cùng PR #61 (commit nối tiếp), áp dụng cho mọi
+  chữ vì đây là khung màn hình học chung. Test logic và DOM đã bổ sung
+  khẳng định: đúng 4 tab, không còn tab "Gốc chữ", bước 4 không render,
+  nút chính ở bước cuối là hoàn thành.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Nếu chủ dự án chưa nghiệm thu mẫu 想: dừng, không mở rộng.

@@ -7,7 +7,7 @@ import {
   expandableParts, isHanziBranchExpanded, setHanziBranchExpanded,
   HANZI_ANALYSIS_MAX_DEPTH,
 } from '../../js/hanzi-analysis.js';
-import {renderStudyStage} from '../../js/study-view.js';
+import {renderStudyStage, renderStudyShell, studySteps} from '../../js/study-view.js';
 
 const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
 const chars = [1, 2, 3, 4, 5, 6].flatMap(l => read(`data/hsk${l}-core.json`));
@@ -134,5 +134,14 @@ assert.ok(reopened.includes('aria-expanded="true"'), 're-render must keep the br
 assert.ok(!/id="ha-panel-想-相"[^>]*hidden/.test(reopened), 'panel must render visible');
 setHanziBranchExpanded('想', '相', false);
 assert.ok(renderHanziAnalysis(xiang, data, profile).includes('aria-expanded="false"'));
+
+// 10. The "Gốc chữ" tab is removed (it duplicated "Hiểu chữ"): exactly four
+//     steps remain, stage 3 is the last one, and stage 4 renders nothing.
+assert.deepEqual(studySteps.map(s => s.id), ['structure', 'writing', 'words', 'grammar']);
+assert.ok(!studySteps.some(s => s.label.includes('Gốc chữ')));
+assert.ok(renderStudyStage({c: xiang, data, stage: 3}).includes('CÁCH DÙNG'));
+assert.equal(renderStudyStage({c: xiang, data, stage: 4}), '', 'stage 4 must no longer exist');
+assert.ok(renderStudyShell({c: xiang, data, stage: 0}).includes('Bước 1/4'));
+assert.ok(!renderStudyShell({c: xiang, data, stage: 3}).includes('Tiếp:'), 'last stage must offer finish, not a next step');
 
 console.log('test-hanzi-analysis: all assertions passed');
