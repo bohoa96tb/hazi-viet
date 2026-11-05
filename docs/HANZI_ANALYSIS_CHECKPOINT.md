@@ -15,10 +15,10 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **24 / 2.632** chữ
-  (gồm mẫu 想, lô B-001 và lô B-002 dưới đây); 1 chữ đang bị chặn （京).
-  Vị trí tiếp theo: HSK1, chữ **们** (index 24) — sau khi xử lý 京 nếu
-  bổ sung được nguồn.
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **42 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001, B-002 và B-003 dưới đây); 1 chữ đang bị
+  chặn （京). Vị trí tiếp theo: HSK1, chữ **分** (index 42) — sau khi xử
+  lý 京 nếu bổ sung được nguồn.
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
 - Thay đổi chính của đợt mẫu so với pilot:
@@ -197,12 +197,33 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   `data/hanzi-analysis.json` trên live đã đối chiếu: đủ 24 chữ đã bật,
   gồm cả dòng mô tả 冫 của 习 sau sửa.
 
+## Lô B-003 — 18 chữ HSK1 tiếp theo (2026-11-05)
+
+- Chữ đã chuẩn hóa theo thứ tự `data/hsk1-core.json` (index 24–41):
+  **们 会 住 作 你 候 做 儿 先 八 六 关 兴 再 写 冷 几 出** (tiến độ:
+  42/2.632). 京 vẫn bị chặn như đã ghi ở B-002.
+- Điểm nội dung đáng chú ý: 们/候/冷 là hình thanh thật (roles khớp
+  `etymology`); 住/作/做 có hint nguồn nói thành phần gợi âm nhưng phân
+  loại là biểu ý — giữ roles trung tính, chỉ ghi gợi âm trong giải thích
+  kèm quy thuộc nguồn, nhất quán cả ba chữ; 兴 tách hai cách đọc
+  xìng/xīng, 几 tách jǐ/jī; 六/关/写 nguồn không có chú giải nên chỉ mô
+  tả hình dạng, riêng 六 ghi rõ không suy nghĩa từ 八.
+- Chinese Expert độc lập rà 18 chữ: 16 đạt ngay; 2 điểm nhẹ đã sửa trước
+  phát hành — 作: nhận định "(zhà gần zuò)" quá lời với âm hiện đại, đã
+  đổi thành "(âm cổ gần nhau; nay zhà đã khác zuò khá xa)"; 先:
+  `layoutNote` đặt sai vị trí 土 (theo `⿱⿰？土儿`, 土 thuộc cụm trên),
+  đã sửa thành "土 ở phần trên, 儿 ở dưới".
+- Kiểm thử: test logic (cổng tiến độ 42 chữ), test DOM, `test-word-lookup`,
+  `git diff --check` đạt. Bố cục dùng chung CSS đã rà soát tĩnh cho
+  360/390px ở B-002 (không đổi ở lô này); giả lập viewport bằng công cụ
+  trình duyệt vẫn chưa thực hiện được, Android thật chưa kiểm chứng.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
   kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 京 (bị chặn)** — xử lý
   京 trước nếu bổ sung được nguồn đã kiểm chứng cho `strokeCount` và âm
-  Hán–Việt; nếu chưa, tiếp tục từ **HSK1 · 们** (index 24, vị trí `next`
+  Hán–Việt; nếu chưa, tiếp tục từ **HSK1 · 分** (index 42, vị trí `next`
   trong file tiến độ), giữ thứ tự file.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
