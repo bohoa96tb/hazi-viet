@@ -15,9 +15,9 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **60 / 2.632** chữ
-  (gồm mẫu 想 và các lô B-001 đến B-004 dưới đây); 1 chữ đang bị chặn
-  （京). Vị trí tiếp theo: HSK1, chữ **商** (index 60) — sau khi xử lý
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **78 / 2.632** chữ
+  (gồm mẫu 想 và các lô B-001 đến B-005 dưới đây); 1 chữ đang bị chặn
+  （京). Vị trí tiếp theo: HSK1, chữ **姐** (index 78) — sau khi xử lý
   京 nếu bổ sung được nguồn.
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
@@ -248,12 +248,40 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   (id 42006164647) đúng SHA merge, success. File
   `data/hanzi-analysis.json` trên live đã đối chiếu: đủ 60 chữ đã bật.
 
+## Lô B-005 — 18 chữ HSK1 tiếp theo (2026-11-05)
+
+- Chữ đã chuẩn hóa theo thứ tự `data/hsk1-core.json` (index 60–77):
+  **商 喂 喜 喝 四 回 国 在 坐 块 多 大 天 太 女 她 好 妈** (tiến độ:
+  78/2.632). 京 vẫn bị chặn như đã ghi ở B-002.
+- Điểm nội dung đáng chú ý: 商 là hình thanh mà phần gợi âm 章 đã giản
+  lược khỏi cây IDS — chỉ gán gợi nghĩa cho 冏 theo nguồn, phần 章 xử
+  lý trong giải thích; 喂/喝/在/块/妈 hình thanh roles khớp nguồn;
+  喜/四/回/国/多/天/太/她/好 giữ trung tính theo hint biểu ý.
+- **Bài học renderer (quan trọng, chuyên gia phát hiện khi chạy thử
+  module thật)**: `noTreeNote` chỉ hiển thị khi cây IDS trả về null
+  (chữ có `decomposition: "？"` như 一/八/女/人）. Chữ có phép tách ⿻
+  (chồng nét) VẪN dựng được cây và hiện thẻ thành phần kèm dòng bố cục
+  tự sinh — nên `noTreeNote` kiểu "học nguyên khối, không tách" là sai
+  với hiển thị thật. Đã sửa ngay trong lô này: 坐/大 bỏ `noTreeNote`,
+  thay bằng `layoutNote` mô tả chồng khít; đồng thời sửa hồi tố hai
+  chữ cùng khuôn đã phát hành ở B-004 là 十 và 午 (chỉ đổi trường ghi
+  chú bố cục, nội dung khác giữ nguyên). Từ nay: ⿻ → `layoutNote`;
+  `noTreeNote` chỉ cho `decomposition: "？"`.
+- Chinese Expert độc lập rà 18 chữ: 16 đạt ngay; 2 điểm （ 坐/大 ở trên)
+  đã sửa trước phát hành. Ghi chú không bắt buộc: 喂 còn cách đọc phụ
+  wéi (alô) trong từ điển — trường Pinyin chính của dự án chỉ có wèi,
+  không bổ sung ở lô này.
+- Kiểm thử: test logic (cổng tiến độ 78 chữ), test DOM, `test-word-lookup`,
+  `git diff --check` đạt. CSS dùng chung không đổi; giả lập viewport
+  360/390px bằng công cụ trình duyệt vẫn chưa thực hiện được, Android
+  thật chưa kiểm chứng.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
   kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 京 (bị chặn)** — xử lý
   京 trước nếu bổ sung được nguồn đã kiểm chứng cho `strokeCount` và âm
-  Hán–Việt; nếu chưa, tiếp tục từ **HSK1 · 商** (index 60, vị trí `next`
+  Hán–Việt; nếu chưa, tiếp tục từ **HSK1 · 姐** (index 78, vị trí `next`
   trong file tiến độ), giữ thứ tự file.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
