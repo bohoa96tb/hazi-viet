@@ -117,6 +117,8 @@ export function expandableParts(partChar, data, depth, ancestors) {
   if (!tree) return null;
   const leaves = idsLeaves(tree);
   if (leaves.length < 2 || leaves.includes('？')) return null;
+  if (tree.char === '⿻') return null;
+  if (new Set(leaves).size < 2) return null;
   return {tree, leaves};
 }
 
@@ -184,7 +186,7 @@ export function renderHanziAnalysis(c, data, profile = {}) {
   const ancestors = new Set([c.char]);
   const branches = tree
     ? leaves.map(leaf => partCardHTML({rootChar: c.char, partChar: leaf, data, profile, depth: 1, ancestors})).join('')
-    : '<p class="ha-unknown-tree">Nguồn chưa có cây phân tích cho chữ này; app không đoán phần còn thiếu.</p>';
+    : `<p class="ha-unknown-tree">${e(profile.noTreeNote || 'Nguồn chưa có cây phân tích cho chữ này; app không đoán phần còn thiếu.')}</p>`;
   const sources = (profile.sources || []).map(s => {
     const href = /^https:\/\//.test(String(s.href || '')) ? s.href : '';
     return `<p>${e(s.text)}${href ? ` <a href="${e(href)}" target="_blank" rel="noopener">${e(s.linkLabel || 'Nguồn ↗')}</a>` : ''}</p>`;

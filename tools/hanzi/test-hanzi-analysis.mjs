@@ -24,7 +24,9 @@ const profile = hanziProfileFor('想', data);
 // 1. Gate: only 想 is enabled; other characters keep the legacy stage.
 assert.ok(profile, '想 must have an enabled profile');
 assert.equal(hanziProfileFor('明', data), null);
-assert.deepEqual(data.hanziAnalysis.enabledChars, ['想']);
+const progress = read('docs/hanzi-analysis-progress.json');
+assert.deepEqual(data.hanziAnalysis.enabledChars, progress.completed,
+  'enabledChars must exactly match the completed list in the progress file');
 const stageXiang = renderStudyStage({c: xiang, data, stage: 0});
 assert.ok(stageXiang.includes('hanzi-analysis'), '想 stage 0 must use the new renderer');
 const stageMing = renderStudyStage({c: data.charMap.get('明'), data, stage: 0});
@@ -143,5 +145,29 @@ assert.ok(renderStudyStage({c: xiang, data, stage: 3}).includes('CÁCH DÙNG'));
 assert.equal(renderStudyStage({c: xiang, data, stage: 4}), '', 'stage 4 must no longer exist');
 assert.ok(renderStudyShell({c: xiang, data, stage: 0}).includes('Bước 1/4'));
 assert.ok(!renderStudyShell({c: xiang, data, stage: 3}).includes('Tiếp:'), 'last stage must offer finish, not a next step');
+
+// 11. Every completed character in the progress file is genuinely enabled
+//     and consistent with its source entry (data-driven batch gate).
+for (const ch of progress.completed) {
+  const entry = data.charMap.get(ch);
+  assert.ok(entry, `completed char must exist in core data: ${ch}`);
+  const p = hanziProfileFor(ch, data);
+  assert.ok(p, `completed char must have an enabled profile: ${ch}`);
+  const out = renderHanziAnalysis(entry, data, p);
+  assert.ok(!out.includes('undefined'), `render must not contain "undefined": ${ch}`);
+  if (entry.strokeCount) assert.ok(out.includes(`${entry.strokeCount} nét`), `stroke count must render: ${ch}`);
+  for (const part of Object.keys(p.components || {})) {
+    const role = p.components[part].role;
+    if (!role) continue;
+    if (entry.etymology?.phonetic === part) assert.equal(role, 'phonetic', `${ch}/${part} role`);
+    if (entry.etymology?.semantic === part) assert.equal(role, 'semantic', `${ch}/${part} role`);
+  }
+}
+// Expansion guards learned in batch B-001: stroke-overlay (⿻) parts and
+// parts whose decomposition repeats one identical leaf never expand.
+assert.equal(expandableParts('七', data, 1, new Set(['东', '七'])), null, '七 (⿻) must not expand');
+assert.equal(expandableParts('二', data, 1, new Set(['三', '二'])), null, '二 (identical leaves) must not expand');
+// Single-stroke 一 uses its curated no-tree note instead of a tree.
+assert.ok(renderHanziAnalysis(data.charMap.get('一'), data, hanziProfileFor('一', data)).includes('chữ đơn thể'));
 
 console.log('test-hanzi-analysis: all assertions passed');

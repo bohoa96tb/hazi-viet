@@ -1,9 +1,18 @@
 # Chuẩn giao diện phân tích chữ Hán (Hiểu chữ)
 
-Áp dụng từ đợt hoàn thiện mẫu 想 (2026-11-05). Mẫu tham chiếu: chữ 想 ở bước
-"Hiểu chữ". Tài liệu này ghi cấu trúc đã chốt, nguồn dữ liệu và cách xử lý
-các trường hợp lệch chuẩn. Tiến độ và kết quả kiểm thử nằm ở
-`docs/HANZI_ANALYSIS_CHECKPOINT.md`.
+Quy chuẩn chính thức của module học Hán tự, áp dụng từ 2026-11-05. Mẫu
+tham chiếu: chữ 想 ở bước "Hiểu chữ", đã được **chủ dự án duyệt**
+(PR #61, merge commit `c9894ee7add4d87ded2b2d6cc4f823d80a5d1ccb`,
+GitHub Pages run #331 thành công, dữ liệu live đã đối chiếu). Các phiên
+sau không cần xin duyệt lại mẫu; commit mẫu chỉ là tham chiếu lịch sử,
+không dùng làm mốc khôi phục phiên bản cũ. Tiến độ nằm ở
+`docs/HANZI_ANALYSIS_CHECKPOINT.md` và `docs/hanzi-analysis-progress.json`.
+
+Giao diện chính thức có đúng **4 bước**: Hiểu chữ → Luyện viết → Từ & câu
+→ Cách dùng. Tab "Gốc chữ" đã bị xoá theo yêu cầu của chủ dự án vì lặp
+lại bước Hiểu chữ; **không khôi phục tab này và không tạo tab khác thay
+tên cho nó**. Kiến thức từ nguyên/mẹo nhớ hữu ích nằm trong bước Hiểu chữ
+(khối riêng cho mẹo nhớ, nguồn trong phần thu gọn).
 
 ## Phạm vi
 
@@ -39,6 +48,9 @@ các trường hợp lệch chuẩn. Tiến độ và kết quả kiểm thử n
 - Độ sâu tối đa 2 tầng tính từ chữ gốc (gốc → thành phần → thành phần con
   dạng nút học, không mở tiếp). Không tách đến từng nét, không biến mỗi nét
   thành một chữ có nghĩa.
+- Không cho mở tiếp một thành phần khi phép tách của nó là chồng nét (⿻)
+  hoặc chỉ lặp lại một lá giống hệt nhau (ví dụ 二 = 一 + 一): đó là tách
+  xuống mức nét, không phải thành phần có ích cho người học.
 - Chặn vòng lặp: thành phần đã xuất hiện ở tầng trên thì dừng, hiện ghi chú
   "đã xuất hiện ở tầng trên", không cho mở tiếp.
 - Vai trò gợi âm / gợi nghĩa lấy từ trường `etymology` của dữ liệu nguồn
@@ -78,12 +90,63 @@ Unihan (Unicode) chỉ là nguồn gốc thượng nguồn của dữ liệu Mak
   chiếu `dictionaryVi` và lớp Kai. Với 相 trong 想: `xiāng — TƯƠNG`,
   `xiàng — TƯỚNG`.
 
-## Khi bật thêm một chữ (chỉ sau khi chủ dự án duyệt)
+## Chuẩn nội dung bắt buộc cho mỗi chữ
 
-1. Đối chiếu `decomposition`, `etymology`, số nét, bộ thủ trong dữ liệu lõi.
-2. Viết profile trong `data/hanzi-analysis.json` (giải thích, mẹo nhớ,
-   `readings` nếu nhiều âm, ghi chú thành phần), ghi nguồn từng phần.
-3. Thêm chữ vào `enabledChars`, bổ sung khẳng định vào
-   `tools/hanzi/test-hanzi-analysis.mjs`.
-4. Chạy đủ bộ kiểm thử ở checkpoint rồi mới tạo PR; merge vào `main` cần
-   phê duyệt riêng của chủ dự án cho từng lần.
+Mỗi chữ được kiểm duyệt phải đối chiếu thực tế với dữ liệu nguồn:
+
+- Chữ, cách đọc chính và nghĩa chính.
+- Âm Hán–Việt phù hợp; chữ nhiều cách đọc xử lý theo ngữ cảnh (mục riêng ở
+  trên), không lấy cách đọc đầu tiên gán cho mọi âm Hán–Việt.
+- Bộ thủ và số nét theo dữ liệu lõi.
+- Bố cục, các thành phần và cây phân tích theo `decomposition` nguồn.
+- Vai trò gợi nghĩa/gợi âm chỉ khi nguồn xác nhận; chưa xác nhận thì trung
+  tính. Không áp dụng máy móc cấu trúc của 想: không phải chữ nào cũng có
+  một phần gợi âm và một phần gợi nghĩa; chữ đơn thể không bị ép thành cây
+  nhiều nhánh.
+- Giải thích tiếng Việt dễ hiểu, độ dài theo độ khó của chữ.
+- Mẹo nhớ khi biên soạn được đáng tin cậy, luôn gắn nhãn là liên tưởng.
+- Liên kết luyện viết hoạt động và nguồn dữ liệu ghi trong profile.
+- Phân biệt rõ ba lớp: (1) cấu tạo hình thể hiện đại, (2) chú giải nguồn
+  gốc có căn cứ, (3) mẹo liên tưởng để ghi nhớ. Không suy diễn nguồn gốc
+  lịch sử từ cách tách hình dạng.
+
+Dữ liệu thiếu: tìm bổ sung từ nguồn phù hợp; vẫn chưa xác minh được thì
+ghi rõ trường thiếu và lý do vào checkpoint/progress, không bịa, và không
+đánh dấu chữ đó là đã hoàn thành.
+
+## Phạm vi và quy trình triển khai theo lô
+
+- Phạm vi: toàn bộ chữ Hán trong thư viện Hán tự (`data/hsk1-core.json` …
+  `data/hsk6-core.json`, hiện 2.632 chữ) — không mặc định gồm mục từ của
+  khóa từ vựng. Không tự bổ sung chữ ngoài phạm vi, không sửa bài từ vựng
+  hoặc Thực hành không liên quan.
+- Thứ tự: cấp HSK tăng dần; trong từng cấp giữ nguyên thứ tự trong file
+  dữ liệu. Giữ nguyên ID, cấp độ, liên kết, yêu thích, tiến độ học.
+- Tiến độ chuẩn hóa Hán tự là trục riêng ở
+  `docs/hanzi-analysis-progress.json`; không gộp với tiến độ biên soạn từ
+  vựng (`progress.json`) hay tiến độ học của người dùng.
+- Mỗi lô làm trọn quy trình trong một phiên: đọc dữ liệu → đối chiếu
+  nguồn → biên soạn profile → kiểm giao diện → chạy kiểm thử → lưu tiến
+  độ → tạo PR → merge → xác minh GitHub Pages đúng commit → kiểm website
+  thật. Chủ dự án đã cho phép commit/merge/phát hành các lô đạt kiểm tra
+  trong phạm vi này, không cần hỏi lại từng lô.
+- Khi chủ dự án nhắn "Tiếp tục" trong ngữ cảnh này: đọc quy chuẩn và
+  checkpoint, kiểm HEAD, tiếp tục phần đang dở trước rồi đến vị trí `next`
+  trong file tiến độ; làm tối đa một lô chất lượng, phát hành, báo cáo,
+  rồi dừng. Không tự chạy nền hay đặt lịch làm tiếp.
+- Việc bật renderer cho một chữ (`enabledChars`) chỉ xảy ra sau khi chữ
+  đó đạt tiêu chí hoàn thành dưới đây. Một chữ hiển thị bằng renderer mới
+  không tự nó có nghĩa là nội dung đã kiểm duyệt — trạng thái kiểm duyệt
+  lấy theo file tiến độ.
+
+## Tiêu chí một chữ hoàn thành
+
+1. Đã đọc và đối chiếu dữ liệu lõi của đúng chữ đó (không suy từ chữ khác).
+2. Profile có đủ: âm Hán–Việt, nghĩa chính ngắn, bố cục, giải thích; vai
+   trò thành phần khớp `etymology` nguồn hoặc để trung tính.
+3. Mẹo nhớ (nếu có) gắn nhãn liên tưởng; không khẳng định sai về từ
+   nguyên, cách đọc hoặc nghĩa.
+4. Cây render đúng `decomposition`; dữ liệu thiếu/vòng lặp không làm hỏng
+   giao diện; các kiểm thử trong checkpoint đạt.
+5. Chữ có mặt trong `enabledChars` và trong `completed` của file tiến độ
+   sau khi phát hành và xác minh live.
