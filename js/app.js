@@ -1,5 +1,5 @@
-import{renderStudyShell,renderStudyStage,studySteps,studyContent,swipeDirection}from'./study-view.js?v=hanzi-1';
-import{toggleHanziBranch}from'./hanzi-analysis.js?v=1';
+import{renderStudyShell,renderStudyStage,studySteps,studyContent,swipeDirection,enhanceHanziPartials}from'./study-view.js?v=hanzi-2';
+import{toggleHanziBranch}from'./hanzi-analysis.js?v=2';
 import{loadAll}from'./data-loader.js';import{state,card,favorite,grade,markLearned,dueChars,exportState,importState,onSaveWarning,today,storageLoadFailed}from'./progress.js';import{speak,stopAudio}from'./audio.js';import{initWriter,animateWriter,quizWriter,clearWriter}from'./hanzi-writing.js';
 const deepLink=new URLSearchParams(location.search);let vocabularyReturn=null;if(deepLink.has('word')&&/^[a-z0-9-]{1,80}$/.test(deepLink.get('word'))){const back=new URL('./vocabulary.html',location.href);back.searchParams.set('word',deepLink.get('word'));const n=Number(deepLink.get('step'));back.searchParams.set('step',Number.isInteger(n)&&n>=0&&n<5?n:0);vocabularyReturn=back.pathname+back.search;}else if(deepLink.has('conversation')&&/^[a-z0-9-]{1,80}$/.test(deepLink.get('conversation'))){const back=new URL('./vocabulary.html',location.href);back.searchParams.set('conversation',deepLink.get('conversation'));const n=Number(deepLink.get('turn'));back.searchParams.set('turn',Number.isInteger(n)&&n>=0&&n<100?n:0);back.hash='practice';vocabularyReturn=back.pathname+back.search+back.hash;}
 const $=s=>document.querySelector(s),main=$('#main'),dialog=$('#characterDialog');let data,view='home',level=1,filter='all',search='',page=0,selected=null,detailTab='structure',wordLimit=12,sentenceLimit=6,reviewQueue=[],reviewIndex=0,reviewRevealed=false;const size=24;const titles=['Bắt đầu từ những nét đầu','Kết nối điều quen thuộc','Mở rộng thế giới của bạn','Tự tin cùng ngôn ngữ','Đọc sâu, hiểu rộng','Chạm đến sự tinh tế'];const glyphs=['一','木','林','森','语','远'];const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const normalize=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').toLowerCase().replace(/\s/g,'');let toastTimer;let studyStage=0,studyQueue=[],studyPosition=0,studyParents=[],wordIndex=0,sentenceIndex=0,noteIndex=0,wordMode='word',showTranslation=false;const bodyScrollPositions=new Map();
@@ -32,6 +32,7 @@ function renderDetail(){
 function detailSection(){
  const body=$('#studyBody');if(!body)return;
  body.innerHTML=renderStudyStage({c:selected,data,stage:studyStage,wordIndex,sentenceIndex,noteIndex,wordMode,showTranslation});
+ if(studyStage===0)enhanceHanziPartials(body,data);
  body.scrollTop=bodyScrollPositions.get(studyStage)||0;
  if(studyStage===1)initWriter(selected.char,notify);saveReading();
 }
