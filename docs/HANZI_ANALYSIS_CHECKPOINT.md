@@ -275,6 +275,11 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   `git diff --check` đạt. CSS dùng chung không đổi; giả lập viewport
   360/390px bằng công cụ trình duyệt vẫn chưa thực hiện được, Android
   thật chưa kiểm chứng.
+- **Đã phát hành**: PR #72 merge tại
+  `ce3fb9c0275c57a4163e52ed65bf30f43d03c340`, GitHub Pages run #342
+  (id 42013475570) đúng SHA merge, success. File
+  `data/hanzi-analysis.json` trên live đã đối chiếu: đủ 78 chữ đã bật,
+  gồm cả bản sửa `layoutNote` của 坐/大/十/午.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
