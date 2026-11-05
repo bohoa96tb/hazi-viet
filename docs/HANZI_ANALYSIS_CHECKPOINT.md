@@ -191,6 +191,11 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   bề rộng cố định vượt khung) — không thấy nguy cơ tràn ngang; giả lập
   viewport bằng công cụ trình duyệt vẫn chưa thực hiện được, Android
   thật chưa kiểm chứng.
+- **Đã phát hành**: PR #66 merge tại
+  `dc6e737594ecfd0a8afc56992f4bed7fd9006295`, GitHub Pages run #336
+  (id 42001840924) đúng SHA merge, success. File
+  `data/hanzi-analysis.json` trên live đã đối chiếu: đủ 24 chữ đã bật,
+  gồm cả dòng mô tả 冫 của 习 sau sửa.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
