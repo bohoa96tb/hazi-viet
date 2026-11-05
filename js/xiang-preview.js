@@ -1,0 +1,15 @@
+// One-character interface pilot. Existing source data and licenses remain unchanged.
+import {escapeHTML as e} from './detail-view.js?v=3.0.0';
+export function renderXiangPreview(c,data){
+ const top=data.charMap.get('相');
+ const split=top?.decomposition==='⿰木目';
+ return `<section class="xiang-preview" aria-label="Phân tích chữ 想"><div class="xp-heading"><span class="stage-kicker">01 / HIỂU CHỮ</span><span class="xp-badge">Mẫu giao diện mới</span></div><h3 class="stage-title">Hiểu từng phần, nhớ cả chữ.</h3><p class="xp-intro">Một phần gợi âm. Một phần gợi nghĩa.</p>
+ <div class="xp-facts"><span><b>TƯỞNG</b>Hán–Việt</span><span><b>${e(c.strokeCount)} nét</b>Số nét</span><span><b lang="zh-CN">${e(c.radical)} · TÂM</b>Bộ thủ</span></div>
+ <div class="xp-map"><div class="xp-root"><strong lang="zh-CN">${e(c.char)}</strong><span>${e(c.pinyin.join(' / '))}</span><small>nghĩ · muốn · nhớ</small></div><p class="xp-layout">Bố cục trên – dưới</p><div class="xp-branches">
+ <div class="xp-branch xp-sound"><span class="xp-role">PHẦN GỢI ÂM</span><strong lang="zh-CN">相</strong><span>xiāng / xiàng</span><small>TƯƠNG / TƯỚNG</small>${split?`<details class="xp-expand"><summary>Tách tiếp 相 <span aria-hidden="true">＋</span></summary><div class="xp-subparts"><button data-study-part="木" aria-label="Học thành phần 木"><b lang="zh-CN">木</b><span>MỘC</span><small>cây, gỗ</small></button><button data-study-part="目" aria-label="Học thành phần 目"><b lang="zh-CN">目</b><span>MỤC</span><small>mắt</small></button></div><p>木 bên trái · 目 bên phải</p></details>`:'<p>Chưa có phân tích sâu.</p>'}</div>
+ <div class="xp-branch xp-meaning"><span class="xp-role">PHẦN GỢI NGHĨA</span><strong lang="zh-CN">心</strong><span>xīn</span><small>TÂM · tim, lòng</small><p>Gợi hoạt động trong tâm trí: nghĩ, muốn, nhớ.</p><button class="xp-part-link" data-study-part="心">Khám phá 心 ↗</button></div></div></div>
+ <div class="xp-explain"><h4>Vì sao ghép như vậy?</h4><p><b class="xp-green">心</b> gợi nghĩa về tâm trí. <b class="xp-blue">相</b> gợi âm cho 想; âm đọc ngày nay không hoàn toàn giống nhau.</p></div>
+ <div class="xp-memory"><span>MẸO NHỚ · TỰ LIÊN TƯỞNG</span><p>Nhìn cây <b lang="zh-CN">木</b> bằng mắt <b lang="zh-CN">目</b>, trong lòng <b lang="zh-CN">心</b> chợt <b>nhớ</b> một người.</p><small>Đây là mẹo học tập, không phải giải thích lịch sử chữ.</small></div>
+ <button class="btn primary xp-write" data-stage="1">✎ Luyện viết 13 nét <span>→</span></button>
+ <details class="xp-source"><summary>Nguồn dữ liệu & phạm vi</summary><p>Cấu tạo 想 → 相 + 心, 相 → 木 + 目 và vai trò gợi âm/gợi nghĩa: <a href="https://github.com/skishore/makemeahanzi" target="_blank" rel="noopener">Make Me a Hanzi</a> · LGPL-3.0-or-later. Dùng bản dữ liệu đã nhập trong Hazi-Viet.</p><p>Âm Hán–Việt: đối chiếu lớp học liệu Kai Hanzi · CC BY 4.0; phân biệt hai cách đọc của 相 trong mẫu. Giải thích và mẹo nhớ tiếng Việt: Hazi-Viet biên soạn.</p><p>Cây mô tả cấu tạo hiện đại. Mẫu dừng ở thành phần dễ nhận biết, không tách mọi nét thành chữ có nghĩa.</p><a href="./THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener">Xem ghi nguồn và giấy phép ↗</a></details></section>`;
+}
