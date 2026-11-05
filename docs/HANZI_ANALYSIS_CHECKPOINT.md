@@ -15,9 +15,10 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **9 / 2.632** chữ
-  (gồm mẫu 想 và lô B-001 dưới đây). Vị trí tiếp theo: HSK1, chữ **中**
-  (thứ 9 trong `data/hsk1-core.json`).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **24 / 2.632** chữ
+  (gồm mẫu 想, lô B-001 và lô B-002 dưới đây); 1 chữ đang bị chặn （京).
+  Vị trí tiếp theo: HSK1, chữ **们** (index 24) — sau khi xử lý 京 nếu
+  bổ sung được nguồn.
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
 - Thay đổi chính của đợt mẫu so với pilot:
@@ -160,11 +161,44 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   `data/hanzi-analysis.json` trên live đã đối chiếu: đủ 9 chữ đã bật với
   đúng nội dung sau sửa của chuyên gia.
 
+## Lô B-002 — 15 chữ HSK1 tiếp theo (2026-11-05)
+
+- Chữ đã chuẩn hóa theo thứ tự `data/hsk1-core.json` (index 8–23, trừ 京
+  bị chặn): **中 么 九 习 书 买 了 二 五 些 亮 人 什 今 他** (tiến độ:
+  24/2.632).
+- Điểm nội dung đáng chú ý: 中 ghi cả cách đọc phụ zhòng (trúng) nhưng
+  dạy zhōng trước; 了 tách rõ le (trợ từ) và liǎo (hiểu rõ); 些 là chữ
+  hình thanh thật （此 gợi âm, 二 gợi nghĩa — khớp `etymology` nguồn);
+  买/卖 đối chiếu theo decomposition của 卖 (`⿱十买`); các hint nguồn
+  （九 khuỷu tay, 五 trời–đất, 亮 đèn dầu, 了 trẻ quấn khăn, 什 hàng mười
+  người) đều ghi là chú giải gốc, tách khỏi mẹo liên tưởng.
+- **京 (index 18) bị chặn, chưa tính hoàn thành**: dữ liệu lõi thiếu
+  `strokeCount`, lớp Kai thiếu `learningVi` (không có âm Hán–Việt đã kiểm
+  chứng theo nguồn dự án). Khóa từ vựng có 北京 = Bắc Kinh là manh mối âm
+  KINH nhưng chưa đủ để chốt. Chinese Expert đồng ý việc chặn là đúng.
+  Ghi cấu trúc vào `blocked` trong file tiến độ. Lưu ý hệ thống: trường
+  `strokeCount` thiếu ở 1.973/2.632 chữ trong dữ liệu lõi — các lô sau
+  nếu gặp chữ chỉ thiếu mỗi số nét (đủ Hán–Việt và nội dung) cần ghi rõ
+  vào checkpoint để chủ dự án thấy quy mô, không tự ý nới chuẩn.
+- Chinese Expert độc lập rà 15 chữ: 14 đạt ngay; điểm cần sửa đã xử lý
+  trước phát hành — mô tả 冫 của 习 đảo thứ tự nét, đã sửa thành "hai nét
+  ở phần dưới: một nét phẩy và một nét chấm" theo `matches` + thứ tự nét
+  nguồn (cùng loại lỗi đã sửa ở 上 tại B-001: mô tả thành phần phải khớp
+  dữ kiện nét).
+- Kiểm thử: test logic (cổng tiến độ 24 chữ), test DOM, `test-word-lookup`,
+  `git diff --check` đạt. Rà soát tĩnh CSS cho 360/390px: bố cục co giãn
+  (grid tỉ lệ, thẻ `min-width:0`, breakpoint riêng dưới 380px, không có
+  bề rộng cố định vượt khung) — không thấy nguy cơ tràn ngang; giả lập
+  viewport bằng công cụ trình duyệt vẫn chưa thực hiện được, Android
+  thật chưa kiểm chứng.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`, rồi làm lô kế tiếp bắt đầu từ **HSK1 · 中**
-  (vị trí `next` trong file tiến độ), giữ thứ tự file.
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 京 (bị chặn)** — xử lý
+  京 trước nếu bổ sung được nguồn đã kiểm chứng cho `strokeCount` và âm
+  Hán–Việt; nếu chưa, tiếp tục từ **HSK1 · 们** (index 24, vị trí `next`
+  trong file tiến độ), giữ thứ tự file.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
   đúng SHA → kiểm live → cập nhật checkpoint + file tiến độ → dừng.
