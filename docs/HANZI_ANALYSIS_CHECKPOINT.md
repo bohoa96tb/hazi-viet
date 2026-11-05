@@ -15,10 +15,10 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **42 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001, B-002 và B-003 dưới đây); 1 chữ đang bị
-  chặn （京). Vị trí tiếp theo: HSK1, chữ **分** (index 42) — sau khi xử
-  lý 京 nếu bổ sung được nguồn.
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **60 / 2.632** chữ
+  (gồm mẫu 想 và các lô B-001 đến B-004 dưới đây); 1 chữ đang bị chặn
+  （京). Vị trí tiếp theo: HSK1, chữ **商** (index 60) — sau khi xử lý
+  京 nếu bổ sung được nguồn.
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
 - Thay đổi chính của đợt mẫu so với pilot:
@@ -222,12 +222,34 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   (id 42004086093) đúng SHA merge, success. File
   `data/hanzi-analysis.json` trên live đã đối chiếu: đủ 42 chữ đã bật.
 
+## Lô B-004 — 18 chữ HSK1 tiếp theo (2026-11-05)
+
+- Chữ đã chuẩn hóa theo thứ tự `data/hsk1-core.json` (index 42–59):
+  **分 前 北 医 十 午 去 友 叫 吃 同 名 后 吗 听 呢 和 哪** (tiến độ:
+  60/2.632). 京 vẫn bị chặn như đã ghi ở B-002.
+- Điểm nội dung đáng chú ý: cả dãy 口 （叫 吃 吗 呢 和 哪） đều là hình
+  thanh thật, roles khớp `etymology`; 听 giữ trung tính theo phân loại
+  biểu ý của nguồn (không tự gán 斤 gợi âm dù âm gần); 友 theo tiền lệ
+  B-003 (hint gợi âm, roles trung tính); 十/午 dùng `noTreeNote` vì
+  phép tách ⿻ chồng nét; 前/后/去 không có chú giải nguồn nên chỉ mô
+  tả hình dạng.
+- Chinese Expert độc lập rà 18 chữ: 17 đạt ngay; 1 điểm đã sửa trước
+  phát hành — 医: cách đọc của 匸 ghi sai (xǐ), đúng là **xì** theo mục
+  từ trong `dictionary-original.txt`. Lưu ý ngoài: nhãn bộ "匸 — HỂ"
+  không có trong `radicals-vi.json` của dự án; đây là tên Hán–Việt thông
+  dụng của bộ Khang Hy 23, không bị dữ kiện nào mâu thuẫn — giữ, ghi rõ
+  căn cứ ngoài dự án tại đây.
+- Kiểm thử: test logic (cổng tiến độ 60 chữ), test DOM, `test-word-lookup`,
+  `git diff --check` đạt. CSS dùng chung không đổi; giả lập viewport
+  360/390px bằng công cụ trình duyệt vẫn chưa thực hiện được, Android
+  thật chưa kiểm chứng.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
   kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 京 (bị chặn)** — xử lý
   京 trước nếu bổ sung được nguồn đã kiểm chứng cho `strokeCount` và âm
-  Hán–Việt; nếu chưa, tiếp tục từ **HSK1 · 分** (index 42, vị trí `next`
+  Hán–Việt; nếu chưa, tiếp tục từ **HSK1 · 商** (index 60, vị trí `next`
   trong file tiến độ), giữ thứ tự file.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
