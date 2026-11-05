@@ -26,9 +26,44 @@
    "mergeCommit": "b4dec6706479557b00562e30f4b2811ddb0d7b36",
    "pagesRun": 332,
    "pr": 62
+  },
+  {
+   "chars": [
+    "中",
+    "么",
+    "九",
+    "习",
+    "书",
+    "买",
+    "了",
+    "二",
+    "五",
+    "些",
+    "亮",
+    "人",
+    "什",
+    "今",
+    "他"
+   ],
+   "date": "2026-11-05",
+   "id": "B-002",
+   "kind": "standardization",
+   "pr": null
   }
  ],
- "blocked": [],
+ "blocked": [
+  {
+   "char": "京",
+   "checkedAt": "2026-11-05",
+   "index": 18,
+   "level": 1,
+   "missing": [
+    "strokeCount trong dữ liệu lõi",
+    "âm Hán–Việt trong lớp Kai (learningVi trống)"
+   ],
+   "reason": "Hai trường bắt buộc chưa có nguồn đã kiểm chứng trong dự án; khóa từ vựng có 北京 = Bắc Kinh là manh mối đối chiếu âm KINH nhưng chưa đủ để chốt. Không đánh dấu hoàn thành."
+  }
+ ],
  "completed": [
   "想",
   "一",
@@ -38,13 +73,28 @@
   "下",
   "不",
   "东",
-  "个"
+  "个",
+  "中",
+  "么",
+  "九",
+  "习",
+  "书",
+  "买",
+  "了",
+  "二",
+  "五",
+  "些",
+  "亮",
+  "人",
+  "什",
+  "今",
+  "他"
  ],
  "next": {
-  "char": "中",
-  "index": 8,
+  "char": "们",
+  "index": 24,
   "level": 1,
-  "note": "Chữ tiếp theo trong data/hsk1-core.json sau 个, theo đúng thứ tự file."
+  "note": "京 (index 18) đang bị chặn vì thiếu nguồn — phiên sau xử lý 京 trước nếu bổ sung được nguồn đã kiểm chứng, nếu không thì tiếp tục từ 们."
  },
  "pattern": {
   "approvedBy": "Chủ dự án",
