@@ -337,6 +337,16 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   360/390px bằng công cụ trình duyệt vẫn chưa thực hiện được — CSS mới
   dùng bề rộng tương đối (`min(148px, 52vw)`, lưới tự co) và đã rà
   tĩnh; Android thật chưa kiểm chứng.
+- **Đã phát hành**: PR #74 merge tại
+  `d79691b585ba2999779d76c58378000e8ec824d2`, GitHub Pages run #344
+  (id 42019716148) đúng SHA merge, success. Kiểm chứng trực tiếp trên
+  live: file `data/hanzi-partials.json` đủ 62 chữ; mở trang 后 và 今 —
+  không còn thẻ "?", hình SVG đúng chiều （ 后： 3 nét của 口 ở dưới tô
+  vàng nâu, phần trên xám; 今： 2 nét của 人 ở trên tô vàng nâu), mục
+  "Thành phần đã nhận diện" và dòng bổ sung hiện đúng, tiêu đề giải
+  thích: 后 = "Nhìn chữ để nhớ", 今 = "Vì sao ghép như vậy?". Lưu ý
+  nhỏ từ lượt kiểm live: nét xám của phần chưa tách có tương phản thấp
+  (đúng thiết kế phân cấp chính/phụ, không phải lỗi).
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
