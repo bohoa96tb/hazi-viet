@@ -155,21 +155,42 @@
    "pagesRun": 344,
    "pr": 74,
    "title": "Xử lý chữ thiếu dữ liệu phân tích (áp dụng trước cho 后/今, rà toàn bộ chữ đã chuẩn hóa)"
-  }
- ],
- "blocked": [
+  },
   {
-   "char": "京",
-   "checkedAt": "2026-11-05",
-   "index": 18,
-   "level": 1,
-   "missing": [
-    "strokeCount trong dữ liệu lõi",
-    "âm Hán–Việt trong lớp Kai (learningVi trống)"
+   "chars": [
+    "京"
    ],
-   "reason": "Hai trường bắt buộc chưa có nguồn đã kiểm chứng trong dự án; khóa từ vựng có 北京 = Bắc Kinh là manh mối đối chiếu âm KINH nhưng chưa đủ để chốt. Không đánh dấu hoàn thành."
+   "id": "UB-001",
+   "kind": "unblock",
+   "note": "Gỡ chặn 京 sau khi chủ dự án xác nhận quyền dùng Unihan bổ sung trường thiếu (chuẩn đã sửa bỏ mâu thuẫn với hạn chế pilot). strokeCount=8 + learningVi KINH ghi ở mục supplements. Cùng PR: sửa renderer cũ không hiện lá ？ như thành phần (chỉ là sửa hiển thị, không tính là kiểm duyệt nội dung các chữ chưa chuẩn hóa).",
+   "pr": null
+  },
+  {
+   "chars": [
+    "姐",
+    "子",
+    "字",
+    "学",
+    "客",
+    "家",
+    "对",
+    "小",
+    "少",
+    "岁",
+    "工",
+    "师",
+    "年",
+    "店",
+    "开",
+    "影",
+    "很",
+    "怎"
+   ],
+   "id": "B-006",
+   "pr": null
   }
  ],
+ "blocked": [],
  "completed": [
   "想",
   "一",
@@ -190,6 +211,7 @@
   "二",
   "五",
   "些",
+  "京",
   "亮",
   "人",
   "什",
@@ -248,15 +270,33 @@
   "女",
   "她",
   "好",
-  "妈"
+  "妈",
+  "姐",
+  "子",
+  "字",
+  "学",
+  "客",
+  "家",
+  "对",
+  "小",
+  "少",
+  "岁",
+  "工",
+  "师",
+  "年",
+  "店",
+  "开",
+  "影",
+  "很",
+  "怎"
  ],
  "dataGaps": [
   {
    "cause": "Thiếu dữ liệu nguồn: dữ liệu lõi không có strokeCount; lớp Kai không có âm Hán–Việt đã kiểm chứng.",
    "char": "京",
-   "contentStatus": "Chưa hoàn thiện — chờ nguồn đã kiểm chứng.",
-   "status": "blocked",
-   "uiStatus": "Chưa bật renderer cho chữ này (chưa chuẩn hóa)."
+   "contentStatus": "Đã hoàn thiện: strokeCount=8 (Unihan kTotalStrokes), Hán–Việt KINH (Kai radicals-vi + đối chiếu Unihan kVietnamese); chuyên gia rà theo quy trình lô.",
+   "status": "resolved",
+   "uiStatus": "Đã bật renderer 2026-11-05 (đợt UB-001) sau khi bổ sung hai trường thiếu."
   },
   {
    "cause": "Thành phần hợp nhất không có chữ/tên riêng: IDS của Make Me a Hanzi (bản gốc lưu trong repo và bản đã nhập khớp nhau) dùng '？' cho cụm nét hợp nhất; không phải lỗi IDS, không thiếu dữ liệu nét.",
@@ -323,10 +363,10 @@
   }
  ],
  "next": {
-  "char": "姐",
-  "index": 78,
+  "char": "我",
+  "index": 97,
   "level": 1,
-  "note": "Chữ tiếp theo trong data/hsk1-core.json sau 妈 (index 77). 京 (index 18) vẫn bị chặn, xử lý trước khi có nguồn."
+  "note": "Index 96 là 想 — đã hoàn thành từ lô mẫu; tiếp theo là 我 (index 97). 京 (index 18) đã gỡ chặn ở UB-001."
  },
  "pattern": {
   "approvedBy": "Chủ dự án",
@@ -355,6 +395,31 @@
   ],
   "totalCharacters": 2632
  },
+ "supplements": [
+  {
+   "char": "京",
+   "fields": [
+    {
+     "accessed": "2026-11-05",
+     "corroboration": "Make Me a Hanzi matches có 8 nét và Hanzi Writer Data có 8 đường nét — cùng một dòng dữ liệu nét, chỉ là kiểm tra nhất quán, không phải nguồn độc lập; phép cộng IDS 亠2+口3+小3=8 cũng nhất quán.",
+     "field": "strokeCount",
+     "license": "Unicode, Inc. — Unicode License Agreement",
+     "reason": "Dữ liệu lõi thiếu strokeCount cho 京 (chữ HSK1 duy nhất thiếu trường này).",
+     "source": "Unihan U+4EAC, kTotalStrokes",
+     "value": 8
+    },
+    {
+     "accessed": "2026-11-05",
+     "corroboration": "Unihan U+4EAC kVietnamese: kinh.",
+     "field": "learningVi.sinoViet",
+     "license": "CC BY 4.0",
+     "reason": "Lớp Kai của chính 京 trong dữ liệu lõi không có learningVi; mục Kai của 京 đã có sẵn trong radicals-vi.json vì 京 được dùng làm thành phần.",
+     "source": "Kai Hanzi — mục 京 trong data/radicals-vi.json (nameVi: chữ Kinh (kinh đô))",
+     "value": "KINH"
+    }
+   ]
+  }
+ ],
  "updatedAt": "2026-11-05",
  "version": 1
 }

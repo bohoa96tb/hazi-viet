@@ -240,4 +240,27 @@ for (const ch of ['后', '今', '不', '习', '书', '五', '先', '北', '友']
   assert.ok(data.hanziPartials.chars[ch], `stroke mapping must be shipped for ${ch}`);
 }
 
+// 15. 京 is unblocked via the recorded supplements: stroke count and
+//     Sino-Vietnamese reading come from the supplemented core fields.
+const jing = data.charMap.get('京');
+assert.equal(jing.strokeCount, 8, '京 strokeCount supplemented from Unihan kTotalStrokes');
+assert.equal(jing.learningVi?.sinoViet, 'KINH', '京 sinoViet supplemented from the Kai entry');
+const jingHtml = renderHanziAnalysis(jing, data, hanziProfileFor('京', data));
+assert.ok(jingHtml.includes('8 nét') && jingHtml.includes('KINH'));
+assert.ok(jingHtml.includes('Unihan U+4EAC'), '京 profile must disclose the supplement source');
+const supplements = progress.supplements || [];
+assert.ok(supplements.some(s => s.char === '京' && s.fields.length === 2), 'supplements register must record 京');
+
+// 16. Legacy renderer (unstandardized characters): a '？' IDS leaf must
+//     not be presented as a component. It renders as a neutral marker
+//     with an explanation, in both the compact study tree and the full
+//     learning panel. This is a display fix only; it does not mark any
+//     unstandardized character as reviewed.
+const lingStage = renderStudyStage({c: data.charMap.get('令'), data, stage: 0});
+assert.ok(!lingStage.includes('hanzi-analysis'), '令 keeps the legacy stage');
+assert.ok(lingStage.includes('tiny-tree-unknown'), 'legacy compact tree must use the neutral marker');
+assert.ok(lingStage.includes('không phải một thành phần của chữ'), 'legacy stage must explain the marker');
+assert.ok(!lingStage.includes('>？<'), 'no literal placeholder glyph as a tree leaf');
+assert.ok(lingStage.includes('ids-unknown'), 'full panel tree must use the neutral marker too');
+
 console.log('test-hanzi-analysis: all assertions passed');
