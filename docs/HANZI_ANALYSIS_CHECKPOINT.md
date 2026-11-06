@@ -15,10 +15,10 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **151 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-009 và đợt gỡ chặn UB-001 dưới đây);
-  không còn chữ bị chặn. Vị trí tiếp theo: HSK1, chữ **视** (index
-  151).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **169 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-010 và đợt gỡ chặn UB-001 dưới đây);
+  không còn chữ bị chặn. Vị trí tiếp theo: HSK1, chữ **钱** (index
+  169).
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
 - Thay đổi chính của đợt mẫu so với pilot:
@@ -472,10 +472,26 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   hai tông, dòng "Phân tích đầy đủ đang được bổ sung.", không thẻ "?");
   系 hiện HỆ · 7 nét · 糸 — MỊCH với 糸 gợi nghĩa và 丿 trung tính.
 
+## Lô B-010 — 18 chữ HSK1 tiếp theo (2026-11-06)
+
+- Chữ theo thứ tự `data/hsk1-core.json` (index 151–168): **视 觉 认
+  识 话 语 说 请 读 谁 谢 起 车 这 那 都 里 钟** (tiến độ 169/2.632).
+  Vị trí tiếp theo: 钱 (index 169); HSK1 còn 9 chữ (index 169–177).
+- Điểm nội dung: 认/识/语/说/请/谁/谢/起/都/钟 hình thanh roles theo
+  trường nguồn; 视 theo đúng trường nguồn dù ngược vị trí quen thuộc
+  （ 礻 gợi âm — cùng đọc shì, 见 gợi nghĩa); 觉 theo trường nguồn
+  （ ⺍ gợi âm cổ, 见 gợi nghĩa) và dạy phân biệt hai cách đọc jué
+  （ 觉得） / jiào （ 睡觉） ngay trong bài; 话/读 thuộc khuôn hint gợi
+  âm → trung tính, quy thuộc nguồn; 这 không có chú giải nguồn →
+  "Nhìn chữ để nhớ"; 那 thuộc diện phân tích một phần của PA-001
+  (phần đã nhận diện: 阝 ở bên phải); 都 dạy hai cách đọc dōu (đều —
+  bài này) / dū （ 首都， ứng với Hán–Việt ĐÔ); 谁 ghi thêm cách đọc
+  shéi; 识/说/读 ghi cách đọc phụ zhì/shuì/dòu theo CVDICT.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 视** (index 151, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 钱** (index 169, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Không còn chữ treo.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
