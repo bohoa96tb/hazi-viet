@@ -15,10 +15,10 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **78 / 2.632** chữ
-  (gồm mẫu 想 và các lô B-001 đến B-005 dưới đây); 1 chữ đang bị chặn
-  （京). Vị trí tiếp theo: HSK1, chữ **姐** (index 78) — sau khi xử lý
-  京 nếu bổ sung được nguồn.
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **97 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-006 và đợt gỡ chặn UB-001 dưới đây);
+  không còn chữ bị chặn. Vị trí tiếp theo: HSK1, chữ **我** (index 97;
+  index 96 là 想 đã hoàn thành từ lô mẫu).
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
 - Thay đổi chính của đợt mẫu so với pilot:
@@ -348,13 +348,52 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   nhỏ từ lượt kiểm live: nét xám của phần chưa tách có tương phản thấp
   (đúng thiết kế phân cấp chính/phụ, không phải lỗi).
 
+## Đợt UB-001 — Gỡ chặn 京 + sửa renderer cũ (2026-11-05)
+
+- Chủ dự án xác nhận quyền đứng: được dùng Unihan bổ sung thuộc tính
+  còn thiếu (Hán–Việt, tổng số nét) theo chỉ thị gốc, không xin lại
+  từng chữ. Mục chuẩn đã sửa: bỏ ghi chú hạn chế của bối cảnh pilot,
+  thay bằng tiểu mục "Bổ sung dữ liệu còn thiếu từ Unihan (quyền
+  đứng)" — chỉ bổ sung trường thiếu, ghi nguồn/phiên bản/giấy phép/lý
+  do vào mục `supplements` của file tiến độ, và ghi đúng quan hệ
+  nguồn: Hanzi Writer Data tạo từ dữ liệu của Make Me a Hanzi (một
+  dòng dữ liệu, không phải hai bằng chứng độc lập); cộng nét IDS chỉ
+  là kiểm tra nhất quán.
+- **京 đã gỡ chặn và hoàn thành**: `strokeCount = 8` (Unihan U+4EAC
+  kTotalStrokes; nhất quán với matches 8 nét và phép tách
+  ⿳亠口小 = 2+3+3) và `learningVi.sinoViet = KINH` (mục 京 của Kai
+  trong `radicals-vi.json`; đối chiếu Unihan kVietnamese "kinh") —
+  ghi đầy đủ ở `supplements`. Bộ thủ của 京 vẫn là 亠 theo dữ liệu lõi;
+  việc 京 có mục trong radicals-vi.json (vì được dùng làm thành phần)
+  không biến 京 thành bộ thủ của chính nó. Renderer hiện cây
+  亠/口/小 bình thường; bước Luyện viết tải dữ liệu 8 nét như mọi chữ.
+- **Sửa renderer cũ (chữ chưa chuẩn hóa)**: lá IDS "？" trong cây rút
+  gọn của giao diện cũ (study-view) và cây trong panel "Xem đầy đủ"
+  (detail-view) nay hiện dấu trung tính "···" kèm dòng giải thích
+  "không phải một thành phần của chữ", thay cho ký tự "?" đứng như một
+  thành phần. Đây **chỉ là sửa hiển thị** — không tính là đã kiểm
+  duyệt nội dung bất kỳ chữ chưa chuẩn hóa nào.
+
+## Lô B-006 — 18 chữ HSK1 tiếp theo (2026-11-05)
+
+- Chữ theo thứ tự `data/hsk1-core.json` (index 78–95): **姐 子 字 学
+  客 家 对 小 少 岁 工 师 年 店 开 影 很 怎** (tiến độ gồm cả 京:
+  97/2.632). Index 96 là 想 — đã hoàn thành từ lô mẫu; vị trí tiếp
+  theo là 我 (index 97).
+- Điểm nội dung: 姐/家/店/影/很/怎 hình thanh roles theo trường nguồn;
+  字/学/客/少 thuộc khuôn hint gợi âm nhưng phân loại không phải
+  pictophonetic → roles trung tính, gợi âm chỉ trong giải thích kèm
+  quy thuộc nguồn; 少 ghi thêm cách đọc shào （ 少年） theo CVDICT;
+  岁 không có chú giải nguồn → tiêu đề "Nhìn chữ để nhớ"; 年 thuộc
+  diện phân tích một phần của PA-001 (phần đã nhận diện: 干; renderer
+  tự áp dụng, có ánh xạ nét sẵn trong `hanzi-partials.json`).
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 京 (bị chặn)** — xử lý
-  京 trước nếu bổ sung được nguồn đã kiểm chứng cho `strokeCount` và âm
-  Hán–Việt; nếu chưa, tiếp tục từ **HSK1 · 姐** (index 78, vị trí `next`
-  trong file tiến độ), giữ thứ tự file.
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 我** (index 97, vị
+  trí `next` trong file tiến độ), giữ thứ tự file. 京 đã gỡ chặn ở
+  UB-001, không còn chữ treo.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
   đúng SHA → kiểm live → cập nhật checkpoint + file tiến độ → dừng.

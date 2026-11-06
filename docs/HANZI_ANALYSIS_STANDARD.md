@@ -78,8 +78,31 @@ tên cho nó**. Kiến thức từ nguyên/mẹo nhớ hữu ích nằm trong b�
 | Dữ liệu nét luyện viết | Hanzi Writer Data 2.0.1, tải lúc chạy qua CDN | dữ liệu gốc, không đóng gói | Arphic Public License (`vendor/STROKE-DATA-LICENSE.txt`) | mã Hanzi Writer riêng: MIT (`vendor/HANZI-WRITER-LICENSE.txt`) — không gộp chung |
 | Giải thích, mẹo nhớ, ghép cặp cách đọc trong profile | Hazi-Viet biên soạn, đối chiếu các nguồn trên | biên soạn riêng | nội dung của dự án | phải qua kiểm chứng nội dung trước khi bật chữ |
 
-Unihan (Unicode) chỉ là nguồn gốc thượng nguồn của dữ liệu Make Me a Hanzi
-đã nhập; đợt này không tải thêm dữ liệu Unihan mới.
+### Bổ sung dữ liệu còn thiếu từ Unihan (quyền đứng)
+
+Chủ dự án đã xác nhận (2026-11-05, thuộc phạm vi của chỉ thị gốc):
+**được phép dùng cơ sở dữ liệu Unihan (Unicode) để bổ sung các thuộc
+tính còn thiếu — gồm âm Hán–Việt và tổng số nét — khi các lớp dữ liệu
+của dự án chưa có.** Không phải xin lại cho từng chữ. (Câu này thay
+ghi chú hạn chế cũ vốn chỉ áp cho bối cảnh lô pilot.) Điều kiện:
+
+1. Chỉ bổ sung đúng trường đang thiếu; không ghi đè giá trị đã có,
+   không nạp dữ liệu Unihan hàng loạt.
+2. Ưu tiên nguồn của dự án trước (lớp Kai cho âm Hán–Việt); Unihan là
+   nguồn bổ sung khi lớp dự án thiếu ở đúng trường đó.
+3. Mỗi lần bổ sung phải ghi vào mục `supplements` của
+   `docs/hanzi-analysis-progress.json`: chữ, trường, giá trị, nguồn
+   (Unihan kèm mã ký tự và tên trường, ví dụ `U+4EAC kTotalStrokes`),
+   ngày truy cập/phiên bản cơ sở dữ liệu nếu có, giấy phép (Unicode,
+   Inc. — Unicode License Agreement), lý do thiếu và nguồn đối chiếu
+   (nếu có).
+4. **Quan hệ giữa các nguồn phải ghi đúng**: Hanzi Writer Data được
+   tạo từ chính dữ liệu đồ họa của Make Me a Hanzi nên hai nguồn này
+   là một dòng dữ liệu, không tính là hai bằng chứng độc lập; phép
+   cộng số nét của các thành phần trong phép tách IDS chỉ là kiểm tra
+   tính nhất quán nội bộ, không phải một nguồn học thuật độc lập.
+5. Trường được bổ sung vẫn phải qua rà soát chuyên môn như mọi trường
+   khác trước khi chữ được tính hoàn thành.
 
 ## Chữ có nhiều cách đọc
 

@@ -4,7 +4,7 @@
 // Only characters with an enabled profile in data/hanzi-analysis.json use
 // this renderer; every other character keeps the legacy stage.
 // See docs/HANZI_ANALYSIS_STANDARD.md.
-import {escapeHTML as e, parseIDS, idsLabels} from './detail-view.js?v=3.0.0';
+import {escapeHTML as e, parseIDS, idsLabels} from './detail-view.js?v=3.1.0';
 
 export const HANZI_ANALYSIS_MAX_DEPTH = 2;
 
