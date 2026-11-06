@@ -463,6 +463,14 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   CVDICT; 看 ghi thêm cách đọc kān （ 字典）; 衣 thuộc diện phân tích
   một phần của PA-001 (phần đã nhận diện: 亠 — cổ áo; ghi thêm cách
   đọc yì theo CVDICT); 见 ghi liên hệ cách đọc xiàn = 现 theo CVDICT.
+- **Đã phát hành**: PR #82 merge tại
+  `46b747c164c1dc38c94a4b943e8085731ac110e8`, GitHub Pages run #352
+  (id 42158748818) đúng SHA merge, success. Kiểm chứng trực tiếp trên
+  live (sau khi chờ cache Pages hết hạn ~11 phút): 站 hiện giao diện
+  mới (TRẠM · 10 nét · 立 — LẬP · thẻ 立 PHẦN GỢI NGHĨA · thẻ 占 PHẦN
+  GỢI ÂM); 衣 ở chế độ phân tích một phần (thẻ 亠 trung tính, chú giải
+  hai tông, dòng "Phân tích đầy đủ đang được bổ sung.", không thẻ "?");
+  系 hiện HỆ · 7 nét · 糸 — MỊCH với 糸 gợi nghĩa và 丿 trung tính.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
