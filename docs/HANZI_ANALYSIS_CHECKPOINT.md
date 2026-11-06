@@ -15,10 +15,10 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **133 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-008 và đợt gỡ chặn UB-001 dưới đây);
-  không còn chữ bị chặn. Vị trí tiếp theo: HSK1, chữ **生** (index
-  133).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **151 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-009 và đợt gỡ chặn UB-001 dưới đây);
+  không còn chữ bị chặn. Vị trí tiếp theo: HSK1, chữ **视** (index
+  151).
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
 - Thay đổi chính của đợt mẫu so với pilot:
@@ -451,10 +451,23 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   亅, chú giải hai tông, dòng "Phân tích đầy đủ đang được bổ sung.",
   không thẻ "?", không "CHƯA XÁC ĐỊNH").
 
+## Lô B-009 — 18 chữ HSK1 tiếp theo (2026-11-06)
+
+- Chữ theo thứ tự `data/hsk1-core.json` (index 133–150): **生 电 的
+  看 睡 租 站 米 系 老 能 脑 苹 茶 菜 衣 西 见** (tiến độ 151/2.632).
+  Vị trí tiếp theo: 视 (index 151).
+- Điểm nội dung: 睡/站/苹/菜 hình thanh roles theo trường nguồn; 系
+  và 脑/茶 thuộc khuôn nguồn chỉ có trường gợi nghĩa — phần còn lại
+  giữ trung tính (tiền lệ 时); 的 không có chú giải nguồn → "Nhìn chữ
+  để nhớ", giải thích dạy trợ từ de là chính và ghi dī （ 的士） theo
+  CVDICT; 看 ghi thêm cách đọc kān （ 字典）; 衣 thuộc diện phân tích
+  một phần của PA-001 (phần đã nhận diện: 亠 — cổ áo; ghi thêm cách
+  đọc yì theo CVDICT); 见 ghi liên hệ cách đọc xiàn = 现 theo CVDICT.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 生** (index 133, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 视** (index 151, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Không còn chữ treo.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
