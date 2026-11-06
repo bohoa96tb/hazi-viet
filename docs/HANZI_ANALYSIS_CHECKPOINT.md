@@ -15,10 +15,10 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **97 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-006 và đợt gỡ chặn UB-001 dưới đây);
-  không còn chữ bị chặn. Vị trí tiếp theo: HSK1, chữ **我** (index 97;
-  index 96 là 想 đã hoàn thành từ lô mẫu).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **115 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-007 và đợt gỡ chặn UB-001 dưới đây);
+  không còn chữ bị chặn. Vị trí tiếp theo: HSK1, chữ **校** (index
+  115).
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
 - Thay đổi chính của đợt mẫu so với pilot:
@@ -399,12 +399,28 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   diện phân tích một phần của PA-001 (phần đã nhận diện: 干; renderer
   tự áp dụng, có ánh xạ nét sẵn trong `hanzi-partials.json`).
 
+## Lô B-007 — 18 chữ HSK1 tiếp theo (2026-11-06)
+
+- Chữ theo thứ tự `data/hsk1-core.json` (index 97–114): **我 打 日 时
+  明 星 昨 是 月 有 朋 服 期 本 机 来 杯 果** (tiến độ 115/2.632). Vị
+  trí tiếp theo: 校 (index 115).
+- Điểm nội dung: 打/星/昨/期/杯 hình thanh roles theo trường nguồn;
+  时 chỉ có trường gợi nghĩa （ 日） trong nguồn — 寸 giữ trung tính,
+  giải thích ghi là phần còn lại sau giản hóa; 机 thuộc khuôn hint gợi
+  âm （ 几） → trung tính, quy thuộc nguồn; 有 thuộc diện phân tích một
+  phần của PA-001 (phần đã nhận diện: 月 — nguồn gán vai trò gợi âm
+  cổ, profile ghi rõ kèm hedge; ánh xạ nét sẵn trong
+  `hanzi-partials.json`); 服 ghi thêm cách đọc fù (lượng từ liều
+  thuốc) theo CVDICT.
+- Hai test đã xoay fixture chữ-chưa-chuẩn-hóa từ 明 (nay đã chuẩn hóa)
+  sang 休 (biểu ý, chưa chuẩn hóa): test logic (cổng profile + renderer
+  cũ + vai trò trung tính) và test DOM (khôi phục vị trí đọc cũ).
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 我** (index 97, vị
-  trí `next` trong file tiến độ), giữ thứ tự file. 京 đã gỡ chặn ở
-  UB-001, không còn chữ treo.
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 校** (index 115, vị
+  trí `next` trong file tiến độ), giữ thứ tự file. Không còn chữ treo.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
   đúng SHA → kiểm live → cập nhật checkpoint + file tiến độ → dừng.

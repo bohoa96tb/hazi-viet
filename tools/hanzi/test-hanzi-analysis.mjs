@@ -25,15 +25,15 @@ const profile = hanziProfileFor('想', data);
 
 // 1. Gate: only 想 is enabled; other characters keep the legacy stage.
 assert.ok(profile, '想 must have an enabled profile');
-assert.equal(hanziProfileFor('明', data), null);
+assert.equal(hanziProfileFor('休', data), null);
 const progress = read('docs/hanzi-analysis-progress.json');
 assert.deepEqual(data.hanziAnalysis.enabledChars, progress.completed,
   'enabledChars must exactly match the completed list in the progress file');
 const stageXiang = renderStudyStage({c: xiang, data, stage: 0});
 assert.ok(stageXiang.includes('hanzi-analysis'), '想 stage 0 must use the new renderer');
-const stageMing = renderStudyStage({c: data.charMap.get('明'), data, stage: 0});
-assert.ok(!stageMing.includes('hanzi-analysis'), '明 stage 0 must keep the legacy renderer');
-assert.ok(stageMing.includes('structure-card'), '明 stage 0 must render the legacy structure card');
+const stageMing = renderStudyStage({c: data.charMap.get('休'), data, stage: 0});
+assert.ok(!stageMing.includes('hanzi-analysis'), '休 stage 0 must keep the legacy renderer');
+assert.ok(stageMing.includes('structure-card'), '休 stage 0 must render the legacy structure card');
 
 // 2. 想 tree and roles match the imported source data.
 assert.equal(xiang.decomposition, '⿱相心');
@@ -44,7 +44,7 @@ assert.equal(profile.components['相'].role, 'phonetic');
 assert.equal(profile.components['心'].role, 'semantic');
 assert.equal(roleFor(xiang, '相'), 'phonetic', 'role must also derive from etymology');
 assert.equal(roleFor(xiang, '心'), 'semantic');
-assert.equal(roleFor(data.charMap.get('明'), '日'), 'neutral', 'ideographic parts stay neutral');
+assert.equal(roleFor(data.charMap.get('休'), '木'), 'neutral', 'ideographic parts stay neutral');
 const html = renderHanziAnalysis(xiang, data, profile);
 assert.ok(html.includes('PHẦN GỢI ÂM') && html.includes('PHẦN GỢI NGHĨA'));
 assert.ok(html.includes('data-ha-toggle="相"'), '相 must be expandable');

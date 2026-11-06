@@ -128,10 +128,10 @@ assert(document.querySelector('.identity-char')?.textContent !== '想' || docume
 // ("Gốc chữ") must restore safely: falls back to stage 0, four tabs, no crash.
 document.querySelector('#closeDialog').click();
 await tick(30);
-window.localStorage.setItem('hanzi-viet-reading', JSON.stringify({char: '明', stage: 4, wordIndex: 0, sentenceIndex: 0, noteIndex: 0, wordMode: 'word', showTranslation: false}));
+window.localStorage.setItem('hanzi-viet-reading', JSON.stringify({char: '休', stage: 4, wordIndex: 0, sentenceIndex: 0, noteIndex: 0, wordMode: 'word', showTranslation: false}));
 document.querySelector('[data-action="resume"]').click();
 await tick(40);
-assert.equal(document.querySelector('.identity-char').textContent, '明', 'resume must open the saved character');
+assert.equal(document.querySelector('.identity-char').textContent, '休', 'resume must open the saved character');
 assert.equal(document.querySelectorAll('.study-tabs [data-stage]').length, 4, 'still exactly 4 tabs after restore');
 assert.equal(document.querySelector('.study-tabs [data-stage="0"]').getAttribute('aria-selected'), 'true', 'removed stage must fall back to stage 0');
 assert(body().querySelector('.structure-card'), 'stage 0 legacy content must render after restore');
