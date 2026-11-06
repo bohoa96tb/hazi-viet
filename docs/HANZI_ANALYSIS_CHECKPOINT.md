@@ -380,6 +380,17 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   客 家 对 小 少 岁 工 师 年 店 开 影 很 怎** (tiến độ gồm cả 京:
   97/2.632). Index 96 là 想 — đã hoàn thành từ lô mẫu; vị trí tiếp
   theo là 我 (index 97).
+- **Đã phát hành cùng PR với UB-001**: PR #76 merge tại
+  `488ecb1062b55116f2e200a4c39eee07aed96789`, GitHub Pages run #346
+  (id 42135908319) đúng SHA merge, success. Kiểm chứng trực tiếp trên
+  live: `hanzi-analysis.json` đủ 97 chữ; 京 hiện "8 nét · KINH · bộ
+  thủ 亠 — ĐẦU", đủ thẻ 亠/口/小， Luyện viết 8 nét và hoạt ảnh chạy;
+  姐 hiện TỈ với thẻ gợi nghĩa/gợi âm đúng; 年 ở chế độ phân tích một
+  phần (thẻ 干, dòng bổ sung, không thẻ "?"); 令 ở giao diện cũ hiện
+  dấu trung tính "···" kèm dòng giải thích ở cả cây rút gọn và panel
+  đầy đủ; điều hướng 4 bước qua lại bình thường. (Việc phát hành từng
+  bị treo qua đêm vì thẻ phê duyệt ghi GitHub hết hạn nhiều lần; chủ
+  dự án duyệt phát hành ngày 2026-11-06.)
 - Điểm nội dung: 姐/家/店/影/很/怎 hình thanh roles theo trường nguồn;
   字/学/客/少 thuộc khuôn hint gợi âm nhưng phân loại không phải
   pictophonetic → roles trung tính, gợi âm chỉ trong giải thích kèm
