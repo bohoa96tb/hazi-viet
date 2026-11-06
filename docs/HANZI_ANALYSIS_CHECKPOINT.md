@@ -486,7 +486,17 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   "Nhìn chữ để nhớ"; 那 thuộc diện phân tích một phần của PA-001
   (phần đã nhận diện: 阝 ở bên phải); 都 dạy hai cách đọc dōu (đều —
   bài này) / dū （ 首都， ứng với Hán–Việt ĐÔ); 谁 ghi thêm cách đọc
-  shéi; 识/说/读 ghi cách đọc phụ zhì/shuì/dòu theo CVDICT.
+  shéi; 识/说/读 ghi cách đọc phụ zhì/shuì/dòu theo CVDICT. Phồn thể
+  của 钟 viết theo đúng trường `traditional` của lõi （ 鍾）, không
+  dùng 鐘 — tiền lệ khớp lõi như B-006.
+- **Đã phát hành**: PR #84 merge tại
+  `3af965591407229fffc9d368537527fd5fe21d5e`, GitHub Pages run #354
+  (id 42164461777) đúng SHA merge, success. Kiểm chứng trực tiếp trên
+  live (sau khi chờ cache Pages hết hạn ~11 phút): 视 hiện giao diện
+  mới với vai trò hoán đổi đúng theo nguồn （ 礻 PHẦN GỢI ÂM bên trái,
+  见 PHẦN GỢI NGHĨA bên phải); 那 ở chế độ phân tích một phần (thẻ 阝
+  trung tính, chú giải hai tông, không thẻ "?"); 觉 hiện GIÁC · 9 nét
+  với 见 gợi nghĩa và ⺍ gợi âm.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
