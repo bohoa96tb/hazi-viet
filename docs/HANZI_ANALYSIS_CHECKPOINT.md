@@ -442,6 +442,14 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   jiào （ 校 đối chiếu) và 没 ghi mò theo CVDICT; 漂 có ba cách đọc —
   profile phân biệt piāo (trôi) / piào (đẹp trong 漂亮, cách đọc bài
   này học) / piǎo (tẩy trắng) theo CVDICT.
+- **Đã phát hành**: PR #80 merge tại
+  `8faaa0688ba921f600b86dcfa3057a18e8232606`, GitHub Pages run #350
+  (id 42154034854) đúng SHA merge, success. Kiểm chứng trực tiếp trên
+  live (sau khi chờ cache Pages hết hạn ~11 phút): 校 hiện giao diện
+  mới (HIỆU · 10 nét · 木 — MỘC · thẻ 木 PHẦN GỢI NGHĨA · thẻ 交 PHẦN
+  GỢI ÂM); 气 và 水 ở chế độ phân tích một phần (thẻ trung tính 亻 /
+  亅, chú giải hai tông, dòng "Phân tích đầy đủ đang được bổ sung.",
+  không thẻ "?", không "CHƯA XÁC ĐỊNH").
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
