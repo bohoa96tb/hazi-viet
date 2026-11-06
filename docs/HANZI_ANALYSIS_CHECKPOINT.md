@@ -415,6 +415,18 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - Hai test đã xoay fixture chữ-chưa-chuẩn-hóa từ 明 (nay đã chuẩn hóa)
   sang 休 (biểu ý, chưa chuẩn hóa): test logic (cổng profile + renderer
   cũ + vai trò trung tính) và test DOM (khôi phục vị trí đọc cũ).
+- **Đã phát hành**: PR #78 merge tại
+  `60b6b099ac1b0e3de7e5404008a67575b47c5b32`, GitHub Pages run #348
+  (id 42148773008) đúng SHA merge, success. Kiểm chứng trực tiếp trên
+  live: `hanzi-analysis.json` đủ 115 chữ; 我 hiện giao diện mới (NGÃ ·
+  7 nét · 戈 — QUA · thẻ 扌/戈 trung tính · bố cục "扌 bên trái, 戈 bên
+  phải" · Luyện viết 7 nét); 有 ở chế độ phân tích một phần (thẻ 月 —
+  PHẦN GỢI ÂM, chú giải hai tông, dòng "Phân tích đầy đủ đang được bổ
+  sung.", không thẻ "?", không "CHƯA XÁC ĐỊNH"); 明 hiện MINH · 8 nét ·
+  日 — NHẬT · nghĩa "sáng · rõ". Hai lượt kiểm đầu thấy giao diện cũ là
+  do cache GitHub Pages chưa hết hạn (dữ liệu live đã đủ 115 chữ ngay
+  từ lượt kiểm đầu); sau ~12 phút kiểm lại đạt toàn bộ — đúng bài học
+  cache đã ghi ở đợt trước.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
