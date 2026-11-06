@@ -15,10 +15,10 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **115 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-007 và đợt gỡ chặn UB-001 dưới đây);
-  không còn chữ bị chặn. Vị trí tiếp theo: HSK1, chữ **校** (index
-  115).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **133 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-008 và đợt gỡ chặn UB-001 dưới đây);
+  không còn chữ bị chặn. Vị trí tiếp theo: HSK1, chữ **生** (index
+  133).
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
 - Thay đổi chính của đợt mẫu so với pilot:
@@ -428,10 +428,25 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   từ lượt kiểm đầu); sau ~12 phút kiểm lại đạt toàn bộ — đúng bài học
   cache đã ghi ở đợt trước.
 
+## Lô B-008 — 18 chữ HSK1 tiếp theo (2026-11-06)
+
+- Chữ theo thứ tự `data/hsk1-core.json` (index 115–132): **校 样 桌
+  椅 欢 气 水 汉 没 漂 火 点 热 爱 爸 狗 猫 现** (tiến độ 133/2.632).
+  Vị trí tiếp theo: 生 (index 133).
+- Điểm nội dung: 校/样/椅/没/漂/点/热/爸/狗/猫 hình thanh roles theo
+  trường nguồn; 现 thuộc khuôn hint gợi âm （ 见） → trung tính, quy
+  thuộc nguồn; 桌/欢 không có chú giải nguồn → tiêu đề "Nhìn chữ để
+  nhớ", roles trung tính; 气/水 thuộc diện phân tích một phần của
+  PA-001 (phần đã nhận diện: 气 — 亻 ở phía trên; 水 — nét giữa 亅;
+  ánh xạ nét sẵn trong `hanzi-partials.json`); 校 ghi thêm cách đọc
+  jiào （ 校 đối chiếu) và 没 ghi mò theo CVDICT; 漂 có ba cách đọc —
+  profile phân biệt piāo (trôi) / piào (đẹp trong 漂亮, cách đọc bài
+  này học) / piǎo (tẩy trắng) theo CVDICT.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 校** (index 115, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 生** (index 133, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Không còn chữ treo.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
