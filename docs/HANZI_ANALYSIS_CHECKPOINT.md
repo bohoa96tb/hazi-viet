@@ -589,6 +589,17 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   profile không đặt role cho 买 (cổng kiểm thử và renderer ưu tiên
   vai gợi nghĩa khi một phần gánh cả hai), giải thích ghi rõ cả hai
   vai. Lô này vì vậy có 4 file thay đổi (thêm `data/hsk2-core.json`).
+  Chuyên gia sửa 1 chữ trước phát hành: 咖 (hedge gợi âm jiā/kā —
+  vần ia/a khác nhau, chỉ cùng nguyên âm chính a; và giới hạn câu
+  "chỉ dùng để ghi âm" theo phạm vi cấp học).
+- **Đã phát hành**: PR #91 merge tại
+  `35491ec5494840efc513a3d0683e466affb464c7`, GitHub Pages run #361
+  (id 42616176410) đúng SHA merge, success. Kiểm chứng trực tiếp trên
+  live (sau khi chờ cache Pages hết hạn ~11 phút): 卖 hiện giao diện
+  mới với dữ kiện đã bổ sung (MẠI · 8 nét · thẻ 买 PHẦN GỢI NGHĨA kèm
+  ghi chú hai vai); 到 hiện vai trò hoán đổi đúng theo nguồn （ 至 gợi
+  nghĩa trái, 刂 gợi âm phải); 右 ở chế độ phân tích một phần (thẻ 口
+  trung tính, không thẻ "?").
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
