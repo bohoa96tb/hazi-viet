@@ -15,11 +15,11 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **176 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-011 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **194 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-012 và đợt gỡ chặn UB-001 dưới đây).
   Hai chữ bị chặn: 面 (HSK1 index 173) và 飞 (HSK1 index 174) — phép
-  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **丈**
-  (index 0).
+  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **别**
+  (index 18).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -533,10 +533,32 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   sửa renderer/cổng kiểm thử, ngoài phạm vi một lô nội dung. HSK1 vì
   vậy đạt 176/178 chữ chuẩn hóa, còn đúng 2 chữ này.
 
+## Lô B-012 — 18 chữ đầu HSK2 (2026-11-09)
+
+- Chữ theo thứ tự `data/hsk2-core.json` (index 0–17): **丈 两 为 乐
+  也 事 介 从 以 件 休 但 体 便 元 公 共 准** (tiến độ 194/2.632).
+  Vị trí tiếp theo: 别 (HSK2 index 18).
+- Điểm nội dung: 但 theo khuôn nguồn chỉ có trường gợi âm （ 旦 — cùng
+  đọc dàn; 亻 trung tính); 准 hình thanh đầy đủ （ 隹 gợi âm cổ, 冫
+  gợi nghĩa qua hình ống thủy bình theo chú giải nguồn); bốn chữ
+  thuộc diện phân tích một phần của PA-001: 乐 (phần đã nhận diện 丿
+  và 小）, 也 （ 乚）, 介 （ 人）, 以 （ 人）; ba chữ dạy phân biệt hai
+  cách đọc ngay trong bài: 为 wèi （ 因为） / wéi （ 为什么）, 乐 lè
+  （ 快乐） / yuè （ 音乐）, 便 biàn （ 方便） / pián （ 便宜）; các chữ
+  không có chú giải nguồn （ 丈 为 事 体 便） giữ trung tính, không
+  gán vai trò.
+- **Xoay fixture kiểm thử**: 休 thuộc chính lô này nên không còn là
+  chữ "chưa chuẩn hóa" cho bộ test — fixture ở
+  `tools/hanzi/test-hanzi-analysis.mjs` và
+  `tools/hanzi/test-hanzi-analysis-dom.mjs` đã chuyển từ 休 sang 森
+  (HSK4, biểu ý, phép tách ⿱木⿰木木 giữ nguyên khẳng định lá 木 trung
+  tính). Đây là thay đổi test duy nhất ngoài 3 file nội dung thường
+  lệ, cùng tiền lệ xoay fixture ở B-007 （ 明 → 休）.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 丈** (index 0, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 别** (index 18, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Hai chữ treo: 面 và
   飞 (HSK1) đang ở trạng thái blocked chờ quyết định xử lý riêng, xem
   mục B-011.
