@@ -20,6 +20,16 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   Hai chữ bị chặn: 面 (HSK1 index 173) và 飞 (HSK1 index 174) — phép
   tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **丈**
   (index 0).
+- **Đã phát hành (B-011)**: PR #86 merge tại
+  `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
+  (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
+  live (sau khi chờ cache Pages hết hạn ~11 phút): 零 hiện giao diện
+  mới (LINH · 13 nét · thẻ 雨 PHẦN GỢI NGHĨA · thẻ 令 PHẦN GỢI ÂM);
+  雨 ở chế độ phân tích một phần (thẻ 帀 trung tính, chú giải hai
+  tông, không thẻ "?"); 高 hiện CAO · 10 nét với ba thẻ trung tính.
+  Kiểm live cũng phát hiện thẻ 冋 của 高 chỉ có chữ, thiếu mô tả —
+  đã sửa bằng PR #87 merge tại `ed74503` (bổ sung ghi đè mô tả hình
+  dạng cho 冋 trong profile 高）.
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
 - Thay đổi chính của đợt mẫu so với pilot:
