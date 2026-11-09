@@ -15,10 +15,11 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **169 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-010 và đợt gỡ chặn UB-001 dưới đây);
-  không còn chữ bị chặn. Vị trí tiếp theo: HSK1, chữ **钱** (index
-  169).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **176 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-011 và đợt gỡ chặn UB-001 dưới đây).
+  Hai chữ bị chặn: 面 (HSK1 index 173) và 飞 (HSK1 index 174) — phép
+  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **丈**
+  (index 0).
 - Màn hình học chữ chính thức có 4 bước cho mọi chữ (mục "Bỏ tab Gốc
   chữ" ở dưới). Chữ chưa chuẩn hóa giữ giao diện 4 bước với nội dung cũ.
 - Thay đổi chính của đợt mẫu so với pilot:
@@ -498,11 +499,37 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   trung tính, chú giải hai tông, không thẻ "?"); 觉 hiện GIÁC · 9 nét
   với 见 gợi nghĩa và ⺍ gợi âm.
 
+## Lô B-011 — 7 chữ HSK1 cuối đủ điều kiện (2026-11-09)
+
+- Chữ theo thứ tự `data/hsk1-core.json` (index 169–177, trừ hai chữ
+  bị chặn dưới đây): **钱 院 雨 零 饭 馆 高** (tiến độ 176/2.632).
+  HSK1 đã đi hết thứ tự file; vị trí tiếp theo: 丈 — chữ đầu tiên của
+  HSK2 (index 0 trong `data/hsk2-core.json`).
+- Điểm nội dung: 钱/院/零/饭 hình thanh roles theo trường nguồn （ 零
+  令 gợi âm chỉ khác thanh; 饭 反 gợi âm chỉ khác thanh); 馆 thuộc
+  khuôn hint gợi âm （ 官 guān/guǎn chỉ khác thanh) → trung tính, quy
+  thuộc nguồn; 雨 thuộc diện phân tích một phần của PA-001 (phần đã
+  nhận diện: 帀 — khung mây; các giọt mưa chưa tách riêng); 高 hình
+  tượng (vẽ tòa nhà cao), không ép tách vai trò.
+- **Hai chữ bị chặn — 面 (index 173) và 飞 (index 174)**: phép tách
+  IDS trong dữ liệu lõi của cả hai đều là toàn lá "？" (⿱？？ và
+  ⿻？？) — không có phần nào nhận diện được, trong khi cổng kiểm thử
+  của dự án yêu cầu chữ phân tích một phần phải có ít nhất một phần
+  đã nhận diện. Cả hai đều có chú giải hình tượng dùng được （ 面 vẽ
+  khuôn mặt; 飞 là giản thể của 飛， vẽ chim vỗ cánh) nhưng chưa có
+  đường hiển thị hợp lệ. Đã ghi vào `blocked` trong file tiến độ kèm
+  lý do. Hướng xử lý đề xuất (chờ chủ dự án quyết hoặc giao đợt
+  riêng): quy về hiển thị "không tách phần" như chữ đơn thể — cần
+  sửa renderer/cổng kiểm thử, ngoài phạm vi một lô nội dung. HSK1 vì
+  vậy đạt 176/178 chữ chuẩn hóa, còn đúng 2 chữ này.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK1 · 钱** (index 169, vị
-  trí `next` trong file tiến độ), giữ thứ tự file. Không còn chữ treo.
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 丈** (index 0, vị
+  trí `next` trong file tiến độ), giữ thứ tự file. Hai chữ treo: 面 và
+  飞 (HSK1) đang ở trạng thái blocked chờ quyết định xử lý riêng, xem
+  mục B-011.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
   đúng SHA → kiểm live → cập nhật checkpoint + file tiến độ → dừng.
