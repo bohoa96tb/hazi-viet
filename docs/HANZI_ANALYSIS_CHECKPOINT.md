@@ -15,11 +15,11 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **194 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-012 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **212 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-013 và đợt gỡ chặn UB-001 dưới đây).
   Hai chữ bị chặn: 面 (HSK1 index 173) và 飞 (HSK1 index 174) — phép
-  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **别**
-  (index 18).
+  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **啡**
+  (index 36).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -567,10 +567,33 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   phần (hai thẻ trung tính 丿 và 小， nghĩa hai cách đọc lè/yuè, không
   thẻ "?"); 准 hiện CHUẨN · 10 nét với 冫 gợi nghĩa và 隹 gợi âm.
 
+## Lô B-013 — 18 chữ HSK2 tiếp theo (2026-11-09)
+
+- Chữ theo thứ tự `data/hsk2-core.json` (index 18–35): **别 到 务
+  动 助 千 卖 可 右 号 司 向 吧 告 员 咖 哥 唱** (tiến độ 212/2.632).
+  Vị trí tiếp theo: 啡 (index 36).
+- Điểm nội dung: 到/可 theo đúng trường nguồn dù ngược vị trí quen
+  thuộc （ 至/丁 gợi nghĩa, 刂/口 gợi âm); 动/员 theo khuôn nguồn chỉ
+  có trường gợi nghĩa (phần còn lại trung tính); ba chữ phân tích
+  một phần: 右 （ 口）, 司 （ 口）, 向 （ 口）; 咖 là chữ phiên âm
+  （ 咖啡） có cách đọc phụ gā trong 咖喱.
+- **Bổ sung dữ liệu cho 卖 theo quyền Unihan đã cấp (như UB-001)**:
+  dữ liệu lõi của 卖 thiếu cả `strokeCount` lẫn `learningVi`. Đã bổ
+  sung vào `data/hsk2-core.json`: strokeCount = 8 (Unihan U+5356
+  kTotalStrokes; đối chiếu nhất quán: matches nguồn có 8 nét) và
+  learningVi Hán–Việt "Mại" (nguồn Kai trong dự án — mục 卖 ở
+  radicals-vi ghi "chữ Mại (bán)"; đối chiếu: 卖淫 = mại dâm, 卖国 =
+  mại quốc; Unihan không có kVietnamese cho chữ này — vắng, không
+  mâu thuẫn). Đã ghi sổ `supplements` trong file tiến độ. 卖 là chữ
+  hình thanh đặc biệt: nguồn gán 买 cả hai vai gợi âm và gợi nghĩa;
+  profile không đặt role cho 买 (cổng kiểm thử và renderer ưu tiên
+  vai gợi nghĩa khi một phần gánh cả hai), giải thích ghi rõ cả hai
+  vai. Lô này vì vậy có 4 file thay đổi (thêm `data/hsk2-core.json`).
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 别** (index 18, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 啡** (index 36, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Hai chữ treo: 面 và
   飞 (HSK1) đang ở trạng thái blocked chờ quyết định xử lý riêng, xem
   mục B-011.
