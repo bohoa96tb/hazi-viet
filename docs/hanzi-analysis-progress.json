@@ -337,6 +337,30 @@
    "mergeCommit": "03b5ef63038936335f4704205fee4e0148181c05",
    "pagesRun": 359,
    "pr": 89
+  },
+  {
+   "chars": [
+    "别",
+    "到",
+    "务",
+    "动",
+    "助",
+    "千",
+    "卖",
+    "可",
+    "右",
+    "号",
+    "司",
+    "向",
+    "吧",
+    "告",
+    "员",
+    "咖",
+    "哥",
+    "唱"
+   ],
+   "id": "B-013",
+   "pr": null
   }
  ],
  "blocked": [
@@ -547,7 +571,25 @@
   "元",
   "公",
   "共",
-  "准"
+  "准",
+  "别",
+  "到",
+  "务",
+  "动",
+  "助",
+  "千",
+  "卖",
+  "可",
+  "右",
+  "号",
+  "司",
+  "向",
+  "吧",
+  "告",
+  "员",
+  "咖",
+  "哥",
+  "唱"
  ],
  "dataGaps": [
   {
@@ -636,10 +678,10 @@
   }
  ],
  "next": {
-  "char": "别",
-  "index": 18,
+  "char": "啡",
+  "index": 36,
   "level": 2,
-  "note": "Tiếp theo trong data/hsk2-core.json sau 准 (index 17). HSK1 còn 2 chữ blocked: 面/飞."
+  "note": "Tiếp theo trong data/hsk2-core.json sau 唱 (index 35). HSK1 còn 2 chữ blocked: 面/飞."
  },
  "pattern": {
   "approvedBy": "Chủ dự án",
@@ -689,6 +731,29 @@
      "reason": "Lớp Kai của chính 京 trong dữ liệu lõi không có learningVi; mục Kai của 京 đã có sẵn trong radicals-vi.json vì 京 được dùng làm thành phần.",
      "source": "Kai Hanzi — mục 京 trong data/radicals-vi.json (nameVi: chữ Kinh (kinh đô))",
      "value": "KINH"
+    }
+   ]
+  },
+  {
+   "char": "卖",
+   "fields": [
+    {
+     "accessed": "2026-11-09",
+     "corroboration": "Make Me a Hanzi matches có 8 nét — cùng dòng dữ liệu nét với Hanzi Writer, chỉ là kiểm tra nhất quán, không phải nguồn độc lập.",
+     "field": "strokeCount",
+     "license": "Unicode, Inc. — Unicode License Agreement",
+     "reason": "Dữ liệu lõi thiếu strokeCount cho 卖 (trường bắt buộc của profile).",
+     "source": "Unihan U+5356, kTotalStrokes",
+     "value": 8
+    },
+    {
+     "accessed": "2026-11-09",
+     "corroboration": "Cách đọc mại là âm Hán–Việt chuẩn của 卖 trong tiếng Việt (卖淫 = mại dâm, 卖国 = mại quốc). Unihan U+5356 không có trường kVietnamese (vắng, không mâu thuẫn). learningVi.meaningVi đặt là 'bán' theo mục từ của lõi.",
+     "field": "learningVi.sinoViet",
+     "license": "Kai Hanzi · CC BY 4.0",
+     "reason": "Dữ liệu lõi thiếu learningVi cho 卖 (không có âm Hán–Việt đã kiểm chứng theo nguồn dự án).",
+     "source": "Kai Hanzi (radicals-vi trong dự án: mục 卖 ghi 'chữ Mại (bán)')",
+     "value": "Mại"
     }
    ]
   }
