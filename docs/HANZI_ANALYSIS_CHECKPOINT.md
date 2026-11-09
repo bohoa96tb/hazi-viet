@@ -553,7 +553,19 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   `tools/hanzi/test-hanzi-analysis-dom.mjs` đã chuyển từ 休 sang 森
   (HSK4, biểu ý, phép tách ⿱木⿰木木 giữ nguyên khẳng định lá 木 trung
   tính). Đây là thay đổi test duy nhất ngoài 3 file nội dung thường
-  lệ, cùng tiền lệ xoay fixture ở B-007 （ 明 → 休）.
+  lệ, cùng tiền lệ xoay fixture ở B-007 （ 明 → 休）. Chuyên gia sửa 2
+  điểm trước phát hành: 从 bỏ mệnh đề "giản thể của 從" vì trường
+  `traditional` của lõi là chính 从 (tiền lệ khớp trường lõi như 钟 ở
+  B-010); 便 giới hạn phạm vi câu về cách đọc pián thành "ở cấp này
+  chỉ gặp trong 便宜" (từ điển còn ghi 便便/便嬛 là từ hiếm, không
+  dạy ở cấp này nhưng không được khẳng định tuyệt đối sai).
+- **Đã phát hành**: PR #89 merge tại
+  `03b5ef63038936335f4704205fee4e0148181c05`, GitHub Pages run #359
+  (id 42613549439) đúng SHA merge, success. Kiểm chứng trực tiếp trên
+  live (sau khi chờ cache Pages hết hạn ~11 phút): 但 hiện giao diện
+  mới （ 旦 PHẦN GỢI ÂM, 亻 trung tính); 乐 ở chế độ phân tích một
+  phần (hai thẻ trung tính 丿 và 小， nghĩa hai cách đọc lè/yuè, không
+  thẻ "?"); 准 hiện CHUẨN · 10 nét với 冫 gợi nghĩa và 隹 gợi âm.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
