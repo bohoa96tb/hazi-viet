@@ -646,6 +646,14 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   Chuyên gia sửa 1 hedge trước phát hành: 息 — 心 xīn và 息 xī
   cùng thanh điệu (đều thanh 1), chỉ khác âm cuối -n; bản thảo
   viết sai "chỉ khác thanh".
+- **Đã phát hành**: PR #95 merge tại
+  `91b1a5b023617a0928c47f2985430b114cac33b5`, GitHub Pages run #365
+  (id 42823665033) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 已 hiện
+  ghi chú khối duy nhất, không cây thành phần, không dòng "Bố
+  cục"; 弟 ở chế độ phân tích một phần (hai thẻ trung tính 丷/弓,
+  không thẻ "?"); 得 hiện ĐẮC · 11 nét kèm đủ ba cách đọc
+  dé/děi/de và ví dụ trong giải thích.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
