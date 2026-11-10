@@ -614,7 +614,22 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   diện 工; cặp với 右 ở B-013); 宜 được dạy qua từ 便宜 (ghép với
   便 ở B-012); 就 có thành phần gợi âm là 京 — chữ KINH đã chuẩn hóa
   ở HSK1 (đợt UB-001). Nhãn bộ thủ của 就 dùng "尢 — UÔNG" (dữ liệu
-  radicals-vi không có mục 尢).
+  radicals-vi không có mục 尢; chuyên gia đối chiếu độc lập xác
+  nhận 尢 là bộ Khang Hy 43, âm Hán–Việt Uông). Chuyên gia sửa 2
+  hedge gợi âm trước phát hành: 奶 （ 乃 và 奶 cùng đọc nǎi trọn
+  vẹn, bỏ cụm "chỉ khác thanh") và 妹 （ 未/妹 cùng thanh 4; vần
+  uei/ei chỉ cùng nguyên âm chính e). Việc phát hành lô này bị
+  chậm một ngày vì thẻ phê duyệt ghi GitHub hết hạn ở lần đẩy đầu
+  (2026-11-09); đẩy lại ngày 2026-11-10 sau khi người dùng nhắn
+  tiếp tục.
+- **Đã phát hành**: PR #93 merge tại
+  `25f2eeb120a8ef358e9b0853c800f09b623fd796`, GitHub Pages run #363
+  (id 42820821745) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 场 hiện
+  giao diện mới （ 土 PHẦN GỢI NGHĨA, 勿 trung tính kèm ghi chú
+  không mang âm chǎng); 左 ở chế độ phân tích một phần (thẻ 工
+  trung tính, không thẻ "?"); 就 hiện TỰU · 12 nét · 尢 — UÔNG,
+  thẻ 京 PHẦN GỢI ÂM.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
