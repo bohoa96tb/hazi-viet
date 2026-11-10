@@ -15,11 +15,11 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **248 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-015 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **266 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-016 và đợt gỡ chặn UB-001 dưới đây).
   Hai chữ bị chặn: 面 (HSK1 index 173) và 飞 (HSK1 index 174) — phép
-  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **所**
-  (index 72).
+  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **每**
+  (index 90).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -655,10 +655,23 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   không thẻ "?"); 得 hiện ĐẮC · 11 nét kèm đủ ba cách đọc
   dé/děi/de và ví dụ trong giải thích.
 
+## Lô B-016 — 18 chữ HSK2 tiếp theo (2026-11-10)
+
+- Chữ theo thứ tự `data/hsk2-core.json` (index 72–89): **所 手 找
+  报 教 斤 新 旁 旅 早 晚 晴 最 望 次 歌 正 步** (tiến độ 266/2.632).
+  Vị trí tiếp theo: 每 (index 90).
+- Điểm nội dung: 手 không có phép tách (khối duy nhất, chú giải vẽ
+  bàn tay xòe ngón); hai chữ phân tích một phần: 旅 (phần đã nhận
+  diện 方/氏) và 步 （ 止）; hai chữ biểu ý có hint gợi âm giữ trung
+  tính theo tiền lệ （ 晚 免， 望 亡 — 望 nối tiếp 希望 ở B-015); 教
+  dạy cả hai cách đọc jiào/jiāo kèm quy tắc phân biệt theo vị trí;
+  最 không nêu mệnh đề giản/phồn vì trường traditional của lõi là
+  biến thể 㝡 (như 备 ở B-014).
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 所** (index 72, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 每** (index 90, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Hai chữ treo: 面 và
   飞 (HSK1) đang ở trạng thái blocked chờ quyết định xử lý riêng, xem
   mục B-011.
