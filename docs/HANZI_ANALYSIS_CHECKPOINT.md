@@ -666,7 +666,16 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   tính theo tiền lệ （ 晚 免， 望 亡 — 望 nối tiếp 希望 ở B-015); 教
   dạy cả hai cách đọc jiào/jiāo kèm quy tắc phân biệt theo vị trí;
   最 không nêu mệnh đề giản/phồn vì trường traditional của lõi là
-  biến thể 㝡 (như 备 ở B-014).
+  biến thể 㝡 (như 备 ở B-014). Chuyên gia đạt 18/18 không sửa —
+  lô đầu tiên không có lỗi hedge gợi âm sau khi áp quy tắc tự đối
+  chiếu bốn yếu tố (âm đầu, vần, âm cuối, thanh điệu) từ B-015.
+- **Đã phát hành**: PR #97 merge tại
+  `b372782e5c2be749be6173fbc22a7d70b8c31e9a`, GitHub Pages run #367
+  (id 42826545685) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 手 hiện
+  ghi chú khối duy nhất, không cây thành phần; 步 ở chế độ phân
+  tích một phần (thẻ 止 trung tính, không thẻ "?"); 教 hiện đủ
+  hai cách đọc jiào/jiāo kèm quy tắc phân biệt trong giải thích.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
