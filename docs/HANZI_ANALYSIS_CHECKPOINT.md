@@ -15,11 +15,11 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **230 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-014 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **248 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-015 và đợt gỡ chặn UB-001 dưới đây).
   Hai chữ bị chặn: 面 (HSK1 index 173) và 飞 (HSK1 index 174) — phép
-  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **已**
-  (index 54).
+  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **所**
+  (index 72).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -631,10 +631,26 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   trung tính, không thẻ "?"); 就 hiện TỰU · 12 nét · 尢 — UÔNG,
   thẻ 京 PHẦN GỢI ÂM.
 
+## Lô B-015 — 18 chữ HSK2 tiếp theo (2026-11-10)
+
+- Chữ theo thứ tự `data/hsk2-core.json` (index 54–71): **已 希 帮
+  常 床 弟 张 得 忙 快 思 息 您 情 意 慢 懂 房** (tiến độ 248/2.632).
+  Vị trí tiếp theo: 所 (index 72).
+- Điểm nội dung: 已 là chữ không có phép tách trong dữ liệu nguồn
+  (học như khối duy nhất, kèm phân biệt 已/己); 弟 là chữ phân tích
+  một phần (phần đã nhận diện 丷/弓, hai nét cuối chưa tách); năm
+  chữ nguồn xếp "biểu ý" nhưng hint có ghi một phần gợi âm （ 帮/
+  床/忙/快/息） — theo tiền lệ, vai trò giữ trung tính, phần gợi âm
+  chỉ nói trong giải thích kèm quy thuộc nguồn kèm đối chiếu âm
+  chính xác; 得 dạy đủ ba cách đọc dé/děi/de ngay ở tầng chữ.
+  Chuyên gia sửa 1 hedge trước phát hành: 息 — 心 xīn và 息 xī
+  cùng thanh điệu (đều thanh 1), chỉ khác âm cuối -n; bản thảo
+  viết sai "chỉ khác thanh".
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 已** (index 54, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 所** (index 72, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Hai chữ treo: 面 và
   飞 (HSK1) đang ở trạng thái blocked chờ quyết định xử lý riêng, xem
   mục B-011.
