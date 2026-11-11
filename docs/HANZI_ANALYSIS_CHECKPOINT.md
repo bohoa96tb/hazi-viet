@@ -15,11 +15,11 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **284 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-017 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **302 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-018 và đợt gỡ chặn UB-001 dưới đây).
   Hai chữ bị chặn: 面 (HSK1 index 173) và 飞 (HSK1 index 174) — phép
-  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **睛**
-  (index 108).
+  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **自**
+  (index 126).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -706,10 +706,25 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   live chữ partial, phải đối chiếu trường etymology trước khi kỳ
   vọng nhãn thẻ.
 
+## Lô B-018 — 18 chữ HSK2 tiếp theo (2026-11-11)
+
+- Chữ theo thứ tự `data/hsk2-core.json` (index 108–125): **睛 知 票
+  离 穿 笑 第 答 篮 累 红 纸 绍 经 给 羊 考 肉** (tiến độ 302/2.632).
+  Vị trí tiếp theo: 自 (index 126).
+- Điểm nội dung: hai chữ phân tích một phần — 经 (phần đã nhận
+  diện 纟 gợi nghĩa và 工 gợi âm theo trường nguồn; nhãn thẻ đúng
+  theo làm rõ ở mục B-017), 羊 （ 丷); 知 và 穿 giữ vai trò hoán
+  đổi theo nguồn （ 知： 矢 gợi âm/口 gợi nghĩa; 穿： 穴 gợi âm/牙
+  gợi nghĩa); 第 theo khuôn biểu ý có hint gợi âm （ 弟） giữ trung
+  tính; 答 dạy dá kèm dā trong 答应; 累 dạy lèi kèm lěi học sau.
+  Chuyên gia sửa 1 chi tiết nhẹ trước phát hành: 睛 — giải thích
+  ban đầu gọi 眼 là “chữ cuối lô trước” nhưng 眼 là chữ thứ 16/18
+  của B-017 (chữ cuối lô là 着), đã sửa thành “đã học ở lô trước”.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 睛** (index 108, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 自** (index 126, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Hai chữ treo: 面 và
   飞 (HSK1) đang ở trạng thái blocked chờ quyết định xử lý riêng, xem
   mục B-011.
