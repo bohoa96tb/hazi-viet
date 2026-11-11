@@ -762,7 +762,16 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   kèm cháng), 门 (hai nét đầu 丶/丨); 边 theo tiền lệ 蛋/场 —
   trường gợi âm của nguồn là 臱 nhưng 臱 không phải một phần
   trong phép tách hiện tại nên chỉ ghi 辶 gợi nghĩa; 还 dạy hái
-  (chính) kèm huán trong 还书.
+  (chính) kèm huán trong 还书. Chuyên gia đạt 18/18 không sửa —
+  lô sạch thứ hai sau B-016.
+- **Đã phát hành**: PR #105 merge tại
+  `3757aa67d0cc0ab71b1c5a182e2b0bb2974c4539`, GitHub Pages run #375
+  (id 42977023355) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 边 chỉ
+  hiện thẻ 辶 gợi nghĩa, không có thẻ cho 臱; 长 ở chế độ phân
+  tích một phần với thẻ 一 trung tính và đủ hai cách đọc
+  zhǎng/cháng đúng phạm vi; 身 hiện ghi chú khối duy nhất,
+  không cây thành phần.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
