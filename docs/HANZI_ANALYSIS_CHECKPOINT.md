@@ -744,6 +744,13 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   dưới), không phải “trên-phải”; 跳 — hedge zhào/tiào sai ở âm
   đệm: tiào có vần iao (thêm âm đệm i), zhào là ao, không được
   viết “chỉ khác âm đầu”.
+- **Đã phát hành**: PR #103 merge tại
+  `f95d5227e22e3920d5bd5ecf88b30632450a4056`, GitHub Pages run #373
+  (id 42974601634) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 自 ở chế
+  độ phân tích một phần với thẻ 目 trung tính và chú giải vẽ cái
+  mũi; 蛋 chỉ hiện thẻ 虫 gợi nghĩa, không có thẻ cho 延; 行 hiện
+  đủ hai cách đọc xíng/háng đúng phạm vi đã soạn.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
