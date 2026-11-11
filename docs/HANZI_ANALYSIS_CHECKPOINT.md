@@ -720,6 +720,13 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   Chuyên gia sửa 1 chi tiết nhẹ trước phát hành: 睛 — giải thích
   ban đầu gọi 眼 là “chữ cuối lô trước” nhưng 眼 là chữ thứ 16/18
   của B-017 (chữ cuối lô là 着), đã sửa thành “đã học ở lô trước”.
+- **Đã phát hành**: PR #101 merge tại
+  `593a430c4e80727277c4dfe26eeecb50dba6a2c1`, GitHub Pages run #371
+  (id 42972147529) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 经 ở chế
+  độ phân tích một phần với hai thẻ 纟 “PHẦN GỢI NGHĨA” và 工
+  “PHẦN GỢI ÂM” đúng theo trường nguồn; 知 hiện 矢 gợi âm / 口
+  gợi nghĩa đúng trường nguồn; 睛 hiện đủ vai và từ 眼睛.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
