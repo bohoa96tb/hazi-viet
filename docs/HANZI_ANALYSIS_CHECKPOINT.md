@@ -15,11 +15,11 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **320 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-019 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **338 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-020 và đợt gỡ chặn UB-001 dưới đây).
   Hai chữ bị chặn: 面 (HSK1 index 173) và 飞 (HSK1 index 174) — phép
-  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **踢**
-  (index 144).
+  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **非**
+  (index 162).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -752,10 +752,22 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   mũi; 蛋 chỉ hiện thẻ 虫 gợi nghĩa, không có thẻ cho 延; 行 hiện
   đủ hai cách đọc xíng/háng đúng phạm vi đã soạn.
 
+## Lô B-020 — 18 chữ HSK2 tiếp theo (2026-11-11)
+
+- Chữ theo thứ tự `data/hsk2-core.json` (index 144–161): **踢 身 边
+  迎 运 近 还 进 远 送 道 错 长 门 问 间 阴 雪** (tiến độ 338/2.632).
+  Vị trí tiếp theo: 非 (index 162).
+- Điểm nội dung: Thân không phép tách (khối duy nhất); hai chữ
+  phân tích một phần — 长 (phần đã nhận diện 一; dạy zhǎng chính
+  kèm cháng), 门 (hai nét đầu 丶/丨); 边 theo tiền lệ 蛋/场 —
+  trường gợi âm của nguồn là 臱 nhưng 臱 không phải một phần
+  trong phép tách hiện tại nên chỉ ghi 辶 gợi nghĩa; 还 dạy hái
+  (chính) kèm huán trong 还书.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 踢** (index 144, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 非** (index 162, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Hai chữ treo: 面 và
   飞 (HSK1) đang ở trạng thái blocked chờ quyết định xử lý riêng, xem
   mục B-011.
