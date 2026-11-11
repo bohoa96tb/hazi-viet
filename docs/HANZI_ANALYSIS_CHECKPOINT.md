@@ -15,11 +15,11 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **302 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-018 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **320 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-019 và đợt gỡ chặn UB-001 dưới đây).
   Hai chữ bị chặn: 面 (HSK1 index 173) và 飞 (HSK1 index 174) — phép
-  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **自**
-  (index 126).
+  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **踢**
+  (index 144).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -728,10 +728,27 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   “PHẦN GỢI ÂM” đúng theo trường nguồn; 知 hiện 矢 gợi âm / 口
   gợi nghĩa đúng trường nguồn; 睛 hiện đủ vai và từ 眼睛.
 
+## Lô B-019 — 18 chữ HSK2 tiếp theo (2026-11-11)
+
+- Chữ theo thứ tự `data/hsk2-core.json` (index 126–143): **自 舞 船
+  色 药 蛋 行 表 要 让 诉 试 课 贵 走 跑 路 跳** (tiến độ 320/2.632).
+  Vị trí tiếp theo: 踢 (index 144).
+- Điểm nội dung: 自 phân tích một phần (phần đã nhận diện 目;
+  chú giải nguồn nói tự gốc vẽ cái mũi); 蛋 theo tiền lệ 场 —
+  trường gợi âm của nguồn là 延 nhưng 延 không phải một phần
+  trong phép tách hiện tại nên chỉ ghi vai gợi nghĩa của 虫;
+  船/贵 theo khuôn trường gợi âm để trống, chỉ ghi vai gợi nghĩa;
+  诉 theo khuôn biểu ý có hint gợi âm giữ trung tính; 行 dạy
+  xíng (chính) kèm háng trong 银行. Chuyên gia sửa 2 điểm nhẹ
+  trước phát hành: 船 — cụm 几/口 nằm ở phía phải （ 几 trên, 口
+  dưới), không phải “trên-phải”; 跳 — hedge zhào/tiào sai ở âm
+  đệm: tiào có vần iao (thêm âm đệm i), zhào là ao, không được
+  viết “chỉ khác âm đầu”.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 自** (index 126, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 踢** (index 144, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Hai chữ treo: 面 và
   飞 (HSK1) đang ở trạng thái blocked chờ quyết định xử lý riêng, xem
   mục B-011.
