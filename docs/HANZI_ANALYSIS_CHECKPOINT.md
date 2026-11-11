@@ -690,6 +690,21 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   hedge nhẹ trước phát hành: 洗 — vần ian của xiān và i của xǐ
   khác nhau cả nguyên âm chính a lẫn âm cuối -n, không chỉ âm
   cuối (bỏ -n khỏi xiān được xiā, không phải xǐ).
+- **Đã phát hành**: PR #99 merge tại
+  `002ca4ff99e945442b139d7857e33b2804e7bdd9`, GitHub Pages run #369
+  (id 42969669147) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 牛 hiện
+  ghi chú khối duy nhất, không cây thành phần; 着 hiện đủ zhe
+  (kèm 门开着/他穿着一件外套) và zháo trong giải thích; 每 ở chế
+  độ phân tích một phần — một điểm cần ghi rõ: thẻ 母 hiện nhãn
+  "PHẦN GỢI ÂM" (không phải trung tính) vì renderer lấy nhãn từ
+  hàm suy vai trò theo trường etymology của lõi (trường gợi âm
+  của 每 đúng là 母) — đây là hành vi đúng theo dữ liệu nguồn và
+  khớp giải thích của profile, không phải lỗi; các chữ partial
+  trước đây hiện trung tính chỉ vì phần đã nhận diện không ứng
+  với trường gợi âm/nghĩa nào của nguồn. Từ nay khi giao kiểm
+  live chữ partial, phải đối chiếu trường etymology trước khi kỳ
+  vọng nhãn thẻ.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
