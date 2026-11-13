@@ -825,6 +825,13 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   “thay bằng 在” (chỉ đúng cho nghĩa nơi chốn; 关于/由于/对于
   là cụm cố định), và 伞 bỏ chi tiết “che người” không có
   trong chú giải nguồn.
+- **Đã phát hành**: PR #109 merge tại
+  `9d69faf54e373495dda43301d653cf195314def1`, GitHub Pages run #379
+  (id 43386072888) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 使 hiện
+  âm chính SỬ kèm âm phụ SỨ trong giải thích; 低 chỉ 氐 gợi âm,
+  亻 trung tính, meta ĐÊ/7 nét; 万 ở chế độ phân tích một phần
+  với thẻ 一 trung tính.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
