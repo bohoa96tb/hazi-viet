@@ -610,6 +610,30 @@
    "mergeCommit": "62bd25777eaf90a03aa7530670282538a09427a0",
    "pagesRun": 381,
    "pr": 111
+  },
+  {
+   "chars": [
+    "单",
+    "南",
+    "历",
+    "厨",
+    "参",
+    "又",
+    "双",
+    "发",
+    "叔",
+    "变",
+    "口",
+    "句",
+    "只",
+    "史",
+    "周",
+    "响",
+    "哭",
+    "啊"
+   ],
+   "id": "B-024",
+   "pr": null
   }
  ],
  "blocked": [
@@ -1011,7 +1035,25 @@
   "努",
   "包",
   "化",
-  "半"
+  "半",
+  "单",
+  "南",
+  "历",
+  "厨",
+  "参",
+  "又",
+  "双",
+  "发",
+  "叔",
+  "变",
+  "口",
+  "句",
+  "只",
+  "史",
+  "周",
+  "响",
+  "哭",
+  "啊"
  ],
  "dataGaps": [
   {
@@ -1125,13 +1167,20 @@
    "contentStatus": "Đã hoàn thiện: strokeCount=8 (Unihan kTotalStrokes), Hán–Việt SỬ chính (từ điển Hán–Việt chuẩn; Unihan kVietnamese chỉ ghi SỨ — âm của nghĩa người đi sứ, đã ghi vào giải thích profile); chuyên gia rà theo quy trình lô B-022.",
    "status": "resolved",
    "uiStatus": "Đã bật renderer 2026-11-13 (lô B-022) sau khi bổ sung hai trường thiếu."
+  },
+  {
+   "cause": "Thiếu dữ liệu nguồn: dữ liệu lõi không có strokeCount; lớp Kai không có learningVi/âm Hán–Việt cho chữ này.",
+   "char": "厨",
+   "contentStatus": "Đã hoàn thiện: strokeCount=12 (Unihan kTotalStrokes), Hán–Việt TRÙ (từ điển Hán–Việt chuẩn Thiều Chửu; Unihan không có kVietnamese cho U+53A8); chuyên gia rà theo quy trình lô B-024.",
+   "status": "resolved",
+   "uiStatus": "Đã bật renderer 2026-11-13 (lô B-024) sau khi bổ sung hai trường thiếu."
   }
  ],
  "next": {
-  "char": "单",
-  "index": 36,
+  "char": "啤",
+  "index": 54,
   "level": 3,
-  "note": "Tiếp theo trong data/hsk3-core.json sau lô B-023 (đã đối chiếu trực tiếp index 36). HSK1 còn 2 chữ blocked: 面/飞; HSK2 có 1 chữ blocked: 非."
+  "note": "Tiếp theo trong data/hsk3-core.json sau lô B-024 (đã đối chiếu trực tiếp index 54). HSK1 còn 2 chữ blocked: 面/飞; HSK2 có 1 chữ blocked: 非."
  },
  "pattern": {
   "approvedBy": "Chủ dự án",
@@ -1273,6 +1322,29 @@
      "reason": "Lớp Kai của 使 trong dữ liệu lõi không có learningVi; dữ liệu dự án (radicals-vi, etymology-vi, complete-original) đều không có âm Hán–Việt cho chữ này.",
      "source": "Từ điển Hán–Việt — Thiều Chửu: 使 có hai âm theo nghĩa — SỬ (động từ: sai khiến, khiến, dùng) và SỨ (danh từ: người đi sứ)",
      "value": "Sử"
+    }
+   ]
+  },
+  {
+   "char": "厨",
+   "fields": [
+    {
+     "accessed": "2026-11-13",
+     "corroboration": "Make Me a Hanzi matches của chữ có đúng 12 mục nét — cùng một dòng dữ liệu nét, chỉ là kiểm tra nhất quán, không phải nguồn độc lập.",
+     "field": "strokeCount",
+     "license": "Unicode, Inc. — Unicode License Agreement",
+     "reason": "Dữ liệu lõi thiếu strokeCount và learningVi cho 厨 (HSK3).",
+     "source": "Unihan U+53A8, kTotalStrokes",
+     "value": 12
+    },
+    {
+     "accessed": "2026-11-13",
+     "corroboration": "Unihan U+53A8 KHÔNG có trường kVietnamese (vắng, không mâu thuẫn) — cùng tình huống với 卖 ở UB B-013, khi âm Hán–Việt lấy từ nguồn Hán–Việt thay vì Unihan.",
+     "field": "learningVi.sinoViet",
+     "license": "Tra cứu tham khảo từ điển Hán–Việt",
+     "reason": "Lớp Kai của 厨 trong dữ liệu lõi không có learningVi; dữ liệu dự án (radicals-vi, etymology-vi, words) đều không có âm Hán–Việt cho chữ này.",
+     "source": "Từ điển Hán–Việt — Thiều Chửu (Hán Việt tự điển): 厨 đọc TRÙ",
+     "value": "Trù"
     }
    ]
   }
