@@ -791,6 +791,13 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   gặp qua 蛋 (B-019) nhưng 鸡肉 chưa từng xuất hiện ở lô nào
   trước (profile 肉 chỉ dùng 牛肉/羊肉/吃肉) — đã sửa câu “cả hai
   đã gặp” thành hai vế riêng chính xác.
+- **Đã phát hành**: PR #107 merge tại
+  `d9bd68ed5e0fdf515699edacde704729ef8ca4e7`, GitHub Pages run #377
+  (id 43383669343) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 黑 ở chế
+  độ phân tích một phần với thẻ 灬 trung tính; 题 hiện đủ hai
+  vai theo trường nguồn; 非 vẫn ở giao diện cũ với dấu “···”
+  trung tính như kỳ vọng cho chữ bị chặn.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
