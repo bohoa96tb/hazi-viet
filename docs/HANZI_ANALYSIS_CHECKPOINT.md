@@ -846,6 +846,12 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   刷 trước phát hành: câu quy thuộc nguồn thêm chi tiết “vật
   cọ 刂” mà hint gốc không có (cùng loại lỗi với 伞 ở B-022)
   — đã bỏ.
+- **Đã phát hành**: PR #111 merge tại
+  `62bd25777eaf90a03aa7530670282538a09427a0`, GitHub Pages run #381
+  (id 43388165071) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 力 ở chế
+  độ phân tích một phần với thẻ 丿 trung tính; 冒 chỉ có thẻ gợi
+  nghĩa, không thẻ gợi âm; 刚 hiện đủ hai vai theo trường nguồn.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
