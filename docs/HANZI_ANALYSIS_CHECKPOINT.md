@@ -15,11 +15,12 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **338 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-020 và đợt gỡ chặn UB-001 dưới đây).
-  Hai chữ bị chặn: 面 (HSK1 index 173) và 飞 (HSK1 index 174) — phép
-  tách toàn lá "？", xem mục B-011. Vị trí tiếp theo: HSK2, chữ **非**
-  (index 162).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **343 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-021 và đợt gỡ chặn UB-001 dưới đây).
+  Ba chữ bị chặn: 面 (HSK1 index 173), 飞 (HSK1 index 174) và 非
+  (HSK2 index 162) — phép tách toàn lá "？", xem mục B-011 và B-021.
+  HSK1 đạt 176/178, HSK2 đạt 167/168. Vị trí tiếp theo: HSK3, chữ
+  **万** (index 0).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -773,13 +774,31 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   zhǎng/cháng đúng phạm vi; 身 hiện ghi chú khối duy nhất,
   không cây thành phần.
 
+## Lô B-021 — cuối HSK2 (2026-11-13)
+
+- File `data/hsk2-core.json` chỉ có 168 chữ, nên lô này có 5 chữ
+  chuẩn hóa (index 163–167): **题 颜 鱼 鸡 黑** (tiến độ
+  343/2.632). **HSK2 đã đi hết: 167/168 chữ chuẩn hóa.**
+- **非 (index 162) bị chặn** — cùng lớp với 面/飞: phép tách
+  ⿰？？ toàn lá chưa biết, không có phần nào nhận diện được,
+  không có trong `data/hanzi-partials.json`. Đã ghi vào `blocked`
+  (nay 3 chữ: 面, 飞, 非) và `dataGaps` kèm lý do; chờ cùng quyết
+  định xử lý riêng về renderer. 黑 phân tích một phần (phần đã
+  nhận diện 灬 ở dưới).
+- Vị trí tiếp theo: **万 — chữ đầu HSK3** (`data/hsk3-core.json`
+  index 0, 272 chữ). Chuyên gia xác nhận quyết định chặn 非 là
+  đúng chuẩn; sửa 1 khẳng định nhẹ ở 鸡 trước phát hành: 鸡蛋 đã
+  gặp qua 蛋 (B-019) nhưng 鸡肉 chưa từng xuất hiện ở lô nào
+  trước (profile 肉 chỉ dùng 牛肉/羊肉/吃肉) — đã sửa câu “cả hai
+  đã gặp” thành hai vế riêng chính xác.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK2 · 非** (index 162, vị
-  trí `next` trong file tiến độ), giữ thứ tự file. Hai chữ treo: 面 và
-  飞 (HSK1) đang ở trạng thái blocked chờ quyết định xử lý riêng, xem
-  mục B-011.
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK3 · 万** (index 0, vị
+  trí `next` trong file tiến độ), giữ thứ tự file. Ba chữ treo: 面,
+  飞 (HSK1) và 非 (HSK2) đang ở trạng thái blocked chờ quyết định
+  xử lý riêng, xem mục B-011 và B-021.
 - Mỗi lô: đối chiếu từng chữ → biên soạn → kiểm thử → PR → merge (đã
   được chủ dự án cho phép trong phạm vi đợt chuẩn hóa) → xác minh Pages
   đúng SHA → kiểm live → cập nhật checkpoint + file tiến độ → dừng.

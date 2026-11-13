@@ -545,6 +545,17 @@
    "mergeCommit": "3757aa67d0cc0ab71b1c5a182e2b0bb2974c4539",
    "pagesRun": 375,
    "pr": 105
+  },
+  {
+   "chars": [
+    "题",
+    "颜",
+    "鱼",
+    "鸡",
+    "黑"
+   ],
+   "id": "B-021",
+   "pr": null
   }
  ],
  "blocked": [
@@ -559,6 +570,12 @@
    "index": 174,
    "level": 1,
    "reason": "Phép tách IDS của dữ liệu lõi là ⿻？？ — cả hai phần chồng nhau đều là lá chưa biết, không có phần nào nhận diện được; cùng tình trạng với 面. Chữ là dạng giản thể của 飛, có chú giải hình tượng (chim vỗ cánh) nhưng chưa có đường hiển thị hợp lệ; xử lý cùng quyết định với 面."
+  },
+  {
+   "char": "非",
+   "index": 162,
+   "level": 2,
+   "reason": "Phép tách IDS của dữ liệu lõi là ⿰？？ — cả hai phần đều là lá chưa biết, không có phần nào nhận diện được; cổng kiểm thử của dự án yêu cầu chữ phân tích một phần phải có ít nhất một phần đã nhận diện. Chữ có chú giải biểu ý của nguồn (hai cánh chim đối nhau, hai người quay lưng) nhưng chưa có đường hiển thị hợp lệ; chờ quyết định xử lý riêng như 面/飞 (đợt sửa renderer ngoài phạm vi lô nội dung). Ghi nhận ở lô B-021 (2026-11-13), là chữ HSK2 duy nhất bị chặn."
   }
  ],
  "completed": [
@@ -899,7 +916,12 @@
   "问",
   "间",
   "阴",
-  "雪"
+  "雪",
+  "题",
+  "颜",
+  "鱼",
+  "鸡",
+  "黑"
  ],
  "dataGaps": [
   {
@@ -985,13 +1007,20 @@
    "contentStatus": "Chưa chuẩn hóa: có chú giải hình tượng của nguồn nhưng chưa có đường hiển thị hợp lệ; cổng kiểm thử yêu cầu chữ một phần phải có ít nhất một phần đã nhận diện.",
    "status": "blocked",
    "uiStatus": "Chưa bật renderer mới; học viên vẫn thấy giao diện cũ. Chờ quyết định xử lý riêng (đề xuất: hiển thị không tách phần như chữ đơn thể — cần sửa renderer/cổng, thuộc đợt riêng)."
+  },
+  {
+   "cause": "Phép tách IDS của dữ liệu lõi là ⿰？？ — mọi lá đều là cụm nét hợp nhất chưa biết; matches gốc không gán nét nào cho lá nào, nên không có phần nào nhận diện được (khác 62 chữ partial có ít nhất một phần đã nhận diện).",
+   "char": "非",
+   "contentStatus": "Chưa chuẩn hóa: có chú giải biểu ý của nguồn nhưng chưa có đường hiển thị hợp lệ; cổng kiểm thử yêu cầu chữ một phần phải có ít nhất một phần đã nhận diện.",
+   "status": "blocked",
+   "uiStatus": "Chưa bật renderer mới; học viên vẫn thấy giao diện cũ. Chờ quyết định xử lý riêng như 面/飞 (đề xuất: hiển thị không tách phần như chữ đơn thể — cần sửa renderer/cổng, thuộc đợt riêng). Ghi nhận ở lô B-021."
   }
  ],
  "next": {
-  "char": "非",
-  "index": 162,
-  "level": 2,
-  "note": "Tiếp theo trong data/hsk2-core.json sau 雪 (index 161). HSK1 còn 2 chữ blocked: 面/飞."
+  "char": "万",
+  "index": 0,
+  "level": 3,
+  "note": "HSK2 đã đi hết file lõi (168 chữ: 167 chuẩn hóa + 非 blocked). Tiếp theo là chữ đầu data/hsk3-core.json. HSK1 còn 2 chữ blocked: 面/飞; HSK2 có 1 chữ blocked: 非."
  },
  "pattern": {
   "approvedBy": "Chủ dự án",
