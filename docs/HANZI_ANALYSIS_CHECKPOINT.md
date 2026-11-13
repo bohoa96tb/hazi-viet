@@ -15,12 +15,12 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **361 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-022 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **379 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-023 và đợt gỡ chặn UB-001 dưới đây).
   Ba chữ bị chặn: 面 (HSK1 index 173), 飞 (HSK1 index 174) và 非
   (HSK2 index 162) — phép tách toàn lá "？", xem mục B-011 và B-021.
   HSK1 đạt 176/178, HSK2 đạt 167/168. Vị trí tiếp theo: HSK3, chữ
-  **其** (index 18).
+  **单** (index 36).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -833,10 +833,24 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   亻 trung tính, meta ĐÊ/7 nét; 万 ở chế độ phân tích một phần
   với thẻ 一 trung tính.
 
+## Lô B-023 — HSK3 tiếp (2026-11-13)
+
+- 18 chữ HSK3 index 18–35: **其 典 冒 冬 冰 决 净 刚 刮 刷 刻
+  力 办 加 努 包 化 半** (tiến độ 379/2.632). 力 phân tích một
+  phần (phần đã nhận diện 丿). 冒 theo tiền lệ 举/场: trường gợi
+  âm của nguồn là 冃 — không phải thành phần trong phép tách
+  hiện tại — nên chỉ gán 目 gợi nghĩa. 包: nguồn xếp biểu ý,
+  hint ghi 勹 cũng cho âm (trùng hẳn bāo) → vai trung tính.
+- Vị trí tiếp theo: **单 (HSK3 index 36)** — đã đối chiếu trực
+  tiếp trong file lõi khi soạn lô. Chuyên gia sửa 1 điểm nhẹ ở
+  刷 trước phát hành: câu quy thuộc nguồn thêm chi tiết “vật
+  cọ 刂” mà hint gốc không có (cùng loại lỗi với 伞 ở B-022)
+  — đã bỏ.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK3 · 其** (index 18, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK3 · 单** (index 36, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Ba chữ treo: 面,
   飞 (HSK1) và 非 (HSK2) đang ở trạng thái blocked chờ quyết định
   xử lý riêng, xem mục B-011 và B-021.
