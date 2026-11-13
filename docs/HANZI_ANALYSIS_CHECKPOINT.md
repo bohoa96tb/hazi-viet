@@ -873,6 +873,13 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   bộ thủ của 参 đổi “厶 — TƯ” thành “厶 — KHƯ” cho khớp
   `radicals-vi` (tiền lệ PHIỆT chỉ áp dụng khi radicals-vi
   không có tên bộ).
+- **Đã phát hành**: PR #113 merge tại
+  `0fbf0a9aebe637908f11147f1c64d0b08167c8e8`, GitHub Pages run #383
+  (id 43390635090) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): 厨 hiện
+  TRÙ/12 nét với đủ hai vai; 只 trung tính và giải thích ghi cả
+  hai cách đọc zhī/zhǐ; 单 ở chế độ phân tích một phần với thẻ
+  丷 trung tính.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
