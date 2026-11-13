@@ -15,12 +15,12 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **343 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-021 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **361 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-022 và đợt gỡ chặn UB-001 dưới đây).
   Ba chữ bị chặn: 面 (HSK1 index 173), 飞 (HSK1 index 174) và 非
   (HSK2 index 162) — phép tách toàn lá "？", xem mục B-011 và B-021.
   HSK1 đạt 176/178, HSK2 đạt 167/168. Vị trí tiếp theo: HSK3, chữ
-  **万** (index 0).
+  **其** (index 18).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -799,10 +799,37 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   vai theo trường nguồn; 非 vẫn ở giao diện cũ với dấu “···”
   trung tính như kỳ vọng cho chữ bị chặn.
 
+## Lô B-022 — đầu HSK3 (2026-11-13)
+
+- 18 chữ HSK3 index 0–17: **万 且 世 业 主 举 久 乎 于 云 伞
+  位 低 使 信 借 健 像** (tiến độ 361/2.632). Năm chữ phân tích
+  một phần: 万（一）, 世（廿）, 业（一）, 久（勹）, 乎（丿, 丷),
+  伞（人）— sáu chữ kể cả 伞. 举: trường gợi âm của nguồn là
+  舉 (chính dạng phồn thể, không phải thành phần) nên chỉ gán
+  扌 gợi nghĩa như tiền lệ 场. 健: nguồn xếp biểu ý nhưng hint
+  ghi 建 cũng cho âm → vai trung tính.
+- **Bổ sung dữ liệu UB cho 3 chữ 云/低/使**: dữ liệu lõi thiếu
+  cả strokeCount lẫn learningVi. Đã vá vào `data/hsk3-core.json`
+  theo quyền bổ sung của chủ dự án và ghi sổ `supplements`
+  (nay 5 mục): số nét theo Unihan kTotalStrokes — 云 4, 低 7,
+  使 8. Âm Hán–Việt: 云 VÂN (Unihan khớp); **低 là ĐÊ** theo
+  từ điển Hán–Việt chuẩn (Thiều Chửu) — Unihan kVietnamese ghi
+  “đây”, chuyên gia xác nhận đó là giá trị lệch, không dùng;
+  **使 có hai âm theo nghĩa: SỬ (động từ — nghĩa được dạy,
+  như 使用 “sử dụng”) là âm chính, SỨ (người đi sứ — 大使,
+  使者) ghi trong giải thích** — Unihan chỉ liệt kê “sứ” nên
+  bản đầu lấy nhầm SỨ làm âm chính, chuyên gia bắt và đã sửa.
+- QA bắt lỗi con trỏ `next` ghi 值 trong khi index 18 của file
+  HSK3 là **其** (值 không có trong file) — đã sửa trước phát
+  hành. Chuyên gia sửa thêm 2 diễn đạt: 于 thu hẹp khẳng định
+  “thay bằng 在” (chỉ đúng cho nghĩa nơi chốn; 关于/由于/对于
+  là cụm cố định), và 伞 bỏ chi tiết “che người” không có
+  trong chú giải nguồn.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK3 · 万** (index 0, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK3 · 其** (index 18, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Ba chữ treo: 面,
   飞 (HSK1) và 非 (HSK2) đang ở trạng thái blocked chờ quyết định
   xử lý riêng, xem mục B-011 và B-021.
