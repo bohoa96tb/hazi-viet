@@ -15,12 +15,12 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **379 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-023 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **397 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-024 và đợt gỡ chặn UB-001 dưới đây).
   Ba chữ bị chặn: 面 (HSK1 index 173), 飞 (HSK1 index 174) và 非
   (HSK2 index 162) — phép tách toàn lá "？", xem mục B-011 và B-021.
   HSK1 đạt 176/178, HSK2 đạt 167/168. Vị trí tiếp theo: HSK3, chữ
-  **单** (index 36).
+  **啤** (index 54).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -853,10 +853,31 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   độ phân tích một phần với thẻ 丿 trung tính; 冒 chỉ có thẻ gợi
   nghĩa, không thẻ gợi âm; 刚 hiện đủ hai vai theo trường nguồn.
 
+## Lô B-024 — HSK3 tiếp (2026-11-13)
+
+- 18 chữ HSK3 index 36–53: **单 南 历 厨 参 又 双 发 叔 变 口
+  句 只 史 周 响 哭 啊** (tiến độ 397/2.632). Hai chữ phân tích
+  một phần: 单（丷）, 发（又）. 历 theo tiền lệ 低: nguồn chỉ có
+  trường gợi âm 力 (trùng hẳn lì) còn trường gợi nghĩa 厤
+  không phải thành phần → chỉ gán gợi âm. 发 dạy hai cách đọc
+  fā/fà（头发）, 只 dạy cả zhī (lượng từ) và zhǐ (chỉ có), 参
+  ghi thêm shēn trong 人参.
+- **Bổ sung dữ liệu cho 厨**: lõi thiếu strokeCount + learningVi.
+  Số nét 12 theo Unihan U+53A8 kTotalStrokes; Unihan không có
+  kVietnamese cho chữ này nên Hán–Việt **TRÙ** lấy theo từ
+  điển Hán–Việt chuẩn (Thiều Chửu) như tiền lệ 卖/低, ghi sổ
+  `supplements` (nay 6 mục).
+- Vị trí tiếp theo: **啤 (HSK3 index 54)** — đã đối chiếu trực
+  tiếp trong file lõi khi soạn lô. Chuyên gia xác nhận TRÙ là
+  âm Hán–Việt đúng của 厨; sửa 1 nhãn nhẹ trước phát hành:
+  bộ thủ của 参 đổi “厶 — TƯ” thành “厶 — KHƯ” cho khớp
+  `radicals-vi` (tiền lệ PHIỆT chỉ áp dụng khi radicals-vi
+  không có tên bộ).
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK3 · 单** (index 36, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK3 · 啤** (index 54, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Ba chữ treo: 面,
   飞 (HSK1) và 非 (HSK2) đang ở trạng thái blocked chờ quyết định
   xử lý riêng, xem mục B-011 và B-021.
