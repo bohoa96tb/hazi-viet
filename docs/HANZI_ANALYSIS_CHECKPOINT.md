@@ -15,12 +15,12 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
 - **Đợt chuẩn hóa toàn thư viện Hán tự đang hiệu lực** theo chỉ thị của
   chủ dự án ngày 2026-11-05: quy chuẩn ở
   `docs/HANZI_ANALYSIS_STANDARD.md`, tiến độ có cấu trúc ở
-  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **397 / 2.632** chữ
-  (gồm mẫu 想, các lô B-001 đến B-024 và đợt gỡ chặn UB-001 dưới đây).
+  `docs/hanzi-analysis-progress.json`. Đã chuẩn hóa **415 / 2.632** chữ
+  (gồm mẫu 想, các lô B-001 đến B-025 và đợt gỡ chặn UB-001 dưới đây).
   Ba chữ bị chặn: 面 (HSK1 index 173), 飞 (HSK1 index 174) và 非
   (HSK2 index 162) — phép tách toàn lá "？", xem mục B-011 và B-021.
   HSK1 đạt 176/178, HSK2 đạt 167/168. Vị trí tiếp theo: HSK3, chữ
-  **啤** (index 54).
+  **实** (index 72).
 - **Đã phát hành (B-011)**: PR #86 merge tại
   `5021f94b4a4b6dbe517bd43e64cce97f0809fac2`, GitHub Pages run #356
   (id 42608938456) đúng SHA merge, success. Kiểm chứng trực tiếp trên
@@ -881,10 +881,23 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   hai cách đọc zhī/zhǐ; 单 ở chế độ phân tích một phần với thẻ
   丷 trung tính.
 
+## Lô B-025 — HSK3 tiếp (2026-11-13)
+
+- 18 chữ HSK3 index 54–71: **啤 园 图 地 坏 城 境 声 复 夏 头
+  奇 如 姨 婚 季 安 定** (tiến độ 415/2.632). 声 phân tích một
+  phần (phần đã nhận diện 士). Địa dạy cả hai cách dùng cốt
+  lõi: dì (đất — 地方） và de thanh nhẹ (trợ từ — 慢慢地）.
+  Đầu: nguồn chỉ có trường gợi nghĩa 大 → chỉ gán gợi nghĩa,
+  kèm ghi chú hậu tố tou.
+- Vị trí tiếp theo: **实 (HSK3 index 72)** — đã đối chiếu trực
+  tiếp trong file lõi khi soạn lô. Lô đạt rà chuyên gia 18/18
+  không sửa (lô sạch thứ ba) — nhãn “夊 — TUY” được xác nhận
+  là tên Hán–Việt đúng của bộ theo tiền lệ PHIỆT.
+
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
 - Đọc quy chuẩn + checkpoint này + `docs/hanzi-analysis-progress.json`,
-  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK3 · 啤** (index 54, vị
+  kiểm HEAD của `main`. Vị trí tiếp theo: **HSK3 · 实** (index 72, vị
   trí `next` trong file tiến độ), giữ thứ tự file. Ba chữ treo: 面,
   飞 (HSK1) và 非 (HSK2) đang ở trạng thái blocked chờ quyết định
   xử lý riêng, xem mục B-011 và B-021.
