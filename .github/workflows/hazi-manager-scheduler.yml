@@ -1,0 +1,32 @@
+name: HAZI-VIET | Scheduler and progress
+
+on:
+  schedule:
+    # GitHub Actions cron is UTC: 00:00 UTC = 09:00 in Japan.
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+  issues: write
+
+concurrency:
+  group: hazi-viet-manager-scheduler
+  cancel-in-progress: false
+
+jobs:
+  checkpoint-and-queue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out canonical main
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify script syntax
+        run: node --check tools/automation/hazi-scheduler.mjs
+      - name: Update progress dashboard and queue only when safe
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/automation/hazi-scheduler.mjs
