@@ -893,6 +893,13 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   tiếp trong file lõi khi soạn lô. Lô đạt rà chuyên gia 18/18
   không sửa (lô sạch thứ ba) — nhãn “夊 — TUY” được xác nhận
   là tên Hán–Việt đúng của bộ theo tiền lệ PHIỆT.
+- **Đã phát hành**: PR #115 merge tại
+  `697b37ac24bfeb7d6c42063c8b069e4302735336`, GitHub Pages run #385
+  (id 43393649322) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): Địa hiện
+  đủ hai vai và cả hai cách đọc dì/de; Đầu chỉ có thẻ gợi nghĩa
+  kèm ghi chú hậu tố tou; Thanh ở chế độ phân tích một phần với
+  thẻ Sĩ trung tính.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
