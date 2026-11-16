@@ -917,6 +917,13 @@ Tiến độ này tách khỏi tiến độ từ vựng (`progress.json`) và ti
   phát hành: ghi chú phân biệt Kỷ/Dĩ nói ngược phía khép —
   Kỷ là phía hở, Dĩ khép một nửa; đã sửa theo đúng tiêu chí
   nét sổ của profile Dĩ ở B-015 cho hai bài nhất quán.
+- **Đã phát hành**: PR #118 merge tại
+  `ee5bcfff21b294e208a4a9d3eb92234c958a27bd`, GitHub Pages run #388
+  (id 43800738291) đúng SHA merge, success. Kiểm chứng trực tiếp
+  trên live (sau khi chờ cache Pages hết hạn ~11 phút): Kỷ ở chế
+  độ phân tích một phần với thẻ Ngoặt trung tính và ghi chú phân
+  biệt Kỷ/Dĩ đã sửa đúng; Dung chỉ có thẻ gợi nghĩa; Tâm học như
+  khối duy nhất không cây thành phần.
 
 ## Việc tiếp theo khi người dùng nhắn "Tiếp tục"
 
